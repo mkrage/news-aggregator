@@ -5,6 +5,8 @@ let allArticles = [];
 let topArticles = [];
 let aiSummary = null;
 let currentTab = "top";
+let viewMode = "grid"; // 'grid' oder 'list'
+const PREVIEW_LENGTH = 280;
 
 // Service Worker registrieren
 if ("serviceWorker" in navigator) {
@@ -42,26 +44,30 @@ function markAsUnread(id) {
   render();
 }
 
-// Artikel als "überscrollt" merken, wenn er lange genug im Viewport war
+// Artikel als "überscrollt" merken, wenn er den Viewport nach oben verlässt
 function observeScrolled(element, id) {
   if (!("IntersectionObserver" in window)) return;
+
+  let hasBeenVisible = false;
 
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          setTimeout(() => {
-            if (entry.isIntersecting) {
-              const scrolled = getScrolledIds();
-              scrolled.add(id);
-              localStorage.setItem(SCROLLED_KEY, JSON.stringify([...scrolled]));
-              render();
-            }
-          }, 2000);
+          hasBeenVisible = true;
+        } else if (hasBeenVisible && entry.boundingClientRect.top < 0) {
+          // Artikel wurde gesehen und ist jetzt über dem sichtbaren Bereich
+          const scrolled = getScrolledIds();
+          if (!scrolled.has(id)) {
+            scrolled.add(id);
+            localStorage.setItem(SCROLLED_KEY, JSON.stringify([...scrolled]));
+            render();
+          }
+          observer.unobserve(element);
         }
       });
     },
-    { threshold: 0.5 }
+    { threshold: 0.1 }
   );
 
   observer.observe(element);
@@ -201,17 +207,29 @@ function render() {
   }
 
   list.innerHTML = "";
-  list.className = `news-list ${currentTab === "top" ? "top-view" : ""}`;
+  const isGrid = viewMode === "grid";
+  list.className = `news-list ${isGrid ? "top-view" : "list-view"}`;
 
   articles.forEach((article) => {
     const isRead = readIds.has(article.id) || scrolledIds.has(article.id);
     const item = document.createElement("article");
-    item.className = `news-item ${isRead ? "read" : ""}`;
+    item.className = `news-item ${isGrid ? "grid-item" : "list-item"} ${isRead ? "read" : ""}`;
     item.dataset.id = article.id;
 
     const imageHtml = article.image
       ? `<img class="news-image" src="${escapeHtml(article.image)}" alt="" loading="lazy">`
       : `<div class="news-image-placeholder">📰</div>`;
+
+    const summary = article.summary || "";
+    const isLong = summary.length > PREVIEW_LENGTH;
+    const previewText = isLong ? summary.slice(0, PREVIEW_LENGTH).trim() + "…" : summary;
+    const summaryHtml = isLong
+      ? `<p class="news-summary">
+           <span class="summary-preview">${escapeHtml(previewText)}</span>
+           <span class="summary-full hidden">${escapeHtml(summary)}</span>
+           <button class="toggle-summary" data-expanded="false">Mehr anzeigen</button>
+         </p>`
+      : `<p class="news-summary">${escapeHtml(summary)}</p>`;
 
     item.innerHTML = `
       ${imageHtml}
@@ -229,7 +247,7 @@ function render() {
             article.id
           }">${escapeHtml(article.title)}</a>
         </h2>
-        <p class="news-summary">${escapeHtml(article.summary)}</p>
+        ${summaryHtml}
         <div class="news-actions">
           <button class="toggle-read" data-id="${article.id}">
             ${isRead ? "Als ungelesen markieren" : "Als gelesen markieren"}
@@ -251,6 +269,20 @@ function render() {
         markAsRead(article.id);
       }
     });
+
+    // Zusammenfassung auf-/zuklappen
+    const toggleSummaryBtn = item.querySelector(".toggle-summary");
+    if (toggleSummaryBtn) {
+      toggleSummaryBtn.addEventListener("click", () => {
+        const preview = item.querySelector(".summary-preview");
+        const full = item.querySelector(".summary-full");
+        const expanded = toggleSummaryBtn.dataset.expanded === "true";
+        toggleSummaryBtn.dataset.expanded = !expanded;
+        preview.classList.toggle("hidden", !expanded);
+        full.classList.toggle("hidden", expanded);
+        toggleSummaryBtn.textContent = expanded ? "Mehr anzeigen" : "Weniger anzeigen";
+      });
+    }
 
     // Überscrollen beobachten
     observeScrolled(item, article.id);
@@ -278,6 +310,15 @@ function init() {
 
   ["search", "source-filter", "category-filter", "hide-read"].forEach((id) => {
     document.getElementById(id).addEventListener("input", render);
+  });
+
+  document.querySelectorAll(".view-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".view-btn").forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+      viewMode = btn.dataset.view;
+      render();
+    });
   });
 
   loadData();

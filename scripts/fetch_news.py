@@ -131,13 +131,43 @@ def fetch_og_image(url):
     return None
 
 
-def clean_html(text):
-    """Entfernt HTML-Tags und kürzt den Text."""
+def clean_html(text, max_length=1200):
+    """Entfernt HTML-Tags und kürzt den Text auf sinnvolle Länge."""
     if not text:
         return ""
     text = re.sub(r"<[^>]+>", " ", text)
     text = re.sub(r"\s+", " ", text).strip()
-    return text[:300] + "…" if len(text) > 300 else text
+    if len(text) > max_length:
+        # Kürze am letzten Satzende vor max_length
+        cutoff = text.rfind(".", 0, max_length)
+        if cutoff > max_length * 0.7:
+            text = text[: cutoff + 1]
+        else:
+            text = text[:max_length]
+        text += " …"
+    return text
+
+
+def extract_best_text(entry):
+    """Wählt den aussagekräftigsten Text aus summary oder content."""
+    candidates = []
+
+    summary = entry.get("summary", "")
+    if summary:
+        candidates.append(clean_html(summary))
+
+    content = entry.get("content", "")
+    if isinstance(content, list):
+        for part in content:
+            value = part.get("value", "")
+            if value:
+                candidates.append(clean_html(value))
+    elif isinstance(content, str):
+        candidates.append(clean_html(content))
+
+    # Wähle den längsten sauberen Text
+    candidates = [c for c in candidates if c]
+    return max(candidates, key=len) if candidates else ""
 
 
 def detect_category(title, summary, default_category):
@@ -169,7 +199,7 @@ def fetch_feed(source_name, config):
 
         title = entry.get("title", "")
         link = entry.get("link", "")
-        summary = clean_html(entry.get("summary", ""))
+        summary = extract_best_text(entry)
         category = detect_category(title, summary, config.get("category", "Allgemein"))
         image = extract_image(entry) or fetch_og_image(link)
 
