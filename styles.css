@@ -423,6 +423,10 @@ footer {
     width: 100%;
   }
 
+  .view-toggle {
+    display: none;
+  }
+
   .news-list.top-view {
     grid-template-columns: 1fr;
   }

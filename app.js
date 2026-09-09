@@ -8,6 +8,11 @@ let currentTab = "top";
 let viewMode = "grid"; // 'grid' oder 'list'
 const PREVIEW_LENGTH = 280;
 
+// Gelesene Artikel standardmäßig in Hauptansicht ausblenden
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("hide-read").checked = true;
+});
+
 // Service Worker registrieren
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("service-worker.js").catch(console.error);
@@ -165,8 +170,10 @@ function getFilteredArticles() {
 
   let articles = currentTab === "top" ? topArticles : allArticles;
 
-  if (currentTab === "unread") {
-    articles = allArticles.filter((a) => !readIds.has(a.id) && !scrolledIds.has(a.id));
+  if (currentTab === "read") {
+    // Gelesen-Tab: nur gelesene/überscrollte Artikel
+    articles = allArticles.filter((a) => readIds.has(a.id) || scrolledIds.has(a.id));
+    hideRead = false; // im Gelesen-Tab nie ausblenden
   }
 
   return articles.filter((article) => {
