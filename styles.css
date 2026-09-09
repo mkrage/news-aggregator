@@ -146,19 +146,27 @@ main {
 }
 
 .toggle {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 0.5rem;
   font-size: 0.9rem;
   color: var(--text-secondary);
   cursor: pointer;
   user-select: none;
+  white-space: nowrap;
 }
 
-.toggle input {
-  width: 1.1rem;
-  height: 1.1rem;
+.toggle input[type="checkbox"] {
+  width: 1.15rem;
+  height: 1.15rem;
+  margin: 0;
+  flex-shrink: 0;
   accent-color: var(--accent);
+  cursor: pointer;
+}
+
+.toggle span {
+  line-height: 1.2;
 }
 
 .view-toggle {

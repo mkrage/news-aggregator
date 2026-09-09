@@ -8,11 +8,6 @@ let currentTab = "top";
 let viewMode = "grid"; // 'grid' oder 'list'
 const PREVIEW_LENGTH = 280;
 
-// Gelesene Artikel standardmäßig in Hauptansicht ausblenden
-document.addEventListener("DOMContentLoaded", () => {
-  document.getElementById("hide-read").checked = true;
-});
-
 // Service Worker registrieren
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("service-worker.js").catch(console.error);
