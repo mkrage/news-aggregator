@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News Aggregator</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1a1a2e">
+</head>
+<body>
+  <header>
+    <h1>📰 News Aggregator</h1>
+    <p id="last-updated">Lade Daten …</p>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab active" data-tab="top">🔥 Top News</button>
+    <button class="tab" data-tab="latest">🕐 Neueste</button>
+    <button class="tab" data-tab="unread">👁️ Ungelesen</button>
+  </nav>
+
+  <main>
+    <section id="ai-summary" class="ai-summary hidden">
+      <h2>🤖 Zusammenfassung des Tages</h2>
+      <div id="ai-summary-content"></div>
+    </section>
+
+    <section class="controls">
+      <input type="text" id="search" placeholder="Suchen …" autocomplete="off">
+      <select id="source-filter">
+        <option value="">Alle Quellen</option>
+      </select>
+      <select id="category-filter">
+        <option value="">Alle Kategorien</option>
+      </select>
+      <label class="toggle">
+        <input type="checkbox" id="hide-read">
+        Gelesene ausblenden
+      </label>
+    </section>
+
+    <section id="news-list" class="news-list">
+      <p class="loading">News werden geladen …</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Daten von tagesschau, heise, golem, spiegel · Aktualisiert alle 2 Stunden</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
