@@ -27,20 +27,35 @@
     </section>
 
     <section class="controls">
-      <input type="text" id="search" placeholder="Suchen …" autocomplete="off">
-      <select id="source-filter">
-        <option value="">Alle Quellen</option>
-      </select>
-      <select id="category-filter">
-        <option value="">Alle Kategorien</option>
-      </select>
-      <label class="toggle">
-        <input type="checkbox" id="hide-read" checked>
-        <span>Gelesene ausblenden</span>
-      </label>
-      <div class="view-toggle">
-        <button class="view-btn active" data-view="grid" title="Kacheln">⊞</button>
-        <button class="view-btn" data-view="list" title="Liste">☰</button>
+      <div class="controls-bar">
+        <div class="search-wrapper">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="text" id="search" placeholder="Suchen …" autocomplete="off">
+        </div>
+        <button class="filter-toggle" id="filter-toggle" aria-expanded="false" aria-controls="filters-panel">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M7 12h10"/><path d="M10 18h4"/></svg>
+          <span>Filter</span>
+          <span class="filter-badge hidden" id="filter-badge">0</span>
+        </button>
+        <label class="switch" title="Gelesene Artikel ausblenden">
+          <input type="checkbox" id="hide-read" checked>
+          <span class="switch-slider"></span>
+          <span class="switch-label">Gelesene ausblenden</span>
+        </label>
+        <div class="view-toggle">
+          <button class="view-btn active" data-view="grid" title="Kacheln">⊞</button>
+          <button class="view-btn" data-view="list" title="Liste">☰</button>
+        </div>
+      </div>
+      <div class="filters-panel" id="filters-panel">
+        <div class="filters-panel-inner">
+          <select id="source-filter">
+            <option value="">Alle Quellen</option>
+          </select>
+          <select id="category-filter">
+            <option value="">Alle Kategorien</option>
+          </select>
+        </div>
       </div>
     </section>
 

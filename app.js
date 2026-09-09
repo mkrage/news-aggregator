@@ -314,6 +314,27 @@ function init() {
     document.getElementById(id).addEventListener("input", render);
   });
 
+  const filterToggle = document.getElementById("filter-toggle");
+  const filtersPanel = document.getElementById("filters-panel");
+  filterToggle.addEventListener("click", () => {
+    const open = filtersPanel.classList.toggle("open");
+    filterToggle.classList.toggle("active", open);
+    filterToggle.setAttribute("aria-expanded", String(open));
+  });
+
+  const updateFilterBadge = () => {
+    const active = ["source-filter", "category-filter"].filter(
+      (id) => document.getElementById(id).value !== ""
+    ).length;
+    const badge = document.getElementById("filter-badge");
+    badge.textContent = active;
+    badge.classList.toggle("hidden", active === 0);
+  };
+  ["source-filter", "category-filter"].forEach((id) => {
+    document.getElementById(id).addEventListener("input", updateFilterBadge);
+  });
+  updateFilterBadge();
+
   document.querySelectorAll(".view-btn").forEach((btn) => {
     btn.addEventListener("click", () => {
       document.querySelectorAll(".view-btn").forEach((b) => b.classList.remove("active"));
