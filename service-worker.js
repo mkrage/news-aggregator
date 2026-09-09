@@ -1,4 +1,4 @@
-const CACHE_NAME = "news-aggregator-v1";
+const CACHE_NAME = "news-aggregator-v2";
 const STATIC_ASSETS = [
   "/news-aggregator/",
   "/news-aggregator/index.html",
