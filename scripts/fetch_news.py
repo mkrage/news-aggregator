@@ -22,7 +22,7 @@ FEEDS = {
         "category": "Nachrichten",
     },
     "heise": {
-        "url": "https://www.heise.de/rss/heise-Rubrik-IT-6422.xml",
+        "url": "https://www.heise.de/rss/heise-top-atom.xml",
         "weight": 0.9,
         "category": "Technologie",
     },
@@ -79,17 +79,55 @@ def normalize_date(dt):
 
 def extract_image(entry):
     """Versucht ein Bild aus dem Feed-Eintrag zu extrahieren."""
+    # 1. media_content
     if "media_content" in entry:
         for media in entry.media_content:
             if media.get("type", "").startswith("image"):
                 return media.get("url")
+            if media.get("medium") == "image":
+                return media.get("url")
+
+    # 2. media_thumbnail
     if "media_thumbnail" in entry:
         return entry.media_thumbnail[0].get("url")
-    # Suche nach img-Tag in der Beschreibung
-    desc = entry.get("summary", "")
-    match = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', desc)
-    if match:
-        return match.group(1)
+
+    # 3. Suche nach img-Tag in summary und content
+    for field in ["summary", "content"]:
+        value = entry.get(field, "")
+        if isinstance(value, list):
+            value = value[0].get("value", "") if value else ""
+        match = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', value)
+        if match:
+            return match.group(1)
+
+    # 4. Suche nach og:image oder twitter:image in den Links/Description
+    for field in ["summary", "content"]:
+        value = entry.get(field, "")
+        if isinstance(value, list):
+            value = value[0].get("value", "") if value else ""
+        match = re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']', value)
+        if match:
+            return match.group(1)
+        match = re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']', value)
+        if match:
+            return match.group(1)
+
+    return None
+
+
+def fetch_og_image(url):
+    """Holt og:image von der Zielseite als Fallback."""
+    try:
+        response = requests.get(url, timeout=5, headers={"User-Agent": "Mozilla/5.0"})
+        response.raise_for_status()
+        match = re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']', response.text)
+        if match:
+            return match.group(1)
+        match = re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']', response.text)
+        if match:
+            return match.group(1)
+    except Exception:
+        pass
     return None
 
 
@@ -133,6 +171,7 @@ def fetch_feed(source_name, config):
         link = entry.get("link", "")
         summary = clean_html(entry.get("summary", ""))
         category = detect_category(title, summary, config.get("category", "Allgemein"))
+        image = extract_image(entry) or fetch_og_image(link)
 
         articles.append({
             "id": re.sub(r"\W+", "-", f"{source_name}-{title}").lower().strip("-")[:80],
@@ -141,7 +180,7 @@ def fetch_feed(source_name, config):
             "title": title,
             "link": link,
             "summary": summary,
-            "image": extract_image(entry),
+            "image": image,
             "published": normalize_date(pub_date),
             "category": category,
         })

@@ -201,31 +201,40 @@ function render() {
   }
 
   list.innerHTML = "";
+  list.className = `news-list ${currentTab === "top" ? "top-view" : ""}`;
+
   articles.forEach((article) => {
     const isRead = readIds.has(article.id) || scrolledIds.has(article.id);
     const item = document.createElement("article");
     item.className = `news-item ${isRead ? "read" : ""}`;
     item.dataset.id = article.id;
 
+    const imageHtml = article.image
+      ? `<img class="news-image" src="${escapeHtml(article.image)}" alt="" loading="lazy">`
+      : `<div class="news-image-placeholder">📰</div>`;
+
     item.innerHTML = `
-      <div class="news-meta">
-        <span class="news-source">${escapeHtml(article.source)}</span>
-        <span class="news-category">${escapeHtml(article.category)}</span>
-        <span class="news-time" title="${formatDate(article.published)}">${timeAgo(
-          article.published
-        )}</span>
-        ${currentTab === "top" ? `<span class="news-score">Score: ${article.score}</span>` : ""}
-      </div>
-      <h2 class="news-title">
-        <a href="${escapeHtml(article.link)}" target="_blank" rel="noopener noreferrer" data-id="${
-      article.id
-    }">${escapeHtml(article.title)}</a>
-      </h2>
-      <p class="news-summary">${escapeHtml(article.summary)}</p>
-      <div class="news-actions">
-        <button class="toggle-read" data-id="${article.id}">
-          ${isRead ? "Als ungelesen markieren" : "Als gelesen markieren"}
-        </button>
+      ${imageHtml}
+      <div class="news-content">
+        <div class="news-meta">
+          <span class="news-source ${escapeHtml(article.source)}">${escapeHtml(article.source)}</span>
+          <span class="news-category">${escapeHtml(article.category)}</span>
+          <span class="news-time" title="${formatDate(article.published)}">${timeAgo(
+            article.published
+          )}</span>
+          ${currentTab === "top" ? `<span class="news-score">Score: ${article.score}</span>` : ""}
+        </div>
+        <h2 class="news-title">
+          <a href="${escapeHtml(article.link)}" target="_blank" rel="noopener noreferrer" data-id="${
+            article.id
+          }">${escapeHtml(article.title)}</a>
+        </h2>
+        <p class="news-summary">${escapeHtml(article.summary)}</p>
+        <div class="news-actions">
+          <button class="toggle-read" data-id="${article.id}">
+            ${isRead ? "Als ungelesen markieren" : "Als gelesen markieren"}
+          </button>
+        </div>
       </div>
     `;
 
