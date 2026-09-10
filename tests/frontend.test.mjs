@@ -60,6 +60,28 @@ const longArticle = {
   category: "Technologie",
 };
 
+// Eine Nachricht, die mehrere Portale melden: die Top-News zeigen einen
+// Artikel und verlinken die weiteren Quellen. Ein Link ist feindselig.
+const coveredArticle = {
+  id: "covered-1",
+  source: "tagesschau",
+  sourceWeight: 1.0,
+  title: "Dieselbe Nachricht bei mehreren Quellen",
+  link: "https://example.com/thema",
+  summary: "kurz",
+  image: null,
+  published: new Date().toISOString(),
+  category: "Politik",
+  score: 90,
+  coverage: {
+    sourceCount: 3,
+    others: [
+      { source: "spiegel", title: "Anderer Blickwinkel", link: "https://example.com/spiegel" },
+      { source: "heise", title: "Dritter Titel", link: 'javascript:alert("coverage")' },
+    ],
+  },
+};
+
 // Artikel ohne Pflichtfelder – darf nicht "undefined" anzeigen oder crashen.
 const sparseArticle = {
   id: "sparse-1",
@@ -72,7 +94,13 @@ const sparseArticle = {
 
 /* ---------- Test-Harness ---------- */
 
-function createWindow({ store = new Map(), payloads, captureObservers = false, systemDark = false } = {}) {
+function createWindow({
+  store = new Map(),
+  payloads,
+  captureObservers = false,
+  systemDark = false,
+  wide = false,
+} = {}) {
   const dom = new JSDOM(html, {
     url: "https://example.github.io/news-aggregator/",
     runScripts: "outside-only",
@@ -81,11 +109,12 @@ function createWindow({ store = new Map(), payloads, captureObservers = false, s
   const { window } = dom;
 
   // jsdom meldet immer "kein Dark Mode"; fuer den System-Pfad brauchen wir
-  // beide Antworten und einen ausloesbaren change-Listener.
+  // beide Antworten und einen ausloesbaren change-Listener. "wide" steuert die
+  // Breitenabfrage, an der die Theme-Vorgabe haengt.
   const mediaListeners = [];
   window.matchMedia = (query) => ({
     media: query,
-    matches: query.includes("dark") ? systemDark : false,
+    matches: query.includes("dark") ? systemDark : query.includes("min-width") ? wide : false,
     addEventListener: (_type, handler) => mediaListeners.push(handler),
     removeEventListener: () => {},
     addListener: (handler) => mediaListeners.push(handler),
@@ -132,7 +161,7 @@ const defaultPayloads = () => ({
     ...news,
     articles: [...news.articles, hostile, hostileWithValidLink, longArticle, sparseArticle],
   },
-  "data/top-news.json": top,
+  "data/top-news.json": { ...top, articles: [coveredArticle, ...top.articles] },
   "data/ai-summary.json": {
     generatedAt: new Date().toISOString(),
     summary: "Erste Zeile\n\nZweite <b>Zeile</b> mit Markup",
@@ -644,6 +673,75 @@ section("Gelesen-Kennzeichnung");
     target.querySelector(".toggle-read").textContent.trim() === "Als ungelesen markieren"
   );
   check("Kein Symbol mehr im Knopf", !target.querySelector(".toggle-read svg"));
+}
+
+/* ---------- 14. Weitere Quellen zur selben Nachricht ---------- */
+
+section("Weitere Quellen zur selben Nachricht");
+{
+  const { doc } = await boot();
+  const item = doc.querySelector('[data-id="covered-1"]');
+  const row = item.querySelector(".news-coverage");
+  const chips = [...row.querySelectorAll(".coverage-source")];
+
+  check("Zeile vorhanden", !!row);
+  check("Beschriftung davor", row.querySelector(".coverage-label").textContent === "Auch bei");
+  check("Alle weiteren Quellen genannt", chips.map((c) => c.textContent).join(",") === "spiegel,heise");
+  check(
+    "Quellenfarbe wird geerbt",
+    chips.every((c) => c.classList.contains("news-source") && c.dataset.source === c.textContent)
+  );
+  check("Gültiger Link wird verlinkt", chips[0].getAttribute("href") === "https://example.com/spiegel");
+  check("Titel der Fremdquelle im title", chips[0].title === "Anderer Blickwinkel");
+  check("Link öffnet sicher", chips[0].rel === "noopener noreferrer" && chips[0].target === "_blank");
+  check("javascript:-Link wird verworfen", chips[1].tagName === "SPAN", chips[1].outerHTML);
+  check("Kein javascript: im Markup", !row.outerHTML.includes("javascript:"), row.outerHTML);
+
+  const expected = [coveredArticle, ...top.articles].filter((article) => article.coverage).length;
+  check(
+    "Zeile nur bei mehrfach gemeldeten Nachrichten",
+    doc.querySelectorAll(".news-coverage").length === expected,
+    `${doc.querySelectorAll(".news-coverage").length} von ${expected}`
+  );
+}
+
+/* ---------- 15. Theme-Vorgabe je Gerät ---------- */
+
+section("Theme-Vorgabe je Gerät");
+{
+  const narrow = await boot();
+  check("Schmaler Bildschirm startet als App", narrow.doc.documentElement.dataset.theme === "app");
+  check(
+    "Ohne eigene Wahl wird kein Theme gespeichert",
+    !JSON.parse(narrow.store.get("news-aggregator-prefs") || "{}").theme
+  );
+
+  const desktop = await boot({ wide: true });
+  check(
+    "Breiter Bildschirm startet als Zeitung",
+    desktop.doc.documentElement.dataset.theme === "editorial"
+  );
+
+  const chosen = await boot({
+    store: new Map([["news-aggregator-prefs", JSON.stringify({ theme: "app" })]]),
+    wide: true,
+  });
+  check("Eigene Wahl schlägt die Gerätevorgabe", chosen.doc.documentElement.dataset.theme === "app");
+
+  // Modus oder Layout umstellen darf die Vorgabe nicht festschreiben.
+  const kept = await boot({ wide: true });
+  fire(kept.doc.getElementById("mode-toggle"), "click");
+  check(
+    "Vorgabe bleibt Vorgabe",
+    !JSON.parse(kept.store.get("news-aggregator-prefs")).theme,
+    kept.store.get("news-aggregator-prefs")
+  );
+
+  fire(kept.doc.querySelector('[data-theme-choice="editorial"]'), "click");
+  check(
+    "Bestätigte Vorgabe wird gespeichert",
+    JSON.parse(kept.store.get("news-aggregator-prefs")).theme === "editorial"
+  );
 }
 
 console.log(`\n${failures === 0 ? "Alle Tests bestanden." : `${failures} Test(s) fehlgeschlagen.`}`);

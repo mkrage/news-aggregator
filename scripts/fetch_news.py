@@ -6,9 +6,11 @@ Holt Feeds, gewichtet Artikel und erzeugt JSON-Dateien für das Frontend.
 
 import hashlib
 import json
+import math
 import os
 import re
 import sys
+from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from urllib.parse import urlparse
@@ -58,7 +60,16 @@ CATEGORY_KEYWORDS = {
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 MAX_AGE_HOURS = 48
 TOP_NEWS_LIMIT = 15
-MAX_PER_SOURCE = 3
+MAX_PER_SOURCE = 5
+
+# Themen-Cluster: ab welcher Übereinstimmung zwei Artikel als dieselbe Nachricht
+# gelten, und wie stark breite Berichterstattung den Score hebt. Drei gemeinsame
+# Wörter sind nötig, weil zwei ("Sachsen", "Anhalt") schon ein ganzes Themenfeld
+# zusammenziehen würden – lieber eine Dublette zu viel als eine Nachricht weg.
+SIMILARITY_THRESHOLD = 0.5
+MIN_SHARED_WORDS = 3
+COVERAGE_BONUS = 12
+COVERAGE_CAP = 3  # mehr als drei zusätzliche Quellen bringen keinen Bonus mehr
 
 USER_AGENT = "news-aggregator/1.0 (+https://github.com/mkrage/news-aggregator)"
 FEED_TIMEOUT = 15
@@ -88,7 +99,32 @@ OG_IMAGE_PATTERNS = (
 IMG_TAG_PATTERN = re.compile(r'<img[^>]+src=["\']([^"\']+)["\']', re.IGNORECASE)
 TAG_PATTERN = re.compile(r"<[^>]+>")
 WHITESPACE_PATTERN = re.compile(r"\s+")
-WORD_PATTERN = re.compile(r"\b\w{5,}\b")
+WORD_SPLIT_PATTERN = re.compile(r"\w+")
+
+# "5.000 Dollar" und "5000 Dollar" sollen dasselbe Wort ergeben. Nur Trenner
+# zwischen Dreiergruppen entfernen, damit Datumsangaben unberührt bleiben.
+THOUSANDS_PATTERN = re.compile(r"(?<=\d)[.,](?=\d{3}(?!\d))")
+
+UMLAUT_MAP = str.maketrans({"ä": "a", "ö": "o", "ü": "u", "ß": "ss"})
+
+# Funktionswörter und Nachrichten-Floskeln unterscheiden keine Themen. Kurze
+# Wörter fallen ohnehin durch die Längengrenze in tokenize().
+STOPWORDS = frozenset(
+    """
+    aber alle allem allen aller alles also auch beim bereits damit dann dass
+    dazu dessen diese diesem diesen dieser dieses doch dort durch eine einem
+    einen einer eines einige erst erste ersten etwa gegen geht gibt haben hatte
+    hatten heute hier ihre ihrem ihren immer jetzt kann kein keine konnte
+    lassen laut machen mehr mehrere muss müssen nach neue neuen neuer neues
+    nicht noch oder ohne schon sein seine seinen seit selbst sich sind soll
+    sollen sowie über unter viele wegen weil weiter werden wieder will wird
+    worden wurde wurden zwar zwei zwischen
+    """.translate(UMLAUT_MAP).split()
+)
+
+# Sehr grober Stemmer: er soll nur Flexionsendungen einsammeln, damit
+# "Republikaner" und "Republikanern" als dasselbe Wort zählen.
+STEM_SUFFIXES = ("innen", "erin", "ern", "ende", "en", "er", "es", "em", "e", "s", "n")
 
 session = requests.Session()
 session.headers.update({"User-Agent": USER_AGENT})
@@ -315,61 +351,203 @@ def dedupe(articles):
     return unique
 
 
-def calculate_score(article, title_words, word_index, now):
-    """Berechnet einen Relevanz-Score für einen Artikel."""
+def stem(word):
+    """Schneidet eine Flexionsendung ab, wenn genug Wortstamm übrig bleibt."""
+    for suffix in STEM_SUFFIXES:
+        if word.endswith(suffix) and len(word) - len(suffix) >= 4:
+            return word[: -len(suffix)]
+    return word
+
+
+def tokenize(text):
+    """Zerlegt Text in die Wortstämme, die Themen unterscheiden."""
+    if not text:
+        return set()
+
+    lowered = THOUSANDS_PATTERN.sub("", text.lower().translate(UMLAUT_MAP))
+
+    words = set()
+    for raw in WORD_SPLIT_PATTERN.findall(lowered):
+        if raw in STOPWORDS:
+            continue
+        if raw.isdigit():
+            # Jahreszahlen und Beträge sind starke Marker, kleine Zahlen nicht.
+            if len(raw) >= 3:
+                words.add(raw)
+            continue
+        stemmed = stem(raw)
+        if len(stemmed) >= 4:
+            words.add(stemmed)
+    return words
+
+
+def word_weights(documents):
+    """IDF über den aktuellen Lauf: was überall steht, unterscheidet nichts.
+
+    Die 1 davor ist Absicht: jedes Wort zählt mindestens einmal, seltene mehr.
+    Ohne diesen Sockel wiegen in kleinen Textmengen ausgerechnet die geteilten
+    Wörter am wenigsten – zwei Meldungen zum selben Ereignis würden dann
+    unähnlicher wirken, je mehr sie sich gleichen.
+    """
+    total = len(documents)
+    frequency = Counter(word for document in documents for word in document)
+    return {word: 1 + math.log(1 + total / (1 + count)) for word, count in frequency.items()}
+
+
+def coverage_ratio(words, other_words, weights):
+    """Wie viel einer Schlagzeile (IDF-gewichtet) im anderen Text vorkommt."""
+    shared = words & other_words
+    if len(shared) < MIN_SHARED_WORDS:
+        # Zu wenige Treffer sind Zufall oder ein gemeinsames Themenfeld – beides
+        # macht aus zwei Meldungen noch keine gemeinsame Nachricht.
+        return 0.0
+    total = sum(weights.get(word, 1.0) for word in words)
+    if total <= 0:
+        return 0.0
+    return sum(weights.get(word, 1.0) for word in shared) / total
+
+
+def similarity(one, other, weights):
+    """Ähnlichkeit zweier Artikel, in beide Richtungen geprüft.
+
+    Schlagzeilen sind unterschiedlich lang – eine knappe Zeile kann in einem
+    ausführlichen Text vollständig aufgehen, umgekehrt aber nicht. Darum zählt
+    die bessere der beiden Richtungen.
+    """
+    return max(
+        coverage_ratio(one["title_words"], other["text_words"], weights),
+        coverage_ratio(other["title_words"], one["text_words"], weights),
+    )
+
+
+def rank_key(item):
+    """Quellen-Ranking: höheres Gewicht zuerst, dann das Neuere."""
+    article = item["article"]
+    return (
+        -article.get("sourceWeight", 0),
+        -item["published_at"].timestamp(),
+        article["id"],
+    )
+
+
+def build_stories(articles):
+    """Gruppiert Artikel, die dieselbe Nachricht melden.
+
+    Verglichen wird nur gegen den Vertreter eines Themas, nicht gegen alle
+    Mitglieder: sonst könnten sich über Zwischenschritte ganze Themenketten zu
+    einem Klumpen verbinden.
+    """
+    prepared = [
+        {
+            "article": article,
+            "title_words": tokenize(article["title"]),
+            "text_words": tokenize(f"{article['title']} {article.get('summary') or ''}"),
+            "published_at": date_parser.parse(article["published"]),
+        }
+        for article in articles
+    ]
+    weights = word_weights([item["text_words"] for item in prepared])
+
+    # Beste Quelle zuerst – dadurch wird sie automatisch Vertreter des Themas.
+    prepared.sort(key=rank_key)
+
+    stories = []
+    for item in prepared:
+        best, best_score = None, 0.0
+        for story in stories:
+            score = similarity(item, story["members"][0], weights)
+            if score > best_score:
+                best, best_score = story, score
+
+        if best is not None and best_score >= SIMILARITY_THRESHOLD:
+            best["members"].append(item)
+        else:
+            stories.append({"members": [item]})
+
+    for story in stories:
+        story["newest"] = max(item["published_at"] for item in story["members"])
+    return stories
+
+
+def calculate_score(story, now):
+    """Berechnet einen Relevanz-Score für ein Thema."""
+    lead = story["members"][0]["article"]
     score = 0.0
 
-    # Aktualität: neuer = besser
-    pub_date = date_parser.parse(article["published"])
-    age_hours = (now - pub_date).total_seconds() / 3600
-    recency_score = max(0, 1 - (age_hours / MAX_AGE_HOURS))
-    score += recency_score * 40
+    # Aktualität: der jüngste Artikel bestimmt, wie frisch das Thema ist.
+    age_hours = (now - story["newest"]).total_seconds() / 3600
+    score += max(0, 1 - (age_hours / MAX_AGE_HOURS)) * 40
 
-    # Quellen-Gewichtung
-    score += article["sourceWeight"] * 20
+    # Quellen-Gewichtung der besten berichtenden Quelle
+    score += lead.get("sourceWeight", 0) * 20
 
     # Highlight-Schlüsselwörter
-    text = (article["title"] + " " + article["summary"]).lower()
-    keyword_hits = sum(1 for kw in HIGHLIGHT_KEYWORDS if kw in text)
-    score += keyword_hits * 8
+    text = f"{lead['title']} {lead.get('summary') or ''}".lower()
+    score += sum(1 for kw in HIGHLIGHT_KEYWORDS if kw in text) * 8
 
-    # Themen-Häufigkeit über Quellen hinweg
-    related = sum(
-        1
-        for other_source, other_words in word_index
-        if other_source != article["source"] and len(title_words & other_words) >= 2
-    )
-    score += min(related, 5) * 5
+    # Breite der Berichterstattung: zählt Quellen, nicht Artikel. Sonst hebt ein
+    # Portal mit mehreren Meldungen zum Thema sich selbst nach oben.
+    sources = {item["article"]["source"] for item in story["members"]}
+    score += min(len(sources) - 1, COVERAGE_CAP) * COVERAGE_BONUS
 
     # Kategorie-Bonus: Politik und Wirtschaft leicht bevorzugen
-    if article["category"] in ("Politik", "Wirtschaft"):
+    if lead.get("category") in ("Politik", "Wirtschaft"):
         score += 3
 
     return round(score, 2)
 
 
-def generate_top_news(articles):
-    """Erzeugt die Top-News mit Anti-Spam pro Quelle."""
-    now = datetime.now(timezone.utc)
-
-    # Wortmengen einmalig berechnen statt für jedes Artikelpaar neu.
-    words_by_article = [set(WORD_PATTERN.findall(a["title"].lower())) for a in articles]
-    word_index = [(a["source"], w) for a, w in zip(articles, words_by_article)]
-
-    for article, title_words in zip(articles, words_by_article):
-        article["score"] = calculate_score(article, title_words, word_index, now)
-
-    scored = sorted(articles, key=lambda x: x["score"], reverse=True)
-
-    # Anti-Spam: max. MAX_PER_SOURCE Artikel pro Quelle in Top-News
-    top_news = []
-    source_counts = {}
-    for article in scored:
-        source = article["source"]
-        if source_counts.get(source, 0) >= MAX_PER_SOURCE:
+def build_coverage(chosen, members):
+    """Listet die weiteren Quellen, die dieselbe Nachricht melden."""
+    others = []
+    seen = {chosen["source"]}
+    for article in members:
+        if article["source"] in seen:
             continue
-        top_news.append(article)
-        source_counts[source] = source_counts.get(source, 0) + 1
+        seen.add(article["source"])
+        others.append({
+            "source": article["source"],
+            "title": article["title"],
+            "link": article["link"],
+        })
+    return {"sourceCount": len(seen), "others": others}
+
+
+def generate_top_news(articles):
+    """Erzeugt die Top-News: ein Artikel pro Thema, beste Quelle zuerst."""
+    now = datetime.now(timezone.utc)
+    stories = build_stories(articles)
+
+    # Der Vorlauf kann Reste hinterlassen haben; Coverage gilt nur für die
+    # tatsächlich gewählten Vertreter.
+    for article in articles:
+        article.pop("coverage", None)
+
+    for story in stories:
+        story["score"] = calculate_score(story, now)
+        for item in story["members"]:
+            item["article"]["score"] = story["score"]
+
+    stories.sort(key=lambda story: (-story["score"], -story["newest"].timestamp()))
+
+    top_news = []
+    source_counts = Counter()
+    for story in stories:
+        members = [item["article"] for item in story["members"]]
+        # Ist die beste Quelle ausgereizt, vertritt die nächste das Thema –
+        # so fällt keine Nachricht nur wegen der Quellen-Balance heraus.
+        chosen = next(
+            (a for a in members if source_counts[a["source"]] < MAX_PER_SOURCE), None
+        )
+        if chosen is None:
+            continue
+
+        coverage = build_coverage(chosen, members)
+        if coverage["others"]:
+            chosen["coverage"] = coverage
+
+        top_news.append(chosen)
+        source_counts[chosen["source"]] += 1
         if len(top_news) >= TOP_NEWS_LIMIT:
             break
 

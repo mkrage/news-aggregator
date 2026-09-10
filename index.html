@@ -12,13 +12,20 @@
   <meta name="theme-color" content="#ffffff">
   <script>
     // Läuft vor dem ersten Paint, damit Theme und Hell/Dunkel nicht sichtbar
-    // umspringen. Die Schlüssel sind absichtlich mit app.js doppelt gepflegt –
-    // ein Modul-Import wäre hier ein zusätzlicher Roundtrip.
+    // umspringen. Die Schlüssel und die Breitenabfrage sind absichtlich mit
+    // app.js doppelt gepflegt – ein Modul-Import wäre hier ein zusätzlicher
+    // Roundtrip.
     (function () {
       try {
         var prefs = JSON.parse(localStorage.getItem("news-aggregator-prefs") || "{}");
         var root = document.documentElement;
-        root.dataset.theme = prefs.theme === "editorial" ? "editorial" : "app";
+        // Ohne eigene Wahl: Zeitung am großen Bildschirm, App am Telefon.
+        root.dataset.theme =
+          prefs.theme === "editorial" || prefs.theme === "app"
+            ? prefs.theme
+            : window.matchMedia("(min-width: 64rem)").matches
+              ? "editorial"
+              : "app";
         root.dataset.mode =
           prefs.mode === "dark" || prefs.mode === "light"
             ? prefs.mode

@@ -72,6 +72,13 @@ jobs:
                   image = article.get("image")
                   if image and not image.startswith(("http://", "https://")):
                       problems.append(f"{path}: {article.get('id')} hat unsicheres Bild {image!r}")
+                  coverage = article.get("coverage") or {}
+                  for other in coverage.get("others", []):
+                      other_link = other.get("link", "")
+                      if not other_link.startswith(("http://", "https://")):
+                          problems.append(
+                              f"{path}: {article.get('id')} verweist unsicher auf {other_link!r}"
+                          )
 
           if problems:
               print("\n".join(problems[:20]))

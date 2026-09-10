@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-10T08:15:40.482409+00:00",
-  "count": 12,
+  "count": 15,
   "articles": [
     {
       "id": "tagesschau-c80e141c90079765",
@@ -12,31 +12,17 @@
       "image": "https://images.tagesschau.de/image/77d98f22-0478-4f64-84ed-3cdf59874430/AAABoIlcz9Y/AAABnSSvrFg/16x9-big/trump-parteitag-republikaner-100.jpg?width=1920",
       "published": "2026-09-10T09:03:50+02:00",
       "category": "Politik",
-      "score": 83.0
-    },
-    {
-      "id": "spiegel-1be085031853a2e9",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "USA: Donald Trump bietet US-Bürgern 5000 Dollar - falls Republikaner die Midterms gewinnen",
-      "link": "https://www.spiegel.de/ausland/usa-donald-trump-bietet-us-buergern-5000-dollar-falls-republikaner-die-midterms-gewinnen-a-36bf711a-250b-4481-bef9-4d17b9732a28#ref=rss",
-      "summary": "Beim Parteitag der US-Republikaner peitscht Präsident Trump seine Partei auf den Wahlkampfendspurt ein. Er bietet Bürgerinnen und Bürgern Geld für ihre Stimme. Die Zahlung der »Trump-Dividende« sei an nur eine Bedingung geknüpft.",
-      "image": "https://cdn.prod.www.spiegel.de/images/0efd95fb-1b9d-452d-aed6-733f3185b673_w1200_r1.778_fpx51_fpy40.jpg",
-      "published": "2026-09-10T04:30:00+02:00",
-      "category": "Politik",
-      "score": 78.2
-    },
-    {
-      "id": "spiegel-6f53afc37f044d77",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Bundesweiter Warntag 2026: Warum am Donnerstag um elf Uhr die Sirenen schrillen",
-      "link": "https://www.spiegel.de/panorama/bundesweiter-warntag-2026-warum-am-donnerstag-um-11-uhr-die-sirenen-schrillen-a-5229c654-37c2-4f4f-bfb3-5a42638eaea2#ref=rss",
-      "summary": "Schwere Unwetter, Überschwemmungen, Terrorangriffe: In Notfällen muss der Staat die Bürgerinnen und Bürger erreichen können. Am Donnerstag wird das System getestet. Was man dazu wissen muss.",
-      "image": "https://cdn.prod.www.spiegel.de/images/019f03e7-8bbe-4f4c-b2bf-6ee8b5be18a4_w1200_r1.778_fpx58_fpy52.jpg",
-      "published": "2026-09-10T09:33:00+02:00",
-      "category": "Nachrichten",
-      "score": 76.41
+      "score": 88.91,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "USA: Donald Trump bietet US-Bürgern 5000 Dollar - falls Republikaner die Midterms gewinnen",
+            "link": "https://www.spiegel.de/ausland/usa-donald-trump-bietet-us-buergern-5000-dollar-falls-republikaner-die-midterms-gewinnen-a-36bf711a-250b-4481-bef9-4d17b9732a28#ref=rss"
+          }
+        ]
+      }
     },
     {
       "id": "spiegel-c19060f9e0a27958",
@@ -48,19 +34,29 @@
       "image": "https://cdn.prod.www.spiegel.de/images/d3b0b42d-4398-49ec-9884-7e8036e4db70_w1200_r1.778_fpx60.77_fpy55.01.jpg",
       "published": "2026-09-10T07:22:00+02:00",
       "category": "Politik",
-      "score": 75.59
+      "score": 74.49
     },
     {
-      "id": "tagesschau-f517103c61caf9c3",
+      "id": "tagesschau-9867832bf9f67a43",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "BSW geht in Sachsen-Anhalt in Gespräche mit AfD",
-      "link": "https://www.tagesschau.de/inland/gesellschaft/bsw-gespraeche-sachsen-anhalt-100.html",
-      "summary": "Eingeladen hatte die AfD alle Parteien - CDU, SPD, Grüne und Linke lehnten das Gesprächsangebot zur Regierungsbildung in Sachsen-Anhalt aber ab. Anders das BSW: Die Parteien wollen unter anderem über \"Friedenspolitik\" sprechen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/e44b016c-ff35-4561-97c1-52551adb53fc/AAABoIhh4g8/AAABnSSvrFg/16x9-big/bsw-240.jpg?width=1920",
-      "published": "2026-09-10T01:11:07+02:00",
-      "category": "Politik",
-      "score": 70.44
+      "title": "Bundesweiter Warntag: Warum es heute ab 11 Uhr laut wird",
+      "link": "https://www.tagesschau.de/inland/gesellschaft/warntag-faq-100.html",
+      "summary": "Sirenen heulen, Mobiltelefone schrillen, Digitalradios schalten sich von selbst sein - zum sechsten Mal findet heute ab 11 Uhr der bundesweite Warntag statt. Was gibt es zu beachten? Antworten auf wichtige Fragen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/2a6ebac0-2fd5-447d-aecb-ae1faaa45df9/AAABoIoz4No/AAABnSSvrFg/16x9-big/warntag-240.jpg?width=1920",
+      "published": "2026-09-10T10:04:07+02:00",
+      "category": "Nachrichten",
+      "score": 70.74,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Bundesweiter Warntag 2026: Warum am Donnerstag um elf Uhr die Sirenen schrillen",
+            "link": "https://www.spiegel.de/panorama/bundesweiter-warntag-2026-warum-am-donnerstag-um-11-uhr-die-sirenen-schrillen-a-5229c654-37c2-4f4f-bfb3-5a42638eaea2#ref=rss"
+          }
+        ]
+      }
     },
     {
       "id": "tagesschau-e0e0267deb39d7ca",
@@ -72,7 +68,79 @@
       "image": "https://images.tagesschau.de/image/ba4d718f-247a-4639-b7ae-64e00b16e4c6/AAABkUymyLE/AAABnSSvrFg/16x9-big/arztpraxis-122.jpg?width=1920",
       "published": "2026-09-10T09:03:04+02:00",
       "category": "Politik",
-      "score": 69.99
+      "score": 68.89
+    },
+    {
+      "id": "spiegel-fbc86488cebb5ef9",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Volker Beck legt Verfassungsbeschwerde ein",
+      "link": "https://www.spiegel.de/politik/deutschland/volker-beck-legt-verfassungsbeschwerde-ein-a-247780ef-ac2d-4cf7-9514-5a60989b6c9f#ref=rss",
+      "summary": "Der Präsident der Deutsch-Israelischen Gesellschaft sollte im Auftrag Irans ermordet werden, aber beim Prozess gegen die mutmaßlichen Täter darf Volker Beck nicht als Nebenkläger auftreten. Nun geht er nach Karlsruhe.",
+      "image": "https://cdn.prod.www.spiegel.de/images/a626d438-3e23-4fd9-a7bb-7bd9f5610336_w1200_r1.778_fpx39.33_fpy45.jpg",
+      "published": "2026-09-10T09:56:00+02:00",
+      "category": "Politik",
+      "score": 68.63
+    },
+    {
+      "id": "spiegel-f98c9c97292b3442",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Energiepreise treiben Inflation an die Drei-Prozent-Marke",
+      "link": "https://www.spiegel.de/wirtschaft/energiepreise-treiben-inflation-an-die-drei-prozent-marke-a-c2ba33d5-84ac-46d4-8e0b-92598277c5df#ref=rss",
+      "summary": "Nach dem Auslaufen des vom Staat verordneten Tankrabatts schlagen die Verwerfungen an den Ölmärkten voll auf die Preise durch. Die Inflationsrate könnte sogar noch weiter steigen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/c9bed9a8-5835-4c1a-8048-7466f2e2a457_w1200_r1.778_fpx43.33_fpy44.98.jpg",
+      "published": "2026-09-10T08:55:00+02:00",
+      "category": "Wirtschaft",
+      "score": 67.78
+    },
+    {
+      "id": "spiegel-18f2bc6d5eeddd28",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Friedrich Merz: König des Scherbenhaufens",
+      "link": "https://www.spiegel.de/politik/deutschland/friedrich-merz-koenig-des-scherbenhaufens-a-04d7898a-d500-4c8f-ba2f-64b7a1fbd804#ref=rss",
+      "summary": "Nach dem Wahldesaster von Magdeburg wächst die Verzweiflung in Union und SPD an Friedrich Merz, Bärbel Bas und Lars Klingbeil. Die parteiinternen Rivalen lauern auf ihre Gelegenheit zum Aufstieg.",
+      "image": "https://cdn.prod.www.spiegel.de/images/d845f223-5d7d-403e-8ae4-45c13fb8bde1_w1200_r1.778_fpx34.64_fpy49.99.jpg",
+      "published": "2026-09-10T08:06:00+02:00",
+      "category": "Politik",
+      "score": 67.1
+    },
+    {
+      "id": "spiegel-ef5345da5058801b",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Manuela Schwesig gegen Leif-Erik Holm: Wahl in Mecklenburg-Vorpommern - So lief das TV-Duel",
+      "link": "https://www.spiegel.de/politik/deutschland/manuela-schwesig-gegen-leif-erik-holm-wahl-in-mecklenburg-vorpommern-so-lief-das-tv-duel-a-d8078438-6d12-4728-9264-f1ec86c6e104#ref=rss",
+      "summary": "Ministerpräsidentin Manuela Schwesig und AfD-Spitzenkandidat Leif-Erik Holm sind sich zum ersten Mal im Wahlkampf auf großer Bühne begegnet. Es wurde hitzig – und beide hatten eine Strategie.",
+      "image": "https://cdn.prod.www.spiegel.de/images/2de8b6f1-95dc-4f3d-a23e-efd5c718d223_w1200_r1.778_fpx36.57_fpy50.jpg",
+      "published": "2026-09-10T07:12:00+02:00",
+      "category": "Politik",
+      "score": 66.35
+    },
+    {
+      "id": "tagesschau-b9e2f6dae48ca5c4",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Ukraine: Staatsanwaltschaft an Betrug über \"Callcenter\" beteiligt?",
+      "link": "https://www.tagesschau.de/ausland/europa/ukraine-korruptionsermittlungen-staatsanwaltschaft-100.html",
+      "summary": "In der Ukraine gehen die Behörden gegen Mitarbeiter der Generalstaatsanwaltschaft vor. Sie sollen an systematischem Betrug über angebliche \"Callcenter\" beteiligt gewesen sein. Der Fall ist auch für Präsident Selenskyj heikel. Von F. Kellermann. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/1e0de475-12a6-4cff-bf9e-f8e9178bf201/AAABoIjH-p4/AAABnSSvrFg/16x9-big/kiew-538.jpg?width=1920",
+      "published": "2026-09-10T02:37:15+02:00",
+      "category": "Politik",
+      "score": 63.54
+    },
+    {
+      "id": "tagesschau-f93056d4c895db27",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Argentiniens Präsident Milei wittert Chance im Falkland-Streit",
+      "link": "https://www.tagesschau.de/ausland/amerika/argentinien-falkland-trump-100.html",
+      "summary": "Argentiniens Präsident Milei heizt den alten Konflikt um die Falklandinseln wieder an. Dabei hofft er auf Rückendeckung von US-Präsident Trump. Konzerne, die vor den Inseln nach Öl suchen, stehen zunehmend unter Druck. Von Anne Herrberg. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/851ee8e6-ddb6-42ad-87d0-e37ccd1aaf8c/AAABoIigYQo/AAABnSSvrFg/16x9-big/falklands-102.jpg?width=1920",
+      "published": "2026-09-10T02:29:28+02:00",
+      "category": "Politik",
+      "score": 63.43
     },
     {
       "id": "golem-579d52e3ce310d73",
@@ -84,31 +152,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212854&amp;page=1&amp;ts=1789022702",
       "published": "2026-09-10T08:45:02+02:00",
       "category": "Wirtschaft",
-      "score": 58.74
-    },
-    {
-      "id": "golem-118826d41c8c8e12",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Digitalisierung: Digitale Brieftasche D-you startet im Januar 2027",
-      "link": "https://www.golem.de/news/digitalisierung-digitale-brieftasche-d-you-startet-im-januar-2027-2609-212852.html",
-      "summary": "Die Bundesregierung startet im Januar 2027 die digitale Brieftasche D-you für Personalausweis und Führerschein. ( E-Personalausweis , BSI )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212852&amp;page=1&amp;ts=1789020902",
-      "published": "2026-09-10T08:15:02+02:00",
-      "category": "Politik",
-      "score": 58.32
-    },
-    {
-      "id": "golem-99d63819863b43e3",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Ältere iPhone: Apple erhöht Preise bisheriger iPhone-Modelle teilweise erheblich",
-      "link": "https://www.golem.de/news/aeltere-iphone-apple-erhoeht-preise-bisheriger-iphone-modelle-teilweise-erheblich-2609-212857.html",
-      "summary": "Nicht nur die neuen iPhones sind teurer als ihre Vorgänger: Apple hat auch die Preise älterer, weiterhin verfügbarer Modelle erhöht. ( iPhone 18 , Apple )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212857&amp;page=1&amp;ts=1789027741",
-      "published": "2026-09-10T10:09:01+02:00",
-      "category": "Technologie",
-      "score": 56.91
+      "score": 57.64
     },
     {
       "id": "heise-0254db5e6450c4a8",
@@ -120,31 +164,53 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/1/9/5/5/Watch-Apple-Event__1_-172bff1077f5f983.jpeg",
       "published": "2026-09-09T20:36:00+02:00",
       "category": "Technologie",
-      "score": 56.62
+      "score": 57.52,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "golem",
+            "title": "Smartwatch: Apple Watch Series 12 mit neuen Gesundheitssensoren",
+            "link": "https://www.golem.de/news/smartwatch-apple-watch-series-12-mit-neuen-gesundheitssensoren-2609-212847.html"
+          }
+        ]
+      }
     },
     {
-      "id": "heise-52dd4828b8c30e8f",
-      "source": "heise",
-      "sourceWeight": 0.9,
-      "title": "AirPods 5 mit besserer Geräuschunterdrückung",
-      "link": "https://www.heise.de/news/AirPods-5-mit-besserer-Geraeuschunterdrueckung-11447328.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "summary": "Wie beim Vorgänger gibt es die AirPods 5 in zwei Varianten. Das günstigste Modell hat bei wichtigen Funktionen nachgezogen, ist aber nicht teurer geworden.",
-      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/2/0/8/3/AirPods-Apple-Event__2026-09-09_07___31_58_5-0d040c1e814654b7.jpeg",
-      "published": "2026-09-09T19:49:00+02:00",
-      "category": "Technologie",
-      "score": 45.96
+      "id": "golem-118826d41c8c8e12",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Digitalisierung: Digitale Brieftasche D-you startet im Januar 2027",
+      "link": "https://www.golem.de/news/digitalisierung-digitale-brieftasche-d-you-startet-im-januar-2027-2609-212852.html",
+      "summary": "Die Bundesregierung startet im Januar 2027 die digitale Brieftasche D-you für Personalausweis und Führerschein. ( E-Personalausweis , BSI )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212852&amp;page=1&amp;ts=1789020902",
+      "published": "2026-09-10T08:15:02+02:00",
+      "category": "Politik",
+      "score": 57.23
     },
     {
-      "id": "heise-963e3a8a03bcc1ac",
-      "source": "heise",
-      "sourceWeight": 0.9,
-      "title": "Hirschhausen zu Deepfake-Problematik.: „Wie lange wollen wir da noch zugucken?“",
-      "link": "https://www.heise.de/news/Betrug-mit-Deepfakes-Wenn-vermeintliche-Aerzte-fuer-Fake-Produkte-werben-11446307.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "summary": "KI-generierte Deepfakes mit bekannten Ärzten und Medienpersönlichkeiten verbreiten sich. Sie machen es schwer, echte Infos von Betrug zu unterscheiden.",
-      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/1/5/6/8/medfake-f39c05840c125321.jpeg",
-      "published": "2026-09-09T16:20:00+02:00",
+      "id": "golem-99d63819863b43e3",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Ältere iPhone: Apple erhöht Preise bisheriger iPhone-Modelle teilweise erheblich",
+      "link": "https://www.golem.de/news/aeltere-iphone-apple-erhoeht-preise-bisheriger-iphone-modelle-teilweise-erheblich-2609-212857.html",
+      "summary": "Nicht nur die neuen iPhones sind teurer als ihre Vorgänger: Apple hat auch die Preise älterer, weiterhin verfügbarer Modelle erhöht. ( iPhone 18 , Apple )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212857&amp;page=1&amp;ts=1789027741",
+      "published": "2026-09-10T10:09:01+02:00",
       "category": "Technologie",
-      "score": 43.06
+      "score": 55.81
+    },
+    {
+      "id": "golem-20973d71360a1977",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Nach der Preiserhöhung: Hier gibt es Netflix zum alten Preis und teilweise mit ordentlich Rabatt",
+      "link": "https://www.golem.de/news/nach-der-preiserhoehung-hier-gibt-es-netflix-zum-alten-preis-und-teilweise-mit-ordentlich-rabatt-2609-212800.html",
+      "summary": "Neukunden von Netflix müssen seit Anfang September 2026 mehr für das Abo bezahlen. Diese höheren Kosten lassen sich umgehen. Ein Ratgebertext von Ingo Pakalski ( Netflix , Telekom )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212800&amp;page=1&amp;ts=1789023662",
+      "published": "2026-09-10T09:01:02+02:00",
+      "category": "Technologie",
+      "score": 54.87
     }
   ]
 }

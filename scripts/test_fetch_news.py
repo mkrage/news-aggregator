@@ -151,7 +151,9 @@ class TestDedupe(unittest.TestCase):
         self.assertEqual([x["id"] for x in fn.dedupe(articles)], ["a", "b"])
 
 
-class TestScoring(unittest.TestCase):
+class ArticleFactory:
+    """Basis für Scoring- und Cluster-Tests: eindeutige Titel, gleiche Zeit."""
+
     def _article(self, **kwargs):
         base = {
             "id": "x",
@@ -163,52 +165,174 @@ class TestScoring(unittest.TestCase):
             "published": datetime.now(timezone.utc).isoformat(),
         }
         base.update(kwargs)
+        base.setdefault("link", f"https://example.com/{base['id']}")
         return base
 
+    def _distinct(self, index, **kwargs):
+        # Themen-Cluster würden gleiche Titel zusammenfassen; wo es um Scoring
+        # oder Limits geht, muss jeder Artikel ein eigenes Thema sein.
+        words = ("Alpha", "Beta", "Gamma", "Delta", "Epsilon", "Zeta", "Eta", "Theta", "Iota", "Kappa")
+        word = words[index % len(words)]
+        return self._article(title=f"{word}werk meldet {word}zahlen aus {word}stadt", **kwargs)
+
+
+class TestTokenize(unittest.TestCase):
+    def test_kurze_woerter_fallen_weg(self):
+        self.assertEqual(fn.tokenize("Der Rat tut es"), set())
+
+    def test_leerer_text(self):
+        self.assertEqual(fn.tokenize(""), set())
+
+    def test_stopwoerter_fallen_weg(self):
+        self.assertNotIn("nicht", fn.tokenize("Das gilt nicht"))
+
+    def test_flexion_wird_vereinheitlicht(self):
+        self.assertEqual(fn.tokenize("Republikaner"), fn.tokenize("Republikanern"))
+
+    def test_umlaute_werden_gefaltet(self):
+        self.assertEqual(fn.tokenize("Wähler"), {"wahl"})
+
+    def test_tausendertrenner_vereinheitlicht(self):
+        self.assertIn("5000", fn.tokenize("5.000 Dollar"))
+        self.assertIn("5000", fn.tokenize("5000 Dollar"))
+
+    def test_datum_bleibt_unberuehrt(self):
+        self.assertNotIn("09092026", fn.tokenize("09.09.2026"))
+
+
+class TestClustering(ArticleFactory, unittest.TestCase):
+    # Echte Schlagzeilen und Vorspänne desselben Ereignisses: unterschiedlich
+    # formuliert, gleiche Nachricht. Genau der Fall, der doppelt oben stand.
+    def _trump_tagesschau(self, **kwargs):
+        return self._article(
+            source="tagesschau",
+            sourceWeight=1.0,
+            category="Politik",
+            title="Trump lockt auf Parteitag Wähler mit 5.000-Dollar-Versprechen",
+            summary=(
+                "Den Republikanern droht bei den US-Kongresswahlen im November eine "
+                "Schlappe. Die Umfragewerte von Präsident Trump sinken. Er verspricht "
+                "im Falle eines Wahlsiegs 5.000 Dollar für jeden Erwachsenen."
+            ),
+            **kwargs,
+        )
+
+    def _trump_spiegel(self, **kwargs):
+        return self._article(
+            source="spiegel",
+            sourceWeight=0.95,
+            category="Politik",
+            title="USA: Donald Trump bietet US-Bürgern 5000 Dollar",
+            summary=(
+                "Beim Parteitag der US-Republikaner peitscht Präsident Trump seine "
+                "Partei auf den Wahlkampfendspurt ein. Er bietet Bürgern Geld für ihre "
+                "Stimme: 5000 Dollar, falls die Republikaner die Midterms gewinnen."
+            ),
+            **kwargs,
+        )
+
+    def test_gleiche_nachricht_erscheint_nur_einmal(self):
+        ts = self._trump_tagesschau(id="a")
+        sp = self._trump_spiegel(id="b")
+        top = fn.generate_top_news([sp, ts])
+        self.assertEqual([a["id"] for a in top], ["a"])
+
+    def test_bessere_quelle_vertritt_das_thema(self):
+        # Reihenfolge der Eingabe darf die Wahl des Vertreters nicht bestimmen.
+        for order in ([0, 1], [1, 0]):
+            articles = [self._trump_tagesschau(id="ts"), self._trump_spiegel(id="sp")]
+            top = fn.generate_top_news([articles[i] for i in order])
+            self.assertEqual(top[0]["source"], "tagesschau")
+
+    def test_weitere_quellen_stehen_in_coverage(self):
+        ts = self._trump_tagesschau(id="a")
+        sp = self._trump_spiegel(id="b")
+        top = fn.generate_top_news([ts, sp])
+        coverage = top[0]["coverage"]
+        self.assertEqual(coverage["sourceCount"], 2)
+        self.assertEqual([o["source"] for o in coverage["others"]], ["spiegel"])
+        self.assertEqual(coverage["others"][0]["link"], sp["link"])
+
+    def test_einzelmeldung_ohne_coverage(self):
+        top = fn.generate_top_news([self._distinct(0, id="a")])
+        self.assertNotIn("coverage", top[0])
+
+    def test_verschiedene_themen_bleiben_getrennt(self):
+        a = self._article(id="a", title="Bundesbank senkt Prognose für das Wachstum")
+        b = self._article(id="b", title="Apple stellt neue Uhr mit Sensoren vor")
+        top = fn.generate_top_news([a, b])
+        self.assertEqual(len(top), 2)
+
+    def test_gemeinsames_themenfeld_reicht_nicht(self):
+        # Zwei geteilte Wörter ziehen sonst ein ganzes Themenfeld zusammen.
+        a = self._article(id="a", title="Sachsen-Anhalt bekommt Fördermittel für Verkehrsprojekte")
+        b = self._article(id="b", title="Sachsen-Anhalt streitet über Bildungspolitik")
+        self.assertEqual(len(fn.generate_top_news([a, b])), 2)
+
+    def test_naechste_quelle_uebernimmt_wenn_ausgereizt(self):
+        # tagesschau ist ausgereizt; das nächste Thema soll trotzdem erscheinen,
+        # dann vertreten durch spiegel.
+        articles = []
+        for i in range(fn.MAX_PER_SOURCE + 1):
+            articles.append(
+                self._distinct(i, id=f"ts{i}", source="tagesschau", sourceWeight=1.0)
+            )
+            articles.append(self._distinct(i, id=f"sp{i}", source="spiegel", sourceWeight=0.95))
+
+        top = fn.generate_top_news(articles)
+        self.assertEqual(len(top), fn.MAX_PER_SOURCE + 1)
+        self.assertEqual(sum(1 for a in top if a["source"] == "tagesschau"), fn.MAX_PER_SOURCE)
+        self.assertEqual(sum(1 for a in top if a["source"] == "spiegel"), 1)
+
+
+class TestScoring(ArticleFactory, unittest.TestCase):
     def test_neuer_artikel_schlaegt_alten(self):
-        old = self._article(published=(datetime.now(timezone.utc) - timedelta(hours=40)).isoformat())
-        new = self._article()
+        old = self._distinct(
+            0, id="a", published=(datetime.now(timezone.utc) - timedelta(hours=40)).isoformat()
+        )
+        new = self._distinct(1, id="b")
         top = fn.generate_top_news([old, new])
         self.assertGreater(new["score"], old["score"])
         self.assertEqual(top[0]["id"], new["id"])
 
     def test_schluesselwoerter_erhoehen_score(self):
-        plain = self._article(id="a", title="Ein ganz normaler Titel")
+        plain = self._distinct(0, id="a")
         hot = self._article(id="b", title="Krieg in der Ukraine")
         fn.generate_top_news([plain, hot])
         self.assertGreater(hot["score"], plain["score"])
 
     def test_max_pro_quelle(self):
-        articles = [self._article(id=f"h{i}", source="heise") for i in range(10)]
-        articles += [self._article(id=f"g{i}", source="golem", sourceWeight=0.85) for i in range(10)]
+        articles = [self._distinct(i, id=f"h{i}", source="heise") for i in range(10)]
+        articles += [
+            self._distinct(i, id=f"g{i}", source="golem", sourceWeight=0.85) for i in range(10)
+        ]
         top = fn.generate_top_news(articles)
         for source in ("heise", "golem"):
             self.assertLessEqual(sum(1 for a in top if a["source"] == source), fn.MAX_PER_SOURCE)
 
     def test_top_limit(self):
         articles = [
-            self._article(id=f"{src}{i}", source=src)
+            self._distinct(i, id=f"{src}{i}", source=src)
             for src in ("heise", "golem", "spiegel", "tagesschau")
             for i in range(10)
         ]
         self.assertLessEqual(len(fn.generate_top_news(articles)), fn.TOP_NEWS_LIMIT)
 
-    def test_quellenuebergreifendes_thema_gewinnt(self):
-        shared = "Bundestag beschliesst neues Klimapaket morgen"
-        a = self._article(id="a", source="heise", title=shared)
-        b = self._article(id="b", source="golem", title=shared, sourceWeight=0.9)
-        alone = self._article(id="c", source="spiegel", title="Etwas völlig anderes ohne Bezug", sourceWeight=0.9)
+    def test_mehr_quellen_heben_das_thema(self):
+        title = "Bundestag beschliesst Klimapaket mit Milliardenhilfen"
+        a = self._article(id="a", source="heise", title=title)
+        b = self._article(id="b", source="golem", title=title, sourceWeight=0.9)
+        alone = self._distinct(5, id="c", source="spiegel", sourceWeight=0.9)
         fn.generate_top_news([a, b, alone])
         self.assertGreater(a["score"], alone["score"])
 
-    def test_eigene_quelle_zaehlt_nicht_als_verwandt(self):
-        shared = "Bundestag beschliesst neues Klimapaket morgen"
-        a = self._article(id="a", source="heise", title=shared)
-        b = self._article(id="b", source="heise", title=shared)
-        fn.generate_top_news([a, b])
-        solo = self._article(id="c", source="heise", title=shared)
+    def test_eine_quelle_hebt_sich_nicht_selbst(self):
+        title = "Bundestag beschliesst Klimapaket mit Milliardenhilfen"
+        doubled = self._article(id="a", source="heise", title=title)
+        fn.generate_top_news([doubled, self._article(id="b", source="heise", title=title)])
+        solo = self._article(id="c", source="heise", title=title)
         fn.generate_top_news([solo])
-        self.assertEqual(a["score"], solo["score"])
+        self.assertEqual(doubled["score"], solo["score"])
 
 
 class TestPlausibility(unittest.TestCase):

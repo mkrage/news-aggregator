@@ -9,6 +9,10 @@ const AI_SUMMARY_MAX_AGE_HOURS = 24;
 const THEMES = ["app", "editorial"];
 const VIEWS = ["grid", "list"];
 
+// Ab dieser Breite ist das Zeitungslayout die Voreinstellung. Muss zur
+// gleichnamigen Abfrage im Inline-Skript in index.html passen.
+const WIDE_SCREEN_QUERY = "(min-width: 64rem)";
+
 // Muss zur Masthead-Fläche (--surface) des jeweiligen Themes passen, damit die
 // Browserleiste auf Mobilgeräten nicht aus dem Rahmen fällt.
 const THEME_COLORS = {
@@ -27,8 +31,10 @@ const state = {
   view: "grid",
   theme: "app",
   mode: "light",
-  // Solange der Modus nicht bewusst gewählt wurde, folgt er dem System.
+  // Solange der Modus nicht bewusst gewählt wurde, folgt er dem System,
+  // das Theme der Bildschirmbreite.
   modeExplicit: false,
+  themeExplicit: false,
   read: new Map(), // id -> Zeitstempel, explizit markiert
   scrolled: new Map(), // id -> Zeitstempel, beim Scrollen erfasst
   // Snapshot beim Laden: nur diese Artikel blendet "Gelesene ausblenden" aus.
@@ -97,17 +103,33 @@ function systemPrefersDark() {
     : false;
 }
 
+// Am großen Bildschirm ist die Zeitung die schönere Vorgabe, am Telefon die
+// kompakte App-Ansicht. Nur eine Vorgabe: eine eigene Wahl gilt überall.
+function prefersEditorial() {
+  return typeof window.matchMedia === "function"
+    ? window.matchMedia(WIDE_SCREEN_QUERY).matches
+    : false;
+}
+
 function loadPrefs() {
   const prefs = readJson(PREFS_KEY) || {};
 
-  state.theme = THEMES.includes(prefs.theme) ? prefs.theme : "app";
+  state.themeExplicit = THEMES.includes(prefs.theme);
+  state.theme = state.themeExplicit
+    ? prefs.theme
+    : prefersEditorial()
+      ? "editorial"
+      : "app";
   state.view = VIEWS.includes(prefs.view) ? prefs.view : "grid";
   state.modeExplicit = prefs.mode === "light" || prefs.mode === "dark";
   state.mode = state.modeExplicit ? prefs.mode : systemPrefersDark() ? "dark" : "light";
 }
 
 function savePrefs() {
-  const prefs = { theme: state.theme, view: state.view };
+  // Nur bewusst Gewähltes festschreiben – sonst friert die erste Änderung an
+  // Modus oder Layout die geräteabhängige Theme-Vorgabe ein.
+  const prefs = { view: state.view };
+  if (state.themeExplicit) prefs.theme = state.theme;
   if (state.modeExplicit) prefs.mode = state.mode;
   writeJson(PREFS_KEY, prefs);
 }
@@ -160,9 +182,12 @@ function applyAppearance() {
 }
 
 function setTheme(theme) {
-  if (!THEMES.includes(theme) || theme === state.theme) return;
+  if (!THEMES.includes(theme)) return;
+  const changed = theme !== state.theme;
   state.theme = theme;
+  state.themeExplicit = true;
   savePrefs();
+  if (!changed) return;
   applyAppearance();
 }
 
@@ -458,6 +483,9 @@ function buildCard(article, maxScore) {
   content.appendChild(buildTitle(article, item));
   content.appendChild(buildSummary(article));
 
+  const coverage = buildCoverage(article);
+  if (coverage) content.appendChild(coverage);
+
   const toggleRead = el("button", "toggle-read");
   toggleRead.addEventListener("click", () => {
     if (isRead(article.id)) {
@@ -557,6 +585,37 @@ function buildSummary(article) {
 
   paragraph.append(preview, full, toggle);
   return paragraph;
+}
+
+// Top-News zeigen pro Nachricht nur einen Artikel. Wer sonst noch darüber
+// berichtet, steht hier – mit Link, damit die Auswahl nachvollziehbar bleibt.
+function buildCoverage(article) {
+  const coverage = article.coverage;
+  const others = coverage && Array.isArray(coverage.others) ? coverage.others : [];
+  if (others.length === 0) return null;
+
+  const row = el("div", "news-coverage");
+  row.appendChild(el("span", "coverage-label", "Auch bei"));
+
+  others.forEach((other) => {
+    const name = other && typeof other.source === "string" && other.source ? other.source : "unbekannt";
+    const url = other ? safeUrl(other.link) : null;
+
+    // news-source erbt die Farbe der Quelle, coverage-source nur das Verhalten.
+    const chip = el(url ? "a" : "span", "news-source coverage-source", name);
+    chip.dataset.source = name;
+
+    if (url) {
+      chip.href = url;
+      chip.target = "_blank";
+      chip.rel = "noopener noreferrer";
+      if (typeof other.title === "string" && other.title) chip.title = other.title;
+    }
+
+    row.appendChild(chip);
+  });
+
+  return row;
 }
 
 // Nur die betroffene Kachel anfassen – kein Neuaufbau der ganzen Liste.

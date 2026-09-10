@@ -751,6 +751,33 @@ main {
   color: var(--accent-hover);
 }
 
+/* "Auch bei": weitere Quellen zur selben Nachricht. Die Namen tragen
+   news-source und damit die Farbe ihrer Quelle. */
+.news-coverage {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.5rem;
+  margin: -0.25rem 0 0.85rem;
+  font-size: 0.74rem;
+}
+
+.coverage-label {
+  color: var(--text-faint);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.coverage-source {
+  text-decoration: none;
+}
+
+a.coverage-source:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
 .news-actions {
   display: flex;
   align-items: center;
@@ -1145,6 +1172,18 @@ footer {
 
   .tabbar-inner::-webkit-scrollbar {
     display: none;
+  }
+
+  /* Die drei Tabs teilen sich die ganze Breite, statt links zu kleben. Im
+     Zeitungs-Theme bleiben sie zentriert – dort sind sie keine Schaltflächen. */
+  [data-theme="app"] .tabbar-inner {
+    gap: 0.4rem;
+  }
+
+  [data-theme="app"] .tab {
+    flex: 1 1 0;
+    padding-inline: 0.5rem;
+    text-align: center;
   }
 
   .news-list.top-view,
