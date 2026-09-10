@@ -78,9 +78,15 @@ Zwei Themes stehen zur Wahl, umschaltbar in der Kopfzeile:
 - **Zeitung** – zentrierter Masthead, Serif-Schlagzeilen (Newsreader), warmes
   Papier, Haarlinien statt Karten
 
-Ohne eigene Wahl richtet sich das Theme nach der Bildschirmbreite: ab 64rem die
-Zeitung, darunter die App-Ansicht. Die Vorgabe wird nicht gespeichert – erst ein
-Klick auf „App" oder „Zeitung" schreibt sie fest und gilt dann überall.
+Ohne eigene Wahl richtet sich das Theme nach der Bildschirmbreite: ab 64rem
+(1024 px) die Zeitung, darunter die App-Ansicht. Die Vorgabe wird nicht
+gespeichert – erst ein Klick auf „App" oder „Zeitung" schreibt sie fest und gilt
+dann überall.
+
+Ältere Stände schrieben das Theme bei jeder Änderung mit, auch wenn es nur die
+Vorgabe war. Ein gespeicherter Stand gilt darum erst ab der Versionsmarke
+`v: 2` als eigene Wahl; ohne sie greift wieder die Vorgabe. Wer sein Theme
+vorher bewusst gesetzt hatte, wählt es einmal neu.
 
 Jedes Theme hat einen Hell- und einen Dunkelmodus. Ohne eigene Wahl folgt die
 Seite der Systemeinstellung und reagiert live auf deren Wechsel; sobald der

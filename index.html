@@ -20,8 +20,9 @@
         var prefs = JSON.parse(localStorage.getItem("news-aggregator-prefs") || "{}");
         var root = document.documentElement;
         // Ohne eigene Wahl: Zeitung am großen Bildschirm, App am Telefon.
+        // prefs.v: erst ab Version 2 ist ein gespeichertes Theme eine Wahl.
         root.dataset.theme =
-          prefs.theme === "editorial" || prefs.theme === "app"
+          prefs.v >= 2 && (prefs.theme === "editorial" || prefs.theme === "app")
             ? prefs.theme
             : window.matchMedia("(min-width: 64rem)").matches
               ? "editorial"

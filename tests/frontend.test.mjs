@@ -723,10 +723,25 @@ section("Theme-Vorgabe je Gerät");
   );
 
   const chosen = await boot({
-    store: new Map([["news-aggregator-prefs", JSON.stringify({ theme: "app" })]]),
+    store: new Map([["news-aggregator-prefs", JSON.stringify({ v: 2, theme: "app" })]]),
     wide: true,
   });
   check("Eigene Wahl schlägt die Gerätevorgabe", chosen.doc.documentElement.dataset.theme === "app");
+
+  // Altstände schrieben das Theme bei jeder Änderung mit; das war keine Wahl.
+  const legacy = await boot({
+    store: new Map([["news-aggregator-prefs", JSON.stringify({ theme: "app", view: "list" })]]),
+    wide: true,
+  });
+  check(
+    "Alter Stand ohne Marke gilt nicht als Wahl",
+    legacy.doc.documentElement.dataset.theme === "editorial",
+    legacy.doc.documentElement.dataset.theme
+  );
+  check(
+    "Layout aus dem alten Stand bleibt erhalten",
+    legacy.doc.getElementById("news-list").className.includes("list-view")
+  );
 
   // Modus oder Layout umstellen darf die Vorgabe nicht festschreiben.
   const kept = await boot({ wide: true });
@@ -738,10 +753,9 @@ section("Theme-Vorgabe je Gerät");
   );
 
   fire(kept.doc.querySelector('[data-theme-choice="editorial"]'), "click");
-  check(
-    "Bestätigte Vorgabe wird gespeichert",
-    JSON.parse(kept.store.get("news-aggregator-prefs")).theme === "editorial"
-  );
+  const saved = JSON.parse(kept.store.get("news-aggregator-prefs"));
+  check("Bestätigte Vorgabe wird gespeichert", saved.theme === "editorial");
+  check("Stand trägt die Versionsmarke", saved.v === 2, JSON.stringify(saved));
 }
 
 console.log(`\n${failures === 0 ? "Alle Tests bestanden." : `${failures} Test(s) fehlgeschlagen.`}`);

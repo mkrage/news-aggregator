@@ -1,6 +1,10 @@
 const STORAGE_KEY = "news-aggregator-read";
 const SCROLLED_KEY = "news-aggregator-scrolled";
 const PREFS_KEY = "news-aggregator-prefs";
+// Bis v1 wurde das Theme bei jeder Änderung mitgeschrieben, auch wenn es nur
+// die Vorgabe war. Ein Stand ohne diese Marke sagt darum nichts darüber, ob das
+// Theme bewusst gewählt wurde.
+const PREFS_VERSION = 2;
 const PREVIEW_LENGTH = 280;
 const RETENTION_DAYS = 30;
 const SEARCH_DEBOUNCE_MS = 150;
@@ -114,7 +118,9 @@ function prefersEditorial() {
 function loadPrefs() {
   const prefs = readJson(PREFS_KEY) || {};
 
-  state.themeExplicit = THEMES.includes(prefs.theme);
+  // Ohne Versionsmarke gilt ein gespeichertes Theme nicht als eigene Wahl –
+  // dann greift wieder die Vorgabe nach Bildschirmbreite.
+  state.themeExplicit = prefs.v >= PREFS_VERSION && THEMES.includes(prefs.theme);
   state.theme = state.themeExplicit
     ? prefs.theme
     : prefersEditorial()
@@ -128,7 +134,7 @@ function loadPrefs() {
 function savePrefs() {
   // Nur bewusst Gewähltes festschreiben – sonst friert die erste Änderung an
   // Modus oder Layout die geräteabhängige Theme-Vorgabe ein.
-  const prefs = { view: state.view };
+  const prefs = { v: PREFS_VERSION, view: state.view };
   if (state.themeExplicit) prefs.theme = state.theme;
   if (state.modeExplicit) prefs.mode = state.mode;
   writeJson(PREFS_KEY, prefs);
