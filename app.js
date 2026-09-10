@@ -11,7 +11,10 @@ const SEARCH_DEBOUNCE_MS = 150;
 const AI_SUMMARY_MAX_AGE_HOURS = 24;
 
 const THEMES = ["app", "editorial"];
+// Kachel/Liste am breiten Bildschirm, Dichte am schmalen: einspaltig sehen
+// Kacheln und Liste gleich aus, dort ist die Frage eine andere.
 const VIEWS = ["grid", "list"];
+const DENSITIES = ["compact", "cards", "large"];
 
 // Ab dieser Breite ist das Zeitungslayout die Voreinstellung. Muss zur
 // gleichnamigen Abfrage im Inline-Skript in index.html passen.
@@ -33,6 +36,7 @@ const state = {
   aiSummary: null,
   tab: "top",
   view: "grid",
+  density: "cards",
   theme: "app",
   mode: "light",
   // Solange der Modus nicht bewusst gewählt wurde, folgt er dem System,
@@ -127,6 +131,7 @@ function loadPrefs() {
       ? "editorial"
       : "app";
   state.view = VIEWS.includes(prefs.view) ? prefs.view : "grid";
+  state.density = DENSITIES.includes(prefs.density) ? prefs.density : "cards";
   state.modeExplicit = prefs.mode === "light" || prefs.mode === "dark";
   state.mode = state.modeExplicit ? prefs.mode : systemPrefersDark() ? "dark" : "light";
 }
@@ -134,7 +139,7 @@ function loadPrefs() {
 function savePrefs() {
   // Nur bewusst Gewähltes festschreiben – sonst friert die erste Änderung an
   // Modus oder Layout die geräteabhängige Theme-Vorgabe ein.
-  const prefs = { v: PREFS_VERSION, view: state.view };
+  const prefs = { v: PREFS_VERSION, view: state.view, density: state.density };
   if (state.themeExplicit) prefs.theme = state.theme;
   if (state.modeExplicit) prefs.mode = state.mode;
   writeJson(PREFS_KEY, prefs);
@@ -178,6 +183,12 @@ function applyAppearance() {
     btn.setAttribute("aria-pressed", String(active));
   });
 
+  document.querySelectorAll(".density-btn").forEach((btn) => {
+    const active = btn.dataset.density === state.density;
+    btn.classList.toggle("active", active);
+    btn.setAttribute("aria-pressed", String(active));
+  });
+
   if (dom.modeToggle) {
     const toDark = state.mode === "light";
     dom.modeToggle.title = toDark ? "Dunkelmodus einschalten" : "Hellmodus einschalten";
@@ -207,6 +218,14 @@ function setMode(mode, explicit = true) {
 function setView(view) {
   if (!VIEWS.includes(view) || view === state.view) return;
   state.view = view;
+  savePrefs();
+  applyAppearance();
+  render();
+}
+
+function setDensity(density) {
+  if (!DENSITIES.includes(density) || density === state.density) return;
+  state.density = density;
   savePrefs();
   applyAppearance();
   render();
@@ -438,8 +457,10 @@ function render() {
     return;
   }
 
+  // Beide Klassen sind immer gesetzt; welche greift, entscheidet die
+  // Bildschirmbreite im Stylesheet.
   const isGrid = state.view === "grid";
-  dom.newsList.className = `news-list ${isGrid ? "top-view" : "list-view"}`;
+  dom.newsList.className = `news-list ${isGrid ? "top-view" : "list-view"} density-${state.density}`;
 
   // Bezugsgröße für den Relevanzbalken: der stärkste Artikel der Auswahl.
   const maxScore = Math.max(
@@ -715,6 +736,10 @@ function initAppearanceControls() {
 
   document.querySelectorAll(".view-btn").forEach((btn) => {
     btn.addEventListener("click", () => setView(btn.dataset.view));
+  });
+
+  document.querySelectorAll(".density-btn").forEach((btn) => {
+    btn.addEventListener("click", () => setDensity(btn.dataset.density));
   });
 
   if (dom.modeToggle) {

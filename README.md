@@ -90,8 +90,8 @@ vorher bewusst gesetzt hatte, wählt es einmal neu.
 
 Jedes Theme hat einen Hell- und einen Dunkelmodus. Ohne eigene Wahl folgt die
 Seite der Systemeinstellung und reagiert live auf deren Wechsel; sobald der
-Modus einmal von Hand umgeschaltet wurde, gilt diese Wahl. Theme, Modus und
-Layout (Kacheln/Liste) liegen unter `news-aggregator-prefs` in `localStorage`.
+Modus einmal von Hand umgeschaltet wurde, gilt diese Wahl. Theme, Modus, Layout
+und Dichte liegen unter `news-aggregator-prefs` in `localStorage`.
 Ein Inline-Skript im `<head>` setzt beides vor dem ersten Paint, damit nichts
 sichtbar umspringt – die Breitenabfrage ist dort bewusst doppelt gepflegt.
 
@@ -100,6 +100,27 @@ ist – wer bei „App" bleibt, holt keinen externen Font.
 
 Auf schmalen Displays teilen sich die drei Tabs die volle Breite; am großen
 Bildschirm behalten sie ihre natürliche Größe.
+
+### Layout und Dichte
+
+Welche Frage der Umschalter rechts in der Filterzeile stellt, hängt von der
+Breite ab – ab 40rem (641 px) das Layout, darunter die Dichte:
+
+| Ab 641 px | Bis 640 px |
+| --- | --- |
+| **Kacheln** – mehrspaltiges Raster, Bild oben | **Kompakt** – Zeile mit Vorschaubild, ohne Vorspann |
+| **Liste** – volle Breite, Bild an der Seite | **Karten** – eine Spalte, Bild oben, mit Vorspann |
+| | **Große Karten** – Bild im 4:3-Format, größere Schlagzeile |
+
+Der Grund für die Trennung: einspaltig sehen Kacheln und Liste praktisch gleich
+aus, dort ist nicht das Layout die Frage, sondern wie viel Platz ein Artikel
+bekommt. Beide Wahlen liegen nebeneinander in den Einstellungen, jedes Gerät
+benutzt die für seine Breite.
+
+Im Stylesheet heißt das: die `list-view`-Regeln stehen in
+`@media (min-width: 40.0625rem)`, die drei `density-*`-Regeln in
+`@media (max-width: 40rem)`. `render()` setzt beide Klassen immer, welche greift,
+entscheidet allein die Breite – so braucht das Skript keinen Resize-Listener.
 
 ## Icons
 

@@ -207,9 +207,10 @@ body {
   margin-left: auto;
 }
 
-/* ---------- Umschalter (Theme, Layout) ---------- */
+/* ---------- Umschalter (Theme, Layout, Dichte) ---------- */
 .theme-toggle,
-.view-toggle {
+.view-toggle,
+.density-toggle {
   display: flex;
   gap: 0.15rem;
   padding: 0.2rem;
@@ -219,7 +220,8 @@ body {
 }
 
 .theme-btn,
-.view-btn {
+.view-btn,
+.density-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -238,18 +240,21 @@ body {
 }
 
 .theme-btn:hover,
-.view-btn:hover {
+.view-btn:hover,
+.density-btn:hover {
   color: var(--text);
 }
 
 .theme-btn.is-active,
-.view-btn.active {
+.view-btn.active,
+.density-btn.active {
   background: var(--surface);
   color: var(--accent);
   box-shadow: var(--shadow-raised);
 }
 
-.view-btn svg {
+.view-btn svg,
+.density-btn svg {
   width: 1.05rem;
   height: 1.05rem;
 }
@@ -585,6 +590,11 @@ main {
   margin-left: auto;
 }
 
+/* Die Dichte ist nur auf schmalen Displays eine Frage – siehe Mobil-Block. */
+.density-toggle {
+  display: none;
+}
+
 /* ---------- Liste ---------- */
 .news-list {
   display: grid;
@@ -594,10 +604,6 @@ main {
 
 .news-list.top-view {
   grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
-}
-
-.news-list.list-view {
-  gap: 0;
 }
 
 /* ---------- Artikelkarte ---------- */
@@ -846,36 +852,44 @@ a.coverage-source:hover {
   opacity: 0.6;
 }
 
-/* ---------- Listenansicht ---------- */
-.news-list.list-view .news-item {
-  flex-direction: row;
-  align-items: stretch;
-  border-radius: 0;
-  border-inline: none;
-  border-top: none;
-}
+/* ---------- Listenansicht ----------
+   Nur ab 40.0625rem (641 px): schmaler entscheidet die Dichte, und list-view
+   soll dort nichts mehr bewirken – siehe Mobil-Block am Ende. */
+@media (min-width: 40.0625rem) {
+  .news-list.list-view {
+    gap: 0;
+  }
 
-.news-list.list-view .news-item:first-child {
-  border-top: 1px solid var(--border);
-}
+  .news-list.list-view .news-item {
+    flex-direction: row;
+    align-items: stretch;
+    border-radius: 0;
+    border-inline: none;
+    border-top: none;
+  }
 
-.news-list.list-view .news-item:hover {
-  background: var(--surface-sunken);
-  box-shadow: none;
-}
+  .news-list.list-view .news-item:first-child {
+    border-top: 1px solid var(--border);
+  }
 
-.news-list.list-view .news-image,
-.news-list.list-view .news-image-placeholder {
-  width: 13rem;
-  flex-shrink: 0;
-  aspect-ratio: auto;
-  align-self: stretch;
-  border-radius: var(--radius-control);
-  margin: 1rem 0 1rem 1rem;
-}
+  .news-list.list-view .news-item:hover {
+    background: var(--surface-sunken);
+    box-shadow: none;
+  }
 
-.news-list.list-view .news-content {
-  padding: 1rem 1.1rem;
+  .news-list.list-view .news-image,
+  .news-list.list-view .news-image-placeholder {
+    width: 13rem;
+    flex-shrink: 0;
+    aspect-ratio: auto;
+    align-self: stretch;
+    border-radius: var(--radius-control);
+    margin: 1rem 0 1rem 1rem;
+  }
+
+  .news-list.list-view .news-content {
+    padding: 1rem 1.1rem;
+  }
 }
 
 /* ---------- Zustände ---------- */
@@ -1086,33 +1100,37 @@ footer {
   padding: 0 0 0.8rem;
 }
 
-[data-theme="editorial"] .news-list.list-view .news-item {
-  border-inline: none;
-  border-top: 1px solid var(--border);
-  padding-top: 0;
-}
+@media (min-width: 40.0625rem) {
+  [data-theme="editorial"] .news-list.list-view .news-item {
+    border-inline: none;
+    border-top: 1px solid var(--border);
+    padding-top: 0;
+  }
 
-[data-theme="editorial"] .news-list.list-view .news-item:hover {
-  background: transparent;
-}
+  [data-theme="editorial"] .news-list.list-view .news-item:hover {
+    background: transparent;
+  }
 
-/* Bild in der Zeitungs-Listenansicht nach rechts. */
-[data-theme="editorial"] .news-list.list-view .news-image,
-[data-theme="editorial"] .news-list.list-view .news-image-placeholder {
-  order: 2;
-  width: 11rem;
-  margin: 1.2rem 0 1.2rem 1.4rem;
-}
+  /* Bild in der Zeitungs-Listenansicht nach rechts. */
+  [data-theme="editorial"] .news-list.list-view .news-image,
+  [data-theme="editorial"] .news-list.list-view .news-image-placeholder {
+    order: 2;
+    width: 11rem;
+    margin: 1.2rem 0 1.2rem 1.4rem;
+  }
 
-[data-theme="editorial"] .news-list.list-view .news-content {
-  padding: 1.2rem 0;
+  [data-theme="editorial"] .news-list.list-view .news-content {
+    padding: 1.2rem 0;
+  }
 }
 
 /* ==========================================================================
    Mobil
    ========================================================================== */
 
-@media (max-width: 48rem) {
+/* Nur das Tablet-Fenster: darunter gibt es kein Kachel/Liste mehr, sondern die
+   drei Dichten – deren Regeln sollen hier nicht überschrieben werden. */
+@media (min-width: 40.0625rem) and (max-width: 48rem) {
   .news-list.list-view .news-item {
     flex-direction: column;
   }
@@ -1186,17 +1204,139 @@ footer {
     text-align: center;
   }
 
-  .news-list.top-view,
-  [data-theme="editorial"] .news-list.top-view {
-    grid-template-columns: 1fr;
-  }
-
   .switch-label {
     font-size: 0.8rem;
   }
 
   [data-theme="editorial"] .tabbar-inner {
     gap: 1.1rem;
+  }
+
+  /* ---------- Eine Spalte, drei Dichten ----------
+     Kachel oder Liste macht bei einer Spalte keinen Unterschied. Statt der
+     Layout-Wahl steht hier die Frage, wie viel Platz ein Artikel bekommt.
+     top-view/list-view bleiben gesetzt, wirken hier aber nicht mehr. */
+  .view-toggle {
+    display: none;
+  }
+
+  .density-toggle {
+    display: flex;
+    margin-left: auto;
+  }
+
+  .density-btn {
+    padding: 0.35rem 0.55rem;
+  }
+
+  .news-list,
+  .news-list.top-view,
+  .news-list.list-view,
+  [data-theme="editorial"] .news-list.top-view {
+    grid-template-columns: 1fr;
+  }
+
+  /* Der Abstand hängt nur an der Dichte, nicht an der Wahl vom großen
+     Bildschirm. Die Zeitungs-Varianten stehen mit, weil das Theme für
+     top-view eigene Abstände setzt. */
+  [data-theme="editorial"] .news-list.density-compact,
+  .news-list.density-compact {
+    gap: 0;
+  }
+
+  [data-theme="editorial"] .news-list.density-cards,
+  .news-list.density-cards {
+    gap: 1.1rem;
+  }
+
+  [data-theme="editorial"] .news-list.density-large,
+  .news-list.density-large {
+    gap: 1.5rem;
+  }
+
+  /* Kompakt: Vorschaubild neben der Schlagzeile, Haarlinien statt Karten. Der
+     Vorspann fällt weg – wer ihn will, nimmt eine der Kartenansichten. */
+  .news-list.density-compact .news-item,
+  [data-theme="editorial"] .news-list.density-compact .news-item {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0.85rem;
+    padding: 0.9rem 0;
+    background: transparent;
+    border: none;
+    border-top: 1px solid var(--border);
+    border-radius: 0;
+  }
+
+  .news-list.density-compact .news-item:first-child,
+  [data-theme="editorial"] .news-list.density-compact .news-item:first-child {
+    border-top: none;
+  }
+
+  .news-list.density-compact .news-item:hover {
+    box-shadow: none;
+  }
+
+  .news-list.density-compact .news-image,
+  .news-list.density-compact .news-image-placeholder,
+  [data-theme="editorial"] .news-list.density-compact .news-image,
+  [data-theme="editorial"] .news-list.density-compact .news-image-placeholder {
+    order: 2;
+    width: 4.75rem;
+    flex-shrink: 0;
+    aspect-ratio: 1;
+    border-radius: var(--radius-control);
+    margin: 0;
+  }
+
+  .news-list.density-compact .news-image-placeholder {
+    font-size: 1.4rem;
+  }
+
+  /* min-width: 0 – sonst sprengt eine lange Schlagzeile die Flex-Spalte. */
+  .news-list.density-compact .news-content,
+  [data-theme="editorial"] .news-list.density-compact .news-content {
+    padding: 0;
+    min-width: 0;
+  }
+
+  .news-list.density-compact .news-title,
+  [data-theme="editorial"] .news-list.density-compact .news-title {
+    font-size: 1rem;
+  }
+
+  .news-list.density-compact .news-summary {
+    display: none;
+  }
+
+  .news-list.density-compact .news-coverage {
+    margin: 0.4rem 0 0;
+  }
+
+  .news-list.density-compact .news-actions {
+    margin-top: 0.55rem;
+  }
+
+  .news-list.density-compact .toggle-read {
+    padding: 0.25rem 0.55rem;
+    font-size: 0.76rem;
+  }
+
+  /* Große Karten: mehr Bild, größere Schlagzeile. */
+  .news-list.density-large {
+    --image-ratio: 4 / 3;
+  }
+
+  .news-list.density-large .news-title {
+    font-size: 1.3rem;
+  }
+
+  .news-list.density-large .news-content {
+    padding: 1rem 1.1rem 1.2rem;
+  }
+
+  .news-list.density-large .news-summary {
+    font-size: 0.95rem;
   }
 }
 

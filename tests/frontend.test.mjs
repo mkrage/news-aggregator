@@ -758,5 +758,58 @@ section("Theme-Vorgabe je Gerät");
   check("Stand trägt die Versionsmarke", saved.v === 2, JSON.stringify(saved));
 }
 
+/* ---------- 16. Dichte fuer schmale Displays ---------- */
+
+section("Dichte für schmale Displays");
+{
+  const store = new Map();
+  const { doc } = await boot({ store });
+  const list = () => doc.getElementById("news-list").className;
+
+  check("Standard-Dichte ist cards", list().includes("density-cards"), list());
+  check(
+    "Karten-Knopf ist aktiv",
+    doc.querySelector('.density-btn[data-density="cards"]').getAttribute("aria-pressed") === "true"
+  );
+  check(
+    "Layout und Dichte stehen gemeinsam an der Liste",
+    list().includes("top-view") && list().includes("density-cards"),
+    list()
+  );
+
+  fire(doc.querySelector('.density-btn[data-density="compact"]'), "click");
+  check("Auf kompakt gewechselt", list().includes("density-compact"), list());
+  check("Alte Dichte ist weg", !list().includes("density-cards"), list());
+  check("Dichte gemerkt", JSON.parse(store.get("news-aggregator-prefs")).density === "compact");
+  check(
+    "Knopfzustand umgestellt",
+    doc.querySelector('.density-btn[data-density="compact"]').getAttribute("aria-pressed") === "true" &&
+      doc.querySelector('.density-btn[data-density="cards"]').getAttribute("aria-pressed") === "false"
+  );
+
+  // Dichte und Layout sind unabhängig: beide Wahlen bleiben nebeneinander.
+  fire(doc.querySelector('.view-btn[data-view="list"]'), "click");
+  const prefs = JSON.parse(store.get("news-aggregator-prefs"));
+  check("Beide Wahlen gespeichert", prefs.view === "list" && prefs.density === "compact", JSON.stringify(prefs));
+
+  fire(doc.querySelector('.density-btn[data-density="large"]'), "click");
+  check("Auf große Karten gewechselt", list().includes("density-large"), list());
+
+  const reloaded = await boot({ store: new Map(store) });
+  check(
+    "Dichte überlebt Neuladen",
+    reloaded.doc.getElementById("news-list").className.includes("density-large"),
+    reloaded.doc.getElementById("news-list").className
+  );
+
+  const broken = await boot({
+    store: new Map([["news-aggregator-prefs", JSON.stringify({ v: 2, density: "riesig" })]]),
+  });
+  check(
+    "Unbekannte Dichte fällt auf cards zurück",
+    broken.doc.getElementById("news-list").className.includes("density-cards")
+  );
+}
+
 console.log(`\n${failures === 0 ? "Alle Tests bestanden." : `${failures} Test(s) fehlgeschlagen.`}`);
 process.exit(failures === 0 ? 0 : 1);
