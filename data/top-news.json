@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T13:10:38.437653+00:00",
+  "generatedAt": "2026-09-10T17:02:26.147660+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/77d98f22-0478-4f64-84ed-3cdf59874430/AAABoIlcz9Y/AAABnSSvrFg/16x9-big/trump-parteitag-republikaner-100.jpg?width=1920",
       "published": "2026-09-10T09:03:50+02:00",
       "category": "Politik",
-      "score": 89.81,
+      "score": 86.59,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -25,16 +25,60 @@
       }
     },
     {
-      "id": "spiegel-c699d3c3df37b4dd",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Armin Laschet: Studie sieht keinen Einfluss von Lacher auf Bundestagswahl 2021",
-      "link": "https://www.spiegel.de/politik/deutschland/armin-laschet-studie-sieht-keinen-einfluss-von-lacher-des-cdu-kanzlerkandidaten-auf-bundestagswahl-2021-a-c53815e3-79f0-4ffd-9873-396f061304ac#ref=rss",
-      "summary": "Welche Auswirkungen hatte das Bild des lachenden Kanzlerkandidaten Armin Laschet nach der Ahrtalflut auf die Bundestagswahl 2021? Wissenschaftler der Universitäten Mainz und Frankfurt kommen zu einer eindeutigen Einschätzung.",
-      "image": "https://cdn.prod.www.spiegel.de/images/c7047bac-9956-48ef-a9ec-41e24b0660f9_w1200_r1.778_fpx39.98_fpy49.96.jpg",
-      "published": "2026-09-10T11:38:00+02:00",
+      "id": "tagesschau-4f14b9dcd0eb7e47",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "EZB erhöht erneut den Leitzins - auf 2,5 Prozent",
+      "link": "https://www.tagesschau.de/wirtschaft/finanzen/ezb-sitzung-leitzins-100.html",
+      "summary": "Die Teuerungsrate in der Eurozone ist zuletzt über die Drei-Prozent-Marke geklettert. Um die Inflation abzuschwächen, hat die Europäische Zentralbank nun erneut den Leitzins angehoben.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/a9f81841-6206-4205-aa91-3ddee7a12c89/AAABoITz21g/AAABnSSvrFg/16x9-big/ezb-560.jpg?width=1920",
+      "published": "2026-09-10T15:44:42+02:00",
+      "category": "Wirtschaft",
+      "score": 80.25,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "EZB: Europäische Zentralbank erhöht Leitzins um 0,25 Prozentpunkte",
+            "link": "https://www.spiegel.de/wirtschaft/ezb-erhoeht-leitzinsen-um-0-25-prozentpunkte-a-1af4899b-e967-4ffe-b993-2ff5526f4ac8#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-30a5f03ac741dfee",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Iran-Krieg: Wie die Golfstaaten US-Präsident Trump sehen",
+      "link": "https://www.tagesschau.de/ausland/asien/trump-golfstaaten-verhaeltnis-100.html",
+      "summary": "Anfangs gab es viel Sympathie und große Deals. Doch inzwischen ist die Trump-Euphorie am Golf vorbei. Die arabischen Partner fühlen sich von den USA im Iran-Krieg alleingelassen - und ziehen ihre Lehren daraus. Von Anna Osius. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/c2bb9918-fc41-4b4d-8892-e2f1fecaf34f/AAABoIu5scs/AAABnSSvrFg/16x9-big/mohammed-bin-salman-trump-100.jpg?width=1920",
+      "published": "2026-09-10T17:43:18+02:00",
       "category": "Politik",
-      "score": 83.05
+      "score": 77.9
+    },
+    {
+      "id": "tagesschau-f517103c61caf9c3",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "BSW geht in Sachsen-Anhalt in Gespräche mit AfD",
+      "link": "https://www.tagesschau.de/inland/gesellschaft/bsw-gespraeche-sachsen-anhalt-100.html",
+      "summary": "Eingeladen hatte die AfD alle Parteien - CDU, SPD, Grüne und Linke lehnten das Gesprächsangebot zur Regierungsbildung in Sachsen-Anhalt aber ab. Anders das BSW: Die Parteien wollen unter anderem über \"Friedenspolitik\" sprechen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/e44b016c-ff35-4561-97c1-52551adb53fc/AAABoIhh4g8/AAABnSSvrFg/16x9-big/bsw-240.jpg?width=1920",
+      "published": "2026-09-10T01:11:07+02:00",
+      "category": "Politik",
+      "score": 73.04,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "AfD in Sachsen-Anhalt: »Das ist tatsächlich der Bruch eines Wahlversprechens«",
+            "link": "https://www.spiegel.de/politik/afd-in-sachsen-anhalt-das-ist-tatsaechlich-der-bruch-eines-wahlversprechens-a-7c1065ef-a7aa-4e1d-a25f-ba8fbfc5ed2a#ref=rss"
+          }
+        ]
+      }
     },
     {
       "id": "tagesschau-ea286a68f79043cd",
@@ -43,86 +87,58 @@
       "title": "Trotz Ermittlungen: Krach will SPD-Spitzenkandidat in Berlin bleiben",
       "link": "https://www.tagesschau.de/inland/regional/berlin/rbb-spd-spitzenkandidat-krach-will-weiter-wahlkampf-machen-102.html",
       "summary": "Der Berliner SPD-Spitzenkandidat Krach will ungeachtet der Ermittlungen der Staatsanwaltschaft Hannover gegen ihn weiter Wahlkampf machen. Die Vorwürfe wies er erneut vehement zurück.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/01beace7-6e13-42cb-af32-180e85cce463/AAABoItEnDU/AAABnSSvrFg/16x9-big/rbb-steffen-krach-106.jpg?width=1920",
-      "published": "2026-09-10T14:19:36+02:00",
+      "image": "https://images.tagesschau.de/image/01beace7-6e13-42cb-af32-180e85cce463/AAABoIxDF2Q/AAABnSSvrFg/16x9-big/rbb-steffen-krach-106.jpg?width=1920",
+      "published": "2026-09-10T18:56:27+02:00",
       "category": "Politik",
-      "score": 82.29,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Berlin: SPD-Spitzenkandidat Steffen Krach weist Vorwürfe entschieden zurück",
-            "link": "https://www.spiegel.de/politik/deutschland/berlin-spd-spitzenkandidat-steffen-krach-weist-vorwuerfe-entschieden-zurueck-a-88ddb904-1adf-43a2-9b7d-eb6149196234#ref=rss"
-          }
-        ]
-      }
+      "score": 70.92
     },
     {
-      "id": "tagesschau-4f14b9dcd0eb7e47",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "EZB erhöht erneut den Leitzins - auf 2,5 Prozent",
-      "link": "https://www.tagesschau.de/wirtschaft/finanzen/ezb-sitzung-leitzins-100.html",
-      "summary": "Die Teuerungsrate in der Eurozone ist zuletzt über die Drei-Prozent-Marke geklettert. Um die Inflation abzuschwächen, hat die Europäische Zentralbank nun erneut den Leitzins angehoben.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/a9f81841-6206-4205-aa91-3ddee7a12c89/AAABoITz21g/AAABnSSvrFg/16x9-big/ezb-560.jpg?width=1920",
-      "published": "2026-09-10T14:15:29+02:00",
+      "id": "spiegel-bc67ae4c67f5d7fc",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Wahl in Berlin: Linke und CDU liefern sich Kopf-an-Kopf-Rennen – Infratest dimap Umfrage",
+      "link": "https://www.spiegel.de/politik/wahl-in-berlin-linke-und-cdu-liefern-sich-kopf-an-kopf-rennen-infratest-dimap-umfrage-a-7dfce167-e150-4496-a347-887dcc1c2a1d#ref=rss",
+      "summary": "Am 20. September wird in Berlin ein neues Landesparlament gewählt. Laut einer neuen Umfrage liegen Linke und CDU nur einen Prozentpunkt auseinander.",
+      "image": "https://cdn.prod.www.spiegel.de/images/bf3bf725-fe9f-4dff-b06d-82d02ccd8e8f_w1200_r1.778_fpx37.75_fpy49.98.jpg",
+      "published": "2026-09-10T18:58:00+02:00",
+      "category": "Politik",
+      "score": 69.94
+    },
+    {
+      "id": "spiegel-6974ea91590d7343",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Inflation und EZB: Christine Lagarde warnt vor weiteren Preisschocks in Europa",
+      "link": "https://www.spiegel.de/wirtschaft/inflation-und-ezb-christine-lagarde-warnt-vor-weiteren-preisschocks-in-europa-a-923f5970-0ed6-4c19-9165-522bc8b5e0c5#ref=rss",
+      "summary": "EZB-Chefin Christine Lagarde stemmt sich gegen eine hartnäckige Inflation und sieht den Kontinent vor schwierigen Monaten: »Wir sind mit Schocks konfrontiert.«",
+      "image": "https://cdn.prod.www.spiegel.de/images/9d53f0ef-d19e-40df-99ba-921b48572a5c_w1200_r1.778_fpx57.3_fpy53.jpg",
+      "published": "2026-09-10T18:51:00+02:00",
       "category": "Wirtschaft",
-      "score": 82.24,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Europäische Zentralbank erhöht Leitzins um 0,25 Prozentpunkte",
-            "link": "https://www.spiegel.de/wirtschaft/ezb-erhoeht-leitzinsen-um-0-25-prozentpunkte-a-1af4899b-e967-4ffe-b993-2ff5526f4ac8#ref=rss"
-          }
-        ]
-      }
+      "score": 69.84
     },
     {
-      "id": "tagesschau-4bcd4a6c979ac4ea",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Spahn entschuldigt sich bei CDU-Mitgliedern: \"Ich war zu feige\"",
-      "link": "https://www.tagesschau.de/inland/regional/nordrheinwestfalen/spahn-brief-mitglieder-100.html",
-      "summary": "Ex-Unionsfraktionschef Spahn hat die CDU-Mitglieder seines Wahlkreises um Entschuldigung für seinen Umgang mit einer Leihmutterschaft in den USA gebeten. Er sei zu feige gewesen, \"bei diesem sensiblen Thema offen Farbe zu bekennen.\"[ mehr ]",
-      "image": "https://images.tagesschau.de/image/82261459-de67-4464-99f3-cd266381c75f/AAABoItKM0U/AAABnSSvrFg/16x9-big/wdr-archivbild-jens-spahn-bei-caren-miosga-im-april-100.jpg?width=1920",
-      "published": "2026-09-10T11:22:00+02:00",
+      "id": "spiegel-c04737ffe71ad1ce",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "News des Tages: CDU ringt um Steuerreform, Jens Spahn bittet um Entschuldigung, Donald Trump verspricht Geldgeschenke",
+      "link": "https://www.spiegel.de/politik/deutschland/news-des-tages-cdu-ringt-um-steuerreform-jens-spahn-bittet-um-entschuldigung-donald-trump-verspricht-geldgeschenke-a-dca34c7d-cede-455d-bc56-f4c4fd3ac2ef#ref=rss",
+      "summary": "Jens Spahn bittet seine Parteigenossen um Vergebung und hat eine neue Aufgabe. In der CDU formiert sich Widerstand gegen die Steuerreform. Und US-Präsident Trump verspricht Geldgeschenke. Das ist die Lage am Donnerstagabend.",
+      "image": "https://cdn.prod.www.spiegel.de/images/0fb372c3-843d-4dc6-a445-e7c34c92f75c_w1200_r1.778_fpx28.09_fpy49.93.png",
+      "published": "2026-09-10T17:14:00+02:00",
       "category": "Politik",
-      "score": 80.23,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Jens Spahn: »Ich war zu feige, bei diesem sensiblen Thema offen Farbe zu bekennen«",
-            "link": "https://www.spiegel.de/politik/deutschland/jens-spahn-in-brief-an-seinen-wahlkreis-ich-war-zu-feige-bei-diesem-sensiblen-thema-offen-farbe-zu-bekennen-a-d4f9e581-32d0-4d1c-9f67-56563e347e5b#ref=rss"
-          }
-        ]
-      }
+      "score": 68.49
     },
     {
-      "id": "tagesschau-f85138946402fed6",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Bahn-Chefin Palla kündigt weniger Korridorsanierungen pro Jahr an",
-      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/deutsche-bahn-sanierung-palla-100.html",
-      "summary": "Eigentlich sollten die sogenannten Korridorsanierungen bis 2036 abgeschlossen sein. Doch die Arbeiten werden nach Aussage von Bahn-Chefin Palla länger dauern. Vier große Sanierungen pro Jahr - wie bislang angestrebt - seien zu viel.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/0b550ca7-78eb-4dbb-8765-349bb36b775e/AAABoIqmvqM/AAABnSSvrFg/16x9-big/evelyn-palla-116.jpg?width=1920",
-      "published": "2026-09-10T13:00:58+02:00",
-      "category": "Nachrichten",
-      "score": 70.2,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Deutsche Bahn: Sanierung des Schienennetzes wird länger dauern",
-            "link": "https://www.spiegel.de/mobilitaet/bus-bahn/deutsche-bahn-sanierung-des-schienennetzes-wird-laut-bahnchefin-evelyn-palla-laenger-dauern-a-cd51885f-e1d1-4d70-b5e9-8a4711abdeb1#ref=rss"
-          }
-        ]
-      }
+      "id": "spiegel-276bba06f60f7468",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Steffen Krach: SPD-Spitzenkandidat wehrt sich gegen Korruptionsvorwürfe",
+      "link": "https://www.spiegel.de/politik/deutschland/steffen-krach-spd-spitzenkandidat-wehrt-sich-gegen-korruptionsvorwuerfe-a-88d4c96f-6cf1-4624-8b7a-a9208d18d094#ref=rss",
+      "summary": "Die Ermittlungen gegen SPD-Spitzenkandidat Steffen Krach stürzen den Berliner Wahlkampf ins Chaos. Der Politiker wehrt sich gegen die Vorwürfe – und versucht, einen neuen Verdacht auszuräumen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/de8639a0-1fa6-4f42-8f8e-4c72ed8d2e8e_w1200_r1.778_fpx49_fpy43.jpg",
+      "published": "2026-09-10T16:24:00+02:00",
+      "category": "Politik",
+      "score": 67.8
     },
     {
       "id": "spiegel-c4fc5de322aec2c3",
@@ -134,43 +150,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/59f2efae-2464-4178-9fc9-40f149d1d401_w1200_r1.778_fpx63_fpy49.jpg",
       "published": "2026-09-10T14:26:00+02:00",
       "category": "Politik",
-      "score": 69.38
+      "score": 66.16
     },
     {
-      "id": "spiegel-91a07910f8cd7835",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Gianni Infantino: Frankreichs Fußballverband stellt sich offen gegen den Fifa-Präsidenten",
-      "link": "https://www.spiegel.de/sport/fussball/gianni-infantino-frankreichs-fussballverband-stellt-sich-offen-gegen-den-fifa-praesidenten-a-b2273302-f2a9-44a4-959c-872796a12bb4#ref=rss",
-      "summary": "Im Weltfußball herrscht ein Machtkampf, im Zentrum: Gianni Infantino. Dessen Wiederwahl als Fifa-Präsident will der französische Verband verhindern. Und damit ist er nicht allein.",
-      "image": "https://cdn.prod.www.spiegel.de/images/e119dd7d-7a91-4c2e-9e3d-f833ca2e8470_w1200_r1.778_fpx54.01_fpy48.98.jpg",
-      "published": "2026-09-10T14:13:00+02:00",
-      "category": "Politik",
-      "score": 69.2
-    },
-    {
-      "id": "spiegel-2aa954112ca8d4df",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Friedrich Merz: Trumps und Putins Spiel mit der Schwäche des Kanzlers - Podcast",
-      "link": "https://www.spiegel.de/politik/deutschland/politik-podcast-mad-kings-trumps-und-putins-spiel-mit-der-schwaeche-des-kanzlers-a-1a3a3e11-c7b1-43a2-9891-a836eff9b470#ref=rss",
-      "summary": "Nach dem AfD-Erfolg in Sachsen-Anhalt schwindet der Rückhalt für Friedrich Merz. Die Schwäche des Kanzlers könnten vor allem Donald Trump und Wladimir Putin ausnutzen. Hören Sie hier eine neue Folge von »Mad Kings: Machtprobe für Deutschland«.",
-      "image": "https://cdn.prod.www.spiegel.de/images/e96b273b-a3e4-432f-b821-af9105c33668_w1200_r1.778_fpx54_fpy51.jpg",
-      "published": "2026-09-10T12:03:00+02:00",
-      "category": "Politik",
-      "score": 67.39
-    },
-    {
-      "id": "spiegel-617173d1543fbb04",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Jemen: Huthis rücken am Roten Meer vor und erobern offenbar Hafenstadt Mokka",
-      "link": "https://www.spiegel.de/ausland/jemen-huthis-ruecken-am-roten-meer-vor-und-erobern-offenbar-hafenstadt-mokka-a-668a64de-ca5d-48f7-a9e1-3c7eccf6b954#ref=rss",
-      "summary": "Der Krieg zwischen den Huthis und einer von Saudi-Arabien geführten Militärkoalition im Jemen eskaliert weiter. Nun sind der von Iran unterstützten Miliz im Westen des Landes offenbar Geländegewinne gelungen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/03f66bca-8d31-42b6-af4b-84b16b718020_w1200_r1.778_fpx33.34_fpy50.jpg",
-      "published": "2026-09-10T14:04:00+02:00",
-      "category": "Nachrichten",
-      "score": 66.07
+      "id": "golem-90631c5efda9b009",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Anzeige: IT-Notfallmanagement: Business Continuity Management gestalten",
+      "link": "https://www.golem.de/news/anzeige-it-notfallmanagement-business-continuity-management-gestalten-2609-212892.html",
+      "summary": "Ausfälle und Krisen bedrohen Geschäftsprozesse. IT-Notfallmanagement und Business Continuity Management stärken die Widerstandsfähigkeit. Ein Workshop zeigt die praktische Umsetzung. ( Golem Karrierewelt , Sicherheitslücke )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212892&amp;page=1&amp;ts=1789058701",
+      "published": "2026-09-10T18:45:01+02:00",
+      "category": "Panorama",
+      "score": 64.76
     },
     {
       "id": "golem-e3c39744ba62f02c",
@@ -182,55 +174,43 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212877&amp;page=1&amp;ts=1789040822",
       "published": "2026-09-10T13:47:02+02:00",
       "category": "Technologie",
-      "score": 63.84
+      "score": 60.62
     },
     {
-      "id": "golem-55b5552cbf757101",
+      "id": "golem-79c1461b881990cc",
       "source": "golem",
       "sourceWeight": 0.85,
-      "title": "Matt Mullenweg: Wordpress-Mitbegründer wird von Vorstand beurlaubt",
-      "link": "https://www.golem.de/news/matt-mullenweg-wordpress-mitbegruender-wird-von-vorstand-beurlaubt-2609-212880.html",
-      "summary": "Wordpress-Mitbegründer Matt Mullenweg verursachte in den vergangenen Jahren einige Kontroversen durch seine Unternehmensführung. ( Wordpress , Wirtschaft )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212880&amp;page=1&amp;ts=1789042742",
-      "published": "2026-09-10T14:19:02+02:00",
-      "category": "Wirtschaft",
-      "score": 59.28
-    },
-    {
-      "id": "golem-eea4622dbdaea65d",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Prototyp schon im Jahr 2027: Bundeswehr entwickelt deutsche Alternative zu Palantir",
-      "link": "https://www.golem.de/news/prototyp-schon-im-jahr-2027-bundeswehr-entwickelt-deutsche-alternative-zu-palantir-2609-212882.html",
-      "summary": "Aus Gründen der Souveränität schloss die Bundeswehr Palantir von Beginn des Projekts an aus. ( KI , Politik )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212882&amp;page=1&amp;ts=1789044842",
-      "published": "2026-09-10T14:54:02+02:00",
+      "title": "Anzeige: Beliebter Gigabit-Netzwerk-Switch mit fünf Ports für unter 15 Euro",
+      "link": "https://www.golem.de/news/anzeige-beliebter-gigabit-netzwerk-switch-mit-fuenf-ports-fuer-unter-15-euro-2609-212893.html",
+      "summary": "Der TP-Link TL-SG105 gehört zu den meistbestellten Produkten seiner Art bei Amazon und wird dort wieder günstiger angeboten. ( Technik/Hardware , Amazon )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212893&amp;page=1&amp;ts=1789059300",
+      "published": "2026-09-10T18:55:00+02:00",
       "category": "Technologie",
-      "score": 56.77
+      "score": 56.9
     },
     {
-      "id": "golem-b94ad3c4c5c38c62",
+      "id": "golem-5f4eeea9b7eb942a",
       "source": "golem",
       "sourceWeight": 0.85,
-      "title": "Anzeige: Externes DVD-Laufwerk für 16,98 Euro bei Amazon",
-      "link": "https://www.golem.de/news/anzeige-externes-dvd-laufwerk-fuer-16-98-euro-bei-amazon-2609-212881.html",
-      "summary": "Ein externes DVD-Laufwerk zum Abspielen und Brennen von DVDs und CDs am Laptop gibt es bei Amazon zum Schnäppchenpreis. ( Technik/Hardware )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212881&amp;page=1&amp;ts=1789043462",
-      "published": "2026-09-10T14:31:02+02:00",
+      "title": "Anzeige: ANC-Kopfhörer für 32 Euro - Soundcore Q20i mit 60 Stunden Akkulaufzeit im Angebot",
+      "link": "https://www.golem.de/news/anzeige-anc-kopfhoerer-fuer-32-euro-soundcore-q20i-mit-60-stunden-akkulaufzeit-im-angebot-2609-212891.html",
+      "summary": "Bei Amazon gibt es aktuell den ANC-Kopfhörer Soundcore Q20i für 32 Euro. Der hält bis zu 60 h Akkulaufzeit bereit, erfordert aber Kompromisse. ( Kopfhörer , Amazon )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212891&amp;page=1&amp;ts=1789057502",
+      "published": "2026-09-10T18:25:02+02:00",
       "category": "Technologie",
-      "score": 56.45
+      "score": 56.48
     },
     {
-      "id": "golem-cbdcf5e765800ae3",
+      "id": "golem-8ff9e683a6d4f2be",
       "source": "golem",
       "sourceWeight": 0.85,
-      "title": "Kosmologie: Entstehung schwarzer Löcher muss infrage gestellt werden",
-      "link": "https://www.golem.de/news/kosmologie-entstehung-schwarzer-loecher-muss-infrage-gestellt-werden-2609-212879.html",
-      "summary": "Die Entdeckung zahlreicher superschwerer schwarzer Löcher in relativ kleinen Galaxien passt nicht zu bestehenden Theorien über deren Entstehung. ( Physik , Weltraumteleskop )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212879&amp;page=1&amp;ts=1789041842",
-      "published": "2026-09-10T14:04:02+02:00",
+      "title": "(g+) Artificial Intelligence: Anthropic researcher quits over AI labs 'gambling with our lives'",
+      "link": "https://www.golem.de/news/artificial-intelligence-anthropic-researcher-quits-over-ai-labs-gambling-with-our-lives-2609-212883.html",
+      "summary": "Latest departure highlights mounting unease inside Silicon Valley companies racing to build ever more powerful systems Von Tom Wilson ( Anthropic , KI )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212883&amp;page=1&amp;ts=1789056005",
+      "published": "2026-09-10T18:00:05+02:00",
       "category": "Technologie",
-      "score": 56.07
+      "score": 56.13
     }
   ]
 }
