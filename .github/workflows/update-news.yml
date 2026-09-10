@@ -2,16 +2,27 @@ name: Update News
 
 on:
   schedule:
-    # Jede Stunde
-    - cron: "0 * * * *"
+    # Zweimal pro Stunde zu ungeraden Minuten. GitHub behandelt Schedules als
+    # "best effort" und verwirft Läufe bei hoher Last – zur vollen Stunde ist
+    # der Rückstau am größten. Zwei Versuche zu Nebenzeiten ergeben in Summe
+    # verlässlich etwa ein Update pro Stunde.
+    - cron: "23 * * * *"
+    - cron: "53 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
+# Ein verzögerter und ein pünktlicher Lauf dürfen sich nicht überschneiden,
+# sonst kollidieren die Pushes.
+concurrency:
+  group: update-news
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -20,18 +31,17 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
 
       - name: Install dependencies
-        run: |
-          cd scripts
-          pip install -r requirements.txt
+        run: pip install -r scripts/requirements.txt
 
       - name: Fetch news
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: |
-          cd scripts
-          python fetch_news.py
+        working-directory: scripts
+        run: python fetch_news.py
 
       - name: Commit and push
         run: |
@@ -40,7 +50,14 @@ jobs:
           git add data/
           if git diff --cached --quiet; then
             echo "No changes to commit"
-          else
-            git commit -m "Update news data [skip ci]"
-            git push
+            exit 0
           fi
+          git commit -m "Update news data [skip ci]"
+          # Zwischenzeitliche Commits einholen, statt am Push zu scheitern.
+          for attempt in 1 2 3; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push && exit 0
+            echo "Push attempt ${attempt} failed, retrying ..."
+            sleep 5
+          done
+          echo "Push failed after 3 attempts"
+          exit 1

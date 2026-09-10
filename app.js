@@ -1,113 +1,124 @@
 const STORAGE_KEY = "news-aggregator-read";
 const SCROLLED_KEY = "news-aggregator-scrolled";
-
-let allArticles = [];
-let topArticles = [];
-let aiSummary = null;
-let currentTab = "top";
-let viewMode = "grid"; // 'grid' oder 'list'
 const PREVIEW_LENGTH = 280;
+const RETENTION_DAYS = 30;
+const SEARCH_DEBOUNCE_MS = 150;
+const AI_SUMMARY_MAX_AGE_HOURS = 24;
+
+const state = {
+  all: [],
+  top: [],
+  aiSummary: null,
+  tab: "top",
+  view: "grid", // 'grid' oder 'list'
+  read: new Map(), // id -> Zeitstempel, explizit markiert
+  scrolled: new Map(), // id -> Zeitstempel, beim Scrollen erfasst
+  // Snapshot beim Laden: nur diese Artikel blendet "Gelesene ausblenden" aus.
+  // Was während der Sitzung gelesen wird, bleibt sichtbar (nur ausgegraut) und
+  // fliegt erst beim nächsten Laden raus.
+  hiddenAtLoad: new Set(),
+  // Artikel, die in dieser Sitzung bewusst auf "ungelesen" gesetzt wurden,
+  // sollen nicht durch Scrollen sofort wieder als gelesen gelten.
+  keepUnread: new Set(),
+};
+
+const dom = {};
+let observers = [];
+let searchTimer = null;
 
 // Service Worker registrieren
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("service-worker.js").catch(console.error);
 }
 
-// Lesestatus aus localStorage laden
-function getReadIds() {
+/* ---------- Lesestatus ---------- */
+
+// Speichert IDs mit Zeitstempel, damit alte Einträge irgendwann wegfallen.
+// Das alte Format war ein reines Array von IDs und wird migriert.
+function loadMarks(key) {
+  let raw;
   try {
-    return new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]"));
+    raw = JSON.parse(localStorage.getItem(key) || "null");
   } catch {
-    return new Set();
+    return new Map();
+  }
+
+  const now = Date.now();
+  if (Array.isArray(raw)) {
+    return new Map(raw.filter((id) => typeof id === "string").map((id) => [id, now]));
+  }
+  if (!raw || typeof raw !== "object") return new Map();
+
+  const cutoff = now - RETENTION_DAYS * 24 * 60 * 60 * 1000;
+  return new Map(
+    Object.entries(raw).filter(([, ts]) => typeof ts === "number" && ts > cutoff)
+  );
+}
+
+function saveMarks(key, marks) {
+  try {
+    localStorage.setItem(key, JSON.stringify(Object.fromEntries(marks)));
+  } catch (error) {
+    console.warn("Lesestatus konnte nicht gespeichert werden", error);
   }
 }
 
-function getScrolledIds() {
-  try {
-    return new Set(JSON.parse(localStorage.getItem(SCROLLED_KEY) || "[]"));
-  } catch {
-    return new Set();
-  }
+function isRead(id) {
+  return state.read.has(id) || state.scrolled.has(id);
 }
 
 function markAsRead(id) {
-  const read = getReadIds();
-  read.add(id);
-  localStorage.setItem(STORAGE_KEY, JSON.stringify([...read]));
-  render();
+  if (state.read.has(id)) return;
+  state.read.set(id, Date.now());
+  state.keepUnread.delete(id);
+  saveMarks(STORAGE_KEY, state.read);
 }
 
 function markAsUnread(id) {
-  const read = getReadIds();
-  read.delete(id);
-  localStorage.setItem(STORAGE_KEY, JSON.stringify([...read]));
-  render();
+  state.read.delete(id);
+  state.scrolled.delete(id);
+  state.keepUnread.add(id);
+  saveMarks(STORAGE_KEY, state.read);
+  saveMarks(SCROLLED_KEY, state.scrolled);
 }
 
-// Artikel als "überscrollt" merken, wenn er den Viewport nach oben verlässt
-function observeScrolled(element, id) {
-  if (!("IntersectionObserver" in window)) return;
-
-  let hasBeenVisible = false;
-
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          hasBeenVisible = true;
-        } else if (hasBeenVisible && entry.boundingClientRect.top < 0) {
-          // Artikel wurde gesehen und ist jetzt über dem sichtbaren Bereich
-          const scrolled = getScrolledIds();
-          if (!scrolled.has(id)) {
-            scrolled.add(id);
-            localStorage.setItem(SCROLLED_KEY, JSON.stringify([...scrolled]));
-            render();
-          }
-          observer.unobserve(element);
-        }
-      });
-    },
-    { threshold: 0.1 }
-  );
-
-  observer.observe(element);
+function markAsScrolled(id) {
+  if (state.scrolled.has(id) || state.keepUnread.has(id)) return false;
+  state.scrolled.set(id, Date.now());
+  saveMarks(SCROLLED_KEY, state.scrolled);
+  return true;
 }
 
-// Daten laden
-async function loadData() {
+/* ---------- Hilfsfunktionen ---------- */
+
+function el(tag, className, text) {
+  const node = document.createElement(tag);
+  if (className) node.className = className;
+  if (text != null) node.textContent = text;
+  return node;
+}
+
+// Nur absolute http(s)-URLs zulassen: das schließt "javascript:" aus und
+// verhindert, dass ein Müllwert relativ zur eigenen Seite aufgelöst wird.
+function safeUrl(value) {
+  if (!value || typeof value !== "string") return null;
   try {
-    const [newsRes, topRes, aiRes] = await Promise.all([
-      fetch("data/news.json"),
-      fetch("data/top-news.json"),
-      fetch("data/ai-summary.json"),
-    ]);
-
-    const newsData = await newsRes.json();
-    const topData = await topRes.json();
-
-    allArticles = newsData.articles || [];
-    topArticles = topData.articles || [];
-
-    if (aiRes.ok) {
-      aiSummary = await aiRes.json();
-    }
-
-    document.getElementById("last-updated").textContent = `Letzte Aktualisierung: ${formatDate(
-      newsData.generatedAt
-    )}`;
-
-    populateFilters();
-    render();
-  } catch (error) {
-    console.error(error);
-    document.getElementById("news-list").innerHTML =
-      `<p class="empty">Fehler beim Laden der News. Bitte später erneut versuchen.</p>`;
+    const url = new URL(value);
+    return url.protocol === "http:" || url.protocol === "https:" ? url.href : null;
+  } catch {
+    return null;
   }
 }
 
-function formatDate(isoString) {
-  if (!isoString) return "unbekannt";
+function parseDate(isoString) {
+  if (!isoString) return null;
   const date = new Date(isoString);
+  return Number.isNaN(date.getTime()) ? null : date;
+}
+
+function formatDate(isoString) {
+  const date = parseDate(isoString);
+  if (!date) return "unbekannt";
   return date.toLocaleString("de-DE", {
     day: "2-digit",
     month: "2-digit",
@@ -118,228 +129,404 @@ function formatDate(isoString) {
 }
 
 function timeAgo(isoString) {
-  const date = new Date(isoString);
-  const now = new Date();
-  const diffMs = now - date;
-  const diffMins = Math.floor(diffMs / 60000);
+  const date = parseDate(isoString);
+  if (!date) return "unbekannt";
+
+  const diffMins = Math.floor((Date.now() - date.getTime()) / 60000);
   const diffHours = Math.floor(diffMins / 60);
   const diffDays = Math.floor(diffHours / 24);
 
   if (diffMins < 5) return "gerade eben";
   if (diffMins < 60) return `vor ${diffMins} Min`;
   if (diffHours < 24) return `vor ${diffHours} Std`;
+  if (diffDays === 1) return "vor 1 Tag";
   return `vor ${diffDays} Tagen`;
 }
 
-function populateFilters() {
-  const sourceSelect = document.getElementById("source-filter");
-  const categorySelect = document.getElementById("category-filter");
+/* ---------- Daten laden ---------- */
 
-  const sources = [...new Set(allArticles.map((a) => a.source))].sort();
-  const categories = [...new Set(allArticles.map((a) => a.category))].sort();
-
-  sourceSelect.innerHTML = '<option value="">Alle Quellen</option>';
-  sources.forEach((source) => {
-    const option = document.createElement("option");
-    option.value = source;
-    option.textContent = source;
-    sourceSelect.appendChild(option);
-  });
-
-  categorySelect.innerHTML = '<option value="">Alle Kategorien</option>';
-  categories.forEach((category) => {
-    const option = document.createElement("option");
-    option.value = category;
-    option.textContent = category;
-    categorySelect.appendChild(option);
-  });
+async function fetchJson(path) {
+  const response = await fetch(path, { cache: "no-store" });
+  if (!response.ok) throw new Error(`${path}: HTTP ${response.status}`);
+  return response.json();
 }
 
+async function loadData() {
+  state.read = loadMarks(STORAGE_KEY);
+  state.scrolled = loadMarks(SCROLLED_KEY);
+  saveMarks(STORAGE_KEY, state.read);
+  saveMarks(SCROLLED_KEY, state.scrolled);
+  state.hiddenAtLoad = new Set([...state.read.keys(), ...state.scrolled.keys()]);
+
+  try {
+    const [newsData, topData, aiData] = await Promise.all([
+      fetchJson("data/news.json"),
+      fetchJson("data/top-news.json"),
+      fetchJson("data/ai-summary.json").catch(() => null),
+    ]);
+
+    state.all = Array.isArray(newsData.articles) ? newsData.articles : [];
+    state.top = Array.isArray(topData.articles) ? topData.articles : [];
+    state.aiSummary = isFreshSummary(aiData) ? aiData : null;
+
+    dom.lastUpdated.textContent = `Letzte Aktualisierung: ${formatDate(newsData.generatedAt)}`;
+
+    populateFilters();
+    render();
+  } catch (error) {
+    console.error(error);
+    dom.newsList.replaceChildren(
+      el("p", "empty", "Fehler beim Laden der News. Bitte später erneut versuchen.")
+    );
+  }
+}
+
+// Eine alte Zusammenfassung ist schlechter als keine.
+function isFreshSummary(data) {
+  if (!data || typeof data.summary !== "string" || !data.summary.trim()) return false;
+  const generated = parseDate(data.generatedAt);
+  if (!generated) return false;
+  return Date.now() - generated.getTime() < AI_SUMMARY_MAX_AGE_HOURS * 60 * 60 * 1000;
+}
+
+function populateFilters() {
+  fillSelect(
+    dom.sourceFilter,
+    "Alle Quellen",
+    state.all.map((a) => a.source)
+  );
+  fillSelect(
+    dom.categoryFilter,
+    "Alle Kategorien",
+    state.all.map((a) => a.category)
+  );
+}
+
+function fillSelect(select, placeholder, values) {
+  const previous = select.value;
+  const options = [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b, "de"));
+
+  const placeholderOption = el("option", null, placeholder);
+  placeholderOption.value = "";
+  select.replaceChildren(placeholderOption);
+
+  options.forEach((value) => {
+    const option = el("option", null, value);
+    option.value = value;
+    select.appendChild(option);
+  });
+
+  if (options.includes(previous)) select.value = previous;
+}
+
+/* ---------- Filtern ---------- */
+
 function getFilteredArticles() {
-  const search = document.getElementById("search").value.toLowerCase();
-  const source = document.getElementById("source-filter").value;
-  const category = document.getElementById("category-filter").value;
-  const hideRead = document.getElementById("hide-read").checked;
-  const readIds = getReadIds();
-  const scrolledIds = getScrolledIds();
+  const search = dom.search.value.trim().toLowerCase();
+  const source = dom.sourceFilter.value;
+  const category = dom.categoryFilter.value;
+  // Im Gelesen-Tab nie ausblenden – dort ist "gelesen" ja das Kriterium.
+  const hideRead = state.tab !== "read" && dom.hideRead.checked;
 
-  let articles = currentTab === "top" ? topArticles : allArticles;
-
-  if (currentTab === "read") {
-    // Gelesen-Tab: nur gelesene/überscrollte Artikel
-    articles = allArticles.filter((a) => readIds.has(a.id) || scrolledIds.has(a.id));
-    hideRead = false; // im Gelesen-Tab nie ausblenden
+  let articles;
+  if (state.tab === "read") {
+    articles = state.all.filter((article) => isRead(article.id));
+  } else {
+    articles = state.tab === "top" ? state.top : state.all;
   }
 
   return articles.filter((article) => {
     if (source && article.source !== source) return false;
     if (category && article.category !== category) return false;
-    if (hideRead && (readIds.has(article.id) || scrolledIds.has(article.id))) return false;
+    if (hideRead && state.hiddenAtLoad.has(article.id)) return false;
     if (search) {
-      const text = (article.title + " " + article.summary + " " + article.source).toLowerCase();
+      const text = [article.title, article.summary, article.source]
+        .filter(Boolean)
+        .join(" ")
+        .toLowerCase();
       if (!text.includes(search)) return false;
     }
     return true;
   });
 }
 
+/* ---------- Rendern ---------- */
+
 function render() {
-  const list = document.getElementById("news-list");
+  renderAiSummary();
+
+  // Observer der vorherigen Liste abräumen, sonst sammeln sie sich auf.
+  observers.forEach((observer) => observer.disconnect());
+  observers = [];
+
   const articles = getFilteredArticles();
-  const readIds = getReadIds();
-  const scrolledIds = getScrolledIds();
-
-  // AI-Zusammenfassung nur im Top-Tab anzeigen
-  const aiSection = document.getElementById("ai-summary");
-  const aiContent = document.getElementById("ai-summary-content");
-  if (currentTab === "top" && aiSummary?.summary) {
-    aiSection.classList.remove("hidden");
-    aiContent.innerHTML = aiSummary.summary
-      .split("\n")
-      .filter((line) => line.trim())
-      .map((line) => `<p>${escapeHtml(line)}</p>`)
-      .join("");
-  } else {
-    aiSection.classList.add("hidden");
-  }
-
   if (articles.length === 0) {
-    list.innerHTML = `<p class="empty">Keine News gefunden.</p>`;
+    dom.newsList.className = "news-list";
+    dom.newsList.replaceChildren(el("p", "empty", "Keine News gefunden."));
     return;
   }
 
-  list.innerHTML = "";
-  const isGrid = viewMode === "grid";
-  list.className = `news-list ${isGrid ? "top-view" : "list-view"}`;
+  const isGrid = state.view === "grid";
+  dom.newsList.className = `news-list ${isGrid ? "top-view" : "list-view"}`;
+  dom.newsList.replaceChildren(...articles.map((article) => buildCard(article, isGrid)));
+}
 
-  articles.forEach((article) => {
-    const isRead = readIds.has(article.id) || scrolledIds.has(article.id);
-    const item = document.createElement("article");
-    item.className = `news-item ${isGrid ? "grid-item" : "list-item"} ${isRead ? "read" : ""}`;
-    item.dataset.id = article.id;
+function renderAiSummary() {
+  if (state.tab !== "top" || !state.aiSummary) {
+    dom.aiSummary.classList.add("hidden");
+    dom.aiSummaryContent.replaceChildren();
+    return;
+  }
 
-    const imageHtml = article.image
-      ? `<img class="news-image" src="${escapeHtml(article.image)}" alt="" loading="lazy">`
-      : `<div class="news-image-placeholder">📰</div>`;
+  const paragraphs = state.aiSummary.summary
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .map((line) => el("p", null, line));
 
-    const summary = article.summary || "";
-    const isLong = summary.length > PREVIEW_LENGTH;
-    const previewText = isLong ? summary.slice(0, PREVIEW_LENGTH).trim() + "…" : summary;
-    const summaryHtml = isLong
-      ? `<p class="news-summary">
-           <span class="summary-preview">${escapeHtml(previewText)}</span>
-           <span class="summary-full hidden">${escapeHtml(summary)}</span>
-           <button class="toggle-summary" data-expanded="false">Mehr anzeigen</button>
-         </p>`
-      : `<p class="news-summary">${escapeHtml(summary)}</p>`;
+  dom.aiSummaryContent.replaceChildren(...paragraphs);
+  dom.aiSummary.classList.remove("hidden");
+}
 
-    item.innerHTML = `
-      ${imageHtml}
-      <div class="news-content">
-        <div class="news-meta">
-          <span class="news-source ${escapeHtml(article.source)}">${escapeHtml(article.source)}</span>
-          <span class="news-category">${escapeHtml(article.category)}</span>
-          <span class="news-time" title="${formatDate(article.published)}">${timeAgo(
-            article.published
-          )}</span>
-          ${currentTab === "top" ? `<span class="news-score">Score: ${article.score}</span>` : ""}
-        </div>
-        <h2 class="news-title">
-          <a href="${escapeHtml(article.link)}" target="_blank" rel="noopener noreferrer" data-id="${
-            article.id
-          }">${escapeHtml(article.title)}</a>
-        </h2>
-        ${summaryHtml}
-        <div class="news-actions">
-          <button class="toggle-read" data-id="${article.id}">
-            ${isRead ? "Als ungelesen markieren" : "Als gelesen markieren"}
-          </button>
-        </div>
-      </div>
-    `;
+function buildCard(article, isGrid) {
+  const item = el("article", `news-item ${isGrid ? "grid-item" : "list-item"}`);
+  item.dataset.id = article.id;
 
-    // Klick auf Link = gelesen markieren
-    const link = item.querySelector("a");
-    link.addEventListener("click", () => markAsRead(article.id));
+  const imageUrl = safeUrl(article.image);
+  if (imageUrl) {
+    const img = el("img", "news-image");
+    img.src = imageUrl;
+    img.alt = "";
+    img.loading = "lazy";
+    // Kaputte Bild-URLs sollen kein Loch in die Kachel reißen.
+    img.addEventListener("error", () => img.replaceWith(buildImagePlaceholder()), { once: true });
+    item.appendChild(img);
+  } else {
+    item.appendChild(buildImagePlaceholder());
+  }
 
-    // Toggle-Button
-    const toggleBtn = item.querySelector(".toggle-read");
-    toggleBtn.addEventListener("click", () => {
-      if (isRead) {
-        markAsUnread(article.id);
-      } else {
-        markAsRead(article.id);
-      }
-    });
+  const content = el("div", "news-content");
+  content.appendChild(buildMeta(article));
+  content.appendChild(buildTitle(article, item));
+  content.appendChild(buildSummary(article));
 
-    // Zusammenfassung auf-/zuklappen
-    const toggleSummaryBtn = item.querySelector(".toggle-summary");
-    if (toggleSummaryBtn) {
-      toggleSummaryBtn.addEventListener("click", () => {
-        const preview = item.querySelector(".summary-preview");
-        const full = item.querySelector(".summary-full");
-        const expanded = toggleSummaryBtn.dataset.expanded === "true";
-        toggleSummaryBtn.dataset.expanded = !expanded;
-        preview.classList.toggle("hidden", !expanded);
-        full.classList.toggle("hidden", expanded);
-        toggleSummaryBtn.textContent = expanded ? "Mehr anzeigen" : "Weniger anzeigen";
-      });
+  const toggleRead = el("button", "toggle-read");
+  toggleRead.addEventListener("click", () => {
+    if (isRead(article.id)) {
+      markAsUnread(article.id);
+    } else {
+      markAsRead(article.id);
     }
+    applyReadState(item, article.id);
+  });
 
-    // Überscrollen beobachten
-    observeScrolled(item, article.id);
+  const actions = el("div", "news-actions");
+  actions.appendChild(toggleRead);
+  content.appendChild(actions);
+  item.appendChild(content);
 
-    list.appendChild(item);
+  applyReadState(item, article.id);
+  observeScrolled(item, article.id);
+  return item;
+}
+
+function buildImagePlaceholder() {
+  return el("div", "news-image-placeholder", "📰");
+}
+
+function buildMeta(article) {
+  const meta = el("div", "news-meta");
+
+  const source = el("span", "news-source", article.source || "unbekannt");
+  if (article.source) source.dataset.source = article.source;
+  meta.appendChild(source);
+
+  if (article.category) meta.appendChild(el("span", "news-category", article.category));
+
+  const time = el("span", "news-time", timeAgo(article.published));
+  time.title = formatDate(article.published);
+  meta.appendChild(time);
+
+  if (state.tab === "top" && typeof article.score === "number") {
+    meta.appendChild(el("span", "news-score", `Score: ${article.score}`));
+  }
+
+  return meta;
+}
+
+function buildTitle(article, item) {
+  const heading = el("h2", "news-title");
+  const title = article.title || "Ohne Titel";
+  const url = safeUrl(article.link);
+
+  if (!url) {
+    heading.textContent = title;
+    return heading;
+  }
+
+  const link = el("a", null, title);
+  link.href = url;
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  link.addEventListener("click", () => {
+    markAsRead(article.id);
+    applyReadState(item, article.id);
+  });
+
+  heading.appendChild(link);
+  return heading;
+}
+
+function buildSummary(article) {
+  const summary = (article.summary || "").trim();
+  const paragraph = el("p", "news-summary");
+
+  if (summary.length <= PREVIEW_LENGTH) {
+    paragraph.textContent = summary;
+    return paragraph;
+  }
+
+  const preview = el("span", "summary-preview", `${summary.slice(0, PREVIEW_LENGTH).trim()}…`);
+  const full = el("span", "summary-full hidden", summary);
+  const toggle = el("button", "toggle-summary", "Mehr anzeigen");
+
+  toggle.setAttribute("aria-expanded", "false");
+  toggle.addEventListener("click", () => {
+    const expanded = toggle.getAttribute("aria-expanded") === "true";
+    toggle.setAttribute("aria-expanded", String(!expanded));
+    preview.classList.toggle("hidden", !expanded);
+    full.classList.toggle("hidden", expanded);
+    toggle.textContent = expanded ? "Mehr anzeigen" : "Weniger anzeigen";
+  });
+
+  paragraph.append(preview, full, toggle);
+  return paragraph;
+}
+
+// Nur die betroffene Kachel anfassen – kein Neuaufbau der ganzen Liste.
+function applyReadState(item, id) {
+  if (!item) return;
+  const read = isRead(id);
+  item.classList.toggle("read", read);
+
+  const button = item.querySelector(".toggle-read");
+  if (button) {
+    button.textContent = read ? "Als ungelesen markieren" : "Als gelesen markieren";
+  }
+
+  // Im Gelesen-Tab gehört ein wieder ungelesener Artikel nicht mehr in die
+  // Liste. isConnected: beim Aufbau einer Kachel ist sie noch nicht im DOM.
+  if (state.tab === "read" && !read && item.isConnected) {
+    item.remove();
+    if (!dom.newsList.querySelector(".news-item")) {
+      dom.newsList.className = "news-list";
+      dom.newsList.replaceChildren(el("p", "empty", "Keine News gefunden."));
+    }
+  }
+}
+
+// Artikel als "überscrollt" merken, wenn er den Viewport nach oben verlässt.
+// Bewusst ohne render(): die Kachel wird nur ausgegraut, verschwindet aber
+// erst beim nächsten Laden aus der Liste.
+function observeScrolled(element, id) {
+  if (!("IntersectionObserver" in window) || isRead(id)) return;
+
+  let hasBeenVisible = false;
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          hasBeenVisible = true;
+          return;
+        }
+        if (hasBeenVisible && entry.boundingClientRect.top < 0) {
+          if (markAsScrolled(id)) applyReadState(element, id);
+          observer.disconnect();
+          observers = observers.filter((other) => other !== observer);
+        }
+      });
+    },
+    { threshold: 0.1 }
+  );
+
+  observer.observe(element);
+  observers.push(observer);
+}
+
+/* ---------- Initialisierung ---------- */
+
+function cacheDom() {
+  const ids = {
+    lastUpdated: "last-updated",
+    newsList: "news-list",
+    aiSummary: "ai-summary",
+    aiSummaryContent: "ai-summary-content",
+    search: "search",
+    sourceFilter: "source-filter",
+    categoryFilter: "category-filter",
+    hideRead: "hide-read",
+    filterToggle: "filter-toggle",
+    filtersPanel: "filters-panel",
+    filterBadge: "filter-badge",
+  };
+  Object.entries(ids).forEach(([key, id]) => {
+    dom[key] = document.getElementById(id);
   });
 }
 
-function escapeHtml(text) {
-  const div = document.createElement("div");
-  div.textContent = text;
-  return div.innerHTML;
+function updateFilterBadge() {
+  const active = [dom.sourceFilter, dom.categoryFilter].filter((s) => s.value !== "").length;
+  dom.filterBadge.textContent = String(active);
+  dom.filterBadge.classList.toggle("hidden", active === 0);
 }
 
-// Event Listener
 function init() {
+  cacheDom();
+
   document.querySelectorAll(".tab").forEach((tab) => {
     tab.addEventListener("click", () => {
-      document.querySelectorAll(".tab").forEach((t) => t.classList.remove("active"));
+      document.querySelectorAll(".tab").forEach((other) => {
+        other.classList.remove("active");
+        other.setAttribute("aria-selected", "false");
+      });
       tab.classList.add("active");
-      currentTab = tab.dataset.tab;
+      tab.setAttribute("aria-selected", "true");
+      dom.newsList.setAttribute("aria-labelledby", tab.id);
+      state.tab = tab.dataset.tab;
       render();
     });
   });
 
-  ["search", "source-filter", "category-filter", "hide-read"].forEach((id) => {
-    document.getElementById(id).addEventListener("input", render);
+  dom.search.addEventListener("input", () => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(render, SEARCH_DEBOUNCE_MS);
   });
 
-  const filterToggle = document.getElementById("filter-toggle");
-  const filtersPanel = document.getElementById("filters-panel");
-  filterToggle.addEventListener("click", () => {
-    const open = filtersPanel.classList.toggle("open");
-    filterToggle.classList.toggle("active", open);
-    filterToggle.setAttribute("aria-expanded", String(open));
+  [dom.sourceFilter, dom.categoryFilter].forEach((select) => {
+    select.addEventListener("change", () => {
+      updateFilterBadge();
+      render();
+    });
   });
-
-  const updateFilterBadge = () => {
-    const active = ["source-filter", "category-filter"].filter(
-      (id) => document.getElementById(id).value !== ""
-    ).length;
-    const badge = document.getElementById("filter-badge");
-    badge.textContent = active;
-    badge.classList.toggle("hidden", active === 0);
-  };
-  ["source-filter", "category-filter"].forEach((id) => {
-    document.getElementById(id).addEventListener("input", updateFilterBadge);
-  });
+  dom.hideRead.addEventListener("change", render);
   updateFilterBadge();
+
+  dom.filterToggle.addEventListener("click", () => {
+    const open = dom.filtersPanel.classList.toggle("open");
+    dom.filterToggle.classList.toggle("active", open);
+    dom.filterToggle.setAttribute("aria-expanded", String(open));
+  });
 
   document.querySelectorAll(".view-btn").forEach((btn) => {
     btn.addEventListener("click", () => {
-      document.querySelectorAll(".view-btn").forEach((b) => b.classList.remove("active"));
+      document.querySelectorAll(".view-btn").forEach((other) => {
+        other.classList.remove("active");
+        other.setAttribute("aria-pressed", "false");
+      });
       btn.classList.add("active");
-      viewMode = btn.dataset.view;
+      btn.setAttribute("aria-pressed", "true");
+      state.view = btn.dataset.view;
       render();
     });
   });

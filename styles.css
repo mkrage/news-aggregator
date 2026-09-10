@@ -459,12 +459,14 @@ main {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
+  /* Fallback: eine neue Quelle ohne eigene Farbe bleibt trotzdem lesbar. */
+  color: var(--text-secondary);
 }
 
-.news-source.tagesschau { color: #1e40af; }
-.news-source.heise { color: #dc2626; }
-.news-source.golem { color: #059669; }
-.news-source.spiegel { color: #7c3aed; }
+.news-source[data-source="tagesschau"] { color: #1e40af; }
+.news-source[data-source="heise"] { color: #dc2626; }
+.news-source[data-source="golem"] { color: #059669; }
+.news-source[data-source="spiegel"] { color: #7c3aed; }
 
 .news-category {
   background: var(--accent-light);

@@ -1,0 +1,80 @@
+name: Tests
+
+on:
+  push:
+    branches: [master]
+    paths-ignore:
+      - "data/**"
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+      - run: pip install -r scripts/requirements.txt
+      - name: Run Python tests
+        working-directory: scripts
+        run: python -m unittest discover -p "test_*.py" -v
+
+  frontend:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - name: Run frontend tests
+        run: npm test
+
+  data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate generated JSON
+        run: |
+          python - <<'PY'
+          import json, sys
+
+          required = {"id", "source", "title", "link", "published", "category"}
+          problems = []
+
+          for path, key in (("data/news.json", "articles"), ("data/top-news.json", "articles")):
+              with open(path, encoding="utf-8") as f:
+                  data = json.load(f)
+              articles = data.get(key, [])
+              if data.get("count") != len(articles):
+                  problems.append(f"{path}: count {data.get('count')} != {len(articles)} Artikel")
+              ids = [a.get("id") for a in articles]
+              if len(set(ids)) != len(ids):
+                  problems.append(f"{path}: doppelte IDs")
+              for article in articles:
+                  missing = required - article.keys()
+                  if missing:
+                      problems.append(f"{path}: {article.get('id')} fehlt {sorted(missing)}")
+                  link = article.get("link", "")
+                  if not link.startswith(("http://", "https://")):
+                      problems.append(f"{path}: {article.get('id')} hat unsicheren Link {link!r}")
+                  image = article.get("image")
+                  if image and not image.startswith(("http://", "https://")):
+                      problems.append(f"{path}: {article.get('id')} hat unsicheres Bild {image!r}")
+
+          if problems:
+              print("\n".join(problems[:20]))
+              sys.exit(1)
+          print("Daten sind gültig.")
+          PY

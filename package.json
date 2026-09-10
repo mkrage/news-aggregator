@@ -1,0 +1,13 @@
+{
+  "name": "news-aggregator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Statischer News-Aggregator für GitHub Pages",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/frontend.test.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^30.0.1"
+  }
+}
