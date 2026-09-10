@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-09-10T08:15:40.482409+00:00",
+  "generatedAt": "2026-09-10T10:14:36.464365+00:00",
   "count": 15,
   "articles": [
+    {
+      "id": "spiegel-c699d3c3df37b4dd",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Armin Laschet: Studie sieht keinen Einfluss von Lacher des CDU-Kanzlerkandidaten auf Bundestagswahl 2021",
+      "link": "https://www.spiegel.de/politik/deutschland/armin-laschet-studie-sieht-keinen-einfluss-von-lacher-des-cdu-kanzlerkandidaten-auf-bundestagswahl-2021-a-c53815e3-79f0-4ffd-9873-396f061304ac#ref=rss",
+      "summary": "Welche Auswirkungen hatte das Bild des lachenden Kanzlerkandidaten Armin Laschet nach der Ahrtalflut auf die Bundestagswahl 2021? Wissenschaftler der Universitäten Mainz und Frankfurt kommen zu einer eindeutigen Einschätzung.",
+      "image": "https://cdn.prod.www.spiegel.de/images/c7047bac-9956-48ef-a9ec-41e24b0660f9_w1200_r1.778_fpx39.98_fpy49.96.jpg",
+      "published": "2026-09-10T11:38:00+02:00",
+      "category": "Politik",
+      "score": 85.49
+    },
     {
       "id": "tagesschau-c80e141c90079765",
       "source": "tagesschau",
@@ -12,41 +24,19 @@
       "image": "https://images.tagesschau.de/image/77d98f22-0478-4f64-84ed-3cdf59874430/AAABoIlcz9Y/AAABnSSvrFg/16x9-big/trump-parteitag-republikaner-100.jpg?width=1920",
       "published": "2026-09-10T09:03:50+02:00",
       "category": "Politik",
-      "score": 88.91,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "USA: Donald Trump bietet US-Bürgern 5000 Dollar - falls Republikaner die Midterms gewinnen",
-            "link": "https://www.spiegel.de/ausland/usa-donald-trump-bietet-us-buergern-5000-dollar-falls-republikaner-die-midterms-gewinnen-a-36bf711a-250b-4481-bef9-4d17b9732a28#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-c19060f9e0a27958",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg: Kiew meldet fünf Tote nach russischen Angriffen auf Region Sumy",
-      "link": "https://www.spiegel.de/politik/deutschland/russlands-angriffskrieg-ukraine-meldet-fuenf-tote-nach-russischen-angriffen-auf-region-sumy-a-4f2724ae-4da9-41f4-b378-e2d033bad4a8#ref=rss",
-      "summary": "Russland hat die Ukraine erneut aus der Luft attackiert. In Sumy wurde dabei ein Einkaufszentrum getroffen. Kyjiw will derweil eine Gasanlage in 3000 Kilometer Entfernung angegriffen haben – womöglich eine neue Rekorddistanz.",
-      "image": "https://cdn.prod.www.spiegel.de/images/d3b0b42d-4398-49ec-9884-7e8036e4db70_w1200_r1.778_fpx60.77_fpy55.01.jpg",
-      "published": "2026-09-10T07:22:00+02:00",
-      "category": "Politik",
-      "score": 74.49
+      "score": 76.35
     },
     {
       "id": "tagesschau-9867832bf9f67a43",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Bundesweiter Warntag: Warum es heute ab 11 Uhr laut wird",
+      "title": "Bundesweiter Warntag: Warum es heute ab 11 Uhr laut wurde",
       "link": "https://www.tagesschau.de/inland/gesellschaft/warntag-faq-100.html",
-      "summary": "Sirenen heulen, Mobiltelefone schrillen, Digitalradios schalten sich von selbst sein - zum sechsten Mal findet heute ab 11 Uhr der bundesweite Warntag statt. Was gibt es zu beachten? Antworten auf wichtige Fragen.[ mehr ]",
+      "summary": "Sirenen heulten, Mobiltelefone schrillten, Digitalradios schalteten sich von selbst ein - zum sechsten Mal hat heute der bundesweite Warntag stattgefunden. Antworten auf wichtige Fragen.[ mehr ]",
       "image": "https://images.tagesschau.de/image/2a6ebac0-2fd5-447d-aecb-ae1faaa45df9/AAABoIoz4No/AAABnSSvrFg/16x9-big/warntag-240.jpg?width=1920",
-      "published": "2026-09-10T10:04:07+02:00",
+      "published": "2026-09-10T11:20:25+02:00",
       "category": "Nachrichten",
-      "score": 70.74,
+      "score": 71.25,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -59,16 +49,52 @@
       }
     },
     {
+      "id": "tagesschau-50bc081b4afef129",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Tote nach russischem Angriff auf Einkaufszentrum in Sumy",
+      "link": "https://www.tagesschau.de/ausland/europa/angriffe-ukraine-russland-108.html",
+      "summary": "Russland und die Ukraine haben ihre gegenseitigen Angriffe fortgesetzt. Bei einer russischen Attacke auf ein Einkaufszentrum starben laut Behörden zwei Menschen. Die Ukraine nahm russische Infrastruktur und den Badeort Sotschi ins Visier.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/4a52c396-448e-4ca8-8191-01dc066552cb/AAABoIptDBI/AAABnSSvrFg/16x9-big/einkaufszentrum-sumy-100.jpg?width=1920",
+      "published": "2026-09-10T11:33:23+02:00",
+      "category": "Politik",
+      "score": 70.43
+    },
+    {
+      "id": "spiegel-2aa954112ca8d4df",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Friedrich Merz: Trumps und Putins Spiel mit der Schwäche des Kanzlers - Podcast",
+      "link": "https://www.spiegel.de/politik/deutschland/politik-podcast-mad-kings-trumps-und-putins-spiel-mit-der-schwaeche-des-kanzlers-a-1a3a3e11-c7b1-43a2-9891-a836eff9b470#ref=rss",
+      "summary": "Nach dem AfD-Erfolg in Sachsen-Anhalt schwindet der Rückhalt für Friedrich Merz. Die Schwäche des Kanzlers könnten vor allem Donald Trump und Wladimir Putin ausnutzen. Hören Sie hier eine neue Folge von »Mad Kings: Machtprobe für Deutschland«.",
+      "image": "https://cdn.prod.www.spiegel.de/images/e96b273b-a3e4-432f-b821-af9105c33668_w1200_r1.778_fpx54_fpy51.jpg",
+      "published": "2026-09-10T12:03:00+02:00",
+      "category": "Politik",
+      "score": 69.84
+    },
+    {
+      "id": "spiegel-c3fff147bc38f234",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Jens Spahn in Brief an seinen Wahlkreis: »Ich war zu feige, bei diesem sensiblen Thema offen Farbe zu bekennen«",
+      "link": "https://www.spiegel.de/politik/deutschland/jens-spahn-in-brief-an-seinen-wahlkreis-ich-war-zu-feige-bei-diesem-sensiblen-thema-offen-farbe-zu-bekennen-a-d4f9e581-32d0-4d1c-9f67-56563e347e5b#ref=rss",
+      "summary": "Weil er das in Deutschland geltende Verbot der Leihmutterschaft umgangen hatte, musste Jens Spahn als Fraktionschef der Union zurücktreten. In einem Schreiben an seinen CDU-Wahlkreis im Münsterland leistet er nun Abbitte.",
+      "image": "https://cdn.prod.www.spiegel.de/images/8831f2e8-eb12-4e8f-8a84-084814939110_w1200_r1.778_fpx33.34_fpy50.jpg",
+      "published": "2026-09-10T11:51:00+02:00",
+      "category": "Politik",
+      "score": 69.67
+    },
+    {
       "id": "tagesschau-e0e0267deb39d7ca",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Umfrage zu Hausärzte-Versorgung: Wenn der Hausarzt fehlt, hat das Einfluss auf die Wahl",
+      "title": "Umfrage: Unzufriedenheit über Hausarzt-Versorgung wächst",
       "link": "https://www.tagesschau.de/inland/gesellschaft/hausaerzte-deutschland-100.html",
       "summary": "Deutschlandweit fehlen Tausende Hausarztpraxen. Die Unzufriedenheit darüber hat Folgen auch für das Wahlverhalten von Bürgern, so eine Umfrage. Eine Kommune in Rheinland-Pfalz versucht, dagegenzuhalten. Von A. John und J. Baumert. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/ba4d718f-247a-4639-b7ae-64e00b16e4c6/AAABkUymyLE/AAABnSSvrFg/16x9-big/arztpraxis-122.jpg?width=1920",
+      "image": "https://images.tagesschau.de/image/63505315-880b-4e9c-9b75-d7e003182a0c/AAABoIpiGSs/AAABnSSvrFg/16x9-big/wartezimmer-arztpraxis-106.jpg?width=1920",
       "published": "2026-09-10T09:03:04+02:00",
       "category": "Politik",
-      "score": 68.89
+      "score": 68.34
     },
     {
       "id": "spiegel-fbc86488cebb5ef9",
@@ -77,10 +103,10 @@
       "title": "Volker Beck legt Verfassungsbeschwerde ein",
       "link": "https://www.spiegel.de/politik/deutschland/volker-beck-legt-verfassungsbeschwerde-ein-a-247780ef-ac2d-4cf7-9514-5a60989b6c9f#ref=rss",
       "summary": "Der Präsident der Deutsch-Israelischen Gesellschaft sollte im Auftrag Irans ermordet werden, aber beim Prozess gegen die mutmaßlichen Täter darf Volker Beck nicht als Nebenkläger auftreten. Nun geht er nach Karlsruhe.",
-      "image": "https://cdn.prod.www.spiegel.de/images/a626d438-3e23-4fd9-a7bb-7bd9f5610336_w1200_r1.778_fpx39.33_fpy45.jpg",
+      "image": "https://cdn.prod.www.spiegel.de/images/a626d438-3e23-4fd9-a7bb-7bd9f5610336_w1200_r1.778_fpx41_fpy42.jpg",
       "published": "2026-09-10T09:56:00+02:00",
       "category": "Politik",
-      "score": 68.63
+      "score": 68.07
     },
     {
       "id": "spiegel-f98c9c97292b3442",
@@ -92,31 +118,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/c9bed9a8-5835-4c1a-8048-7466f2e2a457_w1200_r1.778_fpx43.33_fpy44.98.jpg",
       "published": "2026-09-10T08:55:00+02:00",
       "category": "Wirtschaft",
-      "score": 67.78
-    },
-    {
-      "id": "spiegel-18f2bc6d5eeddd28",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Friedrich Merz: König des Scherbenhaufens",
-      "link": "https://www.spiegel.de/politik/deutschland/friedrich-merz-koenig-des-scherbenhaufens-a-04d7898a-d500-4c8f-ba2f-64b7a1fbd804#ref=rss",
-      "summary": "Nach dem Wahldesaster von Magdeburg wächst die Verzweiflung in Union und SPD an Friedrich Merz, Bärbel Bas und Lars Klingbeil. Die parteiinternen Rivalen lauern auf ihre Gelegenheit zum Aufstieg.",
-      "image": "https://cdn.prod.www.spiegel.de/images/d845f223-5d7d-403e-8ae4-45c13fb8bde1_w1200_r1.778_fpx34.64_fpy49.99.jpg",
-      "published": "2026-09-10T08:06:00+02:00",
-      "category": "Politik",
-      "score": 67.1
-    },
-    {
-      "id": "spiegel-ef5345da5058801b",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Manuela Schwesig gegen Leif-Erik Holm: Wahl in Mecklenburg-Vorpommern - So lief das TV-Duel",
-      "link": "https://www.spiegel.de/politik/deutschland/manuela-schwesig-gegen-leif-erik-holm-wahl-in-mecklenburg-vorpommern-so-lief-das-tv-duel-a-d8078438-6d12-4728-9264-f1ec86c6e104#ref=rss",
-      "summary": "Ministerpräsidentin Manuela Schwesig und AfD-Spitzenkandidat Leif-Erik Holm sind sich zum ersten Mal im Wahlkampf auf großer Bühne begegnet. Es wurde hitzig – und beide hatten eine Strategie.",
-      "image": "https://cdn.prod.www.spiegel.de/images/2de8b6f1-95dc-4f3d-a23e-efd5c718d223_w1200_r1.778_fpx36.57_fpy50.jpg",
-      "published": "2026-09-10T07:12:00+02:00",
-      "category": "Politik",
-      "score": 66.35
+      "score": 67.23
     },
     {
       "id": "tagesschau-b9e2f6dae48ca5c4",
@@ -128,19 +130,7 @@
       "image": "https://images.tagesschau.de/image/1e0de475-12a6-4cff-bf9e-f8e9178bf201/AAABoIjH-p4/AAABnSSvrFg/16x9-big/kiew-538.jpg?width=1920",
       "published": "2026-09-10T02:37:15+02:00",
       "category": "Politik",
-      "score": 63.54
-    },
-    {
-      "id": "tagesschau-f93056d4c895db27",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Argentiniens Präsident Milei wittert Chance im Falkland-Streit",
-      "link": "https://www.tagesschau.de/ausland/amerika/argentinien-falkland-trump-100.html",
-      "summary": "Argentiniens Präsident Milei heizt den alten Konflikt um die Falklandinseln wieder an. Dabei hofft er auf Rückendeckung von US-Präsident Trump. Konzerne, die vor den Inseln nach Öl suchen, stehen zunehmend unter Druck. Von Anne Herrberg. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/851ee8e6-ddb6-42ad-87d0-e37ccd1aaf8c/AAABoIigYQo/AAABnSSvrFg/16x9-big/falklands-102.jpg?width=1920",
-      "published": "2026-09-10T02:29:28+02:00",
-      "category": "Politik",
-      "score": 63.43
+      "score": 62.98
     },
     {
       "id": "golem-579d52e3ce310d73",
@@ -152,7 +142,19 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212854&amp;page=1&amp;ts=1789022702",
       "published": "2026-09-10T08:45:02+02:00",
       "category": "Wirtschaft",
-      "score": 57.64
+      "score": 57.09
+    },
+    {
+      "id": "golem-3e090548f10125dd",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Anzeige: GTA VI DualSense-Controller für PS5 jetzt bei Media Markt mit Preisgarantie vorbestellen",
+      "link": "https://www.golem.de/news/anzeige-gta-vi-dualsense-controller-fuer-ps5-jetzt-bei-media-markt-mit-preisgarantie-vorbestellen-2609-212868.html",
+      "summary": "Der limitierte GTA VI DualSense-Controller in Weiß mit Palmenmuster ist jetzt bei Media Markt mit Preisgarantie vorbestellbar. ( Technik/Hardware , Spiele )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212868&amp;page=1&amp;ts=1789035182",
+      "published": "2026-09-10T12:13:02+02:00",
+      "category": "Technologie",
+      "score": 56.98
     },
     {
       "id": "heise-0254db5e6450c4a8",
@@ -164,7 +166,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/1/9/5/5/Watch-Apple-Event__1_-172bff1077f5f983.jpeg",
       "published": "2026-09-09T20:36:00+02:00",
       "category": "Technologie",
-      "score": 57.52,
+      "score": 56.96,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -177,6 +179,18 @@
       }
     },
     {
+      "id": "golem-eff904ad1a7e5136",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Interview mit René Wienholtz: Der Prototyp des modernen CTO",
+      "link": "https://www.golem.de/news/interview-mit-rene-wienholtz-der-prototyp-des-modernen-cto-2609-212837.html",
+      "summary": "René Wienholtz ist 17 Jahre lang CTO bei einem der größten Hoster Deutschlands gewesen und gilt vielen als Vorbild unter den CTOs. Im Interview erzählt er, was er unter Führung versteht. Ein Interview von Markus Feilner ( Arbeit , Silicon Valley )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212837&amp;page=1&amp;ts=1789034402",
+      "published": "2026-09-10T12:00:02+02:00",
+      "category": "Technologie",
+      "score": 56.8
+    },
+    {
       "id": "golem-118826d41c8c8e12",
       "source": "golem",
       "sourceWeight": 0.85,
@@ -186,31 +200,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212852&amp;page=1&amp;ts=1789020902",
       "published": "2026-09-10T08:15:02+02:00",
       "category": "Politik",
-      "score": 57.23
-    },
-    {
-      "id": "golem-99d63819863b43e3",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Ältere iPhone: Apple erhöht Preise bisheriger iPhone-Modelle teilweise erheblich",
-      "link": "https://www.golem.de/news/aeltere-iphone-apple-erhoeht-preise-bisheriger-iphone-modelle-teilweise-erheblich-2609-212857.html",
-      "summary": "Nicht nur die neuen iPhones sind teurer als ihre Vorgänger: Apple hat auch die Preise älterer, weiterhin verfügbarer Modelle erhöht. ( iPhone 18 , Apple )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212857&amp;page=1&amp;ts=1789027741",
-      "published": "2026-09-10T10:09:01+02:00",
-      "category": "Technologie",
-      "score": 55.81
-    },
-    {
-      "id": "golem-20973d71360a1977",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Nach der Preiserhöhung: Hier gibt es Netflix zum alten Preis und teilweise mit ordentlich Rabatt",
-      "link": "https://www.golem.de/news/nach-der-preiserhoehung-hier-gibt-es-netflix-zum-alten-preis-und-teilweise-mit-ordentlich-rabatt-2609-212800.html",
-      "summary": "Neukunden von Netflix müssen seit Anfang September 2026 mehr für das Abo bezahlen. Diese höheren Kosten lassen sich umgehen. Ein Ratgebertext von Ingo Pakalski ( Netflix , Telekom )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212800&amp;page=1&amp;ts=1789023662",
-      "published": "2026-09-10T09:01:02+02:00",
-      "category": "Technologie",
-      "score": 54.87
+      "score": 56.67
     }
   ]
 }
