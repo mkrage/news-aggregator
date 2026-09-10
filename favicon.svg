@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    .bg { fill: #1e3a8a; }
+    .headline { fill: #93c5fd; }
+    .line { fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #3b82f6; }
+      .headline { fill: #dbeafe; }
+    }
+  </style>
+  <rect class="bg" width="64" height="64" rx="14"/>
+  <rect class="headline" x="14" y="18" width="36" height="7" rx="3.5"/>
+  <rect class="line" x="14" y="30" width="36" height="5" rx="2.5"/>
+  <rect class="line" x="14" y="39" width="22" height="5" rx="2.5"/>
+</svg>

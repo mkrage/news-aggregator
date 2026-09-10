@@ -1,7 +1,16 @@
-const CACHE_NAME = "news-aggregator-v6";
+const CACHE_NAME = "news-aggregator-v7";
 // Relative Pfade, damit der Worker auch lokal und unter anderem Basispfad
 // installiert. cache.addAll() ist atomar – ein 404 verhindert die Installation.
-const STATIC_ASSETS = ["./", "./index.html", "./styles.css", "./app.js", "./manifest.json"];
+const STATIC_ASSETS = [
+  "./",
+  "./index.html",
+  "./styles.css",
+  "./app.js",
+  "./manifest.json",
+  "./favicon.svg",
+  "./favicon-32.png",
+  "./apple-touch-icon.png",
+];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(

@@ -7,6 +7,7 @@ Ein statischer News-Aggregator, der auf GitHub Pages läuft und über GitHub Act
 - RSS-Feeds von tagesschau, heise, golem und spiegel
 - Gewichtete Top-News (nicht nur nach Aktualität)
 - Lokaler Lesestatus im Browser
+- Zwei umschaltbare Darstellungen (App / Zeitung), je mit Hell- und Dunkelmodus
 - PWA-fähig
 - Optional: KI-Zusammenfassung der Top-Themen via Gemini
 
@@ -17,6 +18,36 @@ Ein statischer News-Aggregator, der auf GitHub Pages läuft und über GitHub Act
 - **Updater**: GitHub Actions Workflow `.github/workflows/update-news.yml`
 - **Parser**: Python-Script `scripts/fetch_news.py`
 - **Tests**: `scripts/test_fetch_news.py` und `tests/frontend.test.mjs`, CI in `.github/workflows/tests.yml`
+- **Icons**: `scripts/make_icons.py` erzeugt `favicon.svg` und die PNG-Fallbacks
+
+## Darstellung
+
+Zwei Themes stehen zur Wahl, umschaltbar in der Kopfzeile:
+
+- **App** – kompakte Kopfleiste, System-Sans, Karten mit dünnen Rändern
+- **Zeitung** – zentrierter Masthead, Serif-Schlagzeilen (Newsreader), warmes
+  Papier, Haarlinien statt Karten
+
+Jedes Theme hat einen Hell- und einen Dunkelmodus. Ohne eigene Wahl folgt die
+Seite der Systemeinstellung und reagiert live auf deren Wechsel; sobald der
+Modus einmal von Hand umgeschaltet wurde, gilt diese Wahl. Theme, Modus und
+Layout (Kacheln/Liste) liegen unter `news-aggregator-prefs` in `localStorage`.
+Ein Inline-Skript im `<head>` setzt beides vor dem ersten Paint, damit nichts
+sichtbar umspringt.
+
+Die Serif-Schrift wird erst geladen, wenn das Zeitungs-Theme tatsächlich aktiv
+ist – wer bei „App" bleibt, holt keinen externen Font.
+
+## Icons
+
+`favicon.svg` und die PNG-Fallbacks entstehen aus einer gemeinsamen
+Beschreibung in `scripts/make_icons.py` (reine Standardbibliothek, kein
+Pillow). Das SVG bringt eine eigene Dark-Mode-Variante mit; die Kacheln für iOS
+und Android sind randlos, weil beide Systeme selbst maskieren.
+
+```bash
+python scripts/make_icons.py
+```
 
 ## Lesestatus
 

@@ -72,13 +72,25 @@ const sparseArticle = {
 
 /* ---------- Test-Harness ---------- */
 
-function createWindow({ store = new Map(), payloads, captureObservers = false } = {}) {
+function createWindow({ store = new Map(), payloads, captureObservers = false, systemDark = false } = {}) {
   const dom = new JSDOM(html, {
     url: "https://example.github.io/news-aggregator/",
     runScripts: "outside-only",
     pretendToBeVisual: true,
   });
   const { window } = dom;
+
+  // jsdom meldet immer "kein Dark Mode"; fuer den System-Pfad brauchen wir
+  // beide Antworten und einen ausloesbaren change-Listener.
+  const mediaListeners = [];
+  window.matchMedia = (query) => ({
+    media: query,
+    matches: query.includes("dark") ? systemDark : false,
+    addEventListener: (_type, handler) => mediaListeners.push(handler),
+    removeEventListener: () => {},
+    addListener: (handler) => mediaListeners.push(handler),
+    removeListener: () => {},
+  });
 
   Object.defineProperty(window, "localStorage", {
     configurable: true,
@@ -112,7 +124,7 @@ function createWindow({ store = new Map(), payloads, captureObservers = false } 
     }
   };
 
-  return { window, observed, store };
+  return { window, observed, store, mediaListeners };
 }
 
 const defaultPayloads = () => ({
@@ -159,8 +171,9 @@ section("Laden und Rendern");
   const { doc } = await boot();
   check("Artikel gerendert", items(doc).length > 0, `${items(doc).length}`);
   check(
-    "Letzte Aktualisierung gesetzt",
-    /Letzte Aktualisierung: \d{2}\.\d{2}\.\d{4}/.test(doc.getElementById("last-updated").textContent)
+    "Aktualisierungszeit gesetzt",
+    /Aktualisiert \d{2}\.\d{2}\.\d{4}/.test(doc.getElementById("last-updated").textContent),
+    doc.getElementById("last-updated").textContent
   );
   check("Quellenfilter gefüllt", doc.querySelectorAll("#source-filter option").length === 5);
   check("Kategoriefilter gefüllt", doc.querySelectorAll("#category-filter option").length > 1);
@@ -389,10 +402,20 @@ section("Filter, Suche, Ansicht");
 section("Top-Tab und Zusammenfassung");
 {
   const { doc } = await boot();
-  check("Score in jedem Top-Artikel", doc.querySelectorAll(".news-score").length === items(doc).length);
+  const heats = [...doc.querySelectorAll(".news-heat")];
+  check("Relevanzbalken in jedem Top-Artikel", heats.length === items(doc).length);
+  check(
+    "Balken trägt --heat zwischen 0 und 1",
+    heats.every((h) => {
+      const value = Number(h.style.getPropertyValue("--heat"));
+      return value > 0 && value <= 1;
+    })
+  );
+  check("Stärkster Artikel hat --heat 1", heats.some((h) => Number(h.style.getPropertyValue("--heat")) === 1));
+  check("Rohwert bleibt im title", /Relevanz-Score \d/.test(heats[0].title), heats[0].title);
 
   clickTab(doc, "latest");
-  check("Kein Score im Neueste-Tab", doc.querySelectorAll(".news-score").length === 0);
+  check("Kein Relevanzbalken im Neueste-Tab", doc.querySelectorAll(".news-heat").length === 0);
   check("Zusammenfassung nur im Top-Tab", doc.getElementById("ai-summary").classList.contains("hidden"));
 
   const toggle = doc.querySelector('[data-id="long-1"] .toggle-summary');
@@ -489,6 +512,138 @@ section("Fehlerfälle");
     },
   });
   check("Leere Datenlage zeigt Hinweis", !!emptyArticles.doc.querySelector("#news-list .empty"));
+}
+
+/* ---------- 10. Darstellung: Themes und Hell/Dunkel ---------- */
+
+section("Darstellung: Themes und Hell/Dunkel");
+{
+  const store = new Map();
+  const { doc } = await boot({ store });
+  const root = doc.documentElement;
+  const themeColor = () => doc.querySelector('meta[name="theme-color"]').content;
+  const fontLinks = () => doc.querySelectorAll('link[href*="Newsreader"]');
+
+  check("Standard-Theme ist app", root.dataset.theme === "app");
+  check("Standard-Modus ist hell", root.dataset.mode === "light");
+  check(
+    "App-Knopf ist aktiv",
+    doc.querySelector('[data-theme-choice="app"]').classList.contains("is-active") &&
+      doc.querySelector('[data-theme-choice="app"]').getAttribute("aria-pressed") === "true"
+  );
+  check("theme-color passt zum App-Theme", themeColor() === "#ffffff", themeColor());
+  check("Serif-Schrift noch nicht angefordert", fontLinks().length === 0);
+
+  fire(doc.querySelector('[data-theme-choice="editorial"]'), "click");
+  check("Theme auf editorial", root.dataset.theme === "editorial");
+  check(
+    "Zeitungs-Knopf aktiv, App-Knopf nicht",
+    doc.querySelector('[data-theme-choice="editorial"]').classList.contains("is-active") &&
+      !doc.querySelector('[data-theme-choice="app"]').classList.contains("is-active")
+  );
+  check("theme-color folgt dem Zeitungs-Theme", themeColor() === "#faf7f2", themeColor());
+  check("Serif-Schrift nachgeladen", fontLinks().length === 1);
+  check(
+    "Theme in den Einstellungen gemerkt",
+    JSON.parse(store.get("news-aggregator-prefs")).theme === "editorial"
+  );
+
+  fire(doc.querySelector('[data-theme-choice="app"]'), "click");
+  fire(doc.querySelector('[data-theme-choice="editorial"]'), "click");
+  check("Schrift wird nicht doppelt angefordert", fontLinks().length === 1);
+
+  fire(doc.getElementById("mode-toggle"), "click");
+  check("Modus auf dunkel", root.dataset.mode === "dark");
+  check("theme-color folgt dem Dunkelmodus", themeColor() === "#17140f", themeColor());
+  check("Modus gemerkt", JSON.parse(store.get("news-aggregator-prefs")).mode === "dark");
+  check(
+    "Knopfbeschriftung wechselt",
+    doc.getElementById("mode-toggle").getAttribute("aria-label") === "Hellmodus einschalten"
+  );
+
+  fire(doc.getElementById("mode-toggle"), "click");
+  check("Zurück auf hell", root.dataset.mode === "light");
+
+  const reloaded = await boot({ store: new Map(store) });
+  check("Theme überlebt Neuladen", reloaded.doc.documentElement.dataset.theme === "editorial");
+  check(
+    "Serif-Schrift direkt geladen",
+    reloaded.doc.querySelectorAll('link[href*="Newsreader"]').length === 1
+  );
+}
+
+/* ---------- 11. Systemeinstellung für den Dunkelmodus ---------- */
+
+section("Systemeinstellung für den Dunkelmodus");
+{
+  const dark = await boot({ systemDark: true });
+  check("Folgt dunkler Systemeinstellung", dark.doc.documentElement.dataset.mode === "dark");
+  check(
+    "Ohne eigene Wahl wird kein Modus gespeichert",
+    !JSON.parse(dark.store.get("news-aggregator-prefs") || "{}").mode
+  );
+
+  const live = await boot({ systemDark: false });
+  check("Start hell", live.doc.documentElement.dataset.mode === "light");
+  live.mediaListeners.forEach((handler) => handler({ matches: true }));
+  check("Systemwechsel greift", live.doc.documentElement.dataset.mode === "dark");
+
+  const chosen = await boot({ systemDark: false });
+  fire(chosen.doc.getElementById("mode-toggle"), "click");
+  check("Eigene Wahl gesetzt", chosen.doc.documentElement.dataset.mode === "dark");
+  chosen.mediaListeners.forEach((handler) => handler({ matches: false }));
+  check("Systemwechsel wird danach ignoriert", chosen.doc.documentElement.dataset.mode === "dark");
+}
+
+/* ---------- 12. Layout-Wahl wird gemerkt ---------- */
+
+section("Layout-Wahl wird gemerkt");
+{
+  const store = new Map();
+  const { doc } = await boot({ store });
+  check("Start in Kachelansicht", doc.getElementById("news-list").className.includes("top-view"));
+
+  fire(doc.querySelector('.view-btn[data-view="list"]'), "click");
+  check("Auf Liste gewechselt", doc.getElementById("news-list").className.includes("list-view"));
+  check("Layout gemerkt", JSON.parse(store.get("news-aggregator-prefs")).view === "list");
+
+  const reloaded = await boot({ store: new Map(store) });
+  check(
+    "Liste überlebt Neuladen",
+    reloaded.doc.getElementById("news-list").className.includes("list-view")
+  );
+  check(
+    "Knopfzustand wiederhergestellt",
+    reloaded.doc.querySelector('.view-btn[data-view="list"]').getAttribute("aria-pressed") === "true"
+  );
+}
+
+/* ---------- 13. Gelesen-Kennzeichnung ---------- */
+
+section("Gelesen-Kennzeichnung");
+{
+  const { doc } = await boot();
+  clickTab(doc, "latest");
+  const target = items(doc)[0];
+
+  check("Gelesen-Abzeichen ist immer im DOM", !!target.querySelector(".read-badge"));
+  check(
+    "Abzeichen trägt Text",
+    target.querySelector(".read-badge").textContent.includes("Gelesen")
+  );
+  check(
+    "Knopf zeigt Symbol und Text",
+    !!target.querySelector(".toggle-read svg") &&
+      target.querySelector(".toggle-read").textContent.includes("Als gelesen markieren")
+  );
+
+  fire(target.querySelector(".toggle-read"), "click");
+  check("Karte trägt die Klasse read", target.classList.contains("read"));
+  check(
+    "Knopftext umgestellt",
+    target.querySelector(".toggle-read").textContent.trim() === "Als ungelesen markieren"
+  );
+  check("Kein Symbol mehr im Knopf", !target.querySelector(".toggle-read svg"));
 }
 
 console.log(`\n${failures === 0 ? "Alle Tests bestanden." : `${failures} Test(s) fehlgeschlagen.`}`);

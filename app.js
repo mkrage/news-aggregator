@@ -1,20 +1,38 @@
 const STORAGE_KEY = "news-aggregator-read";
 const SCROLLED_KEY = "news-aggregator-scrolled";
+const PREFS_KEY = "news-aggregator-prefs";
 const PREVIEW_LENGTH = 280;
 const RETENTION_DAYS = 30;
 const SEARCH_DEBOUNCE_MS = 150;
 const AI_SUMMARY_MAX_AGE_HOURS = 24;
+
+const THEMES = ["app", "editorial"];
+const VIEWS = ["grid", "list"];
+
+// Muss zur Masthead-Fläche (--surface) des jeweiligen Themes passen, damit die
+// Browserleiste auf Mobilgeräten nicht aus dem Rahmen fällt.
+const THEME_COLORS = {
+  app: { light: "#ffffff", dark: "#141a24" },
+  editorial: { light: "#faf7f2", dark: "#17140f" },
+};
+
+const EDITORIAL_FONT_HREF =
+  "https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap";
 
 const state = {
   all: [],
   top: [],
   aiSummary: null,
   tab: "top",
-  view: "grid", // 'grid' oder 'list'
+  view: "grid",
+  theme: "app",
+  mode: "light",
+  // Solange der Modus nicht bewusst gewählt wurde, folgt er dem System.
+  modeExplicit: false,
   read: new Map(), // id -> Zeitstempel, explizit markiert
   scrolled: new Map(), // id -> Zeitstempel, beim Scrollen erfasst
   // Snapshot beim Laden: nur diese Artikel blendet "Gelesene ausblenden" aus.
-  // Was während der Sitzung gelesen wird, bleibt sichtbar (nur ausgegraut) und
+  // Was während der Sitzung gelesen wird, bleibt sichtbar (nur markiert) und
   // fliegt erst beim nächsten Laden raus.
   hiddenAtLoad: new Set(),
   // Artikel, die in dieser Sitzung bewusst auf "ungelesen" gesetzt wurden,
@@ -25,25 +43,37 @@ const state = {
 const dom = {};
 let observers = [];
 let searchTimer = null;
+let editorialFontRequested = false;
 
 // Service Worker registrieren
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("service-worker.js").catch(console.error);
 }
 
-/* ---------- Lesestatus ---------- */
+/* ---------- Speicher ---------- */
 
-// Speichert IDs mit Zeitstempel, damit alte Einträge irgendwann wegfallen.
+function readJson(key) {
+  try {
+    return JSON.parse(localStorage.getItem(key) || "null");
+  } catch {
+    return null;
+  }
+}
+
+function writeJson(key, value) {
+  try {
+    localStorage.setItem(key, JSON.stringify(value));
+  } catch (error) {
+    console.warn("Einstellungen konnten nicht gespeichert werden", error);
+  }
+}
+
+// Lesestatus mit Zeitstempel, damit alte Einträge irgendwann wegfallen.
 // Das alte Format war ein reines Array von IDs und wird migriert.
 function loadMarks(key) {
-  let raw;
-  try {
-    raw = JSON.parse(localStorage.getItem(key) || "null");
-  } catch {
-    return new Map();
-  }
-
+  const raw = readJson(key);
   const now = Date.now();
+
   if (Array.isArray(raw)) {
     return new Map(raw.filter((id) => typeof id === "string").map((id) => [id, now]));
   }
@@ -56,12 +86,102 @@ function loadMarks(key) {
 }
 
 function saveMarks(key, marks) {
-  try {
-    localStorage.setItem(key, JSON.stringify(Object.fromEntries(marks)));
-  } catch (error) {
-    console.warn("Lesestatus konnte nicht gespeichert werden", error);
-  }
+  writeJson(key, Object.fromEntries(marks));
 }
+
+/* ---------- Darstellung ---------- */
+
+function systemPrefersDark() {
+  return typeof window.matchMedia === "function"
+    ? window.matchMedia("(prefers-color-scheme: dark)").matches
+    : false;
+}
+
+function loadPrefs() {
+  const prefs = readJson(PREFS_KEY) || {};
+
+  state.theme = THEMES.includes(prefs.theme) ? prefs.theme : "app";
+  state.view = VIEWS.includes(prefs.view) ? prefs.view : "grid";
+  state.modeExplicit = prefs.mode === "light" || prefs.mode === "dark";
+  state.mode = state.modeExplicit ? prefs.mode : systemPrefersDark() ? "dark" : "light";
+}
+
+function savePrefs() {
+  const prefs = { theme: state.theme, view: state.view };
+  if (state.modeExplicit) prefs.mode = state.mode;
+  writeJson(PREFS_KEY, prefs);
+}
+
+// Die Serif-Schrift wird erst geholt, wenn das Zeitungs-Theme wirklich zum
+// Einsatz kommt – App-Nutzer zahlen dafür keinen Request.
+function ensureEditorialFont() {
+  if (editorialFontRequested) return;
+  editorialFontRequested = true;
+
+  const preconnect = document.createElement("link");
+  preconnect.rel = "preconnect";
+  preconnect.href = "https://fonts.gstatic.com";
+  preconnect.crossOrigin = "anonymous";
+
+  const stylesheet = document.createElement("link");
+  stylesheet.rel = "stylesheet";
+  stylesheet.href = EDITORIAL_FONT_HREF;
+
+  document.head.append(preconnect, stylesheet);
+}
+
+function applyAppearance() {
+  const root = document.documentElement;
+  root.dataset.theme = state.theme;
+  root.dataset.mode = state.mode;
+
+  const themeColor = document.querySelector('meta[name="theme-color"]');
+  if (themeColor) themeColor.content = THEME_COLORS[state.theme][state.mode];
+
+  document.querySelectorAll(".theme-btn").forEach((btn) => {
+    const active = btn.dataset.themeChoice === state.theme;
+    btn.classList.toggle("is-active", active);
+    btn.setAttribute("aria-pressed", String(active));
+  });
+
+  document.querySelectorAll(".view-btn").forEach((btn) => {
+    const active = btn.dataset.view === state.view;
+    btn.classList.toggle("active", active);
+    btn.setAttribute("aria-pressed", String(active));
+  });
+
+  if (dom.modeToggle) {
+    const toDark = state.mode === "light";
+    dom.modeToggle.title = toDark ? "Dunkelmodus einschalten" : "Hellmodus einschalten";
+    dom.modeToggle.setAttribute("aria-label", dom.modeToggle.title);
+  }
+
+  if (state.theme === "editorial") ensureEditorialFont();
+}
+
+function setTheme(theme) {
+  if (!THEMES.includes(theme) || theme === state.theme) return;
+  state.theme = theme;
+  savePrefs();
+  applyAppearance();
+}
+
+function setMode(mode, explicit = true) {
+  state.mode = mode;
+  if (explicit) state.modeExplicit = true;
+  savePrefs();
+  applyAppearance();
+}
+
+function setView(view) {
+  if (!VIEWS.includes(view) || view === state.view) return;
+  state.view = view;
+  savePrefs();
+  applyAppearance();
+  render();
+}
+
+/* ---------- Lesestatus ---------- */
 
 function isRead(id) {
   return state.read.has(id) || state.scrolled.has(id);
@@ -97,6 +217,26 @@ function el(tag, className, text) {
   if (text != null) node.textContent = text;
   return node;
 }
+
+function svgIcon(pathData, className) {
+  const NS = "http://www.w3.org/2000/svg";
+  const svg = document.createElementNS(NS, "svg");
+  svg.setAttribute("viewBox", "0 0 24 24");
+  svg.setAttribute("fill", "none");
+  svg.setAttribute("stroke", "currentColor");
+  svg.setAttribute("stroke-width", "2.5");
+  svg.setAttribute("stroke-linecap", "round");
+  svg.setAttribute("stroke-linejoin", "round");
+  svg.setAttribute("aria-hidden", "true");
+  if (className) svg.setAttribute("class", className);
+
+  const path = document.createElementNS(NS, "path");
+  path.setAttribute("d", pathData);
+  svg.appendChild(path);
+  return svg;
+}
+
+const CHECK_PATH = "M20 6 9 17l-5-5";
 
 // Nur absolute http(s)-URLs zulassen: das schließt "javascript:" aus und
 // verhindert, dass ein Müllwert relativ zur eigenen Seite aufgelöst wird.
@@ -169,12 +309,13 @@ async function loadData() {
     state.top = Array.isArray(topData.articles) ? topData.articles : [];
     state.aiSummary = isFreshSummary(aiData) ? aiData : null;
 
-    dom.lastUpdated.textContent = `Letzte Aktualisierung: ${formatDate(newsData.generatedAt)}`;
+    dom.lastUpdated.textContent = `Aktualisiert ${formatDate(newsData.generatedAt)}`;
 
     populateFilters();
     render();
   } catch (error) {
     console.error(error);
+    dom.lastUpdated.textContent = "Aktualisierung unbekannt";
     dom.newsList.replaceChildren(
       el("p", "empty", "Fehler beim Laden der News. Bitte später erneut versuchen.")
     );
@@ -268,7 +409,14 @@ function render() {
 
   const isGrid = state.view === "grid";
   dom.newsList.className = `news-list ${isGrid ? "top-view" : "list-view"}`;
-  dom.newsList.replaceChildren(...articles.map((article) => buildCard(article, isGrid)));
+
+  // Bezugsgröße für den Relevanzbalken: der stärkste Artikel der Auswahl.
+  const maxScore = Math.max(
+    ...articles.map((a) => (typeof a.score === "number" ? a.score : 0)),
+    1
+  );
+
+  dom.newsList.replaceChildren(...articles.map((article) => buildCard(article, maxScore)));
 }
 
 function renderAiSummary() {
@@ -288,8 +436,8 @@ function renderAiSummary() {
   dom.aiSummary.classList.remove("hidden");
 }
 
-function buildCard(article, isGrid) {
-  const item = el("article", `news-item ${isGrid ? "grid-item" : "list-item"}`);
+function buildCard(article, maxScore) {
+  const item = el("article", "news-item");
   item.dataset.id = article.id;
 
   const imageUrl = safeUrl(article.image);
@@ -306,7 +454,7 @@ function buildCard(article, isGrid) {
   }
 
   const content = el("div", "news-content");
-  content.appendChild(buildMeta(article));
+  content.appendChild(buildMeta(article, maxScore));
   content.appendChild(buildTitle(article, item));
   content.appendChild(buildSummary(article));
 
@@ -334,7 +482,7 @@ function buildImagePlaceholder() {
   return el("div", "news-image-placeholder", "📰");
 }
 
-function buildMeta(article) {
+function buildMeta(article, maxScore) {
   const meta = el("div", "news-meta");
 
   const source = el("span", "news-source", article.source || "unbekannt");
@@ -343,13 +491,21 @@ function buildMeta(article) {
 
   if (article.category) meta.appendChild(el("span", "news-category", article.category));
 
+  // Immer im DOM, sichtbar macht ihn erst die Klasse "read" per CSS.
+  const badge = el("span", "read-badge");
+  badge.append(svgIcon(CHECK_PATH), el("span", null, "Gelesen"));
+  meta.appendChild(badge);
+
+  if (state.tab === "top" && typeof article.score === "number") {
+    const heat = el("span", "news-heat");
+    heat.style.setProperty("--heat", String(Math.min(article.score / maxScore, 1).toFixed(3)));
+    heat.title = `Relevanz-Score ${article.score}`;
+    meta.appendChild(heat);
+  }
+
   const time = el("span", "news-time", timeAgo(article.published));
   time.title = formatDate(article.published);
   meta.appendChild(time);
-
-  if (state.tab === "top" && typeof article.score === "number") {
-    meta.appendChild(el("span", "news-score", `Score: ${article.score}`));
-  }
 
   return meta;
 }
@@ -411,7 +567,12 @@ function applyReadState(item, id) {
 
   const button = item.querySelector(".toggle-read");
   if (button) {
-    button.textContent = read ? "Als ungelesen markieren" : "Als gelesen markieren";
+    button.replaceChildren();
+    if (read) {
+      button.textContent = "Als ungelesen markieren";
+    } else {
+      button.append(svgIcon(CHECK_PATH), el("span", null, "Als gelesen markieren"));
+    }
   }
 
   // Im Gelesen-Tab gehört ein wieder ungelesener Artikel nicht mehr in die
@@ -426,8 +587,8 @@ function applyReadState(item, id) {
 }
 
 // Artikel als "überscrollt" merken, wenn er den Viewport nach oben verlässt.
-// Bewusst ohne render(): die Kachel wird nur ausgegraut, verschwindet aber
-// erst beim nächsten Laden aus der Liste.
+// Bewusst ohne render(): die Kachel wird nur markiert, verschwindet aber erst
+// beim nächsten Laden aus der Liste.
 function observeScrolled(element, id) {
   if (!("IntersectionObserver" in window) || isRead(id)) return;
 
@@ -469,6 +630,7 @@ function cacheDom() {
     filterToggle: "filter-toggle",
     filtersPanel: "filters-panel",
     filterBadge: "filter-badge",
+    modeToggle: "mode-toggle",
   };
   Object.entries(ids).forEach(([key, id]) => {
     dom[key] = document.getElementById(id);
@@ -481,9 +643,36 @@ function updateFilterBadge() {
   dom.filterBadge.classList.toggle("hidden", active === 0);
 }
 
-function init() {
-  cacheDom();
+function initAppearanceControls() {
+  document.querySelectorAll(".theme-btn").forEach((btn) => {
+    btn.addEventListener("click", () => setTheme(btn.dataset.themeChoice));
+  });
 
+  document.querySelectorAll(".view-btn").forEach((btn) => {
+    btn.addEventListener("click", () => setView(btn.dataset.view));
+  });
+
+  if (dom.modeToggle) {
+    dom.modeToggle.addEventListener("click", () => {
+      setMode(state.mode === "dark" ? "light" : "dark");
+    });
+  }
+
+  // Solange der Nutzer den Modus nicht selbst gewählt hat, dem System folgen.
+  if (typeof window.matchMedia === "function") {
+    const query = window.matchMedia("(prefers-color-scheme: dark)");
+    const onChange = (event) => {
+      if (!state.modeExplicit) setMode(event.matches ? "dark" : "light", false);
+    };
+    if (typeof query.addEventListener === "function") {
+      query.addEventListener("change", onChange);
+    } else if (typeof query.addListener === "function") {
+      query.addListener(onChange);
+    }
+  }
+}
+
+function initTabs() {
   document.querySelectorAll(".tab").forEach((tab) => {
     tab.addEventListener("click", () => {
       document.querySelectorAll(".tab").forEach((other) => {
@@ -497,7 +686,9 @@ function init() {
       render();
     });
   });
+}
 
+function initFilters() {
   dom.search.addEventListener("input", () => {
     clearTimeout(searchTimer);
     searchTimer = setTimeout(render, SEARCH_DEBOUNCE_MS);
@@ -509,6 +700,7 @@ function init() {
       render();
     });
   });
+
   dom.hideRead.addEventListener("change", render);
   updateFilterBadge();
 
@@ -517,20 +709,15 @@ function init() {
     dom.filterToggle.classList.toggle("active", open);
     dom.filterToggle.setAttribute("aria-expanded", String(open));
   });
+}
 
-  document.querySelectorAll(".view-btn").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      document.querySelectorAll(".view-btn").forEach((other) => {
-        other.classList.remove("active");
-        other.setAttribute("aria-pressed", "false");
-      });
-      btn.classList.add("active");
-      btn.setAttribute("aria-pressed", "true");
-      state.view = btn.dataset.view;
-      render();
-    });
-  });
-
+function init() {
+  cacheDom();
+  loadPrefs();
+  applyAppearance();
+  initAppearanceControls();
+  initTabs();
+  initFilters();
   loadData();
 }
 
