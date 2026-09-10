@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T22:40:25.771250+00:00",
+  "generatedAt": "2026-09-10T22:49:37.381484+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/bbb76d96-84c4-4a0d-901b-3414aa1bd4cc_w1200_r1.778_fpx27_fpy57.jpg",
       "published": "2026-09-10T22:10:00+02:00",
       "category": "Politik",
-      "score": 83.91
+      "score": 83.78
     },
     {
       "id": "spiegel-e0c69240453fdaf2",
@@ -24,7 +24,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/0543ff99-fbde-4380-92d7-49f141627e21_w1200_r1.778_fpx57.33_fpy50.jpg",
       "published": "2026-09-10T21:24:00+02:00",
       "category": "Politik",
-      "score": 75.27
+      "score": 75.14
     },
     {
       "id": "spiegel-b0df0f284b1e608d",
@@ -36,7 +36,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/6b587a2d-b0d5-4aa2-ba6b-a3551b1cfeea_w1200_r1.778_fpx50_fpy42.jpg",
       "published": "2026-09-10T20:33:00+02:00",
       "category": "Politik",
-      "score": 74.56
+      "score": 74.44
     },
     {
       "id": "tagesschau-f514b87a853ce0c7",
@@ -48,7 +48,7 @@
       "image": "https://images.tagesschau.de/image/b030cb89-3b88-4c44-b06b-68680d05c83f/AAABoIwkvc0/AAABnSSvrFg/16x9-big/oberster-gerichtshof-washington-104.jpg?width=1920",
       "published": "2026-09-10T19:18:47+02:00",
       "category": "Politik",
-      "score": 74.53
+      "score": 74.41
     },
     {
       "id": "tagesschau-30a5f03ac741dfee",
@@ -60,7 +60,7 @@
       "image": "https://images.tagesschau.de/image/c2bb9918-fc41-4b4d-8892-e2f1fecaf34f/AAABoIu5scs/AAABnSSvrFg/16x9-big/mohammed-bin-salman-trump-100.jpg?width=1920",
       "published": "2026-09-10T17:43:18+02:00",
       "category": "Politik",
-      "score": 73.21
+      "score": 73.08
     },
     {
       "id": "tagesschau-6c10c926e5dd812b",
@@ -72,7 +72,7 @@
       "image": "https://images.tagesschau.de/image/980e74db-cddc-46f0-a933-8c5ce7aa591c/AAABoI0mJUM/AAABnSSvrFg/16x9-big/rbb-steffen-krach-618333196-100.jpg?width=1920",
       "published": "2026-09-11T00:03:41+02:00",
       "category": "Nachrichten",
-      "score": 71.49,
+      "score": 71.36,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -85,6 +85,18 @@
       }
     },
     {
+      "id": "spiegel-2c1c402a66906016",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "US-Spritpreise: Diesel kostet in den USA erstmals mehr als sechs Dollar",
+      "link": "https://www.spiegel.de/wirtschaft/us-spritpreise-diesel-kostet-in-den-usa-erstmals-mehr-als-sechs-dollar-a-eaa43ddc-08a2-467b-a0a1-75f40398a4ff#ref=rss",
+      "summary": "Nie zuvor mussten US-Trucker und -Farmer ihren Kraftstoff so teuer bezahlen wie jetzt. Die Spritpreise werden zur Bürde für Präsident Donald Trump und seine Republikaner. Und sie könnten noch weiter steigen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/fc69d0f7-9933-4bfc-a266-30718dc9fd87_w1200_r1.778_fpx66.01_fpy50.99.jpg",
+      "published": "2026-09-11T00:43:00+02:00",
+      "category": "Politik",
+      "score": 69.91
+    },
+    {
       "id": "spiegel-bfa8dc4ac43fa518",
       "source": "spiegel",
       "sourceWeight": 0.95,
@@ -94,7 +106,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/974058b5-7ca8-4533-9218-485e2465a2fd_w1200_r1.778_fpx46_fpy49.jpg",
       "published": "2026-09-10T23:52:00+02:00",
       "category": "Politik",
-      "score": 69.33
+      "score": 69.2
     },
     {
       "id": "tagesschau-09ddeafb9b927e07",
@@ -106,7 +118,7 @@
       "image": "https://images.tagesschau.de/image/5c86805c-af88-4248-82bc-e99a3fed9812/AAABoIx05yE/AAABnSSvrFg/16x9-big/merz-scheich-mohammed-bin-sajed-al-nahjan-100.jpg?width=1920",
       "published": "2026-09-10T20:24:58+02:00",
       "category": "Nachrichten",
-      "score": 68.45,
+      "score": 68.32,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -119,18 +131,6 @@
       }
     },
     {
-      "id": "spiegel-71342ddf0129f9ff",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Jimmy Kimmel klagt über Druck von Trump-treuer US-Medienaufsicht",
-      "link": "https://www.spiegel.de/kultur/tv/jimmy-kimmel-klagt-ueber-druck-von-trump-treuer-us-medienaufsicht-a-ab986ad9-cceb-4ac1-8e67-d4b76b5aa95a#ref=rss",
-      "summary": "Eigentlich sollte in Jimmy Kimmels TV-Show der Demokrat James Talarico auftreten. Dazu kam es nicht, der Talker erhebt nun Vorwürfe gegen die US-Medienaufsicht. Es ist nicht das erste geplatzte Late-Night-Gastspiel Talaricos.",
-      "image": "https://cdn.prod.www.spiegel.de/images/60adff5a-46e0-48de-bf1c-1a1b1e821335_w1200_r1.778_fpx91_fpy29.jpg",
-      "published": "2026-09-10T22:16:00+02:00",
-      "category": "Politik",
-      "score": 67.99
-    },
-    {
       "id": "tagesschau-ea286a68f79043cd",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -140,7 +140,7 @@
       "image": "https://images.tagesschau.de/image/01beace7-6e13-42cb-af32-180e85cce463/AAABoIxDF2Q/AAABnSSvrFg/16x9-big/rbb-steffen-krach-106.jpg?width=1920",
       "published": "2026-09-10T18:56:27+02:00",
       "category": "Politik",
-      "score": 66.22
+      "score": 66.09
     },
     {
       "id": "golem-90631c5efda9b009",
@@ -152,7 +152,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212892&amp;page=1&amp;ts=1789058701",
       "published": "2026-09-10T18:45:01+02:00",
       "category": "Panorama",
-      "score": 60.06
+      "score": 59.94
     },
     {
       "id": "golem-e3c39744ba62f02c",
@@ -164,7 +164,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212877&amp;page=1&amp;ts=1789040822",
       "published": "2026-09-10T13:47:02+02:00",
       "category": "Technologie",
-      "score": 55.93
+      "score": 55.8
     },
     {
       "id": "golem-02c56f7e5d39421b",
@@ -176,7 +176,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212894&amp;page=1&amp;ts=1789065962",
       "published": "2026-09-10T20:46:02+02:00",
       "category": "Technologie",
-      "score": 53.74
+      "score": 53.62
     },
     {
       "id": "golem-79c1461b881990cc",
@@ -188,7 +188,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212893&amp;page=1&amp;ts=1789059300",
       "published": "2026-09-10T18:55:00+02:00",
       "category": "Technologie",
-      "score": 52.2
+      "score": 52.07
     },
     {
       "id": "golem-5f4eeea9b7eb942a",
@@ -200,7 +200,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212891&amp;page=1&amp;ts=1789057502",
       "published": "2026-09-10T18:25:02+02:00",
       "category": "Technologie",
-      "score": 51.79
+      "score": 51.66
     }
   ]
 }
