@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-09-10T20:08:56.513362+00:00",
+  "generatedAt": "2026-09-10T22:40:25.771250+00:00",
   "count": 15,
   "articles": [
+    {
+      "id": "spiegel-eeee12bcd5011e99",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Ukraine-Krieg: Selenskyj will mit Trump in New York Paket für Flugabwehr aushandeln",
+      "link": "https://www.spiegel.de/ausland/ukraine-krieg-selenskyj-will-mit-trump-in-new-york-paket-fuer-flugabwehr-aushandeln-a-1bd82592-b40e-43b6-867d-22ed8e8f9a5f#ref=rss",
+      "summary": "Der ukrainische Präsident plant, mit seinem US-Amtskollegen noch vor der Uno-Vollversammlung im September über ein Paket zur Stärkung seiner Flugabwehr zu sprechen. Kanada hat seine Hilfe am Donnerstag zugesagt.",
+      "image": "https://cdn.prod.www.spiegel.de/images/bbb76d96-84c4-4a0d-901b-3414aa1bd4cc_w1200_r1.778_fpx27_fpy57.jpg",
+      "published": "2026-09-10T22:10:00+02:00",
+      "category": "Politik",
+      "score": 83.91
+    },
     {
       "id": "spiegel-e0c69240453fdaf2",
       "source": "spiegel",
@@ -12,7 +24,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/0543ff99-fbde-4380-92d7-49f141627e21_w1200_r1.778_fpx57.33_fpy50.jpg",
       "published": "2026-09-10T21:24:00+02:00",
       "category": "Politik",
-      "score": 77.38
+      "score": 75.27
     },
     {
       "id": "spiegel-b0df0f284b1e608d",
@@ -24,7 +36,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/6b587a2d-b0d5-4aa2-ba6b-a3551b1cfeea_w1200_r1.778_fpx50_fpy42.jpg",
       "published": "2026-09-10T20:33:00+02:00",
       "category": "Politik",
-      "score": 76.67
+      "score": 74.56
     },
     {
       "id": "tagesschau-f514b87a853ce0c7",
@@ -36,7 +48,7 @@
       "image": "https://images.tagesschau.de/image/b030cb89-3b88-4c44-b06b-68680d05c83f/AAABoIwkvc0/AAABnSSvrFg/16x9-big/oberster-gerichtshof-washington-104.jpg?width=1920",
       "published": "2026-09-10T19:18:47+02:00",
       "category": "Politik",
-      "score": 76.64
+      "score": 74.53
     },
     {
       "id": "tagesschau-30a5f03ac741dfee",
@@ -48,7 +60,41 @@
       "image": "https://images.tagesschau.de/image/c2bb9918-fc41-4b4d-8892-e2f1fecaf34f/AAABoIu5scs/AAABnSSvrFg/16x9-big/mohammed-bin-salman-trump-100.jpg?width=1920",
       "published": "2026-09-10T17:43:18+02:00",
       "category": "Politik",
-      "score": 75.31
+      "score": 73.21
+    },
+    {
+      "id": "tagesschau-6c10c926e5dd812b",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Ermittlungen gegen Krach in drei Fällen",
+      "link": "https://www.tagesschau.de/inland/regional/berlin/rbb-staatsanwaltschaft-ermittelt-in-drei-faellen-gegen-spd-spitzenkandidat-krach-102.html",
+      "summary": "Die Staatsanwaltschaft Hannover ermittelt in drei Fällen gegen den Berliner SPD-Spitzenkandidaten Krach. Es geht um Verrat von Geschäftsgeheimnissen und den Anfangsverdacht auf Vorteilsnahme. Krach weist die Vorwürfe zurück.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/980e74db-cddc-46f0-a933-8c5ce7aa591c/AAABoI0mJUM/AAABnSSvrFg/16x9-big/rbb-steffen-krach-618333196-100.jpg?width=1920",
+      "published": "2026-09-11T00:03:41+02:00",
+      "category": "Nachrichten",
+      "score": 71.49,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Steffen Krach: Staatsanwaltschaft nennt erste Details zu Ermittlungen",
+            "link": "https://www.spiegel.de/politik/deutschland/steffen-krach-staatsanwaltschaft-nennt-erste-details-zu-ermittlungen-a-8e60dca9-b02a-4be7-abb0-ff3135ad9c0f#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-bfa8dc4ac43fa518",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "AfD-Fraktion erstattet Strafanzeige gegen Friedrich Merz wegen Aussage zu Remigration",
+      "link": "https://www.spiegel.de/politik/afd-fraktion-erstattet-strafanzeige-gegen-friedrich-merz-wegen-aussage-zu-remigration-a-c827fb4c-329d-451a-af6d-76eae250e993#ref=rss",
+      "summary": "Die Bundestagsfraktion der AfD hat offenbar wegen Verleumdung Anzeige gegen den Bundeskanzler erstattet. Friedrich Merz hatte das Konzept der »Remigration« als »ethnische Säuberung« bezeichnet.",
+      "image": "https://cdn.prod.www.spiegel.de/images/974058b5-7ca8-4533-9218-485e2465a2fd_w1200_r1.778_fpx46_fpy49.jpg",
+      "published": "2026-09-10T23:52:00+02:00",
+      "category": "Politik",
+      "score": 69.33
     },
     {
       "id": "tagesschau-09ddeafb9b927e07",
@@ -60,7 +106,7 @@
       "image": "https://images.tagesschau.de/image/5c86805c-af88-4248-82bc-e99a3fed9812/AAABoIx05yE/AAABnSSvrFg/16x9-big/merz-scheich-mohammed-bin-sajed-al-nahjan-100.jpg?width=1920",
       "published": "2026-09-10T20:24:58+02:00",
       "category": "Nachrichten",
-      "score": 70.56,
+      "score": 68.45,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -73,6 +119,18 @@
       }
     },
     {
+      "id": "spiegel-71342ddf0129f9ff",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Jimmy Kimmel klagt über Druck von Trump-treuer US-Medienaufsicht",
+      "link": "https://www.spiegel.de/kultur/tv/jimmy-kimmel-klagt-ueber-druck-von-trump-treuer-us-medienaufsicht-a-ab986ad9-cceb-4ac1-8e67-d4b76b5aa95a#ref=rss",
+      "summary": "Eigentlich sollte in Jimmy Kimmels TV-Show der Demokrat James Talarico auftreten. Dazu kam es nicht, der Talker erhebt nun Vorwürfe gegen die US-Medienaufsicht. Es ist nicht das erste geplatzte Late-Night-Gastspiel Talaricos.",
+      "image": "https://cdn.prod.www.spiegel.de/images/60adff5a-46e0-48de-bf1c-1a1b1e821335_w1200_r1.778_fpx91_fpy29.jpg",
+      "published": "2026-09-10T22:16:00+02:00",
+      "category": "Politik",
+      "score": 67.99
+    },
+    {
       "id": "tagesschau-ea286a68f79043cd",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -82,55 +140,7 @@
       "image": "https://images.tagesschau.de/image/01beace7-6e13-42cb-af32-180e85cce463/AAABoIxDF2Q/AAABnSSvrFg/16x9-big/rbb-steffen-krach-106.jpg?width=1920",
       "published": "2026-09-10T18:56:27+02:00",
       "category": "Politik",
-      "score": 68.33
-    },
-    {
-      "id": "tagesschau-c80e141c90079765",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Trump lockt auf Parteitag Wähler mit 5.000-Dollar-Versprechen",
-      "link": "https://www.tagesschau.de/ausland/amerika/parteitag-republikaner-dallas-100.html",
-      "summary": "Den Republikanern droht bei den US-Kongresswahlen im November eine Schlappe. Die Umfragewerte von Präsident Trump sinken. Er versucht, das Ruder herumzureißen - und verspricht im Falle eines Wahlsiegs 5.000 Dollar für jeden Erwachsenen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/77d98f22-0478-4f64-84ed-3cdf59874430/AAABoIxGeBc/AAABnSSvrFg/16x9-big/trump-5262.jpg?width=1920",
-      "published": "2026-09-10T09:03:50+02:00",
-      "category": "Politik",
-      "score": 68.1
-    },
-    {
-      "id": "spiegel-1a01034141ebc33b",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "AfD in Sachsen-Anhalt: Ostbeauftragte Elisabeth Kaiser warnt vor Erfolgen der Partei",
-      "link": "https://www.spiegel.de/politik/deutschland/afd-in-sachsen-anhalt-ostbeauftragte-elisabeth-kaiser-warnt-vor-erfolgen-der-partei-a-7fd853b4-17ac-46fe-b6e9-6ef8e81235bd#ref=rss",
-      "summary": "Die Ostbeauftragte Elisabeth Kaiser sieht die Verantwortung für den AfD-Wahlerfolg in Sachsen-Anhalt auch bei der Bundesregierung. Ihre Forderung an die Parteien: mehr Präsenz vor Ort.",
-      "image": "https://cdn.prod.www.spiegel.de/images/96104470-32c8-4d9a-937b-dd50258c90ec_w1200_r1.778_fpx45_fpy51.jpg",
-      "published": "2026-09-10T19:45:00+02:00",
-      "category": "Politik",
-      "score": 68.0
-    },
-    {
-      "id": "spiegel-658fa7f79ca350f9",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "USA unter Donald Trump: Wie sich Techmilliardäre vor der Rache der Demokraten fürchten",
-      "link": "https://www.spiegel.de/wirtschaft/unternehmen/usa-unter-donald-trump-wie-sich-techmilliardaere-vor-der-rache-der-demokraten-fuerchten-a-7efd9211-1d12-42ff-a259-5be520c2c483#ref=rss",
-      "summary": "Bezos, Musk, Zuckerberg – die Chefs der Techriesen umwerben US-Präsident Trump mit Geld und Geschenken. Aber was, wenn die Demokraten die Midterms gewinnen? »Ihr werdet komplett gef… sein«, droht ein Topberater.",
-      "image": "https://cdn.prod.www.spiegel.de/images/04120aca-4636-431e-813d-669dd9e5721e_w1200_r1.778_fpx51_fpy62.jpg",
-      "published": "2026-09-10T19:25:00+02:00",
-      "category": "Politik",
-      "score": 67.72
-    },
-    {
-      "id": "spiegel-bc67ae4c67f5d7fc",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Wahl in Berlin: Linke und CDU liefern sich Kopf-an-Kopf-Rennen – Infratest dimap Umfrage",
-      "link": "https://www.spiegel.de/politik/wahl-in-berlin-linke-und-cdu-liefern-sich-kopf-an-kopf-rennen-infratest-dimap-umfrage-a-7dfce167-e150-4496-a347-887dcc1c2a1d#ref=rss",
-      "summary": "Am 20. September wird in Berlin ein neues Landesparlament gewählt. Laut einer neuen Umfrage liegen Linke und CDU nur einen Prozentpunkt auseinander.",
-      "image": "https://cdn.prod.www.spiegel.de/images/bf3bf725-fe9f-4dff-b06d-82d02ccd8e8f_w1200_r1.778_fpx37.75_fpy49.98.jpg",
-      "published": "2026-09-10T18:58:00+02:00",
-      "category": "Politik",
-      "score": 67.35
+      "score": 66.22
     },
     {
       "id": "golem-90631c5efda9b009",
@@ -142,7 +152,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212892&amp;page=1&amp;ts=1789058701",
       "published": "2026-09-10T18:45:01+02:00",
       "category": "Panorama",
-      "score": 62.17
+      "score": 60.06
     },
     {
       "id": "golem-e3c39744ba62f02c",
@@ -154,7 +164,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212877&amp;page=1&amp;ts=1789040822",
       "published": "2026-09-10T13:47:02+02:00",
       "category": "Technologie",
-      "score": 58.03
+      "score": 55.93
     },
     {
       "id": "golem-02c56f7e5d39421b",
@@ -166,7 +176,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212894&amp;page=1&amp;ts=1789065962",
       "published": "2026-09-10T20:46:02+02:00",
       "category": "Technologie",
-      "score": 55.85
+      "score": 53.74
     },
     {
       "id": "golem-79c1461b881990cc",
@@ -178,7 +188,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212893&amp;page=1&amp;ts=1789059300",
       "published": "2026-09-10T18:55:00+02:00",
       "category": "Technologie",
-      "score": 54.31
+      "score": 52.2
     },
     {
       "id": "golem-5f4eeea9b7eb942a",
@@ -190,7 +200,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212891&amp;page=1&amp;ts=1789057502",
       "published": "2026-09-10T18:25:02+02:00",
       "category": "Technologie",
-      "score": 53.89
+      "score": 51.79
     }
   ]
 }
