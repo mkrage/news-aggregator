@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T21:23:24.886309+00:00",
+  "generatedAt": "2026-09-11T22:40:32.148701+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/c349c9e8-1106-4163-9a99-881e40c5b3e9/AAABoJFoFE8/AAABnSSvrFg/16x9-big/siegmund-150.jpg?width=1920",
       "published": "2026-09-11T18:58:32+02:00",
       "category": "Politik",
-      "score": 79.32,
+      "score": 78.25,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -34,7 +34,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/c0f90763-edb6-4129-afa2-8c8827383039_w1200_r1.778_fpx30_fpy52.98.jpg",
       "published": "2026-09-11T19:43:00+02:00",
       "category": "Politik",
-      "score": 74.94
+      "score": 73.87
     },
     {
       "id": "spiegel-0f2facd90f2bcc66",
@@ -46,7 +46,29 @@
       "image": "https://cdn.prod.www.spiegel.de/images/95e10373-2b70-42b6-bd00-770d0a1ea561_w1200_r1.778_fpx54_fpy43.jpg",
       "published": "2026-09-11T17:50:00+02:00",
       "category": "Politik",
-      "score": 73.37
+      "score": 72.3
+    },
+    {
+      "id": "tagesschau-658200d88f10f099",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Frankreich: Mehr als 40 Verletzte bei Zugunglück",
+      "link": "https://www.tagesschau.de/ausland/europa/frankreich-zugentgleisung-100.html",
+      "summary": "Ein Teil eines Zugs in Nordfrankreich ist nach einer Kollision entgleist. Mehr als 40 Menschen wurden nach vorläufigen Angaben verletzt, darunter eine Frau schwer. An Bord des Verkehrsmittels waren rund 180 Passagiere. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/04b775e7-3eb6-4544-92d6-1ec730ee1787/AAABoJJhmhc/AAABnSSvrFg/16x9-big/frankreich-polizei-126.jpg?width=1920",
+      "published": "2026-09-11T23:31:05+02:00",
+      "category": "Nachrichten",
+      "score": 71.04,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Frankreich: Zugunglück in der Normandie – mindestens 44 Menschen verletzt",
+            "link": "https://www.spiegel.de/ausland/frankreich-zugunglueck-in-der-normandie-mindestens-44-menschen-verletzt-a-d1157a15-cb92-460d-a55a-da99569c6766#ref=rss"
+          }
+        ]
+      }
     },
     {
       "id": "tagesschau-9cb8b7557cd76f13",
@@ -58,7 +80,7 @@
       "image": "https://images.tagesschau.de/image/b6b9e86a-03fb-4ec4-a8b0-2e3804e4397d/AAABoJFxCuE/AAABnSSvrFg/16x9-big/koektuerk-102.jpg?width=1920",
       "published": "2026-09-11T19:41:26+02:00",
       "category": "Politik",
-      "score": 67.92
+      "score": 66.85
     },
     {
       "id": "tagesschau-dc3ab53da4fb9d98",
@@ -70,7 +92,7 @@
       "image": "https://images.tagesschau.de/image/1cd7783b-220b-4d14-9b74-536f856c926b/AAABnjsd-94/AAABnSSvrFg/16x9-big/dax-220.jpg?width=1920",
       "published": "2026-09-11T18:32:18+02:00",
       "category": "Wirtschaft",
-      "score": 66.96
+      "score": 65.89
     },
     {
       "id": "spiegel-eeae055f6f4246a8",
@@ -82,7 +104,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/42ff4dd0-3a8a-4134-b2e3-c95d08450b75_w1200_r1.778_fpx51_fpy50.png",
       "published": "2026-09-11T18:18:00+02:00",
       "category": "Politik",
-      "score": 65.76
+      "score": 64.69
     },
     {
       "id": "tagesschau-f6cf5a0a272c077f",
@@ -94,7 +116,7 @@
       "image": "https://images.tagesschau.de/image/1226a176-fa8e-45b6-a8f8-4875dbc9f526/AAABoJBF8Yg/AAABnSSvrFg/16x9-big/ki-apps-116.jpg?width=1920",
       "published": "2026-09-11T15:37:07+02:00",
       "category": "Technologie",
-      "score": 65.52,
+      "score": 64.45,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -116,7 +138,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/ffb51139-b5a0-47a5-ba91-d96ec086eaa8_w1200_r1.778_fpx70_fpy45.jpg",
       "published": "2026-09-11T17:40:00+02:00",
       "category": "Politik",
-      "score": 65.23
+      "score": 64.16
     },
     {
       "id": "spiegel-1ba57194074f9966",
@@ -128,19 +150,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/c99cdf02-c1a4-439f-bba0-52aed38ef669_w1200_r1.778_fpx60_fpy50.jpg",
       "published": "2026-09-11T21:01:00+02:00",
       "category": "Nachrichten",
-      "score": 65.02
-    },
-    {
-      "id": "tagesschau-d2ebd59c72630150",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Gegenwind im Bundestag - Arbeitsministerin Bas verteidigt Reformen",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/bas-haushaltsdebatte-100.html",
-      "summary": "Ungerecht, sozial kalt, auf Sand gebaut: Arbeitsministerin Bas wird für den Haushaltsentwurf ihres Ministeriums von der Opposition scharf angegangen. Dabei ist der Etat so hoch nie. Von Dagmar Pepping. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/1df13aff-733b-4844-81e6-10747786094a/AAABoJCV0QM/AAABnSSvrFg/16x9-big/bas-222.jpg?width=1920",
-      "published": "2026-09-11T15:41:00+02:00",
-      "category": "Politik",
-      "score": 64.58
+      "score": 63.95
     },
     {
       "id": "golem-f21480a2bcdd5c04",
@@ -152,7 +162,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212934&amp;page=1&amp;ts=1789137421",
       "published": "2026-09-11T16:37:01+02:00",
       "category": "Politik",
-      "score": 62.36
+      "score": 61.28
     },
     {
       "id": "golem-14f85c6c6a4a7e71",
@@ -164,7 +174,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212930&amp;page=1&amp;ts=1789132441",
       "published": "2026-09-11T15:14:01+02:00",
       "category": "Politik",
-      "score": 61.2
+      "score": 60.13
     },
     {
       "id": "golem-8182c272975687ae",
@@ -176,7 +186,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212935&amp;page=1&amp;ts=1789139521",
       "published": "2026-09-11T17:12:01+02:00",
       "category": "Wirtschaft",
-      "score": 54.84
+      "score": 53.77
     },
     {
       "id": "golem-77eca1347e716efc",
@@ -188,7 +198,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212940&amp;page=1&amp;ts=1789144022",
       "published": "2026-09-11T18:27:02+02:00",
       "category": "Technologie",
-      "score": 52.88
+      "score": 51.81
     },
     {
       "id": "golem-b8f0eb9ce62fa808",
@@ -200,7 +210,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212927&amp;page=1&amp;ts=1789142402",
       "published": "2026-09-11T18:00:02+02:00",
       "category": "Technologie",
-      "score": 52.51
+      "score": 51.44
     }
   ]
 }
