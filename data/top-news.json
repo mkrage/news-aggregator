@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-12T06:36:04.939858+00:00",
+  "generatedAt": "2026-09-12T10:58:03.277404+00:00",
   "count": 15,
   "articles": [
+    {
+      "id": "tagesschau-9cb8b7557cd76f13",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Zwischenrufe im Bundestag - Linken-Abgeordnete muss 2.000 Euro zahlen",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/ordnungsgeld-koektuerk-bundestag-100.html",
+      "summary": "Für Zwischenrufe hat die Abgeordnete Köktürk drei Ordnungsrufe kassiert. Genug, um nach der neuen Geschäftsordnung des Bundestages eine Geldstrafe zu bekommen. Köktürk ist die erste, die zahlen muss.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/b6b9e86a-03fb-4ec4-a8b0-2e3804e4397d/AAABoJFxCuE/AAABnSSvrFg/16x9-big/koektuerk-102.jpg?width=1920",
+      "published": "2026-09-11T19:41:26+02:00",
+      "category": "Politik",
+      "score": 80.24,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Cansin Köktürk: Linken-Abgeordnete muss wegen Zwischenrufen 2000 Euro zahlen",
+            "link": "https://www.spiegel.de/politik/deutschland/cansin-koektuerk-linken-abgeordnete-muss-wegen-zwischenrufen-2000-euro-zahlen-a-8bb506ad-3f08-4c07-8666-22ca0af5fd69#ref=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "tagesschau-f45efc59fe3d0c8d",
       "source": "tagesschau",
@@ -12,77 +34,79 @@
       "image": "https://images.tagesschau.de/image/777971b8-cbaa-4426-bbf6-ad045a333cbb/AAABoJAFSRk/AAABnSSvrFg/16x9-big/sicherheitskraefte-banner-104.jpg?width=1920",
       "published": "2026-09-12T07:18:36+02:00",
       "category": "Politik",
-      "score": 77.92
+      "score": 74.29
     },
     {
-      "id": "tagesschau-658200d88f10f099",
+      "id": "spiegel-99353f9d2a6d87f3",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Donald Trump in Irland: US-Präsident schwärmt von vereintem Irland",
+      "link": "https://www.spiegel.de/ausland/donald-trump-in-irland-us-praesident-schwaermt-von-vereintem-irland-a-78d8f66e-9026-440d-9bcc-0e4632a97a45#ref=rss",
+      "summary": "Diese Aussage sorgt für Aufregung im Vereinigten Königreich: Bei einem Kurzbesuch in Dublin wünscht sich US-Präsident Donald Trump kurzerhand die Vereinigung Irlands mit Nordirland. Das fände er »fantastisch«.",
+      "image": "https://cdn.prod.www.spiegel.de/images/79dd74f2-2352-462c-9130-f196a49f0c1a_w1200_r1.778_fpx44.63_fpy44.98.jpg",
+      "published": "2026-09-12T12:49:00+02:00",
+      "category": "Politik",
+      "score": 69.87
+    },
+    {
+      "id": "spiegel-3091e600ced3e00a",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Berlin Abgeordnetenhauswahl 2026: Diese Koalitionen sind möglich",
+      "link": "https://www.spiegel.de/politik/deutschland/berlin-abgeordnetenhauswahl-2026-diese-koalitionen-sind-moeglich-a-5bbb1f41-9af9-47da-bd70-89a193047878#ref=rss",
+      "summary": "In Berlin zeichnet sich bei der Abgeordnetenhauswahl ein Kopf-an-Kopf-Rennen ab. Laut neuesten Umfragen sind vor allem zwei Koalitionen denkbar. Testen Sie mit unserem Rechner, wann welche Regierungsoption möglich wird.",
+      "image": "https://cdn.prod.www.spiegel.de/images/d45f96e8-196a-4512-becd-32df1539677b_w1200_r1.778_fpx50_fpy44.png",
+      "published": "2026-09-12T12:29:00+02:00",
+      "category": "Politik",
+      "score": 69.6
+    },
+    {
+      "id": "spiegel-4db61ebf005744e8",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Wirtschaftsreformen: Kretschmer drängt Merz zu Gesprächen mit Gewerkschaften",
+      "link": "https://www.spiegel.de/politik/wirtschaftsreformen-kretschmer-draengt-merz-zu-gespraechen-mit-gewerkschaften-a-9dcb7ce6-e491-4b02-bcd5-e458a5cc522b#ref=rss",
+      "summary": "Nach der Wahl in Sachsen-Anhalt steht Friedrich Merz unter Druck. Sachsens Ministerpräsident Michael Kretschmer fordert, Deutschland müsse wieder wettbewerbsfähiger werden. Dem Kanzler gibt er einen Tipp.",
+      "image": "https://cdn.prod.www.spiegel.de/images/e99049b5-6106-4e99-8d1e-1ba3ab65ebbb_w1200_r1.778_fpx47.23_fpy44.99.jpg",
+      "published": "2026-09-12T12:01:00+02:00",
+      "category": "Politik",
+      "score": 69.21
+    },
+    {
+      "id": "tagesschau-1e4f4c1b5b390243",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Frankreich: Mehr als 40 Verletzte bei Zugunglück",
-      "link": "https://www.tagesschau.de/ausland/europa/frankreich-zugentgleisung-100.html",
-      "summary": "Ein Teil eines Zugs in Nordfrankreich ist nach einer Kollision entgleist. Mehr als 40 Menschen wurden verletzt, darunter eine Person schwer. An Bord des Regionalzuges waren rund 180 Passagiere. Die Unfallursache ist noch unklar.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/458c156b-4109-4110-99fc-e084b097c9ac/AAABoJO03lg/AAABnSSvrFg/16x9-big/frankreich-zug-104.jpg?width=1920",
-      "published": "2026-09-12T05:41:39+02:00",
-      "category": "Panorama",
-      "score": 69.58,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Frankreich: Zugunglück in der Normandie – mindestens 44 Menschen verletzt",
-            "link": "https://www.spiegel.de/ausland/frankreich-zugunglueck-in-der-normandie-mindestens-44-menschen-verletzt-a-d1157a15-cb92-460d-a55a-da99569c6766#ref=rss"
-          }
-        ]
-      }
+      "title": "Nach US-Manöver: Nordkorea feuert erneut ballistische Raketen ab",
+      "link": "https://www.tagesschau.de/ausland/asien/nordkorea-raketen-160.html",
+      "summary": "US-Präsident Trump spricht von guten Beziehungen zu Nordkoreas Machthaber Kim. Doch unmittelbar nach Ende eines Manövers der USA mit Südkorea reagiert der Norden mit Raketen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/4202c5b1-6ffa-4d9b-9d9a-28ac7d64669f/AAABoJSExRo/AAABnSSvrFg/16x9-big/raketen-112.jpg?width=1920",
+      "published": "2026-09-12T09:28:44+02:00",
+      "category": "Politik",
+      "score": 68.09
     },
     {
-      "id": "spiegel-413c8e7166ec1dd8",
+      "id": "spiegel-4ebfbf6b2eb85919",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Sachsen-Anhalt: Dubiose Vereine stützen offenbar Wagenknecht-Partei BSW",
-      "link": "https://www.spiegel.de/politik/deutschland/sachsen-anhalt-dubiose-vereine-stuetzen-offenbar-wagenknecht-partei-bsw-a-9684f5f9-a346-46ba-ad09-5a7bbe30d0f5#ref=rss",
-      "summary": "Ohne den Erfolg des BSW hätten die anderen Parteien im Landtag eine knappe Mehrheit gegen die AfD bekommen. Nach SPIEGEL-Recherchen erhielt Sahra Wagenknechts Partei im Wahlkampf Unterstützung von dubiosen Vereinen. Wer steckt dahinter?",
-      "image": "https://cdn.prod.www.spiegel.de/images/88389610-c245-4ac3-9951-b30ca92d396f_w1200_r1.778_fpx37.24_fpy49.86.jpg",
-      "published": "2026-09-12T06:27:00+02:00",
-      "category": "Politik",
-      "score": 68.21
+      "title": "Iran-Krieg und Gaspreis: Verivox rechnet mit bis zu 20 Prozent höheren Kosten",
+      "link": "https://www.spiegel.de/wirtschaft/service/iran-krieg-und-gaspreis-verivox-rechnet-mit-bis-zu-20-prozent-hoeheren-kosten-a-14cf04d5-5859-415b-bfea-b89ba55c9f6d#ref=rss",
+      "summary": "Der Irankrieg treibt die Energiepreise weiter – auch für Gas. Besonders betroffen: Neukunden. Entspannung ist laut EZB nicht in Sicht. Das dürfte auch an Deutschlands besonderer Anfälligkeit für Preisschocks liegen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/17fefc71-6d0e-459b-a742-e957a407f746_w1200_r1.778_fpx57.22_fpy50.jpg",
+      "published": "2026-09-12T09:08:00+02:00",
+      "category": "Wirtschaft",
+      "score": 66.8
     },
     {
-      "id": "spiegel-885dabce8e759338",
+      "id": "spiegel-35fe704be4ae87a6",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "News: Sprache der AfD, Wahl in Schweden, Neubewertung des Philosophen Diderot",
-      "link": "https://www.spiegel.de/politik/deutschland/news-sprache-der-afd-wahl-in-schweden-neubewertung-des-philosophen-diderot-a-c8ae56d0-edd3-447b-8ef6-343f565d71cf#ref=rss",
-      "summary": "Die AfD könnte die Grenzen des Sagbaren bald aus einer Regierung heraus verschieben. In Schweden greifen Rechtsextremisten nach der Macht. Und in Frankreich wankt ein Held der Aufklärung. Das ist die Lage am Samstagmorgen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/dd17189a-707c-4b57-af32-bf59855d3d25_w1200_r1.778_fpx28.09_fpy49.93.png",
-      "published": "2026-09-12T06:09:00+02:00",
-      "category": "Politik",
-      "score": 67.96
-    },
-    {
-      "id": "spiegel-7ca6746bc91a708e",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Landtagswahl Mecklenburg-Vorpommern: CDU-Politiker befürchten Scheitern an Fünfprozenthürde",
-      "link": "https://www.spiegel.de/politik/landtagswahl-mecklenburg-vorpommern-cdu-politiker-befuerchten-scheitern-an-fuenfprozenthuerde-a-0ca7fd36-4ffc-41cd-bef0-617dfeb47549#ref=rss",
-      "summary": "Die Angst geht um unter den Unionspolitikern in Mecklenburg-Vorpommern. Laut den letzten Umfragen vor der Landtagswahl kommt die CDU auf nur noch sieben Prozent. Was aber, wenn der Stimmanteil noch weiter sinkt?",
-      "image": "https://cdn.prod.www.spiegel.de/images/f1108f89-d7c6-468c-b985-49045659b23e_w1200_r1.778_fpx33.33_fpy50.jpg",
-      "published": "2026-09-12T05:49:00+02:00",
-      "category": "Politik",
-      "score": 67.68
-    },
-    {
-      "id": "spiegel-082b1ae42b6eafd0",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "USA: Wie Donald Trump eine Blamage der Republikaner bei den Midterms abwenden will",
-      "link": "https://www.spiegel.de/ausland/usa-wie-donald-trump-eine-blamage-der-republikaner-bei-den-midterms-abwenden-will-a-617b2fbc-1f9d-4c35-96c9-a6895ab2bc02#ref=rss",
-      "summary": "Den Republikanern droht bei den Kongresswahlen im November eine Schlappe. Bei dem Sonderparteitag in Dallas wird deutlich, auf welche Strategie die GOP setzt – und dass manche darin ein Risiko sehen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/c0f90763-edb6-4129-afa2-8c8827383039_w1200_r1.778_fpx30_fpy52.98.jpg",
-      "published": "2026-09-11T19:43:00+02:00",
-      "category": "Politik",
-      "score": 67.26
+      "title": "Fantasy-Serie »City of Blood«: Die nächste Serien-Katastrophe aus Deutschland",
+      "link": "https://www.spiegel.de/kultur/fantasy-serie-city-of-blood-die-naechste-serien-katastrophe-aus-deutschland-a-a144c5c4-a584-4c02-89b4-cac4bb90ec4c#ref=rss",
+      "summary": "In »City of Blood« leiden die Berliner unter dem Klimawandel, und Vampire saugen die Stadt aus. Die Serie basiert auf einer großartigen Comic-Reihe, aber die Leute hinter dem Projekt wollen »Themen der Gegenwart«. Es ist zum Heulen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/bbf9208e-b6d5-4411-a07a-2bce0ac77135_w1200_r1.778_fpx33.3_fpy49.95.jpg",
+      "published": "2026-09-12T10:29:00+02:00",
+      "category": "Nachrichten",
+      "score": 64.93
     },
     {
       "id": "tagesschau-25a964ab6eb8ed16",
@@ -94,113 +118,79 @@
       "image": "https://images.tagesschau.de/image/9af532fb-dd0d-4417-a592-424f4b1eaa15/AAABoJC8ro0/AAABnSSvrFg/16x9-big/hafen-piraeus-102.jpg?width=1920",
       "published": "2026-09-12T07:04:13+02:00",
       "category": "Nachrichten",
-      "score": 66.72
+      "score": 63.09
     },
     {
-      "id": "spiegel-1d6a53d4f6115fea",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Justizministerin Stefanie Hubig ruft Beamte auf, rechtswidrigen AfD-Weisungen zu widersprechen",
-      "link": "https://www.spiegel.de/politik/deutschland/justizministerin-stefanie-hubig-ruft-beamte-auf-rechtswidrigen-afd-weisungen-zu-widersprechen-a-e8b16d76-0020-46ae-95e9-b0402f05c277#ref=rss",
-      "summary": "Kommt es in Sachsen-Anhalt zu einer AfD-Regierung? Und was wären die Folgen? Bundesjustizministerin Stefanie Hubig erinnert Beamte in dem Bundesland vorsorglich an ihre Rechte und Pflichten.",
-      "image": "https://cdn.prod.www.spiegel.de/images/bff70527-b553-4f28-9d7c-aabd712c33a8_w1200_r1.778_fpx60.65_fpy45.jpg",
-      "published": "2026-09-12T08:11:00+02:00",
-      "category": "Politik",
-      "score": 61.65
-    },
-    {
-      "id": "tagesschau-9cb8b7557cd76f13",
+      "id": "tagesschau-7ed732f06013d8b9",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Zwischenrufe im Bundestag - Linken-Abgeordnete muss 2.000 Euro zahlen",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/ordnungsgeld-koektuerk-bundestag-100.html",
-      "summary": "Für Zwischenrufe hat die Abgeordnete Köktürk drei Ordnungsrufe kassiert. Genug, um nach der neuen Geschäftsordnung des Bundestages eine Geldstrafe zu bekommen. Köktürk ist die erste, die zahlen muss.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/b6b9e86a-03fb-4ec4-a8b0-2e3804e4397d/AAABoJFxCuE/AAABnSSvrFg/16x9-big/koektuerk-102.jpg?width=1920",
-      "published": "2026-09-11T19:41:26+02:00",
+      "title": "Hubig will Verstöße gegen Mietpreisbremse mit Bußgeldern bestrafen",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/hubig-mietpreisbremse-102.html",
+      "summary": "Steigende Mieten machen vielen Menschen Sorgen. Die Mietpreisbremse soll in besonders angespannten Wohnungsmärkten helfen. Doch noch gibt es zu viele Schlupflöcher, sagt Justizministerin Hubig - und will dagegen vorgehen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/abe615b8-509b-4b77-bc97-2aad5f76562e/AAABoJUz9Kc/AAABnSSvrFg/16x9-big/immobilien-131.jpg?width=1920",
+      "published": "2026-09-12T12:43:25+02:00",
       "category": "Politik",
-      "score": 60.24
+      "score": 62.8
     },
     {
-      "id": "tagesschau-e90dee0a0e79ecf7",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Rüstungsgüter für \"Abschiebeoffensive\": Empörung über Siegmund-Aussage",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/afd-siegmund-reaktionen-100.html",
-      "summary": "Nach seinem Wahlsieg in Sachsen-Anhalt hat AfD-Spitzenkandidat Siegmund davon gesprochen, Rüstungsgüter im Zusammenhang mit Abschiebungen zu nutzen. Seine Aussagen lösten bundesweit entsetzte Reaktionen aus.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/c349c9e8-1106-4163-9a99-881e40c5b3e9/AAABoJFoFE8/AAABnSSvrFg/16x9-big/siegmund-150.jpg?width=1920",
-      "published": "2026-09-11T18:58:32+02:00",
-      "category": "Politik",
-      "score": 59.65
-    },
-    {
-      "id": "golem-8ec1d31f39426cfc",
+      "id": "golem-d21ac0440c409ea4",
       "source": "golem",
       "sourceWeight": 0.85,
-      "title": "KI-Sicherheit: Anthropic sperrt Wissenschaftler wegen Biowaffen-Forschung",
-      "link": "https://www.golem.de/news/ki-sicherheit-anthropic-sperrt-wissenschaftler-wegen-biowaffen-forschung-2609-212899.html",
-      "summary": "Anthropic blockiert Konten von Forschern, die KI-Modelle wie Claude zur Entwicklung von biologischen Waffen nutzen wollten. ( Anthropic , KI )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212899&amp;page=1&amp;ts=1789109581",
-      "published": "2026-09-11T08:53:01+02:00",
-      "category": "Wissenschaft",
-      "score": 57.85,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "tagesschau",
-            "title": "KI-Entwickler Anthropic blockiert Biowaffen-Recherchen",
-            "link": "https://www.tagesschau.de/wirtschaft/technologie/kuenstliche-intelligenz-gefahren-risiko-100.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "golem-c0a42dd264c2dcca",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "So war euer Informatikunterricht: \"Die Schüler hielten den Unterricht\"",
-      "link": "https://www.golem.de/news/so-war-euer-informatikunterricht-die-schueler-hielten-den-unterricht-2609-212931.html",
-      "summary": "Während eurer Schulzeit trafen oft planlose Lehrer auf engagierte Schüler. Dennoch erinnert ihr euch gern zurück, an den Informatikunterricht. Von Mike Faust ( Schulen , Studium )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212931&amp;page=1&amp;ts=1789191002",
-      "published": "2026-09-12T07:30:02+02:00",
+      "title": "E-Commerce im Streaming: Amazon verknüpft Prime Video enger mit Onlineshopping",
+      "link": "https://www.golem.de/news/e-commerce-im-streaming-amazon-verknuepft-prime-video-enger-mit-onlineshopping-2609-212945.html",
+      "summary": "Neue X-Ray-Funktionen und bildbasierte Suche in Prime Video ermöglichen das direkte Einkaufen von Produkten aus Filmen und Serien. ( Prime Video , Amazon )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212945&amp;page=1&amp;ts=1789208162",
+      "published": "2026-09-12T12:16:02+02:00",
       "category": "Technologie",
-      "score": 56.08
+      "score": 56.42
     },
     {
-      "id": "golem-f21480a2bcdd5c04",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Kritische Milliardärs-Doku: Musk-Anwalt droht Filmemacher mit Klage",
-      "link": "https://www.golem.de/news/kritische-milliardaers-doku-musk-anwalt-droht-filmemacher-mit-klage-2609-212934.html",
-      "summary": "Insbesondere die Andeutung, Elon Musk habe die US-Präsidentschaftswahlen im Jahr 2024 beeinflusst, ist Gegenstand der Vorwürfe. ( Elon Musk , Politik )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212934&amp;page=1&amp;ts=1789137421",
-      "published": "2026-09-11T16:37:01+02:00",
-      "category": "Politik",
-      "score": 54.68
+      "id": "heise-148c50e17039938b",
+      "source": "heise",
+      "sourceWeight": 0.9,
+      "title": "Salto rückwärts: Apple möchte KI-Modelle doch mit Nutzerdaten trainieren",
+      "link": "https://www.heise.de/news/Salto-rueckwaerts-Apple-moechte-KI-Modelle-doch-mit-Nutzerdaten-trainieren-11451138.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
+      "summary": "Apples Versprechen war simpel: Persönliche Daten von iPhone-Nutzern fließen niemals in das Training von KI-Modellen ein. Damit ist es jetzt vorbei.",
+      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/4/0/1/3/Apple_Intelligence_iPhone_tre-dcf0ad6ffafe329b.jpeg",
+      "published": "2026-09-12T10:10:00+02:00",
+      "category": "Technologie",
+      "score": 55.67
     },
     {
-      "id": "golem-14f85c6c6a4a7e71",
+      "id": "golem-002ae8173f052533",
       "source": "golem",
       "sourceWeight": 0.85,
-      "title": "Gefahr für die Menschheit: Trump sorgt sich nicht um Gefahren bei KI-Entwicklung",
-      "link": "https://www.golem.de/news/gefahr-fuer-die-menschheit-trump-sorgt-sich-nicht-um-gefahren-bei-ki-entwicklung-2609-212930.html",
-      "summary": "Der US-Präsident teilt die Sorge zahlreicher KI-Forscher nicht: KI sei nicht riskant, es gehe darum, gegen China zu gewinnen. ( Donald Trump , KI )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212930&amp;page=1&amp;ts=1789132441",
-      "published": "2026-09-11T15:14:01+02:00",
-      "category": "Politik",
-      "score": 53.53
+      "title": "Urteil zu Rabatt-Apps: Laut OLG gelten Daten rechtlich nicht als Preis",
+      "link": "https://www.golem.de/news/urteil-zu-rabatt-apps-laut-olg-gelten-daten-rechtlich-nicht-als-preis-2609-212944.html",
+      "summary": "Nutzerdaten in Rabatt-Apps gelten rechtlich nicht als Preis. Das OLG Köln weist eine Klage des Verbraucherzentrale Bundesverbands ab. ( Verbraucherschutz , Lidl )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212944&amp;page=1&amp;ts=1789204262",
+      "published": "2026-09-12T11:11:02+02:00",
+      "category": "Technologie",
+      "score": 55.51
     },
     {
-      "id": "golem-8182c272975687ae",
+      "id": "golem-ef1d730cc1504a77",
       "source": "golem",
       "sourceWeight": 0.85,
-      "title": "Arbeit: Uber-Fahrten sollen preiswerter werden - durch 3.300 Entlassungen",
-      "link": "https://www.golem.de/news/arbeit-uber-fahrten-sollen-preiswerter-werden-durch-3-300-entlassungen-2609-212935.html",
-      "summary": "Uber will zehn Prozent der Mitarbeiter entlassen. Die Einsparungen sollen sich positiv auf die Fahrpreise auswirken, verspricht CEO Dara Khosrowshahi. ( Uber , Wirtschaft )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212935&amp;page=1&amp;ts=1789139521",
-      "published": "2026-09-11T17:12:01+02:00",
-      "category": "Wirtschaft",
-      "score": 47.17
+      "title": "Elektromobilität: Tesla bringt den Semi nach Europa",
+      "link": "https://www.golem.de/news/elektromobilitaet-tesla-bringt-den-semi-nach-europa-2609-212943.html",
+      "summary": "Tesla hat konkrete Leistungsdaten zum elektrischen Semi für Europa veröffentlicht. Der Marktstart erfolgt jedoch erst im Jahr 2027. ( Tesla , Elektroauto )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212943&amp;page=1&amp;ts=1789202521",
+      "published": "2026-09-12T10:42:01+02:00",
+      "category": "Technologie",
+      "score": 55.11
+    },
+    {
+      "id": "golem-1d7996087db772b0",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Gamedev: Roblox-Spiele sollen ohne App im Browser laufen",
+      "link": "https://www.golem.de/news/gamedev-roblox-spiele-sollen-ohne-app-im-browser-laufen-2609-212941.html",
+      "summary": "Die Spieleplattform von Roblox öffnet sich: Spiele sollen direkt im Browser, offline und sogar als eigenständige Apps laufen. ( Roblox , Spiele )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212941&amp;page=1&amp;ts=1789200841",
+      "published": "2026-09-12T10:14:01+02:00",
+      "category": "Technologie",
+      "score": 54.72
     }
   ]
 }
