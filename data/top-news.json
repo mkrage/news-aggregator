@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T01:15:42.290820+00:00",
+  "generatedAt": "2026-09-12T01:46:50.306718+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/c349c9e8-1106-4163-9a99-881e40c5b3e9/AAABoJFoFE8/AAABnSSvrFg/16x9-big/siegmund-150.jpg?width=1920",
       "published": "2026-09-11T18:58:32+02:00",
       "category": "Politik",
-      "score": 76.09,
+      "score": 75.66,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -34,7 +34,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/c0f90763-edb6-4129-afa2-8c8827383039_w1200_r1.778_fpx30_fpy52.98.jpg",
       "published": "2026-09-11T19:43:00+02:00",
       "category": "Politik",
-      "score": 71.71
+      "score": 71.28
     },
     {
       "id": "spiegel-0f2facd90f2bcc66",
@@ -46,7 +46,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/95e10373-2b70-42b6-bd00-770d0a1ea561_w1200_r1.778_fpx54_fpy43.jpg",
       "published": "2026-09-11T17:50:00+02:00",
       "category": "Politik",
-      "score": 70.14
+      "score": 69.71
     },
     {
       "id": "tagesschau-658200d88f10f099",
@@ -58,7 +58,7 @@
       "image": "https://images.tagesschau.de/image/04b775e7-3eb6-4544-92d6-1ec730ee1787/AAABoJJhmhc/AAABnSSvrFg/16x9-big/frankreich-polizei-126.jpg?width=1920",
       "published": "2026-09-11T23:31:05+02:00",
       "category": "Nachrichten",
-      "score": 68.88,
+      "score": 68.45,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -80,7 +80,7 @@
       "image": "https://images.tagesschau.de/image/b6b9e86a-03fb-4ec4-a8b0-2e3804e4397d/AAABoJFxCuE/AAABnSSvrFg/16x9-big/koektuerk-102.jpg?width=1920",
       "published": "2026-09-11T19:41:26+02:00",
       "category": "Politik",
-      "score": 64.69
+      "score": 64.26
     },
     {
       "id": "tagesschau-dc3ab53da4fb9d98",
@@ -92,7 +92,7 @@
       "image": "https://images.tagesschau.de/image/1cd7783b-220b-4d14-9b74-536f856c926b/AAABnjsd-94/AAABnSSvrFg/16x9-big/dax-220.jpg?width=1920",
       "published": "2026-09-11T18:32:18+02:00",
       "category": "Wirtschaft",
-      "score": 63.73
+      "score": 63.3
     },
     {
       "id": "spiegel-eeae055f6f4246a8",
@@ -104,7 +104,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/42ff4dd0-3a8a-4134-b2e3-c95d08450b75_w1200_r1.778_fpx51_fpy50.png",
       "published": "2026-09-11T18:18:00+02:00",
       "category": "Politik",
-      "score": 62.53
+      "score": 62.1
     },
     {
       "id": "tagesschau-f6cf5a0a272c077f",
@@ -116,7 +116,7 @@
       "image": "https://images.tagesschau.de/image/1226a176-fa8e-45b6-a8f8-4875dbc9f526/AAABoJBF8Yg/AAABnSSvrFg/16x9-big/ki-apps-116.jpg?width=1920",
       "published": "2026-09-11T15:37:07+02:00",
       "category": "Technologie",
-      "score": 62.3,
+      "score": 61.86,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -129,6 +129,18 @@
       }
     },
     {
+      "id": "spiegel-bdd6a0ab0f95cdb0",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Istanbul: Erdoğan-Rivale İmamoğlu zu zwei Jahren Haft verurteilt",
+      "link": "https://www.spiegel.de/ausland/istanbul-erdogan-rivale-imamoglu-zu-zwei-jahren-haft-verurteilt-a-38d791b4-e7c2-4932-80f7-c4055edab010#ref=rss",
+      "summary": "Istanbuls abgesetzter Bürgermeister gilt als wichtiger Rivale des türkischen Präsidenten – und Opfer einer regierungstreuen Justiz. Das neue Urteil gegen Ekrem İmamoğlu könnte sein politisches Aus bedeuten.",
+      "image": "https://cdn.prod.www.spiegel.de/images/947427d4-6f6c-415a-9130-b5418f2b2671_w1200_r1.778_fpx50.67_fpy50.jpg",
+      "published": "2026-09-12T03:20:00+02:00",
+      "category": "Politik",
+      "score": 61.63
+    },
+    {
       "id": "spiegel-71a1bc5019982ba1",
       "source": "spiegel",
       "sourceWeight": 0.95,
@@ -138,19 +150,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/ffb51139-b5a0-47a5-ba91-d96ec086eaa8_w1200_r1.778_fpx70_fpy45.jpg",
       "published": "2026-09-11T17:40:00+02:00",
       "category": "Politik",
-      "score": 62.0
-    },
-    {
-      "id": "spiegel-1ba57194074f9966",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Iran-Krieg: Ölteppich breitet sich nach US-Angriff in der Straße von Hormus aus",
-      "link": "https://www.spiegel.de/wissenschaft/iran-krieg-oelteppich-breitet-sich-nach-us-angriff-in-der-strasse-von-hormus-aus-a-e3601956-5b3f-449e-ae1e-a1c49843556d#ref=rss",
-      "summary": "Satellitenbilder zeigen Ölschlieren nahe der umkämpften Meerenge. Die Verschmutzung könnte von einem beladenen Tanker stammen, den die USA am Dienstag versenkt haben.",
-      "image": "https://cdn.prod.www.spiegel.de/images/c99cdf02-c1a4-439f-bba0-52aed38ef669_w1200_r1.778_fpx60_fpy50.jpg",
-      "published": "2026-09-11T21:01:00+02:00",
-      "category": "Nachrichten",
-      "score": 61.8
+      "score": 61.57
     },
     {
       "id": "golem-f21480a2bcdd5c04",
@@ -162,7 +162,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212934&amp;page=1&amp;ts=1789137421",
       "published": "2026-09-11T16:37:01+02:00",
       "category": "Politik",
-      "score": 59.13
+      "score": 58.7
     },
     {
       "id": "golem-14f85c6c6a4a7e71",
@@ -174,7 +174,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212930&amp;page=1&amp;ts=1789132441",
       "published": "2026-09-11T15:14:01+02:00",
       "category": "Politik",
-      "score": 57.98
+      "score": 57.54
     },
     {
       "id": "golem-8182c272975687ae",
@@ -186,7 +186,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212935&amp;page=1&amp;ts=1789139521",
       "published": "2026-09-11T17:12:01+02:00",
       "category": "Wirtschaft",
-      "score": 51.62
+      "score": 51.18
     },
     {
       "id": "golem-77eca1347e716efc",
@@ -198,7 +198,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212940&amp;page=1&amp;ts=1789144022",
       "published": "2026-09-11T18:27:02+02:00",
       "category": "Technologie",
-      "score": 49.66
+      "score": 49.22
     },
     {
       "id": "golem-b8f0eb9ce62fa808",
@@ -210,7 +210,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212927&amp;page=1&amp;ts=1789142402",
       "published": "2026-09-11T18:00:02+02:00",
       "category": "Technologie",
-      "score": 49.28
+      "score": 48.85
     }
   ]
 }
