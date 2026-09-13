@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T01:37:39.572483+00:00",
+  "generatedAt": "2026-09-13T06:19:55.287240+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/31436684-e028-4a99-b757-fb7ee2e8e2fa/AAABoJcWdLc/AAABnSSvrFg/16x9-big/may-el-toukhy-regie-100.jpg?width=1920",
       "published": "2026-09-12T22:36:15+02:00",
       "category": "Politik",
-      "score": 78.95,
+      "score": 75.03,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -30,18 +30,74 @@
       "sourceWeight": 1.0,
       "title": "OpenAI-Chef verschiebt Börsengang wegen Sicherheitsbedenken",
       "link": "https://www.tagesschau.de/wirtschaft/unternehmen/openai-boersengang-102.html",
-      "summary": "Das Unternehmen OpenAI bereitet sich seit Längerem auf den Börsengang vor. Doch in diesem Jahr wird es wohl nichts damit: Firmenchef Altman hält den Zeitpunkt für ungünstig - angesichts der Debatte über Risiken von KI. [ mehr ]",
+      "summary": "Das Unternehmen OpenAI bereitet sich seit Längerem auf den Börsengang vor. Doch Firmenchef Altman hält den Zeitpunkt für ungünstig und gibt dem Chef von Anthropic recht, der eine Drosselung der KI-Entwicklung fordert.[ mehr ]",
       "image": "https://images.tagesschau.de/image/2db14df0-c2e6-400e-9f12-32afe01fe402/AAABoJgKanY/AAABnSSvrFg/16x9-big/altman-104.jpg?width=1920",
       "published": "2026-09-13T01:53:35+02:00",
       "category": "Wirtschaft",
-      "score": 73.55,
+      "score": 74.35,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "spiegel",
-            "title": "OpenAI verschiebt Börsengang wegen Sicherheitsbedenken",
-            "link": "https://www.spiegel.de/wirtschaft/unternehmen/openai-verschiebt-boersengang-wegen-sicherheitsbedenken-a-abefa746-b504-4ecf-8f84-4a08c55f057e#ref=rss"
+            "title": "Anthropic, OpenAI, SpaceXAI: Eskaliert jetzt die KI-Krise?",
+            "link": "https://www.spiegel.de/wirtschaft/anthropic-openai-spacexai-eskaliert-jetzt-die-ki-krise-a-718c08cc-db04-4074-b4e7-c2b91e33617b#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-a770ff6f775e4147",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Unkontrollierbare Risiken: KI-Bosse in den USA wollen Entwicklung bremsen",
+      "link": "https://www.tagesschau.de/ausland/amerika/ki-anthropic-106.html",
+      "summary": "Angesichts der Risiken muss die Entwicklung von KI dringend verlangsamt werden, meint der Chef von Anthropic, und fordert Regulierungen. Unterstützung bekommt er von OpenAI-Chef Altman und Tech-Unternehmer Musk. Von Gabi Biesinger. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/f0082ca5-3ee6-4dc6-8adc-996038da7786/AAABnqw8YgA/AAABnSSvrFg/16x9-big/anthropic-124.jpg?width=1920",
+      "published": "2026-09-13T06:47:55+02:00",
+      "category": "Technologie",
+      "score": 70.72,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Tech-Bosse einig: Tempo der KI-Entwicklung muss gedrosselt werden",
+            "link": "https://www.spiegel.de/netzwelt/tech-bosse-einig-tempo-der-ki-entwicklung-muss-gedrosselt-werden-a-d752451e-67a5-4af0-bec7-ac530bfcc9f4#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-2a402a9349d370e3",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Richtungswahl in Schweden: Regierungswechsel oder Rechtsruck?",
+      "link": "https://www.tagesschau.de/ausland/europa/schweden-wahl-130.html",
+      "summary": "In Schweden wird heute ein neues Parlament gewählt. Der Ausgang ist offen: In Umfragen führen die Sozialdemokraten, doch die rechtspopulistischen Schwedendemokraten könnten so viel Einfluss erhalten wie nie zuvor. Von J. Sinram .[ mehr ]",
+      "image": "https://images.tagesschau.de/image/b5723a42-615f-4cfb-8ed9-b5845c7f3692/AAABoJkgSdo/AAABnSSvrFg/16x9-big/jimmie-akesson-104.jpg?width=1920",
+      "published": "2026-09-13T06:57:05+02:00",
+      "category": "Politik",
+      "score": 69.85
+    },
+    {
+      "id": "tagesschau-d217552375dfd7d5",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Ermittler sehen keine Hinweise auf Anschlag bei Zugunglück",
+      "link": "https://www.tagesschau.de/ausland/europa/frankreich-zugunglueck-100.html",
+      "summary": "Bei der Entgleisung eines Zuges in der Normandie werden mehr als 40 Menschen verletzt. Hinweise auf einen Anschlag gibt es jedoch laut Staatsanwalt nicht - damit widerspricht er der Darstellung einiger Politiker.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/ef5c910d-8b91-4496-af21-a7e4d809af4b/AAABoJimjVM/AAABnSSvrFg/16x9-big/frankreich-zug-106.jpg?width=1920",
+      "published": "2026-09-13T04:44:07+02:00",
+      "category": "Nachrichten",
+      "score": 69.0,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Ermittler sehen bei Zugunglück in Frankreich keine Hinweise auf Anschlag",
+            "link": "https://www.spiegel.de/ausland/ermittler-sehen-bei-zugunglueck-in-frankreich-keine-hinweise-auf-anschlag-a-231b7e60-0400-4656-8225-c31f02e5e240#ref=rss"
           }
         ]
       }
@@ -56,29 +112,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/5da061a7-3e97-4dc8-a35f-a482d38f04ac_w1200_r1.778_fpx21_fpy62.jpg",
       "published": "2026-09-12T21:22:00+02:00",
       "category": "Politik",
-      "score": 72.78
+      "score": 68.86
     },
     {
-      "id": "tagesschau-658200d88f10f099",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Frankreich: Mehr als 40 Verletzte bei Zugunglück",
-      "link": "https://www.tagesschau.de/ausland/europa/frankreich-zugentgleisung-100.html",
-      "summary": "Ein Teil eines Zugs in Nordfrankreich ist nach einer Kollision entgleist. Mehr als 40 Menschen wurden verletzt, darunter eine Person schwer. An Bord des Regionalzuges waren rund 180 Passagiere. Die Unfallursache ist noch unklar.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/458c156b-4109-4110-99fc-e084b097c9ac/AAABoJO03lg/AAABnSSvrFg/16x9-big/frankreich-zug-104.jpg?width=1920",
-      "published": "2026-09-12T05:41:39+02:00",
-      "category": "Panorama",
-      "score": 69.81,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Ermittler sehen bei Zugunglück in Frankreich keine Hinweise auf Anschlag",
-            "link": "https://www.spiegel.de/ausland/ermittler-sehen-bei-zugunglueck-in-frankreich-keine-hinweise-auf-anschlag-a-231b7e60-0400-4656-8225-c31f02e5e240#ref=rss"
-          }
-        ]
-      }
+      "id": "spiegel-3d4923716dc08e5b",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "VW meldet mehr als 30.000 Bestellungen für E-Polo",
+      "link": "https://www.spiegel.de/wirtschaft/vw-meldet-mehr-als-30-000-bestellungen-fuer-e-polo-a-ef20c8c8-6308-48bb-8e2c-14ffba38bdd9#ref=rss",
+      "summary": "Der ID. Polo ist einer der VW-Hoffnungsträger. Zusammen mit drei anderen Modellen soll er das Segment erschwinglicher E-Autos erobern. Für den kriselnden Konzern geht es um viel – der Verkauf startet mit längeren Lieferzeiten.",
+      "image": "https://cdn.prod.www.spiegel.de/images/1f0772ba-13bc-4cc7-828f-816debd18e60_w1200_r1.778_fpx65.34_fpy50.jpg",
+      "published": "2026-09-13T05:40:00+02:00",
+      "category": "Nachrichten",
+      "score": 64.78
     },
     {
       "id": "spiegel-bc2672131022393c",
@@ -86,81 +132,69 @@
       "sourceWeight": 0.95,
       "title": "Donald Trumps Elternhaus für zwei Millionen US-Dollar verkauft",
       "link": "https://www.spiegel.de/ausland/donald-trumps-elternhaus-fuer-zwei-millionen-us-dollar-verkauft-a-5fcd2506-5591-4e22-b54e-f4ff6354fe88#ref=rss",
-      "summary": "Leerstand, Wasserschäden, Schimmelbefall: Das im Tudor-Stil errichtete Elternhaus von Donald Trump gammelte lange vor sich hin. Nun wurde das Gebäude in Queens renoviert und verkauft.",
+      "summary": "Leerstand, Wasserschäden, Schimmelbefall: Das im Tudorstil errichtete Elternhaus von Donald Trump gammelte lange vor sich hin. Nun wurde das Gebäude in Queens renoviert und verkauft.",
       "image": "https://cdn.prod.www.spiegel.de/images/36b49a69-a462-452c-9d1a-c0571bbd7c4b_w1200_r1.778_fpx50.67_fpy50.jpg",
       "published": "2026-09-13T00:37:00+02:00",
       "category": "Politik",
-      "score": 67.49
+      "score": 63.57
     },
     {
-      "id": "tagesschau-72552db2a0110673",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Protest in vielen Städten: Zehntausende demonstrieren gegen rechts",
-      "link": "https://www.tagesschau.de/inland/gesellschaft/demos-gegen-rechts-120.html",
-      "summary": "Zehntausende Menschen sind in Deutschland gegen Rechtsextremismus und für Demokratie auf die Straße gegangen. Demos gab es in mehr als 35 Städten. Eine Forderung: Die Prüfung eines AfD-Verbotsverfahrens.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/52d587af-7a2b-4617-98df-fd7aa045f253/AAABoJYJKx0/AAABnSSvrFg/16x9-big/demo-gegen-rechts-berlin-100.jpg?width=1920",
-      "published": "2026-09-12T19:38:32+02:00",
+      "id": "spiegel-f981baf1f6f64ce4",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Verkehrsminister Bilger will Familienreservierung wieder einführen",
+      "link": "https://www.spiegel.de/wirtschaft/service/verkehrsminister-bilger-will-familienreservierung-wieder-einfuehren-a-8c55f4eb-ff50-4faa-b623-b9496a2be5b8#ref=rss",
+      "summary": "Zurück in die Zukunft: Verkehrsminister Bilger will, dass die Bahn eine alte Vergünstigung zurückbringt. Auf Autobahnen sollen die Dinge dagegen bleiben, wie sie immer waren: ohne generelles Tempo-Limit.",
+      "image": "https://cdn.prod.www.spiegel.de/images/dc112e16-23d0-457f-9c3f-c33af8c9142c_w1200_r1.778_fpx33.34_fpy50.jpg",
+      "published": "2026-09-13T07:43:00+02:00",
+      "category": "Politik",
+      "score": 61.49
+    },
+    {
+      "id": "spiegel-e3038dae1ab4dac0",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "AfD: Zehntausende demonstrieren in über 35 Städten gegen Rechtsextremismus und für Demokratie",
+      "link": "https://www.spiegel.de/politik/deutschland/afd-zehntausende-demonstrieren-in-ueber-35-staedten-gegen-rechtsextremismus-und-fuer-demokratie-a-c80cd2d6-34a7-4904-9ad9-b0a2bf20e77a#ref=rss",
+      "summary": "In über 35 Städten sind Menschen an diesem Samstag gegen Rechtsextremismus und für Demokratie auf die Straße gegangen. Eine zentrale Forderung: ein AfD-Verbotsverfahren zu prüfen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/dceee3a6-29e0-4a0e-bbac-813567472670_w1200_r1.778_fpx70_fpy45.jpg",
+      "published": "2026-09-12T18:43:00+02:00",
       "category": "Nachrichten",
-      "score": 65.35,
+      "score": 61.43,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "spiegel",
-            "title": "AfD: Zehntausende demonstrieren in über 35 Städten gegen Rechtsextremismus und für Demokratie",
-            "link": "https://www.spiegel.de/politik/deutschland/afd-zehntausende-demonstrieren-in-ueber-35-staedten-gegen-rechtsextremismus-und-fuer-demokratie-a-c80cd2d6-34a7-4904-9ad9-b0a2bf20e77a#ref=rss"
+            "source": "tagesschau",
+            "title": "Protest in vielen Städten: Zehntausende demonstrieren gegen Rechtsextremismus",
+            "link": "https://www.tagesschau.de/inland/gesellschaft/demos-gegen-rechts-120.html"
           }
         ]
       }
     },
     {
-      "id": "spiegel-026e9a7c9e7b0658",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ukraine meldet weltweit erstes Gefecht zwischen Seedrohnen",
-      "link": "https://www.spiegel.de/ausland/ukraine-meldet-weltweit-erstes-gefecht-zwischen-seedrohnen-a-bb0b1e1c-0ac2-4ba5-8e4d-6695b4aed58a#ref=rss",
-      "summary": "»Dies ist die erste Seeschlacht in der Geschichte zwischen unbemannten Booten«: Ein Video der ukrainischen Marine soll zeigen, wie ein russisches Drohnenboot mit einem Maschinengewehr beschossen wird.",
-      "image": "https://cdn.prod.www.spiegel.de/images/fbf84178-42b0-4c62-93ea-2934370fd932_w1200_r1.778_fpx30_fpy54.99.jpg",
-      "published": "2026-09-12T22:00:00+02:00",
-      "category": "Politik",
-      "score": 65.31
+      "id": "golem-bc345b6a30a0f45d",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Anzeige: IT-Jobs in Datenmanagement, Administration und digitaler Transformation",
+      "link": "https://www.golem.de/news/anzeige-it-jobs-in-datenmanagement-administration-und-digitaler-transformation-2609-212906.html",
+      "summary": "Von der Datenplattform in der Verwaltung bis zur Backup-Infrastruktur für die Astrophysik - aktuell sind sechs vielseitige Positionen im Angebot. ( Golem Karrierewelt , Unternehmenssoftware )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212906&amp;page=1&amp;ts=1789275602",
+      "published": "2026-09-13T07:00:02+02:00",
+      "category": "Wirtschaft",
+      "score": 58.89
     },
     {
-      "id": "tagesschau-859284255b9c5c36",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "US-Präsident Trump in Irland: Golf, Proteste und ein heikles Thema",
-      "link": "https://www.tagesschau.de/ausland/europa/trump-besuch-irland-104.html",
-      "summary": "US-Präsident Trump besucht Irland - und ein Golfturnier in seinem eigenem Golfressort. Ein kleines Dorf steht Kopf, viele demonstrieren gegen den Besuch - und dann wird plötzlich die Einheit Irlands zum Thema. Von Mareike Aden. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/dfad6621-0420-409f-89a2-ef5809c01562/AAABoJbDAFU/AAABnSSvrFg/16x9-big/trump-golfplatz-100.jpg?width=1920",
-      "published": "2026-09-12T19:55:57+02:00",
-      "category": "Politik",
-      "score": 64.59
-    },
-    {
-      "id": "spiegel-c7bc0294a12d27dd",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Donald Trump: Baufirma gesteht Fehler bei Reflecting Pool in Washington ein",
-      "link": "https://www.spiegel.de/ausland/donald-trump-baufirma-gesteht-fehler-bei-reflecting-pool-in-washington-ein-a-de429938-57fc-405d-b975-42614e5e5a9b#ref=rss",
-      "summary": "Angeblich haben Vandalen den Reflecting Pool in Washington verwüstet, behauptet Donald Trump. Nun zeigen interne Regierungsdokumente: Schuld am Renovierungs-Debakel waren die Baufirma – und Trumps Golf-Club-Manager.",
-      "image": "https://cdn.prod.www.spiegel.de/images/0e0fe068-9a80-4c86-bcc7-f412f102b941_w1200_r1.778_fpx50_fpy52.jpg",
-      "published": "2026-09-12T20:38:00+02:00",
-      "category": "Politik",
-      "score": 64.17
-    },
-    {
-      "id": "spiegel-a159b7aec770aa5f",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "G20-Gipfel in den USA: Wolodymyr Selenskyj zu Treffen mit Wladimir Putin bereit, Kreml ziert sich",
-      "link": "https://www.spiegel.de/ausland/g20-gipfel-in-den-usa-wolodymir-selenskyj-zu-treffen-mit-wladimir-putin-bereit-kreml-ziert-sich-a-df95a667-e846-44ce-8865-6958c5e4264d#ref=rss",
-      "summary": "Der ukrainische Präsident Selenskyj würde mit Putin am Rande des G20-Gipfels gern verhandeln. Der nächste findet in den USA statt, Gastgeber Trump fände die Teilnahme Russlands auch »sehr hilfreich«. Moskau aber zögert.",
-      "image": "https://cdn.prod.www.spiegel.de/images/39431656-9d80-4b55-8026-1a9c24171102_w1200_r1.778_fpx50.69_fpy49.99.jpg",
-      "published": "2026-09-12T18:34:00+02:00",
-      "category": "Politik",
-      "score": 62.45
+      "id": "golem-38a3a3805c21bdc2",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Indiegames: Sieben besondere Games abseits der großen Blockbuster",
+      "link": "https://www.golem.de/news/indiegames-sieben-besondere-games-abseits-der-grossen-blockbuster-2609-212838.html",
+      "summary": "Von Mortal Shell 2 bis Corsair Cove: Diese kleineren Games-Neuheiten bieten ungewöhnliche Ideen, starke Atmosphäre und viel Spielspaß. Von Rainer Sigl ( Indiegames , Rollenspiel )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212838&amp;page=1&amp;ts=1789279202",
+      "published": "2026-09-13T08:00:02+02:00",
+      "category": "Technologie",
+      "score": 56.72
     },
     {
       "id": "golem-c4a319d4e5df4783",
@@ -172,7 +206,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212949&amp;page=1&amp;ts=1789220761",
       "published": "2026-09-12T15:46:01+02:00",
       "category": "Politik",
-      "score": 58.12
+      "score": 54.2
     },
     {
       "id": "golem-6da4c58eb0219726",
@@ -184,7 +218,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212952&amp;page=1&amp;ts=1789243381",
       "published": "2026-09-12T22:03:01+02:00",
       "category": "Technologie",
-      "score": 52.35
+      "score": 48.43
     },
     {
       "id": "golem-9f603676e07b65be",
@@ -196,31 +230,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212950&amp;page=1&amp;ts=1789238702",
       "published": "2026-09-12T20:45:02+02:00",
       "category": "Technologie",
-      "score": 51.27
-    },
-    {
-      "id": "golem-d3d96ca7b857413d",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Anzeige: Die neuen iPhone 18 Pro (Max) für 1 Euro Anzahlung im Tarif bei Vodafone",
-      "link": "https://www.golem.de/news/anzeige-die-neuen-iphone-18-pro-max-fuer-1-euro-anzahlung-im-tarif-bei-vodafone-2609-212939.html",
-      "summary": "Vodafone bietet die neuen Smartphones von Apple jetzt mit einem beliebten Tarif an. Besonders spannend: Die Anzahlung beträgt nur 1 Euro. ( iPhone 18 , Apple )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212939&amp;page=1&amp;ts=1789224001",
-      "published": "2026-09-12T16:40:01+02:00",
-      "category": "Technologie",
-      "score": 47.87
-    },
-    {
-      "id": "golem-5f2fe6be8f6c139e",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "eActros 600: Amazon lässt Mercedes-E-Lkw auf deutschen Straßen fahren",
-      "link": "https://www.golem.de/news/eactros-600-amazon-laesst-mercedes-e-lkw-auf-deutschen-strassen-fahren-2609-212948.html",
-      "summary": "Amazon setzt über 50 batterieelektrische eActros 600 in Deutschland ein. ( Amazon , Elektroauto )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212948&amp;page=1&amp;ts=1789218481",
-      "published": "2026-09-12T15:08:01+02:00",
-      "category": "Technologie",
-      "score": 46.59
+      "score": 47.35
     }
   ]
 }
