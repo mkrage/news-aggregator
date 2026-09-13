@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T16:42:09.845330+00:00",
+  "generatedAt": "2026-09-13T19:01:58.980693+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,29 +12,65 @@
       "image": "https://cdn.prod.www.spiegel.de/images/96f5d3d7-c220-40ac-b77c-d6c1a81f25b9_w1200_r1.778_fpx14_fpy38.jpg",
       "published": "2026-09-13T14:07:00+02:00",
       "category": "Politik",
-      "score": 74.18
+      "score": 72.24
     },
     {
-      "id": "tagesschau-7c52a22a2fe0c7a7",
+      "id": "tagesschau-954e8d56ce101006",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Festnahmen bei Razzien gegen LGBTQ-Vereine in der Türkei",
-      "link": "https://www.tagesschau.de/ausland/asien/tuerkei-razzien-lgbtq-vereine-100.html",
-      "summary": "Türkische Behörden gehen hart gegen LGBTQ-Vereine vor: Bei Razzien wurden mehrere Menschen festgenommen. Die Staatsanwaltschaft spricht von einer Aktion zum Schutz der Familie, Menschenrechtler kritisieren staatlich gelenkte Diskriminierung.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/67bf51dd-70c4-4603-a633-46ef32dafe50/AAABoJrP9hE/AAABnSSvrFg/16x9-big/tuerkei-lgbtq-100.jpg?width=1920",
-      "published": "2026-09-13T16:09:26+02:00",
-      "category": "Technologie",
-      "score": 69.88,
+      "title": "Nach Angriffen auf Öl-Infrastruktur: Saudi-Arabien unter Druck",
+      "link": "https://www.tagesschau.de/ausland/asien/saudi-arabien-huthi-oelpreis-100.html",
+      "summary": "Nach dem Huthi-Vormarsch und dem Angriff auf eine Pipeline wächst der Druck auf Saudi-Arabien - denn nach der Straße von Hormus ist nun auch die Ausweichroute für Ölexporte vorerst nicht nutzbar. Von den USA kommt keine Hilfe. Von A. Osius. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/e668afa7-2072-45b9-9507-9f195799ec20/AAABoIIIH2g/AAABnSSvrFg/16x9-big/oeldepot-saudi-aramco-100.jpg?width=1920",
+      "published": "2026-09-13T17:56:14+02:00",
+      "category": "Nachrichten",
+      "score": 70.6,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "spiegel",
-            "title": "Türkei: Razzia und Festnahmen bei LGBTQ+-Vereinen",
-            "link": "https://www.spiegel.de/ausland/tuerkei-razzia-und-festnahmen-bei-lgbtq-vereinen-a-0a2153c9-1f2c-4278-9a95-13b825849a6a#ref=rss"
+            "title": "Donald Trump gibt Ukraine Schuld an steigenden Spritpreisen - trotz Lage in Nahost",
+            "link": "https://www.spiegel.de/ausland/donald-trump-gibt-ukraine-schuld-an-steigenden-spritpreisen-trotz-lage-in-nahost-a-f7fd4c6f-a587-4978-ab6d-7a39610b06da#ref=rss"
           }
         ]
       }
+    },
+    {
+      "id": "spiegel-98a7f0b8f00fe9cc",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Schweden-Wahl: Linkes Lager laut Prognose knapp vorn",
+      "link": "https://www.spiegel.de/ausland/schweden-wahl-linkes-lager-laut-prognose-knapp-vorn-a-55fb5492-1c51-4db1-a9dc-578ef64dd172#ref=rss",
+      "summary": "Schwedens Mitte-links-Bündnis kommt laut einer Wählerbefragung des öffentlich-rechtlichen Senders SVT zusammen auf etwa 51 Prozent der Stimmen. Damit liegt es vor dem regierenden rechten Block mit knapp 47 Prozent.",
+      "image": "https://cdn.prod.www.spiegel.de/images/a248c73f-e494-4e81-88eb-e482533b0d4c_w1200_r1.778_fpx46_fpy31.jpg",
+      "published": "2026-09-13T20:21:00+02:00",
+      "category": "Politik",
+      "score": 69.43
+    },
+    {
+      "id": "spiegel-f40542cd25674e45",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Niedersachsen-Kommunalwahl: Grüner OB Belit Onay in Hannover liegt vorn",
+      "link": "https://www.spiegel.de/politik/deutschland/niedersachsen-kommunalwahl-gruener-ob-belit-onay-in-hannover-liegt-vorn-a-b5ef75b8-6ad1-4ba8-b9e2-e7257924a0e8#ref=rss",
+      "summary": "Der amtierende Oberbürgermeister von Hannover, Belit Onay von den Grünen, kommt laut Zwischenergebnis auf 43,7 Prozent der Stimmen. Damit setzt er sich klar gegen seinen SPD-Stellvertreter Axel von der Ohe durch.",
+      "image": "https://cdn.prod.www.spiegel.de/images/4285a2b4-7aba-4fdb-b712-7bf195a6b34c_w1200_r1.778_fpx45_fpy20.jpg",
+      "published": "2026-09-13T19:39:00+02:00",
+      "category": "Politik",
+      "score": 68.85
+    },
+    {
+      "id": "spiegel-ad8046dace3caec8",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Israel: Wie Benjamin Netanyahu den Kontakt zur AfD sucht",
+      "link": "https://www.spiegel.de/ausland/israel-wie-benjamin-netanyahu-den-kontakt-zur-afd-sucht-a-96560efa-ad3e-4e92-be61-a8f25df80a59#ref=rss",
+      "summary": "Wenn der Rechtsextremismus in der Mitte der Gesellschaft ankommt, ist der Weg in die Regierung nicht mehr weit. Das zeigt ausgerechnet Israel unter Benjamin Netanyahu. Sein Umfeld sucht Kontakt zur AfD.",
+      "image": "https://cdn.prod.www.spiegel.de/images/c762bea8-3e64-433e-921b-f5ff2bd5f859_w1200_r1.778_fpx51.2_fpy54.98.jpg",
+      "published": "2026-09-13T18:42:00+02:00",
+      "category": "Politik",
+      "score": 68.06
     },
     {
       "id": "tagesschau-5287096dfa01ebef",
@@ -46,7 +82,19 @@
       "image": "https://images.tagesschau.de/image/5bbc8275-e341-425f-9d62-1dfc14b776c5/AAABoJtIy10/AAABnSSvrFg/16x9-big/ukraine-zug-brennt-100.jpg?width=1920",
       "published": "2026-09-13T17:08:51+02:00",
       "category": "Politik",
-      "score": 69.7
+      "score": 67.76
+    },
+    {
+      "id": "spiegel-0bdcbc80b48cc7bd",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Friedrich Merz in der Krise: In der CDU geht die Angst um",
+      "link": "https://www.spiegel.de/politik/deutschland/friedrich-merz-in-der-krise-in-der-cdu-geht-die-angst-um-a-10502655-c11c-42a5-b7e6-79db04e5108a#ref=rss",
+      "summary": "Putschgerüchte machen in Berlin die Runde. Was passiert mit Kanzler Merz, falls die CDU in sieben Tagen in Mecklenburg-Vorpommern an der Fünfprozenthürde scheitert? Zwei Ministerpräsidenten werden als mögliche Nachfolger genannt.",
+      "image": "https://cdn.prod.www.spiegel.de/images/02b9d499-9de4-4c33-9b2f-97c801dad048_w1200_r1.778_fpx58_fpy75.jpg",
+      "published": "2026-09-13T17:43:00+02:00",
+      "category": "Politik",
+      "score": 67.24
     },
     {
       "id": "tagesschau-31a1819e116ada7f",
@@ -58,41 +106,29 @@
       "image": "https://images.tagesschau.de/image/196dfb3a-ed50-44b0-bfae-49b6fe96e73a/AAABoJsrMWw/AAABnSSvrFg/16x9-big/afd-mdr-106.jpg?width=1920",
       "published": "2026-09-13T16:28:14+02:00",
       "category": "Politik",
-      "score": 69.14
+      "score": 67.2
     },
     {
-      "id": "spiegel-3ba0878c58929bc4",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Sam Altman von OpenAI äußert sich zu Sicherheitsbedenken künstlicher Intelligenz",
-      "link": "https://www.spiegel.de/wirtschaft/sam-altman-von-openai-aeussert-sich-zu-sicherheitsbedenken-kuenstlicher-intelligenz-a-a4d6772a-1cff-4fab-8791-254e2bf36915#ref=rss",
-      "summary": "Wie gefährlich wird die KI? Darüber wird gerade wieder debattiert, es gibt Warnungen aus der Branche. Die will jetzt angeblich selbst auf die Bremse treten.",
-      "image": "https://cdn.prod.www.spiegel.de/images/3be45c12-acd5-490d-9b95-5ded0cc2aba0_w1200_r1.778_fpx54_fpy35.jpg",
-      "published": "2026-09-13T15:54:00+02:00",
+      "id": "golem-1d14b745e04eea6d",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Künstliche Intelligenz: OpenAI erwägt Verlangsamung der KI-Entwicklung",
+      "link": "https://www.golem.de/news/kuenstliche-intelligenz-openai-erwaegt-verlangsamung-der-ki-entwicklung-2609-212946.html",
+      "summary": "OpenAI prüft eine Drosselung der Entwicklungsgeschwindigkeit bei KI. Sam Altman hofft dabei auf eine Branchenvereinbarung. ( Anthropic , KI )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212946&amp;page=1&amp;ts=1789211882",
+      "published": "2026-09-12T13:18:02+02:00",
       "category": "Technologie",
-      "score": 68.66,
+      "score": 66.72,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "golem",
-            "title": "Künstliche Intelligenz: OpenAI erwägt Verlangsamung der KI-Entwicklung",
-            "link": "https://www.golem.de/news/kuenstliche-intelligenz-openai-erwaegt-verlangsamung-der-ki-entwicklung-2609-212946.html"
+            "source": "spiegel",
+            "title": "Künstliche Intelligenz: Sam Altman von OpenAI äußert sich zu Sicherheitsbedenken",
+            "link": "https://www.spiegel.de/wirtschaft/kuenstliche-intelligenz-sam-altman-von-openai-aeussert-sich-zu-sicherheitsbedenken-a-a4d6772a-1cff-4fab-8791-254e2bf36915#ref=rss"
           }
         ]
       }
-    },
-    {
-      "id": "spiegel-a91a299a66b53528",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Grenzsturm von Ceuta: »Wir sind in die Falle getappt« – Spaniens Ex-Außenministerin Arancha González Laya im Interview",
-      "link": "https://www.spiegel.de/ausland/grenzsturm-von-ceuta-wir-sind-in-die-falle-getappt-spaniens-ex-aussenministerin-arancha-gonzalez-laya-im-interview-a-03435f58-2dfd-469f-bd9c-81e3f0d65c46#ref=rss",
-      "summary": "Sie war spanische Außenministerin, als 2021 Tausende Menschen über die Grenze nach Ceuta gelangten – nun ist es wieder passiert. Hier spricht Arancha González Laya über den schwierigen Umgang mit Marokko und die Fehler der EU.",
-      "image": "https://cdn.prod.www.spiegel.de/images/b92e6847-8ea8-427e-971c-538e66979596_w1200_r1.778_fpx52_fpy44.jpg",
-      "published": "2026-09-13T16:14:00+02:00",
-      "category": "Politik",
-      "score": 67.94
     },
     {
       "id": "heise-79dc2ab1baec825a",
@@ -104,7 +140,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/4/2/5/4/World-of-Warcraft-Forever-34945f0df7aaeb6b.jpeg",
       "published": "2026-09-13T14:25:00+02:00",
       "category": "Technologie",
-      "score": 66.43,
+      "score": 64.49,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -117,30 +153,6 @@
       }
     },
     {
-      "id": "spiegel-55f31c35d99df421",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "CDU in Sachsen-Anhalt: Interner Chat zeigt Wut nach der Niederlage",
-      "link": "https://www.spiegel.de/politik/deutschland/cdu-in-sachsen-anhalt-interner-chat-zeigt-wut-nach-der-niederlage-a-c828396a-8ecd-40c3-b9cd-35896a8b89ae#ref=rss",
-      "summary": "In der CDU Sachsen-Anhalt ist nach der Wahlniederlage ein heftiger Machtkampf ausgebrochen. Der Frust entlädt sich nach SPIEGEL-Informationen im internen Chat der Landesführung.",
-      "image": "https://cdn.prod.www.spiegel.de/images/2d5e6500-2259-4877-91f7-82f284d8e286_w1200_r1.778_fpx29.91_fpy44.87.jpg",
-      "published": "2026-09-13T14:15:00+02:00",
-      "category": "Politik",
-      "score": 66.29
-    },
-    {
-      "id": "spiegel-d194a9c21f0d3e45",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Donald Trump und Künstliche Intelligenz: US-Präsident lehnt mehr KI-Regulierung ab",
-      "link": "https://www.spiegel.de/ausland/donald-trump-und-kuenstliche-intelligenz-us-praesident-lehnt-mehr-ki-regulierung-ab-a-4fc6dc57-505f-40e3-abda-ee8446e0d961#ref=rss",
-      "summary": "Der US-Präsident sieht sein Land im KI-Wettlauf vorn und will es dabei belassen. Rufe nach Regulierung lehnt er ab, dahinter stecken seinen Worten zufolge »negative Kräfte«.",
-      "image": "https://cdn.prod.www.spiegel.de/images/cbddf5f5-3083-430e-a75d-e56fe21304be_w1200_r1.778_fpx60.67_fpy45.jpg",
-      "published": "2026-09-13T17:19:00+02:00",
-      "category": "Technologie",
-      "score": 65.84
-    },
-    {
       "id": "tagesschau-3c687988a44802b9",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -150,19 +162,19 @@
       "image": "https://images.tagesschau.de/image/dbdc6ca3-b14f-425b-8cc5-e8cf8a8f1a06/AAABoJDbmuc/AAABnSSvrFg/16x9-big/nairobi-schlaeger-demo-100.jpg?width=1920",
       "published": "2026-09-13T12:24:51+02:00",
       "category": "Politik",
-      "score": 65.76
+      "score": 63.82
     },
     {
-      "id": "tagesschau-2a402a9349d370e3",
+      "id": "tagesschau-4378cdeca223d296",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Richtungswahl in Schweden: Regierungswechsel oder Rechtsruck?",
-      "link": "https://www.tagesschau.de/ausland/europa/schweden-wahl-130.html",
-      "summary": "In Schweden wird heute ein neues Parlament gewählt. Der Ausgang ist offen: In Umfragen führen die Sozialdemokraten, doch die rechtspopulistischen Schwedendemokraten könnten so viel Einfluss erhalten wie nie zuvor. Von J. Sinram .[ mehr ]",
-      "image": "https://images.tagesschau.de/image/b5723a42-615f-4cfb-8ed9-b5845c7f3692/AAABoJkgSdo/AAABnSSvrFg/16x9-big/jimmie-akesson-104.jpg?width=1920",
-      "published": "2026-09-13T06:57:05+02:00",
-      "category": "Politik",
-      "score": 61.21
+      "title": "CDU-Influencerin von Nathusius übt scharfe Kritik an Kanzler Merz",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/bab-6378.html",
+      "summary": "In der CDU wächst die Kritik an Kanzler Merz: Clara von Nathusius, im Vorstand der Jungen Union, hält seine Tage im Amt für gezählt. Die CDU müsse sich nun entscheiden, wofür sie stehe, sagt sie im Bericht aus Berlin . Die Brandmauer hält sie für gescheitert.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/3bf30ade-1e8c-44a9-a6cf-5f319976d8dd/AAABoJvfH6I/AAABnSSvrFg/16x9-big/von-nathusius-104.jpg?width=1920",
+      "published": "2026-09-13T20:44:54+02:00",
+      "category": "Nachrichten",
+      "score": 59.76
     },
     {
       "id": "heise-2c2fae8a8e846a03",
@@ -174,7 +186,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/4/2/6/0/shutterstock_1926882518-5a70690af905d312.jpeg",
       "published": "2026-09-13T14:17:00+02:00",
       "category": "Technologie",
-      "score": 54.32
+      "score": 52.38
     },
     {
       "id": "golem-e0c33a2b54343682",
@@ -186,7 +198,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212933&amp;page=1&amp;ts=1789299602",
       "published": "2026-09-13T13:40:02+02:00",
       "category": "Technologie",
-      "score": 52.8
+      "score": 50.86
     },
     {
       "id": "golem-5d14bcff39c81cda",
@@ -198,19 +210,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212956&amp;page=1&amp;ts=1789295821",
       "published": "2026-09-13T12:37:01+02:00",
       "category": "Technologie",
-      "score": 51.93
-    },
-    {
-      "id": "golem-dd54cfcf198805d4",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Elon Musk: Teslas neuer Roadster soll mit Raketentechnik abheben",
-      "link": "https://www.golem.de/news/elon-musk-teslas-neuer-roadster-soll-mit-raketentechnik-abheben-2609-212955.html",
-      "summary": "Neun Jahre nach der ersten Vorstellung soll Teslas neuer Roadster wieder öffentlich gezeigt werden. Elon Musk deutet eine außergewöhnliche Vorführung an. ( Tesla , Elektroauto )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212955&amp;page=1&amp;ts=1789293121",
-      "published": "2026-09-13T11:52:01+02:00",
-      "category": "Technologie",
-      "score": 51.3
+      "score": 49.99
     }
   ]
 }
