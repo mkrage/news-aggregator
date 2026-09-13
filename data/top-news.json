@@ -1,28 +1,74 @@
 {
-  "generatedAt": "2026-09-13T06:52:03.648672+00:00",
+  "generatedAt": "2026-09-13T12:09:32.531342+00:00",
   "count": 15,
   "articles": [
     {
-      "id": "tagesschau-3b970e85306846b9",
+      "id": "spiegel-c15bde85eb750fe5",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Cartoons der Woche von Thomas Plaßmann, Klaus Stuttmann, Helena Baumeister",
+      "link": "https://www.spiegel.de/kultur/literatur/cartoons-der-woche-von-thomas-plassmann-klaus-stuttmann-helena-baumeister-a-089c62d9-fe65-4e58-9279-d93509dc5d8d#ref=rss",
+      "summary": "Die Welt nach der Sachsen-Anhalt-Wahl: Trost für Friedrich Merz, der ewige Pisa-Schock – und Kanadas koloniale Kampfansage an Donald Trump. Sehen Sie hier gesammelt die Cartoons der Woche.",
+      "image": "https://cdn.prod.www.spiegel.de/images/e97da4d2-c5dd-47d9-b61d-97eea13a2672_w1200_r1.778_fpx44_fpy45.jpg",
+      "published": "2026-09-13T10:48:00+02:00",
+      "category": "Politik",
+      "score": 75.2
+    },
+    {
+      "id": "tagesschau-250067a796f7ba26",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "\"Woman Unknown\" gewinnt Goldenen Löwen in Venedig",
-      "link": "https://www.tagesschau.de/kultur/filmfestival-venedig-preise-100.html",
-      "summary": "Eine Auszeichnung bei den Filmfestspielen in Venedig zählt für Filmschaffende zu den wichtigsten Ehrungen. In diesem Jahr ging der Goldene Löwe für den besten Film an \"Women Unknow\" von May el-Toukhy. Einen Preis gab es auch für eine Gaza-Doku. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/31436684-e028-4a99-b757-fb7ee2e8e2fa/AAABoJcWdLc/AAABnSSvrFg/16x9-big/may-el-toukhy-regie-100.jpg?width=1920",
-      "published": "2026-09-12T22:36:15+02:00",
+      "title": "Bilger drängt auf Wiedereinführung der Familienreservierung bei der Bahn",
+      "link": "https://www.tagesschau.de/inland/gesellschaft/bilger-bahn-familienreservierung-100.html",
+      "summary": "Wenn Familien bei der Bahn zusammen Sitzplätze reservieren, dann ist das seit Juni 2025 teurer. Verkehrsminister Bilger drängt nun auf die Wiedereinführung der Familienreservierung.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/e025230f-720e-4d05-b30a-c0a981e6a9e7/AAABnIi4S2A/AAABnSSvrFg/16x9-big/ice-276.jpg?width=1920",
+      "published": "2026-09-13T09:52:19+02:00",
       "category": "Politik",
-      "score": 74.58,
+      "score": 71.43,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "spiegel",
-            "title": "Filmfestival in Venedig: Goldener Löwe geht an dänisch-ägyptische Regisseurin May El-Toukhy",
-            "link": "https://www.spiegel.de/kultur/kino/filmfestival-in-venedig-goldener-loewe-geht-an-daenisch-aegyptische-regisseurin-may-el-toukhy-a-7fe3c9ff-ef65-47ba-b220-8857e9fe3c4b#ref=rss"
+            "title": "Deutsche Bahn: Verkehrsminister Steffen Bilger will Familienreservierung wieder einführen",
+            "link": "https://www.spiegel.de/wirtschaft/service/deutsche-bahn-verkehrsminister-steffen-bilger-will-familienreservierung-wieder-einfuehren-a-8c55f4eb-ff50-4faa-b623-b9496a2be5b8#ref=rss"
           }
         ]
       }
+    },
+    {
+      "id": "tagesschau-9035a75d9bb5e7ac",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Tote und Vermisste nach Fährunglück in Indonesien",
+      "link": "https://www.tagesschau.de/ausland/asien/faehre-indonesien-seenot-100.html",
+      "summary": "In Indonesien ist eine Fähre mit mehr als 240 Menschen an Bord gesunken. Ein Großteil der Passagiere wird noch vermisst, bisher wurden sechs Todesopfer gemeldet. Der Such- und Rettungseinstz dauert bei rauer See noch an.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/ed86a2a6-bf7d-40cb-b4f7-845031df9e33/AAABoJm0Fcw/AAABnSSvrFg/16x9-big/faehre-indonesien-seenot-102.jpg?width=1920",
+      "published": "2026-09-13T12:18:20+02:00",
+      "category": "Nachrichten",
+      "score": 70.46,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Indonesien: Viele Vermisste nach Fährunglück vor der Küste",
+            "link": "https://www.spiegel.de/ausland/indonesien-viele-vermisste-nach-faehrunglueck-vor-der-kueste-a-0d589df2-45d2-401b-ade7-d174521c893b#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-3c687988a44802b9",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Kenia: Gewaltexzesse im Auftrag der Regierung?",
+      "link": "https://www.tagesschau.de/ausland/afrika/kenia-gangs-100.html",
+      "summary": "Motorradgangs, die Veranstaltungen der Opposition mit Macheten angreifen: Ein Jahr vor der Präsidentenwahl in Kenia wird das Land mit Gewalt überzogen. Die Opposition macht dafür auch die Regierung verantwortlich. Von Georg Restle. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/dbdc6ca3-b14f-425b-8cc5-e8cf8a8f1a06/AAABoJDbmuc/AAABnSSvrFg/16x9-big/nairobi-schlaeger-demo-100.jpg?width=1920",
+      "published": "2026-09-13T12:24:51+02:00",
+      "category": "Politik",
+      "score": 69.55
     },
     {
       "id": "tagesschau-1878d82ee34424c7",
@@ -34,7 +80,7 @@
       "image": "https://images.tagesschau.de/image/2db14df0-c2e6-400e-9f12-32afe01fe402/AAABoJgKanY/AAABnSSvrFg/16x9-big/altman-104.jpg?width=1920",
       "published": "2026-09-13T01:53:35+02:00",
       "category": "Wirtschaft",
-      "score": 73.9,
+      "score": 69.49,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -47,16 +93,64 @@
       }
     },
     {
+      "id": "spiegel-62957ae606250c35",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "NSDAP-Archiv: Der Erinnerungsweltmeister Deutschland hat es sich viel zu bequem gemacht – Meinung",
+      "link": "https://www.spiegel.de/kultur/nsdap-archiv-der-erinnerungsweltmeister-deutschland-hat-es-sich-viel-zu-bequem-gemacht-meinung-a-a8398499-3e3d-4ee2-a933-573af5929e48#ref=rss",
+      "summary": "Erleben wir durch die Nazi-Kartei den Beginn einer neuen Erinnerungskultur? Bitter nötig wäre sie, das zeigten zuletzt die Wahlen in Sachsen-Anhalt. Doch der Weg dahin wird nicht einfach – das habe ich in Traunstein selbst erlebt.",
+      "image": "https://cdn.prod.www.spiegel.de/images/c6598376-e939-45b7-ab19-b2a35e8f5631_w1200_r1.778_fpx56.34_fpy53.jpg",
+      "published": "2026-09-13T12:40:00+02:00",
+      "category": "Politik",
+      "score": 68.76
+    },
+    {
+      "id": "spiegel-a7317d969e6b6fd6",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Ukraine: Russland greift wichtigen Grenzübergang nach Polen an",
+      "link": "https://www.spiegel.de/wirtschaft/ukraine-russland-greift-wichtigen-grenzuebergang-nach-polen-an-a-597b54ae-99fd-4a3a-a686-0d21d8f50070#ref=rss",
+      "summary": "Seit dem Sommer attackiert Russland gezielt ukrainische Grenzposten Richtung Westen. Nun traf es einen Übergang nach Polen. Nach SPIEGEL-Informationen war auch einer der engsten Berater von Bundeskanzler Friedrich Merz betroffen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/96715771-686a-49d9-8c72-8afc7f9d2589_w1200_r1.778_fpx30_fpy54.98.jpg",
+      "published": "2026-09-13T11:46:00+02:00",
+      "category": "Politik",
+      "score": 68.01
+    },
+    {
+      "id": "spiegel-85d665ab86ceba49",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Meta: Oversight Board kritisiert geplantes Aus für Faktenchecks",
+      "link": "https://www.spiegel.de/netzwelt/netzpolitik/meta-oversight-board-kritisiert-geplantes-aus-fuer-faktenchecks-a-4a14533d-4803-4b88-81ce-83bdf789dae1#ref=rss",
+      "summary": "Meta-Chef Zuckerberg will Faktenchecks auf Facebook abschaffen und stattdessen eine Methode von Elon Musk kopieren – auch auf Drängen von US-Präsident Trump. Das »Oversight Board« des Konzerns kritisiert den Schritt.",
+      "image": "https://cdn.prod.www.spiegel.de/images/fa734ab3-4136-4c24-a1e8-2f9016a0a4e1_w1200_r1.778_fpx55.31_fpy44.97.jpg",
+      "published": "2026-09-13T11:34:00+02:00",
+      "category": "Politik",
+      "score": 67.84
+    },
+    {
+      "id": "spiegel-ff7a2b8214704c7f",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Landtagswahl in Mecklenburg-Vorpommern: CDU-Politiker wütend auf Manuela Schwesig",
+      "link": "https://www.spiegel.de/politik/deutschland/landtagswahl-in-mecklenburg-vorpommern-cdu-politiker-wuetend-auf-manuela-schwesig-a-2705e206-4854-4f62-a72f-5a4766b2e534#ref=rss",
+      "summary": "Manuela Schwesig inszeniert ihre SPD in Mecklenburg-Vorpommern als Bollwerk gegen die AfD – und könnte damit von den anderen Parteien entscheidende Stimmen abziehen. CDU und Grüne reagieren auf die Wahlkampfstrategie empört.",
+      "image": "https://cdn.prod.www.spiegel.de/images/20e563b1-bac6-4f4a-906e-c8e5aa0f44f7_w1200_r1.778_fpx66.64_fpy50.jpg",
+      "published": "2026-09-13T10:29:00+02:00",
+      "category": "Politik",
+      "score": 66.94
+    },
+    {
       "id": "tagesschau-c2e4a48c7a823dfa",
       "source": "tagesschau",
       "sourceWeight": 1.0,
       "title": "Unkontrollierbare Risiken: KI-Bosse in den USA wollen Entwicklung bremsen",
       "link": "https://www.tagesschau.de/wirtschaft/technologie/ki-anthropic-106.html",
-      "summary": "Angesichts der Risiken muss die Entwicklung von KI dringend verlangsamt werden, meint der Chef von Anthropic, und fordert Regulierungen. Unterstützung bekommt er von OpenAI-Chef Altman und Tech-Unternehmer Musk. Von Gabi Biesinger. [ mehr ]",
+      "summary": "Angesichts der Risiken muss die Entwicklung von KI dringend verlangsamt werden, meint der Chef von Anthropic und fordert Regulierungen. Unterstützung bekommt er von OpenAI-Chef Altman und Tech-Unternehmer Musk. Von Gabi Biesinger. [ mehr ]",
       "image": "https://images.tagesschau.de/image/f0082ca5-3ee6-4dc6-8adc-996038da7786/AAABnqw8YgA/AAABnSSvrFg/16x9-big/anthropic-124.jpg?width=1920",
       "published": "2026-09-13T06:47:55+02:00",
       "category": "Technologie",
-      "score": 70.28,
+      "score": 65.87,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -69,168 +163,64 @@
       }
     },
     {
-      "id": "tagesschau-2a402a9349d370e3",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Richtungswahl in Schweden: Regierungswechsel oder Rechtsruck?",
-      "link": "https://www.tagesschau.de/ausland/europa/schweden-wahl-130.html",
-      "summary": "In Schweden wird heute ein neues Parlament gewählt. Der Ausgang ist offen: In Umfragen führen die Sozialdemokraten, doch die rechtspopulistischen Schwedendemokraten könnten so viel Einfluss erhalten wie nie zuvor. Von J. Sinram .[ mehr ]",
-      "image": "https://images.tagesschau.de/image/b5723a42-615f-4cfb-8ed9-b5845c7f3692/AAABoJkgSdo/AAABnSSvrFg/16x9-big/jimmie-akesson-104.jpg?width=1920",
-      "published": "2026-09-13T06:57:05+02:00",
-      "category": "Politik",
-      "score": 69.4
-    },
-    {
-      "id": "tagesschau-d217552375dfd7d5",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Ermittler sehen keine Hinweise auf Anschlag bei Zugunglück",
-      "link": "https://www.tagesschau.de/ausland/europa/frankreich-zugunglueck-100.html",
-      "summary": "Bei der Entgleisung eines Zuges in der Normandie werden mehr als 40 Menschen verletzt. Hinweise auf einen Anschlag gibt es jedoch laut Staatsanwalt nicht - damit widerspricht er der Darstellung einiger Politiker.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/ef5c910d-8b91-4496-af21-a7e4d809af4b/AAABoJimjVM/AAABnSSvrFg/16x9-big/frankreich-zug-106.jpg?width=1920",
-      "published": "2026-09-13T04:44:07+02:00",
-      "category": "Nachrichten",
-      "score": 68.56,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Ermittler sehen bei Zugunglück in Frankreich keine Hinweise auf Anschlag",
-            "link": "https://www.spiegel.de/ausland/ermittler-sehen-bei-zugunglueck-in-frankreich-keine-hinweise-auf-anschlag-a-231b7e60-0400-4656-8225-c31f02e5e240#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-90c490e45e0f97a0",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ukraine: Wohnung von ukrainischer Profi-Tennisspielerin Dajana Jastremska in Odessa zerstört",
-      "link": "https://www.spiegel.de/ausland/ukraine-wohnung-von-ukrainischer-profi-tennisspielerin-dajana-jastremska-in-odessa-zerstoert-a-6939f134-f3fc-4840-9750-137e66b77aea#ref=rss",
-      "summary": "Nur ein Handtuch von den French Open sei ihr erhalten geblieben: Dajana Jastremska ist ein prominentes Opfer des russischen Angriffskriegs. Sie erhebt Vorwürfe gegen zwei Weltsportverbände.",
-      "image": "https://cdn.prod.www.spiegel.de/images/5da061a7-3e97-4dc8-a35f-a482d38f04ac_w1200_r1.778_fpx21_fpy62.jpg",
-      "published": "2026-09-12T21:22:00+02:00",
-      "category": "Politik",
-      "score": 68.42
-    },
-    {
-      "id": "spiegel-3d4923716dc08e5b",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "VW meldet mehr als 30.000 Bestellungen für E-Polo",
-      "link": "https://www.spiegel.de/wirtschaft/vw-meldet-mehr-als-30-000-bestellungen-fuer-e-polo-a-ef20c8c8-6308-48bb-8e2c-14ffba38bdd9#ref=rss",
-      "summary": "Der ID. Polo ist einer der VW-Hoffnungsträger. Zusammen mit drei anderen Modellen soll er das Segment erschwinglicher E-Autos erobern. Für den kriselnden Konzern geht es um viel – der Verkauf startet mit längeren Lieferzeiten.",
-      "image": "https://cdn.prod.www.spiegel.de/images/1f0772ba-13bc-4cc7-828f-816debd18e60_w1200_r1.778_fpx65.34_fpy50.jpg",
-      "published": "2026-09-13T05:40:00+02:00",
-      "category": "Nachrichten",
-      "score": 64.33
-    },
-    {
-      "id": "spiegel-bc2672131022393c",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Donald Trumps Elternhaus für zwei Millionen US-Dollar verkauft",
-      "link": "https://www.spiegel.de/ausland/donald-trumps-elternhaus-fuer-zwei-millionen-us-dollar-verkauft-a-5fcd2506-5591-4e22-b54e-f4ff6354fe88#ref=rss",
-      "summary": "Leerstand, Wasserschäden, Schimmelbefall: Das im Tudorstil errichtete Elternhaus von Donald Trump gammelte lange vor sich hin. Nun wurde das Gebäude in Queens renoviert und verkauft.",
-      "image": "https://cdn.prod.www.spiegel.de/images/36b49a69-a462-452c-9d1a-c0571bbd7c4b_w1200_r1.778_fpx50.67_fpy50.jpg",
-      "published": "2026-09-13T00:37:00+02:00",
-      "category": "Politik",
-      "score": 63.12
-    },
-    {
-      "id": "spiegel-f981baf1f6f64ce4",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Verkehrsminister Bilger will Familienreservierung wieder einführen",
-      "link": "https://www.spiegel.de/wirtschaft/service/verkehrsminister-bilger-will-familienreservierung-wieder-einfuehren-a-8c55f4eb-ff50-4faa-b623-b9496a2be5b8#ref=rss",
-      "summary": "Zurück in die Zukunft: Verkehrsminister Bilger will, dass die Bahn eine alte Vergünstigung zurückbringt. Auf Autobahnen sollen die Dinge dagegen bleiben, wie sie immer waren: ohne generelles Tempo-Limit.",
-      "image": "https://cdn.prod.www.spiegel.de/images/dc112e16-23d0-457f-9c3f-c33af8c9142c_w1200_r1.778_fpx33.34_fpy50.jpg",
-      "published": "2026-09-13T07:43:00+02:00",
-      "category": "Politik",
-      "score": 61.04
-    },
-    {
-      "id": "spiegel-e3038dae1ab4dac0",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "AfD: Zehntausende demonstrieren in über 35 Städten gegen Rechtsextremismus und für Demokratie",
-      "link": "https://www.spiegel.de/politik/deutschland/afd-zehntausende-demonstrieren-in-ueber-35-staedten-gegen-rechtsextremismus-und-fuer-demokratie-a-c80cd2d6-34a7-4904-9ad9-b0a2bf20e77a#ref=rss",
-      "summary": "In über 35 Städten sind Menschen an diesem Samstag gegen Rechtsextremismus und für Demokratie auf die Straße gegangen. Eine zentrale Forderung: ein AfD-Verbotsverfahren zu prüfen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/dceee3a6-29e0-4a0e-bbac-813567472670_w1200_r1.778_fpx70_fpy45.jpg",
-      "published": "2026-09-12T18:43:00+02:00",
-      "category": "Nachrichten",
-      "score": 60.98,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "tagesschau",
-            "title": "Protest in vielen Städten: Zehntausende demonstrieren gegen Rechtsextremismus",
-            "link": "https://www.tagesschau.de/inland/gesellschaft/demos-gegen-rechts-120.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "golem-bc345b6a30a0f45d",
+      "id": "golem-e0c33a2b54343682",
       "source": "golem",
       "sourceWeight": 0.85,
-      "title": "Anzeige: IT-Jobs in Datenmanagement, Administration und digitaler Transformation",
-      "link": "https://www.golem.de/news/anzeige-it-jobs-in-datenmanagement-administration-und-digitaler-transformation-2609-212906.html",
-      "summary": "Von der Datenplattform in der Verwaltung bis zur Backup-Infrastruktur für die Astrophysik - aktuell sind sechs vielseitige Positionen im Angebot. ( Golem Karrierewelt , Unternehmenssoftware )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212906&amp;page=1&amp;ts=1789275602",
-      "published": "2026-09-13T07:00:02+02:00",
-      "category": "Wirtschaft",
-      "score": 58.44
-    },
-    {
-      "id": "golem-38a3a3805c21bdc2",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Indiegames: Sieben besondere Games abseits der großen Blockbuster",
-      "link": "https://www.golem.de/news/indiegames-sieben-besondere-games-abseits-der-grossen-blockbuster-2609-212838.html",
-      "summary": "Von Mortal Shell 2 bis Corsair Cove: Diese kleineren Games-Neuheiten bieten ungewöhnliche Ideen, starke Atmosphäre und viel Spielspaß. Von Rainer Sigl ( Indiegames , Rollenspiel )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212838&amp;page=1&amp;ts=1789279202",
-      "published": "2026-09-13T08:00:02+02:00",
+      "title": "Anzeige: WLAN-Repeater mit bis zu 2.600 MBit/s reduziert bei Amazon",
+      "link": "https://www.golem.de/news/anzeige-wlan-repeater-mit-bis-zu-2-600-mbit-s-reduziert-bei-amazon-2609-212933.html",
+      "summary": "Ein WLAN-Repeater von TP-Link mit bis zu 2.600 MBit/s, Gigabit-LAN und Access-Point-Modus gibt es bei Amazon zum Aktionspreis. ( TP-Link , WLAN )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212933&amp;page=1&amp;ts=1789299602",
+      "published": "2026-09-13T13:40:02+02:00",
       "category": "Technologie",
-      "score": 56.28
+      "score": 56.59
     },
     {
-      "id": "golem-c4a319d4e5df4783",
+      "id": "golem-26f0bdf2ec2962af",
       "source": "golem",
       "sourceWeight": 0.85,
-      "title": "KI: Anthropic entlarvt Claude-Missbrauch für russische Drohnenschwärme",
-      "link": "https://www.golem.de/news/ki-anthropic-entlarvt-claude-missbrauch-fuer-russische-drohnenschwaerme-2609-212949.html",
-      "summary": "Russische Entwickler hatten mit Claude einen autonomen Kamikaze-Drohnenschwarm zum Einsatz gegen die Ukraine gebaut. ( Drohne , KI )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212949&amp;page=1&amp;ts=1789220761",
-      "published": "2026-09-12T15:46:01+02:00",
-      "category": "Politik",
-      "score": 53.75
-    },
-    {
-      "id": "golem-6da4c58eb0219726",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Toyplosion in Deutschland: Action-Figuren-Messe verzeichnet neuen Besucherrekord",
-      "link": "https://www.golem.de/news/toyplosion-in-deutschland-action-figuren-messe-verzeichnet-neue-besucherrekorde-2609-212952.html",
-      "summary": "Im Ruhrgebiet entwickelt sich ein Stück Nerd-Kultur zu etwas sehr Großem. Über 4.000 Menschen kommen zur Retro-Messe Toyplosion. ( BigJim , Star Wars )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212952&amp;page=1&amp;ts=1789243381",
-      "published": "2026-09-12T22:03:01+02:00",
+      "title": "Blizzard: WoW Forever macht mit dem alten Azeroth einfach weiter",
+      "link": "https://www.golem.de/news/blizzard-wow-forever-macht-mit-dem-alten-azeroth-einfach-weiter-2609-212957.html",
+      "summary": "Blizzard führt das ursprüngliche Azeroth mit neuen Gebieten, Quests und Raids fort. In WoW Forever bleibt der Level-Cap bei 60. ( World of Warcraft , MMORPG )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212957&amp;page=1&amp;ts=1789298702",
+      "published": "2026-09-13T13:25:02+02:00",
       "category": "Technologie",
-      "score": 47.99
+      "score": 56.38
     },
     {
-      "id": "golem-9f603676e07b65be",
+      "id": "golem-5d14bcff39c81cda",
       "source": "golem",
       "sourceWeight": 0.85,
-      "title": "Blizzard: Diablo 5 kommt 2029 - und diesmal hat das Böse gewonnen",
-      "link": "https://www.golem.de/news/blizzard-diablo-5-kommt-2029-und-diesmal-hat-das-boese-gewonnen-2609-212950.html",
-      "summary": "Blizzard hat Diablo 5 offiziell angekündigt, und zwar mit einer Besonderheit. Außerdem bekommt die Reihe eine Netflix-Serie. ( Diablo , Rollenspiel )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212950&amp;page=1&amp;ts=1789238702",
-      "published": "2026-09-12T20:45:02+02:00",
+      "title": "Apple: Deutsches iPhone 18 Pro Max bekommt überraschend neue Technik",
+      "link": "https://www.golem.de/news/apple-deutsches-iphone-18-pro-max-bekommt-ueberraschend-neue-technik-2609-212956.html",
+      "summary": "Apple setzt beim deutschen iPhone 18 Pro Max auf das neue C2-Modem. In den USA steckt dagegen weiterhin Technik von Qualcomm. ( iPhone 18 , Smartphone )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212956&amp;page=1&amp;ts=1789295821",
+      "published": "2026-09-13T12:37:01+02:00",
       "category": "Technologie",
-      "score": 46.9
+      "score": 55.71
+    },
+    {
+      "id": "golem-dd54cfcf198805d4",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Elon Musk: Teslas neuer Roadster soll mit Raketentechnik abheben",
+      "link": "https://www.golem.de/news/elon-musk-teslas-neuer-roadster-soll-mit-raketentechnik-abheben-2609-212955.html",
+      "summary": "Neun Jahre nach der ersten Vorstellung soll Teslas neuer Roadster wieder öffentlich gezeigt werden. Elon Musk deutet eine außergewöhnliche Vorführung an. ( Tesla , Elektroauto )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212955&amp;page=1&amp;ts=1789293121",
+      "published": "2026-09-13T11:52:01+02:00",
+      "category": "Technologie",
+      "score": 55.09
+    },
+    {
+      "id": "golem-a2ebdcbdf45b8c07",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Anthropic: Angst vor Super-KI eint plötzlich die größten Rivalen",
+      "link": "https://www.golem.de/news/anthropic-angst-vor-super-ki-eint-ploetzlich-die-groessten-rivalen-2609-212954.html",
+      "summary": "Anthropic-Chef Dario Amodei fordert eine Notbremse bei der KI-Entwicklung. Seine härtesten Rivalen Sam Altman und Elon Musk stimmen zu. ( Anthropic , KI )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212954&amp;page=1&amp;ts=1789290481",
+      "published": "2026-09-13T11:08:01+02:00",
+      "category": "Technologie",
+      "score": 54.48
     }
   ]
 }
