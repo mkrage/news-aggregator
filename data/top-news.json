@@ -1,18 +1,50 @@
 {
-  "generatedAt": "2026-09-13T19:01:58.980693+00:00",
+  "generatedAt": "2026-09-13T19:33:37.506841+00:00",
   "count": 15,
   "articles": [
     {
-      "id": "spiegel-bb0399cddc0e0243",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Krieg in der Ukraine: Kreml hält Friedensverhandlungen im Oktober für möglich",
-      "link": "https://www.spiegel.de/ausland/krieg-in-der-ukraine-kreml-haelt-friedensverhandlungen-im-oktober-fuer-moeglich-a-f6cb4952-fb24-4c63-87e3-d1a127524bc7#ref=rss",
-      "summary": "Russland deutet Gesprächsbereitschaft an: Der Kreml hält Verhandlungen noch im Oktober für möglich. Nach SPIEGEL-Informationen könnte Moskau von einer entscheidenden Vorbedingung für Gespräche abrücken.",
-      "image": "https://cdn.prod.www.spiegel.de/images/96f5d3d7-c220-40ac-b77c-d6c1a81f25b9_w1200_r1.778_fpx14_fpy38.jpg",
-      "published": "2026-09-13T14:07:00+02:00",
+      "id": "tagesschau-fe209717d140cb3e",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "CDU-Generalsekretärin Hoppermann verteidigt Bundeskanzler Merz",
+      "link": "https://www.tagesschau.de/inland/merz-kritik-hoppermann-100.html",
+      "summary": "Trotz schlechter Umfragewerte sieht CDU-Generalsekretärin Hoppermann ihre Partei unter Bundeskanzler Merz \"auf dem richtigen Weg\". Als Beispiel nennt sie die Rentenreform - und wirbt für die Wahl am kommenden Wochenende.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/7d231870-9dba-4c2a-b75d-b283787b14b2/AAABoJTO4jo/AAABnSSvrFg/16x9-big/franziska-hoppermann-102.jpg?width=1920",
+      "published": "2026-09-12T13:46:56+02:00",
       "category": "Politik",
-      "score": 72.24
+      "score": 82.78,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Friedrich Merz: »Mit diesem Bundeskanzler sind keine Wahlen mehr zu gewinnen«",
+            "link": "https://www.spiegel.de/politik/deutschland/friedrich-merz-mit-diesem-bundeskanzler-sind-keine-wahlen-mehr-zu-gewinnen-a-9ab85d92-452b-4b34-9024-32ea73bc6e3a#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-eedb23b7af3aef7c",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Prognosen sehen Mitte-links-Block in Schweden knapp vorn",
+      "link": "https://www.tagesschau.de/ausland/europa/schweden-wahl-132.html",
+      "summary": "Bei der Wahl in Schweden liegen Prognosen zufolge die bisher oppositionellen Mitte-links-Parteien vorn. Ob es für die Sozialdemokraten von Ex-Regierungschefin Andersson für eine Regierungsbildung reichen wird, ist aber offen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/2aad662e-7a7e-4ce2-94aa-7ce7ef1cf984/AAABoJwxKBc/AAABnSSvrFg/16x9-big/andersson-120.jpg?width=1920",
+      "published": "2026-09-13T21:14:22+02:00",
+      "category": "Politik",
+      "score": 82.73,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Schweden-Wahl: Linkes Lager laut Prognose knapp vorn",
+            "link": "https://www.spiegel.de/ausland/schweden-wahl-linkes-lager-laut-prognose-knapp-vorn-a-55fb5492-1c51-4db1-a9dc-578ef64dd172#ref=rss"
+          }
+        ]
+      }
     },
     {
       "id": "tagesschau-954e8d56ce101006",
@@ -24,29 +56,29 @@
       "image": "https://images.tagesschau.de/image/e668afa7-2072-45b9-9507-9f195799ec20/AAABoIIIH2g/AAABnSSvrFg/16x9-big/oeldepot-saudi-aramco-100.jpg?width=1920",
       "published": "2026-09-13T17:56:14+02:00",
       "category": "Nachrichten",
-      "score": 70.6,
+      "score": 70.16,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "spiegel",
-            "title": "Donald Trump gibt Ukraine Schuld an steigenden Spritpreisen - trotz Lage in Nahost",
-            "link": "https://www.spiegel.de/ausland/donald-trump-gibt-ukraine-schuld-an-steigenden-spritpreisen-trotz-lage-in-nahost-a-f7fd4c6f-a587-4978-ab6d-7a39610b06da#ref=rss"
+            "title": "Donald Trump gibt Ukraine die Schuld an steigenden Spritpreisen - trotz Lage in Nahost",
+            "link": "https://www.spiegel.de/ausland/donald-trump-gibt-ukraine-die-schuld-an-steigenden-spritpreisen-trotz-lage-in-nahost-a-f7fd4c6f-a587-4978-ab6d-7a39610b06da#ref=rss"
           }
         ]
       }
     },
     {
-      "id": "spiegel-98a7f0b8f00fe9cc",
+      "id": "spiegel-e438ab9853b840a0",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Schweden-Wahl: Linkes Lager laut Prognose knapp vorn",
-      "link": "https://www.spiegel.de/ausland/schweden-wahl-linkes-lager-laut-prognose-knapp-vorn-a-55fb5492-1c51-4db1-a9dc-578ef64dd172#ref=rss",
-      "summary": "Schwedens Mitte-links-Bündnis kommt laut einer Wählerbefragung des öffentlich-rechtlichen Senders SVT zusammen auf etwa 51 Prozent der Stimmen. Damit liegt es vor dem regierenden rechten Block mit knapp 47 Prozent.",
-      "image": "https://cdn.prod.www.spiegel.de/images/a248c73f-e494-4e81-88eb-e482533b0d4c_w1200_r1.778_fpx46_fpy31.jpg",
-      "published": "2026-09-13T20:21:00+02:00",
+      "title": "Donald Trump und Großbritannien: Was planen Wales, Schottland und Nordirland?",
+      "link": "https://www.spiegel.de/ausland/donald-trump-und-grossbritannien-was-planen-wales-schottland-und-nordirland-a-1cd70c0f-e5c9-40c0-9d76-d851125609a9#ref=rss",
+      "summary": "Am Montag wollen die Regierungschefs der drei Landesteile über ihr Recht auf Unabhängigkeit beraten. Der Druck auf den britischen Premier Burnham steigt – auch weil sich US-Präsident Trump einmischt.",
+      "image": "https://cdn.prod.www.spiegel.de/images/10a7a175-cc59-4f0c-90f7-e25766980272_w1200_r1.778_fpx47_fpy27.jpg",
+      "published": "2026-09-13T21:04:00+02:00",
       "category": "Politik",
-      "score": 69.43
+      "score": 69.59
     },
     {
       "id": "spiegel-f40542cd25674e45",
@@ -58,7 +90,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/4285a2b4-7aba-4fdb-b712-7bf195a6b34c_w1200_r1.778_fpx45_fpy20.jpg",
       "published": "2026-09-13T19:39:00+02:00",
       "category": "Politik",
-      "score": 68.85
+      "score": 68.41
     },
     {
       "id": "spiegel-ad8046dace3caec8",
@@ -70,7 +102,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/c762bea8-3e64-433e-921b-f5ff2bd5f859_w1200_r1.778_fpx51.2_fpy54.98.jpg",
       "published": "2026-09-13T18:42:00+02:00",
       "category": "Politik",
-      "score": 68.06
+      "score": 67.62
     },
     {
       "id": "tagesschau-5287096dfa01ebef",
@@ -82,7 +114,7 @@
       "image": "https://images.tagesschau.de/image/5bbc8275-e341-425f-9d62-1dfc14b776c5/AAABoJtIy10/AAABnSSvrFg/16x9-big/ukraine-zug-brennt-100.jpg?width=1920",
       "published": "2026-09-13T17:08:51+02:00",
       "category": "Politik",
-      "score": 67.76
+      "score": 67.32
     },
     {
       "id": "spiegel-0bdcbc80b48cc7bd",
@@ -94,7 +126,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/02b9d499-9de4-4c33-9b2f-97c801dad048_w1200_r1.778_fpx58_fpy75.jpg",
       "published": "2026-09-13T17:43:00+02:00",
       "category": "Politik",
-      "score": 67.24
+      "score": 66.8
     },
     {
       "id": "tagesschau-31a1819e116ada7f",
@@ -106,26 +138,26 @@
       "image": "https://images.tagesschau.de/image/196dfb3a-ed50-44b0-bfae-49b6fe96e73a/AAABoJsrMWw/AAABnSSvrFg/16x9-big/afd-mdr-106.jpg?width=1920",
       "published": "2026-09-13T16:28:14+02:00",
       "category": "Politik",
-      "score": 67.2
+      "score": 66.76
     },
     {
-      "id": "golem-1d14b745e04eea6d",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Künstliche Intelligenz: OpenAI erwägt Verlangsamung der KI-Entwicklung",
-      "link": "https://www.golem.de/news/kuenstliche-intelligenz-openai-erwaegt-verlangsamung-der-ki-entwicklung-2609-212946.html",
-      "summary": "OpenAI prüft eine Drosselung der Entwicklungsgeschwindigkeit bei KI. Sam Altman hofft dabei auf eine Branchenvereinbarung. ( Anthropic , KI )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212946&amp;page=1&amp;ts=1789211882",
-      "published": "2026-09-12T13:18:02+02:00",
+      "id": "spiegel-a5343ab5cd2da8f1",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Künstliche Intelligenz: Sam Altman von OpenAI äußert sich zu Sicherheitsbedenken",
+      "link": "https://www.spiegel.de/wirtschaft/kuenstliche-intelligenz-sam-altman-von-openai-aeussert-sich-zu-sicherheitsbedenken-a-a4d6772a-1cff-4fab-8791-254e2bf36915#ref=rss",
+      "summary": "Wie gefährlich wird die KI? Darüber wird gerade wieder debattiert, es gibt Warnungen aus der Branche. Die will jetzt angeblich selbst auf die Bremse treten.",
+      "image": "https://cdn.prod.www.spiegel.de/images/3be45c12-acd5-490d-9b95-5ded0cc2aba0_w1200_r1.778_fpx54_fpy35.jpg",
+      "published": "2026-09-13T15:54:00+02:00",
       "category": "Technologie",
-      "score": 66.72,
+      "score": 66.28,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "spiegel",
-            "title": "Künstliche Intelligenz: Sam Altman von OpenAI äußert sich zu Sicherheitsbedenken",
-            "link": "https://www.spiegel.de/wirtschaft/kuenstliche-intelligenz-sam-altman-von-openai-aeussert-sich-zu-sicherheitsbedenken-a-a4d6772a-1cff-4fab-8791-254e2bf36915#ref=rss"
+            "source": "golem",
+            "title": "Künstliche Intelligenz: OpenAI erwägt Verlangsamung der KI-Entwicklung",
+            "link": "https://www.golem.de/news/kuenstliche-intelligenz-openai-erwaegt-verlangsamung-der-ki-entwicklung-2609-212946.html"
           }
         ]
       }
@@ -140,7 +172,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/4/2/5/4/World-of-Warcraft-Forever-34945f0df7aaeb6b.jpeg",
       "published": "2026-09-13T14:25:00+02:00",
       "category": "Technologie",
-      "score": 64.49,
+      "score": 64.05,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -153,30 +185,6 @@
       }
     },
     {
-      "id": "tagesschau-3c687988a44802b9",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Kenia: Gewaltexzesse im Auftrag der Regierung?",
-      "link": "https://www.tagesschau.de/ausland/afrika/kenia-gangs-100.html",
-      "summary": "Motorradgangs, die Veranstaltungen der Opposition mit Macheten angreifen: Ein Jahr vor der Präsidentenwahl in Kenia wird das Land mit Gewalt überzogen. Die Opposition macht dafür auch die Regierung verantwortlich. Von Georg Restle. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/dbdc6ca3-b14f-425b-8cc5-e8cf8a8f1a06/AAABoJDbmuc/AAABnSSvrFg/16x9-big/nairobi-schlaeger-demo-100.jpg?width=1920",
-      "published": "2026-09-13T12:24:51+02:00",
-      "category": "Politik",
-      "score": 63.82
-    },
-    {
-      "id": "tagesschau-4378cdeca223d296",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "CDU-Influencerin von Nathusius übt scharfe Kritik an Kanzler Merz",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/bab-6378.html",
-      "summary": "In der CDU wächst die Kritik an Kanzler Merz: Clara von Nathusius, im Vorstand der Jungen Union, hält seine Tage im Amt für gezählt. Die CDU müsse sich nun entscheiden, wofür sie stehe, sagt sie im Bericht aus Berlin . Die Brandmauer hält sie für gescheitert.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/3bf30ade-1e8c-44a9-a6cf-5f319976d8dd/AAABoJvfH6I/AAABnSSvrFg/16x9-big/von-nathusius-104.jpg?width=1920",
-      "published": "2026-09-13T20:44:54+02:00",
-      "category": "Nachrichten",
-      "score": 59.76
-    },
-    {
       "id": "heise-2c2fae8a8e846a03",
       "source": "heise",
       "sourceWeight": 0.9,
@@ -186,7 +194,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/4/2/6/0/shutterstock_1926882518-5a70690af905d312.jpeg",
       "published": "2026-09-13T14:17:00+02:00",
       "category": "Technologie",
-      "score": 52.38
+      "score": 51.94
     },
     {
       "id": "golem-e0c33a2b54343682",
@@ -198,7 +206,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212933&amp;page=1&amp;ts=1789299602",
       "published": "2026-09-13T13:40:02+02:00",
       "category": "Technologie",
-      "score": 50.86
+      "score": 50.42
     },
     {
       "id": "golem-5d14bcff39c81cda",
@@ -210,7 +218,19 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212956&amp;page=1&amp;ts=1789295821",
       "published": "2026-09-13T12:37:01+02:00",
       "category": "Technologie",
-      "score": 49.99
+      "score": 49.55
+    },
+    {
+      "id": "golem-dd54cfcf198805d4",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Elon Musk: Teslas neuer Roadster soll mit Raketentechnik abheben",
+      "link": "https://www.golem.de/news/elon-musk-teslas-neuer-roadster-soll-mit-raketentechnik-abheben-2609-212955.html",
+      "summary": "Neun Jahre nach der ersten Vorstellung soll Teslas neuer Roadster wieder öffentlich gezeigt werden. Elon Musk deutet eine außergewöhnliche Vorführung an. ( Tesla , Elektroauto )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212955&amp;page=1&amp;ts=1789293121",
+      "published": "2026-09-13T11:52:01+02:00",
+      "category": "Technologie",
+      "score": 48.92
     }
   ]
 }
