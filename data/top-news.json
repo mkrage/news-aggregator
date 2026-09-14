@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2026-09-14T14:16:12.525078+00:00",
+  "generatedAt": "2026-09-14T16:01:08.935198+00:00",
   "count": 15,
   "articles": [
+    {
+      "id": "tagesschau-ea37782f0387b004",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Drängt Moskau Schüler wegen Fachkräftemangel in den Arbeitsmarkt?",
+      "link": "https://www.tagesschau.de/ausland/europa/fachkraeftemangel-russland-schueler-100.html",
+      "summary": "Immer mehr Schülern in Russland wird die Aufnahme in die Oberstufe verweigert. Stattdessen sollen sie offenbar möglichst früh auf dem Arbeitsmarkt landen - denn dort fehlen die Fachkräfte. Liegt das auch am Krieg gegen die Ukraine? Von S. Laack. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/4bf8042a-ec07-4eb7-8702-e4ee19955fd6/AAABoJ_opPs/AAABnSSvrFg/16x9-big/duma-russland-102.jpg?width=1920",
+      "published": "2026-09-14T17:06:02+02:00",
+      "category": "Politik",
+      "score": 78.23
+    },
+    {
+      "id": "tagesschau-5ddf95cc2652d4ee",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Tankstellenverband erwartet Spritpreise um die drei Euro",
+      "link": "https://www.tagesschau.de/wirtschaft/oel-spritpreise-tanken-100.html",
+      "summary": "Der Schock an den Zapfsäulen ist zurück. Wegen der Eskalation im Nahen Osten steigen die Preise für Kraftstoffe, Heizöl und Gas deutlich. Auch die Politik ist wieder in die Debatte über mögliche Entlastungen eingestiegen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/547130f5-d9a7-40f7-a6f2-90ae15f49cc0/AAABoJ9MMHA/AAABnSSvrFg/16x9-big/kraftstoffpreise-124.jpg?width=1920",
+      "published": "2026-09-14T17:42:47+02:00",
+      "category": "Nachrichten",
+      "score": 71.74,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Benzin und Diesel: Söder fordert Bundesregierung auf, Spritpreise zu senken",
+            "link": "https://www.spiegel.de/wirtschaft/benzin-und-diesel-soeder-fordert-bundesregierung-auf-spritpreise-zu-senken-a-7599486d-e3ec-4455-89f4-49d70a42ef75#ref=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "tagesschau-34dc46ef1e02e941",
       "source": "tagesschau",
@@ -12,7 +46,19 @@
       "image": "https://images.tagesschau.de/image/c670c7f8-24ed-4695-96bd-ed37fcf09edb/AAABoJ6mkLM/AAABnSSvrFg/16x9-big/sondersitzung-polen-100.jpg?width=1920",
       "published": "2026-09-14T09:08:39+02:00",
       "category": "Politik",
-      "score": 73.06
+      "score": 71.6
+    },
+    {
+      "id": "tagesschau-828954ef09ab4222",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Israelische NGO kritisiert Israels Politik im Westjordanland",
+      "link": "https://www.tagesschau.de/ausland/asien/westjordanland-ngo-israel-100.html",
+      "summary": "Die israelische Menschenrechtsorganisation B'Tselem erhebt schwere Vorwürfe gegen Israels Politik im Westjordanland: Die Maßnahmen seien Teil einer systematischen Strategie zur Zerstörung der palästinensischen Lebensgrundlagen. Von J. Segador. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/18e09943-6c50-4e2f-b3d2-b039e2007dca/AAABoKBzt84/AAABnSSvrFg/16x9-big/soldta-israel-100.jpg?width=1920",
+      "published": "2026-09-14T16:41:53+02:00",
+      "category": "Politik",
+      "score": 69.9
     },
     {
       "id": "tagesschau-36f5e2cce7a80e94",
@@ -24,41 +70,7 @@
       "image": "https://images.tagesschau.de/image/61bef5e4-4bb5-4944-8587-13c547b1320a/AAABoKAPXmQ/AAABnSSvrFg/16x9-big/kristersson-andersson-100.jpg?width=1920",
       "published": "2026-09-14T16:12:14+02:00",
       "category": "Politik",
-      "score": 70.94
-    },
-    {
-      "id": "tagesschau-5ddf95cc2652d4ee",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Tankstellenverband erwartet Spritpreise um die drei Euro",
-      "link": "https://www.tagesschau.de/wirtschaft/oel-spritpreise-tanken-100.html",
-      "summary": "Der Schock an den Zapfsäulen ist zurück. Wegen der Eskalation im Nahen Osten werden Benzin und Diesel immer teurer - am Wochenende gab es ein neues Allzeithoch. Auch die Preise für Heizöl und Gas steigen deutlich.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/547130f5-d9a7-40f7-a6f2-90ae15f49cc0/AAABoJ9MMHA/AAABnSSvrFg/16x9-big/kraftstoffpreise-124.jpg?width=1920",
-      "published": "2026-09-14T13:52:20+02:00",
-      "category": "Nachrichten",
-      "score": 70.0,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Spritpreise: Tankstellenverband warnt vor drei Euro pro Liter",
-            "link": "https://www.spiegel.de/wirtschaft/spritpreise-tankstellenverband-warnt-vor-drei-euro-pro-liter-a-8b95a40e-259a-4eb1-a963-8c086e949fad#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-67ae28f83df713d0",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Rückendeckung für Merz - aber die Debatte reißt nicht ab",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/cdu-merz-debatte-100.html",
-      "summary": "Der Bundeskanzler steht vor einer entscheidenden Woche. Nach dem Wahldebakel in Sachsen-Anhalt erhält Merz Rückendeckung in der Debatte um seine Person. Doch Kritik an den Reformen und am Umgang mit der AfD nehmen weiter Fahrt auf.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/1eb63d78-adaf-4390-a32d-327e21eb7e94/AAABoJ-7W-U/AAABnSSvrFg/16x9-big/merz-1584.jpg?width=1920",
-      "published": "2026-09-14T14:51:10+02:00",
-      "category": "Politik",
-      "score": 69.82
+      "score": 69.49
     },
     {
       "id": "spiegel-fc2cf656f0ee20c7",
@@ -70,43 +82,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/20054253-178c-4f2b-8637-1844c2ab131a_w1200_r1.778_fpx55_fpy44.jpg",
       "published": "2026-09-14T15:31:00+02:00",
       "category": "Politik",
-      "score": 69.37
+      "score": 67.91
     },
     {
-      "id": "tagesschau-e3e6bc6c99b24a58",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Russische Drohnenangriffe - Vor allem Kiew ist im Visier",
-      "link": "https://www.tagesschau.de/ausland/europa/ukraine-drohnen-134.html",
-      "summary": "Die russischen Luftangriffe auf die Ukraine sind intensiver geworden. Dazu kommt: Die Drohnen sind inzwischen oft schneller und schwieriger abzufangen. Besonders betroffen sind die Anwohner in den Vororten Kiews. Von P. Sawicki. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/0b2b488a-1988-4d7e-af64-1c1b5f9a4753/AAABoJ-K1Xo/AAABnSSvrFg/16x9-big/wohnhaus-welyka-oleksandriwka-100.jpg?width=1920",
-      "published": "2026-09-14T14:11:29+02:00",
-      "category": "Politik",
-      "score": 69.27
-    },
-    {
-      "id": "golem-b2c3ccb8b1902a29",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Kampf der Maschinen: Ukraine versenkt erstmals russische Seedrohne mit Seedrohne",
-      "link": "https://www.golem.de/news/kampf-der-maschinen-ukraine-versenkt-erstmals-russische-seedrohne-mit-seedrohne-2609-212960.html",
-      "summary": "Erstmals in der Militärgeschichte hat ein unbemanntes Kriegsschiff eine andere Seedrohne versenkt. ( Militär , Politik )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212960&amp;page=1&amp;ts=1789362902",
-      "published": "2026-09-14T07:15:02+02:00",
-      "category": "Politik",
-      "score": 68.48
-    },
-    {
-      "id": "spiegel-635de5a45af660c4",
+      "id": "spiegel-0e9ed042b09d163e",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Morddrohung gegen Charlotte Knobloch nach Kommentar zum AfD-Sieg",
-      "link": "https://www.spiegel.de/panorama/morddrohung-gegen-charlotte-knobloch-nach-kommentar-zum-afd-sieg-a-6197b12b-afbc-4597-beac-871f20ec8f2a#ref=rss",
+      "title": "Charlotte Knobloch: Morddrohung nach Kommentar zum AfD-Sieg",
+      "link": "https://www.spiegel.de/panorama/charlotte-knobloch-morddrohung-nach-kommentar-zum-afd-sieg-a-6197b12b-afbc-4597-beac-871f20ec8f2a#ref=rss",
       "summary": "Die Holocaustüberlebende Knobloch wird mit dem Tod bedroht – offenbar weil sie sich entsetzt über die Wahlergebnisse in Sachsen-Anhalt geäußert hatte. Bisher fehlt der Polizei jede Spur, die 93-Jährige sagte eine Veranstaltung ab.",
       "image": "https://cdn.prod.www.spiegel.de/images/06cb7874-6a01-4ca5-9c58-a71679ee8878_w1200_r1.778_fpx44_fpy54.jpg",
       "published": "2026-09-14T13:59:00+02:00",
       "category": "Politik",
-      "score": 68.09
+      "score": 66.64
     },
     {
       "id": "spiegel-8cb9a62300c2260d",
@@ -118,7 +106,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/beda39da-b1cd-4aef-809b-4163ec7fbe92_w1200_r1.778_fpx61.37_fpy49.99.jpg",
       "published": "2026-09-14T13:34:00+02:00",
       "category": "Politik",
-      "score": 67.75
+      "score": 66.29
+    },
+    {
+      "id": "spiegel-33a6fe0444a830ab",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Friedrich Merz in der Krise: Selbst am Polarkreis kämpft der Kanzler um sein Amt",
+      "link": "https://www.spiegel.de/politik/deutschland/friedrich-merz-in-der-krise-selbst-am-polarkreis-kaempft-der-kanzler-um-sein-amt-a-95c6c868-4c09-4e45-b7fa-e76a730f37f9#ref=rss",
+      "summary": "Friedrich Merz versucht im Norden Finnlands die Spekulationen über das Ende seiner Kanzlerschaft auszuräumen. Er sucht Halt in der Rolle des europäischen Anführers – und richtet einen dramatischen Appell an seine Parteifreunde.",
+      "image": "https://cdn.prod.www.spiegel.de/images/2835dcfb-ba82-428a-b6be-7a89356258e3_w1200_r1.778_fpx38.65_fpy49.99.jpg",
+      "published": "2026-09-14T16:33:00+02:00",
+      "category": "Nachrichten",
+      "score": 65.78
     },
     {
       "id": "heise-0f9572db6e628fff",
@@ -130,7 +130,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/4/3/5/7/Achtung-Windows_Updates-Updates_werden_gesucht-8b5b37b7c0baeb11.jpeg",
       "published": "2026-09-14T08:28:00+02:00",
       "category": "Technologie",
-      "score": 67.22,
+      "score": 65.76,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -143,28 +143,16 @@
       }
     },
     {
-      "id": "spiegel-e831025c57e823c6",
+      "id": "spiegel-0384f2cf06b211f9",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Ukraine: Popstar Olha Poljakowa berichtet von Drohnenangriff auf Zug",
-      "link": "https://www.spiegel.de/ausland/ukraine-popstar-olha-poljakowa-berichtet-von-drohnenangriff-auf-zug-a-dde690b3-cb33-40f5-b337-f5812b26b99c#ref=rss",
-      "summary": "Olha Poljakowa war mit ihrer Tochter im Zug nach Polen, als eine Drohne den Zug traf. Der Angriff war Teil einer Reihe von Attacken auf das ukrainische Schienennetz. Ebenfalls auf der Strecke: Boris Johnson und Ex-CIA-Chef David Petraeus.",
-      "image": "https://cdn.prod.www.spiegel.de/images/491a3c94-7744-45f0-96b4-cabd887f2d95_w1080_r1.778_fpx62_fpy46.jpg",
-      "published": "2026-09-14T11:52:00+02:00",
-      "category": "Politik",
-      "score": 66.33
-    },
-    {
-      "id": "spiegel-bf75bdb02a6988b5",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Irankrieg: Abgeschossener Soldat spricht über »das Schrecklichste, was ich je gesehen habe«",
-      "link": "https://www.spiegel.de/ausland/irankrieg-abgeschossener-soldat-spricht-ueber-das-schrecklichste-was-ich-je-gesehen-habe-a-766939c0-780e-4a94-9e7f-240d6906f362#ref=rss",
-      "summary": "Im April wurde sein Kampfjet abgeschossen, Suchtrupps der US-Armee retteten das verletzte Besatzungsmitglied erst nach zwei Tagen. Nun hat der Waffensystemoffizier »Bravo« detailliert über die Rettungsaktion gesprochen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/112911ec-f226-4551-a2d5-16ee2ed927c9_w1200_r1.778_fpx52.66_fpy44.99.jpg",
-      "published": "2026-09-14T12:46:00+02:00",
-      "category": "Nachrichten",
-      "score": 64.08
+      "title": "PFAS-Chemikalien: Umweltorganisation warnt vor PFAS-Flut durch KI-Boom",
+      "link": "https://www.spiegel.de/wissenschaft/pfas-chemikalien-umweltorganisation-warnt-vor-pfas-flut-durch-ki-boom-a-a165dc07-43bf-471c-96cf-e3b09ee79c1d#ref=rss",
+      "summary": "PFAS-Chemikalien bleiben praktisch für immer, wenn sie in die Umwelt geraten. Die schwedische NGO ChemSec warnt nun vor der steigenden Nachfrage durch die Techbranche.",
+      "image": "https://cdn.prod.www.spiegel.de/images/7d3b976a-6f01-41db-ab35-febf37f7e43a_w1200_r1.778_fpx54_fpy58.jpg",
+      "published": "2026-09-14T16:23:00+02:00",
+      "category": "Technologie",
+      "score": 65.64
     },
     {
       "id": "golem-193fe7970027a3c5",
@@ -176,7 +164,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212985&amp;page=1&amp;ts=1789386242",
       "published": "2026-09-14T13:44:02+02:00",
       "category": "Technologie",
-      "score": 62.89
+      "score": 61.43
     },
     {
       "id": "heise-613b6c9a6e208041",
@@ -188,7 +176,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/4/3/3/1/shutterstock_2632059907-5c3da156111366d7.jpeg",
       "published": "2026-09-14T07:03:00+02:00",
       "category": "Wirtschaft",
-      "score": 61.32
+      "score": 59.86
     },
     {
       "id": "golem-32e564d84dad1187",
@@ -200,7 +188,19 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212986&amp;page=1&amp;ts=1789392602",
       "published": "2026-09-14T15:30:02+02:00",
       "category": "Wirtschaft",
-      "score": 59.36
+      "score": 57.9
+    },
+    {
+      "id": "golem-b20c0ee01a135d4c",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Künstliche Intelligenz: China warnt vor \"böswilligem Wettbewerb\" bei KI-Entwicklung",
+      "link": "https://www.golem.de/news/kuenstliche-intelligenz-china-warnt-vor-boeswilligem-wettbewerb-bei-ki-entwicklung-2609-212991.html",
+      "summary": "Mehrere Chefs von KI-Unternehmen aus den USA schlagen vor, die Entwicklung der Technologie zu verlangsamen. China will eine gemeinsame Regulierung. ( KI , Wirtschaft )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212991&amp;page=1&amp;ts=1789390382",
+      "published": "2026-09-14T14:53:02+02:00",
+      "category": "Wirtschaft",
+      "score": 57.39
     }
   ]
 }
