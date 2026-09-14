@@ -1,18 +1,772 @@
 {
-  "generatedAt": "2026-09-14T09:18:28.835853+00:00",
-  "count": 109,
+  "generatedAt": "2026-09-14T14:16:12.525078+00:00",
+  "count": 115,
   "articles": [
     {
-      "id": "spiegel-5c1f26d286756951",
+      "id": "tagesschau-36f5e2cce7a80e94",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Schweden steht nach Parlamentswahl vor schwieriger Regierungsbildung",
+      "link": "https://www.tagesschau.de/ausland/europa/schweden-parlamentswahl-112.html",
+      "summary": "Gebannt wartet Schweden auf das Endergebnis der Parlamentswahl. Derzeit liegt die Opposition knapp vor dem Regierungslager. Doch ganz gleich, wer gewinnt: Die Bildung einer handlungsfähigen Regierung dürfte schwierig werden. Von Jana Sinram. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/61bef5e4-4bb5-4944-8587-13c547b1320a/AAABoKAPXmQ/AAABnSSvrFg/16x9-big/kristersson-andersson-100.jpg?width=1920",
+      "published": "2026-09-14T16:12:14+02:00",
+      "category": "Politik",
+      "score": 70.94
+    },
+    {
+      "id": "spiegel-76c9751500cb4466",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Papst Leo XIV. hilft seinem Bruder bei Computerproblemen und der Steuererklärung",
-      "link": "https://www.spiegel.de/panorama/leute/papst-leo-xiv-hilft-seinem-bruder-bei-computerproblemen-und-der-steuererklaerung-a-ced1945d-6bca-4532-9d25-04ae80a8c58b#ref=rss",
-      "summary": "Leo XIV. ist offenbar ein Papst, der sich auch in weltlichen Fragen gut auskennt. Anlässlich seines Geburtstags berichtet sein Bruder John, der Papst sei technikaffin und bewandert in Steuerfragen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/d42ca42a-0d46-463f-865f-7e2327f6269d_w1200_r1.778_fpx48_fpy47.jpg",
-      "published": "2026-09-14T11:11:00+02:00",
+      "title": "Elterngeld-Kürzungen: Nächster Reformzoff – SPD-Frauen wollen Familienstartzeit einführen",
+      "link": "https://www.spiegel.de/politik/deutschland/elterngeld-kuerzungen-naechster-reformzoff-spd-frauen-wollen-familienstartzeit-einfuehren-a-90b9e054-8ac7-48ab-a542-2ee7f682c885#ref=rss",
+      "summary": "Die SPD-Frauen kritisieren die geplanten Kürzungen beim Elterngeld als Rückschritt. Um diesen auszugleichen, wollen die Genossinnen Familien an anderer Stelle stärken: mit einer Familienstartzeit und Steuerboni.",
+      "image": "https://cdn.prod.www.spiegel.de/images/7c994e6c-448d-4c0e-aa27-4cced1e1757e_w1200_r1.778_fpx40_fpy45.jpg",
+      "published": "2026-09-14T16:12:00+02:00",
       "category": "Nachrichten",
-      "score": 58.9
+      "score": 58.94
+    },
+    {
+      "id": "spiegel-6395cf28e1d7530b",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Bundeswehr: Sabotage-Gefahr hat laut MAD »erheblich zugenommen«",
+      "link": "https://www.spiegel.de/politik/deutschland/bundeswehr-sabotage-gefahr-hat-laut-mad-erheblich-zugenommen-a-2dc5c7f3-31f0-454b-9623-aa3a8bfa1189#ref=rss",
+      "summary": "In Deutschland hat die Bedrohung durch Wegwerfagenten und hybride Angriffe nach Angaben des MAD zugenommen. Viele Fälle sind nach Ansicht der Militärgeheimdienstes »mit hoher Wahrscheinlichkeit« durch Russland initiiert.",
+      "image": "https://cdn.prod.www.spiegel.de/images/f27d24f4-c68f-4086-b734-829edfb444da_w1200_r1.778_fpx60_fpy39.jpg",
+      "published": "2026-09-14T16:11:00+02:00",
+      "category": "Nachrichten",
+      "score": 58.93
+    },
+    {
+      "id": "golem-b275e6d01876f846",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Youtube: Elon Musk teilt erneut Verstoß gegen FSD-Nutzungsregeln",
+      "link": "https://www.golem.de/news/youtube-elon-musk-teilt-erneut-verstoss-gegen-fsd-nutzungsregeln-2609-212990.html",
+      "summary": "Ein 98-jähriger Mann erklärt in einem Video, dass er in seinem Tesla nicht mehr auf den Verkehr achten müsse. Elon Musk findet das gut - für Tesla ein Problem. ( Elon Musk , Elektroauto )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212990&amp;page=1&amp;ts=1789394462",
+      "published": "2026-09-14T16:01:02+02:00",
+      "category": "Technologie",
+      "score": 56.79
+    },
+    {
+      "id": "spiegel-a5e77c72bf507b8a",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Kalifornien: Forscherin findet 10.000 Jahre alten Mastodon-Zahn in »makellosem Zustand«",
+      "link": "https://www.spiegel.de/wissenschaft/natur/kalifornien-forscherin-findet-10-000-jahre-alten-mastodon-zahn-in-makellosem-zustand-a-ac4117fb-e110-4b5c-9530-18207bcf6fd9#ref=rss",
+      "summary": "In einem kalifornischen Naturschutzgebiet ist der Backenzahn eines Pazifischen Mastodons aufgetaucht. Ein Forscher berichtet von einem Gänsehautmoment.",
+      "image": "https://cdn.prod.www.spiegel.de/images/78f73122-089d-4ef2-9bba-9a665ffdd6ba_w1200_r1.778_fpx38_fpy41.jpg",
+      "published": "2026-09-14T15:59:00+02:00",
+      "category": "Nachrichten",
+      "score": 58.76
+    },
+    {
+      "id": "golem-78ea9776f5f49fd5",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Batterieforschung: Dickere Elektrode hebt Energiedichte von Akkus an",
+      "link": "https://www.golem.de/news/batterieforschung-dickere-elektrode-hebt-energiedichte-von-akkus-an-2609-212993.html",
+      "summary": "Um 15 Prozent steigt die Kapazität von Batterien durch eine Methode, die das Gewicht nicht erhöht und einfach umzusetzen ist. ( Akku , Fraunhofer )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212993&amp;page=1&amp;ts=1789393562",
+      "published": "2026-09-14T15:46:02+02:00",
+      "category": "Wissenschaft",
+      "score": 56.58
+    },
+    {
+      "id": "tagesschau-73a1e27a3d4e0754",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "EU-Staaten wollen Interessen in der Arktis schützen",
+      "link": "https://www.tagesschau.de/ausland/europa/arktis-gipfel-eu-100.html",
+      "summary": "Schifffahrtsrouten, Bodenschätze und Sicherheitspolitik: Deutschland und weitere europäische Staaten fordern eine stärkere Rolle der EU in der Arktis - vor allem wegen der Bedrohung aus Moskau.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/a5a1af95-115d-4def-900a-0e0e83d6d2d8/AAABoKAofxs/AAABnSSvrFg/16x9-big/arktis-gipfel-100.jpg?width=1920",
+      "published": "2026-09-14T15:43:23+02:00",
+      "category": "Nachrichten",
+      "score": 59.54
+    },
+    {
+      "id": "golem-a32947dea22e75b8",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Aktion: Klarmobil bietet mehr Datenvolumen im Vodafone-Netz",
+      "link": "https://www.golem.de/news/aktion-klarmobil-bietet-mehr-datenvolumen-im-vodafone-netz-2609-212992.html",
+      "summary": "Die Freenet-Marke hat ihre Allnet-Flats im 5G-Netz von Vodafone aufgewertet. Neukunden erhalten bis zu 200 GByte. ( Freenet , Vodafone )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212992&amp;page=1&amp;ts=1789392962",
+      "published": "2026-09-14T15:36:02+02:00",
+      "category": "Technologie",
+      "score": 56.44
+    },
+    {
+      "id": "spiegel-755ac0fab05ad853",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Ätna auf Sizilien: Warnstufe Rot für Flugverkehr – viele Flüge fallen aus",
+      "link": "https://www.spiegel.de/panorama/aetna-auf-sizilien-warnstufe-rot-fuer-flugverkehr-viele-fluege-fallen-aus-a-ca731b10-6340-4f90-a4a6-a5e28486dfcf#ref=rss",
+      "summary": "Ein neuer Ausbruch des Ätna beeinträchtigt den Flugverkehr von und nach Sizilien, der Flughafen in Catania ist gesperrt. Es gilt die höchste Warnstufe für eine Eruption mit erheblichem Ascheausstoß.",
+      "image": "https://cdn.prod.www.spiegel.de/images/2a4d42c7-02a1-46cf-8b38-443607fc5c34_w1200_r1.778_fpx78_fpy45.jpg",
+      "published": "2026-09-14T15:34:00+02:00",
+      "category": "Nachrichten",
+      "score": 58.41
+    },
+    {
+      "id": "spiegel-fc2cf656f0ee20c7",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Donald Trump - Kennedy Center: Warum das Kennedy Center vor der Pleite stehen soll",
+      "link": "https://www.spiegel.de/ausland/donald-trump-kennedy-center-warum-das-kennedy-center-vor-der-pleite-stehen-soll-a-daf7e6cd-6081-4250-8fc4-898bbf1c8061#ref=rss",
+      "summary": "Donald Trump will über die Kultur der Vereinigten Staaten bestimmen. Dafür hat er es auch auf das Kennedy Center abgesehen. Doch Richter hegten den US-Präsidenten zuletzt ein. Jetzt drohen seine Leute mit der Schließung.",
+      "image": "https://cdn.prod.www.spiegel.de/images/20054253-178c-4f2b-8637-1844c2ab131a_w1200_r1.778_fpx55_fpy44.jpg",
+      "published": "2026-09-14T15:31:00+02:00",
+      "category": "Politik",
+      "score": 69.37
+    },
+    {
+      "id": "golem-32e564d84dad1187",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Für den eigenen Profit: Warum KI-Konzerne plötzlich auf die Bremse treten wollen",
+      "link": "https://www.golem.de/news/fuer-den-eigenen-profit-warum-ki-konzerne-ploetzlich-auf-die-bremse-treten-wollen-2609-212986.html",
+      "summary": "Altman, Amodei und andere KI-Größen warnen vor immer mächtigeren Modellen. Das wiederum könnte zugleich ihre Konkurrenz ausbremsen. Eine Analyse von Mike Faust ( KI , Wirtschaft )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212986&amp;page=1&amp;ts=1789392602",
+      "published": "2026-09-14T15:30:02+02:00",
+      "category": "Wirtschaft",
+      "score": 59.36
+    },
+    {
+      "id": "spiegel-b26b35976478b498",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Münchner Sicherheitskonferenz: Helga Maria Schmid und Jens Stoltenberg leiten künftig gemeinsam",
+      "link": "https://www.spiegel.de/ausland/muenchner-sicherheitskonferenz-helga-maria-schmid-und-jens-stoltenberg-leiten-kuenftig-gemeinsam-a-f906d7d7-ff8a-4ca3-8e3a-d0eb31f8921a#ref=rss",
+      "summary": "Eigentlich sollte Jens Stoltenberg bereits in diesem Jahr der MSC vorsitzen, doch der Wechsel verzögerte sich. Für das kommende Jahr übernimmt der Norweger nun gemeinsam mit einer deutschen Co-Chefin.",
+      "image": "https://cdn.prod.www.spiegel.de/images/2b631913-39a5-46cf-9352-8488fdd642ba_w1200_r1.778_fpx57_fpy63.jpg",
+      "published": "2026-09-14T15:23:00+02:00",
+      "category": "Nachrichten",
+      "score": 58.26
+    },
+    {
+      "id": "spiegel-6aceafc4415aed82",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Mercedes-Benz GLE: Weltweiter Rückruf von mehr als 23.000 SUV",
+      "link": "https://www.spiegel.de/wirtschaft/mercedes-benz-gle-weltweiter-rueckruf-von-mehr-als-23-000-suv-a-c5b0e22b-285a-410e-bcad-ad2bdaefb042#ref=rss",
+      "summary": "Bei bestimmten SUV der Baureihe GLE könne plötzlich der Antrieb versagen, deshalb sollen die Fahrzeuge in die Werkstadt. In Deutschland sind laut Mercedes-Benz Tausende Autos betroffen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/ea71eb55-bb95-4b7c-a57e-5763d32c69bd_w1200_r1.778_fpx50_fpy50.jpg",
+      "published": "2026-09-14T15:19:00+02:00",
+      "category": "Nachrichten",
+      "score": 58.21
+    },
+    {
+      "id": "spiegel-1f20b1c0a39fab39",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Lübeck: Kleinkind verätzt sich beim Spielen Hände und Gesicht",
+      "link": "https://www.spiegel.de/panorama/justiz/luebeck-kleinkind-veraetzt-sich-beim-spielen-haende-und-gesicht-a-46df0852-3233-4b64-b29c-7f09c789e57b#ref=rss",
+      "summary": "Ein vierjähriger Junge und sein Vater haben sich in einem Lübecker Park Verätzungen zugezogen, nachdem sie in eine Pfütze gefasst hatten. Zuvor hörten Zeugen einen Knall und sahen Jugendliche aus dem Park flüchten.",
+      "image": "https://cdn.prod.www.spiegel.de/images/84672291-e387-4872-8962-5a178685e5ea_w1200_r1.778_fpx77_fpy46.jpg",
+      "published": "2026-09-14T15:17:00+02:00",
+      "category": "Technologie",
+      "score": 58.18
+    },
+    {
+      "id": "spiegel-16e08dc20ea97952",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Anthropic: Ehrenamtlicher aus Wien entschärft ausgebrochene KI",
+      "link": "https://www.spiegel.de/netzwelt/anthropic-ehrenamtlicher-aus-wien-entschaerft-ausgebrochene-ki-a-a693a862-b191-4a05-a0cb-6ffa45b8bb7a#ref=rss",
+      "summary": "Nach zahlreichen Vorfällen wollen KI-Chefs das Entwicklungstempo bremsen. Bei einer jüngst bekannt gewordenen Attacke einer Anthropic-KI griff ein Ehrenamtlicher rechtzeitig ein. Das ist seine Geschichte.",
+      "image": "https://cdn.prod.www.spiegel.de/images/47683fed-ef44-4842-82bc-e9a1f5ec62ff_w1200_r1.778_fpx33.33_fpy49.99.jpg",
+      "published": "2026-09-14T15:05:00+02:00",
+      "category": "Technologie",
+      "score": 58.01
+    },
+    {
+      "id": "spiegel-d612adda4882ec4c",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Sicherheitsdebatte zu Anthropic, OpenAI & Co.: Bundesregierung nimmt KI-Warnungen »sehr ernst«",
+      "link": "https://www.spiegel.de/netzwelt/netzpolitik/sicherheitsdebatte-zu-anthropic-openai-co-bundesregierung-nimmt-ki-warnungen-sehr-ernst-a-3582852a-5306-4e76-844a-7762cf54889d#ref=rss",
+      "summary": "Führende Techbosse haben angekündigt, bei der KI-Entwicklung einen Gang zurückzuschalten, sonst drohe ein Kontrollverlust. Die deutsche Regierung setzt auf internationale Zusammenarbeit und ein neues Sicherheitsinstitut.",
+      "image": "https://cdn.prod.www.spiegel.de/images/0309cdb8-f267-4839-8386-d866e8368d99_w1200_r1.778_fpx37.65_fpy44.99.jpg",
+      "published": "2026-09-14T14:54:00+02:00",
+      "category": "Politik",
+      "score": 60.86
+    },
+    {
+      "id": "golem-b20c0ee01a135d4c",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Künstliche Intelligenz: China warnt vor \"böswilligem Wettbewerb\" bei KI-Entwicklung",
+      "link": "https://www.golem.de/news/kuenstliche-intelligenz-china-warnt-vor-boeswilligem-wettbewerb-bei-ki-entwicklung-2609-212991.html",
+      "summary": "Mehrere Chefs von KI-Unternehmen aus den USA schlagen vor, die Entwicklung der Technologie zu verlangsamen. China will eine gemeinsame Regulierung. ( KI , Wirtschaft )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212991&amp;page=1&amp;ts=1789390382",
+      "published": "2026-09-14T14:53:02+02:00",
+      "category": "Wirtschaft",
+      "score": 58.84
+    },
+    {
+      "id": "tagesschau-67ae28f83df713d0",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Rückendeckung für Merz - aber die Debatte reißt nicht ab",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/cdu-merz-debatte-100.html",
+      "summary": "Der Bundeskanzler steht vor einer entscheidenden Woche. Nach dem Wahldebakel in Sachsen-Anhalt erhält Merz Rückendeckung in der Debatte um seine Person. Doch Kritik an den Reformen und am Umgang mit der AfD nehmen weiter Fahrt auf.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/1eb63d78-adaf-4390-a32d-327e21eb7e94/AAABoJ-7W-U/AAABnSSvrFg/16x9-big/merz-1584.jpg?width=1920",
+      "published": "2026-09-14T14:51:10+02:00",
+      "category": "Politik",
+      "score": 69.82
+    },
+    {
+      "id": "spiegel-62e66d30f4419e5c",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Ye und Putin: Was wirklich hinter den Oktober-Konzerten von Kanye West in Russland steckt",
+      "link": "https://www.spiegel.de/kultur/musik/ye-und-putin-was-wirklich-hinter-den-oktober-konzerten-von-kanye-west-in-russland-steckt-a-c8b84b7f-72a9-43e6-b6ac-5cc9661a696b#ref=rss",
+      "summary": "Antisemitische Äußerungen, Hitler-Sympathien, Albanien-Eklat: Ye polarisiert, wo immer er kann. Der geplante Auftritt des US-Rappers in Sankt Petersburg könnte sein brisantester werden – auch wegen des Datums.",
+      "image": "https://cdn.prod.www.spiegel.de/images/3a7c3da5-a1eb-497b-8a87-fe6f4cd97d23_w1200_r1.778_fpx51_fpy46.jpg",
+      "published": "2026-09-14T14:43:00+02:00",
+      "category": "Nachrichten",
+      "score": 57.71
+    },
+    {
+      "id": "golem-f96d0a40db54d866",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Starlink mit Femtocells: T-Mobile und Verizon lachen über Musks Mobilfunkpläne",
+      "link": "https://www.golem.de/news/starlink-mit-femtocells-t-mobile-und-verizon-lachen-ueber-musks-mobilfunkplaene-2609-212989.html",
+      "summary": "Der Aufbau eines eigenen Mobilfunknetzes durch SpaceX stößt bei etablierten Anbietern auf Spott. Es geht um physikalische Grenzen und Milliardenkosten. Ein Bericht von Achim Sawall ( Starlink , Mobilfunk )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212989&amp;page=1&amp;ts=1789389422",
+      "published": "2026-09-14T14:37:02+02:00",
+      "category": "Technologie",
+      "score": 55.62
+    },
+    {
+      "id": "spiegel-84092ede5f1378bb",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Robert Geiss und Carmen Geiss: Die Geissens teilen ihr Leben künftig bei ProSiebenSat.1",
+      "link": "https://www.spiegel.de/kultur/tv/robert-geiss-und-carmen-geiss-die-geissens-teilen-ihr-leben-kuenftig-nicht-mehr-bei-rtl-zwei-a-1853fb1d-ee5a-4da7-b93c-cc89c5f2a9cf#ref=rss",
+      "summary": "Seit 2011 zeigen Robert und Carmen Geiss Szenen ihres Jetsetlebens in der Sendung »Die Geissens – Eine schrecklich glamouröse Familie«. Nun verlassen sie den Sender, der sie bekannt machte.",
+      "image": "https://cdn.prod.www.spiegel.de/images/edae3fc1-c2b4-4fa8-9077-b15506a9aa73_w1200_r1.778_fpx50_fpy24.jpg",
+      "published": "2026-09-14T14:30:00+02:00",
+      "category": "Nachrichten",
+      "score": 57.52
+    },
+    {
+      "id": "tagesschau-f12349070b98ffa5",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Bund und UniCredit verhandeln über Commerzbank-Übernahme",
+      "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktbericht-commerzbank-unicredit-100.html",
+      "summary": "Die UniCredit hat am Finanzmarkt Realitäten geschaffen, und die Politik muss reagieren. Heute wird Bankchef Orcel im Finanzministerium empfangen. Es geht um die geplante Übernahme der Commerzbank.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/32b38b51-5cfa-46f7-8da7-93a66e07a1d6/AAABoJ-ctYY/AAABnSSvrFg/16x9-big/commerzbank-304.jpg?width=1920",
+      "published": "2026-09-14T14:27:59+02:00",
+      "category": "Politik",
+      "score": 61.5
+    },
+    {
+      "id": "spiegel-8099463b3e6de363",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Erkelenz: Drei Tote bei Absturz von Kleinflugzeug in Nordrhein-Westfalen",
+      "link": "https://www.spiegel.de/panorama/erkelenz-drei-tote-bei-absturz-von-kleinflugzeug-in-nordrhein-westfalen-a-9b0c2ff7-698c-4666-a1e4-00dc5aaab37a#ref=rss",
+      "summary": "Ein Flugzeug mit drei Insassen ist am Montagvormittag auf einem Acker im Rheinland abgestürzt. Alle drei Passagiere starben. Das Bundesamt für Flugsicherung ermittelt.",
+      "image": "https://cdn.prod.www.spiegel.de/images/9d6ee16b-00c8-47fe-a175-1b142b6e5714_w1200_r1.778_fpx34_fpy50.jpg",
+      "published": "2026-09-14T14:20:00+02:00",
+      "category": "Nachrichten",
+      "score": 57.39
+    },
+    {
+      "id": "golem-3482e1cc00e44fc1",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Anzeige: Redtiger F7NP - Bestseller-Dashcam mit 4K-Video für 119,69 Euro im Deal",
+      "link": "https://www.golem.de/news/anzeige-redtiger-f7np-bestseller-dashcam-mit-4k-video-fuer-119-69-euro-im-deal-2609-212988.html",
+      "summary": "Die Redtiger F7NP filmt vorne und hinten, verfügt über GPS und 128 GB Speicher. Bei Amazon kostet der Bestseller 119,69 Euro. ( Technik/Hardware , Film )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212988&amp;page=1&amp;ts=1789388102",
+      "published": "2026-09-14T14:15:02+02:00",
+      "category": "Technologie",
+      "score": 55.32
+    },
+    {
+      "id": "tagesschau-e3e6bc6c99b24a58",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Russische Drohnenangriffe - Vor allem Kiew ist im Visier",
+      "link": "https://www.tagesschau.de/ausland/europa/ukraine-drohnen-134.html",
+      "summary": "Die russischen Luftangriffe auf die Ukraine sind intensiver geworden. Dazu kommt: Die Drohnen sind inzwischen oft schneller und schwieriger abzufangen. Besonders betroffen sind die Anwohner in den Vororten Kiews. Von P. Sawicki. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/0b2b488a-1988-4d7e-af64-1c1b5f9a4753/AAABoJ-K1Xo/AAABnSSvrFg/16x9-big/wohnhaus-welyka-oleksandriwka-100.jpg?width=1920",
+      "published": "2026-09-14T14:11:29+02:00",
+      "category": "Politik",
+      "score": 69.27
+    },
+    {
+      "id": "spiegel-f34bccb3229c20cf",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Österreich: Bergsteiger überlebt 100-Meter-Sturz in Tirol",
+      "link": "https://www.spiegel.de/panorama/oesterreich-bergsteiger-ueberlebt-100-meter-sturz-in-tirol-a-94e6ac1e-d693-4a9e-bf28-c9e55eb4f900#ref=rss",
+      "summary": "Ein 31-jähriger Bergsteiger ist in den osterreichischen Alpen 100 Meter in die Tiefe gestürzt und hat schwer verletzt überlebt. Offenbar ist er an einer abschüssigen Stelle ins Leere getreten.",
+      "image": "https://cdn.prod.www.spiegel.de/images/3d747b46-864c-46a7-8443-adf9f95de3b6_w1200_r1.778_fpx30.58_fpy55.01.jpg",
+      "published": "2026-09-14T14:06:00+02:00",
+      "category": "Nachrichten",
+      "score": 57.19
+    },
+    {
+      "id": "spiegel-c6bb9d74cafd6a5d",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Bildungsmonitor laut INSM »Armutszeugnis«: Sachsen am besten, Bremen Schlusslicht",
+      "link": "https://www.spiegel.de/panorama/bildung/bildungsmonitor-laut-insm-armutszeugnis-sachsen-am-besten-bremen-schlusslicht-a-7d6bf612-39bd-4d80-885d-57ce6c83bff5#ref=rss",
+      "summary": "Bildung ist Deutschlands wichtigste Ressource. Wie gut heben die Bundesländer sie? Das Institut der deutschen Wirtschaft untersucht das im Auftrag einer Lobbygruppe. Ergebnis: ein »Armutszeugnis«. Auch Spitzenländer verlieren.",
+      "image": "https://cdn.prod.www.spiegel.de/images/528ebde4-4785-491d-aa3d-d255d4dd6b20_w1200_r1.778_fpx61.34_fpy50.jpg",
+      "published": "2026-09-14T14:04:00+02:00",
+      "category": "Wirtschaft",
+      "score": 60.16
+    },
+    {
+      "id": "golem-3069a0a0b75da96d",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Zwei Controller in Arbeit: Apples geheimer Gamepad-Plan",
+      "link": "https://www.golem.de/news/zwei-controller-in-arbeit-apples-geheimer-gamepad-plan-2609-212969.html",
+      "summary": "Codefunde im ersten Release Candidate von macOS 26.7 deuten auf zwei neue Apple-Hardwaregeräte hin. Möglicherweise sind es Gaming-Controller. ( Apple , Apple TV )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212969&amp;page=1&amp;ts=1789387261",
+      "published": "2026-09-14T14:01:01+02:00",
+      "category": "Technologie",
+      "score": 55.12
+    },
+    {
+      "id": "spiegel-635de5a45af660c4",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Morddrohung gegen Charlotte Knobloch nach Kommentar zum AfD-Sieg",
+      "link": "https://www.spiegel.de/panorama/morddrohung-gegen-charlotte-knobloch-nach-kommentar-zum-afd-sieg-a-6197b12b-afbc-4597-beac-871f20ec8f2a#ref=rss",
+      "summary": "Die Holocaustüberlebende Knobloch wird mit dem Tod bedroht – offenbar weil sie sich entsetzt über die Wahlergebnisse in Sachsen-Anhalt geäußert hatte. Bisher fehlt der Polizei jede Spur, die 93-Jährige sagte eine Veranstaltung ab.",
+      "image": "https://cdn.prod.www.spiegel.de/images/06cb7874-6a01-4ca5-9c58-a71679ee8878_w1200_r1.778_fpx44_fpy54.jpg",
+      "published": "2026-09-14T13:59:00+02:00",
+      "category": "Politik",
+      "score": 68.09
+    },
+    {
+      "id": "tagesschau-5ddf95cc2652d4ee",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Tankstellenverband erwartet Spritpreise um die drei Euro",
+      "link": "https://www.tagesschau.de/wirtschaft/oel-spritpreise-tanken-100.html",
+      "summary": "Der Schock an den Zapfsäulen ist zurück. Wegen der Eskalation im Nahen Osten werden Benzin und Diesel immer teurer - am Wochenende gab es ein neues Allzeithoch. Auch die Preise für Heizöl und Gas steigen deutlich.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/547130f5-d9a7-40f7-a6f2-90ae15f49cc0/AAABoJ9MMHA/AAABnSSvrFg/16x9-big/kraftstoffpreise-124.jpg?width=1920",
+      "published": "2026-09-14T13:52:20+02:00",
+      "category": "Nachrichten",
+      "score": 70.0,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Spritpreise: Tankstellenverband warnt vor drei Euro pro Liter",
+            "link": "https://www.spiegel.de/wirtschaft/spritpreise-tankstellenverband-warnt-vor-drei-euro-pro-liter-a-8b95a40e-259a-4eb1-a963-8c086e949fad#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "golem-91cb077692c41abc",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Anzeige: Teilbare Soundbar mit Subwoofer zum Aktionspreis bei Amazon",
+      "link": "https://www.golem.de/news/anzeige-teilbare-soundbar-mit-subwoofer-zum-aktionspreis-bei-amazon-2609-212987.html",
+      "summary": "Amazon hat eine Soundbar mit Subwoofer im Angebot, die flexibel aufgestellt werden kann und eine Gesamtleistung von 110 W erreicht. ( Soundbar , Technik/Hardware )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212987&amp;page=1&amp;ts=1789386601",
+      "published": "2026-09-14T13:50:01+02:00",
+      "category": "Technologie",
+      "score": 54.97
+    },
+    {
+      "id": "golem-193fe7970027a3c5",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Drohnenkrieg: Russische Marschflugdrohnen werden zur teuren Gefahr",
+      "link": "https://www.golem.de/news/drohnenkrieg-russische-marschflugdrohnen-werden-zur-teuren-gefahr-2609-212985.html",
+      "summary": "Die neueste Generation russischer Drohnen entwickelt sich schneller, als viele Experten vorhergesehen haben. Die Nato kann nur mit Geld gegenhalten. ( Militär , Politik )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212985&amp;page=1&amp;ts=1789386242",
+      "published": "2026-09-14T13:44:02+02:00",
+      "category": "Technologie",
+      "score": 62.89
+    },
+    {
+      "id": "golem-de9259fcf86fd899",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Anzeige: Klappbarer 50-Liter-Kofferraum-Organizer jetzt reduziert bei Amazon",
+      "link": "https://www.golem.de/news/anzeige-klappbarer-50-liter-kofferraum-organizer-jetzt-reduziert-bei-amazon-2609-212984.html",
+      "summary": "Der faltbare Fortem Kofferraum-Organizer bringt mit klappbarem Deckel, drei Fächern und rutschfestem Boden Ordnung in den Kofferraum. ( Auto , Technik/Hardware )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212984&amp;page=1&amp;ts=1789385702",
+      "published": "2026-09-14T13:35:02+02:00",
+      "category": "Technologie",
+      "score": 54.76
+    },
+    {
+      "id": "spiegel-8cb9a62300c2260d",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Friedrich Merz: Drei Szenarien, wie es mit dem Kanzler weitergehen kann",
+      "link": "https://www.spiegel.de/politik/deutschland/friedrich-merz-drei-szenarien-wie-es-mit-dem-kanzler-weitergehen-kann-a-44d7c490-ff0d-4665-a0fd-0f5230666cf4#ref=rss",
+      "summary": "Nie zuvor war ein Bundeskanzler unbeliebter, neue Wahlschlappen drohen. Kann Friedrich Merz sich überhaupt noch im Amt halten? Und wenn ja: wie?",
+      "image": "https://cdn.prod.www.spiegel.de/images/beda39da-b1cd-4aef-809b-4163ec7fbe92_w1200_r1.778_fpx61.37_fpy49.99.jpg",
+      "published": "2026-09-14T13:34:00+02:00",
+      "category": "Politik",
+      "score": 67.75
+    },
+    {
+      "id": "golem-be9f09a098ae0eb1",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "(g+) Der Mythos vom Millionen-Token-Kontext: Warum KI bei längeren Eingaben schwächelt",
+      "link": "https://www.golem.de/news/der-mythos-vom-millionen-token-kontext-warum-ki-bei-laengeren-eingaben-schwaechelt-2609-212718.html",
+      "summary": "KI-Hersteller bewerben Kontextlängen von Millionen von Zeichen, doch trotzdem versagen die Modelle bei großen Dokumenten. Wir erklären die Hintergründe. Eine Analyse von Tim Elsner ( KI , Software )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212718&amp;page=1&amp;ts=1789385402",
+      "published": "2026-09-14T13:30:02+02:00",
+      "category": "Technologie",
+      "score": 54.69
+    },
+    {
+      "id": "spiegel-bb6fddb9ef2c8125",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Karrierewechsel: Mit 47 als Coach durchstarten – was für den Neustart spricht",
+      "link": "https://www.spiegel.de/karriere/karrierewechsel-mit-47-als-coach-durchstarten-was-fuer-den-neustart-spricht-a-8e48b599-c53d-4aa8-bc1b-1f2983294620#ref=rss",
+      "summary": "Wenn der Job zur Belastung wird, träumen viele vom Neustart als Coach. Doch der Markt ist voll – ohne klare Positionierung wird es schwer. Diese 35 Fragen sollte sich jeder stellen, bevor er sich selbstständig macht.",
+      "image": "https://cdn.prod.www.spiegel.de/images/e05643e6-8acd-43af-b443-e94609945bfe_w1200_r1.778_fpx50_fpy32.jpg",
+      "published": "2026-09-14T13:28:00+02:00",
+      "category": "Nachrichten",
+      "score": 56.66
+    },
+    {
+      "id": "spiegel-024c3a80003ce502",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Sydney Sweeney: Erneut heftige Kritik an Werbekampagne der Schauspielerin",
+      "link": "https://www.spiegel.de/sport/sydney-sweeney-erneut-heftige-kritik-an-werbekampagne-der-schauspielerin-a-66768284-fb5c-4cf2-9ec4-0d95330361d4#ref=rss",
+      "summary": "Sydney Sweeney wirbt in einem neuen Clip halb nackt bis nackt für einen Sportwettenanbieter. Athletinnen weltweit sind entsetzt. Für die US-Schauspielerin ist es nicht der erste Shitstorm dieser Art.",
+      "image": "https://cdn.prod.www.spiegel.de/images/5619a787-cae1-463d-ab71-8ef5d065d7aa_w1200_r1.778_fpx60.4_fpy49.97.jpg",
+      "published": "2026-09-14T13:25:00+02:00",
+      "category": "Nachrichten",
+      "score": 56.62
+    },
+    {
+      "id": "spiegel-ec93fb6209bc9cf6",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Tennis-Weltrangliste: Alexander Zverev rückt einem großen Ziel immer näher",
+      "link": "https://www.spiegel.de/sport/tennis/tennis-weltrangliste-alexander-zverev-rueckt-einem-grossen-ziel-immer-naeher-a-1b1d5052-b282-4fbb-b0fd-44f8e4d7db33#ref=rss",
+      "summary": "Wird Alexander Zverev die zweite deutsche Nummer eins nach Boris Becker? Noch in diesem Jahr könnte sich der Deutsche seinen Traum erfüllen. Novak Djokovic muss hingegen einen weiteren Rückschlag verkraften.",
+      "image": "https://cdn.prod.www.spiegel.de/images/4b9bda79-97e3-46cf-90a8-8221b83ef22e_w1200_r1.778_fpx48.65_fpy44.99.jpg",
+      "published": "2026-09-14T13:17:00+02:00",
+      "category": "Nachrichten",
+      "score": 56.51
+    },
+    {
+      "id": "tagesschau-0c4d93a703d14745",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Trump kündigt Ende der Zölle auf irischen Whiskey an",
+      "link": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/trump-whiskey-irland-100.html",
+      "summary": "US-Präsident Trump hat die Aufhebung der Zölle auf irischen Whiskey angekündigt. Während seiner Irlandreise am Wochenende sei er um eine Aufhebung der Zölle gebeten worden, sagte Trump auf dem Golfplatz.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/895ea5e9-0fb6-4065-acb3-5add37752967/AAABoJ8k2DA/AAABnSSvrFg/16x9-big/irischer-whiskey-102.jpg?width=1920",
+      "published": "2026-09-14T13:09:07+02:00",
+      "category": "Politik",
+      "score": 68.4
+    },
+    {
+      "id": "spiegel-a30af8ac76aee277",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Finnland wird Teil von französischer Initiative zur nuklearen Abschreckung",
+      "link": "https://www.spiegel.de/ausland/finnland-wird-teil-von-franzoesischer-initiative-zur-nuklearen-abschreckung-a-5f9afed1-4ef2-4f50-9aa1-c411e3042241#ref=rss",
+      "summary": "Erst vor Kurzem stimmte das Parlament in Helsinki für ein Ende des Atomwaffenverbots. Nun will Finnland mit Paris militärisch enger kooperieren – unter anderem bei der nuklearen Abschreckung.",
+      "image": "https://cdn.prod.www.spiegel.de/images/c3153101-2d21-4d47-b28a-e73c9b8023c8_w1200_r1.778_fpx56_fpy32.jpg",
+      "published": "2026-09-14T13:09:00+02:00",
+      "category": "Technologie",
+      "score": 56.4
+    },
+    {
+      "id": "spiegel-b86636b7996a27ac",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Insel Syros: Griechische Steuerfahnder verhängen Strafe – weil Fisch zu frisch erschien",
+      "link": "https://www.spiegel.de/wirtschaft/insel-syros-griechische-steuerfahnder-verhaengen-strafe-weil-fisch-zu-frisch-erschien-a-458048a1-4ce1-41cd-b43f-40e90e6415b6#ref=rss",
+      "summary": "500 Euro sollte ein Tavernenbesitzer zahlen, weil den Beamten der Fisch in seinem Kühlschrank zu frisch war, als dass die dazugehörige Rechnung stimmen könnte. Der Wirt ging erfolgreich dagegen vor.",
+      "image": "https://cdn.prod.www.spiegel.de/images/9a6b7cd9-217e-421e-95cd-f14855ec01f3_w1200_r1.778_fpx54.57_fpy49.86.jpg",
+      "published": "2026-09-14T13:06:00+02:00",
+      "category": "Nachrichten",
+      "score": 56.36
+    },
+    {
+      "id": "tagesschau-09f249eb8780a2c2",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Bundesanwaltschaft: Anklage gegen mutmaßliche Russland-Spionin",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/anklage-spionin-russland-100.html",
+      "summary": "Sie soll ein pro-russisches Netzwerk in Berlin aufgebaut und Informationen zur deutschen Verteidigungspolitik an den Kreml geliefert haben: Jetzt hat die Bundesanwaltschaft Anklage gegen die mutmaßliche Spionin Russlands erhoben.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/cdcdf9e8-795e-4d1b-aab3-fa29015d7bcf/AAABoJ_L4Rk/AAABnSSvrFg/16x9-big/flagge-russland-botschaft-berlin-100.jpg?width=1920",
+      "published": "2026-09-14T13:03:53+02:00",
+      "category": "Nachrichten",
+      "score": 57.33
+    },
+    {
+      "id": "golem-896c3a9da40f0e95",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Anzeige: Dreo Heizlüfter für unter 45 Euro bei Amazon im Angebot",
+      "link": "https://www.golem.de/news/anzeige-dreo-heizluefter-fuer-unter-45-euro-bei-amazon-im-angebot-2609-212979.html",
+      "summary": "Der kompakte und leise Dreo Heizlüfter bringt Räume schnell auf Temperatur. Bei Amazon gibt es das Modell aktuell für weit unter 50 Euro zum Sparpreis. ( Technik/Hardware )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212979&amp;page=1&amp;ts=1789383481",
+      "published": "2026-09-14T12:58:01+02:00",
+      "category": "Technologie",
+      "score": 54.25
+    },
+    {
+      "id": "golem-fed42bfb1cf93792",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "RDP, Sound und mehr: Windows-Updates bereiten Nutzern allerhand Probleme",
+      "link": "https://www.golem.de/news/rdp-sound-und-mehr-windows-updates-bereiten-nutzern-allerhand-probleme-2609-212982.html",
+      "summary": "Laut Microsoft lösen die neuen Windows-Updates Probleme mit Linux-VMs, USB-Audio und RDP-Verbindungen aus. Doch da scheint noch mehr kaputt zu sein. ( Windows , Microsoft )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212982&amp;page=1&amp;ts=1789383360",
+      "published": "2026-09-14T12:56:00+02:00",
+      "category": "Technologie",
+      "score": 67.22
+    },
+    {
+      "id": "spiegel-3a0a048d0c375217",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Hamburg: 36-Jähriger bei Rettungsversuch von U-Bahn erfasst und gestorben",
+      "link": "https://www.spiegel.de/panorama/hamburg-26-jaehriger-bei-rettungsversuch-von-u-bahn-erfasst-und-gestorben-a-19a44993-21d0-49c4-9fb3-24f3e0f181bd#ref=rss",
+      "summary": "In Hamburg ist ein Mann, der seine Begleitung am Sprung auf die Gleise hindern wollte, selbst vor eine einfahrende U-Bahn gefallen und gestorben. Der andere Mann überlebte und flüchtete.",
+      "image": "https://cdn.prod.www.spiegel.de/images/16f25a04-d222-4a81-ac79-efe745b30a71_w1200_r1.778_fpx35_fpy35.jpg",
+      "published": "2026-09-14T12:52:00+02:00",
+      "category": "Nachrichten",
+      "score": 56.16
+    },
+    {
+      "id": "spiegel-bf75bdb02a6988b5",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Irankrieg: Abgeschossener Soldat spricht über »das Schrecklichste, was ich je gesehen habe«",
+      "link": "https://www.spiegel.de/ausland/irankrieg-abgeschossener-soldat-spricht-ueber-das-schrecklichste-was-ich-je-gesehen-habe-a-766939c0-780e-4a94-9e7f-240d6906f362#ref=rss",
+      "summary": "Im April wurde sein Kampfjet abgeschossen, Suchtrupps der US-Armee retteten das verletzte Besatzungsmitglied erst nach zwei Tagen. Nun hat der Waffensystemoffizier »Bravo« detailliert über die Rettungsaktion gesprochen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/112911ec-f226-4551-a2d5-16ee2ed927c9_w1200_r1.778_fpx52.66_fpy44.99.jpg",
+      "published": "2026-09-14T12:46:00+02:00",
+      "category": "Nachrichten",
+      "score": 64.08
+    },
+    {
+      "id": "golem-12fb61ca4a511485",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Microsoft-Kontozwang lässt sich umgehen: Windows 11 lässt sich mit einem lokalen Konto installieren",
+      "link": "https://www.golem.de/news/microsoft-kontozwang-laesst-sich-umgehen-windows-11-laesst-sich-mit-einem-lokalen-konto-installieren-2609-212983.html",
+      "summary": "Absicht oder Fehler, das ist hier die Frage: Derzeit kann Windows 11 mit einem Kniff auch ohne Microsoft-Konto installiert werden. ( Windows 11 , Microsoft )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212983&amp;page=1&amp;ts=1789382522",
+      "published": "2026-09-14T12:42:02+02:00",
+      "category": "Technologie",
+      "score": 54.03
+    },
+    {
+      "id": "golem-e3003c46acc3af92",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Digitaler Tierversuch: Doom läuft jetzt auch mit Fruchtfliegen",
+      "link": "https://www.golem.de/news/digitaler-tierversuch-doom-laeuft-jetzt-auch-auf-fruchtfliegen-2609-212980.html",
+      "summary": "Ein Experiment zeigt, wie sich biologische Verschaltungen auf virtuelle Umgebungen wie Doom übertragen lassen. ( Doom , id Software )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212980&amp;page=1&amp;ts=1789381741",
+      "published": "2026-09-14T12:29:01+02:00",
+      "category": "Technologie",
+      "score": 53.84
+    },
+    {
+      "id": "tagesschau-869c8f9f3f2962af",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Berlin-Wahl: Wie Stefan Evers zum CDU-Spitzenkandidaten wurde",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/abgeordnetenhaus-wahl-berlin-evers-100.html",
+      "summary": "Jahrelang zog Stefan Evers eher im Hintergrund die Fäden. Jetzt steht der bisherige Finanzsenator erstmals selbst an der Spitze eines CDU-Wahlkampfs - die größte Bewährungsprobe seiner Karriere. Von Andre Kartschall. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/f3ee52ff-37bd-4513-8468-1865d082f635/AAABoJ9wOtk/AAABnSSvrFg/16x9-big/stefan-evers-102.jpg?width=1920",
+      "published": "2026-09-14T12:22:07+02:00",
+      "category": "Politik",
+      "score": 67.75
+    },
+    {
+      "id": "golem-1cac134b213afdb4",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Nvidia: MFG läuft auf RTX 4000 und könnte DLSS 5 beschleunigen",
+      "link": "https://www.golem.de/news/nvidia-mfg-laeuft-auf-rtx-4000-und-koennte-dlss-5-beschleunigen-2609-212977.html",
+      "summary": "Eine Mod schaltet Multi Frame Generation (MFG) auf Geforce RTX 4000 frei. Für das extrem rechenintensive DLSS 5 könnte das interessant werden. ( DLSS , Nvidia )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212977&amp;page=1&amp;ts=1789380902",
+      "published": "2026-09-14T12:15:02+02:00",
+      "category": "Technologie",
+      "score": 53.65
+    },
+    {
+      "id": "spiegel-12735e36926c58d8",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Basketball-WM der Frauen: Was vom deutschen WM-Erfolg in Berlin bleibt",
+      "link": "https://www.spiegel.de/sport/basketball/basketball-wm-der-frauen-was-vom-deutschen-wm-erfolg-in-berlin-bleibt-a-8ec2063f-e206-4ced-a846-f5be22d468aa#ref=rss",
+      "summary": "Eine Medaille verpasst, aber die Herzen der Fans erobert: Die deutschen Basketballerinnen begeisterten bei der WM in Berlin, der Sport boomt. Woran das liegt. Und was noch zu tun ist.",
+      "image": "https://cdn.prod.www.spiegel.de/images/bcd59854-e211-4671-a8d8-d031971f42b3_w1200_r1.778_fpx33.32_fpy49.98.jpg",
+      "published": "2026-09-14T12:15:00+02:00",
+      "category": "Nachrichten",
+      "score": 55.65
+    },
+    {
+      "id": "tagesschau-4e44acee9b0ee477",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Golftstaaten: Krisentreffen zur Lage in Straße von Hormus verschoben",
+      "link": "https://www.tagesschau.de/ausland/asien/krieg-naher-osten-oman-huthi-100.html",
+      "summary": "Das für heute geplante Treffen der Golfstaaten zum Konflikt über die Straße von Hormus ist verschoben. Eine Rolle spielten dabei offenbar die erneuten Angriffe der Huthi-Miliz im Jemen auf Saudi-Arabien. Derweil steigen die Öl- und Benzinpreise.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/df1baf9e-d3de-4be2-85d4-dee8de9bf0c3/AAABoJ9FIOs/AAABnSSvrFg/16x9-big/huthi-148.jpg?width=1920",
+      "published": "2026-09-14T12:10:56+02:00",
+      "category": "Nachrichten",
+      "score": 64.59
+    },
+    {
+      "id": "golem-af5b092e7aed0897",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Anzeige: SwitchBot Lock Ultra zum Amazon-Sparpreis",
+      "link": "https://www.golem.de/news/anzeige-switchbot-lock-ultra-zum-amazon-sparpreis-2609-212972.html",
+      "summary": "Das smarte Türschloss SwitchBot Lock Ultra gibt es bei Amazon aktuell im Bundle mit Keypad und Hub für weit unter 200 Euro zum Sparpreis. ( Technik/Hardware , Netzwerk )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212972&amp;page=1&amp;ts=1789380242",
+      "published": "2026-09-14T12:04:02+02:00",
+      "category": "Technologie",
+      "score": 53.5
+    },
+    {
+      "id": "golem-2c06e7735d2da11f",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Behörden-PDFs: Vertrauliche Daten trotz Schwärzung rekonstruierbar",
+      "link": "https://www.golem.de/news/behoerden-pdfs-vertrauliche-daten-trotz-schwaerzung-rekonstruierbar-2609-212878.html",
+      "summary": "Unsere Analyse von knapp 5.000 Behörden-PDFs zeigt, wie scheinbar geschwärzte Angaben wieder sichtbar werden und warum das nicht nur am eingesetzten Programm festzumachen ist. Eine Recherche von Oliver Jessner ( Datenschutz , PDF )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212878&amp;page=1&amp;ts=1789380002",
+      "published": "2026-09-14T12:00:02+02:00",
+      "category": "Technologie",
+      "score": 53.44
+    },
+    {
+      "id": "golem-cb12265ef0c38787",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Mission Effiency: VW-Studie mit extrem niedrigem Verbrauch vorgestellt",
+      "link": "https://www.golem.de/news/mission-effiency-vw-studie-mit-extrem-niedrigen-verbrauch-vorgestellt-2609-212981.html",
+      "summary": "VW hat auf Basis der ID.Polo-Technik ein sehr effizientes E-Auto entwickelt. Der cw-Wert von 0,158 ist der niedrigste für Autos mit Straßenzulassung. ( VW , GreenIT )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212981&amp;page=1&amp;ts=1789379882",
+      "published": "2026-09-14T11:58:02+02:00",
+      "category": "Wissenschaft",
+      "score": 53.41
+    },
+    {
+      "id": "spiegel-2bb27e5fc12e8b36",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Polen: Elch verirrt sich auf Gleise und legt Hauptbahnhof in Warschau lahm",
+      "link": "https://www.spiegel.de/ausland/polen-elch-verirrt-sich-auf-gleise-und-legt-hauptbahnhof-in-warschau-lahm-a-a69a5558-a974-467d-98f6-ed23b7e49f4e#ref=rss",
+      "summary": "Wildtierexperten haben einen Elch aus dem Bahnhof der polnischen Hauptstadt abtransportiert. Das Tier hatte sich offenbar aus dem Wald in die Innenstadt verlaufen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/f219fa23-cc14-41a3-8b27-40db604b9c1e_w1200_r1.778_fpx75_fpy31.jpg",
+      "published": "2026-09-14T11:56:00+02:00",
+      "category": "Nachrichten",
+      "score": 55.39
+    },
+    {
+      "id": "spiegel-f4b9e9f90af40d3e",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Generation Z: Das Märchen von der faulen Jugend",
+      "link": "https://www.spiegel.de/start/generation-z-das-maerchen-von-der-faulen-jugend-a-3947d738-5eaa-40bd-bb61-eaa070a09ef1#ref=rss",
+      "summary": "Studien zeigen: Die Gen Z arbeitet nicht weniger als frühere Generationen. Warum glauben trotzdem so viele Alte, die Jungen seien faul? Forscher haben dafür eine Erklärung.",
+      "image": "https://cdn.prod.www.spiegel.de/images/3bade070-03d7-4b36-907c-46fac6bbb9ef_w1200_r1.778_fpx37.37_fpy50.jpg",
+      "published": "2026-09-14T11:54:00+02:00",
+      "category": "Wissenschaft",
+      "score": 55.36
+    },
+    {
+      "id": "spiegel-e831025c57e823c6",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Ukraine: Popstar Olha Poljakowa berichtet von Drohnenangriff auf Zug",
+      "link": "https://www.spiegel.de/ausland/ukraine-popstar-olha-poljakowa-berichtet-von-drohnenangriff-auf-zug-a-dde690b3-cb33-40f5-b337-f5812b26b99c#ref=rss",
+      "summary": "Olha Poljakowa war mit ihrer Tochter im Zug nach Polen, als eine Drohne den Zug traf. Der Angriff war Teil einer Reihe von Attacken auf das ukrainische Schienennetz. Ebenfalls auf der Strecke: Boris Johnson und Ex-CIA-Chef David Petraeus.",
+      "image": "https://cdn.prod.www.spiegel.de/images/491a3c94-7744-45f0-96b4-cabd887f2d95_w1080_r1.778_fpx62_fpy46.jpg",
+      "published": "2026-09-14T11:52:00+02:00",
+      "category": "Politik",
+      "score": 66.33
+    },
+    {
+      "id": "spiegel-adfab6870ed8fb4f",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Spritpreise: Tankstellenverband warnt vor drei Euro pro Liter",
+      "link": "https://www.spiegel.de/wirtschaft/spritpreise-tankstellenverband-warnt-vor-drei-euro-pro-liter-a-8b95a40e-259a-4eb1-a963-8c086e949fad#ref=rss",
+      "summary": "Die Benzinpreise kennen derzeit kein Halten mehr. Nach einem neuen Höchststand am Wochenende fürchten die Tankstellenpächter einen weiteren Preisschub.",
+      "image": "https://cdn.prod.www.spiegel.de/images/32c80f34-aad5-4dfc-9f13-cb227b49c560_w1200_r1.778_fpx42.65_fpy49.99.jpg",
+      "published": "2026-09-14T11:50:00+02:00",
+      "category": "Nachrichten",
+      "score": 70.0
+    },
+    {
+      "id": "golem-0c8f3d24a246025c",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Mobilität: Flughafen Zürich startet autonome Level-4-Shuttles ohne Begleitfahrer",
+      "link": "https://www.golem.de/news/mobilitaet-flughafen-zuerich-startet-autonome-level-4-shuttles-ohne-begleitfahrer-2609-212975.html",
+      "summary": "Am Flughafen Zürich fahren ab sofort zwei unbemannte Mitarbeitershuttles ohne Begleitperson - zunächst aber auch ohne Fahrgäste. ( Autonomes Fahren , Auto )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212975&amp;page=1&amp;ts=1789379341",
+      "published": "2026-09-14T11:49:01+02:00",
+      "category": "Technologie",
+      "score": 53.29
+    },
+    {
+      "id": "golem-34bfebf734cd5cbc",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Anzeige: HD-Tablet mit Stift und 11''-IPS-Display günstig bei Amazon",
+      "link": "https://www.golem.de/news/anzeige-hd-tablet-mit-stift-und-11-ips-display-guenstig-bei-amazon-2609-212976.html",
+      "summary": "Ein Tablet mit 11'' großem IPS-Display, HD-Auflösung, 90 Hz und Octa-Core-Prozessor gibt es mit Stift zum Sparpreis bei Amazon. ( Tablet , Mobil )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212976&amp;page=1&amp;ts=1789379100",
+      "published": "2026-09-14T11:45:00+02:00",
+      "category": "Panorama",
+      "score": 53.23
+    },
+    {
+      "id": "spiegel-beb25d5e52590802",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "FC Bayern München: 245-Millionen-Quartett rettet müden Auftritt in Elversberg",
+      "link": "https://www.spiegel.de/sport/fussball/fc-bayern-muenchen-245-millionen-quartett-rettet-mueden-auftritt-in-elversberg-a-6d609779-2d47-42dc-aa34-81c8ed53b522#ref=rss",
+      "summary": "Wieder einmal stark veränderte Münchner hatten große Mühe beim Aufsteiger Elversberg. Erst nach der Einwechslung eines 245 Millionen-Euro-Quartetts kamen sie in Fahrt. Für Trainer Vincent Kompany gehört das zur Strategie.",
+      "image": "https://cdn.prod.www.spiegel.de/images/3fd7c7ef-9f0f-430a-a686-eb69a928f803_w1200_r1.778_fpx35.23_fpy49.88.jpg",
+      "published": "2026-09-14T11:44:00+02:00",
+      "category": "Nachrichten",
+      "score": 55.22
+    },
+    {
+      "id": "golem-5448a5f22abc4ed7",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "EuGH stärkt Verbraucherrechte: Vodafones AGB erlauben keine einseitigen Preiserhöhungen",
+      "link": "https://www.golem.de/news/eugh-staerkt-verbraucherrechte-vodafones-agb-erlauben-keine-einseitigen-preiserhoehungen-2609-212974.html",
+      "summary": "Telekommunikationsfirmen dürfen laufende Verträge nicht einseitig ändern. Damit steigen die Siegchancen bei der Sammelklage gegen Vodafone. ( Vodafone , Verbraucherschutz )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212974&amp;page=1&amp;ts=1789378561",
+      "published": "2026-09-14T11:36:01+02:00",
+      "category": "Technologie",
+      "score": 53.11
     },
     {
       "id": "golem-66f59052269344aa",
@@ -24,31 +778,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212971&amp;page=1&amp;ts=1789376882",
       "published": "2026-09-14T11:08:02+02:00",
       "category": "Technologie",
-      "score": 56.85
-    },
-    {
-      "id": "spiegel-e121558bb1a4b0e0",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Italien: 83-jährige Deutsche von Auto überfahren – Partner schwer verletzt",
-      "link": "https://www.spiegel.de/ausland/italien-83-jaehrige-deutsche-von-auto-ueberfahren-partner-schwer-verletzt-a-85d0fa09-61cf-48fc-abda-84cba0653193#ref=rss",
-      "summary": "Ein deutsches Paar ist im Urlaub in Italien von einem Auto erfasst worden. Die 83-Jährige starb noch am Unfallort, ihr Partner wurde schwer verletzt. Die Polizei ermittelt gegen den Fahrer.",
-      "image": "https://cdn.prod.www.spiegel.de/images/abb863d2-8a8c-452f-89a1-29c613437a86_w1200_r1.778_fpx37.33_fpy50.jpg",
-      "published": "2026-09-14T11:07:00+02:00",
-      "category": "Panorama",
-      "score": 58.84
-    },
-    {
-      "id": "spiegel-c868afd09ac4f6bc",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "China: Peking verbietet Drohnen im Stadtgebiet",
-      "link": "https://www.spiegel.de/ausland/china-peking-verbietet-drohnen-im-stadtgebiet-a-39a34cd4-e3e7-4e6a-a7b1-2e17fc80fdfe#ref=rss",
-      "summary": "Das Verbot gilt nicht nur für Flüge, sondern auch für Besitz und Lagerung: Von 15. November an sind Drohnen in Chinas Hauptstadt nicht mehr erlaubt. Erst im Juni war es im Luftraum der Stadt zu einem dramatischen Zwischenfall gekommen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/538e85f4-058f-4f18-b82c-cb588b8f52ad_w1200_r1.778_fpx55_fpy41.jpg",
-      "published": "2026-09-14T11:01:00+02:00",
-      "category": "Technologie",
-      "score": 58.76
+      "score": 52.72
     },
     {
       "id": "golem-42d756860ef531e1",
@@ -60,19 +790,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212973&amp;page=1&amp;ts=1789376162",
       "published": "2026-09-14T10:56:02+02:00",
       "category": "Technologie",
-      "score": 56.69
-    },
-    {
-      "id": "spiegel-05bb33d61dffbab7",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Australien: Haiangriff im Westen – Mann schwer am Bein verletzt",
-      "link": "https://www.spiegel.de/panorama/australien-haiangriff-im-westen-mann-schwer-am-bein-verletzt-a-7dbeb419-6472-4984-9b9e-e09506d746fe#ref=rss",
-      "summary": "In diesem Jahr gab es bereits vier tödliche Haiattacken in Australien. Nun wurde ein 56-Jähriger im Westen des Landes schwer am Bein verletzt.",
-      "image": "https://cdn.prod.www.spiegel.de/images/99f64901-f1fb-4464-bd12-5ea302aabc67_w1200_r1.778_fpx29.92_fpy54.86.jpg",
-      "published": "2026-09-14T10:54:00+02:00",
-      "category": "Nachrichten",
-      "score": 58.66
+      "score": 52.55
     },
     {
       "id": "tagesschau-f84ad86c44f852d7",
@@ -84,19 +802,7 @@
       "image": "https://images.tagesschau.de/image/12a1b5ae-bb98-41bb-99a8-8613dbc1fdfa/AAABn8algs0/AAABnSSvrFg/16x9-big/boerse-532.jpg?width=1920",
       "published": "2026-09-14T10:50:05+02:00",
       "category": "Nachrichten",
-      "score": 59.61
-    },
-    {
-      "id": "spiegel-e445329cfb102e5e",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Frankreich: Rekordhitze sorgt für stärkeren Champagner",
-      "link": "https://www.spiegel.de/wissenschaft/natur/frankreich-rekordhitze-sorgt-fuer-staerkeren-champagner-a-9f814e40-f75c-40f2-8d63-aa42dfb0acca#ref=rss",
-      "summary": "Fünf Hitzewellen, intensiver Frost und eine frühe Blüte: Das Wetter bringt die Ernte in der französischen Champagne durcheinander. Die Trauben seien in diesem Jahr jedoch von besonderer Qualität, heißt es.",
-      "image": "https://cdn.prod.www.spiegel.de/images/463db16b-4af1-44de-8e44-cd3a532aad94_w1200_r1.778_fpx33.34_fpy50.jpg",
-      "published": "2026-09-14T10:50:00+02:00",
-      "category": "Nachrichten",
-      "score": 58.6
+      "score": 55.47
     },
     {
       "id": "tagesschau-60010637dc42d019",
@@ -108,31 +814,7 @@
       "image": "https://images.tagesschau.de/image/897a0158-8a85-4b63-bdfe-5af49c763637/AAABoJ7DYw4/AAABnSSvrFg/16x9-big/trump-5266.jpg?width=1920",
       "published": "2026-09-14T10:43:06+02:00",
       "category": "Technologie",
-      "score": 67.51
-    },
-    {
-      "id": "spiegel-77dcc40065cbdd9e",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Legt Deutschland das Geld für die künftige Kapitalrente richtig an?",
-      "link": "https://www.spiegel.de/wirtschaft/legt-deutschland-das-geld-fuer-die-kuenftige-kapitalrente-richtig-an-a-db43bb32-a698-4e4b-861a-51a587ef6687#ref=rss",
-      "summary": "Zwei Prozent vom Gehalt sollen die Deutschen künftig für die neue Kapitalrente einzahlen. Nach dem Vorbild Schwedens, wo ein ähnliches Modell zweistellige Renditen einfährt. Doch es ist längst nicht sicher, dass das in Deutschland auch gelingt.",
-      "image": "https://cdn.prod.www.spiegel.de/images/6c0e38f8-b4ec-43f4-b9d0-a5fd642bb683_w1200_r1.778_fpx33.33_fpy49.99.jpg",
-      "published": "2026-09-14T10:40:00+02:00",
-      "category": "Nachrichten",
-      "score": 58.47
-    },
-    {
-      "id": "spiegel-7d71f1229d3e2b4a",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Jemen: Huthis besetzen weitere wichtige Inseln – Zehntausende auf der Flucht",
-      "link": "https://www.spiegel.de/ausland/jemen-huthis-besetzen-weitere-wichtige-inseln-zehntausende-auf-der-flucht-a-b8a5c43d-75d1-4200-a0b8-4c4bd09d2523#ref=rss",
-      "summary": "Mit der Einnahme weiterer Inseln verstärken die Huthis ihre Kontrolle über eine wichtige Schiffsroute. Die humanitäre Lage verschlimmert sich derweil täglich, fast 90.000 Männer, Frauen und Kinder wurden bereits vertrieben.",
-      "image": "https://cdn.prod.www.spiegel.de/images/941888da-1c67-4f74-8c65-b817be5beed4_w1200_r1.778_fpx45.37_fpy54.99.jpg",
-      "published": "2026-09-14T10:36:00+02:00",
-      "category": "Technologie",
-      "score": 58.41
+      "score": 63.37
     },
     {
       "id": "golem-b4411394dbc30d82",
@@ -144,31 +826,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212970&amp;page=1&amp;ts=1789374781",
       "published": "2026-09-14T10:33:01+02:00",
       "category": "Technologie",
-      "score": 56.37
-    },
-    {
-      "id": "tagesschau-5ddf95cc2652d4ee",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Sind die Spritpreise noch zu bremsen?",
-      "link": "https://www.tagesschau.de/wirtschaft/oel-spritpreise-tanken-100.html",
-      "summary": "Der Schock an den Zapfsäulen ist zurück. Wegen der Eskalation im Nahen Osten werden Benzin und Diesel immer teurer - am Wochenende gab es ein neues Allzeithoch. Auch die Preise für Heizöl steigen deutlich.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/547130f5-d9a7-40f7-a6f2-90ae15f49cc0/AAABoJ5w_sY/AAABnSSvrFg/16x9-big/kraftstoffpreise-124.jpg?width=1920",
-      "published": "2026-09-14T10:31:12+02:00",
-      "category": "Nachrichten",
-      "score": 59.34
-    },
-    {
-      "id": "spiegel-43f81c22117ccfa1",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Berlin: Wie die Putzfirma Hauptstadt Glanz am Bundestag scheiterte",
-      "link": "https://www.spiegel.de/politik/deutschland/berlin-wie-die-putzfirma-hauptstadt-glanz-am-bundestag-scheiterte-a-95819c45-3a01-4b2b-8efe-c42d003d95a0#ref=rss",
-      "summary": "Ihr wichtigster Auftraggeber ist der Bundestag, dennoch rutschte die Berliner Putzfirma Hauptstadt Glanz in die Pleite. Betroffen sind vor allem Geringverdiener, Alte und Migranten. Welche Verantwortung hat das Parlament?",
-      "image": "https://cdn.prod.www.spiegel.de/images/5af1c2fd-b270-4027-8044-10be6f9dd10d_w1200_r1.778_fpx44_fpy52.jpg",
-      "published": "2026-09-14T10:28:00+02:00",
-      "category": "Politik",
-      "score": 69.3
+      "score": 52.23
     },
     {
       "id": "golem-f8e0c33bc9d40c47",
@@ -180,7 +838,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212968&amp;page=1&amp;ts=1789374362",
       "published": "2026-09-14T10:26:02+02:00",
       "category": "Technologie",
-      "score": 56.27
+      "score": 52.14
     },
     {
       "id": "tagesschau-beb7aaee101d0210",
@@ -192,7 +850,7 @@
       "image": "https://images.tagesschau.de/image/9b685ac8-a8da-4e70-9749-4052c32f9822/AAABoJ7xhLA/AAABnSSvrFg/16x9-big/faehre-indonesien-104.jpg?width=1920",
       "published": "2026-09-14T10:23:33+02:00",
       "category": "Nachrichten",
-      "score": 59.24
+      "score": 55.1
     },
     {
       "id": "golem-b59b64c7da098cdf",
@@ -204,31 +862,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212967&amp;page=1&amp;ts=1789372561",
       "published": "2026-09-14T09:56:01+02:00",
       "category": "Panorama",
-      "score": 55.85
-    },
-    {
-      "id": "spiegel-4a4793390a02be67",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Formel 1 in Madrid - Kimi Antonelli siegt: »Diesem Jungen gelingt einfach alles« - Pressestimmen",
-      "link": "https://www.spiegel.de/sport/formel1/formel-1-in-madrid-kimi-antonelli-siegt-diesem-jungen-gelingt-einfach-alles-pressestimmen-a-20f8d0b7-5ac8-4a69-95ca-bfe94d7f4ba4#ref=rss",
-      "summary": "Die internationale Presse feiert den 20-jährigen WM-Spitzenreiter Kimi Antonelli. Die Formel-1-Premiere auf dem »Madring« in Madrid wird kritisch beurteilt.",
-      "image": "https://cdn.prod.www.spiegel.de/images/39ab30c9-24df-4bae-b0a6-bccf51830e3a_w1200_r1.778_fpx49_fpy26.jpg",
-      "published": "2026-09-14T09:50:00+02:00",
-      "category": "Technologie",
-      "score": 57.77
-    },
-    {
-      "id": "spiegel-656b351a8cf36838",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Künstliche Intelligenz: Experten warnen vor neuer Abhängigkeit Europas von USA",
-      "link": "https://www.spiegel.de/wirtschaft/kuenstliche-intelligenz-experten-warnen-vor-neuer-abhaengigkeit-europas-von-usa-a-674407e7-3e7a-43bd-9be9-62c4984077ef#ref=rss",
-      "summary": "In den USA mahnen KI-Unternehmen eine strengere Regulierung an und fordern internationale Vereinbarungen. Europa wäre da nur Zaungast, warnen Experten.",
-      "image": "https://cdn.prod.www.spiegel.de/images/1b52a187-570f-4806-a984-265150fce990_w1200_r1.778_fpx32.66_fpy45.jpg",
-      "published": "2026-09-14T09:47:00+02:00",
-      "category": "Technologie",
-      "score": 57.73
+      "score": 51.72
     },
     {
       "id": "golem-92c675ebd4872a60",
@@ -240,19 +874,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212966&amp;page=1&amp;ts=1789371902",
       "published": "2026-09-14T09:45:02+02:00",
       "category": "Technologie",
-      "score": 55.7
-    },
-    {
-      "id": "spiegel-2c39f526bf06b84d",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Amazon setzt Zusammenarbeit mit Frachtfluglinie aus",
-      "link": "https://www.spiegel.de/wirtschaft/amazon-setzt-zusammenarbeit-mit-frachtfluglinie-aus-a-03b0b715-9cbf-44b7-b9a6-23ffac1c39e5#ref=rss",
-      "summary": "Noch sind die Untersuchungen zum tödlichen Unfall bei der Landung einer Frachtmaschine in Miami nicht abgeschlossen. Doch die ersten Erkenntnisse genügen Amazon bereits, um Konsequenzen zu ziehen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/f06d2bc7-74ca-4ae7-a41f-e4a1ef329af4_w1200_r1.778_fpx49.4_fpy49.94.jpg",
-      "published": "2026-09-14T09:44:00+02:00",
-      "category": "Panorama",
-      "score": 57.69
+      "score": 51.57
     },
     {
       "id": "golem-d48fb59d21f07e27",
@@ -264,7 +886,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212965&amp;page=1&amp;ts=1789371182",
       "published": "2026-09-14T09:33:02+02:00",
       "category": "Technologie",
-      "score": 55.54
+      "score": 51.4
     },
     {
       "id": "golem-5f4b565edc892229",
@@ -276,55 +898,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212964&amp;page=1&amp;ts=1789370701",
       "published": "2026-09-14T09:25:01+02:00",
       "category": "Technologie",
-      "score": 55.42
-    },
-    {
-      "id": "spiegel-c222f11739b822eb",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Kühlschrank putzen: Wie oft sollte man das machen – und wie geht es richtig?",
-      "link": "https://www.spiegel.de/effilee/kuehlschrank-putzen-wie-oft-sollte-man-das-machen-und-wie-geht-es-richtig-a-90366cf5-7566-47e7-99f7-a2b6947463d9#ref=rss",
-      "summary": "Sie haben genug davon, ständig den verdorbenen Joghurt wegwerfen zu müssen? Wenn Sie den Kühlschrank richtig putzen, halten Lebensmittel länger. Hier erfahren Sie, was Sie dabei beachten müssen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/8846fb59-2fa1-4bc0-9308-a87394e40257_w1200_r1.778_fpx46_fpy53.jpg",
-      "published": "2026-09-14T09:22:00+02:00",
-      "category": "Nachrichten",
-      "score": 57.38
-    },
-    {
-      "id": "spiegel-2c620f4e3bff905e",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Hessischer Rundfunk: Streit um Entschädigung für geraubte jüdische Grundstücke aus der Nazi-Zeit",
-      "link": "https://www.spiegel.de/panorama/hessischer-rundfunk-streit-um-entschaedigung-fuer-geraubte-juedische-grundstuecke-aus-der-nazi-zeit-a-4374a79c-3b0c-4856-b721-7dde1d796d5b#ref=rss",
-      "summary": "Eine jüdische Vereinigung wurde vom Hessischen Rundfunk nach dem Zweiten Weltkrieg offenbar mit einer viel zu niedrigen Entschädigung für geraubte Grundstücke abgespeist. Nun droht dem Sender eine Klage.",
-      "image": "https://cdn.prod.www.spiegel.de/images/d601ecba-01d8-4a03-913d-3624c59c7952_w1200_r1.778_fpx49_fpy40.jpg",
-      "published": "2026-09-14T09:18:00+02:00",
-      "category": "Nachrichten",
-      "score": 65.33
-    },
-    {
-      "id": "spiegel-e737d03c9968a0e5",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "25 Jahre nach 9/11: Wer hat den Krieg gegen den Terror gewonnen? – Podcast",
-      "link": "https://www.spiegel.de/ausland/25-jahre-nach-9-11-wer-hat-den-krieg-gegen-den-terror-gewonnen-podcast-acht-milliarden-a-9ea307ad-8510-4c17-a337-ea5d4e081987#ref=rss",
-      "summary": "Der Anschlag am 11. September 2001 hat die Welt verändert, vor allem die muslimische. SPIEGEL-Reporter Christoph Reuter über zwei Kriege, ein Kalifat und den einzigen Profiteur des Kriegs gegen den Terror.",
-      "image": "https://cdn.prod.www.spiegel.de/images/a0a67eb2-fb3f-4826-82a5-4b73c0289c24_w1200_r1.778_fpx69_fpy42.jpg",
-      "published": "2026-09-14T09:15:00+02:00",
-      "category": "Nachrichten",
-      "score": 65.28
-    },
-    {
-      "id": "spiegel-d71f804b633b3710",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "RTL: Fragwürdige Undercover-Recherchen bei Neonazis und russischen Cyberkriminellen",
-      "link": "https://www.spiegel.de/wirtschaft/rtl-fragwuerdige-undercover-recherchen-bei-neonazis-und-russischen-cyberkriminellen-a-10ab1785-ea78-489a-9692-277c57235060#ref=rss",
-      "summary": "RTL recherchiert verdeckt bei Neonazis und russischen Cyberkriminellen, beide Male wird die Reporterin am Ende mit dem Tod bedroht. Hat der Sender journalistische Grenzen überschritten?",
-      "image": "https://cdn.prod.www.spiegel.de/images/5c036813-071d-4b3c-a69b-0c59904748fd_w1200_r1.778_fpx61.49_fpy50.png",
-      "published": "2026-09-14T09:14:00+02:00",
-      "category": "Technologie",
-      "score": 57.27
+      "score": 51.29
     },
     {
       "id": "tagesschau-34dc46ef1e02e941",
@@ -336,7 +910,7 @@
       "image": "https://images.tagesschau.de/image/c670c7f8-24ed-4695-96bd-ed37fcf09edb/AAABoJ6mkLM/AAABnSSvrFg/16x9-big/sondersitzung-polen-100.jpg?width=1920",
       "published": "2026-09-14T09:08:39+02:00",
       "category": "Politik",
-      "score": 77.2
+      "score": 73.06
     },
     {
       "id": "golem-e1dbd87685c2245a",
@@ -348,43 +922,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212958&amp;page=1&amp;ts=1789369202",
       "published": "2026-09-14T09:00:02+02:00",
       "category": "Technologie",
-      "score": 55.08
-    },
-    {
-      "id": "spiegel-8448f030c4d92f84",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Oldtimer und AfD: Wie Rechtsextreme die Schrauberszene unterwandern",
-      "link": "https://www.spiegel.de/mobilitaet/auto/oldtimer-und-afd-wie-rechtsextreme-die-schrauberszene-unterwandern-a-54abde96-ec3a-4175-8a9b-08ded209c714#ref=rss",
-      "summary": "Eiserne Kreuze und Ausfahrten in NS-Uniform: In der Oldtimerszene fühlen sich rechte Akteure offenbar wohl. Sie idealisieren die »gute alte Zeit« – zum Unmut vieler Fans.",
-      "image": "https://cdn.prod.www.spiegel.de/images/1e1acb66-63db-4c13-b8f4-65dc4cf22a8b_w1200_r1.778_fpx68.6_fpy50.png",
-      "published": "2026-09-14T08:50:00+02:00",
-      "category": "Nachrichten",
-      "score": 56.94
-    },
-    {
-      "id": "spiegel-fc9a0866ae53fbb9",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Sachsen-Anhalt: Reservistenverband will »Operationsplan Deutschland« zurückholen - im Fall einer AfD-Regierung",
-      "link": "https://www.spiegel.de/politik/deutschland/sachsen-anhalt-reservistenverband-will-operationsplan-deutschland-zurueckholen-im-fall-einer-afd-regierung-a-e843db5e-3f2c-4a44-a147-69696984f3f0#ref=rss",
-      "summary": "Der »Operationsplan Deutschland« enthält Anweisung für den Ernstfall. Der Reservistenverband fürchtet, dass eine mögliche AfD-Regierung in Sachsen-Anhalt diese Geheiminformationen an Moskau weitergeben würde.",
-      "image": "https://cdn.prod.www.spiegel.de/images/a15122f2-f1ac-41d5-89a5-02e3e51a59c9_w1200_r1.778_fpx50.05_fpy50.jpg",
-      "published": "2026-09-14T08:42:00+02:00",
-      "category": "Politik",
-      "score": 59.83
-    },
-    {
-      "id": "spiegel-8256fd8d55d8d8d1",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Nordkorea will »Angriffsübung« mit Artillerie und Raketen abgehalten haben",
-      "link": "https://www.spiegel.de/ausland/nordkorea-will-angriffsuebung-mit-artillerie-und-raketen-abgehalten-haben-a-0a239041-0358-40d7-8793-9fc594a217f7#ref=rss",
-      "summary": "US-Präsident Trump setzt auf eine Annäherung an Nordkorea. Kurz nach Ende eines US-Manövers mit Südkorea testet Pjöngjang nun dennoch erneut Raketen – Staatsmedien zufolge »mit hundertprozentiger Genauigkeit«.",
-      "image": "https://cdn.prod.www.spiegel.de/images/c71216b0-47fd-4d03-a743-cecdca688ee1_w1200_r1.778_fpx44_fpy50.jpg",
-      "published": "2026-09-14T08:38:00+02:00",
-      "category": "Politik",
-      "score": 67.77
+      "score": 50.94
     },
     {
       "id": "heise-0f9572db6e628fff",
@@ -396,7 +934,17 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/4/3/5/7/Achtung-Windows_Updates-Updates_werden_gesucht-8b5b37b7c0baeb11.jpeg",
       "published": "2026-09-14T08:28:00+02:00",
       "category": "Technologie",
-      "score": 55.63
+      "score": 67.22,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "golem",
+            "title": "RDP, Sound und mehr: Windows-Updates bereiten Nutzern allerhand Probleme",
+            "link": "https://www.golem.de/news/rdp-sound-und-mehr-windows-updates-bereiten-nutzern-allerhand-probleme-2609-212982.html"
+          }
+        ]
+      }
     },
     {
       "id": "golem-2310cef99f8d9a74",
@@ -408,19 +956,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212963&amp;page=1&amp;ts=1789366981",
       "published": "2026-09-14T08:23:01+02:00",
       "category": "Technologie",
-      "score": 54.56
-    },
-    {
-      "id": "spiegel-4eccd3c98e25ce04",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ernährung: Ab wann Babys selbst essen sollten – Fakten zu Baby-led Weaning",
-      "link": "https://www.spiegel.de/wissenschaft/mensch/ernaehrung-ab-wann-babys-selbst-essen-sollten-fakten-zu-baby-led-weaning-a-dd60e92c-882a-4859-83d8-55497e00905e#ref=rss",
-      "summary": "Viele Eltern geben ihren Babys keinen Brei – damit die Kleinen lernen, selbständig zu essen. Forscherinnen und Ärzte sehen den Trend kritisch und haben einen wichtigen Rat.",
-      "image": "https://cdn.prod.www.spiegel.de/images/5fc47ca4-2209-4582-96e2-8a79dabb2495_w1200_r1.778_fpx46_fpy55.01.jpg",
-      "published": "2026-09-14T08:19:00+02:00",
-      "category": "Nachrichten",
-      "score": 56.51
+      "score": 50.43
     },
     {
       "id": "golem-3e2eee9aa27a39d5",
@@ -432,55 +968,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212962&amp;page=1&amp;ts=1789366502",
       "published": "2026-09-14T08:15:02+02:00",
       "category": "Technologie",
-      "score": 54.45
-    },
-    {
-      "id": "spiegel-5463ff5e462d0879",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Waymo: US-Konzern bereitet offenbar Robotaxi-Start in Berlin vor",
-      "link": "https://www.spiegel.de/wirtschaft/waymo-us-konzern-bereitet-offenbar-robotaxi-start-in-berlin-vor-a-fa669152-16fc-405c-8f84-f807cfdfc1c7#ref=rss",
-      "summary": "Erst kündigte Waymo einen Robotaxi-Dienst in München an, nun wird nach SPIEGEL-Informationen auch ein Start in Berlin vorbereitet. Die Genehmigungsgespräche seien weit fortgeschritten.",
-      "image": "https://cdn.prod.www.spiegel.de/images/5cbea1a6-2d2f-4a45-a7e6-54271013fbc9_w1200_r1.778_fpx37.29_fpy49.98.jpg",
-      "published": "2026-09-14T08:15:00+02:00",
-      "category": "Nachrichten",
-      "score": 56.45
-    },
-    {
-      "id": "spiegel-5aa41667f6a12c87",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Catherine Zeta-Jones findet Bezeichnung »Nepo-Baby« fürchterlich",
-      "link": "https://www.spiegel.de/panorama/leute/catherine-zeta-jones-findet-bezeichnung-nepo-baby-fuerchterlich-a-034b66e6-29e7-4543-9604-971c0343962d#ref=rss",
-      "summary": "Schauspielerin Catherine Zeta-Jones kann mit dem Wort »Nepo-Babys« gar nichts anfangen. Die Kinder berühmter Eltern hätten schließlich nicht darum gebeten, so die zweifache Mutter.",
-      "image": "https://cdn.prod.www.spiegel.de/images/7dde2a22-fb04-4e53-ace3-562d523a2e21_w1200_r1.778_fpx39_fpy57.jpg",
-      "published": "2026-09-14T08:09:00+02:00",
-      "category": "Technologie",
-      "score": 56.37
-    },
-    {
-      "id": "spiegel-43f6b382443c7b8b",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Hannover: Sieben Menschen aus brennendem Haus gerettet",
-      "link": "https://www.spiegel.de/panorama/hannover-sieben-menschen-aus-brennendem-haus-gerettet-a-62cdc4a3-6d5e-45f4-a82a-f9ff99a5210f#ref=rss",
-      "summary": "Die Feuerwehr ist in Hannover zu einem Brand in einem Mehrfamilienhaus ausgerückt. Mehrere Bewohner suchten auf dem Dach Zuflucht.",
-      "image": "https://cdn.prod.www.spiegel.de/images/4ae4fe4c-d1ff-43ef-a87e-feff1ccbcdda_w1200_r1.778_fpx42_fpy48.jpg",
-      "published": "2026-09-14T08:01:00+02:00",
-      "category": "Nachrichten",
-      "score": 56.26
-    },
-    {
-      "id": "spiegel-dea55b0919cc7117",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Donald Trump und seine Zölle: US-Präsident senkt Abgaben auf irischen Whiskey",
-      "link": "https://www.spiegel.de/wirtschaft/donald-trump-und-seine-zoelle-us-praesident-senkt-abgaben-auf-irischen-whiskey-a-b83781fa-be1b-4094-ae80-1adc02f06844#ref=rss",
-      "summary": "Golfturniere scheinen eine besänftigende Wirkung auf Donald Trump zu haben. Während seines Besuchs in Irland verkündete der US-Präsident eine Zollsenkung für Whiskey – mit einer eigentümlichen Begründung.",
-      "image": "https://cdn.prod.www.spiegel.de/images/447e3a09-dee7-4a58-a301-9eda9c936cea_w1200_r1.778_fpx30_fpy54.85.jpg",
-      "published": "2026-09-14T07:56:00+02:00",
-      "category": "Politik",
-      "score": 67.19
+      "score": 50.32
     },
     {
       "id": "tagesschau-9e104179e52cfc33",
@@ -492,19 +980,7 @@
       "image": "https://images.tagesschau.de/image/29333e83-83e4-4152-99b2-88a6a07aad5d/AAABoJ6B3IU/AAABnSSvrFg/16x9-big/andersson-122.jpg?width=1920",
       "published": "2026-09-14T07:49:34+02:00",
       "category": "Politik",
-      "score": 68.1
-    },
-    {
-      "id": "spiegel-53c5fcba04da5cbc",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "US Open: Alexander Zverev gewinnt zweiten Grand-Slam-Titel – die Gründe für das beeindruckende Tennis-Jahr",
-      "link": "https://www.spiegel.de/sport/tennis/us-open-alexander-zverev-gewinnt-zweiten-grand-slam-titel-die-gruende-fuer-das-beeindruckende-tennis-jahr-a-79043d29-f7b7-4c25-82e6-6a806621c8d7#ref=rss",
-      "summary": "Alexander Zverev gewinnt die US Open, merkt es aber zunächst gar nicht. Jahrelang mühte sich der Deutsche vergeblich um einen Grand-Slam-Titel. Jetzt holt er gleich zwei in einer Saison. Wie geht das?",
-      "image": "https://cdn.prod.www.spiegel.de/images/33070027-4e74-4a1a-b7ff-aa4912c098b0_w1200_r1.778_fpx49_fpy47.jpg",
-      "published": "2026-09-14T07:44:00+02:00",
-      "category": "Nachrichten",
-      "score": 56.02
+      "score": 63.96
     },
     {
       "id": "golem-317dfc6681d91a78",
@@ -516,7 +992,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212959&amp;page=1&amp;ts=1789364221",
       "published": "2026-09-14T07:37:01+02:00",
       "category": "Technologie",
-      "score": 53.92
+      "score": 49.79
     },
     {
       "id": "golem-0865404dc35aafd5",
@@ -528,19 +1004,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212961&amp;page=1&amp;ts=1789363682",
       "published": "2026-09-14T07:28:02+02:00",
       "category": "Panorama",
-      "score": 53.8
-    },
-    {
-      "id": "spiegel-70211e1ef186a61d",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Wohnungseigentumsquote in Deutschland so niedrig wie seit 20 Jahren nicht",
-      "link": "https://www.spiegel.de/wirtschaft/wohnungseigentumsquote-in-deutschland-so-niedrig-wie-seit-20-jahren-nicht-a-f198f7b8-de0e-4906-8aa7-e2d1e72f300f#ref=rss",
-      "summary": "Deutschland ist traditionell Mieterland. Doch Immobilienexperten zweifeln, ob der aktuelle Tiefstand wirklich sinnvoll ist. Sie fordern ein Gegensteuern der Politik.",
-      "image": "https://cdn.prod.www.spiegel.de/images/321f3666-4bab-4e01-8a91-4d82de295cde_w1200_r1.778_fpx64.66_fpy45.jpg",
-      "published": "2026-09-14T07:18:00+02:00",
-      "category": "Nachrichten",
-      "score": 55.66
+      "score": 49.66
     },
     {
       "id": "golem-42ce170b70eefead",
@@ -552,7 +1016,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212942&amp;page=1&amp;ts=1789362907",
       "published": "2026-09-14T07:15:07+02:00",
       "category": "Wirtschaft",
-      "score": 56.62
+      "score": 52.48
     },
     {
       "id": "golem-b2c3ccb8b1902a29",
@@ -564,19 +1028,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212960&amp;page=1&amp;ts=1789362902",
       "published": "2026-09-14T07:15:02+02:00",
       "category": "Politik",
-      "score": 72.62
-    },
-    {
-      "id": "spiegel-0dcec1b52ae6485d",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Weimar: Explosion in Weimar bringt Einfamilienhaus zum Einsturz",
-      "link": "https://www.spiegel.de/panorama/weimar-explosion-in-weimar-bringt-einfamilienhaus-zum-einsturz-a-06ce6792-f077-4f80-84e9-1ac6dce97dbe#ref=rss",
-      "summary": "Die Polizei in Thüringen ermittelt nach mehreren Explosionen in Weimar. Ein Wohnhaus ist eingestürzt, ein Bewohner wird vermisst. Offenbar wurde die Sprengung absichtlich herbeigeführt.",
-      "image": "https://cdn.prod.www.spiegel.de/images/4126cdca-0623-4925-98d0-c259affd85eb_w1200_r1.778_fpx28.13_fpy50.jpg",
-      "published": "2026-09-14T07:05:00+02:00",
-      "category": "Panorama",
-      "score": 55.48
+      "score": 68.48
     },
     {
       "id": "heise-613b6c9a6e208041",
@@ -588,7 +1040,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/4/3/3/1/shutterstock_2632059907-5c3da156111366d7.jpeg",
       "published": "2026-09-14T07:03:00+02:00",
       "category": "Wirtschaft",
-      "score": 65.45
+      "score": 61.32
     },
     {
       "id": "tagesschau-7edd4885fdfcde9d",
@@ -600,43 +1052,7 @@
       "image": "https://images.tagesschau.de/image/7acdef9e-1e91-408d-9783-0fdda5efaaa5/AAABoJ4bqPQ/AAABnSSvrFg/16x9-big/podcast-11km-3854.jpg?width=1920",
       "published": "2026-09-14T07:00:50+02:00",
       "category": "Nachrichten",
-      "score": 64.42
-    },
-    {
-      "id": "spiegel-3904897e9fc64f3c",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Niedersachsen: CDU gewinnt Kommunalwahl – AfD auf Rang 3",
-      "link": "https://www.spiegel.de/politik/deutschland/niedersachsen-cdu-gewinnt-kommunalwahl-afd-auf-rang-3-a-4fae5fc1-7ce6-4103-92a9-351f8108ce68#ref=rss",
-      "summary": "Die CDU bleibt in Niedersachsen die stärkste Kraft auf Kreisebene vor der SPD. Die AfD verzeichnet hohe Gewinne, auch die Linke legt zu.",
-      "image": "https://cdn.prod.www.spiegel.de/images/07724c33-c26c-48da-9905-4985b890d9a5_w1200_r1.778_fpx60.64_fpy54.99.jpg",
-      "published": "2026-09-14T06:57:00+02:00",
-      "category": "Politik",
-      "score": 66.37
-    },
-    {
-      "id": "spiegel-c9b582c6f2aa5c3a",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "»Tatort«-Vote: Wie gefiel Ihnen »König in Gelb« mit Maria Furtwängler?",
-      "link": "https://www.spiegel.de/kultur/tv/tatort-vote-wie-gefiel-ihnen-koenig-in-gelb-mit-maria-furtwaengler-a-459c7722-8936-4281-b099-7eb51bb75c34#ref=rss",
-      "summary": "Vergessen und Verbrechen: Der Krimi über einen dementen Kommissar, der einen dementen Serienmörder jagt, war der beste Lindholm-»Tatort« der letzten Jahre. Oder sind Sie anderer Meinung?",
-      "image": "https://cdn.prod.www.spiegel.de/images/d8e0423c-4547-4e4f-b3e8-74783fc866cc_w1200_r1.778_fpx29.49_fpy44.87.jpg",
-      "published": "2026-09-14T06:38:00+02:00",
-      "category": "Nachrichten",
-      "score": 55.1
-    },
-    {
-      "id": "spiegel-823781ec6db0b93e",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Kommunikation: Genderneutral sprechen – und warum »Person« so unpersönlich wirkt",
-      "link": "https://www.spiegel.de/kultur/kommunikation-genderneutral-sprechen-und-warum-person-so-unpersoenlich-wirkt-a-41664aa3-a620-4a61-9489-1c8241bc35f2#ref=rss",
-      "summary": "",
-      "image": "https://cdn.prod.www.spiegel.de/images/d4ea9793-2f4f-44c1-8ddb-399550e25d94_w1200_r1.778_fpx38.81_fpy54.99.jpg",
-      "published": "2026-09-14T06:01:00+02:00",
-      "category": "Nachrichten",
-      "score": 54.59
+      "score": 60.29
     },
     {
       "id": "tagesschau-630ec0be5f9d25b7",
@@ -648,19 +1064,7 @@
       "image": "https://images.tagesschau.de/image/560f0725-1ce7-4a74-88fb-46cf6e9f9cfd/AAABoJ7SMgU/AAABnSSvrFg/16x9-big/eralp-102.jpg?width=1920",
       "published": "2026-09-14T06:00:51+02:00",
       "category": "Nachrichten",
-      "score": 55.59
-    },
-    {
-      "id": "spiegel-79699a92bbc876cb",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "News: Söders vergiftete Ratschläge an Merz, Arktis-Gipfel der EU, Trump spielt KI-Warnungen herunter",
-      "link": "https://www.spiegel.de/politik/deutschland/news-soeders-vergiftete-ratschlaege-an-merz-arktis-gipfel-der-eu-trump-spielt-ki-warnungen-herunter-a-a3bfb83c-9087-4316-8d13-507836c68f29#ref=rss",
-      "summary": "Markus Söder gibt sich loyal und ehrgeizig zugleich. Die Arktis bietet Friedrich Merz willkommene Ablenkung. Und die KI-Zauberlehrlinge rufen vergeblich nach dem Meister. Das ist die Lage am Montagmorgen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/e50d717b-a72e-4f02-967d-a2f3928e4710_w1200_r1.778_fpx39.35_fpy45.jpg",
-      "published": "2026-09-14T05:32:00+02:00",
-      "category": "Politik",
-      "score": 65.19
+      "score": 51.45
     },
     {
       "id": "tagesschau-124e3b035b4adeac",
@@ -672,7 +1076,7 @@
       "image": "https://images.tagesschau.de/image/44df7441-1148-4c2f-b887-a518c32e5314/AAABoJ2qrOY/AAABnSSvrFg/16x9-big/flagge-cdu-wahlplakat-afd-100.jpg?width=1920",
       "published": "2026-09-14T04:06:44+02:00",
       "category": "Politik",
-      "score": 65.0
+      "score": 60.87
     },
     {
       "id": "tagesschau-054aecf1056f8ee8",
@@ -684,7 +1088,7 @@
       "image": "https://images.tagesschau.de/image/7fff83e7-b066-450c-81dd-7d9a11a58603/AAABoJ118mw/AAABnSSvrFg/16x9-big/schweden-sozialdemokraten-100.jpg?width=1920",
       "published": "2026-09-14T04:01:04+02:00",
       "category": "Politik",
-      "score": 64.92
+      "score": 60.79
     },
     {
       "id": "tagesschau-eedb23b7af3aef7c",
@@ -696,7 +1100,7 @@
       "image": "https://images.tagesschau.de/image/2aad662e-7a7e-4ce2-94aa-7ce7ef1cf984/AAABoJwxKBc/AAABnSSvrFg/16x9-big/andersson-120.jpg?width=1920",
       "published": "2026-09-14T03:22:42+02:00",
       "category": "Politik",
-      "score": 64.92
+      "score": 60.79
     },
     {
       "id": "tagesschau-e6aa2263752ca41d",
@@ -708,7 +1112,7 @@
       "image": "https://images.tagesschau.de/image/3bf30ade-1e8c-44a9-a6cf-5f319976d8dd/AAABoJvfH6I/AAABnSSvrFg/16x9-big/von-nathusius-104.jpg?width=1920",
       "published": "2026-09-13T20:44:54+02:00",
       "category": "Nachrichten",
-      "score": 47.87
+      "score": 43.73
     },
     {
       "id": "tagesschau-e929616177f6aeed",
@@ -720,7 +1124,7 @@
       "image": "https://images.tagesschau.de/image/e5831947-08f1-4e01-aa5a-54713a018043/AAABoJvdk6o/AAABnSSvrFg/16x9-big/brics-138.jpg?width=1920",
       "published": "2026-09-13T19:43:05+02:00",
       "category": "Nachrichten",
-      "score": 47.01
+      "score": 42.87
     },
     {
       "id": "tagesschau-954e8d56ce101006",
@@ -732,7 +1136,7 @@
       "image": "https://images.tagesschau.de/image/e668afa7-2072-45b9-9507-9f195799ec20/AAABoIIIH2g/AAABnSSvrFg/16x9-big/oeldepot-saudi-aramco-100.jpg?width=1920",
       "published": "2026-09-13T17:56:14+02:00",
       "category": "Nachrichten",
-      "score": 45.52
+      "score": 64.59
     },
     {
       "id": "tagesschau-5287096dfa01ebef",
@@ -744,7 +1148,7 @@
       "image": "https://images.tagesschau.de/image/5bbc8275-e341-425f-9d62-1dfc14b776c5/AAABoJtIy10/AAABnSSvrFg/16x9-big/ukraine-zug-brennt-100.jpg?width=1920",
       "published": "2026-09-13T17:08:51+02:00",
       "category": "Politik",
-      "score": 55.87
+      "score": 51.73
     },
     {
       "id": "tagesschau-31a1819e116ada7f",
@@ -756,7 +1160,7 @@
       "image": "https://images.tagesschau.de/image/196dfb3a-ed50-44b0-bfae-49b6fe96e73a/AAABoJ7Ti3A/AAABnSSvrFg/16x9-big/afd-mdr-106.jpg?width=1920",
       "published": "2026-09-13T16:28:14+02:00",
       "category": "Politik",
-      "score": 55.3
+      "score": 51.17
     },
     {
       "id": "tagesschau-7c52a22a2fe0c7a7",
@@ -768,7 +1172,7 @@
       "image": "https://images.tagesschau.de/image/67bf51dd-70c4-4603-a633-46ef32dafe50/AAABoJrP9hE/AAABnSSvrFg/16x9-big/tuerkei-lgbtq-100.jpg?width=1920",
       "published": "2026-09-13T16:09:26+02:00",
       "category": "Technologie",
-      "score": 44.04
+      "score": 39.91
     },
     {
       "id": "tagesschau-6e1823f1a0847a85",
@@ -780,7 +1184,7 @@
       "image": "https://images.tagesschau.de/image/ea6df631-ddcf-4391-9b9a-0d759d1dd95a/AAABoIqcsaY/AAABnSSvrFg/16x9-big/kupfer-124.jpg?width=1920",
       "published": "2026-09-13T15:03:38+02:00",
       "category": "Technologie",
-      "score": 43.13
+      "score": 38.99
     },
     {
       "id": "heise-79dc2ab1baec825a",
@@ -792,7 +1196,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/4/2/5/4/World-of-Warcraft-Forever-34945f0df7aaeb6b.jpeg",
       "published": "2026-09-13T14:25:00+02:00",
       "category": "Technologie",
-      "score": 52.59
+      "score": 48.46
     },
     {
       "id": "heise-2c2fae8a8e846a03",
@@ -804,7 +1208,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/4/2/6/0/shutterstock_1926882518-5a70690af905d312.jpeg",
       "published": "2026-09-13T14:17:00+02:00",
       "category": "Technologie",
-      "score": 40.48
+      "score": 36.34
     },
     {
       "id": "golem-e0c33a2b54343682",
@@ -816,7 +1220,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212933&amp;page=1&amp;ts=1789299602",
       "published": "2026-09-13T13:40:02+02:00",
       "category": "Technologie",
-      "score": 38.97
+      "score": 34.83
     },
     {
       "id": "golem-26f0bdf2ec2962af",
@@ -828,7 +1232,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212957&amp;page=1&amp;ts=1789298702",
       "published": "2026-09-13T13:25:02+02:00",
       "category": "Technologie",
-      "score": 52.59
+      "score": 48.46
     },
     {
       "id": "tagesschau-efb2781900e80d24",
@@ -840,19 +1244,7 @@
       "image": "https://images.tagesschau.de/image/f1fa3c59-0e6f-4a95-a332-88e361f8c3e9/AAABoJqDXtw/AAABnSSvrFg/16x9-big/mao-statue-100.jpg?width=1920",
       "published": "2026-09-13T13:24:56+02:00",
       "category": "Nachrichten",
-      "score": 41.76
-    },
-    {
-      "id": "golem-5d14bcff39c81cda",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Apple: Deutsches iPhone 18 Pro Max bekommt überraschend neue Technik",
-      "link": "https://www.golem.de/news/apple-deutsches-iphone-18-pro-max-bekommt-ueberraschend-neue-technik-2609-212956.html",
-      "summary": "Apple setzt beim deutschen iPhone 18 Pro Max auf das neue C2-Modem. In den USA steckt dagegen weiterhin Technik von Qualcomm. ( iPhone 18 , Smartphone )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212956&amp;page=1&amp;ts=1789295821",
-      "published": "2026-09-13T12:37:01+02:00",
-      "category": "Technologie",
-      "score": 38.09
+      "score": 37.62
     },
     {
       "id": "tagesschau-a97635623d2c1aa0",
@@ -864,7 +1256,7 @@
       "image": "https://images.tagesschau.de/image/1cf11886-a8fc-462b-ad26-789385504fdb/AAABoGVk3Rw/AAABnSSvrFg/16x9-big/goethe-institut-moskau-102.jpg?width=1920",
       "published": "2026-09-13T12:26:53+02:00",
       "category": "Nachrichten",
-      "score": 40.95
+      "score": 36.81
     },
     {
       "id": "tagesschau-3c687988a44802b9",
@@ -876,7 +1268,7 @@
       "image": "https://images.tagesschau.de/image/dbdc6ca3-b14f-425b-8cc5-e8cf8a8f1a06/AAABoJDbmuc/AAABnSSvrFg/16x9-big/nairobi-schlaeger-demo-100.jpg?width=1920",
       "published": "2026-09-13T12:24:51+02:00",
       "category": "Politik",
-      "score": 51.92
+      "score": 47.79
     },
     {
       "id": "tagesschau-9035a75d9bb5e7ac",
@@ -888,7 +1280,7 @@
       "image": "https://images.tagesschau.de/image/ed86a2a6-bf7d-40cb-b4f7-845031df9e33/AAABoJm0Fcw/AAABnSSvrFg/16x9-big/faehre-indonesien-seenot-102.jpg?width=1920",
       "published": "2026-09-13T12:18:20+02:00",
       "category": "Nachrichten",
-      "score": 59.24
+      "score": 55.1
     },
     {
       "id": "tagesschau-90666fa4a9fd44bc",
@@ -900,55 +1292,7 @@
       "image": "https://images.tagesschau.de/image/ca4aa1b0-8301-4ef3-ab6d-932ee4364e56/AAABoJpbmPk/AAABnSSvrFg/16x9-big/soeder-merz-122.jpg?width=1920",
       "published": "2026-09-13T12:11:59+02:00",
       "category": "Nachrichten",
-      "score": 40.74
-    },
-    {
-      "id": "golem-dd54cfcf198805d4",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Elon Musk: Teslas neuer Roadster soll mit Raketentechnik abheben",
-      "link": "https://www.golem.de/news/elon-musk-teslas-neuer-roadster-soll-mit-raketentechnik-abheben-2609-212955.html",
-      "summary": "Neun Jahre nach der ersten Vorstellung soll Teslas neuer Roadster wieder öffentlich gezeigt werden. Elon Musk deutet eine außergewöhnliche Vorführung an. ( Tesla , Elektroauto )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212955&amp;page=1&amp;ts=1789293121",
-      "published": "2026-09-13T11:52:01+02:00",
-      "category": "Technologie",
-      "score": 37.47
-    },
-    {
-      "id": "golem-a2ebdcbdf45b8c07",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Anthropic: Angst vor Super-KI eint plötzlich die größten Rivalen",
-      "link": "https://www.golem.de/news/anthropic-angst-vor-super-ki-eint-ploetzlich-die-groessten-rivalen-2609-212954.html",
-      "summary": "Anthropic-Chef Dario Amodei fordert eine Notbremse bei der KI-Entwicklung. Seine härtesten Rivalen Sam Altman und Elon Musk stimmen zu. ( Anthropic , KI )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212954&amp;page=1&amp;ts=1789290481",
-      "published": "2026-09-13T11:08:01+02:00",
-      "category": "Technologie",
-      "score": 36.85
-    },
-    {
-      "id": "golem-7a23a1bf89ad2037",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Anzeige: Balkonkraftwerk exklusiv für Golem-Leser nur 359 Euro bei Kleines Kraftwerk",
-      "link": "https://www.golem.de/news/anzeige-balkonkraftwerk-exklusiv-fuer-golem-leser-nur-359-euro-bei-kleines-kraftwerk-2609-212910.html",
-      "summary": "Mit dem bifazialen Balkonkraftwerk von Kleines Kraftwerk sichern sich Golem-Leser einen Exklusivrabatt und reduzieren ihre Stromrechnung. ( Balkonkraftwerk , Solarenergie )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212910&amp;page=1&amp;ts=1789288802",
-      "published": "2026-09-13T10:40:02+02:00",
-      "category": "Technologie",
-      "score": 36.47
-    },
-    {
-      "id": "golem-a5c99df3b46e14a1",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "(g+) Vibecoding: Welche Fähigkeiten Entwickler im KI-Zeitalter bewahren müssen",
-      "link": "https://www.golem.de/news/vibecoding-welche-faehigkeiten-entwickler-im-ki-zeitalter-bewahren-muessen-2609-212925.html",
-      "summary": "Dank LLMs und Coding-Assistenten lagern Entwickler ihre kognitiven Aufgaben zunehmend an die KI aus. Aber wer trainiert dann das problemlösende Denken, das hinter jedem Code steckt? Ein Ratgebertext von Marc Favre ( Arbeit , KI )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212925&amp;page=1&amp;ts=1789286401",
-      "published": "2026-09-13T10:00:01+02:00",
-      "category": "Technologie",
-      "score": 35.91
+      "score": 36.61
     },
     {
       "id": "tagesschau-250067a796f7ba26",
@@ -960,7 +1304,7 @@
       "image": "https://images.tagesschau.de/image/e025230f-720e-4d05-b30a-c0a981e6a9e7/AAABnIi4S2A/AAABnSSvrFg/16x9-big/ice-276.jpg?width=1920",
       "published": "2026-09-13T09:52:19+02:00",
       "category": "Politik",
-      "score": 41.8
+      "score": 37.67
     },
     {
       "id": "heise-0fa4c20390c165fb",
@@ -972,19 +1316,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/4/1/8/0/Unbenannt-d685244df1e144a5.png",
       "published": "2026-09-13T09:21:00+02:00",
       "category": "Wissenschaft",
-      "score": 36.37
-    },
-    {
-      "id": "golem-9ca47c352a633c39",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Blizzard: Starcraft kehrt als Open-World-Shooter zurück",
-      "link": "https://www.golem.de/news/blizzard-blizzard-starcraft-kehrt-als-open-world-shooter-zurueck-2609-212951.html",
-      "summary": "Unter der Leitung eines Far-Cry-Entwicklers entsteht ein neues Starcraft. Im ersten Trailer schickt Blizzard einen Marine in den Kampf gegen die Zerg. ( Blizzard , Far Cry )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212951&amp;page=1&amp;ts=1789283162",
-      "published": "2026-09-13T09:06:02+02:00",
-      "category": "Technologie",
-      "score": 35.16
+      "score": 32.23
     },
     {
       "id": "tagesschau-e361a334d891464f",
@@ -996,7 +1328,7 @@
       "image": "https://images.tagesschau.de/image/78a93f6a-c113-4099-96f1-b5dcccc5489b/AAABoJlpBI8/AAABnSSvrFg/16x9-big/patient-118.jpg?width=1920",
       "published": "2026-09-13T08:16:32+02:00",
       "category": "Nachrichten",
-      "score": 37.47
+      "score": 33.34
     },
     {
       "id": "tagesschau-9ba07cc4b0bc1132",
@@ -1008,31 +1340,7 @@
       "image": "https://images.tagesschau.de/image/d7fc53f7-5e9c-4ba6-a958-bade9c2c39b4/AAABoGcZfhE/AAABnSSvrFg/16x9-big/wohnen-frankfurt-102.jpg?width=1920",
       "published": "2026-09-13T08:15:32+02:00",
       "category": "Nachrichten",
-      "score": 37.46
-    },
-    {
-      "id": "golem-38a3a3805c21bdc2",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Indiegames: Sieben besondere Games abseits der großen Blockbuster",
-      "link": "https://www.golem.de/news/indiegames-sieben-besondere-games-abseits-der-grossen-blockbuster-2609-212838.html",
-      "summary": "Von Mortal Shell 2 bis Corsair Cove: Diese kleineren Games-Neuheiten bieten ungewöhnliche Ideen, starke Atmosphäre und viel Spielspaß. Von Rainer Sigl ( Indiegames , Rollenspiel )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212838&amp;page=1&amp;ts=1789279202",
-      "published": "2026-09-13T08:00:02+02:00",
-      "category": "Technologie",
-      "score": 34.24
-    },
-    {
-      "id": "golem-bc345b6a30a0f45d",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Anzeige: IT-Jobs in Datenmanagement, Administration und digitaler Transformation",
-      "link": "https://www.golem.de/news/anzeige-it-jobs-in-datenmanagement-administration-und-digitaler-transformation-2609-212906.html",
-      "summary": "Von der Datenplattform in der Verwaltung bis zur Backup-Infrastruktur für die Astrophysik - aktuell sind sechs vielseitige Positionen im Angebot. ( Golem Karrierewelt , Unternehmenssoftware )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212906&amp;page=1&amp;ts=1789275602",
-      "published": "2026-09-13T07:00:02+02:00",
-      "category": "Wirtschaft",
-      "score": 36.41
+      "score": 33.32
     },
     {
       "id": "tagesschau-2a402a9349d370e3",
@@ -1044,7 +1352,7 @@
       "image": "https://images.tagesschau.de/image/b5723a42-615f-4cfb-8ed9-b5845c7f3692/AAABoJkgSdo/AAABnSSvrFg/16x9-big/jimmie-akesson-104.jpg?width=1920",
       "published": "2026-09-13T06:57:05+02:00",
       "category": "Politik",
-      "score": 47.37
+      "score": 43.23
     },
     {
       "id": "tagesschau-c2e4a48c7a823dfa",
@@ -1056,7 +1364,7 @@
       "image": "https://images.tagesschau.de/image/f0082ca5-3ee6-4dc6-8adc-996038da7786/AAABnqw8YgA/AAABnSSvrFg/16x9-big/anthropic-124.jpg?width=1920",
       "published": "2026-09-13T06:47:55+02:00",
       "category": "Technologie",
-      "score": 36.24
+      "score": 32.11
     },
     {
       "id": "tagesschau-d217552375dfd7d5",
@@ -1068,7 +1376,7 @@
       "image": "https://images.tagesschau.de/image/ef5c910d-8b91-4496-af21-a7e4d809af4b/AAABoJimjVM/AAABnSSvrFg/16x9-big/frankreich-zug-106.jpg?width=1920",
       "published": "2026-09-13T04:44:07+02:00",
       "category": "Nachrichten",
-      "score": 34.52
+      "score": 30.39
     },
     {
       "id": "tagesschau-d03f9b6173a2d33c",
@@ -1080,7 +1388,7 @@
       "image": "https://images.tagesschau.de/image/1c93238e-6c7b-49c6-a44c-fcc2854cbaac/AAABlgNImCI/AAABnSSvrFg/16x9-big/arktis-eis-103.jpg?width=1920",
       "published": "2026-09-13T02:03:56+02:00",
       "category": "Wirtschaft",
-      "score": 35.3
+      "score": 31.16
     },
     {
       "id": "tagesschau-1878d82ee34424c7",
@@ -1092,223 +1400,7 @@
       "image": "https://images.tagesschau.de/image/2db14df0-c2e6-400e-9f12-32afe01fe402/AAABoJgKanY/AAABnSSvrFg/16x9-big/altman-104.jpg?width=1920",
       "published": "2026-09-13T01:53:35+02:00",
       "category": "Wirtschaft",
-      "score": 35.15
-    },
-    {
-      "id": "tagesschau-3b970e85306846b9",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "\"Woman Unknown\" gewinnt Goldenen Löwen in Venedig",
-      "link": "https://www.tagesschau.de/kultur/filmfestival-venedig-preise-100.html",
-      "summary": "Eine Auszeichnung bei den Filmfestspielen in Venedig zählt für Filmschaffende zu den wichtigsten Ehrungen. In diesem Jahr ging der Goldene Löwe für den besten Film an \"Women Unknown\" von May el-Toukhy. Einen Preis gab es auch für eine Gaza-Doku. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/31436684-e028-4a99-b757-fb7ee2e8e2fa/AAABoJcWdLc/AAABnSSvrFg/16x9-big/may-el-toukhy-regie-100.jpg?width=1920",
-      "published": "2026-09-12T22:36:15+02:00",
-      "category": "Politik",
-      "score": 40.41
-    },
-    {
-      "id": "golem-6da4c58eb0219726",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Toyplosion in Deutschland: Action-Figuren-Messe verzeichnet neuen Besucherrekord",
-      "link": "https://www.golem.de/news/toyplosion-in-deutschland-action-figuren-messe-verzeichnet-neue-besucherrekorde-2609-212952.html",
-      "summary": "Im Ruhrgebiet entwickelt sich ein Stück Nerd-Kultur zu etwas sehr Großem. Über 4.000 Menschen kommen zur Retro-Messe Toyplosion. ( BigJim , Unterhaltung & Hobby )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212952&amp;page=1&amp;ts=1789243381",
-      "published": "2026-09-12T22:03:01+02:00",
-      "category": "Technologie",
-      "score": 25.95
-    },
-    {
-      "id": "golem-9f603676e07b65be",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Blizzard: Diablo 5 kommt 2029 - und diesmal hat das Böse gewonnen",
-      "link": "https://www.golem.de/news/blizzard-diablo-5-kommt-2029-und-diesmal-hat-das-boese-gewonnen-2609-212950.html",
-      "summary": "Blizzard hat Diablo 5 offiziell angekündigt, und zwar mit einer Besonderheit. Außerdem bekommt die Reihe eine Netflix-Serie. ( Diablo , Rollenspiel )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212950&amp;page=1&amp;ts=1789238702",
-      "published": "2026-09-12T20:45:02+02:00",
-      "category": "Technologie",
-      "score": 24.87
-    },
-    {
-      "id": "tagesschau-859284255b9c5c36",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "US-Präsident Trump in Irland: Golf, Proteste und ein heikles Thema",
-      "link": "https://www.tagesschau.de/ausland/europa/trump-besuch-irland-104.html",
-      "summary": "US-Präsident Trump besucht Irland - und ein Golfturnier in seinem eigenem Golfclub. Ein kleines Dorf steht Kopf, viele demonstrieren gegen den Besuch - und dann wird plötzlich die Einheit Irlands zum Thema. Von Mareike Aden. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/dfad6621-0420-409f-89a2-ef5809c01562/AAABoJbDAFU/AAABnSSvrFg/16x9-big/trump-golfplatz-100.jpg?width=1920",
-      "published": "2026-09-12T19:55:57+02:00",
-      "category": "Politik",
-      "score": 38.19
-    },
-    {
-      "id": "tagesschau-72552db2a0110673",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Protest in vielen Städten: Zehntausende demonstrieren gegen Rechtsextremismus",
-      "link": "https://www.tagesschau.de/inland/gesellschaft/demos-gegen-rechts-120.html",
-      "summary": "Zehntausende Menschen sind in Deutschland gegen Rechtsextremismus und für Demokratie auf die Straße gegangen. Demos gab es in mehr als 35 Städten. Eine Forderung: Die Prüfung eines AfD-Verbotsverfahrens.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/52d587af-7a2b-4617-98df-fd7aa045f253/AAABoJYJKx0/AAABnSSvrFg/16x9-big/demo-gegen-rechts-berlin-100.jpg?width=1920",
-      "published": "2026-09-12T19:38:32+02:00",
-      "category": "Nachrichten",
-      "score": 26.95
-    },
-    {
-      "id": "tagesschau-f98b14ef32a6558c",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Droht der nächste Ölpreis-Schock?",
-      "link": "https://www.tagesschau.de/ausland/asien/saudi-arabien-oel-exporte-angriffe-100.html",
-      "summary": "Erst die Straße von Hormus, nun die Meerenge Bab al-Mandab und eine beschädigte Pipeline. Der größte Ölexporteur der Welt, Saudi-Arabien, hat eine Reihe von Problemen. Wie entwickelt sich der Ölpreis? Welche Folgen hat das für Deutschland?[ mehr ]",
-      "image": "https://images.tagesschau.de/image/7c2e9701-e819-4725-a2ab-852b76369d8d/AAABoJaZ5y4/AAABnSSvrFg/16x9-big/pipeline-saudi-arabien-102.jpg?width=1920",
-      "published": "2026-09-12T19:31:20+02:00",
-      "category": "Nachrichten",
-      "score": 26.85
-    },
-    {
-      "id": "tagesschau-7900fb10359f0182",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Gefahr durch Russland: Was macht Europa gegen hybride Bedrohungen?",
-      "link": "https://www.tagesschau.de/ausland/europa/abwehr-hybride-bedrohung-100.html",
-      "summary": "Sabotage, Drohungen, Drohnen-Vorfälle: Wegen der wachsenden Gefahr durch hybride Angriffe rücken die europäischen Partner zusammen und versuchen, Härte zu zeigen. Kritiker vermissen jedoch ein gesamteuropäisches Konzept. Von Olga Chladkova. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/f18a1b17-f214-4f9a-8406-16ff34b6e3a2/AAABk0Tgz7w/AAABnSSvrFg/16x9-big/awacs-flugzeug-100.jpg?width=1920",
-      "published": "2026-09-12T18:59:53+02:00",
-      "category": "Nachrichten",
-      "score": 26.41
-    },
-    {
-      "id": "golem-d3d96ca7b857413d",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Anzeige: Die neuen iPhone 18 Pro (Max) für 1 Euro Anzahlung im Tarif bei Vodafone",
-      "link": "https://www.golem.de/news/anzeige-die-neuen-iphone-18-pro-max-fuer-1-euro-anzahlung-im-tarif-bei-vodafone-2609-212939.html",
-      "summary": "Vodafone bietet die neuen Smartphones von Apple jetzt mit einem beliebten Tarif an. Besonders spannend: Die Anzahlung beträgt nur 1 Euro. ( iPhone 18 , Apple )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212939&amp;page=1&amp;ts=1789224001",
-      "published": "2026-09-12T16:40:01+02:00",
-      "category": "Technologie",
-      "score": 21.47
-    },
-    {
-      "id": "golem-c4a319d4e5df4783",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "KI: Anthropic entlarvt Claude-Missbrauch für russische Drohnenschwärme",
-      "link": "https://www.golem.de/news/ki-anthropic-entlarvt-claude-missbrauch-fuer-russische-drohnenschwaerme-2609-212949.html",
-      "summary": "Russische Entwickler hatten mit Claude einen autonomen Kamikaze-Drohnenschwarm zum Einsatz gegen die Ukraine gebaut. ( Drohne , KI )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212949&amp;page=1&amp;ts=1789220761",
-      "published": "2026-09-12T15:46:01+02:00",
-      "category": "Politik",
-      "score": 31.72
-    },
-    {
-      "id": "tagesschau-47530581468b993c",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Wie die Stadt Wittenberge ihr Industrie-Erbe neu nutzen will",
-      "link": "https://www.tagesschau.de/wirtschaft/technologie/wittenberge-industriequartier-100.html",
-      "summary": "Wo früher Nähmaschinen produziert wurden, sollen nun Touristen übernachten, Start-ups arbeiten und Konzerte stattfinden. Wie die brandenburgische Stadt Wittenberge - zwischen Hamburg und Berlin gelegen - ihr Industrie-Erbe nutzt. Von J. Piwon. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/d7b04f2a-66a5-4f38-a81f-e5b7fcb485aa/AAABoGvwT84/AAABnSSvrFg/16x9-big/veritas-werk-100.jpg?width=1920",
-      "published": "2026-09-12T15:22:03+02:00",
-      "category": "Nachrichten",
-      "score": 23.38
-    },
-    {
-      "id": "tagesschau-4c2b88007e5f9a11",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Bundesnetzagentur stellt klar - Gasspeicher sind ausreichend gefüllt",
-      "link": "https://www.tagesschau.de/wirtschaft/verbraucher/gas-speicher-preise-102.html",
-      "summary": "Im kommenden Winter brauchen Millionen Haushalte wieder Gas für ihre Heizung - und die Sorge ist groß, dass dieses Jahr nicht genug Gas eingespeichert wurde. Die Bundesnetzagentur gibt nun Entwarnung: Die Speicher seien voll genug. Doch die Preise könnten steigen. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/0173b96b-ffef-419e-afcf-6e7714cce86c/AAABoJXHNdk/AAABnSSvrFg/16x9-big/gasspeicher-278.jpg?width=1920",
-      "published": "2026-09-12T15:20:55+02:00",
-      "category": "Nachrichten",
-      "score": 23.37
-    },
-    {
-      "id": "golem-5f2fe6be8f6c139e",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "eActros 600: Amazon lässt Mercedes-E-Lkw auf deutschen Straßen fahren",
-      "link": "https://www.golem.de/news/eactros-600-amazon-laesst-mercedes-e-lkw-auf-deutschen-strassen-fahren-2609-212948.html",
-      "summary": "Amazon setzt über 50 batterieelektrische eActros 600 in Deutschland ein. ( Amazon , Elektroauto )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212948&amp;page=1&amp;ts=1789218481",
-      "published": "2026-09-12T15:08:01+02:00",
-      "category": "Technologie",
-      "score": 20.19
-    },
-    {
-      "id": "tagesschau-b859ceac3843a1f7",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "China fordert auf BRICS-Treffen in Neu-Delhi mehr Einsatz für Frieden",
-      "link": "https://www.tagesschau.de/ausland/brics-treffen-neu-delhi-china-100.html",
-      "summary": "Auf dem Treffen der BRICS-Länder in Neu-Delhi hat Chinas Präsident Xi mehr Einsatz der Schwellenländer für Frieden im Nahen Osten gefordert. Man müsse \"auf der richtigen Seite der Geschichte\" stehen, sagte er.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/e0bb5923-ee64-4740-9e39-8774c3453fc9/AAABoJW7M4c/AAABnSSvrFg/16x9-big/brics-xi-100.jpg?width=1920",
-      "published": "2026-09-12T15:07:48+02:00",
-      "category": "Nachrichten",
-      "score": 23.18
-    },
-    {
-      "id": "golem-b2fcec4a07b60a10",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "KI als Waffeningenieur: Huthi sollen Claude für Raketensoftware missbraucht haben",
-      "link": "https://www.golem.de/news/ki-als-waffeningenieur-huthi-sollen-claude-fuer-raketensoftware-missbraucht-haben-2609-212947.html",
-      "summary": "Huthi-Rebellen haben offenbar Claude genutzt, Steuerungssoftware für ballistische Raketen zu entwickeln, und dabei die eingebauten Sicherheitsvorkehrungen umgangen. ( KI , Politik )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212947&amp;page=1&amp;ts=1789214582",
-      "published": "2026-09-12T14:03:02+02:00",
-      "category": "Technologie",
-      "score": 19.29
-    },
-    {
-      "id": "golem-d5797ad4a51eef42",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Anzeige: Apple iPhone 18 Pro jetzt bei o2 mit Tarif für 1 Euro Anzahlung vorbestellen",
-      "link": "https://www.golem.de/news/anzeige-apple-iphone-18-pro-jetzt-bei-o2-mit-tarif-fuer-1-euro-anzahlung-vorbestellen-2609-212937.html",
-      "summary": "Das neue iPhone 18 Pro sowie das iPhone 18 Pro Max von Apple sind endlich im Vorverkauf. Bei o2 gibt es die Smartphones jetzt im Tarif. ( iPhone 18 , Apple )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212937&amp;page=1&amp;ts=1789213622",
-      "published": "2026-09-12T13:47:02+02:00",
-      "category": "Technologie",
-      "score": 21.47
-    },
-    {
-      "id": "tagesschau-fe209717d140cb3e",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "CDU-Generalsekretärin Hoppermann verteidigt Bundeskanzler Merz",
-      "link": "https://www.tagesschau.de/inland/merz-kritik-hoppermann-100.html",
-      "summary": "Trotz schlechter Umfragewerte sieht CDU-Generalsekretärin Hoppermann ihre Partei unter Bundeskanzler Merz \"auf dem richtigen Weg\". Als Beispiel nennt sie die Rentenreform - und wirbt für die Wahl am kommenden Wochenende.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/7d231870-9dba-4c2a-b75d-b283787b14b2/AAABoJTO4jo/AAABnSSvrFg/16x9-big/franziska-hoppermann-102.jpg?width=1920",
-      "published": "2026-09-12T13:46:56+02:00",
-      "category": "Politik",
-      "score": 33.06
-    },
-    {
-      "id": "golem-1d14b745e04eea6d",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Künstliche Intelligenz: OpenAI erwägt Verlangsamung der KI-Entwicklung",
-      "link": "https://www.golem.de/news/kuenstliche-intelligenz-openai-erwaegt-verlangsamung-der-ki-entwicklung-2609-212946.html",
-      "summary": "OpenAI prüft eine Drosselung der Entwicklungsgeschwindigkeit bei KI. Sam Altman hofft dabei auf eine Branchenvereinbarung. ( Anthropic , KI )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212946&amp;page=1&amp;ts=1789211882",
-      "published": "2026-09-12T13:18:02+02:00",
-      "category": "Technologie",
-      "score": 18.66
-    },
-    {
-      "id": "golem-d21ac0440c409ea4",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "E-Commerce im Streaming: Amazon verknüpft Prime Video enger mit Onlineshopping",
-      "link": "https://www.golem.de/news/e-commerce-im-streaming-amazon-verknuepft-prime-video-enger-mit-onlineshopping-2609-212945.html",
-      "summary": "Neue X-Ray-Funktionen und bildbasierte Suche in Prime Video ermöglichen das direkte Einkaufen von Produkten aus Filmen und Serien. ( Prime Video , Amazon )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212945&amp;page=1&amp;ts=1789208162",
-      "published": "2026-09-12T12:16:02+02:00",
-      "category": "Technologie",
-      "score": 17.8
+      "score": 31.02
     }
   ]
 }
