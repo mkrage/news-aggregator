@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T01:35:20.836543+00:00",
+  "generatedAt": "2026-09-15T02:04:45.361321+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/582d5651-4f89-4a88-af3f-683a63a03d13_w1200_r1.778_fpx43.34_fpy45.jpg",
       "published": "2026-09-15T03:25:00+02:00",
       "category": "Politik",
-      "score": 77.86
+      "score": 77.45
     },
     {
       "id": "tagesschau-3780baed0fd63c34",
@@ -24,7 +24,7 @@
       "image": "https://images.tagesschau.de/image/6a879797-8958-4eb0-8eea-bd28c47fa6eb/AAABoKJFetM/AAABnSSvrFg/16x9-big/abraham-szor-100.jpg?width=1920",
       "published": "2026-09-15T01:34:17+02:00",
       "category": "Politik",
-      "score": 77.32
+      "score": 76.91
     },
     {
       "id": "tagesschau-0c9d0fffe67e46af",
@@ -36,7 +36,7 @@
       "image": "https://images.tagesschau.de/image/fbb5b6e9-226a-4d4b-a66a-c3d2c1d4a1bf/AAABoKKHOWY/AAABnSSvrFg/16x9-big/eurofighter-typhoon-102.jpg?width=1920",
       "published": "2026-09-15T02:46:06+02:00",
       "category": "Nachrichten",
-      "score": 71.65,
+      "score": 71.24,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -58,7 +58,7 @@
       "image": "https://images.tagesschau.de/image/d9e79f3e-4c1f-4309-9ecf-149680647eca/AAABoKKlV0U/AAABnSSvrFg/16x9-big/kohlekraftwerk-usa-106.jpg?width=1920",
       "published": "2026-09-15T03:19:00+02:00",
       "category": "Politik",
-      "score": 70.77
+      "score": 70.36
     },
     {
       "id": "tagesschau-ea37782f0387b004",
@@ -70,7 +70,7 @@
       "image": "https://images.tagesschau.de/image/4bf8042a-ec07-4eb7-8702-e4ee19955fd6/AAABoJ_opPs/AAABnSSvrFg/16x9-big/duma-russland-102.jpg?width=1920",
       "published": "2026-09-14T17:06:02+02:00",
       "category": "Politik",
-      "score": 70.26
+      "score": 69.85
     },
     {
       "id": "spiegel-eb983db526f0791c",
@@ -82,7 +82,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/f5e8d70e-6172-4f35-b208-b56263dceb1b_w1200_r1.778_fpx50.77_fpy49.99.jpg",
       "published": "2026-09-14T17:52:00+02:00",
       "category": "Wirtschaft",
-      "score": 66.93,
+      "score": 66.52,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -104,7 +104,7 @@
       "image": "https://images.tagesschau.de/image/8efe6d65-7a35-4d1f-9b55-5829365ffe30/AAABoKCuVOE/AAABnSSvrFg/16x9-big/oasis-142.jpg?width=1920",
       "published": "2026-09-14T18:54:42+02:00",
       "category": "Nachrichten",
-      "score": 65.54,
+      "score": 65.13,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -126,7 +126,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/ea32b745-07a5-46a5-a969-d76297e2b2ce_w1200_r1.778_fpx61_fpy66.jpg",
       "published": "2026-09-14T21:32:00+02:00",
       "category": "Politik",
-      "score": 64.95
+      "score": 64.55
     },
     {
       "id": "spiegel-dedc70a0802b0ede",
@@ -138,7 +138,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/c91719fb-1925-422e-8654-3d210e91c1c8_w1200_r1.778_fpx45.34_fpy49.99.jpg",
       "published": "2026-09-14T20:55:00+02:00",
       "category": "Politik",
-      "score": 64.44
+      "score": 64.03
     },
     {
       "id": "spiegel-4180f724cc5dfb45",
@@ -150,7 +150,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/00906c3a-ce0d-4874-9562-c216eba1c439_w1200_r1.778_fpx71_fpy36.jpg",
       "published": "2026-09-14T17:28:00+02:00",
       "category": "Politik",
-      "score": 63.77,
+      "score": 63.36,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -158,28 +158,6 @@
             "source": "tagesschau",
             "title": "Tankstellenverband erwartet Spritpreise um die drei Euro",
             "link": "https://www.tagesschau.de/wirtschaft/oel-spritpreise-tanken-100.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "heise-0f9572db6e628fff",
-      "source": "heise",
-      "sourceWeight": 0.9,
-      "title": "September-Updates: Windows-Probleme mit RDP, USB Audio und Hyper-V",
-      "link": "https://www.heise.de/news/September-Updates-Windows-Probleme-mit-RDP-USB-Audio-und-Hyper-V-11451793.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "summary": "Microsoft räumt Probleme durch die Windows-Updates vom September-Patchday ein. Einen Workaround gibt es nur für eines davon.",
-      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/4/3/5/7/Achtung-Windows_Updates-Updates_werden_gesucht-8b5b37b7c0baeb11.jpeg",
-      "published": "2026-09-14T08:28:00+02:00",
-      "category": "Technologie",
-      "score": 57.79,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "golem",
-            "title": "RDP, Sound und mehr: Windows-Updates bereiten Nutzern allerhand Probleme",
-            "link": "https://www.golem.de/news/rdp-sound-und-mehr-windows-updates-bereiten-nutzern-allerhand-probleme-2609-212982.html"
           }
         ]
       }
@@ -194,7 +172,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212985&amp;page=1&amp;ts=1789386242",
       "published": "2026-09-14T13:44:02+02:00",
       "category": "Technologie",
-      "score": 53.45
+      "score": 53.05
     },
     {
       "id": "golem-a5bcf5a5a7842031",
@@ -206,7 +184,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212953&amp;page=1&amp;ts=1789404302",
       "published": "2026-09-14T18:45:02+02:00",
       "category": "Wirtschaft",
-      "score": 52.63
+      "score": 52.23
     },
     {
       "id": "heise-613b6c9a6e208041",
@@ -218,7 +196,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/4/3/3/1/shutterstock_2632059907-5c3da156111366d7.jpeg",
       "published": "2026-09-14T07:03:00+02:00",
       "category": "Wirtschaft",
-      "score": 51.88
+      "score": 51.48
     },
     {
       "id": "golem-32e564d84dad1187",
@@ -230,7 +208,19 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212986&amp;page=1&amp;ts=1789392602",
       "published": "2026-09-14T15:30:02+02:00",
       "category": "Wirtschaft",
-      "score": 49.93
+      "score": 49.52
+    },
+    {
+      "id": "golem-29a4ad596e59cc37",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Trotz KI und Cloud: Nachfrage nach klassischer Softwareentwicklung weiterhin hoch",
+      "link": "https://www.golem.de/news/trotz-ki-und-cloud-nachfrage-nach-klassischer-softwareentwicklung-weiterhin-hoch-2609-213003.html",
+      "summary": "Der international aufgestellte Personaldienstleister und -vermittler Robert Half sieht kaum einen Rückgang bei Stellengesuchen für Softwareentwicklung. Doch ganz oben sind andere Bereiche. ( Arbeit , Studien )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213003&amp;page=1&amp;ts=1789404241",
+      "published": "2026-09-14T18:44:01+02:00",
+      "category": "Technologie",
+      "score": 49.21
     }
   ]
 }
