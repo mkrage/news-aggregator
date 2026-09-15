@@ -1,19 +1,7 @@
 {
-  "generatedAt": "2026-09-15T13:41:28.857519+00:00",
+  "generatedAt": "2026-09-15T13:55:26.252734+00:00",
   "count": 15,
   "articles": [
-    {
-      "id": "spiegel-21211b401d5aec72",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Russland – Krieg: Ukraine greift Ölraffinerie in russischer Region Samara an",
-      "link": "https://www.spiegel.de/ausland/russland-krieg-ukraine-greift-oelraffinerie-in-russischer-region-samara-an-a-75148e17-df7f-4670-be9b-74257f99e4ba#ref=rss",
-      "summary": "Russland und die Ukraine wollen auf Angriffe auf gegnerische Energieanlagen verzichten, sagt US-Präsident Donald Trump. Nur: Bisher hält sich niemand daran.",
-      "image": "https://cdn.prod.www.spiegel.de/images/152b37a0-1a72-4f4c-8c51-b94c5f529a19_w1200_r1.778_fpx56_fpy51.jpg",
-      "published": "2026-09-15T12:33:00+02:00",
-      "category": "Politik",
-      "score": 83.38
-    },
     {
       "id": "tagesschau-f179ca38e879e079",
       "source": "tagesschau",
@@ -24,14 +12,14 @@
       "image": "https://images.tagesschau.de/image/565865c6-0c5c-419a-a050-b766dabdc033/AAABoKULwOQ/AAABnSSvrFg/16x9-big/merz-1592.jpg?width=1920",
       "published": "2026-09-15T14:46:56+02:00",
       "category": "Nachrichten",
-      "score": 83.24,
+      "score": 83.87,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
             "source": "spiegel",
-            "title": "Benzinpreis: Friedrich Merz kündigt Entlastungen an",
-            "link": "https://www.spiegel.de/wirtschaft/benzinpreis-friedrich-merz-kuendigt-entlastungen-an-a-59ec2177-9a42-4a43-bac8-e3a9ed9b4c3d#ref=rss"
+            "title": "Spritpreise: Diese Maßnahmen könnten die Not der Autofahrer lindern",
+            "link": "https://www.spiegel.de/wirtschaft/spritpreise-diese-massnahmen-koennten-die-not-der-autofahrer-lindern-a-61169a10-4f59-443d-bfa5-1322a6a735fa#ref=rss"
           },
           {
             "source": "heise",
@@ -40,6 +28,18 @@
           }
         ]
       }
+    },
+    {
+      "id": "spiegel-21211b401d5aec72",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Russland – Krieg: Ukraine greift Ölraffinerie in russischer Region Samara an",
+      "link": "https://www.spiegel.de/ausland/russland-krieg-ukraine-greift-oelraffinerie-in-russischer-region-samara-an-a-75148e17-df7f-4670-be9b-74257f99e4ba#ref=rss",
+      "summary": "Russland und die Ukraine wollen auf Angriffe auf gegnerische Energieanlagen verzichten, sagt US-Präsident Donald Trump. Nur: Bisher hält sich niemand daran.",
+      "image": "https://cdn.prod.www.spiegel.de/images/152b37a0-1a72-4f4c-8c51-b94c5f529a19_w1200_r1.778_fpx56_fpy51.jpg",
+      "published": "2026-09-15T12:33:00+02:00",
+      "category": "Politik",
+      "score": 83.19
     },
     {
       "id": "spiegel-777cc450a6d515ed",
@@ -51,7 +51,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/fb232ac4-c52d-4e53-9bbc-9480ad2a7720_w1200_r1.778_fpx62_fpy39.jpg",
       "published": "2026-09-15T15:34:00+02:00",
       "category": "Politik",
-      "score": 77.9
+      "score": 77.7
     },
     {
       "id": "tagesschau-0fd7e1447c559213",
@@ -63,7 +63,7 @@
       "image": "https://images.tagesschau.de/image/900cac54-d41e-4901-b4ef-f0fc3754de5c/AAABoKUEigY/AAABnSSvrFg/16x9-big/thaad-112.jpg?width=1920",
       "published": "2026-09-15T14:04:35+02:00",
       "category": "Politik",
-      "score": 77.65
+      "score": 77.46
     },
     {
       "id": "spiegel-5eea0cc07032e1e3",
@@ -75,7 +75,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/19cbe296-b405-4727-9ca5-dff391b266bc_w1200_r1.778_fpx65.34_fpy49.98.jpg",
       "published": "2026-09-15T14:19:00+02:00",
       "category": "Politik",
-      "score": 76.85
+      "score": 76.66
     },
     {
       "id": "tagesschau-d66b4c921582ea04",
@@ -87,7 +87,19 @@
       "image": "https://images.tagesschau.de/image/9d544226-0de0-45ee-9385-e780ef456424/AAABm02sCI4/AAABnSSvrFg/16x9-big/supreme-court-178.jpg?width=1920",
       "published": "2026-09-15T06:52:00+02:00",
       "category": "Politik",
-      "score": 71.65
+      "score": 71.45
+    },
+    {
+      "id": "tagesschau-89c69c29b45c006c",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Linken-Kandidatin zur Berlin-Wahl: Wie Elif Eralp um das Rote Rathaus kämpft",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/abgeordnetenhaus-wahl-berlin-eralp-linke-100.html",
+      "summary": "Die Linke liefert sich in Umfragen zur Berliner Abgeordnetenhauswahl ein Kopf-an-Kopf-Rennen mit der CDU. Ihre Spitzenkandidatin kämpft vor allem gegen hohe Mieten und polarisiert im Wahlkampf stark. Von Boris Hermel und Mirja Fiedler. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/b54e4f01-d929-4934-8d77-17debf7b4aad/AAABoKVUxE4/AAABnSSvrFg/16x9-big/elif-eralp-100.jpg?width=1920",
+      "published": "2026-09-15T15:49:51+02:00",
+      "category": "Politik",
+      "score": 70.92
     },
     {
       "id": "spiegel-139b836541de5f00",
@@ -99,7 +111,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/cc0dca03-9ae0-417c-bb8c-234d382ca1b3_w1200_r1.778_fpx48_fpy27.jpg",
       "published": "2026-09-15T13:07:00+02:00",
       "category": "Nachrichten",
-      "score": 69.84,
+      "score": 69.65,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -121,7 +133,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/5/4/5/7/260629-X-OF297-1018-7c979dff1fd1f438.jpeg",
       "published": "2026-09-15T14:24:00+02:00",
       "category": "Technologie",
-      "score": 68.92,
+      "score": 68.73,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -143,7 +155,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/f6fe34b7-13d2-4c9d-91be-b626c319f275_w1200_r1.778_fpx43.32_fpy44.98.jpg",
       "published": "2026-09-15T13:34:00+02:00",
       "category": "Politik",
-      "score": 68.23
+      "score": 68.04
     },
     {
       "id": "golem-546f9083efa86090",
@@ -155,7 +167,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213025&amp;page=1&amp;ts=1789463222",
       "published": "2026-09-15T11:07:02+02:00",
       "category": "Technologie",
-      "score": 68.12,
+      "score": 67.92,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -177,19 +189,7 @@
       "image": "https://images.tagesschau.de/image/6a879797-8958-4eb0-8eea-bd28c47fa6eb/AAABoKJFetM/AAABnSSvrFg/16x9-big/abraham-szor-100.jpg?width=1920",
       "published": "2026-09-15T01:34:17+02:00",
       "category": "Politik",
-      "score": 67.23
-    },
-    {
-      "id": "tagesschau-3aaf23e4e20ae64d",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Russischer Oligarch hat Hochzeit von Trump Jr. mitfinanziert",
-      "link": "https://www.tagesschau.de/ausland/amerika/usa-oligarch-trump-jr-hochzeitsfeier-100.html",
-      "summary": "Ein russischer Oligarch hat die Hochzeit von Donald Trump Jr. auf den Bahamas gesponsert. Dessen Braut bestätigt ein \"großzügiges Hochzeitsgeschenk von einem Freund\", für die US-Opposition ist das \"besorgniserregend\".[ mehr ]",
-      "image": "https://images.tagesschau.de/image/7507e67d-ef89-410f-a537-b3ba2e4431f8/AAABoKOh_SU/AAABnSSvrFg/16x9-big/trump-jr-bettina-100.jpg?width=1920",
-      "published": "2026-09-15T10:42:11+02:00",
-      "category": "Politik",
-      "score": 66.84
+      "score": 67.04
     },
     {
       "id": "golem-76dc49a939cb7d11",
@@ -201,19 +201,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213034&amp;page=1&amp;ts=1789471141",
       "published": "2026-09-15T13:19:01+02:00",
       "category": "Politik",
-      "score": 66.02
-    },
-    {
-      "id": "heise-c07fd5e8f93ee308",
-      "source": "heise",
-      "sourceWeight": 0.9,
-      "title": "Tech-Aktien unter Druck nach KI-Turbulenzen",
-      "link": "https://www.heise.de/news/Tech-Aktien-unter-Druck-nach-KI-Turbulenzen-11453958.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "summary": "Nach jüngsten Äußerungen zur KI-Entwicklung fallen Tech-Aktien weltweit. NASDAQ 100, Softbank und Chip-Hersteller verlieren.",
-      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/5/4/8/7/shutterstock_421955908-dab9c904b9812778.jpeg",
-      "published": "2026-09-15T15:33:00+02:00",
-      "category": "Wirtschaft",
-      "score": 60.88
+      "score": 65.83
     },
     {
       "id": "heise-d3bae47f0a15084c",
@@ -225,7 +213,19 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/5/3/9/2/shutterstock_1136065793-e968ee4833ab1715.jpeg",
       "published": "2026-09-15T15:25:00+02:00",
       "category": "Technologie",
-      "score": 57.77
+      "score": 57.58
+    },
+    {
+      "id": "golem-d51eaa5b0cb623d7",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Connect Europe: Wie Europas Telco-Konzerne den Digital Networks Act kapern wollen",
+      "link": "https://www.golem.de/news/connect-europe-wie-europas-telco-konzerne-den-digital-networks-act-kapern-wollen-2609-213049.html",
+      "summary": "Ein Bündnis der ehemals staatlichen Telco-Konzerne fordert fast schrankenlose Marktmacht unter dem Deckmantel digitaler Souveränität. Der Wettbewerb übt scharfe Kritik an der Konservierung veralteter Kupfernetze. Ein Bericht von Achim Sawall ( Breko , Glasfaser )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213049&amp;page=1&amp;ts=1789480141",
+      "published": "2026-09-15T15:49:01+02:00",
+      "category": "Technologie",
+      "score": 56.91
     }
   ]
 }
