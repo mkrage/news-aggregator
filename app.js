@@ -513,18 +513,7 @@ function buildCard(article, maxScore) {
   const coverage = buildCoverage(article);
   if (coverage) content.appendChild(coverage);
 
-  const toggleRead = el("button", "toggle-read");
-  toggleRead.addEventListener("click", () => {
-    if (isRead(article.id)) {
-      markAsUnread(article.id);
-    } else {
-      markAsRead(article.id);
-    }
-    applyReadState(item, article.id);
-  });
-
-  const actions = el("div", "news-actions");
-  actions.appendChild(toggleRead);
+    const actions = el("div", "news-actions");
   content.appendChild(actions);
   item.appendChild(content);
 
@@ -651,15 +640,7 @@ function applyReadState(item, id) {
   const read = isRead(id);
   item.classList.toggle("read", read);
 
-  const button = item.querySelector(".toggle-read");
-  if (button) {
-    button.replaceChildren();
-    if (read) {
-      button.textContent = "Als ungelesen markieren";
-    } else {
-      button.append(svgIcon(CHECK_PATH), el("span", null, "Als gelesen markieren"));
-    }
-  }
+
 
   // Im Gelesen-Tab gehört ein wieder ungelesener Artikel nicht mehr in die
   // Liste. isConnected: beim Aufbau einer Kachel ist sie noch nicht im DOM.

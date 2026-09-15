@@ -791,35 +791,8 @@ a.coverage-source:hover {
   margin-top: auto;
 }
 
-.toggle-read {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  white-space: nowrap;
-  padding: 0.4rem 0.75rem;
-  border: 1px solid var(--border);
-  background: transparent;
-  border-radius: var(--radius-control);
-  color: var(--text-muted);
-  font-family: inherit;
-  font-size: 0.82rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
-}
 
-.toggle-read:hover {
-  color: var(--accent);
-  border-color: var(--accent);
-  background: var(--accent-soft);
-}
 
-/* Ohne feste Maße skalieren die Inline-SVGs auf ihre Standardgröße hoch. */
-.toggle-read svg,
-.read-badge svg {
-  width: 0.85rem;
-  height: 0.85rem;
-  flex-shrink: 0;
 }
 
 /* ---------- Gelesen-Zustand ----------
@@ -1317,9 +1290,7 @@ footer {
     margin-top: 0.55rem;
   }
 
-  .news-list.density-compact .toggle-read {
-    padding: 0.25rem 0.55rem;
-    font-size: 0.76rem;
+
   }
 
   /* Große Karten: mehr Bild, größere Schlagzeile. */
