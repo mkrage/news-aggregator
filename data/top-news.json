@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T21:48:41.499034+00:00",
+  "generatedAt": "2026-09-15T23:47:52.430924+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/ba01822f-f82b-4029-b97c-9ca0d8ff3ca3/AAABoKZhJzo/AAABnSSvrFg/16x9-big/merz-1606.jpg?width=1920",
       "published": "2026-09-15T20:42:47+02:00",
       "category": "Politik",
-      "score": 80.42,
+      "score": 78.76,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -34,7 +34,7 @@
       "image": "https://images.tagesschau.de/image/7507e67d-ef89-410f-a537-b3ba2e4431f8/AAABoKOh_SU/AAABnSSvrFg/16x9-big/trump-jr-bettina-100.jpg?width=1920",
       "published": "2026-09-15T10:42:11+02:00",
       "category": "Politik",
-      "score": 77.53,
+      "score": 75.88,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -56,7 +56,7 @@
       "image": "https://images.tagesschau.de/image/81f9bee2-3f96-4aef-9020-c89247900fa8/AAABoKWYna4/AAABnSSvrFg/16x9-big/angriff-ukraine-110.jpg?width=1920",
       "published": "2026-09-15T17:03:57+02:00",
       "category": "Politik",
-      "score": 73.38
+      "score": 71.72
     },
     {
       "id": "tagesschau-d66b4c921582ea04",
@@ -68,7 +68,29 @@
       "image": "https://images.tagesschau.de/image/9d544226-0de0-45ee-9385-e780ef456424/AAABm02sCI4/AAABnSSvrFg/16x9-big/supreme-court-178.jpg?width=1920",
       "published": "2026-09-15T16:52:07+02:00",
       "category": "Politik",
-      "score": 73.21
+      "score": 71.56
+    },
+    {
+      "id": "tagesschau-0c9d0fffe67e46af",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Litauen: NATO-Kampfjets schießen Drohne ab",
+      "link": "https://www.tagesschau.de/ausland/europa/drohne-litauen-102.html",
+      "summary": "Kampfjets der NATO haben eine Drohne abgeschossen, die in den litauischen Luftraum eingedrungen war. Angaben zur Herkunft der Drohne gibt es bisher nicht. Litauens Präsident Nauseda dankte der NATO.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/fbb5b6e9-226a-4d4b-a66a-c3d2c1d4a1bf/AAABoKKHOWY/AAABnSSvrFg/16x9-big/eurofighter-typhoon-102.jpg?width=1920",
+      "published": "2026-09-15T07:15:19+02:00",
+      "category": "Nachrichten",
+      "score": 71.15,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Litauen: Abgeschossene Drohne war laut Regierung mit Sprengsatz bestückt",
+            "link": "https://www.spiegel.de/ausland/litauen-abgeschossene-drohne-war-laut-regierung-mit-sprengsatz-bestueckt-a-edd1cbc5-b077-458f-9930-f140c6ff4f20#ref=rss"
+          }
+        ]
+      }
     },
     {
       "id": "spiegel-730e950d0315ee44",
@@ -80,19 +102,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/f273c92e-4630-44ce-9930-b00804cf5688_w1200_r1.778_fpx45_fpy36.jpg",
       "published": "2026-09-15T16:54:00+02:00",
       "category": "Politik",
-      "score": 72.24
-    },
-    {
-      "id": "tagesschau-2cee3423c097c7cb",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Reederei-Verband: \"Wir sind Krisen und Kriege gewohnt\"",
-      "link": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/blockierte-seewege-102.html",
-      "summary": "Siebenstellige Mehrkosten verursacht die Umrundung Afrikas. Am Ende bezahlen das die Kunden. Doch die Preiserhöhungen liegen im Cent-Bereich, sagt Reederei-Experte Kröger. Er blickt gelassen auf die Lage: Schiffe fänden fast immer einen Weg.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/dea2e7e2-64b7-4b8b-9f0a-aadc13235b15/AAABoKVQsp8/AAABnSSvrFg/16x9-big/hapag-lloyd-schiff-100.jpg?width=1920",
-      "published": "2026-09-15T19:05:36+02:00",
-      "category": "Nachrichten",
-      "score": 72.07
+      "score": 70.59
     },
     {
       "id": "spiegel-f91cef7aaf1b727a",
@@ -104,7 +114,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/4956ed31-9a5a-4108-b4f2-ba21c3d704de_w1200_r1.778_fpx51_fpy40.jpg",
       "published": "2026-09-15T22:35:00+02:00",
       "category": "Nachrichten",
-      "score": 70.98,
+      "score": 69.32,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -126,7 +136,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/3ce65343-be53-42a4-9a54-f78f4e6ad141_w1200_r1.778_fpx44_fpy50.jpg",
       "published": "2026-09-15T23:02:00+02:00",
       "category": "Politik",
-      "score": 69.35
+      "score": 67.7
     },
     {
       "id": "spiegel-7bff034e901b1be8",
@@ -138,7 +148,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/e4a4feef-3461-4ba2-81cf-5d589b6db52c_w1200_r1.778_fpx30.78_fpy45.jpg",
       "published": "2026-09-15T21:11:00+02:00",
       "category": "Politik",
-      "score": 67.81
+      "score": 66.15
     },
     {
       "id": "heise-d4667a683483f618",
@@ -150,7 +160,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/5/4/8/2/Shell_Tankstelle-6ddfc5b71047b915.jpeg",
       "published": "2026-09-15T14:43:00+02:00",
       "category": "Politik",
-      "score": 66.97,
+      "score": 65.31,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -172,7 +182,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/94f73442-f68c-4529-8b55-c455ed5aa701_w1200_r1.778_fpx50_fpy30.jpg",
       "published": "2026-09-15T19:32:00+02:00",
       "category": "Politik",
-      "score": 66.43
+      "score": 64.78
     },
     {
       "id": "golem-b736826754f8aad9",
@@ -184,7 +194,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213056&amp;page=1&amp;ts=1789485065",
       "published": "2026-09-15T17:11:05+02:00",
       "category": "Politik",
-      "score": 62.48
+      "score": 60.82
     },
     {
       "id": "golem-76dc49a939cb7d11",
@@ -196,7 +206,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213034&amp;page=1&amp;ts=1789471141",
       "published": "2026-09-15T13:19:01+02:00",
       "category": "Politik",
-      "score": 59.25
+      "score": 57.6
     },
     {
       "id": "heise-c07fd5e8f93ee308",
@@ -208,7 +218,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/5/4/8/7/shutterstock_421955908-dab9c904b9812778.jpeg",
       "published": "2026-09-15T15:33:00+02:00",
       "category": "Wirtschaft",
-      "score": 54.12
+      "score": 52.46
     },
     {
       "id": "heise-047921ae6a2e296a",
@@ -220,7 +230,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/5/6/6/3/shutterstock_1017657610-0e2d57cb5eea6aa5.jpeg",
       "published": "2026-09-15T17:52:00+02:00",
       "category": "Technologie",
-      "score": 53.05
+      "score": 51.39
     }
   ]
 }
