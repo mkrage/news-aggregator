@@ -200,6 +200,16 @@ body {
   text-overflow: ellipsis;
 }
 
+/* Die zweite, schmale Variante des Zeitstempels lebt in der Tab-Leiste und
+   ist nur auf kleinen Displays sichtbar (siehe unten). */
+.masthead-meta-tabbar {
+  display: none;
+  margin: 0 0 0 auto;
+  flex-shrink: 0;
+  font-size: 0.7rem;
+  color: var(--text-faint);
+}
+
 .appearance {
   display: flex;
   align-items: center;
@@ -600,6 +610,9 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.1rem;
+  /* Senkrechtes Scrollen führt der Browser allein; waagerechte Wischgesten
+     zwischen den Tabs entscheidet das Skript selbst. */
+  touch-action: pan-y;
 }
 
 .news-list.top-view {
@@ -1139,9 +1152,17 @@ footer {
     padding: 1.1rem 0.9rem 1.5rem;
   }
 
-  /* Auf kleinen Displays ist der Zeitstempel entbehrlich. */
+  /* Auf kleinen Displays ist in der engen Kopfzeile kein Platz für den
+     Zeitstempel. In der App wandert er als knappe Angabe ans rechte Ende der
+     Tab-Leiste – die klebt ohnehin am oberen Rand und kostet keine eigene
+     Zeile. Im Zeitungs-Theme bleibt er im großzügigen Masthead, deshalb dort
+     keine Kopie in der Leiste. */
   [data-theme="app"] .masthead-meta {
     display: none;
+  }
+
+  [data-theme="app"] .masthead-meta-tabbar {
+    display: block;
   }
 
   .brand-name {

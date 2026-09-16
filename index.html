@@ -52,6 +52,8 @@
         <h1 class="brand-name">News Aggregator</h1>
       </div>
 
+      <!-- id nur an diesem einen Element; die schmale Variante unten in der
+           Tab-Leiste spiegelt den Text ohne eigene id. -->
       <p id="last-updated" class="masthead-meta">Lade Daten …</p>
 
       <div class="appearance">
@@ -77,6 +79,9 @@
       <button class="tab active" id="tab-top" data-tab="top" role="tab" aria-selected="true" aria-controls="news-list">Top News</button>
       <button class="tab" id="tab-latest" data-tab="latest" role="tab" aria-selected="false" aria-controls="news-list">Neueste</button>
       <button class="tab" id="tab-read" data-tab="read" role="tab" aria-selected="false" aria-controls="news-list">Gelesen</button>
+      <!-- Auf schmalen Displays wandert der Zeitstempel hierher: die Kopfzeile
+           ist zu eng, die Tab-Leiste klebt ohnehin am oberen Rand. -->
+      <p class="masthead-meta masthead-meta-tabbar" id="last-updated-compact" aria-hidden="true">Lade Daten …</p>
     </div>
   </nav>
 

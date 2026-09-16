@@ -188,6 +188,18 @@ function fire(element, type) {
     type === "click" ? new view.MouseEvent("click", { bubbles: true }) : new view.Event(type, { bubbles: true });
   element.dispatchEvent(event);
 }
+// jsdom kennt TouchEvent und Touch nicht, die Handler lesen aber nur
+// clientX/clientY aus touches/changedTouches – ein schlichter Event mit
+// angehängten Koordinaten reicht als Wischgeste.
+function fireTouch(element, type, x, y) {
+  const view = element.ownerDocument.defaultView;
+  const event = new view.Event(type, { bubbles: true, cancelable: true });
+  const point = { clientX: x, clientY: y };
+  event.touches = type === "touchend" ? [] : [point];
+  event.changedTouches = [point];
+  element.dispatchEvent(event);
+  return event;
+}
 function marks(store, key) {
   const raw = store.get(key);
   return raw ? JSON.parse(raw) : {};
@@ -792,6 +804,101 @@ section("Dichte für schmale Displays");
   check(
     "Unbekannte Dichte fällt auf cards zurück",
     broken.doc.getElementById("news-list").className.includes("density-cards")
+  );
+}
+
+/* ---------- 17. Zeitstempel auf schmalen Displays ---------- */
+
+section("Zeitstempel auf schmalen Displays");
+{
+  const { doc } = await boot();
+  const compact = doc.getElementById("last-updated-compact");
+  check("Kompakte Variante vorhanden", !!compact);
+  check(
+    "Trägt dieselbe Zeit wie die Kopfzeile",
+    /Aktualisiert \d{2}\.\d{2}\.\d{4}/.test(compact.textContent) &&
+      compact.textContent === doc.getElementById("last-updated").textContent,
+    compact.textContent
+  );
+  check("Nur ein Element trägt die id", doc.querySelectorAll('[id="last-updated"]').length === 1);
+  check("Nur dekorativ gespiegelt", compact.getAttribute("aria-hidden") === "true");
+
+  const css = fs.readFileSync(path.join(ROOT, "styles.css"), "utf-8");
+  const narrowBlock = css.match(/@media \(max-width: 40rem\) \{[\s\S]*?\n\}/);
+  check("Mobil-Block vorhanden", !!narrowBlock);
+  check(
+    "Auf schmalen Displays in der Tab-Leiste sichtbar",
+    /\[data-theme="app"\] \.masthead-meta-tabbar \{\s*display: block;/.test(narrowBlock[0])
+  );
+}
+
+/* ---------- 18. Wischgeste zwischen den Tabs ---------- */
+
+section("Wischgeste zwischen den Tabs");
+{
+  const { doc } = await boot();
+  const list = doc.getElementById("news-list");
+  const swipe = (fromX, toX) => {
+    fireTouch(list, "touchstart", fromX, 400);
+    fireTouch(list, "touchmove", (fromX + toX) / 2, 402);
+    fireTouch(list, "touchend", toX, 405);
+  };
+  const activeTab = () => doc.querySelector(".tab.active").dataset.tab;
+
+  check("Start im Top-Tab", activeTab() === "top");
+  swipe(260, 120);
+  check("Wischen nach links -> Neueste", activeTab() === "latest", activeTab());
+  swipe(260, 120);
+  check("Nochmal links -> Gelesen", activeTab() === "read", activeTab());
+  swipe(260, 120);
+  check("Am letzten Tab endet die Geste", activeTab() === "read", activeTab());
+  swipe(40, 260);
+  check("Wischen nach rechts -> Neueste", activeTab() === "latest", activeTab());
+  swipe(40, 260);
+  check("Zurück im Top-Tab", activeTab() === "top", activeTab());
+  swipe(40, 260);
+  check("Am ersten Tab endet die Geste", activeTab() === "top", activeTab());
+
+  // Unter der Auslöseschwelle passiert nichts.
+  swipe(200, 165);
+  check("Kurzes Wischen bleibt ohne Wirkung", activeTab() === "top", activeTab());
+
+  // Überwiegend senkrecht = Scrollen, kein Tabwechsel.
+  fireTouch(list, "touchstart", 200, 200);
+  fireTouch(list, "touchmove", 230, 420);
+  fireTouch(list, "touchend", 230, 600);
+  check("Senkrechter Lauf ist Scrollen", activeTab() === "top", activeTab());
+
+  // Ein erkanntes Wischen darf nicht mitscrollen: preventDefault ab dem
+  // Erkennen, nicht schon beim Berühren.
+  fireTouch(list, "touchstart", 260, 400);
+  fireTouch(list, "touchmove", 255, 402);
+  const move = fireTouch(list, "touchmove", 180, 404);
+  fireTouch(list, "touchend", 120, 405);
+  check("Erkanntes Wischen stoppt das Mitscrollen", move.defaultPrevented);
+  check("Wischen danach gewertet", activeTab() === "latest", activeTab());
+
+  // Links und Buttons behalten ihre eigene Geste.
+  clickTab(doc, "top");
+  const link = list.querySelector(".news-title a");
+  if (link) {
+    fireTouch(link, "touchstart", 260, 400);
+    fireTouch(link, "touchmove", 180, 404);
+    fireTouch(link, "touchend", 120, 405);
+    check("Wischen auf einem Link bleibt ohne Wirkung", activeTab() === "top", activeTab());
+  } else {
+    check("Wischen auf einem Link bleibt ohne Wirkung", false, "kein Link in der Liste");
+  }
+
+  // Ein Tabwechsel per Geste rendert wie ein Klick: Zusammenfassung folgt.
+  swipe(260, 120);
+  check(
+    "Nach Wischen auf Neueste ist die Zusammenfassung weg",
+    doc.getElementById("ai-summary").classList.contains("hidden")
+  );
+  check(
+    "Panel verweist auf den gewischten Tab",
+    list.getAttribute("aria-labelledby") === "tab-latest"
   );
 }
 

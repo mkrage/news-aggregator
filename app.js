@@ -9,6 +9,14 @@ const PREVIEW_LENGTH = 280;
 const RETENTION_DAYS = 30;
 const SEARCH_DEBOUNCE_MS = 150;
 const AI_SUMMARY_MAX_AGE_HOURS = 24;
+// Wischgeste: erst ab dieser Strecke wird über Richtung und Abbruch
+// entschieden; ein Tap darf nie als Wischen durchgehen.
+const SWIPE_COMMIT_PX = 10;
+const SWIPE_TRIGGER_PX = 60;
+// Die Geste muss deutlich mehr quer als hoch laufen, sonst ist es Scrollen.
+const SWIPE_DIRECTION_RATIO = 1.5;
+// Reihenfolge der Tabs für Wischgeste und Pfeiltasten.
+const TAB_ORDER = ["top", "latest", "read"];
 
 const THEMES = ["app", "editorial"];
 // Kachel/Liste am breiten Bildschirm, Dichte am schmalen: einspaltig sehen
@@ -268,6 +276,14 @@ function el(tag, className, text) {
   return node;
 }
 
+// Der Zeitstempel steht an bis zu zwei Stellen: Kopfzeile am großen
+// Bildschirm, Tab-Leiste am Telefon. Beide zeigen immer denselben Text.
+function setLastUpdated(text) {
+  [dom.lastUpdated, dom.lastUpdatedCompact].forEach((node) => {
+    if (node) node.textContent = text;
+  });
+}
+
 function svgIcon(pathData, className) {
   const NS = "http://www.w3.org/2000/svg";
   const svg = document.createElementNS(NS, "svg");
@@ -359,13 +375,13 @@ async function loadData() {
     state.top = Array.isArray(topData.articles) ? topData.articles : [];
     state.aiSummary = isFreshSummary(aiData) ? aiData : null;
 
-    dom.lastUpdated.textContent = `Aktualisiert ${formatDate(newsData.generatedAt)}`;
+    setLastUpdated(`Aktualisiert ${formatDate(newsData.generatedAt)}`);
 
     populateFilters();
     render();
   } catch (error) {
     console.error(error);
-    dom.lastUpdated.textContent = "Aktualisierung unbekannt";
+    setLastUpdated("Aktualisierung unbekannt");
     dom.newsList.replaceChildren(
       el("p", "empty", "Fehler beim Laden der News. Bitte später erneut versuchen.")
     );
@@ -694,6 +710,7 @@ function cacheDom() {
     filtersPanel: "filters-panel",
     filterBadge: "filter-badge",
     modeToggle: "mode-toggle",
+    lastUpdatedCompact: "last-updated-compact",
   };
   Object.entries(ids).forEach(([key, id]) => {
     dom[key] = document.getElementById(id);
@@ -739,20 +756,92 @@ function initAppearanceControls() {
   }
 }
 
+function activateTab(name) {
+  const tab = document.querySelector(`.tab[data-tab="${name}"]`);
+  if (!tab || name === state.tab) return;
+
+  document.querySelectorAll(".tab").forEach((other) => {
+    other.classList.remove("active");
+    other.setAttribute("aria-selected", "false");
+  });
+  tab.classList.add("active");
+  tab.setAttribute("aria-selected", "true");
+  dom.newsList.setAttribute("aria-labelledby", tab.id);
+  state.tab = name;
+  render();
+}
+
 function initTabs() {
   document.querySelectorAll(".tab").forEach((tab) => {
-    tab.addEventListener("click", () => {
-      document.querySelectorAll(".tab").forEach((other) => {
-        other.classList.remove("active");
-        other.setAttribute("aria-selected", "false");
-      });
-      tab.classList.add("active");
-      tab.setAttribute("aria-selected", "true");
-      dom.newsList.setAttribute("aria-labelledby", tab.id);
-      state.tab = tab.dataset.tab;
-      render();
-    });
+    tab.addEventListener("click", () => activateTab(tab.dataset.tab));
   });
+}
+
+/* ---------- Wischgeste zwischen den Tabs ----------
+   Nur Berührung, nie Maus oder Tastatur. Die Entscheidung fällt in drei
+   Schritten: erst ab SWIPE_COMMIT_PX wird die Richtung bestimmt, ein klar
+   waagerechter Lauf gilt als Wischen (und stoppt dann das Mitscrollen des
+   Browsers), ein senkrechter bricht ab. Links/rechts auf interaktiven
+   Elementen (Links, Buttons, Eingaben) wird ignoriert. Am ersten und letzten
+   Tab endet die Geste, statt umzuspringen. */
+function initTabSwipe() {
+  let startX = 0;
+  let startY = 0;
+  let mode = "idle"; // idle | armed | swiping | scrolling
+
+  function reset() {
+    mode = "idle";
+  }
+
+  function onTouchStart(event) {
+    if (event.touches.length !== 1) return;
+    // Links, Buttons und Eingabefelder behalten ihre eigene Geste.
+    if (event.target.closest("a, button, input, select, textarea, label")) return;
+    startX = event.touches[0].clientX;
+    startY = event.touches[0].clientY;
+    mode = "armed";
+  }
+
+  function onTouchMove(event) {
+    if (mode !== "armed" && mode !== "swiping") return;
+
+    const deltaX = event.touches[0].clientX - startX;
+    const deltaY = event.touches[0].clientY - startY;
+
+    if (mode === "armed") {
+      if (Math.max(Math.abs(deltaX), Math.abs(deltaY)) < SWIPE_COMMIT_PX) return;
+      // Senkrecht gewinnt im Zweifel: dann ist es Scrollen, kein Wischen.
+      mode =
+        Math.abs(deltaX) > Math.abs(deltaY) * SWIPE_DIRECTION_RATIO ? "swiping" : "scrolling";
+      if (mode !== "swiping") return;
+    }
+
+    // Erst jetzt dem Browser das Scrollen nehmen – touch-action: pan-y hat
+    // die Senkrechte bis hierher ohnehin allein geführt.
+    event.preventDefault();
+  }
+
+  function onTouchEnd(event) {
+    if (mode !== "swiping") {
+      reset();
+      return;
+    }
+    const deltaX = event.changedTouches[0].clientX - startX;
+    reset();
+    if (Math.abs(deltaX) < SWIPE_TRIGGER_PX) return;
+
+    const index = TAB_ORDER.indexOf(state.tab);
+    // Wischen nach links -> nächster Tab, nach rechts -> vorheriger.
+    const next = deltaX < 0 ? index + 1 : index - 1;
+    if (next < 0 || next >= TAB_ORDER.length) return;
+    activateTab(TAB_ORDER[next]);
+  }
+
+  dom.newsList.addEventListener("touchstart", onTouchStart, { passive: true });
+  // nicht passiv: ein erkanntes Wischen darf nicht mitscrollen
+  dom.newsList.addEventListener("touchmove", onTouchMove, { passive: false });
+  dom.newsList.addEventListener("touchend", onTouchEnd, { passive: true });
+  dom.newsList.addEventListener("touchcancel", reset, { passive: true });
 }
 
 function initFilters() {
@@ -784,6 +873,7 @@ function init() {
   applyAppearance();
   initAppearanceControls();
   initTabs();
+  initTabSwipe();
   initFilters();
   loadData();
 }
