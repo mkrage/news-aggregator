@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T14:18:30.943701+00:00",
+  "generatedAt": "2026-09-16T14:42:24.401273+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/e19d0b97-a6a5-4380-893e-78f6d5584495/AAABoKoOYzc/AAABnSSvrFg/16x9-big/jungendliche-smartphone-100.jpg?width=1920",
       "published": "2026-09-16T14:40:13+02:00",
       "category": "Nachrichten",
-      "score": 82.63,
+      "score": 82.3,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -39,7 +39,7 @@
       "image": "https://images.tagesschau.de/image/a087b8a9-b1f0-4610-9d6c-e5aa9a4d6d6a/AAABoKnHiGc/AAABnSSvrFg/16x9-big/bitcoin-236.jpg?width=1920",
       "published": "2026-09-16T14:37:06+02:00",
       "category": "Politik",
-      "score": 81.59,
+      "score": 81.26,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -52,6 +52,18 @@
       }
     },
     {
+      "id": "spiegel-52d372bb3ed0dee6",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Midterms: Donald Trump verliert vor Gericht, sein Angriff auf die Wahl geht weiter",
+      "link": "https://www.spiegel.de/ausland/midterms-donald-trump-verliert-vor-gericht-sein-angriff-auf-die-wahl-geht-weiter-a-ece5af17-9259-4897-8078-a4ab99058dad#ref=rss",
+      "summary": "Sieben Wochen vor der Halbzeitwahl zieht Donald Trump seine Republikaner in Umfragen nach unten. Zugleich treibt er seine Kampagne gegen den Urnengang selbst voran – trotz einer Niederlage vor dem Supreme Court.",
+      "image": "https://cdn.prod.www.spiegel.de/images/283dfb69-69d7-49e4-81b5-022bddf1e7da_w1200_r1.778_fpx53_fpy38.jpg",
+      "published": "2026-09-16T16:16:00+02:00",
+      "category": "Politik",
+      "score": 77.63
+    },
+    {
       "id": "tagesschau-c490308cb11ebcc3",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -61,7 +73,7 @@
       "image": "https://images.tagesschau.de/image/883e3925-8546-47ea-8a6c-3e69a3c72ce9/AAABoKpPaUM/AAABnSSvrFg/16x9-big/wohnhaus-gaza-100.jpg?width=1920",
       "published": "2026-09-16T15:03:01+02:00",
       "category": "Politik",
-      "score": 77.95
+      "score": 77.62
     },
     {
       "id": "tagesschau-acb0684d59f365d1",
@@ -73,7 +85,7 @@
       "image": "https://images.tagesschau.de/image/310cd902-7421-4a95-9c4a-5668fa347f34/AAABoKnQI6c/AAABnSSvrFg/16x9-big/thaci-107.jpg?width=1920",
       "published": "2026-09-16T13:48:26+02:00",
       "category": "Nachrichten",
-      "score": 77.92,
+      "score": 77.58,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -95,7 +107,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/793b2aef-c16d-4e7f-839d-743fedb0800e_w1200_r1.778_fpx62_fpy44.jpg",
       "published": "2026-09-16T14:12:00+02:00",
       "category": "Politik",
-      "score": 76.24
+      "score": 75.91
     },
     {
       "id": "tagesschau-ba4ebadfe9cb420b",
@@ -107,7 +119,7 @@
       "image": "https://images.tagesschau.de/image/ed040fc6-cd4d-4623-8540-4271c69448b9/AAABoKjxkpY/AAABnSSvrFg/16x9-big/litauen-kaunas-100.jpg?width=1920",
       "published": "2026-09-16T14:40:15+02:00",
       "category": "Politik",
-      "score": 74.33,
+      "score": 73.99,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -129,7 +141,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/f9b38fe9-0001-0004-0000-000000383848_w1200_r1.778_fpx69.99_fpy50.99.jpg",
       "published": "2026-09-16T13:02:00+02:00",
       "category": "Nachrichten",
-      "score": 70.83,
+      "score": 70.5,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -151,7 +163,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213099&amp;page=1&amp;ts=1789562102",
       "published": "2026-09-16T14:35:02+02:00",
       "category": "Technologie",
-      "score": 70.56,
+      "score": 70.23,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -173,31 +185,31 @@
       "image": "https://cdn.prod.www.spiegel.de/images/bc7dac2f-e1f6-4cb9-908d-d25058bf0814_w1080_r1.778_fpx49_fpy41.jpg",
       "published": "2026-09-16T15:04:00+02:00",
       "category": "Politik",
-      "score": 68.97
+      "score": 68.63
     },
     {
-      "id": "spiegel-7b6ac05dee6e98b5",
+      "id": "spiegel-85d81419327d8b09",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Friedrich Merz: Was Gerhard Schröder und Angela Merkel dem Kanzler vormachen",
-      "link": "https://www.spiegel.de/politik/deutschland/friedrich-merz-was-gerhard-schroeder-und-angela-merkel-dem-kanzler-vormachen-a-0b470a0f-565f-48b8-bf00-7c83b70a3b09#ref=rss",
-      "summary": "Friedrich Merz wankt als Regierungschef und CDU-Chef. Er könnte sich etwas davon abschauen, wie Gerhard Schröder und Angela Merkel ihre Kanzlerschaften verteidigten. Zwei Szenarien mit Risiken.",
-      "image": "https://cdn.prod.www.spiegel.de/images/8d512206-5f2f-4ae6-9cbb-5ed11579cf9f_w1200_r1.778_fpx53.99_fpy48.97.jpg",
-      "published": "2026-09-16T16:02:00+02:00",
+      "title": "CDU: Friedrich Merz - was hinter der Solidaritätsadresse der Ministerpräsidenten steckt",
+      "link": "https://www.spiegel.de/politik/deutschland/cdu-friedrich-merz-was-hinter-der-solidaritaetsadresse-der-ministerpraesidenten-steckt-a-26d24769-8744-4047-bb61-732113a63bd4#ref=rss",
+      "summary": "Die acht CDU-Ministerpräsidenten wenden sich gegen Gedankenspiele zu Minderheitsregierungen und Personaldebatten. Kanzler Merz kann sich gestärkt fühlen – vorerst.",
+      "image": "https://cdn.prod.www.spiegel.de/images/33d690ca-7695-4eb5-8b8d-df644eaa1473_w1200_r1.778_fpx42.64_fpy49.99.jpg",
+      "published": "2026-09-16T16:29:00+02:00",
       "category": "Politik",
-      "score": 61.77
+      "score": 61.81
     },
     {
-      "id": "spiegel-4bd709a56e556275",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Prozess vor dem Bundesgerichtshof: Für die Maskenhändler sieht es gegen den Bund nicht gut aus",
-      "link": "https://www.spiegel.de/panorama/justiz/prozess-vor-dem-bundesgerichtshof-fuer-die-maskenhaendler-sieht-es-gegen-den-bund-nicht-gut-aus-a-68fa73ec-18ad-4c30-a6af-742c73281e3a#ref=rss",
-      "summary": "Showdown in den Maskenprozessen des Bundes vor dem Bundesgerichtshof: Die Richter schwenken anscheinend auf die Linie des Bundesgesundheitsministeriums ein. Für einige Maskenhändler könnte das existenzbedrohend sein.",
-      "image": "https://cdn.prod.www.spiegel.de/images/39e7e2a1-473f-4733-a6b8-f08f144e0b2f_w1200_r1.778_fpx33.34_fpy49.99.jpg",
-      "published": "2026-09-16T15:50:00+02:00",
-      "category": "Politik",
-      "score": 61.6
+      "id": "golem-c9441118d20cae05",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Winbond: Infineon verkauft Teil seines Speichergeschäfts in den USA",
+      "link": "https://www.golem.de/news/winbond-infineon-verkauft-teil-seines-speichergeschaefts-in-den-usa-2609-213116.html",
+      "summary": "Infineon verkauft einen kleineren Teil seines Speichergeschäfts für 1,12 Milliarden US-Dollar. Winbound aus Taiwan erweitert damit sein NOR-Flash-Geschäft und setzt auf F-RAM. ( Infineon , Wirtschaft )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213116&amp;page=1&amp;ts=1789569302",
+      "published": "2026-09-16T16:35:02+02:00",
+      "category": "Wirtschaft",
+      "score": 59.9
     },
     {
       "id": "golem-c2f0365a4a9065bd",
@@ -209,7 +221,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213106&amp;page=1&amp;ts=1789565041",
       "published": "2026-09-16T15:24:01+02:00",
       "category": "Politik",
-      "score": 59.24
+      "score": 58.91
     },
     {
       "id": "golem-db0e2900fba6ac80",
@@ -221,7 +233,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213070&amp;page=1&amp;ts=1789540742",
       "published": "2026-09-16T08:39:02+02:00",
       "category": "Technologie",
-      "score": 58.62
+      "score": 58.29
     },
     {
       "id": "golem-dec805151be977c3",
@@ -233,19 +245,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213094&amp;page=1&amp;ts=1789556881",
       "published": "2026-09-16T13:08:01+02:00",
       "category": "Wirtschaft",
-      "score": 57.35
-    },
-    {
-      "id": "golem-046c3790b2996a85",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Altice: Vodafone verliert durch Partner-Ausstieg bei OXG über eine Milliarde Euro",
-      "link": "https://www.golem.de/news/altice-vodafone-verliert-durch-partner-ausstieg-bei-oxg-ueber-eine-milliarde-euro-2609-213108.html",
-      "summary": "Der Ausstieg des Telekom-Milliardärs Drahi beim deutschen Glasfaser-Joint-Venture OXG ist für die Vodafone Group teuer: Die neue Partnerschaft wirkt nach Notverkauf. ( Vodafone , Glasfaser )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213108&amp;page=1&amp;ts=1789567082",
-      "published": "2026-09-16T15:58:02+02:00",
-      "category": "Technologie",
-      "score": 56.72
+      "score": 57.02
     }
   ]
 }
