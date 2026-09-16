@@ -1,7 +1,83 @@
 {
-  "generatedAt": "2026-09-16T12:36:07.730850+00:00",
+  "generatedAt": "2026-09-16T13:33:35.586214+00:00",
   "count": 15,
   "articles": [
+    {
+      "id": "tagesschau-ebd3cdcc82f37a01",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Social Media erst ab 13 Jahren - was die EU plant",
+      "link": "https://www.tagesschau.de/ausland/europa/eu-kommission-social-media-100.html",
+      "summary": "Die EU plant Altersbeschränkungen für TikTok, Instagram und Co: In Deutschland und anderen Mitgliedsstaaten soll der Zugang zu Sozialen Netzwerken erst ab 13 Jahren erlaubt werden. Was Brüssel plant - ein Überblick. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/e19d0b97-a6a5-4380-893e-78f6d5584495/AAABoKoOYzc/AAABnSSvrFg/16x9-big/jungendliche-smartphone-100.jpg?width=1920",
+      "published": "2026-09-16T14:40:13+02:00",
+      "category": "Nachrichten",
+      "score": 95.26,
+      "coverage": {
+        "sourceCount": 4,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Social-Media-Bann: EU-Kommission will Accounts für Kinder unter 13 Jahren verbieten",
+            "link": "https://www.spiegel.de/netzwelt/netzpolitik/social-media-bann-eu-kommission-will-accounts-fuer-kinder-unter-13-jahren-verbieten-a-1ae10c12-5023-4b61-a48c-0bc68ffbe891#ref=rss"
+          },
+          {
+            "source": "heise",
+            "title": "Von der Leyen plant EU-weites Mindestalter für Social Media",
+            "link": "https://www.heise.de/news/Von-der-Leyen-plant-EU-weites-Mindestalter-fuer-Social-Media-11454865.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag"
+          },
+          {
+            "source": "golem",
+            "title": "Mini-Konten für unter 15-Jährige: EU-Kommission will Social Media erst ab 13 Jahren erlauben",
+            "link": "https://www.golem.de/news/mini-konten-fuer-unter-15-jaehrige-eu-kommission-will-social-media-erst-ab-13-jahren-erlauben-2609-213088.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-c490308cb11ebcc3",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Gazastreifen: Tote bei Einsturz von ausgebombtem Wohnhaus",
+      "link": "https://www.tagesschau.de/ausland/europa/gaza-tote-hauseinsturz-100.html",
+      "summary": "Im Gazastreifen ist ein mehrstöckiges Wohnhaus eingestürzt. Es gibt zahlreiche Tote, noch fast 100 weitere Menschen werden vermisst. Helfer graben mit bloßen Händen nach ihnen. Das Gebäude war zuvor durch israelische Angriffe beschädigt worden.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/883e3925-8546-47ea-8a6c-3e69a3c72ce9/AAABoKpPaUM/AAABnSSvrFg/16x9-big/wohnhaus-gaza-100.jpg?width=1920",
+      "published": "2026-09-16T15:03:01+02:00",
+      "category": "Politik",
+      "score": 90.58,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Gaza-Stadt: Hamas meldet viele Tote und Verschüttete nach Gebäudeeinsturz",
+            "link": "https://www.spiegel.de/ausland/gaza-stadt-hamas-meldet-viele-tote-und-verschuettete-nach-gebaeudeeinsturz-a-4113134d-84a9-407d-9334-1e28c1dd41eb#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-8faba8a7489369b9",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "US-Senat stoppt Gesetz - Kryptowährungen unter Druck",
+      "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/krypto-us-senat-100.html",
+      "summary": "Ein US-Gesetz zur Regulierung von Kryptowährungen ist im Senat gescheitert. Das ist eine Niederlage für Donald Trump und setzt die Kurse unter Druck. Der Bitcoin fällt zeitweise unter 75.000 Dollar.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/a087b8a9-b1f0-4610-9d6c-e5aa9a4d6d6a/AAABoKnHiGc/AAABnSSvrFg/16x9-big/bitcoin-236.jpg?width=1920",
+      "published": "2026-09-16T14:37:06+02:00",
+      "category": "Politik",
+      "score": 82.22,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "golem",
+            "title": "Digitaler Finanzmarkt: US-Senat blockiert Trumps Krypto-Gesetz",
+            "link": "https://www.golem.de/news/digitaler-finanzmarkt-us-senat-blockiert-trumps-krypto-gesetz-2609-213083.html"
+          }
+        ]
+      }
+    },
     {
       "id": "tagesschau-acb0684d59f365d1",
       "source": "tagesschau",
@@ -12,7 +88,7 @@
       "image": "https://images.tagesschau.de/image/310cd902-7421-4a95-9c4a-5668fa347f34/AAABoKnQI6c/AAABnSSvrFg/16x9-big/thaci-107.jpg?width=1920",
       "published": "2026-09-16T13:48:26+02:00",
       "category": "Nachrichten",
-      "score": 79.34,
+      "score": 78.54,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -34,77 +110,85 @@
       "image": "https://cdn.prod.www.spiegel.de/images/793b2aef-c16d-4e7f-839d-743fedb0800e_w1200_r1.778_fpx62_fpy44.jpg",
       "published": "2026-09-16T14:12:00+02:00",
       "category": "Politik",
-      "score": 77.66
+      "score": 76.87
     },
     {
-      "id": "spiegel-0925c84268b8dceb",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Gaza-Stadt: Hamas meldet viele Tote und Verschüttete nach Gebäudeeinsturz",
-      "link": "https://www.spiegel.de/ausland/gaza-stadt-hamas-meldet-viele-tote-und-verschuettete-nach-gebaeudeeinsturz-a-4113134d-84a9-407d-9334-1e28c1dd41eb#ref=rss",
-      "summary": "Trotz Waffenruhe bombardiert Israel weiter Ziele im Gazastreifen. Ein mehrstöckiges Wohnhaus ist nach Luftangriffen nun eingestürzt, es gibt offenbar mehrere Tote und Verletzte. Dutzende Menschen werden wohl noch vermisst.",
-      "image": "https://cdn.prod.www.spiegel.de/images/61ffcf7c-2fd0-4681-a7e1-9ab8c50931e3_w1200_r1.778_fpx33.34_fpy50.jpg",
-      "published": "2026-09-16T11:48:00+02:00",
-      "category": "Politik",
-      "score": 75.66
-    },
-    {
-      "id": "tagesschau-3bca82b03209dd19",
+      "id": "tagesschau-ba4ebadfe9cb420b",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Streit über Wahlrechtsreform: Melonis Zitterpartie",
-      "link": "https://www.tagesschau.de/ausland/europa/meloni-wahlrecht-reform-100.html",
-      "summary": "Das Kabinett Meloni regiert Italien inzwischen länger als jeder seiner Vorgänger in der Nachkriegszeit. Und doch sitzt Meloni längst nicht mehr so fest im Sattel. Ein Streit über eine Wahlrechtsreform belastet ihre Koalition schwer. Von A. Giordano. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/304abf2d-1b10-4fcf-acf6-93c7696cdd3c/AAABoKX0gtw/AAABnSSvrFg/16x9-big/meloni-234.jpg?width=1920",
-      "published": "2026-09-16T06:29:45+02:00",
+      "title": "Drohne über Litauen war laut Regierung mit Sprengstoff bestückt",
+      "link": "https://www.tagesschau.de/ausland/europa/litauen-drohne-sprengstoff-100.html",
+      "summary": "Vorfälle mit Flugobjekten im NATO-Gebiet häufen sich: In Litauen wurde gestern eine Drohne abgeschossen, die der Regierung zufolge Sprengstoff geladen hatte. In Polen wurde ebenfalls eine mutmaßlich russische Drohne gefunden.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/ed040fc6-cd4d-4623-8540-4271c69448b9/AAABoKjxkpY/AAABnSSvrFg/16x9-big/litauen-kaunas-100.jpg?width=1920",
+      "published": "2026-09-16T14:40:15+02:00",
       "category": "Politik",
-      "score": 72.24
-    },
-    {
-      "id": "tagesschau-fdee9edb88afbebc",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Russlands Satellitenpläne: Bundeswehr warnt vor Putins Starlink-Alternative",
-      "link": "https://www.tagesschau.de/investigativ/ndr-wdr/russland-satelliten-starlink-100.html",
-      "summary": "Russland will mit Rasswet eine Alternative zu Starlink schaffen. In einem vertraulichen Bericht, der WDR und NDR vorliegt, warnt die Bundeswehr vor einem Erfolg des Projekts aus militärischer Sicht - und zweifelt gleichzeitig am Zeitplan.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/41ddcc92-35d6-44e3-8418-be5096711889/AAABoKULl0o/AAABnSSvrFg/16x9-big/starlink-satellit-106.jpg?width=1920",
-      "published": "2026-09-16T09:54:02+02:00",
-      "category": "Nachrichten",
-      "score": 71.98,
+      "score": 74.95,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "golem",
-            "title": "Rasswet: Russische Starlink-Alternative bereits in Gebrauch",
-            "link": "https://www.golem.de/news/rasswet-russische-starlink-alternative-bereits-in-gebrauch-2609-213099.html"
+            "source": "spiegel",
+            "title": "Rusinowo: Russische Sprengstoff-Drohne vor polnischer Ostseeküste entdeckt",
+            "link": "https://www.spiegel.de/ausland/rusinowo-russische-sprengstoff-drohne-vor-polnischer-ostseekueste-entdeckt-a-53f4c524-bf72-400c-8dad-442e8291a62b#ref=rss"
           }
         ]
       }
     },
     {
-      "id": "tagesschau-0583534c651e07a4",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Warum der Dollar trotz höherer US-Zinsen schwach bleibt",
-      "link": "https://www.tagesschau.de/wirtschaft/finanzen/dollar-trump-fed-zinserhoehung-100.html",
-      "summary": "Die US-Notenbank steht vor der ersten Zinserhöhung seit 2023. Doch der Dollar profitiert kaum. Hohe öffentliche Schulden und der Konflikt zwischen Trump und der Fed belasten das Vertrauen in die Weltleitwährung. Von Angela Göpfert. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/9b92ed36-e40f-45f0-aefe-5c16371abc22/AAABoKAIZfU/AAABnSSvrFg/16x9-big/dollar-128.jpg?width=1920",
-      "published": "2026-09-16T13:35:55+02:00",
-      "category": "Politik",
-      "score": 70.16
+      "id": "spiegel-9ab19c95de9f5023",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Sudan: Mindestens 60 Tote bei Einsturz von Goldmine",
+      "link": "https://www.spiegel.de/panorama/sudan-mindestens-60-tote-bei-einsturz-von-goldmine-a-ec3b7f4f-9eda-4738-8f66-49dfd8010d90#ref=rss",
+      "summary": "Dutzende Menschen sind auf der Suche nach Gold im Sudan verschüttet worden, viele werden noch vermisst. Offenbar Es fehlt es an schwerem Gerät, um Erde und Gestein aus dem Weg zu räumen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/f9b38fe9-0001-0004-0000-000000383848_w1200_r1.778_fpx69.99_fpy50.99.jpg",
+      "published": "2026-09-16T13:02:00+02:00",
+      "category": "Nachrichten",
+      "score": 71.46,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "tagesschau",
+            "title": "Mindestens 60 Tote bei Einsturz von Goldmine im Sudan",
+            "link": "https://www.tagesschau.de/ausland/afrika/sudan-goldmine-102.html"
+          }
+        ]
+      }
     },
     {
-      "id": "tagesschau-f0640fd6ed7b132f",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Gemeinsame Erklärung: CDU-Ministerpräsidenten stellen sich hinter Merz",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/cdu-ministerpraesidenten-merz-100.html",
-      "summary": "Kanzler Merz steht massiv unter Druck. Kurz vor den Landtagswahlen in Mecklenburg-Vorpommern und Berlin melden sich nun alle acht CDU-Ministerpräsidenten zu Wort - und stellen sich hinter Merz. Der reagiert erleichtert. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/a838d116-c746-4c36-99cd-969b2bef8468/AAABoHu6fAA/AAABnSSvrFg/16x9-big/merz-1528.jpg?width=1920",
-      "published": "2026-09-16T13:19:59+02:00",
+      "id": "golem-06e8e6499f63e3b2",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Rasswet: Russische Starlink-Alternative bereits in Gebrauch",
+      "link": "https://www.golem.de/news/rasswet-russische-starlink-alternative-bereits-in-gebrauch-2609-213099.html",
+      "summary": "Die Bundeswehr warnt vor einer russischen Megakonstellation aus Kommunikationssatelliten. Wann diese komplett sein könnte, ist unklar. ( Satelliteninternet , Politik )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213099&amp;page=1&amp;ts=1789562102",
+      "published": "2026-09-16T14:35:02+02:00",
+      "category": "Technologie",
+      "score": 71.19,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "tagesschau",
+            "title": "Russlands Satellitenpläne: Bundeswehr warnt vor Putins Starlink-Alternative",
+            "link": "https://www.tagesschau.de/investigativ/ndr-wdr/russland-satelliten-starlink-100.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-d8e1f8418159e8c9",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Neue Euro-Scheine: Berliner Büro bewirbt sich um Banknoten-Design",
+      "link": "https://www.spiegel.de/wirtschaft/service/neue-euro-scheine-berliner-buero-bewirbt-sich-um-banknoten-design-a-137c5c71-e861-4650-af50-89bc54a0a873#ref=rss",
+      "summary": "Der Euro soll neu gestaltet werden: Zehn Versionen stehen zur Wahl, darunter auch der Vorschlag einer Berliner Designagentur. Was haben sich die Macher bei der Gestaltung gedacht?",
+      "image": "https://cdn.prod.www.spiegel.de/images/bc7dac2f-e1f6-4cb9-908d-d25058bf0814_w1080_r1.778_fpx49_fpy41.jpg",
+      "published": "2026-09-16T15:04:00+02:00",
       "category": "Politik",
-      "score": 69.94
+      "score": 69.59
     },
     {
       "id": "spiegel-1f59f9ca708f3f21",
@@ -116,7 +200,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/6515a8a4-633b-406f-af04-7babde521048_w1200_r1.778_fpx44_fpy50.jpg",
       "published": "2026-09-16T11:51:00+02:00",
       "category": "Technologie",
-      "score": 69.71,
+      "score": 68.91,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -138,31 +222,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/9fc4c743-6510-4681-bd07-19ee96e5322d_w1200_r1.778_fpx40_fpy66.jpg",
       "published": "2026-09-16T11:46:00+02:00",
       "category": "Politik",
-      "score": 67.64
+      "score": 66.84
     },
     {
-      "id": "spiegel-dc2f795b3a9306fe",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Oktoberfest: Wiesnwirte überflügeln die Inflation - 400 Prozent Anstieg beim Bierpreis seit 1985",
-      "link": "https://www.spiegel.de/wirtschaft/oktoberfest-wiesnwirte-ueberfluegeln-die-inflation-400-prozent-anstieg-beim-bierpreis-seit-1985-a-a5cb33c0-94eb-48e7-82d6-4421a503c95a#ref=rss",
-      "summary": "Die jährlich wiederkehrende Diskussion über hohe Bierpreise auf dem Münchner Oktoberfest ödet Zaungäste ziemlich an. Die Wiesnbesucher haben aber einen Punkt.",
-      "image": "https://cdn.prod.www.spiegel.de/images/85f819b4-cf51-4d69-aff8-36b9963d8d24_w1200_r1.778_fpx59.19_fpy55.jpg",
-      "published": "2026-09-16T11:30:00+02:00",
-      "category": "Wirtschaft",
-      "score": 67.41
-    },
-    {
-      "id": "golem-820cbe57820f461b",
+      "id": "golem-c2f0365a4a9065bd",
       "source": "golem",
       "sourceWeight": 0.85,
-      "title": "Digitaler Finanzmarkt: US-Senat blockiert Trumps Krypto-Gesetz",
-      "link": "https://www.golem.de/news/digitaler-finanzmarkt-us-senat-blockiert-trumps-krypto-gesetz-2609-213083.html",
-      "summary": "Die US-Demokraten lehnten das Krypto-Gesetz insbesondere wegen fehlender Regeln gegen die Bereicherung des US-Präsidenten ab. ( Kryptowährung , Politik )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213083&amp;page=1&amp;ts=1789551481",
-      "published": "2026-09-16T11:38:01+02:00",
+      "title": "Mobilität: Bau des bundesweiten E-Lkw-Ladenetzes an Autobahnen startet",
+      "link": "https://www.golem.de/news/mobilitaet-bau-des-bundesweiten-e-lkw-ladenetzes-an-autobahnen-startet-2609-213106.html",
+      "summary": "Verkehrsminister Bilger hat den Start des Ausbaus eines bundesweiten E-Lkw-Ladenetzwerks verkündet. Zunächst werden 124 Ladepunkte eingerichtet. ( Lkw , Elektroauto )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213106&amp;page=1&amp;ts=1789565041",
+      "published": "2026-09-16T15:24:01+02:00",
       "category": "Politik",
-      "score": 65.53
+      "score": 59.87
     },
     {
       "id": "golem-db0e2900fba6ac80",
@@ -174,7 +246,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213070&amp;page=1&amp;ts=1789540742",
       "published": "2026-09-16T08:39:02+02:00",
       "category": "Technologie",
-      "score": 60.04
+      "score": 59.24
     },
     {
       "id": "golem-dec805151be977c3",
@@ -186,31 +258,19 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213094&amp;page=1&amp;ts=1789556881",
       "published": "2026-09-16T13:08:01+02:00",
       "category": "Wirtschaft",
-      "score": 58.78
+      "score": 57.98
     },
     {
-      "id": "golem-638e5dc60c1684aa",
+      "id": "golem-dac18e567679d6e7",
       "source": "golem",
       "sourceWeight": 0.85,
-      "title": "Anzeige: AVM FRITZ!Box Router zum Amazon-Bestpreis",
-      "link": "https://www.golem.de/news/anzeige-avm-fritz-box-router-zum-amazon-bestpreis-2609-213096.html",
-      "summary": "Leistungsstarke Router bilden das Herzstück des Heimnetzwerks. Amazon bietet die FRITZ!Box 6690 Cable aktuell für unter 250 Euro zum Amazon-Bestpreis an. ( Technik/Hardware )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213096&amp;page=1&amp;ts=1789561022",
-      "published": "2026-09-16T14:17:02+02:00",
+      "title": "Anzeige: Mechanische Gaming-Tastatur von Logitech reduziert bei Amazon",
+      "link": "https://www.golem.de/news/anzeige-mechanische-gaming-tastatur-von-logitech-reduziert-bei-amazon-2609-213102.html",
+      "summary": "Eine mechanische Gaming-Tastatur mit taktilen GL-Switches, Keycontrol-Funktion und Signalraten von 1 Millisekunde ist bei Amazon reduziert. ( Logitech , Eingabegerät )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213102&amp;page=1&amp;ts=1789562942",
+      "published": "2026-09-16T14:49:02+02:00",
       "category": "Technologie",
-      "score": 56.73
-    },
-    {
-      "id": "golem-01fa98db83f0243b",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Software-Defined Defence: Rheinmetall veröffentlicht Militärschnittstellen als Open Source",
-      "link": "https://www.golem.de/news/software-defined-defence-rheinmetall-veroeffentlicht-militaerschnittstellen-als-open-source-2609-213084.html",
-      "summary": "Rheinmetall legt Schnittstellen seiner Militärplattform als Open Source frei. Ein Blick in die Dokumentation zeigt aber: Offen ist hier nur ein Teil. ( Softwareentwicklung , API )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213084&amp;page=1&amp;ts=1789560302",
-      "published": "2026-09-16T14:05:02+02:00",
-      "category": "Technologie",
-      "score": 56.57
+      "score": 56.38
     }
   ]
 }
