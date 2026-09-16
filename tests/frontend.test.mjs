@@ -812,24 +812,32 @@ section("Dichte für schmale Displays");
 section("Zeitstempel auf schmalen Displays");
 {
   const { doc } = await boot();
-  const compact = doc.getElementById("last-updated-compact");
-  check("Kompakte Variante vorhanden", !!compact);
+  const stamp = doc.getElementById("last-updated");
   check(
-    "Trägt dieselbe Zeit wie die Kopfzeile",
-    /Aktualisiert \d{2}\.\d{2}\.\d{4}/.test(compact.textContent) &&
-      compact.textContent === doc.getElementById("last-updated").textContent,
-    compact.textContent
+    "Zeitstempel gesetzt",
+    /Aktualisiert \d{2}\.\d{2}\.\d{4}/.test(stamp.textContent),
+    stamp.textContent
   );
+  // Genau eine Stelle im Markup: keine gespiegelte Kopie in der Tab-Leiste
+  // mehr, die für Hilfstechnik versteckt werden müsste.
   check("Nur ein Element trägt die id", doc.querySelectorAll('[id="last-updated"]').length === 1);
-  check("Nur dekorativ gespiegelt", compact.getAttribute("aria-hidden") === "true");
+  check("Keine Kopie in der Tab-Leiste", !doc.querySelector(".tabbar .masthead-meta"));
+  check("Kein Element verbirgt sich vor Hilfstechnik", !stamp.hasAttribute("aria-hidden"));
+  check("Nicht ins Leere versteckt", !stamp.classList.contains("hidden"));
 
   const css = fs.readFileSync(path.join(ROOT, "styles.css"), "utf-8");
   const narrowBlock = css.match(/@media \(max-width: 40rem\) \{[\s\S]*?\n\}/);
   check("Mobil-Block vorhanden", !!narrowBlock);
   check(
-    "Auf schmalen Displays in der Tab-Leiste sichtbar",
-    /\[data-theme="app"\] \.masthead-meta-tabbar \{\s*display: block;/.test(narrowBlock[0])
+    "Zeitstempel bekommt eine eigene Zeile im Kopfbereich",
+    /\.masthead-meta \{[^}]*grid-column: 1 \/ -1;/.test(narrowBlock[0]),
+    narrowBlock[0].slice(0, 400)
   );
+  check(
+    "Zeitungs-Kopfzeile behält ihre zentrierte Ordnung",
+    /\[data-theme="editorial"\] \.masthead-inner \{\s*display: flex;/.test(narrowBlock[0])
+  );
+  check("Kein Tab-Leisten-Zeitstempel mehr im Stylesheet", !css.includes("masthead-meta-tabbar"));
 }
 
 /* ---------- 18. Wischgeste zwischen den Tabs ---------- */
@@ -878,6 +886,63 @@ section("Wischgeste zwischen den Tabs");
   check("Erkanntes Wischen stoppt das Mitscrollen", move.defaultPrevented);
   check("Wischen danach gewertet", activeTab() === "latest", activeTab());
 
+  // Echte Finger zittern: ein waagerechter Wisch, der mit einem senkrechten
+  // Zucken beginnt, darf nicht früh als "Scrollen" abgehakt werden. Früher
+  // verfiel die Richtungsentscheidung auf den ersten Probe-Move – so fühlte
+  // sich eine Seite unzuverlässig an.
+  clickTab(doc, "top");
+  fireTouch(list, "touchstart", 260, 400);
+  fireTouch(list, "touchmove", 269, 413); // mehr hoch als quer, aber uneindeutig
+  fireTouch(list, "touchmove", 200, 420); // korrigiert klar nach links
+  fireTouch(list, "touchend", 140, 422);
+  check("Senkrechter Fehlstart heilt sich", activeTab() === "latest", activeTab());
+
+  // Wieder zurück, diesmal mit Zucken in die andere Startrichtung.
+  fireTouch(list, "touchstart", 80, 400);
+  fireTouch(list, "touchmove", 89, 412);
+  fireTouch(list, "touchmove", 160, 418);
+  fireTouch(list, "touchend", 240, 420);
+  check("Rechtswisch nach Fehlstart -> Top", activeTab() === "top", activeTab());
+
+  // Wer weit zieht und am Ende leicht zurückfedert, verliert den Wisch
+  // nicht: bewertet wird die maximale Reichweite, nicht das Loslassen.
+  fireTouch(list, "touchstart", 260, 400);
+  fireTouch(list, "touchmove", 110, 402);
+  fireTouch(list, "touchend", 155, 402);
+  check("Zurückfedern verwirft keinen Wisch", activeTab() === "latest", activeTab());
+
+  // Während des Wischens folgt der Inhalt dem Finger und gleitet beim
+  // Loslassen sichtbar zurück.
+  fireTouch(list, "touchstart", 260, 400);
+  const dragging = fireTouch(list, "touchmove", 180, 404);
+  const main = doc.querySelector("main");
+  check("Inhalt folgt dem Finger", /translateX\(-80px\)/.test(main.style.transform), main.style.transform);
+  check("Leicht abgedunkelt", Number(main.style.opacity) < 1 && Number(main.style.opacity) > 0.7, main.style.opacity);
+  fireTouch(list, "touchend", 120, 405);
+  check("Nach dem Loslassen zurückgesetzt", main.style.transform === "" && main.style.opacity === "");
+  check("Rückweg als Transition", main.classList.contains("swipe-settle"));
+  check("Tab gewechselt", activeTab() === "read", activeTab());
+  void dragging;
+
+  // An der Kante der Tab-Reihe: gedämpfter Widerstand statt Mitführen,
+  // und am Ende sauber aufgeräumt. Im Top-Tab führt rechts nirgendwohin.
+  clickTab(doc, "top");
+  fireTouch(list, "touchstart", 60, 400);
+  fireTouch(list, "touchmove", 170, 404); // weiter rechts gibt es keinen Tab
+  const edgeTransform = main.style.transform;
+  check("Widerstand an der Kante", /translateX\(/.test(edgeTransform), edgeTransform);
+  const dragged = Number(edgeTransform.match(/translateX\((-?[\d.]+)px\)/)[1]);
+  check("Deutlich kürzer als der Fingerweg", dragged > 0 && dragged < 60, `${dragged}`);
+  fireTouch(list, "touchend", 170, 404);
+  check("An der Kante kein Tabwechsel", activeTab() === "top", activeTab());
+  check("Nach Kante aufgeräumt", main.style.transform === "");
+
+  // Senkrechtes Scrollen und Gesten auf Links erzeugen nie Feedback.
+  fireTouch(list, "touchstart", 200, 200);
+  fireTouch(list, "touchmove", 230, 420);
+  fireTouch(list, "touchend", 230, 600);
+  check("Scrollen erzeugt kein Feedback", main.style.transform === "" && !main.classList.contains("swipe-settle"));
+
   // Links und Buttons behalten ihre eigene Geste.
   clickTab(doc, "top");
   const link = list.querySelector(".news-title a");
@@ -886,6 +951,7 @@ section("Wischgeste zwischen den Tabs");
     fireTouch(link, "touchmove", 180, 404);
     fireTouch(link, "touchend", 120, 405);
     check("Wischen auf einem Link bleibt ohne Wirkung", activeTab() === "top", activeTab());
+    check("Auch ohne Feedback", doc.querySelector("main").style.transform === "");
   } else {
     check("Wischen auf einem Link bleibt ohne Wirkung", false, "kein Link in der Liste");
   }

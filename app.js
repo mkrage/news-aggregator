@@ -13,6 +13,12 @@ const AI_SUMMARY_MAX_AGE_HOURS = 24;
 // entschieden; ein Tap darf nie als Wischen durchgehen.
 const SWIPE_COMMIT_PX = 10;
 const SWIPE_TRIGGER_PX = 60;
+// Beim Loslassen darf der Finger etwas zurückfedern, ohne dass ein klar
+// gezogenes Wischen verloren geht (bewertet wird die maximale Reichweite).
+const SWIPE_END_SLACK_PX = 25;
+// Wie weit der Inhalt dem Finger höchstens folgt; darüber läuft er gedämpft
+// mit (Widerstand), damit Ränder und kurze Wege nicht "festkleben".
+const SWIPE_MAX_DRAG_PX = 80;
 // Die Geste muss deutlich mehr quer als hoch laufen, sonst ist es Scrollen.
 const SWIPE_DIRECTION_RATIO = 1.5;
 // Reihenfolge der Tabs für Wischgeste und Pfeiltasten.
@@ -276,12 +282,11 @@ function el(tag, className, text) {
   return node;
 }
 
-// Der Zeitstempel steht an bis zu zwei Stellen: Kopfzeile am großen
-// Bildschirm, Tab-Leiste am Telefon. Beide zeigen immer denselben Text.
+// Der Zeitstempel steht an genau einer Stelle im Kopfbereich; auf schmalen
+// Displays rutscht dieselbe Zeile nur per CSS unter die Marke (siehe
+// styles.css, Mobil-Block). So bleibt er für Hilfstechnik einmalig.
 function setLastUpdated(text) {
-  [dom.lastUpdated, dom.lastUpdatedCompact].forEach((node) => {
-    if (node) node.textContent = text;
-  });
+  if (dom.lastUpdated) dom.lastUpdated.textContent = text;
 }
 
 function svgIcon(pathData, className) {
@@ -710,11 +715,12 @@ function cacheDom() {
     filtersPanel: "filters-panel",
     filterBadge: "filter-badge",
     modeToggle: "mode-toggle",
-    lastUpdatedCompact: "last-updated-compact",
   };
   Object.entries(ids).forEach(([key, id]) => {
     dom[key] = document.getElementById(id);
   });
+  // Ziel der Wisch-Feedback-Bewegung: der ganze Inhalt unter der Tab-Leiste.
+  dom.main = document.querySelector("main");
 }
 
 function updateFilterBadge() {
@@ -781,16 +787,58 @@ function initTabs() {
    Nur Berührung, nie Maus oder Tastatur. Die Entscheidung fällt in drei
    Schritten: erst ab SWIPE_COMMIT_PX wird die Richtung bestimmt, ein klar
    waagerechter Lauf gilt als Wischen (und stoppt dann das Mitscrollen des
-   Browsers), ein senkrechter bricht ab. Links/rechts auf interaktiven
-   Elementen (Links, Buttons, Eingaben) wird ignoriert. Am ersten und letzten
-   Tab endet die Geste, statt umzuspringen. */
+   Browsers), ein klar senkrechter ist endgültig Scrollen. Zwischen beiden
+   bleibt die Geste offen – wackelige echte Finger dürfen die Richtung noch
+   korrigieren, sonst fühlt sich eine Seite "unzuverlässig" an. Während des
+   Wischens folgt der Inhalt dem Finger (gedämpft und begrenzt), am ersten
+   und letzten Tab nur mit Widerstand. Ausgelöst wird auf die maximale
+   Reichweite, nicht auf den Punkt des Loslassens. Links/rechts auf
+   interaktiven Elementen (Links, Buttons, Eingaben) wird ignoriert. */
 function initTabSwipe() {
+  const reducedMotion =
+    typeof window.matchMedia === "function" &&
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
   let startX = 0;
   let startY = 0;
+  let maxDeltaX = 0; // größte Reichweite in die jeweils aktive Richtung
   let mode = "idle"; // idle | armed | swiping | scrolling
 
-  function reset() {
+  function reset(animateBack = false) {
     mode = "idle";
+    // Beim Loslassen gleitet der Inhalt sichtbar zurück; bei Abbruch durch
+    // den Browser (touchcancel) ohne Übergang.
+    setDragFeedback(0, animateBack);
+  }
+
+  // Der Inhalt folgt dem Finger gedämpft: bis SWIPE_MAX_DRAG_PX direkt,
+  // darüber nur noch zur Hälfte. translate/opacity animieren im
+  // Compositor, das Zurückgleiten ist reine CSS-Transition.
+  function setDragFeedback(offset, animate) {
+    if (reducedMotion || !dom.main) return;
+    dom.main.classList.toggle("swipe-settle", animate);
+    if (offset === 0) {
+      dom.main.style.transform = "";
+      dom.main.style.opacity = "";
+      return;
+    }
+    const eased =
+      Math.sign(offset) *
+      (Math.min(Math.abs(offset), SWIPE_MAX_DRAG_PX) +
+        Math.max(0, Math.abs(offset) - SWIPE_MAX_DRAG_PX) * 0.5);
+    dom.main.style.transform = `translateX(${eased}px)`;
+    dom.main.style.opacity = String(1 - Math.min(Math.abs(eased) / 420, 0.25));
+  }
+
+  function targetIndex(deltaX) {
+    const index = TAB_ORDER.indexOf(state.tab);
+    // Wischen nach links -> nächster Tab, nach rechts -> vorheriger.
+    return deltaX < 0 ? index + 1 : index - 1;
+  }
+
+  function hasNeighbor(deltaX) {
+    const next = targetIndex(deltaX);
+    return next >= 0 && next < TAB_ORDER.length;
   }
 
   function onTouchStart(event) {
@@ -799,6 +847,7 @@ function initTabSwipe() {
     if (event.target.closest("a, button, input, select, textarea, label")) return;
     startX = event.touches[0].clientX;
     startY = event.touches[0].clientY;
+    maxDeltaX = 0;
     mode = "armed";
   }
 
@@ -810,15 +859,27 @@ function initTabSwipe() {
 
     if (mode === "armed") {
       if (Math.max(Math.abs(deltaX), Math.abs(deltaY)) < SWIPE_COMMIT_PX) return;
-      // Senkrecht gewinnt im Zweifel: dann ist es Scrollen, kein Wischen.
-      mode =
-        Math.abs(deltaX) > Math.abs(deltaY) * SWIPE_DIRECTION_RATIO ? "swiping" : "scrolling";
-      if (mode !== "swiping") return;
+      const horizontal = Math.abs(deltaX) > Math.abs(deltaY) * SWIPE_DIRECTION_RATIO;
+      const vertical = Math.abs(deltaY) > Math.abs(deltaX) * SWIPE_DIRECTION_RATIO;
+      // Eindeutig senkrecht ist endgültig Scrollen. Eindeutig quer beginnt
+      // das Wischen. Dazwischen offen bleiben: eigentlich waagerechte Wische
+      // starten oft mit einem senkrechten Zucken und würden sonst früh und
+      // einseitig als "Scrollen" abgehakt.
+      if (vertical) {
+        mode = "scrolling";
+        return;
+      }
+      if (!horizontal) return;
+      mode = "swiping";
     }
 
+    maxDeltaX = Math.max(maxDeltaX, Math.abs(deltaX));
     // Erst jetzt dem Browser das Scrollen nehmen – touch-action: pan-y hat
     // die Senkrechte bis hierher ohnehin allein geführt.
     event.preventDefault();
+    // An den Rändern der Tab-Reihe gibt es kein Ziel: dort nur ein kurzer
+    // Widerstand als "Ende erreicht"-Antwort, kein volles Mitführen.
+    setDragFeedback(hasNeighbor(deltaX) ? deltaX : deltaX * 0.25, false);
   }
 
   function onTouchEnd(event) {
@@ -827,14 +888,18 @@ function initTabSwipe() {
       return;
     }
     const deltaX = event.changedTouches[0].clientX - startX;
-    reset();
-    if (Math.abs(deltaX) < SWIPE_TRIGGER_PX) return;
-
-    const index = TAB_ORDER.indexOf(state.tab);
-    // Wischen nach links -> nächster Tab, nach rechts -> vorheriger.
-    const next = deltaX < 0 ? index + 1 : index - 1;
-    if (next < 0 || next >= TAB_ORDER.length) return;
-    activateTab(TAB_ORDER[next]);
+    const slackReached = Math.abs(deltaX) >= SWIPE_TRIGGER_PX - SWIPE_END_SLACK_PX;
+    // Richtung und Ziel kommen vom Loslass-Punkt, die Auslösung zusätzlich
+    // von der maximalen Reichweite: ein Finger, der am Ende etwas zurück-
+    // federt, verwirft keinen klar gezogenen Wisch.
+    const triggered =
+      maxDeltaX >= SWIPE_TRIGGER_PX &&
+      slackReached &&
+      Math.sign(deltaX) !== 0 &&
+      hasNeighbor(deltaX);
+    reset(true);
+    if (!triggered) return;
+    activateTab(TAB_ORDER[targetIndex(deltaX)]);
   }
 
   dom.newsList.addEventListener("touchstart", onTouchStart, { passive: true });

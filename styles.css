@@ -200,16 +200,6 @@ body {
   text-overflow: ellipsis;
 }
 
-/* Die zweite, schmale Variante des Zeitstempels lebt in der Tab-Leiste und
-   ist nur auf kleinen Displays sichtbar (siehe unten). */
-.masthead-meta-tabbar {
-  display: none;
-  margin: 0 0 0 auto;
-  flex-shrink: 0;
-  font-size: 0.7rem;
-  color: var(--text-faint);
-}
-
 .appearance {
   display: flex;
   align-items: center;
@@ -356,6 +346,15 @@ main {
   max-width: var(--content-width);
   margin: 0 auto;
   padding: 1.5rem 1.25rem 2rem;
+  /* Wisch-Feedback (Tabwechsel) bewegt diese Fläche per translate; will-
+     change hält die Ebene bereit, damit der erste Zug nicht ruckelt. */
+  will-change: transform;
+}
+
+/* Beim Loslassen gleitet der Inhalt in seine Ausgangslage zurück. Nur
+   transform/opacity: beides läuft im Compositor, nichts legt sich neu. */
+main.swipe-settle {
+  transition: transform 0.18s ease-out, opacity 0.18s ease-out;
 }
 
 /* ---------- Zusammenfassung ---------- */
@@ -1152,21 +1151,46 @@ footer {
     padding: 1.1rem 0.9rem 1.5rem;
   }
 
-  /* Auf kleinen Displays ist in der engen Kopfzeile kein Platz für den
-     Zeitstempel. In der App wandert er als knappe Angabe ans rechte Ende der
-     Tab-Leiste – die klebt ohnehin am oberen Rand und kostet keine eigene
-     Zeile. Im Zeitungs-Theme bleibt er im großzügigen Masthead, deshalb dort
-     keine Kopie in der Leiste. */
-  [data-theme="app"] .masthead-meta {
-    display: none;
+  /* Auf kleinen Displays bekommt der Zeitstempel eine eigene ruhige Zeile
+     unter der Marke statt eines Platzes in der ohnehin vollen Tab-Leiste:
+     dort drängelte er die Tabs, hier kostet er fast nichts und bleibt für
+     beide Themes dieselbe einzige, zugängliche Stelle. Die Kopfzeile wird
+     dafür zweizeilig, Marke links, Umschalter rechts. */
+  .masthead-inner {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    row-gap: 0.1rem;
+    padding-block: 0.45rem;
   }
 
-  [data-theme="app"] .masthead-meta-tabbar {
-    display: block;
+  .masthead-meta {
+    grid-column: 1 / -1;
+    font-size: 0.7rem;
+    letter-spacing: 0.02em;
+    /* Mitführendes max-width verhindert, dass die Ellipse früh anschlägt. */
+    max-width: 100%;
+  }
+
+  [data-theme="app"] .appearance {
+    margin-left: 0;
   }
 
   .brand-name {
     font-size: 0.95rem;
+  }
+
+  /* Das Zeitungs-Theme ist hier ohnehin mehrspaltig zentriert; die neue
+     Gitter-Zeile der Kopfzeile würde dessen Ordnung brechen. */
+  [data-theme="editorial"] .masthead-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 1.4rem 0.9rem 0.9rem;
+  }
+
+  [data-theme="editorial"] .masthead-meta {
+    max-width: none;
   }
 
   .theme-btn {
