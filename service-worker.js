@@ -1,4 +1,4 @@
-const CACHE_NAME = "news-aggregator-v10";
+const CACHE_NAME = "news-aggregator-v11";
 // Relative Pfade, damit der Worker auch lokal und unter anderem Basispfad
 // installiert. cache.addAll() ist atomar – ein 404 verhindert die Installation.
 const STATIC_ASSETS = [

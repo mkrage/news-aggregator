@@ -364,7 +364,13 @@ main.swipe-settle {
   transition: transform 0.18s ease-out, opacity 0.18s ease-out;
 }
 
-/* ---------- Zusammenfassung ---------- */
+/* ---------- Überblick: Zusammenfassung ---------- */
+/* Der Überblick-Tab zeigt nur die Zusammenfassung; als einziger Inhalt des
+   Tabs darf sie ruhiger und großzügiger stehen als ein eingebetteter Kasten. */
+.overview {
+  max-width: 44rem;
+}
+
 .ai-summary {
   margin-bottom: 1.5rem;
   padding: 1.25rem 1.4rem;
@@ -392,6 +398,16 @@ main.swipe-settle {
 
 .ai-summary p:last-child {
   margin-bottom: 0;
+}
+
+/* Stand der Zusammenfassung: ruhige Unterschrift unter dem Text, klar als
+   Zeitpunkt lesbar, ohne mit dem Masthead-Zeitstempel zu konkurrieren. */
+.ai-summary-meta {
+  margin: 1rem 0 0;
+  padding-top: 0.7rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.78rem;
+  color: var(--text-faint);
 }
 
 /* ---------- Steuerleiste ---------- */
@@ -616,8 +632,14 @@ main.swipe-settle {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.1rem;
-  /* Senkrechtes Scrollen führt der Browser allein; waagerechte Wischgesten
-     zwischen den Tabs entscheidet das Skript selbst. */
+    /* Senkrechtes Scrollen führt der Browser allein; waagerechte Wischgesten
+     zwischen den Tabs entscheidet das Skript selbst. Steht an der Liste und
+     nicht an main, damit Formularfelder der Steuerleiste unberührt bleiben. */
+  touch-action: pan-y;
+}
+
+/* Der Überblick hat keine Liste, soll aber dieselbe Wischgeste bieten. */
+.overview {
   touch-action: pan-y;
 }
 
@@ -1070,6 +1092,14 @@ footer {
 [data-theme="editorial"] .ai-summary p {
   font-family: var(--serif);
   font-size: 1.02rem;
+}
+
+/* Der Stand bleibt Sans und klein: Unterschrift, kein Fließtext. */
+[data-theme="editorial"] .ai-summary-meta {
+  font-family: var(--sans);
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 [data-theme="editorial"] .controls {

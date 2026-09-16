@@ -21,8 +21,10 @@ const SWIPE_END_SLACK_PX = 25;
 const SWIPE_MAX_DRAG_PX = 80;
 // Die Geste muss deutlich mehr quer als hoch laufen, sonst ist es Scrollen.
 const SWIPE_DIRECTION_RATIO = 1.5;
-// Reihenfolge der Tabs für Wischgeste und Pfeiltasten.
-const TAB_ORDER = ["top", "latest", "read"];
+// Reihenfolge der Tabs für Wischgeste und Pfeiltasten. Die Gelesen-Ansicht
+// ist kein Tab mehr, sondern ein Schalter in der Steuerleiste – sie taucht
+// hier bewusst nicht auf.
+const TAB_ORDER = ["overview", "top", "latest"];
 
 const THEMES = ["app", "editorial"];
 // Kachel/Liste am breiten Bildschirm, Dichte am schmalen: einspaltig sehen
@@ -48,7 +50,10 @@ const state = {
   all: [],
   top: [],
   aiSummary: null,
-  tab: "top",
+  tab: "overview",
+  // Nebenfunktion statt eigenem Tab: zeigt in Top/Neueste nur gelesene
+  // Artikel. Springt beim Tabwechsel zurück, damit sie nicht "klebt".
+  readOnly: false,
   view: "grid",
   density: "cards",
   theme: "app",
@@ -389,9 +394,16 @@ async function loadData() {
   } catch (error) {
     console.error(error);
     setLastUpdated("Datum unbekannt");
-    dom.newsList.replaceChildren(
-      el("p", "empty", "Fehler beim Laden der News. Bitte später erneut versuchen.")
-    );
+    const message = el("p", "empty", "Fehler beim Laden der News. Bitte später erneut versuchen.");
+    // Im Überblick wäre die Liste versteckt – der Fehler gehört dorthin, wo
+    // man ihn sieht. In den Artikel-Tabs bleibt er an der Liste.
+    if (state.tab === "overview") {
+      dom.aiSummary.classList.add("hidden");
+      dom.overviewEmpty.classList.add("hidden");
+      dom.panelOverview.appendChild(message);
+    } else {
+      dom.newsList.replaceChildren(message);
+    }
   }
 }
 
@@ -439,12 +451,14 @@ function getFilteredArticles() {
   const search = dom.search.value.trim().toLowerCase();
   const source = dom.sourceFilter.value;
   const category = dom.categoryFilter.value;
-  // Im Gelesen-Tab nie ausblenden – dort ist "gelesen" ja das Kriterium.
-  const hideRead = state.tab !== "read" && dom.hideRead.checked;
+  // Wird nur Gelesenes gezeigt, blendet der Schalter nichts zusätzlich aus –
+  // "gelesen" ist dort ja das Kriterium.
+  const hideRead = !state.readOnly && dom.hideRead.checked;
 
   let articles;
-  if (state.tab === "read") {
-    articles = state.all.filter((article) => isRead(article.id));
+  if (state.readOnly) {
+    const base = state.tab === "top" ? state.top : state.all;
+    articles = base.filter((article) => isRead(article.id));
   } else {
     articles = state.tab === "top" ? state.top : state.all;
   }
@@ -466,8 +480,24 @@ function getFilteredArticles() {
 
 /* ---------- Rendern ---------- */
 
+// Die Layout-Klassen der Liste setzen, ohne die Sichtbarkeit anzufassen:
+// "hidden" gehört activateTab und darf ein Re-Render nicht verwischen.
+function applyListLayout() {
+  const hidden = dom.newsList.classList.contains("hidden");
+  const isGrid = state.view === "grid";
+  dom.newsList.className = `news-list ${isGrid ? "top-view" : "list-view"} density-${state.density}`;
+  dom.newsList.classList.toggle("hidden", hidden);
+}
+
 function render() {
   renderAiSummary();
+
+  // Im Überblick-Tab bleibt die Liste versteckt; ihre Layout-Klassen werden
+  // trotzdem mitgepflegt, damit der Wechsel zurück nahtlos ist.
+  if (state.tab === "overview") {
+    applyListLayout();
+    return;
+  }
 
   // Observer der vorherigen Liste abräumen, sonst sammeln sie sich auf.
   observers.forEach((observer) => observer.disconnect());
@@ -476,14 +506,19 @@ function render() {
   const articles = getFilteredArticles();
   if (articles.length === 0) {
     dom.newsList.className = "news-list";
-    dom.newsList.replaceChildren(el("p", "empty", "Keine News gefunden."));
+    // Im Gelesen-Modus ist eine leere Liste kein Suchmisserfolg, sondern ein
+    // ehrlicher Zustand: noch nichts gelesen (oder die Filter schließen aus).
+    const message = state.readOnly
+      ? "Noch keine gelesenen Artikel in dieser Ansicht."
+      : "Keine News gefunden.";
+    dom.newsList.replaceChildren(el("p", "empty", message));
     return;
   }
 
   // Beide Klassen sind immer gesetzt; welche greift, entscheidet die
-  // Bildschirmbreite im Stylesheet.
-  const isGrid = state.view === "grid";
-  dom.newsList.className = `news-list ${isGrid ? "top-view" : "list-view"} density-${state.density}`;
+  // Bildschirmbreite im Stylesheet. Hier ist ein Artikel-Tab aktiv, die
+  // Liste ist also sichtbar.
+  applyListLayout();
 
   // Bezugsgröße für den Relevanzbalken: der stärkste Artikel der Auswahl.
   const maxScore = Math.max(
@@ -494,9 +529,23 @@ function render() {
   dom.newsList.replaceChildren(...articles.map((article) => buildCard(article, maxScore)));
 }
 
+// Der Überblick zeigt ausschließlich die Zusammenfassung. Ohne frische
+// Daten bleibt der Tab stehen und zeigt eine ruhige Leerstelle mit Hinweis
+// statt eines kaputten oder verschwundenen Panels.
 function renderAiSummary() {
-  if (state.tab !== "top" || !state.aiSummary) {
-    dom.aiSummary.classList.add("hidden");
+  if (state.tab !== "overview") return;
+
+  // Sichtbarkeit des Panels ist activateTab vorbehalten; beim ersten Rendern
+  // (Überblick ist Start-Tab) muss sie hier einmal hergestellt werden.
+  dom.panelOverview.classList.remove("hidden");
+  dom.newsList.classList.add("hidden");
+  dom.controls.classList.add("hidden");
+
+  const fresh = !!state.aiSummary;
+  dom.aiSummary.classList.toggle("hidden", !fresh);
+  dom.overviewEmpty.classList.toggle("hidden", fresh);
+
+  if (!fresh) {
     dom.aiSummaryContent.replaceChildren();
     return;
   }
@@ -508,7 +557,8 @@ function renderAiSummary() {
     .map((line) => el("p", null, line));
 
   dom.aiSummaryContent.replaceChildren(...paragraphs);
-  dom.aiSummary.classList.remove("hidden");
+  dom.aiSummaryTime.textContent = formatDate(state.aiSummary.generatedAt);
+  dom.aiSummaryTime.setAttribute("datetime", state.aiSummary.generatedAt);
 }
 
 function buildCard(article, maxScore) {
@@ -661,13 +711,15 @@ function applyReadState(item, id) {
   const read = isRead(id);
   item.classList.toggle("read", read);
 
-  // Im Gelesen-Tab gehört ein wieder ungelesener Artikel nicht mehr in die
+  // Im Gelesen-Modus gehört ein wieder ungelesener Artikel nicht mehr in die
   // Liste. isConnected: beim Aufbau einer Kachel ist sie noch nicht im DOM.
-  if (state.tab === "read" && !read && item.isConnected) {
+  if (state.readOnly && !read && item.isConnected) {
     item.remove();
     if (!dom.newsList.querySelector(".news-item")) {
       dom.newsList.className = "news-list";
-      dom.newsList.replaceChildren(el("p", "empty", "Keine News gefunden."));
+      dom.newsList.replaceChildren(
+        el("p", "empty", "Noch keine gelesenen Artikel in dieser Ansicht.")
+      );
     }
   }
 }
@@ -707,12 +759,17 @@ function cacheDom() {
   const ids = {
     lastUpdated: "last-updated",
     newsList: "news-list",
+    panelOverview: "panel-overview",
+    controls: "controls",
     aiSummary: "ai-summary",
     aiSummaryContent: "ai-summary-content",
+    aiSummaryTime: "ai-summary-time",
+    overviewEmpty: "overview-empty",
     search: "search",
     sourceFilter: "source-filter",
     categoryFilter: "category-filter",
     hideRead: "hide-read",
+    showReadOnly: "show-read-only",
     filterToggle: "filter-toggle",
     filtersPanel: "filters-panel",
     filterBadge: "filter-badge",
@@ -774,8 +831,21 @@ function activateTab(name) {
   });
   tab.classList.add("active");
   tab.setAttribute("aria-selected", "true");
-  dom.newsList.setAttribute("aria-labelledby", tab.id);
+
   state.tab = name;
+  // Die Gelesen-Nebenfunktion gehört zum jeweiligen Artikel-Tab und klebt
+  // nicht: ein Wechsel beginnt wieder mit der vollen Liste.
+  state.readOnly = false;
+  dom.showReadOnly.checked = false;
+
+  // Genau ein Panel ist sichtbar: Überblick oder Artikelliste samt
+  // Steuerleiste. Beide Panels benennen ihren Tab über aria-labelledby.
+  const overviewActive = name === "overview";
+  dom.panelOverview.classList.toggle("hidden", !overviewActive);
+  dom.newsList.classList.toggle("hidden", overviewActive);
+  dom.controls.classList.toggle("hidden", overviewActive);
+  if (!overviewActive) dom.newsList.setAttribute("aria-labelledby", tab.id);
+
   render();
 }
 
@@ -904,11 +974,13 @@ function initTabSwipe() {
     activateTab(TAB_ORDER[targetIndex(deltaX)]);
   }
 
-  dom.newsList.addEventListener("touchstart", onTouchStart, { passive: true });
+  // An main, nicht an der Liste: die Geste soll auch im Überblick-Tab
+  // funktionieren, der keine Artikelliste zeigt.
+  dom.main.addEventListener("touchstart", onTouchStart, { passive: true });
   // nicht passiv: ein erkanntes Wischen darf nicht mitscrollen
-  dom.newsList.addEventListener("touchmove", onTouchMove, { passive: false });
-  dom.newsList.addEventListener("touchend", onTouchEnd, { passive: true });
-  dom.newsList.addEventListener("touchcancel", reset, { passive: true });
+  dom.main.addEventListener("touchmove", onTouchMove, { passive: false });
+  dom.main.addEventListener("touchend", onTouchEnd, { passive: true });
+  dom.main.addEventListener("touchcancel", reset, { passive: true });
 }
 
 function initFilters() {
@@ -925,6 +997,13 @@ function initFilters() {
   });
 
   dom.hideRead.addEventListener("change", render);
+
+  // Gelesen-Nebenfunktion: kein Tabwechsel, sondern ein Umschalten der
+  // gerade sichtbaren Artikelliste – darum kein render() über die Tabs.
+  dom.showReadOnly.addEventListener("change", () => {
+    state.readOnly = dom.showReadOnly.checked;
+    render();
+  });
   updateFilterBadge();
 
   dom.filterToggle.addEventListener("click", () => {

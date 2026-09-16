@@ -210,20 +210,48 @@ function marks(store, key) {
 section("Laden und Rendern");
 {
   const { doc } = await boot();
-  check("Artikel gerendert", items(doc).length > 0, `${items(doc).length}`);
+  check("Start ist der Überblick-Tab", doc.querySelector(".tab.active").dataset.tab === "overview");
+  check(
+    "Überblick-Panel sichtbar",
+    !doc.getElementById("panel-overview").classList.contains("hidden"),
+    doc.getElementById("panel-overview").className
+  );
+  check(
+    "Liste und Steuerleiste versteckt",
+    doc.getElementById("news-list").classList.contains("hidden") &&
+      doc.getElementById("controls").classList.contains("hidden"),
+    `${doc.getElementById("news-list").className} / ${doc.getElementById("controls").className}`
+  );
   check(
     "Aktualisierungszeit gesetzt",
     /^\d{2}\.\d{2}\.\d{4}, \d{2}:\d{2}$/.test(doc.getElementById("last-updated").textContent),
     doc.getElementById("last-updated").textContent
   );
-  check("Quellenfilter gefüllt", doc.querySelectorAll("#source-filter option").length === 5);
-  check("Kategoriefilter gefüllt", doc.querySelectorAll("#category-filter option").length > 1);
   check("Zusammenfassung sichtbar", !doc.getElementById("ai-summary").classList.contains("hidden"));
   check(
     "Markup in der Zusammenfassung bleibt Text",
     doc.getElementById("ai-summary-content").querySelectorAll("b").length === 0 &&
       doc.getElementById("ai-summary-content").textContent.includes("<b>Zeile</b>")
   );
+  check(
+    "Stand der Zusammenfassung ist ein lokaler Zeitpunkt",
+    /^\d{2}\.\d{2}\.\d{4}, \d{2}:\d{2}$/.test(doc.getElementById("ai-summary-time").textContent),
+    doc.getElementById("ai-summary-time").textContent
+  );
+  check(
+    "Zeitpunkt ist maschinenlesbar",
+    !!doc.getElementById("ai-summary-time").getAttribute("datetime")
+  );
+  check("Keine Leerstelle bei frischen Daten", doc.getElementById("overview-empty").classList.contains("hidden"));
+
+  clickTab(doc, "top");
+  check("Top-News starten direkt mit Artikeln", items(doc).length > 0, `${items(doc).length}`);
+  check(
+    "Keine Zusammenfassung vor der Liste",
+    doc.getElementById("panel-overview").classList.contains("hidden")
+  );
+  check("Quellenfilter gefüllt", doc.querySelectorAll("#source-filter option").length === 5);
+  check("Kategoriefilter gefüllt", doc.querySelectorAll("#category-filter option").length > 1);
 
   clickTab(doc, "latest");
   const sparse = doc.querySelector('[data-id="sparse-1"]');
@@ -273,9 +301,9 @@ section("Escaping und URL-Härtung");
   check("Link öffnet in neuem Tab", valid.querySelector(".news-title a").target === "_blank");
 }
 
-/* ---------- 3. Gelesen-Tab ---------- */
+/* ---------- 3. Gelesen als Nebenfunktion ---------- */
 
-section("Gelesen-Tab");
+section("Gelesen als Nebenfunktion");
 {
   const [first, second] = news.articles;
   const store = new Map([
@@ -287,7 +315,18 @@ section("Gelesen-Tab");
   const errors = [];
   window.addEventListener("error", (event) => errors.push(event.message));
 
-  clickTab(doc, "read");
+  check("Kein Gelesen-Tab mehr in der Leiste", !doc.querySelector('.tab[data-tab="read"]'));
+  check("Genau drei Haupttabs", doc.querySelectorAll(".tab").length === 3);
+  check(
+    "Tabs heißen Überblick, Top-News, Neueste",
+    [...doc.querySelectorAll(".tab")].map((t) => t.textContent).join("|") === "Überblick|Top-News|Neueste"
+  );
+
+  clickTab(doc, "latest");
+  const toggle = doc.getElementById("show-read-only");
+  toggle.checked = true;
+  fire(toggle, "change");
+
   const list = items(doc);
   check("Rendert ohne Fehler", errors.length === 0, errors.join("; "));
   check("Zeigt gelesene und überscrollte Artikel", list.length === 2, `${list.length}`);
@@ -297,16 +336,36 @@ section("Gelesen-Tab");
   );
   check("Alle ausgegraut", list.every((el) => el.classList.contains("read")));
   check(
-    "aria-selected gesetzt",
-    doc.querySelector('.tab[data-tab="read"]').getAttribute("aria-selected") === "true" &&
-      doc.querySelector('.tab[data-tab="top"]').getAttribute("aria-selected") === "false"
+    "Tab bleibt Neueste, kein aria-Bruch",
+    doc.querySelector('.tab[data-tab="latest"]').getAttribute("aria-selected") === "true" &&
+      doc.getElementById("news-list").getAttribute("aria-labelledby") === "tab-latest"
   );
+
+  // Wieder ungelesen markierte Artikel verschwinden aus der Gelesen-Ansicht.
+  // (applyReadState entfernt sie, ohne die Liste neu aufzubauen.)
+  toggle.checked = false;
+  fire(toggle, "change");
+  check("Zurück in der vollen Liste", items(doc).length > 2, `${items(doc).length}`);
+
+  // Tabwechsel setzt die Nebenfunktion zurück: sie klebt nicht.
+  toggle.checked = true;
+  fire(toggle, "change");
+  check("Wieder nur Gelesene", items(doc).length === 2, `${items(doc).length}`);
+  clickTab(doc, "top");
+  check("Schalter nach Tabwechsel aus", doc.getElementById("show-read-only").checked === false);
+  check("Volle Top-Liste", items(doc).length > 2, `${items(doc).length}`);
+
+  // Leere Gelesen-Ansicht bekommt einen eigenen, ruhigen Hinweis.
+  const emptyStore = await boot();
+  clickTab(emptyStore.doc, "latest");
+  const emptyToggle = emptyStore.doc.getElementById("show-read-only");
+  emptyToggle.checked = true;
+  fire(emptyToggle, "change");
   check(
-    "Panel verweist auf den aktiven Tab",
-    doc.getElementById("news-list").getAttribute("aria-labelledby") === "tab-read"
+    "Leere Gelesen-Ansicht mit Hinweis",
+    emptyStore.doc.querySelector("#news-list .empty")?.textContent.includes("gelesenen"),
+    emptyStore.doc.querySelector("#news-list .empty")?.textContent
   );
-
-
 }
 
 /* ---------- 4. Ausblenden erst beim nächsten Laden ---------- */
@@ -436,6 +495,7 @@ section("Filter, Suche, Ansicht");
 section("Top-Tab und Zusammenfassung");
 {
   const { doc } = await boot();
+  clickTab(doc, "top");
   const heats = [...doc.querySelectorAll(".news-heat")];
   check("Relevanzbalken in jedem Top-Artikel", heats.length === items(doc).length);
   check(
@@ -450,7 +510,18 @@ section("Top-Tab und Zusammenfassung");
 
   clickTab(doc, "latest");
   check("Kein Relevanzbalken im Neueste-Tab", doc.querySelectorAll(".news-heat").length === 0);
-  check("Zusammenfassung nur im Top-Tab", doc.getElementById("ai-summary").classList.contains("hidden"));
+  check(
+    "Zusammenfassung bleibt dem Überblick vorbehalten",
+    doc.getElementById("panel-overview").classList.contains("hidden")
+  );
+  clickTab(doc, "overview");
+  check(
+    "Überblick zeigt sie wieder",
+    !doc.getElementById("ai-summary").classList.contains("hidden") &&
+      doc.getElementById("news-list").classList.contains("hidden"),
+    `ai: ${doc.getElementById("ai-summary").className} | list: ${doc.getElementById("news-list").className}`
+  );
+  clickTab(doc, "latest");
 
   const toggle = doc.querySelector('[data-id="long-1"] .toggle-summary');
   check("Aufklapp-Button vorhanden", !!toggle);
@@ -498,6 +569,7 @@ section("Speicherformat: Migration und Verfall");
   void kept;
 
   const broken = await boot({ store: new Map([["news-aggregator-read", "{kein json"]]) });
+  clickTab(broken.doc, "top");
   check("Defekter Speicherinhalt crasht nicht", items(broken.doc).length > 0);
 }
 
@@ -511,17 +583,26 @@ section("Fehlerfälle");
   failing.window.eval(appJs);
   await new Promise((resolve) => failing.window.setTimeout(resolve, 60));
   check(
-    "HTTP-Fehler zeigt Fehlermeldung",
-    failing.window.document.querySelector("#news-list .empty")?.textContent.includes("Fehler beim Laden")
+    "HTTP-Fehler zeigt Fehlermeldung im aktiven Panel",
+    [...failing.window.document.querySelectorAll("#panel-overview .empty")].some((p) =>
+      p.textContent.includes("Fehler beim Laden")
+    ),
+    failing.window.document.querySelector("#panel-overview").textContent
   );
 
   const withoutSummary = await boot({
     payloads: { ...defaultPayloads(), "data/ai-summary.json": null },
   });
   check(
-    "Fehlende Zusammenfassung stört nicht",
-    items(withoutSummary.doc).length > 0 &&
-      withoutSummary.doc.getElementById("ai-summary").classList.contains("hidden")
+    "Fehlende Zusammenfassung: Artikel in den anderen Tabs bleiben",
+    (clickTab(withoutSummary.doc, "top"), items(withoutSummary.doc).length > 0)
+  );
+  clickTab(withoutSummary.doc, "overview");
+  check(
+    "Überblick zeigt ruhige Leerstelle statt kaputtem Tab",
+    withoutSummary.doc.getElementById("ai-summary").classList.contains("hidden") &&
+      !withoutSummary.doc.getElementById("overview-empty").classList.contains("hidden") &&
+      withoutSummary.doc.getElementById("overview-empty").textContent.includes("keine aktuelle Zusammenfassung")
   );
 
   const stale = await boot({
@@ -534,8 +615,13 @@ section("Fehlerfälle");
     },
   });
   check(
-    "Veraltete Zusammenfassung wird ignoriert",
-    stale.doc.getElementById("ai-summary").classList.contains("hidden")
+    "Veraltete Zusammenfassung: ebenfalls Leerstelle",
+    stale.doc.getElementById("ai-summary").classList.contains("hidden") &&
+      !stale.doc.getElementById("overview-empty").classList.contains("hidden")
+  );
+  check(
+    "Veralteter Text wird nicht gezeigt",
+    !stale.doc.getElementById("panel-overview").textContent.includes("vorgestern")
   );
 
   const emptyArticles = await boot({
@@ -545,6 +631,7 @@ section("Fehlerfälle");
       "data/top-news.json": { generatedAt: new Date().toISOString(), articles: [] },
     },
   });
+  clickTab(emptyArticles.doc, "top");
   check("Leere Datenlage zeigt Hinweis", !!emptyArticles.doc.querySelector("#news-list .empty"));
 }
 
@@ -635,8 +722,13 @@ section("Layout-Wahl wird gemerkt");
 {
   const store = new Map();
   const { doc } = await boot({ store });
-  check("Start in Kachelansicht", doc.getElementById("news-list").className.includes("top-view"));
+  check(
+    "Startklasse bleibt Kachelansicht (im versteckten Panel)",
+    doc.getElementById("news-list").className.includes("top-view") &&
+      doc.getElementById("news-list").classList.contains("hidden")
+  );
 
+  clickTab(doc, "top");
   fire(doc.querySelector('.view-btn[data-view="list"]'), "click");
   check("Auf Liste gewechselt", doc.getElementById("news-list").className.includes("list-view"));
   check("Layout gemerkt", JSON.parse(store.get("news-aggregator-prefs")).view === "list");
@@ -676,6 +768,7 @@ section("Gelesen-Kennzeichnung");
 section("Weitere Quellen zur selben Nachricht");
 {
   const { doc } = await boot();
+  clickTab(doc, "top");
   const item = doc.querySelector('[data-id="covered-1"]');
   const row = item.querySelector(".news-coverage");
   const chips = [...row.querySelectorAll(".coverage-source")];
@@ -876,29 +969,29 @@ section("Wischgeste zwischen den Tabs");
   };
   const activeTab = () => doc.querySelector(".tab.active").dataset.tab;
 
-  check("Start im Top-Tab", activeTab() === "top");
+  check("Start im Überblick-Tab", activeTab() === "overview");
   swipe(260, 120);
-  check("Wischen nach links -> Neueste", activeTab() === "latest", activeTab());
+  check("Wischen nach links -> Top-News", activeTab() === "top", activeTab());
   swipe(260, 120);
-  check("Nochmal links -> Gelesen", activeTab() === "read", activeTab());
+  check("Nochmal links -> Neueste", activeTab() === "latest", activeTab());
   swipe(260, 120);
-  check("Am letzten Tab endet die Geste", activeTab() === "read", activeTab());
+  check("Am letzten Tab endet die Geste", activeTab() === "latest", activeTab());
   swipe(40, 260);
-  check("Wischen nach rechts -> Neueste", activeTab() === "latest", activeTab());
+  check("Wischen nach rechts -> Top-News", activeTab() === "top", activeTab());
   swipe(40, 260);
-  check("Zurück im Top-Tab", activeTab() === "top", activeTab());
+  check("Zurück im Überblick", activeTab() === "overview", activeTab());
   swipe(40, 260);
-  check("Am ersten Tab endet die Geste", activeTab() === "top", activeTab());
+  check("Am ersten Tab endet die Geste", activeTab() === "overview", activeTab());
 
   // Unter der Auslöseschwelle passiert nichts.
   swipe(200, 165);
-  check("Kurzes Wischen bleibt ohne Wirkung", activeTab() === "top", activeTab());
+  check("Kurzes Wischen bleibt ohne Wirkung", activeTab() === "overview", activeTab());
 
   // Überwiegend senkrecht = Scrollen, kein Tabwechsel.
   fireTouch(list, "touchstart", 200, 200);
   fireTouch(list, "touchmove", 230, 420);
   fireTouch(list, "touchend", 230, 600);
-  check("Senkrechter Lauf ist Scrollen", activeTab() === "top", activeTab());
+  check("Senkrechter Lauf ist Scrollen", activeTab() === "overview", activeTab());
 
   // Ein erkanntes Wischen darf nicht mitscrollen: preventDefault ab dem
   // Erkennen, nicht schon beim Berühren.
@@ -907,32 +1000,32 @@ section("Wischgeste zwischen den Tabs");
   const move = fireTouch(list, "touchmove", 180, 404);
   fireTouch(list, "touchend", 120, 405);
   check("Erkanntes Wischen stoppt das Mitscrollen", move.defaultPrevented);
-  check("Wischen danach gewertet", activeTab() === "latest", activeTab());
+  check("Wischen danach gewertet", activeTab() === "top", activeTab());
 
   // Echte Finger zittern: ein waagerechter Wisch, der mit einem senkrechten
   // Zucken beginnt, darf nicht früh als "Scrollen" abgehakt werden. Früher
   // verfiel die Richtungsentscheidung auf den ersten Probe-Move – so fühlte
   // sich eine Seite unzuverlässig an.
-  clickTab(doc, "top");
+  clickTab(doc, "overview");
   fireTouch(list, "touchstart", 260, 400);
   fireTouch(list, "touchmove", 269, 413); // mehr hoch als quer, aber uneindeutig
   fireTouch(list, "touchmove", 200, 420); // korrigiert klar nach links
   fireTouch(list, "touchend", 140, 422);
-  check("Senkrechter Fehlstart heilt sich", activeTab() === "latest", activeTab());
+  check("Senkrechter Fehlstart heilt sich", activeTab() === "top", activeTab());
 
   // Wieder zurück, diesmal mit Zucken in die andere Startrichtung.
   fireTouch(list, "touchstart", 80, 400);
   fireTouch(list, "touchmove", 89, 412);
   fireTouch(list, "touchmove", 160, 418);
   fireTouch(list, "touchend", 240, 420);
-  check("Rechtswisch nach Fehlstart -> Top", activeTab() === "top", activeTab());
+  check("Rechtswisch nach Fehlstart -> Überblick", activeTab() === "overview", activeTab());
 
   // Wer weit zieht und am Ende leicht zurückfedert, verliert den Wisch
   // nicht: bewertet wird die maximale Reichweite, nicht das Loslassen.
   fireTouch(list, "touchstart", 260, 400);
   fireTouch(list, "touchmove", 110, 402);
   fireTouch(list, "touchend", 155, 402);
-  check("Zurückfedern verwirft keinen Wisch", activeTab() === "latest", activeTab());
+  check("Zurückfedern verwirft keinen Wisch", activeTab() === "top", activeTab());
 
   // Während des Wischens folgt der Inhalt dem Finger und gleitet beim
   // Loslassen sichtbar zurück.
@@ -944,12 +1037,12 @@ section("Wischgeste zwischen den Tabs");
   fireTouch(list, "touchend", 120, 405);
   check("Nach dem Loslassen zurückgesetzt", main.style.transform === "" && main.style.opacity === "");
   check("Rückweg als Transition", main.classList.contains("swipe-settle"));
-  check("Tab gewechselt", activeTab() === "read", activeTab());
+  check("Tab gewechselt", activeTab() === "latest", activeTab());
   void dragging;
 
   // An der Kante der Tab-Reihe: gedämpfter Widerstand statt Mitführen,
-  // und am Ende sauber aufgeräumt. Im Top-Tab führt rechts nirgendwohin.
-  clickTab(doc, "top");
+  // und am Ende sauber aufgeräumt. Im Überblick führt rechts nirgendwohin.
+  clickTab(doc, "overview");
   fireTouch(list, "touchstart", 60, 400);
   fireTouch(list, "touchmove", 170, 404); // weiter rechts gibt es keinen Tab
   const edgeTransform = main.style.transform;
@@ -957,7 +1050,7 @@ section("Wischgeste zwischen den Tabs");
   const dragged = Number(edgeTransform.match(/translateX\((-?[\d.]+)px\)/)[1]);
   check("Deutlich kürzer als der Fingerweg", dragged > 0 && dragged < 60, `${dragged}`);
   fireTouch(list, "touchend", 170, 404);
-  check("An der Kante kein Tabwechsel", activeTab() === "top", activeTab());
+  check("An der Kante kein Tabwechsel", activeTab() === "overview", activeTab());
   check("Nach Kante aufgeräumt", main.style.transform === "");
 
   // Senkrechtes Scrollen und Gesten auf Links erzeugen nie Feedback.
@@ -979,15 +1072,35 @@ section("Wischgeste zwischen den Tabs");
     check("Wischen auf einem Link bleibt ohne Wirkung", false, "kein Link in der Liste");
   }
 
-  // Ein Tabwechsel per Geste rendert wie ein Klick: Zusammenfassung folgt.
+  // Auch im Überblick funktioniert die Geste, obwohl dort keine Liste steht:
+  // die Handler hängen an main.
+  clickTab(doc, "overview");
+  fireTouch(doc.getElementById("panel-overview"), "touchstart", 260, 400);
+  fireTouch(doc.getElementById("panel-overview"), "touchmove", 180, 404);
+  fireTouch(doc.getElementById("panel-overview"), "touchend", 120, 405);
+  check("Wischen im Überblick wechselt den Tab", activeTab() === "top", activeTab());
+
+  // Ein Tabwechsel per Geste rendert wie ein Klick: Liste und Steuerleiste
+  // folgen dem gewählten Panel.
   swipe(260, 120);
+  check("Nach Wischen auf Neueste ist das Panel richtig", activeTab() === "latest", activeTab());
   check(
-    "Nach Wischen auf Neueste ist die Zusammenfassung weg",
-    doc.getElementById("ai-summary").classList.contains("hidden")
+    "Überblick-Panel dabei versteckt",
+    doc.getElementById("panel-overview").classList.contains("hidden") &&
+      !doc.getElementById("controls").classList.contains("hidden")
   );
   check(
     "Panel verweist auf den gewischten Tab",
     list.getAttribute("aria-labelledby") === "tab-latest"
+  );
+  swipe(40, 260);
+  swipe(40, 260);
+  check("Zurückgewischt in den Überblick", activeTab() === "overview", activeTab());
+  check(
+    "Zusammenfassung wieder sichtbar",
+    !doc.getElementById("ai-summary").classList.contains("hidden") &&
+      doc.getElementById("news-list").classList.contains("hidden"),
+    `ai: ${doc.getElementById("ai-summary").className} | list: ${doc.getElementById("news-list").className}`
   );
 }
 

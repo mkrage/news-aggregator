@@ -10,7 +10,7 @@ Ein statischer News-Aggregator, der auf GitHub Pages läuft und über GitHub Act
 - Lokaler Lesestatus im Browser
 - Zwei umschaltbare Darstellungen (App / Zeitung), je mit Hell- und Dunkelmodus
 - PWA-fähig
-- Optional: KI-Zusammenfassung der Top-Themen via Gemini
+- Optional: KI-Zusammenfassung der Top-Themen via Gemini (zweimal täglich) im eigenen Überblick-Tab mit Stand-Angabe
 
 ## Architektur
 
@@ -101,6 +101,21 @@ ist – wer bei „App" bleibt, holt keinen externen Font.
 Auf schmalen Displays teilen sich die drei Tabs die volle Breite; am großen
 Bildschirm behalten sie ihre natürliche Größe.
 
+### Tabs und Gelesen-Ansicht
+
+Drei Haupttabs führen durch die Seite: **Überblick** (nur die
+KI-Zusammenfassung samt Stand, bei fehlenden oder veralteten Daten eine ruhige
+Leerstelle mit Hinweis), **Top-News** (die gewichtete Auswahl, startet direkt
+mit den Artikeln) und **Neueste** (alles nach Zeit). Auf dem Telefon wechselt
+eine Wischgeste zwischen den Tabs; sie funktioniert auch im Überblick, obwohl
+dort keine Liste steht.
+
+Die frühere Gelesen-Ansicht ist kein Tab mehr, sondern ein Schalter
+„Nur gelesene" in der Steuerleiste – direkt neben „Gelesene ausblenden", weil
+beide zum selben Thema gehören. Der Schalter wirkt auf den gerade aktiven
+Artikel-Tab und springt beim Tabwechsel zurück, damit er nicht unbemerkt
+weiterfiltert. Im Überblick ist die Steuerleiste ohnehin ausgeblendet.
+
 ### Layout und Dichte
 
 Welche Frage der Umschalter rechts in der Filterzeile stellt, hängt von der
@@ -166,6 +181,34 @@ zu Nebenzeiten ergeben in Summe verlässlich etwa ein Update pro Stunde.
 Schlägt der Abruf fehl oder liefert deutlich weniger Artikel als der letzte Lauf,
 bricht das Script mit Exit-Code 1 ab und lässt die bestehenden Daten unangetastet
 – eine leere Seite ist schlimmer als eine etwas veraltete.
+
+### KI-Zusammenfassung
+
+Die Feeds kommen stündlich, die Gemini-Zusammenfassung nur zweimal täglich: im
+Lauf um `:23` in der Stunde 07 und 19 **Berliner Ortszeit**. Cron kennt nur UTC
+und läge nach jeder Zeitumstellung eine Stunde daneben, deshalb entscheidet
+`fetch_news.py` anhand der Ortszeit, nicht der Zeitplan. Wird der Lauf verzögert,
+greift noch jeder Start innerhalb derselben Stunde; der `:53`-Lauf erkennt an der
+bereits vermerkten Fensterkennung (`slot`), dass nichts mehr zu tun ist.
+
+Manuelle Starts über *Run workflow* bieten die Eingabe `ai_summary`:
+
+| Wert | Verhalten |
+| --- | --- |
+| `force` (Vorgabe) | fragt Gemini in jedem Fall |
+| `auto` | wie der Zeitplan – nur im Morgen- oder Abendfenster |
+| `skip` | lässt die Zusammenfassung unberührt |
+
+Stündliche Läufe ohne KI-Fenster fassen `data/ai-summary.json` nicht an, und ein
+fehlgeschlagener Gemini-Aufruf löscht den letzten guten Stand nicht sofort – er
+ist höchstens ein paar Stunden alt. Erst nach `AI_SUMMARY_MAX_AGE_HOURS` (26 h,
+also zwei ausgefallenen Fenstern) verschwindet die Datei, ebenso bei unlesbarem
+Zeitstempel. Ohne `GEMINI_API_KEY` entsteht gar keine Zusammenfassung.
+
+Im Frontend akzeptiert `app.js` die Datei nur innerhalb von 24 h
+(`AI_SUMMARY_MAX_AGE_HOURS` dort); danach zeigt der Überblick-Tab eine ruhige
+Leerstelle statt veraltetem Text. Der Tab selbst bleibt stehen – er ist einer
+der drei Haupttabs und verschwindet nie.
 
 ## Lokale Entwicklung
 

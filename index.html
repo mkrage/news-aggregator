@@ -80,19 +80,29 @@
 
   <nav class="tabbar" role="tablist" aria-label="Ansicht">
     <div class="tabbar-inner">
-      <button class="tab active" id="tab-top" data-tab="top" role="tab" aria-selected="true" aria-controls="news-list">Top News</button>
+      <button class="tab active" id="tab-overview" data-tab="overview" role="tab" aria-selected="true" aria-controls="panel-overview">Überblick</button>
+      <button class="tab" id="tab-top" data-tab="top" role="tab" aria-selected="false" aria-controls="news-list">Top-News</button>
       <button class="tab" id="tab-latest" data-tab="latest" role="tab" aria-selected="false" aria-controls="news-list">Neueste</button>
-      <button class="tab" id="tab-read" data-tab="read" role="tab" aria-selected="false" aria-controls="news-list">Gelesen</button>
     </div>
   </nav>
 
   <main>
-    <section id="ai-summary" class="ai-summary hidden">
-      <h2 class="ai-summary-title">Zusammenfassung des Tages</h2>
-      <div id="ai-summary-content"></div>
+    <!-- Überblick: nur die KI-Zusammenfassung mit ihrem Stand. Ohne frische
+         Daten steht hier eine ruhige Leerstelle statt eines kaputten Tabs. -->
+    <section id="panel-overview" class="overview hidden" role="tabpanel" aria-labelledby="tab-overview" tabindex="0">
+      <article id="ai-summary" class="ai-summary">
+        <h2 class="ai-summary-title">Zusammenfassung des Tages</h2>
+        <div id="ai-summary-content"></div>
+        <p class="ai-summary-meta">Stand <time id="ai-summary-time"></time> · zweimal täglich aktualisiert</p>
+      </article>
+      <p id="overview-empty" class="empty hidden">
+        Derzeit ist keine aktuelle Zusammenfassung verfügbar. Sie erscheint
+        zweimal täglich, morgens und abends – solange lohnt ein Blick in die
+        Top-News.
+      </p>
     </section>
 
-    <section class="controls">
+    <section class="controls" id="controls">
       <div class="controls-bar">
         <div class="search-wrapper">
           <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
@@ -107,6 +117,14 @@
           <input type="checkbox" id="hide-read" checked>
           <span class="switch-slider"></span>
           <span class="switch-label">Gelesene ausblenden</span>
+        </label>
+        <!-- Die frühere Gelesen-Ansicht als Nebenfunktion direkt neben dem
+             zugehörigen Ausblenden-Schalter. Wirkt auf den jeweils aktiven
+             Artikel-Tab und springt beim Tabwechsel wieder zurück. -->
+        <label class="switch" title="Nur gelesene Artikel anzeigen">
+          <input type="checkbox" id="show-read-only">
+          <span class="switch-slider"></span>
+          <span class="switch-label">Nur gelesene</span>
         </label>
         <div class="view-toggle" role="group" aria-label="Layout">
           <button class="view-btn active" data-view="grid" aria-label="Kachelansicht" aria-pressed="true" title="Kacheln">
@@ -142,7 +160,7 @@
       </div>
     </section>
 
-    <section id="news-list" class="news-list top-view" role="tabpanel" aria-labelledby="tab-top" tabindex="0">
+    <section id="news-list" class="news-list top-view hidden" role="tabpanel" aria-labelledby="tab-top" tabindex="0">
       <div class="skeleton" aria-hidden="true"><div class="skeleton-image"></div><div class="skeleton-body"><span class="skeleton-line w40"></span><span class="skeleton-line w90"></span><span class="skeleton-line w70"></span></div></div>
       <div class="skeleton" aria-hidden="true"><div class="skeleton-image"></div><div class="skeleton-body"><span class="skeleton-line w40"></span><span class="skeleton-line w90"></span><span class="skeleton-line w70"></span></div></div>
       <div class="skeleton" aria-hidden="true"><div class="skeleton-image"></div><div class="skeleton-body"><span class="skeleton-line w40"></span><span class="skeleton-line w90"></span><span class="skeleton-line w70"></span></div></div>

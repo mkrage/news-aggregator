@@ -369,6 +369,113 @@ class TestWriteJson(unittest.TestCase):
             fn.write_json(path, {"articles": [{"id": "a"}, {"id": "b"}]})
             self.assertEqual(fn.previous_count(path), 2)
 
+    def test_read_json(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = os.path.join(tmp, "x.json")
+            self.assertIsNone(fn.read_json(path))
+            fn.write_json(path, {"a": 1})
+            self.assertEqual(fn.read_json(path), {"a": 1})
+            with open(path, "w", encoding="utf-8") as f:
+                f.write("kein json")
+            self.assertIsNone(fn.read_json(path))
+
+
+class TestAiSummarySchedule(unittest.TestCase):
+    """07:23 und 19:23 Berliner Zeit – im Sommer wie im Winter."""
+
+    @staticmethod
+    def _utc(*args):
+        return datetime(*args, tzinfo=timezone.utc)
+
+    def test_sommerzeit_fenster(self):
+        # CEST = UTC+2: 05:23 UTC ist 07:23 in Berlin.
+        self.assertEqual(fn.ai_summary_slot(self._utc(2026, 7, 1, 5, 23)), "2026-07-01T07")
+        self.assertEqual(fn.ai_summary_slot(self._utc(2026, 7, 1, 17, 23)), "2026-07-01T19")
+
+    def test_winterzeit_fenster(self):
+        # CET = UTC+1: dieselbe Ortszeit liegt eine Stunde später in UTC.
+        self.assertEqual(fn.ai_summary_slot(self._utc(2026, 1, 15, 6, 23)), "2026-01-15T07")
+        self.assertEqual(fn.ai_summary_slot(self._utc(2026, 1, 15, 18, 23)), "2026-01-15T19")
+
+    def test_sommerzeit_utc_zeitpunkt_ist_im_winter_kein_fenster(self):
+        self.assertIsNone(fn.ai_summary_slot(self._utc(2026, 1, 15, 5, 23)))
+        self.assertIsNone(fn.ai_summary_slot(self._utc(2026, 7, 1, 6, 23)))
+
+    def test_uebrige_stunden_ohne_fenster(self):
+        for hour in range(24):
+            moment = self._utc(2026, 7, 1, hour, 23)
+            if hour in (5, 17):
+                continue
+            with self.subTest(hour=hour):
+                self.assertIsNone(fn.ai_summary_slot(moment))
+
+    def test_auto_erzeugt_nur_im_fenster(self):
+        self.assertTrue(fn.should_generate_ai_summary("auto", self._utc(2026, 7, 1, 5, 23)))
+        self.assertFalse(fn.should_generate_ai_summary("auto", self._utc(2026, 7, 1, 8, 23)))
+
+    def test_auto_nur_einmal_pro_fenster(self):
+        # Der :53-Lauf derselben Stunde soll nicht noch einmal fragen.
+        existing = {"slot": "2026-07-01T07"}
+        self.assertFalse(
+            fn.should_generate_ai_summary("auto", self._utc(2026, 7, 1, 5, 53), existing)
+        )
+        self.assertTrue(
+            fn.should_generate_ai_summary("auto", self._utc(2026, 7, 1, 17, 23), existing)
+        )
+
+    def test_force_und_skip(self):
+        outside = self._utc(2026, 7, 1, 8, 23)
+        inside = self._utc(2026, 7, 1, 5, 23)
+        self.assertTrue(fn.should_generate_ai_summary("force", outside))
+        self.assertFalse(fn.should_generate_ai_summary("skip", inside))
+
+    def test_unbekannter_modus_verhaelt_sich_wie_auto(self):
+        self.assertFalse(fn.should_generate_ai_summary("", self._utc(2026, 7, 1, 8, 23)))
+        self.assertTrue(fn.should_generate_ai_summary(None, self._utc(2026, 7, 1, 5, 23)))
+
+
+class TestDropStaleAiSummary(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.path = os.path.join(self.tmp.name, "ai-summary.json")
+        self.now = datetime(2026, 7, 1, 12, 0, tzinfo=timezone.utc)
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def _write(self, generated_at):
+        payload = {"summary": "x"}
+        if generated_at is not None:
+            payload["generatedAt"] = generated_at
+        fn.write_json(self.path, payload)
+        return payload
+
+    def test_frische_zusammenfassung_bleibt(self):
+        payload = self._write((self.now - timedelta(hours=6)).isoformat())
+        self.assertFalse(fn.drop_stale_ai_summary(self.path, payload, self.now))
+        self.assertTrue(os.path.exists(self.path))
+
+    def test_stuendlicher_lauf_loescht_nicht(self):
+        # Zwischen zwei KI-Fenstern liegen zwölf Stunden; die dürfen nichts kosten.
+        payload = self._write((self.now - timedelta(hours=12)).isoformat())
+        self.assertFalse(fn.drop_stale_ai_summary(self.path, payload, self.now))
+        self.assertTrue(os.path.exists(self.path))
+
+    def test_ueberalterte_zusammenfassung_faellt_weg(self):
+        payload = self._write((self.now - timedelta(hours=30)).isoformat())
+        self.assertTrue(fn.drop_stale_ai_summary(self.path, payload, self.now))
+        self.assertFalse(os.path.exists(self.path))
+
+    def test_unlesbarer_zeitstempel_faellt_weg(self):
+        for value in (None, "Unsinn", "2026-07-01T10:00:00"):
+            with self.subTest(value=value):
+                payload = self._write(value)
+                self.assertTrue(fn.drop_stale_ai_summary(self.path, payload, self.now))
+                self.assertFalse(os.path.exists(self.path))
+
+    def test_ohne_datei_passiert_nichts(self):
+        self.assertFalse(fn.drop_stale_ai_summary(self.path, None, self.now))
+
 
 class TestFetchFeed(unittest.TestCase):
     """Prüft fetch_feed gegen einen vorgegebenen Feed, ohne Netzwerk."""
