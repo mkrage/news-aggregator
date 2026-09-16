@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T00:31:58.949278+00:00",
+  "generatedAt": "2026-09-16T01:55:38.833636+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/ba01822f-f82b-4029-b97c-9ca0d8ff3ca3/AAABoKZhJzo/AAABnSSvrFg/16x9-big/merz-1606.jpg?width=1920",
       "published": "2026-09-15T20:42:47+02:00",
       "category": "Politik",
-      "score": 78.15,
+      "score": 76.99,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -34,7 +34,7 @@
       "image": "https://images.tagesschau.de/image/7507e67d-ef89-410f-a537-b3ba2e4431f8/AAABoKOh_SU/AAABnSSvrFg/16x9-big/trump-jr-bettina-100.jpg?width=1920",
       "published": "2026-09-15T10:42:11+02:00",
       "category": "Politik",
-      "score": 75.26,
+      "score": 74.1,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -56,7 +56,7 @@
       "image": "https://images.tagesschau.de/image/81f9bee2-3f96-4aef-9020-c89247900fa8/AAABoKWYna4/AAABnSSvrFg/16x9-big/angriff-ukraine-110.jpg?width=1920",
       "published": "2026-09-15T17:03:57+02:00",
       "category": "Politik",
-      "score": 71.11
+      "score": 69.95
     },
     {
       "id": "tagesschau-d66b4c921582ea04",
@@ -68,7 +68,7 @@
       "image": "https://images.tagesschau.de/image/9d544226-0de0-45ee-9385-e780ef456424/AAABm02sCI4/AAABnSSvrFg/16x9-big/supreme-court-178.jpg?width=1920",
       "published": "2026-09-15T16:52:07+02:00",
       "category": "Politik",
-      "score": 70.95
+      "score": 69.78
     },
     {
       "id": "tagesschau-906c5e46d4c7af43",
@@ -80,7 +80,7 @@
       "image": "https://images.tagesschau.de/image/1878aaab-2f86-4e7b-90c0-e47e58582d1c/AAABoKeTH9Q/AAABnSSvrFg/16x9-big/kennedy-center-114.jpg?width=1920",
       "published": "2026-09-16T02:17:12+02:00",
       "category": "Politik",
-      "score": 70.79
+      "score": 69.63
     },
     {
       "id": "spiegel-54f413b9c3182bfb",
@@ -92,7 +92,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/c2977f69-b76c-4bd8-b020-fb6a68040ffe_w1200_r1.778_fpx36.92_fpy49.98.jpg",
       "published": "2026-09-16T00:47:00+02:00",
       "category": "Politik",
-      "score": 70.54,
+      "score": 69.38,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -105,6 +105,18 @@
       }
     },
     {
+      "id": "spiegel-a712c85bf0c85e90",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Ukraine meldet Test neuer Waffe zur Drohnenabwehr",
+      "link": "https://www.spiegel.de/ausland/ukraine-meldet-test-neuer-waffe-zur-drohnenabwehr-a-ba0cf54a-635d-443a-a9d7-79217999015f#ref=rss",
+      "summary": "Beim Abschuss sogenannter Shahed-Drohnen berichtet die Ukraine von Fortschritten. Ein immer größeres Problem sind russische Angriffe auf Lokomotiven. Ein Minister nannte nun konkrete Zahlen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/667ab3dc-6421-4a90-b0a0-18c141e6bf9e_w1200_r1.778_fpx45.33_fpy50.jpg",
+      "published": "2026-09-16T02:33:00+02:00",
+      "category": "Politik",
+      "score": 68.85
+    },
+    {
       "id": "spiegel-6c1e753695a29fa1",
       "source": "spiegel",
       "sourceWeight": 0.95,
@@ -114,7 +126,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/5b3a0ae5-e64c-41ad-8c8e-221e50d87391_w1200_r1.778_fpx46.66_fpy50.jpg",
       "published": "2026-09-16T02:05:00+02:00",
       "category": "Politik",
-      "score": 69.63
+      "score": 68.46
     },
     {
       "id": "spiegel-f91cef7aaf1b727a",
@@ -126,7 +138,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/4956ed31-9a5a-4108-b4f2-ba21c3d704de_w1200_r1.778_fpx51_fpy40.jpg",
       "published": "2026-09-15T22:35:00+02:00",
       "category": "Nachrichten",
-      "score": 68.71,
+      "score": 67.55,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -148,19 +160,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/3ce65343-be53-42a4-9a54-f78f4e6ad141_w1200_r1.778_fpx44_fpy50.jpg",
       "published": "2026-09-15T23:02:00+02:00",
       "category": "Politik",
-      "score": 67.08
-    },
-    {
-      "id": "spiegel-7bff034e901b1be8",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Russlands Angriffe an Polens Grenze: »Wir sollten die Kosten auf russischer Seite erhöhen«",
-      "link": "https://www.spiegel.de/ausland/russlands-angriffe-an-polens-grenze-wir-sollten-die-kosten-auf-russischer-seite-erhoehen-a-6a427f81-64a5-48fe-a393-ed639dfffb10#ref=rss",
-      "summary": "Russland rückt bei seinen Angriffen gegen die Ukraine immer näher an Nato-Gebiet heran. Der Sicherheitsexperte Aleksander Olech fordert die Bündnisstaaten auf, russische Drohnen künftig frühzeitig abzuschießen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/e4a4feef-3461-4ba2-81cf-5d589b6db52c_w1200_r1.778_fpx30.78_fpy45.jpg",
-      "published": "2026-09-15T21:11:00+02:00",
-      "category": "Politik",
-      "score": 65.54
+      "score": 65.92
     },
     {
       "id": "heise-d4667a683483f618",
@@ -172,7 +172,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/5/4/8/2/Shell_Tankstelle-6ddfc5b71047b915.jpeg",
       "published": "2026-09-15T14:43:00+02:00",
       "category": "Politik",
-      "score": 64.7,
+      "score": 63.54,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -194,7 +194,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213056&amp;page=1&amp;ts=1789485065",
       "published": "2026-09-15T17:11:05+02:00",
       "category": "Politik",
-      "score": 60.21
+      "score": 59.05
     },
     {
       "id": "golem-76dc49a939cb7d11",
@@ -206,7 +206,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213034&amp;page=1&amp;ts=1789471141",
       "published": "2026-09-15T13:19:01+02:00",
       "category": "Politik",
-      "score": 56.99
+      "score": 55.82
     },
     {
       "id": "heise-c07fd5e8f93ee308",
@@ -218,7 +218,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/5/4/8/7/shutterstock_421955908-dab9c904b9812778.jpeg",
       "published": "2026-09-15T15:33:00+02:00",
       "category": "Wirtschaft",
-      "score": 51.85
+      "score": 50.69
     },
     {
       "id": "heise-047921ae6a2e296a",
@@ -230,7 +230,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/5/6/6/3/shutterstock_1017657610-0e2d57cb5eea6aa5.jpeg",
       "published": "2026-09-15T17:52:00+02:00",
       "category": "Technologie",
-      "score": 50.78
+      "score": 49.62
     }
   ]
 }
