@@ -380,13 +380,15 @@ async function loadData() {
     state.top = Array.isArray(topData.articles) ? topData.articles : [];
     state.aiSummary = isFreshSummary(aiData) ? aiData : null;
 
-    setLastUpdated(`Aktualisiert ${formatDate(newsData.generatedAt)}`);
+    // Knappes Datum ohne Füllwort: in der schmalen Kopfzeile zählt jedes
+    // Zeichen, und "Aktualisiert" steht ohnehin schon im Fuß der Seite.
+    setLastUpdated(formatDate(newsData.generatedAt));
 
     populateFilters();
     render();
   } catch (error) {
     console.error(error);
-    setLastUpdated("Aktualisierung unbekannt");
+    setLastUpdated("Datum unbekannt");
     dom.newsList.replaceChildren(
       el("p", "empty", "Fehler beim Laden der News. Bitte später erneut versuchen.")
     );

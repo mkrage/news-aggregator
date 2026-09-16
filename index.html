@@ -49,13 +49,16 @@
           <rect class="brand-line" x="14" y="30" width="36" height="5" rx="2.5"/>
           <rect class="brand-line" x="14" y="39" width="22" height="5" rx="2.5"/>
         </svg>
-        <h1 class="brand-name">News Aggregator</h1>
+        <!-- Auf dem Telefon spannt das Zeichen den gemeinsamen Block aus
+             Titel und Zeitstempel auf (siehe Mobil-Block in styles.css). -->
+        <div class="brand-text">
+          <h1 class="brand-name">News Aggregator</h1>
+          <!-- Einzige Stelle für den Zeitstempel: am breiten Bildschirm steht
+               er neben dem Titel in der Kopfzeile, am Telefon rutscht er per
+               CSS als ruhige Unterschrift bündig unter den Titel. -->
+          <p id="last-updated" class="masthead-meta">Lade Daten …</p>
+        </div>
       </div>
-
-      <!-- Einzige Stelle für den Zeitstempel: am breiten Bildschirm in der
-           Kopfzeile, am Telefon rutscht dieselbe Zeile per CSS als ruhige
-           Unterschrift unter die Marke (siehe Mobil-Block in styles.css). -->
-      <p id="last-updated" class="masthead-meta">Lade Daten …</p>
 
       <div class="appearance">
         <div class="theme-toggle" role="group" aria-label="Darstellung">

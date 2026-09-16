@@ -213,7 +213,7 @@ section("Laden und Rendern");
   check("Artikel gerendert", items(doc).length > 0, `${items(doc).length}`);
   check(
     "Aktualisierungszeit gesetzt",
-    /Aktualisiert \d{2}\.\d{2}\.\d{4}/.test(doc.getElementById("last-updated").textContent),
+    /^\d{2}\.\d{2}\.\d{4}, \d{2}:\d{2}$/.test(doc.getElementById("last-updated").textContent),
     doc.getElementById("last-updated").textContent
   );
   check("Quellenfilter gefüllt", doc.querySelectorAll("#source-filter option").length === 5);
@@ -814,8 +814,8 @@ section("Zeitstempel auf schmalen Displays");
   const { doc } = await boot();
   const stamp = doc.getElementById("last-updated");
   check(
-    "Zeitstempel gesetzt",
-    /Aktualisiert \d{2}\.\d{2}\.\d{4}/.test(stamp.textContent),
+    "Zeitstempel gesetzt, ohne Füllwort",
+    /^\d{2}\.\d{2}\.\d{4}, \d{2}:\d{2}$/.test(stamp.textContent),
     stamp.textContent
   );
   // Genau eine Stelle im Markup: keine gespiegelte Kopie in der Tab-Leiste
@@ -825,6 +825,15 @@ section("Zeitstempel auf schmalen Displays");
   check("Kein Element verbirgt sich vor Hilfstechnik", !stamp.hasAttribute("aria-hidden"));
   check("Nicht ins Leere versteckt", !stamp.classList.contains("hidden"));
 
+  // Der Zeitstempel lebt im Textblock der Marke, damit er auf dem Telefon
+  // bündig unter dem Titel stehen und das Markenzeichen beide Zeilen
+  // aufspannen kann.
+  const brandText = stamp.closest(".brand-text");
+  check(
+    "Zeitstempel steht im Textblock der Marke",
+    !!brandText && brandText.querySelector(".brand-name") !== null && stamp.parentElement === brandText
+  );
+
   const css = fs.readFileSync(path.join(ROOT, "styles.css"), "utf-8");
   const narrowBlock = css.match(/@media \(max-width: 40rem\) \{[\s\S]*?\n\}/);
   check("Mobil-Block vorhanden", !!narrowBlock);
@@ -832,6 +841,15 @@ section("Zeitstempel auf schmalen Displays");
     "Umschalter sitzen in der oberen rechten Ecke der Kopfzeile",
     /\[data-theme="app"\] \.appearance \{[^}]*position: absolute;[^}]*top:/.test(narrowBlock[0]),
     narrowBlock[0].slice(0, 400)
+  );
+  check(
+    "Zeitstempel stapelt sich bündig unter den Titel",
+    /\[data-theme="app"\] \.brand-text \{[^}]*flex-direction: column;[^}]*align-items: flex-start;/.test(narrowBlock[0]),
+    narrowBlock[0].slice(0, 400)
+  );
+  check(
+    "Markenzeichen spannt Titel und Zeitstempel auf",
+    /\[data-theme="app"\] \.brand-mark \{[^}]*align-self: stretch;[^}]*height: auto;/.test(narrowBlock[0])
   );
   check(
     "Zeitungs-Kopfzeile behält ihre zentrierte Ordnung",

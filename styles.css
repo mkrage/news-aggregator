@@ -163,6 +163,13 @@ body {
   min-width: 0;
 }
 
+.brand-text {
+  display: flex;
+  align-items: baseline;
+  gap: 0.55rem;
+  min-width: 0;
+}
+
 .brand-mark {
   width: 1.6rem;
   height: 1.6rem;
@@ -1181,6 +1188,20 @@ footer {
     gap: 0.4rem;
   }
 
+  /* Der Zeitstempel rückt bündig unter den Titel; das Markenzeichen wächst
+     auf die Höhe des gemeinsamen Blocks aus Titel und Zeitstempel. */
+  [data-theme="app"] .brand-text {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+  }
+
+  [data-theme="app"] .brand-mark {
+    align-self: stretch;
+    width: 1.9rem;
+    height: auto;
+  }
+
   [data-theme="app"] .masthead-meta {
     font-size: 0.7rem;
     letter-spacing: 0.02em;
@@ -1203,6 +1224,18 @@ footer {
 
   [data-theme="editorial"] .masthead-meta {
     max-width: none;
+  }
+
+  /* In der Zeitung steht die Unterschrift unter dem großen Titel und die
+     Umschalter bilden eine eigene zentrierte Zeile. */
+  [data-theme="editorial"] .brand-text {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+  }
+
+  [data-theme="editorial"] .appearance {
+    order: 3;
   }
 
   .theme-btn {
