@@ -127,6 +127,7 @@ jobs:
       - name: Commit and push
         id: push
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
@@ -136,16 +137,40 @@ jobs:
             exit 0
           fi
           git commit -m "Update news data"
-          # Zwischenzeitliche Commits einholen, statt am Push zu scheitern.
+          # Ein Rebase muss bei parallelen Läufen scheitern: Beide schreiben
+          # dieselben JSON-Dateien komplett neu, jede Zeile ist ein Konflikt.
+          # Statt zu mergen gewinnen immer die frischen Daten dieses Laufs –
+          # sie sind die jüngeren. Dafür werden sie vor der Schleife gesichert
+          # und nach einem verlorenen Push auf dem neuesten Remote-Stand als
+          # ein einzelner neuer Commit erneut abgelegt.
+          fresh="$(mktemp -d)"
+          cp -a data/. "$fresh/"
           for attempt in 1 2 3; do
-            if git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push; then
+            if git push origin "HEAD:refs/heads/${GITHUB_REF_NAME}"; then
               echo "pushed=true" >> "$GITHUB_OUTPUT"
               exit 0
             fi
-            echo "Push attempt ${attempt} failed, retrying ..."
+            echo "Push-Versuch ${attempt} verloren, hole neuesten Stand ..."
+            if [ "$attempt" -eq 3 ]; then
+              break
+            fi
             sleep 5
+            git fetch origin "${GITHUB_REF_NAME}"
+            # Der Arbeitsbaum ist durch den Commit oben sauber, der lokale
+            # Datencommit steckt im Branch. Das Umsetzen auf den Remote-Stand
+            # verwirft genau diesen Commit – nichts Uncommittetes geht
+            # verloren, deshalb reicht checkout -B ohne reset --hard/clean.
+            git checkout -B "${GITHUB_REF_NAME}" "origin/${GITHUB_REF_NAME}"
+            cp -a "$fresh/." data/
+            git add data/
+            if git diff --cached --quiet; then
+              echo "Remote enthält bereits genau diese Daten"
+              echo "pushed=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            git commit -m "Update news data"
           done
-          echo "Push failed after 3 attempts"
+          echo "Push nach 3 Versuchen fehlgeschlagen"
           exit 1
 
       # Pushes mit dem GITHUB_TOKEN lösen keine weiteren Workflows aus. Das
