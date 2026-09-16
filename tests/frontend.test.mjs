@@ -829,13 +829,13 @@ section("Zeitstempel auf schmalen Displays");
   const narrowBlock = css.match(/@media \(max-width: 40rem\) \{[\s\S]*?\n\}/);
   check("Mobil-Block vorhanden", !!narrowBlock);
   check(
-    "Zeitstempel bekommt eine eigene Zeile im Kopfbereich",
-    /\.masthead-meta \{[^}]*grid-column: 1 \/ -1;/.test(narrowBlock[0]),
+    "Umschalter sitzen in der oberen rechten Ecke der Kopfzeile",
+    /\[data-theme="app"\] \.appearance \{[^}]*position: absolute;[^}]*top:/.test(narrowBlock[0]),
     narrowBlock[0].slice(0, 400)
   );
   check(
     "Zeitungs-Kopfzeile behält ihre zentrierte Ordnung",
-    /\[data-theme="editorial"\] \.masthead-inner \{\s*display: flex;/.test(narrowBlock[0])
+    /\[data-theme="editorial"\] \.masthead-inner \{\s*flex-direction: column;/.test(narrowBlock[0])
   );
   check("Kein Tab-Leisten-Zeitstempel mehr im Stylesheet", !css.includes("masthead-meta-tabbar"));
 }

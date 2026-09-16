@@ -1154,35 +1154,47 @@ footer {
   /* Auf kleinen Displays bekommt der Zeitstempel eine eigene ruhige Zeile
      unter der Marke statt eines Platzes in der ohnehin vollen Tab-Leiste:
      dort drängelte er die Tabs, hier kostet er fast nichts und bleibt für
-     beide Themes dieselbe einzige, zugängliche Stelle. Die Kopfzeile wird
-     dafür zweizeilig, Marke links, Umschalter rechts. */
-  .masthead-inner {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    row-gap: 0.1rem;
-    padding-block: 0.45rem;
+     beide Themes dieselbe einzige, zugängliche Stelle. Die Kopfzeile bleibt
+     einzeilig kompakt: Marke und Zeitstempel links, Umschalter schweben in
+     der oberen rechten Ecke und spendieren dem Text Platz auf der rechten
+     Seite. */
+  [data-theme="app"] .masthead {
+    position: relative;
   }
 
-  .masthead-meta {
-    grid-column: 1 / -1;
+  [data-theme="app"] .masthead-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.1rem;
+    /* Rechts so viel Luft lassen, dass Marke und Zeitstempel die in der
+       Ecke schwebenden Umschalter nicht unterlaufen. */
+    padding: 0.45rem 7.2rem 0.4rem 0.9rem;
+    min-height: 0;
+  }
+
+  [data-theme="app"] .appearance {
+    position: absolute;
+    top: 0.3rem;
+    right: 0.9rem;
+    margin: 0;
+    gap: 0.4rem;
+  }
+
+  [data-theme="app"] .masthead-meta {
     font-size: 0.7rem;
     letter-spacing: 0.02em;
     /* Mitführendes max-width verhindert, dass die Ellipse früh anschlägt. */
     max-width: 100%;
   }
 
-  [data-theme="app"] .appearance {
-    margin-left: 0;
-  }
-
   .brand-name {
     font-size: 0.95rem;
   }
 
-  /* Das Zeitungs-Theme ist hier ohnehin mehrspaltig zentriert; die neue
-     Gitter-Zeile der Kopfzeile würde dessen Ordnung brechen. */
+  /* Das Zeitungs-Theme ist hier ohnehin mehrspaltig zentriert; die kompakte
+     App-Einzeiligkeit der Kopfzeile würde dessen Ordnung brechen. */
   [data-theme="editorial"] .masthead-inner {
-    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.3rem;
