@@ -113,19 +113,15 @@
           <span>Filter</span>
           <span class="filter-badge hidden" id="filter-badge">0</span>
         </button>
-        <label class="switch" title="Gelesene Artikel ausblenden">
-          <input type="checkbox" id="hide-read" checked>
-          <span class="switch-slider"></span>
-          <span class="switch-label">Gelesene ausblenden</span>
-        </label>
-        <!-- Die frühere Gelesen-Ansicht als Nebenfunktion direkt neben dem
-             zugehörigen Ausblenden-Schalter. Wirkt auf den jeweils aktiven
-             Artikel-Tab und springt beim Tabwechsel wieder zurück. -->
-        <label class="switch" title="Nur gelesene Artikel anzeigen">
-          <input type="checkbox" id="show-read-only">
-          <span class="switch-slider"></span>
-          <span class="switch-label">Nur gelesene</span>
-        </label>
+        <!-- Lesestatus als ein segmentierter Dreifach-Umschalter: ersetzt die
+             früheren zwei Kippschalter, deutlich kompakter und eindeutiger.
+             Wirkt auf den aktiven Artikel-Tab und springt beim Tabwechsel
+             auf "Alle" zurück. -->
+        <div class="status-toggle" role="radiogroup" aria-label="Lesestatus filtern">
+          <button class="status-btn active" data-status="all" role="radio" aria-checked="true">Alle</button>
+          <button class="status-btn" data-status="unread" role="radio" aria-checked="false">Ungelesen</button>
+          <button class="status-btn" data-status="read" role="radio" aria-checked="false">Gelesen</button>
+        </div>
         <div class="view-toggle" role="group" aria-label="Layout">
           <button class="view-btn active" data-view="grid" aria-label="Kachelansicht" aria-pressed="true" title="Kacheln">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>

@@ -31,6 +31,9 @@ const THEMES = ["app", "editorial"];
 // Kacheln und Liste gleich aus, dort ist die Frage eine andere.
 const VIEWS = ["grid", "list"];
 const DENSITIES = ["compact", "cards", "large"];
+// Lesestatus-Filter: all = keine Statusfilterung, unread = nur nicht
+// gelesene, read = nur gelesene Artikel.
+const STATUSES = ["all", "unread", "read"];
 
 // Ab dieser Breite ist das Zeitungslayout die Voreinstellung. Muss zur
 // gleichnamigen Abfrage im Inline-Skript in index.html passen.
@@ -51,9 +54,9 @@ const state = {
   top: [],
   aiSummary: null,
   tab: "overview",
-  // Nebenfunktion statt eigenem Tab: zeigt in Top/Neueste nur gelesene
-  // Artikel. Springt beim Tabwechsel zurück, damit sie nicht "klebt".
-  readOnly: false,
+  // Lesestatus-Filter des aktiven Artikel-Tabs. Springt beim Tabwechsel auf
+  // "all" zurück, damit er nicht unbemerkt weiterfiltert.
+  status: "all",
   view: "grid",
   density: "cards",
   theme: "app",
@@ -451,22 +454,18 @@ function getFilteredArticles() {
   const search = dom.search.value.trim().toLowerCase();
   const source = dom.sourceFilter.value;
   const category = dom.categoryFilter.value;
-  // Wird nur Gelesenes gezeigt, blendet der Schalter nichts zusätzlich aus –
-  // "gelesen" ist dort ja das Kriterium.
-  const hideRead = !state.readOnly && dom.hideRead.checked;
 
-  let articles;
-  if (state.readOnly) {
-    const base = state.tab === "top" ? state.top : state.all;
-    articles = base.filter((article) => isRead(article.id));
-  } else {
-    articles = state.tab === "top" ? state.top : state.all;
-  }
+  const articles = state.tab === "top" ? state.top : state.all;
 
   return articles.filter((article) => {
     if (source && article.source !== source) return false;
     if (category && article.category !== category) return false;
-    if (hideRead && state.hiddenAtLoad.has(article.id)) return false;
+    // "Ungelesen" blendet nur aus, was schon beim Laden gelesen war. Was
+    // während der Sitzung gelesen wird, bleibt sichtbar (nur markiert) und
+    // fliegt erst beim nächsten Laden raus – nichts verschwindet unter dem
+    // Finger. "Gelesen" zeigt den ehrlichen Ist-Zustand.
+    if (state.status === "unread" && state.hiddenAtLoad.has(article.id)) return false;
+    if (state.status === "read" && !isRead(article.id)) return false;
     if (search) {
       const text = [article.title, article.summary, article.source]
         .filter(Boolean)
@@ -506,11 +505,14 @@ function render() {
   const articles = getFilteredArticles();
   if (articles.length === 0) {
     dom.newsList.className = "news-list";
-    // Im Gelesen-Modus ist eine leere Liste kein Suchmisserfolg, sondern ein
-    // ehrlicher Zustand: noch nichts gelesen (oder die Filter schließen aus).
-    const message = state.readOnly
-      ? "Noch keine gelesenen Artikel in dieser Ansicht."
-      : "Keine News gefunden.";
+    // Eine leere Liste im Statusfilter ist kein Suchmisserfolg, sondern ein
+    // ehrlicher Zustand – je nach Richtung anders formuliert.
+    const message =
+      state.status === "read"
+        ? "Noch keine gelesenen Artikel in dieser Ansicht."
+        : state.status === "unread"
+          ? "Alles gelesen – keine ungelesenen Artikel in dieser Ansicht."
+          : "Keine News gefunden.";
     dom.newsList.replaceChildren(el("p", "empty", message));
     return;
   }
@@ -711,9 +713,9 @@ function applyReadState(item, id) {
   const read = isRead(id);
   item.classList.toggle("read", read);
 
-  // Im Gelesen-Modus gehört ein wieder ungelesener Artikel nicht mehr in die
-  // Liste. isConnected: beim Aufbau einer Kachel ist sie noch nicht im DOM.
-  if (state.readOnly && !read && item.isConnected) {
+  // Im Gelesen-Filter gehört ein wieder ungelesener Artikel nicht mehr in
+  // die Liste. isConnected: beim Aufbau einer Kachel ist sie noch nicht im DOM.
+  if (state.status === "read" && !read && item.isConnected) {
     item.remove();
     if (!dom.newsList.querySelector(".news-item")) {
       dom.newsList.className = "news-list";
@@ -768,8 +770,6 @@ function cacheDom() {
     search: "search",
     sourceFilter: "source-filter",
     categoryFilter: "category-filter",
-    hideRead: "hide-read",
-    showReadOnly: "show-read-only",
     filterToggle: "filter-toggle",
     filtersPanel: "filters-panel",
     filterBadge: "filter-badge",
@@ -780,6 +780,17 @@ function cacheDom() {
   });
   // Ziel der Wisch-Feedback-Bewegung: der ganze Inhalt unter der Tab-Leiste.
   dom.main = document.querySelector("main");
+}
+
+function setStatus(status) {
+  if (!STATUSES.includes(status) || status === state.status) return;
+  state.status = status;
+  document.querySelectorAll(".status-btn").forEach((btn) => {
+    const active = btn.dataset.status === status;
+    btn.classList.toggle("active", active);
+    btn.setAttribute("aria-checked", String(active));
+  });
+  render();
 }
 
 function updateFilterBadge() {
@@ -833,10 +844,9 @@ function activateTab(name) {
   tab.setAttribute("aria-selected", "true");
 
   state.tab = name;
-  // Die Gelesen-Nebenfunktion gehört zum jeweiligen Artikel-Tab und klebt
-  // nicht: ein Wechsel beginnt wieder mit der vollen Liste.
-  state.readOnly = false;
-  dom.showReadOnly.checked = false;
+  // Der Statusfilter gehört zum jeweiligen Artikel-Tab und klebt nicht: ein
+  // Wechsel beginnt wieder mit der vollen Liste ("Alle").
+  setStatus("all");
 
   // Genau ein Panel ist sichtbar: Überblick oder Artikelliste samt
   // Steuerleiste. Beide Panels benennen ihren Tab über aria-labelledby.
@@ -996,13 +1006,10 @@ function initFilters() {
     });
   });
 
-  dom.hideRead.addEventListener("change", render);
-
-  // Gelesen-Nebenfunktion: kein Tabwechsel, sondern ein Umschalten der
-  // gerade sichtbaren Artikelliste – darum kein render() über die Tabs.
-  dom.showReadOnly.addEventListener("change", () => {
-    state.readOnly = dom.showReadOnly.checked;
-    render();
+  // Lesestatus-Umschalter: kein Tabwechsel, sondern ein Filter auf der
+  // gerade sichtbaren Artikelliste.
+  document.querySelectorAll(".status-btn").forEach((btn) => {
+    btn.addEventListener("click", () => setStatus(btn.dataset.status));
   });
   updateFilterBadge();
 

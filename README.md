@@ -110,11 +110,19 @@ mit den Artikeln) und **Neueste** (alles nach Zeit). Auf dem Telefon wechselt
 eine Wischgeste zwischen den Tabs; sie funktioniert auch im Überblick, obwohl
 dort keine Liste steht.
 
-Die frühere Gelesen-Ansicht ist kein Tab mehr, sondern ein Schalter
-„Nur gelesene" in der Steuerleiste – direkt neben „Gelesene ausblenden", weil
-beide zum selben Thema gehören. Der Schalter wirkt auf den gerade aktiven
-Artikel-Tab und springt beim Tabwechsel zurück, damit er nicht unbemerkt
+Den Lesestatus filtert ein segmentierter Dreifach-Umschalter in der
+Steuerleiste: **Alle** (keine Statusfilterung), **Ungelesen** und **Gelesen**.
+Er ersetzt die früheren zwei Kippschalter und ist deutlich kompakter, besonders
+auf dem Telefon. Der Filter wirkt auf den gerade aktiven Artikel-Tab und
+springt beim Tabwechsel auf „Alle" zurück, damit er nicht unbemerkt
 weiterfiltert. Im Überblick ist die Steuerleiste ohnehin ausgeblendet.
+
+Die Semantik von „Ungelesen" ist bewusst sitzungsfreundlich: Was beim Laden
+schon gelesen war, ist ausgeblendet; was während der Sitzung gelesen wird,
+bleibt markiert sichtbar und fliegt erst beim nächsten Laden raus – nichts
+verschwindet unter dem Finger. „Gelesen" zeigt dagegen den ehrlichen
+Ist-Zustand: nur tatsächlich gelesene Artikel, und ein wieder ungelesener
+verschwindet sofort aus dieser Ansicht.
 
 ### Layout und Dichte
 
@@ -153,7 +161,7 @@ python scripts/make_icons.py
 Artikel gelten als gelesen, wenn sie angeklickt oder beim
 Scrollen nach oben aus dem Viewport geschoben wurden. Markierte Artikel werden
 sofort ausgegraut, bleiben aber bis zum nächsten Laden in der Liste – erst dann
-greift „Gelesene ausblenden". So verschwindet nichts unter dem Finger.
+greift der Filter „Ungelesen". So verschwindet nichts unter dem Finger.
 
 Der Lesestatus liegt in `localStorage` und verfällt nach 30 Tagen. Die
 Artikel-IDs sind Hashes des Links, damit ein nachträglich redigierter Titel den

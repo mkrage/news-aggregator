@@ -301,9 +301,9 @@ section("Escaping und URL-Härtung");
   check("Link öffnet in neuem Tab", valid.querySelector(".news-title a").target === "_blank");
 }
 
-/* ---------- 3. Gelesen als Nebenfunktion ---------- */
+/* ---------- 3. Lesestatus-Umschalter ---------- */
 
-section("Gelesen als Nebenfunktion");
+section("Lesestatus-Umschalter");
 {
   const [first, second] = news.articles;
   const store = new Map([
@@ -322,49 +322,88 @@ section("Gelesen als Nebenfunktion");
     [...doc.querySelectorAll(".tab")].map((t) => t.textContent).join("|") === "Überblick|Top-News|Neueste"
   );
 
-  clickTab(doc, "latest");
-  const toggle = doc.getElementById("show-read-only");
-  toggle.checked = true;
-  fire(toggle, "change");
+  const statusButtons = [...doc.querySelectorAll(".status-btn")];
+  check(
+    "Drei Statussegmente mit eindeutigen Namen",
+    statusButtons.map((b) => b.textContent).join("|") === "Alle|Ungelesen|Gelesen"
+  );
+  check(
+    "Radiogruppe zugänglich aufgebaut",
+    doc.querySelector('.status-toggle[role="radiogroup"]') !== null &&
+      statusButtons.every((b) => b.getAttribute("role") === "radio")
+  );
+  check(
+    "Start ist Alle",
+    doc.querySelector('.status-btn[data-status="all"]').getAttribute("aria-checked") === "true"
+  );
 
+  clickTab(doc, "latest");
+  const setStatus = (name) => fire(doc.querySelector(`.status-btn[data-status="${name}"]`), "click");
+
+  setStatus("read");
   const list = items(doc);
   check("Rendert ohne Fehler", errors.length === 0, errors.join("; "));
-  check("Zeigt gelesene und überscrollte Artikel", list.length === 2, `${list.length}`);
+  check("Gelesen zeigt gelesene und überscrollte Artikel", list.length === 2, `${list.length}`);
   check(
     "Nur markierte Artikel",
     list.every((el) => [first.id, second.id].includes(el.dataset.id))
   );
   check("Alle ausgegraut", list.every((el) => el.classList.contains("read")));
   check(
+    "aria-checked folgt der Wahl",
+    doc.querySelector('.status-btn[data-status="read"]').getAttribute("aria-checked") === "true" &&
+      doc.querySelector('.status-btn[data-status="all"]').getAttribute("aria-checked") === "false"
+  );
+  check(
     "Tab bleibt Neueste, kein aria-Bruch",
     doc.querySelector('.tab[data-tab="latest"]').getAttribute("aria-selected") === "true" &&
       doc.getElementById("news-list").getAttribute("aria-labelledby") === "tab-latest"
   );
 
-  // Wieder ungelesen markierte Artikel verschwinden aus der Gelesen-Ansicht.
-  // (applyReadState entfernt sie, ohne die Liste neu aufzubauen.)
-  toggle.checked = false;
-  fire(toggle, "change");
-  check("Zurück in der vollen Liste", items(doc).length > 2, `${items(doc).length}`);
+  // Ungelesen blendet nur aus, was beim Laden schon gelesen war.
+  setStatus("unread");
+  const unreadList = items(doc);
+  check(
+    "Ungelesen ohne die beiden bekannten Artikel",
+    unreadList.length > 0 && !unreadList.some((el) => [first.id, second.id].includes(el.dataset.id)),
+    `${unreadList.length}`
+  );
 
-  // Tabwechsel setzt die Nebenfunktion zurück: sie klebt nicht.
-  toggle.checked = true;
-  fire(toggle, "change");
+  setStatus("all");
+  check("Zurück in der vollen Liste", items(doc).length > unreadList.length, `${items(doc).length}`);
+
+  // Tabwechsel setzt den Filter zurück: er klebt nicht.
+  setStatus("read");
   check("Wieder nur Gelesene", items(doc).length === 2, `${items(doc).length}`);
   clickTab(doc, "top");
-  check("Schalter nach Tabwechsel aus", doc.getElementById("show-read-only").checked === false);
+  check(
+    "Nach Tabwechsel wieder Alle",
+    doc.querySelector('.status-btn[data-status="all"]').getAttribute("aria-checked") === "true"
+  );
   check("Volle Top-Liste", items(doc).length > 2, `${items(doc).length}`);
 
-  // Leere Gelesen-Ansicht bekommt einen eigenen, ruhigen Hinweis.
-  const emptyStore = await boot();
-  clickTab(emptyStore.doc, "latest");
-  const emptyToggle = emptyStore.doc.getElementById("show-read-only");
-  emptyToggle.checked = true;
-  fire(emptyToggle, "change");
+  // Leere Statusansichten bekommen eigene, ruhige Hinweise.
+  const fresh = await boot();
+  clickTab(fresh.doc, "latest");
+  fire(fresh.doc.querySelector('.status-btn[data-status="read"]'), "click");
   check(
     "Leere Gelesen-Ansicht mit Hinweis",
-    emptyStore.doc.querySelector("#news-list .empty")?.textContent.includes("gelesenen"),
-    emptyStore.doc.querySelector("#news-list .empty")?.textContent
+    fresh.doc.querySelector("#news-list .empty")?.textContent.includes("gelesenen"),
+    fresh.doc.querySelector("#news-list .empty")?.textContent
+  );
+
+  // Sind alle Artikel des Tabs beim Laden schon gelesen, bleibt "Ungelesen"
+  // leer – mit eigenem Hinweis statt der allgemeinen Leermeldung.
+  const allIds = Object.fromEntries(
+    [...news.articles, hostile, hostileWithValidLink, longArticle, sparseArticle].map((a) => [a.id, Date.now()])
+  );
+  const allRead = await boot({ store: new Map([["news-aggregator-read", JSON.stringify(allIds)]]) });
+  clickTab(allRead.doc, "latest");
+  fire(allRead.doc.querySelector('.status-btn[data-status="unread"]'), "click");
+  check(
+    "Ungelesen komplett leer: eigener Hinweis",
+    allRead.doc.querySelector("#news-list .empty")?.textContent.includes("Alles gelesen"),
+    allRead.doc.querySelector("#news-list .empty")?.textContent
   );
 }
 
@@ -377,6 +416,12 @@ section("Ausblenden erst beim nächsten Laden");
   const { doc, window, observed } = await boot({ store, captureObservers: true });
   clickTab(doc, "latest");
 
+  // "Alle" filtert nichts: das vorher Gelesene steht markiert in der Liste.
+  check("Alle zeigt auch Gelesenes", !!doc.querySelector(`[data-id="${alreadyRead}"]`));
+
+  // "Ungelesen" blendet es aus – die frühere Voreinstellung als eigener
+  // Zustand des Dreifach-Umschalters.
+  fire(doc.querySelector('.status-btn[data-status="unread"]'), "click");
   check("Vorher Gelesenes ist ausgeblendet", !doc.querySelector(`[data-id="${alreadyRead}"]`));
 
   const before = items(doc).length;
@@ -392,9 +437,10 @@ section("Ausblenden erst beim nächsten Laden");
   check("Im Speicher vermerkt", marks(store, "news-aggregator-scrolled")[targetId] > 0);
   check("Gleiches DOM-Element (kein Neuaufbau)", doc.querySelector(`[data-id="${targetId}"]`) === target);
 
-  // Auch ein erzwungener Re-Render darf ihn nicht entfernen.
-  fire(doc.getElementById("hide-read"), "change");
-  fire(doc.getElementById("hide-read"), "change");
+  // Auch ein erzwungener Re-Render darf ihn nicht entfernen: Filter weg und
+  // wieder an, der während der Sitzung Gelesene bleibt in "Ungelesen" stehen.
+  fire(doc.querySelector('.status-btn[data-status="all"]'), "click");
+  fire(doc.querySelector('.status-btn[data-status="unread"]'), "click");
   check("Nach Re-Render weiterhin sichtbar", !!doc.querySelector(`[data-id="${targetId}"]`));
   check("Listenlänge unverändert", items(doc).length === before, `${before} -> ${items(doc).length}`);
 
@@ -416,6 +462,7 @@ section("Ausblenden erst beim nächsten Laden");
   // Erst der nächste Ladevorgang blendet aus.
   const reloaded = await boot({ store: new Map(store) });
   clickTab(reloaded.doc, "latest");
+  fire(reloaded.doc.querySelector('.status-btn[data-status="unread"]'), "click");
   check("Nach Neuladen ausgeblendet", !reloaded.doc.querySelector(`[data-id="${targetId}"]`));
   check("Auch das Überscrollte ist weg", !reloaded.doc.querySelector(`[data-id="${scrolledId}"]`));
   check("Insgesamt weniger Artikel", items(reloaded.doc).length < before);
@@ -549,6 +596,7 @@ section("Speicherformat: Migration und Verfall");
   const legacyStore = new Map([["news-aggregator-read", JSON.stringify([id])]]);
   const legacy = await boot({ store: legacyStore });
   clickTab(legacy.doc, "latest");
+  fire(legacy.doc.querySelector('.status-btn[data-status="unread"]'), "click");
   check("Altes Array-Format wird gelesen", !legacy.doc.querySelector(`[data-id="${id}"]`));
   const migrated = marks(legacyStore, "news-aggregator-read");
   check("Auf Objektformat umgeschrieben", !Array.isArray(migrated) && typeof migrated[id] === "number");
@@ -558,6 +606,7 @@ section("Speicherformat: Migration und Verfall");
   ]);
   const expired = await boot({ store: oldStore });
   clickTab(expired.doc, "latest");
+  fire(expired.doc.querySelector('.status-btn[data-status="unread"]'), "click");
   check("Eintrag älter als 30 Tage verfällt", Object.keys(marks(oldStore, "news-aggregator-read")).length === 0);
   check("Artikel wieder sichtbar", !!expired.doc.querySelector(`[data-id="${id}"]`));
 

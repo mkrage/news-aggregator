@@ -85,7 +85,7 @@ OG_IMAGE_BUDGET = 60  # max. Seitenabrufe pro Lauf, damit der Job nicht ausufert
 MIN_ARTICLES = 10
 MIN_RATIO_OF_PREVIOUS = 0.5
 
-GEMINI_MODEL = "gemini-2.0-flash"
+GEMINI_MODEL = "gemini-3.8-flash"
 GEMINI_URL = (
     f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
 )
