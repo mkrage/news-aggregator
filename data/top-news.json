@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T14:42:24.401273+00:00",
+  "generatedAt": "2026-09-16T17:09:08.857835+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/e19d0b97-a6a5-4380-893e-78f6d5584495/AAABoKoOYzc/AAABnSSvrFg/16x9-big/jungendliche-smartphone-100.jpg?width=1920",
       "published": "2026-09-16T14:40:13+02:00",
       "category": "Nachrichten",
-      "score": 82.3,
+      "score": 80.26,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -39,7 +39,7 @@
       "image": "https://images.tagesschau.de/image/a087b8a9-b1f0-4610-9d6c-e5aa9a4d6d6a/AAABoKnHiGc/AAABnSSvrFg/16x9-big/bitcoin-236.jpg?width=1920",
       "published": "2026-09-16T14:37:06+02:00",
       "category": "Politik",
-      "score": 81.26,
+      "score": 79.22,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -52,16 +52,74 @@
       }
     },
     {
+      "id": "tagesschau-ba60682e6f9bbecf",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Streit um Kultureinrichtung: Trump verweigert Kennedy Center Renovierung",
+      "link": "https://www.tagesschau.de/ausland/amerika/kennedy-center-120.html",
+      "summary": "Das Kennedy Center ist nach einem Sturm in schlechtem Zustand. Es müsste dringend renoviert werden. Doch US-Präsident Trump will nur zustimmen, wenn er anschließend wieder seinen Namen am Gebäude anbringen darf. Von C. Kühntopp. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/b30fc624-ed02-4d48-a7dd-5c5cfd6296f3/AAABoKsPBuM/AAABnSSvrFg/16x9-big/kennedy-center-118.jpg?width=1920",
+      "published": "2026-09-16T19:03:09+02:00",
+      "category": "Politik",
+      "score": 78.92
+    },
+    {
+      "id": "tagesschau-79629b0857f8bf01",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Von der Leyen zur Lage der Union: Neuer Krisenmechanismus und mehr Bündnisse",
+      "link": "https://www.tagesschau.de/ausland/europa/von-der-leyen-russland-ukraine-kanada-100.html",
+      "summary": "Wie kann sich Europa besser gegen Bedrohungen wappnen? Mit dieser Frage befasste sich die EU-Kommissionspräsidentin in ihrer diesjährigen Rede zur Lage der Union. Ihre Antworten: mit einem neuen Sicherheitsmechanismus und mehr Zusammenarbeit. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/67b0d5e6-9bec-437a-bb94-1f6644cc69a5/AAABoKm5NQQ/AAABnSSvrFg/16x9-big/von-der-leyen-738.jpg?width=1920",
+      "published": "2026-09-16T12:02:53+02:00",
+      "category": "Nachrichten",
+      "score": 78.71,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "News des Tages: Ed Sheeran, Ursula von der Leyen, Malaria in Deutschland",
+            "link": "https://www.spiegel.de/politik/deutschland/news-des-tages-ed-sheeran-ursula-von-der-leyen-malaria-in-deutschland-a-717efddd-cdd4-4369-9466-9a267a6927fe#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-1543b5a62b977a20",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "USA luden offenbar Israel und arabische Staaten zu Treffen in Deutschland ein",
+      "link": "https://www.spiegel.de/ausland/usa-luden-offenbar-israel-und-arabische-staaten-zu-treffen-in-deutschland-ein-a-c5ebfc0a-2784-42ae-bce4-50330e949bde#ref=rss",
+      "summary": "Der Irankrieg schwelt weiterhin – und war nun offenbar Thema eines Treffens hochrangiger Militärs. Initiiert wurde das Meeting einem Bericht zufolge von den USA. Austragungsort war demnach Deutschland.",
+      "image": "https://cdn.prod.www.spiegel.de/images/8768418a-a6c4-4881-a816-04d410946ad1_w1200_r1.778_fpx63.99_fpy49.99.jpg",
+      "published": "2026-09-16T18:09:00+02:00",
+      "category": "Politik",
+      "score": 77.16
+    },
+    {
+      "id": "spiegel-bb6b798481ba1ecd",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "USA: Widersetzt sich Fed-Chef Kevin Warsh dem Druck von Donald Trump?",
+      "link": "https://www.spiegel.de/wirtschaft/usa-widersetzt-sich-fed-chef-kevin-warsh-dem-druck-von-donald-trump-a-78810cd9-3e2f-43cc-8252-50684f9c1752#ref=rss",
+      "summary": "Der neue Fed-Chef steht vor einer kaum lösbaren Aufgabe: die Inflation bekämpfen und dafür die Zinsen erhöhen – oder seinen Fürsprecher Donald Trump glücklich machen. Es ist ein Test, wie unabhängig der oberste US-Währungshüter ist.",
+      "image": "https://cdn.prod.www.spiegel.de/images/57845fbd-fe26-4de9-82bc-cf93e3362f22_w1200_r1.778_fpx66.64_fpy49.99.jpg",
+      "published": "2026-09-16T17:18:00+02:00",
+      "category": "Politik",
+      "score": 76.46
+    },
+    {
       "id": "spiegel-52d372bb3ed0dee6",
       "source": "spiegel",
       "sourceWeight": 0.95,
       "title": "Midterms: Donald Trump verliert vor Gericht, sein Angriff auf die Wahl geht weiter",
       "link": "https://www.spiegel.de/ausland/midterms-donald-trump-verliert-vor-gericht-sein-angriff-auf-die-wahl-geht-weiter-a-ece5af17-9259-4897-8078-a4ab99058dad#ref=rss",
-      "summary": "Sieben Wochen vor der Halbzeitwahl zieht Donald Trump seine Republikaner in Umfragen nach unten. Zugleich treibt er seine Kampagne gegen den Urnengang selbst voran – trotz einer Niederlage vor dem Supreme Court.",
+      "summary": "Sieben Wochen vor der Halbzeitwahl zieht Donald Trump seine Republikaner in Umfragen nach unten. Zugleich treibt er seine Kampagne gegen den Wahlablauf selbst voran – trotz einer Niederlage vor dem Supreme Court.",
       "image": "https://cdn.prod.www.spiegel.de/images/283dfb69-69d7-49e4-81b5-022bddf1e7da_w1200_r1.778_fpx53_fpy38.jpg",
       "published": "2026-09-16T16:16:00+02:00",
       "category": "Politik",
-      "score": 77.63
+      "score": 75.6
     },
     {
       "id": "tagesschau-c490308cb11ebcc3",
@@ -73,82 +131,48 @@
       "image": "https://images.tagesschau.de/image/883e3925-8546-47ea-8a6c-3e69a3c72ce9/AAABoKpPaUM/AAABnSSvrFg/16x9-big/wohnhaus-gaza-100.jpg?width=1920",
       "published": "2026-09-16T15:03:01+02:00",
       "category": "Politik",
-      "score": 77.62
+      "score": 75.58
     },
     {
-      "id": "tagesschau-acb0684d59f365d1",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "25 Jahre Haft für Kosovos Ex-Präsident Thaci wegen Kriegsverbrechen",
-      "link": "https://www.tagesschau.de/ausland/europa/verurteilung-thaci-100.html",
-      "summary": "Das Kosovo-Sondertribunal in Den Haag hat den ehemaligen Präsidenten Thaci wegen Kriegsverbrechen zu 25 Jahren Haft verurteilt. In Pristina löste das Urteil Proteste aus. Vielen gilt Thaci als Nationalheld.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/310cd902-7421-4a95-9c4a-5668fa347f34/AAABoKnQI6c/AAABnSSvrFg/16x9-big/thaci-107.jpg?width=1920",
-      "published": "2026-09-16T13:48:26+02:00",
-      "category": "Nachrichten",
-      "score": 77.58,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Den Haag: Kosovos Ex-Präsident Hashim Thaçi zu 25 Jahren Haft verurteilt",
-            "link": "https://www.spiegel.de/ausland/den-haag-kosovos-ex-praesident-hashim-thaci-zu-25-jahren-haft-verurteilt-a-1a738b73-f97d-4421-97e0-73f3c1d70860#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-063c6b1f951b8aed",
+      "id": "spiegel-0b4e53898e5b23be",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Ukrainekrieg: Russischer General Anton Grinus zwei Wochen nach Heldenehrung tot",
-      "link": "https://www.spiegel.de/ausland/ukrainekrieg-russischer-general-anton-grinus-zwei-wochen-nach-heldenehrung-tot-a-23fb37b8-1473-4396-a1db-4d72b71239ca#ref=rss",
-      "summary": "Kaum war er zum Helden Russlands ernannt, ist Generalmajor Anton Grinus im Ukrainekrieg gefallen. Moskauer und Kyjiwer Quellen verweisen auf schwere ukrainische Angriffe am vergangenen Wochenende.",
-      "image": "https://cdn.prod.www.spiegel.de/images/793b2aef-c16d-4e7f-839d-743fedb0800e_w1200_r1.778_fpx62_fpy44.jpg",
-      "published": "2026-09-16T14:12:00+02:00",
-      "category": "Politik",
-      "score": 75.91
-    },
-    {
-      "id": "tagesschau-ba4ebadfe9cb420b",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Drohne über Litauen war laut Regierung mit Sprengstoff bestückt",
-      "link": "https://www.tagesschau.de/ausland/europa/litauen-drohne-sprengstoff-100.html",
-      "summary": "Vorfälle mit Flugobjekten im NATO-Gebiet häufen sich: In Litauen wurde gestern eine Drohne abgeschossen, die der Regierung zufolge Sprengstoff geladen hatte. In Polen wurde ebenfalls eine mutmaßlich russische Drohne gefunden.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/ed040fc6-cd4d-4623-8540-4271c69448b9/AAABoKjxkpY/AAABnSSvrFg/16x9-big/litauen-kaunas-100.jpg?width=1920",
-      "published": "2026-09-16T14:40:15+02:00",
-      "category": "Politik",
-      "score": 73.99,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Rusinowo: Russische Sprengstoff-Drohne vor polnischer Ostseeküste entdeckt",
-            "link": "https://www.spiegel.de/ausland/rusinowo-russische-sprengstoff-drohne-vor-polnischer-ostseekueste-entdeckt-a-53f4c524-bf72-400c-8dad-442e8291a62b#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-9ab19c95de9f5023",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Sudan: Mindestens 60 Tote bei Einsturz von Goldmine",
-      "link": "https://www.spiegel.de/panorama/sudan-mindestens-60-tote-bei-einsturz-von-goldmine-a-ec3b7f4f-9eda-4738-8f66-49dfd8010d90#ref=rss",
-      "summary": "Dutzende Menschen sind auf der Suche nach Gold im Sudan verschüttet worden, viele werden noch vermisst. Offenbar Es fehlt es an schwerem Gerät, um Erde und Gestein aus dem Weg zu räumen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/f9b38fe9-0001-0004-0000-000000383848_w1200_r1.778_fpx69.99_fpy50.99.jpg",
-      "published": "2026-09-16T13:02:00+02:00",
+      "title": "Rusinowo: Russische Sprengstoff-Drohne vor polnischer Ostseeküste entdeckt",
+      "link": "https://www.spiegel.de/ausland/rusinowo-russische-sprengstoff-drohne-vor-polnischer-ostseekueste-entdeckt-a-53f4c524-bf72-400c-8dad-442e8291a62b#ref=rss",
+      "summary": "Erst kürzlich schossen Nato-Jets eine russische Kampfdrohne über Litauen ab. Nun meldet Polen: Eine am Montag aus der Ostsee gefischte Drohne stammt ebenfalls aus Russland – und war ebenfalls bewaffnet.",
+      "image": "https://cdn.prod.www.spiegel.de/images/6722f5c4-4997-4156-b847-24fa543164ce_w1200_r1.778_fpx46.49_fpy49.84.jpg",
+      "published": "2026-09-16T15:30:00+02:00",
       "category": "Nachrichten",
-      "score": 70.5,
+      "score": 71.96,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "tagesschau",
-            "title": "Mindestens 60 Tote bei Einsturz von Goldmine im Sudan",
-            "link": "https://www.tagesschau.de/ausland/afrika/sudan-goldmine-102.html"
+            "title": "Drohne über Litauen war laut Regierung mit Sprengstoff bestückt",
+            "link": "https://www.tagesschau.de/ausland/europa/litauen-drohne-sprengstoff-100.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-50d55bd0449c57e6",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Hessen: Lidl setzt ersten fahrerlosen Lkw auf deutschen Straßen ein",
+      "link": "https://www.spiegel.de/mobilitaet/hessen-lidl-setzt-ersten-fahrerlosen-lkw-auf-deutschen-strassen-ein-a-ae6068de-8e66-4afa-8a41-168036f5f331#ref=rss",
+      "summary": "Eine nordhessische Gemeinde wird zum Testfeld für autonomes Fahren: Vier Monate lang erprobt die Supermarktkette Lidl einen selbstfahrenden Lkw. Das Gefährt übernimmt gleich eine wichtige Rolle für die örtliche Filiale.",
+      "image": "https://cdn.prod.www.spiegel.de/images/5c5cd0d8-e14d-49d9-bbc3-b7ad55e4431a_w1200_r1.778_fpx69.98_fpy52.99.jpg",
+      "published": "2026-09-16T17:34:00+02:00",
+      "category": "Nachrichten",
+      "score": 69.68,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "golem",
+            "title": "Level 4: Lidl setzt autonomen E-Lkw ohne Fahrer für Warenlieferungen ein",
+            "link": "https://www.golem.de/news/level-4-lidl-setzt-autonomen-e-lkw-ohne-fahrer-fuer-warenlieferungen-ein-2609-213078.html"
           }
         ]
       }
@@ -163,7 +187,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213099&amp;page=1&amp;ts=1789562102",
       "published": "2026-09-16T14:35:02+02:00",
       "category": "Technologie",
-      "score": 70.23,
+      "score": 68.19,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -176,28 +200,28 @@
       }
     },
     {
-      "id": "spiegel-d8e1f8418159e8c9",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Neue Euro-Scheine: Berliner Büro bewirbt sich um Banknoten-Design",
-      "link": "https://www.spiegel.de/wirtschaft/service/neue-euro-scheine-berliner-buero-bewirbt-sich-um-banknoten-design-a-137c5c71-e861-4650-af50-89bc54a0a873#ref=rss",
-      "summary": "Der Euro soll neu gestaltet werden: Zehn Versionen stehen zur Wahl, darunter auch der Vorschlag einer Berliner Designagentur. Was haben sich die Macher bei der Gestaltung gedacht?",
-      "image": "https://cdn.prod.www.spiegel.de/images/bc7dac2f-e1f6-4cb9-908d-d25058bf0814_w1080_r1.778_fpx49_fpy41.jpg",
-      "published": "2026-09-16T15:04:00+02:00",
-      "category": "Politik",
-      "score": 68.63
+      "id": "golem-6bf684e10c0e87bd",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Anzeige: Microsoft 365 DSGVO-konform betreiben",
+      "link": "https://www.golem.de/news/anzeige-microsoft-365-dsgvo-konform-betreiben-2609-213059.html",
+      "summary": "Microsoft 365 stellt Unternehmen vor Datenschutz- und Compliance-Fragen. Die Golem Karrierewelt zeigt, wie sich DSGVO-Anforderungen technisch einordnen lassen. ( Golem Karrierewelt , Sicherheitslücke )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213059&amp;page=1&amp;ts=1789577102",
+      "published": "2026-09-16T18:45:02+02:00",
+      "category": "Wirtschaft",
+      "score": 59.67
     },
     {
-      "id": "spiegel-85d81419327d8b09",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "CDU: Friedrich Merz - was hinter der Solidaritätsadresse der Ministerpräsidenten steckt",
-      "link": "https://www.spiegel.de/politik/deutschland/cdu-friedrich-merz-was-hinter-der-solidaritaetsadresse-der-ministerpraesidenten-steckt-a-26d24769-8744-4047-bb61-732113a63bd4#ref=rss",
-      "summary": "Die acht CDU-Ministerpräsidenten wenden sich gegen Gedankenspiele zu Minderheitsregierungen und Personaldebatten. Kanzler Merz kann sich gestärkt fühlen – vorerst.",
-      "image": "https://cdn.prod.www.spiegel.de/images/33d690ca-7695-4eb5-8b8d-df644eaa1473_w1200_r1.778_fpx42.64_fpy49.99.jpg",
-      "published": "2026-09-16T16:29:00+02:00",
-      "category": "Politik",
-      "score": 61.81
+      "id": "golem-6c4fe342e016d4f8",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "(g+) Tech Asia: Fachkräftemangel entwickelt sich zum größten Engpass der Tech-Branche im KI-Boom",
+      "link": "https://www.golem.de/news/tech-asia-fachkraeftemangel-entwickelt-sich-zum-groessten-engpass-der-tech-branche-im-ki-boom-2609-213103.html",
+      "summary": "\"Sorry, jeder Entwickler, der atmen kann, wurde schon von anderen angeworben\" - Der KI-Boom führt in Asien zu einem massiven Fachkräftemangel. Nikkei Asia hat dazu recherchiert. Unsere Leseempfehlung. Von Cheng Ting-Fang und Lauly Li ( Wirtschaft , KI )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213103&amp;page=1&amp;ts=1789574402",
+      "published": "2026-09-16T18:00:02+02:00",
+      "category": "Wirtschaft",
+      "score": 59.04
     },
     {
       "id": "golem-c9441118d20cae05",
@@ -209,43 +233,19 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213116&amp;page=1&amp;ts=1789569302",
       "published": "2026-09-16T16:35:02+02:00",
       "category": "Wirtschaft",
-      "score": 59.9
+      "score": 57.86
     },
     {
-      "id": "golem-c2f0365a4a9065bd",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Mobilität: Bau des bundesweiten E-Lkw-Ladenetzes an Autobahnen startet",
-      "link": "https://www.golem.de/news/mobilitaet-bau-des-bundesweiten-e-lkw-ladenetzes-an-autobahnen-startet-2609-213106.html",
-      "summary": "Verkehrsminister Bilger hat den Start des Ausbaus eines bundesweiten E-Lkw-Ladenetzwerks verkündet. Zunächst werden 124 Ladepunkte eingerichtet. ( Lkw , Elektroauto )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213106&amp;page=1&amp;ts=1789565041",
-      "published": "2026-09-16T15:24:01+02:00",
-      "category": "Politik",
-      "score": 58.91
-    },
-    {
-      "id": "golem-db0e2900fba6ac80",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Irankrieg: AWS gibt Datenrettung in zerstörten Rechenzentren auf",
-      "link": "https://www.golem.de/news/irankrieg-aws-gibt-datenrettung-in-zerstoerten-rechenzentren-auf-2609-213070.html",
-      "summary": "Der Iran hat in Bahrain und den Emiraten mehrere AWS-Rechenzentren mit Drohnen zerstört. Die Daten sind teilweise unwiederbringlich verloren. ( AWS , Amazon )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213070&amp;page=1&amp;ts=1789540742",
-      "published": "2026-09-16T08:39:02+02:00",
+      "id": "heise-306b64a61a7fbdfa",
+      "source": "heise",
+      "sourceWeight": 0.9,
+      "title": "Linux-Desktop Gnome 51: Mehr Geschwindigkeit und Komfort",
+      "link": "https://www.heise.de/news/Linux-Desktop-Gnome-51-Mehr-Geschwindigkeit-und-Komfort-11454982.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
+      "summary": "Der Linux-Desktop Gnome 51 verbessert sichtbar viele Standard-Apps und sorgt für mehr Komfort im Alltag.",
+      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/6/0/0/5/2026-09-16-Gnome51-Aufmacher-93cd13c63c1e7a55.png",
+      "published": "2026-09-16T18:17:00+02:00",
       "category": "Technologie",
-      "score": 58.29
-    },
-    {
-      "id": "golem-dec805151be977c3",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Elon Musk fordert: Unternehmen sollen ihre KI-Systeme gegenseitig prüfen",
-      "link": "https://www.golem.de/news/elon-musk-fordert-unternehmen-sollen-ihre-ki-systeme-gegenseitig-pruefen-2609-213094.html",
-      "summary": "China wäre laut Elon Musk sicherlich damit einverstanden, wenn KI-Labore die Risiken ihrer Modelle gegenseitig bewerten. ( KI , Politik )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213094&amp;page=1&amp;ts=1789556881",
-      "published": "2026-09-16T13:08:01+02:00",
-      "category": "Wirtschaft",
-      "score": 57.02
+      "score": 57.28
     }
   ]
 }
