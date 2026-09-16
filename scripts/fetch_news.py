@@ -8,8 +8,10 @@ import hashlib
 import json
 import math
 import os
+import random
 import re
 import sys
+import time
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
@@ -86,8 +88,46 @@ MIN_ARTICLES = 10
 MIN_RATIO_OF_PREVIOUS = 0.5
 
 GEMINI_MODEL = "gemini-3.8-flash"
-GEMINI_URL = (
-    f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
+GEMINI_FALLBACK_MODEL = "gemini-2.5-flash"
+GEMINI_API_BASE = "https://generativelanguage.googleapis.com/v1beta/models"
+GEMINI_TIMEOUT = 60
+
+# Gemini fällt gelegentlich für Sekunden aus oder drosselt. Ein einzelner
+# Fehlversuch kostet sonst das ganze Zeitfenster – der nächste Lauf fragt erst
+# zwölf Stunden später wieder.
+#
+# Die Kaskade steht als Liste da, weil sie so ohne Nachdenken lesbar ist: ein
+# kurzer zweiter Versuch beim neuen Modell (Aussetzer sind meist in Sekunden
+# vorbei), danach das bewährte ältere Modell. Hängt das neue Modell an seinem
+# Kontingent oder ist es überlastet, hilft Warten nicht – ein anderes Modell
+# schon. Fünf Aufrufe sind die Obergrenze für den ganzen Lauf.
+GEMINI_ATTEMPT_MODELS = (
+    GEMINI_MODEL,
+    GEMINI_MODEL,
+    GEMINI_FALLBACK_MODEL,
+    GEMINI_FALLBACK_MODEL,
+    GEMINI_FALLBACK_MODEL,
+)
+GEMINI_MAX_ATTEMPTS = len(GEMINI_ATTEMPT_MODELS)
+
+GEMINI_RETRY_BASE_DELAY = 1.0   # 1, 2, 4, 8 Sekunden beim selben Modell
+GEMINI_SWITCH_DELAY = 0.5       # beim Modellwechsel ist das Modell das Mittel, nicht die Zeit
+GEMINI_RETRY_MAX_DELAY = 30.0   # deckelt auch ein übermütiges Retry-After
+GEMINI_RETRY_JITTER = 0.25      # streut parallele Läufe leicht auseinander
+
+# 408 und 429 sind die einzigen 4xx, bei denen ein zweiter Versuch Sinn ergibt;
+# alles andere in dieser Klasse bleibt falsch.
+GEMINI_RETRY_STATUSES = frozenset({408, 429, 500, 502, 503, 504})
+
+# Falscher Key, fehlende Berechtigung, falsches Modell: weder Wiederholung noch
+# Fallback ändern daran etwas – der Lauf bricht sofort ab.
+GEMINI_FATAL_STATUSES = frozenset({400, 401, 403, 404})
+
+# Netzwerkfehler ohne Antwort: DNS, abgebrochene Verbindung, Timeout.
+GEMINI_RETRY_ERRORS = (
+    requests.ConnectionError,
+    requests.Timeout,
+    requests.exceptions.ChunkedEncodingError,
 )
 
 # Die Feeds laufen stündlich, die KI-Zusammenfassung nur zweimal täglich – sie
@@ -650,8 +690,136 @@ def drop_stale_ai_summary(path, existing, moment=None):
     return True
 
 
+def response_status(error):
+    """Statuscode einer fehlgeschlagenen Anfrage, None bei Netzwerkfehlern."""
+    response = getattr(error, "response", None)
+    if response is None:
+        return None
+    return getattr(response, "status_code", None)
+
+
+def response_header(error, name):
+    """Liest einen Header der Fehlerantwort, tolerant gegenüber Mocks."""
+    response = getattr(error, "response", None)
+    headers = getattr(response, "headers", None)
+    if not headers:
+        return None
+    try:
+        return headers.get(name)
+    except AttributeError:
+        return None
+
+
+def is_retryable_error(error):
+    """Entscheidet, ob ein zweiter Versuch überhaupt eine Chance hat.
+
+    Nur die transienten Status kommen dafür infrage; GEMINI_FATAL_STATUSES und
+    alles andere führen weder zu einer Wiederholung noch zum Fallbackmodell.
+    """
+    status = response_status(error)
+    if status is not None:
+        return status in GEMINI_RETRY_STATUSES
+    # Ohne Antwort war es die Leitung, nicht der Dienst – das kann sich legen.
+    return isinstance(error, GEMINI_RETRY_ERRORS)
+
+
+def describe_error(error):
+    """Kurzbeschreibung fürs Log – Statuscode oder Fehlerklasse, sonst nichts.
+
+    Exception-Texte enthalten die volle URL und mitunter Antwortinhalte; beides
+    gehört nicht in ein öffentliches Actions-Log.
+    """
+    status = response_status(error)
+    if status is not None:
+        return f"HTTP {status}"
+    return type(error).__name__
+
+
+def parse_retry_after(value, now=None):
+    """Wandelt einen Retry-After-Header in Sekunden um, sonst None.
+
+    Der Header kommt in zwei Formen: Sekunden oder HTTP-Datum. Unsinnige Werte
+    werden verworfen, große auf GEMINI_RETRY_MAX_DELAY gedeckelt – sonst hielte
+    ein "Retry-After: 3600" den ganzen Job an.
+    """
+    if value is None:
+        return None
+    text = str(value).strip()
+    if not text:
+        return None
+
+    try:
+        seconds = float(text)
+    except ValueError:
+        try:
+            target = date_parser.parse(text)
+        except (ValueError, OverflowError, TypeError):
+            return None
+        if target.tzinfo is None:
+            target = target.replace(tzinfo=timezone.utc)
+        seconds = (target - (now or datetime.now(timezone.utc))).total_seconds()
+
+    if not math.isfinite(seconds):
+        return None
+    if seconds <= 0:
+        return 0.0
+    return min(seconds, GEMINI_RETRY_MAX_DELAY)
+
+
+def retry_delay(attempt, retry_after=None, switching=False):
+    """Wartezeit vor dem nächsten Versuch.
+
+    Drei Regeln, in dieser Reihenfolge: Sagt der Dienst selbst per Retry-After,
+    wann er wieder mag, gilt sein Wert – er weiß mehr über sein Kontingent als
+    jede Formel hier. Wechselt der nächste Versuch das Modell, genügt eine kurze
+    Pause, denn nicht die Zeit ist das Mittel, sondern das andere Modell. Bleibt
+    es beim selben Modell, wächst die Wartezeit: 1, 2, 4, 8 Sekunden.
+    """
+    if retry_after is not None:
+        base = retry_after
+    elif switching:
+        base = GEMINI_SWITCH_DELAY
+    else:
+        base = GEMINI_RETRY_BASE_DELAY * (2 ** (attempt - 1))
+    return min(base, GEMINI_RETRY_MAX_DELAY) + random.uniform(0, GEMINI_RETRY_JITTER)
+
+
+def gemini_url(model):
+    """Endpunkt eines Modells – der Key steht im Header, nie in der URL."""
+    return f"{GEMINI_API_BASE}/{model}:generateContent"
+
+
+def request_ai_summary(api_key, prompt, model):
+    """Ein einzelner Gemini-Aufruf; Fehler fliegen an den Aufrufer weiter."""
+    # Key im Header, nicht im Query-String: sonst landet er in Logs.
+    response = session.post(
+        gemini_url(model),
+        headers={"x-goog-api-key": api_key},
+        json={"contents": [{"parts": [{"text": prompt}]}]},
+        timeout=GEMINI_TIMEOUT,
+    )
+    response.raise_for_status()
+    data = response.json()
+    text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
+    if not text:
+        return None
+    return {
+        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "summary": text,
+        # Modellname ist kein Geheimnis, aber beim Nachsehen Gold wert: er zeigt,
+        # ob eine Zusammenfassung vom Primär- oder vom Fallbackmodell stammt.
+        "model": model,
+    }
+
+
 def generate_ai_summary(articles):
-    """Optional: Fragt Gemini nach einer Zusammenfassung der Top-Themen."""
+    """Optional: Fragt Gemini nach einer Zusammenfassung der Top-Themen.
+
+    Arbeitet GEMINI_ATTEMPT_MODELS der Reihe nach ab: erst zweimal das
+    Primärmodell, dann das bewährte Fallbackmodell. Gibt bei endgültigem
+    Fehlschlag None zurück – der Aufrufer behält dann den bisherigen Stand,
+    statt die Datei zu leeren.
+    """
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         print("AI summary übersprungen: kein GEMINI_API_KEY gesetzt")
@@ -664,29 +832,37 @@ def generate_ai_summary(articles):
         + "\n".join(top_titles)
     )
 
-    try:
-        # Key im Header, nicht im Query-String: sonst landet er in Logs.
-        response = session.post(
-            GEMINI_URL,
-            headers={"x-goog-api-key": api_key},
-            json={"contents": [{"parts": [{"text": prompt}]}]},
-            timeout=60,
-        )
-        response.raise_for_status()
-        data = response.json()
-        text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
-        if not text:
+    for attempt, model in enumerate(GEMINI_ATTEMPT_MODELS, start=1):
+        label = f"Versuch {attempt}/{GEMINI_MAX_ATTEMPTS} ({model})"
+        try:
+            summary = request_ai_summary(api_key, prompt, model)
+            if summary is None:
+                print(f"AI summary abgebrochen: leere Antwort ({model})")
+            else:
+                print(f"AI summary erzeugt mit {model} in {label}")
+            return summary
+        except requests.RequestException as error:
+            print(f"AI summary {label} fehlgeschlagen: {describe_error(error)}")
+            if not is_retryable_error(error):
+                print("AI summary abgebrochen: Fehler wiederholt sich garantiert")
+                return None
+            if attempt == GEMINI_MAX_ATTEMPTS:
+                break
+            next_model = GEMINI_ATTEMPT_MODELS[attempt]
+            delay = retry_delay(
+                attempt,
+                parse_retry_after(response_header(error, "Retry-After")),
+                switching=next_model != model,
+            )
+            print(f"  nächster Versuch mit {next_model} in {delay:.1f}s")
+            time.sleep(delay)
+        except (KeyError, IndexError, TypeError, ValueError) as error:
+            # Antwort da, aber anders gebaut als erwartet – ein zweiter Aufruf
+            # liefert dieselbe Struktur.
+            print(f"AI summary abgebrochen: unerwartete Antwort ({type(error).__name__})")
             return None
-        return {
-            "generatedAt": datetime.now(timezone.utc).isoformat(),
-            "summary": text,
-        }
-    except requests.RequestException as error:
-        # Nur Statuscode ausgeben – Exception-Texte enthalten die volle URL.
-        status = error.response.status_code if error.response is not None else "n/a"
-        print(f"AI summary failed: {type(error).__name__} (HTTP {status})")
-    except (KeyError, IndexError, TypeError, ValueError) as error:
-        print(f"AI summary failed: unerwartete Antwort ({error})")
+
+    print(f"AI summary aufgegeben nach {GEMINI_MAX_ATTEMPTS} Versuchen")
     return None
 
 

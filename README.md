@@ -213,6 +213,37 @@ ist höchstens ein paar Stunden alt. Erst nach `AI_SUMMARY_MAX_AGE_HOURS` (26 h,
 also zwei ausgefallenen Fenstern) verschwindet die Datei, ebenso bei unlesbarem
 Zeitstempel. Ohne `GEMINI_API_KEY` entsteht gar keine Zusammenfassung.
 
+Weil das nächste Fenster erst zwölf Stunden später kommt, gibt ein einzelner
+Fehlversuch nicht auf – aber blindes Wiederholen hilft wenig, wenn das Modell
+selbst klemmt. `fetch_news.py` arbeitet deshalb eine feste Kaskade von fünf
+Aufrufen ab (`GEMINI_ATTEMPT_MODELS`, die Obergrenze für den ganzen Lauf):
+
+| Versuch | Modell |
+| --- | --- |
+| 1, 2 | `gemini-3.8-flash` (Primär) |
+| 3, 4, 5 | `gemini-2.5-flash` (Fallback) |
+
+Ein kurzer zweiter Versuch fängt echte Aussetzer ab; hängt das neue Modell
+dagegen an seinem Kontingent oder ist überlastet, übernimmt das bewährte
+ältere. Ausgelöst wird das von HTTP 408, 429, 500, 502, 503, 504 sowie von
+Verbindungs- und Timeout-Fehlern. Beim selben Modell wächst die Wartezeit
+(rund 1, 2, 4, 8 s plus Jitter), beim Modellwechsel genügt eine kurze Pause
+(`GEMINI_SWITCH_DELAY`) – dort ist das andere Modell das Mittel, nicht die
+Zeit. Nennt die Antwort ein brauchbares `Retry-After`, gilt dessen Wert,
+gedeckelt auf `GEMINI_RETRY_MAX_DELAY` (30 s).
+
+HTTP 400, 401, 403 und 404 (`GEMINI_FATAL_STATUSES`, etwa falscher Key oder
+unbekanntes Modell) brechen sofort ab: weder Wiederholung noch Fallback ändern
+daran etwas. Dasselbe gilt für unerwartet gebaute Antworten. Jeder Versuch
+landet mit Nummer, Modell und Statuscode bzw. Fehlerklasse im Log – ohne URL,
+ohne Key, ohne Antworttext. Bleibt es beim Fehlschlag, verhält sich der Lauf wie
+bisher: keine neue Datei, der bisherige Stand bleibt stehen.
+
+Eine gelungene Zusammenfassung vermerkt in `data/ai-summary.json` unter `model`,
+welches Modell sie geschrieben hat. Das Frontend liest nur `summary` und
+`generatedAt` und ignoriert das Feld – es steht dort fürs Nachsehen, wenn eine
+Zusammenfassung anders klingt als sonst.
+
 Im Frontend akzeptiert `app.js` die Datei nur innerhalb von 24 h
 (`AI_SUMMARY_MAX_AGE_HOURS` dort); danach zeigt der Überblick-Tab eine ruhige
 Leerstelle statt veraltetem Text. Der Tab selbst bleibt stehen – er ist einer

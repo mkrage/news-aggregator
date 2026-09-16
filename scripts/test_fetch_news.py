@@ -1,14 +1,19 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Tests für fetch_news.py – ohne Netzwerkzugriff, ohne zusätzliche Pakete.
 
 Ausführen: python -m unittest discover -s scripts -p "test_*.py"
 """
 
+import io
 import json
 import os
 import tempfile
 import unittest
+from contextlib import redirect_stdout
 from datetime import datetime, timedelta, timezone
+from unittest import mock
+
+import requests
 
 import fetch_news as fn
 
@@ -537,6 +542,316 @@ class TestFetchFeed(unittest.TestCase):
     def test_unlesbarer_feed_ergibt_leere_liste(self):
         fn.download_feed = lambda name, url: b"kein xml"
         self.assertEqual(fn.fetch_feed("test", {"url": "x", "weight": 1.0}), [])
+
+
+class FakeResponse:
+    """Minimale requests.Response-Attrappe für die Gemini-Tests."""
+
+    def __init__(self, status_code=200, payload=None, headers=None, text="Zusammenfassung"):
+        self.status_code = status_code
+        self.headers = headers or {}
+        self._payload = payload if payload is not None else {
+            "candidates": [{"content": {"parts": [{"text": text}]}}]
+        }
+
+    def raise_for_status(self):
+        if self.status_code >= 400:
+            raise requests.HTTPError(
+                f"{self.status_code} Server Error for url: "
+                f"https://generativelanguage.googleapis.com/... ",
+                response=self,
+            )
+
+    def json(self):
+        return self._payload
+
+
+class GeminiTestCase(unittest.TestCase):
+    """Gemeinsame Verdrahtung: kein Netz, kein echtes Warten, fester Key."""
+
+    API_KEY = "geheimer-testschluessel"
+    PRIMARY = fn.GEMINI_MODEL
+    FALLBACK = fn.GEMINI_FALLBACK_MODEL
+
+    def setUp(self):
+        self.sleeps = []
+        patches = [
+            mock.patch.dict(os.environ, {"GEMINI_API_KEY": self.API_KEY}),
+            mock.patch.object(fn.time, "sleep", self.sleeps.append),
+        ]
+        for patch in patches:
+            patch.start()
+            self.addCleanup(patch.stop)
+
+    @staticmethod
+    def _model_of(url):
+        """Liest das Modell aus der Aufruf-URL – so, wie ein Log es dürfte."""
+        return url.rsplit("/", 1)[-1].split(":")[0]
+
+    def _run(self, responses):
+        """Ruft generate_ai_summary mit vorgegebenen Antworten auf.
+
+        `responses` ist entweder eine Liste in Aufrufreihenfolge (die letzte
+        Antwort wiederholt sich) oder ein Dict pro Modell – dann entscheidet die
+        Kaskade selbst, wen sie fragt. Einträge dürfen FakeResponse oder
+        Exception sein.
+        """
+        calls = []
+
+        def post(url, **kwargs):
+            model = self._model_of(url)
+            if isinstance(responses, dict):
+                item = responses[model]
+            else:
+                item = responses[min(len(calls), len(responses) - 1)]
+            calls.append({"url": url, "model": model, **kwargs})
+            if isinstance(item, Exception):
+                raise item
+            return item
+
+        buffer = io.StringIO()
+        with mock.patch.object(fn.session, "post", post), redirect_stdout(buffer):
+            result = fn.generate_ai_summary([{"title": "T", "source": "heise"}])
+        self.log = buffer.getvalue()
+        self.calls = calls
+        self.models = [call["model"] for call in calls]
+        return result
+
+
+class TestRetryHelpers(unittest.TestCase):
+    def test_transiente_status_sind_wiederholbar(self):
+        for status in (408, 429, 500, 502, 503, 504):
+            with self.subTest(status=status):
+                error = requests.HTTPError(response=FakeResponse(status))
+                self.assertTrue(fn.is_retryable_error(error))
+
+    def test_dauerhafte_4xx_sind_nicht_wiederholbar(self):
+        for status in (400, 401, 403, 404, 422):
+            with self.subTest(status=status):
+                error = requests.HTTPError(response=FakeResponse(status))
+                self.assertFalse(fn.is_retryable_error(error))
+
+    def test_netzwerkfehler_sind_wiederholbar(self):
+        for error in (requests.ConnectionError("dns"), requests.Timeout("zu langsam")):
+            with self.subTest(error=type(error).__name__):
+                self.assertTrue(fn.is_retryable_error(error))
+
+    def test_uebrige_requests_fehler_nicht(self):
+        # Eine kaputte URL wird beim nächsten Versuch genauso kaputt sein.
+        self.assertFalse(fn.is_retryable_error(requests.exceptions.MissingSchema("x")))
+
+    def test_beschreibung_nennt_status_oder_klasse(self):
+        self.assertEqual(fn.describe_error(requests.HTTPError(response=FakeResponse(503))), "HTTP 503")
+        self.assertEqual(fn.describe_error(requests.Timeout("x")), "Timeout")
+
+    def test_beschreibung_enthaelt_keine_url(self):
+        error = requests.HTTPError("... url: https://…?key=geheim", response=FakeResponse(500))
+        described = fn.describe_error(error)
+        self.assertNotIn("://", described)
+        self.assertNotIn("geheim", described)
+
+    def test_retry_after_in_sekunden(self):
+        self.assertEqual(fn.parse_retry_after("7"), 7.0)
+        self.assertEqual(fn.parse_retry_after(" 2 "), 2.0)
+
+    def test_retry_after_als_http_datum(self):
+        now = datetime(2026, 7, 1, 12, 0, tzinfo=timezone.utc)
+        value = "Wed, 01 Jul 2026 12:00:05 GMT"
+        self.assertAlmostEqual(fn.parse_retry_after(value, now) or 0.0, 5.0, places=1)
+
+    def test_retry_after_unlesbar_oder_leer(self):
+        for value in (None, "", "   ", "bald", "NaN", "inf"):
+            with self.subTest(value=value):
+                self.assertIsNone(fn.parse_retry_after(value))
+
+    def test_retry_after_vergangenheit_ist_null(self):
+        self.assertEqual(fn.parse_retry_after("-5"), 0.0)
+
+    def test_retry_after_wird_gedeckelt(self):
+        self.assertEqual(fn.parse_retry_after("3600"), fn.GEMINI_RETRY_MAX_DELAY)
+
+    def test_backoff_waechst_exponentiell(self):
+        for attempt, expected in enumerate((1, 2, 4, 8), start=1):
+            with self.subTest(attempt=attempt):
+                delay = fn.retry_delay(attempt)
+                self.assertGreaterEqual(delay, expected)
+                self.assertLess(delay, expected + fn.GEMINI_RETRY_JITTER)
+
+    def test_retry_after_schlaegt_backoff(self):
+        delay = fn.retry_delay(1, retry_after=7.0)
+        self.assertGreaterEqual(delay, 7.0)
+        self.assertLess(delay, 7.0 + fn.GEMINI_RETRY_JITTER)
+
+    def test_backoff_wird_gedeckelt(self):
+        self.assertLess(fn.retry_delay(20), fn.GEMINI_RETRY_MAX_DELAY + fn.GEMINI_RETRY_JITTER)
+
+    def test_modellwechsel_wartet_nur_kurz(self):
+        # Beim Wechsel ist das andere Modell das Mittel, nicht die Wartezeit.
+        delay = fn.retry_delay(4, switching=True)
+        self.assertGreaterEqual(delay, fn.GEMINI_SWITCH_DELAY)
+        self.assertLess(delay, fn.GEMINI_SWITCH_DELAY + fn.GEMINI_RETRY_JITTER)
+
+    def test_retry_after_schlaegt_auch_den_modellwechsel(self):
+        delay = fn.retry_delay(2, retry_after=6.0, switching=True)
+        self.assertGreaterEqual(delay, 6.0)
+
+
+class TestModelCascade(unittest.TestCase):
+    """Die Kaskade selbst: erst Primärmodell, dann bewährtes Fallback."""
+
+    def test_budget_von_fuenf_aufrufen(self):
+        self.assertEqual(len(fn.GEMINI_ATTEMPT_MODELS), 5)
+        self.assertEqual(fn.GEMINI_MAX_ATTEMPTS, 5)
+
+    def test_reihenfolge_ist_primaer_dann_fallback(self):
+        self.assertEqual(
+            fn.GEMINI_ATTEMPT_MODELS,
+            (fn.GEMINI_MODEL,) * 2 + (fn.GEMINI_FALLBACK_MODEL,) * 3,
+        )
+
+    def test_modelle_sind_verschieden(self):
+        self.assertEqual(fn.GEMINI_MODEL, "gemini-3.8-flash")
+        self.assertEqual(fn.GEMINI_FALLBACK_MODEL, "gemini-2.5-flash")
+
+    def test_url_enthaelt_das_modell(self):
+        url = fn.gemini_url(fn.GEMINI_FALLBACK_MODEL)
+        self.assertTrue(url.endswith(f"/{fn.GEMINI_FALLBACK_MODEL}:generateContent"))
+        self.assertNotIn("key", url)
+
+    def test_fatale_status_sind_nie_wiederholbar(self):
+        self.assertFalse(fn.GEMINI_FATAL_STATUSES & fn.GEMINI_RETRY_STATUSES)
+        for status in fn.GEMINI_FATAL_STATUSES:
+            with self.subTest(status=status):
+                self.assertFalse(fn.is_retryable_error(requests.HTTPError(response=FakeResponse(status))))
+
+
+class TestGenerateAiSummary(GeminiTestCase):
+    def test_erfolg_direkt_nennt_das_primaermodell(self):
+        result = self._run([FakeResponse(200, text="Punkt eins")])
+        self.assertEqual((result or {}).get("summary"), "Punkt eins")
+        self.assertEqual((result or {}).get("model"), self.PRIMARY)
+        self.assertEqual(self.models, [self.PRIMARY])
+        self.assertEqual(self.sleeps, [])
+
+    def test_metadaten_bleiben_schlank(self):
+        # Die App liest summary und generatedAt; model kommt nur dazu.
+        result = self._run([FakeResponse(200)])
+        self.assertEqual(set(result or {}), {"summary", "generatedAt", "model"})
+        self.assertIsInstance((result or {})["generatedAt"], str)
+
+    def test_primaermodell_erholt_sich_beim_zweiten_versuch(self):
+        result = self._run([FakeResponse(503), FakeResponse(200, text="Nach Retry")])
+        self.assertEqual((result or {}).get("summary"), "Nach Retry")
+        self.assertEqual((result or {}).get("model"), self.PRIMARY)
+        self.assertEqual(self.models, [self.PRIMARY, self.PRIMARY])
+        self.assertEqual(len(self.sleeps), 1)
+        self.assertIn("HTTP 503", self.log)
+
+    def test_503_auf_primaer_fuehrt_zum_fallback(self):
+        result = self._run({self.PRIMARY: FakeResponse(503), self.FALLBACK: FakeResponse(200)})
+        self.assertEqual((result or {}).get("model"), self.FALLBACK)
+        self.assertEqual(self.models, [self.PRIMARY, self.PRIMARY, self.FALLBACK])
+        self.assertEqual(len(self.sleeps), 2)
+        self.assertIn(f"erzeugt mit {self.FALLBACK}", self.log)
+
+    def test_erst_retry_primaer_dann_wechsel(self):
+        self._run([FakeResponse(500), requests.Timeout("zu langsam"), FakeResponse(200)])
+        self.assertEqual(self.models, [self.PRIMARY, self.PRIMARY, self.FALLBACK])
+        # Warten beim selben Modell, kurzer Sprung beim Wechsel.
+        self.assertGreaterEqual(self.sleeps[0], fn.GEMINI_RETRY_BASE_DELAY)
+        self.assertLess(self.sleeps[1], fn.GEMINI_SWITCH_DELAY + fn.GEMINI_RETRY_JITTER)
+        self.assertIn(f"nächster Versuch mit {self.FALLBACK}", self.log)
+
+    def test_429_wechselt_ebenfalls_auf_das_fallbackmodell(self):
+        result = self._run({
+            self.PRIMARY: FakeResponse(429, headers={"Retry-After": "2"}),
+            self.FALLBACK: FakeResponse(200, text="Ohne Drosselung"),
+        })
+        self.assertEqual((result or {}).get("model"), self.FALLBACK)
+        self.assertIn("HTTP 429", self.log)
+
+    def test_mehrere_transiente_fehler_bis_zum_erfolg(self):
+        result = self._run([
+            FakeResponse(500),
+            requests.ConnectionError("Leitung weg"),
+            FakeResponse(502),
+            FakeResponse(200, text="Endlich"),
+        ])
+        self.assertEqual((result or {}).get("summary"), "Endlich")
+        self.assertEqual((result or {}).get("model"), self.FALLBACK)
+        self.assertEqual(len(self.calls), 4)
+        self.assertEqual(len(self.sleeps), 3)
+        self.assertIn("ConnectionError", self.log)
+
+    def test_fallback_scheitert_bis_zum_budget(self):
+        self.assertIsNone(
+            self._run({self.PRIMARY: FakeResponse(503), self.FALLBACK: FakeResponse(503)})
+        )
+        self.assertEqual(self.models, list(fn.GEMINI_ATTEMPT_MODELS))
+        self.assertEqual(len(self.calls), fn.GEMINI_MAX_ATTEMPTS)
+        self.assertEqual(len(self.sleeps), fn.GEMINI_MAX_ATTEMPTS - 1)
+        self.assertIn(f"{fn.GEMINI_MAX_ATTEMPTS} Versuchen", self.log)
+
+    def test_dauerhafte_fehler_ohne_retry_und_ohne_fallback(self):
+        for status in (400, 401, 403, 404):
+            with self.subTest(status=status):
+                self.sleeps.clear()
+                self.assertIsNone(self._run([FakeResponse(status)]))
+                self.assertEqual(self.models, [self.PRIMARY])
+                self.assertNotIn(self.FALLBACK, self.log)
+                self.assertEqual(self.sleeps, [])
+                self.assertIn(f"HTTP {status}", self.log)
+
+    def test_retry_after_bestimmt_die_wartezeit(self):
+        result = self._run([
+            FakeResponse(429, headers={"Retry-After": "7"}),
+            FakeResponse(200, text="Nach Drosselung"),
+        ])
+        self.assertEqual((result or {}).get("summary"), "Nach Drosselung")
+        self.assertEqual(len(self.sleeps), 1)
+        self.assertGreaterEqual(self.sleeps[0], 7.0)
+        self.assertLess(self.sleeps[0], 7.0 + fn.GEMINI_RETRY_JITTER)
+
+    def test_unlesbares_retry_after_faellt_auf_backoff_zurueck(self):
+        self._run([FakeResponse(429, headers={"Retry-After": "gleich"}), FakeResponse(200)])
+        self.assertGreaterEqual(self.sleeps[0], fn.GEMINI_RETRY_BASE_DELAY)
+        self.assertLess(self.sleeps[0], fn.GEMINI_RETRY_BASE_DELAY + fn.GEMINI_RETRY_JITTER)
+
+    def test_dauertimeout_endet_nach_maximalversuchen(self):
+        self.assertIsNone(self._run([requests.Timeout("zu langsam")]))
+        self.assertEqual(len(self.calls), fn.GEMINI_MAX_ATTEMPTS)
+        self.assertEqual(self.models, list(fn.GEMINI_ATTEMPT_MODELS))
+
+    def test_jeder_versuch_nennt_nummer_und_modell(self):
+        self._run([FakeResponse(503)])
+        for attempt, model in enumerate(fn.GEMINI_ATTEMPT_MODELS, start=1):
+            self.assertIn(f"Versuch {attempt}/{fn.GEMINI_MAX_ATTEMPTS} ({model})", self.log)
+
+    def test_log_verraet_weder_key_noch_url(self):
+        self._run([FakeResponse(503)])
+        self.assertNotIn(self.API_KEY, self.log)
+        self.assertNotIn("x-goog-api-key", self.log)
+        self.assertNotIn("://", self.log)
+
+    def test_unerwartete_antwort_ohne_wiederholung(self):
+        self.assertIsNone(self._run([FakeResponse(200, payload={"candidates": []})]))
+        self.assertEqual(self.models, [self.PRIMARY])
+        self.assertIn("unerwartete Antwort", self.log)
+
+    def test_leere_antwort_ergibt_none(self):
+        self.assertIsNone(self._run([FakeResponse(200, text="   ")]))
+        self.assertEqual(len(self.calls), 1)
+
+    def test_key_steht_im_header_nicht_in_der_url(self):
+        self._run([FakeResponse(200)])
+        self.assertEqual(self.calls[0]["headers"]["x-goog-api-key"], self.API_KEY)
+        self.assertNotIn(self.API_KEY, self.calls[0]["url"])
+
+    def test_ohne_api_key_kein_aufruf(self):
+        with mock.patch.dict(os.environ, {}, clear=True):
+            with mock.patch.object(fn.session, "post", side_effect=AssertionError("kein Aufruf")):
+                with redirect_stdout(io.StringIO()):
+                    self.assertIsNone(fn.generate_ai_summary([]))
 
 
 if __name__ == "__main__":
