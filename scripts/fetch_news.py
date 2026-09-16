@@ -140,6 +140,28 @@ AI_SUMMARY_HOURS = (7, 19)
 # keine Hilfe mehr – dann lieber gar keine anzeigen.
 AI_SUMMARY_MAX_AGE_HOURS = 26
 
+AI_SUMMARY_MAX_HEADLINES = 20
+
+# Das Frontend macht aus jeder Zeile einen Absatz und setzt sie als Text, nicht
+# als Markdown. Freier Fließtext mit Überschriften und Schlussfloskel sieht dort
+# aus wie ein Unfall, deshalb steht das Format hier so eng und so wörtlich, dass
+# wenig Raum zum Ausschmücken bleibt.
+AI_SUMMARY_FORMAT = (
+    "Fasse die wichtigsten Nachrichten-Themen des Tages zusammen.\n"
+    "\n"
+    "Halte dich exakt an dieses Ausgabeformat:\n"
+    "- Antworte mit 3 bis 5 Zeilen und sonst nichts.\n"
+    "- Jede Zeile beginnt mit \"- \" und enthält genau einen Satz.\n"
+    "- Optional darf der Satz mit einem **Kurztitel:** beginnen.\n"
+    "- Keine Einleitung, keine Überschrift, kein Schlusswort, kein Hinweis auf "
+    "dich selbst.\n"
+    "- Keine Leerzeilen, keine Nummerierung, keine weiteren Absätze.\n"
+    "\n"
+    "Jeder Satz nennt das Thema und warum es zählt.\n"
+    "\n"
+    "Schlagzeilen:\n"
+)
+
 OG_IMAGE_PATTERNS = (
     re.compile(
         r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']', re.IGNORECASE
@@ -157,6 +179,11 @@ WORD_SPLIT_PATTERN = re.compile(r"\w+")
 # "UNAVAILABLE" oder "RATE_LIMIT_EXCEEDED". Alles mit Leerzeichen, Doppelpunkt
 # oder Schrägstrich ist Prosa oder URL und fällt durch.
 SAFE_TOKEN_PATTERN = re.compile(r"^[A-Za-z0-9._-]{1,64}$")
+
+# Aufzählungszeichen, die Modelle statt "- " verwenden. "-" und "*" brauchen ein
+# Leerzeichen dahinter, sonst würde ein Satz, der mit "**Kurztitel:**" beginnt,
+# als Aufzählungszeichen missverstanden und auseinandergerissen.
+BULLET_PREFIX_PATTERN = re.compile(r"^(?:[-*]\s+|[•‣·]\s*)")
 
 # "5.000 Dollar" und "5000 Dollar" sollen dasselbe Wort ergeben. Nur Trenner
 # zwischen Dreiergruppen entfernen, damit Datumsangaben unberührt bleiben.
@@ -848,6 +875,44 @@ def gemini_url(model):
     return f"{GEMINI_API_BASE}/{model}:generateContent"
 
 
+def build_ai_prompt(articles):
+    """Baut den Prompt: erst die Formatregeln, dann die Schlagzeilen.
+
+    Das Frontend setzt jede Zeile als eigenen Absatz und rendert sie als Text,
+    nicht als Markdown. Darum wird das Format hier eng vorgegeben statt später
+    mühsam aus Fließtext zurückgewonnen.
+    """
+    headlines = [f"- {a['title']} ({a['source']})" for a in articles[:AI_SUMMARY_MAX_HEADLINES]]
+    return AI_SUMMARY_FORMAT + "\n".join(headlines)
+
+
+def normalize_summary(text):
+    """Glättet die üblichen Modellartefakte, ohne Inhalt zu verlieren.
+
+    Zwei Eingriffe, beide bewusst zurückhaltend: eine reine Anmoderation vor dem
+    ersten Punkt ("Hier die wichtigsten Themen:") fällt weg, und die Aufzählung
+    bekommt einheitlich "- " statt "*" oder "•". Alles Weitere bleibt Zeichen für
+    Zeichen stehen – auch Sternchen mitten im Satz, denn "**Kurztitel:**" ist
+    erlaubt und darf nicht zerpflückt werden, und HTML bleibt Text.
+    """
+    lines = []
+    seen_bullet = False
+    for raw in (text or "").splitlines():
+        line = raw.strip()
+        if not line:
+            continue
+        if BULLET_PREFIX_PATTERN.match(line):
+            seen_bullet = True
+            line = BULLET_PREFIX_PATTERN.sub("- ", line, count=1)
+        elif not seen_bullet and line.endswith(":"):
+            # Anmoderation, kein Punkt der Aufzählung. Nur vor dem ersten
+            # Aufzählungspunkt: danach wäre ein Doppelpunkt am Zeilenende
+            # womöglich echter Inhalt.
+            continue
+        lines.append(line)
+    return "\n".join(lines)
+
+
 def request_ai_summary(api_key, prompt, model):
     """Ein einzelner Gemini-Aufruf; Fehler fliegen an den Aufrufer weiter."""
     # Key im Header, nicht im Query-String: sonst landet er in Logs.
@@ -859,7 +924,7 @@ def request_ai_summary(api_key, prompt, model):
     )
     response.raise_for_status()
     data = response.json()
-    text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
+    text = normalize_summary(data["candidates"][0]["content"]["parts"][0]["text"].strip())
     if not text:
         return None
     return {
@@ -884,12 +949,7 @@ def generate_ai_summary(articles):
         print("AI summary übersprungen: kein GEMINI_API_KEY gesetzt")
         return None
 
-    top_titles = [f"- {a['title']} ({a['source']})" for a in articles[:20]]
-    prompt = (
-        "Fasse die wichtigsten Nachrichten-Themen des Tages in 3–5 kurzen Punkten zusammen. "
-        "Jeder Punkt sollte einen Satz lang sein und das Thema sowie die Bedeutung kurz erklären.\n\n"
-        + "\n".join(top_titles)
-    )
+    prompt = build_ai_prompt(articles)
 
     for attempt, model in enumerate(GEMINI_ATTEMPT_MODELS, start=1):
         label = f"Versuch {attempt}/{GEMINI_MAX_ATTEMPTS} ({model})"

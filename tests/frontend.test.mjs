@@ -587,6 +587,90 @@ section("Top-Tab und Zusammenfassung");
   check("aria-expanded false", toggle.getAttribute("aria-expanded") === "false");
 }
 
+/* ---------- 7b. Zusammenfassung: Markdown-Light und Sicherheit ---------- */
+
+section("Zusammenfassung: Markdown-Light und Sicherheit");
+{
+  const withSummary = (summary) =>
+    boot({
+      payloads: {
+        ...defaultPayloads(),
+        "data/ai-summary.json": { generatedAt: new Date().toISOString(), summary },
+      },
+    });
+  const content = (doc) => doc.getElementById("ai-summary-content");
+
+  // Typisches Gemini-Format: Überschrift, dann Punkte mit Fettdruck.
+  const structured = await withSummary(
+    "# Nachrichten des Tages\n* **Koalition:** Einigung im Streit.\n* **Börse:** Dax gibt nach.\n- **Sport:** Titelverteidiger weiter."
+  );
+  const c1 = content(structured.doc);
+  check("Überschrift als h3", c1.querySelector("h3.ai-summary-heading")?.textContent === "Nachrichten des Tages");
+  check("Liste mit drei Punkten", c1.querySelectorAll("ul.ai-summary-list li").length === 3);
+  check(
+    "Fettdruck als strong-Element, nicht als Textsternchen",
+    c1.querySelector("li strong")?.textContent === "Koalition:" &&
+      !c1.textContent.includes("**Koalition")
+  );
+  check("Auch '- '-Zeilen werden Listenpunkte", c1.textContent.includes("Titelverteidiger weiter"));
+
+  // Gespeicherter Stand ohne Zeilenumbrüche zwischen den Punkten.
+  const glued = await withSummary("* **Erstes:** Text eins. * **Zweites:** Text zwei.");
+  const c2 = content(glued.doc);
+  check(
+    "Verklebte Punkte werden getrennt",
+    c2.querySelectorAll("ul.ai-summary-list li").length === 2,
+    c2.textContent
+  );
+  check("Beide Titel als strong", [...c2.querySelectorAll("li strong")].map((s) => s.textContent).join(",") === "Erstes:,Zweites:");
+
+  // Unformatierte Zusammenfassung bleibt Absatztext – keine leeren Listen.
+  const plain = await withSummary("Ein ruhiger Absatz ohne Markup.\n\nEin zweiter Absatz.");
+  const c3 = content(plain.doc);
+  check(
+    "Unformatierter Text bleibt Absätze",
+    c3.querySelectorAll("p").length === 2 && c3.querySelectorAll("ul, h3").length === 0
+  );
+
+  // Kein Satzende nötig: eine volle Einleitungszeile wird nicht zur
+  // Überschrift, nur weil danach eine Liste kommt.
+  const intro = await withSummary("Heute war viel los. Hier die wichtigsten Punkte:\n* **Thema:** Text.");
+  const c4 = content(intro.doc);
+  check(
+    "Einleitungssatz bleibt Absatz, nicht Überschrift",
+    c4.querySelector("h3") === null && c4.querySelector("p")?.textContent.includes("Heute war viel los")
+  );
+
+  // Feindseliger Inhalt: bleibt sichtbarer Text, erzeugt keinerlei Markup.
+  const hostileSummary = await withSummary(
+    '* <img src=x onerror=alert(1)> **Titel" onmouseover="alert(2):** Text <script>alert(3)</script>'
+  );
+  const c5 = content(hostileSummary.doc);
+  check("Kein img aus KI-Inhalt", c5.querySelectorAll("img").length === 0);
+  check("Kein script aus KI-Inhalt", c5.querySelectorAll("script").length === 0);
+  check("Keine Event-Handler-Attribute im Inhalt",
+    ![...c5.querySelectorAll("*")].some((node) =>
+      [...node.attributes].some((attr) => attr.name.toLowerCase().startsWith("on"))
+    )
+  );
+  check(
+    "Feindseliges Markup bleibt als Text sichtbar",
+    c5.textContent.includes("<img src=x") && c5.textContent.includes("<script>")
+  );
+  check(
+    "Anführungszeichen brechen kein Attribut auf",
+    c5.querySelector("li strong") !== null && !c5.querySelector("[onmouseover]")
+  );
+
+  // Ungerade ** bleiben sichtbarer Text statt halbfetter Ausreißer.
+  const odd = await withSummary("* **Kaputt: Text ohne Ende");
+  check(
+    "Ungerade Fett-Markierung bleibt Text",
+    content(odd.doc).querySelectorAll("strong").length === 0 &&
+      content(odd.doc).textContent.includes("**Kaputt")
+  );
+}
+
 /* ---------- 8. Speicherformat: Migration und Verfall ---------- */
 
 section("Speicherformat: Migration und Verfall");

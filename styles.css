@@ -400,6 +400,42 @@ main.swipe-settle {
   margin-bottom: 0;
 }
 
+/* Strukturierte Zusammenfassung: Überschrift, Liste, Fett-Hervorhebungen.
+   Ruhig und kompakt – sie steht allein im Überblick, nicht im Textfluss. */
+.ai-summary-heading {
+  margin: 0.9rem 0 0.45rem;
+  font-family: var(--title-font);
+  font-size: 1.02rem;
+  font-weight: var(--title-weight);
+  letter-spacing: var(--title-tracking);
+  line-height: 1.3;
+}
+
+.ai-summary-heading:first-child {
+  margin-top: 0;
+}
+
+.ai-summary-list {
+  margin: 0.5rem 0;
+  padding-left: 1.15rem;
+}
+
+.ai-summary-list li {
+  margin: 0.4rem 0;
+  padding-left: 0.15rem;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.ai-summary-list li::marker {
+  color: var(--accent);
+}
+
+.ai-summary strong {
+  font-weight: 700;
+  color: var(--text);
+}
+
 /* Stand der Zusammenfassung: ruhige Unterschrift unter dem Text, klar als
    Zeitpunkt lesbar, ohne mit dem Masthead-Zeitstempel zu konkurrieren. */
 .ai-summary-meta {
@@ -1073,6 +1109,15 @@ footer {
 [data-theme="editorial"] .ai-summary p {
   font-family: var(--serif);
   font-size: 1.02rem;
+}
+
+[data-theme="editorial"] .ai-summary-list li {
+  font-family: var(--serif);
+  font-size: 1rem;
+}
+
+[data-theme="editorial"] .ai-summary-heading {
+  font-size: 1.15rem;
 }
 
 /* Der Stand bleibt Sans und klein: Unterschrift, kein Fließtext. */

@@ -552,15 +552,116 @@ function renderAiSummary() {
     return;
   }
 
-  const paragraphs = state.aiSummary.summary
-    .split("\n")
-    .map((line) => line.trim())
-    .filter(Boolean)
-    .map((line) => el("p", null, line));
-
-  dom.aiSummaryContent.replaceChildren(...paragraphs);
+  dom.aiSummaryContent.replaceChildren(...buildSummaryNodes(state.aiSummary.summary));
   dom.aiSummaryTime.textContent = formatDate(state.aiSummary.generatedAt);
   dom.aiSummaryTime.setAttribute("datetime", state.aiSummary.generatedAt);
+}
+
+/* ---------- Markdown-Light für die KI-Zusammenfassung ----------
+   Bewusst enger Umfang, ausschließlich DOM-Knoten und Textknoten – niemals
+   innerHTML mit KI-Inhalt:
+     - optionale erste Überschrift-Zeile ("# ", "## ", "### " oder eine
+       knappe erste Zeile ohne Satzende direkt vor der ersten Aufzählung)
+     - Bullet-Zeilen mit "* " oder "- " (auch "• ")
+     - "**fett**" innerhalb von Text; ungeschlossene Paare bleiben Text
+   Alles andere bleibt sichtbarer Text – unbekanntes Markup wird gezeigt,
+   nicht ausgeführt. Gespeicherte Zusammenfassungen ohne saubere Zeilen-
+   umbrüche zwischen Punkten werden am Muster "* **" getrennt. */
+
+// Zerlegt den Rohtext in Blöcke. Vor " * **", " - **" und " • **" wird eine
+// Zeilengrenze angenommen, auch wenn Gemini sie in eine Zeile geschrieben
+// hat – das ist das übliche Muster der gespeicherten Stände. Lookbehind
+// mit Fallback, damit ältere Browser ohne Lookbehind-Unterstützung nicht
+// scheitern.
+function splitSummaryBlocks(text) {
+  let normalized;
+  try {
+    normalized = text.replace(new RegExp("(?<=\\S)\\s+(?=[*\\-•]\\s+\\*\\*)", "g"), "\n");
+  } catch {
+    normalized = text.replace(/\s+([*\-•]\s+\*\*)/g, "\n$1");
+  }
+  return normalized
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean);
+}
+
+// Zerlegt eine Textzeile in Text- und Fett-Knoten. Nur geschlossene
+// **...**-Paare werden fett; ein ungerades "**" bleibt sichtbarer Text,
+// statt den Rest der Zeile aus Versehen fett zu machen.
+function appendInlineText(parent, text) {
+  const parts = text.split("**");
+  parts.forEach((part, index) => {
+    if (!part) return;
+    const isClosedPair = index % 2 === 1 && index < parts.length - 1;
+    if (isClosedPair) {
+      parent.appendChild(el("strong", null, part));
+    } else {
+      // Ungerade Fragmente wieder zusammensetzen, damit kein "**" verloren
+      // geht: das Trennzeichen gehört zum sichtbaren Text.
+      const glue = index % 2 === 1 ? `**${part}` : part;
+      parent.appendChild(document.createTextNode(glue));
+    }
+  });
+}
+
+function buildSummaryNodes(text) {
+  const lines = splitSummaryBlocks(text);
+  if (lines.length === 0) return [];
+
+  const isBullet = (line) => /^[*\-•]\s+/.test(line);
+  const isHeading = (line) => /^#{1,3}\s+/.test(line);
+
+  const nodes = [];
+  let list = null;
+
+  lines.forEach((line, index) => {
+    // Erste Zeile als Überschrift: explizit mit "#", oder implizit eine
+    // knappe erste Zeile ohne Satzende direkt vor der ersten Aufzählung –
+    // typisch für Überschriften wie "Nachrichten des Tages". Ein voller
+    // Einleitungssatz bleibt Absatz.
+    const implicitHeading =
+      index === 0 &&
+      !isBullet(line) &&
+      lines.length > 1 &&
+      isBullet(lines[1]) &&
+      !/[.!?:;…]\s*$/.test(line) &&
+      line.length <= 60;
+
+    if (isHeading(line)) {
+      const heading = el("h3", "ai-summary-heading");
+      appendInlineText(heading, line.replace(/^#{1,3}\s+/, ""));
+      nodes.push(heading);
+      list = null;
+      return;
+    }
+
+    if (implicitHeading) {
+      const heading = el("h3", "ai-summary-heading");
+      appendInlineText(heading, line);
+      nodes.push(heading);
+      list = null;
+      return;
+    }
+
+    if (isBullet(line)) {
+      if (!list) {
+        list = el("ul", "ai-summary-list");
+        nodes.push(list);
+      }
+      const item = el("li");
+      appendInlineText(item, line.replace(/^[*\-•]\s+/, ""));
+      list.appendChild(item);
+      return;
+    }
+
+    const paragraph = el("p");
+    appendInlineText(paragraph, line);
+    nodes.push(paragraph);
+    list = null;
+  });
+
+  return nodes;
 }
 
 function buildCard(article, maxScore) {

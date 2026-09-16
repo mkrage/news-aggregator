@@ -840,6 +840,97 @@ class TestErrorDetails(unittest.TestCase):
                 self.assertIsNone(fn.safe_token(value))
 
 
+class TestAiPrompt(unittest.TestCase):
+    """Der Prompt muss das Format erzwingen, das die App darstellen kann."""
+
+    def _prompt(self, count=3):
+        articles = [{"title": f"Schlagzeile {i}", "source": "heise"} for i in range(count)]
+        return fn.build_ai_prompt(articles)
+
+    def test_fordert_drei_bis_fuenf_zeilen(self):
+        self.assertIn("3 bis 5 Zeilen", self._prompt())
+
+    def test_fordert_bullet_prefix_und_einen_satz(self):
+        prompt = self._prompt()
+        self.assertIn('beginnt mit "- "', prompt)
+        self.assertIn("genau einen Satz", prompt)
+
+    def test_erlaubt_kurztitel(self):
+        self.assertIn("**Kurztitel:**", self._prompt())
+
+    def test_verbietet_rahmenwerk(self):
+        prompt = self._prompt()
+        for verbot in ("Keine Einleitung", "keine Überschrift", "kein Schlusswort",
+                       "Keine Leerzeilen", "keine Nummerierung", "keine weiteren Absätze"):
+            with self.subTest(verbot=verbot):
+                self.assertIn(verbot, prompt)
+
+    def test_schlagzeilen_stehen_am_ende(self):
+        prompt = self._prompt(2)
+        self.assertTrue(prompt.rstrip().endswith("- Schlagzeile 1 (heise)"))
+        self.assertIn("Schlagzeilen:", prompt)
+
+    def test_begrenzt_die_schlagzeilen(self):
+        prompt = self._prompt(50)
+        self.assertEqual(prompt.count("(heise)"), fn.AI_SUMMARY_MAX_HEADLINES)
+
+    def test_ohne_artikel_kein_absturz(self):
+        self.assertTrue(fn.build_ai_prompt([]).endswith("Schlagzeilen:\n"))
+
+
+class TestNormalizeSummary(unittest.TestCase):
+    """Minimale Kosmetik: Artefakte weg, Inhalt bleibt."""
+
+    def test_einleitungszeile_faellt_weg(self):
+        text = "Hier sind die wichtigsten Themen des Tages:\n- Erster Punkt.\n- Zweiter Punkt."
+        self.assertEqual(fn.normalize_summary(text), "- Erster Punkt.\n- Zweiter Punkt.")
+
+    def test_doppelpunkt_nach_der_aufzaehlung_bleibt(self):
+        # Nach dem ersten Punkt ist ein Doppelpunkt am Zeilenende womöglich Inhalt.
+        text = "- Erster Punkt.\nOffene Frage bleibt:"
+        self.assertEqual(fn.normalize_summary(text), text)
+
+    def test_sternchen_und_bullet_werden_zu_strich(self):
+        text = "* Erster Punkt.\n• Zweiter Punkt.\n•Dritter Punkt."
+        self.assertEqual(
+            fn.normalize_summary(text),
+            "- Erster Punkt.\n- Zweiter Punkt.\n- Dritter Punkt.",
+        )
+
+    def test_kurztitel_bleibt_unangetastet(self):
+        text = "- **Ukraine:** Die Front bewegt sich.\n**Börse:** Der Dax steigt."
+        self.assertEqual(fn.normalize_summary(text), text)
+
+    def test_html_bleibt_text(self):
+        text = "- <b>Fett</b> & <script>alert(1)</script> bleiben stehen."
+        self.assertEqual(fn.normalize_summary(text), text)
+
+    def test_leerzeilen_und_einrueckung_verschwinden(self):
+        text = "\n   - Erster Punkt.  \n\n\t*   Zweiter Punkt.\n\n"
+        self.assertEqual(fn.normalize_summary(text), "- Erster Punkt.\n- Zweiter Punkt.")
+
+    def test_inhalt_wird_nie_abgeschnitten(self):
+        text = "- Ein Satz mit - Strich und * Stern und : Doppelpunkt mittendrin."
+        self.assertEqual(fn.normalize_summary(text), text)
+
+    def test_fliesstext_ohne_aufzaehlung_bleibt_erhalten(self):
+        # Lieber unschön als weg: das Modell hat sich nicht gehalten, aber der
+        # Inhalt ist das Einzige, was der Lauf hat.
+        text = "Der Tag war ruhig.\nEs gab wenig Neues."
+        self.assertEqual(fn.normalize_summary(text), text)
+
+    def test_leere_eingaben(self):
+        for value in ("", None, "\n\n   \n", "Nur eine Anmoderation:"):
+            with self.subTest(value=value):
+                self.assertEqual(fn.normalize_summary(value), "")
+
+    def test_ergebnis_hat_keine_leerzeile(self):
+        text = "- Erster Punkt.\n\n- Zweiter Punkt.\n\n- Dritter Punkt."
+        result = fn.normalize_summary(text)
+        self.assertEqual(len(result.splitlines()), 3)
+        self.assertTrue(all(line.startswith("- ") for line in result.splitlines()))
+
+
 class TestGenerateAiSummary(GeminiTestCase):
     def test_erfolg_direkt_nennt_das_primaermodell(self):
         result = self._run([FakeResponse(200, text="Punkt eins")])
@@ -984,6 +1075,33 @@ class TestGenerateAiSummary(GeminiTestCase):
     def test_leere_antwort_ergibt_none(self):
         self.assertIsNone(self._run([FakeResponse(200, text="   ")]))
         self.assertEqual(len(self.calls), 1)
+
+    def test_antwort_wird_vor_dem_speichern_geglaettet(self):
+        markdown = (
+            "Hier sind die wichtigsten Themen des Tages:\n\n"
+            "* **Ukraine:** Die Front bewegt sich kaum.\n"
+            "• Der Dax schließt im Plus.\n"
+            "-   Apple zeigt eine neue Uhr.\n"
+        )
+        result = self._run([FakeResponse(200, text=markdown)])
+        self.assertEqual(
+            (result or {}).get("summary"),
+            "- **Ukraine:** Die Front bewegt sich kaum.\n"
+            "- Der Dax schließt im Plus.\n"
+            "- Apple zeigt eine neue Uhr.",
+        )
+
+    def test_nur_anmoderation_gilt_als_leer(self):
+        self.assertIsNone(self._run([FakeResponse(200, text="Hier die Themen des Tages:")]))
+        self.assertEqual(self.models, [self.PRIMARY])
+        self.assertIn("leere Antwort", self.log)
+
+    def test_prompt_traegt_die_formatregeln(self):
+        self._run([FakeResponse(200)])
+        sent = self.calls[0]["json"]["contents"][0]["parts"][0]["text"]
+        self.assertIn("3 bis 5 Zeilen", sent)
+        self.assertIn('beginnt mit "- "', sent)
+        self.assertTrue(sent.endswith("- T (heise)"))
 
     def test_key_steht_im_header_nicht_in_der_url(self):
         self._run([FakeResponse(200)])

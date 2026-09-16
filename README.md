@@ -258,6 +258,24 @@ welches Modell sie geschrieben hat. Das Frontend liest nur `summary` und
 `generatedAt` und ignoriert das Feld – es steht dort fürs Nachsehen, wenn eine
 Zusammenfassung anders klingt als sonst.
 
+#### Format der Zusammenfassung
+
+`app.js` macht aus jeder Zeile einen eigenen Absatz und setzt sie als Text, nicht
+als Markdown. Freier Fließtext mit Überschriften und Schlussfloskel sieht dort
+aus wie ein Unfall, deshalb gibt `AI_SUMMARY_FORMAT` das Format eng vor: 3 bis 5
+Zeilen, jede beginnt mit `- ` und enthält genau einen Satz, optional mit einem
+`**Kurztitel:**` am Satzanfang – keine Einleitung, keine Überschrift, kein
+Schlusswort, keine Leerzeilen.
+
+Weil sich kein Modell immer daran hält, räumt `normalize_summary()` vor dem
+Speichern das Nötigste auf: eine Anmoderation vor dem ersten Punkt ("Hier die
+wichtigsten Themen:") fällt weg, `*` und `•` werden zu `- `, Leerzeilen und
+Einrückung verschwinden. Mehr nicht – Inhalt wird nie abgeschnitten, HTML bleibt
+Text, und ein Satz, der mit `**Kurztitel:**` beginnt, bleibt unangetastet. Hält
+sich das Modell gar nicht ans Format, steht der Fließtext eben unverändert da:
+unschön, aber besser als eine leere Seite. Bleibt nach dem Aufräumen nichts
+übrig, gilt die Antwort als leer und der bisherige Stand bleibt stehen.
+
 Im Frontend akzeptiert `app.js` die Datei nur innerhalb von 24 h
 (`AI_SUMMARY_MAX_AGE_HOURS` dort); danach zeigt der Überblick-Tab eine ruhige
 Leerstelle statt veraltetem Text. Der Tab selbst bleibt stehen – er ist einer
