@@ -1182,7 +1182,9 @@ footer {
 
   [data-theme="app"] .appearance {
     position: absolute;
-    top: 0.3rem;
+    /* Gleicher Versatz wie der obere Innenabstand der Kopfzeile: so beginnt
+       die Gruppe auf derselben Höhe wie das Markenzeichen. */
+    top: 0.45rem;
     right: 0.9rem;
     margin: 0;
     gap: 0.4rem;

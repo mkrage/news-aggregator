@@ -839,8 +839,13 @@ section("Zeitstempel auf schmalen Displays");
   check("Mobil-Block vorhanden", !!narrowBlock);
   check(
     "Umschalter sitzen in der oberen rechten Ecke der Kopfzeile",
-    /\[data-theme="app"\] \.appearance \{[^}]*position: absolute;[^}]*top:/.test(narrowBlock[0]),
+    /\[data-theme="app"\] \.appearance \{[^}]*position: absolute;[^}]*top: 0\.45rem;/.test(narrowBlock[0]),
     narrowBlock[0].slice(0, 400)
+  );
+  check(
+    "Umschalter beginnen auf Höhe des Markenzeichens",
+    /\[data-theme="app"\] \.masthead-inner \{[^}]*padding: 0\.45rem 7\.2rem 0\.4rem 0\.9rem;/.test(narrowBlock[0]) &&
+      /\[data-theme="app"\] \.appearance \{[^}]*top: 0\.45rem;/.test(narrowBlock[0])
   );
   check(
     "Zeitstempel stapelt sich bündig unter den Titel",
