@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T23:47:52.430924+00:00",
+  "generatedAt": "2026-09-16T00:31:58.949278+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/ba01822f-f82b-4029-b97c-9ca0d8ff3ca3/AAABoKZhJzo/AAABnSSvrFg/16x9-big/merz-1606.jpg?width=1920",
       "published": "2026-09-15T20:42:47+02:00",
       "category": "Politik",
-      "score": 78.76,
+      "score": 78.15,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -34,7 +34,7 @@
       "image": "https://images.tagesschau.de/image/7507e67d-ef89-410f-a537-b3ba2e4431f8/AAABoKOh_SU/AAABnSSvrFg/16x9-big/trump-jr-bettina-100.jpg?width=1920",
       "published": "2026-09-15T10:42:11+02:00",
       "category": "Politik",
-      "score": 75.88,
+      "score": 75.26,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -56,7 +56,7 @@
       "image": "https://images.tagesschau.de/image/81f9bee2-3f96-4aef-9020-c89247900fa8/AAABoKWYna4/AAABnSSvrFg/16x9-big/angriff-ukraine-110.jpg?width=1920",
       "published": "2026-09-15T17:03:57+02:00",
       "category": "Politik",
-      "score": 71.72
+      "score": 71.11
     },
     {
       "id": "tagesschau-d66b4c921582ea04",
@@ -68,41 +68,53 @@
       "image": "https://images.tagesschau.de/image/9d544226-0de0-45ee-9385-e780ef456424/AAABm02sCI4/AAABnSSvrFg/16x9-big/supreme-court-178.jpg?width=1920",
       "published": "2026-09-15T16:52:07+02:00",
       "category": "Politik",
-      "score": 71.56
+      "score": 70.95
     },
     {
-      "id": "tagesschau-0c9d0fffe67e46af",
+      "id": "tagesschau-906c5e46d4c7af43",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Litauen: NATO-Kampfjets schießen Drohne ab",
-      "link": "https://www.tagesschau.de/ausland/europa/drohne-litauen-102.html",
-      "summary": "Kampfjets der NATO haben eine Drohne abgeschossen, die in den litauischen Luftraum eingedrungen war. Angaben zur Herkunft der Drohne gibt es bisher nicht. Litauens Präsident Nauseda dankte der NATO.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/fbb5b6e9-226a-4d4b-a66a-c3d2c1d4a1bf/AAABoKKHOWY/AAABnSSvrFg/16x9-big/eurofighter-typhoon-102.jpg?width=1920",
-      "published": "2026-09-15T07:15:19+02:00",
-      "category": "Nachrichten",
-      "score": 71.15,
+      "title": "Streit um Umbenennung: Trump kündigt Schließung des Kennedy Centers an",
+      "link": "https://www.tagesschau.de/ausland/europa/trump-usa-kennedy-center-100.html",
+      "summary": "US-Präsident Trump will seinen Namen am berühmten Kennedy Center anbringen. Nachdem ein Gericht dies erneut untersagte, kündigte er die sofortige Schließung an. Das begründete er unter anderem mit nötigen Renovierungsarbeiten.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/1878aaab-2f86-4e7b-90c0-e47e58582d1c/AAABoKeTH9Q/AAABnSSvrFg/16x9-big/kennedy-center-114.jpg?width=1920",
+      "published": "2026-09-16T02:17:12+02:00",
+      "category": "Politik",
+      "score": 70.79
+    },
+    {
+      "id": "spiegel-54f413b9c3182bfb",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Litauen: Abgeschossene Drohne war laut Regierung mit Sprengsatz bestückt",
+      "link": "https://www.spiegel.de/ausland/litauen-abgeschossene-drohne-war-laut-regierung-mit-sprengsatz-bestueckt-a-edd1cbc5-b077-458f-9930-f140c6ff4f20#ref=rss",
+      "summary": "Ein Nato-Jet hatte das Flugobjekt vom Himmel geholt. Nun meldet der litauische Verteidigungsminister: Die Drohne im Luftraum seines Landes hatte Sprengstoff an Bord. Der Blick geht Richtung Belarus.",
+      "image": "https://cdn.prod.www.spiegel.de/images/c2977f69-b76c-4bd8-b020-fb6a68040ffe_w1200_r1.778_fpx36.92_fpy49.98.jpg",
+      "published": "2026-09-16T00:47:00+02:00",
+      "category": "Politik",
+      "score": 70.54,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "spiegel",
-            "title": "Litauen: Abgeschossene Drohne war laut Regierung mit Sprengsatz bestückt",
-            "link": "https://www.spiegel.de/ausland/litauen-abgeschossene-drohne-war-laut-regierung-mit-sprengsatz-bestueckt-a-edd1cbc5-b077-458f-9930-f140c6ff4f20#ref=rss"
+            "source": "tagesschau",
+            "title": "Litauen: NATO-Kampfjets schießen Drohne ab",
+            "link": "https://www.tagesschau.de/ausland/europa/drohne-litauen-102.html"
           }
         ]
       }
     },
     {
-      "id": "spiegel-730e950d0315ee44",
+      "id": "spiegel-6c1e753695a29fa1",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg: Russland warnt westliche Politiker vor Zugreisen nach Kyjiw",
-      "link": "https://www.spiegel.de/ausland/ukraine-krieg-russland-warnt-westliche-politiker-vor-zugreisen-nach-kyjiw-a-2f4a69b4-e33a-48c2-b481-779d519a65a4#ref=rss",
-      "summary": "Ein Drohnenschlag nahe der Grenze zu Polen traf fast einen Zug mit bekannten Politikern. Die Sprecherin des Außenministeriums in Moskau kommentiert die Attacke mit Zynismus: Reisende müssten nun mal die »Risiken abwägen«.",
-      "image": "https://cdn.prod.www.spiegel.de/images/f273c92e-4630-44ce-9930-b00804cf5688_w1200_r1.778_fpx45_fpy36.jpg",
-      "published": "2026-09-15T16:54:00+02:00",
+      "title": "Pete Hegseth: Republikaner stößt Amtsenthebungsverfahren gegen US-Verteidigungsminister an",
+      "link": "https://www.spiegel.de/ausland/pete-hegseth-republikaner-stoesst-amtsenthebungsverfahren-gegen-us-verteidigungsminister-an-a-de29ad8f-f466-4578-9f24-1a16e413addc#ref=rss",
+      "summary": "Attacke aus den eigenen Reihen: Wegen des Irankriegs fordert der Republikaner Thomas Massie ein Verfahren gegen den Verteidigungsminister. Die Aussicht auf Erfolg ist bescheiden – aber die Wut in der Partei groß.",
+      "image": "https://cdn.prod.www.spiegel.de/images/5b3a0ae5-e64c-41ad-8c8e-221e50d87391_w1200_r1.778_fpx46.66_fpy50.jpg",
+      "published": "2026-09-16T02:05:00+02:00",
       "category": "Politik",
-      "score": 70.59
+      "score": 69.63
     },
     {
       "id": "spiegel-f91cef7aaf1b727a",
@@ -114,7 +126,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/4956ed31-9a5a-4108-b4f2-ba21c3d704de_w1200_r1.778_fpx51_fpy40.jpg",
       "published": "2026-09-15T22:35:00+02:00",
       "category": "Nachrichten",
-      "score": 69.32,
+      "score": 68.71,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -136,7 +148,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/3ce65343-be53-42a4-9a54-f78f4e6ad141_w1200_r1.778_fpx44_fpy50.jpg",
       "published": "2026-09-15T23:02:00+02:00",
       "category": "Politik",
-      "score": 67.7
+      "score": 67.08
     },
     {
       "id": "spiegel-7bff034e901b1be8",
@@ -148,7 +160,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/e4a4feef-3461-4ba2-81cf-5d589b6db52c_w1200_r1.778_fpx30.78_fpy45.jpg",
       "published": "2026-09-15T21:11:00+02:00",
       "category": "Politik",
-      "score": 66.15
+      "score": 65.54
     },
     {
       "id": "heise-d4667a683483f618",
@@ -160,7 +172,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/5/4/8/2/Shell_Tankstelle-6ddfc5b71047b915.jpeg",
       "published": "2026-09-15T14:43:00+02:00",
       "category": "Politik",
-      "score": 65.31,
+      "score": 64.7,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -173,18 +185,6 @@
       }
     },
     {
-      "id": "spiegel-1c4df8e1294747a2",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Niedersachsen: AfD kann mehr als 250 Sitze in Kreis- und Gemeinderäten nicht besetzen",
-      "link": "https://www.spiegel.de/panorama/niedersachsen-afd-kann-mehr-als-250-sitze-in-kreis-und-gemeinderaeten-nicht-besetzen-a-b698b100-4069-4e20-9fbb-f148ad737ef7#ref=rss",
-      "summary": "Die AfD hat bei den Kommunalwahlen in Niedersachsen deutlich hinzugewonnen. Dennoch bleiben viele Sitze in Gemeinderäten leer, weil die Partei zu wenig Kandidierende aufgestellt hat. Was das für die Politik vor Ort bedeutet.",
-      "image": "https://cdn.prod.www.spiegel.de/images/94f73442-f68c-4529-8b55-c455ed5aa701_w1200_r1.778_fpx50_fpy30.jpg",
-      "published": "2026-09-15T19:32:00+02:00",
-      "category": "Politik",
-      "score": 64.78
-    },
-    {
       "id": "golem-b736826754f8aad9",
       "source": "golem",
       "sourceWeight": 0.85,
@@ -194,7 +194,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213056&amp;page=1&amp;ts=1789485065",
       "published": "2026-09-15T17:11:05+02:00",
       "category": "Politik",
-      "score": 60.82
+      "score": 60.21
     },
     {
       "id": "golem-76dc49a939cb7d11",
@@ -206,7 +206,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213034&amp;page=1&amp;ts=1789471141",
       "published": "2026-09-15T13:19:01+02:00",
       "category": "Politik",
-      "score": 57.6
+      "score": 56.99
     },
     {
       "id": "heise-c07fd5e8f93ee308",
@@ -218,7 +218,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/5/4/8/7/shutterstock_421955908-dab9c904b9812778.jpeg",
       "published": "2026-09-15T15:33:00+02:00",
       "category": "Wirtschaft",
-      "score": 52.46
+      "score": 51.85
     },
     {
       "id": "heise-047921ae6a2e296a",
@@ -230,7 +230,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/5/6/6/3/shutterstock_1017657610-0e2d57cb5eea6aa5.jpeg",
       "published": "2026-09-15T17:52:00+02:00",
       "category": "Technologie",
-      "score": 51.39
+      "score": 50.78
     }
   ]
 }
