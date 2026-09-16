@@ -1,66 +1,57 @@
-name: Update News
+name: Deploy Pages
 
 on:
-  schedule:
-    # Zweimal pro Stunde zu ungeraden Minuten. GitHub behandelt Schedules als
-    # "best effort" und verwirft Läufe bei hoher Last – zur vollen Stunde ist
-    # der Rückstau am größten. Zwei Versuche zu Nebenzeiten ergeben in Summe
-    # verlässlich etwa ein Update pro Stunde.
-    - cron: "23 * * * *"
-    - cron: "53 * * * *"
+  push:
+    branches: [master]
   workflow_dispatch:
 
+# Von GitHub für Pages dokumentierte Rechte: Lesen des Repos, Schreiben der
+# Pages-Veröffentlichung und ein OIDC-Token für actions/deploy-pages.
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
-# Ein verzögerter und ein pünktlicher Lauf dürfen sich nicht überschneiden,
-# sonst kollidieren die Pushes.
+# Nur ein Pages-Deployment gleichzeitig. Laufende Deployments werden nicht
+# abgebrochen, damit eine begonnene Veröffentlichung sauber zu Ende läuft.
 concurrency:
-  group: update-news
+  group: pages
   cancel-in-progress: false
 
 jobs:
-  update:
+  python:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
-    permissions:
-      # Schreibrecht für den Daten-Commit, Pages-Recht für configure-pages und
-      # das Hochladen des Artefakts.
-      contents: write
-      pages: write
-    outputs:
-      pushed: ${{ steps.push.outputs.pushed }}
+    timeout-minutes: 5
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
           cache-dependency-path: scripts/requirements.txt
+      - run: pip install -r scripts/requirements.txt
+      - name: Run Python tests
+        working-directory: scripts
+        run: python -m unittest discover -p "test_*.py" -v
 
-      - name: Install dependencies
-        run: pip install -r scripts/requirements.txt
-
-      - name: Set up Node
-        uses: actions/setup-node@v4
+  frontend:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: "22"
           cache: npm
+      - run: npm ci
+      - name: Run frontend tests
+        run: npm test
 
-      - name: Install frontend dependencies
-        run: npm ci
-
-      - name: Fetch news
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        working-directory: scripts
-        run: python fetch_news.py
-
-      # Ab hier gilt: Schlägt eine Prüfung fehl, bricht der Job ab. Weder Commit
-      # noch Push noch Deployment werden erreicht.
+  data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
       - name: Validate generated JSON
         run: |
           python - <<'PY'
@@ -102,42 +93,15 @@ jobs:
           print("Daten sind gültig.")
           PY
 
-      - name: Run Python tests
-        working-directory: scripts
-        run: python -m unittest discover -p "test_*.py" -v
+  build:
+    # Erst wenn alle drei Prüfungen grün sind, entsteht überhaupt ein Artefakt.
+    needs: [python, frontend, data]
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
 
-      - name: Run frontend tests
-        run: npm test
-
-      - name: Commit and push
-        id: push
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-            echo "pushed=false" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-          git commit -m "Update news data"
-          # Zwischenzeitliche Commits einholen, statt am Push zu scheitern.
-          for attempt in 1 2 3; do
-            if git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push; then
-              echo "pushed=true" >> "$GITHUB_OUTPUT"
-              exit 0
-            fi
-            echo "Push attempt ${attempt} failed, retrying ..."
-            sleep 5
-          done
-          echo "Push failed after 3 attempts"
-          exit 1
-
-      # Pushes mit dem GITHUB_TOKEN lösen keine weiteren Workflows aus. Das
-      # Deployment hängt deshalb nicht am Push-Trigger, sondern veröffentlicht
-      # genau die Daten, die dieser Lauf erzeugt und gepusht hat.
       - name: Stage static site
-        if: steps.push.outputs.pushed == 'true'
         run: |
           set -euo pipefail
           rm -rf _site
@@ -155,7 +119,8 @@ jobs:
           do
             cp "$asset" "_site/$asset"
           done
-          # Genau die soeben erzeugten und gepushten Datendateien ausliefern.
+          # Nur versionierte Datendateien ausliefern, kein Wildcard-Kopieren des
+          # Repository-Wurzelverzeichnisses.
           git ls-files -z 'data/*.json' | while IFS= read -r -d '' file; do
             cp "$file" "_site/data/$(basename "$file")"
           done
@@ -163,27 +128,15 @@ jobs:
           find _site -type f | sort
 
       - uses: actions/configure-pages@v5
-        if: steps.push.outputs.pushed == 'true'
 
       - uses: actions/upload-pages-artifact@v4
-        if: steps.push.outputs.pushed == 'true'
         with:
           path: _site
 
   deploy:
-    needs: update
-    if: needs.update.outputs.pushed == 'true'
+    needs: build
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-    # Teilt sich die Gruppe mit dem Deploy-Pages-Workflow, damit sich zwei
-    # Veröffentlichungen nie überschneiden.
-    concurrency:
-      group: pages
-      cancel-in-progress: false
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
