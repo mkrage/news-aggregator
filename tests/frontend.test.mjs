@@ -309,10 +309,16 @@ section("Ausblenden erst beim nächsten Laden");
   check("Vorher Gelesenes ist ausgeblendet", !doc.querySelector(`[data-id="${alreadyRead}"]`));
 
   const before = items(doc).length;
+  const target = items(doc)[0];
+  const targetId = target.dataset.id;
+  const targetEntry = observed.find((o) => o.element === target);
+  targetEntry.observer.callback([{ isIntersecting: true, boundingClientRect: { top: 100 } }]);
+  targetEntry.observer.callback([{ isIntersecting: false, boundingClientRect: { top: -50 } }]);
 
+  check("Bleibt nach dem Überscrollen sichtbar", !!doc.querySelector(`[data-id="${targetId}"]`));
   check("Ist ausgegraut", target.classList.contains("read"));
 
-  check("Im Speicher vermerkt", marks(store, "news-aggregator-read")[targetId] > 0);
+  check("Im Speicher vermerkt", marks(store, "news-aggregator-scrolled")[targetId] > 0);
   check("Gleiches DOM-Element (kein Neuaufbau)", doc.querySelector(`[data-id="${targetId}"]`) === target);
 
   // Auch ein erzwungener Re-Render darf ihn nicht entfernen.
@@ -345,21 +351,21 @@ section("Ausblenden erst beim nächsten Laden");
   void window;
 }
 
-/* ---------- 5. Bewusst ungelesen bleibt ungelesen ---------- */
+/* ---------- 5. Überscrollen markiert als gelesen ---------- */
 
-section("Bewusst ungelesen bleibt ungelesen");
+section("Überscrollen markiert als gelesen");
 {
   const { doc, observed } = await boot({ captureObservers: true });
   clickTab(doc, "latest");
-    const target = items(doc)[0];
-    const id = target.dataset.id;
+  const target = items(doc)[0];
+  const id = target.dataset.id;
 
-  check("Wieder ungelesen", !target.classList.contains("read"));
+  check("Startet ungelesen", !target.classList.contains("read"));
 
   const entry = observed.find((o) => o.element === target);
   entry.observer.callback([{ isIntersecting: true, boundingClientRect: { top: 100 } }]);
   entry.observer.callback([{ isIntersecting: false, boundingClientRect: { top: -50 } }]);
-  check("Scrollen markiert ihn nicht erneut", !target.classList.contains("read"));
+  check("Überscrollen markiert ihn", target.classList.contains("read"));
   void id;
 }
 
@@ -647,9 +653,10 @@ section("Gelesen-Kennzeichnung");
     "Abzeichen trägt Text",
     target.querySelector(".read-badge").textContent.includes("Gelesen")
   );
+  check("Kein Gelesen-Button an der Karte", !target.querySelector(".toggle-read"));
 
+  fire(target.querySelector(".news-title a"), "click");
   check("Karte trägt die Klasse read", target.classList.contains("read"));
-
 }
 
 /* ---------- 14. Weitere Quellen zur selben Nachricht ---------- */

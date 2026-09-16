@@ -513,8 +513,6 @@ function buildCard(article, maxScore) {
   const coverage = buildCoverage(article);
   if (coverage) content.appendChild(coverage);
 
-    const actions = el("div", "news-actions");
-  content.appendChild(actions);
   item.appendChild(content);
 
   applyReadState(item, article.id);
@@ -639,8 +637,6 @@ function applyReadState(item, id) {
   if (!item) return;
   const read = isRead(id);
   item.classList.toggle("read", read);
-
-
 
   // Im Gelesen-Tab gehört ein wieder ungelesener Artikel nicht mehr in die
   // Liste. isConnected: beim Aufbau einer Kachel ist sie noch nicht im DOM.

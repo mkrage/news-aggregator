@@ -784,15 +784,11 @@ a.coverage-source:hover {
   text-underline-offset: 0.2em;
 }
 
-.news-actions {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  margin-top: auto;
-}
-
-
-
+/* Ohne feste Maße skalieren die Inline-SVGs auf ihre Standardgröße hoch. */
+.read-badge svg {
+  width: 0.85rem;
+  height: 0.85rem;
+  flex-shrink: 0;
 }
 
 /* ---------- Gelesen-Zustand ----------
@@ -1285,13 +1281,7 @@ footer {
   .news-list.density-compact .news-coverage {
     margin: 0.4rem 0 0;
   }
-
-  .news-list.density-compact .news-actions {
-    margin-top: 0.55rem;
-  }
-
-
-  }
+}
 
   /* Große Karten: mehr Bild, größere Schlagzeile. */
   .news-list.density-large {

@@ -135,7 +135,7 @@ python scripts/make_icons.py
 
 ## Lesestatus
 
-Artikel gelten als gelesen, wenn sie angeklickt, per Button markiert oder beim
+Artikel gelten als gelesen, wenn sie angeklickt oder beim
 Scrollen nach oben aus dem Viewport geschoben wurden. Markierte Artikel werden
 sofort ausgegraut, bleiben aber bis zum nächsten Laden in der Liste – erst dann
 greift „Gelesene ausblenden". So verschwindet nichts unter dem Finger.
