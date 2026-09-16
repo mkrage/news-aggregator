@@ -547,9 +547,11 @@ class TestFetchFeed(unittest.TestCase):
 class FakeResponse:
     """Minimale requests.Response-Attrappe für die Gemini-Tests."""
 
-    def __init__(self, status_code=200, payload=None, headers=None, text="Zusammenfassung"):
+    def __init__(self, status_code=200, payload=None, headers=None, text="Zusammenfassung",
+                 json_error=None):
         self.status_code = status_code
         self.headers = headers or {}
+        self.json_error = json_error
         self._payload = payload if payload is not None else {
             "candidates": [{"content": {"parts": [{"text": text}]}}]
         }
@@ -563,6 +565,8 @@ class FakeResponse:
             )
 
     def json(self):
+        if self.json_error is not None:
+            raise self.json_error
         return self._payload
 
 
@@ -725,6 +729,117 @@ class TestModelCascade(unittest.TestCase):
                 self.assertFalse(fn.is_retryable_error(requests.HTTPError(response=FakeResponse(status))))
 
 
+class TestErrorDetails(unittest.TestCase):
+    """Nur Kennungen aus dem Fehlerbody – nie Prosa, URL oder Key."""
+
+    SECRET = "AIzaSyGEHEIMERKEY"
+    MESSAGE = (
+        f"Quota exceeded for project 'news-aggregator' with key {SECRET}; "
+        "prompt: Fasse die wichtigsten Nachrichten-Themen ... "
+        "see https://console.cloud.google.com/iam-admin/quotas"
+    )
+
+    @staticmethod
+    def _error(status_code=503, **body):
+        return requests.HTTPError(response=FakeResponse(status_code, payload={"error": body}))
+
+    def test_sichere_felder_werden_geloggt(self):
+        error = self._error(
+            503,
+            code=503,
+            status="UNAVAILABLE",
+            message=self.MESSAGE,
+            details=[{
+                "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+                "reason": "SERVICE_UNAVAILABLE",
+                "domain": "generativelanguage.googleapis.com",
+                "metadata": {"model": "gemini-3.8-flash"},
+            }],
+        )
+        self.assertEqual(
+            fn.describe_error(error),
+            "HTTP 503 api_status=UNAVAILABLE api_code=503 reason=SERVICE_UNAVAILABLE",
+        )
+
+    def test_message_url_und_key_niemals(self):
+        described = fn.describe_error(self._error(
+            429,
+            code=429,
+            status="RESOURCE_EXHAUSTED",
+            message=self.MESSAGE,
+            details=[{"reason": "RATE_LIMIT_EXCEEDED", "domain": "googleapis.com"}],
+        ))
+        self.assertIn("api_status=RESOURCE_EXHAUSTED", described)
+        self.assertNotIn(self.SECRET, described)
+        self.assertNotIn("Quota exceeded", described)
+        self.assertNotIn("prompt", described)
+        self.assertNotIn("://", described)
+        self.assertNotIn("googleapis.com", described)
+
+    def test_fehlende_felder_fallen_einfach_weg(self):
+        self.assertEqual(fn.describe_error(self._error(429, code=429)), "HTTP 429 api_code=429")
+        self.assertEqual(fn.describe_error(self._error(500, status="INTERNAL")),
+                         "HTTP 500 api_status=INTERNAL")
+
+    def test_ohne_fehlerbody_bleibt_das_bisherige_log(self):
+        # Kein error-Objekt, kein Gewinn an Information: alles wie vorher.
+        error = requests.HTTPError(response=FakeResponse(500, payload={"candidates": []}))
+        self.assertEqual(fn.describe_error(error), "HTTP 500")
+
+    def test_prosa_in_kennungsfeldern_wird_verworfen(self):
+        described = fn.describe_error(self._error(
+            403,
+            status=self.MESSAGE,
+            code="403 Forbidden: siehe https://example.com",
+            details=[{"reason": "Der Schlüssel gilt nicht mehr"}],
+        ))
+        self.assertEqual(described, "HTTP 403")
+
+    def test_erstes_brauchbares_reason_gewinnt(self):
+        described = fn.describe_error(self._error(
+            429,
+            details=[
+                {"@type": "type.googleapis.com/google.rpc.Help"},
+                {"reason": "RATE_LIMIT_EXCEEDED"},
+                {"reason": "ZWEITER_GRUND"},
+            ],
+        ))
+        self.assertEqual(described, "HTTP 429 reason=RATE_LIMIT_EXCEEDED")
+
+    def test_kaputte_strukturen_crashen_nicht(self):
+        bodies = (
+            {"error": "kaputt"},
+            {"error": {"details": "keine Liste"}},
+            {"error": {"details": ["Text", 5, None]}},
+            {"error": {"status": {"nested": "dict"}, "code": [503]}},
+            ["ganz anderes JSON"],
+            None,
+        )
+        for body in bodies:
+            with self.subTest(body=body):
+                error = requests.HTTPError(response=FakeResponse(500, payload=body))
+                self.assertEqual(fn.describe_error(error), "HTTP 500")
+
+    def test_ungueltiges_json_wird_still_ignoriert(self):
+        for problem in (ValueError("kein JSON"), TypeError("x"), requests.RequestException("weg")):
+            with self.subTest(problem=type(problem).__name__):
+                error = requests.HTTPError(response=FakeResponse(500, json_error=problem))
+                self.assertEqual(fn.describe_error(error), "HTTP 500")
+
+    def test_netzwerkfehler_ohne_antwort_unveraendert(self):
+        self.assertEqual(fn.describe_error(requests.Timeout("zu langsam")), "Timeout")
+        self.assertEqual(fn.error_details(requests.Timeout("zu langsam")), "")
+
+    def test_safe_token_laesst_nur_kennungen_durch(self):
+        for value in ("UNAVAILABLE", "RATE_LIMIT_EXCEEDED", "gemini-2.5-flash", 503, " 503 "):
+            with self.subTest(value=value):
+                self.assertIsNotNone(fn.safe_token(value))
+        for value in (None, True, False, "", "   ", "mit Leerzeichen", "a" * 65,
+                      "https://x.de", {"a": 1}, ["a"], 5.5, "key=abc:def"):
+            with self.subTest(value=value):
+                self.assertIsNone(fn.safe_token(value))
+
+
 class TestGenerateAiSummary(GeminiTestCase):
     def test_erfolg_direkt_nennt_das_primaermodell(self):
         result = self._run([FakeResponse(200, text="Punkt eins")])
@@ -832,6 +947,34 @@ class TestGenerateAiSummary(GeminiTestCase):
         self.assertNotIn(self.API_KEY, self.log)
         self.assertNotIn("x-goog-api-key", self.log)
         self.assertNotIn("://", self.log)
+
+    def test_fehlerdetails_stehen_neben_status_und_modell(self):
+        error_body = {"error": {
+            "code": 429,
+            "status": "RESOURCE_EXHAUSTED",
+            "message": f"Quota exceeded with key {self.API_KEY}, prompt: Fasse die ...",
+            "details": [{"reason": "RATE_LIMIT_EXCEEDED", "domain": "googleapis.com"}],
+        }}
+        self._run({
+            self.PRIMARY: FakeResponse(429, payload=error_body),
+            self.FALLBACK: FakeResponse(200),
+        })
+        self.assertIn(
+            f"Versuch 1/{fn.GEMINI_MAX_ATTEMPTS} ({self.PRIMARY}) fehlgeschlagen: "
+            "HTTP 429 api_status=RESOURCE_EXHAUSTED api_code=429 reason=RATE_LIMIT_EXCEEDED",
+            self.log,
+        )
+        # Retry und Fallback bleiben davon unberührt.
+        self.assertEqual(self.models, [self.PRIMARY, self.PRIMARY, self.FALLBACK])
+        self.assertNotIn(self.API_KEY, self.log)
+        self.assertNotIn("Quota exceeded", self.log)
+        self.assertNotIn("googleapis.com", self.log)
+
+    def test_kaputter_fehlerbody_aendert_nichts_am_ablauf(self):
+        self.assertIsNone(self._run([FakeResponse(503, json_error=ValueError("kein JSON"))]))
+        self.assertEqual(self.models, list(fn.GEMINI_ATTEMPT_MODELS))
+        self.assertIn(f"({self.PRIMARY}) fehlgeschlagen: HTTP 503", self.log)
+        self.assertNotIn("api_status", self.log)
 
     def test_unerwartete_antwort_ohne_wiederholung(self):
         self.assertIsNone(self._run([FakeResponse(200, payload={"candidates": []})]))

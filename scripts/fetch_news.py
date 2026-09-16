@@ -153,6 +153,11 @@ TAG_PATTERN = re.compile(r"<[^>]+>")
 WHITESPACE_PATTERN = re.compile(r"\s+")
 WORD_SPLIT_PATTERN = re.compile(r"\w+")
 
+# Was aus einem fremden Fehlerbody ins Log darf: kurze Kennungen wie
+# "UNAVAILABLE" oder "RATE_LIMIT_EXCEEDED". Alles mit Leerzeichen, Doppelpunkt
+# oder Schrägstrich ist Prosa oder URL und fällt durch.
+SAFE_TOKEN_PATTERN = re.compile(r"^[A-Za-z0-9._-]{1,64}$")
+
 # "5.000 Dollar" und "5000 Dollar" sollen dasselbe Wort ergeben. Nur Trenner
 # zwischen Dreiergruppen entfernen, damit Datumsangaben unberührt bleiben.
 THOUSANDS_PATTERN = re.compile(r"(?<=\d)[.,](?=\d{3}(?!\d))")
@@ -723,16 +728,70 @@ def is_retryable_error(error):
     return isinstance(error, GEMINI_RETRY_ERRORS)
 
 
+def safe_token(value):
+    """Lässt nur kurze, maschinenlesbare Kennungen durch, sonst None.
+
+    Die Schranke ist der eigentliche Schutz: alles mit Leerzeichen, Doppelpunkt
+    oder Satzzeichen ist Prosa und könnte Kontonamen, Prompt-Auszüge oder eine
+    URL enthalten – auch wenn es in einem Feld steht, das sonst eine Kennung
+    führt.
+    """
+    if isinstance(value, bool) or not isinstance(value, (str, int)):
+        return None
+    text = str(value).strip()
+    return text if SAFE_TOKEN_PATTERN.match(text) else None
+
+
+def detail_reason(details):
+    """Erstes sicheres `reason` aus Googles details-Liste, sonst None."""
+    for detail in details or []:
+        if not isinstance(detail, dict):
+            continue
+        reason = safe_token(detail.get("reason"))
+        if reason:
+            return reason
+    return None
+
+
+def error_details(error):
+    """Sichere Felder aus Googles JSON-Fehlerbody, kompakt formatiert.
+
+    Google legt neben der Prosa auch Kennungen ab: `error.status`
+    ("UNAVAILABLE"), `error.code` und in `error.details` ein `reason`
+    ("RATE_LIMIT_EXCEEDED"). Die sagen beim Nachsehen, ob es Kontingent,
+    Überlastung oder Berechtigung war – ohne irgendetwas preiszugeben.
+    `error.message` bleibt außen vor, es zitiert mitunter den Prompt.
+
+    Klappt das Auslesen nicht, gibt es eben keine Details; Diagnostik darf einen
+    Lauf nie zu Fall bringen.
+    """
+    response = getattr(error, "response", None)
+    if response is None:
+        return ""
+
+    try:
+        body = response.json()["error"]
+        fields = (
+            ("api_status", safe_token(body.get("status"))),
+            ("api_code", safe_token(body.get("code"))),
+            ("reason", detail_reason(body.get("details"))),
+        )
+    except Exception:  # noqa: BLE001 - kein Body, kein JSON, andere Struktur: egal
+        return ""
+
+    return " ".join(f"{name}={value}" for name, value in fields if value)
+
+
 def describe_error(error):
-    """Kurzbeschreibung fürs Log – Statuscode oder Fehlerklasse, sonst nichts.
+    """Kurzbeschreibung fürs Log – Statuscode, Fehlerklasse, sichere Kennungen.
 
     Exception-Texte enthalten die volle URL und mitunter Antwortinhalte; beides
     gehört nicht in ein öffentliches Actions-Log.
     """
     status = response_status(error)
-    if status is not None:
-        return f"HTTP {status}"
-    return type(error).__name__
+    if status is None:
+        return type(error).__name__
+    return f"HTTP {status} {error_details(error)}".strip()
 
 
 def parse_retry_after(value, now=None):

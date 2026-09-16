@@ -234,10 +234,24 @@ gedeckelt auf `GEMINI_RETRY_MAX_DELAY` (30 s).
 
 HTTP 400, 401, 403 und 404 (`GEMINI_FATAL_STATUSES`, etwa falscher Key oder
 unbekanntes Modell) brechen sofort ab: weder Wiederholung noch Fallback ändern
-daran etwas. Dasselbe gilt für unerwartet gebaute Antworten. Jeder Versuch
-landet mit Nummer, Modell und Statuscode bzw. Fehlerklasse im Log – ohne URL,
-ohne Key, ohne Antworttext. Bleibt es beim Fehlschlag, verhält sich der Lauf wie
-bisher: keine neue Datei, der bisherige Stand bleibt stehen.
+daran etwas. Dasselbe gilt für unerwartet gebaute Antworten. Bleibt es beim
+Fehlschlag, verhält sich der Lauf wie bisher: keine neue Datei, der bisherige
+Stand bleibt stehen.
+
+Jeder Versuch landet mit Nummer, Modell und Statuscode bzw. Fehlerklasse im Log:
+
+```
+AI summary Versuch 1/5 (gemini-3.8-flash) fehlgeschlagen: HTTP 429 api_status=RESOURCE_EXHAUSTED api_code=429 reason=RATE_LIMIT_EXCEEDED
+```
+
+Die drei `api_*`/`reason`-Felder stammen aus Googles JSON-Fehlerbody
+(`error.status`, `error.code` und `reason` aus `error.details`) und sagen beim
+Nachsehen, ob es Kontingent, Überlastung oder Berechtigung war. Mehr geht nicht
+ins Log: `error.message` zitiert mitunter den Prompt und nennt Projekt oder Key,
+Response-URL, Header und Body bleiben ebenfalls draußen. Durchgelassen werden nur
+kurze Kennungen (`SAFE_TOKEN_PATTERN`) – steht in einem dieser Felder ausnahmsweise
+Prosa, fällt sie weg. Fehlt der Body oder ist er kein brauchbares JSON, bleibt es
+still bei `HTTP <status>`.
 
 Eine gelungene Zusammenfassung vermerkt in `data/ai-summary.json` unter `model`,
 welches Modell sie geschrieben hat. Das Frontend liest nur `summary` und
