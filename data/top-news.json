@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-17T01:59:36.459652+00:00",
+  "generatedAt": "2026-09-17T07:49:29.673233+00:00",
   "count": 15,
   "articles": [
+    {
+      "id": "tagesschau-80668395cfe40f13",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "US-Präsident Trump droht EU wegen Annäherung an Kanada",
+      "link": "https://www.tagesschau.de/ausland/amerika/trump-kanada-eu-100.html",
+      "summary": "Während Kanada und die EU noch überlegen, wie sie künftig enger zusammenarbeiten wollen, macht US-Präsident Trump bereits klar: Er hält die Idee für \"lächerlich\" - und droht mit neuen Zöllen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/318dc495-cad6-4251-88b5-744dc1faac53/AAABoK3PPMU/AAABnSSvrFg/16x9-big/donald-trump-920.jpg?width=1920",
+      "published": "2026-09-17T07:20:35+02:00",
+      "category": "Politik",
+      "score": 80.93,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Donald Trump droht EU wegen Kanada-Annäherung mit »sehr hohen Zöllen«",
+            "link": "https://www.spiegel.de/wirtschaft/donald-trump-droht-eu-wegen-kanada-annaeherung-mit-sehr-hohen-zoellen-a-f4bcbd42-8e0d-4a79-af07-9a0ae0df9f6d#ref=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "spiegel-9571b51abc282d3c",
       "source": "spiegel",
@@ -12,41 +34,77 @@
       "image": "https://cdn.prod.www.spiegel.de/images/5a971c20-2669-4f0a-a8c4-774a83a57f38_w1200_r1.778_fpx49_fpy91.jpg",
       "published": "2026-09-17T01:51:00+02:00",
       "category": "Politik",
-      "score": 84.21
+      "score": 79.35
     },
     {
-      "id": "tagesschau-fb8be33ab22b30ac",
+      "id": "spiegel-d98339570daef4c4",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "AfD und Donald Trump: Trumps gefährlicher Pakt mit der AfD – Podcast",
+      "link": "https://www.spiegel.de/politik/afd-und-donald-trump-trumps-gefaehrlicher-pakt-mit-der-afd-podcast-a-72b9f8dc-a773-43b8-b383-bd71efeceb18#ref=rss",
+      "summary": "US-Präsident Trump feiert den Wahlsieg der AfD in Sachsen-Anhalt. Die Verbindungen seiner Bewegung zu deutschen Rechtsextremen sind eng – dahinter stecken knallharte finanzielle Interessen. Hören Sie die neue Folge des SPIEGEL-Politikpodcasts »Mad Kings«.",
+      "image": "https://cdn.prod.www.spiegel.de/images/1655fed2-1b8d-445d-a172-b8870112634b_w1200_r1.778_fpx56.24_fpy49.98.jpg",
+      "published": "2026-09-17T06:10:00+02:00",
+      "category": "Politik",
+      "score": 74.95
+    },
+    {
+      "id": "tagesschau-1ce6755450399fee",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "US-Notenbank erhöht Leitzins erstmals seit 2023",
-      "link": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/fed-leitzins-erhoeht-100.html",
-      "summary": "Im Kampf gegen die hartnäckig hohe Inflation hebt die US-Notenbank Fed den Leitzins an. Er wurde um einen Viertelpunkt erhöht - auf die neue Spanne von 3,75 bis 4,00 Prozent. Experten hatten mit diesem Schritt gerechnet.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/685c8519-02b2-4274-a9e1-f8616648a419/AAABoKuKZSE/AAABnSSvrFg/16x9-big/stock-exchange-100.jpg?width=1920",
-      "published": "2026-09-17T02:07:20+02:00",
-      "category": "Wirtschaft",
-      "score": 81.44,
+      "title": "US-Repräsentantenhaus beschließt Sanktionen gegen Russland",
+      "link": "https://www.tagesschau.de/ausland/amerika/usa-russland-sanktionen-140.html",
+      "summary": "Lange wurde gerungen, jetzt hat auch das US-Repräsentantenhaus neue Sanktionen gegen Russland beschlossen. Damit können auch die Handelspartner Moskaus ins Visier genommen werden. Aber ist Trump bereit, das auch umzusetzen? Von Ralf Borchard. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/f554b08d-b42a-48e0-af88-775d5865551f/AAABm4gyzE8/AAABnSSvrFg/16x9-big/us-kapitol-152.jpg?width=1920",
+      "published": "2026-09-17T09:25:46+02:00",
+      "category": "Politik",
+      "score": 70.67
+    },
+    {
+      "id": "heise-63dba9f350d14bd1",
+      "source": "heise",
+      "sourceWeight": 0.9,
+      "title": "Euro-Office kommt auf den Desktop",
+      "link": "https://www.heise.de/news/Euro-Office-erhaelt-Desktop-App-11456058.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
+      "summary": "Nextcloud Hub 26 Summer erweitert die freie Kollaborationsplattform. Euro-Office bekommt eine dedizierte Desktop-Anwendung.",
+      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/6/5/4/8/Nextcloud-Hub-26-Summer-A-shared-Deck-board-e4fe96d37f9de28d.png",
+      "published": "2026-09-17T08:32:00+02:00",
+      "category": "Technologie",
+      "score": 69.73,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "spiegel",
-            "title": "US-Notenbank Fed erhöht Leitzins erstmals seit 2023",
-            "link": "https://www.spiegel.de/wirtschaft/us-notenbank-fed-erhoeht-leitzins-erstmals-seit-2023-a-c72447c1-ff8e-4fdb-a5c1-9745d77ce5b9#ref=rss"
+            "source": "golem",
+            "title": "Microsoft-Alternative: Euro-Office bekommt Desktop-Client",
+            "link": "https://www.golem.de/news/microsoft-alternative-euro-office-bekommt-desktop-client-2609-213134.html"
           }
         ]
       }
     },
     {
-      "id": "tagesschau-26847a408260265b",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "US-Kongress stimmt für schärfere Sanktionen gegen Russland",
-      "link": "https://www.tagesschau.de/ausland/europa/usa-russland-sanktionen-136.html",
-      "summary": "Es ist der wohl bedeutendste Vorstoß der USA zur Unterstützung der Ukraine, seit Trump zurück im Amt ist: Nach dem Senat hat nun auch das Repräsentantenhaus neuen Sanktionen zugestimmt. Nun fehlt nur noch die Unterschrift des Präsidenten.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/72b2d0a6-1585-4169-a4e1-7e2a280bf5fe/AAABoKy1_DQ/AAABnSSvrFg/16x9-big/us-kongress-kapitol-100.jpg?width=1920",
-      "published": "2026-09-17T02:13:23+02:00",
+      "id": "spiegel-587398dc62f4032e",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Airsoft und »FakeTrade«: Aus dem Innenleben der Online-Betrugsindustrie – was Sie zur Recherche wissen müssen",
+      "link": "https://www.spiegel.de/panorama/justiz/airsoft-und-faketrade-aus-dem-innenleben-der-online-betrugsindustrie-was-sie-zur-recherche-wissen-muessen-a-4c838a56-6c37-47da-b6ad-65fc30cad403#ref=rss",
+      "summary": "Eine israelische Firma hat Hunderte angebliche Cybertrading-Portale mit Betrugssoftware versorgt. Wie funktionierte die Masche? Wer sind die Opfer? Und wie kamen deutsche Ermittler ihnen auf die Spur?",
+      "image": "https://cdn.prod.www.spiegel.de/images/7db1448d-2e52-4902-936a-7827015151de_w1200_r1.778_fpx50_fpy50.jpg",
+      "published": "2026-09-17T09:01:00+02:00",
       "category": "Politik",
-      "score": 77.52
+      "score": 69.33
+    },
+    {
+      "id": "spiegel-2346c509bad1084b",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Cyberbetrug: Wie eine israelische IT-Firma ein weltweites Abzock-System ermöglichte",
+      "link": "https://www.spiegel.de/panorama/justiz/cyberbetrug-wie-eine-israelische-it-firma-ein-weltweites-abzock-system-ermoeglichte-a-391792f5-67de-4927-a3b6-f5b746977059#ref=rss",
+      "summary": "Mit einer Software aus Israel gaukeln Betrüger Riesenrenditen vor, am Ende ist das Geld der Anleger weg. Der SPIEGEL und seine Partner haben das kriminelle Netzwerk durchleuchtet. Die Recherche offenbart ein weltweites System der Abzocke.",
+      "image": "https://cdn.prod.www.spiegel.de/images/3c7ed146-7062-46d0-805e-a54c11f41204_w1200_r1.778_fpx57_fpy46.png",
+      "published": "2026-09-17T09:00:00+02:00",
+      "category": "Politik",
+      "score": 69.31
     },
     {
       "id": "tagesschau-ebd3cdcc82f37a01",
@@ -58,7 +116,7 @@
       "image": "https://images.tagesschau.de/image/e19d0b97-a6a5-4380-893e-78f6d5584495/AAABoKoOYzc/AAABnSSvrFg/16x9-big/jungendliche-smartphone-100.jpg?width=1920",
       "published": "2026-09-16T14:40:13+02:00",
       "category": "Nachrichten",
-      "score": 72.9,
+      "score": 68.04,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -76,6 +134,18 @@
       }
     },
     {
+      "id": "spiegel-cc146f71b9fbf480",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Immobilien: Hohe Bauzinsen dämpfen Nachfrage",
+      "link": "https://www.spiegel.de/wirtschaft/immobilien-hohe-bauzinsen-daempfen-nachfrage-a-8068e68d-7001-42f1-bcc2-f3cf8a4ac271#ref=rss",
+      "summary": "Eigenheimträume auf Eis: Hohe Bauzinsen und die Inflation bremsen den deutschen Immobilienmarkt deutlich aus. Besonders Häuslebauer und Grundstückskäufer spüren die Trendwende.",
+      "image": "https://cdn.prod.www.spiegel.de/images/6ee74a57-4b69-47f4-b448-aea2e12c8a88_w1200_r1.778_fpx62_fpy50.jpg",
+      "published": "2026-09-17T07:08:00+02:00",
+      "category": "Wirtschaft",
+      "score": 67.76
+    },
+    {
       "id": "tagesschau-211bcae5a5c2460a",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -85,167 +155,67 @@
       "image": "https://images.tagesschau.de/image/07dfa3ef-ef4c-49e3-8058-c135f01b320e/AAABoKtMa_U/AAABnSSvrFg/16x9-big/tanklastwagen-100.jpg?width=1920",
       "published": "2026-09-16T20:11:51+02:00",
       "category": "Politik",
-      "score": 72.5
+      "score": 67.64
     },
     {
-      "id": "tagesschau-8faba8a7489369b9",
+      "id": "tagesschau-c490308cb11ebcc3",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "US-Senat stoppt Gesetz - Kryptowährungen unter Druck",
-      "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/krypto-us-senat-100.html",
-      "summary": "Ein US-Gesetz zur Regulierung von Kryptowährungen ist im Senat gescheitert. Das ist eine Niederlage für Donald Trump und setzt die Kurse unter Druck. Der Bitcoin fällt zeitweise unter 75.000 Dollar.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/a087b8a9-b1f0-4610-9d6c-e5aa9a4d6d6a/AAABoKnHiGc/AAABnSSvrFg/16x9-big/bitcoin-236.jpg?width=1920",
-      "published": "2026-09-16T14:37:06+02:00",
+      "title": "Gazastreifen: Tote bei Einsturz von ausgebombtem Wohnhaus",
+      "link": "https://www.tagesschau.de/ausland/europa/gaza-tote-hauseinsturz-100.html",
+      "summary": "Im Gazastreifen ist ein mehrstöckiges Wohnhaus eingestürzt. Es gibt mindestens 20 Tote, fast 100 Menschen werden noch vermisst. Helfer graben mit bloßen Händen nach ihnen. Das Gebäude war zuvor durch israelische Angriffe beschädigt worden.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/883e3925-8546-47ea-8a6c-3e69a3c72ce9/AAABoKpPaUM/AAABnSSvrFg/16x9-big/wohnhaus-gaza-100.jpg?width=1920",
+      "published": "2026-09-16T19:13:18+02:00",
       "category": "Politik",
-      "score": 71.85,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "golem",
-            "title": "Digitaler Finanzmarkt: US-Senat blockiert Trumps Krypto-Gesetz",
-            "link": "https://www.golem.de/news/digitaler-finanzmarkt-us-senat-blockiert-trumps-krypto-gesetz-2609-213083.html"
-          }
-        ]
-      }
+      "score": 66.83
     },
     {
-      "id": "spiegel-67ebd44742f90fac",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "News des Tages: Ed Sheeran, Ursula von der Leyen, Malaria in Deutschland",
-      "link": "https://www.spiegel.de/politik/deutschland/news-des-tages-ed-sheeran-ursula-von-der-leyen-malaria-in-deutschland-a-717efddd-cdd4-4369-9466-9a267a6927fe#ref=rss",
-      "summary": "Schmusesänger Ed Sheeran steht unter Druck. EU-Kommissionschefin Ursula von der Leyen will Kanada an die Europäische Union binden. Und: So gefährlich ist Malaria in Deutschland. Das ist die Lage am Mittwochabend.",
-      "image": "https://cdn.prod.www.spiegel.de/images/0fb372c3-843d-4dc6-a445-e7c34c92f75c_w1200_r1.778_fpx28.09_fpy49.93.png",
-      "published": "2026-09-16T17:36:00+02:00",
-      "category": "Nachrichten",
-      "score": 71.34,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "tagesschau",
-            "title": "Von der Leyen zur Lage der Union: Neuer Krisenmechanismus und mehr Bündnisse",
-            "link": "https://www.tagesschau.de/ausland/europa/von-der-leyen-russland-ukraine-kanada-100.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-1543b5a62b977a20",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "USA luden offenbar Israel und arabische Staaten zu Treffen in Deutschland ein",
-      "link": "https://www.spiegel.de/ausland/usa-luden-offenbar-israel-und-arabische-staaten-zu-treffen-in-deutschland-ein-a-c5ebfc0a-2784-42ae-bce4-50330e949bde#ref=rss",
-      "summary": "Der Irankrieg schwelt weiterhin – und war nun offenbar Thema eines Treffens hochrangiger Militärs. Initiiert wurde das Meeting einem Bericht zufolge von den USA. Austragungsort war demnach Deutschland.",
-      "image": "https://cdn.prod.www.spiegel.de/images/8768418a-a6c4-4881-a816-04d410946ad1_w1200_r1.778_fpx63.99_fpy49.99.jpg",
-      "published": "2026-09-16T18:09:00+02:00",
-      "category": "Politik",
-      "score": 69.8
-    },
-    {
-      "id": "spiegel-e2f9e6ef62265807",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Donald Trump droht EU wegen Kanada-Annäherung mit »sehr hohen Zöllen«",
-      "link": "https://www.spiegel.de/wirtschaft/donald-trump-droht-eu-wegen-kanada-annaeherung-mit-sehr-hohen-zoellen-a-f4bcbd42-8e0d-4a79-af07-9a0ae0df9f6d#ref=rss",
-      "summary": "Kanada und die EU wollen ihre Partnerschaft vertiefen. Dem US-Präsidenten gefällt das gar nicht: Donald Trump kritisiert einen »lächerlichen« Vorschlag aus Brüssel. Sollte er diesen als »feindseligen Akt« werten, werde es Konsequenzen geben.",
-      "image": "https://cdn.prod.www.spiegel.de/images/ba14437f-07e1-4425-8ab4-c9af8f7cf1a5_w1200_r1.778_fpx45_fpy41.jpg",
-      "published": "2026-09-17T03:12:00+02:00",
-      "category": "Politik",
-      "score": 69.34
-    },
-    {
-      "id": "spiegel-bb6b798481ba1ecd",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "USA: Widersetzt sich Fed-Chef Kevin Warsh dem Druck von Donald Trump?",
-      "link": "https://www.spiegel.de/wirtschaft/usa-widersetzt-sich-fed-chef-kevin-warsh-dem-druck-von-donald-trump-a-78810cd9-3e2f-43cc-8252-50684f9c1752#ref=rss",
-      "summary": "Der neue Fed-Chef steht vor einer kaum lösbaren Aufgabe: die Inflation bekämpfen und dafür die Zinsen erhöhen – oder seinen Fürsprecher Donald Trump glücklich machen. Es ist ein Test, wie unabhängig der oberste US-Währungshüter ist.",
-      "image": "https://cdn.prod.www.spiegel.de/images/57845fbd-fe26-4de9-82bc-cf93e3362f22_w1200_r1.778_fpx66.64_fpy49.99.jpg",
-      "published": "2026-09-16T17:18:00+02:00",
-      "category": "Politik",
-      "score": 69.09
-    },
-    {
-      "id": "golem-ae9bbe648c247a35",
+      "id": "golem-0159b3566e80e79c",
       "source": "golem",
       "sourceWeight": 0.85,
-      "title": "Level 4: Lidl setzt autonomen E-Lkw ohne Fahrer für Warenlieferungen ein",
-      "link": "https://www.golem.de/news/level-4-lidl-setzt-autonomen-e-lkw-ohne-fahrer-fuer-warenlieferungen-ein-2609-213078.html",
-      "summary": "In Hessen fährt künftig ein autonomer Lkw Waren aus dem Lager in einen Lidl-Markt - auf öffentlichen Straßen. ( Lidl , Auto )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213078&amp;page=1&amp;ts=1789548361",
-      "published": "2026-09-16T10:46:01+02:00",
+      "title": "Milliardendeal: Infineon verkauft Speichergeschäft an Winbond",
+      "link": "https://www.golem.de/news/milliardendeal-infineon-verkauft-speichergeschaeft-an-winbond-2609-213131.html",
+      "summary": "Infineon will sein Speichergeschäft neu aufstellen und einen Teil davon an Winbond abgeben. Der Bereich soll künftig eigenständig arbeiten. ( Infineon , Wirtschaft )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213131&amp;page=1&amp;ts=1789627742",
+      "published": "2026-09-17T08:49:02+02:00",
+      "category": "Wirtschaft",
+      "score": 59.16
+    },
+    {
+      "id": "golem-468304b5bce4216f",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Spritpreise: Reiche will Steuer auf Benzin und Diesel senken",
+      "link": "https://www.golem.de/news/spritpreise-reiche-will-steuer-auf-benzin-und-diesel-senken-2609-213126.html",
+      "summary": "Die Bundeswirtschaftsministerin schlägt eine Mehrwertsteuersenkung von 19 auf sieben Prozent vor und verspricht Entlastung direkt an der Zapfsäule. ( Bundesregierung , Politik )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213126&amp;page=1&amp;ts=1789622702",
+      "published": "2026-09-17T07:25:02+02:00",
+      "category": "Politik",
+      "score": 57.99
+    },
+    {
+      "id": "heise-375006e6a974ceed",
+      "source": "heise",
+      "sourceWeight": 0.9,
+      "title": "Warnung vor Cyberattacken auf Google Pixel, Cisco ISE und Acronis Backup",
+      "link": "https://www.heise.de/news/Warnung-vor-Cyberattacken-auf-Google-Pixel-Cisco-ISE-und-Acronis-Backup-11456146.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
+      "summary": "Bösartige Akteure greifen Lücken in Google Pixel, Cisco ISE und Acronis Backup für cPanel/WHM und Plesk an. Updates schützen.",
+      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/6/5/9/2/shutterstock_1124819546_jpg-be7ab77cc9d913d5.jpeg",
+      "published": "2026-09-17T09:30:00+02:00",
       "category": "Technologie",
-      "score": 62.31,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Lidl setzt ersten fahrerlosen Lkw auf deutschen Straßen ein Test in Hessen",
-            "link": "https://www.spiegel.de/mobilitaet/lidl-setzt-ersten-fahrerlosen-lkw-auf-deutschen-strassen-ein-test-in-hessen-a-ae6068de-8e66-4afa-8a41-168036f5f331#ref=rss"
-          }
-        ]
-      }
+      "score": 57.73
     },
     {
-      "id": "golem-06e8e6499f63e3b2",
+      "id": "golem-2ab39b39fb2444ba",
       "source": "golem",
       "sourceWeight": 0.85,
-      "title": "Rasswet: Russische Starlink-Alternative bereits in Gebrauch",
-      "link": "https://www.golem.de/news/rasswet-russische-starlink-alternative-bereits-in-gebrauch-2609-213099.html",
-      "summary": "Die Bundeswehr warnt vor einer russischen Megakonstellation aus Kommunikationssatelliten. Wann diese komplett sein könnte, ist unklar. ( Satelliteninternet , Politik )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213099&amp;page=1&amp;ts=1789562102",
-      "published": "2026-09-16T14:35:02+02:00",
+      "title": "Gefährliche Sicherheitslücke: Apple-Geräte lassen sich per Bluetooth kapern",
+      "link": "https://www.golem.de/news/gefaehrliche-sicherheitsluecke-apple-geraete-lassen-sich-per-bluetooth-kapern-2609-213132.html",
+      "summary": "Bei iPhones, iPads, Macs und anderen Apple-Geräten lässt sich ohne Zutun des Nutzers über Bluetooth Schadcode einschleusen. Neue Updates beheben das. ( Sicherheitslücke , Apple )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213132&amp;page=1&amp;ts=1789629601",
+      "published": "2026-09-17T09:20:01+02:00",
       "category": "Technologie",
-      "score": 60.83,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "tagesschau",
-            "title": "Russlands Satellitenpläne: Bundeswehr warnt vor Putins Starlink-Alternative",
-            "link": "https://www.tagesschau.de/investigativ/ndr-wdr/russland-satelliten-starlink-100.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "golem-6bf684e10c0e87bd",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Anzeige: Microsoft 365 DSGVO-konform betreiben",
-      "link": "https://www.golem.de/news/anzeige-microsoft-365-dsgvo-konform-betreiben-2609-213059.html",
-      "summary": "Microsoft 365 stellt Unternehmen vor Datenschutz- und Compliance-Fragen. Die Golem Karrierewelt zeigt, wie sich DSGVO-Anforderungen technisch einordnen lassen. ( Golem Karrierewelt , Sicherheitslücke )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213059&amp;page=1&amp;ts=1789577102",
-      "published": "2026-09-16T18:45:02+02:00",
-      "category": "Wirtschaft",
-      "score": 52.3
-    },
-    {
-      "id": "golem-6c4fe342e016d4f8",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "(g+) Tech Asia: Fachkräftemangel entwickelt sich zum größten Engpass der Tech-Branche im KI-Boom",
-      "link": "https://www.golem.de/news/tech-asia-fachkraeftemangel-entwickelt-sich-zum-groessten-engpass-der-tech-branche-im-ki-boom-2609-213103.html",
-      "summary": "\"Sorry, jeder Entwickler, der atmen kann, wurde schon von anderen angeworben\" - Der KI-Boom führt in Asien zu einem massiven Fachkräftemangel. Nikkei Asia hat dazu recherchiert. Unsere Leseempfehlung. Von Cheng Ting-Fang und Lauly Li ( Wirtschaft , KI )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213103&amp;page=1&amp;ts=1789574402",
-      "published": "2026-09-16T18:00:02+02:00",
-      "category": "Wirtschaft",
-      "score": 51.67
-    },
-    {
-      "id": "golem-c9441118d20cae05",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Winbond: Infineon verkauft Teil seines Speichergeschäfts in den USA",
-      "link": "https://www.golem.de/news/winbond-infineon-verkauft-teil-seines-speichergeschaefts-in-den-usa-2609-213116.html",
-      "summary": "Infineon verkauft einen kleineren Teil seines Speichergeschäfts für 1,12 Milliarden US-Dollar. Winbound aus Taiwan erweitert damit sein NOR-Flash-Geschäft und setzt auf F-RAM. ( Infineon , Wirtschaft )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213116&amp;page=1&amp;ts=1789569302",
-      "published": "2026-09-16T16:35:02+02:00",
-      "category": "Wirtschaft",
-      "score": 50.49
+      "score": 56.59
     }
   ]
 }
