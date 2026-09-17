@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T21:49:32.084738+00:00",
+  "generatedAt": "2026-09-17T23:48:21.084899+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,19 +12,31 @@
       "image": "https://images.handelsblatt.com/4N0Ye12mUJiI/cover/900/506/0/0/0/418/0.5/0.5/ehepaar.jpg",
       "published": "2026-09-19T08:30:00+00:00",
       "category": "Politik",
-      "score": 97.9
+      "score": 96.25
     },
     {
-      "id": "deutschlandfunk-a0ada9cc2857f9d6",
+      "id": "deutschlandfunk-8b875ca66c9d8cff",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Russland - Parlamentswahl hat begonnen",
-      "link": "https://www.deutschlandfunk.de/parlamentswahl-hat-begonnen-242.html",
-      "summary": "Zum ersten Mal seit Beginn des Angriffskriegs gegen die Ukraine haben in Russland Parlamentswahlen begonnen.",
-      "image": "https://bilder.deutschlandfunk.de/9d/c0/d4/b2/9dc0d4b2-a73e-4cba-8475-5f0939c0b381/duma-wahl-russland-100-1920x1920.jpg",
-      "published": "2026-09-17T23:43:35+02:00",
+      "title": "Ukrainekrieg - Polens Ministerpräsident Tusk rechnet mit russischer Eskalation - auch Unterstützer der Ukraine betroffen",
+      "link": "https://www.deutschlandfunk.de/polens-ministerpraesident-tusk-rechnet-mit-russischer-eskalation-auch-unterstuetzer-der-ukraine-betr-104.html",
+      "summary": "Der polnische Ministerpräsident Tusk rechnet für die kommenden Wochen mit einer weiteren Verstärkung der russischen Angriffe auf die Ukraine.",
+      "image": "https://bilder.deutschlandfunk.de/NO/VA/_7/1c/NOVA_71c9755db43fce07813e90f63b264113/craft-12951841-asset-100-1280x1280.jpg",
+      "published": "2026-09-18T01:32:33+02:00",
       "category": "Politik",
-      "score": 85.92
+      "score": 77.78
+    },
+    {
+      "id": "handelsblatt-24c0d9bc11b56e4d",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Umfrage: Fast jeder Zweite erwartet Kanzlerwechsel vor Jahresende",
+      "link": "https://www.handelsblatt.com/politik/deutschland/umfrage-fast-jeder-zweite-erwartet-kanzlerwechsel-vor-jahresende/100255480.html",
+      "summary": "Die CDU-Ministerpräsidenten haben Merz in der Kanzler-Krise zunächst den Rücken gestärkt. Trotzdem ist nicht sicher, wie es mit ihm nach den Wahlen weitergeht - und vor allem wie lange.",
+      "image": "https://images.handelsblatt.com/m9tqt7laBZHw/cover/900/506/0/0/107/106/0.5/0.5/bundeskabinett.jpg",
+      "published": "2026-09-17T22:30:04+00:00",
+      "category": "Politik",
+      "score": 75.91
     },
     {
       "id": "tagesschau-1ce6755450399fee",
@@ -36,15 +48,10 @@
       "image": "https://images.tagesschau.de/image/f554b08d-b42a-48e0-af88-775d5865551f/AAABm4gyzE8/AAABnSSvrFg/16x9-big/us-kapitol-152.jpg?width=1920",
       "published": "2026-09-17T09:25:46+02:00",
       "category": "Politik",
-      "score": 83.6,
+      "score": 75.0,
       "coverage": {
-        "sourceCount": 3,
+        "sourceCount": 2,
         "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Ukraine-Krieg - Neue Russland-Sanktionen: Was der US-Kongress beschlossen hat",
-            "link": "https://www.deutschlandfunk.de/neue-russland-sanktionen-was-der-us-kongress-beschlossen-hat-100.html"
-          },
           {
             "source": "handelsblatt",
             "title": "+++ Ukraine-Krieg +++: Trump stellt Polen Stützpunkt der US-Armee in Aussicht",
@@ -52,52 +59,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "tagesschau-9197206764727e87",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Folgenschwere Luftangriffe: UN-Bericht wirft USA Kriegsverbrechen in Iran vor",
-      "link": "https://www.tagesschau.de/ausland/amerika/un-bericht-kriegsverbrechen-100.html",
-      "summary": "Nach Angaben von UN-Berichterstattern könnten zwei US-Angriffe in Iran als Kriegsverbrechen gewertet werden. Darunter ist eine Attacke auf eine Mädchenschule zu Beginn des Jahres. Aber auch die iranische Regierung wird scharf kritisiert.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/16d2cc45-cb7f-4bcb-b1e6-d138728ccc23/AAABoK7xtog/AAABnSSvrFg/16x9-big/minab-schule-iran-100.jpg?width=1920",
-      "published": "2026-09-17T14:31:47+02:00",
-      "category": "Politik",
-      "score": 78.92,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Neuer Bericht - UNO-Mission wirft USA Kriegsverbrechen im Iran vor",
-            "link": "https://www.deutschlandfunk.de/uno-mission-wirft-usa-kriegsverbrechen-im-iran-vor-100.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-440f3863f193b556",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Russischer Angriffskrieg - Ukraine meldet mindestens 18 Verletzte nach Angriffen auf Kiew",
-      "link": "https://www.deutschlandfunk.de/ukraine-meldet-mindestens-18-verletzte-nach-angriffen-auf-kiew-102.html",
-      "summary": "Bei russischen Angriffen insbesondere auf die ukrainischen Regionen Sumy und Odessa ist dort die Energie-Infrastruktur beschädigt worden.",
-      "image": "https://bilder.deutschlandfunk.de/75/7d/8a/b9/757d8ab9-b821-43af-81a9-90ccdbafc213/ukraine-russischer-angriff-sumy-100-1280x1280.jpg",
-      "published": "2026-09-17T23:43:35+02:00",
-      "category": "Politik",
-      "score": 77.92
-    },
-    {
-      "id": "deutschlandfunk-4fa0c9415d990882",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Ukrainekrieg - Polens Ministerpräsident Tusk rechnet mit russischer Eskalation",
-      "link": "https://www.deutschlandfunk.de/polens-ministerpraesident-tusk-rechnet-mit-russischer-eskalation-100.html",
-      "summary": "Der polnische Ministerpräsident Tusk rechnet in den kommenden Wochen mit einer Eskalation im russischen Angriffskrieg gegen die Ukraine.",
-      "image": "https://bilder.deutschlandfunk.de/NO/VA/_7/1c/NOVA_71c9755db43fce07813e90f63b264113/craft-12951841-asset-100-1280x1280.jpg",
-      "published": "2026-09-17T23:43:35+02:00",
-      "category": "Politik",
-      "score": 77.92
     },
     {
       "id": "tagesschau-831a2909d594b924",
@@ -109,7 +70,7 @@
       "image": "https://images.tagesschau.de/image/4cbf5fa6-4a9f-4f77-ac34-9a92650a4bb4/AAABoLB37b8/AAABnSSvrFg/16x9-big/tusk-360.jpg?width=1920",
       "published": "2026-09-17T20:21:41+02:00",
       "category": "Politik",
-      "score": 76.44,
+      "score": 74.79,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -122,16 +83,48 @@
       }
     },
     {
-      "id": "deutschlandfunk-28f132aa10d3070c",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "World Weather Attribution - Studie legt Zusammenhang zwischen Erderwärmung und Sturzflut von Nepal nahe",
-      "link": "https://www.deutschlandfunk.de/studie-legt-zusammenhang-zwischen-erderwaermung-und-sturzflut-von-nepal-nahe-100.html",
-      "summary": "Nach der verheerenden Sturzflut im Himalaja gehen Wissenschaftler der Forschungsinitiative World Weather Attribution davon aus, dass der Klimawandel viele der möglichen Ursachen für die Katastrophe beeinflusst hat.",
-      "image": "https://bilder.deutschlandfunk.de/a4/f2/dd/f3/a4f2ddf3-910b-4891-9ed2-a8800118e8af/nepal-tibet-schlamm-lawine-ueberflutung-100-1920x1920.jpg",
-      "published": "2026-09-17T23:43:35+02:00",
-      "category": "Wissenschaft",
-      "score": 74.92
+      "id": "tagesschau-13c645aecb58419c",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Zinserhöhung der US-Notenbank - ein Signal an Donald Trump?",
+      "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/fed-entscheidung-warsh-trump-100.html",
+      "summary": "US-Präsident Trump möchte niedrigere Zinsen. Doch die Notenbank Federal Reserve hat den Leitzins erhöht. Was sagt die Entscheidung über die Unabhängigkeit von Fed-Chef Warsh? Von Michelle Goddemeier. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/214cf90e-d7e9-450d-8514-7b528ba2b35a/AAABoK6w6tU/AAABnSSvrFg/16x9-big/trump-warsh-102.jpg?width=1920",
+      "published": "2026-09-17T14:31:22+02:00",
+      "category": "Politik",
+      "score": 72.98,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Trump-Watch: Zinserhöhung und russischer Hochzeitssponsor – die Trump-News der Woche",
+            "link": "https://www.handelsblatt.com/audio/trump-watch-podcast/trump-watch-zinserhoehung-und-russischer-hochzeitssponsor-die-trump-news-der-woche/100255456.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-80668395cfe40f13",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "US-Präsident Trump droht EU wegen Annäherung an Kanada",
+      "link": "https://www.tagesschau.de/ausland/amerika/trump-kanada-eu-100.html",
+      "summary": "Während Kanada und die EU noch überlegen, wie sie künftig enger zusammenarbeiten wollen, macht US-Präsident Trump bereits klar: Er hält die Idee für \"lächerlich\" - und droht mit neuen Zöllen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/318dc495-cad6-4251-88b5-744dc1faac53/AAABoK3PPMU/AAABnSSvrFg/16x9-big/donald-trump-920.jpg?width=1920",
+      "published": "2026-09-17T07:20:35+02:00",
+      "category": "Politik",
+      "score": 72.86,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Transatlantische Beziehungen: Kanada als assoziiertes EU-Mitglied? Das ist jetzt der Stand",
+            "link": "https://www.handelsblatt.com/politik/international/transatlantische-beziehungen-kanada-als-assoziiertes-eu-mitglied-das-ist-jetzt-der-stand/100255222.html"
+          }
+        ]
+      }
     },
     {
       "id": "spiegel-398b1fdfe7ec210e",
@@ -143,7 +136,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/0def6639-c597-493f-8b4e-cbd8316146f1_w1200_r1.778_fpx57.34_fpy50.jpg",
       "published": "2026-09-17T19:33:00+02:00",
       "category": "Politik",
-      "score": 74.44
+      "score": 72.79
     },
     {
       "id": "spiegel-5794d8e048560dab",
@@ -155,7 +148,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/d9d80425-9f8c-42c4-9e3c-30689a67c102_w1200_r1.778_fpx64.67_fpy55.01.jpg",
       "published": "2026-09-17T20:08:00+02:00",
       "category": "Technologie",
-      "score": 73.74,
+      "score": 72.09,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -168,6 +161,45 @@
       }
     },
     {
+      "id": "deutschlandfunk-bc450a4fdeffeb10",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Vor jüdischem Feiertag - Mann soll Feuer an Tür von Wuppertaler Synagoge gelegt haben",
+      "link": "https://www.deutschlandfunk.de/mann-soll-feuer-an-tuer-von-wuppertaler-synagoge-gelegt-haben-106.html",
+      "summary": "Nach einem versuchten Brandanschlag auf die Synagoge in Wuppertal hat die Polizei einen Tatverdächtigen festgenommen.",
+      "image": "https://bilder.deutschlandfunk.de/fc/c8/6f/ca/fcc86fca-e5c8-44c2-9d1e-170bd9445a3c/wuppertal-synagoge-brandanschlag-100-1280x1280.jpg",
+      "published": "2026-09-18T01:32:33+02:00",
+      "category": "Panorama",
+      "score": 71.46,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Wuppertal: Festnahme nach Brandanschlag auf Synagoge",
+            "link": "https://www.spiegel.de/panorama/justiz/wuppertal-festnahme-nach-brandanschlag-auf-synagoge-a-cf3362e8-773b-4f6f-9485-6fb8b41ea278#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Niemand verletzt: 37-Jähriger soll Feuer an Wuppertaler Synagoge gelegt haben",
+            "link": "https://www.handelsblatt.com/politik/deutschland/niemand-verletzt-37-jaehriger-soll-feuer-an-wuppertaler-synagoge-gelegt-haben/100255460.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-4244dc5333c5ecbd",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Weißes Haus - USA weisen UNO-Bericht über mögliche Kriegsverbrechen im Iran zurück",
+      "link": "https://www.deutschlandfunk.de/usa-weisen-uno-bericht-ueber-moegliche-kriegsverbrechen-im-iran-zurueck-102.html",
+      "summary": "Die US-Regierung hat den Bericht einer Untersuchungskommission des UNO-Menschenrechtsrates zu möglichen Kriegsverbrechen des US-Militärs im Iran zurückgewiesen.",
+      "image": "https://bilder.deutschlandfunk.de/1b/ee/43/9f/1bee439f-a69e-48be-a56e-912d2a3a1a4a/usa-weisses-haus-regierung-100-1920x1920.jpg",
+      "published": "2026-09-18T01:32:33+02:00",
+      "category": "Politik",
+      "score": 69.78
+    },
+    {
       "id": "spiegel-124c76e776600679",
       "source": "spiegel",
       "sourceWeight": 0.95,
@@ -177,7 +209,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/c048b8a0-5b5d-47af-8bdc-962e17f17cb5_w1200_r1.778_fpx41_fpy49.jpg",
       "published": "2026-09-17T23:37:00+02:00",
       "category": "Politik",
-      "score": 69.83
+      "score": 68.18
     },
     {
       "id": "handelsblatt-3ae6685da8511838",
@@ -189,19 +221,7 @@
       "image": "https://images.handelsblatt.com/bF7gdlkriffr/cover/900/506/0/0/107/107/0.5/0.5/einwanderungsbehoerde-ice.jpg",
       "published": "2026-09-17T19:24:04+00:00",
       "category": "Politik",
-      "score": 66.98
-    },
-    {
-      "id": "handelsblatt-aa0bc5bfd5b2d4cc",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Rohstoffe: JP Morgan – Ölmarkt wegen Iran-Kriegs nicht mehr prognostizierbar",
-      "link": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/rohstoffe-jp-morgan-oelmarkt-wegen-iran-kriegs-nicht-mehr-prognostizierbar/100255477.html",
-      "summary": "Sechs Monate nach Beginn des Konflikts sei keine Lösung in Sicht. „Wir wissen einfach nicht, wie wir den Ausgang modellieren sollen“, heißt es in einer Studie der Bank.",
-      "image": "https://images.handelsblatt.com/kOXdg3cdySNX/cover/900/506/341/497/221/461/0.5/0.5/oel.jpeg",
-      "published": "2026-09-17T21:26:44+00:00",
-      "category": "Wissenschaft",
-      "score": 65.68
+      "score": 65.33
     },
     {
       "id": "golem-db1648cd23e4a6d6",
@@ -213,7 +233,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213155&amp;page=1&amp;ts=1789647961",
       "published": "2026-09-17T14:26:01+02:00",
       "category": "Technologie",
-      "score": 65.17
+      "score": 63.52
     },
     {
       "id": "golem-7f22d47a7e4cfc71",
@@ -225,7 +245,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213165&amp;page=1&amp;ts=1789660801",
       "published": "2026-09-17T18:00:01+02:00",
       "category": "Technologie",
-      "score": 60.15
+      "score": 58.5
     }
   ]
 }
