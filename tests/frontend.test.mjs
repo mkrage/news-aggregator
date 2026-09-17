@@ -210,7 +210,30 @@ function marks(store, key) {
 section("Laden und Rendern");
 {
   const { doc } = await boot();
-  check("Start ist der Überblick-Tab", doc.querySelector(".tab.active").dataset.tab === "overview");
+  check("Start ist der Top-News-Tab", doc.querySelector(".tab.active").dataset.tab === "top");
+  check(
+    "Liste und Steuerleiste sichtbar",
+    !doc.getElementById("news-list").classList.contains("hidden") &&
+      !doc.getElementById("controls").classList.contains("hidden"),
+    `${doc.getElementById("news-list").className} / ${doc.getElementById("controls").className}`
+  );
+  check("Top-News starten direkt mit Artikeln", items(doc).length > 0, `${items(doc).length}`);
+  check(
+    "Keine Zusammenfassung vor der Liste",
+    doc.getElementById("panel-overview").classList.contains("hidden"),
+    doc.getElementById("panel-overview").className
+  );
+  check("Quellenfilter gefüllt", doc.querySelectorAll("#source-filter option").length === 5);
+  check("Kategoriefilter gefüllt", doc.querySelectorAll("#category-filter option").length > 1);
+  check(
+    "Aktualisierungszeit gesetzt",
+    /^\d{2}\.\d{2}\.\d{4}, \d{2}:\d{2}$/.test(doc.getElementById("last-updated").textContent),
+    doc.getElementById("last-updated").textContent
+  );
+
+  // Der Überblick ist nicht mehr der Start-Tab: für die Zusammenfassung muss
+  // er ausdrücklich geöffnet werden.
+  clickTab(doc, "overview");
   check(
     "Überblick-Panel sichtbar",
     !doc.getElementById("panel-overview").classList.contains("hidden"),
@@ -221,11 +244,6 @@ section("Laden und Rendern");
     doc.getElementById("news-list").classList.contains("hidden") &&
       doc.getElementById("controls").classList.contains("hidden"),
     `${doc.getElementById("news-list").className} / ${doc.getElementById("controls").className}`
-  );
-  check(
-    "Aktualisierungszeit gesetzt",
-    /^\d{2}\.\d{2}\.\d{4}, \d{2}:\d{2}$/.test(doc.getElementById("last-updated").textContent),
-    doc.getElementById("last-updated").textContent
   );
   check("Zusammenfassung sichtbar", !doc.getElementById("ai-summary").classList.contains("hidden"));
   check(
@@ -243,15 +261,6 @@ section("Laden und Rendern");
     !!doc.getElementById("ai-summary-time").getAttribute("datetime")
   );
   check("Keine Leerstelle bei frischen Daten", doc.getElementById("overview-empty").classList.contains("hidden"));
-
-  clickTab(doc, "top");
-  check("Top-News starten direkt mit Artikeln", items(doc).length > 0, `${items(doc).length}`);
-  check(
-    "Keine Zusammenfassung vor der Liste",
-    doc.getElementById("panel-overview").classList.contains("hidden")
-  );
-  check("Quellenfilter gefüllt", doc.querySelectorAll("#source-filter option").length === 5);
-  check("Kategoriefilter gefüllt", doc.querySelectorAll("#category-filter option").length > 1);
 
   clickTab(doc, "latest");
   const sparse = doc.querySelector('[data-id="sparse-1"]');
@@ -591,13 +600,18 @@ section("Top-Tab und Zusammenfassung");
 
 section("Zusammenfassung: Markdown-Light und Sicherheit");
 {
-  const withSummary = (summary) =>
-    boot({
+  // Der Überblick ist nicht mehr der Start-Tab; die Zusammenfassung wird erst
+  // beim Öffnen gerendert, also gehört der Tabwechsel zum Aufbau.
+  const withSummary = async (summary) => {
+    const context = await boot({
       payloads: {
         ...defaultPayloads(),
         "data/ai-summary.json": { generatedAt: new Date().toISOString(), summary },
       },
     });
+    clickTab(context.doc, "overview");
+    return context;
+  };
   const content = (doc) => doc.getElementById("ai-summary-content");
 
   // Typisches Gemini-Format: Überschrift, dann Punkte mit Fettdruck.
@@ -717,10 +731,10 @@ section("Fehlerfälle");
   await new Promise((resolve) => failing.window.setTimeout(resolve, 60));
   check(
     "HTTP-Fehler zeigt Fehlermeldung im aktiven Panel",
-    [...failing.window.document.querySelectorAll("#panel-overview .empty")].some((p) =>
+    [...failing.window.document.querySelectorAll("#news-list .empty")].some((p) =>
       p.textContent.includes("Fehler beim Laden")
     ),
-    failing.window.document.querySelector("#panel-overview").textContent
+    failing.window.document.querySelector("#news-list").textContent
   );
 
   const withoutSummary = await boot({
@@ -747,6 +761,7 @@ section("Fehlerfälle");
       },
     },
   });
+  clickTab(stale.doc, "overview");
   check(
     "Veraltete Zusammenfassung: ebenfalls Leerstelle",
     stale.doc.getElementById("ai-summary").classList.contains("hidden") &&
@@ -856,12 +871,11 @@ section("Layout-Wahl wird gemerkt");
   const store = new Map();
   const { doc } = await boot({ store });
   check(
-    "Startklasse bleibt Kachelansicht (im versteckten Panel)",
+    "Startklasse ist Kachelansicht im sichtbaren Panel",
     doc.getElementById("news-list").className.includes("top-view") &&
-      doc.getElementById("news-list").classList.contains("hidden")
+      !doc.getElementById("news-list").classList.contains("hidden")
   );
 
-  clickTab(doc, "top");
   fire(doc.querySelector('.view-btn[data-view="list"]'), "click");
   check("Auf Liste gewechselt", doc.getElementById("news-list").className.includes("list-view"));
   check("Layout gemerkt", JSON.parse(store.get("news-aggregator-prefs")).view === "list");
@@ -1102,7 +1116,9 @@ section("Wischgeste zwischen den Tabs");
   };
   const activeTab = () => doc.querySelector(".tab.active").dataset.tab;
 
-  check("Start im Überblick-Tab", activeTab() === "overview");
+  check("Start im Top-News-Tab", activeTab() === "top");
+  swipe(40, 260);
+  check("Wischen nach rechts -> Überblick", activeTab() === "overview", activeTab());
   swipe(260, 120);
   check("Wischen nach links -> Top-News", activeTab() === "top", activeTab());
   swipe(260, 120);

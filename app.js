@@ -53,7 +53,7 @@ const state = {
   all: [],
   top: [],
   aiSummary: null,
-  tab: "overview",
+  tab: "top",
   // Lesestatus-Filter des aktiven Artikel-Tabs. Springt beim Tabwechsel auf
   // "all" zurück, damit er nicht unbemerkt weiterfiltert.
   status: "all",
