@@ -84,7 +84,7 @@ TOP_NEWS_LIMIT = 15
 # unter dem besten verbliebenen Thema liegen, sind praktisch gleichwertig – dort
 # darf die Quellenverteilung entscheiden. Außerhalb dieses Fensters zählt allein
 # der Score, damit Vielfalt nie eine schwächere Nachricht nach oben zieht.
-DIVERSITY_WINDOW = 5.0
+DIVERSITY_WINDOW = 15.0
 
 # Themen-Cluster: ab welcher Übereinstimmung zwei Artikel als dieselbe Nachricht
 # gelten. Drei gemeinsame Wörter sind nötig, weil zwei ("Sachsen", "Anhalt")

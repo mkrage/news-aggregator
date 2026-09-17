@@ -63,7 +63,7 @@ gleichem Gewicht gewinnt der neuere Artikel.
 Eine harte Obergrenze pro Quelle hat gute Nachrichten aus der Liste geworfen,
 nur weil ihre Quelle an diesem Tag viel geliefert hat. Stattdessen wird
 iterativ gewählt: Aus dem höchsten noch verbliebenen Score entsteht ein Fenster
-von `DIVERSITY_WINDOW` = 5 Punkten. Alle Themen darin sind praktisch gleich
+von `DIVERSITY_WINDOW` = 15 Punkten. Alle Themen darin sind praktisch gleich
 stark, also entscheidet dort die Quellenverteilung – es kommt zuerst das Thema
 zum Zug, dessen vertretende Quelle im bisher gewählten Satz am seltensten
 vorkommt. Bei Gleichstand entscheiden Score, dann Aktualität, dann die stabile
