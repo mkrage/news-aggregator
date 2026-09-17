@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T13:36:51.957829+00:00",
+  "generatedAt": "2026-09-17T13:50:53.696691+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,29 @@
       "image": "https://images.handelsblatt.com/4N0Ye12mUJiI/cover/900/506/0/0/0/418/0.5/0.5/ehepaar.jpg",
       "published": "2026-09-19T08:30:00+00:00",
       "category": "Politik",
-      "score": 104.74
+      "score": 104.54
+    },
+    {
+      "id": "tagesschau-1ce6755450399fee",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "US-Repräsentantenhaus beschließt Sanktionen gegen Russland",
+      "link": "https://www.tagesschau.de/ausland/amerika/usa-russland-sanktionen-140.html",
+      "summary": "Lange wurde gerungen, jetzt hat auch das US-Repräsentantenhaus neue Sanktionen gegen Russland beschlossen. Damit können auch die Handelspartner Moskaus ins Visier genommen werden. Aber ist Trump bereit, das auch umzusetzen? Von Ralf Borchard. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/f554b08d-b42a-48e0-af88-775d5865551f/AAABm4gyzE8/AAABnSSvrFg/16x9-big/us-kapitol-152.jpg?width=1920",
+      "published": "2026-09-17T09:25:46+02:00",
+      "category": "Politik",
+      "score": 78.93,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Ukraine-Krieg - Neue Russland-Sanktionen: Was der US-Kongress beschlossen hat",
+            "link": "https://www.deutschlandfunk.de/neue-russland-sanktionen-was-der-us-kongress-beschlossen-hat-100.html"
+          }
+        ]
+      }
     },
     {
       "id": "tagesschau-9197206764727e87",
@@ -24,19 +46,14 @@
       "image": "https://images.tagesschau.de/image/16d2cc45-cb7f-4bcb-b1e6-d138728ccc23/AAABoK7xtog/AAABnSSvrFg/16x9-big/minab-schule-iran-100.jpg?width=1920",
       "published": "2026-09-17T14:31:47+02:00",
       "category": "Politik",
-      "score": 83.31,
+      "score": 78.93,
       "coverage": {
-        "sourceCount": 3,
+        "sourceCount": 2,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "Neuer Bericht - UNO-Mission wirft USA Kriegsverbrechen im Iran vor",
             "link": "https://www.deutschlandfunk.de/uno-mission-wirft-usa-kriegsverbrechen-im-iran-vor-100.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Nahost: Uno-Kommission wirft USA Kriegsverbrechen in Iran vor",
-            "link": "https://www.spiegel.de/ausland/angriff-auf-schule-uno-kommission-wirft-usa-kriegsverbrechen-in-iran-vor-a-8217acf0-ccaf-4802-8346-3ea3aa13f160#ref=rss"
           }
         ]
       }
@@ -51,7 +68,7 @@
       "image": "https://images.tagesschau.de/image/64730746-7b34-4308-b480-f666c638143a/AAABoK-M19E/AAABnSSvrFg/16x9-big/magdalena-andersson-110.jpg?width=1920",
       "published": "2026-09-17T15:27:18+02:00",
       "category": "Politik",
-      "score": 78.87,
+      "score": 78.67,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -64,50 +81,6 @@
       }
     },
     {
-      "id": "tagesschau-1ce6755450399fee",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "US-Repräsentantenhaus beschließt Sanktionen gegen Russland",
-      "link": "https://www.tagesschau.de/ausland/amerika/usa-russland-sanktionen-140.html",
-      "summary": "Lange wurde gerungen, jetzt hat auch das US-Repräsentantenhaus neue Sanktionen gegen Russland beschlossen. Damit können auch die Handelspartner Moskaus ins Visier genommen werden. Aber ist Trump bereit, das auch umzusetzen? Von Ralf Borchard. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/f554b08d-b42a-48e0-af88-775d5865551f/AAABm4gyzE8/AAABnSSvrFg/16x9-big/us-kapitol-152.jpg?width=1920",
-      "published": "2026-09-17T09:25:46+02:00",
-      "category": "Politik",
-      "score": 78.63,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Ukraine-Krieg - Neue Russland-Sanktionen: Was der US-Kongress beschlossen hat",
-            "link": "https://www.deutschlandfunk.de/neue-russland-sanktionen-was-der-us-kongress-beschlossen-hat-100.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-13c645aecb58419c",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Zinserhöhung der US-Notenbank - ein Signal an Donald Trump?",
-      "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/fed-entscheidung-warsh-trump-100.html",
-      "summary": "US-Präsident Trump möchte niedrigere Zinsen. Doch die Notenbank Federal Reserve hat den Leitzins erhöht. Was sagt die Entscheidung über die Unabhängigkeit von Fed-Chef Warsh? Von Michelle Goddemeier. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/214cf90e-d7e9-450d-8514-7b528ba2b35a/AAABoK6w6tU/AAABnSSvrFg/16x9-big/trump-warsh-102.jpg?width=1920",
-      "published": "2026-09-17T14:31:22+02:00",
-      "category": "Politik",
-      "score": 78.11,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Geldpolitik: US-Inflation wird noch bis 2029 zu hoch sein – was das für die Zinsen bedeutet",
-            "link": "https://www.handelsblatt.com/finanzen/geldpolitik/fed-us-inflation-noch-bis-2029-zu-hoch-was-das-fuer-die-zinsen-bedeutet/100255243.html"
-          }
-        ]
-      }
-    },
-    {
       "id": "deutschlandfunk-440f3863f193b556",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
@@ -115,9 +88,31 @@
       "link": "https://www.deutschlandfunk.de/ukraine-meldet-mindestens-18-verletzte-nach-angriffen-auf-kiew-102.html",
       "summary": "Bei russischen Angriffen insbesondere auf die ukrainischen Regionen Sumy und Odessa ist dort die Energie-Infrastruktur beschädigt worden.",
       "image": "https://bilder.deutschlandfunk.de/75/7d/8a/b9/757d8ab9-b821-43af-81a9-90ccdbafc213/ukraine-russischer-angriff-sumy-100-1280x1280.jpg",
-      "published": "2026-09-17T15:10:04+02:00",
+      "published": "2026-09-17T15:45:39+02:00",
       "category": "Politik",
-      "score": 77.63
+      "score": 77.93
+    },
+    {
+      "id": "deutschlandfunk-526e8337ee71d14c",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Eurovision Song Contest - Irland boykottiert Wettbewerb auch 2027",
+      "link": "https://www.deutschlandfunk.de/irland-boykottiert-wettbewerb-auch-100.html",
+      "summary": "Irland will den Eurovision Song Contest wegen der Teilnahme Israels ein zweites Jahr in Folge boykottieren.",
+      "image": "https://bilder.deutschlandfunk.de/86/fa/95/53/86fa9553-1087-4fae-9ff8-c3cccaec5425/esc-eurovision-song-contest-wien-oesterreich-austragung-100-1920x1920.jpg",
+      "published": "2026-09-17T15:45:39+02:00",
+      "category": "Politik",
+      "score": 77.93,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Eurovision Song Contest: Irland wird den ESC auch 2027 boykottieren",
+            "link": "https://www.spiegel.de/kultur/musik/eurovision-song-contest-irland-wird-den-esc-auch-2027-boykottieren-a-aa9fde64-68a8-4e41-8b8b-a32b8d47fcd2#ref=rss"
+          }
+        ]
+      }
     },
     {
       "id": "deutschlandfunk-651b3e2e4a4e4e18",
@@ -127,9 +122,9 @@
       "link": "https://www.deutschlandfunk.de/us-notenbank-erhoeht-erstmals-seit-juli-2023-wieder-leitzins-104.html",
       "summary": "Die US-Notenbank Fed hat wegen der anhaltend hohen Inflation erstmals seit Sommer 2023 den Leitzins angehoben. Dieser steigt um 0,25 Prozentpunkte auf 3,75 bis 4,00 Prozent, wie der Fed-Zentralbankrat mitteilte. Notenbank-Chef Warsh gerät damit auf Konfrontationskurs zu US-Präsident Trump.",
       "image": "https://bilder.deutschlandfunk.de/17/df/ac/b2/17dfacb2-dd26-4ca5-af54-a105ec72d8f7/fed-leitzins-100-1920x1920.jpg",
-      "published": "2026-09-17T15:10:04+02:00",
+      "published": "2026-09-17T15:45:39+02:00",
       "category": "Politik",
-      "score": 77.63
+      "score": 77.93
     },
     {
       "id": "deutschlandfunk-a4ffe4fff6545303",
@@ -139,9 +134,9 @@
       "link": "https://www.deutschlandfunk.de/schwedischer-ministerpraesident-kristersson-erklaert-ruecktritt-100.html",
       "summary": "Nach dem Sieg der Opposition bei der Parlamentswahl in Schweden hat Ministerpräsident Kristersson seinen Rücktritt angekündigt. Das erklärte der konservative Politiker auf der Plattform X. Er schrieb, das Wahlergebnis mache die Bildung einer neuen Regierung kompliziert.",
       "image": "https://bilder.deutschlandfunk.de/17/b2/cb/fc/17b2cbfc-c5e4-4596-a68f-7d9795df7010/kristersson-ruecktritt-schweden-100-1920x1920.jpg",
-      "published": "2026-09-17T15:10:04+02:00",
+      "published": "2026-09-17T15:45:39+02:00",
       "category": "Politik",
-      "score": 77.63,
+      "score": 77.93,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -163,34 +158,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/7416e044-1e88-415d-9b82-049ad5484b2f_w1200_r1.778_fpx57_fpy48.jpg",
       "published": "2026-09-17T12:57:00+02:00",
       "category": "Politik",
-      "score": 75.78
-    },
-    {
-      "id": "spiegel-8bc331a90513e480",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "RTL-Gruppe streicht rund 500 Stellen",
-      "link": "https://www.spiegel.de/wirtschaft/unternehmen/rtl-gruppe-streicht-rund-500-stellen-a-8e38ec3f-46e2-49db-9284-16217bb9cf5a#ref=rss",
-      "summary": "Nach der Zusammenführung von RTL Deutschland und Sky kündigt das Kölner Medienunternehmen an, Hunderte Stellen einsparen zu wollen. Betriebsbedingte Kündigungen sollen aber vermieden werden.",
-      "image": "https://cdn.prod.www.spiegel.de/images/81787426-431e-48ed-8b60-83ee32f52313_w1200_r1.778_fpx58.01_fpy44.99.jpg",
-      "published": "2026-09-17T15:32:00+02:00",
-      "category": "Wirtschaft",
-      "score": 74.61,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Privater Medienkonzern - RTL Deutschland und Sky streichen weitere 500 Stellen",
-            "link": "https://www.deutschlandfunk.de/rtl-deutschland-und-sky-streichen-weitere-500-stellen-100.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Medienkonzern: RTL Deutschland und Sky streichen rund 500 Stellen",
-            "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/medienkonzern-rtl-deutschland-und-sky-streichen-rund-500-stellen/100255393.html"
-          }
-        ]
-      }
+      "score": 75.58
     },
     {
       "id": "golem-db1648cd23e4a6d6",
@@ -202,7 +170,31 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213155&amp;page=1&amp;ts=1789647961",
       "published": "2026-09-17T14:26:01+02:00",
       "category": "Technologie",
-      "score": 72.02
+      "score": 71.82
+    },
+    {
+      "id": "spiegel-34c6fcfb54502162",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Deutscher Buchpreis: Welcher Roman lohnt sich wirklich?",
+      "link": "https://www.spiegel.de/kultur/literatur/deutscher-buchpreis-welcher-roman-lohnt-sich-wirklich-a-8066ff1c-4ec6-4406-99ee-d351e3e61278#ref=rss",
+      "summary": "Ein Autor und fünf Autorinnen sind für den Deutschen Buchpreis nominiert. Die Auswahl zeigt: Die Regel »Männer schreiben wichtige Bücher, Frauen lesen sie« ist längst aufgeweicht. Und: Der dicke Wälzer ist zurück.",
+      "image": "https://cdn.prod.www.spiegel.de/images/f5b42b87-10d3-4910-be36-9e724d02c6f9_w1200_r1.778_fpx62_fpy55.jpg",
+      "published": "2026-09-17T15:47:00+02:00",
+      "category": "Politik",
+      "score": 69.95
+    },
+    {
+      "id": "spiegel-c93c6975f060715b",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Corona-Maskenaffäre: Warum Jens Spahn die Verantwortung trägt – egal wie das Urteil ausfällt",
+      "link": "https://www.spiegel.de/politik/corona-maskenaffaere-warum-jens-spahn-die-verantwortung-traegt-egal-wie-das-urteil-ausfaellt-a-8e099e0e-40cc-4b98-84c5-79cf2be9f231#ref=rss",
+      "summary": "Der Staat kommt in den milliardenschweren Maskenprozessen wohl glimpflich davon. Ein Debakel bleiben die Deals trotzdem – für den Haushalt und für den Ex-Gesundheitsminister.",
+      "image": "https://cdn.prod.www.spiegel.de/images/d1dce794-9d86-4e0a-8890-7a0adc925660_w1200_r1.778_fpx58.52_fpy44.98.jpg",
+      "published": "2026-09-17T15:40:00+02:00",
+      "category": "Politik",
+      "score": 69.85
     },
     {
       "id": "handelsblatt-a6c5eee8c86116e3",
@@ -214,19 +206,7 @@
       "image": "https://images.handelsblatt.com/6Rp3TI0UnSgT/cover/900/506/0/0/0/0/0.5/0.5/reichtum.jpg",
       "published": "2026-09-17T13:20:00+00:00",
       "category": "Wirtschaft",
-      "score": 68.77
-    },
-    {
-      "id": "spiegel-2a26e03c2bed0725",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Robert de Niro bricht in Podcast in Tränen aus - nach Dank für Einsatz gegen Donald Trump",
-      "link": "https://www.spiegel.de/kultur/kino/robert-de-niro-bricht-in-podcast-in-traenen-aus-nach-dank-fuer-einsatz-gegen-donald-trump-a-3e4ccbae-26cb-42b8-ac2c-92830ae86147#ref=rss",
-      "summary": "Hollywoodstar Robert De Niro ist als Trump-Gegner bekannt, öffentlich wettert er gegen den US-Präsidenten. Nun hat Comedienne Amy Poehler De Niro dafür gedankt und ihn damit zu Tränen gerührt.",
-      "image": "https://cdn.prod.www.spiegel.de/images/6a592cfa-0312-4c6a-93fc-8ee071aabf59_w1200_r1.778_fpx41_fpy47.jpg",
-      "published": "2026-09-17T12:47:00+02:00",
-      "category": "Politik",
-      "score": 67.64
+      "score": 68.57
     },
     {
       "id": "handelsblatt-79c3a75d835dad0a",
@@ -238,7 +218,7 @@
       "image": "https://images.handelsblatt.com/1tAlBrDYDxCP/cover/900/506/0/0/74/74/0.5/0.5/benzinpreis.jpg",
       "published": "2026-09-17T11:54:33+00:00",
       "category": "Wirtschaft",
-      "score": 67.58
+      "score": 67.38
     },
     {
       "id": "heise-2194e3fb0b59780e",
@@ -250,7 +230,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/6/6/8/5/Achtung-Windows_Updates-Updates_werden_gesucht-8b5b37b7c0baeb11.jpeg",
       "published": "2026-09-17T10:46:00+02:00",
       "category": "Technologie",
-      "score": 63.72,
+      "score": 63.53,
       "coverage": {
         "sourceCount": 2,
         "others": [
