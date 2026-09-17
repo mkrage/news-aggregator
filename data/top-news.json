@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T13:50:53.696691+00:00",
+  "generatedAt": "2026-09-17T17:53:40.160389+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,46 @@
       "image": "https://images.handelsblatt.com/4N0Ye12mUJiI/cover/900/506/0/0/0/418/0.5/0.5/ehepaar.jpg",
       "published": "2026-09-19T08:30:00+00:00",
       "category": "Politik",
-      "score": 104.54
+      "score": 101.17
+    },
+    {
+      "id": "handelsblatt-f4683cad1375d46c",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ Iran-Krieg +++: Durchfahrt der Meerenge Bab al-Mandab – Italien beschließt Alleingang",
+      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-durchfahrt-der-meerenge-bab-al-mandab-italien-beschliesst-alleingang/100136895.html",
+      "summary": "USA und Huthi sollen geheime Gespräche im Oman geführt haben +++ Diesel erreicht Rekordpreis in Deutschland +++ Trump-Regierung plant Waffenlieferung an Israel +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/FiOuBTgdcO-x/cover/900/506/0/0/227/226/0.5/0.5/yemen-iran-us-israel-war.jpg",
+      "published": "2026-09-17T17:36:00+00:00",
+      "category": "Politik",
+      "score": 84.75
+    },
+    {
+      "id": "tagesschau-80668395cfe40f13",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "US-Präsident Trump droht EU wegen Annäherung an Kanada",
+      "link": "https://www.tagesschau.de/ausland/amerika/trump-kanada-eu-100.html",
+      "summary": "Während Kanada und die EU noch überlegen, wie sie künftig enger zusammenarbeiten wollen, macht US-Präsident Trump bereits klar: Er hält die Idee für \"lächerlich\" - und droht mit neuen Zöllen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/318dc495-cad6-4251-88b5-744dc1faac53/AAABoK3PPMU/AAABnSSvrFg/16x9-big/donald-trump-920.jpg?width=1920",
+      "published": "2026-09-17T07:20:35+02:00",
+      "category": "Politik",
+      "score": 82.47,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Kanada: EU-Annäherung als Antwort an US-Präsidenten",
+            "link": "https://www.spiegel.de/ausland/kanada-eu-annaeherung-als-antwort-auf-us-praesidenten-a-1322e7a6-b9f7-4c8b-893b-4f8e2f6c5f73#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Transatlantische Beziehungen: Kanada als assoziiertes EU-Mitglied? Das ist jetzt der Stand",
+            "link": "https://www.handelsblatt.com/politik/international/transatlantische-beziehungen-kanada-als-assoziiertes-eu-mitglied-das-ist-jetzt-der-stand/100255222.html"
+          }
+        ]
+      }
     },
     {
       "id": "tagesschau-1ce6755450399fee",
@@ -24,7 +63,7 @@
       "image": "https://images.tagesschau.de/image/f554b08d-b42a-48e0-af88-775d5865551f/AAABm4gyzE8/AAABnSSvrFg/16x9-big/us-kapitol-152.jpg?width=1920",
       "published": "2026-09-17T09:25:46+02:00",
       "category": "Politik",
-      "score": 78.93,
+      "score": 78.74,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -46,7 +85,7 @@
       "image": "https://images.tagesschau.de/image/16d2cc45-cb7f-4bcb-b1e6-d138728ccc23/AAABoK7xtog/AAABnSSvrFg/16x9-big/minab-schule-iran-100.jpg?width=1920",
       "published": "2026-09-17T14:31:47+02:00",
       "category": "Politik",
-      "score": 78.93,
+      "score": 78.74,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -59,26 +98,38 @@
       }
     },
     {
-      "id": "tagesschau-3833e0338df28737",
+      "id": "tagesschau-13c645aecb58419c",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Nach Parlamentswahl in Schweden: Knapper Sieg für Mitte-links-Lager",
-      "link": "https://www.tagesschau.de/ausland/europa/schweden-parlamentswahl-ruecktritt-100.html",
-      "summary": "Der von Ulf Kristersson geführte konservativ-rechte Parteienblock musste bei der Wahl in Schweden eine Niederlage hinnehmen. Der Regierungschef trat zurück. Die bisherige Opposition steht mit Magdalena Andersson vor einer schwierigen Regierungsbildung.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/64730746-7b34-4308-b480-f666c638143a/AAABoK-M19E/AAABnSSvrFg/16x9-big/magdalena-andersson-110.jpg?width=1920",
-      "published": "2026-09-17T15:27:18+02:00",
+      "title": "Zinserhöhung der US-Notenbank - ein Signal an Donald Trump?",
+      "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/fed-entscheidung-warsh-trump-100.html",
+      "summary": "US-Präsident Trump möchte niedrigere Zinsen. Doch die Notenbank Federal Reserve hat den Leitzins erhöht. Was sagt die Entscheidung über die Unabhängigkeit von Fed-Chef Warsh? Von Michelle Goddemeier. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/214cf90e-d7e9-450d-8514-7b528ba2b35a/AAABoK6w6tU/AAABnSSvrFg/16x9-big/trump-warsh-102.jpg?width=1920",
+      "published": "2026-09-17T14:31:22+02:00",
       "category": "Politik",
-      "score": 78.67,
+      "score": 77.9,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "handelsblatt",
-            "title": "Wahlen: Mitte-Links-Bündnis in Schweden gewinnt Parlamentswahl",
-            "link": "https://www.handelsblatt.com/politik/international/wahlen-mitte-links-buendnis-in-schweden-gewinnt-parlamentswahl/100255380.html"
+            "title": "Trump-Watch: Zinserhöhung und russischer Hochzeitssponsor – die Trump-News der Woche",
+            "link": "https://www.handelsblatt.com/audio/trump-watch-podcast/trump-watch-zinserhoehung-und-russischer-hochzeitssponsor-die-trump-news-der-woche/100255456.html"
           }
         ]
       }
+    },
+    {
+      "id": "spiegel-deddfb45b9c710e9",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Friedrich Merz in der Krise: Was die Landtagswahlen in Mecklenburg-Vorpommern und Berlin für den Bundeskanzler bedeuten",
+      "link": "https://www.spiegel.de/politik/friedrich-merz-in-der-krise-was-die-landtagswahlen-in-mecklenburg-vorpommern-und-berlin-fuer-den-bundeskanzler-bedeuten-a-83c11407-de43-456c-b056-cc97d21d0528#ref=rss",
+      "summary": "Kurz vor den Wahlen in Mecklenburg-Vorpommern und Berlin scheint der Druck auf Friedrich Merz nur zeitweise abzuebben. Wie steht es wirklich um seine Position? Eine Einordnung.",
+      "image": "https://cdn.prod.www.spiegel.de/images/84c2589d-344f-4941-8070-ac4741a49767_w1080_r1.778_fpx50_fpy29.jpg",
+      "published": "2026-09-17T19:39:00+02:00",
+      "category": "Politik",
+      "score": 77.8
     },
     {
       "id": "deutschlandfunk-440f3863f193b556",
@@ -88,9 +139,9 @@
       "link": "https://www.deutschlandfunk.de/ukraine-meldet-mindestens-18-verletzte-nach-angriffen-auf-kiew-102.html",
       "summary": "Bei russischen Angriffen insbesondere auf die ukrainischen Regionen Sumy und Odessa ist dort die Energie-Infrastruktur beschädigt worden.",
       "image": "https://bilder.deutschlandfunk.de/75/7d/8a/b9/757d8ab9-b821-43af-81a9-90ccdbafc213/ukraine-russischer-angriff-sumy-100-1280x1280.jpg",
-      "published": "2026-09-17T15:45:39+02:00",
+      "published": "2026-09-17T19:34:38+02:00",
       "category": "Politik",
-      "score": 77.93
+      "score": 77.74
     },
     {
       "id": "deutschlandfunk-526e8337ee71d14c",
@@ -100,9 +151,9 @@
       "link": "https://www.deutschlandfunk.de/irland-boykottiert-wettbewerb-auch-100.html",
       "summary": "Irland will den Eurovision Song Contest wegen der Teilnahme Israels ein zweites Jahr in Folge boykottieren.",
       "image": "https://bilder.deutschlandfunk.de/86/fa/95/53/86fa9553-1087-4fae-9ff8-c3cccaec5425/esc-eurovision-song-contest-wien-oesterreich-austragung-100-1920x1920.jpg",
-      "published": "2026-09-17T15:45:39+02:00",
+      "published": "2026-09-17T19:34:38+02:00",
       "category": "Politik",
-      "score": 77.93,
+      "score": 77.74,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -122,43 +173,45 @@
       "link": "https://www.deutschlandfunk.de/us-notenbank-erhoeht-erstmals-seit-juli-2023-wieder-leitzins-104.html",
       "summary": "Die US-Notenbank Fed hat wegen der anhaltend hohen Inflation erstmals seit Sommer 2023 den Leitzins angehoben. Dieser steigt um 0,25 Prozentpunkte auf 3,75 bis 4,00 Prozent, wie der Fed-Zentralbankrat mitteilte. Notenbank-Chef Warsh gerät damit auf Konfrontationskurs zu US-Präsident Trump.",
       "image": "https://bilder.deutschlandfunk.de/17/df/ac/b2/17dfacb2-dd26-4ca5-af54-a105ec72d8f7/fed-leitzins-100-1920x1920.jpg",
-      "published": "2026-09-17T15:45:39+02:00",
+      "published": "2026-09-17T19:34:38+02:00",
       "category": "Politik",
-      "score": 77.93
+      "score": 77.74
     },
     {
-      "id": "deutschlandfunk-a4ffe4fff6545303",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Nach Wahlniederlage - Schwedischer Ministerpräsident Kristersson erklärt Rücktritt",
-      "link": "https://www.deutschlandfunk.de/schwedischer-ministerpraesident-kristersson-erklaert-ruecktritt-100.html",
-      "summary": "Nach dem Sieg der Opposition bei der Parlamentswahl in Schweden hat Ministerpräsident Kristersson seinen Rücktritt angekündigt. Das erklärte der konservative Politiker auf der Plattform X. Er schrieb, das Wahlergebnis mache die Bildung einer neuen Regierung kompliziert.",
-      "image": "https://bilder.deutschlandfunk.de/17/b2/cb/fc/17b2cbfc-c5e4-4596-a68f-7d9795df7010/kristersson-ruecktritt-schweden-100-1920x1920.jpg",
-      "published": "2026-09-17T15:45:39+02:00",
-      "category": "Politik",
-      "score": 77.93,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Mitte-links-Bündnis gewinnt Wahl in Schweden knapp, Ministerpräsident Kristersson tritt ab",
-            "link": "https://www.spiegel.de/ausland/mitte-links-buendnis-gewinnt-wahl-in-schweden-knapp-ministerpraesident-kristersson-tritt-ab-a-32154b9a-e571-4ef8-b951-55fde1be4aca#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-661dc93b6984514b",
+      "id": "spiegel-398b1fdfe7ec210e",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg: Russischer Angriff auf ziviles Schiff tötet Kapitän",
-      "link": "https://www.spiegel.de/ausland/ukraine-krieg-russischer-angriff-auf-ziviles-schiff-toetet-kapitaen-a-9c91fcc6-f08c-42d3-9fb7-cece0b536c71#ref=rss",
-      "summary": "Sowohl russische als auch ukrainische Drohnen greifen seit Wochen Schiffe im Schwarzmeerraum an. Bei einer weiteren russischen Attacke ist nun ein Mensch gestorben, weitere wurden verletzt.",
-      "image": "https://cdn.prod.www.spiegel.de/images/7416e044-1e88-415d-9b82-049ad5484b2f_w1200_r1.778_fpx57_fpy48.jpg",
-      "published": "2026-09-17T12:57:00+02:00",
+      "title": "Iran-Krieg: Nahostexpertin warnt vor erneuter umfassender Eskalation",
+      "link": "https://www.spiegel.de/ausland/iran-krieg-nahostexpertin-warnt-vor-erneuter-umfassender-eskalation-a-e06caf30-4176-44ab-ba69-8eba2b412151#ref=rss",
+      "summary": "Der Krieg zwischen den USA und Iran könnte weit ins kommende Jahr andauern, sagt die Nahostexpertin Sanam Vakil. Sie warnt vor heftigen Kämpfen rund um die US-Zwischenwahlen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/0def6639-c597-493f-8b4e-cbd8316146f1_w1200_r1.778_fpx57.34_fpy50.jpg",
+      "published": "2026-09-17T19:33:00+02:00",
       "category": "Politik",
-      "score": 75.58
+      "score": 77.71
+    },
+    {
+      "id": "spiegel-7e74b6cefcbf6f32",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Friedrich Merz ruft zum Kampf gegen Rassismus und Antisemitismus auf",
+      "link": "https://www.spiegel.de/politik/deutschland/friedrich-merz-ruft-zum-kampf-gegen-rassismus-und-antisemitismus-auf-a-cf72344c-58a6-4df4-8914-b63c66170792#ref=rss",
+      "summary": "Eine Ansage gegen Angriffe auf Einwanderer, ein spitzer Kommentar zu Trumps USA und eine Warnung vor nachlassender Hilfe für die Ukraine: Kanzler Merz hat einen Auftritt in Berlin für einen Rundumschlag genutzt.",
+      "image": "https://cdn.prod.www.spiegel.de/images/8d75f5b0-7328-4f2d-b878-f1c3dcb18fba_w1200_r1.778_fpx48_fpy63.jpg",
+      "published": "2026-09-17T19:29:00+02:00",
+      "category": "Politik",
+      "score": 77.66
+    },
+    {
+      "id": "handelsblatt-a2262e6c27786f9c",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Putin-Kritiker: Michail Chodorkowski im Interview: „Fast die gesamte russische Elite ist gegen den Krieg“",
+      "link": "https://www.handelsblatt.com/politik/international/putin-kritiker-chodorkowski-fast-die-gesamte-russische-elite-ist-gegen-den-krieg/100253599.html",
+      "summary": "Der ehemalige russische Oligarch erklärt, was die russische Parlamentswahl verrät, wie er Putins mentalen Zustand einschätzt und was für ihn der „grundlegende Denkfehler“ des Westens ist.",
+      "image": "https://images.handelsblatt.com/ilfj-VW2sc9-/cover/900/506/0/0/0/668/0.5/0.5/archiv-16.02.2023-bayern-muenchen-der-russische-regimekritiker-michail-chodorkowski.-zu-dpa-u.jpg",
+      "published": "2026-09-17T17:41:50+00:00",
+      "category": "Politik",
+      "score": 76.84
     },
     {
       "id": "golem-db1648cd23e4a6d6",
@@ -170,77 +223,19 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213155&amp;page=1&amp;ts=1789647961",
       "published": "2026-09-17T14:26:01+02:00",
       "category": "Technologie",
-      "score": 71.82
+      "score": 68.45
     },
     {
-      "id": "spiegel-34c6fcfb54502162",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Deutscher Buchpreis: Welcher Roman lohnt sich wirklich?",
-      "link": "https://www.spiegel.de/kultur/literatur/deutscher-buchpreis-welcher-roman-lohnt-sich-wirklich-a-8066ff1c-4ec6-4406-99ee-d351e3e61278#ref=rss",
-      "summary": "Ein Autor und fünf Autorinnen sind für den Deutschen Buchpreis nominiert. Die Auswahl zeigt: Die Regel »Männer schreiben wichtige Bücher, Frauen lesen sie« ist längst aufgeweicht. Und: Der dicke Wälzer ist zurück.",
-      "image": "https://cdn.prod.www.spiegel.de/images/f5b42b87-10d3-4910-be36-9e724d02c6f9_w1200_r1.778_fpx62_fpy55.jpg",
-      "published": "2026-09-17T15:47:00+02:00",
-      "category": "Politik",
-      "score": 69.95
-    },
-    {
-      "id": "spiegel-c93c6975f060715b",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Corona-Maskenaffäre: Warum Jens Spahn die Verantwortung trägt – egal wie das Urteil ausfällt",
-      "link": "https://www.spiegel.de/politik/corona-maskenaffaere-warum-jens-spahn-die-verantwortung-traegt-egal-wie-das-urteil-ausfaellt-a-8e099e0e-40cc-4b98-84c5-79cf2be9f231#ref=rss",
-      "summary": "Der Staat kommt in den milliardenschweren Maskenprozessen wohl glimpflich davon. Ein Debakel bleiben die Deals trotzdem – für den Haushalt und für den Ex-Gesundheitsminister.",
-      "image": "https://cdn.prod.www.spiegel.de/images/d1dce794-9d86-4e0a-8890-7a0adc925660_w1200_r1.778_fpx58.52_fpy44.98.jpg",
-      "published": "2026-09-17T15:40:00+02:00",
-      "category": "Politik",
-      "score": 69.85
-    },
-    {
-      "id": "handelsblatt-a6c5eee8c86116e3",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Vermögen: Bin ich schon reich oder nicht? Dieser Rechner liefert Ihnen die Antwort",
-      "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/vermoegens-rechner-wie-viel-fehlt-ihnen-zum-reichtum/100149729.html",
-      "summary": "Trotz Inflation zeigen aktuelle Daten, dass die Vermögen in Deutschland gewachsen sind. Der Handelsblatt-Rechner zeigt Ihnen, wo Sie im Vergleich zur deutschen Bevölkerung stehen.",
-      "image": "https://images.handelsblatt.com/6Rp3TI0UnSgT/cover/900/506/0/0/0/0/0.5/0.5/reichtum.jpg",
-      "published": "2026-09-17T13:20:00+00:00",
-      "category": "Wirtschaft",
-      "score": 68.57
-    },
-    {
-      "id": "handelsblatt-79c3a75d835dad0a",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Tanken immer teurer: Spritpreisrekorde: Jetzt ist auch Diesel teuer wie nie zuvor",
-      "link": "https://www.handelsblatt.com/politik/deutschland/tanken-immer-teurer-spritpreisrekorde-jetzt-ist-auch-diesel-teuer-wie-nie-zuvor/100255242.html",
-      "summary": "Im Vergleich zum Vorkriegsniveau ist der Kraftstoff mehr als 70 Cent teurer. Der Ruf nach Staatshilfen wird immer lauter. Doch Wirtschaftswissenschaftler sind vielen Maßnahmen gegenüber skeptisch.",
-      "image": "https://images.handelsblatt.com/1tAlBrDYDxCP/cover/900/506/0/0/74/74/0.5/0.5/benzinpreis.jpg",
-      "published": "2026-09-17T11:54:33+00:00",
-      "category": "Wirtschaft",
-      "score": 67.38
-    },
-    {
-      "id": "heise-2194e3fb0b59780e",
-      "source": "heise",
-      "sourceWeight": 0.9,
-      "title": "Windows-Update sperrt Domain-Nutzer aus",
-      "link": "https://www.heise.de/news/Windows-Update-sperrt-Domain-Nutzer-aus-11456331.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "summary": "Microsoft bestätigt Probleme mit den Sicherheitsupdates vom September-Patchday. Domain-Logins können dadurch unmöglich werden.",
-      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/6/6/8/5/Achtung-Windows_Updates-Updates_werden_gesucht-8b5b37b7c0baeb11.jpeg",
-      "published": "2026-09-17T10:46:00+02:00",
+      "id": "golem-7f22d47a7e4cfc71",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "(g+) Militär: Das Zeitalter der KI-Kriegsführung ist angebrochen",
+      "link": "https://www.golem.de/news/militaer-das-zeitalter-der-ki-kriegsfuehrung-ist-angebrochen-2609-213165.html",
+      "summary": "Drohnen, die ihre Ziele selbst suchen und KI-Systeme, die Schlachtpläne entwickeln - die Financial Times hat eine umfangreiche Recherche zu autonomen Waffen veröffentlicht. Von Alison Killing, John Thornhill und Charles Clover ( Militär , KI )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213165&amp;page=1&amp;ts=1789660801",
+      "published": "2026-09-17T18:00:01+02:00",
       "category": "Technologie",
-      "score": 63.53,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "golem",
-            "title": "Update-Panne bei Microsoft: Windows-11-Update sperrt Nutzer aus Domänen aus",
-            "link": "https://www.golem.de/news/update-panne-bei-microsoft-windows-11-update-sperrt-nutzer-aus-domaenen-aus-2609-213147.html"
-          }
-        ]
-      }
+      "score": 63.42
     }
   ]
 }
