@@ -223,7 +223,14 @@ section("Laden und Rendern");
     doc.getElementById("panel-overview").classList.contains("hidden"),
     doc.getElementById("panel-overview").className
   );
-  check("Quellenfilter gefüllt", doc.querySelectorAll("#source-filter option").length === 5);
+  const sourceOptions = [...doc.querySelectorAll("#source-filter option")];
+  const expectedSources = new Set(defaultPayloads()["data/news.json"].articles.map((article) => article.source));
+  check(
+    "Quellenfilter gefüllt",
+    sourceOptions.length === expectedSources.size + 1 &&
+      sourceOptions.slice(1).every((option) => expectedSources.has(option.value)),
+    sourceOptions.map((option) => option.value).join(", ")
+  );
   check("Kategoriefilter gefüllt", doc.querySelectorAll("#category-filter option").length > 1);
   check(
     "Aktualisierungszeit gesetzt",
