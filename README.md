@@ -4,7 +4,8 @@ Ein statischer News-Aggregator, der auf GitHub Pages läuft und über GitHub Act
 
 ## Features
 
-- RSS-Feeds von tagesschau, heise, golem und spiegel
+- RSS-Feeds von tagesschau, deutschlandfunk, spiegel, handelsblatt, heise, golem
+  und netzpolitik
 - Gewichtete Top-News (nicht nur nach Aktualität)
 - Eine Nachricht, ein Eintrag: mehrfach gemeldete Themen werden zusammengefasst
 - Lokaler Lesestatus im Browser
@@ -35,23 +36,44 @@ In die Bewertung gehen ein:
 | Aktualität des jüngsten Artikels zum Thema | bis 40 |
 | Gewicht der besten berichtenden Quelle | bis 20 |
 | Schlüsselwörter (`HIGHLIGHT_KEYWORDS`) | 8 je Treffer |
-| Weitere Quellen zum selben Thema | 12 je Quelle, max. 36 |
+| Weitere Quellen zum selben Thema | logarithmisch: +8 / +12,7 / +16 |
 | Politik oder Wirtschaft | 3 |
 
 Gezählt werden **Quellen, nicht Artikel** – ein Portal mit fünf Meldungen zum
-gleichen Thema hebt sich damit nicht selbst nach oben.
+gleichen Thema hebt sich damit nicht selbst nach oben. Der Bonus wächst
+logarithmisch (`log2(Quellen) * COVERAGE_BONUS`, `COVERAGE_BONUS = 8`): zwei
+Quellen bringen +8, drei +12,7, vier +16. Die zweite Quelle ist die eigentliche
+Bestätigung, jede weitere sagt weniger Neues. Eine Obergrenze braucht es dafür
+nicht mehr – der Zuwachs läuft von selbst aus.
 
 ### Welcher Artikel ein Thema vertritt
 
-Das Quellen-Ranking ist das `weight` in `FEEDS`: tagesschau (1.0), spiegel
-(0.95), heise (0.9), golem (0.85). Berichten mehrere über dasselbe, steht der
-Artikel der bestplatzierten Quelle in der Liste, die übrigen erscheinen als
+Das Quellen-Ranking ist das `weight` in `FEEDS`: tagesschau (1.0),
+deutschlandfunk und spiegel (0.95), handelsblatt und heise (0.9), golem (0.85),
+netzpolitik (0.75). Abgestuft wird danach, wie breit eine Quelle das
+Tagesgeschehen abdeckt: die allgemeinen Nachrichtenquellen oben, die
+Fachredaktionen darunter, das enge Spezialressort von netzpolitik zuletzt.
+Berichten mehrere über dasselbe, steht der Artikel der bestplatzierten Quelle in
+der Liste, die übrigen erscheinen als
 „Auch bei" darunter – mit Link, damit die Auswahl nachvollziehbar bleibt. Bei
 gleichem Gewicht gewinnt der neuere Artikel.
 
-Ist eine Quelle mit `MAX_PER_SOURCE` Artikeln ausgereizt, vertritt die
-nächstbeste Quelle das Thema. So fällt keine Nachricht nur wegen der
-Quellen-Balance aus der Liste.
+### Wie die Top-News zusammengestellt werden
+
+Eine harte Obergrenze pro Quelle hat gute Nachrichten aus der Liste geworfen,
+nur weil ihre Quelle an diesem Tag viel geliefert hat. Stattdessen wird
+iterativ gewählt: Aus dem höchsten noch verbliebenen Score entsteht ein Fenster
+von `DIVERSITY_WINDOW` = 5 Punkten. Alle Themen darin sind praktisch gleich
+stark, also entscheidet dort die Quellenverteilung – es kommt zuerst das Thema
+zum Zug, dessen vertretende Quelle im bisher gewählten Satz am seltensten
+vorkommt. Bei Gleichstand entscheiden Score, dann Aktualität, dann die stabile
+Artikel-ID; die Auswahl ist damit unabhängig von der Eingabereihenfolge.
+
+Ein Thema außerhalb des Fensters kommt nie vor ein stärkeres – Vielfalt kann
+einen niedrigeren Score nicht gewinnen lassen. Mindestplätze oder Quoten pro
+Quelle gibt es nicht. Ausgegeben wird die fertige Auswahl wieder nach Score und
+Aktualität sortiert.
+
 
 ### Wann zwei Artikel dasselbe Thema sind
 

@@ -176,7 +176,8 @@ class ArticleFactory:
     def _distinct(self, index, **kwargs):
         # Themen-Cluster würden gleiche Titel zusammenfassen; wo es um Scoring
         # oder Limits geht, muss jeder Artikel ein eigenes Thema sein.
-        words = ("Alpha", "Beta", "Gamma", "Delta", "Epsilon", "Zeta", "Eta", "Theta", "Iota", "Kappa")
+        words = ("Alpha", "Beta", "Gamma", "Delta", "Epsilon", "Zeta", "Eta", "Theta", "Iota", "Kappa",
+                 "Lambda", "Mysa", "Nyra", "Xena", "Omikron", "Pira", "Rhoda", "Sigma", "Taura", "Vesta")
         word = words[index % len(words)]
         return self._article(title=f"{word}werk meldet {word}zahlen aus {word}stadt", **kwargs)
 
@@ -274,20 +275,18 @@ class TestClustering(ArticleFactory, unittest.TestCase):
         b = self._article(id="b", title="Sachsen-Anhalt streitet über Bildungspolitik")
         self.assertEqual(len(fn.generate_top_news([a, b])), 2)
 
-    def test_naechste_quelle_uebernimmt_wenn_ausgereizt(self):
-        # tagesschau ist ausgereizt; das nächste Thema soll trotzdem erscheinen,
-        # dann vertreten durch spiegel.
+    def test_keine_nachricht_faellt_wegen_quellenbalance_heraus(self):
+        # Früher warf eine harte Obergrenze pro Quelle Themen aus der Liste.
+        # Jetzt bleiben alle Themen drin, vertreten von ihrer besten Quelle.
         articles = []
-        for i in range(fn.MAX_PER_SOURCE + 1):
+        for i in range(8):
             articles.append(
                 self._distinct(i, id=f"ts{i}", source="tagesschau", sourceWeight=1.0)
             )
-            articles.append(self._distinct(i, id=f"sp{i}", source="spiegel", sourceWeight=0.95))
 
         top = fn.generate_top_news(articles)
-        self.assertEqual(len(top), fn.MAX_PER_SOURCE + 1)
-        self.assertEqual(sum(1 for a in top if a["source"] == "tagesschau"), fn.MAX_PER_SOURCE)
-        self.assertEqual(sum(1 for a in top if a["source"] == "spiegel"), 1)
+        self.assertEqual(len(top), 8)
+        self.assertEqual(sum(1 for a in top if a["source"] == "tagesschau"), 8)
 
 
 class TestScoring(ArticleFactory, unittest.TestCase):
@@ -306,14 +305,77 @@ class TestScoring(ArticleFactory, unittest.TestCase):
         fn.generate_top_news([plain, hot])
         self.assertGreater(hot["score"], plain["score"])
 
-    def test_max_pro_quelle(self):
-        articles = [self._distinct(i, id=f"h{i}", source="heise") for i in range(10)]
-        articles += [
-            self._distinct(i, id=f"g{i}", source="golem", sourceWeight=0.85) for i in range(10)
+    def test_vielfalt_entscheidet_im_fenster(self):
+        # Mehr starke Themen derselben Quelle als Plätze, dazu ein knapp
+        # schwächeres einer anderen Quelle: im Fenster zieht die bisher
+        # seltenere Quelle vor, sonst fiele sie ganz heraus.
+        now = datetime.now(timezone.utc)
+        articles = [
+            self._distinct(
+                i,
+                id=f"h{i}",
+                source="heise",
+                sourceWeight=0.9,
+                published=(now - timedelta(minutes=i)).isoformat(),
+            )
+            for i in range(fn.TOP_NEWS_LIMIT + 1)
         ]
-        top = fn.generate_top_news(articles)
-        for source in ("heise", "golem"):
-            self.assertLessEqual(sum(1 for a in top if a["source"] == source), fn.MAX_PER_SOURCE)
+        outsider = self._distinct(
+            19, id="g", source="golem", sourceWeight=0.85, published=now.isoformat()
+        )
+
+        top = fn.generate_top_news(articles + [outsider])
+        self.assertLess(abs(outsider["score"] - articles[0]["score"]), fn.DIVERSITY_WINDOW)
+        self.assertIn("g", [a["id"] for a in top])
+
+    def test_score_schlaegt_vielfalt_ausserhalb_des_fensters(self):
+        # Dasselbe Bild, nur liegt das Thema der seltenen Quelle weit zurück –
+        # dann darf Vielfalt es nicht nach vorne ziehen.
+        now = datetime.now(timezone.utc)
+        articles = [
+            self._distinct(
+                i,
+                id=f"h{i}",
+                source="heise",
+                sourceWeight=0.9,
+                published=(now - timedelta(minutes=i)).isoformat(),
+            )
+            for i in range(fn.TOP_NEWS_LIMIT)
+        ]
+        outsider = self._distinct(
+            19,
+            id="g",
+            source="golem",
+            sourceWeight=0.85,
+            published=(now - timedelta(hours=30)).isoformat(),
+        )
+
+        top = fn.generate_top_news(articles + [outsider])
+        self.assertGreater(articles[0]["score"] - outsider["score"], fn.DIVERSITY_WINDOW)
+        self.assertEqual(len(top), fn.TOP_NEWS_LIMIT)
+        self.assertNotIn("g", [a["id"] for a in top])
+
+    def test_auswahl_ist_unabhaengig_von_der_eingabereihenfolge(self):
+        now = datetime.now(timezone.utc)
+
+        def build():
+            items = []
+            for i in range(fn.TOP_NEWS_LIMIT + 5):
+                source, weight = ("heise", 0.9) if i % 2 else ("golem", 0.85)
+                items.append(
+                    self._distinct(
+                        i,
+                        id=f"a{i}",
+                        source=source,
+                        sourceWeight=weight,
+                        published=(now - timedelta(minutes=i)).isoformat(),
+                    )
+                )
+            return items
+
+        forward = [a["id"] for a in fn.generate_top_news(build())]
+        backward = [a["id"] for a in fn.generate_top_news(list(reversed(build())))]
+        self.assertEqual(forward, backward)
 
     def test_top_limit(self):
         articles = [
@@ -330,6 +392,27 @@ class TestScoring(ArticleFactory, unittest.TestCase):
         alone = self._distinct(5, id="c", source="spiegel", sourceWeight=0.9)
         fn.generate_top_news([a, b, alone])
         self.assertGreater(a["score"], alone["score"])
+
+    def test_mehrquellenbonus_nimmt_ab(self):
+        # Die zweite Quelle bestätigt eine Meldung, die vierte wiederholt sie
+        # nur noch: der Bonus wächst logarithmisch.
+        title = "Bundestag beschliesst Klimapaket mit Milliardenhilfen"
+        sources = ("tagesschau", "spiegel", "heise", "golem")
+
+        def score_with(count):
+            articles = [
+                self._article(id=f"{source}{count}", source=source, sourceWeight=1.0, title=title)
+                for source in sources[:count]
+            ]
+            fn.generate_top_news(articles)
+            return articles[0]["score"]
+
+        one, two, three, four = (score_with(n) for n in (1, 2, 3, 4))
+        self.assertAlmostEqual(two - one, 8, places=1)
+        self.assertAlmostEqual(three - one, 12.7, places=1)
+        self.assertAlmostEqual(four - one, 16, places=1)
+        self.assertGreater(two - one, three - two)
+        self.assertGreater(three - two, four - three)
 
     def test_eine_quelle_hebt_sich_nicht_selbst(self):
         title = "Bundestag beschliesst Klimapaket mit Milliardenhilfen"
@@ -480,6 +563,56 @@ class TestDropStaleAiSummary(unittest.TestCase):
 
     def test_ohne_datei_passiert_nichts(self):
         self.assertFalse(fn.drop_stale_ai_summary(self.path, None, self.now))
+
+
+class TestFeedConfig(unittest.TestCase):
+    """Die Quellenliste selbst: ein Tippfehler hier kostet einen ganzen Feed."""
+
+    EXPECTED_URLS = {
+        "tagesschau": "https://www.tagesschau.de/xml/rss2/",
+        "heise": "https://www.heise.de/rss/heise-top-atom.xml",
+        "golem": "https://rss.golem.de/rss.php?feed=RSS2.0",
+        "spiegel": "https://www.spiegel.de/schlagzeilen/index.rss",
+        "deutschlandfunk": "https://www.deutschlandfunk.de/nachrichten-100.rss",
+        "handelsblatt": "https://feeds.cms.handelsblatt.com/schlagzeilen",
+        "netzpolitik": "https://netzpolitik.org/feed/",
+    }
+
+    def test_quellen_und_urls_stimmen(self):
+        self.assertEqual({name: cfg["url"] for name, cfg in fn.FEEDS.items()}, self.EXPECTED_URLS)
+
+    def test_jede_quelle_ist_vollstaendig(self):
+        for name, config in fn.FEEDS.items():
+            with self.subTest(source=name):
+                self.assertEqual(set(config), {"url", "weight", "category"})
+                self.assertTrue(fn.is_http_url(config["url"]))
+                self.assertIsInstance(config["weight"], float)
+                self.assertTrue(0 < config["weight"] <= 1.0)
+                self.assertTrue(config["category"].strip())
+
+    def test_rangfolge_der_gewichte(self):
+        # Breite Nachrichtenquellen vor Fachredaktionen vor Spezialressort.
+        order = ["tagesschau", "deutschlandfunk", "spiegel", "handelsblatt", "heise",
+                 "golem", "netzpolitik"]
+        weights = [fn.FEEDS[name]["weight"] for name in order]
+        self.assertEqual(weights, sorted(weights, reverse=True))
+        self.assertEqual(max(weights), fn.FEEDS["tagesschau"]["weight"])
+
+    def test_defaultkategorien_sind_bekannt(self):
+        # Die Default-Kategorie greift, wenn kein Schlagwort passt – sie muss
+        # zum Filter im Frontend passen und darf kein Einzelfall sein.
+        erlaubt = set(fn.CATEGORY_KEYWORDS) | {"Nachrichten", "Allgemein"}
+        for name, config in fn.FEEDS.items():
+            with self.subTest(source=name):
+                self.assertIn(config["category"], erlaubt)
+
+    def test_default_greift_ohne_treffer(self):
+        for name, config in fn.FEEDS.items():
+            with self.subTest(source=name):
+                self.assertEqual(
+                    fn.detect_category("Etwas Belangloses", "", config["category"]),
+                    config["category"],
+                )
 
 
 class TestFetchFeed(unittest.TestCase):

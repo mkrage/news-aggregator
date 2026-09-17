@@ -45,6 +45,21 @@ FEEDS = {
         "weight": 0.95,
         "category": "Nachrichten",
     },
+    "deutschlandfunk": {
+        "url": "https://www.deutschlandfunk.de/nachrichten-100.rss",
+        "weight": 0.95,
+        "category": "Nachrichten",
+    },
+    "handelsblatt": {
+        "url": "https://feeds.cms.handelsblatt.com/schlagzeilen",
+        "weight": 0.9,
+        "category": "Wirtschaft",
+    },
+    "netzpolitik": {
+        "url": "https://netzpolitik.org/feed/",
+        "weight": 0.75,
+        "category": "Politik",
+    },
 }
 
 HIGHLIGHT_KEYWORDS = [
@@ -64,16 +79,26 @@ CATEGORY_KEYWORDS = {
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 MAX_AGE_HOURS = 48
 TOP_NEWS_LIMIT = 15
-MAX_PER_SOURCE = 5
+
+# Quellenvielfalt statt harter Obergrenze: Themen, die höchstens so viele Punkte
+# unter dem besten verbliebenen Thema liegen, sind praktisch gleichwertig – dort
+# darf die Quellenverteilung entscheiden. Außerhalb dieses Fensters zählt allein
+# der Score, damit Vielfalt nie eine schwächere Nachricht nach oben zieht.
+DIVERSITY_WINDOW = 5.0
 
 # Themen-Cluster: ab welcher Übereinstimmung zwei Artikel als dieselbe Nachricht
-# gelten, und wie stark breite Berichterstattung den Score hebt. Drei gemeinsame
-# Wörter sind nötig, weil zwei ("Sachsen", "Anhalt") schon ein ganzes Themenfeld
-# zusammenziehen würden – lieber eine Dublette zu viel als eine Nachricht weg.
+# gelten. Drei gemeinsame Wörter sind nötig, weil zwei ("Sachsen", "Anhalt")
+# schon ein ganzes Themenfeld zusammenziehen würden – lieber eine Dublette zu
+# viel als eine Nachricht weg.
 SIMILARITY_THRESHOLD = 0.5
 MIN_SHARED_WORDS = 3
-COVERAGE_BONUS = 12
-COVERAGE_CAP = 3  # mehr als drei zusätzliche Quellen bringen keinen Bonus mehr
+
+# Breite Berichterstattung zählt, aber mit abnehmendem Grenznutzen: der Bonus
+# wächst logarithmisch (log2) mit der Zahl der Quellen. Die zweite Quelle ist die
+# eigentliche Bestätigung und bringt den vollen Betrag, jede weitere sagt weniger
+# Neues – 1 Quelle 0, 2 Quellen +8, 3 Quellen +12,7, 4 Quellen +16. Das braucht
+# keine Obergrenze mehr: der Zuwachs läuft von selbst aus.
+COVERAGE_BONUS = 8
 
 USER_AGENT = "news-aggregator/1.0 (+https://github.com/mkrage/news-aggregator)"
 FEED_TIMEOUT = 15
@@ -570,9 +595,10 @@ def calculate_score(story, now):
     score += sum(1 for kw in HIGHLIGHT_KEYWORDS if kw in text) * 8
 
     # Breite der Berichterstattung: zählt Quellen, nicht Artikel. Sonst hebt ein
-    # Portal mit mehreren Meldungen zum Thema sich selbst nach oben.
+    # Portal mit mehreren Meldungen zum Thema sich selbst nach oben. Der Zuwachs
+    # nimmt ab – die zweite Quelle bestätigt, die fünfte wiederholt nur.
     sources = {item["article"]["source"] for item in story["members"]}
-    score += min(len(sources) - 1, COVERAGE_CAP) * COVERAGE_BONUS
+    score += math.log2(len(sources)) * COVERAGE_BONUS
 
     # Kategorie-Bonus: Politik und Wirtschaft leicht bevorzugen
     if lead.get("category") in ("Politik", "Wirtschaft"):
@@ -597,6 +623,49 @@ def build_coverage(chosen, members):
     return {"sourceCount": len(seen), "others": others}
 
 
+def story_lead(story):
+    """Der Artikel, der ein Thema in der Liste vertritt – die beste Quelle."""
+    return story["members"][0]["article"]
+
+
+def story_order_key(story):
+    """Ausgabereihenfolge: bester Score zuerst, dann das Neuere, dann stabil."""
+    return (-story["score"], -story["newest"].timestamp(), story_lead(story)["id"])
+
+
+def select_stories(stories, limit=TOP_NEWS_LIMIT):
+    """Wählt die Themen der Top-News: Score entscheidet, Vielfalt bricht Gleichstand.
+
+    Eine harte Obergrenze pro Quelle hat gute Nachrichten aus der Liste geworfen,
+    nur weil ihre Quelle an diesem Tag viel geliefert hat. Stattdessen wird
+    iterativ gewählt: Aus dem besten verbliebenen Score entsteht ein Fenster von
+    `DIVERSITY_WINDOW` Punkten. Alles darin ist praktisch gleich stark – dort
+    zieht die Quelle vor, die bisher am seltensten vertreten ist. Ein Thema
+    außerhalb des Fensters kommt nie vor ein stärkeres, egal wie selten seine
+    Quelle ist.
+
+    Die Auswahl ist deterministisch: bei gleicher Quellenzahl entscheidet der
+    Score, dann die Aktualität, dann die stabile Artikel-ID.
+    """
+    remaining = list(stories)
+    chosen = []
+    source_counts = Counter()
+
+    def diversity_key(story):
+        return (source_counts[story_lead(story)["source"]],) + story_order_key(story)
+
+    while remaining and len(chosen) < limit:
+        best_score = max(story["score"] for story in remaining)
+        window = [s for s in remaining if s["score"] >= best_score - DIVERSITY_WINDOW]
+
+        pick = min(window, key=diversity_key)
+        remaining = [s for s in remaining if s is not pick]
+        chosen.append(pick)
+        source_counts[story_lead(pick)["source"]] += 1
+
+    return chosen
+
+
 def generate_top_news(articles):
     """Erzeugt die Top-News: ein Artikel pro Thema, beste Quelle zuerst."""
     now = datetime.now(timezone.utc)
@@ -612,28 +681,18 @@ def generate_top_news(articles):
         for item in story["members"]:
             item["article"]["score"] = story["score"]
 
-    stories.sort(key=lambda story: (-story["score"], -story["newest"].timestamp()))
+    selected = sorted(select_stories(stories, TOP_NEWS_LIMIT), key=story_order_key)
 
     top_news = []
-    source_counts = Counter()
-    for story in stories:
+    for story in selected:
         members = [item["article"] for item in story["members"]]
-        # Ist die beste Quelle ausgereizt, vertritt die nächste das Thema –
-        # so fällt keine Nachricht nur wegen der Quellen-Balance heraus.
-        chosen = next(
-            (a for a in members if source_counts[a["source"]] < MAX_PER_SOURCE), None
-        )
-        if chosen is None:
-            continue
+        chosen = members[0]
 
         coverage = build_coverage(chosen, members)
         if coverage["others"]:
             chosen["coverage"] = coverage
 
         top_news.append(chosen)
-        source_counts[chosen["source"]] += 1
-        if len(top_news) >= TOP_NEWS_LIMIT:
-            break
 
     return top_news
 

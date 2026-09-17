@@ -729,11 +729,17 @@ main.swipe-settle {
 .news-source[data-source="heise"] { color: #dc2626; }
 .news-source[data-source="golem"] { color: #059669; }
 .news-source[data-source="spiegel"] { color: #7c3aed; }
+.news-source[data-source="deutschlandfunk"] { color: #b45309; }
+.news-source[data-source="handelsblatt"] { color: #0f766e; }
+.news-source[data-source="netzpolitik"] { color: #be123c; }
 
 [data-mode="dark"] .news-source[data-source="tagesschau"] { color: #7aa7ff; }
 [data-mode="dark"] .news-source[data-source="heise"] { color: #f87171; }
 [data-mode="dark"] .news-source[data-source="golem"] { color: #34d399; }
 [data-mode="dark"] .news-source[data-source="spiegel"] { color: #c4a3fb; }
+[data-mode="dark"] .news-source[data-source="deutschlandfunk"] { color: #f5a854; }
+[data-mode="dark"] .news-source[data-source="handelsblatt"] { color: #2dd4bf; }
+[data-mode="dark"] .news-source[data-source="netzpolitik"] { color: #fb7185; }
 
 .news-category {
   padding: 0.15rem 0.5rem;
