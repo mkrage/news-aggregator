@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-18T21:59:18.237605+00:00",
-  "count": 228,
+  "generatedAt": "2026-09-18T22:41:05.287578+00:00",
+  "count": 206,
   "articles": [
     {
       "id": "handelsblatt-f8c1f56bc01e29bd",
@@ -12,7 +12,334 @@
       "image": "https://images.handelsblatt.com/4N0Ye12mUJiI/cover/900/506/0/0/0/418/0.5/0.5/ehepaar.jpg",
       "published": "2026-09-19T08:30:00+00:00",
       "category": "Politik",
-      "score": 77.76
+      "score": 77.18
+    },
+    {
+      "id": "deutschlandfunk-c37c20a78146389e",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Nach langem Streit - Einigung mit Dänemark und Grönland: USA wollen Militärpräsenz auf Grönland ausweiten",
+      "link": "https://www.deutschlandfunk.de/einigung-mit-daenemark-und-groenland-usa-wollen-militaerpraesenz-auf-groenland-ausweiten-100.html",
+      "summary": "Die USA wollen ihre Militärpräsenz auf Grönland ausweiten.",
+      "image": "https://bilder.deutschlandfunk.de/e1/06/7d/e2/e1067de2-6230-41ae-943b-92085b1ff504/die-nachrichten-kachel-2176-zu1224-100-768x768.jpg",
+      "published": "2026-09-19T00:34:33+02:00",
+      "category": "Nachrichten",
+      "score": 71.6,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Dänemark und USA verkünden Einigung im Grönland-Streit",
+            "link": "https://www.spiegel.de/ausland/daenemark-und-usa-verkuenden-einigung-im-groenland-streit-a-3b1862ed-e331-4dde-8265-e5ec805254b6#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Grönland: Dänemark und USA verkünden Durchbruch im Grönland-Streit",
+            "link": "https://www.handelsblatt.com/politik/international/groenland-daenemark-und-usa-verkuenden-durchbruch-im-groenland-streit/100255762.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-fbbd06416239e307",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Hohe Kraftstoffpreise - Einigung zwischen Bund und Ländern über Tankrabatt und Spritpreisdeckel",
+      "link": "https://www.deutschlandfunk.de/einigung-zwischen-bund-und-laendern-ueber-tankrabatt-und-spritpreisdeckel-102.html",
+      "summary": "Bund und Länder haben sich angesichts der hohen Kraftstoffpreise auf einen neuen Tankrabatt geeinigt. Wie die Bundesregierung am Abend mitteilte, soll der Tankrabatt von Oktober bis Jahresende 17 Cent pro Liter betragen. Bund und Länder teilen sich demnach die Kosten für die Entlastung von insgesamt 2,5 Milliarden Euro.",
+      "image": "https://bilder.deutschlandfunk.de/45/fa/b8/9c/45fab89c-e42e-4bfc-a94a-550235b7eadc/tankstelle-preisschild-benzinpreise-100-1920x1920.jpg",
+      "published": "2026-09-19T00:34:33+02:00",
+      "category": "Politik",
+      "score": 69.91
+    },
+    {
+      "id": "deutschlandfunk-a41c1e914386e441",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "USA-Reise - Verteidigungsminister Pistorius nimmt in Texas bestellten F35-Kampfjet in Empfang",
+      "link": "https://www.deutschlandfunk.de/verteidigungsminister-pistorius-nimmt-in-texas-bestellten-f35-kampfjet-in-empfang-118.html",
+      "summary": "Bundesverteidigungsminister Pistorius hat zum Abschluss seiner USA-Reise den ersten Kampfjet vom Typ F-35 für die deutsche Luftwaffe in Empfang genommen. Pistorius sprach bei der Übergabe des Jets beim Produzenten Lockheed Martin im texanischen Fort Worth von einer \"neuen Ära für die Luftwaffe\".",
+      "image": "https://bilder.deutschlandfunk.de/43/8a/33/62/438a3362-3b9e-4756-8a06-c6514a42c191/usa-kampfjet-100-1920x1920.jpg",
+      "published": "2026-09-19T00:34:33+02:00",
+      "category": "Politik",
+      "score": 78.91
+    },
+    {
+      "id": "deutschlandfunk-19f3d031c99fdfb9",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Washington - US-Präsident Trump verbannt mehrere Medien aus dem Weißen Haus",
+      "link": "https://www.deutschlandfunk.de/us-praesident-trump-verbannt-mehrere-medien-aus-dem-weissen-haus-108.html",
+      "summary": "US-Präsident Trump untersagt mehreren Medien den Zutritt zum Weißen Haus.",
+      "image": "https://bilder.deutschlandfunk.de/51/36/73/2a/5136732a-53e5-4a0f-b6f7-528edb24a761/trump-parteitag-republikaner-102-1920x1920.jpg",
+      "published": "2026-09-19T00:34:33+02:00",
+      "category": "Politik",
+      "score": 86.91
+    },
+    {
+      "id": "deutschlandfunk-7dc0364098787d4b",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Russischer Angriffskrieg - Kühlturm des Atomkraftwerks bei Kursk von Drohne getroffen",
+      "link": "https://www.deutschlandfunk.de/kuehlturm-des-atomkraftwerks-bei-kursk-von-drohne-getroffen-104.html",
+      "summary": "Ein Kühlturm des Atomkraftwerks Kursk in Russland ist von einer Drohne getroffen worden.",
+      "image": "https://bilder.deutschlandfunk.de/25/00/23/70/25002370-1578-4a2c-85f0-a16bf38ea07e/russland-atomkraftwerk-akw-kursk-100-1280x1280.jpg",
+      "published": "2026-09-19T00:34:33+02:00",
+      "category": "Nachrichten",
+      "score": 66.91
+    },
+    {
+      "id": "deutschlandfunk-358de5274b55a401",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "USA - Kalifornien prüft \"Notschalter\" für Künstliche Intelligenz",
+      "link": "https://www.deutschlandfunk.de/kalifornien-prueft-notschalter-fuer-kuenstliche-intelligenz-106.html",
+      "summary": "In den USA macht Kaliforniens Gouverneur Newsom einen Vorstoß zur Regulierung von Künstlicher Intelligenz.",
+      "image": "https://bilder.deutschlandfunk.de/7a/ba/2e/d1/7aba2ed1-0858-4f8a-96e4-28dea3a125e3/gavin-newsom-100-1920x1920.jpg",
+      "published": "2026-09-19T00:34:33+02:00",
+      "category": "Technologie",
+      "score": 58.91
+    },
+    {
+      "id": "deutschlandfunk-ad54063513c88c51",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Fußball-Bundesliga - Bayern München schlägt Union Berlin mit 7:0",
+      "link": "https://www.deutschlandfunk.de/bayern-muenchen-schlaegt-union-berlin-mit-7-104.html",
+      "summary": "Bayern München hat das Freitagsspiel in der Fußball-Bundesliga gewonnen.",
+      "image": "https://bilder.deutschlandfunk.de/7e/a4/41/8b/7ea4418b-ac5d-40d6-994b-cc049bcc4d02/bundesliga-bayern-union-berlin-100-1920x1920.jpg",
+      "published": "2026-09-19T00:34:33+02:00",
+      "category": "Nachrichten",
+      "score": 58.91
+    },
+    {
+      "id": "deutschlandfunk-a493e1aa4c344a57",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Interview der Woche - Bolton: \"Beziehungen zu NATO-Verbündeten sind beschädigt, aber reparabel\"",
+      "link": "https://www.deutschlandfunk.de/bolton-beziehungen-zu-nato-verbuendeten-sind-beschaedigt-aber-reparabel-102.html",
+      "summary": "US-Präsident Trump hat nach Ansicht des ehemaligen Nationalen Sicherheitsberaters der US-Regierung, Bolton, den Beziehungen zu den NATO-Partnern enormen Schaden zugefügt. Er halte das Verhältnis aber für \"reparabel\", sagte Bolton im Interview der Woche des Deutschlandfunks.",
+      "image": "https://bilder.deutschlandfunk.de/FI/LE/_2/35/FILE_23505e77daf55fab97d53af7c045c963/133185634-jpg-100-768x768.jpg",
+      "published": "2026-09-19T00:34:33+02:00",
+      "category": "Politik",
+      "score": 69.91
+    },
+    {
+      "id": "deutschlandfunk-8b5915bc149dbe7a",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Volkswagen - Konzern kappt Gewinnerwartung für 2026 deutlich",
+      "link": "https://www.deutschlandfunk.de/konzern-kappt-gewinnerwartung-fuer-2026-deutlich-108.html",
+      "summary": "Volkswagen hat seine Gewinnprognose für das laufende Geschäftsjahr deutlich gesenkt.",
+      "image": "https://bilder.deutschlandfunk.de/b4/2f/dc/44/b42fdc44-d88d-4f89-a711-3221e695eadf/vw-logo-2-d-autohersteller-volkswagen-100-1920x1920.jpg",
+      "published": "2026-09-19T00:34:33+02:00",
+      "category": "Nachrichten",
+      "score": 66.91
+    },
+    {
+      "id": "deutschlandfunk-e7c4f49c0409764b",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Energiepreise - Frankreichs Präsident Macron will G7-Treffen einberufen",
+      "link": "https://www.deutschlandfunk.de/frankreichs-praesident-macron-will-g7-treffen-einberufen-102.html",
+      "summary": "Angesichts der gestiegenen Energiepreise will Frankreich nach einer gemeinsamen Antwort im Kreis führender demokratischer Wirtschaftsmächte suchen. Präsident Macron kündigte in Paris an, er werde dafür ein G7-Treffen einberufen.",
+      "image": "https://bilder.deutschlandfunk.de/c6/f5/8d/7a/c6f58d7a-5fde-42ac-a2dc-500240ca537f/macron-frankreich-president-100-1920x1920.jpg",
+      "published": "2026-09-19T00:34:33+02:00",
+      "category": "Wirtschaft",
+      "score": 69.91
+    },
+    {
+      "id": "deutschlandfunk-a90ec0ae129fecae",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Wegen Huthi-Bedrohung - Italiens Marine sichert Frachtschiff bei Fahrt durch Meerenge Bab al-Mandab",
+      "link": "https://www.deutschlandfunk.de/italiens-marine-sichert-frachtschiff-bei-fahrt-durch-meerenge-bab-al-mandab-106.html",
+      "summary": "Die italienische Marine hat ein Handelsschiff durch die Meerenge Bab al-Mandab eskortiert.",
+      "image": "https://bilder.deutschlandfunk.de/ce/a3/16/23/cea31623-77cc-4b6c-9ada-221764f6ee75/tanker-102-768x768.jpg",
+      "published": "2026-09-19T00:34:33+02:00",
+      "category": "Nachrichten",
+      "score": 58.91
+    },
+    {
+      "id": "deutschlandfunk-512043bd837adf7e",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Ehemaliger UCK-Anführer - Erneut Proteste im Kosovo nach Verurteilung von Ex-Präsident Thaci",
+      "link": "https://www.deutschlandfunk.de/erneut-proteste-im-kosovo-nach-verurteilung-von-ex-praesident-thaci-104.html",
+      "summary": "Tausende Menschen haben im Kosovo erneut gegen die Verurteilung des früheren Präsidenten Thaci wegen Kriegsverbrechen protestiert.",
+      "image": "https://bilder.deutschlandfunk.de/71/fb/08/3c/71fb083c-b8e5-46d0-8e26-386341a794c1/kosovo-thaci-proteste-100-1920x1920.jpg",
+      "published": "2026-09-19T00:34:33+02:00",
+      "category": "Nachrichten",
+      "score": 66.91
+    },
+    {
+      "id": "deutschlandfunk-f5f2fa745dc0200f",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Russland - EU-Kommission kritisiert Parlamentswahl scharf - Auswärtiges Amt spricht von Inszenierung",
+      "link": "https://www.deutschlandfunk.de/eu-kommission-kritisiert-parlamentswahl-scharf-auswaertiges-amt-spricht-von-inszenierung-102.html",
+      "summary": "Die Europäische Kommission hat die laufende Parlamentswahl in Russland als undemokratisch kritisiert. Ein Sprecher erklärte in Brüssel, die russischen Behörden hätten die systematische Unterdrückung weiter verstärkt, um jede Opposition auszuschließen.",
+      "image": "https://bilder.deutschlandfunk.de/f2/c8/36/b0/f2c836b0-2ee8-4c1a-b1d4-5ffb1c86bed4/duma-wahl-russland-102-1920x1920.jpg",
+      "published": "2026-09-19T00:34:33+02:00",
+      "category": "Politik",
+      "score": 69.91
+    },
+    {
+      "id": "deutschlandfunk-e8c6db1cafbca47a",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Karibik - Kuba erneut von landesweitem Stromausfall getroffen",
+      "link": "https://www.deutschlandfunk.de/kuba-erneut-von-landesweitem-stromausfall-getroffen-108.html",
+      "summary": "In Kuba ist erneut landesweit der Strom ausgefallen.",
+      "image": "https://bilder.deutschlandfunk.de/19/54/41/5e/1954415e-b1b2-46d1-a27d-d06be6d9908b/kuba-stromausfall-energieversorger-stromnetz-technik-100-1920x1920.jpg",
+      "published": "2026-09-19T00:34:33+02:00",
+      "category": "Nachrichten",
+      "score": 58.91
+    },
+    {
+      "id": "deutschlandfunk-a0a6591c0483d1f2",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Terrorismus - Mindestens 20 Tote bei Anschlag in Pakistan",
+      "link": "https://www.deutschlandfunk.de/mindestens-20-tote-bei-anschlag-in-pakistan-104.html",
+      "summary": "In Pakistan sind bei einem Bombenanschlag mindestens 20 Menschen getötet worden.",
+      "image": "https://bilder.deutschlandfunk.de/e1/35/07/24/e1350724-15b6-4872-a814-5e45b3b50241/pakistan-anschlag-bombe-islamabad-schiiten-gemeindehaus-100-1920x1920.jpg",
+      "published": "2026-09-19T00:34:33+02:00",
+      "category": "Technologie",
+      "score": 72.59
+    },
+    {
+      "id": "deutschlandfunk-304a97df55e0dc4e",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Berichte der BBC - 37 Inhaftierte in nigerianischer Gefängniszelle ums Leben gekommen",
+      "link": "https://www.deutschlandfunk.de/37-inhaftierte-in-nigerianischer-gefaengniszelle-ums-leben-gekommen-104.html",
+      "summary": "In Nigeria sind in einer Gefängniszelle 37 Inhaftierte ums Leben gekommen.",
+      "image": "https://bilder.deutschlandfunk.de/53/02/55/3d/5302553d-713a-4782-b1e4-41c9d8d1ba5b/flagge-nigeria-100-1920x1920.jpg",
+      "published": "2026-09-19T00:34:33+02:00",
+      "category": "Nachrichten",
+      "score": 58.91
+    },
+    {
+      "id": "deutschlandfunk-cab4992fa7be0dfe",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Auszeichnung - Körber-Preis für Zellbiologin Wickström",
+      "link": "https://www.deutschlandfunk.de/koerber-preis-fuer-zellbiologin-wickstroem-108.html",
+      "summary": "Die finnische Medizinerin und Zellbiologin Sara Wickström ist mit dem Körber-Preis für die Europäische Wissenschaft 2026 ausgezeichnet worden. Sie erhielt den mit einer Million Euro dotierten Preis für die Entdeckung eines bislang unbekannten Mechanismus, mit dem Zellen ihre Umgebung wahrnehmen.",
+      "image": "https://bilder.deutschlandfunk.de/06/31/67/9f/0631679f-3f38-4e62-821c-a8cce9e6c071/sara-wickstroem-100-1920x1920.jpg",
+      "published": "2026-09-19T00:34:33+02:00",
+      "category": "Wissenschaft",
+      "score": 67.91
+    },
+    {
+      "id": "deutschlandfunk-a1a071f44072c2e8",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "\"ZDF Magazin Royale\" - Satire-Sendung mit Jan Böhmermann läuft zum Jahresende aus - Gespräche über neues Format",
+      "link": "https://www.deutschlandfunk.de/satire-sendung-mit-jan-boehmermann-laeuft-zum-jahresende-aus-gespraeche-ueber-neues-format-108.html",
+      "summary": "Der Satiriker Jan Böhmermann beendet zum Jahresende sein \"ZDF Magazin Royale\". Das ZDF teilte mit, die Sendung werde nach mehr als sechs Jahren und 187 Ausgaben in ihrer bisherigen Form eingestellt. Zugleich laufen nach Angaben des Senders Gespräche mit Böhmermann über ein mögliches neues Show-Konzept.",
+      "image": "https://bilder.deutschlandfunk.de/FI/LE/_7/15/FILE_715ebee7a3523465725ec357e8e09511/77503-2-20-jpg-100-768x768.jpg",
+      "published": "2026-09-19T00:34:33+02:00",
+      "category": "Nachrichten",
+      "score": 66.91
+    },
+    {
+      "id": "deutschlandfunk-db91bf5742a2176d",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Russland - Regisseur Andrei Swjaginzew zum feindlichen Agenten erklärt",
+      "link": "https://www.deutschlandfunk.de/regisseur-andrei-swjaginzew-zum-feindlichen-agenten-erklaert-108.html",
+      "summary": "In Russland ist Regisseur Andrei Swjaginzew zum feindlichen Agenten erklärt worden.",
+      "image": "https://bilder.deutschlandfunk.de/e3/fb/5c/e7/e3fb5ce7-bfbc-43da-8984-833abef31c89/andrei-swjaginzew-100-1920x1920.jpg",
+      "published": "2026-09-19T00:34:33+02:00",
+      "category": "Nachrichten",
+      "score": 66.91
+    },
+    {
+      "id": "deutschlandfunk-ae2ca0107952cdc1",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Holocaust-Überlebende - Gymnasium in Berlin nach Margot Friedländer benannt",
+      "link": "https://www.deutschlandfunk.de/gymnasium-in-berlin-nach-margot-friedlaender-benannt-106.html",
+      "summary": "Im Berliner Bezirk Spandau ist ein Gymnasium nach der Holocaust-Überlebenden Margot Friedländer benannt worden. Die Umbenennung wurde mit einem Festakt gefeiert. Friedländer war im vergangenen Jahr im Alter von 103 Jahren gestorben.",
+      "image": "https://bilder.deutschlandfunk.de/68/28/01/de/682801de-f52c-48ae-829a-5d924f3bf8d9/margot-friedlaender-gymnasium-100-1920x1920.jpg",
+      "published": "2026-09-19T00:34:33+02:00",
+      "category": "Nachrichten",
+      "score": 58.91
+    },
+    {
+      "id": "deutschlandfunk-d7a2feac3bae7937",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Fußball - DFB-Bundestag beschließt Ausgliederung der Frauen-Bundesliga",
+      "link": "https://www.deutschlandfunk.de/dfb-bundestag-beschliesst-ausgliederung-der-frauen-bundesliga-106.html",
+      "summary": "Die Frauen-Bundesliga wird ab der kommenden Saison nicht mehr vom Deutschen Fußball-Bund organisiert. Das wurde auf einem außerordentlichen DFB-Bundestag beschlossen. Stattdessen wird der bereits gegründete Ligaverband FBL alleinverantwortlich sein.",
+      "image": "https://bilder.deutschlandfunk.de/d9/6e/0b/4d/d96e0b4d-7ef0-4a79-9ce0-92526a3fb26c/gwinn-oberdorf-100-1920x1920.jpg",
+      "published": "2026-09-19T00:34:33+02:00",
+      "category": "Politik",
+      "score": 69.91
+    },
+    {
+      "id": "deutschlandfunk-5d91b9fe2ccc90c1",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Machtkampf mit FIFA - UEFA und CONCACAF fordern zusätzliche Millionen für Verbände",
+      "link": "https://www.deutschlandfunk.de/uefa-und-concacaf-fordern-zusaetzliche-millionen-fuer-verbaende-104.html",
+      "summary": "Die europäische Fußball-Union UEFA und der nordamerikanische Dachverband CONCACAF haben die FIFA aufgefordert, ihren 211 Mitgliedsverbänden nach der finanziell erfolgreichen Weltmeisterschaft im vergangenen Sommer jeweils zusätzliche 10 Millionen US-Dollar auszuzahlen. Die Ausschüttung würde den Weltverband insgesamt rund 2,1 Milliarden Dollar kosten.",
+      "image": "https://bilder.deutschlandfunk.de/66/17/d5/9b/6617d59b-8a58-406a-9b89-2a39779abc94/fifaauslosung-100-1920x1920.jpg",
+      "published": "2026-09-19T00:34:33+02:00",
+      "category": "Nachrichten",
+      "score": 58.91
+    },
+    {
+      "id": "deutschlandfunk-9e4bdc649d35f8de",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Wetter - In der Nacht nur im Norden örtlich Schauer - 13 bis 5 Grad",
+      "link": "https://www.deutschlandfunk.de/in-der-nacht-nur-im-norden-oertlich-schauer-13-bis-5-grad-104.html",
+      "summary": "",
+      "image": "https://bilder.deutschlandfunk.de/e5/f6/55/84/e5f65584-6dc2-4dce-979d-729a024cd599/wetter-grafik-nachrichten-100-768x768.jpg",
+      "published": "2026-09-19T00:34:33+02:00",
+      "category": "Nachrichten",
+      "score": 58.91
+    },
+    {
+      "id": "spiegel-dc060dfc562bdc65",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Dänemark und USA verkünden Einigung im Grönland-Streit",
+      "link": "https://www.spiegel.de/ausland/daenemark-und-usa-verkuenden-einigung-im-groenland-streit-a-3b1862ed-e331-4dde-8265-e5ec805254b6#ref=rss",
+      "summary": "Donald Trump sprach von der Annexion der Arktisinsel – nun melden die USA, Dänemark und Grönland einen baldigen Deal. Die Vereinigten Staaten sollen demnach dauerhaft die Sicherheitskontrolle über die Grönland übernehmen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/e18f9b2d-2489-44da-9a6c-c3147f84e8fb_w1200_r1.778_fpx49.76_fpy48.99.jpg",
+      "published": "2026-09-19T00:16:00+02:00",
+      "category": "Politik",
+      "score": 71.6
+    },
+    {
+      "id": "tagesschau-358e5440e8e5472a",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Fragen und Antworten: Was plant Koalition jetzt gegen die Spritpreise?",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/tankrabatt-preisdeckel-faq-100.html",
+      "summary": "Die Bundesregierung hat auf die hohen Spritpreise reagiert. Welche Maßnahmen sind ab wann geplant? Wer hat sich in der Koalition durchgesetzt? Und: Welche Kritik gibt es? Die wichtigsten Fragen und Antworten. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/c8c1e82e-58d8-449d-81ee-3a1cae5a15ec/AAABoLZ-qSE/AAABnSSvrFg/16x9-big/tankrabatt-248.jpg?width=1920",
+      "published": "2026-09-19T00:00:25+02:00",
+      "category": "Politik",
+      "score": 62.44
+    },
+    {
+      "id": "spiegel-8ace4c24a1b6f348",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Tankrabatt: Bundesregierung plant milliardenteure Beruhigungspille - Meinung",
+      "link": "https://www.spiegel.de/politik/deutschland/tankrabatt-bundesregierung-plant-milliardenteure-beruhigungspille-meinung-a-68a3c6cf-d150-42d9-8508-9ac1aa1f9b8b#ref=rss",
+      "summary": "Die Bundesregierung plant einen weiteren Tankrabatt – und wiederholt damit den Fehler vom Frühsommer. Er entlastet nur vorübergehend vorwiegend jene, die viel Sprit verbrauchen. Es ist genau das falsche Signal.",
+      "image": "https://cdn.prod.www.spiegel.de/images/81472212-a064-464c-b392-8067116bb378_w1200_r1.778_fpx59.99_fpy50.jpg",
+      "published": "2026-09-18T23:59:00+02:00",
+      "category": "Politik",
+      "score": 61.42
     },
     {
       "id": "spiegel-6efc6998580a7a07",
@@ -24,7 +351,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/ef989323-c289-42cf-b3ee-f0055591fb04_w1200_r1.778_fpx33.34_fpy50.jpg",
       "published": "2026-09-18T23:33:00+02:00",
       "category": "Politik",
-      "score": 69.63
+      "score": 69.05
     },
     {
       "id": "tagesschau-9330859257c6859f",
@@ -36,14 +363,14 @@
       "image": "https://images.tagesschau.de/image/8290304e-7574-48b2-93bc-e2f5cc1e23b9/AAABoLZYWnk/AAABnSSvrFg/16x9-big/trump-reporter-weisses-haus-100.jpg?width=1920",
       "published": "2026-09-18T23:07:18+02:00",
       "category": "Politik",
-      "score": 86.77,
+      "score": 86.91,
       "coverage": {
         "sourceCount": 4,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "Washington - US-Präsident Trump verbannt mehrere Medien aus dem Weißen Haus",
-            "link": "https://www.deutschlandfunk.de/us-praesident-trump-verbannt-mehrere-medien-aus-dem-weissen-haus-100.html"
+            "link": "https://www.deutschlandfunk.de/us-praesident-trump-verbannt-mehrere-medien-aus-dem-weissen-haus-108.html"
           },
           {
             "source": "spiegel",
@@ -59,18 +386,6 @@
       }
     },
     {
-      "id": "spiegel-11dee27b5f744a73",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Jan Böhmermanns und das Ende vom »ZDF Magazin Royale«: Einer gegen alle. Und gegen sich selbst",
-      "link": "https://www.spiegel.de/kultur/tv/jan-boehmermanns-und-das-ende-vom-zdf-magazin-royale-einer-gegen-alle-und-gegen-sich-selbst-a-f7342479-2f44-44d4-acf9-a623013a3156#ref=rss",
-      "summary": "Für das »Magazin Royale« erschuf Jan Böhmermann einen eigenwilligen Mix aus Backpfeifen-Comedy und Guerilla-Investigation. Doch zuletzt bekam er seinen sich selbst gesetzten politischen Auftrag nicht mehr scharf gestellt.",
-      "image": "https://cdn.prod.www.spiegel.de/images/eca025e2-5ace-4bc5-b54d-901f71d702a4_w1200_r1.778_fpx38_fpy60.jpg",
-      "published": "2026-09-18T23:05:00+02:00",
-      "category": "Nachrichten",
-      "score": 58.25
-    },
-    {
       "id": "spiegel-5d785d0a2fdeeecf",
       "source": "spiegel",
       "sourceWeight": 0.95,
@@ -80,567 +395,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/5f867e90-eefe-478d-847a-9b003aa599f8_w1200_r1.778_fpx59.32_fpy50.98.jpg",
       "published": "2026-09-18T23:05:00+02:00",
       "category": "Nachrichten",
-      "score": 58.25
+      "score": 57.67
     },
     {
-      "id": "deutschlandfunk-c48f73efa8f3da2a",
-      "source": "deutschlandfunk",
+      "id": "spiegel-11dee27b5f744a73",
+      "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Hohe Kraftstoffpreise - Einigung zwischen Bund und Ländern über Tankrabatt und Spritpreisdeckel",
-      "link": "https://www.deutschlandfunk.de/einigung-zwischen-bund-und-laendern-ueber-tankrabatt-und-spritpreisdeckel-100.html",
-      "summary": "Bund und Länder haben sich angesichts der hohen Kraftstoffpreise auf einen neuen Tankrabatt geeinigt. Wie die Bundesregierung am Abend mitteilte, soll der Tankrabatt von Oktober bis Jahresende 17 Cent pro Liter betragen. Bund und Länder teilen sich demnach die Kosten für die Entlastung von insgesamt 2,5 Milliarden Euro.",
-      "image": "https://bilder.deutschlandfunk.de/45/fa/b8/9c/45fab89c-e42e-4bfc-a94a-550235b7eadc/tankstelle-preisschild-benzinpreise-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Politik",
-      "score": 69.18
-    },
-    {
-      "id": "deutschlandfunk-a653df4b3e11f87f",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Washington - US-Präsident Trump verbannt mehrere Medien aus dem Weißen Haus",
-      "link": "https://www.deutschlandfunk.de/us-praesident-trump-verbannt-mehrere-medien-aus-dem-weissen-haus-100.html",
-      "summary": "US-Präsident Trump untersagt mehreren Medien den Zutritt zum Weißen Haus.",
-      "image": "https://bilder.deutschlandfunk.de/51/36/73/2a/5136732a-53e5-4a0f-b6f7-528edb24a761/trump-parteitag-republikaner-102-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Politik",
-      "score": 86.77
-    },
-    {
-      "id": "deutschlandfunk-6bf5747b20f92b38",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "USA-Reise - Verteidigungsminister Pistorius nimmt in Texas bestellten F35-Kampfjet in Empfang",
-      "link": "https://www.deutschlandfunk.de/verteidigungsminister-pistorius-nimmt-in-texas-bestellten-f35-kampfjet-in-empfang-110.html",
-      "summary": "Bundesverteidigungsminister Pistorius hat zum Abschluss seiner USA-Reise den ersten Kampfjet vom Typ F-35 für die deutsche Luftwaffe in Empfang genommen. Pistorius sprach bei der Übergabe des Jets beim Produzenten Lockheed Martin im texanischen Fort Worth von einer \"neuen Ära für die Luftwaffe\".",
-      "image": "https://bilder.deutschlandfunk.de/43/8a/33/62/438a3362-3b9e-4756-8a06-c6514a42c191/usa-kampfjet-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Politik",
-      "score": 78.18
-    },
-    {
-      "id": "deutschlandfunk-32ea2b47b0089c18",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Russischer Angriffskrieg - Kühlturm des Atomkraftwerks bei Kursk von Drohne getroffen",
-      "link": "https://www.deutschlandfunk.de/kuehlturm-des-atomkraftwerks-bei-kursk-von-drohne-getroffen-102.html",
-      "summary": "Ein Kühlturm des Atomkraftwerks Kursk in Russland ist von einer Drohne getroffen worden.",
-      "image": "https://bilder.deutschlandfunk.de/25/00/23/70/25002370-1578-4a2c-85f0-a16bf38ea07e/russland-atomkraftwerk-akw-kursk-100-1280x1280.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
+      "title": "Jan Böhmermanns und das Ende vom »ZDF Magazin Royale«: Einer gegen alle. Und gegen sich selbst",
+      "link": "https://www.spiegel.de/kultur/tv/jan-boehmermanns-und-das-ende-vom-zdf-magazin-royale-einer-gegen-alle-und-gegen-sich-selbst-a-f7342479-2f44-44d4-acf9-a623013a3156#ref=rss",
+      "summary": "Für das »Magazin Royale« erschuf Jan Böhmermann einen eigenwilligen Mix aus Backpfeifen-Comedy und Guerilla-Investigation. Doch zuletzt bekam er seinen sich selbst gesetzten politischen Auftrag nicht mehr scharf gestellt.",
+      "image": "https://cdn.prod.www.spiegel.de/images/eca025e2-5ace-4bc5-b54d-901f71d702a4_w1200_r1.778_fpx38_fpy60.jpg",
+      "published": "2026-09-18T23:05:00+02:00",
       "category": "Nachrichten",
-      "score": 66.18
-    },
-    {
-      "id": "deutschlandfunk-0cec71ef171f5467",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "USA - Kalifornien prüft \"Notschalter\" für Künstliche Intelligenz",
-      "link": "https://www.deutschlandfunk.de/kalifornien-prueft-notschalter-fuer-kuenstliche-intelligenz-100.html",
-      "summary": "In den USA macht Kaliforniens Gouverneur Newsom einen Vorstoß zur Regulierung von Künstlicher Intelligenz.",
-      "image": "https://bilder.deutschlandfunk.de/7a/ba/2e/d1/7aba2ed1-0858-4f8a-96e4-28dea3a125e3/gavin-newsom-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Technologie",
-      "score": 58.18
-    },
-    {
-      "id": "deutschlandfunk-4159d43d2fa8592a",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Interview der Woche - Bolton: \"Beziehungen zu NATO-Verbündeten sind beschädigt, aber reparabel\"",
-      "link": "https://www.deutschlandfunk.de/bolton-beziehungen-zu-nato-verbuendeten-sind-beschaedigt-aber-reparabel-100.html",
-      "summary": "US-Präsident Trump hat nach Ansicht des ehemaligen Nationalen Sicherheitsberaters der US-Regierung, Bolton, den Beziehungen zu den NATO-Partnern enormen Schaden zugefügt. Er halte das Verhältnis aber für \"reparabel\", sagte Bolton im Interview der Woche des Deutschlandfunks.",
-      "image": "https://bilder.deutschlandfunk.de/FI/LE/_2/35/FILE_23505e77daf55fab97d53af7c045c963/133185634-jpg-100-768x768.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Politik",
-      "score": 69.18
-    },
-    {
-      "id": "deutschlandfunk-c18356a95b266db5",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Volkswagen - Konzern kappt Gewinnerwartung für 2026 deutlich",
-      "link": "https://www.deutschlandfunk.de/konzern-kappt-gewinnerwartung-fuer-2026-deutlich-100.html",
-      "summary": "Volkswagen hat seine Gewinnprognose für das laufende Geschäftsjahr deutlich gesenkt.",
-      "image": "https://bilder.deutschlandfunk.de/b4/2f/dc/44/b42fdc44-d88d-4f89-a711-3221e695eadf/vw-logo-2-d-autohersteller-volkswagen-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Nachrichten",
-      "score": 66.18
-    },
-    {
-      "id": "deutschlandfunk-3ec3b08763e6f3e3",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Energiepreise - Frankreichs Präsident Macron will G7-Treffen einberufen",
-      "link": "https://www.deutschlandfunk.de/frankreichs-praesident-macron-will-g7-treffen-einberufen-100.html",
-      "summary": "Angesichts der gestiegenen Energiepreise will Frankreich nach einer gemeinsamen Antwort im Kreis führender demokratischer Wirtschaftsmächte suchen. Präsident Macron kündigte in Paris an, er werde dafür ein G7-Treffen einberufen.",
-      "image": "https://bilder.deutschlandfunk.de/c6/f5/8d/7a/c6f58d7a-5fde-42ac-a2dc-500240ca537f/macron-frankreich-president-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Wirtschaft",
-      "score": 69.18,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Energiepreise: Frankreich will G7-Treffen wegen hoher Energiepreise einberufen",
-            "link": "https://www.handelsblatt.com/politik/international/energiepreise-frankreich-will-g7-treffen-einberufen/100255698.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-f432023a115d1770",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Wegen Huthi-Bedrohung - Italiens Marine sichert Frachtschiff bei Fahrt durch Meerenge Bab al-Mandab",
-      "link": "https://www.deutschlandfunk.de/italiens-marine-sichert-frachtschiff-bei-fahrt-durch-meerenge-bab-al-mandab-100.html",
-      "summary": "Die italienische Marine hat ein Handelsschiff durch die Meerenge Bab al-Mandab eskortiert.",
-      "image": "https://bilder.deutschlandfunk.de/ce/a3/16/23/cea31623-77cc-4b6c-9ada-221764f6ee75/tanker-102-768x768.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Nachrichten",
-      "score": 58.18
-    },
-    {
-      "id": "deutschlandfunk-983f0663ba8ec301",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Fußball-Bundesliga - Bayern München schlägt Union Berlin mit 7:0",
-      "link": "https://www.deutschlandfunk.de/bayern-muenchen-schlaegt-union-berlin-mit-7-100.html",
-      "summary": "Bayern München hat das Freitagsspiel in der Fußball-Bundesliga gewonnen.",
-      "image": "https://bilder.deutschlandfunk.de/7e/a4/41/8b/7ea4418b-ac5d-40d6-994b-cc049bcc4d02/bundesliga-bayern-union-berlin-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Nachrichten",
-      "score": 58.18
-    },
-    {
-      "id": "deutschlandfunk-864aad39dd4aa832",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Ehemaliger UCK-Anführer - Erneut Proteste im Kosovo nach Verurteilung von Ex-Präsident Thaci",
-      "link": "https://www.deutschlandfunk.de/erneut-proteste-im-kosovo-nach-verurteilung-von-ex-praesident-thaci-100.html",
-      "summary": "Tausende Menschen haben im Kosovo erneut gegen die Verurteilung des früheren Präsidenten Thaci wegen Kriegsverbrechen protestiert.",
-      "image": "https://bilder.deutschlandfunk.de/71/fb/08/3c/71fb083c-b8e5-46d0-8e26-386341a794c1/kosovo-thaci-proteste-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Nachrichten",
-      "score": 66.18
-    },
-    {
-      "id": "deutschlandfunk-0bda69d4f0af2aaf",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Russland - EU-Kommission kritisiert Parlamentswahl scharf - Auswärtiges Amt spricht von Inszenierung",
-      "link": "https://www.deutschlandfunk.de/eu-kommission-kritisiert-parlamentswahl-scharf-auswaertiges-amt-spricht-von-inszenierung-100.html",
-      "summary": "Die Europäische Kommission hat die laufende Parlamentswahl in Russland als undemokratisch kritisiert. Ein Sprecher erklärte in Brüssel, die russischen Behörden hätten die systematische Unterdrückung weiter verstärkt, um jede Opposition auszuschließen.",
-      "image": "https://bilder.deutschlandfunk.de/f2/c8/36/b0/f2c836b0-2ee8-4c1a-b1d4-5ffb1c86bed4/duma-wahl-russland-102-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Politik",
-      "score": 69.18
-    },
-    {
-      "id": "deutschlandfunk-cffbcf501d8a19aa",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "C8-Gipfel - Selenskyj lanciert ersten Gipfel der Karpaten-Länder",
-      "link": "https://www.deutschlandfunk.de/selenskyj-lanciert-ersten-gipfel-der-karpaten-laender-100.html",
-      "summary": "Auf einem Gipfel der acht Karpaten-Länder hat der ukrainische Präsident Selenskyj für eine engere Zusammenarbeit mit den EU-Staaten geworben.",
-      "image": "https://bilder.deutschlandfunk.de/18/22/cc/02/1822cc02-ed3f-472e-8a96-eed2d3b893b2/ukraine-selenskyj-praesident-kiew-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Nachrichten",
-      "score": 58.18
-    },
-    {
-      "id": "deutschlandfunk-68fdcb7c179b507a",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Karibik - Kuba erneut von landesweitem Stromausfall getroffen",
-      "link": "https://www.deutschlandfunk.de/kuba-erneut-von-landesweitem-stromausfall-getroffen-104.html",
-      "summary": "In Kuba ist erneut landesweit der Strom ausgefallen.",
-      "image": "https://bilder.deutschlandfunk.de/19/54/41/5e/1954415e-b1b2-46d1-a27d-d06be6d9908b/kuba-stromausfall-energieversorger-stromnetz-technik-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Nachrichten",
-      "score": 58.18
-    },
-    {
-      "id": "deutschlandfunk-1bdd64fc78ee7d3b",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Drohnenfund in Wunstorf - Bundesanwaltschaft prüft Verbindung zu Leipzig",
-      "link": "https://www.deutschlandfunk.de/bundesanwaltschaft-prueft-verbindung-zu-leipzig-100.html",
-      "summary": "Nach dem Fund von Drohnenteilen nahe dem Bundeswehr-Fliegerhorst Wunstorf in Niedersachsen prüft die Bundesanwaltschaft einen möglichen Zusammenhang mit dem Vorfall am Flughafen Leipzig.",
-      "image": "https://bilder.deutschlandfunk.de/f3/d0/9d/b8/f3d09db8-2bdf-4a62-8b37-1cb10ced417e/drohne-138-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Nachrichten",
-      "score": 66.18
-    },
-    {
-      "id": "deutschlandfunk-3eb1a922c0446256",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Vor jüdischem Feiertag - Brandanschlag auf Wuppertaler Synagoge: Tatverdächtiger in Untersuchungshaft",
-      "link": "https://www.deutschlandfunk.de/brandanschlag-auf-wuppertaler-synagoge-tatverdaechtiger-in-untersuchungshaft-100.html",
-      "summary": "Nach dem Brandanschlag auf die Wuppertaler Synagoge ist der Tatverdächtige in Untersuchungshaft.",
-      "image": "https://bilder.deutschlandfunk.de/fc/c8/6f/ca/fcc86fca-e5c8-44c2-9d1e-170bd9445a3c/wuppertal-synagoge-brandanschlag-100-1280x1280.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Nachrichten",
-      "score": 71.86
-    },
-    {
-      "id": "deutschlandfunk-acd326df3dce5e9b",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Nach Parlamentswahl - Schwedische Sozialdemokraten erklären Bereitschaft zur Regierungsbildung",
-      "link": "https://www.deutschlandfunk.de/schwedische-sozialdemokraten-erklaeren-bereitschaft-zur-regierungsbildung-104.html",
-      "summary": "Nach dem Wahlsieg des Mitte-links-Lagers in Schweden hat sich Spitzenkandidatin Andersson zur Bildung einer Regierung bereiterklärt.",
-      "image": "https://bilder.deutschlandfunk.de/e7/6f/8e/3e/e76f8e3e-147b-4190-9bbf-a77d2d8c66e6/schweden-sozialdemokraten-102-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Politik",
-      "score": 78.18
-    },
-    {
-      "id": "deutschlandfunk-bbbb636d5e93630e",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Partnerschaft mit Kanada - Klingbeil: Assoziierte EU-Mitgliedschaft jetzt schnell angehen",
-      "link": "https://www.deutschlandfunk.de/klingbeil-assoziierte-eu-mitgliedschaft-jetzt-schnell-angehen-100.html",
-      "summary": "Bundesfinanzminister Klingbeil hat den Vorschlag einer assoziierten EU-Mitgliedschaft für Kanada begrüßt. Das Thema einer engen Partnerschaft solle jetzt zügig angegangen werden, forderte der SPD-Politiker in Dublin, wo er heute mit seinen EU-Kollegen Gespräche führt.",
-      "image": "https://bilder.deutschlandfunk.de/FI/LE/_4/74/FILE_4746aa1d174ee44a8ba01e3686198605/47447992-jpg-102-512x512.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Politik",
-      "score": 67.18
-    },
-    {
-      "id": "deutschlandfunk-d264843f79285286",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Berichte der BBC - 37 Inhaftierte in nigerianischer Gefängniszelle ums Leben gekommen",
-      "link": "https://www.deutschlandfunk.de/37-inhaftierte-in-nigerianischer-gefaengniszelle-ums-leben-gekommen-100.html",
-      "summary": "In Nigeria sind in einer Gefängniszelle 37 Inhaftierte ums Leben gekommen.",
-      "image": "https://bilder.deutschlandfunk.de/53/02/55/3d/5302553d-713a-4782-b1e4-41c9d8d1ba5b/flagge-nigeria-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Nachrichten",
-      "score": 58.18
-    },
-    {
-      "id": "deutschlandfunk-9c85468e7fa56715",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "\"ZDF Magazin Royale\" - Satire-Sendung mit Jan Böhmermann läuft zum Jahresende aus - Gespräche über neues Format",
-      "link": "https://www.deutschlandfunk.de/satire-sendung-mit-jan-boehmermann-laeuft-zum-jahresende-aus-gespraeche-ueber-neues-format-102.html",
-      "summary": "Der Satiriker Jan Böhmermann beendet zum Jahresende sein \"ZDF Magazin Royale\". Das ZDF teilte mit, die Sendung werde nach mehr als sechs Jahren und 187 Ausgaben in ihrer bisherigen Form eingestellt. Zugleich laufen nach Angaben des Senders Gespräche mit Böhmermann über ein mögliches neues Show-Konzept.",
-      "image": "https://bilder.deutschlandfunk.de/FI/LE/_7/15/FILE_715ebee7a3523465725ec357e8e09511/77503-2-20-jpg-100-768x768.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Nachrichten",
-      "score": 58.18
-    },
-    {
-      "id": "deutschlandfunk-7713f875f784c4ad",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Auszeichnung - Körber-Preis für Zellbiologin Wickström",
-      "link": "https://www.deutschlandfunk.de/koerber-preis-fuer-zellbiologin-wickstroem-104.html",
-      "summary": "Die finnische Medizinerin und Zellbiologin Sara Wickström ist mit dem Körber-Preis für die Europäische Wissenschaft 2026 ausgezeichnet worden. Sie erhielt den mit einer Million Euro dotierten Preis für die Entdeckung eines bislang unbekannten Mechanismus, mit dem Zellen ihre Umgebung wahrnehmen.",
-      "image": "https://bilder.deutschlandfunk.de/06/31/67/9f/0631679f-3f38-4e62-821c-a8cce9e6c071/sara-wickstroem-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Wissenschaft",
-      "score": 67.18
-    },
-    {
-      "id": "deutschlandfunk-41b5b18803ac4ea5",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Russland - Regisseur Andrei Swjaginzew zum feindlichen Agenten erklärt",
-      "link": "https://www.deutschlandfunk.de/regisseur-andrei-swjaginzew-zum-feindlichen-agenten-erklaert-100.html",
-      "summary": "In Russland ist Regisseur Andrei Swjaginzew zum feindlichen Agenten erklärt worden.",
-      "image": "https://bilder.deutschlandfunk.de/e3/fb/5c/e7/e3fb5ce7-bfbc-43da-8984-833abef31c89/andrei-swjaginzew-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Nachrichten",
-      "score": 66.18
-    },
-    {
-      "id": "deutschlandfunk-592d1b4d327f6b47",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Holocaust-Überlebende - Gymnasium in Berlin nach Margot Friedländer benannt",
-      "link": "https://www.deutschlandfunk.de/gymnasium-in-berlin-nach-margot-friedlaender-benannt-102.html",
-      "summary": "Im Berliner Bezirk Spandau ist ein Gymnasium nach der Holocaust-Überlebenden Margot Friedländer benannt worden. Die Umbenennung wurde mit einem Festakt gefeiert. Friedländer war im vergangenen Jahr im Alter von 103 Jahren gestorben.",
-      "image": "https://bilder.deutschlandfunk.de/68/28/01/de/682801de-f52c-48ae-829a-5d924f3bf8d9/margot-friedlaender-gymnasium-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Nachrichten",
-      "score": 58.18
-    },
-    {
-      "id": "deutschlandfunk-6be3938c5cb23d2b",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Konjunkturprognose - BDI rechnet mit größerem Wirtschaftswachstum",
-      "link": "https://www.deutschlandfunk.de/bdi-rechnet-mit-groesserem-wirtschaftswachstum-100.html",
-      "summary": "Der Bundesverband der Deutschen Industrie hat seine Konjunkturprognose für das laufende Jahr deutlich angehoben.",
-      "image": "https://bilder.deutschlandfunk.de/da/00/a5/f2/da00a5f2-76bc-4b60-b97d-b48ec81aaa9d/tanja-goenner-hauptgeschaeftsfuehrerin-bundesverband-deutsche-industrie-bdi-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Wirtschaft",
-      "score": 61.18
-    },
-    {
-      "id": "deutschlandfunk-932ce8666abaa9cb",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "USA - ICE: Rekord im August bei Festnahmen von Ausländern ohne gültige Dokumente",
-      "link": "https://www.deutschlandfunk.de/ice-rekord-im-august-bei-festnahmen-von-auslaendern-ohne-gueltige-dokumente-100.html",
-      "summary": "Die US-Einwanderungsbehörde ICE hat im August nach eigenen Angaben mehr Menschen festgenommen als je zuvor.",
-      "image": "https://bilder.deutschlandfunk.de/FI/LE/_5/14/FILE_5140f226046ed685783b8ddc751d5588/festnahmen-bei-us-ra-52465772-jpg-100-768x768.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Nachrichten",
-      "score": 58.18
-    },
-    {
-      "id": "deutschlandfunk-a81b629bf4050b84",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Verteidigungsministerium - Bundeswehr legt bei Personalstärke planmäßig zu",
-      "link": "https://www.deutschlandfunk.de/bundeswehr-legt-bei-personalstaerke-planmaessig-zu-100.html",
-      "summary": "Die Bundeswehr liegt beim personellen Aufwuchs ihren Angaben zufolge im Plan.",
-      "image": "https://bilder.deutschlandfunk.de/ef/2f/10/57/ef2f1057-8014-4410-a3d2-ee8dc63b230f/bundeswehr-178-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Politik",
-      "score": 61.18
-    },
-    {
-      "id": "deutschlandfunk-a3854c352790abf3",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Fußball - DFB-Bundestag beschließt Ausgliederung der Frauen-Bundesliga",
-      "link": "https://www.deutschlandfunk.de/dfb-bundestag-beschliesst-ausgliederung-der-frauen-bundesliga-102.html",
-      "summary": "Die Frauen-Bundesliga wird ab der kommenden Saison nicht mehr vom Deutschen Fußball-Bund organisiert. Das wurde auf einem außerordentlichen DFB-Bundestag beschlossen. Stattdessen wird der bereits gegründete Ligaverband FBL alleinverantwortlich sein.",
-      "image": "https://bilder.deutschlandfunk.de/d9/6e/0b/4d/d96e0b4d-7ef0-4a79-9ce0-92526a3fb26c/gwinn-oberdorf-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Politik",
-      "score": 69.18
-    },
-    {
-      "id": "deutschlandfunk-1d1d6a3d8a32997e",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Terrorismus - Mindestens 20 Tote bei Anschlag in Pakistan",
-      "link": "https://www.deutschlandfunk.de/mindestens-20-tote-bei-anschlag-in-pakistan-100.html",
-      "summary": "In Pakistan sind bei einem Bombenanschlag mindestens 20 Menschen getötet worden.",
-      "image": "https://bilder.deutschlandfunk.de/e1/35/07/24/e1350724-15b6-4872-a814-5e45b3b50241/pakistan-anschlag-bombe-islamabad-schiiten-gemeindehaus-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Technologie",
-      "score": 71.86
-    },
-    {
-      "id": "deutschlandfunk-8b875ca66c9d8cff",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Ukrainekrieg - Polens Ministerpräsident Tusk rechnet mit russischer Eskalation - auch Unterstützer der Ukraine betroffen",
-      "link": "https://www.deutschlandfunk.de/polens-ministerpraesident-tusk-rechnet-mit-russischer-eskalation-auch-unterstuetzer-der-ukraine-betr-104.html",
-      "summary": "Der polnische Ministerpräsident Tusk rechnet für die kommenden Wochen mit einer weiteren Verstärkung der russischen Angriffe auf die Ukraine.",
-      "image": "https://bilder.deutschlandfunk.de/NO/VA/_7/1c/NOVA_71c9755db43fce07813e90f63b264113/craft-12951841-asset-100-1280x1280.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Politik",
-      "score": 77.18
-    },
-    {
-      "id": "deutschlandfunk-d6745f4578c6c317",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Folge des Iran-Kriegs - Frachtraten von China in die USA gestiegen",
-      "link": "https://www.deutschlandfunk.de/frachtraten-von-china-in-die-usa-gestiegen-100.html",
-      "summary": "Die Kosten für den Transport von Seefracht zwischen China und der US-Ostküste sind infolge des Iran-Kriegs deutlich gestiegen. Einen Seecontainer zu verschicken, kostet derzeit viermal so viel wie vor Beginn des Konflikts.",
-      "image": null,
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Nachrichten",
-      "score": 74.18,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "+++ Iran-Krieg +++: Italien geleitet Handelsschiff mit Fregatte durch Meerenge ins Rote Meer",
-            "link": "https://www.handelsblatt.com/politik/international/iran-krieg-italien-geleitet-handelsschiff-mit-fregatte-durch-meerenge-ins-rote-meer/100136895.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-ba7ae94246461436",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Einwanderung - Linken-Politikerin Wissler kritisiert Aktionsplan gegen Sozialbetrug",
-      "link": "https://www.deutschlandfunk.de/linken-politikerin-wissler-kritisiert-aktionsplan-gegen-sozialbetrug-100.html",
-      "summary": "Die Linken-Politikerin Wissler hat den Aktionsplan der Bundesregierung gegen Sozialbetrug als \"nicht zielgerichtet\" kritisiert. Die stellvertretende Fraktionsvorsitzende der Partei sagte, die vorgestellten Maßnahmen gingen am eigentlichen Problem vorbei.",
-      "image": "https://bilder.deutschlandfunk.de/11/d9/6e/ab/11d96eab-d1c7-48bd-b83a-cdd2f13e9d47/janine-wissler-die-linke-bundestag-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Politik",
-      "score": 61.18
-    },
-    {
-      "id": "deutschlandfunk-1b22c4b6f41c35d0",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Aufwärtstrend - Auch im Juli mehr Baugenehmigungen erteilt",
-      "link": "https://www.deutschlandfunk.de/auch-im-juli-mehr-baugenehmigungen-erteilt-100.html",
-      "summary": "Der Aufwärtstrend im Wohnungsbau hält an, hat sich aber wegen höherer Bauzinsen abgeschwächt.",
-      "image": "https://bilder.deutschlandfunk.de/70/7c/ab/b7/707cabb7-4fa6-4281-bc79-c8583a056695/neubau-bauland-rohbau-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Nachrichten",
-      "score": 58.18
-    },
-    {
-      "id": "deutschlandfunk-73a78755339a3791",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Wirtschaft - Nestlé prüft Maßnahmen gegen russische Zwangsverwaltung",
-      "link": "https://www.deutschlandfunk.de/nestl-prueft-massnahmen-gegen-russische-zwangsverwaltung-102.html",
-      "summary": "Der Lebensmittelkonzern Nestlé prüft rechtliche Schritte gegen die von Russlands Präsident Putin angeordnete Zwangsverwaltung der russischen Tochtergesellschaft.",
-      "image": "https://bilder.deutschlandfunk.de/ed/1f/a0/a7/ed1fa0a7-f488-4ddf-b31a-6ea7b249910c/nestle-stellenstreichung-nahrungsmittelkonzern-schweiz-vevey-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Wirtschaft",
-      "score": 86.18
-    },
-    {
-      "id": "deutschlandfunk-1de879aefeaae148",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Dänemark - CO2-Speicher im Meeresboden in Betrieb",
-      "link": "https://www.deutschlandfunk.de/co2-speicher-im-meeresboden-in-betrieb-100.html",
-      "summary": "In Dänemark ist ein CO2-Speicher unter der Nordsee offiziell in Betrieb gegangen. Beim sogenannten \"Project Greensand\" wird klimaschädliches Kohlenstoffdioxid dauerhaft eingelagert, damit es nicht in die Atmosphäre gelangt und den Klimawandel weiter vorantreibt.",
-      "image": "https://bilder.deutschlandfunk.de/65/4f/43/a1/654f43a1-1f12-419c-8f92-06397fb502e6/daenemark-nordsee-oelplattform-co2-speicher-project-greensand-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Nachrichten",
-      "score": 67.18
-    },
-    {
-      "id": "deutschlandfunk-ed601c3421c38fc2",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Japan - Notenbank erhöht Leitzins auf höchsten Stand seit 31 Jahren",
-      "link": "https://www.deutschlandfunk.de/notenbank-erhoeht-leitzins-auf-hoechsten-stand-seit-31-jahren-100.html",
-      "summary": "Die japanische Zentralbank hat ihren Leitzins auf den höchsten Stand seit 31 Jahren angehoben.",
-      "image": "https://bilder.deutschlandfunk.de/91/ba/f5/b7/91baf5b7-1728-4b71-8293-38f04b3f17df/japan-zentralbank-leitzins-senkung-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Nachrichten",
-      "score": 58.18
-    },
-    {
-      "id": "deutschlandfunk-4244dc5333c5ecbd",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Weißes Haus - USA weisen UNO-Bericht über mögliche Kriegsverbrechen im Iran zurück",
-      "link": "https://www.deutschlandfunk.de/usa-weisen-uno-bericht-ueber-moegliche-kriegsverbrechen-im-iran-zurueck-102.html",
-      "summary": "Die US-Regierung hat den Bericht einer Untersuchungskommission des UNO-Menschenrechtsrates zu möglichen Kriegsverbrechen des US-Militärs im Iran zurückgewiesen.",
-      "image": "https://bilder.deutschlandfunk.de/1b/ee/43/9f/1bee439f-a69e-48be-a56e-912d2a3a1a4a/usa-weisses-haus-regierung-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Politik",
-      "score": 69.18
-    },
-    {
-      "id": "deutschlandfunk-2bb1211eb160611a",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Vereinte Nationen - Verteidigungsminister Pistorius: UNO-Friedenssicherung bleibt zentrale Aufgabe",
-      "link": "https://www.deutschlandfunk.de/verteidigungsminister-pistorius-uno-friedenssicherung-bleibt-zentrale-aufgabe-112.html",
-      "summary": "Deutschland ist laut Verteidigungsminister Pistorius auch nach dem Ende des UNO-Einsatzes im Libanon zu weiteren Friedensmissionen bereit. Peacekeeping müsse eine zentrale Aufgabe von allen Ländern dieser Welt bleiben, sagte Pistorius nach einem Gespräch mit UNO-Generalsekretär Guterres in New York.",
-      "image": "https://bilder.deutschlandfunk.de/72/bd/43/1f/72bd431f-3a44-47cd-920d-f3ef083f10b0/pistorius-new-york-uno-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Politik",
-      "score": 61.18
-    },
-    {
-      "id": "deutschlandfunk-37d6603b86db3a8a",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Abschiebehaft bei Überschreitung - Australien verschärft Einwanderungsregeln",
-      "link": "https://www.deutschlandfunk.de/australien-verschaerft-einwanderungsregeln-100.html",
-      "summary": "Australien verschärft seine Visa-Bestimmungen.",
-      "image": "https://bilder.deutschlandfunk.de/FI/LE/_3/25/FILE_3257f85ec575dd1fdede883f482fa1ed/imago74301771h-jpg-100-768x768.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Nachrichten",
-      "score": 58.18
-    },
-    {
-      "id": "deutschlandfunk-916ca619b55d9244",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Berlin - Bundeskanzler Merz ruft zum Kampf gegen Antisemitismus auf",
-      "link": "https://www.deutschlandfunk.de/bundeskanzler-merz-ruft-zum-kampf-gegen-antisemitismus-auf-106.html",
-      "summary": "Bundeskanzler Merz hat zum Kampf gegen Antisemitismus aufgerufen.",
-      "image": "https://bilder.deutschlandfunk.de/11/d0/ad/be/11d0adbe-9d54-48ac-a524-35ec8a9deaa4/616991770-100-1280x1280.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Nachrichten",
-      "score": 58.18
-    },
-    {
-      "id": "deutschlandfunk-5b7438e37e2438b1",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Studie - Impfquote bei Kindern sinkt in EU-Ländern - Rückgang seit der Corona-Pandemie",
-      "link": "https://www.deutschlandfunk.de/impfquote-bei-kindern-sinkt-in-eu-laendern-rueckgang-seit-der-corona-pandemie-100.html",
-      "summary": "In vielen EU-Ländern sinken die Impfquoten bei Kindern. Von dieser Entwicklung ist laut einer neuen Studie auch Deutschland betroffen. Demnach begann der Rückgang während der Corona-Pandemie.",
-      "image": "https://bilder.deutschlandfunk.de/d3/c7/ee/7d/d3c7ee7d-196d-403f-93c6-30915ee2f28c/masern-impfpflicht-mumps-roeteln-impfung-nachweis-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Technologie",
-      "score": 83.18
-    },
-    {
-      "id": "deutschlandfunk-19ad802f22c99a0d",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Analyse - UN Women: Geschlechter-Gleichstellung in allen Lebensbereichen könnte noch 171 Jahren dauern",
-      "link": "https://www.deutschlandfunk.de/un-women-geschlechter-gleichstellung-in-allen-lebensbereichen-koennte-noch-171-jahren-dauern-100.html",
-      "summary": "Die Vereinten Nationen zeichnen mit Blick auf die angestrebte Gleichstellung der Geschlechter ein pessimistisches Bild.",
-      "image": "https://bilder.deutschlandfunk.de/FI/LE/_c/0c/FILE_c0c562bee587c3f756829aac3a7573ea/gettyimages-1128237620-jpg-100-768x768.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Nachrichten",
-      "score": 58.18
-    },
-    {
-      "id": "deutschlandfunk-d5e7d34cdfdeec34",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Künstliche Intelligenz - Ökonomen warnen: Europa ist auf rasante KI-Entwicklung nicht vorbereitet",
-      "link": "https://www.deutschlandfunk.de/oekonomen-warnen-europa-ist-auf-rasante-ki-entwicklung-nicht-vorbereitet-104.html",
-      "summary": "Für einen Übergang in ein Zeitalter mit Künstlicher Intelligenz und tiefgreifenden Folgen für Gesellschaft und Wirtschaft haben Ökonomen von politischen Entscheidern mehr Mut gefordert.",
-      "image": "https://bilder.deutschlandfunk.de/39/36/ce/45/3936ce45-1994-4ed0-9030-99531bfb4db6/gefahr-kuenstliche-intelligenz-symbolbild-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Technologie",
-      "score": 58.18
-    },
-    {
-      "id": "deutschlandfunk-8fe0c85f66c95d0e",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Umweltschutz - Neue Anlage soll Ost- und Nordsee von Altmunition befreien",
-      "link": "https://www.deutschlandfunk.de/neue-anlage-soll-ost-und-nordsee-von-altmunition-befreien-106.html",
-      "summary": "Das Bundesumweltministerium hat den Bau einer mobilen Anlage zur Entsorgung von Altmunition in Nord- und Ostsee in Auftrag gegeben.",
-      "image": "https://bilder.deutschlandfunk.de/f6/f0/ea/4b/f6f0ea4b-2571-4db7-afc0-ea0ea457540f/altmunition-ostsee-nordsee-100-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Politik",
-      "score": 61.18
-    },
-    {
-      "id": "deutschlandfunk-dd828555b6d56458",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Europa League - Hoffenheim verliert zum Auftakt gegen Kreta",
-      "link": "https://www.deutschlandfunk.de/hoffenheim-verliert-zum-auftakt-gegen-kreta-110.html",
-      "summary": "Fußball-Bundesligist TSG Hoffenheim ist mit einer Niederlage in die Europa-League-Saison gestartet.",
-      "image": "https://bilder.deutschlandfunk.de/65/b1/b4/de/65b1b4de-b3c3-4dbc-ab61-02b334d67345/fussball-150-1920x1920.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Nachrichten",
-      "score": 58.18
-    },
-    {
-      "id": "deutschlandfunk-51b7e585a36c0832",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Wetter - In der Nacht nur im Norden örtlich Schauer - 13 bis 5 Grad",
-      "link": "https://www.deutschlandfunk.de/in-der-nacht-nur-im-norden-oertlich-schauer-13-bis-5-grad-100.html",
-      "summary": "",
-      "image": "https://bilder.deutschlandfunk.de/e5/f6/55/84/e5f65584-6dc2-4dce-979d-729a024cd599/wetter-grafik-nachrichten-100-768x768.jpg",
-      "published": "2026-09-18T23:00:08+02:00",
-      "category": "Nachrichten",
-      "score": 58.18
+      "score": 57.67
     },
     {
       "id": "spiegel-59cfd1b6bbdc2b1b",
@@ -652,7 +419,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/58b9e6cb-886f-4c5e-a14d-665d743b4d6e_w1200_r1.778_fpx52_fpy50.jpg",
       "published": "2026-09-18T22:57:00+02:00",
       "category": "Wirtschaft",
-      "score": 77.13,
+      "score": 76.55,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -665,6 +432,30 @@
       }
     },
     {
+      "id": "handelsblatt-a55fa6e9b277e171",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Grönland: Dänemark und USA verkünden Durchbruch im Grönland-Streit",
+      "link": "https://www.handelsblatt.com/politik/international/groenland-daenemark-und-usa-verkuenden-durchbruch-im-groenland-streit/100255762.html",
+      "summary": "Präsident Trump sorgte mit seinen Ansprüchen auf Grönland für erhebliche Spannungen innerhalb der Nato. Nun soll es eine Einigung geben, die kommende Woche unterzeichnet werden soll.",
+      "image": "https://images.handelsblatt.com/PoTCqYmG2jD5/cover/900/506/0/0/156/157/0.5/0.5/06.02.2026-groenland-nuuk-das-amerikanische-konsulat-in-nuuk.-foto-christinne-muschi-the-canadian.jpg",
+      "published": "2026-09-18T22:35:37+00:00",
+      "category": "Politik",
+      "score": 71.6
+    },
+    {
+      "id": "handelsblatt-7509499043c51924",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Konflikte: Dänemark und USA verkünden Durchbruch im Grönland-Streit",
+      "link": "https://www.handelsblatt.com/politik/international/konflikte-daenemark-und-usa-verkuenden-durchbruch-im-groenland-streit/100255763.html",
+      "summary": "Präsident Trump sorgte mit seinen Ansprüchen auf Grönland für erhebliche Spannungen innerhalb der Nato. Nun soll es eine Einigung geben.",
+      "image": "https://images.handelsblatt.com/Wqa87ln77JUE/cover/900/506/0/0/107/107/0.5/0.5/groenland-konflikt-nuuk.jpg",
+      "published": "2026-09-18T22:26:57+00:00",
+      "category": "Politik",
+      "score": 68.8
+    },
+    {
       "id": "handelsblatt-230ee2cbdb5f9692",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
@@ -674,7 +465,7 @@
       "image": "https://images.handelsblatt.com/UBd47HVjTVQw/cover/900/506/0/0/107/106/0.5/0.5/oval-office.jpg",
       "published": "2026-09-18T21:42:32+00:00",
       "category": "Politik",
-      "score": 86.77
+      "score": 86.91
     },
     {
       "id": "handelsblatt-8fb578edd6a309b7",
@@ -686,7 +477,7 @@
       "image": "https://images.handelsblatt.com/4mYdG88yS5zP/cover/900/506/0/0/0/0/0.5/0.5/ulf-sommer.jpg",
       "published": "2026-09-18T21:29:04+00:00",
       "category": "Wirtschaft",
-      "score": 60.58
+      "score": 60.0
     },
     {
       "id": "spiegel-e926a0962bcf328d",
@@ -698,7 +489,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/a64e6417-763e-4432-9df9-004e2f8066fd_w1200_r1.778_fpx46.66_fpy49.99.jpg",
       "published": "2026-09-18T21:24:00+02:00",
       "category": "Politik",
-      "score": 86.77
+      "score": 86.91
     },
     {
       "id": "spiegel-3930b3d8a00e56c9",
@@ -710,7 +501,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/29f7d426-c4ac-453d-a1f4-08c3d50c3dcc_w1200_r1.778_fpx59_fpy46.jpg",
       "published": "2026-09-18T20:37:00+02:00",
       "category": "Politik",
-      "score": 67.19
+      "score": 66.61
     },
     {
       "id": "tagesschau-274725ac60f99864",
@@ -722,7 +513,27 @@
       "image": "https://images.tagesschau.de/image/4313dee0-3d2f-4a08-a462-af1aeb094185/AAABoLXIdgU/AAABnSSvrFg/16x9-big/pistorius-f35-100.jpg?width=1920",
       "published": "2026-09-18T20:30:08+02:00",
       "category": "Politik",
-      "score": 78.18
+      "score": 78.91,
+      "coverage": {
+        "sourceCount": 4,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "USA-Reise - Verteidigungsminister Pistorius nimmt in Texas bestellten F35-Kampfjet in Empfang",
+            "link": "https://www.deutschlandfunk.de/verteidigungsminister-pistorius-nimmt-in-texas-bestellten-f35-kampfjet-in-empfang-118.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "Bundeswehr: Boris Pistorius nimmt ersten F-35-Tarnkappenjet in den USA entgegen",
+            "link": "https://www.spiegel.de/politik/bundeswehr-boris-pistorius-nimmt-ersten-f-35-tarnkappenjet-in-den-usa-entgegen-a-11271c64-2199-4d09-9704-37dd9957d5a5#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Rüstungsprojekte: „Neue Ära“ für die Luftwaffe – Pistorius nimmt erste F-35 in Empfang",
+            "link": "https://www.handelsblatt.com/politik/international/ruestungsprojekte-pistorius-nimmt-erste-f-35-in-empfang/100255035.html"
+          }
+        ]
+      }
     },
     {
       "id": "spiegel-a9954799fc7d02bd",
@@ -734,7 +545,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/92844fd1-9c6e-429c-aef4-24f00838d7cb_w1200_r1.778_fpx56.65_fpy54.99.jpg",
       "published": "2026-09-18T20:13:00+02:00",
       "category": "Politik",
-      "score": 77.13
+      "score": 76.55
     },
     {
       "id": "handelsblatt-006974d7c12d8a1f",
@@ -746,19 +557,19 @@
       "image": "https://images.handelsblatt.com/nY2Z-QCs8Rt6/cover/900/506/0/0/313/312/0.5/0.5/german-chancellor-and-leader-of-germanyaposs-christian-democratic-union-cdu-friedrich-merz-atten.jpg",
       "published": "2026-09-18T20:01:37+00:00",
       "category": "Politik",
-      "score": 59.37
+      "score": 58.79
     },
     {
-      "id": "handelsblatt-1c3fc3b16eca9554",
+      "id": "handelsblatt-eb37e8c350f9d703",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "+++ USA +++: Trump verbietet CNN und anderen Medien Zugang zum Weißen Haus",
-      "link": "https://www.handelsblatt.com/politik/international/usa-trump-verbietet-cnn-und-anderen-medien-zugang-zum-weissen-haus/29669594.html",
-      "summary": "Demokraten wollen nach der Wahl gegen Trump-Familie vorgehen +++ US-Post stoppt Arbeit an umstrittenem Computersystem für Briefwahl +++ Trump zieht überraschend Toppersonalie zu ICE-Behörde zurück +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/2HfkDpzJvNv1/cover/900/506/0/0/287/288/0.5/0.5/presse-im-weissen-haus.jpg",
+      "title": "+++ USA +++: Dänemark und USA verkünden Durchbruch im Grönland-Streit",
+      "link": "https://www.handelsblatt.com/politik/international/usa-daenemark-und-usa-verkuenden-durchbruch-im-groenland-streit/29669594.html",
+      "summary": "Trump verbietet CNN und anderen Medien Zugang zum Weißen Haus +++ Demokraten wollen nach der Wahl gegen Trump-Familie vorgehen +++ US-Post stoppt Arbeit an umstrittenem Computersystem für Briefwahl +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/PoTCqYmG2jD5/cover/900/506/0/0/156/157/0.5/0.5/06.02.2026-groenland-nuuk-das-amerikanische-konsulat-in-nuuk.-foto-christinne-muschi-the-canadian.jpg",
       "published": "2026-09-18T19:46:00+00:00",
       "category": "Politik",
-      "score": 86.77
+      "score": 68.8
     },
     {
       "id": "handelsblatt-eaed1256568b6753",
@@ -770,7 +581,7 @@
       "image": "https://images.handelsblatt.com/0NVqFRt2VUry/cover/900/506/0/0/74/74/0.5/0.5/spritpreise.jpg",
       "published": "2026-09-18T19:44:08+00:00",
       "category": "Politik",
-      "score": 77.13
+      "score": 76.55
     },
     {
       "id": "tagesschau-2ad35c32335fa2e0",
@@ -782,7 +593,7 @@
       "image": "https://images.tagesschau.de/image/59d547e0-8c3a-4e4e-9e97-9ab13dd91059/AAABoLWc--o/AAABnSSvrFg/16x9-big/klingbeil-dublin-102.jpg?width=1920",
       "published": "2026-09-18T19:42:39+02:00",
       "category": "Politik",
-      "score": 59.44
+      "score": 58.86
     },
     {
       "id": "spiegel-9c1f3955d2699ceb",
@@ -794,7 +605,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/478800b9-9e2e-4947-942e-162f192ab6a8_w1200_r1.778_fpx37_fpy63.jpg",
       "published": "2026-09-18T19:37:00+02:00",
       "category": "Politik",
-      "score": 66.36
+      "score": 65.78
     },
     {
       "id": "spiegel-c9643b7a87361664",
@@ -806,7 +617,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/ae97a049-44c1-4f4f-97e4-74c5b04251aa_w1200_r1.778_fpx39.33_fpy44.98.jpg",
       "published": "2026-09-18T19:35:00+02:00",
       "category": "Wirtschaft",
-      "score": 66.18
+      "score": 66.91
     },
     {
       "id": "handelsblatt-4b4cde8cbef0e273",
@@ -818,7 +629,7 @@
       "image": "https://images.handelsblatt.com/uBqR9ZBui-Il/cover/900/506/0/0/313/312/0.5/0.5/dpatopbilder-11.09.2026-berlin-baerbel-bas-spd-bundesministerin-fuer-arbeit-und-soziales-sitzt.jpg",
       "published": "2026-09-18T19:24:51+00:00",
       "category": "Politik",
-      "score": 58.85
+      "score": 58.27
     },
     {
       "id": "spiegel-84dae286c5debb02",
@@ -830,7 +641,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/59080c87-c344-41d8-8764-3601c83d67d5_w1200_r1.778_fpx52_fpy52.jpg",
       "published": "2026-09-18T19:24:00+02:00",
       "category": "Politik",
-      "score": 66.18
+      "score": 65.6
     },
     {
       "id": "spiegel-834bf700af8f8e36",
@@ -842,7 +653,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/46e21862-6055-403a-bedc-2fcf963853ba_w1200_r1.778_fpx43.99_fpy49.98.jpg",
       "published": "2026-09-18T19:24:00+02:00",
       "category": "Politik",
-      "score": 66.18
+      "score": 66.91
     },
     {
       "id": "tagesschau-3212eb4e2dae3ffa",
@@ -854,7 +665,22 @@
       "image": "https://images.tagesschau.de/image/d17f3f48-22de-466d-b88d-a56971785032/AAABoLRJcM8/AAABnSSvrFg/16x9-big/krankenwagen-strasse-pakistan-100.jpg?width=1920",
       "published": "2026-09-18T19:22:37+02:00",
       "category": "Technologie",
-      "score": 71.86
+      "score": 72.59,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Terrorismus - Mindestens 20 Tote bei Anschlag in Pakistan",
+            "link": "https://www.deutschlandfunk.de/mindestens-20-tote-bei-anschlag-in-pakistan-104.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Koordinierte Attacke: Zahlreiche Tote bei Anschlag mit Autobombe in Pakistan",
+            "link": "https://www.handelsblatt.com/politik/international/koordinierte-attacke-zahlreiche-tote-bei-anschlag-mit-autobombe-in-pakistan/100255633.html"
+          }
+        ]
+      }
     },
     {
       "id": "handelsblatt-6d1555b65669be96",
@@ -866,7 +692,7 @@
       "image": "https://images.handelsblatt.com/Bp1aAR-Vmk0n/cover/900/506/0/0/0/580/0.5/0.5/spritpreise.jpg",
       "published": "2026-09-18T19:15:09+00:00",
       "category": "Politik",
-      "score": 58.72
+      "score": 58.14
     },
     {
       "id": "handelsblatt-6e038990c1adfeb4",
@@ -878,7 +704,7 @@
       "image": "https://images.handelsblatt.com/gr06p2q7OS0r/cover/900/506/0/0/107/106/0.5/0.5/tanken.jpg",
       "published": "2026-09-18T19:12:58+00:00",
       "category": "Wirtschaft",
-      "score": 58.69
+      "score": 58.11
     },
     {
       "id": "tagesschau-e245c3cfb7eb7405",
@@ -890,7 +716,7 @@
       "image": "https://images.tagesschau.de/image/6e11385c-fad5-4e5e-abc9-8cd49fe2bd5d/AAABoLT9OFI/AAABnSSvrFg/16x9-big/frederik-sir-jim-ratcliffe-100.jpg?width=1920",
       "published": "2026-09-18T19:03:15+02:00",
       "category": "Nachrichten",
-      "score": 67.18
+      "score": 55.31
     },
     {
       "id": "tagesschau-af28dcbee310b766",
@@ -902,7 +728,7 @@
       "image": "https://images.tagesschau.de/image/e2192bb9-edc3-4dad-b278-d6dc421161ed/AAABoLTjQzA/AAABnSSvrFg/16x9-big/leopardus-tilcayo-katze-100.jpg?width=1920",
       "published": "2026-09-18T19:02:36+02:00",
       "category": "Nachrichten",
-      "score": 55.88
+      "score": 55.3
     },
     {
       "id": "golem-7c2c7796d7cc5af7",
@@ -914,7 +740,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213229&amp;page=1&amp;ts=1789750802",
       "published": "2026-09-18T19:00:02+02:00",
       "category": "Politik",
-      "score": 55.84
+      "score": 55.26
     },
     {
       "id": "spiegel-aa42e62152d3a497",
@@ -926,7 +752,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/68a2768a-989e-4fc6-8a4c-8c847e233e67_w1200_r1.778_fpx63.15_fpy50.jpg",
       "published": "2026-09-18T18:57:00+02:00",
       "category": "Nachrichten",
-      "score": 54.8
+      "score": 54.22
     },
     {
       "id": "golem-d367b6a516127870",
@@ -938,7 +764,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213107&amp;page=1&amp;ts=1789749902",
       "published": "2026-09-18T18:45:02+02:00",
       "category": "Technologie",
-      "score": 52.64
+      "score": 52.05
     },
     {
       "id": "spiegel-b4cf0cdf8ffa5900",
@@ -950,7 +776,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/a252f792-60c4-4aca-998d-624b14e4e07f_w1200_r1.778_fpx40.65_fpy54.97.jpg",
       "published": "2026-09-18T18:45:00+02:00",
       "category": "Wirtschaft",
-      "score": 57.63
+      "score": 57.05
     },
     {
       "id": "spiegel-af1b2f2e21a35aea",
@@ -962,7 +788,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/1b7319f6-e02c-4717-8662-3ccb766f1fff_w1200_r1.778_fpx49.33_fpy50.jpg",
       "published": "2026-09-18T18:43:00+02:00",
       "category": "Nachrichten",
-      "score": 54.61
+      "score": 54.03
     },
     {
       "id": "handelsblatt-7d8a53cc818c3e18",
@@ -974,7 +800,7 @@
       "image": "https://images.handelsblatt.com/QNrChlJrlq-b/cover/900/506/0/0/372/145/0.5/0.5/texas.jpg",
       "published": "2026-09-18T18:36:45+00:00",
       "category": "Wirtschaft",
-      "score": 78.18
+      "score": 78.91
     },
     {
       "id": "spiegel-ed74441f11a79e60",
@@ -986,7 +812,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/c69b147a-7627-452f-872a-24ac4c559ca9_w1200_r1.778_fpx43.89_fpy49.87.jpg",
       "published": "2026-09-18T18:36:00+02:00",
       "category": "Nachrichten",
-      "score": 54.51
+      "score": 53.93
     },
     {
       "id": "tagesschau-feafbd718c50490d",
@@ -998,7 +824,7 @@
       "image": "https://images.tagesschau.de/image/06fceb1d-e1c1-45de-9503-e7630ff42dd7/AAABn1pW378/AAABnSSvrFg/16x9-big/boerse-528.jpg?width=1920",
       "published": "2026-09-18T18:25:06+02:00",
       "category": "Wirtschaft",
-      "score": 58.36
+      "score": 57.78
     },
     {
       "id": "handelsblatt-5d203a47e73fa989",
@@ -1010,7 +836,7 @@
       "image": "https://images.handelsblatt.com/sFctQ7nsNzNe/cover/900/506/0/0/107/106/0.5/0.5/volkswagen.jpg",
       "published": "2026-09-18T18:23:44+00:00",
       "category": "Wirtschaft",
-      "score": 66.01
+      "score": 65.43
     },
     {
       "id": "handelsblatt-c3c14fd92a929262",
@@ -1022,7 +848,7 @@
       "image": "https://images.handelsblatt.com/Na9R68nQZp5D/cover/900/506/0/0/107/106/0.5/0.5/uebergabe-des-ersten-kampfjets-vom-typ-f-35-fuer-deutschland.jpg",
       "published": "2026-09-18T18:23:30+00:00",
       "category": "Wirtschaft",
-      "score": 58.0
+      "score": 57.42
     },
     {
       "id": "tagesschau-740c5a619115bbce",
@@ -1034,7 +860,7 @@
       "image": "https://images.tagesschau.de/image/e5ab06b7-9449-49de-acf9-f504fd9659cf/AAABoLVSDfg/AAABnSSvrFg/16x9-big/brinker-106.jpg?width=1920",
       "published": "2026-09-18T18:20:49+02:00",
       "category": "Politik",
-      "score": 66.3
+      "score": 65.72
     },
     {
       "id": "handelsblatt-2a2077266cea1c4d",
@@ -1046,7 +872,7 @@
       "image": "https://images.handelsblatt.com/EOP50hebJ29q/cover/900/506/0/0/222/221/0.5/0.5/wie-ist-die-weitere-entwicklung-der-spritpreise-die-spritpreise-sind-weiterhin-auf-sehr-hohem-niveau.jpg",
       "published": "2026-09-18T18:16:33+00:00",
       "category": "Politik",
-      "score": 69.18
+      "score": 69.91
     },
     {
       "id": "spiegel-4e8156593f3392c7",
@@ -1058,7 +884,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/6e4ea503-4d20-4aec-b34e-e9696e76144b_w1200_r1.778_fpx38_fpy43.jpg",
       "published": "2026-09-18T18:14:00+02:00",
       "category": "Politik",
-      "score": 57.2
+      "score": 56.62
     },
     {
       "id": "golem-8403391cc80a2356",
@@ -1070,7 +896,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213186&amp;page=1&amp;ts=1789747201",
       "published": "2026-09-18T18:00:01+02:00",
       "category": "Technologie",
-      "score": 52.01
+      "score": 51.43
     },
     {
       "id": "golem-ff49f85df744a513",
@@ -1082,7 +908,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213224&amp;page=1&amp;ts=1789747022",
       "published": "2026-09-18T17:57:02+02:00",
       "category": "Technologie",
-      "score": 51.97
+      "score": 51.39
     },
     {
       "id": "handelsblatt-78b304d0a0a692ef",
@@ -1094,7 +920,7 @@
       "image": "https://images.handelsblatt.com/nQiFjtHU1eRo/cover/900/506/0/0/260/261/0.5/0.5/f-35-kampfjet.jpg",
       "published": "2026-09-18T17:49:33+00:00",
       "category": "Politik",
-      "score": 65.53
+      "score": 64.95
     },
     {
       "id": "spiegel-ccbf694074cf4016",
@@ -1106,7 +932,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/fe97592c-3187-4d64-a638-af1a667f76f8_w1200_r1.778_fpx44.69_fpy44.99.jpg",
       "published": "2026-09-18T17:49:00+02:00",
       "category": "Nachrichten",
-      "score": 58.25
+      "score": 66.91
     },
     {
       "id": "spiegel-2611eab4f6e6430b",
@@ -1118,7 +944,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/56d35ddf-57fa-4a13-9455-c48d85f1d672_w1200_r1.778_fpx29.98_fpy55.jpg",
       "published": "2026-09-18T17:44:00+02:00",
       "category": "Wissenschaft",
-      "score": 53.79
+      "score": 53.21
     },
     {
       "id": "spiegel-972d7291d4d55b0a",
@@ -1130,7 +956,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/c25b579f-3795-47d5-8e24-a2fe9bc99a49_w1200_r1.778_fpx64.29_fpy50.jpg",
       "published": "2026-09-18T17:42:00+02:00",
       "category": "Politik",
-      "score": 80.76
+      "score": 80.18
     },
     {
       "id": "handelsblatt-448c635a76e38163",
@@ -1142,7 +968,7 @@
       "image": "https://images.handelsblatt.com/NNkW4Unb2GZz/cover/900/506/0/0/0/570/0.5/0.5/afd-bargerfest-in-rostock-nur-faoer-redaktionelle-zwecke-editorial-use-only-leif-erik-holm.jpg",
       "published": "2026-09-18T17:33:30+00:00",
       "category": "Politik",
-      "score": 65.31
+      "score": 64.73
     },
     {
       "id": "handelsblatt-66e4a145fc5c38ca",
@@ -1154,7 +980,7 @@
       "image": "https://images.handelsblatt.com/hBxJ4Z940GE5/cover/900/506/0/0/0/617/0.5/0.5/lviv-ukraine-june-20-philanthropist-howard-graham-buffett-during-a-visit-to-a-superhumans-rehabi.jpg",
       "published": "2026-09-18T17:29:34+00:00",
       "category": "Wirtschaft",
-      "score": 64.25
+      "score": 63.67
     },
     {
       "id": "spiegel-dd6b5d1d4178989b",
@@ -1166,7 +992,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/0fb372c3-843d-4dc6-a445-e7c34c92f75c_w1200_r1.778_fpx28.09_fpy49.93.png",
       "published": "2026-09-18T17:28:00+02:00",
       "category": "Politik",
-      "score": 57.2
+      "score": 56.62
     },
     {
       "id": "tagesschau-621483daed17d493",
@@ -1178,7 +1004,7 @@
       "image": "https://images.tagesschau.de/image/5c7fc1f0-8cf2-4291-908f-202579674c95/AAABlpoPUss/AAABnSSvrFg/16x9-big/buffett-122.jpg?width=1920",
       "published": "2026-09-18T17:27:15+02:00",
       "category": "Nachrichten",
-      "score": 64.25
+      "score": 63.67
     },
     {
       "id": "handelsblatt-1e8d1200540b390f",
@@ -1190,7 +1016,7 @@
       "image": "https://images.handelsblatt.com/fDpZrDyOamnU/cover/900/506/292/253/724/210/0.5/0.5/volkswagen.jpg",
       "published": "2026-09-18T17:21:48+00:00",
       "category": "Wirtschaft",
-      "score": 65.15
+      "score": 64.57
     },
     {
       "id": "tagesschau-9d09cd3e9134d153",
@@ -1202,7 +1028,7 @@
       "image": "https://images.tagesschau.de/image/6accdc38-640f-476f-84b8-e44e0f74d195/AAABoLYpf9Q/AAABnSSvrFg/16x9-big/wdr-anschlag-auf-synagoge-in-wuppertal-video-tn-100.jpg?width=1920",
       "published": "2026-09-18T17:19:00+02:00",
       "category": "Nachrichten",
-      "score": 71.86
+      "score": 61.86
     },
     {
       "id": "spiegel-af76c0efadada758",
@@ -1214,7 +1040,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/c46b1cd3-e37e-4a70-8498-e2071446bad6_w1200_r1.778_fpx50.64_fpy52.99.jpg",
       "published": "2026-09-18T17:15:00+02:00",
       "category": "Technologie",
-      "score": 53.38
+      "score": 52.8
     },
     {
       "id": "spiegel-63f35db5ff8dfe39",
@@ -1226,7 +1052,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/e8468ace-f9de-46fe-88ea-7b1f04b8d755_w1200_r1.778_fpx63.28_fpy50.jpg",
       "published": "2026-09-18T17:09:00+02:00",
       "category": "Technologie",
-      "score": 53.3
+      "score": 52.72
     },
     {
       "id": "golem-2f2c733f940536bc",
@@ -1238,7 +1064,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213221&amp;page=1&amp;ts=1789743841",
       "published": "2026-09-18T17:04:01+02:00",
       "category": "Technologie",
-      "score": 51.23
+      "score": 50.65
     },
     {
       "id": "spiegel-5b3ea6e02eafdfa9",
@@ -1250,7 +1076,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/217a45be-4e9c-4033-bf1f-b75413aee0e9_w1200_r1.778_fpx51_fpy42.jpg",
       "published": "2026-09-18T17:02:00+02:00",
       "category": "Technologie",
-      "score": 53.2
+      "score": 52.62
     },
     {
       "id": "golem-a9eda10eadb448fb",
@@ -1262,7 +1088,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213222&amp;page=1&amp;ts=1789743601",
       "published": "2026-09-18T17:00:01+02:00",
       "category": "Technologie",
-      "score": 51.18
+      "score": 50.6
     },
     {
       "id": "spiegel-44a7658240a18405",
@@ -1274,7 +1100,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/8e1a6b32-7f53-4330-a319-1a379bc94b1d_w1200_r1.778_fpx39_fpy45.jpg",
       "published": "2026-09-18T16:58:00+02:00",
       "category": "Nachrichten",
-      "score": 53.15
+      "score": 52.57
     },
     {
       "id": "golem-03164de375a4183e",
@@ -1286,7 +1112,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213209&amp;page=1&amp;ts=1789742402",
       "published": "2026-09-18T16:40:02+02:00",
       "category": "Technologie",
-      "score": 50.9
+      "score": 50.32
     },
     {
       "id": "spiegel-72aab3888879e685",
@@ -1298,7 +1124,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/066eb3c3-20bb-4c2b-b94b-2ba977ff1362_w1200_r1.778_fpx49_fpy47.jpg",
       "published": "2026-09-18T16:33:00+02:00",
       "category": "Politik",
-      "score": 79.8
+      "score": 79.22
     },
     {
       "id": "spiegel-0ac2b3aaf0abc7f0",
@@ -1310,7 +1136,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/5c8121c2-33b0-4841-abad-38767c297836_w1200_r1.778_fpx36_fpy45.jpg",
       "published": "2026-09-18T16:30:00+02:00",
       "category": "Nachrichten",
-      "score": 52.76
+      "score": 52.18
     },
     {
       "id": "golem-575dd5539384ab07",
@@ -1322,7 +1148,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213220&amp;page=1&amp;ts=1789741741",
       "published": "2026-09-18T16:29:01+02:00",
       "category": "Technologie",
-      "score": 50.75
+      "score": 50.17
     },
     {
       "id": "tagesschau-1dcc3ee34443ec4d",
@@ -1334,7 +1160,7 @@
       "image": "https://images.tagesschau.de/image/ee022731-c572-4807-81d1-8bc398229afd/AAABoLTHe3Y/AAABnSSvrFg/16x9-big/holm-116.jpg?width=1920",
       "published": "2026-09-18T16:27:34+02:00",
       "category": "Politik",
-      "score": 64.73
+      "score": 64.15
     },
     {
       "id": "handelsblatt-24d8216d9b609728",
@@ -1346,7 +1172,7 @@
       "image": "https://images.handelsblatt.com/X2gWzL2YtxUF/cover/900/506/0/0/117/117/0.5/0.5/bundeskabinett.jpg",
       "published": "2026-09-18T16:26:59+00:00",
       "category": "Politik",
-      "score": 56.38
+      "score": 55.8
     },
     {
       "id": "spiegel-a6f41ec2ab3ba24b",
@@ -1358,7 +1184,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/3816160e-3c01-4878-bdfd-612aa6fdaf50_w1200_r1.778_fpx54_fpy45.jpg",
       "published": "2026-09-18T16:24:00+02:00",
       "category": "Nachrichten",
-      "score": 78.18
+      "score": 78.91
     },
     {
       "id": "heise-7d53293cf2bad4a0",
@@ -1370,7 +1196,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/7/8/5/6/one-ui-8_5-update-vignette-neu-69c36df78c36bb49-e1622b75f941a25f-ee9e62ef20b87a2b.jpeg",
       "published": "2026-09-18T16:22:00+02:00",
       "category": "Technologie",
-      "score": 51.65
+      "score": 51.07
     },
     {
       "id": "tagesschau-48431877bb3872e7",
@@ -1382,7 +1208,7 @@
       "image": "https://images.tagesschau.de/image/c9663c0e-993a-49a9-b7d0-519e614968f0/AAABoLKvxKE/AAABnSSvrFg/16x9-big/trump-wahlkampf-148.jpg?width=1920",
       "published": "2026-09-18T16:21:12+02:00",
       "category": "Politik",
-      "score": 64.64
+      "score": 64.06
     },
     {
       "id": "tagesschau-9c9c3a6d7dcdfe98",
@@ -1394,7 +1220,7 @@
       "image": "https://images.tagesschau.de/image/f4ca27ce-6115-4ebe-a93d-2983e78d309e/AAABoLRZg-o/AAABnSSvrFg/16x9-big/oper-koeln-schauspielhaus-100.jpg?width=1920",
       "published": "2026-09-18T16:17:42+02:00",
       "category": "Nachrichten",
-      "score": 53.59
+      "score": 53.01
     },
     {
       "id": "golem-41e906036d59bcac",
@@ -1406,7 +1232,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213213&amp;page=1&amp;ts=1789740841",
       "published": "2026-09-18T16:14:01+02:00",
       "category": "Technologie",
-      "score": 50.54
+      "score": 49.96
     },
     {
       "id": "golem-3316a6e58c1e7ecc",
@@ -1418,7 +1244,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213218&amp;page=1&amp;ts=1789740482",
       "published": "2026-09-18T16:08:02+02:00",
       "category": "Technologie",
-      "score": 50.45
+      "score": 49.87
     },
     {
       "id": "spiegel-8ec2349b0e518dae",
@@ -1430,31 +1256,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/5b35298a-22fa-4cc1-99c6-f07b2f66152a_w1200_r1.778_fpx91_fpy9.jpg",
       "published": "2026-09-18T16:08:00+02:00",
       "category": "Politik",
-      "score": 71.45
-    },
-    {
-      "id": "spiegel-bd0b001dcced7ee7",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Frankreich: Rechtsextremer Polizist wegen Terrorverdachts in Untersuchungshaft",
-      "link": "https://www.spiegel.de/ausland/frankreich-rechtsextremer-polizist-wegen-terrorverdachts-in-untersuchungshaft-a-54ace122-ec94-4d3e-ad23-2fbbc1060f3e#ref=rss",
-      "summary": "Ein französischer Polizist soll einen Terroranschlag geplant haben. Auf seinen Social-Media-Kanälen rief er zur Wiederherstellung der »christlichen Ordnung« auf. Nun sitzt er in Untersuchungshaft.",
-      "image": "https://cdn.prod.www.spiegel.de/images/e9fc5698-0a53-4d3c-8594-28fca7b93f3a_w1200_r1.778_fpx68_fpy36.jpg",
-      "published": "2026-09-18T16:03:00+02:00",
-      "category": "Nachrichten",
-      "score": 52.38
-    },
-    {
-      "id": "spiegel-dfa23cf4e190f617",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Quiz des Tages beim SPIEGEL: 7 Fragen zum Allgemeinwissen pro Tag",
-      "link": "https://www.spiegel.de/games/taegliches-quiz-beim-spiegel-7-fragen-zum-allgemeinwissen-pro-tag-a-8a9692b2-4462-4192-942c-fd7809c7519c#ref=rss",
-      "summary": "Jeden Tag gibt es sieben Fragen zu den wichtigsten Themengebieten des politisch-gesellschaftlichen Geschehens. Testen Sie hier Ihr Wissen!",
-      "image": "https://cdn.prod.www.spiegel.de/images/4653602c-c8d9-4175-b819-f5739956805c_w1200_r1.778_fpx50_fpy50.png",
-      "published": "2026-09-18T16:01:00+02:00",
-      "category": "Nachrichten",
-      "score": 52.36
+      "score": 70.87
     },
     {
       "id": "golem-aa451845060d2487",
@@ -1466,7 +1268,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213216&amp;page=1&amp;ts=1789739882",
       "published": "2026-09-18T15:58:02+02:00",
       "category": "Wirtschaft",
-      "score": 53.32
+      "score": 52.74
     },
     {
       "id": "heise-82020b267e9425a1",
@@ -1478,7 +1280,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/0/6/1/7/9/fe44d112-60df-42ef-a41c-e4fcf1595d7b-220b0c702cc1a8bd.jpeg",
       "published": "2026-09-18T15:56:00+02:00",
       "category": "Technologie",
-      "score": 51.29
+      "score": 50.71
     },
     {
       "id": "golem-2f3440ec12c67b63",
@@ -1490,7 +1292,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213217&amp;page=1&amp;ts=1789739522",
       "published": "2026-09-18T15:52:02+02:00",
       "category": "Technologie",
-      "score": 50.23
+      "score": 49.65
     },
     {
       "id": "tagesschau-dd8a8ac9835cb9ef",
@@ -1502,7 +1304,7 @@
       "image": "https://images.tagesschau.de/image/04a75b3f-097d-4b77-908f-04d2e8b009c9/AAABoLYXGXY/AAABnSSvrFg/16x9-big/hr-auf-den-menschen-uebertragen-wird-malaria-durch-anopheles-stechmuecken-wenn-diese-sich-zuvor-selbst-infiziert-haben-100.jpg?width=1920",
       "published": "2026-09-18T15:50:33+02:00",
       "category": "Nachrichten",
-      "score": 53.21
+      "score": 52.63
     },
     {
       "id": "heise-d67906cffe51d923",
@@ -1514,7 +1316,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/7/7/4/0/Lucid_Gravity_als_autonomes_Taxi_Lucid_Motors-920887c97e815201.jpeg",
       "published": "2026-09-18T15:35:00+02:00",
       "category": "Technologie",
-      "score": 51.0
+      "score": 50.42
     },
     {
       "id": "handelsblatt-4637cbed54927c2c",
@@ -1526,7 +1328,7 @@
       "image": "https://images.handelsblatt.com/aMcroC6lrOrb/cover/900/506/0/0/311/310/0.5/0.5/ukrainische-drohne.jpg",
       "published": "2026-09-18T15:32:00+00:00",
       "category": "Politik",
-      "score": 79.62
+      "score": 79.04
     },
     {
       "id": "handelsblatt-5b8198e7c052c7ae",
@@ -1538,7 +1340,7 @@
       "image": "https://images.handelsblatt.com/P-73zvwpCO2y/cover/900/506/0/0/75/75/0.5/0.5/wall-street.jpeg",
       "published": "2026-09-18T15:28:00+00:00",
       "category": "Wirtschaft",
-      "score": 55.57
+      "score": 54.98
     },
     {
       "id": "handelsblatt-2f0c47f5e9faa751",
@@ -1550,7 +1352,7 @@
       "image": "https://images.handelsblatt.com/N0PSZ7zc-mJ8/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
       "published": "2026-09-18T15:27:50+00:00",
       "category": "Wirtschaft",
-      "score": 63.56
+      "score": 62.98
     },
     {
       "id": "handelsblatt-733e49e06ff769b0",
@@ -1562,7 +1364,7 @@
       "image": "https://images.handelsblatt.com/fEElRNUAx39M/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
       "published": "2026-09-18T15:25:18+00:00",
       "category": "Technologie",
-      "score": 52.53
+      "score": 51.95
     },
     {
       "id": "golem-f78663e34d6d099e",
@@ -1574,7 +1376,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213212&amp;page=1&amp;ts=1789737842",
       "published": "2026-09-18T15:24:02+02:00",
       "category": "Technologie",
-      "score": 49.84
+      "score": 49.26
     },
     {
       "id": "handelsblatt-3cafe00108cb176e",
@@ -1586,7 +1388,7 @@
       "image": "https://images.handelsblatt.com/83h4TdnCCt9h/cover/900/506/0/0/656/657/0.5/0.5/today-podcast-teaser-2025.jpg",
       "published": "2026-09-18T15:20:32+00:00",
       "category": "Wirtschaft",
-      "score": 63.46
+      "score": 62.88
     },
     {
       "id": "handelsblatt-63a3caccb2d982d1",
@@ -1598,7 +1400,7 @@
       "image": "https://images.handelsblatt.com/PxcpbkvdqmNO/cover/900/506/0/0/625/0/0.5/0.5/military-helicopters-fly-over-the-italian-navy-frigate-luigi-rizzo-during-medusa-15-a-multinational.jpg",
       "published": "2026-09-18T15:18:00+00:00",
       "category": "Technologie",
-      "score": 74.18
+      "score": 59.85
     },
     {
       "id": "golem-3bb6e619d8aff1c5",
@@ -1610,7 +1412,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213211&amp;page=1&amp;ts=1789737242",
       "published": "2026-09-18T15:14:02+02:00",
       "category": "Technologie",
-      "score": 49.7
+      "score": 49.12
     },
     {
       "id": "golem-323e0dcc130e87a5",
@@ -1622,7 +1424,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213214&amp;page=1&amp;ts=1789736762",
       "published": "2026-09-18T15:06:02+02:00",
       "category": "Technologie",
-      "score": 49.59
+      "score": 49.01
     },
     {
       "id": "handelsblatt-6baf0758e6e365b9",
@@ -1634,7 +1436,7 @@
       "image": "https://images.handelsblatt.com/Jne60Q3uw3Fu/cover/900/506/0/0/107/107/0.5/0.5/auto-steht-in-einer-werkstatt.jpg",
       "published": "2026-09-18T15:04:46+00:00",
       "category": "Wirtschaft",
-      "score": 55.24
+      "score": 54.66
     },
     {
       "id": "handelsblatt-350380619b139ff6",
@@ -1646,7 +1448,7 @@
       "image": "https://images.handelsblatt.com/yzI9L275pbMu/cover/900/506/0/0/254/164/0.5/0.5/archiv-22.02.2022-nordrhein-westfalen-duisburg-bernhard-osburg-ist-chef-der-bahn-tochter-db-car.jpg",
       "published": "2026-09-18T15:02:09+00:00",
       "category": "Politik",
-      "score": 55.21
+      "score": 54.63
     },
     {
       "id": "handelsblatt-ee74ed8dc005c9c6",
@@ -1658,7 +1460,7 @@
       "image": "https://images.handelsblatt.com/VnODBl2I1C0c/cover/900/506/0/0/240/239/0.5/0.5/parlamentswahl-in-schweden.jpg",
       "published": "2026-09-18T15:01:22+00:00",
       "category": "Politik",
-      "score": 63.2
+      "score": 62.61
     },
     {
       "id": "golem-46949410e4d776df",
@@ -1670,7 +1472,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213101&amp;page=1&amp;ts=1789736402",
       "published": "2026-09-18T15:00:02+02:00",
       "category": "Technologie",
-      "score": 49.51
+      "score": 48.93
     },
     {
       "id": "handelsblatt-6645538d1a0ab487",
@@ -1682,7 +1484,7 @@
       "image": "https://images.handelsblatt.com/po8G3RRpynh1/cover/900/506/0/0/107/106/0.5/0.5/iran-krieg-jemen.jpg",
       "published": "2026-09-18T14:51:50+00:00",
       "category": "Politik",
-      "score": 55.06
+      "score": 59.85
     },
     {
       "id": "handelsblatt-aea6c6b7e562869e",
@@ -1694,7 +1496,7 @@
       "image": "https://images.handelsblatt.com/ZTbQlegGpTuI/cover/900/506/0/0/74/74/0.5/0.5/spritpreise.jpg",
       "published": "2026-09-18T14:42:44+00:00",
       "category": "Politik",
-      "score": 54.94
+      "score": 54.36
     },
     {
       "id": "handelsblatt-76dd918915a98e8e",
@@ -1706,7 +1508,7 @@
       "image": "https://images.handelsblatt.com/UC3PpPszaUwR/cover/900/506/0/0/107/106/0.5/0.5/organspende.jpg",
       "published": "2026-09-18T14:41:09+00:00",
       "category": "Wirtschaft",
-      "score": 54.91
+      "score": 54.33
     },
     {
       "id": "handelsblatt-a57ec84f425f999a",
@@ -1718,7 +1520,7 @@
       "image": "https://images.handelsblatt.com/t0MjDFUbutme/cover/900/506/0/0/175/175/0.5/0.5/markus-koch-wall-street-podcast.jpg",
       "published": "2026-09-18T14:36:43+00:00",
       "category": "Wirtschaft",
-      "score": 54.85
+      "score": 54.27
     },
     {
       "id": "handelsblatt-fea8fdf48c0c6d40",
@@ -1730,7 +1532,7 @@
       "image": "https://images.handelsblatt.com/37PTHblNo-er/cover/900/506/0/0/107/107/0.5/0.5/feuer-an-nebeneingang-von-synagoge-wuppertal-gelegt.jpg",
       "published": "2026-09-18T14:35:52+00:00",
       "category": "Wirtschaft",
-      "score": 71.86
+      "score": 61.86
     },
     {
       "id": "handelsblatt-ec2505afe207ec58",
@@ -1742,7 +1544,7 @@
       "image": "https://images.handelsblatt.com/VNKWp3inCVLK/cover/900/506/0/0/107/106/0.5/0.5/pakistanische-sicherheitskraefte.jpg",
       "published": "2026-09-18T14:27:23+00:00",
       "category": "Technologie",
-      "score": 71.86
+      "score": 72.59
     },
     {
       "id": "golem-944cd795e1b29f7b",
@@ -1754,7 +1556,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213210&amp;page=1&amp;ts=1789734421",
       "published": "2026-09-18T14:27:01+02:00",
       "category": "Technologie",
-      "score": 49.05
+      "score": 48.47
     },
     {
       "id": "handelsblatt-c0325be7003435ac",
@@ -1766,7 +1568,7 @@
       "image": "https://images.handelsblatt.com/PrLWluArLrQC/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
       "published": "2026-09-18T14:26:00+00:00",
       "category": "Politik",
-      "score": 70.7
+      "score": 70.12
     },
     {
       "id": "handelsblatt-5ce09a62587ac103",
@@ -1778,7 +1580,7 @@
       "image": "https://images.handelsblatt.com/vjk8TpbyJIIr/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
       "published": "2026-09-18T14:24:15+00:00",
       "category": "Wirtschaft",
-      "score": 64.68
+      "score": 64.1
     },
     {
       "id": "golem-dbed4f26f3b70ba3",
@@ -1790,7 +1592,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213208&amp;page=1&amp;ts=1789734122",
       "published": "2026-09-18T14:22:02+02:00",
       "category": "Technologie",
-      "score": 48.98
+      "score": 48.4
     },
     {
       "id": "handelsblatt-901c8b00dda9fb78",
@@ -1802,7 +1604,7 @@
       "image": "https://images.handelsblatt.com/H1zHIHamdhIb/cover/900/506/0/0/313/312/0.5/0.5/urnnewsmldpa.com20090101260917-935-1616693.jpg",
       "published": "2026-09-18T14:21:34+00:00",
       "category": "Wirtschaft",
-      "score": 69.18
+      "score": 69.91
     },
     {
       "id": "handelsblatt-3b95cc6d575df6d3",
@@ -1814,7 +1616,7 @@
       "image": "https://images.handelsblatt.com/QX0LeNLKuNTt/cover/900/506/0/0/101/101/0.5/0.5/ebay-logo-ist-auf-einem-smartphone-zu-sehen.jpg",
       "published": "2026-09-18T14:15:47+00:00",
       "category": "Wirtschaft",
-      "score": 54.56
+      "score": 53.98
     },
     {
       "id": "handelsblatt-9e75cb375c0f6194",
@@ -1826,7 +1628,7 @@
       "image": "https://images.handelsblatt.com/v-UlfjNx5K0m/cover/900/506/0/0/100/99/0.5/0.5/aerztin-im-krankenhaus.jpg",
       "published": "2026-09-18T14:13:21+00:00",
       "category": "Wirtschaft",
-      "score": 54.53
+      "score": 53.95
     },
     {
       "id": "handelsblatt-0e4c30a7b1c7e3ba",
@@ -1838,7 +1640,7 @@
       "image": "https://images.handelsblatt.com/SgmP9qsOZdth/cover/900/506/0/0/0/421/0.5/0.5/joachim-nagel-l.-lars-klingbeil.jpg",
       "published": "2026-09-18T14:06:41+00:00",
       "category": "Wirtschaft",
-      "score": 54.44
+      "score": 53.86
     },
     {
       "id": "handelsblatt-258f503b33a1bf90",
@@ -1850,7 +1652,7 @@
       "image": "https://images.handelsblatt.com/KUqqa--KZCb5/cover/900/506/0/0/117/116/0.5/0.5/rbi-raiffeisen-bank-international-wien-oesterreich-zentrale.jpg",
       "published": "2026-09-18T14:04:06+00:00",
       "category": "Wirtschaft",
-      "score": 54.4
+      "score": 53.82
     },
     {
       "id": "handelsblatt-bbe882f941dbee0b",
@@ -1862,7 +1664,7 @@
       "image": "https://images.handelsblatt.com/jMAXr6v25vkK/cover/900/506/0/0/290/290/0.5/0.5/imago743770062.jpg",
       "published": "2026-09-18T13:50:52+00:00",
       "category": "Wirtschaft",
-      "score": 62.22
+      "score": 61.64
     },
     {
       "id": "handelsblatt-71e726b6ff42c97c",
@@ -1874,7 +1676,7 @@
       "image": "https://images.handelsblatt.com/CHSrkej26PyW/cover/900/506/0/0/107/106/0.5/0.5/schulkinder.jpg",
       "published": "2026-09-18T13:50:20+00:00",
       "category": "Politik",
-      "score": 54.21
+      "score": 53.63
     },
     {
       "id": "handelsblatt-747c56cd7c1c204f",
@@ -1886,7 +1688,7 @@
       "image": "https://images.handelsblatt.com/qYQG75MtRPaB/cover/900/506/0/0/0/617/0.5/0.5/august-24-2026-new-york-new-york-united-states-antonio-guterres-secretary-general-of-the-unite.jpg",
       "published": "2026-09-18T13:49:22+00:00",
       "category": "Wirtschaft",
-      "score": 62.2
+      "score": 61.61
     },
     {
       "id": "netzpolitik-b264754c93a53e35",
@@ -1898,7 +1700,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/09/gandalf-regenbogen-e1789731334793.jpg",
       "published": "2026-09-18T13:42:39+00:00",
       "category": "Wirtschaft",
-      "score": 51.1
+      "score": 50.52
     },
     {
       "id": "tagesschau-bf18a53f4d597c18",
@@ -1910,7 +1712,7 @@
       "image": "https://images.tagesschau.de/image/51d739b4-38f1-4c27-8535-26ed5241813e/AAABoLO6YQU/AAABnSSvrFg/16x9-big/vw-1452.jpg?width=1920",
       "published": "2026-09-18T13:40:02+02:00",
       "category": "Wirtschaft",
-      "score": 54.4
+      "score": 53.82
     },
     {
       "id": "golem-400d22a395dfa4e2",
@@ -1922,7 +1724,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213196&amp;page=1&amp;ts=1789731602",
       "published": "2026-09-18T13:40:02+02:00",
       "category": "Technologie",
-      "score": 48.4
+      "score": 47.82
     },
     {
       "id": "handelsblatt-f27c64295bb6cd2b",
@@ -1934,7 +1736,7 @@
       "image": "https://images.handelsblatt.com/jTWKlBs0epu3/cover/900/506/0/0/66/65/0.5/0.5/frankfurter-malaria-patient-gestorben.jpg",
       "published": "2026-09-18T13:38:41+00:00",
       "category": "Wirtschaft",
-      "score": 54.05
+      "score": 53.47
     },
     {
       "id": "handelsblatt-e3bd0a1c637eb0ca",
@@ -1946,7 +1748,7 @@
       "image": "https://images.handelsblatt.com/wMRKCCHXf5hC/cover/900/506/0/0/77/763/0.5/0.5/am-30.-august-werden-in-der-berliner-beinghunted.-gallery-zehn-einzigartige-kunstwerke-vorgestellt.jpg",
       "published": "2026-09-18T13:32:10+00:00",
       "category": "Wirtschaft",
-      "score": 61.96
+      "score": 61.38
     },
     {
       "id": "golem-18d0b03442c10e66",
@@ -1958,7 +1760,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213171&amp;page=1&amp;ts=1789731002",
       "published": "2026-09-18T13:30:02+02:00",
       "category": "Technologie",
-      "score": 48.26
+      "score": 47.68
     },
     {
       "id": "handelsblatt-63e25381c2285357",
@@ -1970,7 +1772,7 @@
       "image": "https://images.handelsblatt.com/4g18WyGzRxjR/cover/900/506/0/0/313/312/0.5/0.5/muenchner-beim-einkaufsbummel-in-der-theatinerstrasse-darunter-viele-aeltere-menschen-samstag-muenche.jpg",
       "published": "2026-09-18T13:28:23+00:00",
       "category": "Wirtschaft",
-      "score": 53.9
+      "score": 53.32
     },
     {
       "id": "handelsblatt-69f0559fbe7862ac",
@@ -1982,7 +1784,7 @@
       "image": "https://images.handelsblatt.com/2a92o5hPKNAA/cover/900/506/0/0/107/106/0.5/0.5/prozess-gegen-deutsche-antifaschistische-aktivistin-in-budapest.jpg",
       "published": "2026-09-18T13:23:37+00:00",
       "category": "Panorama",
-      "score": 50.84
+      "score": 50.26
     },
     {
       "id": "tagesschau-87f4b5a699e54924",
@@ -1994,7 +1796,7 @@
       "image": "https://images.tagesschau.de/image/70ac4f1d-aed9-472f-8506-a5e82b79b209/AAABoGI4ReA/AAABnSSvrFg/16x9-big/landtag-schwerin-104.jpg?width=1920",
       "published": "2026-09-18T13:23:36+02:00",
       "category": "Politik",
-      "score": 62.17
+      "score": 61.59
     },
     {
       "id": "tagesschau-930bad06698f11c8",
@@ -2006,7 +1808,7 @@
       "image": "https://images.tagesschau.de/image/a5e20ffc-4af6-4f4b-91e8-02c52bb7f253/AAABoLKJctI/AAABnSSvrFg/16x9-big/sara-wickstroem-100.jpg?width=1920",
       "published": "2026-09-18T13:22:10+02:00",
       "category": "Wissenschaft",
-      "score": 67.18
+      "score": 67.91
     },
     {
       "id": "golem-49dd62398057fd49",
@@ -2018,7 +1820,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213205&amp;page=1&amp;ts=1789730162",
       "published": "2026-09-18T13:16:02+02:00",
       "category": "Technologie",
-      "score": 48.07
+      "score": 47.49
     },
     {
       "id": "handelsblatt-3fb8abfd9b3a0c3f",
@@ -2030,31 +1832,7 @@
       "image": "https://images.handelsblatt.com/KppjIuU-Frhh/cover/900/506/0/0/52/52/0.5/0.5/literaturnobelpreis.jpg",
       "published": "2026-09-18T13:12:55+00:00",
       "category": "Wirtschaft",
-      "score": 53.69
-    },
-    {
-      "id": "handelsblatt-4b57f2e6ee7325fc",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Immobilien: „Demografie prägt den Wohnungsmarkt stärker als die Zinsen“",
-      "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-demografie-praegt-den-wohnungsmarkt-staerker-als-die-zinsen/100251144.html",
-      "summary": "Der Chef des Projektentwicklers BPD warnt: Wer nur auf die Zinsen schaut, verkennt den Wohnungsmarkt. Warum es sich nicht lohnt, jedes Projekt neu zu erfinden, und was die Hafencity vormacht.",
-      "image": "https://images.handelsblatt.com/rukyDilWzldR/cover/900/506/0/0/0/0/0.5/0.5/alexander-heinzmann-ceo-bpd.jpg",
-      "published": "2026-09-18T13:07:43+00:00",
-      "category": "Wirtschaft",
-      "score": 53.62
-    },
-    {
-      "id": "handelsblatt-52adfed4b0fccc9d",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Duma-Wahl in Russland: Putins Kriegswahl - Russland wählt neues Parlament",
-      "link": "https://www.handelsblatt.com/politik/international/duma-wahl-in-russland-putins-kriegswahl-russland-waehlt-neues-parlament/100255690.html",
-      "summary": "Zum ersten Mal seit Beginn des Angriffskriegs gegen die Ukraine wählt Russland ein neues Parlament. Die Opposition ist nicht zugelassen. Kremlchef Putin erwartet, dass sein Kriegskurs bestätigt wird.",
-      "image": "https://images.handelsblatt.com/HyzIEPycV7JR/cover/900/506/0/0/107/106/0.5/0.5/vor-den-parlamentswahlen-in-russland.jpg",
-      "published": "2026-09-18T13:07:42+00:00",
-      "category": "Politik",
-      "score": 87.62
+      "score": 53.11
     },
     {
       "id": "tagesschau-a5317d0f254ebddb",
@@ -2066,7 +1844,7 @@
       "image": "https://images.tagesschau.de/image/4cad67e2-45d6-4105-a9b0-86fb91717ebf/AAABoLO_WU0/AAABnSSvrFg/16x9-big/frachtschiff-126.jpg?width=1920",
       "published": "2026-09-18T13:02:32+02:00",
       "category": "Nachrichten",
-      "score": 50.88
+      "score": 50.3
     },
     {
       "id": "golem-812346f0d2bcda48",
@@ -2078,7 +1856,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213195&amp;page=1&amp;ts=1789729321",
       "published": "2026-09-18T13:02:01+02:00",
       "category": "Politik",
-      "score": 58.87
+      "score": 58.29
     },
     {
       "id": "golem-f275318ca41a5429",
@@ -2090,7 +1868,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213203&amp;page=1&amp;ts=1789728362",
       "published": "2026-09-18T12:46:02+02:00",
       "category": "Technologie",
-      "score": 47.65
+      "score": 47.07
     },
     {
       "id": "golem-ecafcc4025e822e6",
@@ -2102,7 +1880,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213201&amp;page=1&amp;ts=1789727582",
       "published": "2026-09-18T12:33:02+02:00",
       "category": "Technologie",
-      "score": 47.47
+      "score": 46.89
     },
     {
       "id": "golem-fcf96a221e3f7d99",
@@ -2114,7 +1892,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213202&amp;page=1&amp;ts=1789726742",
       "published": "2026-09-18T12:19:02+02:00",
       "category": "Technologie",
-      "score": 66.18
+      "score": 46.69
     },
     {
       "id": "golem-62cb78e7a4f27e28",
@@ -2126,7 +1904,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213190&amp;page=1&amp;ts=1789725602",
       "published": "2026-09-18T12:00:02+02:00",
       "category": "Technologie",
-      "score": 47.01
+      "score": 46.43
     },
     {
       "id": "tagesschau-aa348382da21508e",
@@ -2138,17 +1916,7 @@
       "image": "https://images.tagesschau.de/image/ab7dfac6-5764-43d4-9e46-50e817840bc8/AAABlg3313g/AAABnSSvrFg/16x9-big/nestle-111.jpg?width=1920",
       "published": "2026-09-18T11:49:03+02:00",
       "category": "Politik",
-      "score": 86.18,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Wirtschaft - Nestlé prüft Maßnahmen gegen russische Zwangsverwaltung",
-            "link": "https://www.deutschlandfunk.de/nestl-prueft-massnahmen-gegen-russische-zwangsverwaltung-102.html"
-          }
-        ]
-      }
+      "score": 68.28
     },
     {
       "id": "golem-ba74e5d28fe70035",
@@ -2160,7 +1928,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213194&amp;page=1&amp;ts=1789724761",
       "published": "2026-09-18T11:46:01+02:00",
       "category": "Technologie",
-      "score": 46.82
+      "score": 46.24
     },
     {
       "id": "golem-86085e01e0b83f00",
@@ -2172,7 +1940,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213035&amp;page=1&amp;ts=1789723922",
       "published": "2026-09-18T11:32:02+02:00",
       "category": "Wissenschaft",
-      "score": 46.62
+      "score": 46.04
     },
     {
       "id": "golem-c36c634afb49923c",
@@ -2184,7 +1952,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213193&amp;page=1&amp;ts=1789723741",
       "published": "2026-09-18T11:29:01+02:00",
       "category": "Technologie",
-      "score": 46.58
+      "score": 46.0
     },
     {
       "id": "tagesschau-e8166d7911849def",
@@ -2196,7 +1964,7 @@
       "image": "https://images.tagesschau.de/image/0ec4682c-35ff-49cb-9aaf-e317c0e39b3e/AAABoLMxpzg/AAABnSSvrFg/16x9-big/muecken-180.jpg?width=1920",
       "published": "2026-09-18T11:28:36+02:00",
       "category": "Nachrichten",
-      "score": 53.21
+      "score": 52.63
     },
     {
       "id": "golem-8e0561cdbfeef0c6",
@@ -2208,7 +1976,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213192&amp;page=1&amp;ts=1789722961",
       "published": "2026-09-18T11:16:01+02:00",
       "category": "Technologie",
-      "score": 46.4
+      "score": 45.82
     },
     {
       "id": "golem-2e0e7a204d8f3fe0",
@@ -2220,7 +1988,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213191&amp;page=1&amp;ts=1789722062",
       "published": "2026-09-18T11:01:02+02:00",
       "category": "Technologie",
-      "score": 46.19
+      "score": 45.61
     },
     {
       "id": "golem-3a4283dc22d8fb15",
@@ -2232,7 +2000,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213152&amp;page=1&amp;ts=1789721582",
       "published": "2026-09-18T10:53:02+02:00",
       "category": "Technologie",
-      "score": 46.08
+      "score": 45.5
     },
     {
       "id": "heise-7ccfe60a94907656",
@@ -2244,7 +2012,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/7/5/3/6/Aerosol-3D-Drucker-3156d14d8a3aa212.jpeg",
       "published": "2026-09-18T10:49:00+02:00",
       "category": "Wissenschaft",
-      "score": 47.02
+      "score": 46.44
     },
     {
       "id": "heise-fc2cdb530c6894df",
@@ -2256,7 +2024,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/7/5/4/9/shutterstock_2696506577-8885d70b22883391.jpeg",
       "published": "2026-09-18T10:42:00+02:00",
       "category": "Technologie",
-      "score": 46.93
+      "score": 46.35
     },
     {
       "id": "golem-7a8311354505b17e",
@@ -2268,7 +2036,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213187&amp;page=1&amp;ts=1789719961",
       "published": "2026-09-18T10:26:01+02:00",
       "category": "Technologie",
-      "score": 45.7
+      "score": 45.12
     },
     {
       "id": "golem-c26962d754dd2344",
@@ -2280,7 +2048,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213188&amp;page=1&amp;ts=1789719245",
       "published": "2026-09-18T10:14:05+02:00",
       "category": "Technologie",
-      "score": 45.54
+      "score": 44.96
     },
     {
       "id": "tagesschau-dc1785d91ac98abf",
@@ -2292,7 +2060,7 @@
       "image": "https://images.tagesschau.de/image/1da913c2-b293-4c71-92b0-93c04a8b5112/AAABoJ_VUuU/AAABnSSvrFg/16x9-big/hundebody-verpackung-100.jpg?width=1920",
       "published": "2026-09-18T10:03:21+02:00",
       "category": "Nachrichten",
-      "score": 48.39
+      "score": 47.81
     },
     {
       "id": "tagesschau-7562c3770aca5b59",
@@ -2304,7 +2072,7 @@
       "image": "https://images.tagesschau.de/image/199e70eb-11a9-4a10-b5a1-5a816263dbd4/AAABoLM2Jn8/AAABnSSvrFg/16x9-big/bettdecke-haende-100.jpg?width=1920",
       "published": "2026-09-18T10:01:05+02:00",
       "category": "Nachrichten",
-      "score": 48.36
+      "score": 47.78
     },
     {
       "id": "golem-320472fa1875b447",
@@ -2316,7 +2084,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213185&amp;page=1&amp;ts=1789716601",
       "published": "2026-09-18T09:30:01+02:00",
       "category": "Technologie",
-      "score": 44.93
+      "score": 44.35
     },
     {
       "id": "tagesschau-a94b00e263f52019",
@@ -2328,7 +2096,7 @@
       "image": "https://images.tagesschau.de/image/11bce36f-7cf8-484c-b06d-ad34b689d004/AAABoKTZQcM/AAABnSSvrFg/16x9-big/energiekosten-124.jpg?width=1920",
       "published": "2026-09-18T09:20:19+02:00",
       "category": "Nachrichten",
-      "score": 55.79
+      "score": 55.21
     },
     {
       "id": "golem-c7c0826c4831dc24",
@@ -2340,7 +2108,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213184&amp;page=1&amp;ts=1789715762",
       "published": "2026-09-18T09:16:02+02:00",
       "category": "Technologie",
-      "score": 44.73
+      "score": 44.15
     },
     {
       "id": "golem-36aa91cac718305a",
@@ -2352,7 +2120,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213180&amp;page=1&amp;ts=1789715282",
       "published": "2026-09-18T09:08:02+02:00",
       "category": "Technologie",
-      "score": 44.62
+      "score": 44.04
     },
     {
       "id": "golem-113cc33875d6ad05",
@@ -2364,7 +2132,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213143&amp;page=1&amp;ts=1789714802",
       "published": "2026-09-18T09:00:02+02:00",
       "category": "Technologie",
-      "score": 44.51
+      "score": 43.93
     },
     {
       "id": "golem-eb9c7ff84e630742",
@@ -2376,7 +2144,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213182&amp;page=1&amp;ts=1789714681",
       "published": "2026-09-18T08:58:01+02:00",
       "category": "Technologie",
-      "score": 44.48
+      "score": 43.9
     },
     {
       "id": "golem-3ee451353bd83eb8",
@@ -2388,7 +2156,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213181&amp;page=1&amp;ts=1789714142",
       "published": "2026-09-18T08:49:02+02:00",
       "category": "Technologie",
-      "score": 44.36
+      "score": 43.78
     },
     {
       "id": "tagesschau-cb1a277ac3885c6f",
@@ -2400,7 +2168,7 @@
       "image": "https://images.tagesschau.de/image/6c0e3c61-167a-4e0c-ac67-bef5cd669e0f/AAABoLL_Qmo/AAABnSSvrFg/16x9-big/hoppermann-112.jpg?width=1920",
       "published": "2026-09-18T08:31:11+02:00",
       "category": "Nachrichten",
-      "score": 47.11
+      "score": 46.53
     },
     {
       "id": "tagesschau-911707770898de53",
@@ -2412,17 +2180,7 @@
       "image": "https://images.tagesschau.de/image/727853fa-44d5-407e-96de-ce622bdc0f83/AAABoLMRag8/AAABnSSvrFg/16x9-big/kind-pflaster-100.jpg?width=1920",
       "published": "2026-09-18T08:27:57+02:00",
       "category": "Technologie",
-      "score": 83.18,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Studie - Impfquote bei Kindern sinkt in EU-Ländern - Rückgang seit der Corona-Pandemie",
-            "link": "https://www.deutschlandfunk.de/impfquote-bei-kindern-sinkt-in-eu-laendern-rueckgang-seit-der-corona-pandemie-100.html"
-          }
-        ]
-      }
+      "score": 62.48
     },
     {
       "id": "heise-6e8202af6d573690",
@@ -2434,7 +2192,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/4/1/9/2/signal-2026-09-13-23-02-53-186_002-28c684f581ca3245.jpeg",
       "published": "2026-09-18T08:02:00+02:00",
       "category": "Technologie",
-      "score": 44.7
+      "score": 44.12
     },
     {
       "id": "heise-033632ab683dd058",
@@ -2446,7 +2204,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/7/3/7/5/shutterstock_453303865-ded1dade58b1915e.jpeg",
       "published": "2026-09-18T07:13:00+02:00",
       "category": "Technologie",
-      "score": 44.02
+      "score": 43.44
     },
     {
       "id": "tagesschau-af4cb75eda7cd0d9",
@@ -2458,7 +2216,7 @@
       "image": "https://images.tagesschau.de/image/a417845d-c595-43a1-9f5c-e36a4401a1f3/AAABmHUSVHQ/AAABnSSvrFg/16x9-big/fleisch-138.jpg?width=1920",
       "published": "2026-09-18T07:06:59+02:00",
       "category": "Nachrichten",
-      "score": 45.94
+      "score": 45.36
     },
     {
       "id": "tagesschau-b551e0ad87c7461e",
@@ -2470,17 +2228,7 @@
       "image": "https://images.tagesschau.de/image/26ed43e4-b9fb-4857-8523-27e59eb699c2/AAABoK-UOGk/AAABnSSvrFg/16x9-big/wahlplakate-moskau-104.jpg?width=1920",
       "published": "2026-09-18T07:04:24+02:00",
       "category": "Politik",
-      "score": 87.62,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Duma-Wahl in Russland: Putins Kriegswahl - Russland wählt neues Parlament",
-            "link": "https://www.handelsblatt.com/politik/international/duma-wahl-in-russland-putins-kriegswahl-russland-waehlt-neues-parlament/100255690.html"
-          }
-        ]
-      }
+      "score": 72.32
     },
     {
       "id": "heise-1d920af3085c03e9",
@@ -2492,7 +2240,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/7/2/3/6/IMG_2810-57d492ff0bd050cb.jpeg",
       "published": "2026-09-18T06:17:00+02:00",
       "category": "Technologie",
-      "score": 43.25
+      "score": 42.67
     },
     {
       "id": "tagesschau-279a1b55429a412b",
@@ -2504,7 +2252,7 @@
       "image": "https://images.tagesschau.de/image/9af7ec95-fd53-40cc-a80b-7e7114f627c4/AAABoLH2hX8/AAABnSSvrFg/16x9-big/tankstelle-344.jpg?width=1920",
       "published": "2026-09-18T04:55:53+02:00",
       "category": "Politik",
-      "score": 47.12
+      "score": 46.54
     },
     {
       "id": "tagesschau-d985e27d51d37f07",
@@ -2516,7 +2264,7 @@
       "image": "https://images.tagesschau.de/image/5a92fa85-2d0e-4be9-8ceb-97867f2491e1/AAABoLG39ZA/AAABnSSvrFg/16x9-big/generalkonsulat-russland-bonn-100.jpg?width=1920",
       "published": "2026-09-18T04:52:54+02:00",
       "category": "Politik",
-      "score": 64.68
+      "score": 64.1
     },
     {
       "id": "tagesschau-50e6a3a9b4c4476d",
@@ -2528,7 +2276,7 @@
       "image": "https://images.tagesschau.de/image/1c1d2443-daac-4a68-87a4-5ff334cbff69/AAABoLAup3E/AAABnSSvrFg/16x9-big/rbb-symbolbild-ein-polizeiauto-rast-ueber-eine-strasse-zu-einem-einsatz-100.jpg?width=1920",
       "published": "2026-09-18T04:01:20+02:00",
       "category": "Politik",
-      "score": 54.36
+      "score": 53.78
     },
     {
       "id": "heise-8471b186cb657e04",
@@ -2540,7 +2288,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/7/3/3/7/shutterstock_1969669600-2f09947c564fbd61.jpeg",
       "published": "2026-09-17T22:54:00+02:00",
       "category": "Technologie",
-      "score": 37.09
+      "score": 36.51
     },
     {
       "id": "tagesschau-2bfd81d4a9512615",
@@ -2552,7 +2300,7 @@
       "image": "https://images.tagesschau.de/image/c92c5b8c-6c64-4535-a4bd-e700051fc2fa/AAABoK37l_E/AAABnSSvrFg/16x9-big/buecher-ukraine-100.jpg?width=1920",
       "published": "2026-09-17T22:13:01+02:00",
       "category": "Technologie",
-      "score": 38.52
+      "score": 37.94
     },
     {
       "id": "tagesschau-831a2909d594b924",
@@ -2564,7 +2312,7 @@
       "image": "https://images.tagesschau.de/image/4cbf5fa6-4a9f-4f77-ac34-9a92650a4bb4/AAABoLB37b8/AAABnSSvrFg/16x9-big/tusk-360.jpg?width=1920",
       "published": "2026-09-17T20:21:41+02:00",
       "category": "Politik",
-      "score": 47.98
+      "score": 47.4
     },
     {
       "id": "tagesschau-34bb0cfb22cdcde5",
@@ -2576,7 +2324,7 @@
       "image": "https://images.tagesschau.de/image/e2da9f42-d22c-4741-b5f9-9c9e49621311/AAABoLB46Qw/AAABnSSvrFg/16x9-big/mark-carney-110.jpg?width=1920",
       "published": "2026-09-17T19:19:34+02:00",
       "category": "Nachrichten",
-      "score": 67.18
+      "score": 35.53
     },
     {
       "id": "tagesschau-6eb7cf5514cdc00c",
@@ -2588,7 +2336,7 @@
       "image": "https://images.tagesschau.de/image/37015892-b7ac-40f4-8e71-c5b885175263/AAABoK6EY0g/AAABnSSvrFg/16x9-big/dax-leitindex-100.jpg?width=1920",
       "published": "2026-09-17T18:40:52+02:00",
       "category": "Nachrichten",
-      "score": 35.58
+      "score": 35.0
     },
     {
       "id": "heise-c7f330e168f7da29",
@@ -2600,7 +2348,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/7/1/9/6/McGetchinobligueviewLROCNAC-b1d73222a9aef4ef.jpeg",
       "published": "2026-09-17T18:19:00+02:00",
       "category": "Technologie",
-      "score": 33.27
+      "score": 32.69
     },
     {
       "id": "heise-ec6e5bba2aec3df2",
@@ -2612,7 +2360,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/7/1/4/5/shutterstock_2430993715-bcb0267ed98b20ed.jpeg",
       "published": "2026-09-17T17:55:00+02:00",
       "category": "Technologie",
-      "score": 32.94
+      "score": 32.36
     },
     {
       "id": "heise-7d67a7b6dd5f3e66",
@@ -2624,7 +2372,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/7/1/0/4/shutterstock_2701071735-fd9f0410795d87e8.jpeg",
       "published": "2026-09-17T17:14:00+02:00",
       "category": "Technologie",
-      "score": 32.37
+      "score": 31.79
     },
     {
       "id": "tagesschau-3833e0338df28737",
@@ -2636,7 +2384,7 @@
       "image": "https://images.tagesschau.de/image/64730746-7b34-4308-b480-f666c638143a/AAABoLBvvZM/AAABnSSvrFg/16x9-big/magdalena-andersson-110.jpg?width=1920",
       "published": "2026-09-17T17:13:34+02:00",
       "category": "Politik",
-      "score": 78.18
+      "score": 44.78
     },
     {
       "id": "tagesschau-f4472f64e418dfd3",
@@ -2648,7 +2396,7 @@
       "image": "https://images.tagesschau.de/image/35eea863-c4e2-4697-b8dd-a74b06267c43/AAABoK_I4vk/AAABnSSvrFg/16x9-big/kuenstliche-intelligenz-248.jpg?width=1920",
       "published": "2026-09-17T17:11:53+02:00",
       "category": "Technologie",
-      "score": 34.34
+      "score": 33.76
     },
     {
       "id": "tagesschau-6c152f2210903566",
@@ -2660,7 +2408,7 @@
       "image": "https://images.tagesschau.de/image/89e460d1-b3b6-4a2e-bf59-c69ac09bc4d1/AAABoK7EyAQ/AAABnSSvrFg/16x9-big/manuela-schwesig-142.jpg?width=1920",
       "published": "2026-09-17T16:33:03+02:00",
       "category": "Politik",
-      "score": 62.17
+      "score": 61.59
     },
     {
       "id": "tagesschau-802e1936ebd25d6e",
@@ -2672,7 +2420,7 @@
       "image": "https://images.tagesschau.de/image/fe234e60-0d22-4180-a805-4c502977389a/AAABnNcUg4c/AAABnSSvrFg/16x9-big/bundesanwaltschaft-138.jpg?width=1920",
       "published": "2026-09-17T16:29:47+02:00",
       "category": "Technologie",
-      "score": 33.76
+      "score": 33.18
     },
     {
       "id": "heise-a163a4fad39e13c5",
@@ -2684,7 +2432,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/7/0/6/7/shutterstock_1926849941-043a1dcb11930041.jpeg",
       "published": "2026-09-17T16:23:00+02:00",
       "category": "Technologie",
-      "score": 31.66
+      "score": 31.08
     },
     {
       "id": "heise-1dfef73d19a8260a",
@@ -2696,7 +2444,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/6/9/6/6/shutterstock_2758295197-b7d977ab74043e2e.jpeg",
       "published": "2026-09-17T16:06:00+02:00",
       "category": "Technologie",
-      "score": 31.43
+      "score": 30.85
     },
     {
       "id": "heise-4138c92ec76dc88c",
@@ -2708,7 +2456,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/6/8/7/1/20260917-cfca-fig-full-5bad5e71450a7115.jpeg",
       "published": "2026-09-17T15:48:00+02:00",
       "category": "Technologie",
-      "score": 31.18
+      "score": 30.6
     },
     {
       "id": "netzpolitik-a1606d042acd4d3f",
@@ -2720,7 +2468,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/09/imago0835523211h-weg-mit-218-scaled-e1789645332626.jpg",
       "published": "2026-09-17T15:13:26+00:00",
       "category": "Panorama",
-      "score": 29.36
+      "score": 28.78
     },
     {
       "id": "tagesschau-0d914e17a43723a0",
@@ -2732,19 +2480,7 @@
       "image": "https://images.tagesschau.de/image/19fca481-5dcf-40dc-a7d6-0fb116f5fbc7/AAABoK9vy60/AAABnSSvrFg/16x9-big/orange-baumarkt-urteil-102.jpg?width=1920",
       "published": "2026-09-17T14:55:34+02:00",
       "category": "Wirtschaft",
-      "score": 35.45
-    },
-    {
-      "id": "tagesschau-ea2181fd3c9133b7",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Plan der EU-Kommission: Drei Altersstufen für Soziale Medien",
-      "link": "https://www.tagesschau.de/ausland/europa/soziale-medien-gesetz-eu-100.html",
-      "summary": "Unter 13, bis 15 und bis 18 - in diesen Schritten soll die Nutzung Sozialer Medien durch Minderjährige geregelt werden: Das schlägt die EU-Kommission mit dem EU Kids Act vor. Süchtig machende Funktionen sollen ganz verboten werden. Von K. Schmid. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/0505ce2e-7a28-494c-8e74-245c703edaad/AAABoK9Jtlk/AAABnSSvrFg/16x9-big/kind-handy-107.jpg?width=1920",
-      "published": "2026-09-17T14:45:28+02:00",
-      "category": "Technologie",
-      "score": 32.31
+      "score": 34.87
     },
     {
       "id": "netzpolitik-5f793858423b08a3",
@@ -2756,7 +2492,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/09/imago0858638952h-scaled.jpg",
       "published": "2026-09-17T14:30:13+00:00",
       "category": "Technologie",
-      "score": 28.76
+      "score": 28.18
     },
     {
       "id": "heise-83a5e895966e8a2b",
@@ -2768,7 +2504,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/6/7/8/0/2026-07-19-Android-Auto-mit-GPS-Tacho-Aufmacher-61fef1f37952921c.jpeg",
       "published": "2026-09-17T12:15:00+02:00",
       "category": "Technologie",
-      "score": 28.22
+      "score": 27.64
     },
     {
       "id": "netzpolitik-e5bb1a3f0295dd00",
@@ -2780,7 +2516,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/09/engin-akyurt-FQzGa9FLgE0-unsplash-scaled-e1789646012729.jpg",
       "published": "2026-09-17T12:10:52+00:00",
       "category": "Politik",
-      "score": 29.83
+      "score": 29.25
     },
     {
       "id": "heise-2194e3fb0b59780e",
@@ -2792,7 +2528,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/6/6/8/5/Achtung-Windows_Updates-Updates_werden_gesucht-8b5b37b7c0baeb11.jpeg",
       "published": "2026-09-17T10:46:00+02:00",
       "category": "Technologie",
-      "score": 26.98
+      "score": 26.4
     },
     {
       "id": "heise-375006e6a974ceed",
@@ -2804,7 +2540,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/6/5/9/2/shutterstock_1124819546_jpg-be7ab77cc9d913d5.jpeg",
       "published": "2026-09-17T09:30:00+02:00",
       "category": "Technologie",
-      "score": 25.93
+      "score": 25.35
     },
     {
       "id": "heise-63dba9f350d14bd1",
@@ -2816,7 +2552,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/6/5/4/8/Nextcloud-Hub-26-Summer-A-shared-Deck-board-e4fe96d37f9de28d.png",
       "published": "2026-09-17T08:32:00+02:00",
       "category": "Technologie",
-      "score": 25.12
+      "score": 24.54
     }
   ]
 }
