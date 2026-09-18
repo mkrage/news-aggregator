@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T11:29:31.963232+00:00",
+  "generatedAt": "2026-09-18T11:56:23.773538+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.handelsblatt.com/wS6zAsrmnoiw/cover/900/506/0/0/0/0/0.5/0.5/hlive-matthes-schnitzler.jpg",
       "published": "2026-09-30T04:00:00+00:00",
       "category": "Wirtschaft",
-      "score": 302.76
+      "score": 302.38
     },
     {
       "id": "tagesschau-b551e0ad87c7461e",
@@ -24,7 +24,7 @@
       "image": "https://images.tagesschau.de/image/26ed43e4-b9fb-4857-8523-27e59eb699c2/AAABoK-UOGk/AAABnSSvrFg/16x9-big/wahlplakate-moskau-104.jpg?width=1920",
       "published": "2026-09-18T07:04:24+02:00",
       "category": "Politik",
-      "score": 99.48,
+      "score": 99.57,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -51,7 +51,7 @@
       "image": "https://images.tagesschau.de/image/ab7dfac6-5764-43d4-9e46-50e817840bc8/AAABlg3313g/AAABnSSvrFg/16x9-big/nestle-111.jpg?width=1920",
       "published": "2026-09-18T11:49:03+02:00",
       "category": "Politik",
-      "score": 91.48,
+      "score": 91.57,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -78,7 +78,7 @@
       "image": "https://images.handelsblatt.com/4N0Ye12mUJiI/cover/900/506/0/0/0/418/0.5/0.5/ehepaar.jpg",
       "published": "2026-09-19T08:30:00+00:00",
       "category": "Politik",
-      "score": 86.51
+      "score": 86.13
     },
     {
       "id": "spiegel-a2957bd035cd9f70",
@@ -90,7 +90,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/5799a11f-bd64-477b-b2eb-49332de1e2a7_w1200_r1.778_fpx49_fpy37.jpg",
       "published": "2026-09-18T12:00:00+02:00",
       "category": "Politik",
-      "score": 84.76,
+      "score": 84.38,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -112,7 +112,7 @@
       "image": "https://images.tagesschau.de/image/727853fa-44d5-407e-96de-ce622bdc0f83/AAABoLMRag8/AAABnSSvrFg/16x9-big/kind-pflaster-100.jpg?width=1920",
       "published": "2026-09-18T08:27:57+02:00",
       "category": "Technologie",
-      "score": 83.8,
+      "score": 83.89,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -134,7 +134,7 @@
       "image": "https://images.tagesschau.de/image/70ac4f1d-aed9-472f-8506-a5e82b79b209/AAABoGI4ReA/AAABnSSvrFg/16x9-big/landtag-schwerin-104.jpg?width=1920",
       "published": "2026-09-18T13:23:36+02:00",
       "category": "Politik",
-      "score": 83.6,
+      "score": 83.22,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -159,9 +159,9 @@
       "link": "https://www.deutschlandfunk.de/polens-ministerpraesident-tusk-rechnet-mit-russischer-eskalation-auch-unterstuetzer-der-ukraine-betr-104.html",
       "summary": "Der polnische Ministerpräsident Tusk rechnet für die kommenden Wochen mit einer weiteren Verstärkung der russischen Angriffe auf die Ukraine.",
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_7/1c/NOVA_71c9755db43fce07813e90f63b264113/craft-12951841-asset-100-1280x1280.jpg",
-      "published": "2026-09-18T13:14:48+02:00",
+      "published": "2026-09-18T13:48:24+02:00",
       "category": "Politik",
-      "score": 77.8
+      "score": 77.89
     },
     {
       "id": "deutschlandfunk-dcf543c27b0fc14f",
@@ -171,9 +171,21 @@
       "link": "https://www.deutschlandfunk.de/mehrere-opfer-bei-gegenseitigen-angriffen-100.html",
       "summary": "Durch einen russischen Angriff sind im Gebiet Schytomyr in der Ukraine mindestens zwei Menschen getötet worden.",
       "image": "https://bilder.deutschlandfunk.de/5a/e4/e7/66/5ae4e766-305b-4152-ab15-315152e3ea9c/urkaine-russland-krieg-angriff-raketen-drohnen-100-1920x1920.jpg",
-      "published": "2026-09-18T13:14:48+02:00",
+      "published": "2026-09-18T13:48:24+02:00",
       "category": "Politik",
-      "score": 77.8
+      "score": 77.89
+    },
+    {
+      "id": "handelsblatt-47ba61d44e753d98",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Vor den Wahlen: Was der Wahltag für die Kanzler-Krise bedeutet",
+      "link": "https://www.handelsblatt.com/politik/deutschland/vor-den-wahlen-was-der-wahltag-fuer-die-kanzler-krise-bedeutet/100255665.html",
+      "summary": "Der Kanzler hat vorerst Rückendeckung von den mächtigen CDU-Ministerpräsidenten bekommen. Gerettet ist er damit aber noch nicht. Am Sonntag werden die Karten neu gemischt.",
+      "image": "https://images.handelsblatt.com/T6eDebZ1QVEv/cover/900/506/0/0/110/109/0.5/0.5/friedrich-merz.jpg",
+      "published": "2026-09-18T11:34:18+00:00",
+      "category": "Politik",
+      "score": 76.69
     },
     {
       "id": "handelsblatt-53d273d1053e77ee",
@@ -185,19 +197,7 @@
       "image": "https://images.handelsblatt.com/vV5OTm8HABBv/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
       "published": "2026-09-18T10:29:09+00:00",
       "category": "Politik",
-      "score": 76.16
-    },
-    {
-      "id": "handelsblatt-467541671dde7754",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Teures Autofahren: Dieselpreis klettert weiter - Super E10 minimal günstiger",
-      "link": "https://www.handelsblatt.com/politik/deutschland/teures-autofahren-dieselpreis-klettert-weiter-super-e10-minimal-guenstiger/100255613.html",
-      "summary": "Der Iran-Krieg treibt die Inflation - für Autofahrerinnen und -fahrer täglich an den Zapfsäulen abzulesen.",
-      "image": "https://images.handelsblatt.com/nxPFNhKK0qkq/cover/900/506/0/0/192/192/0.5/0.5/spritpreise.jpg",
-      "published": "2026-09-18T09:39:18+00:00",
-      "category": "Wirtschaft",
-      "score": 75.47
+      "score": 75.79
     },
     {
       "id": "spiegel-f67e9b837732ea76",
@@ -209,7 +209,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/e241c401-4d40-4540-a224-35d68f2f1732_w1200_r1.778_fpx66.62_fpy49.88.jpg",
       "published": "2026-09-18T09:53:00+02:00",
       "category": "Wirtschaft",
-      "score": 74.99
+      "score": 74.62
     },
     {
       "id": "spiegel-82d4f1939ebd5969",
@@ -221,7 +221,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/62d6d07b-6210-454a-84fe-f3dca7bc3f30_w1200_r1.778_fpx50_fpy44.jpg",
       "published": "2026-09-18T08:28:00+02:00",
       "category": "Technologie",
-      "score": 72.94,
+      "score": 72.56,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -241,9 +241,9 @@
       "link": "https://www.deutschlandfunk.de/mindestens-16-tote-bei-anschlag-in-pakistan-102.html",
       "summary": "In Pakistan sind bei einem Bombenanschlag mindestens 16 Menschen getötet worden.",
       "image": "https://bilder.deutschlandfunk.de/e1/35/07/24/e1350724-15b6-4872-a814-5e45b3b50241/pakistan-anschlag-bombe-islamabad-schiiten-gemeindehaus-100-1920x1920.jpg",
-      "published": "2026-09-18T13:14:48+02:00",
+      "published": "2026-09-18T13:48:24+02:00",
       "category": "Technologie",
-      "score": 71.48,
+      "score": 71.57,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -270,7 +270,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213195&amp;page=1&amp;ts=1789729321",
       "published": "2026-09-18T13:02:01+02:00",
       "category": "Politik",
-      "score": 67.62
+      "score": 67.24
     }
   ]
 }
