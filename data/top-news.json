@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T19:15:40.178225+00:00",
+  "generatedAt": "2026-09-18T19:45:34.714135+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/26ed43e4-b9fb-4857-8523-27e59eb699c2/AAABoK-UOGk/AAABnSSvrFg/16x9-big/wahlplakate-moskau-104.jpg?width=1920",
       "published": "2026-09-18T07:04:24+02:00",
       "category": "Politik",
-      "score": 89.89,
+      "score": 89.47,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -34,7 +34,7 @@
       "image": "https://images.tagesschau.de/image/ab7dfac6-5764-43d4-9e46-50e817840bc8/AAABlg3313g/AAABnSSvrFg/16x9-big/nestle-111.jpg?width=1920",
       "published": "2026-09-18T11:49:03+02:00",
       "category": "Politik",
-      "score": 86.91,
+      "score": 86.93,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -56,7 +56,7 @@
       "image": "https://images.tagesschau.de/image/727853fa-44d5-407e-96de-ce622bdc0f83/AAABoLMRag8/AAABnSSvrFg/16x9-big/kind-pflaster-100.jpg?width=1920",
       "published": "2026-09-18T08:27:57+02:00",
       "category": "Technologie",
-      "score": 83.91,
+      "score": 83.93,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -78,7 +78,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/c25b579f-3795-47d5-8e24-a2fe9bc99a49_w1200_r1.778_fpx64.29_fpy50.jpg",
       "published": "2026-09-18T17:42:00+02:00",
       "category": "Politik",
-      "score": 83.03
+      "score": 82.62
     },
     {
       "id": "spiegel-72aab3888879e685",
@@ -90,7 +90,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/066eb3c3-20bb-4c2b-b94b-2ba977ff1362_w1200_r1.778_fpx49_fpy47.jpg",
       "published": "2026-09-18T16:33:00+02:00",
       "category": "Politik",
-      "score": 82.07
+      "score": 81.66
     },
     {
       "id": "handelsblatt-4637cbed54927c2c",
@@ -102,7 +102,7 @@
       "image": "https://images.handelsblatt.com/aMcroC6lrOrb/cover/900/506/0/0/311/310/0.5/0.5/ukrainische-drohne.jpg",
       "published": "2026-09-18T15:32:00+00:00",
       "category": "Politik",
-      "score": 81.89
+      "score": 81.48
     },
     {
       "id": "handelsblatt-f8c1f56bc01e29bd",
@@ -114,7 +114,7 @@
       "image": "https://images.handelsblatt.com/4N0Ye12mUJiI/cover/900/506/0/0/0/418/0.5/0.5/ehepaar.jpg",
       "published": "2026-09-19T08:30:00+00:00",
       "category": "Politik",
-      "score": 80.03
+      "score": 79.62
     },
     {
       "id": "tagesschau-274725ac60f99864",
@@ -126,7 +126,7 @@
       "image": "https://images.tagesschau.de/image/4313dee0-3d2f-4a08-a462-af1aeb094185/AAABoLXIdgU/AAABnSSvrFg/16x9-big/pistorius-f35-100.jpg?width=1920",
       "published": "2026-09-18T20:30:08+02:00",
       "category": "Politik",
-      "score": 78.91,
+      "score": 78.93,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -156,9 +156,31 @@
       "link": "https://www.deutschlandfunk.de/polens-ministerpraesident-tusk-rechnet-mit-russischer-eskalation-auch-unterstuetzer-der-ukraine-betr-104.html",
       "summary": "Der polnische Ministerpräsident Tusk rechnet für die kommenden Wochen mit einer weiteren Verstärkung der russischen Angriffe auf die Ukraine.",
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_7/1c/NOVA_71c9755db43fce07813e90f63b264113/craft-12951841-asset-100-1280x1280.jpg",
-      "published": "2026-09-18T21:09:05+02:00",
+      "published": "2026-09-18T21:40:26+02:00",
       "category": "Politik",
-      "score": 77.91
+      "score": 77.93
+    },
+    {
+      "id": "deutschlandfunk-a653df4b3e11f87f",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Washington - US-Präsident Trump verbannt mehrere Medien aus dem Weißen Haus",
+      "link": "https://www.deutschlandfunk.de/us-praesident-trump-verbannt-mehrere-medien-aus-dem-weissen-haus-100.html",
+      "summary": "US-Präsident Trump untersagt mehreren Medien den Zutritt zum Weißen Haus.",
+      "image": "https://bilder.deutschlandfunk.de/51/36/73/2a/5136732a-53e5-4a0f-b6f7-528edb24a761/trump-parteitag-republikaner-102-1920x1920.jpg",
+      "published": "2026-09-18T21:40:26+02:00",
+      "category": "Politik",
+      "score": 77.93,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "USA: Trump will CNN, »Politico« und MS Now aus Weißem Haus verbannen",
+            "link": "https://www.spiegel.de/ausland/usa-donald-trump-trump-droht-cnn-politico-und-ms-now-mit-rauswurf-aus-weissem-haus-a-769d6181-a95e-4da8-8f87-50dbc5b3950d#ref=rss"
+          }
+        ]
+      }
     },
     {
       "id": "deutschlandfunk-d6745f4578c6c317",
@@ -168,9 +190,9 @@
       "link": "https://www.deutschlandfunk.de/frachtraten-von-china-in-die-usa-gestiegen-100.html",
       "summary": "Die Kosten für den Transport von Seefracht zwischen China und der US-Ostküste sind infolge des Iran-Kriegs deutlich gestiegen. Einen Seecontainer zu verschicken, kostet derzeit viermal so viel wie vor Beginn des Konflikts.",
       "image": null,
-      "published": "2026-09-18T21:09:05+02:00",
+      "published": "2026-09-18T21:40:26+02:00",
       "category": "Nachrichten",
-      "score": 74.91,
+      "score": 74.93,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -192,7 +214,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/5b35298a-22fa-4cc1-99c6-f07b2f66152a_w1200_r1.778_fpx91_fpy9.jpg",
       "published": "2026-09-18T16:08:00+02:00",
       "category": "Politik",
-      "score": 73.73
+      "score": 73.31
     },
     {
       "id": "handelsblatt-c0325be7003435ac",
@@ -204,34 +226,7 @@
       "image": "https://images.handelsblatt.com/PrLWluArLrQC/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
       "published": "2026-09-18T14:26:00+00:00",
       "category": "Politik",
-      "score": 72.98
-    },
-    {
-      "id": "deutschlandfunk-1bdd64fc78ee7d3b",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Drohnenfund in Wunstorf - Bundesanwaltschaft prüft Verbindung zu Leipzig",
-      "link": "https://www.deutschlandfunk.de/bundesanwaltschaft-prueft-verbindung-zu-leipzig-100.html",
-      "summary": "Nach dem Fund von Drohnenteilen nahe dem Bundeswehr-Fliegerhorst Wunstorf in Niedersachsen prüft die Bundesanwaltschaft einen möglichen Zusammenhang mit dem Vorfall am Flughafen Leipzig.",
-      "image": "https://bilder.deutschlandfunk.de/f3/d0/9d/b8/f3d09db8-2bdf-4a62-8b37-1cb10ced417e/drohne-138-1920x1920.jpg",
-      "published": "2026-09-18T21:09:05+02:00",
-      "category": "Nachrichten",
-      "score": 71.59,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Drohnenfund: Ermittler prüfen Verbindung zwischen Niedersachsen und Leipzig",
-            "link": "https://www.handelsblatt.com/politik/deutschland/drohnenfund-ermittler-pruefen-verbindung-zwischen-niedersachsen-und-leipzig/100255669.html"
-          },
-          {
-            "source": "golem",
-            "title": "Bundeswehr-Drohnenfund: Bundesanwaltschaft prüft Verbindung zu Leipziger Drohnenvorfall",
-            "link": "https://www.golem.de/news/bundeswehr-drohnenfund-bundesanwaltschaft-prueft-verbindung-zu-leipziger-drohnenvorfall-2609-213202.html"
-          }
-        ]
-      }
+      "score": 72.56
     },
     {
       "id": "deutschlandfunk-0bda69d4f0af2aaf",
@@ -241,9 +236,9 @@
       "link": "https://www.deutschlandfunk.de/eu-kommission-kritisiert-parlamentswahl-scharf-auswaertiges-amt-spricht-von-inszenierung-100.html",
       "summary": "Die Europäische Kommission hat die laufende Parlamentswahl in Russland als undemokratisch kritisiert. Ein Sprecher erklärte in Brüssel, die russischen Behörden hätten die systematische Unterdrückung weiter verstärkt, um jede Opposition auszuschließen.",
       "image": "https://bilder.deutschlandfunk.de/f2/c8/36/b0/f2c836b0-2ee8-4c1a-b1d4-5ffb1c86bed4/duma-wahl-russland-102-1920x1920.jpg",
-      "published": "2026-09-18T21:09:05+02:00",
+      "published": "2026-09-18T21:40:26+02:00",
       "category": "Politik",
-      "score": 69.91
+      "score": 69.93
     },
     {
       "id": "spiegel-3930b3d8a00e56c9",
@@ -255,7 +250,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/29f7d426-c4ac-453d-a1f4-08c3d50c3dcc_w1200_r1.778_fpx59_fpy46.jpg",
       "published": "2026-09-18T20:37:00+02:00",
       "category": "Politik",
-      "score": 69.46
+      "score": 69.05
     }
   ]
 }
