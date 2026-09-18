@@ -1,19 +1,7 @@
 {
-  "generatedAt": "2026-09-18T11:56:23.773538+00:00",
+  "generatedAt": "2026-09-18T16:34:47.430818+00:00",
   "count": 15,
   "articles": [
-    {
-      "id": "handelsblatt-2c516fcf0e162cee",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Bald im Livestream: Haben wir Deutschlands Krise falsch erklärt?",
-      "link": "https://www.handelsblatt.com/journalismus_live/sebastian-matthes-und-monika-schnitzer-live-haben-wir-die-krise-falsch-erklaert/100253855.html",
-      "summary": "Über diese Frage streiten Chefredakteur Sebastian Matthes und Wirtschaftsweise Monika Schnitzer am 30. September ab 17.30 Uhr im Livestream. Stellen Sie den beiden Ihre Fragen.",
-      "image": "https://images.handelsblatt.com/wS6zAsrmnoiw/cover/900/506/0/0/0/0/0.5/0.5/hlive-matthes-schnitzler.jpg",
-      "published": "2026-09-30T04:00:00+00:00",
-      "category": "Wirtschaft",
-      "score": 302.38
-    },
     {
       "id": "tagesschau-b551e0ad87c7461e",
       "source": "tagesschau",
@@ -24,19 +12,14 @@
       "image": "https://images.tagesschau.de/image/26ed43e4-b9fb-4857-8523-27e59eb699c2/AAABoK-UOGk/AAABnSSvrFg/16x9-big/wahlplakate-moskau-104.jpg?width=1920",
       "published": "2026-09-18T07:04:24+02:00",
       "category": "Politik",
-      "score": 99.57,
+      "score": 92.12,
       "coverage": {
-        "sourceCount": 3,
+        "sourceCount": 2,
         "others": [
           {
-            "source": "deutschlandfunk",
-            "title": "Staatsduma - Parlamentswahl in Russland hat begonnen - keine Oppositionskräfte zugelassen",
-            "link": "https://www.deutschlandfunk.de/parlamentswahl-in-russland-hat-begonnen-keine-oppositionskraefte-zugelassen-100.html"
-          },
-          {
             "source": "handelsblatt",
-            "title": "Russland: Erste Parlamentswahlen seit Beginn des Ukraine-Kriegs",
-            "link": "https://www.handelsblatt.com/video/politik/russland-erste-parlamentswahlen-seit-beginn-des-ukraine-kriegs/100255642.html"
+            "title": "Duma-Wahl in Russland: Putins Kriegswahl - Russland wählt neues Parlament",
+            "link": "https://www.handelsblatt.com/politik/international/duma-wahl-in-russland-putins-kriegswahl-russland-waehlt-neues-parlament/100255690.html"
           }
         ]
       }
@@ -51,19 +34,72 @@
       "image": "https://images.tagesschau.de/image/ab7dfac6-5764-43d4-9e46-50e817840bc8/AAABlg3313g/AAABnSSvrFg/16x9-big/nestle-111.jpg?width=1920",
       "published": "2026-09-18T11:49:03+02:00",
       "category": "Politik",
-      "score": 91.57,
+      "score": 86.84,
       "coverage": {
-        "sourceCount": 3,
+        "sourceCount": 2,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "Wirtschaft - Nestlé prüft Maßnahmen gegen russische Zwangsverwaltung",
             "link": "https://www.deutschlandfunk.de/nestl-prueft-massnahmen-gegen-russische-zwangsverwaltung-102.html"
-          },
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-972d7291d4d55b0a",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Ukraine: Israelis pilgern trotz Krieg zu Rosch-ha-Schana-Feier",
+      "link": "https://www.spiegel.de/ausland/ukraine-israelis-pilgern-trotz-krieg-zu-rosch-ha-schana-feier-a-5ca1c979-70be-48d3-91ce-2937e95d9bbb#ref=rss",
+      "summary": "Zum Feiertag Rosch ha-Schana reisen Zehntausende israelische Juden ans Grab eines berühmten Rabbiners in der Ukraine. Wie sich das Land gegen Russland wehren kann, dazu bringen sie eigene Ideen mit.",
+      "image": "https://cdn.prod.www.spiegel.de/images/c25b579f-3795-47d5-8e24-a2fe9bc99a49_w1200_r1.778_fpx64.29_fpy50.jpg",
+      "published": "2026-09-18T17:42:00+02:00",
+      "category": "Politik",
+      "score": 85.27
+    },
+    {
+      "id": "spiegel-72aab3888879e685",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Russland-Wahl: Der Kreml hat Frieden vom Stimmzettel gestrichen",
+      "link": "https://www.spiegel.de/ausland/russland-wahl-der-kreml-hat-frieden-vom-stimmzettel-gestrichen-a-50a45fd8-e39b-48ca-b855-c70b927477ea#ref=rss",
+      "summary": "Viele Russinnen und Russen wünschen sich ein Ende des Ukrainekriegs. Doch die einzige Partei, die für Frieden steht, darf bei den Dumawahlen nicht antreten. Und die kremltreuen Systemparteien überbieten sich in Zurückhaltung.",
+      "image": "https://cdn.prod.www.spiegel.de/images/066eb3c3-20bb-4c2b-b94b-2ba977ff1362_w1200_r1.778_fpx49_fpy47.jpg",
+      "published": "2026-09-18T16:33:00+02:00",
+      "category": "Politik",
+      "score": 84.31
+    },
+    {
+      "id": "handelsblatt-4637cbed54927c2c",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ Ukraine-Krieg +++: Ukraine erhält 3,3 Milliarden Euro an EU-Mitteln für Rüstung",
+      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-moskau-schliesst-konsulat-in-st.-petersburg123/27982126.html",
+      "summary": "Ukraine: Wahlen in Russland sind eine Farce +++ Russische Attacken: Macron will Schutzplan für Infrastruktur +++ Russland: Mehr als 600 ukrainische Drohnen abgefangen +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/aMcroC6lrOrb/cover/900/506/0/0/311/310/0.5/0.5/ukrainische-drohne.jpg",
+      "published": "2026-09-18T15:32:00+00:00",
+      "category": "Politik",
+      "score": 84.13
+    },
+    {
+      "id": "tagesschau-911707770898de53",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Studie: In der EU sinkt die Impfquote bei Kindern",
+      "link": "https://www.tagesschau.de/wissen/gesundheit/impfungen-impfgegner-100.html",
+      "summary": "In vielen EU-Ländern gehen die Impfquoten bei Kindern zurück. Auch Deutschland ist betroffen, wie aus einer Studie hervorgeht. Auslöser war demnach vor allem die Corona-Pandemie. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/727853fa-44d5-407e-96de-ce622bdc0f83/AAABoLMRag8/AAABnSSvrFg/16x9-big/kind-pflaster-100.jpg?width=1920",
+      "published": "2026-09-18T08:27:57+02:00",
+      "category": "Technologie",
+      "score": 83.84,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
           {
-            "source": "handelsblatt",
-            "title": "+++ Ukraine-Krieg +++: Ukraine erhält 3,3 Milliarden Euro an EU-Mitteln für Rüstung",
-            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-moskau-schliesst-konsulat-in-st.-petersburg123/27982126.html"
+            "source": "deutschlandfunk",
+            "title": "Studie - Impfquote bei Kindern sinkt in EU-Ländern - Rückgang seit der Corona-Pandemie",
+            "link": "https://www.deutschlandfunk.de/impfquote-bei-kindern-sinkt-in-eu-laendern-rueckgang-seit-der-corona-pandemie-100.html"
           }
         ]
       }
@@ -78,75 +114,26 @@
       "image": "https://images.handelsblatt.com/4N0Ye12mUJiI/cover/900/506/0/0/0/418/0.5/0.5/ehepaar.jpg",
       "published": "2026-09-19T08:30:00+00:00",
       "category": "Politik",
-      "score": 86.13
+      "score": 82.27
     },
     {
-      "id": "spiegel-a2957bd035cd9f70",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Berlin-Wahl: Wie CDU und Linke ums Rote Rathaus kämpfen",
-      "link": "https://www.spiegel.de/politik/deutschland/berlin-wahl-wie-cdu-und-linke-ums-rote-rathaus-kaempfen-a-52592675-3fbd-41e2-ac58-6d9502ea451d#ref=rss",
-      "summary": "Fast gleichauf in den Umfragen, politisch Welten voneinander entfernt: CDU und Linke kämpfen in Berlin mit völlig unterschiedlichen Rezepten gegen die Wohnungskrise – und ums Rote Rathaus.",
-      "image": "https://cdn.prod.www.spiegel.de/images/5799a11f-bd64-477b-b2eb-49332de1e2a7_w1200_r1.778_fpx49_fpy37.jpg",
-      "published": "2026-09-18T12:00:00+02:00",
-      "category": "Politik",
-      "score": 84.38,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Berlin-Wahl 2026: Richtungswahl in Berlin: Übernimmt die Linke das Rathaus?",
-            "link": "https://www.handelsblatt.com/politik/deutschland/berlin-wahl-2026-richtungswahl-in-berlin-uebernimmt-die-linke-das-rathaus/100255614.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-911707770898de53",
+      "id": "tagesschau-3833e0338df28737",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Studie: In der EU sinkt die Impfquote bei Kindern",
-      "link": "https://www.tagesschau.de/wissen/gesundheit/impfungen-impfgegner-100.html",
-      "summary": "In vielen EU-Ländern gehen die Impfquoten bei Kindern zurück. Auch Deutschland ist betroffen, wie aus einer Studie hervorgeht. Auslöser war demnach vor allem die Corona-Pandemie. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/727853fa-44d5-407e-96de-ce622bdc0f83/AAABoLMRag8/AAABnSSvrFg/16x9-big/kind-pflaster-100.jpg?width=1920",
-      "published": "2026-09-18T08:27:57+02:00",
-      "category": "Technologie",
-      "score": 83.89,
+      "title": "Nach Parlamentswahl in Schweden: Knapper Sieg für Mitte-links-Lager",
+      "link": "https://www.tagesschau.de/ausland/europa/schweden-parlamentswahl-ruecktritt-100.html",
+      "summary": "Der von Ulf Kristersson geführte konservativ-rechte Parteienblock musste bei der Wahl in Schweden eine Niederlage hinnehmen. Der Regierungschef trat zurück. Die bisherige Opposition steht mit Magdalena Andersson vor einer schwierigen Regierungsbildung.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/64730746-7b34-4308-b480-f666c638143a/AAABoLBvvZM/AAABnSSvrFg/16x9-big/magdalena-andersson-110.jpg?width=1920",
+      "published": "2026-09-17T17:13:34+02:00",
+      "category": "Politik",
+      "score": 78.84,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "deutschlandfunk",
-            "title": "Studie - Impfquote bei Kindern sinkt in EU-Ländern - Rückgang seit der Corona-Pandemie",
-            "link": "https://www.deutschlandfunk.de/impfquote-bei-kindern-sinkt-in-eu-laendern-rueckgang-seit-der-corona-pandemie-100.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-87f4b5a699e54924",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Mecklenburg-Vorpommern: Wer könnte nach der Wahl regieren?",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/wahl-mecklenburg-vorpommern-wahlkampf-102.html",
-      "summary": "Die Zuspitzung im Wahlkampf in Mecklenburg-Vorpommern zwischen SPD und AfD droht die kleineren Parteien zu zerreiben. Doch von diesen hängt ab, wie einfach oder kompliziert die Regierungsbildung wird. Von Michael Seidel. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/70ac4f1d-aed9-472f-8506-a5e82b79b209/AAABoGI4ReA/AAABnSSvrFg/16x9-big/landtag-schwerin-104.jpg?width=1920",
-      "published": "2026-09-18T13:23:36+02:00",
-      "category": "Politik",
-      "score": 83.22,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "AfD-Erfolg: Warum es nicht gut ist, rein taktisch zu wählen – Meinung",
-            "link": "https://www.spiegel.de/politik/deutschland/afd-erfolg-weshalb-taktisches-waehlen-keine-loesung-ist-meinung-a-191a2070-62d5-4b93-b3f2-ed7ae03e186f#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Wahlen in Berlin und Schwerin: „Vor Kraft kaum laufen“? - AfD hofft auf nächsten Schub",
-            "link": "https://www.handelsblatt.com/politik/deutschland/wahlen-in-berlin-und-schwerin-vor-kraft-kaum-laufen-afd-hofft-auf-naechsten-schub/100255627.html"
+            "title": "Nach Parlamentswahl - Schwedische Sozialdemokraten erklären Bereitschaft zur Regierungsbildung",
+            "link": "https://www.deutschlandfunk.de/schwedische-sozialdemokraten-erklaeren-bereitschaft-zur-regierungsbildung-104.html"
           }
         ]
       }
@@ -159,9 +146,9 @@
       "link": "https://www.deutschlandfunk.de/polens-ministerpraesident-tusk-rechnet-mit-russischer-eskalation-auch-unterstuetzer-der-ukraine-betr-104.html",
       "summary": "Der polnische Ministerpräsident Tusk rechnet für die kommenden Wochen mit einer weiteren Verstärkung der russischen Angriffe auf die Ukraine.",
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_7/1c/NOVA_71c9755db43fce07813e90f63b264113/craft-12951841-asset-100-1280x1280.jpg",
-      "published": "2026-09-18T13:48:24+02:00",
+      "published": "2026-09-18T18:23:31+02:00",
       "category": "Politik",
-      "score": 77.89
+      "score": 77.84
     },
     {
       "id": "deutschlandfunk-dcf543c27b0fc14f",
@@ -171,9 +158,55 @@
       "link": "https://www.deutschlandfunk.de/mehrere-opfer-bei-gegenseitigen-angriffen-100.html",
       "summary": "Durch einen russischen Angriff sind im Gebiet Schytomyr in der Ukraine mindestens zwei Menschen getötet worden.",
       "image": "https://bilder.deutschlandfunk.de/5a/e4/e7/66/5ae4e766-305b-4152-ab15-315152e3ea9c/urkaine-russland-krieg-angriff-raketen-drohnen-100-1920x1920.jpg",
-      "published": "2026-09-18T13:48:24+02:00",
+      "published": "2026-09-18T18:23:31+02:00",
       "category": "Politik",
-      "score": 77.89
+      "score": 77.84
+    },
+    {
+      "id": "spiegel-8ec2349b0e518dae",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Putins Krieg in der Ukraine: Uno-Bericht dokumentiert mehr als tausend Fälle sexueller Gewalt",
+      "link": "https://www.spiegel.de/ausland/putins-krieg-in-der-ukraine-uno-bericht-dokumentiert-mehr-als-tausend-faelle-sexueller-gewalt-a-d1d9d2e5-3a86-42c5-8fa1-397351ecac4c#ref=rss",
+      "summary": "Die Berichterstatter sprechen selbst von einem »Bruchteil der Realität«: Uno-Vertreter haben zahlreiche Fälle sexualisierter Gewalt in der Ukraine zusammengetragen. Ein Großteil wird den russischen Besatzern zugeordnet.",
+      "image": "https://cdn.prod.www.spiegel.de/images/5b35298a-22fa-4cc1-99c6-f07b2f66152a_w1200_r1.778_fpx91_fpy9.jpg",
+      "published": "2026-09-18T16:08:00+02:00",
+      "category": "Politik",
+      "score": 75.96
+    },
+    {
+      "id": "handelsblatt-c0325be7003435ac",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Russland: Kandidatin von ausgeschlossener liberaler Partei tritt trotzdem an",
+      "link": "https://www.handelsblatt.com/video/politik/russland-kandidatin-von-ausgeschlossener-liberaler-partei-tritt-trotzdem-an/100255708.html",
+      "summary": "Die Anti-Kriegs-Partei Jabloko wurde im August von einem russischen Gericht von der Parlamentswahl ausgeschlossen. Das 22‑jährige Mitglied Polina Lermant kandidiert dennoch für einen Sitz in der Duma in Moskau – trotz möglicher Inhaftierung.",
+      "image": "https://images.handelsblatt.com/PrLWluArLrQC/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
+      "published": "2026-09-18T14:26:00+00:00",
+      "category": "Politik",
+      "score": 75.21
+    },
+    {
+      "id": "deutschlandfunk-d6745f4578c6c317",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Folge des Iran-Kriegs - Frachtraten von China in die USA gestiegen",
+      "link": "https://www.deutschlandfunk.de/frachtraten-von-china-in-die-usa-gestiegen-100.html",
+      "summary": "Die Kosten für den Transport von Seefracht zwischen China und der US-Ostküste sind infolge des Iran-Kriegs deutlich gestiegen. Einen Seecontainer zu verschicken, kostet derzeit viermal so viel wie vor Beginn des Konflikts.",
+      "image": null,
+      "published": "2026-09-18T18:23:31+02:00",
+      "category": "Nachrichten",
+      "score": 74.84,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ Iran-Krieg +++: Italien geleitet Handelsschiff mit Fregatte durch Meerenge ins Rote Meer",
+            "link": "https://www.handelsblatt.com/politik/international/iran-krieg-italien-geleitet-handelsschiff-mit-fregatte-durch-meerenge-ins-rote-meer/100136895.html"
+          }
+        ]
+      }
     },
     {
       "id": "handelsblatt-47ba61d44e753d98",
@@ -185,80 +218,7 @@
       "image": "https://images.handelsblatt.com/T6eDebZ1QVEv/cover/900/506/0/0/110/109/0.5/0.5/friedrich-merz.jpg",
       "published": "2026-09-18T11:34:18+00:00",
       "category": "Politik",
-      "score": 76.69
-    },
-    {
-      "id": "handelsblatt-53d273d1053e77ee",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Konjunktur: Merz rechnet mit Wachstum von 1,3 Prozent in diesem Jahr",
-      "link": "https://www.handelsblatt.com/video/politik/konjunktur-merz-rechnet-mit-wachstum-von-13-prozent-in-diesem-jahr/100255643.html",
-      "summary": "Der Bundeskanzler hat am Donnerstag auf einer Wahlkampfveranstaltung in Berlin die Arbeit der schwarz-roten Bundesregierung verteidigt. „Trotz mancher Kritik können wir heute sagen: Wir sind auf dem Weg raus aus der Krise“, sagte Merz.",
-      "image": "https://images.handelsblatt.com/vV5OTm8HABBv/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
-      "published": "2026-09-18T10:29:09+00:00",
-      "category": "Politik",
-      "score": 75.79
-    },
-    {
-      "id": "spiegel-f67e9b837732ea76",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Iran-Krieg: Erzeugerpreise in Deutschland steigen stärker als erwartet",
-      "link": "https://www.spiegel.de/wirtschaft/service/irankrieg-erzeugerpreise-in-deutschland-steigen-staerker-als-erwartet-oelpreise-als-treiber-a-431a1495-ad8b-484d-8143-417f1c0550cf#ref=rss",
-      "summary": "Erzeugerpreise gelten als Barometer für die Inflation und können damit Hinweise geben auf die wirtschaftliche Stabilität des Landes. Neueste Daten zeigen: Sie steigen hierzulande weiter – und schneller als gedacht.",
-      "image": "https://cdn.prod.www.spiegel.de/images/e241c401-4d40-4540-a224-35d68f2f1732_w1200_r1.778_fpx66.62_fpy49.88.jpg",
-      "published": "2026-09-18T09:53:00+02:00",
-      "category": "Wirtschaft",
-      "score": 74.62
-    },
-    {
-      "id": "spiegel-82d4f1939ebd5969",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ex-OpenAI-Forscher fordert Stopp: »Wir müssen die KI-Entwicklung im Wesentlichen abschalten«",
-      "link": "https://www.spiegel.de/wirtschaft/ex-openai-forscher-fordert-stopp-wir-muessen-die-ki-entwicklung-im-wesentlichen-abschalten-a-4890e49b-7fd4-4015-b786-3209140a14f6#ref=rss",
-      "summary": "Der frühere OpenAI-Mitarbeiter Daniel Kokotajlo fordert einen sofortigen Entwicklungsstopp der Technologie. Er warnt vor einer Super-KI, die nicht mehr zu kontrollieren ist – und der Gefahr eines dritten Weltkriegs.",
-      "image": "https://cdn.prod.www.spiegel.de/images/62d6d07b-6210-454a-84fe-f3dca7bc3f30_w1200_r1.778_fpx50_fpy44.jpg",
-      "published": "2026-09-18T08:28:00+02:00",
-      "category": "Technologie",
-      "score": 72.56,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "golem",
-            "title": "KI-Forscher Kokotajlo: \"Müssen die KI-Entwicklung im Wesentlichen abschalten\"",
-            "link": "https://www.golem.de/news/ki-forscher-kokotajlo-muessen-die-ki-entwicklung-im-wesentlichen-abschalten-2609-213191.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-604f4cb9efc0dd1b",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Terrorismus - Mindestens 16 Tote bei Anschlag in Pakistan",
-      "link": "https://www.deutschlandfunk.de/mindestens-16-tote-bei-anschlag-in-pakistan-102.html",
-      "summary": "In Pakistan sind bei einem Bombenanschlag mindestens 16 Menschen getötet worden.",
-      "image": "https://bilder.deutschlandfunk.de/e1/35/07/24/e1350724-15b6-4872-a814-5e45b3b50241/pakistan-anschlag-bombe-islamabad-schiiten-gemeindehaus-100-1920x1920.jpg",
-      "published": "2026-09-18T13:48:24+02:00",
-      "category": "Technologie",
-      "score": 71.57,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Pakistan: Mindestens sieben Tote bei Explosion – Taliban im Verdacht",
-            "link": "https://www.spiegel.de/ausland/pakistan-mindestens-sieben-tote-bei-explosion-taliban-im-verdacht-a-9c6f2a0b-8595-4587-a56c-631f1e876d56#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Explosionen: Mindestens 16 Tote bei Anschlag mit Autobombe in Pakistan",
-            "link": "https://www.handelsblatt.com/politik/international/explosionen-mindestens-16-tote-bei-anschlag-mit-autobombe-in-pakistan/100255633.html"
-          }
-        ]
-      }
+      "score": 72.83
     },
     {
       "id": "golem-812346f0d2bcda48",
@@ -270,7 +230,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213195&amp;page=1&amp;ts=1789729321",
       "published": "2026-09-18T13:02:01+02:00",
       "category": "Politik",
-      "score": 67.24
+      "score": 63.38
     }
   ]
 }
