@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-09-18T06:46:57.767842+00:00",
+  "generatedAt": "2026-09-18T11:29:31.963232+00:00",
   "count": 15,
   "articles": [
+    {
+      "id": "handelsblatt-2c516fcf0e162cee",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Bald im Livestream: Haben wir Deutschlands Krise falsch erklärt?",
+      "link": "https://www.handelsblatt.com/journalismus_live/sebastian-matthes-und-monika-schnitzer-live-haben-wir-die-krise-falsch-erklaert/100253855.html",
+      "summary": "Über diese Frage streiten Chefredakteur Sebastian Matthes und Wirtschaftsweise Monika Schnitzer am 30. September ab 17.30 Uhr im Livestream. Stellen Sie den beiden Ihre Fragen.",
+      "image": "https://images.handelsblatt.com/wS6zAsrmnoiw/cover/900/506/0/0/0/0/0.5/0.5/hlive-matthes-schnitzler.jpg",
+      "published": "2026-09-30T04:00:00+00:00",
+      "category": "Wirtschaft",
+      "score": 302.76
+    },
     {
       "id": "tagesschau-b551e0ad87c7461e",
       "source": "tagesschau",
@@ -12,7 +24,7 @@
       "image": "https://images.tagesschau.de/image/26ed43e4-b9fb-4857-8523-27e59eb699c2/AAABoK-UOGk/AAABnSSvrFg/16x9-big/wahlplakate-moskau-104.jpg?width=1920",
       "published": "2026-09-18T07:04:24+02:00",
       "category": "Politik",
-      "score": 99.47,
+      "score": 99.48,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -23,8 +35,35 @@
           },
           {
             "source": "handelsblatt",
-            "title": "Russland: Wie Putin seine Zwei-Drittel-Mehrheit bei der Duma-Wahl sichert",
-            "link": "https://www.handelsblatt.com/politik/international/duma-wahl-wie-putin-seine-zwei-drittel-mehrheit-sichert/100254970.html"
+            "title": "Russland: Erste Parlamentswahlen seit Beginn des Ukraine-Kriegs",
+            "link": "https://www.handelsblatt.com/video/politik/russland-erste-parlamentswahlen-seit-beginn-des-ukraine-kriegs/100255642.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-aa348382da21508e",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Putin stellt Nestlé in Russland unter Zwangsverwaltung",
+      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/nestle-russland-100.html",
+      "summary": "Auch nach Ausbruch des Ukraine-Krieges produzierte Nestlé weiter in Russland. Nun stellt Präsident Putin das Russland-Geschäft des Schweizer Lebensmittelkonzerns per Dekret unter Zwangsverwaltung. Es ist nicht der erste Konzern, dem das passiert.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/ab7dfac6-5764-43d4-9e46-50e817840bc8/AAABlg3313g/AAABnSSvrFg/16x9-big/nestle-111.jpg?width=1920",
+      "published": "2026-09-18T11:49:03+02:00",
+      "category": "Politik",
+      "score": 91.48,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Wirtschaft - Nestlé prüft Maßnahmen gegen russische Zwangsverwaltung",
+            "link": "https://www.deutschlandfunk.de/nestl-prueft-massnahmen-gegen-russische-zwangsverwaltung-102.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "+++ Ukraine-Krieg +++: Ukraine erhält 3,3 Milliarden Euro an EU-Mitteln für Rüstung",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-moskau-schliesst-konsulat-in-st.-petersburg123/27982126.html"
           }
         ]
       }
@@ -39,7 +78,29 @@
       "image": "https://images.handelsblatt.com/4N0Ye12mUJiI/cover/900/506/0/0/0/418/0.5/0.5/ehepaar.jpg",
       "published": "2026-09-19T08:30:00+00:00",
       "category": "Politik",
-      "score": 90.43
+      "score": 86.51
+    },
+    {
+      "id": "spiegel-a2957bd035cd9f70",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Berlin-Wahl: Wie CDU und Linke ums Rote Rathaus kämpfen",
+      "link": "https://www.spiegel.de/politik/deutschland/berlin-wahl-wie-cdu-und-linke-ums-rote-rathaus-kaempfen-a-52592675-3fbd-41e2-ac58-6d9502ea451d#ref=rss",
+      "summary": "Fast gleichauf in den Umfragen, politisch Welten voneinander entfernt: CDU und Linke kämpfen in Berlin mit völlig unterschiedlichen Rezepten gegen die Wohnungskrise – und ums Rote Rathaus.",
+      "image": "https://cdn.prod.www.spiegel.de/images/5799a11f-bd64-477b-b2eb-49332de1e2a7_w1200_r1.778_fpx49_fpy37.jpg",
+      "published": "2026-09-18T12:00:00+02:00",
+      "category": "Politik",
+      "score": 84.76,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Berlin-Wahl 2026: Richtungswahl in Berlin: Übernimmt die Linke das Rathaus?",
+            "link": "https://www.handelsblatt.com/politik/deutschland/berlin-wahl-2026-richtungswahl-in-berlin-uebernimmt-die-linke-das-rathaus/100255614.html"
+          }
+        ]
+      }
     },
     {
       "id": "tagesschau-911707770898de53",
@@ -51,58 +112,41 @@
       "image": "https://images.tagesschau.de/image/727853fa-44d5-407e-96de-ce622bdc0f83/AAABoLMRag8/AAABnSSvrFg/16x9-big/kind-pflaster-100.jpg?width=1920",
       "published": "2026-09-18T08:27:57+02:00",
       "category": "Technologie",
-      "score": 83.74,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Impfungen für Kinder: In vielen EU-Ländern sinken die Impfquoten",
-            "link": "https://www.spiegel.de/gesundheit/impfungen-fuer-kinder-in-vielen-eu-laendern-sinken-die-impfquoten-a-0d3b913a-076e-4380-823e-fe253bbe3684#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-50e6a3a9b4c4476d",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Polizei registriert Hunderte Straftaten im Berliner Wahlkampf",
-      "link": "https://www.tagesschau.de/inland/regional/berlin/straftaten-berliner-wahlkampf-100.html",
-      "summary": "Im Berliner Wahlkampf hat die Polizei seit Anfang August mehr als 1.200 beschädigte Wahlplakate und 39 Angriffe auf Parteimitglieder und Wahlkämpfer registriert. Besonders häufig betroffen war die AfD. Auch andere Parteien meldeten Übergriffe.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/1c1d2443-daac-4a68-87a4-5ff334cbff69/AAABoLAup3E/AAABnSSvrFg/16x9-big/rbb-symbolbild-ein-polizeiauto-rast-ueber-eine-strasse-zu-einem-einsatz-100.jpg?width=1920",
-      "published": "2026-09-18T04:01:20+02:00",
-      "category": "Politik",
-      "score": 78.79,
+      "score": 83.8,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "deutschlandfunk",
-            "title": "rbb-Recherche - Hunderte Straftaten im Berliner Wahlkampf - die meisten richteten sich gegen die AfD",
-            "link": "https://www.deutschlandfunk.de/hunderte-straftaten-im-berliner-wahlkampf-die-meisten-richteten-sich-gegen-die-afd-100.html"
+            "title": "Studie - Impfquote bei Kindern sinkt in EU-Ländern - Rückgang seit der Corona-Pandemie",
+            "link": "https://www.deutschlandfunk.de/impfquote-bei-kindern-sinkt-in-eu-laendern-rueckgang-seit-der-corona-pandemie-100.html"
           }
         ]
       }
     },
     {
-      "id": "deutschlandfunk-4244dc5333c5ecbd",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Weißes Haus - USA weisen UNO-Bericht über mögliche Kriegsverbrechen im Iran zurück",
-      "link": "https://www.deutschlandfunk.de/usa-weisen-uno-bericht-ueber-moegliche-kriegsverbrechen-im-iran-zurueck-102.html",
-      "summary": "Die US-Regierung hat den Bericht einer Untersuchungskommission des UNO-Menschenrechtsrates zu möglichen Kriegsverbrechen des US-Militärs im Iran zurückgewiesen.",
-      "image": "https://bilder.deutschlandfunk.de/1b/ee/43/9f/1bee439f-a69e-48be-a56e-912d2a3a1a4a/usa-weisses-haus-regierung-100-1920x1920.jpg",
-      "published": "2026-09-18T08:31:50+02:00",
+      "id": "tagesschau-87f4b5a699e54924",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Mecklenburg-Vorpommern: Wer könnte nach der Wahl regieren?",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/wahl-mecklenburg-vorpommern-wahlkampf-102.html",
+      "summary": "Die Zuspitzung im Wahlkampf in Mecklenburg-Vorpommern zwischen SPD und AfD droht die kleineren Parteien zu zerreiben. Doch von diesen hängt ab, wie einfach oder kompliziert die Regierungsbildung wird. Von Michael Seidel. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/70ac4f1d-aed9-472f-8506-a5e82b79b209/AAABoGI4ReA/AAABnSSvrFg/16x9-big/landtag-schwerin-104.jpg?width=1920",
+      "published": "2026-09-18T13:23:36+02:00",
       "category": "Politik",
-      "score": 77.79,
+      "score": 83.6,
       "coverage": {
-        "sourceCount": 2,
+        "sourceCount": 3,
         "others": [
           {
+            "source": "spiegel",
+            "title": "AfD-Erfolg: Warum es nicht gut ist, rein taktisch zu wählen – Meinung",
+            "link": "https://www.spiegel.de/politik/deutschland/afd-erfolg-weshalb-taktisches-waehlen-keine-loesung-ist-meinung-a-191a2070-62d5-4b93-b3f2-ed7ae03e186f#ref=rss"
+          },
+          {
             "source": "handelsblatt",
-            "title": "+++ Iran-Krieg +++: USA machen Weg für möglichen F-35-Verkauf an Saudi-Arabien frei",
-            "link": "https://www.handelsblatt.com/politik/international/iran-krieg-usa-machen-weg-fuer-moeglichen-f-35-verkauf-an-saudi-arabien-frei/100136895.html"
+            "title": "Wahlen in Berlin und Schwerin: „Vor Kraft kaum laufen“? - AfD hofft auf nächsten Schub",
+            "link": "https://www.handelsblatt.com/politik/deutschland/wahlen-in-berlin-und-schwerin-vor-kraft-kaum-laufen-afd-hofft-auf-naechsten-schub/100255627.html"
           }
         ]
       }
@@ -115,137 +159,118 @@
       "link": "https://www.deutschlandfunk.de/polens-ministerpraesident-tusk-rechnet-mit-russischer-eskalation-auch-unterstuetzer-der-ukraine-betr-104.html",
       "summary": "Der polnische Ministerpräsident Tusk rechnet für die kommenden Wochen mit einer weiteren Verstärkung der russischen Angriffe auf die Ukraine.",
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_7/1c/NOVA_71c9755db43fce07813e90f63b264113/craft-12951841-asset-100-1280x1280.jpg",
-      "published": "2026-09-18T08:31:50+02:00",
+      "published": "2026-09-18T13:14:48+02:00",
       "category": "Politik",
-      "score": 77.79
+      "score": 77.8
     },
     {
-      "id": "handelsblatt-504f0982426da8e3",
+      "id": "deutschlandfunk-dcf543c27b0fc14f",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Ukraine-Krieg - Mehrere Opfer bei gegenseitigen Angriffen",
+      "link": "https://www.deutschlandfunk.de/mehrere-opfer-bei-gegenseitigen-angriffen-100.html",
+      "summary": "Durch einen russischen Angriff sind im Gebiet Schytomyr in der Ukraine mindestens zwei Menschen getötet worden.",
+      "image": "https://bilder.deutschlandfunk.de/5a/e4/e7/66/5ae4e766-305b-4152-ab15-315152e3ea9c/urkaine-russland-krieg-angriff-raketen-drohnen-100-1920x1920.jpg",
+      "published": "2026-09-18T13:14:48+02:00",
+      "category": "Politik",
+      "score": 77.8
+    },
+    {
+      "id": "handelsblatt-53d273d1053e77ee",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Außenpolitik: Merz zweifelt an Trump-Regierung – „Unbedingte transatlantische Freundschaft ist vorbei“",
-      "link": "https://www.handelsblatt.com/politik/deutschland/merz-unbedingte-transatlantische-freundschaft-ist-fuer-laengere-zeit-vorbei/100255557.html",
-      "summary": "Bei einer Wahlkampfrede im Konrad-Adenauer-Haus zweifelt der Kanzler am Verhältnis zu den USA. Er sieht neue Zeiten für die transatlantischen Beziehungen anbrechen.",
-      "image": "https://images.handelsblatt.com/bnmw6tbQSRqn/cover/900/506/0/0/241/241/0.5/0.5/friedrich-merz-cdu.jpg",
-      "published": "2026-09-18T06:14:26+00:00",
+      "title": "Konjunktur: Merz rechnet mit Wachstum von 1,3 Prozent in diesem Jahr",
+      "link": "https://www.handelsblatt.com/video/politik/konjunktur-merz-rechnet-mit-wachstum-von-13-prozent-in-diesem-jahr/100255643.html",
+      "summary": "Der Bundeskanzler hat am Donnerstag auf einer Wahlkampfveranstaltung in Berlin die Arbeit der schwarz-roten Bundesregierung verteidigt. „Trotz mancher Kritik können wir heute sagen: Wir sind auf dem Weg raus aus der Krise“, sagte Merz.",
+      "image": "https://images.handelsblatt.com/vV5OTm8HABBv/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
+      "published": "2026-09-18T10:29:09+00:00",
       "category": "Politik",
-      "score": 76.55
+      "score": 76.16
     },
     {
-      "id": "handelsblatt-78198cc14cd62801",
+      "id": "handelsblatt-467541671dde7754",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "+++ USA +++: Demokraten wollen nach der Wahl gegen Trump-Familie und Musk vorgehen",
-      "link": "https://www.handelsblatt.com/politik/international/usa-demokraten-wollen-nach-der-wahl-gegen-trump-familie-vorgehen/29669594.html",
-      "summary": "US-Post stoppt Arbeit an umstrittenem Computersystem für Briefwahl +++ Trump zieht überraschend Toppersonalie zu ICE-Behörde zurück +++ Trump will Kennedy Center schließen +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/ce29S6r8vXam/cover/900/506/0/0/104/104/0.5/0.5/robert-garcia.jpg",
-      "published": "2026-09-18T04:50:24+00:00",
-      "category": "Politik",
-      "score": 75.38
+      "title": "Teures Autofahren: Dieselpreis klettert weiter - Super E10 minimal günstiger",
+      "link": "https://www.handelsblatt.com/politik/deutschland/teures-autofahren-dieselpreis-klettert-weiter-super-e10-minimal-guenstiger/100255613.html",
+      "summary": "Der Iran-Krieg treibt die Inflation - für Autofahrerinnen und -fahrer täglich an den Zapfsäulen abzulesen.",
+      "image": "https://images.handelsblatt.com/nxPFNhKK0qkq/cover/900/506/0/0/192/192/0.5/0.5/spritpreise.jpg",
+      "published": "2026-09-18T09:39:18+00:00",
+      "category": "Wirtschaft",
+      "score": 75.47
     },
     {
-      "id": "spiegel-a476fb2785a6c3b6",
+      "id": "spiegel-f67e9b837732ea76",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "News: NSDAP-Archiv - Was taten eigentlich SPIEGEL-Redakteure unter Hitler?",
-      "link": "https://www.spiegel.de/politik/deutschland/news-alt-nazis-beim-fruehen-spiegel-scheinwahl-in-russland-ki-forscher-warnt-vor-drittem-weltkrieg-a-afca1dc1-88e4-4350-9244-88aa2240998a#ref=rss",
-      "summary": "Beim SPIEGEL gab es früher mehr Altnazis als bisher bekannt. In Russland beginnt eine Wahl, die keine ist. Und ein führender KI-Forscher warnt vor dem Dritten Weltkrieg. Das ist die Lage am Freitagmorgen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/0c0fff9a-0001-0004-0000-000000404086_w1200_r1.778_fpx49.86_fpy50.25.jpg",
-      "published": "2026-09-18T05:33:00+02:00",
-      "category": "Politik",
-      "score": 75.31
+      "title": "Iran-Krieg: Erzeugerpreise in Deutschland steigen stärker als erwartet",
+      "link": "https://www.spiegel.de/wirtschaft/service/irankrieg-erzeugerpreise-in-deutschland-steigen-staerker-als-erwartet-oelpreise-als-treiber-a-431a1495-ad8b-484d-8143-417f1c0550cf#ref=rss",
+      "summary": "Erzeugerpreise gelten als Barometer für die Inflation und können damit Hinweise geben auf die wirtschaftliche Stabilität des Landes. Neueste Daten zeigen: Sie steigen hierzulande weiter – und schneller als gedacht.",
+      "image": "https://cdn.prod.www.spiegel.de/images/e241c401-4d40-4540-a224-35d68f2f1732_w1200_r1.778_fpx66.62_fpy49.88.jpg",
+      "published": "2026-09-18T09:53:00+02:00",
+      "category": "Wirtschaft",
+      "score": 74.99
     },
     {
-      "id": "spiegel-227070cd66a853ad",
+      "id": "spiegel-82d4f1939ebd5969",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Russland: Wladimir Putin stellt Nestlé unter Zwangsverwaltung",
-      "link": "https://www.spiegel.de/wirtschaft/unternehmen/russland-wladimir-putin-stellt-nestle-unter-zwangsverwaltung-a-351467f8-e8c8-49bf-a22f-27caa82a7923#ref=rss",
-      "summary": "Nach dem Überfall auf die Ukraine verließen viele internationale Konzerne Russland. Nestlé blieb und verliert nun den Zugriff auf sein Geschäft in dem Land – angeblich temporär. Betroffen ist auch eine französische Supermarktkette.",
-      "image": "https://cdn.prod.www.spiegel.de/images/0ac344cd-01bb-4306-bf1e-0a9b443b06b7_w1200_r1.778_fpx97_fpy97.jpg",
-      "published": "2026-09-17T21:44:00+02:00",
-      "category": "Politik",
-      "score": 74.67,
+      "title": "Ex-OpenAI-Forscher fordert Stopp: »Wir müssen die KI-Entwicklung im Wesentlichen abschalten«",
+      "link": "https://www.spiegel.de/wirtschaft/ex-openai-forscher-fordert-stopp-wir-muessen-die-ki-entwicklung-im-wesentlichen-abschalten-a-4890e49b-7fd4-4015-b786-3209140a14f6#ref=rss",
+      "summary": "Der frühere OpenAI-Mitarbeiter Daniel Kokotajlo fordert einen sofortigen Entwicklungsstopp der Technologie. Er warnt vor einer Super-KI, die nicht mehr zu kontrollieren ist – und der Gefahr eines dritten Weltkriegs.",
+      "image": "https://cdn.prod.www.spiegel.de/images/62d6d07b-6210-454a-84fe-f3dca7bc3f30_w1200_r1.778_fpx50_fpy44.jpg",
+      "published": "2026-09-18T08:28:00+02:00",
+      "category": "Technologie",
+      "score": 72.94,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "handelsblatt",
-            "title": "+++ Ukraine-Krieg +++: Trump stellt Polen Stützpunkt der US-Armee in Aussicht",
-            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-moskau-schliesst-konsulat-in-st.-petersburg123/27982126.html"
+            "source": "golem",
+            "title": "KI-Forscher Kokotajlo: \"Müssen die KI-Entwicklung im Wesentlichen abschalten\"",
+            "link": "https://www.golem.de/news/ki-forscher-kokotajlo-muessen-die-ki-entwicklung-im-wesentlichen-abschalten-2609-213191.html"
           }
         ]
       }
     },
     {
-      "id": "handelsblatt-6c12f50fb9912165",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Klimawandel und seine Folgen: Alpen im Wandel: Wie Bergfreunde mit neuen Risiken umgehen",
-      "link": "https://www.handelsblatt.com/unternehmen/dienstleister/klimawandel-und-seine-folgen-alpen-im-wandel-wie-bergfreunde-mit-neuen-risiken-umgehen/100255531.html",
-      "summary": "Eine Sturzflut vom Ausmaß wie in Nepal ist in den Alpen kaum denkbar – doch Fels- und Gletscherstürze und andere Gefahren nehmen auch dort zu. Was Wanderer beachten sollten und wann Umkehren klug ist.",
-      "image": "https://images.handelsblatt.com/nAEJuLp534Jx/cover/900/506/0/0/107/106/0.5/0.5/zwei-personen-auf-einer-bergwanderung.jpg",
-      "published": "2026-09-18T03:34:05+00:00",
-      "category": "Wirtschaft",
-      "score": 74.32
-    },
-    {
-      "id": "deutschlandfunk-612dd2a888faafed",
+      "id": "deutschlandfunk-604f4cb9efc0dd1b",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "USA-Reise - Verteidigungsminister Pistorius nimmt in Texas bestellten F35-Kampfjet in Empfang",
-      "link": "https://www.deutschlandfunk.de/verteidigungsminister-pistorius-nimmt-in-texas-bestellten-f35-kampfjet-in-empfang-100.html",
-      "summary": "Zum Abschluss ⁠seiner mehrtägigen USA-Reise nimmt Bundesverteidigungsminister Pistorius heute den ersten Kampfjet vom Typ F-35 für die deutsche Luftwaffe in Empfang.",
-      "image": "https://bilder.deutschlandfunk.de/43/8a/33/62/438a3362-3b9e-4756-8a06-c6514a42c191/usa-kampfjet-100-1920x1920.jpg",
-      "published": "2026-09-18T08:31:50+02:00",
-      "category": "Politik",
-      "score": 69.79,
+      "title": "Terrorismus - Mindestens 16 Tote bei Anschlag in Pakistan",
+      "link": "https://www.deutschlandfunk.de/mindestens-16-tote-bei-anschlag-in-pakistan-102.html",
+      "summary": "In Pakistan sind bei einem Bombenanschlag mindestens 16 Menschen getötet worden.",
+      "image": "https://bilder.deutschlandfunk.de/e1/35/07/24/e1350724-15b6-4872-a814-5e45b3b50241/pakistan-anschlag-bombe-islamabad-schiiten-gemeindehaus-100-1920x1920.jpg",
+      "published": "2026-09-18T13:14:48+02:00",
+      "category": "Technologie",
+      "score": 71.48,
       "coverage": {
-        "sourceCount": 2,
+        "sourceCount": 3,
         "others": [
           {
             "source": "spiegel",
-            "title": "Bundeswehr bekommt ersten F-35-Tarnkappenflieger",
-            "link": "https://www.spiegel.de/politik/bundeswehr-bekommt-ersten-f-35-tarnkappen-flieger-a-d44e9029-34db-4527-a9bc-7c9940d5921f#ref=rss"
+            "title": "Pakistan: Mindestens sieben Tote bei Explosion – Taliban im Verdacht",
+            "link": "https://www.spiegel.de/ausland/pakistan-mindestens-sieben-tote-bei-explosion-taliban-im-verdacht-a-9c6f2a0b-8595-4587-a56c-631f1e876d56#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Explosionen: Mindestens 16 Tote bei Anschlag mit Autobombe in Pakistan",
+            "link": "https://www.handelsblatt.com/politik/international/explosionen-mindestens-16-tote-bei-anschlag-mit-autobombe-in-pakistan/100255633.html"
           }
         ]
       }
     },
     {
-      "id": "deutschlandfunk-7d86cab77c99f09e",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Bundestag - Abgeordnete bringen Antrag für Freiwilligkeit bei Organspende ein",
-      "link": "https://www.deutschlandfunk.de/abgeordnete-bringen-antrag-fuer-freiwilligkeit-bei-organspende-ein-106.html",
-      "summary": "In der Debatte um Organspenden haben die Gegner einer Widerspruchslösung ihren Gruppenantrag in den Bundestag eingebracht.",
-      "image": "https://bilder.deutschlandfunk.de/23/fa/5f/31/23fa5f31-acd3-470e-af80-4e13c70b979c/organspende-ausweis-102-1920x1920.jpg",
-      "published": "2026-09-18T08:31:50+02:00",
-      "category": "Politik",
-      "score": 69.79
-    },
-    {
-      "id": "spiegel-e07673d129d5a9cc",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Midterms: Republikanische Abgeordnete María Elvira Salazar stellt sich gegen Präsident Donald TrumpTrump",
-      "link": "https://www.spiegel.de/ausland/midterms-republikanische-abgeordnete-maria-elvira-salazar-stellt-sich-gegen-praesident-donald-trumptrump-a-0a319587-45c4-4a71-844e-a765bba63264#ref=rss",
-      "summary": "Es kommt selten vor, dass sich Republikaner gegen ihren eigenen Präsidenten stellen. María Elvira Salazar hat es gewagt: wohl aus Angst um das eigene politische Überleben.",
-      "image": "https://cdn.prod.www.spiegel.de/images/d5f60198-3d4f-4a27-a2be-ca24fa7d3234_w1200_r1.778_fpx61.98_fpy48.99.jpg",
-      "published": "2026-09-18T07:53:00+02:00",
-      "category": "Politik",
-      "score": 69.25
-    },
-    {
-      "id": "golem-8341f8807049b7f1",
+      "id": "golem-812346f0d2bcda48",
       "source": "golem",
       "sourceWeight": 0.85,
-      "title": "Kryptozahlungen: Orlen verliert Hunderte Millionen bei Ölkauf",
-      "link": "https://www.golem.de/news/kryptozahlungen-orlen-verliert-hunderte-millionen-bei-oelkauf-2609-213179.html",
-      "summary": "Orlen will venezolanisches Öl kaufen und zahlt Millionen im Voraus. Doch große Teile verschwinden in einem Geflecht aus Kryptohändlern. ( Unternehmen , Wirtschaft )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213179&amp;page=1&amp;ts=1789713782",
-      "published": "2026-09-18T08:43:02+02:00",
-      "category": "Wirtschaft",
-      "score": 59.95
+      "title": "Zivil trifft Militär: Trump schlägt eine US-Weltraumakademie vor",
+      "link": "https://www.golem.de/news/zivil-trifft-militaer-trump-schlaegt-eine-us-weltraumakademie-vor-2609-213195.html",
+      "summary": "Die Gründung einer neuen Raumfahrtakademie könnte die Grenzen zwischen ziviler und militärischer Raumfahrt in den USA verwischen. ( Raumfahrt , Nasa )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213195&amp;page=1&amp;ts=1789729321",
+      "published": "2026-09-18T13:02:01+02:00",
+      "category": "Politik",
+      "score": 67.62
     }
   ]
 }
