@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T00:44:05.626186+00:00",
+  "generatedAt": "2026-09-19T01:18:19.453244+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,39 @@
       "image": "https://images.handelsblatt.com/TeBSkL93TFZR/cover/900/506/0/0/137/137/0.5/0.5/russian-president-vladimir-putin-chairs-a-meeting-of-the-military-industrial-commission-in-moscow-f.jpg",
       "published": "2026-09-18T23:52:00+00:00",
       "category": "Politik",
-      "score": 92.28
+      "score": 91.8
+    },
+    {
+      "id": "tagesschau-c59f125b4d6d0742",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Dänemark und USA verkünden Durchbruch im Grönland-Streit",
+      "link": "https://www.tagesschau.de/ausland/amerika/abkommen-usa-daenemark-groenland-100.html",
+      "summary": "US-Präsident Trump sorgte mit seinen Ansprüchen auf Grönland für Spannungen innerhalb der NATO. Nun wollen die USA, Dänemark und Grönland ein Abkommen schließen. Laut Grönlands Regierungschef nützt es allen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/d6ef7c9f-5cc7-4b1b-ac6b-9a3ea99ce004/AAABoLbNKng/AAABnSSvrFg/16x9-big/us-konsulat-nuuk-100.jpg?width=1920",
+      "published": "2026-09-19T01:54:48+02:00",
+      "category": "Politik",
+      "score": 86.73,
+      "coverage": {
+        "sourceCount": 4,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Nach langem Streit - Einigung mit Dänemark und Grönland: USA wollen Militärpräsenz auf Grönland ausweiten",
+            "link": "https://www.deutschlandfunk.de/einigung-mit-daenemark-und-groenland-usa-wollen-militaerpraesenz-auf-groenland-ausweiten-100.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "Dänemark und USA verkünden Einigung im Grönland-Streit",
+            "link": "https://www.spiegel.de/ausland/daenemark-und-usa-verkuenden-einigung-im-groenland-streit-a-3b1862ed-e331-4dde-8265-e5ec805254b6#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Nach Streit mit Trump: Ist der Grönland-Konflikt jetzt beigelegt?",
+            "link": "https://www.handelsblatt.com/politik/international/nach-streit-mit-trump-ist-der-groenland-konflikt-jetzt-beigelegt/100255774.html"
+          }
+        ]
+      }
     },
     {
       "id": "tagesschau-9330859257c6859f",
@@ -24,7 +56,7 @@
       "image": "https://images.tagesschau.de/image/8290304e-7574-48b2-93bc-e2f5cc1e23b9/AAABoLZYWnk/AAABnSSvrFg/16x9-big/trump-reporter-weisses-haus-100.jpg?width=1920",
       "published": "2026-09-18T23:07:18+02:00",
       "category": "Politik",
-      "score": 86.5,
+      "score": 86.02,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -47,38 +79,6 @@
       }
     },
     {
-      "id": "tagesschau-c59f125b4d6d0742",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Dänemark und USA verkünden Durchbruch im Grönland-Streit",
-      "link": "https://www.tagesschau.de/ausland/amerika/abkommen-usa-daenemark-groenland-100.html",
-      "summary": "US-Präsident Trump sorgte mit seinen Ansprüchen auf Grönland für Spannungen innerhalb der NATO. Nun wollen die USA, Dänemark und Grönland ein Abkommen schließen. Laut Grönlands Regierungschef nützt es allen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/d6ef7c9f-5cc7-4b1b-ac6b-9a3ea99ce004/AAABoLbNKng/AAABnSSvrFg/16x9-big/us-konsulat-nuuk-100.jpg?width=1920",
-      "published": "2026-09-19T01:54:48+02:00",
-      "category": "Politik",
-      "score": 86.5,
-      "coverage": {
-        "sourceCount": 4,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Nach langem Streit - Einigung mit Dänemark und Grönland: USA wollen Militärpräsenz auf Grönland ausweiten",
-            "link": "https://www.deutschlandfunk.de/einigung-mit-daenemark-und-groenland-usa-wollen-militaerpraesenz-auf-groenland-ausweiten-100.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Dänemark und USA verkünden Einigung im Grönland-Streit",
-            "link": "https://www.spiegel.de/ausland/daenemark-und-usa-verkuenden-einigung-im-groenland-streit-a-3b1862ed-e331-4dde-8265-e5ec805254b6#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "+++ USA +++: Dänemark und USA verkünden Durchbruch im Grönland-Streit",
-            "link": "https://www.handelsblatt.com/politik/international/usa-daenemark-und-usa-verkuenden-durchbruch-im-groenland-streit/29669594.html"
-          }
-        ]
-      }
-    },
-    {
       "id": "spiegel-972d7291d4d55b0a",
       "source": "spiegel",
       "sourceWeight": 0.95,
@@ -88,7 +88,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/c25b579f-3795-47d5-8e24-a2fe9bc99a49_w1200_r1.778_fpx64.29_fpy50.jpg",
       "published": "2026-09-18T17:42:00+02:00",
       "category": "Politik",
-      "score": 78.47
+      "score": 78.0
     },
     {
       "id": "spiegel-72aab3888879e685",
@@ -100,7 +100,34 @@
       "image": "https://cdn.prod.www.spiegel.de/images/066eb3c3-20bb-4c2b-b94b-2ba977ff1362_w1200_r1.778_fpx49_fpy47.jpg",
       "published": "2026-09-18T16:33:00+02:00",
       "category": "Politik",
-      "score": 77.51
+      "score": 77.04
+    },
+    {
+      "id": "tagesschau-cf81e7b38f420ecd",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Entlastungen: Spritpreisdeckel dürfte für Diskussionen sorgen",
+      "link": "https://www.tagesschau.de/inland/entlastungen-spritpreise-102.html",
+      "summary": "Die Bundesregierung will die Spritpreise in zwei Schritten senken: erst mit einem Tankrabatt, ab Januar mit einem Preisdeckel. Doch der dürfte noch für Streit in der Koalition sorgen. Von Maximilian Ulrich. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/398100ba-79cc-4f7c-bdf9-69b8a189de96/AAABoLcZokE/AAABnSSvrFg/16x9-big/tanken-238.jpg?width=1920",
+      "published": "2026-09-19T02:52:21+02:00",
+      "category": "Politik",
+      "score": 75.32,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Spritpreise: Erst Tankrabatt, dann Preisdeckel für Autofahrer und Wirtschaft",
+            "link": "https://www.spiegel.de/wirtschaft/spritpreise-erst-tankrabatt-dann-preisdeckel-fuer-autofahrer-und-wirtschaft-a-463af428-fe71-48b1-b253-c740334f6116#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Entlastungen: Tankrabatt und Preisdeckel - Was bringen die Maßnahmen?",
+            "link": "https://www.handelsblatt.com/politik/deutschland/entlastungen-tankrabatt-und-preisdeckel-was-bringen-die-massnahmen/100255747.html"
+          }
+        ]
+      }
     },
     {
       "id": "handelsblatt-f8c1f56bc01e29bd",
@@ -112,7 +139,7 @@
       "image": "https://images.handelsblatt.com/4N0Ye12mUJiI/cover/900/506/0/0/0/418/0.5/0.5/ehepaar.jpg",
       "published": "2026-09-19T08:30:00+00:00",
       "category": "Politik",
-      "score": 75.47
+      "score": 75.0
     },
     {
       "id": "tagesschau-274725ac60f99864",
@@ -124,7 +151,7 @@
       "image": "https://images.tagesschau.de/image/4313dee0-3d2f-4a08-a462-af1aeb094185/AAABoLXIdgU/AAABnSSvrFg/16x9-big/pistorius-f35-100.jpg?width=1920",
       "published": "2026-09-18T20:30:08+02:00",
       "category": "Politik",
-      "score": 75.17,
+      "score": 74.7,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -142,55 +169,6 @@
       }
     },
     {
-      "id": "spiegel-59cfd1b6bbdc2b1b",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Spritpreise: Erst Tankrabatt, dann Preisdeckel für Autofahrer und Wirtschaft",
-      "link": "https://www.spiegel.de/wirtschaft/spritpreise-erst-tankrabatt-dann-preisdeckel-fuer-autofahrer-und-wirtschaft-a-463af428-fe71-48b1-b253-c740334f6116#ref=rss",
-      "summary": "Um Verbraucher in der Spritkrise zu unterstützen, kündigen Bund und Länder zunächst einen teuren Rabatt mit der Gießkanne, danach neuartige Preisgrenzen an. Die beste Lösung funktioniert technisch noch nicht.",
-      "image": "https://cdn.prod.www.spiegel.de/images/58b9e6cb-886f-4c5e-a14d-665d743b4d6e_w1200_r1.778_fpx52_fpy50.jpg",
-      "published": "2026-09-18T22:57:00+02:00",
-      "category": "Wirtschaft",
-      "score": 74.85,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Teures Tanken: Bund und Länder einigen sich auf neuen Tankrabatt",
-            "link": "https://www.handelsblatt.com/politik/deutschland/teures-tanken-bund-und-laender-einigen-sich-auf-neuen-tankrabatt/100255740.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-3212eb4e2dae3ffa",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Autobombe detoniert: Tote und Verletzte nach Anschlag in Pakistan",
-      "link": "https://www.tagesschau.de/ausland/asien/pakistan-anschlag-134.html",
-      "summary": "Der Nordwesten Pakistans gilt als Unruheregion. Nun gab es dort - im Grenzgebiet zu Afghanistan - erneut einen verheerenden Anschlag mit vielen Toten und Verletzten. Noch ist unklar, wer dahinter steckt.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/d17f3f48-22de-466d-b88d-a56971785032/AAABoLRJcM8/AAABnSSvrFg/16x9-big/krankenwagen-strasse-pakistan-100.jpg?width=1920",
-      "published": "2026-09-18T19:22:37+02:00",
-      "category": "Technologie",
-      "score": 72.17,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Terrorismus - Mindestens 20 Tote bei Anschlag in Pakistan",
-            "link": "https://www.deutschlandfunk.de/mindestens-20-tote-bei-anschlag-in-pakistan-104.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Koordinierte Attacke: Zahlreiche Tote bei Anschlag mit Autobombe in Pakistan",
-            "link": "https://www.handelsblatt.com/politik/international/koordinierte-attacke-zahlreiche-tote-bei-anschlag-mit-autobombe-in-pakistan/100255633.html"
-          }
-        ]
-      }
-    },
-    {
       "id": "spiegel-681470e6c39cd3fa",
       "source": "spiegel",
       "sourceWeight": 0.95,
@@ -200,7 +178,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/0b632acc-b9ca-47d4-a391-a4afb8c22ad8_w1200_r1.778_fpx39.92_fpy49.98.jpg",
       "published": "2026-09-19T02:34:00+02:00",
       "category": "Politik",
-      "score": 69.86
+      "score": 69.38
     },
     {
       "id": "deutschlandfunk-a493e1aa4c344a57",
@@ -212,7 +190,7 @@
       "image": "https://bilder.deutschlandfunk.de/FI/LE/_2/35/FILE_23505e77daf55fab97d53af7c045c963/133185634-jpg-100-768x768.jpg",
       "published": "2026-09-19T02:07:44+02:00",
       "category": "Politik",
-      "score": 69.5
+      "score": 69.02
     },
     {
       "id": "deutschlandfunk-d7a2feac3bae7937",
@@ -224,7 +202,7 @@
       "image": "https://bilder.deutschlandfunk.de/d9/6e/0b/4d/d96e0b4d-7ef0-4a79-9ce0-92526a3fb26c/gwinn-oberdorf-100-1920x1920.jpg",
       "published": "2026-09-19T02:07:44+02:00",
       "category": "Politik",
-      "score": 69.5
+      "score": 69.02
     },
     {
       "id": "deutschlandfunk-e7c4f49c0409764b",
@@ -236,7 +214,7 @@
       "image": "https://bilder.deutschlandfunk.de/c6/f5/8d/7a/c6f58d7a-5fde-42ac-a2dc-500240ca537f/macron-frankreich-president-100-1920x1920.jpg",
       "published": "2026-09-19T02:07:44+02:00",
       "category": "Wirtschaft",
-      "score": 69.5,
+      "score": 69.02,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -249,6 +227,18 @@
       }
     },
     {
+      "id": "deutschlandfunk-f5f2fa745dc0200f",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Russland - EU-Kommission kritisiert Parlamentswahl scharf - Auswärtiges Amt spricht von Inszenierung",
+      "link": "https://www.deutschlandfunk.de/eu-kommission-kritisiert-parlamentswahl-scharf-auswaertiges-amt-spricht-von-inszenierung-102.html",
+      "summary": "Die Europäische Kommission hat die laufende Parlamentswahl in Russland als undemokratisch kritisiert. Ein Sprecher erklärte in Brüssel, die russischen Behörden hätten die systematische Unterdrückung weiter verstärkt, um jede Opposition auszuschließen.",
+      "image": "https://bilder.deutschlandfunk.de/f2/c8/36/b0/f2c836b0-2ee8-4c1a-b1d4-5ffb1c86bed4/duma-wahl-russland-102-1920x1920.jpg",
+      "published": "2026-09-19T02:07:44+02:00",
+      "category": "Politik",
+      "score": 69.02
+    },
+    {
       "id": "handelsblatt-c0325be7003435ac",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
@@ -258,19 +248,19 @@
       "image": "https://images.handelsblatt.com/PrLWluArLrQC/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
       "published": "2026-09-18T14:26:00+00:00",
       "category": "Politik",
-      "score": 68.42
+      "score": 67.94
     },
     {
-      "id": "golem-812346f0d2bcda48",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Zivil trifft Militär: Trump schlägt eine US-Weltraumakademie vor",
-      "link": "https://www.golem.de/news/zivil-trifft-militaer-trump-schlaegt-eine-us-weltraumakademie-vor-2609-213195.html",
-      "summary": "Die Gründung einer neuen Raumfahrtakademie könnte die Grenzen zwischen ziviler und militärischer Raumfahrt in den USA verwischen. ( Raumfahrt , Nasa )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213195&amp;page=1&amp;ts=1789729321",
-      "published": "2026-09-18T13:02:01+02:00",
+      "id": "spiegel-6efc6998580a7a07",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Donald Trump Jr. wird laut seinem Vater Kosten für Hochzeitsfeier an russischen Oligarchen zurückerstatten",
+      "link": "https://www.spiegel.de/ausland/donald-trump-jr-wird-laut-seinem-vater-kosten-fuer-hochzeitsfeier-an-russischen-oligarchen-zurueckerstatten-a-70c4e154-6a23-4937-ae39-c8666f8bc94d#ref=rss",
+      "summary": "»Zwei unglaubliche Festnächte« wollen Donald Trump Jr. und seine Ehefrau Bettina Trump nach ihrer Hochzeit genossen haben – auf Kosten einen russischen Oligarchen. Nun stellt sein Vater klar: Trump Jr. werde das Geld zurückzahlen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/ef989323-c289-42cf-b3ee-f0055591fb04_w1200_r1.778_fpx33.34_fpy50.jpg",
+      "published": "2026-09-18T23:33:00+02:00",
       "category": "Politik",
-      "score": 56.58
+      "score": 66.87
     }
   ]
 }
