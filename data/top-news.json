@@ -1,18 +1,28 @@
 {
-  "generatedAt": "2026-09-20T06:28:54.746807+00:00",
+  "generatedAt": "2026-09-20T07:57:57.051193+00:00",
   "count": 15,
   "articles": [
     {
-      "id": "handelsblatt-4637cbed54927c2c",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Ukraine-Krieg +++: Ukrainische Drohnen attackieren Moskau am Wahltag",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-moskau-schliesst-konsulat-in-st.-petersburg123/27982126.html",
-      "summary": "Russische Wirtschaft gerät zunehmend in Schieflage +++ Polen beendet Luftraumkontrolle +++ Trump: Russland greift Verbündete der Ukraine seit Jahren an +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/2xZKqokUw-Ml/cover/900/506/0/0/258/258/0.5/0.5/plumes-of-smoke-rise-from-fires-right-at-an-oil-refinery-following-what-the-authorities-say-is-a-u.jpg",
-      "published": "2026-09-20T05:41:00+00:00",
+      "id": "spiegel-31a9a820faadedd3",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Ukraine-Krieg: Berichte über Drohnen am Wahltag auf Moskau",
+      "link": "https://www.spiegel.de/ausland/ukraine-krieg-berichte-ueber-drohnen-am-wahltag-auf-moskau-a-98248327-c245-4444-9a08-68a6bfcece15#ref=rss",
+      "summary": "Bei der Wahl will sich Putin seinen Kriegskurs bestätigen lassen. Oder zumindest so tun. Die Wahlen gelten als unfrei und undemokratisch. Die Ukraine begleitet sie russischen Berichten zufolge mit Drohnenangriffen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/d2e87907-55ce-4374-9c15-d3692b6a371b_w1200_r1.778_fpx57_fpy37.jpg",
+      "published": "2026-09-20T09:33:00+02:00",
       "category": "Politik",
-      "score": 92.33
+      "score": 93.65,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ Ukraine-Krieg +++: Ukrainische Drohnen attackieren Moskau am Wahltag",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-moskau-schliesst-konsulat-in-st.-petersburg123/27982126.html"
+          }
+        ]
+      }
     },
     {
       "id": "tagesschau-da856dbedafba46c",
@@ -24,14 +34,14 @@
       "image": "https://images.tagesschau.de/image/d928c2d6-806f-4484-b556-1d5430b8de18/AAABoKSq8bc/AAABnSSvrFg/16x9-big/schlosspark-schwerin-100.jpg?width=1920",
       "published": "2026-09-20T05:38:16+02:00",
       "category": "Politik",
-      "score": 86.87,
+      "score": 86.83,
       "coverage": {
         "sourceCount": 4,
         "others": [
           {
             "source": "deutschlandfunk",
-            "title": "Wahlen - Merz berät mit CDU-Spitze am Abend über Ergebnisse",
-            "link": "https://www.deutschlandfunk.de/merz-beraet-mit-cdu-spitze-am-abend-ueber-ergebnisse-100.html"
+            "title": "Kanzler unter Druck - Merz berät mit CDU-Spitze am Abend über Ergebnisse von Landtagswahlen",
+            "link": "https://www.deutschlandfunk.de/merz-beraet-mit-cdu-spitze-am-abend-ueber-ergebnisse-von-landtagswahlen-100.html"
           },
           {
             "source": "spiegel",
@@ -54,9 +64,9 @@
       "link": "https://www.deutschlandfunk.de/usa-verhaengen-neue-sanktionen-gegen-russland-selenskyj-dankt-trump-104.html",
       "summary": "US-Präsident Trump hat das Gesetz über die neuen Sanktionen der Vereinigten Staaten gegen Russland unterzeichnet. Zuvor hatten bereits der Senat und das Repräsentantenhaus mit einer parteiübergreifenden Mehrheit für das Paket gestimmt.",
       "image": "https://bilder.deutschlandfunk.de/05/0f/16/94/050f1694-a9e2-4d8b-bd1c-d57509a3a62b/weisses-haus-104-1920x1920.jpg",
-      "published": "2026-09-20T08:19:33+02:00",
+      "published": "2026-09-20T09:45:33+02:00",
       "category": "Politik",
-      "score": 85.87
+      "score": 85.83
     },
     {
       "id": "tagesschau-d160472728d3f61b",
@@ -68,7 +78,7 @@
       "image": "https://images.tagesschau.de/image/309d0e1e-6abe-4048-ac4f-5f226fcf81d3/AAABoLoGO18/AAABnSSvrFg/16x9-big/betsy-klein-102.jpg?width=1920",
       "published": "2026-09-20T03:55:19+02:00",
       "category": "Politik",
-      "score": 83.55,
+      "score": 83.51,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -86,23 +96,23 @@
       }
     },
     {
-      "id": "deutschlandfunk-67dee26a5ede8b97",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Nach langem Streit - Einigung mit Dänemark und Grönland: USA wollen Militärpräsenz ausweiten",
-      "link": "https://www.deutschlandfunk.de/einigung-mit-daenemark-und-groenland-usa-wollen-militaerpraesenz-ausweiten-102.html",
-      "summary": "Die USA wollen ihre Militärpräsenz auf Grönland ausweiten. Wie US-Präsident Trump mitteilte, gibt es darüber eine Einigung mit Dänemark und der Arktisinsel. Seinen Angaben zufolge wird die Souveränität Grönlands nicht beeinträchtigt.",
-      "image": "https://bilder.deutschlandfunk.de/NO/VA/_f/38/NOVA_f38634a7e567911f60caf4f20dc791b6/craft-12815701-asset-100-1920x1920.jpg",
-      "published": "2026-09-20T08:19:33+02:00",
+      "id": "tagesschau-97570c4fa59c7b5b",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Ukrainische Drohnenangriffe auf Moskau - mehrere Tote",
+      "link": "https://www.tagesschau.de/ausland/europa/ukraine-drohnenangriffe-moskau-oelraffinerie-100.html",
+      "summary": "Bei Angriffen der Ukraine mit Hunderten Drohnen hat es in Russland mindestens zwei Tote gegeben. In der Region um Moskau wurde eine Raffinerie getroffen. Auch bei russischen Angriffen starben mehrere Menschen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/c7699c74-a966-48c4-bd23-6a6ca2e75d81/AAABoL2UB0I/AAABnSSvrFg/16x9-big/rauchwolke-moskau-100.jpg?width=1920",
+      "published": "2026-09-20T09:40:10+02:00",
       "category": "Politik",
-      "score": 77.87,
+      "score": 78.83,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "handelsblatt",
-            "title": "Konflikt um Arktisinsel: Dänemark und USA verkünden Durchbruch im Grönland-Streit",
-            "link": "https://www.handelsblatt.com/politik/international/konflikt-um-arktisinsel-daenemark-und-usa-verkuenden-durchbruch-im-groenland-streit/100255763.html"
+            "source": "deutschlandfunk",
+            "title": "Duma - Russische Parlamentswahl geht zu Ende - Zwei Tote bei Drohnenangriffen auf Moskau",
+            "link": "https://www.deutschlandfunk.de/russische-parlamentswahl-geht-zu-ende-zwei-tote-bei-drohnenangriffen-auf-moskau-100.html"
           }
         ]
       }
@@ -115,65 +125,53 @@
       "link": "https://www.deutschlandfunk.de/tote-bei-israelischen-angriffen-im-gazastreifen-118.html",
       "summary": "Bei israelischen Angriffen im Gazastreifen sind nach Angaben des von der Hamas kontrollierten Gesundheitsministeriums mindestens vier Menschen getötet worden.",
       "image": "https://bilder.deutschlandfunk.de/e1/06/7d/e2/e1067de2-6230-41ae-943b-92085b1ff504/die-nachrichten-kachel-2176-zu1224-100-768x768.jpg",
-      "published": "2026-09-20T08:19:33+02:00",
+      "published": "2026-09-20T09:45:33+02:00",
       "category": "Politik",
-      "score": 77.87
+      "score": 77.83
     },
     {
-      "id": "tagesschau-e1f9ec7d981a1b1f",
+      "id": "tagesschau-381704b1e2ac9eb1",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Unzufriedenheit mit Senat erreicht neuen Höchststand",
-      "link": "https://www.tagesschau.de/inland/regional/berlin/berlin-landtageswahlen-vorwahlumfrage-100.html",
-      "summary": "Vor der Wahl zum Berliner Abgeordnetenhaus ist laut Infratest Dimap nur noch jeder Fünfte mit der Arbeit des Senats zufrieden. Damit ist die Landesregierung in Berlin so unbeliebt wie zuletzt keine andere in Deutschland vor einer Wahl.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/54199f38-e22d-4ad0-ade6-573364fbad53/AAABoLsRgzA/AAABnSSvrFg/16x9-big/rbb-turm-des-roten-rathauses-100.jpg?width=1920",
-      "published": "2026-09-20T01:11:09+02:00",
-      "category": "Politik",
-      "score": 76.93,
+      "title": "Huthi-Miliz reklamiert Angriffe in Saudi-Arabien für sich",
+      "link": "https://www.tagesschau.de/ausland/asien/riad-angriffe-huthis-100.html",
+      "summary": "Die Huthi-Miliz im Jemen hat die jüngsten Angriffe auf Ziele in Saudi-Arabien für sich reklamiert. Zuvor hatten Anwohner in Riad von Explosionen und einer Rauchsäule nahe dem internationalen Flughafen berichtet.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/b10c17a7-c124-41ad-8016-e9f37967eb99/AAABoLvv5FI/AAABnSSvrFg/16x9-big/riad-flughafen-100.jpg?width=1920",
+      "published": "2026-09-20T01:10:56+02:00",
+      "category": "Nachrichten",
+      "score": 75.83,
       "coverage": {
-        "sourceCount": 2,
+        "sourceCount": 4,
         "others": [
           {
+            "source": "deutschlandfunk",
+            "title": "Saudi-Arabien - Huthi-Miliz meldet Angriffe auf saudiarabische Hauptstadt Riad und Ölanlagen am Roten Meer",
+            "link": "https://www.deutschlandfunk.de/huthi-miliz-meldet-angriffe-auf-saudiarabische-hauptstadt-riad-und-oelanlagen-am-roten-meer-108.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "Jemen-Krieg: Rauchsäule nahe Flughafen – Huthi-Miliz meldet Angriffe auf Riad",
+            "link": "https://www.spiegel.de/ausland/jemen-krieg-rauchsaeule-nahe-flughafen-huthi-miliz-meldet-angriffe-auf-riad-a-4454be6a-b5fc-4de2-b656-db7cb73b5859#ref=rss"
+          },
+          {
             "source": "handelsblatt",
-            "title": "Berlin-Wahl: Die Spitzenkandidaten bei der Berliner Abgeordnetenhauswahl",
-            "link": "https://www.handelsblatt.com/politik/deutschland/berlin-wahl-die-spitzenkandidaten-bei-der-berliner-abgeordnetenhauswahl/100255898.html"
+            "title": "Krieg in Nahost: Huthi-Miliz reklamiert Angriffe in Saudi-Arabien",
+            "link": "https://www.handelsblatt.com/politik/international/krieg-in-nahost-huthi-miliz-reklamiert-angriffe-in-saudi-arabien/100255859.html"
           }
         ]
       }
     },
     {
-      "id": "tagesschau-6cc6b8d8ae5cf731",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "FAQ: Was Sie zur Wahl in Berlin wissen müssen",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/faq-abgeordnetenhauswahl-2026-berlin-100.html",
-      "summary": "Vier Parteien liegen in den Umfragen dicht beieinander, CDU und Linke konkurrieren um die Spitze: Die Berlin-Wahl verspricht spannend zu werden. Wie die Wahl abläuft und warum ihr Ausgang vieles ändern könnte.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/ca0baa68-2e28-47c7-ab2f-3948f5b6efa7/AAABoGL_We0/AAABnSSvrFg/16x9-big/berlin-abgeordnetenhaus-126.jpg?width=1920",
-      "published": "2026-09-20T05:38:24+02:00",
-      "category": "Politik",
-      "score": 76.63,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Berlin-Wahl 2026: Von Mieten bis Müll: Was man zur Berlin-Wahl wissen muss",
-            "link": "https://www.handelsblatt.com/politik/deutschland/berlin-wahl-2026-von-mieten-bis-muell-was-man-zur-berlin-wahl-wissen-muss/100255801.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "handelsblatt-47793bf03e527e51",
+      "id": "handelsblatt-75006ee673c7d384",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Parlamentswahl in Kriegszeiten: Wahl in Russland endet - wie schneidet Putins Partei ab?",
-      "link": "https://www.handelsblatt.com/politik/international/parlamentswahl-in-kriegszeiten-wahl-in-russland-endet-wie-schneidet-putins-partei-ab/100255880.html",
-      "summary": "Präsident Putin will seinen Kriegskurs bestätigen lassen. Bei der dreitägigen Wahl zur Staatsduma stehen auch nur kremlnahe Parteien auf dem Stimmzettel. Wahlbeobachter melden einige Auffälligkeiten.",
-      "image": "https://images.handelsblatt.com/wYoy2bIRiFqa/cover/900/506/0/0/107/106/0.5/0.5/wahlen-in-russland.jpg",
-      "published": "2026-09-20T04:28:46+00:00",
+      "title": "Parlamentswahl: Wie schneidet Putins Partei bei der Wahl in Russland ab?",
+      "link": "https://www.handelsblatt.com/politik/international/parlamentswahl-wie-schneidet-putins-partei-bei-der-wahl-in-russland-ab/100255907.html",
+      "summary": "Putin will seinen Kriegskurs bestätigen lassen. Bei der dreitägigen Wahl zur Staatsduma stehen nur kremlnahe Parteien auf dem Stimmzettel. Wahlbeobachter melden mehrere Auffälligkeiten.",
+      "image": "https://images.handelsblatt.com/wYoy2bIRiFqa/cover/900/506/0/128/37/248/0.5/0.5/wahlen-in-russland.jpg",
+      "published": "2026-09-20T06:27:43+00:00",
       "category": "Politik",
-      "score": 75.33
+      "score": 75.75
     },
     {
       "id": "deutschlandfunk-c38e1739830de7b8",
@@ -183,9 +181,9 @@
       "link": "https://www.deutschlandfunk.de/praesident-trump-kuendigt-ai-force-zur-ki-regulierung-an-102.html",
       "summary": "US-Präsident Trump hat die Einrichtung einer Aufsichtsbehörde für Künstliche Intelligenz angekündigt.",
       "image": "https://bilder.deutschlandfunk.de/a4/8a/5d/06/a48a5d06-de72-44fa-af82-aeef301133ec/trump-290-1920x1920.jpg",
-      "published": "2026-09-20T08:19:33+02:00",
+      "published": "2026-09-20T09:45:33+02:00",
       "category": "Technologie",
-      "score": 74.87,
+      "score": 74.83,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -198,6 +196,30 @@
       }
     },
     {
+      "id": "deutschlandfunk-0f0e4327cb4cba06",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Parteitag - Bremer Bürgerschaftswahl: SPD nominiert Bürgermeister Bovenschulte als Spitzenkandidat",
+      "link": "https://www.deutschlandfunk.de/bremer-buergerschaftswahl-spd-nominiert-buergermeister-bovenschulte-als-spitzenkandidat-106.html",
+      "summary": "Die SPD in Bremen hat Bürgermeister Bovenschulte als Spitzenkandidat für die Bürgerschaftswahl im kommenden Jahr nominiert.",
+      "image": "https://bilder.deutschlandfunk.de/b6/22/c7/b0/b622c7b0-6bf0-400b-9f9d-37a17b875f98/bovenschulte-104-1920x1920.jpg",
+      "published": "2026-09-20T09:45:33+02:00",
+      "category": "Politik",
+      "score": 69.83
+    },
+    {
+      "id": "spiegel-181e90fb1ebbac3b",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Wahl in Berlin: Jugendliche ab 16 dürfen erstmals ihre Stimme abgeben",
+      "link": "https://www.spiegel.de/politik/deutschland/wahl-in-berlin-jugendliche-ab-16-duerfen-erstmals-ihre-stimme-abgeben-a-09e72085-2f3e-41aa-b1f6-09e797535c1f#ref=rss",
+      "summary": "Was für das Europaparlament schon möglich war, geht jetzt auch in Berlin: Jugendliche ab 16 Jahren dürfen wählen. Da ein knappes Ergebnis erwartet wird, könnte das entscheidend sein.",
+      "image": "https://cdn.prod.www.spiegel.de/images/6ba1f4da-945b-4f8c-be78-c57536cf3876_w1200_r1.778_fpx30_fpy45.jpg",
+      "published": "2026-09-20T08:56:00+02:00",
+      "category": "Politik",
+      "score": 69.14
+    },
+    {
       "id": "spiegel-3349a2485d28c308",
       "source": "spiegel",
       "sourceWeight": 0.95,
@@ -207,7 +229,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/457f6ac2-5ed8-4ce8-8505-95bb2411838b_w1200_r1.778_fpx69.99_fpy45.jpg",
       "published": "2026-09-20T07:56:00+02:00",
       "category": "Politik",
-      "score": 69.54
+      "score": 68.31
+    },
+    {
+      "id": "handelsblatt-0dc55b7d32ab3d08",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Ukraine-Krieg: Mutter und Kinder bei Angriff im Kiewer Umland getötet",
+      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-mutter-und-kinder-bei-angriff-im-kiewer-umland-getoetet/100255865.html",
+      "summary": "Die ukrainische Hauptstadt Kiew und das umliegende Gebiet werden regelmäßig von russischen Drohnen und Raketen angegriffen. Bei einer weiteren Attacke kommt es zu einer Tragödie.",
+      "image": "https://images.handelsblatt.com/trC9wllhrUBH/cover/900/506/0/0/107/106/0.5/0.5/ukraine-krieg.jpg",
+      "published": "2026-09-19T21:10:58+00:00",
+      "category": "Politik",
+      "score": 68.01
     },
     {
       "id": "spiegel-186073d526defa69",
@@ -219,19 +253,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/20a94e99-80d5-4f00-8e6c-ecf5920f2e6e_w1200_r1.778_fpx65.21_fpy52.99.jpg",
       "published": "2026-09-19T21:41:00+02:00",
       "category": "Politik",
-      "score": 69.0
-    },
-    {
-      "id": "spiegel-c1f4aec10626e7b9",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg: Wie Wladimir Putin seinen Angriff historisch legitimieren will",
-      "link": "https://www.spiegel.de/geschichte/geschichtsklitterung-eines-hobbyhistorikers-wie-putin-seinen-krieg-gegen-die-ukraine-rechtfertigt-a-bb777552-8dea-4580-b6e7-1cfd61658c90#ref=rss",
-      "summary": "Der Kampf gegen angebliche Nazis dient dem russischen Präsidenten als Rechtfertigung für Mord, Umerziehung und imperialen Anspruch. Welche Realität soll diese Erzählung überdecken?",
-      "image": "https://cdn.prod.www.spiegel.de/images/8f7bb98f-0001-0004-0000-000000661160_w1200_r1.778_fpx56_fpy35.jpg",
-      "published": "2026-09-19T21:40:00+02:00",
-      "category": "Politik",
-      "score": 68.99
+      "score": 67.76
     },
     {
       "id": "handelsblatt-25bcd65fe29ebfcd",
@@ -243,19 +265,7 @@
       "image": "https://images.handelsblatt.com/omW2OcfyNvmW/cover/900/506/0/0/107/106/0.5/0.5/wahlkampf-der-spd-mecklenburg-vorpommern.jpg",
       "published": "2026-09-20T04:00:07+00:00",
       "category": "Politik",
-      "score": 66.93
-    },
-    {
-      "id": "spiegel-b8967aac11c9068e",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Badischer Riesenregenwurm im Schwarzwald: Klimakrise bedroht Existenz von seltenem Wurm",
-      "link": "https://www.spiegel.de/wissenschaft/badischer-riesenregenwurm-im-schwarzwald-klimakrise-bedroht-existenz-von-seltenem-wurm-a-82e26a1b-baec-43b6-bed6-ea6631128ac5#ref=rss",
-      "summary": "Die wenigsten werden ihn je zu Gesicht bekommen: Der Badische Riesenregenwurm ist ein Gigant, der im Verborgenen lebt. Leider haben Naturschützer keine gute Prognose für das extrem seltene Tier.",
-      "image": "https://cdn.prod.www.spiegel.de/images/3b0c4b02-ce1f-4ee2-abdd-1205f23fac81_w1200_r1.778_fpx45_fpy62.jpg",
-      "published": "2026-09-20T07:11:00+02:00",
-      "category": "Nachrichten",
-      "score": 65.92
+      "score": 65.7
     }
   ]
 }
