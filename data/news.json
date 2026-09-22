@@ -1,18 +1,76 @@
 {
-  "generatedAt": "2026-09-22T05:10:33.649882+00:00",
+  "generatedAt": "2026-09-22T05:31:52.630285+00:00",
   "count": 199,
   "articles": [
+    {
+      "id": "spiegel-7c3c038d6a959aec",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Brigitte Bardot: Erinnerungsstücke in Paris für fast eine Million Euro versteigert",
+      "link": "https://www.spiegel.de/panorama/leute/brigitte-bardot-erinnerungsstuecke-in-paris-fuer-fast-eine-million-euro-versteigert-a-868fcc4f-bb90-4775-a3c6-abd21039a803#ref=rss",
+      "summary": "In Paris ist ein Teil des Nachlasses von Brigitte Bardot unter den Hammer gekommen. Der Erlös überstieg die Erwartungen deutlich. Besonders überraschend: Was für zwei Hundehalsbänder gezahlt wurde.",
+      "image": "https://cdn.prod.www.spiegel.de/images/5cfa0283-a44d-4292-807c-c0c2597d40c4_w1200_r1.778_fpx67_fpy26.jpg",
+      "published": "2026-09-22T07:18:00+02:00",
+      "category": "Nachrichten",
+      "score": 58.81
+    },
+    {
+      "id": "tagesschau-736702ee4c817286",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Trumps Streit mit den Medien in den USA eskaliert",
+      "link": "https://www.tagesschau.de/ausland/usa-medien-trump-102.html",
+      "summary": "Der US-Präsident verbannt den weltbekannten Sender CNN und andere Medien aus dem Weißen Haus. Die Betroffenen wehren sich juristisch und bekommen Unterstützung von anderen Medien - auch vom Trump-freundlichen Sender Fox News. Von Ralf Borchard. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/aa4e88f9-86cb-414d-9054-87ac10ba00ac/AAABoMeLxlg/AAABnSSvrFg/16x9-big/trump-medien-126.jpg?width=1920",
+      "published": "2026-09-22T07:17:01+02:00",
+      "category": "Politik",
+      "score": 78.79,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Pressefreiheit in den USA: Rauswurf aus Weißem Haus: Trumps Streit mit Medien eskaliert",
+            "link": "https://www.handelsblatt.com/politik/international/pressefreiheit-in-den-usa-rauswurf-aus-weissem-haus-trumps-streit-mit-medien-eskaliert/100256211.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "golem-e349bf15de51d375",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Anzeige: Microsoft Purview: Daten klassifizieren und Risiken steuern",
+      "link": "https://www.golem.de/news/anzeige-microsoft-purview-daten-klassifizieren-und-risiken-steuern-2609-213111.html",
+      "summary": "Microsoft Purview bündelt Funktionen für Klassifizierung und Datenschutz. Die Golem Karrierewelt zeigt, wie Labels, DLP und Insider Risk zusammenspielen. ( Golem Karrierewelt , Sicherheitslücke )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213111&amp;page=1&amp;ts=1790054106",
+      "published": "2026-09-22T07:15:06+02:00",
+      "category": "Technologie",
+      "score": 56.77
+    },
+    {
+      "id": "golem-a39f79623fe48aa6",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Tägliche Strafzahlungen drohen: Paramount muss Warner-Übernahme schnell abschließen",
+      "link": "https://www.golem.de/news/taegliche-strafzahlungen-drohen-paramount-muss-warner-uebernahme-schnell-abschliessen-2609-213292.html",
+      "summary": "Ab nächstem Monat müsste Paramount täglich sieben Millionen US-Dollar an Warner-Aktionäre zahlen, falls der Zeitplan nicht eingehalten wird. ( Paramount , Streaming )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213292&amp;page=1&amp;ts=1790054102",
+      "published": "2026-09-22T07:15:02+02:00",
+      "category": "Technologie",
+      "score": 56.77
+    },
     {
       "id": "spiegel-bed6dcdb1ab01ecd",
       "source": "spiegel",
       "sourceWeight": 0.95,
       "title": "Wolfgang Petry wird 75: Deutsche Oasis",
       "link": "https://www.spiegel.de/kultur/musik/wolfgang-petry-wird-75-deutsche-oasis-a-b70b4cfb-143c-4df8-aef8-0f6b3384dd9c#ref=rss",
-      "summary": "So ein Wahnsinn: Wolfgang Petry begleitet mich fast durch man ganzes Leben, jetzt wird er 75. Eine Liebeserklärung.",
+      "summary": "So ein Wahnsinn: Wolfgang Petry begleitet mich fast durch mein ganzes Leben, jetzt wird er 75. Eine Liebeserklärung.",
       "image": "https://cdn.prod.www.spiegel.de/images/d06a2536-151e-479b-b743-7f8f26993cbf_w1200_r1.778_fpx48_fpy43.jpg",
       "published": "2026-09-22T06:48:00+02:00",
       "category": "Nachrichten",
-      "score": 58.69
+      "score": 58.39
     },
     {
       "id": "tagesschau-49a05627f3de44af",
@@ -24,7 +82,7 @@
       "image": "https://images.tagesschau.de/image/bc5e2e41-6c7b-4848-9878-6e6073e799e1/AAABoMafSv0/AAABnSSvrFg/16x9-big/oktoberfest-432.jpg?width=1920",
       "published": "2026-09-22T06:47:30+02:00",
       "category": "Panorama",
-      "score": 72.36
+      "score": 72.06
     },
     {
       "id": "spiegel-d27002bdc636f858",
@@ -36,7 +94,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/a72a5314-a532-4685-ad07-a7578437ac38_w1200_r1.778_fpx55_fpy54.jpg",
       "published": "2026-09-22T06:47:00+02:00",
       "category": "Nachrichten",
-      "score": 58.67
+      "score": 58.38
     },
     {
       "id": "spiegel-f94bed0ebd341daa",
@@ -48,7 +106,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/d6a4c384-2513-40a8-818e-21c196391424_w1200_r1.778_fpx47_fpy46.jpg",
       "published": "2026-09-22T06:43:00+02:00",
       "category": "Nachrichten",
-      "score": 58.62
+      "score": 58.32
     },
     {
       "id": "deutschlandfunk-74dad3ef49abd4c4",
@@ -60,7 +118,7 @@
       "image": "https://bilder.deutschlandfunk.de/FI/LE/_b/5a/FILE_b5a4f9147f68aa98d4be838d4a647db7/imago0087478802h-jpg-100-768x768.jpg",
       "published": "2026-09-22T06:16:49+02:00",
       "category": "Nachrichten",
-      "score": 58.25
+      "score": 57.96
     },
     {
       "id": "deutschlandfunk-cbcf6697fe12ce24",
@@ -72,7 +130,7 @@
       "image": "https://bilder.deutschlandfunk.de/6c/38/50/5a/6c38505a-2a93-4916-b7f9-dedb48cd02ec/tankstelle-tankrabatt-102-1920x1920.jpg",
       "published": "2026-09-22T06:16:49+02:00",
       "category": "Politik",
-      "score": 61.25
+      "score": 60.96
     },
     {
       "id": "deutschlandfunk-6030c04908486022",
@@ -84,7 +142,7 @@
       "image": "https://bilder.deutschlandfunk.de/03/83/d4/29/0383d429-a6e5-4e22-99b2-ddf6f63794b0/un-generalversammlung-100-1920x1920.jpg",
       "published": "2026-09-22T06:16:49+02:00",
       "category": "Nachrichten",
-      "score": 58.25
+      "score": 57.96
     },
     {
       "id": "deutschlandfunk-3cacdb7e69393ef8",
@@ -96,7 +154,7 @@
       "image": "https://bilder.deutschlandfunk.de/62/98/7b/5d/62987b5d-70d8-4d4b-8206-12abe70ccf60/cdu-mecklenburg-vorpommern-100-1920x1920.jpg",
       "published": "2026-09-22T06:16:49+02:00",
       "category": "Politik",
-      "score": 69.25
+      "score": 68.96
     },
     {
       "id": "deutschlandfunk-fdd05bf3ec79cb45",
@@ -108,7 +166,7 @@
       "image": "https://bilder.deutschlandfunk.de/a9/ac/a3/5f/a9aca35f-1b66-42cd-9815-168e0de01059/elif-eralp-linke-abgeordnetenhauswahl-berlin-100-1920x1920.jpg",
       "published": "2026-09-22T06:16:49+02:00",
       "category": "Politik",
-      "score": 69.25
+      "score": 68.96
     },
     {
       "id": "deutschlandfunk-4bf905cf49100575",
@@ -120,7 +178,7 @@
       "image": "https://bilder.deutschlandfunk.de/99/64/00/1b/9964001b-833c-4e1d-bccf-2b9ae188ccfa/neubau-hochhaus-berlin-100-1920x1920.jpg",
       "published": "2026-09-22T06:16:49+02:00",
       "category": "Politik",
-      "score": 67.25
+      "score": 66.96
     },
     {
       "id": "deutschlandfunk-a8f1ad7716388b87",
@@ -132,7 +190,7 @@
       "image": "https://bilder.deutschlandfunk.de/a2/68/4a/d9/a2684ad9-ac2e-40bd-8e48-b8806faada6a/bundeskanzler-merz-berlin-104-1920x1920.jpg",
       "published": "2026-09-22T06:16:49+02:00",
       "category": "Politik",
-      "score": 77.25
+      "score": 76.96
     },
     {
       "id": "deutschlandfunk-619453306fc205c0",
@@ -144,7 +202,7 @@
       "image": "https://bilder.deutschlandfunk.de/30/84/39/a5/308439a5-68ec-41d2-912f-40f69436ff81/kallas-102-1920x1920.jpg",
       "published": "2026-09-22T06:16:49+02:00",
       "category": "Nachrichten",
-      "score": 58.25
+      "score": 57.96
     },
     {
       "id": "deutschlandfunk-ee7b4fef0c34ee6a",
@@ -156,13 +214,13 @@
       "image": "https://bilder.deutschlandfunk.de/a5/48/7a/66/a5487a66-5071-45b7-bef3-47e97992038b/philippinen-china-suedchinesisches-meer-konflikt-meereszonen-unterzeichnung-gesetz-marcos-100-1920x1920.jpg",
       "published": "2026-09-22T06:16:49+02:00",
       "category": "Wirtschaft",
-      "score": 69.76,
+      "score": 69.66,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "handelsblatt",
-            "title": "Welthandel: Von der Leyen – EU und Philippinen vor Abschluss von Freihandelsabkommen",
+            "title": "Welthandel: Von der Leyen: EU und Philippinen vor Abschluss von Freihandelsabkommen",
             "link": "https://www.handelsblatt.com/politik/international/welthandel-von-der-leyen-eu-und-philippinen-vor-abschluss-von-freihandelsabkommen/100256408.html"
           }
         ]
@@ -178,7 +236,7 @@
       "image": "https://bilder.deutschlandfunk.de/c6/f5/8d/7a/c6f58d7a-5fde-42ac-a2dc-500240ca537f/macron-frankreich-president-100-1920x1920.jpg",
       "published": "2026-09-22T06:16:49+02:00",
       "category": "Politik",
-      "score": 69.25
+      "score": 68.96
     },
     {
       "id": "deutschlandfunk-c0f003ee8993e8a0",
@@ -190,7 +248,7 @@
       "image": "https://bilder.deutschlandfunk.de/0f/20/65/a7/0f2065a7-c908-4b7f-bbf0-f246e90595f7/trump-mamdani-100-1920x1920.jpg",
       "published": "2026-09-22T06:16:49+02:00",
       "category": "Politik",
-      "score": 69.25
+      "score": 68.96
     },
     {
       "id": "deutschlandfunk-d9bcfb54cee68e34",
@@ -202,7 +260,7 @@
       "image": "https://bilder.deutschlandfunk.de/e9/0d/b4/97/e90db497-7afd-4ed0-b296-5242994b4e0d/596496848-100-1920x1920.jpg",
       "published": "2026-09-22T06:16:49+02:00",
       "category": "Nachrichten",
-      "score": 58.25
+      "score": 57.96
     },
     {
       "id": "deutschlandfunk-507fdb57b8566307",
@@ -214,7 +272,7 @@
       "image": "https://bilder.deutschlandfunk.de/d8/86/56/41/d8865641-e213-4cef-adbc-2df218417a0c/kuenstliche-intelligenz-162-1920x1920.jpg",
       "published": "2026-09-22T06:16:49+02:00",
       "category": "Technologie",
-      "score": 58.25
+      "score": 57.96
     },
     {
       "id": "deutschlandfunk-1e179323831e8c04",
@@ -226,7 +284,7 @@
       "image": "https://bilder.deutschlandfunk.de/4f/bf/59/f8/4fbf59f8-76e5-45a8-9da9-3829c7fce2a6/wahlparty-eralp-die-linke-100-1920x1920.jpg",
       "published": "2026-09-22T06:16:49+02:00",
       "category": "Politik",
-      "score": 69.25
+      "score": 68.96
     },
     {
       "id": "deutschlandfunk-c22539e075a9d994",
@@ -238,7 +296,7 @@
       "image": "https://bilder.deutschlandfunk.de/1a/61/cf/50/1a61cf50-3db5-4e41-ae6f-7e95dfb98618/oktoberfest-muenechen-eingang-schild-100-1920x1920.jpg",
       "published": "2026-09-22T06:16:49+02:00",
       "category": "Panorama",
-      "score": 72.36
+      "score": 72.06
     },
     {
       "id": "deutschlandfunk-94159af76fa765ca",
@@ -250,17 +308,7 @@
       "image": "https://bilder.deutschlandfunk.de/b7/89/cc/55/b789cc55-8b1c-4312-94aa-3a67d8f3da87/immobilienkonzern-enteignen-100-1920x1920.jpg",
       "published": "2026-09-22T06:16:49+02:00",
       "category": "Politik",
-      "score": 77.25,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Nach der Wahl in Berlin: Linke will Berlin regieren und pocht auf Vergesellschaftung",
-            "link": "https://www.handelsblatt.com/politik/deutschland/nach-der-wahl-in-berlin-linke-will-berlin-regieren-und-pocht-auf-vergesellschaftung/100256261.html"
-          }
-        ]
-      }
+      "score": 68.96
     },
     {
       "id": "deutschlandfunk-ba3f008442a27863",
@@ -272,7 +320,7 @@
       "image": "https://bilder.deutschlandfunk.de/27/d9/3d/af/27d93daf-8148-48f6-bdb2-07fe8444dac3/merz-statement-kameras-100-1920x1920.jpg",
       "published": "2026-09-22T06:16:49+02:00",
       "category": "Politik",
-      "score": 78.25
+      "score": 77.96
     },
     {
       "id": "deutschlandfunk-ab84de96d214e63e",
@@ -284,7 +332,7 @@
       "image": "https://bilder.deutschlandfunk.de/38/54/d0/81/3854d081-f393-42a8-a9ad-fdfadf3d48de/yasmin-fahimi-vorsitzende-deutscher-gewerkschaftsbund-dgb-102-1920x1920.jpg",
       "published": "2026-09-22T06:16:49+02:00",
       "category": "Politik",
-      "score": 61.25
+      "score": 60.96
     },
     {
       "id": "deutschlandfunk-fc602f3ab6bea3df",
@@ -296,7 +344,7 @@
       "image": "https://bilder.deutschlandfunk.de/FI/LE/_b/5a/FILE_b5a4f9147f68aa98d4be838d4a647db7/imago0087478802h-jpg-100-768x768.jpg",
       "published": "2026-09-22T06:16:49+02:00",
       "category": "Nachrichten",
-      "score": 58.25
+      "score": 57.96
     },
     {
       "id": "deutschlandfunk-e32778431d80b51f",
@@ -308,7 +356,17 @@
       "image": "https://bilder.deutschlandfunk.de/e4/f0/ff/24/e4f0ff24-be1b-4178-aaba-e313cf26512d/weisses-haus-washington-100-1920x1920.jpg",
       "published": "2026-09-22T06:16:49+02:00",
       "category": "Politik",
-      "score": 82.93
+      "score": 76.96,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "USA: Nach Hausverbot – Trump-naher Sender zeigt sich solidarisch mit Betroffenen",
+            "link": "https://www.handelsblatt.com/politik/international/usa-nach-hausverbot-trump-naher-sender-solidarisch-mit-betroffenen/100256375.html"
+          }
+        ]
+      }
     },
     {
       "id": "deutschlandfunk-02484cab623fc3aa",
@@ -320,7 +378,7 @@
       "image": "https://bilder.deutschlandfunk.de/21/34/37/e2/213437e2-5bf0-4213-bf63-7b9f6b46f115/strasse-hormus-104-1920x1920.jpg",
       "published": "2026-09-22T06:16:49+02:00",
       "category": "Nachrichten",
-      "score": 58.25
+      "score": 57.96
     },
     {
       "id": "deutschlandfunk-4a75c93df08eeac8",
@@ -332,7 +390,7 @@
       "image": "https://bilder.deutschlandfunk.de/98/8b/30/69/988b3069-a0b9-4431-8215-11582de28c7d/ai-agent-arbeit-100-1920x1920.jpg",
       "published": "2026-09-22T06:16:49+02:00",
       "category": "Technologie",
-      "score": 58.25
+      "score": 57.96
     },
     {
       "id": "deutschlandfunk-71ee7b8d94ee0bf5",
@@ -344,7 +402,7 @@
       "image": "https://bilder.deutschlandfunk.de/92/ea/43/f3/92ea43f3-05f3-4f5f-8919-2af85b1a061e/20260923-erde-austr-pazif-100-1920x1920.jpg",
       "published": "2026-09-22T06:16:49+02:00",
       "category": "Wissenschaft",
-      "score": 58.25
+      "score": 57.96
     },
     {
       "id": "deutschlandfunk-aad40dbf423217f7",
@@ -356,7 +414,7 @@
       "image": "https://bilder.deutschlandfunk.de/3b/1a/dd/4d/3b1add4d-133d-4b18-b9b6-b9be06491edf/olympia-berlin-100-1920x1920.jpg",
       "published": "2026-09-22T06:16:49+02:00",
       "category": "Politik",
-      "score": 69.25
+      "score": 68.96
     },
     {
       "id": "deutschlandfunk-4175ed250cde2156",
@@ -368,7 +426,7 @@
       "image": "https://bilder.deutschlandfunk.de/e5/f6/55/84/e5f65584-6dc2-4dce-979d-729a024cd599/wetter-grafik-nachrichten-100-768x768.jpg",
       "published": "2026-09-22T06:16:49+02:00",
       "category": "Nachrichten",
-      "score": 58.25
+      "score": 57.96
     },
     {
       "id": "tagesschau-e635dcc02e55154d",
@@ -380,7 +438,7 @@
       "image": "https://images.tagesschau.de/image/adb6801f-5960-4907-81ed-d92c8aed6fa2/AAABoMZ65bg/AAABnSSvrFg/16x9-big/japan-taifun-106.jpg?width=1920",
       "published": "2026-09-22T06:08:44+02:00",
       "category": "Technologie",
-      "score": 59.14
+      "score": 58.85
     },
     {
       "id": "spiegel-68a2b18ae81d629e",
@@ -388,11 +446,11 @@
       "sourceWeight": 0.95,
       "title": "Donald Trump wirft Journalisten raus - und wird nun vor Gericht gezerrt",
       "link": "https://www.spiegel.de/ausland/donald-trump-wirft-journalisten-raus-und-wird-nun-vor-gericht-gezerrt-a-12a6d462-72ec-4a9e-908d-ef7e006216a5#ref=rss",
-      "summary": "Es ist die jüngste Eskalation in seinem Feldzug gegen die Presse: Donald Trump hat zwei Sendern und einem Portal Hausverbot erteilt. Doch die Medien wehren sich - und gehen gemeinsam gegen den Präsidenten vor.",
+      "summary": "Es ist die jüngste Eskalation in seinem Feldzug gegen die Presse: Donald Trump hat zwei Sendern und einem Portal Hausverbot erteilt. Doch die Medien wehren sich – und gehen gemeinsam gegen den Präsidenten vor.",
       "image": "https://cdn.prod.www.spiegel.de/images/7db0e056-eedc-449b-9a70-567081c1f062_w1200_r1.778_fpx35.33_fpy45.jpg",
       "published": "2026-09-22T06:07:00+02:00",
       "category": "Politik",
-      "score": 69.12
+      "score": 68.82
     },
     {
       "id": "tagesschau-d5dcbd0eeaf6c574",
@@ -404,7 +462,7 @@
       "image": "https://images.tagesschau.de/image/27d52453-0809-4332-ba16-616872e0144e/AAABoMQooEE/AAABnSSvrFg/16x9-big/offshore-windpark-124.jpg?width=1920",
       "published": "2026-09-22T06:00:16+02:00",
       "category": "Nachrichten",
-      "score": 59.02
+      "score": 58.73
     },
     {
       "id": "spiegel-8d50d87accf6a162",
@@ -416,7 +474,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/768eea6a-7b4c-4a7d-9067-30aae8a6176a_w1200_r1.778_fpx64_fpy10.jpg",
       "published": "2026-09-22T05:50:00+02:00",
       "category": "Nachrichten",
-      "score": 57.88
+      "score": 57.59
     },
     {
       "id": "spiegel-5c1cb0559fbad388",
@@ -428,7 +486,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/9dd2d089-c73a-4529-9962-19f394c5e158_w1200_r1.778_fpx50.63_fpy49.98.jpg",
       "published": "2026-09-22T05:45:00+02:00",
       "category": "Nachrichten",
-      "score": 57.81
+      "score": 57.52
     },
     {
       "id": "spiegel-0ba15dc544fdbaf3",
@@ -440,7 +498,115 @@
       "image": "https://cdn.prod.www.spiegel.de/images/888f5d5e-0d15-46ce-b4d2-721b0cdc518b_w1200_r1.778_fpx45_fpy36.jpg",
       "published": "2026-09-22T05:30:00+02:00",
       "category": "Wissenschaft",
-      "score": 57.6
+      "score": 57.31
+    },
+    {
+      "id": "handelsblatt-2517215ac290d91b",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Interview: Können wir uns diese Arbeitsbedingungen in der Autoindustrie noch leisten, Hakan Samuelsson? – „Nein“",
+      "link": "https://www.handelsblatt.com/unternehmen/industrie/volvo-koennen-wir-uns-diese-arbeitsbedingungen-noch-leisten-nein/100254635.html",
+      "summary": "Der Volvo-Chef fordert mehr Leistung und längere Arbeitszeiten. Europa müsse sich zusammenreißen, sagt der 75-Jährige – sonst drohe der Autobranche ein Schicksal wie einst Detroit.",
+      "image": "https://images.handelsblatt.com/lX-jpfW3MnPj/cover/900/506/0/0/313/312/0.5/0.5/hakan-samuelsson-ceo-of-volvo-cars-corporation-ab-at-the-volvo-factory-in-gothenburg-sweden-ph.jpg",
+      "published": "2026-09-22T05:27:01+00:00",
+      "category": "Wirtschaft",
+      "score": 60.93
+    },
+    {
+      "id": "handelsblatt-7845337ba323c0d4",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Künstliche Intelligenz: „Geh, opfere dich – wenn du den endgültigen Tod annimmst“: Protokoll des KI-Angriffs, der die Welt verschreckt",
+      "link": "https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-das-protokoll-des-ki-angriffs-der-die-welt-verschreckt-02/100254926.html",
+      "summary": "KI-Schöpfer warnen vor ihren eigenen Entwicklungen, bis hin zur Auslöschung der Menschheit. Die Protokolle des Ausbruchs legen nahe, wer versagt hat – und worauf wir uns einstellen müssen.",
+      "image": "https://images.handelsblatt.com/8lcLuszyEPNW/cover/900/506/0/0/0/0/0.5/0.5/ki-doomsday.jpg",
+      "published": "2026-09-22T05:21:00+00:00",
+      "category": "Technologie",
+      "score": 57.85
+    },
+    {
+      "id": "handelsblatt-2c46d06533bdaf99",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Leistungsfähigkeit: Warum Firmen ihre Mitarbeiter ausschlafen lassen sollten",
+      "link": "https://www.handelsblatt.com/karriere/unternehmen-warum-fuehrungskraefte-bei-arbeitszeiten-umdenken-sollten-01/100231866.html",
+      "summary": "Die innere Uhr wirkt sich maßgeblich auf die Produktivität aus. Trotzdem arbeiten viele gegen ihren eigenen Rhythmus. Wie lässt sich das verhindern?",
+      "image": "https://images.handelsblatt.com/pUdG-akKrR4t/cover/900/506/0/0/0/0/0.5/0.5/chronotypen-und-arbeitszeit.png",
+      "published": "2026-09-22T05:16:00+00:00",
+      "category": "Wirtschaft",
+      "score": 60.78
+    },
+    {
+      "id": "handelsblatt-61f10ed5504800fa",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Start-up: Khachab gibt Führung bei der Gastro-Bestellplattform Choco ab",
+      "link": "https://www.handelsblatt.com/unternehmen/start-ups/start-up-khachab-gibt-fuehrung-bei-der-gastro-bestellplattform-choco-ab/100255272.html",
+      "summary": "Nach acht Jahren als Chef übergibt Khachab die Führung des Berliner Start-ups Choco. Er selbst will sich künftig auf Produktentwicklung und KI konzentrieren. Der neue Chef hat eine Mission.",
+      "image": "https://images.handelsblatt.com/9JSfptyfnEXD/cover/900/506/0/0/0/938/0.5/0.5/daniel-khachab.jpg",
+      "published": "2026-09-22T05:15:45+00:00",
+      "category": "Technologie",
+      "score": 57.78
+    },
+    {
+      "id": "handelsblatt-72d3cc7b439dc599",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Autoindustrie: „Das ist so billig, Ola Källenius“ – Mercedes erwägt Abzug von Produktion aus Deutschland",
+      "link": "https://www.handelsblatt.com/unternehmen/industrie/autoindustrie-mercedes-erwaegt-abzug-von-produktion-aus-deutschland-01/100256260.html",
+      "summary": "Mercedes will eine längere Wochenarbeitszeit durchsetzen und Sonderzahlungen streichen. Eine Kundgebung am Montag gibt Einblicke in die Verhandlungen mit dem Betriebsrat.",
+      "image": "https://images.handelsblatt.com/j7hoQOxp8aNy/cover/900/506/0/0/305/127/0.5/0.5/employees-of-german-car-producer-mercedes-benz-attend-a-rally-organized-by-german-metal-workers-uni.jpg",
+      "published": "2026-09-22T05:12:00+00:00",
+      "category": "Wirtschaft",
+      "score": 60.72
+    },
+    {
+      "id": "handelsblatt-b8940cc609b67029",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Start-ups: 20 ausgezeichnete Professorinnen und Professoren, die das Gründen an Hochschulen fördern",
+      "link": "https://www.handelsblatt.com/unternehmen/start-ups/start-ups-diese-20-professoren-treiben-unternehmertum-an-hochschulen-voran/100253171.html",
+      "summary": "Die Initiative Unipreneurs zeichnet die Professoren und Professorinnen aus, die Unternehmertum in Deutschland besonders stark fördern. Eines haben fast alle von ihnen gemein.",
+      "image": "https://images.handelsblatt.com/UHD4cKXX1GLr/cover/900/506/0/0/108/106/0.5/0.5/studentinnen-und-studenten-in-einem-hoersaal.jpg",
+      "published": "2026-09-22T05:09:38+00:00",
+      "category": "Wirtschaft",
+      "score": 60.69
+    },
+    {
+      "id": "handelsblatt-a7ac9db3291b4791",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Immobilien: Das entgegnet der Vonovia-Chef der Linken und ihren Enteignungsplänen in Berlin",
+      "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-das-sagt-der-vonovia-chef-zu-den-enteignungsplaenen-der-linken-01/100256077.html",
+      "summary": "Nach dem Sieg der Linken bei der Abgeordnetenwahl verweist Luka Mucic auf eine Umfrage, der zufolge Enteignungen keine Mehrheit in der Bevölkerung mehr finden. Was er stattdessen fordert.",
+      "image": "https://images.handelsblatt.com/V91oRNbjXhZ-/cover/900/506/0/0/433/192/0.5/0.5/produktion-16.09.2026-berlin-luka-mucic-vorsitzender-des-vorstands-der-vonovia-se-spricht-waehr.jpg",
+      "published": "2026-09-22T05:08:00+00:00",
+      "category": "Politik",
+      "score": 68.67
+    },
+    {
+      "id": "handelsblatt-2d3a6b493c1b195d",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Welthandel: Von der Leyen: EU und Philippinen vor Abschluss von Freihandelsabkommen",
+      "link": "https://www.handelsblatt.com/politik/international/welthandel-von-der-leyen-eu-und-philippinen-vor-abschluss-von-freihandelsabkommen/100256408.html",
+      "summary": "Die EU und die Philippinen haben sich grundsätzlich auf ein Freihandelsabkommen verständigt. Es soll Handel und Investitionen stärken und in den kommenden Monaten finalisiert werden.",
+      "image": "https://images.handelsblatt.com/LljmShlTitC8/cover/900/506/0/0/0/483/0.5/0.5/ursula-von-der-leyen-nimmt-techkonzerne-in-die-pflicht..jpg",
+      "published": "2026-09-22T05:07:07+00:00",
+      "category": "Wirtschaft",
+      "score": 69.66
+    },
+    {
+      "id": "handelsblatt-c1ec6f0be8503198",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Medien: Paramount macht Weg für 110-Milliarden-Übernahme von Warner Bros frei",
+      "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/warner-bros-paramount-macht-weg-fuer-110-milliarden-uebernahme-frei/100256295.html",
+      "summary": "In Hollywood kann der Milliardendeal von Paramount und Warner Bros umgesetzt werden. Das Unternehmen hat Bedenken der Bundesstaaten und Autoren aus dem Weg geräumt – mit einigen Zusagen.",
+      "image": "https://images.handelsblatt.com/on7YxsFDfkli/cover/900/506/0/0/226/615/0.5/0.5/paramount.jpg",
+      "published": "2026-09-22T05:05:10+00:00",
+      "category": "Wirtschaft",
+      "score": 72.31
     },
     {
       "id": "tagesschau-93f07f4f3fe96aa0",
@@ -452,7 +618,7 @@
       "image": "https://images.tagesschau.de/image/78b7180f-ea0d-4beb-be21-1034e843a8a3/AAABoFfBUEE/AAABnSSvrFg/16x9-big/tanken-222.jpg?width=1920",
       "published": "2026-09-22T05:04:01+02:00",
       "category": "Politik",
-      "score": 69.24
+      "score": 68.95
     },
     {
       "id": "spiegel-f5f2a657019d7cfd",
@@ -464,7 +630,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/5cece4f0-d474-4400-9cf4-543c31135615_w1200_r1.778_fpx45_fpy49.jpg",
       "published": "2026-09-22T05:02:00+02:00",
       "category": "Wissenschaft",
-      "score": 65.21
+      "score": 64.92
     },
     {
       "id": "handelsblatt-e4edfe56a948930e",
@@ -476,7 +642,7 @@
       "image": "https://images.handelsblatt.com/axkxWG2ezGtK/cover/900/506/112/322/0/631/0.5/0.5/oligarch-alischer-usmanow.jpg",
       "published": "2026-09-22T04:58:44+00:00",
       "category": "Wirtschaft",
-      "score": 60.84
+      "score": 60.54
     },
     {
       "id": "spiegel-034a74c5f9de408e",
@@ -488,19 +654,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/bd23faf8-4c1a-407e-a82e-0a4212b2a094_w1200_r1.778_fpx57_fpy49.jpg",
       "published": "2026-09-22T04:56:00+02:00",
       "category": "Politik",
-      "score": 68.13
-    },
-    {
-      "id": "handelsblatt-2d3a6b493c1b195d",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Welthandel: Von der Leyen – EU und Philippinen vor Abschluss von Freihandelsabkommen",
-      "link": "https://www.handelsblatt.com/politik/international/welthandel-von-der-leyen-eu-und-philippinen-vor-abschluss-von-freihandelsabkommen/100256408.html",
-      "summary": "Die EU und die Philippinen haben sich grundsätzlich auf ein Freihandelsabkommen verständigt. Es soll Handel und Investitionen stärken und in den kommenden Monaten finalisiert werden.",
-      "image": "https://images.handelsblatt.com/LljmShlTitC8/cover/900/506/0/0/0/483/0.5/0.5/ursula-von-der-leyen-nimmt-techkonzerne-in-die-pflicht..jpg",
-      "published": "2026-09-22T04:53:32+00:00",
-      "category": "Wirtschaft",
-      "score": 69.76
+      "score": 67.84
     },
     {
       "id": "tagesschau-22fbad22b977d1fb",
@@ -508,11 +662,11 @@
       "sourceWeight": 1.0,
       "title": "Was die Wahlergebnisse für die Regierungsbildungen bedeuten",
       "link": "https://www.tagesschau.de/inland/innenpolitik/regierungsbildung-berlin-mecklenburg-vorpommern-100.html",
-      "summary": "Wer mit wem? Auf diese Frage kommt es nach den Wahlen in Mecklenburg-Vorpommern und Berlin jetzt an. Wo ist die Ausgangslage am günstigsten? Und welche Knackpunkte gibt es zwischen den Parteien?[ mehr ]",
+      "summary": "Nach den Wahlen in Mecklenburg-Vorpommern und Berlin müssen sich nun Koalitionen finden. Wo ist die Ausgangslage am günstigsten? Und welche Knackpunkte gibt es zwischen den Parteien?[ mehr ]",
       "image": "https://images.tagesschau.de/image/948a6a1d-0e77-4589-a35c-9522e8a177f7/AAABoL9QXM8/AAABnSSvrFg/16x9-big/landtag-mv-104.jpg?width=1920",
       "published": "2026-09-22T04:53:25+02:00",
       "category": "Politik",
-      "score": 78.25,
+      "score": 77.96,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -534,7 +688,7 @@
       "image": "https://images.handelsblatt.com/0wfjXpG5HWiI/cover/900/506/0/0/122/122/0.5/0.5/gold.jpg",
       "published": "2026-09-22T04:51:37+00:00",
       "category": "Technologie",
-      "score": 57.74
+      "score": 57.44
     },
     {
       "id": "handelsblatt-f48e605dc2587d2b",
@@ -546,7 +700,7 @@
       "image": "https://images.handelsblatt.com/SO0pE-snpVeA/cover/900/506/0/0/656/657/0.5/0.5/green-und-energy-podcast-teaser-2025.jpg",
       "published": "2026-09-22T04:44:48+00:00",
       "category": "Wirtschaft",
-      "score": 60.64
+      "score": 60.35
     },
     {
       "id": "handelsblatt-6d4d5e200cbc257f",
@@ -558,7 +712,7 @@
       "image": "https://images.handelsblatt.com/uOimZOaxNSCy/cover/900/506/1401/184/793/621/0.5/0.5/ds-n8.jpg",
       "published": "2026-09-22T04:44:42+00:00",
       "category": "Wirtschaft",
-      "score": 60.64
+      "score": 60.34
     },
     {
       "id": "spiegel-592089aabac5d1ca",
@@ -570,7 +724,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/dae255e5-1a00-4637-815f-e0aade6bc245_w1200_r1.778_fpx33.34_fpy50.jpg",
       "published": "2026-09-22T04:41:00+02:00",
       "category": "Politik",
-      "score": 83.92
+      "score": 83.63
     },
     {
       "id": "handelsblatt-3220d05ff935296b",
@@ -582,7 +736,7 @@
       "image": "https://images.handelsblatt.com/fgoKp96ZQWXr/cover/900/506/55/445/369/212/0.5/0.5/ford-s-max.jpg",
       "published": "2026-09-22T04:34:44+00:00",
       "category": "Wirtschaft",
-      "score": 60.5
+      "score": 60.21
     },
     {
       "id": "handelsblatt-ea063cd1c87189e4",
@@ -594,7 +748,7 @@
       "image": "https://images.handelsblatt.com/tbzMzzPZA7WN/cover/900/506/0/0/107/106/0.5/0.5/eine-frau-liegt-auf-dem-bett-eines-campervans.jpg",
       "published": "2026-09-22T04:34:05+00:00",
       "category": "Technologie",
-      "score": 57.49
+      "score": 57.2
     },
     {
       "id": "handelsblatt-ae646cdf2152584c",
@@ -606,7 +760,7 @@
       "image": "https://images.handelsblatt.com/QvmnNgAPSomp/cover/900/506/0/0/107/106/0.5/0.5/eine-frau-trinkt-in-einem-wald-aus-einem-campingbecher.jpg",
       "published": "2026-09-22T04:34:04+00:00",
       "category": "Wirtschaft",
-      "score": 60.49
+      "score": 60.2
     },
     {
       "id": "handelsblatt-728d7f7700bb6925",
@@ -618,7 +772,7 @@
       "image": "https://images.handelsblatt.com/iYJIYlJ0LyLk/cover/900/506/0/0/0/0/0.5/0.5/kurstafel.png",
       "published": "2026-09-22T04:23:28+00:00",
       "category": "Wirtschaft",
-      "score": 68.35
+      "score": 68.05
     },
     {
       "id": "handelsblatt-c0f9d8c3a8f454a5",
@@ -630,7 +784,7 @@
       "image": "https://images.handelsblatt.com/Rbg9LHNBL4cW/cover/900/506/0/0/0/0/0.5/0.5/satellitenproduktion-in-berlin.jpg",
       "published": "2026-09-22T04:20:54+00:00",
       "category": "Wirtschaft",
-      "score": 60.31
+      "score": 60.01
     },
     {
       "id": "handelsblatt-ceee08aeca5f02f6",
@@ -642,7 +796,7 @@
       "image": "https://images.handelsblatt.com/gwpMFHG0LcjX/cover/900/506/0/0/75/75/0.5/0.5/xi-und-putin.jpeg",
       "published": "2026-09-22T04:18:48+00:00",
       "category": "Politik",
-      "score": 78.28
+      "score": 77.99
     },
     {
       "id": "tagesschau-5afd3d91edb9296a",
@@ -654,7 +808,7 @@
       "image": "https://images.tagesschau.de/image/ad397f14-6069-468b-8b87-a34211948d66/AAABoMdY-JA/AAABnSSvrFg/16x9-big/afd-1290.jpg?width=1920",
       "published": "2026-09-22T04:05:13+02:00",
       "category": "Politik",
-      "score": 68.43
+      "score": 68.13
     },
     {
       "id": "handelsblatt-c4b3b983d222aaff",
@@ -666,7 +820,7 @@
       "image": "https://images.handelsblatt.com/GqjedYa4TtiY/cover/900/506/0/0/656/657/0.5/0.5/morning-briefing-podcast-teaser-2025.jpg",
       "published": "2026-09-22T04:02:19+00:00",
       "category": "Politik",
-      "score": 68.05
+      "score": 67.76
     },
     {
       "id": "handelsblatt-51445d90890a7e0a",
@@ -678,7 +832,7 @@
       "image": "https://images.handelsblatt.com/YIRHs2b8wrFQ/cover/900/506/0/0/107/106/0.5/0.5/shanghai-boerse.jpeg",
       "published": "2026-09-22T03:57:45+00:00",
       "category": "Technologie",
-      "score": 56.99
+      "score": 56.69
     },
     {
       "id": "handelsblatt-ac50391b94f3a860",
@@ -690,7 +844,7 @@
       "image": "https://images.handelsblatt.com/47d5QgD3gb49/cover/900/506/0/0/0/0/0.5/0.5/sven-prange.png",
       "published": "2026-09-22T03:51:10+00:00",
       "category": "Wirtschaft",
-      "score": 59.9
+      "score": 59.6
     },
     {
       "id": "handelsblatt-ba01d8fa1d557aee",
@@ -699,10 +853,10 @@
       "title": "USA: Nach Hausverbot – Trump-naher Sender zeigt sich solidarisch mit Betroffenen",
       "link": "https://www.handelsblatt.com/politik/international/usa-nach-hausverbot-trump-naher-sender-solidarisch-mit-betroffenen/100256375.html",
       "summary": "Nach dem Rauswurf aus dem Weißen Haus erhalten die betroffenen Medien unerwartete Unterstützung von Trump-freundlichen Reportern. Der Präsident startet derweil „Trump TV“.",
-      "image": "https://images.handelsblatt.com/lkpHY6o6y46v/cover/900/506/0/0/193/193/0.5/0.5/06.04.2026-usa-washington-us-praesident-donald-trump-spricht-im-james-brady-press-briefing-room-im.jpg",
+      "image": "https://images.handelsblatt.com/lkpHY6o6y46v/cover/900/506/0/0/88/298/0.5/0.5/06.04.2026-usa-washington-us-praesident-donald-trump-spricht-im-james-brady-press-briefing-room-im.jpg",
       "published": "2026-09-22T03:41:43+00:00",
       "category": "Politik",
-      "score": 82.93
+      "score": 76.96
     },
     {
       "id": "handelsblatt-d3d2c2810ff1e3a3",
@@ -714,7 +868,7 @@
       "image": "https://images.handelsblatt.com/qRrfl7LRuA14/cover/900/506/0/0/107/107/0.5/0.5/us-praesident-donald-trump.jpg",
       "published": "2026-09-22T03:30:56+00:00",
       "category": "Politik",
-      "score": 82.93
+      "score": 78.79
     },
     {
       "id": "spiegel-e6a1266c6cdb324c",
@@ -726,7 +880,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/6582eec3-50ef-4e03-9240-fe58e7fcafc3_w1200_r1.778_fpx59.99_fpy50.jpg",
       "published": "2026-09-22T03:30:00+02:00",
       "category": "Politik",
-      "score": 66.94
+      "score": 66.64
     },
     {
       "id": "spiegel-8efc533b702cd7eb",
@@ -738,7 +892,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/fc698566-ad9f-42d3-b21e-02075aa68229_w1200_r1.778_fpx45_fpy39.jpg",
       "published": "2026-09-22T03:29:00+02:00",
       "category": "Politik",
-      "score": 74.92
+      "score": 74.63
     },
     {
       "id": "handelsblatt-ff7586f45ef53f00",
@@ -750,7 +904,7 @@
       "image": "https://images.handelsblatt.com/KY4yQXLY3RKD/cover/900/506/0/0/93/93/0.5/0.5/auf-dem-display-eines-smartphones-sind-zahlreiche-apps-zu-sehen.jpg",
       "published": "2026-09-22T03:21:04+00:00",
       "category": "Wirtschaft",
-      "score": 59.48
+      "score": 59.18
     },
     {
       "id": "handelsblatt-160436e3072bc958",
@@ -762,7 +916,7 @@
       "image": "https://images.handelsblatt.com/gCyGzvvaXD4n/cover/900/506/0/314/160/231/0.5/0.5/chinas-aussenminister-wang-yi.jpg",
       "published": "2026-09-22T03:11:19+00:00",
       "category": "Politik",
-      "score": 67.34
+      "score": 67.05
     },
     {
       "id": "handelsblatt-a0d7e2a1a4992211",
@@ -774,7 +928,7 @@
       "image": "https://images.handelsblatt.com/NvSQlJaQYmUe/cover/900/506/0/0/107/107/0.5/0.5/generaldebatte-der-un-vollversammlung.jpg",
       "published": "2026-09-22T03:06:48+00:00",
       "category": "Politik",
-      "score": 77.28
+      "score": 76.99
     },
     {
       "id": "handelsblatt-1b5b81b47670cd7f",
@@ -786,7 +940,7 @@
       "image": "https://images.handelsblatt.com/Gj2HtfS2AZhs/cover/900/506/0/0/107/106/0.5/0.5/schutzimpfungen-im-kindesalter.jpg",
       "published": "2026-09-22T03:00:04+00:00",
       "category": "Technologie",
-      "score": 56.19
+      "score": 55.89
     },
     {
       "id": "handelsblatt-ecd5d39517aa51f7",
@@ -798,7 +952,7 @@
       "image": "https://images.handelsblatt.com/1mo5ILaOon6C/cover/900/506/0/0/107/107/0.5/0.5/nach-den-landtagswahlen-cdu.jpg",
       "published": "2026-09-22T02:45:04+00:00",
       "category": "Politik",
-      "score": 74.98
+      "score": 74.68
     },
     {
       "id": "tagesschau-348ffa1072948567",
@@ -810,7 +964,7 @@
       "image": "https://images.tagesschau.de/image/5b710c82-57e5-4812-b3b1-dfa993622c4a/AAABoMZScmY/AAABnSSvrFg/16x9-big/trump-5284.jpg?width=1920",
       "published": "2026-09-22T02:39:03+02:00",
       "category": "Politik",
-      "score": 77.28,
+      "score": 76.99,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -832,7 +986,7 @@
       "image": "https://images.handelsblatt.com/hH9WckFQk22U/cover/900/506/0/410/131/298/0.5/0.5/tanken.jpg",
       "published": "2026-09-22T02:36:00+00:00",
       "category": "Wirtschaft",
-      "score": 58.85
+      "score": 58.56
     },
     {
       "id": "handelsblatt-e3d5f98e65c651a7",
@@ -844,7 +998,7 @@
       "image": "https://images.handelsblatt.com/BGdDz7RT7NE9/cover/900/506/0/0/105/105/0.5/0.5/verkehrsunfallaufnahme.jpg",
       "published": "2026-09-22T02:30:04+00:00",
       "category": "Panorama",
-      "score": 55.77
+      "score": 55.47
     },
     {
       "id": "handelsblatt-431b394316744102",
@@ -856,7 +1010,7 @@
       "image": "https://images.handelsblatt.com/lBEeBB3uPSJe/cover/900/506/0/0/107/106/0.5/0.5/ron-prosor.jpg",
       "published": "2026-09-22T02:15:04+00:00",
       "category": "Politik",
-      "score": 74.56
+      "score": 74.27
     },
     {
       "id": "handelsblatt-ead6cfcc89b9aa6a",
@@ -868,7 +1022,7 @@
       "image": "https://images.handelsblatt.com/0Z6Yp0xFO30-/cover/900/506/0/0/0/0/0.5/0.5/key-art-von-control-resonant.jpg",
       "published": "2026-09-22T02:12:06+00:00",
       "category": "Wirtschaft",
-      "score": 58.52
+      "score": 58.23
     },
     {
       "id": "spiegel-3c0f7b853981f3f3",
@@ -880,19 +1034,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/dfe1f136-ff8f-4bc1-8249-8391cd3e53b4_w1200_r1.778_fpx52.67_fpy54.99.jpg",
       "published": "2026-09-22T02:08:00+02:00",
       "category": "Nachrichten",
-      "score": 54.8
+      "score": 54.5
     },
     {
       "id": "handelsblatt-833e8032cb22ecf1",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Kommentar: SPD und Grüne brauchen eine Brandmauer gegen Enteignungen",
+      "title": "Kommentar: Die Linke meint es wirklich ernst – höchste Zeit für eine neue Brandmauer",
       "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-spd-und-gruene-brauchen-eine-brandmauer-gegen-enteignungen/100256289.html",
-      "summary": "Der Wahnsinn hat Methode. Berlin benötigt mehr Wohnungen und keine sozialistische Symbolpolitik auf Kosten von Steuerzahlern, Eigentümern und Investoren.",
+      "summary": "Wahlsiegerin Elif Eralp will tatsächlich einen Plan umsetzen, der keine einzige neue Wohnung schafft, aber Milliarden kostet. Ihre möglichen Koalitionspartner sollten ein Zeichen setzen.",
       "image": "https://images.handelsblatt.com/XC91IEor5x4S/cover/900/506/0/0/286/287/0.5/0.5/auswirkungen-der-landtagswahlen-in-berlin-ines-schwerdtner-vorsitzende-der-partei-die-linke-elif-e.jpg",
       "published": "2026-09-22T02:03:26+00:00",
-      "category": "Wirtschaft",
-      "score": 58.4
+      "category": "Politik",
+      "score": 66.1
     },
     {
       "id": "handelsblatt-f147c6e7c1c741df",
@@ -904,7 +1058,7 @@
       "image": "https://images.handelsblatt.com/HAfnLez1FBj-/cover/900/506/0/0/625/0/0.5/0.5/un-generalsekretaer-antonio-guterres.jpg",
       "published": "2026-09-22T02:03:22+00:00",
       "category": "Politik",
-      "score": 74.4
+      "score": 74.1
     },
     {
       "id": "handelsblatt-482ec78d905360ed",
@@ -916,7 +1070,7 @@
       "image": "https://images.handelsblatt.com/aBlqdMyb0EUp/cover/900/506/0/0/0/569/0.5/0.5/taiwans-regierung-will-eine-festung-der-freiheit-schaffen.png",
       "published": "2026-09-22T02:03:19+00:00",
       "category": "Politik",
-      "score": 78.28
+      "score": 77.99
     },
     {
       "id": "handelsblatt-b8eab11267c3aa7e",
@@ -928,7 +1082,7 @@
       "image": "https://images.handelsblatt.com/fiHgx7I70Z-v/cover/900/506/0/0/107/106/0.5/0.5/bericht-wm-mit-werbung-fuer-ungesundes-und-riskantes-ueberflutet.jpg",
       "published": "2026-09-22T02:00:13+00:00",
       "category": "Wissenschaft",
-      "score": 63.36
+      "score": 63.06
     },
     {
       "id": "handelsblatt-d0a1fe67fc8b664b",
@@ -940,7 +1094,7 @@
       "image": "https://images.handelsblatt.com/IlMGbjcMwpIP/cover/900/506/0/0/107/106/0.5/0.5/tanken-diesel.jpg",
       "published": "2026-09-22T02:00:06+00:00",
       "category": "Politik",
-      "score": 66.35
+      "score": 66.06
     },
     {
       "id": "handelsblatt-a283a8eb732598ae",
@@ -952,7 +1106,7 @@
       "image": "https://images.handelsblatt.com/vueGguJUAIsa/cover/900/506/0/0/188/187/0.5/0.5/geburten.jpg",
       "published": "2026-09-22T02:00:04+00:00",
       "category": "Wirtschaft",
-      "score": 58.35
+      "score": 58.06
     },
     {
       "id": "handelsblatt-e60684f3d7b8dc75",
@@ -964,7 +1118,7 @@
       "image": "https://images.handelsblatt.com/KgrgOW2r9RyJ/cover/900/506/0/0/107/106/0.5/0.5/wolfgang-ischinger.jpg",
       "published": "2026-09-22T02:00:00+00:00",
       "category": "Wirtschaft",
-      "score": 66.35
+      "score": 66.06
     },
     {
       "id": "handelsblatt-04623c070ef9a0cc",
@@ -976,7 +1130,7 @@
       "image": "https://images.handelsblatt.com/8g0mCyAPgcQW/cover/900/506/0/0/107/106/0.5/0.5/vorder-und-rueckansicht-des-geely-e2.jpg",
       "published": "2026-09-22T01:33:06+00:00",
       "category": "Wirtschaft",
-      "score": 57.98
+      "score": 57.68
     },
     {
       "id": "spiegel-b8c1a8381342e744",
@@ -988,7 +1142,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/12690a29-4d17-4171-88a9-dc25d357dd40_w1200_r1.778_fpx63.34_fpy44.98.jpg",
       "published": "2026-09-22T01:31:00+02:00",
       "category": "Panorama",
-      "score": 72.36
+      "score": 72.06
     },
     {
       "id": "spiegel-2e9796d04a740a11",
@@ -1000,7 +1154,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/ce6daceb-4bba-4b34-99ac-d285b8944fad_w1200_r1.778_fpx29_fpy42.jpg",
       "published": "2026-09-22T01:09:00+02:00",
       "category": "Nachrichten",
-      "score": 53.98
+      "score": 53.68
     },
     {
       "id": "tagesschau-3f5ad772867a64dd",
@@ -1012,7 +1166,7 @@
       "image": "https://images.tagesschau.de/image/d5d9fc59-6e37-4183-b0ae-1adb61f6f4a0/AAABoMYzu6g/AAABnSSvrFg/16x9-big/anke-rehlinger-140.jpg?width=1920",
       "published": "2026-09-22T00:55:54+02:00",
       "category": "Politik",
-      "score": 65.8
+      "score": 65.5
     },
     {
       "id": "handelsblatt-76eb3e9d63a0a283",
@@ -1024,7 +1178,7 @@
       "image": "https://images.handelsblatt.com/pJ2kPSkZ2NED/cover/900/506/0/0/107/107/0.5/0.5/eu-handelskammer-in-china.jpg",
       "published": "2026-09-22T00:30:04+00:00",
       "category": "Technologie",
-      "score": 54.1
+      "score": 53.81
     },
     {
       "id": "spiegel-164083f10dd1e4b3",
@@ -1036,7 +1190,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/a288c69a-7ed4-4e60-a8fb-2bb74a0526b8_w1200_r1.778_fpx55_fpy55.jpg",
       "published": "2026-09-21T23:55:00+02:00",
       "category": "Nachrichten",
-      "score": 52.95
+      "score": 52.65
     },
     {
       "id": "spiegel-e439c3318bdf16e2",
@@ -1048,7 +1202,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/23bdc2fc-74aa-4a85-8ddb-4afb9ab85d98_w1200_r1.778_fpx45_fpy30.jpg",
       "published": "2026-09-21T23:23:00+02:00",
       "category": "Politik",
-      "score": 63.51
+      "score": 63.21
     },
     {
       "id": "tagesschau-8263fd1b0285bed1",
@@ -1060,7 +1214,7 @@
       "image": "https://images.tagesschau.de/image/3ff0d359-f1be-41f3-8ba4-bdd25a1348c4/AAABoMNen48/AAABnSSvrFg/16x9-big/schwesig-380.jpg?width=1920",
       "published": "2026-09-21T23:20:07+02:00",
       "category": "Nachrichten",
-      "score": 61.47
+      "score": 61.17
     },
     {
       "id": "handelsblatt-c5f2731b49ad9d21",
@@ -1072,7 +1226,7 @@
       "image": "https://images.handelsblatt.com/G1rzBlRz7HVq/cover/900/506/0/0/122/122/0.5/0.5/ostfrankreich-will-verstaerkt-deutsche-investoren-werben.jpg",
       "published": "2026-09-21T23:00:04+00:00",
       "category": "Wirtschaft",
-      "score": 55.85
+      "score": 55.56
     },
     {
       "id": "tagesschau-aff630a0f8f2c978",
@@ -1084,7 +1238,7 @@
       "image": "https://images.tagesschau.de/image/7eb195d4-f9eb-4944-94f2-90c96aa79309/AAABoMWaKck/AAABnSSvrFg/16x9-big/friedrich-merz-506.jpg?width=1920",
       "published": "2026-09-21T22:59:55+02:00",
       "category": "Nachrichten",
-      "score": 61.19
+      "score": 52.89
     },
     {
       "id": "handelsblatt-672aaaec155a5c3a",
@@ -1096,7 +1250,7 @@
       "image": "https://images.handelsblatt.com/DQyjhn3a4bA3/cover/900/506/0/0/75/75/0.5/0.5/heizen-wird-teurer.jpeg",
       "published": "2026-09-21T22:53:42+00:00",
       "category": "Wissenschaft",
-      "score": 52.77
+      "score": 52.47
     },
     {
       "id": "handelsblatt-0ae318dd7f6c5252",
@@ -1108,7 +1262,7 @@
       "image": "https://images.handelsblatt.com/7A9uHwg1y5u9/cover/900/506/0/0/107/106/0.5/0.5/thermostat-ventil-an-einem-heizkoerper.jpg",
       "published": "2026-09-21T22:02:04+00:00",
       "category": "Wissenschaft",
-      "score": 52.77
+      "score": 52.47
     },
     {
       "id": "spiegel-0879af727315f104",
@@ -1120,7 +1274,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/22dccc3f-a8f0-4236-8bc0-78b664fe5379_w1200_r1.778_fpx33.33_fpy49.99.jpg",
       "published": "2026-09-21T21:15:00+02:00",
       "category": "Nachrichten",
-      "score": 54.8
+      "score": 54.5
     },
     {
       "id": "handelsblatt-ce344558f942a1ba",
@@ -1132,7 +1286,7 @@
       "image": "https://images.handelsblatt.com/IBllD4Ishtyh/cover/900/506/0/0/74/74/0.5/0.5/spritpreise.jpg",
       "published": "2026-09-21T20:52:27+00:00",
       "category": "Politik",
-      "score": 54.08
+      "score": 53.79
     },
     {
       "id": "spiegel-e9fa00366a8b113f",
@@ -1144,7 +1298,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/790ce907-6305-42e0-a9f2-73907d8ec990_w1200_r1.778_fpx32.65_fpy45.jpg",
       "published": "2026-09-21T20:52:00+02:00",
       "category": "Politik",
-      "score": 61.41
+      "score": 61.11
     },
     {
       "id": "tagesschau-340e149ef4a84ddd",
@@ -1156,22 +1310,7 @@
       "image": "https://images.tagesschau.de/image/51a21c3f-8d63-4176-9c41-6f6afe06d966/AAABoMRr5SQ/AAABnSSvrFg/16x9-big/raum-pressekonferenzen-weisses-haus-100.jpg?width=1920",
       "published": "2026-09-21T20:36:07+02:00",
       "category": "Politik",
-      "score": 82.93,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Nach Hausverbot im Weißen Haus - Große US-Sender schränken Berichterstattung über Trump ein",
-            "link": "https://www.deutschlandfunk.de/grosse-us-sender-schraenken-berichterstattung-ueber-trump-ein-116.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "USA: Nach Hausverbot – Trump-naher Sender zeigt sich solidarisch mit Betroffenen",
-            "link": "https://www.handelsblatt.com/politik/international/usa-nach-hausverbot-trump-naher-sender-solidarisch-mit-betroffenen/100256375.html"
-          }
-        ]
-      }
+      "score": 78.79
     },
     {
       "id": "handelsblatt-2c52a2c89804d258",
@@ -1183,7 +1322,7 @@
       "image": "https://images.handelsblatt.com/V11S40tJLxSy/cover/900/506/0/0/194/193/0.5/0.5/oligarch-alischer-usmanow.jpg",
       "published": "2026-09-21T20:23:16+00:00",
       "category": "Politik",
-      "score": 69.68
+      "score": 69.38
     },
     {
       "id": "handelsblatt-2f7c7b9af65392ac",
@@ -1195,7 +1334,7 @@
       "image": "https://images.handelsblatt.com/xCzOHKti0ETT/cover/900/506/0/0/107/107/0.5/0.5/ministerpraesident-wuest-beim-staendehaus-treff.jpg",
       "published": "2026-09-21T20:20:28+00:00",
       "category": "Politik",
-      "score": 53.64
+      "score": 53.34
     },
     {
       "id": "spiegel-18d552e664dd698d",
@@ -1207,7 +1346,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/4c9bf7f4-7cb8-47ba-9cc7-c0b27c0226f0_w1200_r1.778_fpx46.04_fpy50.jpg",
       "published": "2026-09-21T20:20:00+02:00",
       "category": "Politik",
-      "score": 61.47
+      "score": 61.17
     },
     {
       "id": "tagesschau-433b0603dbd7e6de",
@@ -1219,7 +1358,7 @@
       "image": "https://images.tagesschau.de/image/ddce170d-a668-42af-af01-15dd4f3249dd/AAABoMUjdF4/AAABnSSvrFg/16x9-big/merz-1656.jpg?width=1920",
       "published": "2026-09-21T20:03:50+02:00",
       "category": "Politik",
-      "score": 61.74
+      "score": 61.44
     },
     {
       "id": "spiegel-43495b10f5ed20c3",
@@ -1231,7 +1370,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/6ebacbf5-4d59-4b96-a235-7c4f90baf608_w1200_r1.778_fpx46.04_fpy44.86.jpg",
       "published": "2026-09-21T19:43:00+02:00",
       "category": "Politik",
-      "score": 52.45
+      "score": 52.15
     },
     {
       "id": "spiegel-40371d5a7d948682",
@@ -1243,7 +1382,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/d9d2d817-fd35-4d7e-9a79-59df9ec9ca9c_w1200_r1.778_fpx41_fpy61.jpg",
       "published": "2026-09-21T19:43:00+02:00",
       "category": "Nachrichten",
-      "score": 58.45
+      "score": 72.31
     },
     {
       "id": "tagesschau-d7dc3ceccbc8e709",
@@ -1255,7 +1394,7 @@
       "image": "https://images.tagesschau.de/image/e4d2a203-f21b-4575-b4d4-33cef7f33051/AAABmwd4iSs/AAABnSSvrFg/16x9-big/warner-bros-paramount-100.jpg?width=1920",
       "published": "2026-09-21T19:20:54+02:00",
       "category": "Nachrichten",
-      "score": 58.45
+      "score": 72.31
     },
     {
       "id": "handelsblatt-835eeacdd7442b67",
@@ -1267,7 +1406,7 @@
       "image": "https://images.handelsblatt.com/Oq7m-Klpscig/cover/900/506/0/0/117/117/0.5/0.5/sitzung-des-cdu-landesvorstands-nach-landtagswahl.jpg",
       "published": "2026-09-21T19:19:05+00:00",
       "category": "Politik",
-      "score": 60.79
+      "score": 60.49
     },
     {
       "id": "tagesschau-8a72e598a1ef7f5a",
@@ -1279,7 +1418,7 @@
       "image": "https://images.tagesschau.de/image/2def2a49-0fea-40fc-90f7-bf465abb15a4/AAABoMTG1tk/AAABnSSvrFg/16x9-big/wohnungen-berlin-104.jpg?width=1920",
       "published": "2026-09-21T19:11:31+02:00",
       "category": "Nachrichten",
-      "score": 67.25
+      "score": 66.96
     },
     {
       "id": "handelsblatt-7902b1f02c87fc38",
@@ -1291,7 +1430,7 @@
       "image": "https://images.handelsblatt.com/SyX3kPqlsxpO/cover/900/506/0/0/313/312/0.5/0.5/eu-aussenbeauftragte-kaja-kallas.jpg",
       "published": "2026-09-21T19:04:00+00:00",
       "category": "Wirtschaft",
-      "score": 60.58
+      "score": 60.28
     },
     {
       "id": "spiegel-2cc7cb983485c044",
@@ -1303,7 +1442,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/d10af296-581a-46bb-9fae-94b689e79388_w1200_r1.778_fpx57.34_fpy50.jpg",
       "published": "2026-09-21T19:02:00+02:00",
       "category": "Politik",
-      "score": 59.88
+      "score": 59.59
     },
     {
       "id": "golem-79ddb8a439489c8d",
@@ -1315,31 +1454,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213113&amp;page=1&amp;ts=1790009102",
       "published": "2026-09-21T18:45:02+02:00",
       "category": "Technologie",
-      "score": 46.65
-    },
-    {
-      "id": "handelsblatt-17cfd903ad1078a4",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Hollywood-Megadeal: Paramount auf Weg zu Warner-Kauf nach Deal mit Bundesstaaten",
-      "link": "https://www.handelsblatt.com/technik/it-internet/hollywood-megadeal-paramount-auf-weg-zu-warner-kauf-nach-deal-mit-bundesstaaten/100256316.html",
-      "summary": "Nach monatelangem Stillstand ist der Hollywood-Konzern Paramount wieder auf Kurs, den Konkurrenten Warner Brothers zu schlucken. US-Bundesstaaten geben nach Zugeständnissen ihren Widerstand auf.",
-      "image": "https://images.handelsblatt.com/SH9ARWfswFDa/cover/900/506/0/0/107/106/0.5/0.5/warner-bros.jpg",
-      "published": "2026-09-21T18:41:57+00:00",
-      "category": "Wirtschaft",
-      "score": 52.27
-    },
-    {
-      "id": "handelsblatt-c330a67d0154a174",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Wahlen +++: CDU-Verlierer Peters tritt ab – Amthor soll vorerst übernehmen",
-      "link": "https://www.handelsblatt.com/politik/deutschland/wahlen-in-berlin-und-mv-cdu-verlierer-peters-tritt-ab-amthor-soll-vorerst-uebernehmen/100252039.html",
-      "summary": "Merkel wirbt nach Wahlschlappen fürs Brückenbauen +++ Heil bereit für SPD-Führungsamt +++ Merz löst Debatte um private Krankenversicherung aus +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/6yVDjb8PYJez/cover/900/506/0/0/64/623/0.5/0.5/21.09.2026-mecklenburg-vorpommern-schwerin-daniel-peters-l-der-cdu-landesvorsitzende-und-spitz.jpg",
-      "published": "2026-09-21T18:38:00+00:00",
-      "category": "Politik",
-      "score": 61.19
+      "score": 46.35
     },
     {
       "id": "spiegel-e058389bdfacb2b9",
@@ -1351,7 +1466,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/ac1bca73-4956-4c26-90c2-5a57d6917b3b_w1200_r1.778_fpx56_fpy39.jpg",
       "published": "2026-09-21T18:36:00+02:00",
       "category": "Politik",
-      "score": 68.52
+      "score": 68.22
     },
     {
       "id": "golem-1629c8f24f30cd14",
@@ -1363,19 +1478,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213291&amp;page=1&amp;ts=1790008442",
       "published": "2026-09-21T18:34:02+02:00",
       "category": "Technologie",
-      "score": 46.49
-    },
-    {
-      "id": "handelsblatt-70191f351e59b54f",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Koalition: SPD stellt Koalitions-Kurs auf den Prüfstand: „Die Menschen wollen Reformen, aber…“",
-      "link": "https://www.handelsblatt.com/politik/deutschland/koalition-spd-stellt-reformkurs-auf-den-pruefstand/100256072.html",
-      "summary": "Nach dem Erfolg der Reformen-Kritikerin Manuela Schwesig wächst der Widerstand gegen die versprochenen Vorhaben im Bund. Eine große Ankündigung dürfte bereits ziemlich sicher scheitern.",
-      "image": "https://images.handelsblatt.com/xkZVqsyO7uTN/cover/900/506/0/0/0/626/0.5/0.5/krach-bas-klingbeil-schwesig-v.l.-es-gaert-in-der-spd..jpg",
-      "published": "2026-09-21T18:30:24+00:00",
-      "category": "Wirtschaft",
-      "score": 52.11
+      "score": 46.2
     },
     {
       "id": "tagesschau-a956c2f43d9215c3",
@@ -1387,7 +1490,7 @@
       "image": "https://images.tagesschau.de/image/e80f126f-3b3e-46e7-8e6c-c4ef677c80e3/AAABn8aD4T8/AAABnSSvrFg/16x9-big/boerse-354.jpg?width=1920",
       "published": "2026-09-21T18:27:04+02:00",
       "category": "Nachrichten",
-      "score": 49.4
+      "score": 49.1
     },
     {
       "id": "spiegel-864f82b7d508f7a4",
@@ -1399,7 +1502,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/6197a3a0-76e9-4e6c-9400-6ac8b810ee67_w1200_r1.778_fpx2_fpy31.jpg",
       "published": "2026-09-21T18:26:00+02:00",
       "category": "Nachrichten",
-      "score": 48.38
+      "score": 48.09
     },
     {
       "id": "spiegel-50243e6572da8876",
@@ -1411,7 +1514,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/0fb372c3-843d-4dc6-a445-e7c34c92f75c_w1200_r1.778_fpx28.09_fpy49.93.png",
       "published": "2026-09-21T18:21:00+02:00",
       "category": "Politik",
-      "score": 59.31
+      "score": 59.02
     },
     {
       "id": "spiegel-6557ef04b0b35816",
@@ -1423,19 +1526,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/1a92de90-68c2-4cd5-a806-0da1ed944dfd_w1200_r1.778_fpx60.65_fpy50.jpg",
       "published": "2026-09-21T18:19:00+02:00",
       "category": "Nachrichten",
-      "score": 48.28
-    },
-    {
-      "id": "handelsblatt-b239921bfcb9a258",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Konflikt um Arktisinsel: US-Beamter: Unterzeichnung von Grönland-Abkommen am Dienstag",
-      "link": "https://www.handelsblatt.com/politik/international/konflikt-um-arktisinsel-us-beamter-unterzeichnung-von-groenland-abkommen-am-dienstag/100256327.html",
-      "summary": "Die USA, Dänemark und Grönland kündigten jüngst überraschend einen Durchbruch im Streit um die Arktisinsel an. Trump präsentierte das als Sieg. Nun soll die Einigung dingfest gemacht werden.",
-      "image": "https://images.handelsblatt.com/muATDlitVJId/cover/900/506/0/0/107/107/0.5/0.5/us-praesident-donald-trump.jpg",
-      "published": "2026-09-21T18:14:14+00:00",
-      "category": "Politik",
-      "score": 59.88
+      "score": 47.99
     },
     {
       "id": "spiegel-b2fad15ea0eb1ab6",
@@ -1447,7 +1538,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/b1f898f0-7974-4dad-8508-d4cbb1024857_w1200_r1.778_fpx29.99_fpy50.98.jpg",
       "published": "2026-09-21T18:12:00+02:00",
       "category": "Nachrichten",
-      "score": 48.19
+      "score": 47.89
     },
     {
       "id": "tagesschau-e9595720cfffe70b",
@@ -1459,7 +1550,7 @@
       "image": "https://images.tagesschau.de/image/0dce7c70-dc61-4ef0-ad5e-2b3a6360c395/AAABoMQCM58/AAABnSSvrFg/16x9-big/wladimir-putin-318.jpg?width=1920",
       "published": "2026-09-21T18:08:23+02:00",
       "category": "Politik",
-      "score": 60.14
+      "score": 59.84
     },
     {
       "id": "golem-029efcad94008f63",
@@ -1471,7 +1562,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213290&amp;page=1&amp;ts=1790006881",
       "published": "2026-09-21T18:08:01+02:00",
       "category": "Technologie",
-      "score": 46.13
+      "score": 45.84
     },
     {
       "id": "tagesschau-8e1ad2074ec408f9",
@@ -1483,7 +1574,7 @@
       "image": "https://images.tagesschau.de/image/71d8ca39-406e-418c-a84b-3917d35928e1/AAABoMS-9sk/AAABnSSvrFg/16x9-big/rbb-620464795-100.jpg?width=1920",
       "published": "2026-09-21T18:04:23+02:00",
       "category": "Politik",
-      "score": 60.08
+      "score": 59.78
     },
     {
       "id": "tagesschau-6b7679fca7d3468b",
@@ -1495,7 +1586,7 @@
       "image": "https://images.tagesschau.de/image/9bbe775e-140a-4d7a-a129-dea61bacd843/AAABoMS0kHg/AAABnSSvrFg/16x9-big/dujuan-100.jpg?width=1920",
       "published": "2026-09-21T18:02:43+02:00",
       "category": "Technologie",
-      "score": 59.14
+      "score": 58.85
     },
     {
       "id": "golem-10c2dea85578a839",
@@ -1507,7 +1598,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213285&amp;page=1&amp;ts=1790006402",
       "published": "2026-09-21T18:00:02+02:00",
       "category": "Technologie",
-      "score": 46.02
+      "score": 45.72
     },
     {
       "id": "spiegel-11ce140005d73c90",
@@ -1519,7 +1610,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/aefc79de-e818-40bd-8b7e-4ae764e4714f_w1200_r1.778_fpx54.56_fpy49.84.jpg",
       "published": "2026-09-21T18:00:00+02:00",
       "category": "Politik",
-      "score": 67.02
+      "score": 66.72
     },
     {
       "id": "tagesschau-9751a875b442960b",
@@ -1531,7 +1622,7 @@
       "image": "https://images.tagesschau.de/image/2b84b715-8076-4515-90ea-62c27d14a33a/AAABoMR7JCc/AAABnSSvrFg/16x9-big/menschen-spielzeugautos-ig-metall-100.jpg?width=1920",
       "published": "2026-09-21T17:56:46+02:00",
       "category": "Technologie",
-      "score": 48.98
+      "score": 48.68
     },
     {
       "id": "golem-b7568144b657d3a0",
@@ -1543,43 +1634,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213289&amp;page=1&amp;ts=1790005862",
       "published": "2026-09-21T17:51:02+02:00",
       "category": "Technologie",
-      "score": 45.9
-    },
-    {
-      "id": "handelsblatt-4637cbed54927c2c",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Ukraine-Krieg +++: EU will Sanktionen gegen russische Milliardäre aufheben",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-moskau-schliesst-konsulat-in-st.-petersburg123/27982126.html",
-      "summary": "Selenskyj und Trump treffen sich in New York +++ Russische Opposition im Exil protestiert gegen Duma-Wahl und Krieg +++ Ukrainische Drohnen attackieren Moskau am Wahltag +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/axkxWG2ezGtK/cover/900/506/112/322/0/631/0.5/0.5/oligarch-alischer-usmanow.jpg",
-      "published": "2026-09-21T17:49:52+00:00",
-      "category": "Politik",
-      "score": 69.68
-    },
-    {
-      "id": "handelsblatt-272f84b8fedfe167",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ USA +++: USA wollen laut Insidern zwei neue Militärstützpunkte in Grönland eröffnen",
-      "link": "https://www.handelsblatt.com/politik/international/usa-usa-wollen-laut-insidern-zwei-neue-militaerstuetzpunkte-in-groenland-eroeffnen/29669594.html",
-      "summary": "Löschhubschrauber stürzt im Yosemite Park ab – zwei Tote +++ USA liefern erstmals seit 1977 Waffen nach Guatemala +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/1q5pRqLahdt3/cover/900/506/0/410/358/86/0.5/0.5/groenland.jpg",
-      "published": "2026-09-21T17:45:44+00:00",
-      "category": "Wirtschaft",
-      "score": 51.49
-    },
-    {
-      "id": "handelsblatt-8e97f4aae40b6421",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "TV-Konzern: Paramount einig mit klagenden Bundesstaaten zu Warner-Kauf",
-      "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/tv-konzern-paramount-einig-mit-klagenden-bundesstaaten-zu-warner-kauf/100256295.html",
-      "summary": "Die Aktien von Warner Bros Discovery legten nach dem Bericht um fast zehn Prozent zu, die von Paramount notierten rund sieben Prozent im Plus.",
-      "image": "https://images.handelsblatt.com/on7YxsFDfkli/cover/900/506/0/0/226/615/0.5/0.5/paramount.jpg",
-      "published": "2026-09-21T17:40:00+00:00",
-      "category": "Wirtschaft",
-      "score": 52.27
+      "score": 45.6
     },
     {
       "id": "tagesschau-15a7f5de07eb796c",
@@ -1591,7 +1646,7 @@
       "image": "https://images.tagesschau.de/image/b9e87b6f-2d38-43fc-b39c-8ed489da7eff/AAABlR47Eqg/AAABnSSvrFg/16x9-big/wahl-bayern-111.jpg?width=1920",
       "published": "2026-09-21T17:38:13+02:00",
       "category": "Politik",
-      "score": 51.72
+      "score": 51.42
     },
     {
       "id": "golem-f64ef21631c61dd8",
@@ -1603,31 +1658,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213288&amp;page=1&amp;ts=1790005081",
       "published": "2026-09-21T17:38:01+02:00",
       "category": "Technologie",
-      "score": 45.71
-    },
-    {
-      "id": "spiegel-ae88bae83e7c3670",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Berlin: Remmo-Sohn veröffentlicht angebliche Chats mit Linke-Abgeordnetem Ferat Koçak",
-      "link": "https://www.spiegel.de/politik/deutschland/berlin-remmo-sohn-veroeffentlicht-angebliche-chats-mit-linke-abgeordnetem-ferat-kocak-a-3c56502d-64a1-4908-82be-0e9a9ff15945#ref=rss",
-      "summary": "War Issa Remmo auf der Linken-Party in Berlin nur Zufallsgast? Die Partei versucht, den Eindruck zu erwecken. Nun veröffentlicht sein Sohn angebliche Chats mit dem Bundestagsabgeordneten Ferat Koçak. Die klingen ganz anders.",
-      "image": "https://cdn.prod.www.spiegel.de/images/af4731f9-a215-4b2d-9d22-273b6790845a_w1200_r1.778_fpx95_fpy38.jpg",
-      "published": "2026-09-21T17:38:00+02:00",
-      "category": "Politik",
-      "score": 63.51
-    },
-    {
-      "id": "handelsblatt-0340970a4e9f0206",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Nach der Wahl in Berlin: Linke will Berlin regieren und pocht auf Vergesellschaftung",
-      "link": "https://www.handelsblatt.com/politik/deutschland/nach-der-wahl-in-berlin-linke-will-berlin-regieren-und-pocht-auf-vergesellschaftung/100256261.html",
-      "summary": "Klare Kante gegen hohe Mieten und ein Schutzversprechen: Wie die Linke nach ihrem Wahlsieg in Berlin jetzt vorgeht - und um Vertrauen kämpft.",
-      "image": "https://images.handelsblatt.com/-OGKp8RtKndg/cover/900/506/0/0/107/106/0.5/0.5/nach-den-landtagswahlen-linke.jpg",
-      "published": "2026-09-21T17:36:31+00:00",
-      "category": "Politik",
-      "score": 77.25
+      "score": 45.42
     },
     {
       "id": "golem-821fa66476aa5035",
@@ -1639,7 +1670,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213287&amp;page=1&amp;ts=1790003701",
       "published": "2026-09-21T17:15:01+02:00",
       "category": "Technologie",
-      "score": 45.4
+      "score": 45.1
     },
     {
       "id": "tagesschau-311857a8570f4e45",
@@ -1651,7 +1682,7 @@
       "image": "https://images.tagesschau.de/image/e6852b77-301f-445d-a7d7-bc0a45de3108/AAABoMSDjc4/AAABnSSvrFg/16x9-big/erde-170.jpg?width=1920",
       "published": "2026-09-21T17:09:11+02:00",
       "category": "Nachrichten",
-      "score": 48.31
+      "score": 48.02
     },
     {
       "id": "tagesschau-2ca2fe90d4171484",
@@ -1663,7 +1694,7 @@
       "image": "https://images.tagesschau.de/image/78663025-90da-4b75-a243-9b7fc7f04bdd/AAABoMSBPg4/AAABnSSvrFg/16x9-big/spd-schwesig-104.jpg?width=1920",
       "published": "2026-09-21T17:06:39+02:00",
       "category": "Politik",
-      "score": 59.28
+      "score": 58.98
     },
     {
       "id": "golem-971f06ceacabc242",
@@ -1675,7 +1706,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213286&amp;page=1&amp;ts=1790002262",
       "published": "2026-09-21T16:51:02+02:00",
       "category": "Technologie",
-      "score": 45.06
+      "score": 44.77
     },
     {
       "id": "tagesschau-a20829f2e34c9a0e",
@@ -1687,7 +1718,7 @@
       "image": "https://images.tagesschau.de/image/6652daa5-51ba-4933-876d-5ec608317002/AAABoMQg0ps/AAABnSSvrFg/16x9-big/scheuer-280.jpg?width=1920",
       "published": "2026-09-21T16:45:51+02:00",
       "category": "Politik",
-      "score": 50.99
+      "score": 50.69
     },
     {
       "id": "tagesschau-e5db1811e62e57bd",
@@ -1699,7 +1730,7 @@
       "image": "https://images.tagesschau.de/image/73ec46bd-f045-4046-9c73-6f5e60825443/AAABoMN75hQ/AAABnSSvrFg/16x9-big/ig-metall-protestaktion-100.jpg?width=1920",
       "published": "2026-09-21T16:41:57+02:00",
       "category": "Wirtschaft",
-      "score": 58.94
+      "score": 58.64
     },
     {
       "id": "golem-0606072413638e97",
@@ -1711,7 +1742,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213284&amp;page=1&amp;ts=1790001362",
       "published": "2026-09-21T16:36:02+02:00",
       "category": "Technologie",
-      "score": 44.85
+      "score": 44.56
     },
     {
       "id": "golem-9df3c66706b02101",
@@ -1723,7 +1754,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213283&amp;page=1&amp;ts=1790000221",
       "published": "2026-09-21T16:17:01+02:00",
       "category": "Technologie",
-      "score": 44.59
+      "score": 44.29
     },
     {
       "id": "golem-8f55406978d2a6cd",
@@ -1735,7 +1766,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213282&amp;page=1&amp;ts=1790000042",
       "published": "2026-09-21T16:14:02+02:00",
       "category": "Technologie",
-      "score": 60.23
+      "score": 59.93
     },
     {
       "id": "tagesschau-d8f559f442beb8a8",
@@ -1747,7 +1778,7 @@
       "image": "https://images.tagesschau.de/image/41ca4680-ac4d-4238-ade5-19ef93680d0b/AAABoMPnyDU/AAABnSSvrFg/16x9-big/merz-1650.jpg?width=1920",
       "published": "2026-09-21T16:06:38+02:00",
       "category": "Politik",
-      "score": 68.52
+      "score": 68.22
     },
     {
       "id": "golem-0ad00d9624c6cd75",
@@ -1759,7 +1790,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213281&amp;page=1&amp;ts=1789999201",
       "published": "2026-09-21T16:00:01+02:00",
       "category": "Technologie",
-      "score": 44.35
+      "score": 44.06
     },
     {
       "id": "tagesschau-c6893e7c162d8ca3",
@@ -1771,7 +1802,7 @@
       "image": "https://images.tagesschau.de/image/e98c209b-d99f-4902-ac57-26eae5b09502/AAABoMPVq4E/AAABnSSvrFg/16x9-big/peters-142.jpg?width=1920",
       "published": "2026-09-21T15:57:41+02:00",
       "category": "Politik",
-      "score": 58.32
+      "score": 58.03
     },
     {
       "id": "tagesschau-4deec98c85172627",
@@ -1783,7 +1814,7 @@
       "image": "https://images.tagesschau.de/image/f838879f-9e93-4e1f-8b4c-481377a0326b/AAABoMQC-4g/AAABnSSvrFg/16x9-big/google-maps-104.jpg?width=1920",
       "published": "2026-09-21T15:49:08+02:00",
       "category": "Technologie",
-      "score": 60.23
+      "score": 59.93
     },
     {
       "id": "golem-db4bbc25ed0b491e",
@@ -1795,7 +1826,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213276&amp;page=1&amp;ts=1789998361",
       "published": "2026-09-21T15:46:01+02:00",
       "category": "Technologie",
-      "score": 44.16
+      "score": 43.86
     },
     {
       "id": "golem-6b979c557d46611e",
@@ -1807,7 +1838,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213278&amp;page=1&amp;ts=1789998241",
       "published": "2026-09-21T15:44:01+02:00",
       "category": "Technologie",
-      "score": 44.13
+      "score": 43.84
     },
     {
       "id": "golem-976acaff592d771e",
@@ -1819,7 +1850,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213280&amp;page=1&amp;ts=1789997342",
       "published": "2026-09-21T15:29:02+02:00",
       "category": "Technologie",
-      "score": 43.92
+      "score": 43.63
     },
     {
       "id": "netzpolitik-82f8d2804350d82a",
@@ -1831,7 +1862,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/09/no-revisions-cpIgNaazQ6w-unsplash-scaled-e1790003495287.jpg",
       "published": "2026-09-21T15:19:23+00:00",
       "category": "Wirtschaft",
-      "score": 46.46
+      "score": 46.16
     },
     {
       "id": "tagesschau-0bc913fb22853ba9",
@@ -1843,7 +1874,7 @@
       "image": "https://images.tagesschau.de/image/5887cabf-071a-48f0-bd23-a405c433e27c/AAABoMNqzvE/AAABnSSvrFg/16x9-big/stapel-akten-102.jpg?width=1920",
       "published": "2026-09-21T15:16:37+02:00",
       "category": "Wirtschaft",
-      "score": 49.75
+      "score": 49.45
     },
     {
       "id": "netzpolitik-78431312376b35b3",
@@ -1855,7 +1886,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/09/imago0847186967h-scaled.jpg",
       "published": "2026-09-21T14:59:29+00:00",
       "category": "Politik",
-      "score": 54.18
+      "score": 53.88
     },
     {
       "id": "tagesschau-10c22f03dde3a63c",
@@ -1867,7 +1898,7 @@
       "image": "https://images.tagesschau.de/image/9563963b-b53f-448a-a844-63ac600ee9a5/AAABoL8zju0/AAABnSSvrFg/16x9-big/wahlhelfer-briefwahl-berlin-100.jpg?width=1920",
       "published": "2026-09-21T14:40:45+02:00",
       "category": "Politik",
-      "score": 57.25
+      "score": 56.96
     },
     {
       "id": "tagesschau-3fbbc7b05f31665c",
@@ -1879,7 +1910,7 @@
       "image": "https://images.tagesschau.de/image/86e6e1d3-1344-49ba-a785-5c8b647f0b36/AAABoMMtuDM/AAABnSSvrFg/16x9-big/immobilien-berlin-106.jpg?width=1920",
       "published": "2026-09-21T14:35:12+02:00",
       "category": "Wirtschaft",
-      "score": 57.18
+      "score": 56.88
     },
     {
       "id": "heise-f3a59bc9b87a594b",
@@ -1891,7 +1922,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/8/5/2/8/2025-05-14-Collage-Windows-Update-cc39a925b52fd0ec.png",
       "published": "2026-09-21T14:24:00+02:00",
       "category": "Technologie",
-      "score": 44.02
+      "score": 43.72
     },
     {
       "id": "netzpolitik-b2ace2cfe87446e5",
@@ -1903,7 +1934,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/09/imago0121079373h-scaled-e1789996253234.jpg",
       "published": "2026-09-21T14:13:09+00:00",
       "category": "Technologie",
-      "score": 60.23
+      "score": 59.93
     },
     {
       "id": "golem-54e947d0597f2518",
@@ -1915,7 +1946,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213277&amp;page=1&amp;ts=1789991941",
       "published": "2026-09-21T13:59:01+02:00",
       "category": "Technologie",
-      "score": 42.67
+      "score": 42.38
     },
     {
       "id": "golem-d7b4895e1cb7560a",
@@ -1927,7 +1958,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213272&amp;page=1&amp;ts=1789991102",
       "published": "2026-09-21T13:45:02+02:00",
       "category": "Technologie",
-      "score": 42.48
+      "score": 42.18
     },
     {
       "id": "golem-a206c96e27528652",
@@ -1939,7 +1970,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213274&amp;page=1&amp;ts=1789990682",
       "published": "2026-09-21T13:38:02+02:00",
       "category": "Technologie",
-      "score": 42.38
+      "score": 42.09
     },
     {
       "id": "golem-7f2abe86bf67f42a",
@@ -1951,7 +1982,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213269&amp;page=1&amp;ts=1789990202",
       "published": "2026-09-21T13:30:02+02:00",
       "category": "Technologie",
-      "score": 42.27
+      "score": 41.97
     },
     {
       "id": "golem-3d62422c71817091",
@@ -1963,7 +1994,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213273&amp;page=1&amp;ts=1789989722",
       "published": "2026-09-21T13:22:02+02:00",
       "category": "Technologie",
-      "score": 42.16
+      "score": 41.86
     },
     {
       "id": "golem-07746250d6ca7efa",
@@ -1975,7 +2006,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213275&amp;page=1&amp;ts=1789988581",
       "published": "2026-09-21T13:03:01+02:00",
       "category": "Technologie",
-      "score": 44.59
+      "score": 44.29
     },
     {
       "id": "golem-090ff0dbd2372182",
@@ -1987,7 +2018,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213267&amp;page=1&amp;ts=1789988402",
       "published": "2026-09-21T13:00:02+02:00",
       "category": "Technologie",
-      "score": 41.85
+      "score": 41.56
     },
     {
       "id": "tagesschau-d1cf772bf07fe5e3",
@@ -1999,7 +2030,7 @@
       "image": "https://images.tagesschau.de/image/f50c90a8-6e8f-454f-aed3-ce210676adf9/AAABoMMkPyc/AAABnSSvrFg/16x9-big/wahlzettel-wahl-duma-100.jpg?width=1920",
       "published": "2026-09-21T12:48:00+02:00",
       "category": "Politik",
-      "score": 60.14
+      "score": 59.84
     },
     {
       "id": "golem-69b4e62ff065ca34",
@@ -2011,7 +2042,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213198&amp;page=1&amp;ts=1789987201",
       "published": "2026-09-21T12:40:01+02:00",
       "category": "Technologie",
-      "score": 41.58
+      "score": 41.28
     },
     {
       "id": "golem-ea582bbed68c8658",
@@ -2023,7 +2054,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213270&amp;page=1&amp;ts=1789986002",
       "published": "2026-09-21T12:20:02+02:00",
       "category": "Technologie",
-      "score": 41.3
+      "score": 41.0
     },
     {
       "id": "golem-522f97d78e1d061a",
@@ -2035,7 +2066,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213151&amp;page=1&amp;ts=1789985821",
       "published": "2026-09-21T12:17:01+02:00",
       "category": "Technologie",
-      "score": 41.26
+      "score": 40.96
     },
     {
       "id": "golem-09c9fe77ae3d6adb",
@@ -2047,7 +2078,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213098&amp;page=1&amp;ts=1789984801",
       "published": "2026-09-21T12:00:01+02:00",
       "category": "Technologie",
-      "score": 41.02
+      "score": 40.72
     },
     {
       "id": "heise-e5ea82fcc9733b96",
@@ -2059,7 +2090,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/4/1/8/6/1/MS-Konf-489ac90ae2df3f50.png",
       "published": "2026-09-21T12:00:00+02:00",
       "category": "Technologie",
-      "score": 42.02
+      "score": 41.72
     },
     {
       "id": "golem-9ceba88d6f195968",
@@ -2071,7 +2102,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213268&amp;page=1&amp;ts=1789984321",
       "published": "2026-09-21T11:52:01+02:00",
       "category": "Technologie",
-      "score": 40.91
+      "score": 40.61
     },
     {
       "id": "golem-5d8b7e921e6ac24d",
@@ -2083,7 +2114,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213265&amp;page=1&amp;ts=1789983421",
       "published": "2026-09-21T11:37:01+02:00",
       "category": "Technologie",
-      "score": 40.7
+      "score": 40.4
     },
     {
       "id": "heise-d8c88fe6344a0cbb",
@@ -2095,7 +2126,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/8/4/3/7/2026-04-27-Pi-hole-Probleme-Sicherheit-6ee8e5841b24a228.png",
       "published": "2026-09-21T11:30:00+02:00",
       "category": "Technologie",
-      "score": 41.6
+      "score": 41.31
     },
     {
       "id": "tagesschau-966cd97a692c36e7",
@@ -2107,7 +2138,7 @@
       "image": "https://images.tagesschau.de/image/71ed4687-bd27-4640-adc7-125da42b3f60/AAABoK-_SZ4/AAABnSSvrFg/16x9-big/modell-neuronales-netzwerk-100.jpg?width=1920",
       "published": "2026-09-21T11:22:53+02:00",
       "category": "Technologie",
-      "score": 43.5
+      "score": 43.21
     },
     {
       "id": "golem-6a96ea18ddcbb37c",
@@ -2119,7 +2150,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213264&amp;page=1&amp;ts=1789982522",
       "published": "2026-09-21T11:22:02+02:00",
       "category": "Technologie",
-      "score": 40.49
+      "score": 40.2
     },
     {
       "id": "tagesschau-3931c461f4d25f46",
@@ -2131,7 +2162,7 @@
       "image": "https://images.tagesschau.de/image/13ded5bd-ff44-403d-9412-70c1c97000d8/AAABoML93Us/AAABnSSvrFg/16x9-big/konrad-adenauer-haus-116.jpg?width=1920",
       "published": "2026-09-21T11:21:42+02:00",
       "category": "Politik",
-      "score": 54.49
+      "score": 54.19
     },
     {
       "id": "golem-42dcde2adf804def",
@@ -2143,7 +2174,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213263&amp;page=1&amp;ts=1789982401",
       "published": "2026-09-21T11:20:01+02:00",
       "category": "Technologie",
-      "score": 40.46
+      "score": 40.17
     },
     {
       "id": "golem-bfce314386027d34",
@@ -2155,7 +2186,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213262&amp;page=1&amp;ts=1789980001",
       "published": "2026-09-21T10:40:01+02:00",
       "category": "Technologie",
-      "score": 39.91
+      "score": 39.61
     },
     {
       "id": "tagesschau-dda08f2df2948671",
@@ -2167,7 +2198,7 @@
       "image": "https://images.tagesschau.de/image/ace64b26-4b2e-4d15-8ea1-1715c4ff9d60/AAABoMLupnw/AAABnSSvrFg/16x9-big/berentzen-114.jpg?width=1920",
       "published": "2026-09-21T10:31:09+02:00",
       "category": "Nachrichten",
-      "score": 42.79
+      "score": 42.49
     },
     {
       "id": "golem-20ffe530b6f885f3",
@@ -2179,7 +2210,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213261&amp;page=1&amp;ts=1789979041",
       "published": "2026-09-21T10:24:01+02:00",
       "category": "Technologie",
-      "score": 39.69
+      "score": 39.39
     },
     {
       "id": "tagesschau-37d067e5571c0607",
@@ -2191,7 +2222,7 @@
       "image": "https://images.tagesschau.de/image/c1187704-4dc4-4f17-b0d8-bab1d47d0a32/AAABoMMKwE4/AAABnSSvrFg/16x9-big/merz-1644.jpg?width=1920",
       "published": "2026-09-21T10:17:37+02:00",
       "category": "Politik",
-      "score": 53.6
+      "score": 53.3
     },
     {
       "id": "golem-a45d24a681cbfb52",
@@ -2203,7 +2234,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213260&amp;page=1&amp;ts=1789978561",
       "published": "2026-09-21T10:16:01+02:00",
       "category": "Technologie",
-      "score": 39.58
+      "score": 39.28
     },
     {
       "id": "golem-35390d92eb4ef39c",
@@ -2215,7 +2246,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213259&amp;page=1&amp;ts=1789977541",
       "published": "2026-09-21T09:59:01+02:00",
       "category": "Technologie",
-      "score": 39.34
+      "score": 39.04
     },
     {
       "id": "golem-03408d5c9eac777d",
@@ -2227,7 +2258,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213257&amp;page=1&amp;ts=1789976222",
       "published": "2026-09-21T09:37:02+02:00",
       "category": "Technologie",
-      "score": 39.03
+      "score": 38.74
     },
     {
       "id": "heise-59f1221b84c0eca4",
@@ -2239,7 +2270,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/8/3/3/2/Windows_Updates-Updates_verfuegbar-Herunteraden_Installieren_abgeschlossen-d2136de38dc0286b.jpeg",
       "published": "2026-09-21T09:37:00+02:00",
       "category": "Wirtschaft",
-      "score": 43.03
+      "score": 42.74
     },
     {
       "id": "golem-fd3e4ca10f7f50af",
@@ -2251,7 +2282,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213258&amp;page=1&amp;ts=1789975802",
       "published": "2026-09-21T09:30:02+02:00",
       "category": "Technologie",
-      "score": 38.94
+      "score": 38.64
     },
     {
       "id": "golem-90d4bc1aa05227b0",
@@ -2263,7 +2294,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213256&amp;page=1&amp;ts=1789974902",
       "published": "2026-09-21T09:15:02+02:00",
       "category": "Technologie",
-      "score": 38.73
+      "score": 38.43
     },
     {
       "id": "golem-fb54bc487a8e29f8",
@@ -2275,19 +2306,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213253&amp;page=1&amp;ts=1789974062",
       "published": "2026-09-21T09:01:02+02:00",
       "category": "Technologie",
-      "score": 38.53
-    },
-    {
-      "id": "golem-23c922d5e68dffb0",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Anzeige: Moderne E-Mail-Sicherheit ist mehr als Schutz vor Angriffen",
-      "link": "https://www.golem.de/news/anzeige-moderne-e-mail-sicherheit-ist-mehr-als-schutz-vor-angriffen-2609-213043.html",
-      "summary": "Die Abwehr von Cyberangriffen reicht nicht aus, um die digitale Geschäftskommunikation per E-Mail abzusichern. Wie Retarus Email Security Unternehmen die Kontrolle zurückgibt. ( Security , Datensicherheit )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213043&amp;page=1&amp;ts=1789974001",
-      "published": "2026-09-21T09:00:01+02:00",
-      "category": "Wirtschaft",
-      "score": 41.52
+      "score": 38.24
     },
     {
       "id": "tagesschau-1f6d2a51b188e116",
@@ -2299,7 +2318,7 @@
       "image": "https://images.tagesschau.de/image/51d0641f-0130-4a85-84af-69db5dda0c8e/AAABmr8-o_o/AAABnSSvrFg/16x9-big/sendungslogo-ts24-livestream-100.jpg?width=1920",
       "published": "2026-09-21T08:59:27+02:00",
       "category": "Nachrichten",
-      "score": 41.51
+      "score": 41.22
     },
     {
       "id": "tagesschau-5643bafcceb1c149",
@@ -2311,7 +2330,7 @@
       "image": "https://images.tagesschau.de/image/611a2449-69ae-480b-8531-3ea04aeb4c85/AAABoMK-aYU/AAABnSSvrFg/16x9-big/bessent-he-100.jpg?width=1920",
       "published": "2026-09-21T08:54:14+02:00",
       "category": "Politik",
-      "score": 78.28,
+      "score": 77.99,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -2324,18 +2343,6 @@
       }
     },
     {
-      "id": "golem-acdcd319e199baa1",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Cyberangriff trifft Universität: LMU München bestätigt Abfluss von Studentendaten",
-      "link": "https://www.golem.de/news/cyberangriff-trifft-universitaet-lmu-muenchen-bestaetigt-abfluss-von-studentendaten-2609-213255.html",
-      "summary": "Ein Angreifer ist an persönliche Daten von Studenten der Ludwig-Maximilians-Universität München gelangt. Auch Bankdaten sollen betroffen sein. ( Cybercrime , Cyberwar )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213255&amp;page=1&amp;ts=1789972861",
-      "published": "2026-09-21T08:41:01+02:00",
-      "category": "Technologie",
-      "score": 47.26
-    },
-    {
       "id": "heise-8ad45ace79372d43",
       "source": "heise",
       "sourceWeight": 0.9,
@@ -2345,7 +2352,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/8/3/0/5/2026-05-15-Tux-by_Larry_Ewing-GIMP-Linux_Problem-Aufmacher-cd3b314077a30a54.png",
       "published": "2026-09-21T08:16:00+02:00",
       "category": "Technologie",
-      "score": 38.91
+      "score": 38.61
     },
     {
       "id": "tagesschau-b48482a52d1b1143",
@@ -2357,7 +2364,7 @@
       "image": "https://images.tagesschau.de/image/b710bf93-6d69-48ad-b503-df3112df2d05/AAABoMJkmSQ/AAABnSSvrFg/16x9-big/ig-metall-220.jpg?width=1920",
       "published": "2026-09-21T08:09:26+02:00",
       "category": "Technologie",
-      "score": 40.82
+      "score": 40.52
     },
     {
       "id": "heise-ed8863ea7117206c",
@@ -2369,7 +2376,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/8/2/8/4/shutterstock_2140544167-0dc9ab4e0fdf4bfb.jpeg",
       "published": "2026-09-21T06:54:00+02:00",
       "category": "Technologie",
-      "score": 37.77
+      "score": 37.47
     },
     {
       "id": "tagesschau-cb05d2cafadb137a",
@@ -2381,19 +2388,7 @@
       "image": "https://images.tagesschau.de/image/3dc3a0da-f5d1-490b-b8ff-27679ea81851/AAABoMIoYhM/AAABnSSvrFg/16x9-big/podcast-11km-3874.jpg?width=1920",
       "published": "2026-09-21T06:47:22+02:00",
       "category": "Politik",
-      "score": 50.99
-    },
-    {
-      "id": "tagesschau-fc87c4e4fc936c48",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Immer mehr Produktrückrufe bei Lebensmitteln",
-      "link": "https://www.tagesschau.de/wirtschaft/verbraucher/lebensmittel-rueckrufe-100.html",
-      "summary": "Immer mehr Lebensmittel werden vorsorglich aus dem Handel genommen, doch die Rückrufe erreichen nicht alle Verbraucher. Hinzu kommt: Es gibt nicht genug Kontrollen. Von Martin Küstermann. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/1b5cad13-99e2-419f-b4e2-edec7f5a47ab/AAABlgdyDGc/AAABnSSvrFg/16x9-big/lebensmittelkontrolle-109.jpg?width=1920",
-      "published": "2026-09-21T06:45:15+02:00",
-      "category": "Nachrichten",
-      "score": 39.65
+      "score": 50.69
     },
     {
       "id": "netzpolitik-932f3be2f265cd30",
@@ -2405,7 +2400,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/09/imago0061783399h-scaled.jpg",
       "published": "2026-09-21T04:56:42+00:00",
       "category": "Wissenschaft",
-      "score": 34.81
+      "score": 34.51
     },
     {
       "id": "heise-a2ecb12e81fdf2e3",
@@ -2417,7 +2412,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/8/2/4/9/shutterstock_1928989607-0940f53fa70bccf5.jpeg",
       "published": "2026-09-20T21:12:00+02:00",
       "category": "Technologie",
-      "score": 37.69
+      "score": 37.39
     },
     {
       "id": "heise-1865f670699a39ad",
@@ -2429,7 +2424,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/8/1/7/9/KH-IT-11-abd1bb717ca83a6c.jpeg",
       "published": "2026-09-20T17:15:00+02:00",
       "category": "Technologie",
-      "score": 26.4
+      "score": 26.1
     },
     {
       "id": "heise-7b57b22e712fe066",
@@ -2441,7 +2436,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/8/2/0/2/shutterstock_2518259313-c0ff5d843e67f4fd.jpeg",
       "published": "2026-09-20T16:10:00+02:00",
       "category": "Technologie",
-      "score": 25.49
+      "score": 25.2
     },
     {
       "id": "heise-1c834f3e5d0412aa",
@@ -2453,7 +2448,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/8/1/9/9/LMU-Shutterstock-4e55268fa40aac22.png",
       "published": "2026-09-20T15:05:00+02:00",
       "category": "Technologie",
-      "score": 47.26
+      "score": 24.29
     }
   ]
 }
