@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T15:02:43.731019+00:00",
+  "generatedAt": "2026-09-22T15:12:50.309845+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/ddb551b4-7253-4983-ad25-78ef5b8b6686/AAABoMj84uA/AAABnSSvrFg/16x9-big/truemmer-rettungskraefte-verwundeter-100.jpg?width=1920",
       "published": "2026-09-22T14:57:28+02:00",
       "category": "Politik",
-      "score": 86.86,
+      "score": 86.89,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -25,16 +25,53 @@
       }
     },
     {
-      "id": "handelsblatt-a9d79f7100df1158",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "CDU-Krise: Frei: „Der Bundeskanzler hat unsere Unterstützung“",
-      "link": "https://www.handelsblatt.com/politik/deutschland/cdu-krise-frei-der-bundeskanzler-hat-unsere-unterstuetzung/100256382.html",
-      "summary": "Erst Parteipräsidium und -vorstand, jetzt noch die Bundestagsfraktion: Nach den desaströsen Wahlniederlagen der CDU kämpft der Kanzler um Rückhalt in Partei und Parlament.",
-      "image": "https://images.handelsblatt.com/fbeL8iSAztXz/cover/900/506/0/0/107/106/0.5/0.5/bundestagsfraktionen-cdu-csu.jpg",
-      "published": "2026-09-22T14:23:21+00:00",
+      "id": "deutschlandfunk-bff48337edef9cd9",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "CDU/CSU - Unionsfraktion berät mit Kanzler Merz über Konsequenzen aus den Wahlniederlagen",
+      "link": "https://www.deutschlandfunk.de/unionsfraktion-beraet-mit-kanzler-merz-ueber-konsequenzen-aus-den-wahlniederlagen-100.html",
+      "summary": "Nach den Landtagswahlen in Berlin und Mecklenburg-Vorpommern ist die Unions-Bundestagsfraktion mit Bundeskanzler Merz zu Gesprächen zusammengekommen. Bei dem Treffen soll über Konsequenzen aus den Wahlniederlagen der CDU in beiden Bundesländern beraten werden. Es wird mit einer intensiven Debatte gerechnet.",
+      "image": "https://bilder.deutschlandfunk.de/d8/f0/87/09/d8f08709-4cf2-4759-8f3a-3c196dba476e/friedrich-merz-statement-wahlen-mv-berlin-100-1920x1920.jpg",
+      "published": "2026-09-22T17:04:54+02:00",
       "category": "Politik",
-      "score": 84.45
+      "score": 85.89,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "CDU-Krise: Frei sichert Merz Rückhalt der Unionsfraktion zu",
+            "link": "https://www.handelsblatt.com/politik/deutschland/cdu-krise-frei-sichert-merz-rueckhalt-der-unionsfraktion-zu/100256382.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-348ffa1072948567",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "UN-Generaldebatte in New York - Rede von Trump geplant",
+      "link": "https://www.tagesschau.de/ausland/un-trump-102.html",
+      "summary": "Treffen mit Selenskyj, Grönland-Abkommen: Am Rande der UN-Generaldebatte stehen für Trump gleich mehrere Termine auf dem Plan. Auch eine Rede will er wieder halten - nach einem denkwürdigen Auftritt im vergangenen Jahr. Von M. Ganslmeier. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/5b710c82-57e5-4812-b3b1-dfa993622c4a/AAABoMZScmY/AAABnSSvrFg/16x9-big/trump-5284.jpg?width=1920",
+      "published": "2026-09-22T02:39:03+02:00",
+      "category": "Politik",
+      "score": 83.57,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "UNO-Generaldebatte - Trump rechtfertigt den Krieg gegen den Iran",
+            "link": "https://www.deutschlandfunk.de/trump-rechtfertigt-den-krieg-gegen-den-iran-100.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "UN-Generaldebatte: Guterres bei UN-Abschiedsrede zu Iran-Krieg: Genug ist genug",
+            "link": "https://www.handelsblatt.com/politik/international/un-generaldebatte-guterres-bei-un-abschiedsrede-zu-iran-krieg-genug-ist-genug/100256391.html"
+          }
+        ]
+      }
     },
     {
       "id": "tagesschau-a872549cdc11d881",
@@ -46,7 +83,7 @@
       "image": "https://images.tagesschau.de/image/c94c0284-4f8c-4324-8803-9b53a9a16cab/AAABoMl5XKI/AAABnSSvrFg/16x9-big/rbb-raed-saleh-108.jpg?width=1920",
       "published": "2026-09-22T16:13:46+02:00",
       "category": "Politik",
-      "score": 83.0,
+      "score": 82.86,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -73,7 +110,7 @@
       "image": "https://images.tagesschau.de/image/aa4e88f9-86cb-414d-9054-87ac10ba00ac/AAABoMgmXQA/AAABnSSvrFg/16x9-big/trump-journalisten-100.jpg?width=1920",
       "published": "2026-09-22T07:17:01+02:00",
       "category": "Politik",
-      "score": 78.19,
+      "score": 78.05,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -93,9 +130,9 @@
       "link": "https://www.deutschlandfunk.de/linken-bundestagsabgeordneter-kocak-laesst-funktionen-ruhen-102.html",
       "summary": "Der Berliner Linken-Bundestagsabgeordnete Kocak lässt nach Kritik an seinen Kontakten ins Clan-Milieu seine Parlamentsfunktionen vorerst ruhen.",
       "image": "https://bilder.deutschlandfunk.de/8e/08/81/2e/8e08812e-7da2-4e48-b8a3-62c70eef3dea/ferat-kocak-100-1920x1920.jpg",
-      "published": "2026-09-22T16:52:42+02:00",
+      "published": "2026-09-22T17:04:54+02:00",
       "category": "Politik",
-      "score": 77.86,
+      "score": 77.89,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -108,30 +145,6 @@
       }
     },
     {
-      "id": "deutschlandfunk-bff48337edef9cd9",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "CDU/CSU - Unionsfraktion berät mit Kanzler Merz über Konsequenzen aus den Wahlniederlagen",
-      "link": "https://www.deutschlandfunk.de/unionsfraktion-beraet-mit-kanzler-merz-ueber-konsequenzen-aus-den-wahlniederlagen-100.html",
-      "summary": "Nach den Landtagswahlen in Berlin und Mecklenburg-Vorpommern ist die Unions-Bundestagsfraktion mit Bundeskanzler Merz zu Gesprächen zusammengekommen. Bei dem Treffen soll über Konsequenzen aus den Wahlniederlagen der CDU in beiden Bundesländern beraten werden. Es wird mit einer intensiven Debatte gerechnet.",
-      "image": "https://bilder.deutschlandfunk.de/d8/f0/87/09/d8f08709-4cf2-4759-8f3a-3c196dba476e/friedrich-merz-statement-wahlen-mv-berlin-100-1920x1920.jpg",
-      "published": "2026-09-22T16:52:42+02:00",
-      "category": "Politik",
-      "score": 77.86
-    },
-    {
-      "id": "tagesschau-867674f51108e773",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Wahlparty in Berlin: Linken-Politiker Kocak distanziert sich von Remmo",
-      "link": "https://www.tagesschau.de/inland/regional/berlin/linken-politiker-kocak-remmo-100.html",
-      "summary": "Die Remmo-Familie ist für viele Verbrechen verantwortlich. Nach der Wahl in Berlin tauchte ein Familienmitglied auf der Linken-Wahlparty auf. Auch Chats des Bundestagsabgeordneten Kocak sorgen für Kritik. Nun distanzierte er sich.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/8017ba83-b8cb-407b-af65-1dae160388d4/AAABoMlLjW4/AAABnSSvrFg/16x9-big/rbb-ferat-koak-100.jpg?width=1920",
-      "published": "2026-09-22T15:26:00+02:00",
-      "category": "Politik",
-      "score": 77.66
-    },
-    {
       "id": "spiegel-a980af000e06457c",
       "source": "spiegel",
       "sourceWeight": 0.95,
@@ -141,7 +154,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/dbefd160-fe5d-4dc6-8e7a-83e9dcf870b3_w1200_r1.778_fpx41_fpy46.jpg",
       "published": "2026-09-22T15:47:00+02:00",
       "category": "Politik",
-      "score": 76.95
+      "score": 76.81
     },
     {
       "id": "handelsblatt-61f0ab5a5b5b3eb2",
@@ -153,7 +166,7 @@
       "image": "https://images.handelsblatt.com/snKNl0WRYQFq/cover/900/506/0/0/107/106/0.5/0.5/abgeordnetenhaus-wahl-berlin-wahlparty-die-linke.jpg",
       "published": "2026-09-22T14:29:49+00:00",
       "category": "Politik",
-      "score": 76.54
+      "score": 76.4
     },
     {
       "id": "handelsblatt-6bf3b27ce27b0875",
@@ -165,7 +178,7 @@
       "image": "https://images.handelsblatt.com/tw4bCgM41NAj/cover/900/506/0/0/0/466/0.5/0.5/friedrich-merz-cdu-bundeskanzler-aufgenommen-im-rahmen-einer-pressekonferenz-als-reaktion-auf-die.jpg",
       "published": "2026-09-22T13:38:42+00:00",
       "category": "Politik",
-      "score": 75.83
+      "score": 75.69
     },
     {
       "id": "deutschlandfunk-10bb079f145fefff",
@@ -175,9 +188,9 @@
       "link": "https://www.deutschlandfunk.de/militaerflugzeug-an-us-airbase-spangdahlem-abgestuerzt-100.html",
       "summary": "Im Bereich der US-Airbase Spangdahlem in der Eifel in Rheinland-Pfalz ist ein Militärflugzeug abgestürzt.",
       "image": "https://bilder.deutschlandfunk.de/FI/LE/_6/48/FILE_648e3b89f5d068afdfcf3922c5ccec1f/220772069-jpg-100-768x768.jpg",
-      "published": "2026-09-22T16:52:42+02:00",
+      "published": "2026-09-22T17:04:54+02:00",
       "category": "Nachrichten",
-      "score": 71.54,
+      "score": 71.57,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -188,8 +201,35 @@
           },
           {
             "source": "handelsblatt",
-            "title": "Flugzeugunglück: Militärflugzeug an US-Airbase Spangdahlem abgestürzt",
-            "link": "https://www.handelsblatt.com/politik/international/flugzeugunglueck-militaerflugzeug-an-us-airbase-spangdahlem-abgestuerzt/100256630.html"
+            "title": "Flugzeugunglück: US-Kampfjet F-16 in der Eifel abgestürzt – Pilot rettet sich",
+            "link": "https://www.handelsblatt.com/politik/international/flugzeugunglueck-us-kampfjet-f-16-in-der-eifel-abgestuerzt-pilot-rettet-sich/100256630.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-baa3218418338f85",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Österreich - Prozess gegen René Benko - zwei Jahre Haft",
+      "link": "https://www.deutschlandfunk.de/prozess-gegen-ren-benko-zwei-jahre-haft-100.html",
+      "summary": "Der österreichische Investor Benko ist erneut wegen Schädigung seiner Gläubiger schuldig gesprochen worden.",
+      "image": "https://bilder.deutschlandfunk.de/3b/89/36/cd/3b8936cd-3dea-4039-aa82-45139c3ea5a0/rene-benko-100-1920x1920.jpg",
+      "published": "2026-09-22T17:04:54+02:00",
+      "category": "Panorama",
+      "score": 71.57,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Réne Benko in neuem Verfahren zu zweieinhalb Jahren Haft verurteilt",
+            "link": "https://www.spiegel.de/wirtschaft/unternehmen/rene-benko-in-neuem-verfahren-zu-zweieinhalb-jahren-haft-verurteilt-a-f72ebb4c-b656-4675-b1db-ead264e20f62#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Gerichtsprozess: Zweieinhalb Jahre Haft für René Benko",
+            "link": "https://www.handelsblatt.com/politik/international/gerichtsprozess-zweieinhalb-jahre-haft-fuer-rene-benko/100256638.html"
           }
         ]
       }
@@ -204,63 +244,43 @@
       "image": "https://cdn.prod.www.spiegel.de/images/90fdb810-2ffa-470e-acb8-42a4c6c90337_w1200_r1.778_fpx48_fpy50.jpg",
       "published": "2026-09-22T16:02:00+02:00",
       "category": "Politik",
-      "score": 69.16
+      "score": 69.02
     },
     {
-      "id": "spiegel-0f2c9f20ca5e093c",
+      "id": "handelsblatt-2ba49399a1644068",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "KI-Industrie: Wie Trumps Nvidia-Deal Armenien zum KI-Hotspot macht",
+      "link": "https://www.handelsblatt.com/politik/international/ki-industrie-wie-trumps-nvidia-deal-armenien-zum-ki-hotspot-macht/100256595.html",
+      "summary": "Ein Rechenzentrum in einer armenischen Kleinstadt soll Zehntausende Nvidia-Chips beherbergen. Gleichzeitig dient es Verhandlungen für einen historischen Friedensvertrag mit Aserbaidschan.",
+      "image": "https://images.handelsblatt.com/1Sh4HhtvEjkU/cover/900/506/0/0/0/587/0.5/0.5/armenia-yerevan-september-21-2026-people-take-part-in-a-celebration-marking-35-years-of-armenia.jpg",
+      "published": "2026-09-22T14:53:55+00:00",
+      "category": "Politik",
+      "score": 68.74
+    },
+    {
+      "id": "spiegel-7bca9e8ea289b5e6",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Wirtschaft in Deutschland: Institute verdoppeln Wachstumsprognose",
-      "link": "https://www.spiegel.de/wirtschaft/unternehmen/wirtschaft-in-deutschland-institute-verdoppeln-wachstumsprognose-a-b8c76870-ed93-480b-9c94-4bad7fadd370#ref=rss",
-      "summary": "Die deutsche Wirtschaft zieht nach jahrelanger Flaute wieder an. Nun erhöhen Ökonominnen und Ökonomen ihre Voraussage deutlich, auch für das kommende Jahr.",
-      "image": "https://cdn.prod.www.spiegel.de/images/3cb83066-02fc-44ac-b89f-a0c4091608d7_w1200_r1.778_fpx39_fpy52.jpg",
-      "published": "2026-09-22T12:37:00+02:00",
-      "category": "Wirtschaft",
-      "score": 68.9,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Konjunktur: Institute verdoppeln Wachstums-Prognose für Deutschland: Der plötzliche Aufschwung hat drei Gründe",
-            "link": "https://www.handelsblatt.com/politik/konjunktur/konjunktur-institute-verdoppeln-wachstums-prognose-fuer-deutschland/100256427.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "heise-59f1221b84c0eca4",
-      "source": "heise",
-      "sourceWeight": 0.9,
-      "title": "Microsoft löst Probleme nach Software-Updates",
-      "link": "https://www.heise.de/news/Microsoft-loest-Probleme-nach-Software-Updates-11459609.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "summary": "Updates von Microsoft haben Probleme verursacht, hat das Unternehmen eingeräumt. Nun sollen auch die letzten bekannten gelöst sein.",
-      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/8/3/3/2/Windows_Updates-Updates_verfuegbar-Herunteraden_Installieren_abgeschlossen-d2136de38dc0286b.jpeg",
-      "published": "2026-09-21T09:37:00+02:00",
-      "category": "Wirtschaft",
-      "score": 62.08,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "golem",
-            "title": "Microsoft gesteht: Update-Panne macht Dateiversionsverlauf von Windows kaputt",
-            "link": "https://www.golem.de/news/microsoft-gesteht-update-panne-macht-dateiversionsverlauf-von-windows-kaputt-2609-213294.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "golem-f3440d8d791f36ca",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Biometrische Gesichtserkennung: BKA will anonym auf Anbieter wie Clearview AI zugreifen",
-      "link": "https://www.golem.de/news/biometrische-gesichtserkennung-bka-will-anonym-auf-anbieter-wie-clearview-ai-zugreifen-2609-213302.html",
-      "summary": "Der Bundestag soll im zweiten Anlauf einen biometrischen Abgleich von Internetdaten erlauben. Experten warnen vor den Gefahren von Überwachung und Gesichtserkennung. Ein Bericht von Friedhelm Greis ( Gesichtserkennung , KI )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213302&amp;page=1&amp;ts=1790063702",
-      "published": "2026-09-22T09:55:02+02:00",
+      "title": "Friedrich Merz: Warum die CDU laut Politologin Ursula Münch in den Abgrund schaut",
+      "link": "https://www.spiegel.de/politik/friedrich-merz-warum-die-cdu-laut-politologin-ursula-muench-in-den-abgrund-schaut-a-725291c6-5349-4394-ade8-e499cd0c36ab#ref=rss",
+      "summary": "Die Lage der CDU ist dramatisch, doch für Politologin Ursula Münch trägt Parteichef Merz daran nicht allein die Schuld. Sie erläutert ihre Kritik an der SPD-Politikerin Schwesig – und warnt vor den kommenden Wahlen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/e4dad11a-196d-4c7e-9d48-adcae20f8256_w1200_r1.778_fpx68.66_fpy44.99.jpg",
+      "published": "2026-09-22T15:27:00+02:00",
       "category": "Politik",
-      "score": 62.06
+      "score": 68.53
+    },
+    {
+      "id": "handelsblatt-131d8a94d06f89a9",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Bundesregierung: Bleibt die Rente mit 63 doch? Was ein Rückzieher der Koalition für Beitragszahler bedeuten würde",
+      "link": "https://www.handelsblatt.com/politik/deutschland/reformen-bleibt-die-rente-mit-63-jetzt-doch-das-waeren-die-folgen/100256432.html",
+      "summary": "Nach den Wahlergebnissen vom Sonntag verdichten sich die Zeichen, dass die Koalition ihren Rentenplan abschwächt – mit massiven Auswirkungen für junge Beitragszahler.",
+      "image": "https://images.handelsblatt.com/-zWeqqBLTsVq/cover/900/506/0/0/138/477/0.5/0.5/bundestag-bundeskanzler-friedrich-merz-cdu-und-baerbel-bas-spd-bundesministerin-fuer-arbeit-und-soz.jpg",
+      "published": "2026-09-22T14:28:04+00:00",
+      "category": "Politik",
+      "score": 68.38
     }
   ]
 }
