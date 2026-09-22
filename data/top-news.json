@@ -1,19 +1,7 @@
 {
-  "generatedAt": "2026-09-22T10:06:41.054371+00:00",
+  "generatedAt": "2026-09-22T10:26:16.361313+00:00",
   "count": 15,
   "articles": [
-    {
-      "id": "handelsblatt-4637cbed54927c2c",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Ukraine-Krieg +++: Macron und Trump beraten über Energie-Waffenruhe in der Ukraine",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-moskau-schliesst-konsulat-in-st.-petersburg123/27982126.html",
-      "summary": "Lawrow plant Treffen mit Rubio bei UN +++ Kreml räumt Versorgungsengpässe in Oleschky ein +++ Ukraine attackiert russische Region Samara +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/58ukS6YzRY3E/cover/900/506/0/0/105/104/0.5/0.5/emmanuel-macron-und-donald-trump.jpg",
-      "published": "2026-09-22T07:46:12+00:00",
-      "category": "Politik",
-      "score": 83.05
-    },
     {
       "id": "tagesschau-22fbad22b977d1fb",
       "source": "tagesschau",
@@ -24,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/948a6a1d-0e77-4589-a35c-9522e8a177f7/AAABoL9QXM8/AAABnSSvrFg/16x9-big/landtag-mv-104.jpg?width=1920",
       "published": "2026-09-22T04:53:25+02:00",
       "category": "Politik",
-      "score": 78.71,
+      "score": 78.44,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -46,7 +34,51 @@
       "image": "https://images.tagesschau.de/image/8017ba83-b8cb-407b-af65-1dae160388d4/AAABoMgt7l8/AAABnSSvrFg/16x9-big/rbb-ferat-koak-100.jpg?width=1920",
       "published": "2026-09-22T10:55:48+02:00",
       "category": "Politik",
-      "score": 78.02
+      "score": 77.74
+    },
+    {
+      "id": "deutschlandfunk-a80eb22a32774753",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Nach Wahl in Berlin - Grünen-Politiker: Linke muss Antisemiten ausschließen",
+      "link": "https://www.deutschlandfunk.de/gruenen-politiker-linke-muss-antisemiten-ausschliessen-100.html",
+      "summary": "Der Berliner Grünen-Europaabgeordnete Lagodinsky hat die Linke aufgefordert, Mitglieder mit antisemitischen Positionen auszuschließen.",
+      "image": "https://bilder.deutschlandfunk.de/31/53/03/69/31530369-a062-4208-be07-29139f5d8e8e/sergey-lagodinsky-gruene-102-1920x1920.jpg",
+      "published": "2026-09-22T11:46:06+02:00",
+      "category": "Politik",
+      "score": 77.65,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ Wahlen +++: Berliner Linke lädt Grüne und SPD zu „Vorgesprächen“ ein",
+            "link": "https://www.handelsblatt.com/politik/deutschland/wahlen-in-berlin-und-mv-berliner-linke-laedt-gruene-und-spd-zu-vorgespraechen-ein/100252039.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-c0f003ee8993e8a0",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "New York - Trump trifft Bürgermeister Mamdani",
+      "link": "https://www.deutschlandfunk.de/trump-trifft-buergermeister-mamdani-100.html",
+      "summary": "US-Präsident Trump kam in New York auch mit dem Bürgermeister der Stadt, Mamdani, zusammen.",
+      "image": "https://bilder.deutschlandfunk.de/0f/20/65/a7/0f2065a7-c908-4b7f-bbf0-f246e90595f7/trump-mamdani-100-1920x1920.jpg",
+      "published": "2026-09-22T11:46:06+02:00",
+      "category": "Politik",
+      "score": 77.65,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "USA: „Fake News“ – Trump greift US-Medien bei Treffen mit Mamdani erneut an",
+            "link": "https://www.handelsblatt.com/video/politik/usa-fake-news-trump-greift-us-medien-bei-treffen-mit-mamdani-erneut-an/100256535.html"
+          }
+        ]
+      }
     },
     {
       "id": "deutschlandfunk-94159af76fa765ca",
@@ -58,7 +90,7 @@
       "image": "https://bilder.deutschlandfunk.de/b7/89/cc/55/b789cc55-8b1c-4312-94aa-3a67d8f3da87/immobilienkonzern-enteignen-100-1920x1920.jpg",
       "published": "2026-09-22T11:46:06+02:00",
       "category": "Politik",
-      "score": 77.91,
+      "score": 77.64,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -80,51 +112,7 @@
       "image": "https://bilder.deutschlandfunk.de/2a/b6/1f/e8/2ab61fe8-3c73-45a8-aa4a-fa2d0206ed0a/uno-generalversammlung-new-york-100-1920x1920.jpg",
       "published": "2026-09-22T11:46:06+02:00",
       "category": "Politik",
-      "score": 77.71
-    },
-    {
-      "id": "deutschlandfunk-6ab319d2a7c2b935",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Dnipropetrowsk - Ukraine: Vier Tote bei russischen Angriffen auf Industriegebiete",
-      "link": "https://www.deutschlandfunk.de/ukraine-vier-tote-bei-russischen-angriffen-auf-industriegebiete-100.html",
-      "summary": "Bei ​russischen Luftangriffen auf Ziele im Südosten der Ukraine sind mindestens vier Menschen getötet worden.",
-      "image": "https://bilder.deutschlandfunk.de/c4/5a/11/ca/c45a11ca-9ed1-40b6-9846-b5ada96e51e0/dnipropetrowsk-ukraine-russischer-angriff-102-768x768.jpg",
-      "published": "2026-09-22T11:46:06+02:00",
-      "category": "Politik",
-      "score": 77.71,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Ukraine-Krieg: Frau und Kleinkind bei russischem Angriff getötet",
-            "link": "https://www.spiegel.de/ausland/ukraine-krieg-frau-und-kleinkind-bei-russischem-angriff-getoetet-a-d2088161-c89a-40c6-8ad2-63cabfbfcbc7#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-a80eb22a32774753",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Nach Wahl in Berlin - Grünen-Politiker: Linke muss Antisemiten ausschließen",
-      "link": "https://www.deutschlandfunk.de/gruenen-politiker-linke-muss-antisemiten-ausschliessen-100.html",
-      "summary": "Der Berliner Grünen-Europaabgeordnete Lagodinsky hat die Linke aufgefordert, Mitglieder mit antisemitischen Positionen auszuschließen.",
-      "image": "https://bilder.deutschlandfunk.de/31/53/03/69/31530369-a062-4208-be07-29139f5d8e8e/sergey-lagodinsky-gruene-102-1920x1920.jpg",
-      "published": "2026-09-22T11:46:06+02:00",
-      "category": "Politik",
-      "score": 77.71,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Nach der Wahl in Berlin: Berliner Linke lädt Grüne und SPD zu „Vorgesprächen“ ein",
-            "link": "https://www.handelsblatt.com/politik/deutschland/nach-der-wahl-in-berlin-berliner-linke-laedt-gruene-und-spd-zu-vorgespraechen-ein/100256376.html"
-          }
-        ]
-      }
+      "score": 77.44
     },
     {
       "id": "spiegel-0eb92da82e8cbc07",
@@ -136,7 +124,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/4b302750-a70b-44b8-8f99-cf8ffc3f9bcc_w1200_r1.778_fpx41_fpy51.jpg",
       "published": "2026-09-22T09:26:00+02:00",
       "category": "Politik",
-      "score": 75.77
+      "score": 75.5
     },
     {
       "id": "tagesschau-45005f0557528d2f",
@@ -148,7 +136,7 @@
       "image": "https://images.tagesschau.de/image/8a8cca3a-38a7-4322-b0fe-529067c2be07/AAABoMhe0m8/AAABnSSvrFg/16x9-big/sefcovic-136.jpg?width=1920",
       "published": "2026-09-22T11:58:06+02:00",
       "category": "Wirtschaft",
-      "score": 70.88,
+      "score": 70.61,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -161,6 +149,30 @@
       }
     },
     {
+      "id": "handelsblatt-ba904bced6f3c5be",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Dax aktuell: Dax im Plus – Ölpreis sinkt wieder unter 100 Dollar",
+      "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-im-plus-oelpreis-sinkt-wieder-unter-100-dollar/100256414.html",
+      "summary": "Die Energiepreise bleiben bestimmendes Thema an den Börsen. Anleger haben zudem die Rede von Donald Trump vor der UN-Vollversammlung im Blick. Unter Druck gerät erneut die Vonovia-Aktie.",
+      "image": "https://images.handelsblatt.com/bckzfpdOn42n/cover/900/506/0/1/0/0/0.5/0.5/graph-aktienkurs-aktienchart-dax-online-dax-bericht.jpg",
+      "published": "2026-09-22T10:13:37+00:00",
+      "category": "Wirtschaft",
+      "score": 68.82
+    },
+    {
+      "id": "handelsblatt-5a5e3b0badcb322f",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "USA: Trumps Zustimmungswerte fallen auf neues Rekordtief",
+      "link": "https://www.handelsblatt.com/video/politik/usa-trumps-zustimmungswerte-fallen-auf-neues-rekordtief/100256534.html",
+      "summary": "Der US-Präsident ist laut einer Umfrage so unbeliebt wie noch nie. Mit Donald Trump zeigten sich nur noch 32 Prozent der Befragten zufrieden. Auch in seiner Partei sank die Zustimmung binnen einer Woche von 82 auf 78 Prozent.",
+      "image": "https://images.handelsblatt.com/ycc8iF5fUUUh/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
+      "published": "2026-09-22T10:00:40+00:00",
+      "category": "Politik",
+      "score": 68.64
+    },
+    {
       "id": "handelsblatt-38d2ed9dea6aca1a",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
@@ -170,19 +182,7 @@
       "image": "https://images.handelsblatt.com/8iVL-mdyg2fv/cover/900/506/0/0/0/0/0.5/0.5/geldmarkt-etfs.jpg",
       "published": "2026-09-22T09:59:00+00:00",
       "category": "Politik",
-      "score": 68.89
-    },
-    {
-      "id": "handelsblatt-2e99aae22759b919",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Dax aktuell: Dax startet niedriger – Ölpreise schwanken um die 100 Dollar",
-      "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-bleibt-unveraendert-oelpreis-wieder-unter-100-dollar/100256414.html",
-      "summary": "Die Energiepreise bleiben bestimmendes Thema an den Börsen. Anleger haben zudem die Rede von Donald Trump vor der UN-Vollversammlung im Blick. Unter Druck gerät erneut die Vonovia-Aktie.",
-      "image": "https://images.handelsblatt.com/bckzfpdOn42n/cover/900/506/0/1/0/0/0.5/0.5/graph-aktienkurs-aktienchart-dax-online-dax-bericht.jpg",
-      "published": "2026-09-22T09:54:31+00:00",
-      "category": "Wirtschaft",
-      "score": 68.83
+      "score": 68.62
     },
     {
       "id": "spiegel-1633caf2b5ef282e",
@@ -194,7 +194,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/3eb4aad2-ddac-4ffc-a1e8-66366709e846_w1200_r1.778_fpx48_fpy46.jpg",
       "published": "2026-09-22T10:32:00+02:00",
       "category": "Politik",
-      "score": 68.68
+      "score": 68.41
     },
     {
       "id": "spiegel-b14432429a5e3b31",
@@ -206,7 +206,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/a4e5a596-f6ea-4e80-8e94-ef5dbb291081_w1200_r1.778_fpx56.67_fpy55.jpg",
       "published": "2026-09-22T10:08:00+02:00",
       "category": "Politik",
-      "score": 68.35
+      "score": 68.08
     },
     {
       "id": "heise-59f1221b84c0eca4",
@@ -218,7 +218,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/6/8/3/3/2/Windows_Updates-Updates_verfuegbar-Herunteraden_Installieren_abgeschlossen-d2136de38dc0286b.jpeg",
       "published": "2026-09-21T09:37:00+02:00",
       "category": "Wirtschaft",
-      "score": 66.19,
+      "score": 65.92,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -240,7 +240,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213302&amp;page=1&amp;ts=1790063702",
       "published": "2026-09-22T09:55:02+02:00",
       "category": "Politik",
-      "score": 66.17
+      "score": 65.9
     }
   ]
 }
