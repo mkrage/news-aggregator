@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T15:17:03.370529+00:00",
+  "generatedAt": "2026-09-24T18:01:16.633521+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.handelsblatt.com/wS6zAsrmnoiw/cover/900/506/0/0/0/0/0.5/0.5/hlive-matthes-schnitzler.jpg",
       "published": "2026-09-30T04:00:00+00:00",
       "category": "Wirtschaft",
-      "score": 179.6
+      "score": 177.32
     },
     {
       "id": "tagesschau-c52dffa58eecacb5",
@@ -24,7 +24,7 @@
       "image": "https://images.tagesschau.de/image/52fb1dce-873e-45e4-96c5-b32c3e0d29a2/AAABn6QTr-Y/AAABnSSvrFg/16x9-big/knesset-128.jpg?width=1920",
       "published": "2026-09-24T16:33:06+02:00",
       "category": "Politik",
-      "score": 86.9,
+      "score": 86.35,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -46,9 +46,9 @@
       "image": "https://images.tagesschau.de/image/3f2a78ad-2f1f-47a9-aa3d-3316331bfec1/AAABoNLauik/AAABnSSvrFg/16x9-big/cem-oezdemir-150.jpg?width=1920",
       "published": "2026-09-24T13:55:47+02:00",
       "category": "Politik",
-      "score": 86.9,
+      "score": 83.03,
       "coverage": {
-        "sourceCount": 4,
+        "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
@@ -59,68 +59,82 @@
             "source": "spiegel",
             "title": "Berlin: Dietmar Woidke warnt SPD vor Koalition mit Linken",
             "link": "https://www.spiegel.de/politik/deutschland/berlin-dietmar-woidke-warnt-spd-vor-koalition-mit-linken-a-603e0ec9-99a5-4a2c-bbea-318896a836a3#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Nach der Wahl: Berliner Linke auf steinigem Weg zur Macht",
-            "link": "https://www.handelsblatt.com/politik/deutschland/nach-der-wahl-berliner-linke-auf-steinigem-weg-zur-macht/100257179.html"
           }
         ]
       }
     },
     {
-      "id": "tagesschau-671da9b379c81832",
+      "id": "tagesschau-b3c4351bf2a43ca4",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Kontroverse Debatte um Reform der Nachrichtendienste im Bundestag",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/reform-bnd-bundestag-100.html",
-      "summary": "Der Bundesnachrichtendienst und der Verfassungsschutz sollen deutlich mehr Befugnisse erhalten. Davon verspricht sich die Regierung größere Sicherheit. Die Opposition befürchtet hingegen einen Bruch der Grundrechte. Auch Ärzte sind besorgt.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/a04c99cb-8155-41b3-9b81-e39d68ead712/AAABoNLkPSg/AAABnSSvrFg/16x9-big/bundestag-dobrindt-merz-100.jpg?width=1920",
-      "published": "2026-09-24T12:09:28+02:00",
+      "title": "Gericht hebt Ausschluss von Medien aus Weißem Haus vorerst auf",
+      "link": "https://www.tagesschau.de/ausland/amerika/usa-gericht-medien-weisses-haus-100.html",
+      "summary": "Ein US-Gericht hat den von Präsident Trump verhängten Ausschluss von Journalisten aus dem Weißen Haus vorerst aufgehoben. Der sei wohl verfassungswidrig, erklärte der von Trump selbst berufene Richter.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/db1af876-0398-4b93-a96b-1afa4e4d247d/AAABoNIp1Xc/AAABnSSvrFg/16x9-big/trump-flur-100.jpg?width=1920",
+      "published": "2026-09-24T08:14:19+02:00",
       "category": "Politik",
-      "score": 83.58,
+      "score": 82.72,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
-            "source": "deutschlandfunk",
-            "title": "Kontroverse Debatte - Bundestag berät über Reform der Organspende - erneuter Anlauf für Widerspruchsregelung",
-            "link": "https://www.deutschlandfunk.de/bundestag-beraet-ueber-reform-der-organspende-erneuter-anlauf-fuer-widerspruchsregelung-100.html"
+            "source": "handelsblatt",
+            "title": "Einstweilige Verfügung: CNN, „Politico“ und MS NOW: Reporter wieder im Weißen Haus",
+            "link": "https://www.handelsblatt.com/politik/international/einstweilige-verfuegung-cnn-politico-und-ms-now-reporter-wieder-im-weissen-haus/100257056.html"
           },
           {
-            "source": "netzpolitik",
-            "title": "Bundestagsdebatte zur Geheimdienstreform: Zwischen Schreddern und Nachbessern",
-            "link": "https://netzpolitik.org/2026/bundestagsdebatte-zur-geheimdienstreform-zwischen-schreddern-und-nachbessern/"
+            "source": "golem",
+            "title": "USA: Richter hebt Trumps Ausschluss von US-Medien vorerst auf",
+            "link": "https://www.golem.de/news/usa-richter-hebt-trumps-ausschluss-von-us-medien-vorerst-auf-2609-213379.html"
           }
         ]
       }
     },
     {
-      "id": "tagesschau-dfa0377c5b32b942",
+      "id": "tagesschau-abf11c04fb081744",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Trotz vorläufigen Richterspruchs: Weißes Haus weist Reporter weiter ab",
-      "link": "https://www.tagesschau.de/ausland/amerika/usa-medien-cnn-trump-100.html",
-      "summary": "In seinem Dauerstreit mit den Medien hatte US-Präsident Trump unter anderem CNN den Zugang zum Weißen Haus verweigert. Ein Richter setzte die Entscheidung außer Kraft - doch das Weiße Haus sperrt sich.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/2ea7ac9b-3a47-4882-becd-9c3d304b7572/AAABoNO6fho/AAABnSSvrFg/16x9-big/betsy-klein-104.jpg?width=1920",
-      "published": "2026-09-24T16:47:55+02:00",
+      "title": "Russlands Krieg gegen die Ukraine Wettlauf der schnellen Drohnen",
+      "link": "https://www.tagesschau.de/ausland/europa/ukraine-schnelle-drohnen-100.html",
+      "summary": "Gelingt es der Ukraine, den russischen Vorsprung bei schnellen, mit Jetantrieb ausgestatteten Drohnen aufzuholen? Die Antwort entscheidet über Leben und Tod vieler Menschen. Von Kai Küstner und Stefan Niemann. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/bba5b5c3-e64e-46dc-9452-9d93285c8194/AAABoNPmfhU/AAABnSSvrFg/16x9-big/drohnen-278.jpg?width=1920",
+      "published": "2026-09-24T19:50:55+02:00",
       "category": "Politik",
-      "score": 83.58,
+      "score": 78.86
+    },
+    {
+      "id": "spiegel-f8c02d0e81832bf7",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Sachsen-Anhalt: Land verzichtet nach AfD-Wahlsieg auf MPK-Vorsitz",
+      "link": "https://www.spiegel.de/politik/deutschland/sachsen-anhalt-land-verzichtet-nach-afd-wahlsieg-auf-mpk-vorsitz-a-902b8f11-785f-4ab5-8e85-4805ea3e5dc6#ref=rss",
+      "summary": "Eigentlich wäre Sachsen-Anhalt dran gewesen. Doch wegen des Wahlerfolgs der AfD verzichtet das Bundesland auf den turnusmäßigen Vorsitz der Ministerpräsidentenkonferenz. Die weitere Reihenfolge bleibt unberührt.",
+      "image": "https://cdn.prod.www.spiegel.de/images/f96df2a0-9a5b-4f18-99d2-d2294e508d07_w1200_r1.778_fpx33_fpy44.jpg",
+      "published": "2026-09-24T19:42:00+02:00",
+      "category": "Politik",
+      "score": 77.73,
       "coverage": {
-        "sourceCount": 3,
+        "sourceCount": 2,
         "others": [
           {
             "source": "deutschlandfunk",
-            "title": "USA - Reporter trotz Gerichtsentscheids weiter ohne Zugang zum Weißen Haus",
-            "link": "https://www.deutschlandfunk.de/reporter-trotz-gerichtsentscheids-weiter-ohne-zugang-zum-weissen-haus-100.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "USA: Weißes Haus sperrt US-Medien trotz Richterspruchs aus",
-            "link": "https://www.handelsblatt.com/politik/international/usa-weisses-haus-sperrt-us-medien-trotz-richterspruchs-aus/100257048.html"
+            "title": "Bundesländer - Sachsen-Anhalt verzichtet auf MPK-Vorsitz",
+            "link": "https://www.deutschlandfunk.de/sachsen-anhalt-verzichtet-auf-mpk-vorsitz-104.html"
           }
         ]
       }
+    },
+    {
+      "id": "spiegel-e252cc16db326183",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Ukraine-Russland-Krieg: Mark Rutte sieht Nato gerüstet für Abwehr hybrider Angriffe",
+      "link": "https://www.spiegel.de/ausland/ukraine-russland-krieg-mark-rutte-sieht-nato-geruestet-fuer-abwehr-hybrider-angriffe-a-d24eed01-e0ea-4120-b478-3cdccd0cd5b5#ref=rss",
+      "summary": "Trotz zunehmender hybrider Angriffe in Europa ruft Nato-Generalsekretär Rutte zur Ruhe auf. Das Verteidigungsbündnis sei gut aufgestellt. Letztlich würden die Aktionen zeigen, dass Russland seinen Krieg verliere.",
+      "image": "https://cdn.prod.www.spiegel.de/images/547840d2-37f0-4007-b8e8-6dc5490c7c06_w1200_r1.778_fpx6_fpy36.jpg",
+      "published": "2026-09-24T19:32:00+02:00",
+      "category": "Politik",
+      "score": 77.59
     },
     {
       "id": "deutschlandfunk-2add81eede8109b0",
@@ -130,9 +144,53 @@
       "link": "https://www.deutschlandfunk.de/eu-kommission-warnt-vor-moeglichen-us-exportstopp-fuer-diesel-100.html",
       "summary": "Die EU-Kommission will den von US-Präsident Trump ins Spiel gebrachten Exportstopp von Diesel aus den Vereinigten Staaten abwenden.",
       "image": "https://bilder.deutschlandfunk.de/5d/14/0a/e5/5d140ae5-e133-4c10-bffe-752e364e65cf/eu-flaggen-110-1920x1920.jpg",
-      "published": "2026-09-24T17:09:33+02:00",
+      "published": "2026-09-24T19:14:29+02:00",
       "category": "Politik",
-      "score": 77.9
+      "score": 77.35
+    },
+    {
+      "id": "deutschlandfunk-3d8c534a76164820",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Washington - Trump und Xi betonen gegenseitige Freundschaft",
+      "link": "https://www.deutschlandfunk.de/trump-und-xi-betonen-gegenseitige-freundschaft-102.html",
+      "summary": "US-Präsident Trump und der chinesische Staatschef Xi haben bei ihrem Treffen in Washington ihren Willen zu einer besseren Zusammenarbeit betont. Beide hoben hervor, dass man mehr Kommunikation und Zusammenarbeit der beiden größten Volkswirtschaften anstrebe.",
+      "image": "https://bilder.deutschlandfunk.de/05/d7/53/68/05d75368-d30f-4cd5-80f4-6ae0bd3d9647/trump-xi-106-1920x1920.jpg",
+      "published": "2026-09-24T19:14:29+02:00",
+      "category": "Politik",
+      "score": 77.35,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Staatsbesuch: Trump betont bei Treffen mit Xi gemeinsame Freundschaft",
+            "link": "https://www.handelsblatt.com/politik/international/staatsbesuch-trump-betont-bei-treffen-mit-xi-gemeinsame-freundschaft/100257244.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-f5de09e84d969261",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Berlin - Erste Beratungen im Bundestag über Reform der Nachrichtendienste - Dobrindt: \"Müssen Demokratie und Bevölkerung schützen\"",
+      "link": "https://www.deutschlandfunk.de/erste-beratungen-im-bundestag-ueber-reform-der-nachrichtendienste-dobrindt-muessen-demokratie-und-be-100.html",
+      "summary": "Der Bundestag hat erstmals über die Pläne der schwarz-roten Koalition für eine größere Reform der Nachrichtendienste debattiert. Bundesinnenminister Dobrindt erklärte, im Gesetzentwurf gehe es darum, Demokratie und Bevölkerung zu schützen. Deutliche Kritik äußerte die Opposition.",
+      "image": "https://bilder.deutschlandfunk.de/9f/59/16/0a/9f59160a-d75a-4f0c-a9f0-4794d3e9e8e8/dobrindt-bundestag-112-1920x1920.jpg",
+      "published": "2026-09-24T19:14:29+02:00",
+      "category": "Politik",
+      "score": 77.35,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "netzpolitik",
+            "title": "Bundestagsdebatte zur Geheimdienstreform: Zwischen Schreddern und Nachbessern",
+            "link": "https://netzpolitik.org/2026/bundestagsdebatte-zur-geheimdienstreform-zwischen-schreddern-und-nachbessern/"
+          }
+        ]
+      }
     },
     {
       "id": "handelsblatt-c98ab8c590c4f758",
@@ -142,45 +200,60 @@
       "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-zinssorgen-bremsen-us-boersen-zum-handelsstart/100257196.html",
       "summary": "Inflationsrisiken, Unsicherheiten bei den Ölpreisen und US-Staatsfinanzen machen der Wall Street zu schaffen. Anleger schauen auf das Treffen von Trump und Xi.",
       "image": "https://images.handelsblatt.com/P-73zvwpCO2y/cover/900/506/0/0/75/75/0.5/0.5/wall-street.jpeg",
-      "published": "2026-09-24T14:59:59+00:00",
+      "published": "2026-09-24T17:36:00+00:00",
       "category": "Wirtschaft",
-      "score": 76.76
+      "score": 76.65
     },
     {
-      "id": "deutschlandfunk-034c0a3c8dc73a2e",
+      "id": "deutschlandfunk-89cc82ab6a32f8ea",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Nach Wahl in Berlin - Jüdische Studierendenunion: Präsident Dekel fordert von Linkspartei konsequentes Vorgehen gegen Antisemitismus",
-      "link": "https://www.deutschlandfunk.de/juedische-studierendenunion-praesident-dekel-fordert-von-linkspartei-konsequentes-vorgehen-gegen-ant-100.html",
-      "summary": "Der Präsident der Jüdischen Studierendenunion, Dekel, fordert von der Linkspartei nach ihrem Wahlsieg in Berlin ein klares Bekenntnis gegen Antisemitismus. Die Partei habe im Wahlkampf teilweise auf ein Milieu in der Hauptstadt gesetzt, das Antisemitismus unterstütze, sagte Dekel im Deutschlandfunk.",
-      "image": "https://bilder.deutschlandfunk.de/82/99/d9/f1/8299d9f1-e096-4ded-8621-f404eb3ee368/ron-dekel-102-1920x1920.jpg",
-      "published": "2026-09-24T17:09:33+02:00",
-      "category": "Politik",
-      "score": 69.9
+      "title": "Nach Gerichtsentscheid - CNN, MS NOW und Politico erhalten Zugang zum Weißen Haus",
+      "link": "https://www.deutschlandfunk.de/cnn-ms-now-und-politico-erhalten-zugang-zum-weissen-haus-100.html",
+      "summary": "In den USA haben Journalisten der Sender CNN und MS NOW nach einem entsprechenden Gerichtsentscheid nun doch wieder Zugang zum Weißen Haus erhalten. Dies berichteten die beiden Medien, nachdem ihnen heute zunächst der Zutritt verweigert worden war.",
+      "image": "https://bilder.deutschlandfunk.de/e4/f0/ff/24/e4f0ff24-be1b-4178-aaba-e313cf26512d/weisses-haus-washington-100-1920x1920.jpg",
+      "published": "2026-09-24T19:14:29+02:00",
+      "category": "Nachrichten",
+      "score": 71.03,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Donald Trump und die Pressefreiheit: CNN, Politico und MS NOW haben nun doch wieder Zugang zum Weißen Haus",
+            "link": "https://www.spiegel.de/ausland/donald-trump-und-die-pressefreiheit-cnn-politico-und-ms-now-haben-nun-doch-wieder-zugang-zum-weissen-haus-a-26255a40-8683-43a2-9af8-811a201bb918#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "USA: Ausgesperrte Journalisten von CNN, MS Now und „Politico“ dürfen nun doch wieder ins Weiße Haus",
+            "link": "https://www.handelsblatt.com/politik/international/usa-ausgesperrte-journalisten-duerfen-nun-doch-wieder-ins-weisse-haus/100257048.html"
+          }
+        ]
+      }
     },
     {
-      "id": "deutschlandfunk-150746e2461a93aa",
-      "source": "deutschlandfunk",
+      "id": "spiegel-c9d0862ac67e7e1a",
+      "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Magdeburg - SPD in Sachsen-Anhalt unternimmt Vorstoß für Regierungsbildung - ohne AfD-Beteiligung",
-      "link": "https://www.deutschlandfunk.de/spd-in-sachsen-anhalt-unternimmt-vorstoss-fuer-regierungsbildung-ohne-afd-beteiligung-100.html",
-      "summary": "Nach der Landtagswahl in Sachsen-Anhalt hat die SPD einen Vorstoß für eine mögliche Regierungsbildung ohne AfD-Beteiligung unternommen.",
-      "image": "https://bilder.deutschlandfunk.de/e6/4e/a4/d8/e64ea4d8-e021-4bd8-ae6c-75ec04fb2365/sachsen-anhalt-wahl-100-1920x1920.jpg",
-      "published": "2026-09-24T17:09:33+02:00",
+      "title": "Uno-Generaldebatte: Autokraten nutzen Bühne für Beleidigungen und Drohungen",
+      "link": "https://www.spiegel.de/ausland/uno-generaldebatte-autokraten-nutzen-buehne-fuer-beleidigungen-und-drohungen-a-bac9a776-4913-4ee3-a5a2-354501a72604#ref=rss",
+      "summary": "Irans Präsident nutzte seinen Uno-Auftritt, um gegen die USA und Israel zu wettern. Nicht der erste unrühmliche Moment in der Geschichte der Generalversammlung. Darunter: eine ermüdende Rede von Libyens Diktator Gaddafi.",
+      "image": "https://cdn.prod.www.spiegel.de/images/07859c7b-0001-0004-0000-000000017606_w1200_r1.778_fpx51_fpy20.jpg",
+      "published": "2026-09-24T19:19:00+02:00",
       "category": "Politik",
-      "score": 69.9
+      "score": 69.41
     },
     {
-      "id": "deutschlandfunk-2ba38ed0fc1db2c3",
-      "source": "deutschlandfunk",
+      "id": "spiegel-2d015646d9fda66b",
+      "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Wegen Kritik von Trump - Geplante Rückgabe von Archipel an Mauritius: London gibt Chagos-Deal auf",
-      "link": "https://www.deutschlandfunk.de/geplante-rueckgabe-von-archipel-an-mauritius-london-gibt-chagos-deal-auf-100.html",
-      "summary": "Die britische Regierung hat ihre Entscheidung verworfen, die Chagos-Inseln an Mauritius zurückzugeben.",
-      "image": "https://bilder.deutschlandfunk.de/7a/4d/1d/ae/7a4d1dae-94b4-41ec-897a-be210debeff8/chagos-archipel-100-1920x1920.jpg",
-      "published": "2026-09-24T17:09:33+02:00",
+      "title": "Berlin-Wahl: Enteignungsversprechen der Linken vertieft Gräben in der Stadt",
+      "link": "https://www.spiegel.de/politik/deutschland/berlin-wahl-enteignungsversprechen-der-linken-vertieft-graeben-in-der-stadt-a-7f793a75-58a5-46c0-978a-4c45a05da023#ref=rss",
+      "summary": "Vergesellschaftung von Wohnkonzernen als zentrales Versprechen, ein Clan-Eklat auf der Wahlparty und eine skeptische SPD: Die Linke steht in Berlin unter Druck. Stimmen aus der Stadt zeigen, wie tief die Gräben sind.",
+      "image": "https://cdn.prod.www.spiegel.de/images/43d88829-26be-485a-a9b9-ff69a90ae8dd_w1200_r1.778_fpx37_fpy44.jpg",
+      "published": "2026-09-24T17:36:00+02:00",
       "category": "Politik",
-      "score": 69.9
+      "score": 67.98
     },
     {
       "id": "handelsblatt-ef9acc457160a070",
@@ -192,55 +265,7 @@
       "image": "https://images.handelsblatt.com/L9iMdaPZ5QL5/cover/900/506/0/0/107/106/0.5/0.5/generaldebatte-der-un-vollversammlung.jpg",
       "published": "2026-09-24T15:02:42+00:00",
       "category": "Politik",
-      "score": 68.8
-    },
-    {
-      "id": "spiegel-a406b6c48ca102ff",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Momfluencerinnen und Social Media: Franca Lehfeldt fordert strengere Regeln",
-      "link": "https://www.spiegel.de/panorama/momfluencerinnen-und-social-media-franca-lehfeldt-fordert-strengere-regeln-a-6a30cd8f-e531-4495-995f-36f80e08f14a#ref=rss",
-      "summary": "Kinder bräuchten ein durchsetzbares Recht am eigenen Bild, fordert Franca Lehfeldt. Die Journalistin, verheiratet mit Ex-Finanzminister Christian Lindner, kritisiert auch: Frauen hätten in Deutschland keine echte Wahl zwischen Beruf und Familie.",
-      "image": "https://cdn.prod.www.spiegel.de/images/ad9f9e42-a9fa-4cbb-a79f-221ad411b271_w1200_r1.778_fpx30_fpy45.jpg",
-      "published": "2026-09-24T15:45:00+02:00",
-      "category": "Politik",
-      "score": 68.72
-    },
-    {
-      "id": "handelsblatt-2f375476264bf36b",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Wahlen +++: Krach und Caglar sollen Berliner SPD-Fraktion anführen",
-      "link": "https://www.handelsblatt.com/politik/deutschland/wahlen-in-berlin-und-mv-krach-und-caglar-sollen-berliner-spd-fraktion-anfuehren/100252039.html",
-      "summary": "SPD lädt vier Parteien zu Gesprächen in Sachsen-Anhalt ein +++ Berliner Grüne stellen Bedingungen für Sondierungen +++ Thüringens SPD-Chef Maier will nicht mehr antreten +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/owi6jeeUWNYT/cover/900/506/0/0/107/107/0.5/0.5/am-sonntagmorgen-06.09.2026-hat-in-sachsen-anhalt-die-landtagswahl-begonnen.-foto-wahllokal-in-der.jpg",
-      "published": "2026-09-24T14:43:00+00:00",
-      "category": "Politik",
-      "score": 68.53
-    },
-    {
-      "id": "spiegel-07347256b0535bd1",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Donald Trump und die Pressefreiheit: CNN, »Politico« und MS NOW beklagen weiterhin Zugangssperre zum Weißen Haus",
-      "link": "https://www.spiegel.de/ausland/donald-trump-und-die-pressefreiheit-cnn-politico-und-mw-now-klagen-weiter-ueber-zugangssperre-zum-weissen-haus-a-6962d0d3-252f-42b7-85d9-e1aa0401714c#ref=rss",
-      "summary": "Eigentlich muss das Weiße Haus seine Hausverbote gegen mehrere US-Medien aussetzen. Nach deren Angaben geschieht das aber nicht. Reportern werde immer noch der Zutritt verwehrt.",
-      "image": "https://cdn.prod.www.spiegel.de/images/d0562b33-c2f9-434b-a174-ea5bb547ca65_w1200_r1.778_fpx7_fpy97.jpg",
-      "published": "2026-09-24T15:30:00+02:00",
-      "category": "Politik",
-      "score": 68.51
-    },
-    {
-      "id": "spiegel-8824ddd196dc2d69",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Xi Jinping will mit Donald Trump über Taiwan sprechen - Wer nicht mitredet, sind die Taiwaner",
-      "link": "https://www.spiegel.de/ausland/gipfel-in-washington-xi-will-mit-trump-ueber-taiwan-sprechen-wer-nicht-mitredet-sind-die-taiwaner-a-0563c896-7699-4bc9-9c14-7e8864edccdc#ref=rss",
-      "summary": "China erhebt Anspruch auf das faktisch unabhängige Taiwan. In Taipeh sorgen sich die Menschen, dass Donald Trump sich auf dem Gipfel mit Machthaber Xi Jinping für die Interessen Pekings einspannen lässt.",
-      "image": "https://cdn.prod.www.spiegel.de/images/dd4e29d5-c609-41f5-abb1-efbbd3990b8a_w1200_r1.778_fpx44_fpy50.jpg",
-      "published": "2026-09-24T14:52:00+02:00",
-      "category": "Politik",
-      "score": 67.99
+      "score": 66.52
     }
   ]
 }
