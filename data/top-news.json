@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T19:19:32.944682+00:00",
+  "generatedAt": "2026-09-24T21:52:15.184350+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,34 @@
       "image": "https://images.handelsblatt.com/wS6zAsrmnoiw/cover/900/506/0/0/0/0/0.5/0.5/hlive-matthes-schnitzler.jpg",
       "published": "2026-09-30T04:00:00+00:00",
       "category": "Wirtschaft",
-      "score": 176.23
+      "score": 174.11
+    },
+    {
+      "id": "tagesschau-ce5ef400ecab3735",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Netanjahu-Rede bei UN - Dutzende Diplomaten verlassen Saal",
+      "link": "https://www.tagesschau.de/ausland/asien/netanjahu-kritik-un-generaldebatte-100.html",
+      "summary": "Eklat bei den Vereinten Nationen: Als Israels Premier ans Rednerpult trat, verließen Dutzende Diplomaten den Saal. Netanjahu reagierte scharf - und verteidigte die Kriege in Nahost.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/e31baaad-b003-4c3e-8c1e-d407d6dd4c7c/AAABoNTeqKI/AAABnSSvrFg/16x9-big/netanjahu-un-106.jpg?width=1920",
+      "published": "2026-09-24T23:51:23+02:00",
+      "category": "Politik",
+      "score": 91.67,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "UNO-Vollversammlung - Zahlreiche Diplomaten verlassen bei Netanjahus Rede den Saal",
+            "link": "https://www.deutschlandfunk.de/zahlreiche-diplomaten-verlassen-bei-netanjahus-rede-den-saal-106.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "Benjamin Netanyahu: Etliche Delegierte verlassen vor Rede bei der Uno-Vollversammlung den Saal",
+            "link": "https://www.spiegel.de/ausland/benjamin-netanyahu-etliche-delegierte-verlassen-vor-rede-bei-der-uno-vollversammlung-den-saal-a-1f659f23-0245-4799-a44f-2655805a2619#ref=rss"
+          }
+        ]
+      }
     },
     {
       "id": "tagesschau-c52dffa58eecacb5",
@@ -24,7 +51,7 @@
       "image": "https://images.tagesschau.de/image/52fb1dce-873e-45e4-96c5-b32c3e0d29a2/AAABn6QTr-Y/AAABnSSvrFg/16x9-big/knesset-128.jpg?width=1920",
       "published": "2026-09-24T16:33:06+02:00",
       "category": "Politik",
-      "score": 86.21,
+      "score": 86.09,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -46,7 +73,7 @@
       "image": "https://images.tagesschau.de/image/db1af876-0398-4b93-a96b-1afa4e4d247d/AAABoNIp1Xc/AAABnSSvrFg/16x9-big/trump-flur-100.jpg?width=1920",
       "published": "2026-09-24T08:14:19+02:00",
       "category": "Politik",
-      "score": 81.5,
+      "score": 79.38,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -73,7 +100,7 @@
       "image": "https://images.tagesschau.de/image/92a4c3cc-630f-475c-bdfe-3ed3b2780505/AAABoNIQQ_A/AAABnSSvrFg/16x9-big/ukraine-kiew-angriff-russland-106.jpg?width=1920",
       "published": "2026-09-24T11:23:30+02:00",
       "category": "Politik",
-      "score": 78.21,
+      "score": 78.09,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -86,28 +113,6 @@
       }
     },
     {
-      "id": "tagesschau-ddf46401132bb549",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Nach Wahl in Berlin: Özdemir warnt Grüne vor Koalition mit Linkspartei",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/oezdemir-linke-warnung-100.html",
-      "summary": "Nach dem Wahlsieg der Linken in Berlin brodelt die Debatte über eine mögliche Koalitionsbildung. Führende Politiker der Grünen warnen - 150 jüdische Berliner nehmen die Partei gegen Antisemitismusvorwürfe in Schutz.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/3f2a78ad-2f1f-47a9-aa3d-3316331bfec1/AAABoNLauik/AAABnSSvrFg/16x9-big/cem-oezdemir-150.jpg?width=1920",
-      "published": "2026-09-24T13:55:47+02:00",
-      "category": "Politik",
-      "score": 78.21,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Berlin - CDU-Politikerin Reiche warnt vor Linken-Regierung in Berlin - Banaszak (Grüne) stellt Bedingungen für Koalition",
-            "link": "https://www.deutschlandfunk.de/cdu-politikerin-reiche-warnt-vor-linken-regierung-in-berlin-banaszak-gruene-stellt-bedingungen-fuer--100.html"
-          }
-        ]
-      }
-    },
-    {
       "id": "deutschlandfunk-2add81eede8109b0",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
@@ -115,9 +120,9 @@
       "link": "https://www.deutschlandfunk.de/eu-kommission-warnt-vor-moeglichen-us-exportstopp-fuer-diesel-100.html",
       "summary": "Die EU-Kommission will den von US-Präsident Trump ins Spiel gebrachten Exportstopp von Diesel aus den Vereinigten Staaten abwenden.",
       "image": "https://bilder.deutschlandfunk.de/5d/14/0a/e5/5d140ae5-e133-4c10-bffe-752e364e65cf/eu-flaggen-110-1920x1920.jpg",
-      "published": "2026-09-24T20:22:41+02:00",
+      "published": "2026-09-24T22:47:03+02:00",
       "category": "Politik",
-      "score": 77.21
+      "score": 77.09
     },
     {
       "id": "deutschlandfunk-3d8c534a76164820",
@@ -127,9 +132,9 @@
       "link": "https://www.deutschlandfunk.de/trump-und-xi-betonen-gegenseitige-freundschaft-102.html",
       "summary": "US-Präsident Trump und der chinesische Staatschef Xi haben bei ihrem Treffen in Washington ihren Willen zu einer besseren Zusammenarbeit betont. Beide hoben hervor, dass man mehr Kommunikation und Zusammenarbeit der beiden größten Volkswirtschaften anstrebe.",
       "image": "https://bilder.deutschlandfunk.de/05/d7/53/68/05d75368-d30f-4cd5-80f4-6ae0bd3d9647/trump-xi-106-1920x1920.jpg",
-      "published": "2026-09-24T20:22:41+02:00",
+      "published": "2026-09-24T22:47:03+02:00",
       "category": "Politik",
-      "score": 77.21,
+      "score": 77.09,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -149,9 +154,9 @@
       "link": "https://www.deutschlandfunk.de/erste-beratungen-im-bundestag-ueber-reform-der-nachrichtendienste-dobrindt-muessen-demokratie-und-be-100.html",
       "summary": "Der Bundestag hat erstmals über die Pläne der schwarz-roten Koalition für eine größere Reform der Nachrichtendienste debattiert. Bundesinnenminister Dobrindt erklärte, im Gesetzentwurf gehe es darum, Demokratie und Bevölkerung zu schützen. Deutliche Kritik äußerte die Opposition.",
       "image": "https://bilder.deutschlandfunk.de/9f/59/16/0a/9f59160a-d75a-4f0c-a9f0-4794d3e9e8e8/dobrindt-bundestag-112-1920x1920.jpg",
-      "published": "2026-09-24T20:22:41+02:00",
+      "published": "2026-09-24T22:47:03+02:00",
       "category": "Politik",
-      "score": 77.21,
+      "score": 77.09,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -164,16 +169,28 @@
       }
     },
     {
-      "id": "handelsblatt-82cb385ad1d4a01e",
+      "id": "handelsblatt-b15f8aef75f671dd",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Wall Street: Zinssorgen und steigender Ölpreis bremsen US-Börsen",
-      "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-zinssorgen-und-steigender-oelpreis-bremsen-us-boersen/100257196.html",
-      "summary": "Inflationsrisiken, Unsicherheiten bei den Ölpreisen und US-Staatsfinanzen machen der Wall Street zu schaffen. Anleger schauen auf das Treffen von Trump und Xi.",
+      "title": "Regierungschef unter Druck: Konfrontiert mit Protest: Netanjahu verteidigt Kriege bei UN",
+      "link": "https://www.handelsblatt.com/politik/international/regierungschef-unter-druck-konfrontiert-mit-protest-netanjahu-verteidigt-kriege-bei-un/100256997.html",
+      "summary": "Israels Ministerpräsident Netanjahu schlägt in New York Kritik entgegen. Vor den UN verteidigt er seinen Kurs, kurz nachdem Palästinenserpräsident Abbas schwere Vorwürfe gegen Israel erhoben hat.",
+      "image": "https://images.handelsblatt.com/LE6WCQS9UDsh/cover/900/506/0/0/107/107/0.5/0.5/generaldebatte-der-un-vollversammlung.jpg",
+      "published": "2026-09-24T20:27:14+00:00",
+      "category": "Politik",
+      "score": 75.82
+    },
+    {
+      "id": "handelsblatt-61b75e2554911e03",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Wall Street: US-Börsen schließen kaum verändert – Zinssorgen belasten Anleger",
+      "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-schliessen-kaum-veraendert-zinssorgen-belasten-anleger/100257196.html",
+      "summary": "Inflationsrisiken, Unsicherheiten bei den Ölpreisen und US-Staatsfinanzen machten der Wall Street am Donnerstag zu schaffen. Investoren achteten auf Ergebnisse aus dem Treffen von Xi und Trump.",
       "image": "https://images.handelsblatt.com/P-73zvwpCO2y/cover/900/506/0/0/75/75/0.5/0.5/wall-street.jpeg",
-      "published": "2026-09-24T18:49:00+00:00",
+      "published": "2026-09-24T19:26:00+00:00",
       "category": "Wirtschaft",
-      "score": 76.58
+      "score": 74.97
     },
     {
       "id": "spiegel-e252cc16db326183",
@@ -185,7 +202,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/547840d2-37f0-4007-b8e8-6dc5490c7c06_w1200_r1.778_fpx6_fpy36.jpg",
       "published": "2026-09-24T19:32:00+02:00",
       "category": "Politik",
-      "score": 76.51
+      "score": 74.39
     },
     {
       "id": "deutschlandfunk-89cc82ab6a32f8ea",
@@ -195,9 +212,9 @@
       "link": "https://www.deutschlandfunk.de/cnn-ms-now-und-politico-erhalten-zugang-zum-weissen-haus-100.html",
       "summary": "In den USA haben Journalisten der Sender CNN und MS NOW nach einem entsprechenden Gerichtsentscheid nun doch wieder Zugang zum Weißen Haus erhalten. Dies berichteten die beiden Medien, nachdem ihnen heute zunächst der Zutritt verweigert worden war.",
       "image": "https://bilder.deutschlandfunk.de/e4/f0/ff/24/e4f0ff24-be1b-4178-aaba-e313cf26512d/weisses-haus-washington-100-1920x1920.jpg",
-      "published": "2026-09-24T20:22:41+02:00",
+      "published": "2026-09-24T22:47:03+02:00",
       "category": "Nachrichten",
-      "score": 70.89,
+      "score": 70.77,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -224,7 +241,29 @@
       "image": "https://cdn.prod.www.spiegel.de/images/33e54999-c2dd-4674-9c16-ac0db884f029_w1200_r1.778_fpx71_fpy36.jpg",
       "published": "2026-09-24T20:42:00+02:00",
       "category": "Politik",
-      "score": 69.48
+      "score": 67.36
+    },
+    {
+      "id": "spiegel-d87bea0c61f90a8a",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Nations League: Deutschland remis gegen Niederlande bei Debüt von Jürgen Klopp",
+      "link": "https://www.spiegel.de/sport/fussball/nations-league-deutschland-remis-gegen-niederlande-bei-debuet-von-juergen-klopp-a-0616fce9-7540-4017-9f4f-d2345446e019#ref=rss",
+      "summary": "Beinahe reichen Mühe und Leidenschaft zum DFB-Sieg gegen die Niederlande, dann schlägt Mark van Bommels Sohn eine Zauberflanke. Jürgen Klopp ist voll des Lobes, Oranje leicht pikiert ob der deutschen Sportlichkeit.",
+      "image": "https://cdn.prod.www.spiegel.de/images/f53e20dd-56c0-42ee-8ae9-09f6ac746a21_w1200_r1.778_fpx55_fpy55.jpg",
+      "published": "2026-09-24T23:45:00+02:00",
+      "category": "Technologie",
+      "score": 66.9,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "1:1 gegen die Niederlande - Deutschland mit Remis im ersten Spiel unter Klopp",
+            "link": "https://www.deutschlandfunk.de/deutschland-mit-remis-im-ersten-spiel-unter-klopp-100.html"
+          }
+        ]
+      }
     },
     {
       "id": "spiegel-f8c02d0e81832bf7",
@@ -236,31 +275,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/f96df2a0-9a5b-4f18-99d2-d2294e508d07_w1200_r1.778_fpx33_fpy44.jpg",
       "published": "2026-09-24T19:42:00+02:00",
       "category": "Politik",
-      "score": 68.65
-    },
-    {
-      "id": "handelsblatt-0b21c8ce72fd4a8b",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "UN-Vollversammlung: EU kündigt Widerstand gegen Trumps Gerichtsvorstoß an",
-      "link": "https://www.handelsblatt.com/politik/international/un-vollversammlung-eu-kuendigt-widerstand-gegen-trumps-gerichtsvorstoss-an/100257277.html",
-      "summary": "US-Präsident Trump fordert den Austritt aller Staaten aus dem Internationalen Strafgerichtshof. EU-Ratspräsident António Costa reagiert jetzt in New York mit einer klaren Botschaft.",
-      "image": "https://images.handelsblatt.com/o1UHsqo-Lm3B/cover/900/506/0/0/107/106/0.5/0.5/generaldebatte-der-un-vollversammlung.jpg",
-      "published": "2026-09-24T18:43:22+00:00",
-      "category": "Politik",
-      "score": 68.5
-    },
-    {
-      "id": "handelsblatt-6d284243cab86df4",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Modernisierung der Marine: Neues deutsches U-Boot in Israel eingetroffen",
-      "link": "https://www.handelsblatt.com/politik/international/modernisierung-der-marine-neues-deutsches-u-boot-in-israel-eingetroffen/100257187.html",
-      "summary": "Israels größtes U-Boot aus deutscher Produktion soll die Marine als strategischen Arm mit größerer Reichweite und Feuerkraft stärken. Die „INS Drakon“ ist das sechste U-Boot der israelischen Flotte.",
-      "image": "https://images.handelsblatt.com/m3jvZgpCN7As/cover/900/506/0/0/107/106/0.5/0.5/nahostkonflikt-haifa.jpg",
-      "published": "2026-09-24T18:39:14+00:00",
-      "category": "Politik",
-      "score": 68.44
+      "score": 66.52
     }
   ]
 }
