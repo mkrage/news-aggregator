@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T00:16:43.496716+00:00",
+  "generatedAt": "2026-09-25T01:38:36.901986+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.handelsblatt.com/wS6zAsrmnoiw/cover/900/506/0/0/0/0/0.5/0.5/hlive-matthes-schnitzler.jpg",
       "published": "2026-09-30T04:00:00+00:00",
       "category": "Wirtschaft",
-      "score": 172.1
+      "score": 170.96
     },
     {
       "id": "tagesschau-ce5ef400ecab3735",
@@ -24,7 +24,7 @@
       "image": "https://images.tagesschau.de/image/e31baaad-b003-4c3e-8c1e-d407d6dd4c7c/AAABoNTeqKI/AAABnSSvrFg/16x9-big/netanjahu-un-106.jpg?width=1920",
       "published": "2026-09-24T23:51:23+02:00",
       "category": "Politik",
-      "score": 89.66,
+      "score": 91.29,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -42,6 +42,28 @@
       }
     },
     {
+      "id": "tagesschau-2c66717769bcbaac",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Prunk und Pandas: Trump empfängt Xi in Washington",
+      "link": "https://www.tagesschau.de/ausland/amerika/usa-china-trump-xi-pandas-100.html",
+      "summary": "KI, Handel, Ukraine und Taiwan - die Liste der Gipfelthemen ist lang. Doch das Treffen der Präsidenten Trump und Xi beginnt freundschaftlich - was auch mit Pandas zu tun haben könnte. Und dann ist da noch Thukydides.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/aa1d79f0-b5d1-4ed4-ae1f-8b14f3656405/AAABoNQBA_E/AAABnSSvrFg/16x9-big/xi-trump-130.jpg?width=1920",
+      "published": "2026-09-24T21:43:38+02:00",
+      "category": "Politik",
+      "score": 86.61,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Treffen in Washington - Trump empfängt Xi zum Staatsbankett im Weißen Haus",
+            "link": "https://www.deutschlandfunk.de/trump-empfaengt-xi-zum-staatsbankett-im-weissen-haus-102.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "tagesschau-c52dffa58eecacb5",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -51,7 +73,7 @@
       "image": "https://images.tagesschau.de/image/52fb1dce-873e-45e4-96c5-b32c3e0d29a2/AAABn6QTr-Y/AAABnSSvrFg/16x9-big/knesset-128.jpg?width=1920",
       "published": "2026-09-24T16:33:06+02:00",
       "category": "Politik",
-      "score": 84.79,
+      "score": 86.61,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -73,7 +95,7 @@
       "image": "https://images.tagesschau.de/image/db1af876-0398-4b93-a96b-1afa4e4d247d/AAABoNIp1Xc/AAABnSSvrFg/16x9-big/trump-flur-100.jpg?width=1920",
       "published": "2026-09-24T08:14:19+02:00",
       "category": "Politik",
-      "score": 77.38,
+      "score": 76.24,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -91,40 +113,6 @@
       }
     },
     {
-      "id": "deutschlandfunk-23ffd8c1be904732",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Washington - Trump und Xi betonen gegenseitige Freundschaft",
-      "link": "https://www.deutschlandfunk.de/trump-und-xi-betonen-gegenseitige-freundschaft-104.html",
-      "summary": "US-Präsident Trump und der chinesische Staatschef Xi haben bei ihrem Treffen in Washington ihren Willen zu einer besseren Zusammenarbeit betont. Beide hoben hervor, dass man mehr Kommunikation und Zusammenarbeit der beiden größten Volkswirtschaften anstrebe.",
-      "image": "https://bilder.deutschlandfunk.de/05/d7/53/68/05d75368-d30f-4cd5-80f4-6ae0bd3d9647/trump-xi-106-1920x1920.jpg",
-      "published": "2026-09-24T23:37:21+02:00",
-      "category": "Politik",
-      "score": 75.79,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Staatsbesuch: Trump betont bei Treffen mit Xi gemeinsame Freundschaft",
-            "link": "https://www.handelsblatt.com/politik/international/staatsbesuch-trump-betont-bei-treffen-mit-xi-gemeinsame-freundschaft/100257244.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-2c66717769bcbaac",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Prunk und Pandas: Trump empfängt Xi in Washington",
-      "link": "https://www.tagesschau.de/ausland/amerika/usa-china-trump-xi-pandas-100.html",
-      "summary": "KI, Handel, Ukraine und Taiwan - die Liste der Gipfelthemen ist lang. Doch das Treffen der Präsidenten Trump und Xi beginnt freundschaftlich - was auch mit Pandas zu tun haben könnte. Und dann ist da noch Thukydides.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/aa1d79f0-b5d1-4ed4-ae1f-8b14f3656405/AAABoNQBA_E/AAABnSSvrFg/16x9-big/xi-trump-130.jpg?width=1920",
-      "published": "2026-09-24T21:43:38+02:00",
-      "category": "Politik",
-      "score": 75.21
-    },
-    {
       "id": "handelsblatt-b15f8aef75f671dd",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
@@ -134,7 +122,7 @@
       "image": "https://images.handelsblatt.com/LE6WCQS9UDsh/cover/900/506/0/0/107/107/0.5/0.5/generaldebatte-der-un-vollversammlung.jpg",
       "published": "2026-09-24T21:45:28+00:00",
       "category": "Politik",
-      "score": 74.9
+      "score": 73.76
     },
     {
       "id": "handelsblatt-61b75e2554911e03",
@@ -146,31 +134,7 @@
       "image": "https://images.handelsblatt.com/P-73zvwpCO2y/cover/900/506/0/0/75/75/0.5/0.5/wall-street.jpeg",
       "published": "2026-09-24T19:26:00+00:00",
       "category": "Wirtschaft",
-      "score": 72.96
-    },
-    {
-      "id": "spiegel-e252cc16db326183",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ukraine-Russland-Krieg: Mark Rutte sieht Nato gerüstet für Abwehr hybrider Angriffe",
-      "link": "https://www.spiegel.de/ausland/ukraine-russland-krieg-mark-rutte-sieht-nato-geruestet-fuer-abwehr-hybrider-angriffe-a-d24eed01-e0ea-4120-b478-3cdccd0cd5b5#ref=rss",
-      "summary": "Trotz zunehmender hybrider Angriffe in Europa ruft Nato-Generalsekretär Rutte zur Ruhe auf. Das Verteidigungsbündnis sei gut aufgestellt. Letztlich würden die Aktionen zeigen, dass Russland seinen Krieg verliere.",
-      "image": "https://cdn.prod.www.spiegel.de/images/547840d2-37f0-4007-b8e8-6dc5490c7c06_w1200_r1.778_fpx6_fpy36.jpg",
-      "published": "2026-09-24T19:32:00+02:00",
-      "category": "Politik",
-      "score": 72.38
-    },
-    {
-      "id": "spiegel-b9ed8a28d714e4fe",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Kanada: Stadtrat von Ottawa streicht Trump-Avenue aus dem Stadtplan",
-      "link": "https://www.spiegel.de/ausland/kanada-stadtrat-von-ottawa-streicht-trump-avenue-aus-dem-stadtplan-a-98333477-f291-4085-854c-fdb16eab7b22#ref=rss",
-      "summary": "Die Menschen in Kanada gelten gemeinhin als eher höflich. Doch Donald Trump treibt sogar sie an ihre Grenzen. Im Nachbarschaftsstreit mit den USA hat sich der Stadtrat von Ottawa nun eine besondere Gemeinheit einfallen lassen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/415fb12f-4f8f-48e9-9ba3-0325c5809353_w1200_r1.778_fpx34.69_fpy49.99.jpg",
-      "published": "2026-09-25T02:07:00+02:00",
-      "category": "Politik",
-      "score": 69.86
+      "score": 71.82
     },
     {
       "id": "deutschlandfunk-ef1fbb7e84278ee8",
@@ -180,9 +144,9 @@
       "link": "https://www.deutschlandfunk.de/cnn-ms-now-und-politico-erhalten-zugang-zum-weissen-haus-102.html",
       "summary": "In den USA haben Journalisten der Sender CNN und MS NOW nach einem entsprechenden Gerichtsentscheid nun doch wieder Zugang zum Weißen Haus erhalten. Dies berichteten die beiden Medien, nachdem ihnen heute zunächst der Zutritt verweigert worden war.",
       "image": "https://bilder.deutschlandfunk.de/e4/f0/ff/24/e4f0ff24-be1b-4178-aaba-e313cf26512d/weisses-haus-washington-100-1920x1920.jpg",
-      "published": "2026-09-24T23:37:21+02:00",
+      "published": "2026-09-25T03:10:26+02:00",
       "category": "Nachrichten",
-      "score": 69.47,
+      "score": 71.29,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -200,6 +164,18 @@
       }
     },
     {
+      "id": "spiegel-e252cc16db326183",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Ukraine-Russland-Krieg: Mark Rutte sieht Nato gerüstet für Abwehr hybrider Angriffe",
+      "link": "https://www.spiegel.de/ausland/ukraine-russland-krieg-mark-rutte-sieht-nato-geruestet-fuer-abwehr-hybrider-angriffe-a-d24eed01-e0ea-4120-b478-3cdccd0cd5b5#ref=rss",
+      "summary": "Trotz zunehmender hybrider Angriffe in Europa ruft Nato-Generalsekretär Rutte zur Ruhe auf. Das Verteidigungsbündnis sei gut aufgestellt. Letztlich würden die Aktionen zeigen, dass Russland seinen Krieg verliere.",
+      "image": "https://cdn.prod.www.spiegel.de/images/547840d2-37f0-4007-b8e8-6dc5490c7c06_w1200_r1.778_fpx6_fpy36.jpg",
+      "published": "2026-09-24T19:32:00+02:00",
+      "category": "Politik",
+      "score": 71.24
+    },
+    {
       "id": "deutschlandfunk-04a335f415155bee",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
@@ -207,31 +183,55 @@
       "link": "https://www.deutschlandfunk.de/spd-in-sachsen-anhalt-unternimmt-vorstoss-fuer-regierungsbildung-ohne-afd-beteiligung-102.html",
       "summary": "Nach der Landtagswahl in Sachsen-Anhalt hat die SPD einen Vorstoß für eine mögliche Regierungsbildung ohne AfD-Beteiligung unternommen.",
       "image": "https://bilder.deutschlandfunk.de/e6/4e/a4/d8/e64ea4d8-e021-4bd8-ae6c-75ec04fb2365/sachsen-anhalt-wahl-100-1920x1920.jpg",
-      "published": "2026-09-24T23:37:21+02:00",
+      "published": "2026-09-25T03:10:26+02:00",
       "category": "Politik",
-      "score": 67.79
+      "score": 69.61
     },
     {
-      "id": "deutschlandfunk-4fb21f3f50410dc9",
+      "id": "deutschlandfunk-19e98760c95ee706",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Thüringens Ministerpräsident - Voigt fordert programmatischen Neuanfang der CDU",
-      "link": "https://www.deutschlandfunk.de/voigt-fordert-programmatischen-neuanfang-der-cdu-106.html",
-      "summary": "Thüringens Ministerpräsident Voigt hat eine Kursänderung der CDU in der Bundespolitik gefordert.",
-      "image": "https://bilder.deutschlandfunk.de/3a/d3/01/1e/3ad3011e-63c3-486a-b7f1-6134ff2df0cb/mario-voigt-cdu-ministerpraesident-thueringen-doktortitel-100-1920x1920.jpg",
-      "published": "2026-09-24T23:37:21+02:00",
+      "title": "USA - Schnelle Abschiebungen - Regierung ruft Supreme Court an",
+      "link": "https://www.deutschlandfunk.de/schnelle-abschiebungen-regierung-ruft-supreme-court-an-102.html",
+      "summary": "Die US-Regierung von Präsident Trump will vor dem Obersten Gerichtshof die beschleunigte Abschiebung von Migranten in sogenannte Drittstaaten erwirken.",
+      "image": "https://bilder.deutschlandfunk.de/69/f2/cf/72/69f2cf72-43cf-4a6e-93ac-add255bcb637/supreme-court-106-1920x1920.jpg",
+      "published": "2026-09-25T03:10:26+02:00",
       "category": "Politik",
-      "score": 67.79,
+      "score": 69.61
+    },
+    {
+      "id": "deutschlandfunk-2f929607c1ec46bf",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "US-Wirtschaft - Starbucks macht 250 Filialen dicht",
+      "link": "https://www.deutschlandfunk.de/starbucks-macht-250-filialen-dicht-102.html",
+      "summary": "Die US-Kaffeehaus-Kette Starbucks will in Nordamerika zahlreiche Filialen schließen.",
+      "image": "https://bilder.deutschlandfunk.de/FI/LE/_4/4f/FILE_44fa71264eb1b41da84429aeca68e4ea/87633868-jpg-100-768x768.jpg",
+      "published": "2026-09-25T03:10:26+02:00",
+      "category": "Wirtschaft",
+      "score": 69.61,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "handelsblatt",
-            "title": "Mario Voigt: „An eigenen Ansprüchen gescheitert“: CDU-Ministerpräsident fordert programmatischen Neuanfang",
-            "link": "https://www.handelsblatt.com/politik/deutschland/mario-voigt-die-union-braucht-wieder-eine-sichtbare-zukunftsidee/100255314.html"
+            "title": "Unternehmen: Starbucks schließt 250 Filialen in Nordamerika",
+            "link": "https://www.handelsblatt.com/unternehmen/unternehmen-starbucks-schliesst-250-filialen-in-nordamerika/100257285.html"
           }
         ]
       }
+    },
+    {
+      "id": "spiegel-b9ed8a28d714e4fe",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Kanada: Stadtrat von Ottawa streicht Trump-Avenue aus dem Stadtplan",
+      "link": "https://www.spiegel.de/ausland/kanada-stadtrat-von-ottawa-streicht-trump-avenue-aus-dem-stadtplan-a-98333477-f291-4085-854c-fdb16eab7b22#ref=rss",
+      "summary": "Die Menschen in Kanada gelten gemeinhin als eher höflich. Doch Donald Trump treibt sogar sie an ihre Grenzen. Im Nachbarschaftsstreit mit den USA hat sich der Stadtrat von Ottawa nun eine besondere Gemeinheit einfallen lassen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/415fb12f-4f8f-48e9-9ba3-0325c5809353_w1200_r1.778_fpx34.69_fpy49.99.jpg",
+      "published": "2026-09-25T02:07:00+02:00",
+      "category": "Politik",
+      "score": 68.73
     },
     {
       "id": "spiegel-07d4488330aa27cb",
@@ -243,29 +243,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/33e54999-c2dd-4674-9c16-ac0db884f029_w1200_r1.778_fpx71_fpy36.jpg",
       "published": "2026-09-24T20:42:00+02:00",
       "category": "Politik",
-      "score": 65.35
+      "score": 64.21
     },
     {
-      "id": "spiegel-d87bea0c61f90a8a",
+      "id": "spiegel-f8c02d0e81832bf7",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Nations League: Deutschland remis gegen Niederlande bei Debüt von Jürgen Klopp",
-      "link": "https://www.spiegel.de/sport/fussball/nations-league-deutschland-remis-gegen-niederlande-bei-debuet-von-juergen-klopp-a-0616fce9-7540-4017-9f4f-d2345446e019#ref=rss",
-      "summary": "Beinahe reichen Mühe und Leidenschaft zum DFB-Sieg gegen die Niederlande, dann schlägt Mark van Bommels Sohn eine Zauberflanke. Jürgen Klopp ist voll des Lobes, Oranje leicht pikiert ob der deutschen Sportlichkeit.",
-      "image": "https://cdn.prod.www.spiegel.de/images/f53e20dd-56c0-42ee-8ae9-09f6ac746a21_w1200_r1.778_fpx55_fpy55.jpg",
-      "published": "2026-09-24T23:45:00+02:00",
-      "category": "Technologie",
-      "score": 64.89,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "1:1 gegen die Niederlande - Deutschland mit Remis im ersten Spiel unter Klopp",
-            "link": "https://www.deutschlandfunk.de/deutschland-mit-remis-im-ersten-spiel-unter-klopp-106.html"
-          }
-        ]
-      }
+      "title": "Sachsen-Anhalt: Land verzichtet nach AfD-Wahlsieg auf MPK-Vorsitz",
+      "link": "https://www.spiegel.de/politik/deutschland/sachsen-anhalt-land-verzichtet-nach-afd-wahlsieg-auf-mpk-vorsitz-a-902b8f11-785f-4ab5-8e85-4805ea3e5dc6#ref=rss",
+      "summary": "Eigentlich wäre Sachsen-Anhalt dran gewesen. Doch wegen des Wahlerfolgs der AfD verzichtet das Bundesland auf den turnusmäßigen Vorsitz der Ministerpräsidentenkonferenz. Die weitere Reihenfolge bleibt unberührt.",
+      "image": "https://cdn.prod.www.spiegel.de/images/f96df2a0-9a5b-4f18-99d2-d2294e508d07_w1200_r1.778_fpx33_fpy44.jpg",
+      "published": "2026-09-24T19:42:00+02:00",
+      "category": "Politik",
+      "score": 63.38
     }
   ]
 }
