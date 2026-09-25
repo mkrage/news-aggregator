@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T01:38:36.901986+00:00",
+  "generatedAt": "2026-09-25T05:32:39.821839+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.handelsblatt.com/wS6zAsrmnoiw/cover/900/506/0/0/0/0/0.5/0.5/hlive-matthes-schnitzler.jpg",
       "published": "2026-09-30T04:00:00+00:00",
       "category": "Wirtschaft",
-      "score": 170.96
+      "score": 167.71
     },
     {
       "id": "tagesschau-ce5ef400ecab3735",
@@ -24,7 +24,7 @@
       "image": "https://images.tagesschau.de/image/e31baaad-b003-4c3e-8c1e-d407d6dd4c7c/AAABoNTeqKI/AAABnSSvrFg/16x9-big/netanjahu-un-106.jpg?width=1920",
       "published": "2026-09-24T23:51:23+02:00",
       "category": "Politik",
-      "score": 91.29,
+      "score": 91.5,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -42,28 +42,6 @@
       }
     },
     {
-      "id": "tagesschau-2c66717769bcbaac",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Prunk und Pandas: Trump empfängt Xi in Washington",
-      "link": "https://www.tagesschau.de/ausland/amerika/usa-china-trump-xi-pandas-100.html",
-      "summary": "KI, Handel, Ukraine und Taiwan - die Liste der Gipfelthemen ist lang. Doch das Treffen der Präsidenten Trump und Xi beginnt freundschaftlich - was auch mit Pandas zu tun haben könnte. Und dann ist da noch Thukydides.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/aa1d79f0-b5d1-4ed4-ae1f-8b14f3656405/AAABoNQBA_E/AAABnSSvrFg/16x9-big/xi-trump-130.jpg?width=1920",
-      "published": "2026-09-24T21:43:38+02:00",
-      "category": "Politik",
-      "score": 86.61,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Treffen in Washington - Trump empfängt Xi zum Staatsbankett im Weißen Haus",
-            "link": "https://www.deutschlandfunk.de/trump-empfaengt-xi-zum-staatsbankett-im-weissen-haus-102.html"
-          }
-        ]
-      }
-    },
-    {
       "id": "tagesschau-c52dffa58eecacb5",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -73,7 +51,7 @@
       "image": "https://images.tagesschau.de/image/52fb1dce-873e-45e4-96c5-b32c3e0d29a2/AAABn6QTr-Y/AAABnSSvrFg/16x9-big/knesset-128.jpg?width=1920",
       "published": "2026-09-24T16:33:06+02:00",
       "category": "Politik",
-      "score": 86.61,
+      "score": 86.82,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -86,28 +64,77 @@
       }
     },
     {
-      "id": "tagesschau-b3c4351bf2a43ca4",
+      "id": "tagesschau-d3bc3cc8714c073d",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Gericht hebt Ausschluss von Medien aus Weißem Haus vorerst auf",
-      "link": "https://www.tagesschau.de/ausland/amerika/usa-gericht-medien-weisses-haus-100.html",
-      "summary": "Ein US-Gericht hat den von Präsident Trump verhängten Ausschluss von Journalisten aus dem Weißen Haus vorerst aufgehoben. Der sei wohl verfassungswidrig, erklärte der von Trump selbst berufene Richter.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/db1af876-0398-4b93-a96b-1afa4e4d247d/AAABoNIp1Xc/AAABnSSvrFg/16x9-big/trump-flur-100.jpg?width=1920",
-      "published": "2026-09-24T08:14:19+02:00",
+      "title": "Nach Richterspruch - Weißes Haus lässt CNN-Reporter wieder zu",
+      "link": "https://www.tagesschau.de/ausland/amerika/usa-medien-cnn-trump-102.html",
+      "summary": "US-Präsident Trump hatte CNN und andere Medien tagelang ausgesperrt. Auch nach einem Richterspruch verweigerte das Weiße Haus Reportern zunächst den Zugang. Jetzt gab die Trump-Regierung nach.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/cb99a10a-a0e1-4a3e-a3a6-d534d70b0e27/AAABoNRvCWQ/AAABnSSvrFg/16x9-big/barron-lopez-traylor-100.jpg?width=1920",
+      "published": "2026-09-24T19:20:41+02:00",
       "category": "Politik",
-      "score": 76.24,
+      "score": 86.82,
       "coverage": {
-        "sourceCount": 3,
+        "sourceCount": 4,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Medien - Weiter Einschränkungen im Weißen Haus für CNN und MS Now",
+            "link": "https://www.deutschlandfunk.de/weiter-einschraenkungen-im-weissen-haus-fuer-cnn-und-ms-now-100.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "Donald Trump greift Presse an: Warum es weiter keine Fernsehbilder aus dem Weißen Haus gibt",
+            "link": "https://www.spiegel.de/ausland/donald-trump-greift-presse-an-warum-es-weiter-keine-fernsehbilder-aus-dem-weissen-haus-gibt-a-e32fa29c-7a7d-41bb-b429-e4d4d5181d90#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "USA: CNN: Journalisten weiterhin von Staatsbankett mit Xi ausgeschlossen",
+            "link": "https://www.handelsblatt.com/politik/international/usa-cnn-journalisten-weiterhin-von-staatsbankett-mit-xi-ausgeschlossen/100257048.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-2c66717769bcbaac",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Prunk und Pandas: Trump empfängt Xi in Washington",
+      "link": "https://www.tagesschau.de/ausland/amerika/usa-china-trump-xi-pandas-100.html",
+      "summary": "KI, Handel, Ukraine und Taiwan - die Liste der Gipfelthemen ist lang. Doch das Treffen der Präsidenten Trump und Xi beginnt freundschaftlich - was auch mit Pandas zu tun haben könnte. Und dann ist da noch Thukydides.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/aa1d79f0-b5d1-4ed4-ae1f-8b14f3656405/AAABoNQBA_E/AAABnSSvrFg/16x9-big/xi-trump-130.jpg?width=1920",
+      "published": "2026-09-24T21:43:38+02:00",
+      "category": "Politik",
+      "score": 86.66,
+      "coverage": {
+        "sourceCount": 2,
         "others": [
           {
             "source": "handelsblatt",
-            "title": "+++ USA +++: Journalisten von CNN und MS NOW dürfen wieder ins Weiße Haus",
-            "link": "https://www.handelsblatt.com/politik/international/usa-journalisten-von-cnn-und-ms-now-duerfen-wieder-ins-weisse-haus/29669594.html"
-          },
+            "title": "USA und China: „Richtige Haltung“: Xi lobt Donald Trumps Sicht auf Taiwan",
+            "link": "https://www.handelsblatt.com/politik/international/usa-und-china-richtige-haltung-xi-lobt-donald-trumps-sicht-auf-taiwan/100256859.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-93813b9a4e65705d",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Berlin: SPD-Vize Cansel Kiziltepe spricht sich für Rot-Grün-Rot aus",
+      "link": "https://www.spiegel.de/politik/deutschland/berlin-spd-vize-cansel-kiziltepe-spricht-sich-fuer-rot-gruen-rot-aus-a-cadea9ed-3fb0-441f-ad7f-448caa0cc472#ref=rss",
+      "summary": "Die Berliner SPD scheut bisher eine Koalition mit der Linken – mit Verweis auf deren derzeitigen Zustand. Die Vizelandeschefin will nun ein Umdenken in ihrer Partei. Allerdings hat sie auch eine Forderung an den Wahlsieger.",
+      "image": "https://cdn.prod.www.spiegel.de/images/91d68830-1802-4252-b900-832c25d069b3_w1200_r1.778_fpx51_fpy45.jpg",
+      "published": "2026-09-25T06:43:00+02:00",
+      "category": "Politik",
+      "score": 77.64,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
           {
-            "source": "golem",
-            "title": "USA: Richter hebt Trumps Ausschluss von US-Medien vorerst auf",
-            "link": "https://www.golem.de/news/usa-richter-hebt-trumps-ausschluss-von-us-medien-vorerst-auf-2609-213379.html"
+            "source": "handelsblatt",
+            "title": "+++ Wahlen +++: Berliner SPD-Vize Kiziltepe für Rot-Grün-Rot",
+            "link": "https://www.handelsblatt.com/politik/deutschland/wahlen-in-berlin-und-mv-berliner-spd-vize-kiziltepe-fuer-rot-gruen-rot/100252039.html"
           }
         ]
       }
@@ -122,58 +149,7 @@
       "image": "https://images.handelsblatt.com/LE6WCQS9UDsh/cover/900/506/0/0/107/107/0.5/0.5/generaldebatte-der-un-vollversammlung.jpg",
       "published": "2026-09-24T21:45:28+00:00",
       "category": "Politik",
-      "score": 73.76
-    },
-    {
-      "id": "handelsblatt-61b75e2554911e03",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Wall Street: US-Börsen schließen kaum verändert – Zinssorgen belasten Anleger",
-      "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-schliessen-kaum-veraendert-zinssorgen-belasten-anleger/100257196.html",
-      "summary": "Inflationsrisiken, Unsicherheiten bei den Ölpreisen und US-Staatsfinanzen machten der Wall Street am Donnerstag zu schaffen. Investoren achteten auf Ergebnisse aus dem Treffen von Xi und Trump.",
-      "image": "https://images.handelsblatt.com/P-73zvwpCO2y/cover/900/506/0/0/75/75/0.5/0.5/wall-street.jpeg",
-      "published": "2026-09-24T19:26:00+00:00",
-      "category": "Wirtschaft",
-      "score": 71.82
-    },
-    {
-      "id": "deutschlandfunk-ef1fbb7e84278ee8",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Nach Gerichtsentscheid - CNN, MS NOW und Politico erhalten Zugang zum Weißen Haus",
-      "link": "https://www.deutschlandfunk.de/cnn-ms-now-und-politico-erhalten-zugang-zum-weissen-haus-102.html",
-      "summary": "In den USA haben Journalisten der Sender CNN und MS NOW nach einem entsprechenden Gerichtsentscheid nun doch wieder Zugang zum Weißen Haus erhalten. Dies berichteten die beiden Medien, nachdem ihnen heute zunächst der Zutritt verweigert worden war.",
-      "image": "https://bilder.deutschlandfunk.de/e4/f0/ff/24/e4f0ff24-be1b-4178-aaba-e313cf26512d/weisses-haus-washington-100-1920x1920.jpg",
-      "published": "2026-09-25T03:10:26+02:00",
-      "category": "Nachrichten",
-      "score": 71.29,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Donald Trump und die Pressefreiheit: CNN, Politico und MS NOW haben nun doch wieder Zugang zum Weißen Haus",
-            "link": "https://www.spiegel.de/ausland/donald-trump-und-die-pressefreiheit-cnn-politico-und-ms-now-haben-nun-doch-wieder-zugang-zum-weissen-haus-a-26255a40-8683-43a2-9af8-811a201bb918#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "USA: Ausgesperrte Journalisten von CNN, MS Now und „Politico“ dürfen nun doch wieder ins Weiße Haus",
-            "link": "https://www.handelsblatt.com/politik/international/usa-ausgesperrte-journalisten-duerfen-nun-doch-wieder-ins-weisse-haus/100257048.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-e252cc16db326183",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ukraine-Russland-Krieg: Mark Rutte sieht Nato gerüstet für Abwehr hybrider Angriffe",
-      "link": "https://www.spiegel.de/ausland/ukraine-russland-krieg-mark-rutte-sieht-nato-geruestet-fuer-abwehr-hybrider-angriffe-a-d24eed01-e0ea-4120-b478-3cdccd0cd5b5#ref=rss",
-      "summary": "Trotz zunehmender hybrider Angriffe in Europa ruft Nato-Generalsekretär Rutte zur Ruhe auf. Das Verteidigungsbündnis sei gut aufgestellt. Letztlich würden die Aktionen zeigen, dass Russland seinen Krieg verliere.",
-      "image": "https://cdn.prod.www.spiegel.de/images/547840d2-37f0-4007-b8e8-6dc5490c7c06_w1200_r1.778_fpx6_fpy36.jpg",
-      "published": "2026-09-24T19:32:00+02:00",
-      "category": "Politik",
-      "score": 71.24
+      "score": 70.51
     },
     {
       "id": "deutschlandfunk-04a335f415155bee",
@@ -183,9 +159,9 @@
       "link": "https://www.deutschlandfunk.de/spd-in-sachsen-anhalt-unternimmt-vorstoss-fuer-regierungsbildung-ohne-afd-beteiligung-102.html",
       "summary": "Nach der Landtagswahl in Sachsen-Anhalt hat die SPD einen Vorstoß für eine mögliche Regierungsbildung ohne AfD-Beteiligung unternommen.",
       "image": "https://bilder.deutschlandfunk.de/e6/4e/a4/d8/e64ea4d8-e021-4bd8-ae6c-75ec04fb2365/sachsen-anhalt-wahl-100-1920x1920.jpg",
-      "published": "2026-09-25T03:10:26+02:00",
+      "published": "2026-09-25T07:19:27+02:00",
       "category": "Politik",
-      "score": 69.61
+      "score": 69.82
     },
     {
       "id": "deutschlandfunk-19e98760c95ee706",
@@ -195,9 +171,21 @@
       "link": "https://www.deutschlandfunk.de/schnelle-abschiebungen-regierung-ruft-supreme-court-an-102.html",
       "summary": "Die US-Regierung von Präsident Trump will vor dem Obersten Gerichtshof die beschleunigte Abschiebung von Migranten in sogenannte Drittstaaten erwirken.",
       "image": "https://bilder.deutschlandfunk.de/69/f2/cf/72/69f2cf72-43cf-4a6e-93ac-add255bcb637/supreme-court-106-1920x1920.jpg",
-      "published": "2026-09-25T03:10:26+02:00",
+      "published": "2026-09-25T07:19:27+02:00",
       "category": "Politik",
-      "score": 69.61
+      "score": 69.82
+    },
+    {
+      "id": "deutschlandfunk-23695e4ed0b892e6",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Kampf gegen Organisierte Kriminalität - Bundestag beschließt Verbesserungen bei Einziehung von Vermögenswerten",
+      "link": "https://www.deutschlandfunk.de/bundestag-beschliesst-verbesserungen-bei-einziehung-von-vermoegenswerten-102.html",
+      "summary": "Das Vermögen Krimineller soll künftig besser über die EU-Landesgrenzen hinweg eingezogen werden können.",
+      "image": "https://bilder.deutschlandfunk.de/57/63/05/0f/5763050f-03ea-4ebb-83d7-a3331d01c994/hubig-bundestag-102-1920x1920.jpg",
+      "published": "2026-09-25T07:19:27+02:00",
+      "category": "Politik",
+      "score": 69.82
     },
     {
       "id": "deutschlandfunk-2f929607c1ec46bf",
@@ -207,9 +195,9 @@
       "link": "https://www.deutschlandfunk.de/starbucks-macht-250-filialen-dicht-102.html",
       "summary": "Die US-Kaffeehaus-Kette Starbucks will in Nordamerika zahlreiche Filialen schließen.",
       "image": "https://bilder.deutschlandfunk.de/FI/LE/_4/4f/FILE_44fa71264eb1b41da84429aeca68e4ea/87633868-jpg-100-768x768.jpg",
-      "published": "2026-09-25T03:10:26+02:00",
+      "published": "2026-09-25T07:19:27+02:00",
       "category": "Wirtschaft",
-      "score": 69.61,
+      "score": 69.82,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -222,40 +210,52 @@
       }
     },
     {
-      "id": "spiegel-b9ed8a28d714e4fe",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Kanada: Stadtrat von Ottawa streicht Trump-Avenue aus dem Stadtplan",
-      "link": "https://www.spiegel.de/ausland/kanada-stadtrat-von-ottawa-streicht-trump-avenue-aus-dem-stadtplan-a-98333477-f291-4085-854c-fdb16eab7b22#ref=rss",
-      "summary": "Die Menschen in Kanada gelten gemeinhin als eher höflich. Doch Donald Trump treibt sogar sie an ihre Grenzen. Im Nachbarschaftsstreit mit den USA hat sich der Stadtrat von Ottawa nun eine besondere Gemeinheit einfallen lassen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/415fb12f-4f8f-48e9-9ba3-0325c5809353_w1200_r1.778_fpx34.69_fpy49.99.jpg",
-      "published": "2026-09-25T02:07:00+02:00",
-      "category": "Politik",
-      "score": 68.73
+      "id": "handelsblatt-61b75e2554911e03",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Wall Street: US-Börsen schließen kaum verändert – Zinssorgen belasten Anleger",
+      "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-schliessen-kaum-veraendert-zinssorgen-belasten-anleger/100257196.html",
+      "summary": "Inflationsrisiken, Unsicherheiten bei den Ölpreisen und US-Staatsfinanzen machten der Wall Street am Donnerstag zu schaffen. Investoren achteten auf Ergebnisse aus dem Treffen von Xi und Trump.",
+      "image": "https://images.handelsblatt.com/P-73zvwpCO2y/cover/900/506/0/0/75/75/0.5/0.5/wall-street.jpeg",
+      "published": "2026-09-24T19:26:00+00:00",
+      "category": "Wirtschaft",
+      "score": 68.57
     },
     {
-      "id": "spiegel-07d4488330aa27cb",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Donald Trump: Xi Jinping besucht Weißes Haus und kündigt Panda-Geschenk an",
-      "link": "https://www.spiegel.de/ausland/donald-trump-xi-jinping-besucht-weisses-haus-und-kuendigt-panda-geschenk-an-a-b62f24b2-2ab0-460c-b4f0-54235371828b#ref=rss",
-      "summary": "Chinas Staatspräsident bringt Geschenke mit: Zwei Pandabären sollen in Kürze im Zoo von Atlanta eintreffen. Auch sonst geben sich Xi Jinping und Donald Trump betont harmonisch – und wollen auch über KI reden.",
-      "image": "https://cdn.prod.www.spiegel.de/images/33e54999-c2dd-4674-9c16-ac0db884f029_w1200_r1.778_fpx71_fpy36.jpg",
-      "published": "2026-09-24T20:42:00+02:00",
+      "id": "handelsblatt-6d31806b00b585c1",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Economic Challenges: Kann Europa geopolitisches Gewicht durch seine Währung zurückgewinnen?",
+      "link": "https://www.handelsblatt.com/audio/economic-challenges-podcast/economic-challenges-kann-europa-geopolitisches-gewicht-durch-seine-waehrung-zurueckgewinnen/100257319.html",
+      "summary": "Vor dem Hintergrund des Trump-Xi-Treffens in Washington diskutieren Bert Rürup und Michael Hüther, ob die EU jetzt die historische Chance hat, den Euro zur globalen Leitwährung aufzubauen.",
+      "image": "https://images.handelsblatt.com/UriLmODCEYfe/cover/900/506/0/0/656/657/0.5/0.5/economic-challenges-podcast-teaser-2025.jpg",
+      "published": "2026-09-25T04:54:24+00:00",
       "category": "Politik",
-      "score": 64.21
+      "score": 68.47
     },
     {
-      "id": "spiegel-f8c02d0e81832bf7",
+      "id": "spiegel-e252cc16db326183",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Sachsen-Anhalt: Land verzichtet nach AfD-Wahlsieg auf MPK-Vorsitz",
-      "link": "https://www.spiegel.de/politik/deutschland/sachsen-anhalt-land-verzichtet-nach-afd-wahlsieg-auf-mpk-vorsitz-a-902b8f11-785f-4ab5-8e85-4805ea3e5dc6#ref=rss",
-      "summary": "Eigentlich wäre Sachsen-Anhalt dran gewesen. Doch wegen des Wahlerfolgs der AfD verzichtet das Bundesland auf den turnusmäßigen Vorsitz der Ministerpräsidentenkonferenz. Die weitere Reihenfolge bleibt unberührt.",
-      "image": "https://cdn.prod.www.spiegel.de/images/f96df2a0-9a5b-4f18-99d2-d2294e508d07_w1200_r1.778_fpx33_fpy44.jpg",
-      "published": "2026-09-24T19:42:00+02:00",
+      "title": "Ukraine-Russland-Krieg: Mark Rutte sieht Nato gerüstet für Abwehr hybrider Angriffe",
+      "link": "https://www.spiegel.de/ausland/ukraine-russland-krieg-mark-rutte-sieht-nato-geruestet-fuer-abwehr-hybrider-angriffe-a-d24eed01-e0ea-4120-b478-3cdccd0cd5b5#ref=rss",
+      "summary": "Trotz zunehmender hybrider Angriffe in Europa ruft Nato-Generalsekretär Rutte zur Ruhe auf. Das Verteidigungsbündnis sei gut aufgestellt. Letztlich würden die Aktionen zeigen, dass Russland seinen Krieg verliere.",
+      "image": "https://cdn.prod.www.spiegel.de/images/547840d2-37f0-4007-b8e8-6dc5490c7c06_w1200_r1.778_fpx6_fpy36.jpg",
+      "published": "2026-09-24T19:32:00+02:00",
       "category": "Politik",
-      "score": 63.38
+      "score": 67.99
+    },
+    {
+      "id": "spiegel-5387b9be11969152",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "News: Tankrabatt im Bundestag und Bundesrat, Sorge um Meerenge Bab al-Mandab, Berliner Linke und Antisemitismus",
+      "link": "https://www.spiegel.de/politik/deutschland/news-tankrabatt-im-bundestag-und-bundesrat-sorge-um-meerenge-bab-al-mandab-berliner-linke-und-antisemitismus-a-50ea9a92-ae17-47da-b68a-6d8819709611#ref=rss",
+      "summary": "Bundestag und Bundesrat entscheiden über den neuen Tankrabatt. Schon wieder schließt sich eine Handelsroute. Und die Berliner Linke muss sich heute regierungsfähig zeigen. Das ist die Lage am Freitagmorgen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/3133cc68-ab51-4173-bb36-1715faa086f7_w1200_r1.778_fpx48.68_fpy45.jpg",
+      "published": "2026-09-25T03:52:00+02:00",
+      "category": "Politik",
+      "score": 66.94
     }
   ]
 }
