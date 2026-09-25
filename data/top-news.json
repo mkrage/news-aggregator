@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T10:40:05.929292+00:00",
+  "generatedAt": "2026-09-25T13:57:36.672989+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/e31baaad-b003-4c3e-8c1e-d407d6dd4c7c/AAABoNTeqKI/AAABnSSvrFg/16x9-big/netanjahu-un-106.jpg?width=1920",
       "published": "2026-09-24T23:51:23+02:00",
       "category": "Politik",
-      "score": 91.63,
+      "score": 91.4,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -39,7 +39,7 @@
       "image": "https://images.tagesschau.de/image/52fb1dce-873e-45e4-96c5-b32c3e0d29a2/AAABn6QTr-Y/AAABnSSvrFg/16x9-big/knesset-128.jpg?width=1920",
       "published": "2026-09-24T16:33:06+02:00",
       "category": "Politik",
-      "score": 86.95,
+      "score": 86.72,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -61,7 +61,7 @@
       "image": "https://images.tagesschau.de/image/bba5b5c3-e64e-46dc-9452-9d93285c8194/AAABoNPmfhU/AAABnSSvrFg/16x9-big/drohnen-278.jpg?width=1920",
       "published": "2026-09-24T19:50:55+02:00",
       "category": "Politik",
-      "score": 86.76,
+      "score": 84.01,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -74,62 +74,133 @@
       }
     },
     {
-      "id": "tagesschau-a7f32b7ccccac359",
+      "id": "tagesschau-2874daea02c277cf",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Staat steigt bei Condor aus - Finanzinvestor übernimmt Anteile",
-      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/condor-bund-100.html",
-      "summary": "Staatshilfen aus der Corona-Krise hat Condor zurückgezahlt, nun folgt der nächste Schritt: Ein Finanzinvestor übernimmt bis Sommer 2027 alle Anteile an der Fluggesellschaft. Der Bund und das Land Hessen steigen aus.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/eea9ebaa-f57c-44bc-ab5f-84afb91990c0/AAABoNf4fx8/AAABnSSvrFg/16x9-big/condor-196.jpg?width=1920",
-      "published": "2026-09-25T12:31:17+02:00",
-      "category": "Nachrichten",
-      "score": 83.88,
+      "title": "Entlastung im Bundestag: So schnell soll der \"Tankrabatt\" kommen",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/entlastungen-spritpreise-bundestag-100.html",
+      "summary": "Mit einem neuen \"Tankrabatt\" will die Bundesregierung die Spritpreise möglichst schnell senken. Nach dem Bundestag stimmte auch der Bundesrat zu. Wie hoch der Rabatt ausfällt und was noch geplant ist.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/1afb92b8-be12-4814-9a42-55cfb62c0678/AAABoNd3lss/AAABnSSvrFg/16x9-big/zapfsaeule-142.jpg?width=1920",
+      "published": "2026-09-25T15:48:03+02:00",
+      "category": "Politik",
+      "score": 83.55,
       "coverage": {
-        "sourceCount": 2,
+        "sourceCount": 3,
         "others": [
           {
+            "source": "spiegel",
+            "title": "Tankrabatt: Bundestag und Bundesrat beschließen neuen Tankrabatt",
+            "link": "https://www.spiegel.de/politik/deutschland/bundestag-beschliesst-im-eilverfahren-neuen-tankrabatt-a-fa1fd7d4-7f5e-438e-9e5a-15f2feb2ffd3#ref=rss"
+          },
+          {
             "source": "handelsblatt",
-            "title": "Fluggesellschaft: Eigner Attestor übernimmt Condor komplett – Staat steigt aus",
-            "link": "https://www.handelsblatt.com/unternehmen/dienstleister/fluggesellschaft-eigner-attestor-uebernimmt-condor-komplett-staat-steigt-aus/100257395.html"
+            "title": "Spritpreise: Bundestag beschließt erneuten Tankrabatt",
+            "link": "https://www.handelsblatt.com/politik/deutschland/spritpreise-bundestag-beschliesst-erneuten-tankrabatt/100257453.html"
           }
         ]
       }
     },
     {
-      "id": "deutschlandfunk-a76096d580d93c68",
+      "id": "deutschlandfunk-8613cdff01f9e7c7",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg - Gegenseitige Angriffe auf Infrastruktur und Industrieanlagen",
-      "link": "https://www.deutschlandfunk.de/gegenseitige-angriffe-auf-infrastruktur-und-industrieanlagen-102.html",
-      "summary": "Russland und die Ukraine haben ihre gegenseitigen Angriffe in der Nacht fortgesetzt.",
-      "image": "https://bilder.deutschlandfunk.de/e1/06/7d/e2/e1067de2-6230-41ae-943b-92085b1ff504/die-nachrichten-kachel-2176-zu1224-100-768x768.jpg",
-      "published": "2026-09-25T12:36:12+02:00",
+      "title": "Berlin - Bundesrat und Bundestag für Tankrabatt - Regelung kommt zum 1. Oktober",
+      "link": "https://www.deutschlandfunk.de/bundesrat-und-bundestag-fuer-tankrabatt-regelung-kommt-zum-1-oktober-100.html",
+      "summary": "Der Weg für die Wiedereinführung des sogenannten Tankrabatts zum 1. Oktober ist frei. Der Bundesrat hat den am Vormittag gefassten Beschluss des Bundestags passieren lassen. Die Erwartung ist, dass die Mineralölkonzerne die Preissenkung an die Autofahrer weitergeben.",
+      "image": "https://bilder.deutschlandfunk.de/e6/e6/85/94/e6e68594-f562-48c3-8edf-a39bf762d414/tankstelle-120-1920x1920.jpg",
+      "published": "2026-09-25T15:37:46+02:00",
       "category": "Politik",
-      "score": 77.95
+      "score": 77.72,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ Bundespolitik +++: Bundesrat stimmt Tankrabatt zu – Gilt ab 1. Oktober",
+            "link": "https://www.handelsblatt.com/politik/deutschland/bundespolitik-bundesrat-stimmt-tankrabatt-zu-gilt-ab-1.-oktober/100137034.html"
+          }
+        ]
+      }
     },
     {
-      "id": "handelsblatt-4637cbed54927c2c",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Ukraine-Krieg +++: Dreiertreffen mit USA könnte Russland zufolge bald stattfinden",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-moskau-schliesst-konsulat-in-st.-petersburg123/27982126.html",
-      "summary": "Kreml: EU-Sanktionen gegen Ex-TV-Managerin unrechtmäßig +++ Gespräche zu Ende der Blockade im Schwarzen Meer laufen +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/rD-clNmzaBQc/cover/900/506/0/0/199/198/0.5/0.5/archiv-19.06.2025-russland-st.-petersburg-kremlsprecher-dmitri-peskow-redet-auf-der-generalvers.jpg",
-      "published": "2026-09-25T10:20:00+00:00",
+      "id": "deutschlandfunk-8b1d89c68af62cba",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Treffen in Washington - Trump gibt Staatsbankett für Xi im Weißen Haus",
+      "link": "https://www.deutschlandfunk.de/trump-gibt-staatsbankett-fuer-xi-im-weissen-haus-100.html",
+      "summary": "US-Präsident Trump hat den chinesischen Staatschef Xi zu einem Bankett im Weißen Haus empfangen. Beide Seiten geben sich betont kooperativ. Heute geht der Besuch des chinesischen Gastes in den USA zu Ende.",
+      "image": "https://bilder.deutschlandfunk.de/NO/VA/_9/22/NOVA_9226789e69cdbfd622b535bb6d66ef46/craft-13428666-asset-100-1920x1920.jpg",
+      "published": "2026-09-25T15:37:46+02:00",
       "category": "Politik",
-      "score": 76.72
+      "score": 77.72,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "USA-China-Gipfel: Was das Treffen von Donald Trump und Xi Jinping im Weißen Haus brachte",
+            "link": "https://www.spiegel.de/ausland/usa-china-gipfel-was-das-treffen-von-donald-trump-und-xi-jinping-im-weissen-haus-brachte-a-423f7102-060b-4f94-b136-09ebe7ed8c3e#ref=rss"
+          }
+        ]
+      }
     },
     {
-      "id": "spiegel-12c25afba5d9b0d9",
+      "id": "deutschlandfunk-a1d8ba791f0121e1",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Ukraine-Krieg - Mehrere Tote bei russischen Angriffen auf Kiew",
+      "link": "https://www.deutschlandfunk.de/mehrere-tote-bei-russischen-angriffen-auf-kiew-100.html",
+      "summary": "Bei einem russischen Drohnenangriff auf die ukrainische Hauptstadt Kiew sind am Nachmittag mindestens drei Menschen getötet worden.",
+      "image": "https://bilder.deutschlandfunk.de/3a/4f/1d/9c/3a4f1d9c-75f4-46a4-9c23-003e1b32681f/angriffe-kiew-104-1920x1920.jpg",
+      "published": "2026-09-25T15:37:46+02:00",
+      "category": "Politik",
+      "score": 77.72
+    },
+    {
+      "id": "spiegel-10ab8a59902fc7e3",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Israel: Zwei Soldaten bei Explosion israelischer Drohne im Gazastreifen getötet",
-      "link": "https://www.spiegel.de/ausland/israel-zwei-soldaten-bei-explosion-israelischer-drohne-im-gazastreifen-getoetet-a-54ee43fb-1615-4696-8a51-53b8207e57a8#ref=rss",
-      "summary": "Trotz vereinbarter Waffenruhe ist die israelische Armee weiterhin im Gazastreifen aktiv. Nun sind bei einem Vorfall zwei Soldaten ums Leben gekommen, als sie sich einer abgestürzten Drohne der eigenen Armee näherten.",
-      "image": "https://cdn.prod.www.spiegel.de/images/abecf651-8eca-4d76-937c-3c88f509284d_w1200_r1.778_fpx67_fpy52.jpg",
-      "published": "2026-09-25T08:51:00+02:00",
+      "title": "Ukraine: Wolodymyr Selenskyj berichtet von geplantem Dreiertreffen mit USA und Russland",
+      "link": "https://www.spiegel.de/ausland/ukraine-wolodymyr-selenskyj-berichtet-von-geplantem-dreiertreffen-mit-usa-und-russland-a-de4920ce-8fb0-454f-9180-f6e75eaa54bf#ref=rss",
+      "summary": "Laut dem ukrainischen Präsidenten gibt es einen neuen Vorstoß zu Gesprächen: Die USA wollen Moskau und Kyjiw an den Tisch bringen, der Kreml bestätigt den Kontakt.",
+      "image": "https://cdn.prod.www.spiegel.de/images/34502325-896b-421a-be32-036b03432e14_w1200_r1.778_fpx49_fpy50.jpg",
+      "published": "2026-09-25T14:11:00+02:00",
       "category": "Politik",
-      "score": 74.82
+      "score": 77.3,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Friedensgespräche: USA schlagen Dreiertreffen mit Ukraine und Russland vor",
+            "link": "https://www.handelsblatt.com/politik/international/friedensgespraeche-usa-schlagen-dreiertreffen-mit-ukraine-und-russland-vor/100257481.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-66c3d73235fc553a",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Ukraine: Donald Trump erlaubt Kyjiw offenbar Bau von Patriot-Raketen",
+      "link": "https://www.spiegel.de/ausland/ukraine-krieg-donald-trump-erlaubt-ukraine-bau-von-patriot-raketen-a-6bfd99b7-fd84-4d10-9850-acf14a9df048#ref=rss",
+      "summary": "Erst ja, dann vielleicht und jetzt das finale Okay? Donald Trump hat Kyjiw laut Wolodymyr Selenskyj abermals zugesagt, dass die Ukraine die dringend zur Verteidigung benötigten Patriot-Raketen selbst bauen darf.",
+      "image": "https://cdn.prod.www.spiegel.de/images/2095573a-d163-42bb-a793-b4d26902b0a3_w1200_r1.778_fpx37.99_fpy45.jpg",
+      "published": "2026-09-25T13:03:00+02:00",
+      "category": "Politik",
+      "score": 75.57
+    },
+    {
+      "id": "handelsblatt-53f1531150880b0b",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Wahlleitung: Endergebnis in Moskau: Dreiviertelmehrheit für Kreml-Partei",
+      "link": "https://www.handelsblatt.com/politik/international/wahlleitung-endergebnis-in-moskau-dreiviertelmehrheit-fuer-kreml-partei/100257445.html",
+      "summary": "Putin hat die russische Parlamentswahl als Volksabstimmung über seinen Kriegskurs inszeniert. Das Ergebnis ist jetzt offiziell. Nutzt er es, um mehr Soldaten zu mobilisieren?",
+      "image": "https://images.handelsblatt.com/rM40TB1YMQrc/cover/900/506/0/0/192/192/0.5/0.5/russische-staatsduma.jpg",
+      "published": "2026-09-25T11:23:04+00:00",
+      "category": "Politik",
+      "score": 74.85
     },
     {
       "id": "deutschlandfunk-8aa046bebc793486",
@@ -139,16 +210,16 @@
       "link": "https://www.deutschlandfunk.de/protest-gegen-axel-springer-award-fuer-investor-thiel-104.html",
       "summary": "Der US-Unternehmer und Investor Peter Thiel ist in Berlin mit dem Axel-Springer-Award ausgezeichnet worden. Das stößt bei vielen auf Verwunderung und Kritik, vor dem Verlagsgebäude gab es Proteste.",
       "image": "https://bilder.deutschlandfunk.de/1b/42/84/08/1b428408-0b7f-47f1-be4d-d16ef533016c/thiel-springer-preis-100-1920x1920.jpg",
-      "published": "2026-09-25T12:36:12+02:00",
+      "published": "2026-09-25T15:37:46+02:00",
       "category": "Nachrichten",
-      "score": 71.63,
+      "score": 71.4,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
-            "source": "spiegel",
-            "title": "Peter Thiel erhält Axel Springer Award - und kann verstehen, warum Berliner die Linke wählen",
-            "link": "https://www.spiegel.de/kultur/peter-thiel-erhaelt-axel-springer-award-und-kann-verstehen-warum-berliner-die-linke-waehlen-a-9c2ee2fc-5bfb-4d4c-b64d-dfaeb57ff7d4#ref=rss"
+            "source": "handelsblatt",
+            "title": "Tech-Milliardär: Trotz demokratiekritischer Aussagen: Verlag verleiht Peter Thiel „Axel-Springer-Award“",
+            "link": "https://www.handelsblatt.com/video/politik/tech-milliardaer-trotz-demokratiekritischer-aussagen-verlag-verleiht-peter-thiel-axel-springer-award/100257428.html"
           },
           {
             "source": "netzpolitik",
@@ -159,88 +230,62 @@
       }
     },
     {
-      "id": "deutschlandfunk-04a335f415155bee",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Magdeburg - SPD in Sachsen-Anhalt unternimmt Vorstoß für Regierungsbildung - ohne AfD-Beteiligung",
-      "link": "https://www.deutschlandfunk.de/spd-in-sachsen-anhalt-unternimmt-vorstoss-fuer-regierungsbildung-ohne-afd-beteiligung-102.html",
-      "summary": "Nach der Landtagswahl in Sachsen-Anhalt hat die SPD einen Vorstoß für eine mögliche Regierungsbildung ohne AfD-Beteiligung unternommen.",
-      "image": "https://bilder.deutschlandfunk.de/e6/4e/a4/d8/e64ea4d8-e021-4bd8-ae6c-75ec04fb2365/sachsen-anhalt-wahl-100-1920x1920.jpg",
-      "published": "2026-09-25T12:36:12+02:00",
-      "category": "Politik",
-      "score": 69.95
-    },
-    {
-      "id": "deutschlandfunk-17f2aed770233083",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Bundestag - Klingbeil (SPD) wirbt für \"Frühstartrente\": Kultur der Sparbücher mit Kultur der Sparpläne und Depots ergänzen",
-      "link": "https://www.deutschlandfunk.de/klingbeil-spd-wirbt-fuer-fruehstartrente-kultur-der-sparbuecher-mit-kultur-der-sparplaene-und-depots-100.html",
-      "summary": "Der Bundestag hat sich mit den Plänen der Bundesregierung zur Einführung einer sogenannten Frühstartrente befasst. Finanzminister Klingbeil verteidigte das Vorhaben als Beitrag zu mehr Chancen- und Generationengerechtigkeit.",
-      "image": "https://bilder.deutschlandfunk.de/0d/a8/c8/18/0da8c818-6b4a-4499-8017-fa112b858e80/bundestag-finanzminister-lars-klingbeil-vorstellung-haushaltsentwurf-100-1920x1920.jpg",
-      "published": "2026-09-25T12:36:12+02:00",
-      "category": "Politik",
-      "score": 69.95
-    },
-    {
-      "id": "spiegel-edbbeab3ecc51d1c",
+      "id": "spiegel-23410402f892c763",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Manuela Schwesig hält Tankrabatt allein nicht für ausreichend",
-      "link": "https://www.spiegel.de/politik/deutschland/manuela-schwesig-haelt-tankrabatt-allein-nicht-fuer-ausreichend-a-bba0afd5-33cc-48bd-bd2a-d7bb32653bd2#ref=rss",
-      "summary": "In Kürze sollen Bundestag und Bundesrat grünes Licht für den Tankrabatt geben. SPD-Ministerpräsidentin Schwesig will aber weitergehende Maßnahmen. Und sie hat eine Forderung an Kanzler Merz.",
-      "image": "https://cdn.prod.www.spiegel.de/images/5dcb8846-05af-4660-b4f3-1a93e81e806a_w1200_r1.778_fpx52.66_fpy45.jpg",
-      "published": "2026-09-25T12:24:00+02:00",
-      "category": "Politik",
-      "score": 69.78
-    },
-    {
-      "id": "spiegel-e3000e2f4f15d628",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Nations League: Israels Stürmer Abu Farkhi muss nach Torjubel vom Platz",
-      "link": "https://www.spiegel.de/sport/fussball/nations-league-israels-stuermer-abu-farkhi-muss-nach-torjubel-vom-platz-a-1bbf3176-d6f3-440b-8f2f-7ff7cd543b41#ref=rss",
-      "summary": "Er feierte seinen Treffer gegen Österreich mit einer speziellen Geste, dann sah Israels Angreifer Sayed Abu Farkhi Gelb-Rot. War sein Jubel geschmacklos? Sein Trainer bestreitet das.",
-      "image": "https://cdn.prod.www.spiegel.de/images/52d97755-7ed8-4e1d-be44-ab30c553e6fb_w1200_r1.778_fpx50_fpy39.jpg",
-      "published": "2026-09-25T11:02:00+02:00",
-      "category": "Politik",
-      "score": 68.64
-    },
-    {
-      "id": "handelsblatt-d04d24dacdcd9d73",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Führungskräfte: Hochqualifiziert, erfolgreich, arbeitssuchend – Vier Betroffene berichten",
-      "link": "https://www.handelsblatt.com/karriere/fuehrungskraefte-wie-gehen-highperformer-mit-laengerer-arbeitslosigkeit-um/100228751.html",
-      "summary": "In der Krise finden auch Menschen, deren Karrieren bislang steil nach oben gingen, keinen Job mehr. Vier Betroffene erzählen, vor welche Herausforderungen sie das stellt.",
-      "image": "https://images.handelsblatt.com/YepeK0zZ0MpH/cover/900/506/15/3/0/0/0.5/0.5/boss-erasing-career-ladder.jpg",
-      "published": "2026-09-25T10:00:00+00:00",
+      "title": "Evonik: Übernahmespekulationen durch BASF treiben Aktie deutlich an",
+      "link": "https://www.spiegel.de/wirtschaft/unternehmen/evonik-uebernahmespekulationen-durch-basf-treiben-aktie-deutlich-an-a-00a771f7-8b2c-4db3-87f3-1ba76eca84fe#ref=rss",
+      "summary": "Der Chemieriese BASF ​hat laut einem Bericht der »Financial Times« den Konkurrenten ‌Evonik im Visier. Deren Aktie zieht an, bestätigen will man das Interesse aber nur als »unverbindliche Anfrage«.",
+      "image": "https://cdn.prod.www.spiegel.de/images/b5f7665e-f6f8-4186-82cd-2cf3135350a5_w1200_r1.778_fpx33.34_fpy50.jpg",
+      "published": "2026-09-25T15:31:00+02:00",
       "category": "Wirtschaft",
-      "score": 68.44
+      "score": 69.63,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Chemie: BASF arbeitet an Übernahme von Evonik – Aktien reagieren kräftig",
+            "link": "https://www.handelsblatt.com/unternehmen/industrie/chemie-basf-arbeitet-an-uebernahme-von-evonik/100257452.html"
+          }
+        ]
+      }
     },
     {
-      "id": "handelsblatt-ab927a98c1526beb",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Russland: Kreml-Partei erhält 349 von 450 Mandaten in der Staatsduma",
-      "link": "https://www.handelsblatt.com/politik/international/russland-kreml-partei-erhaelt-349-von-450-mandaten-in-der-staatsduma/100257426.html",
-      "summary": "Bei der Wahl in Russland durften nur linientreue Parteien antreten. Die Partei von Präsident Putin, Geeintes Russland, besetzt eine deutliche Mehrheit der Sitze.",
-      "image": "https://images.handelsblatt.com/TgN5Q1sWPyln/cover/900/506/0/0/107/106/0.5/0.5/moskau-kreml-und-moskwa-city.jpg",
-      "published": "2026-09-25T09:57:22+00:00",
-      "category": "Politik",
-      "score": 68.41
-    },
-    {
-      "id": "spiegel-31d7d93f8d323f86",
+      "id": "spiegel-ddd2299cbcf28499",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Berlin-Wahl: Studie sieht Enteignung großer Wohnungskonzerne als Option",
-      "link": "https://www.spiegel.de/wirtschaft/soziales/berlin-wahl-studie-sieht-enteignung-grosser-wohnungskonzerne-als-option-a-0a2fe932-d97b-404f-abd6-0682eb6cdb83#ref=rss",
-      "summary": "Die Linke will nach ihrem Wahlsieg in Berlin Immobilienunternehmen vergesellschaften. Die Hans-Boeckler-Stiftung hat untersucht, wie das überhaupt funktionieren könnte.",
-      "image": "https://cdn.prod.www.spiegel.de/images/a43dbb57-2f57-477c-bb67-c3a8870e554c_w1200_r1.778_fpx33.34_fpy50.jpg",
-      "published": "2026-09-25T09:59:00+02:00",
+      "title": "Kinderkrankentage: Was die Kürzung für Familien bedeutet",
+      "link": "https://www.spiegel.de/politik/deutschland/kinderkrankentage-was-die-kuerzung-fuer-familien-bedeutet-a-bcc369cd-91f4-48f3-a36e-8890c2fba556#ref=rss",
+      "summary": "Wenig Effekt, problematische Botschaft: CDU-Gesundheitsminister Carsten Linnemann will die Kinderkrankentage reduzieren, also raus aus dem Coronamodus. Womit Familien jetzt rechnen müssen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/dfcc4a08-ed37-4977-b3b1-34771b8cf44b_w1200_r1.778_fpx52_fpy52.jpg",
+      "published": "2026-09-25T14:40:00+02:00",
       "category": "Politik",
-      "score": 67.76
+      "score": 68.92
+    },
+    {
+      "id": "handelsblatt-38a09ab59011c8be",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Neues Gesetz: Abschiebehaft und KI – Bundespolizei bekommt neue Befugnisse",
+      "link": "https://www.handelsblatt.com/politik/deutschland/neues-gesetz-abschiebehaft-und-ki-bundespolizei-bekommt-neue-befugnisse/100257489.html",
+      "summary": "Im Juli gab es eine Panne bei der Abstimmung, jetzt steht die Kanzlermehrheit im Bundestag: Die Bundespolizei soll neue Befugnisse bekommen. Und diesmal stimmt auch der Bundesrat zu.",
+      "image": "https://images.handelsblatt.com/bbnC0wIF4GFC/cover/900/506/0/0/314/313/0.5/0.5/hauptbahnhof-stuttgart.-polizisten-sorgen-fuer-sicherheit.---21.03.2026-stuttgart-baden-wuerttember.jpg",
+      "published": "2026-09-25T13:41:37+00:00",
+      "category": "Politik",
+      "score": 68.78
+    },
+    {
+      "id": "handelsblatt-1c253c084bafe704",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Zoff im Bundestag: Ordnungsruf für „Moskau-Minion von der AfD“",
+      "link": "https://www.handelsblatt.com/politik/deutschland/zoff-im-bundestag-ordnungsruf-fuer-moskau-minion-von-der-afd/100257463.html",
+      "summary": "Der Grünen-Abgeordnete Wagener provoziert im Bundestag mit einem Animationsfilm-Vergleich. Welche politische Kontroverse steckt hinter dem Schlagabtausch mit der AfD im Bundestag?",
+      "image": "https://images.handelsblatt.com/G7tOTCcOlEHw/cover/900/506/0/0/115/115/0.5/0.5/robin-wagener.jpg",
+      "published": "2026-09-25T12:44:43+00:00",
+      "category": "Politik",
+      "score": 67.99
     }
   ]
 }
