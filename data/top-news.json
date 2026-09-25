@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T22:34:21.439045+00:00",
+  "generatedAt": "2026-09-25T00:16:43.496716+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.handelsblatt.com/wS6zAsrmnoiw/cover/900/506/0/0/0/0/0.5/0.5/hlive-matthes-schnitzler.jpg",
       "published": "2026-09-30T04:00:00+00:00",
       "category": "Wirtschaft",
-      "score": 173.52
+      "score": 172.1
     },
     {
       "id": "tagesschau-ce5ef400ecab3735",
@@ -24,7 +24,7 @@
       "image": "https://images.tagesschau.de/image/e31baaad-b003-4c3e-8c1e-d407d6dd4c7c/AAABoNTeqKI/AAABnSSvrFg/16x9-big/netanjahu-un-106.jpg?width=1920",
       "published": "2026-09-24T23:51:23+02:00",
       "category": "Politik",
-      "score": 91.08,
+      "score": 89.66,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -51,7 +51,7 @@
       "image": "https://images.tagesschau.de/image/52fb1dce-873e-45e4-96c5-b32c3e0d29a2/AAABn6QTr-Y/AAABnSSvrFg/16x9-big/knesset-128.jpg?width=1920",
       "published": "2026-09-24T16:33:06+02:00",
       "category": "Politik",
-      "score": 86.21,
+      "score": 84.79,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -73,7 +73,7 @@
       "image": "https://images.tagesschau.de/image/db1af876-0398-4b93-a96b-1afa4e4d247d/AAABoNIp1Xc/AAABnSSvrFg/16x9-big/trump-flur-100.jpg?width=1920",
       "published": "2026-09-24T08:14:19+02:00",
       "category": "Politik",
-      "score": 78.8,
+      "score": 77.38,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -100,7 +100,7 @@
       "image": "https://bilder.deutschlandfunk.de/05/d7/53/68/05d75368-d30f-4cd5-80f4-6ae0bd3d9647/trump-xi-106-1920x1920.jpg",
       "published": "2026-09-24T23:37:21+02:00",
       "category": "Politik",
-      "score": 77.21,
+      "score": 75.79,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -122,7 +122,7 @@
       "image": "https://images.tagesschau.de/image/aa1d79f0-b5d1-4ed4-ae1f-8b14f3656405/AAABoNQBA_E/AAABnSSvrFg/16x9-big/xi-trump-130.jpg?width=1920",
       "published": "2026-09-24T21:43:38+02:00",
       "category": "Politik",
-      "score": 76.63
+      "score": 75.21
     },
     {
       "id": "handelsblatt-b15f8aef75f671dd",
@@ -134,7 +134,7 @@
       "image": "https://images.handelsblatt.com/LE6WCQS9UDsh/cover/900/506/0/0/107/107/0.5/0.5/generaldebatte-der-un-vollversammlung.jpg",
       "published": "2026-09-24T21:45:28+00:00",
       "category": "Politik",
-      "score": 76.32
+      "score": 74.9
     },
     {
       "id": "handelsblatt-61b75e2554911e03",
@@ -146,7 +146,7 @@
       "image": "https://images.handelsblatt.com/P-73zvwpCO2y/cover/900/506/0/0/75/75/0.5/0.5/wall-street.jpeg",
       "published": "2026-09-24T19:26:00+00:00",
       "category": "Wirtschaft",
-      "score": 74.38
+      "score": 72.96
     },
     {
       "id": "spiegel-e252cc16db326183",
@@ -158,7 +158,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/547840d2-37f0-4007-b8e8-6dc5490c7c06_w1200_r1.778_fpx6_fpy36.jpg",
       "published": "2026-09-24T19:32:00+02:00",
       "category": "Politik",
-      "score": 73.8
+      "score": 72.38
+    },
+    {
+      "id": "spiegel-b9ed8a28d714e4fe",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Kanada: Stadtrat von Ottawa streicht Trump-Avenue aus dem Stadtplan",
+      "link": "https://www.spiegel.de/ausland/kanada-stadtrat-von-ottawa-streicht-trump-avenue-aus-dem-stadtplan-a-98333477-f291-4085-854c-fdb16eab7b22#ref=rss",
+      "summary": "Die Menschen in Kanada gelten gemeinhin als eher höflich. Doch Donald Trump treibt sogar sie an ihre Grenzen. Im Nachbarschaftsstreit mit den USA hat sich der Stadtrat von Ottawa nun eine besondere Gemeinheit einfallen lassen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/415fb12f-4f8f-48e9-9ba3-0325c5809353_w1200_r1.778_fpx34.69_fpy49.99.jpg",
+      "published": "2026-09-25T02:07:00+02:00",
+      "category": "Politik",
+      "score": 69.86
     },
     {
       "id": "deutschlandfunk-ef1fbb7e84278ee8",
@@ -170,7 +182,7 @@
       "image": "https://bilder.deutschlandfunk.de/e4/f0/ff/24/e4f0ff24-be1b-4178-aaba-e313cf26512d/weisses-haus-washington-100-1920x1920.jpg",
       "published": "2026-09-24T23:37:21+02:00",
       "category": "Nachrichten",
-      "score": 70.89,
+      "score": 69.47,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -197,7 +209,7 @@
       "image": "https://bilder.deutschlandfunk.de/e6/4e/a4/d8/e64ea4d8-e021-4bd8-ae6c-75ec04fb2365/sachsen-anhalt-wahl-100-1920x1920.jpg",
       "published": "2026-09-24T23:37:21+02:00",
       "category": "Politik",
-      "score": 69.21
+      "score": 67.79
     },
     {
       "id": "deutschlandfunk-4fb21f3f50410dc9",
@@ -209,7 +221,7 @@
       "image": "https://bilder.deutschlandfunk.de/3a/d3/01/1e/3ad3011e-63c3-486a-b7f1-6134ff2df0cb/mario-voigt-cdu-ministerpraesident-thueringen-doktortitel-100-1920x1920.jpg",
       "published": "2026-09-24T23:37:21+02:00",
       "category": "Politik",
-      "score": 69.21,
+      "score": 67.79,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -231,7 +243,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/33e54999-c2dd-4674-9c16-ac0db884f029_w1200_r1.778_fpx71_fpy36.jpg",
       "published": "2026-09-24T20:42:00+02:00",
       "category": "Politik",
-      "score": 66.77
+      "score": 65.35
     },
     {
       "id": "spiegel-d87bea0c61f90a8a",
@@ -243,7 +255,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/f53e20dd-56c0-42ee-8ae9-09f6ac746a21_w1200_r1.778_fpx55_fpy55.jpg",
       "published": "2026-09-24T23:45:00+02:00",
       "category": "Technologie",
-      "score": 66.31,
+      "score": 64.89,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -254,18 +266,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "spiegel-f8c02d0e81832bf7",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Sachsen-Anhalt: Land verzichtet nach AfD-Wahlsieg auf MPK-Vorsitz",
-      "link": "https://www.spiegel.de/politik/deutschland/sachsen-anhalt-land-verzichtet-nach-afd-wahlsieg-auf-mpk-vorsitz-a-902b8f11-785f-4ab5-8e85-4805ea3e5dc6#ref=rss",
-      "summary": "Eigentlich wäre Sachsen-Anhalt dran gewesen. Doch wegen des Wahlerfolgs der AfD verzichtet das Bundesland auf den turnusmäßigen Vorsitz der Ministerpräsidentenkonferenz. Die weitere Reihenfolge bleibt unberührt.",
-      "image": "https://cdn.prod.www.spiegel.de/images/f96df2a0-9a5b-4f18-99d2-d2294e508d07_w1200_r1.778_fpx33_fpy44.jpg",
-      "published": "2026-09-24T19:42:00+02:00",
-      "category": "Politik",
-      "score": 65.94
     }
   ]
 }
