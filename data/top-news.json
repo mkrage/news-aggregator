@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T22:14:01.514541+00:00",
+  "generatedAt": "2026-09-26T22:59:36.071757+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/c0a2770e-832c-4c37-b2e2-04315c739d31/AAABoN5ca9M/AAABnSSvrFg/16x9-big/trump-5302.jpg?width=1920",
       "published": "2026-09-26T17:50:22+02:00",
       "category": "Politik",
-      "score": 94.67,
+      "score": 94.04,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -44,7 +44,7 @@
       "image": "https://bilder.deutschlandfunk.de/ef/23/5a/6e/ef235a6e-5eaa-4d9c-8cab-154a68525c71/wadephul-lawrow-100-1920x1920.jpg",
       "published": "2026-09-26T23:50:24+02:00",
       "category": "Politik",
-      "score": 90.35,
+      "score": 89.72,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -69,9 +69,9 @@
       "link": "https://www.tagesschau.de/ausland/wadephul-rede-un-generalversammlung-100.html",
       "summary": "Es war das erste Treffen der Chefdiplomaten Deutschlands und Russlands seit Beginn des russischen Angriffs auf die Ukraine. In den tagesthemen erklärt Bundesaußenminister Wadephul, wie es zum Treffen mit dem Amtskollegen Lawrow kam.[ mehr ]",
       "image": "https://images.tagesschau.de/image/9bea4120-063f-417b-80ac-8239f1b1515e/AAABoN-_rMw/AAABnSSvrFg/16x9-big/wadephul-lawrow-104.jpg?width=1920",
-      "published": "2026-09-27T00:04:36+02:00",
+      "published": "2026-09-27T00:29:36+02:00",
       "category": "Politik",
-      "score": 78.87,
+      "score": 78.58,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -93,7 +93,7 @@
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_e/14/NOVA_e1498a0ddba988a28035cd88b9666393/craft-13399072-asset-100-1920x1920.jpg",
       "published": "2026-09-26T23:50:24+02:00",
       "category": "Politik",
-      "score": 77.67
+      "score": 77.04
     },
     {
       "id": "tagesschau-8f01a37f2a108a41",
@@ -105,7 +105,7 @@
       "image": "https://images.tagesschau.de/image/3f2b5b39-ef1d-4b24-b68c-6ef0521258bc/AAABoNzMhI4/AAABnSSvrFg/16x9-big/elif-eralp-136.jpg?width=1920",
       "published": "2026-09-26T11:16:05+02:00",
       "category": "Politik",
-      "score": 75.98,
+      "score": 75.35,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -127,7 +127,7 @@
       "image": "https://images.tagesschau.de/image/24614698-1775-49d2-aa04-c39352183504/AAABoN5T4j4/AAABnSSvrFg/16x9-big/alexander-dobrindt-176.jpg?width=1920",
       "published": "2026-09-26T17:27:14+02:00",
       "category": "Politik",
-      "score": 75.35,
+      "score": 74.72,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -145,6 +145,33 @@
       }
     },
     {
+      "id": "spiegel-a4788fc985df2f4f",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Spanien: Zehntausende protestieren in Madrid gegen Zwangsräumung von 87-jähriger Maricarmen Abascal",
+      "link": "https://www.spiegel.de/ausland/spanien-zehntausende-protestieren-in-madrid-gegen-zwangsraeumung-von-87-jaehriger-maricarmen-abascal-a-054ee7f8-5efd-4063-b5a9-851187ed72e4#ref=rss",
+      "summary": "Vor 70 Jahren zog Maricarmen Abascal in eine Mietwohnung in der spanischen Hauptstadt. Nun musste die Seniorin ihr Zuhause gegen ihren Willen verlassen. Der Fall sorgt im Land für massive Proteste.",
+      "image": "https://cdn.prod.www.spiegel.de/images/436604cd-622e-449b-968e-778b730281ba_w1200_r1.778_fpx64_fpy76.jpg",
+      "published": "2026-09-27T00:36:00+02:00",
+      "category": "Nachrichten",
+      "score": 71.35,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Wohnungsnot - Tausende demonstrieren nach Zwangsräumung von 87-Jähriger in Madrid",
+            "link": "https://www.deutschlandfunk.de/tausende-demonstrieren-nach-zwangsraeumung-von-87-jaehriger-in-madrid-104.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Wohnungsnot: Riesen-Protest gegen Zwangsräumung einer Rentnerin in Madrid",
+            "link": "https://www.handelsblatt.com/politik/international/wohnungsnot-riesen-protest-gegen-zwangsraeumung-einer-rentnerin-in-madrid/100257643.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "handelsblatt-6886b34afe8decbf",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
@@ -154,7 +181,7 @@
       "image": "https://images.handelsblatt.com/h9K-6kP95oIK/cover/900/506/0/0/107/106/0.5/0.5/ukraine-krieg-saporischschja.jpg",
       "published": "2026-09-26T14:51:11+00:00",
       "category": "Politik",
-      "score": 70.85
+      "score": 70.22
     },
     {
       "id": "deutschlandfunk-2fad27e52e36c553",
@@ -166,7 +193,7 @@
       "image": "https://bilder.deutschlandfunk.de/b5/99/d8/8c/b599d88c-80c2-4570-afbe-f61bfdd7268a/niedersachsen-kommunalwahl-100-1920x1920.jpg",
       "published": "2026-09-26T23:50:24+02:00",
       "category": "Politik",
-      "score": 69.67
+      "score": 69.04
     },
     {
       "id": "deutschlandfunk-48ad2e150d6b60bd",
@@ -178,7 +205,41 @@
       "image": "https://bilder.deutschlandfunk.de/00/fc/b0/cb/00fcb0cb-0e58-47fd-a2c2-95e7e0af9ecb/berlin-wahl-abgeordnetenhaus-108-1920x1920.jpg",
       "published": "2026-09-26T23:50:24+02:00",
       "category": "Politik",
-      "score": 69.67
+      "score": 69.04
+    },
+    {
+      "id": "handelsblatt-20e7c7182e35469a",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Nach Instagram-Beitrag: Prozess um angebliche Drohung Comeys gegen Trump erst 2027",
+      "link": "https://www.handelsblatt.com/politik/international/nach-instagram-beitrag-prozess-um-angebliche-drohung-comeys-gegen-trump-erst-2027/100257654.html",
+      "summary": "Der frühere FBI-Chef James Comey ist wegen eines Fotos von Muscheln am Strand angeklagt, die zu Zahlen zusammengelegt sind und auf Präsident Trump anspielen. Der Prozess wird nun erneut verschoben.",
+      "image": "https://images.handelsblatt.com/1sDo7I8WTvvq/cover/900/506/0/0/164/164/0.5/0.5/james-comey.jpg",
+      "published": "2026-09-26T22:40:10+00:00",
+      "category": "Politik",
+      "score": 68.73
+    },
+    {
+      "id": "spiegel-3bee280bb25874c1",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Boeing meldet Softwarefehler bei Pannen-Flugzeug 737 Max",
+      "link": "https://www.spiegel.de/wirtschaft/unternehmen/boeing-meldet-softwarefehler-bei-pannen-flugzeug-737-max-a-7a41d3ef-ff38-4813-a89a-c61c55426627#ref=rss",
+      "summary": "Die schlechten Nachrichten für US-Flugzeugbauer Boeing reißen nicht ab. Jetzt gibt es neue Probleme bei Maschinen des Modells 737 Max.",
+      "image": "https://cdn.prod.www.spiegel.de/images/8535861f-8579-426b-afc0-65bdc29e53e5_w1200_r1.778_fpx53_fpy60.jpg",
+      "published": "2026-09-26T23:03:00+02:00",
+      "category": "Nachrichten",
+      "score": 66.28,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "US-Flugzeugbauer: Neues Software-Problem bei Boeing 737 Max",
+            "link": "https://www.handelsblatt.com/technik/it-internet/us-flugzeugbauer-neues-software-problem-bei-boeing-737-max/100257648.html"
+          }
+        ]
+      }
     },
     {
       "id": "spiegel-f36c9a1c0ef648ee",
@@ -190,7 +251,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/d437dd5b-b0c2-44e3-a850-ae923f973bce_w1200_r1.778_fpx51_fpy41.jpg",
       "published": "2026-09-26T20:16:00+02:00",
       "category": "Politik",
-      "score": 66.69,
+      "score": 66.06,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -203,30 +264,6 @@
       }
     },
     {
-      "id": "spiegel-1017e20da4c2c08e",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ukraine: Russische Besatzung – in Oleschky essen sie Unkraut, um zu überleben",
-      "link": "https://www.spiegel.de/ausland/ukraine-unter-russischer-besatzung-hungerkrise-in-oleschky-a-16b18f20-727b-44d4-9f4d-8e626e9ab249#ref=rss",
-      "summary": "In einer von Russland besetzten ukrainischen Stadt bahnt sich eine Hungerkatastrophe an. Tausende Einwohner sind im Kampfgebiet gefangen. Auf eine Evakuierung können sich Moskau und Kyjiw nicht einigen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/752af0dd-3eae-406e-940c-6de9d186c611_w1200_r1.778_fpx54.67_fpy50.jpg",
-      "published": "2026-09-26T20:06:00+02:00",
-      "category": "Politik",
-      "score": 66.56
-    },
-    {
-      "id": "spiegel-5e599af7d2de3f93",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "EU will 700 Millionen Euro für Krisenhilfe weltweit zahlen",
-      "link": "https://www.spiegel.de/ausland/eu-will-700-millionen-euro-fuer-krisenhilfe-weltweit-zahlen-a-cee52829-a16b-444d-b157-df99c1f4ba73#ref=rss",
-      "summary": "Es geht um die Unterstützung für Vertriebene und den Kampf gegen Naturkatastrophen und Epidemien: Die Europäische Union hat ein Hilfspaket angekündigt, das besonders Menschen in Afrika zugutekommen soll.",
-      "image": "https://cdn.prod.www.spiegel.de/images/1cf01a03-6836-49bf-8f52-f16dc5db0a3b_w1200_r1.778_fpx51_fpy46.jpg",
-      "published": "2026-09-26T23:31:00+02:00",
-      "category": "Nachrichten",
-      "score": 66.4
-    },
-    {
       "id": "handelsblatt-7ebbdb5a19b1c4eb",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
@@ -236,19 +273,7 @@
       "image": "https://images.handelsblatt.com/ajuKMP7NmADk/cover/900/506/0/0/210/1103/0.5/0.5/cover-podcast-trump-watch.jpg",
       "published": "2026-09-26T08:10:57+00:00",
       "category": "Politik",
-      "score": 65.29
-    },
-    {
-      "id": "handelsblatt-a1e298a824b3c70d",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Kommentar: Trump gefährdet mit seiner Außenpolitik die demokratische Welt",
-      "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-trump-gefaehrdet-mit-seiner-aussenpolitik-die-demokratische-welt/100256385.html",
-      "summary": "Viel Show, wenig Inhalt – der US-Präsident zeigte beim Besuch von Chinas Staats- und Parteichef Xi Jinping, wo seine Prioritäten liegen. Das schadet nicht nur den USA.",
-      "image": "https://images.handelsblatt.com/HnNLj8SEH2An/cover/900/506/0/0/0/0/0.5/0.5/xi-trump-23.09.26.gif",
-      "published": "2026-09-26T17:40:38+00:00",
-      "category": "Politik",
-      "score": 65.2
+      "score": 64.66
     },
     {
       "id": "golem-6fa498fe9e1aab80",
@@ -260,7 +285,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213460&amp;page=1&amp;ts=1790418301",
       "published": "2026-09-26T12:25:01+02:00",
       "category": "Politik",
-      "score": 58.15
+      "score": 57.52
     }
   ]
 }
