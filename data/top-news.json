@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T01:42:56.721702+00:00",
+  "generatedAt": "2026-09-26T06:44:15.802069+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,14 +12,46 @@
       "image": "https://images.tagesschau.de/image/bba5b5c3-e64e-46dc-9452-9d93285c8194/AAABoNPmfhU/AAABnSSvrFg/16x9-big/drohnen-278.jpg?width=1920",
       "published": "2026-09-24T19:50:55+02:00",
       "category": "Politik",
-      "score": 86.31,
+      "score": 91.51,
       "coverage": {
-        "sourceCount": 2,
+        "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "Ukraine-Krieg - USA schlagen Dreiertreffen mit Russland und Ukraine vor",
             "link": "https://www.deutschlandfunk.de/usa-schlagen-dreiertreffen-mit-russland-und-ukraine-vor-108.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "+++ Ukraine-Krieg +++: Die Ukraine bittet die Partner um weitere 27 Milliarden Dollar für Verteidigung",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-moskau-schliesst-konsulat-in-st.-petersburg123/27982126.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-17ec76c468681dc6",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Treffen in Washington - Xi lädt Trump zu Gegenbesuch in China ein",
+      "link": "https://www.deutschlandfunk.de/xi-laedt-trump-zu-gegenbesuch-in-china-ein-102.html",
+      "summary": "Chinas Staats- und Parteichef Xi hat US-Präsident Trump zum Abschluss seines Staatsbesuchs in Washington zu einem nächsten Treffen in die Volksrepublik eingeladen. Trump sagte zu und erklärte, man werde miteinander im Gespräch bleiben.",
+      "image": "https://bilder.deutschlandfunk.de/9c/3c/f0/1e/9c3cf01e-2399-4e2f-8c94-a0d7261d492e/xi-trump-104-1920x1920.jpg",
+      "published": "2026-09-26T08:31:53+02:00",
+      "category": "Politik",
+      "score": 82.51,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Xi Jinping lädt Donald Trump nach China ein",
+            "link": "https://www.spiegel.de/ausland/xi-jinping-laedt-donald-trump-nach-china-ein-a-15d085f6-a9a5-478b-aba9-c7a907904ee0#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "+++ USA +++: US-Sender CNN darf Trump nicht auf Reise nach Tennessee begleiten",
+            "link": "https://www.handelsblatt.com/politik/international/usa-us-sender-cnn-darf-trump-nicht-auf-reise-nach-tennessee-begleiten/29669594.html"
           }
         ]
       }
@@ -34,49 +66,99 @@
       "image": "https://images.tagesschau.de/image/0b168c57-4d82-42c6-a2f8-6abfbcfe6e3c/AAABoNj_AzM/AAABnSSvrFg/16x9-big/tankstelle-366.jpg?width=1920",
       "published": "2026-09-25T16:36:26+02:00",
       "category": "Politik",
-      "score": 82.99,
+      "score": 78.83,
       "coverage": {
-        "sourceCount": 3,
+        "sourceCount": 2,
         "others": [
           {
             "source": "deutschlandfunk",
-            "title": "Berlin - Bundesrat und Bundestag für Tankrabatt - Regelung kommt zum 1. Oktober",
-            "link": "https://www.deutschlandfunk.de/bundesrat-und-bundestag-fuer-tankrabatt-regelung-kommt-zum-1-oktober-102.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Spritpreise: Drei Monate Entlastung: Bundestag und Bundesrat billigen erneuten Tankrabatt ab 1. Oktober",
-            "link": "https://www.handelsblatt.com/politik/deutschland/spritpreise-bundestag-und-bundesrat-billigen-tankrabatt-ab-1.-oktober/100257453.html"
+            "title": "Spritpreise - Bundesrat und Bundestag billigen Tankrabatt ab 1. Oktober",
+            "link": "https://www.deutschlandfunk.de/bundesrat-und-bundestag-billigen-tankrabatt-ab-1-oktober-100.html"
           }
         ]
       }
     },
     {
-      "id": "deutschlandfunk-17ec76c468681dc6",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Treffen in Washington - Xi lädt Trump zu Gegenbesuch in China ein",
-      "link": "https://www.deutschlandfunk.de/xi-laedt-trump-zu-gegenbesuch-in-china-ein-102.html",
-      "summary": "Chinas Staats- und Parteichef Xi hat US-Präsident Trump zum Abschluss seines Staatsbesuchs in Washington zu einem nächsten Treffen in die Volksrepublik eingeladen. Trump sagte zu und erklärte, man werde miteinander im Gespräch bleiben.",
-      "image": "https://bilder.deutschlandfunk.de/9c/3c/f0/1e/9c3cf01e-2399-4e2f-8c94-a0d7261d492e/xi-trump-104-1920x1920.jpg",
-      "published": "2026-09-26T02:52:56+02:00",
+      "id": "tagesschau-5aa293d5330dc0ee",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Iran macht Vorschlag für Öffnung der Straße von Hormus",
+      "link": "https://www.tagesschau.de/ausland/asien/iran-hormus-usa-100.html",
+      "summary": "Seit Monaten ist die Straße von Hormus weitgehend blockiert - mit Folgen für die Wirtschaft. Iran hat den USA nun einen Plan übermittelt. Präsident Trump scheint aber nicht interessiert. Saudi-Arabien meldet neue Angriffe in der Region.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/846f667d-87eb-4989-b674-6b97301648db/AAABn--09DQ/AAABnSSvrFg/16x9-big/strasse-von-hormus-176.jpg?width=1920",
+      "published": "2026-09-26T08:26:54+02:00",
       "category": "Politik",
-      "score": 81.99,
+      "score": 78.76,
       "coverage": {
-        "sourceCount": 3,
+        "sourceCount": 2,
         "others": [
           {
-            "source": "spiegel",
-            "title": "Xi Jinping lädt Donald Trump nach China ein",
-            "link": "https://www.spiegel.de/ausland/xi-jinping-laedt-donald-trump-nach-china-ein-a-15d085f6-a9a5-478b-aba9-c7a907904ee0#ref=rss"
-          },
-          {
             "source": "handelsblatt",
-            "title": "Diplomatie: Xi und Trump wollen sich im November in China treffen",
-            "link": "https://www.handelsblatt.com/politik/international/diplomatie-xi-und-trump-wollen-sich-im-november-in-china-treffen/100257522.html"
+            "title": "+++ Iran-Krieg +++: Iran – Haben USA Plan übermittelt, nun ist Washington am Zug",
+            "link": "https://www.handelsblatt.com/politik/international/iran-krieg-iran-haben-usa-plan-uebermittelt-nun-ist-washington-am-zug/100136895.html"
           }
         ]
       }
+    },
+    {
+      "id": "deutschlandfunk-0409181f08822cf1",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Ukraine-Krieg - Sieben Tote bei Angriff auf Bürogebäude in Kiew",
+      "link": "https://www.deutschlandfunk.de/sieben-tote-bei-angriff-auf-buerogebaeude-in-kiew-102.html",
+      "summary": "In der ukrainischen Hauptstadt Kiew sind bei einem russischen Drohnenangriff mindestens sieben Menschen getötet worden.",
+      "image": "https://bilder.deutschlandfunk.de/3a/4f/1d/9c/3a4f1d9c-75f4-46a4-9c23-003e1b32681f/angriffe-kiew-104-1920x1920.jpg",
+      "published": "2026-09-26T08:31:53+02:00",
+      "category": "Politik",
+      "score": 77.83
+    },
+    {
+      "id": "deutschlandfunk-29d9b1cae3fb6a42",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Iran-Krieg - Medienbericht: Trump lehnt iranischen Vorschlag ab",
+      "link": "https://www.deutschlandfunk.de/medienbericht-trump-lehnt-iranischen-vorschlag-ab-100.html",
+      "summary": "US-Präsident ⁠Trump ⁠lehnt ⁠einem Medienbericht zufolge ⁠den Vorschlag ⁠des ‌Iran für eine erneute Waffenruhe ab.",
+      "image": "https://bilder.deutschlandfunk.de/a4/8a/5d/06/a48a5d06-de72-44fa-af82-aeef301133ec/trump-290-1920x1920.jpg",
+      "published": "2026-09-26T08:31:53+02:00",
+      "category": "Politik",
+      "score": 77.83
+    },
+    {
+      "id": "deutschlandfunk-80f14c8d18b48709",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "USA - Erfolg für Trump: Oberster Gerichtshof erlaubt Überprüfung der Wahlberechtigung mit Einwanderungsdatenbank",
+      "link": "https://www.deutschlandfunk.de/erfolg-fuer-trump-oberster-gerichtshof-erlaubt-ueberpruefung-der-wahlberechtigung-mit-einwanderungsd-102.html",
+      "summary": "Der ​Oberste Gerichtshof der USA hat die umstrittene Nutzung einer Datenbank zur Überprüfung von Wahlberechtigten vorerst zugelassen.",
+      "image": "https://bilder.deutschlandfunk.de/74/1d/b3/40/741db340-2797-420c-be91-83417a9e9e2a/supreme-court-usa-104-1920x1920.jpg",
+      "published": "2026-09-26T08:31:53+02:00",
+      "category": "Politik",
+      "score": 77.83
+    },
+    {
+      "id": "spiegel-eb7cb061f9df3b62",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "CDU und SPD in der Krise: Wenn alte Gewissheiten fallen und die Politik keine Antwort findet",
+      "link": "https://www.spiegel.de/politik/cdu-und-spd-in-der-krise-wenn-alte-gewissheiten-fallen-und-die-politik-keine-antwort-findet-a-7eeae176-d540-4591-bf43-a1ded031797b#ref=rss",
+      "summary": "Die jüngsten Wahlsiege von AfD und Linken sind eine Zäsur für Deutschland. Vorbei ist eine jahrzehntelange Epoche mit unumstößlichen Gewissheiten. Das bisherige System stand für Stabilität, die Zukunft wirkt leider düster.",
+      "image": "https://cdn.prod.www.spiegel.de/images/af8891e5-a7a7-4f22-949c-1c82fd0582ba_w1200_r1.778_fpx47_fpy24.jpg",
+      "published": "2026-09-26T07:45:00+02:00",
+      "category": "Politik",
+      "score": 77.18
+    },
+    {
+      "id": "spiegel-19ca4ad18f6f3ed5",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Steffen Bilger: Interview mit dem Bundesverkehrsminister über Bahn, Autobahn und Raser",
+      "link": "https://www.spiegel.de/wirtschaft/steffen-bilger-interview-mit-dem-bundesverkehrsminister-ueber-bahn-autobahn-und-raser-a-dfe50634-f623-4e62-9b43-014889c74834#ref=rss",
+      "summary": "Kommt die Bahn bis zur nächsten Bundestagswahl wieder pünktlich? Der neue Verkehrsminister Steffen Bilger erklärt, welche ersten Maßnahmen er plant – und was er von Autobahnrasern hält.",
+      "image": "https://cdn.prod.www.spiegel.de/images/1dc4e095-3817-438d-bb31-1b61ebc127cb_w1200_r1.778_fpx44_fpy55.jpg",
+      "published": "2026-09-26T07:43:00+02:00",
+      "category": "Politik",
+      "score": 77.15
     },
     {
       "id": "spiegel-b1263ca5e07017d1",
@@ -88,179 +170,77 @@
       "image": "https://cdn.prod.www.spiegel.de/images/2e0c5e9d-6546-4992-ad3b-450afa8977c8_w1200_r1.778_fpx49_fpy40.jpg",
       "published": "2026-09-25T21:34:00+02:00",
       "category": "Politik",
-      "score": 80.88
+      "score": 76.69
     },
     {
-      "id": "deutschlandfunk-0409181f08822cf1",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg - Sieben Tote bei Angriff auf Bürogebäude in Kiew",
-      "link": "https://www.deutschlandfunk.de/sieben-tote-bei-angriff-auf-buerogebaeude-in-kiew-102.html",
-      "summary": "In der ukrainischen Hauptstadt Kiew sind bei einem russischen Drohnenangriff mindestens sieben Menschen getötet worden.",
-      "image": "https://bilder.deutschlandfunk.de/3a/4f/1d/9c/3a4f1d9c-75f4-46a4-9c23-003e1b32681f/angriffe-kiew-104-1920x1920.jpg",
-      "published": "2026-09-26T02:52:56+02:00",
-      "category": "Politik",
-      "score": 77.31
-    },
-    {
-      "id": "deutschlandfunk-80f14c8d18b48709",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "USA - Erfolg für Trump: Oberster Gerichtshof erlaubt Überprüfung der Wahlberechtigung mit Einwanderungsdatenbank",
-      "link": "https://www.deutschlandfunk.de/erfolg-fuer-trump-oberster-gerichtshof-erlaubt-ueberpruefung-der-wahlberechtigung-mit-einwanderungsd-102.html",
-      "summary": "Der ​Oberste Gerichtshof der USA hat die umstrittene Nutzung einer Datenbank zur Überprüfung von Wahlberechtigten vorerst zugelassen.",
-      "image": "https://bilder.deutschlandfunk.de/74/1d/b3/40/741db340-2797-420c-be91-83417a9e9e2a/supreme-court-usa-104-1920x1920.jpg",
-      "published": "2026-09-26T02:52:56+02:00",
-      "category": "Politik",
-      "score": 77.31
-    },
-    {
-      "id": "tagesschau-f41b3e21e4b6ca63",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Berliner Linkspartei stimmt für Gespräche mit Grünen und SPD",
-      "link": "https://www.tagesschau.de/inland/regional/berlin/berlin-linke-parteitag-100.html",
-      "summary": "Jetzt ist es offiziell: Die Berliner Linkspartei lädt Grüne und SPD zu Sondierungsgesprächen für eine Regierungsbildung ein. Ob die drei Parteien später tatsächlich eine Koalition bilden, ist noch offen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/31bc6d93-ba1d-4874-b57e-a593d9089bcb/AAABoNnUoR4/AAABnSSvrFg/16x9-big/linke-296.jpg?width=1920",
-      "published": "2026-09-25T21:08:33+02:00",
-      "category": "Politik",
-      "score": 74.99,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Nach Wahlsieg - Parteitag der Berliner Linken stimmt für Sondierungsgespräche mit Grünen und SPD",
-            "link": "https://www.deutschlandfunk.de/parteitag-der-berliner-linken-stimmt-fuer-sondierungsgespraeche-mit-gruenen-und-spd-102.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "+++ Wahlen +++: Berliner Grünen wollen Mitglieder zu Regierungsbildung befragen",
-            "link": "https://www.handelsblatt.com/politik/deutschland/wahlen-in-berlin-und-mv-berliner-gruenen-wollen-mitglieder-zu-regierungsbildung-befragen/100252039.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-aec193a6b34fc539",
+      "id": "spiegel-51af4bba5c0e647b",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Russland-Ukraine-Krieg: Putin erklärt, er plane keine Aggression gegen Europa",
-      "link": "https://www.spiegel.de/ausland/russland-ukraine-krieg-putin-erklaert-er-plane-keine-aggression-gegen-europa-a-3bc1be25-96e9-416b-91e2-9651aad03f88#ref=rss",
-      "summary": "Bei einer Veranstaltung beteuert Wladimir Putin, dass er keine Aggressionen gegen Europa plane. Mit der Ukraine zeigt er sich zunächst gesprächsbereit, droht jedoch kurz darauf mit weiteren Angriffen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/99232c6f-5ec9-4ed7-b4de-9fa3d5fa136a_w1200_r1.778_fpx39.92_fpy49.98.jpg",
-      "published": "2026-09-25T21:28:00+02:00",
+      "title": "Donald Trump: CNN von Trumps Reise nach Tennessee ausgeschlossen",
+      "link": "https://www.spiegel.de/ausland/donald-trump-cnn-von-trumps-reise-nach-tennessee-ausgeschlossen-a-944a98f6-dae4-4899-8a1d-20a843fde422#ref=rss",
+      "summary": "CNN darf nach einer einstweiligen Verfügung wieder ins Weiße Haus – von Trumps Reise nach Tennessee wird der Nachrichtensender aber ausgeschlossen. Stattdessen übernimmt ein trumpfreundlicher Kanal.",
+      "image": "https://cdn.prod.www.spiegel.de/images/3d43cdcc-3da5-40d2-8ace-c6b1a53a2874_w1200_r1.778_fpx64_fpy50.jpg",
+      "published": "2026-09-26T05:38:00+02:00",
       "category": "Politik",
-      "score": 72.79
-    },
-    {
-      "id": "spiegel-f59a45646da73ddc",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ukraine: Wofür braucht das Land zusätzliche 27 Milliarden Dollar in diesem Jahr?",
-      "link": "https://www.spiegel.de/ausland/ukraine-wofuer-braucht-das-land-zusaetzliche-27-milliarden-dollar-in-diesem-jahr-a-930743f2-afd3-4b62-bd77-c15c1cdbcb87#ref=rss",
-      "summary": "Die Verteidigung gegen Russlands Angriffskrieg wird für Kyjiw und seine Unterstützer immer teurer. Die Geldnot der Ukraine hat auch mit hausgemachten Problemen zu tun.",
-      "image": "https://cdn.prod.www.spiegel.de/images/31932f24-41d7-400a-8b9f-b4ede33e3cb8_w1200_r1.778_fpx56_fpy50.jpg",
-      "published": "2026-09-25T21:04:00+02:00",
-      "category": "Politik",
-      "score": 72.46
-    },
-    {
-      "id": "tagesschau-7257972f927c0858",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Papst Leo XIV. in Frankreich: Treffen mit Macron in Paris",
-      "link": "https://www.tagesschau.de/ausland/europa/papst-leo-reise-frankreich-100.html",
-      "summary": "Papst Leo XIV. ist zu seinem ersten Frankreich-Besuch in Paris eingetroffen. Beim Treffen mit Präsident Macron sprach er über Sterbehilfe und KI. In den kommenden Tagen werden Hunderttausende Gläubige erwartet.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/5c75813c-de35-447c-86a8-1543d184fad1/AAABoNiLKZI/AAABnSSvrFg/16x9-big/papst-leo-macron-100.jpg?width=1920",
-      "published": "2026-09-25T15:34:08+02:00",
-      "category": "Technologie",
-      "score": 71.99,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Frankreich-Besuch - Papst Leo hielt in der Kathedrale Notre Dame eine Andacht - heute ist eine große Messe in Paris geplant",
-            "link": "https://www.deutschlandfunk.de/papst-leo-hielt-in-der-kathedrale-notre-dame-eine-andacht-heute-ist-eine-grosse-messe-in-paris-gepla-100.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Frankreich-Besuch: Papst mahnt zu „neuer Brüderlichkeit“",
-            "link": "https://www.handelsblatt.com/politik/international/frankreich-besuch-papst-mahnt-zu-neuer-bruederlichkeit/100257440.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "handelsblatt-c692c52f73e9aa14",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Iran-Krieg +++: Iran – Haben USA Plan übermittelt, nun ist Washington am Zug",
-      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-iran-haben-usa-plan-uebermittelt-nun-ist-washington-am-zug/100136895.html",
-      "summary": "Iran bei Atomprogramm in Verhandlungen offenbar unnachgiebig +++ Iran legt wohl Sieben-Tage-Plan zur Beendigung des Krieges vor +++ Netanjahu verteidigt Kriege bei UN-Rede +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/cebAce6575Ga/cover/900/506/0/0/431/430/0.5/0.5/abbas-araghtschi-aussenminister-des-iran.jpg",
-      "published": "2026-09-25T22:58:00+00:00",
-      "category": "Wirtschaft",
-      "score": 66.71
-    },
-    {
-      "id": "handelsblatt-b45a61845ff2df01",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Nach der Abgeordnetenhauswahl: Berliner Linke startet Projekt Regierungsbildung",
-      "link": "https://www.handelsblatt.com/politik/deutschland/nach-der-abgeordnetenhauswahl-berliner-linke-startet-projekt-regierungsbildung/100257515.html",
-      "summary": "Der Gegenwind ist stark, Probleme gibt es reichlich - doch die Linke in Berlin will sich nach ihrem Wahlsieg nicht beirren lassen. Die Partei lädt Grüne und SPD zu Sondierungen ein.",
-      "image": "https://images.handelsblatt.com/nV6X3Mditl4u/cover/900/506/0/0/107/106/0.5/0.5/landesparteitag-der-berliner-linken.jpg",
-      "published": "2026-09-25T18:34:58+00:00",
-      "category": "Politik",
-      "score": 63.06
-    },
-    {
-      "id": "handelsblatt-d29ba74817cd2d80",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Staatsbesuch: Xi beendet USA-Besuch: Viel Pomp und demonstrative Harmonie",
-      "link": "https://www.handelsblatt.com/politik/international/staatsbesuch-xi-beendet-usa-besuch-viel-pomp-und-demonstrative-harmonie/100257326.html",
-      "summary": "Bei Staatsbesuch von Chinas Präsident Xi in Washington betont US-Präsident Trump die historisch exzellente Verbindung beider Länder - den vielen Streitthemen zum Trotz. Kann das funktionieren?",
-      "image": "https://images.handelsblatt.com/-RBEraX1zY1J/cover/900/506/0/0/107/106/0.5/0.5/chinas-praesident-xi-in-den-usa.jpg",
-      "published": "2026-09-25T18:12:24+00:00",
-      "category": "Politik",
-      "score": 62.74
-    },
-    {
-      "id": "heise-39be2a56a3dd5227",
-      "source": "heise",
-      "sourceWeight": 0.9,
-      "title": "Big Brother Awards: Negativpreise für Digital-Omnibus, Steuer-ID & Smart Glasses",
-      "link": "https://www.heise.de/news/Big-Brother-Awards-2026-Negativpreis-fuer-Dobrindt-EU-Kommission-Telekom-Co-11463202.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "summary": "Der Big Brother Award geht in diesem Jahr an die EU-Kommission, Innenminister Dobrindt, Telekom, Fielmann, Apollo-Optik und die Evangelische Nordkirche.",
-      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/7/0/1/5/1/shutterstock_2785929643-1c22fd799c9a023d.jpeg",
-      "published": "2026-09-25T18:00:00+02:00",
-      "category": "Politik",
-      "score": 61.05,
+      "score": 75.41,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "netzpolitik",
-            "title": "Big Brother Awards: Fielmann und Apollo Optik erhalten „Überwachungs-Oscar“",
-            "link": "https://netzpolitik.org/2026/big-brother-awards-fielmann-und-apollo-optik-erhalten-ueberwachungs-oscar/"
+            "source": "handelsblatt",
+            "title": "Trumps Krach mit Medien: Streit geht weiter: CNN darf Trump nicht auf Reise begleiten",
+            "link": "https://www.handelsblatt.com/politik/international/trumps-krach-mit-medien-streit-geht-weiter-cnn-darf-trump-nicht-auf-reise-begleiten/100257556.html"
           }
         ]
       }
     },
     {
-      "id": "golem-562ccfde5f8be7a4",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "(g+) US-Politik: Maga-Anhängerschaft schreckt zurück, weil Trump voll auf KI setzt",
-      "link": "https://www.golem.de/news/us-politik-maga-anhaengerschaft-schreckt-zurueck-weil-trump-voll-auf-ki-setzt-2609-213453.html",
-      "summary": "Mit seiner bedingungslosen KI-Unterstützung bringt Trump vor den Midterms selbst loyale Maga-Anhänger gegen sich auf. Ein Stimmungsbild aus den USA von Financial-Times-Autor Joe Miller. Von Joe Miller ( Donald Trump , KI )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213453&amp;page=1&amp;ts=1790352001",
-      "published": "2026-09-25T18:00:01+02:00",
+      "id": "handelsblatt-7d1250c84179605f",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Führungskräfte: Hochqualifiziert, erfolgreich, arbeitssuchend – Vier Betroffene berichten",
+      "link": "https://www.handelsblatt.com/karriere/fuehrungskraefte-warum-jobverlust-fuer-viele-highperformer-zur-existenzfrage-wird/100228751.html",
+      "summary": "In der Krise finden auch Menschen, deren Karrieren bislang steil nach oben gingen, keinen Job mehr. Vier Betroffene erzählen, vor welche Herausforderungen sie das stellt.",
+      "image": "https://images.handelsblatt.com/YepeK0zZ0MpH/cover/900/506/15/3/0/0/0.5/0.5/boss-erasing-career-ladder.jpg",
+      "published": "2026-09-26T06:19:00+00:00",
+      "category": "Wirtschaft",
+      "score": 68.65
+    },
+    {
+      "id": "handelsblatt-fd1283db01468b52",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Vermögen: Bin ich schon reich oder nicht? Dieser Rechner liefert Ihnen die Antwort",
+      "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/reichtum-mit-so-viel-vermoegen-gelten-sie-in-deutschland-als-reich-02/100149729.html",
+      "summary": "Trotz Inflation zeigen aktuelle Daten, dass die Vermögen in Deutschland gewachsen sind. Der Handelsblatt-Rechner zeigt Ihnen, wo Sie im Vergleich zur deutschen Bevölkerung stehen.",
+      "image": "https://images.handelsblatt.com/6Rp3TI0UnSgT/cover/900/506/0/0/0/0/0.5/0.5/reichtum.jpg",
+      "published": "2026-09-26T05:21:00+00:00",
+      "category": "Wirtschaft",
+      "score": 67.84
+    },
+    {
+      "id": "netzpolitik-df410f9ad5db8c14",
+      "source": "netzpolitik",
+      "sourceWeight": 0.75,
+      "title": "KW 39: Die Woche, in der mit Hufeisen geworfen wird",
+      "link": "https://netzpolitik.org/2026/kw-39-die-woche-in-der-mit-hufeisen-geworfen-wird/",
+      "summary": "Die 39. Kalenderwoche geht zu Ende. Wir haben 11 neue Texte mit insgesamt 74.705 Zeichen veröffentlicht. Willkommen zum netzpolitischen Wochenrückblick. Fraktal, generiert mit MandelBrowser von Tomasz Śmigielski Liebe Leser*innen, wir sind nicht mehr oft auf der Plattform X unterwegs und hätten nicht gedacht, dass sie uns einmal fehlen wird. In den Tagen nach der Berlin-Wahl am vergangenen Sonntag bot die Plattform allerdings so viel Anlass für Vergnügen, Entsetzen und auch Fassungslosigkeit wie schon lange nicht mehr. Das liegt daran, dass große Teile der Hauptstadtpresse und Politik noch immer dort versammelt sind. Deren kollektives Freidrehen angesichts des Wahlerfolgs der Linken zu beobachten, war beeindruckend. Von Fantasien über eine „rote Diktatur“ bis zu Warnungen, bald würden Hamas und Hisbollah Berlin regieren, war alles dabei. Aber auch jenseits von X war viel los: Der Fernsehmoderator Jörg Thadeusz war sich nicht zu schade zur besten Sendezeit die gegen Nazis gerichtete Parole „ Wehret den Anfängen “ nun als Motto einer „vernünftigen Mehrheit im Land“ gegen die Linkspartei auszugeben. …",
+      "image": "https://cdn.netzpolitik.org/wp-upload/2026/09/26-34.jpg",
+      "published": "2026-09-26T05:32:27+00:00",
       "category": "Politik",
-      "score": 59.9
+      "score": 65.0
+    },
+    {
+      "id": "handelsblatt-ef7c40e597acb4ab",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Düsseldorfer Konzern: Persil, Taft, Pril, Pritt – Henkel wird 150",
+      "link": "https://www.handelsblatt.com/politik/deutschland/duesseldorfer-konzern-persil-taft-pril-pritt-henkel-wird-150/100257545.html",
+      "summary": "Mit seinen bekannten Markenprodukten prägt Henkel seit Jahrzehnten den Alltag vieler Kunden. Ein Blick auf wichtige Meilensteine, Krisen und aktuelle Herausforderungen des Konzerns.",
+      "image": "https://images.handelsblatt.com/qYdD9P0ePRSb/cover/900/506/0/0/107/107/0.5/0.5/henkel.jpg",
+      "published": "2026-09-26T01:30:05+00:00",
+      "category": "Wirtschaft",
+      "score": 64.64
     }
   ]
 }
