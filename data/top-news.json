@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T06:44:15.802069+00:00",
+  "generatedAt": "2026-09-26T07:52:13.152856+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/bba5b5c3-e64e-46dc-9452-9d93285c8194/AAABoNPmfhU/AAABnSSvrFg/16x9-big/drohnen-278.jpg?width=1920",
       "published": "2026-09-24T19:50:55+02:00",
       "category": "Politik",
-      "score": 91.51,
+      "score": 91.6,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -30,23 +30,45 @@
       }
     },
     {
-      "id": "deutschlandfunk-17ec76c468681dc6",
+      "id": "deutschlandfunk-a1e285d324e0b27d",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Treffen in Washington - Xi lädt Trump zu Gegenbesuch in China ein",
-      "link": "https://www.deutschlandfunk.de/xi-laedt-trump-zu-gegenbesuch-in-china-ein-102.html",
-      "summary": "Chinas Staats- und Parteichef Xi hat US-Präsident Trump zum Abschluss seines Staatsbesuchs in Washington zu einem nächsten Treffen in die Volksrepublik eingeladen. Trump sagte zu und erklärte, man werde miteinander im Gespräch bleiben.",
-      "image": "https://bilder.deutschlandfunk.de/9c/3c/f0/1e/9c3cf01e-2399-4e2f-8c94-a0d7261d492e/xi-trump-104-1920x1920.jpg",
-      "published": "2026-09-26T08:31:53+02:00",
+      "title": "Nach der Wahl in Sachsen-Anhalt - AfD und BSW sprechen laut Bericht über MDR und Corona-Ausschuss",
+      "link": "https://www.deutschlandfunk.de/afd-und-bsw-sprechen-laut-bericht-ueber-mdr-und-corona-ausschuss-100.html",
+      "summary": "In Sachsen-Anhalt sprechen AfD und BSW bei ihren Sondierungen offenbar über den künftigen Umgang mit dem Mitteldeutschen Rundfunk und einen Corona-Untersuchungsausschuss.",
+      "image": "https://bilder.deutschlandfunk.de/63/7b/66/79/637b6679-6739-462a-b6ee-1a844ae93f84/mdr-magdeburg-100-1920x1920.jpg",
+      "published": "2026-09-26T09:46:46+02:00",
       "category": "Politik",
-      "score": 82.51,
+      "score": 85.92,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Sachsen-Anhalt: BSW lehnt Koalition mit AfD trotz Corona-Sondierungen ab",
+            "link": "https://www.spiegel.de/politik/sachsen-anhalt-bsw-lehnt-koalition-mit-afd-trotz-corona-sondierungen-ab-a-ef9c581a-4625-4f49-9d46-d42b4b421847#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-b415c7edd37aaa1c",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "US-Präsident Trump schließt CNN von Reise aus",
+      "link": "https://www.tagesschau.de/ausland/amerika/trump-cnn-112.html",
+      "summary": "Der Streit von US-Präsident Trump mit US-Medien schien nach einem Richterspruch vorerst beigelegt. Die betroffenen Journalisten bekamen wieder Zugang zum Weißen Haus. Doch nun darf CNN den Präsidenten nicht auf einer Reise begleiten. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/3d69877c-51da-455b-b3de-1f7126a16d44/AAABkXp8JJs/AAABnSSvrFg/16x9-big/cnn-logo-106.jpg?width=1920",
+      "published": "2026-09-26T09:43:28+02:00",
+      "category": "Politik",
+      "score": 83.6,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
-            "source": "spiegel",
-            "title": "Xi Jinping lädt Donald Trump nach China ein",
-            "link": "https://www.spiegel.de/ausland/xi-jinping-laedt-donald-trump-nach-china-ein-a-15d085f6-a9a5-478b-aba9-c7a907904ee0#ref=rss"
+            "source": "deutschlandfunk",
+            "title": "US-Medien - Trump schließt CNN von Reise-Berichterstattung aus",
+            "link": "https://www.deutschlandfunk.de/trump-schliesst-cnn-von-reise-berichterstattung-aus-102.html"
           },
           {
             "source": "handelsblatt",
@@ -66,7 +88,7 @@
       "image": "https://images.tagesschau.de/image/0b168c57-4d82-42c6-a2f8-6abfbcfe6e3c/AAABoNj_AzM/AAABnSSvrFg/16x9-big/tankstelle-366.jpg?width=1920",
       "published": "2026-09-25T16:36:26+02:00",
       "category": "Politik",
-      "score": 78.83,
+      "score": 78.92,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -79,28 +101,6 @@
       }
     },
     {
-      "id": "tagesschau-5aa293d5330dc0ee",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Iran macht Vorschlag für Öffnung der Straße von Hormus",
-      "link": "https://www.tagesschau.de/ausland/asien/iran-hormus-usa-100.html",
-      "summary": "Seit Monaten ist die Straße von Hormus weitgehend blockiert - mit Folgen für die Wirtschaft. Iran hat den USA nun einen Plan übermittelt. Präsident Trump scheint aber nicht interessiert. Saudi-Arabien meldet neue Angriffe in der Region.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/846f667d-87eb-4989-b674-6b97301648db/AAABn--09DQ/AAABnSSvrFg/16x9-big/strasse-von-hormus-176.jpg?width=1920",
-      "published": "2026-09-26T08:26:54+02:00",
-      "category": "Politik",
-      "score": 78.76,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "+++ Iran-Krieg +++: Iran – Haben USA Plan übermittelt, nun ist Washington am Zug",
-            "link": "https://www.handelsblatt.com/politik/international/iran-krieg-iran-haben-usa-plan-uebermittelt-nun-ist-washington-am-zug/100136895.html"
-          }
-        ]
-      }
-    },
-    {
       "id": "deutschlandfunk-0409181f08822cf1",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
@@ -108,9 +108,9 @@
       "link": "https://www.deutschlandfunk.de/sieben-tote-bei-angriff-auf-buerogebaeude-in-kiew-102.html",
       "summary": "In der ukrainischen Hauptstadt Kiew sind bei einem russischen Drohnenangriff mindestens sieben Menschen getötet worden.",
       "image": "https://bilder.deutschlandfunk.de/3a/4f/1d/9c/3a4f1d9c-75f4-46a4-9c23-003e1b32681f/angriffe-kiew-104-1920x1920.jpg",
-      "published": "2026-09-26T08:31:53+02:00",
+      "published": "2026-09-26T09:46:46+02:00",
       "category": "Politik",
-      "score": 77.83
+      "score": 77.92
     },
     {
       "id": "deutschlandfunk-29d9b1cae3fb6a42",
@@ -120,9 +120,9 @@
       "link": "https://www.deutschlandfunk.de/medienbericht-trump-lehnt-iranischen-vorschlag-ab-100.html",
       "summary": "US-Präsident ⁠Trump ⁠lehnt ⁠einem Medienbericht zufolge ⁠den Vorschlag ⁠des ‌Iran für eine erneute Waffenruhe ab.",
       "image": "https://bilder.deutschlandfunk.de/a4/8a/5d/06/a48a5d06-de72-44fa-af82-aeef301133ec/trump-290-1920x1920.jpg",
-      "published": "2026-09-26T08:31:53+02:00",
+      "published": "2026-09-26T09:46:46+02:00",
       "category": "Politik",
-      "score": 77.83
+      "score": 77.92
     },
     {
       "id": "deutschlandfunk-80f14c8d18b48709",
@@ -132,9 +132,9 @@
       "link": "https://www.deutschlandfunk.de/erfolg-fuer-trump-oberster-gerichtshof-erlaubt-ueberpruefung-der-wahlberechtigung-mit-einwanderungsd-102.html",
       "summary": "Der ​Oberste Gerichtshof der USA hat die umstrittene Nutzung einer Datenbank zur Überprüfung von Wahlberechtigten vorerst zugelassen.",
       "image": "https://bilder.deutschlandfunk.de/74/1d/b3/40/741db340-2797-420c-be91-83417a9e9e2a/supreme-court-usa-104-1920x1920.jpg",
-      "published": "2026-09-26T08:31:53+02:00",
+      "published": "2026-09-26T09:46:46+02:00",
       "category": "Politik",
-      "score": 77.83
+      "score": 77.92
     },
     {
       "id": "spiegel-eb7cb061f9df3b62",
@@ -146,7 +146,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/af8891e5-a7a7-4f22-949c-1c82fd0582ba_w1200_r1.778_fpx47_fpy24.jpg",
       "published": "2026-09-26T07:45:00+02:00",
       "category": "Politik",
-      "score": 77.18
+      "score": 76.23
     },
     {
       "id": "spiegel-19ca4ad18f6f3ed5",
@@ -158,7 +158,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/1dc4e095-3817-438d-bb31-1b61ebc127cb_w1200_r1.778_fpx44_fpy55.jpg",
       "published": "2026-09-26T07:43:00+02:00",
       "category": "Politik",
-      "score": 77.15
+      "score": 76.21
     },
     {
       "id": "spiegel-b1263ca5e07017d1",
@@ -170,29 +170,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/2e0c5e9d-6546-4992-ad3b-450afa8977c8_w1200_r1.778_fpx49_fpy40.jpg",
       "published": "2026-09-25T21:34:00+02:00",
       "category": "Politik",
-      "score": 76.69
-    },
-    {
-      "id": "spiegel-51af4bba5c0e647b",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Donald Trump: CNN von Trumps Reise nach Tennessee ausgeschlossen",
-      "link": "https://www.spiegel.de/ausland/donald-trump-cnn-von-trumps-reise-nach-tennessee-ausgeschlossen-a-944a98f6-dae4-4899-8a1d-20a843fde422#ref=rss",
-      "summary": "CNN darf nach einer einstweiligen Verfügung wieder ins Weiße Haus – von Trumps Reise nach Tennessee wird der Nachrichtensender aber ausgeschlossen. Stattdessen übernimmt ein trumpfreundlicher Kanal.",
-      "image": "https://cdn.prod.www.spiegel.de/images/3d43cdcc-3da5-40d2-8ace-c6b1a53a2874_w1200_r1.778_fpx64_fpy50.jpg",
-      "published": "2026-09-26T05:38:00+02:00",
-      "category": "Politik",
-      "score": 75.41,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Trumps Krach mit Medien: Streit geht weiter: CNN darf Trump nicht auf Reise begleiten",
-            "link": "https://www.handelsblatt.com/politik/international/trumps-krach-mit-medien-streit-geht-weiter-cnn-darf-trump-nicht-auf-reise-begleiten/100257556.html"
-          }
-        ]
-      }
+      "score": 75.75
     },
     {
       "id": "handelsblatt-7d1250c84179605f",
@@ -204,7 +182,7 @@
       "image": "https://images.handelsblatt.com/YepeK0zZ0MpH/cover/900/506/15/3/0/0/0.5/0.5/boss-erasing-career-ladder.jpg",
       "published": "2026-09-26T06:19:00+00:00",
       "category": "Wirtschaft",
-      "score": 68.65
+      "score": 67.71
     },
     {
       "id": "handelsblatt-fd1283db01468b52",
@@ -216,7 +194,7 @@
       "image": "https://images.handelsblatt.com/6Rp3TI0UnSgT/cover/900/506/0/0/0/0/0.5/0.5/reichtum.jpg",
       "published": "2026-09-26T05:21:00+00:00",
       "category": "Wirtschaft",
-      "score": 67.84
+      "score": 66.9
     },
     {
       "id": "netzpolitik-df410f9ad5db8c14",
@@ -228,19 +206,41 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/09/26-34.jpg",
       "published": "2026-09-26T05:32:27+00:00",
       "category": "Politik",
-      "score": 65.0
+      "score": 64.06
     },
     {
-      "id": "handelsblatt-ef7c40e597acb4ab",
-      "source": "handelsblatt",
+      "id": "golem-c37f7735f346a0df",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Vor 4 Milliarden Jahren: Mond besaß schützendes Magnetfeld",
+      "link": "https://www.golem.de/news/vor-4-milliarden-jahren-mond-besass-schuetzendes-magnetfeld-2609-213439.html",
+      "summary": "Widersprüchliche Analysen von Mondgestein blieben ergebnislos. Messungen zeigen nun, das der Mond ein eigenes, extrem starkes Magnetfeld hatte. ( Mond , DLR )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213439&amp;page=1&amp;ts=1790408702",
+      "published": "2026-09-26T09:45:02+02:00",
+      "category": "Technologie",
+      "score": 56.9
+    },
+    {
+      "id": "heise-39be2a56a3dd5227",
+      "source": "heise",
       "sourceWeight": 0.9,
-      "title": "Düsseldorfer Konzern: Persil, Taft, Pril, Pritt – Henkel wird 150",
-      "link": "https://www.handelsblatt.com/politik/deutschland/duesseldorfer-konzern-persil-taft-pril-pritt-henkel-wird-150/100257545.html",
-      "summary": "Mit seinen bekannten Markenprodukten prägt Henkel seit Jahrzehnten den Alltag vieler Kunden. Ein Blick auf wichtige Meilensteine, Krisen und aktuelle Herausforderungen des Konzerns.",
-      "image": "https://images.handelsblatt.com/qYdD9P0ePRSb/cover/900/506/0/0/107/107/0.5/0.5/henkel.jpg",
-      "published": "2026-09-26T01:30:05+00:00",
-      "category": "Wirtschaft",
-      "score": 64.64
+      "title": "Big Brother Awards: Negativpreise für Digital-Omnibus, Steuer-ID & Smart Glasses",
+      "link": "https://www.heise.de/news/Big-Brother-Awards-2026-Negativpreis-fuer-Dobrindt-EU-Kommission-Telekom-Co-11463202.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
+      "summary": "Der Big Brother Award geht in diesem Jahr an die EU-Kommission, Innenminister Dobrindt, Telekom, Fielmann, Apollo-Optik und die Evangelische Nordkirche.",
+      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/7/0/1/5/1/shutterstock_2785929643-1c22fd799c9a023d.jpeg",
+      "published": "2026-09-25T18:00:00+02:00",
+      "category": "Politik",
+      "score": 55.92,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "netzpolitik",
+            "title": "Big Brother Awards: Fielmann und Apollo Optik erhalten „Überwachungs-Oscar“",
+            "link": "https://netzpolitik.org/2026/big-brother-awards-fielmann-und-apollo-optik-erhalten-ueberwachungs-oscar/"
+          }
+        ]
+      }
     }
   ]
 }
