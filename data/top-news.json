@@ -1,34 +1,7 @@
 {
-  "generatedAt": "2026-09-26T07:52:13.152856+00:00",
+  "generatedAt": "2026-09-26T11:53:14.103305+00:00",
   "count": 15,
   "articles": [
-    {
-      "id": "tagesschau-abf11c04fb081744",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Russlands Krieg gegen die Ukraine: Wettlauf der schnellen Drohnen",
-      "link": "https://www.tagesschau.de/ausland/europa/ukraine-schnelle-drohnen-100.html",
-      "summary": "Gelingt es der Ukraine, den russischen Vorsprung bei schnellen, mit Jetantrieb ausgestatteten Drohnen aufzuholen? Die Antwort entscheidet über Leben und Tod vieler Menschen. Von Kai Küstner und Stefan Niemann. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/bba5b5c3-e64e-46dc-9452-9d93285c8194/AAABoNPmfhU/AAABnSSvrFg/16x9-big/drohnen-278.jpg?width=1920",
-      "published": "2026-09-24T19:50:55+02:00",
-      "category": "Politik",
-      "score": 91.6,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Ukraine-Krieg - USA schlagen Dreiertreffen mit Russland und Ukraine vor",
-            "link": "https://www.deutschlandfunk.de/usa-schlagen-dreiertreffen-mit-russland-und-ukraine-vor-108.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "+++ Ukraine-Krieg +++: Die Ukraine bittet die Partner um weitere 27 Milliarden Dollar für Verteidigung",
-            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-moskau-schliesst-konsulat-in-st.-petersburg123/27982126.html"
-          }
-        ]
-      }
-    },
     {
       "id": "deutschlandfunk-a1e285d324e0b27d",
       "source": "deutschlandfunk",
@@ -37,7 +10,7 @@
       "link": "https://www.deutschlandfunk.de/afd-und-bsw-sprechen-laut-bericht-ueber-mdr-und-corona-ausschuss-100.html",
       "summary": "In Sachsen-Anhalt sprechen AfD und BSW bei ihren Sondierungen offenbar über den künftigen Umgang mit dem Mitteldeutschen Rundfunk und einen Corona-Untersuchungsausschuss.",
       "image": "https://bilder.deutschlandfunk.de/63/7b/66/79/637b6679-6739-462a-b6ee-1a844ae93f84/mdr-magdeburg-100-1920x1920.jpg",
-      "published": "2026-09-26T09:46:46+02:00",
+      "published": "2026-09-26T13:47:33+02:00",
       "category": "Politik",
       "score": 85.92,
       "coverage": {
@@ -52,31 +25,16 @@
       }
     },
     {
-      "id": "tagesschau-b415c7edd37aaa1c",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "US-Präsident Trump schließt CNN von Reise aus",
-      "link": "https://www.tagesschau.de/ausland/amerika/trump-cnn-112.html",
-      "summary": "Der Streit von US-Präsident Trump mit US-Medien schien nach einem Richterspruch vorerst beigelegt. Die betroffenen Journalisten bekamen wieder Zugang zum Weißen Haus. Doch nun darf CNN den Präsidenten nicht auf einer Reise begleiten. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/3d69877c-51da-455b-b3de-1f7126a16d44/AAABkXp8JJs/AAABnSSvrFg/16x9-big/cnn-logo-106.jpg?width=1920",
-      "published": "2026-09-26T09:43:28+02:00",
+      "id": "spiegel-6012ed6dfa770838",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Israel-Gaza-Krieg: Warnung vor Hamas-Angriff – Bericht erhöht Druck auf Netanyahu",
+      "link": "https://www.spiegel.de/ausland/israel-gaza-krieg-warnung-vor-hamas-angriff-bericht-erhoeht-druck-auf-netanyahu-a-4db1ad99-f104-4ee3-97d6-350180e77017#ref=rss",
+      "summary": "Ignorierte Israels Ministerpräsident Benjamin Netanyahu Warnungen vor einer Invasion der Hamas im Oktober 2023? Eine Recherche der »New York Times« stützt nun einen israelischen Medienbericht.",
+      "image": "https://cdn.prod.www.spiegel.de/images/736446b5-218c-4902-88f7-5404915995ca_w1200_r1.778_fpx60_fpy28.jpg",
+      "published": "2026-09-26T11:28:00+02:00",
       "category": "Politik",
-      "score": 83.6,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "US-Medien - Trump schließt CNN von Reise-Berichterstattung aus",
-            "link": "https://www.deutschlandfunk.de/trump-schliesst-cnn-von-reise-berichterstattung-aus-102.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "+++ USA +++: US-Sender CNN darf Trump nicht auf Reise nach Tennessee begleiten",
-            "link": "https://www.handelsblatt.com/politik/international/usa-us-sender-cnn-darf-trump-nicht-auf-reise-nach-tennessee-begleiten/29669594.html"
-          }
-        ]
-      }
+      "score": 83.98
     },
     {
       "id": "tagesschau-72632a187a68c93d",
@@ -101,16 +59,48 @@
       }
     },
     {
-      "id": "deutschlandfunk-0409181f08822cf1",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg - Sieben Tote bei Angriff auf Bürogebäude in Kiew",
-      "link": "https://www.deutschlandfunk.de/sieben-tote-bei-angriff-auf-buerogebaeude-in-kiew-102.html",
-      "summary": "In der ukrainischen Hauptstadt Kiew sind bei einem russischen Drohnenangriff mindestens sieben Menschen getötet worden.",
-      "image": "https://bilder.deutschlandfunk.de/3a/4f/1d/9c/3a4f1d9c-75f4-46a4-9c23-003e1b32681f/angriffe-kiew-104-1920x1920.jpg",
-      "published": "2026-09-26T09:46:46+02:00",
+      "id": "tagesschau-b415c7edd37aaa1c",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "US-Präsident Trump schließt CNN von Reise aus",
+      "link": "https://www.tagesschau.de/ausland/amerika/trump-cnn-112.html",
+      "summary": "Der Streit von US-Präsident Trump mit US-Medien schien nach einem Richterspruch vorerst beigelegt. Die betroffenen Journalisten bekamen wieder Zugang zum Weißen Haus. Doch nun darf CNN den Präsidenten nicht auf einer Reise begleiten. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/3d69877c-51da-455b-b3de-1f7126a16d44/AAABkXp8JJs/AAABnSSvrFg/16x9-big/cnn-logo-106.jpg?width=1920",
+      "published": "2026-09-26T09:43:28+02:00",
       "category": "Politik",
-      "score": 77.92
+      "score": 78.92,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "US-Medien - Trump schließt CNN von Reise-Berichterstattung aus",
+            "link": "https://www.deutschlandfunk.de/trump-schliesst-cnn-von-reise-berichterstattung-aus-102.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-e04028d1942311f3",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Außenminister Wadephul spricht vor UN-Generalversammlung",
+      "link": "https://www.tagesschau.de/ausland/amerika/un-versammlung-wadephul-lawrow-100.html",
+      "summary": "Bundesaußenminister Wadephul vertritt heute Kanzler Merz bei den Vereinten Nationen. Die Unterstützung der Ukraine wird in seiner Rede vor der UN-Generalversammlung voraussichtlich im Mittelpunkt stehen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/4671b9bf-3e79-479f-b7cf-3698afddcae3/AAABoNzXAJs/AAABnSSvrFg/16x9-big/johann-wadephul-166.jpg?width=1920",
+      "published": "2026-09-26T11:11:14+02:00",
+      "category": "Politik",
+      "score": 78.92,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "New York - Bundesaußenminister Wadephul spricht vor UNO-Vollversammlung",
+            "link": "https://www.deutschlandfunk.de/bundesaussenminister-wadephul-spricht-vor-uno-vollversammlung-100.html"
+          }
+        ]
+      }
     },
     {
       "id": "deutschlandfunk-29d9b1cae3fb6a42",
@@ -120,7 +110,7 @@
       "link": "https://www.deutschlandfunk.de/medienbericht-trump-lehnt-iranischen-vorschlag-ab-100.html",
       "summary": "US-Präsident ⁠Trump ⁠lehnt ⁠einem Medienbericht zufolge ⁠den Vorschlag ⁠des ‌Iran für eine erneute Waffenruhe ab.",
       "image": "https://bilder.deutschlandfunk.de/a4/8a/5d/06/a48a5d06-de72-44fa-af82-aeef301133ec/trump-290-1920x1920.jpg",
-      "published": "2026-09-26T09:46:46+02:00",
+      "published": "2026-09-26T13:47:33+02:00",
       "category": "Politik",
       "score": 77.92
     },
@@ -132,9 +122,55 @@
       "link": "https://www.deutschlandfunk.de/erfolg-fuer-trump-oberster-gerichtshof-erlaubt-ueberpruefung-der-wahlberechtigung-mit-einwanderungsd-102.html",
       "summary": "Der ​Oberste Gerichtshof der USA hat die umstrittene Nutzung einer Datenbank zur Überprüfung von Wahlberechtigten vorerst zugelassen.",
       "image": "https://bilder.deutschlandfunk.de/74/1d/b3/40/741db340-2797-420c-be91-83417a9e9e2a/supreme-court-usa-104-1920x1920.jpg",
-      "published": "2026-09-26T09:46:46+02:00",
+      "published": "2026-09-26T13:47:33+02:00",
       "category": "Politik",
       "score": 77.92
+    },
+    {
+      "id": "deutschlandfunk-be456579a241b6cc",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Ukraine-Krieg - USA schlagen Dreiertreffen mit Russland und Ukraine vor",
+      "link": "https://www.deutschlandfunk.de/usa-schlagen-dreiertreffen-mit-russland-und-ukraine-vor-108.html",
+      "summary": "Die USA haben ein neues Dreiertreffen mit Russland und der Ukraine vorgeschlagen.",
+      "image": "https://bilder.deutschlandfunk.de/15/c7/c2/c8/15c7c2c8-41c2-4be8-89c4-1c177230f73b/abu-dhabi-ukraine-russland-100-1280x1280.jpg",
+      "published": "2026-09-26T13:47:33+02:00",
+      "category": "Politik",
+      "score": 77.92
+    },
+    {
+      "id": "tagesschau-0741dada9ceece2c",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Überschwemmungen: Behörden rufen Katastrophenfall in Bangkok aus",
+      "link": "https://www.tagesschau.de/ausland/asien/thailand-unwetter-regen-100.html",
+      "summary": "Überflutete Straßen und vollgelaufene Kanäle - in der thailändischen Hauptstadt Bangkok herrscht nach tagelangen Regenfällen Notstand. Der Wetterdienst warnt vor neuen Regenfällen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/926990cd-1995-4653-9745-474883f75c7a/AAABoNx4gfo/AAABnSSvrFg/16x9-big/ueberschwemmung-strasse-106.jpg?width=1920",
+      "published": "2026-09-26T09:59:24+02:00",
+      "category": "Nachrichten",
+      "score": 75.92,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Überschwemmungen in Thailand - Bangkok ruft den Katastrophenfall aus",
+            "link": "https://www.deutschlandfunk.de/bangkok-ruft-den-katastrophenfall-aus-100.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "handelsblatt-7ebbdb5a19b1c4eb",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Trump Watch: Trump setzt vor US-Zwischenwahlen alles auf KI und Rechenzentren – aber der Widerstand dagegen wächst",
+      "link": "https://www.handelsblatt.com/audio/trump-watch-podcast/trump-watch-trump-setzt-vor-us-zwischenwahlen-alles-auf-ki-und-rechenzentren/100257547.html",
+      "summary": "Die Stromkosten steigen – und ebenso die Angst vor einem Kontrollverlust des Menschen. Künstliche Intelligenz wird zum zentralen Wahlkampfthema der Zwischenwahlen 2026.",
+      "image": "https://images.handelsblatt.com/ajuKMP7NmADk/cover/900/506/0/0/210/1103/0.5/0.5/cover-podcast-trump-watch.jpg",
+      "published": "2026-09-26T08:10:57+00:00",
+      "category": "Politik",
+      "score": 73.91
     },
     {
       "id": "spiegel-eb7cb061f9df3b62",
@@ -146,7 +182,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/af8891e5-a7a7-4f22-949c-1c82fd0582ba_w1200_r1.778_fpx47_fpy24.jpg",
       "published": "2026-09-26T07:45:00+02:00",
       "category": "Politik",
-      "score": 76.23
+      "score": 72.89
     },
     {
       "id": "spiegel-19ca4ad18f6f3ed5",
@@ -158,89 +194,43 @@
       "image": "https://cdn.prod.www.spiegel.de/images/1dc4e095-3817-438d-bb31-1b61ebc127cb_w1200_r1.778_fpx44_fpy55.jpg",
       "published": "2026-09-26T07:43:00+02:00",
       "category": "Politik",
-      "score": 76.21
+      "score": 72.86
     },
     {
-      "id": "spiegel-b1263ca5e07017d1",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Inside Russia: Hinter dem neuen eisernen Vorhang - SPIEGEL TV",
-      "link": "https://www.spiegel.de/ausland/inside-russia-hinter-dem-neuen-eisernen-vorhang-spiegel-tv-a-5b50ae6c-3fd1-4013-957e-95516de3e1a0#ref=rss",
-      "summary": "Treibstoffkrise, steigende Preise, Angst vor einer neuen Mobilmachung: Russlands Bevökerung spürt längst, wie der Krieg gegen die Ukraine auch bei ihnen ankommt. Ein Blick hinter Putins eisernen Vorhang.",
-      "image": "https://cdn.prod.www.spiegel.de/images/2e0c5e9d-6546-4992-ad3b-450afa8977c8_w1200_r1.778_fpx49_fpy40.jpg",
-      "published": "2026-09-25T21:34:00+02:00",
-      "category": "Politik",
-      "score": 75.75
-    },
-    {
-      "id": "handelsblatt-7d1250c84179605f",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Führungskräfte: Hochqualifiziert, erfolgreich, arbeitssuchend – Vier Betroffene berichten",
-      "link": "https://www.handelsblatt.com/karriere/fuehrungskraefte-warum-jobverlust-fuer-viele-highperformer-zur-existenzfrage-wird/100228751.html",
-      "summary": "In der Krise finden auch Menschen, deren Karrieren bislang steil nach oben gingen, keinen Job mehr. Vier Betroffene erzählen, vor welche Herausforderungen sie das stellt.",
-      "image": "https://images.handelsblatt.com/YepeK0zZ0MpH/cover/900/506/15/3/0/0/0.5/0.5/boss-erasing-career-ladder.jpg",
-      "published": "2026-09-26T06:19:00+00:00",
-      "category": "Wirtschaft",
-      "score": 67.71
-    },
-    {
-      "id": "handelsblatt-fd1283db01468b52",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Vermögen: Bin ich schon reich oder nicht? Dieser Rechner liefert Ihnen die Antwort",
-      "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/reichtum-mit-so-viel-vermoegen-gelten-sie-in-deutschland-als-reich-02/100149729.html",
-      "summary": "Trotz Inflation zeigen aktuelle Daten, dass die Vermögen in Deutschland gewachsen sind. Der Handelsblatt-Rechner zeigt Ihnen, wo Sie im Vergleich zur deutschen Bevölkerung stehen.",
-      "image": "https://images.handelsblatt.com/6Rp3TI0UnSgT/cover/900/506/0/0/0/0/0.5/0.5/reichtum.jpg",
-      "published": "2026-09-26T05:21:00+00:00",
-      "category": "Wirtschaft",
-      "score": 66.9
-    },
-    {
-      "id": "netzpolitik-df410f9ad5db8c14",
-      "source": "netzpolitik",
-      "sourceWeight": 0.75,
-      "title": "KW 39: Die Woche, in der mit Hufeisen geworfen wird",
-      "link": "https://netzpolitik.org/2026/kw-39-die-woche-in-der-mit-hufeisen-geworfen-wird/",
-      "summary": "Die 39. Kalenderwoche geht zu Ende. Wir haben 11 neue Texte mit insgesamt 74.705 Zeichen veröffentlicht. Willkommen zum netzpolitischen Wochenrückblick. Fraktal, generiert mit MandelBrowser von Tomasz Śmigielski Liebe Leser*innen, wir sind nicht mehr oft auf der Plattform X unterwegs und hätten nicht gedacht, dass sie uns einmal fehlen wird. In den Tagen nach der Berlin-Wahl am vergangenen Sonntag bot die Plattform allerdings so viel Anlass für Vergnügen, Entsetzen und auch Fassungslosigkeit wie schon lange nicht mehr. Das liegt daran, dass große Teile der Hauptstadtpresse und Politik noch immer dort versammelt sind. Deren kollektives Freidrehen angesichts des Wahlerfolgs der Linken zu beobachten, war beeindruckend. Von Fantasien über eine „rote Diktatur“ bis zu Warnungen, bald würden Hamas und Hisbollah Berlin regieren, war alles dabei. Aber auch jenseits von X war viel los: Der Fernsehmoderator Jörg Thadeusz war sich nicht zu schade zur besten Sendezeit die gegen Nazis gerichtete Parole „ Wehret den Anfängen “ nun als Motto einer „vernünftigen Mehrheit im Land“ gegen die Linkspartei auszugeben. …",
-      "image": "https://cdn.netzpolitik.org/wp-upload/2026/09/26-34.jpg",
-      "published": "2026-09-26T05:32:27+00:00",
-      "category": "Politik",
-      "score": 64.06
-    },
-    {
-      "id": "golem-c37f7735f346a0df",
+      "id": "golem-6fa498fe9e1aab80",
       "source": "golem",
       "sourceWeight": 0.85,
-      "title": "Vor 4 Milliarden Jahren: Mond besaß schützendes Magnetfeld",
-      "link": "https://www.golem.de/news/vor-4-milliarden-jahren-mond-besass-schuetzendes-magnetfeld-2609-213439.html",
-      "summary": "Widersprüchliche Analysen von Mondgestein blieben ergebnislos. Messungen zeigen nun, das der Mond ein eigenes, extrem starkes Magnetfeld hatte. ( Mond , DLR )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213439&amp;page=1&amp;ts=1790408702",
-      "published": "2026-09-26T09:45:02+02:00",
-      "category": "Technologie",
-      "score": 56.9
+      "title": "Lufttransport: Wie Roboter die ukrainische Offensive unterstützen",
+      "link": "https://www.golem.de/news/lufttransport-wie-roboter-die-ukrainische-offensive-unterstuetzen-2609-213460.html",
+      "summary": "Die Ukraine setzt autonome Roboter ein, um Minenfelder zu räumen, Nachschublinien zu durchbrechen und gegnerische Verbände zu flankieren. ( Roboter , Politik )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213460&amp;page=1&amp;ts=1790418301",
+      "published": "2026-09-26T12:25:01+02:00",
+      "category": "Politik",
+      "score": 66.77
     },
     {
-      "id": "heise-39be2a56a3dd5227",
-      "source": "heise",
+      "id": "handelsblatt-e0e40d940b23dec1",
+      "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Big Brother Awards: Negativpreise für Digital-Omnibus, Steuer-ID & Smart Glasses",
-      "link": "https://www.heise.de/news/Big-Brother-Awards-2026-Negativpreis-fuer-Dobrindt-EU-Kommission-Telekom-Co-11463202.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "summary": "Der Big Brother Award geht in diesem Jahr an die EU-Kommission, Innenminister Dobrindt, Telekom, Fielmann, Apollo-Optik und die Evangelische Nordkirche.",
-      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/7/0/1/5/1/shutterstock_2785929643-1c22fd799c9a023d.jpeg",
-      "published": "2026-09-25T18:00:00+02:00",
+      "title": "Führung und KI: „So einen Abbau hat es in der deutschen Wirtschaft noch nie gegeben“: Das Ende des Managers als Massenberuf",
+      "link": "https://www.handelsblatt.com/unternehmen/management/ki-geraten-traditionelle-managerrollen-unter-druck/100243656.html",
+      "summary": "Überall im Land bauen Unternehmen historisch gewachsene Strukturen ab. Das trifft zunehmend gut bezahlte Führungskräfte. Experten warnen: „Das eigentliche Erdbeben kommt erst.“",
+      "image": "https://images.handelsblatt.com/aUFl8jobxRo4/cover/900/506/0/104/0/0/0.5/0.5/kann-der-weg.jpg",
+      "published": "2026-09-26T08:52:00+00:00",
+      "category": "Wirtschaft",
+      "score": 66.48
+    },
+    {
+      "id": "golem-5f54972c2625b55f",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "KI-Choke: Bill Gates warnt vor tödlicher Waffe",
+      "link": "https://www.golem.de/news/ki-choke-bill-gates-warnt-vor-toedlicher-waffe-2609-213461.html",
+      "summary": "Bill Gates drängt den US-Kongress zu strengen KI-Regularien. Während Donald Trump jede Aufsicht ablehnt, entdecken Sicherheitsforscher alarmierende Lücken. ( Bill Gates , KI )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213461&amp;page=1&amp;ts=1790411102",
+      "published": "2026-09-26T10:25:02+02:00",
       "category": "Politik",
-      "score": 55.92,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "netzpolitik",
-            "title": "Big Brother Awards: Fielmann und Apollo Optik erhalten „Überwachungs-Oscar“",
-            "link": "https://netzpolitik.org/2026/big-brother-awards-fielmann-und-apollo-optik-erhalten-ueberwachungs-oscar/"
-          }
-        ]
-      }
+      "score": 65.11
     }
   ]
 }
