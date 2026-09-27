@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T17:58:00.553175+00:00",
+  "generatedAt": "2026-09-27T18:31:44.155318+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/771303fc-5e03-4b42-beb5-3d478ad2ae77/AAABoN5-D6E/AAABnSSvrFg/16x9-big/wadephul-lawrow-100.jpg?width=1920",
       "published": "2026-09-27T00:29:36+02:00",
       "category": "Politik",
-      "score": 86.67,
+      "score": 86.2,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -44,7 +44,7 @@
       "image": "https://images.tagesschau.de/image/7c8cdd4c-ccfe-4d98-b950-1a17363efd08/AAABoOKf7UY/AAABnSSvrFg/16x9-big/netanjahu-348.jpg?width=1920",
       "published": "2026-09-27T13:27:48+02:00",
       "category": "Politik",
-      "score": 86.67,
+      "score": 86.2,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -66,7 +66,7 @@
       "image": "https://images.tagesschau.de/image/c0a2770e-832c-4c37-b2e2-04315c739d31/AAABoN5ca9M/AAABnSSvrFg/16x9-big/trump-5302.jpg?width=1920",
       "published": "2026-09-26T17:50:22+02:00",
       "category": "Politik",
-      "score": 85.21,
+      "score": 84.74,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -74,6 +74,33 @@
             "source": "handelsblatt",
             "title": "Iran-Krieg: Trump: Erwarte weitere Gespräche mit dem Iran",
             "link": "https://www.handelsblatt.com/politik/international/iran-krieg-trump-erwarte-weitere-gespraeche-mit-dem-iran/100257751.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-1cbda53208798366",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Terrorverdacht: Britische Polizei nimmt fünf Männer bei Militärstützpunkt fest",
+      "link": "https://www.tagesschau.de/ausland/festnahmen-grossbritannien-luftwaffenstuetzpunkt-100.html",
+      "summary": "Großeinsatz nach Sprengstoffverdacht: An dem auch von den USA genutzten britischen Militärstützpunkt Fairford sind fünf Männer festgenommen worden. Laut US-Präsident Trump wollten sie \"großen Schaden\" anrichten.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/918a0888-e179-49a0-a6be-808cd7480126/AAABoOIhNv0/AAABnSSvrFg/16x9-big/britische-polizei-rettungswagen-100.jpg?width=1920",
+      "published": "2026-09-27T18:57:19+02:00",
+      "category": "Politik",
+      "score": 82.88,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Großbritannien - Vorfall an von den USA genutzter Militärbasis Fairford - Fünf Männer wegen Terrorverdachts festgenommen",
+            "link": "https://www.deutschlandfunk.de/vorfall-an-von-den-usa-genutzter-militaerbasis-fairford-fuenf-maenner-wegen-terrorverdachts-festgeno-100.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "Fairford: Terrorverdacht nahe US-Stützpunkt – fünf Festnahmen",
+            "link": "https://www.spiegel.de/ausland/fairford-terrorverdacht-nahe-us-stuetzpunkt-fuenf-festnahmen-a-43215381-f6f3-47bc-9496-1918b1903884#ref=rss"
           }
         ]
       }
@@ -88,7 +115,7 @@
       "image": "https://images.tagesschau.de/image/4abbdcc1-c6ca-4fda-bc66-95ed1b412be2/AAABoOLaiCg/AAABnSSvrFg/16x9-big/panzersperren-100.jpg?width=1920",
       "published": "2026-09-27T14:01:01+02:00",
       "category": "Politik",
-      "score": 82.04,
+      "score": 81.57,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -110,7 +137,7 @@
       "image": "https://bilder.deutschlandfunk.de/5f/83/97/67/5f839767-ae3c-42c6-899e-28b92aa90899/radtke-100-1920x1920.jpg",
       "published": "2026-09-27T19:33:55+02:00",
       "category": "Politik",
-      "score": 77.67,
+      "score": 77.2,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -132,7 +159,7 @@
       "image": "https://bilder.deutschlandfunk.de/a0/e3/73/21/a0e37321-7685-4dc1-9ae2-c90cb21b4e0e/ukraine-angriff-russland-100-1920x1920.jpg",
       "published": "2026-09-27T19:33:55+02:00",
       "category": "Politik",
-      "score": 77.67,
+      "score": 77.2,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -154,29 +181,19 @@
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_c/22/NOVA_c2252f10594e9efd2b6bce5b2bf3ca7b/craft-13140807-asset-100-1920x1920.jpg",
       "published": "2026-09-27T19:33:55+02:00",
       "category": "Politik",
-      "score": 77.67
+      "score": 77.2
     },
     {
-      "id": "spiegel-115ce360a072f899",
+      "id": "spiegel-98f98986ebaf40c9",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Fairford: Terrorverdacht nahe US-Stützpunkt – fünf Festnahmen",
-      "link": "https://www.spiegel.de/ausland/fairford-terrorverdacht-nahe-us-stuetzpunkt-fuenf-festnahmen-a-43215381-f6f3-47bc-9496-1918b1903884#ref=rss",
-      "summary": "Im britischen Fairford sind US-Bomber für den Krieg gegen Iran stationiert. Nun wurden drei verdächtige Fahrzeuge auf dem Weg dorthin abgefangen. Die Verdächtigen sind in Gewahrsam.",
-      "image": "https://cdn.prod.www.spiegel.de/images/8463dde1-ee07-4503-b446-9c8110a86c11_w1200_r1.778_fpx64_fpy50.jpg",
-      "published": "2026-09-27T17:23:00+02:00",
-      "category": "Nachrichten",
-      "score": 72.85,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Großbritannien: Mehrere Festnahmen nahe US-Militärbasis in England",
-            "link": "https://www.handelsblatt.com/politik/international/grossbritannien-mehrere-festnahmen-nahe-us-militaerbasis-in-england/100257706.html"
-          }
-        ]
-      }
+      "title": "Hannover: Belit Onay als Oberbürgermeister wiedergewählt",
+      "link": "https://www.spiegel.de/politik/deutschland/hannover-belit-onay-als-oerbuergermeister-wiedergewaehlt-a-0861c578-806a-4762-b87d-6a88e987bafa#ref=rss",
+      "summary": "In vielen Städten und Landkreisen in Niedersachsen entscheiden die Bürger in Stichwahlen über Bürgermeister und Landräte. Das Ergebnis in der Landeshauptstadt Hannover steht bereits fest.",
+      "image": "https://cdn.prod.www.spiegel.de/images/236d594f-58a6-44dc-9640-9f486043c6f8_w1200_r1.778_fpx62.7_fpy50.jpg",
+      "published": "2026-09-27T20:13:00+02:00",
+      "category": "Politik",
+      "score": 69.74
     },
     {
       "id": "deutschlandfunk-2d314e8be26fc2d6",
@@ -188,7 +205,19 @@
       "image": "https://bilder.deutschlandfunk.de/99/08/f4/d8/9908f4d8-2197-4e49-b432-48afa55b8b5f/niedersachsen-stichwahlen-100-1920x1920.jpg",
       "published": "2026-09-27T19:33:55+02:00",
       "category": "Politik",
-      "score": 69.67
+      "score": 69.2
+    },
+    {
+      "id": "handelsblatt-8926b1fbe4c4d82f",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Von USA genutzter Stützpunkt: Festnahmen bei britischer Militärbasis - Terrorverdacht",
+      "link": "https://www.handelsblatt.com/politik/international/von-usa-genutzter-stuetzpunkt-festnahmen-bei-britischer-militaerbasis-terrorverdacht/100257743.html",
+      "summary": "Laut US-Präsident Trump wollten sie „großen Schaden“ anrichten: Fünf Männer stehen nach einem Vorfall nahe einer britischen Militärbasis unter Terrorverdacht. Den Stützpunkt nutzt die US-Luftwaffe.",
+      "image": "https://images.handelsblatt.com/T2zuG7ld-le3/cover/900/506/0/0/47/47/0.5/0.5/iran-konflikt-grossbritannien.jpg",
+      "published": "2026-09-27T18:21:06+00:00",
+      "category": "Politik",
+      "score": 68.85
     },
     {
       "id": "spiegel-4363d7ce7fc87d1f",
@@ -200,7 +229,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/969d794f-9098-4998-b6e8-b4aa934f15e1_w1200_r1.778_fpx52_fpy21.jpg",
       "published": "2026-09-27T19:44:00+02:00",
       "category": "Nachrichten",
-      "score": 66.81,
+      "score": 66.34,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -222,7 +251,7 @@
       "image": "https://images.handelsblatt.com/wGkFTFZjEkLD/cover/900/506/0/0/313/312/0.5/0.5/attendees-cheer-as-us-senator-ted-cruz-republican-from-texas-speaks-during-the-second-day-of-the-r.jpg",
       "published": "2026-09-27T15:14:27+00:00",
       "category": "Politik",
-      "score": 66.73
+      "score": 66.26
     },
     {
       "id": "spiegel-3d69f074db3741c4",
@@ -234,43 +263,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/09daa694-b063-4699-a88c-6e0d2733b83f_w1200_r1.778_fpx33.81_fpy49.99.jpg",
       "published": "2026-09-27T16:00:00+02:00",
       "category": "Politik",
-      "score": 66.69
+      "score": 66.23
     },
     {
-      "id": "spiegel-2f5c8ced0a032959",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Traumziel Paraguay: Warum immer mehr Deutsche nach Südamerika auswandern",
-      "link": "https://www.spiegel.de/ausland/traumziel-paraguay-warum-immer-mehr-deutsche-nach-suedamerika-auswandern-a-8eeea25c-52e7-47eb-83b1-f55554b24377#ref=rss",
-      "summary": "»Die Nachfrage ist riesig«: Immer mehr Deutsche ziehen nach Paraguay, aus ganz anderen Gründen als zur Coronazeit. Wer Fuß fassen will, sollte eine Menge Geld mitbringen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/de35a218-3edb-437f-b379-f274480e381a_w1200_r1.778_fpx70_fpy54.jpg",
-      "published": "2026-09-27T18:53:00+02:00",
-      "category": "Nachrichten",
-      "score": 66.1
-    },
-    {
-      "id": "handelsblatt-59673930431ec5a9",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Märkte Insight: Das endgültige Ende der Nullzins-Ära steht kurz bevor",
-      "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/maerkte-insight-das-endgueltige-ende-der-nullzins-aera-steht-kurz-bevor/100256081.html",
-      "summary": "Noch eine Notenbank weltweit hält den Leitzins bei null Prozent. Doch auch in diesem Währungsraum zieht die Inflation an. Ein globales geldpolitisches Experiment endet, meint Jakob Blume.",
-      "image": "https://images.handelsblatt.com/chK7k8CufIzF/cover/900/506/0/0/0/0/0.5/0.5/186-marktkolumne-et-28.09.2026-jakob-blume.jpg",
-      "published": "2026-09-27T12:36:46+00:00",
-      "category": "Wirtschaft",
-      "score": 64.54
-    },
-    {
-      "id": "handelsblatt-e54264c94bc686bb",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Prognosemärkte: So präzise hat Polymarket die US-Vorwahlen vorhergesagt",
-      "link": "https://www.handelsblatt.com/politik/international/prognosemaerkte-so-praezise-hat-polymarket-die-us-vorwahlen-vorhergesagt/100253622.html",
-      "summary": "Das Handelsblatt hat die Wahlausgänge aller US-Primaries ausgewertet und mit den entsprechenden Prognosemarkt-Wetten abgeglichen. Sind die Plattformen ein guter Indikator?",
-      "image": "https://images.handelsblatt.com/39LtfR81kx9T/cover/900/506/0/0/191/289/0.5/0.5/people-walk-by-madison-square-garden-in-new-york-on-july-1-2026.-increasing-signs-point-to-a-mega-b.jpg",
-      "published": "2026-09-27T12:01:02+00:00",
+      "id": "golem-f1b22b9aac34cad4",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Rechenzentren und Netzbetreiber: Russland greift digitale Seele der Ukraine an",
+      "link": "https://www.golem.de/news/rechenzentren-und-netzbetreiber-russland-greift-digitale-seele-der-ukraine-an-2609-213472.html",
+      "summary": "Russland richtet seine Waffen nicht nur gegen ukrainische Strom- und Wasserversorger, sondern systematisch auch gegen Rechenzentren und Internetanbieter. ( Rechenzentrum , Mobilfunk )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213472&amp;page=1&amp;ts=1790509501",
+      "published": "2026-09-27T13:45:01+02:00",
       "category": "Politik",
-      "score": 64.04
+      "score": 62.35
     }
   ]
 }
