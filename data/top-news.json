@@ -1,174 +1,188 @@
 {
-  "generatedAt": "2026-09-29T08:44:14.092360+00:00",
+  "generatedAt": "2026-09-29T13:28:36.329879+00:00",
   "count": 15,
   "articles": [
     {
-      "id": "handelsblatt-4af9cb97ccc2ab3f",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Iran-Krieg +++: Iran droht mit Aus für alle Öl-Exporte aus der Region",
-      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-iran-droht-mit-aus-fuer-alle-oel-exporte-aus-der-region/100136895.html",
-      "summary": "Iran meldet wieder aufgenommene Verhandlungen mit USA +++ Hamas-Kommandeur in Gaza bei israelischem Luftangriff getötet +++ Emirate bestätigen geheimes Treffen mit Netanjahu +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/0FNKF6bClRgp/cover/900/506/0/0/114/19/0.5/0.5/mohammed-ghalibaf.jpg",
-      "published": "2026-09-29T08:27:00+00:00",
-      "category": "Politik",
-      "score": 84.76
-    },
-    {
-      "id": "tagesschau-0e079122d942c63c",
+      "id": "tagesschau-50b81a93f4584cac",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Putin stockt russische Armee weiter auf",
-      "link": "https://www.tagesschau.de/ausland/europa/russland-armee-aufstockung-100.html",
-      "summary": "Russland erleidet stetig hohe Verluste in der Ukraine. Nun ordnet Präsident Putin die erneute Aufstockung der Armee an. Nach Erkenntnissen Kiews sollen auch neue ausländische Kämpfer eingesetzt werden.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/cdf58f8a-5327-42e5-bf63-2071053320d7/AAABoOwJhf0/AAABnSSvrFg/16x9-big/putin-1544.jpg?width=1920",
-      "published": "2026-09-29T07:50:11+02:00",
+      "title": "Weltwirtschaftsforum in Davos: Wirbel um angebliche Attentatspläne auf Trump",
+      "link": "https://www.tagesschau.de/ausland/europa/wef-trump-verdacht-anschlag-100.html",
+      "summary": "Während des Weltwirtschaftsforums gab es nach ARD-Recherchen den Verdacht, dass ein Anschlag auf US-Präsident Trump geplant sein könnte. Eine Mitarbeiterin des Forums wurde zeitweise festgenommen. Von S. Dodt und T. Knellwolf. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/6d62a96d-fdc4-46ba-bdd9-9e5ccb865f31/AAABoOtSoJM/AAABnSSvrFg/16x9-big/trump-davos-130.jpg?width=1920",
+      "published": "2026-09-29T06:00:56+02:00",
       "category": "Politik",
-      "score": 83.42,
+      "score": 78.03,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Anschlagspläne: Verdacht auf Trump-Anschlag: WEF-Mitarbeiterin entlastet",
+            "link": "https://www.handelsblatt.com/politik/international/anschlagsplaene-verdacht-auf-trump-anschlag-wef-mitarbeiterin-entlastet/100258322.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-6bdec1df4ef3dc57",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Russischer Angriffskrieg - Wadephul fordert von Slowakei mehr Solidarität mit Ukraine",
+      "link": "https://www.deutschlandfunk.de/wadephul-fordert-von-slowakei-mehr-solidaritaet-mit-ukraine-100.html",
+      "summary": "Bundesaußenminister Wadephul hat die Slowakei zu mehr Solidarität mit der Ukraine aufgefordert. Der CDU-Politiker sagte bei einem Treffen mit seinem slowakischen Amtskollegen Blanar in Bratislava, für Deutschland gehöre zu einer umfassenden Unterstützung für die Ukraine auch die Abkoppelung von russischen Energielieferungen. Dafür müssten alle Partner gemeinsam einstehen.",
+      "image": "https://bilder.deutschlandfunk.de/be/3f/fc/a0/be3ffca0-2cbc-42bd-b453-cb9b7924abfd/wadephul-blanar-bratislawa-100-1920x1920.jpg",
+      "published": "2026-09-29T15:21:22+02:00",
+      "category": "Politik",
+      "score": 77.9
+    },
+    {
+      "id": "spiegel-5f19ad7ff414b96b",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "AfD in Sachsen-Anhalt: Ulrich Siegmund will sich im Dezember zur Wahl stellen",
+      "link": "https://www.spiegel.de/politik/deutschland/afd-in-sachsen-anhalt-ulrich-siegmund-will-sich-im-dezember-zur-wahl-stellen-a-05dac361-08f9-4453-ac41-ba5ef68100c7#ref=rss",
+      "summary": "Die AfD hat die Landtagswahl in Sachsen-Anhalt gewonnen, nun soll der nächste Schritt folgen: Nach eigenen Angaben will sich Spitzenkandidat Ulrich Siegmund als Regierungschef zur Wahl stellen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/3d75b4d2-5af1-4dfa-b9ea-5644b9888d03_w1200_r1.778_fpx63_fpy37.jpg",
+      "published": "2026-09-29T14:46:00+02:00",
+      "category": "Politik",
+      "score": 77.56,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Sachsen-Anhalt: Siegmund will im Dezember Regierungschef werden",
+            "link": "https://www.handelsblatt.com/politik/deutschland/sachsen-anhalt-siegmund-will-im-dezember-regierungschef-werden/100258337.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-79600c893b3c5c7b",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Berlin - Issa Rammo: Wie Clan-Chef auf die Wahlparty der Linken kam - SPIEGEL TV",
+      "link": "https://www.spiegel.de/panorama/berlin-issa-rammo-wie-clan-chef-auf-die-wahlparty-der-linken-kam-spiegel-tv-a-55786068-6562-488e-b0df-2914ac214a8b#ref=rss",
+      "summary": "In Berlin möchte die Linke mit aller Macht an die Macht. Im Weg stehen dabei ausgerechnet Genossen aus den eigenen Reihen: Israelhasser, Menschen mit Verbindungen zu Clans und solche, die die Polizei am liebsten abschaffen würden.",
+      "image": "https://cdn.prod.www.spiegel.de/images/df38a17f-1ab9-4623-ae1a-ebb2b0425e29_w1200_r1.778_fpx39_fpy40.jpg",
+      "published": "2026-09-29T14:19:00+02:00",
+      "category": "Politik",
+      "score": 77.03
+    },
+    {
+      "id": "handelsblatt-3399ba05e9fc37bb",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Ukraine: Weizen 39 Prozent teurer: Der Seekrieg im Schwarzen Meer trifft den globalen Lebensmittel-Nachschub",
+      "link": "https://www.handelsblatt.com/politik/international/ukraine-der-krieg-im-schwarzen-meer-trifft-den-globalen-lebensmittel-nachschub/100257715.html",
+      "summary": "318 Schiffsangriffe allein in diesem Jahr, Exporteinbrüche um mehr als die Hälfte – die wichtigste Getreideroute der Welt kollabiert. Außenminister Wadephul warnt: „Es drohen Hungersnöte.“",
+      "image": "https://images.handelsblatt.com/up81aBUhe34q/cover/900/506/0/0/313/312/0.5/0.5/sailors-hold-a-banner-reading-quotwe-dont-want-to-die-on-shipsquot-during-a-sailors-protest-aga.jpg",
+      "published": "2026-09-29T12:58:27+00:00",
+      "category": "Politik",
+      "score": 76.58
+    },
+    {
+      "id": "handelsblatt-4637cbed54927c2c",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ Ukraine-Krieg +++: Offenbar Treffen von russischem Sondergesandten mit US-Vertretern",
+      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-moskau-schliesst-konsulat-in-st.-petersburg123/27982126.html",
+      "summary": "Tusk warnt vor Dauerangriffen an der Grenze zu Polen +++ Irans Regierung warnt Bevölkerung vor Energieengpässen +++ Selenskyj: Haben ballistische Raketen abgewehrt +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/XFYtQXNPEJcS/cover/900/506/0/0/307/307/0.5/0.5/kirill-dmitriew.jpg",
+      "published": "2026-09-29T12:36:00+00:00",
+      "category": "Politik",
+      "score": 76.27
+    },
+    {
+      "id": "handelsblatt-3f128209eb6789c8",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Energieversorgung: Maßnahme gegen Energiekrise: EU bereitet Lockerung der Methanverordnung vor",
+      "link": "https://www.handelsblatt.com/politik/international/energieversorgung-eu-bereitet-lockerung-der-methanverordnung-vor/100257897.html",
+      "summary": "Die EU-Kommission will Berichtspflichten aussetzen. Damit soll die wegen des Irankriegs angespannte Energieversorgung gesichert werden. Viele Mitgliedsländer fordern weitere Lockerungen.",
+      "image": "https://images.handelsblatt.com/RUO5LgwuKNZv/cover/900/506/0/0/313/312/0.5/0.5/dpatopbilder-11.12.2025-mecklenburg-vorpommern-lubmin-ein-gemisch-aus-erdgas-und-wasserstoff-br.jpg",
+      "published": "2026-09-29T12:02:06+00:00",
+      "category": "Wirtschaft",
+      "score": 75.8
+    },
+    {
+      "id": "deutschlandfunk-3d0e4626f2471584",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Hamburger Hafen - Bericht: Bundesregierung will chinesische Übernahme von Logistikunternehmen Zippel stoppen",
+      "link": "https://www.deutschlandfunk.de/bericht-bundesregierung-will-chinesische-uebernahme-von-logistikunternehmen-zippel-stoppen-100.html",
+      "summary": "Die Bundesregierung will laut einem Medienbericht den Verkauf eines Hamburger Logistikunternehmens an den chinesischen Staatskonzern Cosco verhindern.",
+      "image": "https://bilder.deutschlandfunk.de/1d/27/ed/e6/1d27ede6-7314-46e5-8c0b-f09451e8f4d3/cosco-hamburg-hafen-100-1920x1920.jpg",
+      "published": "2026-09-29T15:21:22+02:00",
+      "category": "Politik",
+      "score": 74.58,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
-            "source": "deutschlandfunk",
-            "title": "Ukraine-Krieg - Putin ordnet Aufstockung der Armee an - erneut Angriffe auf Kiew",
-            "link": "https://www.deutschlandfunk.de/putin-ordnet-aufstockung-der-armee-an-erneut-angriffe-auf-kiew-100.html"
+            "source": "spiegel",
+            "title": "Hamburg Hafen: Bundesregierung will chinesische Übernahme stoppen",
+            "link": "https://www.spiegel.de/wirtschaft/hamburg-hafen-bundesregierung-will-chinesische-uebernahme-stoppen-a-ddf283f8-d5ee-4452-932d-4814acf5a1fc#ref=rss"
           },
           {
             "source": "handelsblatt",
-            "title": "+++ Ukraine-Krieg +++: Ukrainischer Verteidigungsminister sagt Deutschland-Besuch ab",
-            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-moskau-schliesst-konsulat-in-st.-petersburg123/27982126.html"
+            "title": "Schifffahrt: Medienbericht: Regierung gegen Zippel-Verkauf an Cosco",
+            "link": "https://www.handelsblatt.com/politik/deutschland/schifffahrt-medienbericht-regierung-gegen-zippel-verkauf-an-cosco/100258316.html"
           }
         ]
       }
     },
     {
-      "id": "spiegel-1727bbd69695643f",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Grüne wollen Abgabe für »Extremvermögen« in den Bundestag einbringen",
-      "link": "https://www.spiegel.de/wirtschaft/gruene-wollen-abgabe-fuer-extremvermoegen-in-den-bundestag-einbringen-a-21c1c8ae-0fd8-456b-98f7-c424b998412d#ref=rss",
-      "summary": "Sehr wohlhabende Bürger tragen vergleichsweise wenig zum Steueraufkommen in Deutschland bei. Die Grünen wollen das ändern, die Neuregelung würde 0,0007 Prozent der Bevölkerung treffen und 20 Milliarden Euro bringen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/698baf4c-9918-4763-9d27-35beb6b80030_w1200_r1.778_fpx47.99_fpy50.jpg",
-      "published": "2026-09-29T10:32:00+02:00",
-      "category": "Politik",
-      "score": 77.83,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Bundestag - Grüne legen Vermögenssteuer-Entwurf vor",
-            "link": "https://www.deutschlandfunk.de/gruene-legen-vermoegenssteuer-entwurf-vor-100.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-1705c3b63ba9f7cd",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "USA - Trump bestreitet Waffenangebot an China",
-      "link": "https://www.deutschlandfunk.de/trump-bestreitet-waffenangebot-an-china-102.html",
-      "summary": "US-Präsident Trump hat bestritten, dem chinesischen Staatschef Xi Jinping den Kauf von US-Waffen angeboten zu haben.",
-      "image": "https://bilder.deutschlandfunk.de/75/e8/a2/56/75e8a256-97dc-4f4c-a0e5-1b563bfdabe2/trump-xi-108-1920x1920.jpg",
-      "published": "2026-09-29T10:25:12+02:00",
-      "category": "Politik",
-      "score": 77.74,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "USA und China: Donald Trump dementiert Waffenangebot an Xi Jinping",
-            "link": "https://www.spiegel.de/ausland/usa-china-gipfel-donald-trump-dementiert-angebliches-waffenangebot-an-xi-jinping-a-e18ebcc2-d3af-435e-a19d-99d4854029b9#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-6943de5fcdf1c5f1",
+      "id": "tagesschau-3ece6ba43dfdf4f6",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Debattenkultur im Bundestag: Klöckner droht Störern im Bundestag mit Rauswurf",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/kloeckner-stoerer-bundestag-100.html",
-      "summary": "Bundestagspräsidentin Klöckner hat vor wachsender Polarisierung im Parlament gewarnt und kündigte Konsequenzen für wiederholte Störungen an - notfalls drohe ganzen Fraktionen der Rauswurf. Sie kritisierte auch eine Inszenierung für Social Media. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/b4d0c3b2-e5e3-4f34-a1e7-b7fef29cfc82/AAABoOwGQb4/AAABnSSvrFg/16x9-big/kloeckner-286.jpg?width=1920",
-      "published": "2026-09-29T08:58:00+02:00",
-      "category": "Politik",
-      "score": 77.52,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Bundestag: Julia Klöckner droht mit harter Linie gegen Störer von AfD und Linker",
-            "link": "https://www.spiegel.de/politik/deutschland/bundestag-julia-kloeckner-droht-mit-harter-linie-gegen-stoerer-von-afd-und-linker-a-a641e05f-9144-49a9-ab08-6c5dbed0143e#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-b227b76ad1e085c6",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "OpenAI stoppt Veröffentlichung von neuem KI-Modell wegen Sicherheitsbedenken",
-      "link": "https://www.tagesschau.de/wirtschaft/technologie/openai-ki-102.html",
-      "summary": "Erneut hat ein KI-Modell des Unternehmens OpenAI in Tests zu eigenständig agiert - und wird daher aus Sicherheitsgründen vorerst nicht veröffentlicht. Auch in Tests anderer KI-Modelle hatte es bereits ähnliche Zwischenfälle gegeben. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/1f1694a5-fd5a-4504-b0d5-bd4f0fee9eb3/AAABoK1biQU/AAABnSSvrFg/16x9-big/open-ai-108.jpg?width=1920",
-      "published": "2026-09-29T07:03:40+02:00",
-      "category": "Wirtschaft",
-      "score": 75.42,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Sicherheitsbedenken - OpenAI streicht Veröffentlichung von neuem KI-Modell",
-            "link": "https://www.deutschlandfunk.de/openai-streicht-veroeffentlichung-von-neuem-ki-modell-102.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "OpenAI: KI-Konzern streicht Veröffentlichung von GPT-6.1-Astra-Modell",
-            "link": "https://www.spiegel.de/netzwelt/openai-ki-konzern-streicht-veroeffentlichung-von-gpt-6-1-astra-modell-a-fcdf9457-2d17-4cba-a4d9-54348357a1f5#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-4a8e3f2a1902573a",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Donald Trump: Ist der US-Präsident bei den Kongresswahlen Glücksbringer oder Ballast?",
-      "link": "https://www.spiegel.de/ausland/usa-vor-den-midterms-rueckkehr-des-wahlkaempfers-donald-trump-a-90b6cff4-62cf-494b-b594-e01b566f520a#ref=rss",
-      "summary": "Wenige Wochen vor den Midtermwahlen liegen die Republikaner Prognosen zufolge zurück. Nun löst US-Präsident Trump ein Versprechen ein.",
-      "image": "https://cdn.prod.www.spiegel.de/images/9ed688ca-f24b-4e21-8bc8-19fa2851db3c_w1200_r1.778_fpx46.67_fpy50.jpg",
-      "published": "2026-09-29T07:26:00+02:00",
-      "category": "Politik",
-      "score": 75.25
-    },
-    {
-      "id": "tagesschau-f74446f81e104b81",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "\"Starship\"-Rakete erreicht erstmals Erdumlaufbahn",
-      "link": "https://www.tagesschau.de/wirtschaft/technologie/space-x-raketenstart-100.html",
-      "summary": "Eine \"Starship\"-Rakete ist erstmals in den Orbit gelangt. Dort setzte sie mehrere Satelliten aus. Geplant war, dass die Riesen-Rakete die Erde sechsmal umrundet - wegen technischer Probleme landete sie aber schon Stunden früher im Pazifik.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/2c5da5e2-8c97-4e90-80b0-ba5f06247891/AAABoOilQL0/AAABnSSvrFg/16x9-big/space-x-148.jpg?width=1920",
-      "published": "2026-09-28T20:05:57+02:00",
+      "title": "Schule in Hessen gewinnt Schulpreis",
+      "link": "https://www.tagesschau.de/inland/gesellschaft/deutscher-schulpreis-2026-100.html",
+      "summary": "Innovative Lernkonzepte, Zusammenhalt und Inklusion - das sind nur einige Merkmale, mit denen die Gewinner-Schulen beim Deutschen Schulpreis überzeugen. Der Hauptpreis ging nach Hessen. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/6d303ff4-4a63-4e38-a28c-55f95bfdebf9/AAABoO0kx8k/AAABnSSvrFg/16x9-big/schulpreis-gewinner-102.jpg?width=1920",
+      "published": "2026-09-29T12:42:13+02:00",
       "category": "Nachrichten",
-      "score": 72.42,
+      "score": 72.58,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
-            "title": "Raumfahrt - SpaceX-Rakete Starship beendet Flug nach Erreichen der Erdumlaufbahn früher als geplant - kontrollierter Absturz in Pazifik",
-            "link": "https://www.deutschlandfunk.de/spacex-rakete-starship-beendet-flug-nach-erreichen-der-erdumlaufbahn-frueher-als-geplant-kontrollier-100.html"
+            "title": "Bildung - Deutscher Schulpreis geht nach Hessen",
+            "link": "https://www.deutschlandfunk.de/deutscher-schulpreis-geht-nach-hessen-100.html"
           },
           {
-            "source": "golem",
-            "title": "SpaceX: Starship erreicht Orbit mit Triebwerksausfällen",
-            "link": "https://www.golem.de/news/spacex-starship-erreicht-orbit-mit-triebwerksausfaellen-2609-213504.html"
+            "source": "spiegel",
+            "title": "Deutscher Schulpreis: Bertha-von-Suttner-Schule in Hessen gewinnt Hauptpreis",
+            "link": "https://www.spiegel.de/panorama/bildung/deutscher-schulpreis-bertha-von-suttner-schule-in-hessen-gewinnt-hauptpreis-a-69fa38fd-7c03-43bb-b1bb-d5731858dc5b#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-e081441979c98af1",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Berlin: Anklage gegen Ex-rbb-Intendantin Schlesinger zugelassen",
+      "link": "https://www.tagesschau.de/inland/regional/brandenburg/rbb-anklage-gegen-ex-rbb-intendantin-schlesinger-zugelassen-100.html",
+      "summary": "Die frühere rbb-Intendantin Patricia Schlesinger kommt vor Gericht. Das Landgericht Berlin hat eine Anklage der Generalstaatsanwaltschaft unter anderem wegen Untreue zugelassen. Schlesinger weist die Vorwürfe zurück. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/941a6174-87f8-4252-8077-47d193e09cab/AAABoOyfD2w/AAABnSSvrFg/16x9-big/rbb-patricia-schlesinger-502069115-100.jpg?width=1920",
+      "published": "2026-09-29T12:01:53+02:00",
+      "category": "Nachrichten",
+      "score": 72.58,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Vorwurf der Untreue - Strafprozess gegen Ex-RBB-Intendantin Schlesinger",
+            "link": "https://www.deutschlandfunk.de/strafprozess-gegen-ex-rbb-intendantin-schlesinger-102.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "Patricia Schlesinger: Strafprozess gegen Ex-RBB-Intendantin",
+            "link": "https://www.spiegel.de/wirtschaft/patricia-schlesinger-strafprozess-gegen-ex-rbb-intendantin-a-79a6b742-5256-45f9-85e9-d5cfef67a087#ref=rss"
           }
         ]
       }
@@ -181,91 +195,57 @@
       "link": "https://www.deutschlandfunk.de/neuer-angriff-von-mehr-als-100-siedlern-im-westjordanland-100.html",
       "summary": "Im Westjordanland ist es erneut zu massiver Gewalt radikaler israelischer Siedler gekommen.",
       "image": "https://bilder.deutschlandfunk.de/5e/12/e4/74/5e12e474-5491-4800-a249-4cdbcd0883ad/westjordanland-israelische-siedler-100-1920x1920.jpg",
-      "published": "2026-09-29T10:25:12+02:00",
+      "published": "2026-09-29T15:21:22+02:00",
       "category": "Politik",
-      "score": 69.74
+      "score": 69.9
     },
     {
-      "id": "deutschlandfunk-2a18ddada6cfada5",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Datenschutzverstöße - Google klagt gegen EU-Auflagen",
-      "link": "https://www.deutschlandfunk.de/google-klagt-gegen-eu-auflagen-100.html",
-      "summary": "Das US-Unternehmen Google hat Klage gegen eine EU-Anordnung eingereicht, der Konkurrenz bestimmte Daten und Dienstleistungen zur Verfügung zu stellen.",
-      "image": "https://bilder.deutschlandfunk.de/FI/LE/_c/7e/FILE_c7e8d4e63ce2fa5e5c9413fd7044e1d1/googledublinl-jpg-102-1280x1280.jpg",
-      "published": "2026-09-29T10:25:12+02:00",
-      "category": "Wirtschaft",
-      "score": 69.74,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Datenschutz: Google klagt gegen EU-Auflagen für seine Suchmaschine und KI",
-            "link": "https://www.handelsblatt.com/technik/datenschutz-google-klagt-gegen-eu-auflagen-fuer-seine-suchmaschine-und-ki/100258171.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-edd486ba29da710e",
+      "id": "spiegel-a0f3b870773d9ae4",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Benjamin Netanyahu besuchte Vereinigte Arabische Emirate – wohl um ein Gerücht zu entkräften",
-      "link": "https://www.spiegel.de/ausland/benjamin-netanyahu-besuchte-vereinigte-arabische-emirate-wohl-um-ein-geruecht-zu-entkraeften-a-44630bb2-5885-43a5-afdf-914fadd74373#ref=rss",
-      "summary": "Was wusste Netanyahu vorab über den Angriff vom 7. Oktober? Der israelische Premier bestreitet jede Kenntnis, soll jedoch aus den Emiraten und Ägypten gewarnt worden sein. Nun flog er für vertrauliche Gespräche an den Golf.",
-      "image": "https://cdn.prod.www.spiegel.de/images/a7322d87-d4a8-4b96-bed8-afbd346a149f_w1200_r1.778_fpx43_fpy34.jpg",
-      "published": "2026-09-29T10:07:00+02:00",
+      "title": "Kimberly Guilfoyle: Wer ist die Griechenland-Botschafterin der USA?",
+      "link": "https://www.spiegel.de/ausland/kimberly-guilfoyle-wer-ist-die-griechenland-botschafterin-der-usa-a-0cb517ba-87bd-4db5-b84f-cd34b420a978#ref=rss",
+      "summary": "Verheiratet mit Gavin Newsom, verlobt mit Donald Trump jr.: Kimberly Guilfoyle war auf beiden Seiten des US-politischen Spektrums aktiv. Die Frau, die den Sturz von Rumäniens Regierung angekündigt haben soll, hat einen zweifelhaften Ruf.",
+      "image": "https://cdn.prod.www.spiegel.de/images/e42d8e77-70eb-4ed8-b993-0ba90a3396d7_w1200_r1.778_fpx54_fpy41.jpg",
+      "published": "2026-09-29T13:02:00+02:00",
       "category": "Politik",
-      "score": 69.48
+      "score": 67.96
     },
     {
-      "id": "handelsblatt-ecda4aa2c201f3bd",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Deep Read: Wie ein ganzes Kraftwerk von Deutschland in die Ukraine gebracht wird",
-      "link": "https://www.handelsblatt.com/politik/international/energie-so-wird-ein-ganzes-kraftwerk-von-deutschland-in-die-ukraine-gebracht/100253817.html",
-      "summary": "Über Rüstungshilfen für die Ukraine wird viel gesprochen. Genauso wichtig ist die Hilfe für die Energieversorgung. Es geht um Zehntausende Bauteile – und ein gigantisches Unterfangen.",
-      "image": "https://images.handelsblatt.com/aL0DRaSYtmxq/cover/900/506/0/0/0/0/0.5/0.5/ukraine-kraftwerk.jpg",
-      "published": "2026-09-29T08:32:00+00:00",
-      "category": "Politik",
-      "score": 68.83
-    },
-    {
-      "id": "handelsblatt-e319b625b20c2838",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Mobilität: Strom statt Benzin – wie viel spart ein E-Auto beim Tanken ein?",
-      "link": "https://www.handelsblatt.com/mobilitaet/elektromobilitaet/e-auto-so-viel-sparen-autofahrer-beim-laden-im-vergleich-zum-tanken/100251862.html",
-      "summary": "Durch den Iran-Krieg sind die Spritpreise nach wie vor auf Höchstniveau. Wie viel lässt sich durch Laden statt Tanken einsparen? Der Handelsblatt-Rechner zeigt es.",
-      "image": "https://images.handelsblatt.com/BKxHHtSSw4Kd/cover/900/506/0/0/0/0/0.5/0.5/rechner-strom.jpg",
-      "published": "2026-09-29T08:29:00+00:00",
-      "category": "Wirtschaft",
-      "score": 68.79
-    },
-    {
-      "id": "heise-5e74798a73637aec",
-      "source": "heise",
-      "sourceWeight": 0.9,
-      "title": "Anthropic meldet vor Börsengang dutzende Milliarden Verlust, exorbitante Kosten",
-      "link": "https://www.heise.de/news/Anthropic-Nettoverlust-von-42-Milliarden-US-Dollar-allein-2025-11468924.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "summary": "Allein im vergangenen Jahr hat Anthropic mehr als 40 Milliarden US-Dollar Verlust gemacht. Das hat das Unternehmen in einem Börsenprospekt eingestanden.",
-      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/7/3/0/6/3/shutterstock_2696506577-8885d70b22883391.jpeg",
-      "published": "2026-09-29T06:51:00+02:00",
-      "category": "Wirtschaft",
-      "score": 57.76
-    },
-    {
-      "id": "golem-918e0f0205dbfdbf",
+      "id": "golem-de1e644a19ccc4cb",
       "source": "golem",
       "sourceWeight": 0.85,
-      "title": "Elektromobilität: Auslastung von Ladesäulen nimmt deutlich zu",
-      "link": "https://www.golem.de/news/elektromobilitaet-auslastung-von-ladesaeulen-nimmt-deutlich-zu-2609-213520.html",
-      "summary": "Die hohen Spritpreise und die viele Neuzulassungen von E-Autos führen zu mehr Ladevorgängen an öffentlichen Säulen. ( Ladesäule , Elektroauto )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213520&amp;page=1&amp;ts=1790671202",
-      "published": "2026-09-29T10:40:02+02:00",
-      "category": "Technologie",
-      "score": 56.94
+      "title": "Project Jupiter: Oracle bringt durch Zahlungsstopp zentralen OpenAI-Ausbau ins Wanken",
+      "link": "https://www.golem.de/news/project-jupiter-oracle-bringt-durch-zahlungsstopp-zentralen-openai-ausbau-ins-wanken-2609-213526.html",
+      "summary": "Oracle hat mit einem wahnwitzigen Konzept zur Energieversorgung breite Proteste gegen sein riesiges Rechenzentrum in New Mexico ausgelöst. Nun stoppt der Trump-Vertraute Larry Ellison die Zahlungen. ( Oracle , KI )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213526&amp;page=1&amp;ts=1790676902",
+      "published": "2026-09-29T12:15:02+02:00",
+      "category": "Politik",
+      "score": 65.31
+    },
+    {
+      "id": "netzpolitik-babfe7bbdf171c4d",
+      "source": "netzpolitik",
+      "sourceWeight": 0.75,
+      "title": "Ärzte, Aktivistinnen und Internetnutzer: Diese Geheimdienstreform betrifft uns alle",
+      "link": "https://netzpolitik.org/2026/aerzte-aktivistinnen-und-internetnutzer-diese-geheimdienstreform-betrifft-uns-alle/",
+      "summary": "Bei der Geheimdienstreform geht es nur um Bedrohungen durch „fremde Mächte“ und Terror? Mitnichten. Die Regeln, die derzeit der Bundestag debattiert, gehen uns alle an: beim Arztbesuch, in der Autowerkstatt und auf der Demo. Die Geheimdienstreform wirkt sich auf uns alle aus. – Gemeinfrei-ähnlich freigegeben durch unsplash.com: Timon Studler Terrorismus, Extremismus, Spionage, Sabotage, Cyberangriffe, hybride Anschläge, Destabilisierung und vor allem „fremde Mächte“. Salvenartig ratterte Bundesinnenminister Alexander Dobrindt (CSU) am vergangenen Donnerstag im Bundestag all die Bedrohungen herunter, wegen derer wir seiner Meinung nach dringend neue Geheimdienstgesetze brauchen. „Dagegen müssen wir uns rüsten“, sagt er Mantra-artig drei Mal zwischen seinen Äußerungen, die keinen Widerspruch zuzulassen schienen. Es entsteht der Eindruck: Bei der Geheimdienst-Reform, die Kanzleramtsministerin Nina Warken (CDU) als „größte Novellierung des Rechts der Nachrichtendienste in der Geschichte unseres Landes“ nannte, geht es um die ganz großen Gefahren. …",
+      "image": "https://cdn.netzpolitik.org/wp-upload/2026/09/timon-studler-obZx1LjKKjc-unsplash-scaled-e1790667171807.jpg",
+      "published": "2026-09-29T09:46:01+00:00",
+      "category": "Politik",
+      "score": 62.91
+    },
+    {
+      "id": "golem-fcb5d148233e31ef",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Firmen sind verärgert: Abschaltung von PV-Anlagen verhindert Eigenverbrauch",
+      "link": "https://www.golem.de/news/firmen-sind-veraergert-netzbetreiber-deaktivieren-pv-anlagen-wegen-zu-viel-sonne-2609-213535.html",
+      "summary": "Unternehmen in Bayern sind verärgert, wenn sie ihre Photovoltaikanlage nicht für den Eigenbedarf nutzen können. Abhilfe ist nicht in Sicht. ( Solarenergie , Umweltschutz )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213535&amp;page=1&amp;ts=1790683202",
+      "published": "2026-09-29T14:00:02+02:00",
+      "category": "Wirtschaft",
+      "score": 58.77
     }
   ]
 }
