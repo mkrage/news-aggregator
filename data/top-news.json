@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-09-29T06:29:29.378732+00:00",
+  "generatedAt": "2026-09-29T08:44:14.092360+00:00",
   "count": 15,
   "articles": [
+    {
+      "id": "handelsblatt-4af9cb97ccc2ab3f",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ Iran-Krieg +++: Iran droht mit Aus für alle Öl-Exporte aus der Region",
+      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-iran-droht-mit-aus-fuer-alle-oel-exporte-aus-der-region/100136895.html",
+      "summary": "Iran meldet wieder aufgenommene Verhandlungen mit USA +++ Hamas-Kommandeur in Gaza bei israelischem Luftangriff getötet +++ Emirate bestätigen geheimes Treffen mit Netanjahu +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/0FNKF6bClRgp/cover/900/506/0/0/114/19/0.5/0.5/mohammed-ghalibaf.jpg",
+      "published": "2026-09-29T08:27:00+00:00",
+      "category": "Politik",
+      "score": 84.76
+    },
     {
       "id": "tagesschau-0e079122d942c63c",
       "source": "tagesschau",
@@ -9,10 +21,10 @@
       "title": "Putin stockt russische Armee weiter auf",
       "link": "https://www.tagesschau.de/ausland/europa/russland-armee-aufstockung-100.html",
       "summary": "Russland erleidet stetig hohe Verluste in der Ukraine. Nun ordnet Präsident Putin die erneute Aufstockung der Armee an. Nach Erkenntnissen Kiews sollen auch neue ausländische Kämpfer eingesetzt werden.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/cdf58f8a-5327-42e5-bf63-2071053320d7/AAABoOu2qMQ/AAABnSSvrFg/16x9-big/putin-1544.jpg?width=1920",
+      "image": "https://images.tagesschau.de/image/cdf58f8a-5327-42e5-bf63-2071053320d7/AAABoOwJhf0/AAABnSSvrFg/16x9-big/putin-1544.jpg?width=1920",
       "published": "2026-09-29T07:50:11+02:00",
       "category": "Politik",
-      "score": 83.44,
+      "score": 83.42,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -23,40 +35,74 @@
           },
           {
             "source": "handelsblatt",
-            "title": "+++ Ukraine-Krieg +++: Selenskyj – Nordkorea will 10.000 weitere Soldaten nach Russland schicken",
+            "title": "+++ Ukraine-Krieg +++: Ukrainischer Verteidigungsminister sagt Deutschland-Besuch ab",
             "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-moskau-schliesst-konsulat-in-st.-petersburg123/27982126.html"
           }
         ]
       }
     },
     {
-      "id": "tagesschau-b1290bc287b03a20",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Nach Zwangsräumung in Madrid: 87-Jährige darf in ihre Wohnung zurück",
-      "link": "https://www.tagesschau.de/ausland/europa/spanien-wohnungsnot-rentnerin-100.html",
-      "summary": "Die 87-jährige Mieterin, deren Wohnung zwangsgeräumt wurde, soll nach Hause zurückkehren können. Nach landesweiten Protesten will die spanische Regierung nun ein Dekret beschließen - gegen steigende Mieten und Wohnungsnot. Von H.-G. Kellner. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/06453b2b-aff3-42ea-a45f-07e4afd6fd25/AAABoOpzr6A/AAABnSSvrFg/16x9-big/protest-spanien-wohungsnot-100.jpg?width=1920",
-      "published": "2026-09-29T02:31:37+02:00",
+      "id": "spiegel-1727bbd69695643f",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Grüne wollen Abgabe für »Extremvermögen« in den Bundestag einbringen",
+      "link": "https://www.spiegel.de/wirtschaft/gruene-wollen-abgabe-fuer-extremvermoegen-in-den-bundestag-einbringen-a-21c1c8ae-0fd8-456b-98f7-c424b998412d#ref=rss",
+      "summary": "Sehr wohlhabende Bürger tragen vergleichsweise wenig zum Steueraufkommen in Deutschland bei. Die Grünen wollen das ändern, die Neuregelung würde 0,0007 Prozent der Bevölkerung treffen und 20 Milliarden Euro bringen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/698baf4c-9918-4763-9d27-35beb6b80030_w1200_r1.778_fpx47.99_fpy50.jpg",
+      "published": "2026-09-29T10:32:00+02:00",
       "category": "Politik",
-      "score": 78.76,
+      "score": 77.83,
       "coverage": {
-        "sourceCount": 4,
+        "sourceCount": 2,
         "others": [
           {
             "source": "deutschlandfunk",
-            "title": "Spanien - Nach Protesten gegen Zwangsräumung - 87-Jährige darf in Wohnung zurück",
-            "link": "https://www.deutschlandfunk.de/nach-protesten-gegen-zwangsraeumung-87-jaehrige-darf-in-wohnung-zurueck-100.html"
-          },
+            "title": "Bundestag - Grüne legen Vermögenssteuer-Entwurf vor",
+            "link": "https://www.deutschlandfunk.de/gruene-legen-vermoegenssteuer-entwurf-vor-100.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-1705c3b63ba9f7cd",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "USA - Trump bestreitet Waffenangebot an China",
+      "link": "https://www.deutschlandfunk.de/trump-bestreitet-waffenangebot-an-china-102.html",
+      "summary": "US-Präsident Trump hat bestritten, dem chinesischen Staatschef Xi Jinping den Kauf von US-Waffen angeboten zu haben.",
+      "image": "https://bilder.deutschlandfunk.de/75/e8/a2/56/75e8a256-97dc-4f4c-a0e5-1b563bfdabe2/trump-xi-108-1920x1920.jpg",
+      "published": "2026-09-29T10:25:12+02:00",
+      "category": "Politik",
+      "score": 77.74,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
           {
             "source": "spiegel",
-            "title": "Madrid: Zwangsgeräumte 87-Jährige soll zurück in ihre Wohnung",
-            "link": "https://www.spiegel.de/ausland/wohnungsnot-in-spanien-zwangsgeraeumte-87-jaehrige-soll-zurueck-in-ihre-wohnung-a-a58d6993-0d19-4f68-bcc5-4cc9a4ca2477#ref=rss"
-          },
+            "title": "USA und China: Donald Trump dementiert Waffenangebot an Xi Jinping",
+            "link": "https://www.spiegel.de/ausland/usa-china-gipfel-donald-trump-dementiert-angebliches-waffenangebot-an-xi-jinping-a-e18ebcc2-d3af-435e-a19d-99d4854029b9#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-6943de5fcdf1c5f1",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Debattenkultur im Bundestag: Klöckner droht Störern im Bundestag mit Rauswurf",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/kloeckner-stoerer-bundestag-100.html",
+      "summary": "Bundestagspräsidentin Klöckner hat vor wachsender Polarisierung im Parlament gewarnt und kündigte Konsequenzen für wiederholte Störungen an - notfalls drohe ganzen Fraktionen der Rauswurf. Sie kritisierte auch eine Inszenierung für Social Media. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/b4d0c3b2-e5e3-4f34-a1e7-b7fef29cfc82/AAABoOwGQb4/AAABnSSvrFg/16x9-big/kloeckner-286.jpg?width=1920",
+      "published": "2026-09-29T08:58:00+02:00",
+      "category": "Politik",
+      "score": 77.52,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
           {
-            "source": "handelsblatt",
-            "title": "Wohnungsnot in Madrid: Nach Zwangsräumung: Seniorin darf in Wohnung zurück",
-            "link": "https://www.handelsblatt.com/politik/international/wohnungsnot-in-madrid-nach-zwangsraeumung-seniorin-darf-in-wohnung-zurueck/100258136.html"
+            "source": "spiegel",
+            "title": "Bundestag: Julia Klöckner droht mit harter Linie gegen Störer von AfD und Linker",
+            "link": "https://www.spiegel.de/politik/deutschland/bundestag-julia-kloeckner-droht-mit-harter-linie-gegen-stoerer-von-afd-und-linker-a-a641e05f-9144-49a9-ab08-6c5dbed0143e#ref=rss"
           }
         ]
       }
@@ -71,9 +117,9 @@
       "image": "https://images.tagesschau.de/image/1f1694a5-fd5a-4504-b0d5-bd4f0fee9eb3/AAABoK1biQU/AAABnSSvrFg/16x9-big/open-ai-108.jpg?width=1920",
       "published": "2026-09-29T07:03:40+02:00",
       "category": "Wirtschaft",
-      "score": 78.76,
+      "score": 75.42,
       "coverage": {
-        "sourceCount": 4,
+        "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
@@ -84,33 +130,6 @@
             "source": "spiegel",
             "title": "OpenAI: KI-Konzern streicht Veröffentlichung von GPT-6.1-Astra-Modell",
             "link": "https://www.spiegel.de/netzwelt/openai-ki-konzern-streicht-veroeffentlichung-von-gpt-6-1-astra-modell-a-fcdf9457-2d17-4cba-a4d9-54348357a1f5#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Künstliche Intelligenz: OpenAI streicht Veröffentlichung von neuem KI-Modell",
-            "link": "https://www.handelsblatt.com/technik/it-internet/kuenstliche-intelligenz-openai-streicht-veroeffentlichung-von-neuem-ki-modell/100258087.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-1705c3b63ba9f7cd",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "USA - Trump bestreitet Waffenangebot an China",
-      "link": "https://www.deutschlandfunk.de/trump-bestreitet-waffenangebot-an-china-102.html",
-      "summary": "US-Präsident Trump hat bestritten, dem chinesischen Staatschef Xi Jinping den Kauf von US-Waffen angeboten zu haben.",
-      "image": "https://bilder.deutschlandfunk.de/75/e8/a2/56/75e8a256-97dc-4f4c-a0e5-1b563bfdabe2/trump-xi-108-1920x1920.jpg",
-      "published": "2026-09-29T08:12:10+02:00",
-      "category": "Politik",
-      "score": 77.76,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "USA und China: Donald Trump dementiert Waffenangebot an Xi Jinping",
-            "link": "https://www.spiegel.de/ausland/usa-china-gipfel-donald-trump-dementiert-angebliches-waffenangebot-an-xi-jinping-a-e18ebcc2-d3af-435e-a19d-99d4854029b9#ref=rss"
           }
         ]
       }
@@ -119,49 +138,13 @@
       "id": "spiegel-4a8e3f2a1902573a",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "USA vor den Midterms: Rückkehr des Wahlkämpfers Donald Trump",
+      "title": "Donald Trump: Ist der US-Präsident bei den Kongresswahlen Glücksbringer oder Ballast?",
       "link": "https://www.spiegel.de/ausland/usa-vor-den-midterms-rueckkehr-des-wahlkaempfers-donald-trump-a-90b6cff4-62cf-494b-b594-e01b566f520a#ref=rss",
       "summary": "Wenige Wochen vor den Midtermwahlen liegen die Republikaner Prognosen zufolge zurück. Nun löst US-Präsident Trump ein Versprechen ein.",
       "image": "https://cdn.prod.www.spiegel.de/images/9ed688ca-f24b-4e21-8bc8-19fa2851db3c_w1200_r1.778_fpx46.67_fpy50.jpg",
       "published": "2026-09-29T07:26:00+02:00",
       "category": "Politik",
-      "score": 77.12
-    },
-    {
-      "id": "spiegel-b80e77d01d70b5c0",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg: Wolodymyr Selenskyj warnt vor zusätzlicher russischer Mobilmachung",
-      "link": "https://www.spiegel.de/ausland/ukraine-krieg-wolodymyr-selenskyj-warnt-vor-zusaetzlicher-russischer-mobilmachung-a-8fb2f7b0-885d-4803-a5f6-9d0c7efd8d5e#ref=rss",
-      "summary": "Der ukrainische Präsident Selenskyj sieht eine Ausbreitung des »Bösen«: Erkenntnissen seiner Geheimdienste zufolge habe Moskau mit einer neuen Mobilmachung begonnen. Auch Nordkorea bereite die Entsendung weiterer Truppen vor.",
-      "image": "https://cdn.prod.www.spiegel.de/images/04558540-5801-4c81-98f4-45d4d8f6037f_w1200_r1.778_fpx69.89_fpy50.98.jpg",
-      "published": "2026-09-29T07:06:00+02:00",
-      "category": "Politik",
-      "score": 76.84
-    },
-    {
-      "id": "handelsblatt-b32a7d598cbdfb8d",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Kommentar: Linnemann spart mit der Kürzung der Kinderkrankheitstage bei den Falschen",
-      "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-kuerzung-der-kinderkrankheitstage-ist-sparen-bei-den-falschen-01/100257228.html",
-      "summary": "Der Bundesgesundheitsminister plant, eine Regelung aus der Coronapandemie auslaufen zu lassen. Hart treffen dürfte diese Entscheidung vor allem eine Gruppe.",
-      "image": "https://images.handelsblatt.com/lHRZ7gAt2nfF/cover/900/506/0/0/359/359/0.5/0.5/02.09.2026-berlin-carsten-linnemann-cdu-bundesminister-fuer-gesundheit-telefoniert-vor-beginn.jpg",
-      "published": "2026-09-29T05:40:00+00:00",
-      "category": "Politik",
-      "score": 76.31
-    },
-    {
-      "id": "handelsblatt-cd00bf67659086c0",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Iran-Krieg +++: Emirate bestätigen geheimes Treffen mit Netanjahu",
-      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-emirate-bestaetigen-geheimes-treffen-mit-netanjahu/100136895.html",
-      "summary": "Netanjahu reist heimlich zu Treffen nach Abu Dhabi +++ Trump erwartet diese Woche Gespräche von US-Unterhändlern mit Iran +++ Saudi-Arabiens Außenminister zu Gesprächen in USA +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/BeRie8TA41Du/cover/900/506/132/195/0/397/0.5/0.5/israels-ministerpraesident-benjamin-netanjahu.jpg",
-      "published": "2026-09-29T03:52:00+00:00",
-      "category": "Politik",
-      "score": 74.81
+      "score": 75.25
     },
     {
       "id": "tagesschau-f74446f81e104b81",
@@ -173,7 +156,7 @@
       "image": "https://images.tagesschau.de/image/2c5da5e2-8c97-4e90-80b0-ba5f06247891/AAABoOilQL0/AAABnSSvrFg/16x9-big/space-x-148.jpg?width=1920",
       "published": "2026-09-28T20:05:57+02:00",
       "category": "Nachrichten",
-      "score": 72.44,
+      "score": 72.42,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -191,62 +174,74 @@
       }
     },
     {
-      "id": "deutschlandfunk-47f7dc8d1aa37f6f",
+      "id": "deutschlandfunk-2930cbc7373136f3",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Soziales - Regierung ringt um Lösung bei Pflegereform - CDU-Sozialpolitiker Laumann: \"Wünsche der SPD kosten viel Geld\"",
-      "link": "https://www.deutschlandfunk.de/regierung-ringt-um-loesung-bei-pflegereform-cdu-sozialpolitiker-laumann-wuensche-der-spd-kosten-viel-100.html",
-      "summary": "Der CDU-Politiker Laumann hat Unverständnis darüber geäußert, dass die SPD auf Änderungen an der Pflegereform besteht. Der nordrhein-westfälische Gesundheitsminister sagte im Deutschlandfunk, die Wünsche der SPD kosteten alle sehr viel Geld, und dieses Geld sei nicht da. Am Abend hatten die Koalitionsspitzen im Kanzleramt beraten.",
-      "image": "https://bilder.deutschlandfunk.de/FI/LE/_2/64/FILE_2643b2932be1a97c6800db9ad4f068b9/133438969-jpg-100-768x768.jpg",
-      "published": "2026-09-29T08:12:10+02:00",
+      "title": "Nahost - Neuer Angriff von mehr als 100 Siedlern im Westjordanland",
+      "link": "https://www.deutschlandfunk.de/neuer-angriff-von-mehr-als-100-siedlern-im-westjordanland-100.html",
+      "summary": "Im Westjordanland ist es erneut zu massiver Gewalt radikaler israelischer Siedler gekommen.",
+      "image": "https://bilder.deutschlandfunk.de/5e/12/e4/74/5e12e474-5491-4800-a249-4cdbcd0883ad/westjordanland-israelische-siedler-100-1920x1920.jpg",
+      "published": "2026-09-29T10:25:12+02:00",
       "category": "Politik",
-      "score": 69.76,
+      "score": 69.74
+    },
+    {
+      "id": "deutschlandfunk-2a18ddada6cfada5",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Datenschutzverstöße - Google klagt gegen EU-Auflagen",
+      "link": "https://www.deutschlandfunk.de/google-klagt-gegen-eu-auflagen-100.html",
+      "summary": "Das US-Unternehmen Google hat Klage gegen eine EU-Anordnung eingereicht, der Konkurrenz bestimmte Daten und Dienstleistungen zur Verfügung zu stellen.",
+      "image": "https://bilder.deutschlandfunk.de/FI/LE/_c/7e/FILE_c7e8d4e63ce2fa5e5c9413fd7044e1d1/googledublinl-jpg-102-1280x1280.jpg",
+      "published": "2026-09-29T10:25:12+02:00",
+      "category": "Wirtschaft",
+      "score": 69.74,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "handelsblatt",
-            "title": "Pflegestreit: Laumann: „Wünsche der SPD kosten sehr viel Geld“",
-            "link": "https://www.handelsblatt.com/politik/deutschland/pflegestreit-laumann-wuensche-der-spd-kosten-sehr-viel-geld/100258075.html"
+            "title": "Datenschutz: Google klagt gegen EU-Auflagen für seine Suchmaschine und KI",
+            "link": "https://www.handelsblatt.com/technik/datenschutz-google-klagt-gegen-eu-auflagen-fuer-seine-suchmaschine-und-ki/100258171.html"
           }
         ]
       }
     },
     {
-      "id": "deutschlandfunk-310c21d3d1698855",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Bundestags-Präsidentin - Klöckner droht bei weiterer Eskalation mit Verweis ganzer Fraktionen aus dem Plenum",
-      "link": "https://www.deutschlandfunk.de/kloeckner-droht-bei-weiterer-eskalation-mit-verweis-ganzer-fraktionen-aus-dem-plenum-100.html",
-      "summary": "Bundestagspräsidentin Klöckner will angesichts der zunehmenden Störungen bei Debatten notfalls auch ganze Fraktionen des Plenums verweisen.",
-      "image": "https://bilder.deutschlandfunk.de/3a/a9/78/fc/3aa978fc-ac4c-4ef8-807e-b710a81d435f/julia-kloeckner-112-1920x1920.jpg",
-      "published": "2026-09-29T08:12:10+02:00",
-      "category": "Politik",
-      "score": 69.76
-    },
-    {
-      "id": "spiegel-2268a49f15d8a101",
+      "id": "spiegel-edd486ba29da710e",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Bundestag: Julia Klöckner droht mit harter Linie gegen Störer von AfD und Linker",
-      "link": "https://www.spiegel.de/politik/deutschland/bundestag-julia-kloeckner-droht-mit-harter-linie-gegen-stoerer-von-afd-und-linker-a-a641e05f-9144-49a9-ab08-6c5dbed0143e#ref=rss",
-      "summary": "Die Bundestagspräsidentin beklagt eine Zunahme von Störungen während der Debatten im Bundestag. Die meisten Ordnungsrufe gingen Richtung AfD und Linke. Nun kündigt Julia Klöckner an, hart durchzugreifen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/03b98702-ede5-4ebc-a849-dbad04b6326d_w1200_r1.778_fpx53_fpy35.jpg",
-      "published": "2026-09-29T08:00:00+02:00",
+      "title": "Benjamin Netanyahu besuchte Vereinigte Arabische Emirate – wohl um ein Gerücht zu entkräften",
+      "link": "https://www.spiegel.de/ausland/benjamin-netanyahu-besuchte-vereinigte-arabische-emirate-wohl-um-ein-geruecht-zu-entkraeften-a-44630bb2-5885-43a5-afdf-914fadd74373#ref=rss",
+      "summary": "Was wusste Netanyahu vorab über den Angriff vom 7. Oktober? Der israelische Premier bestreitet jede Kenntnis, soll jedoch aus den Emiraten und Ägypten gewarnt worden sein. Nun flog er für vertrauliche Gespräche an den Golf.",
+      "image": "https://cdn.prod.www.spiegel.de/images/a7322d87-d4a8-4b96-bed8-afbd346a149f_w1200_r1.778_fpx43_fpy34.jpg",
+      "published": "2026-09-29T10:07:00+02:00",
       "category": "Politik",
-      "score": 69.59
+      "score": 69.48
     },
     {
-      "id": "handelsblatt-9858e2192ad5ecfe",
+      "id": "handelsblatt-ecda4aa2c201f3bd",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Vermögen: Bin ich schon reich oder nicht? Dieser Rechner liefert Ihnen die Antwort",
-      "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/reichtum-rechner-ab-welchem-vermoegen-gilt-man-in-deutschland-als-reich/100149729.html",
-      "summary": "Trotz Inflation zeigen aktuelle Daten, dass die Vermögen in Deutschland gewachsen sind. Der Handelsblatt-Rechner zeigt Ihnen, wo Sie im Vergleich zur deutschen Bevölkerung stehen.",
-      "image": "https://images.handelsblatt.com/6Rp3TI0UnSgT/cover/900/506/0/0/0/0/0.5/0.5/reichtum.jpg",
-      "published": "2026-09-29T05:33:00+00:00",
+      "title": "Deep Read: Wie ein ganzes Kraftwerk von Deutschland in die Ukraine gebracht wird",
+      "link": "https://www.handelsblatt.com/politik/international/energie-so-wird-ein-ganzes-kraftwerk-von-deutschland-in-die-ukraine-gebracht/100253817.html",
+      "summary": "Über Rüstungshilfen für die Ukraine wird viel gesprochen. Genauso wichtig ist die Hilfe für die Energieversorgung. Es geht um Zehntausende Bauteile – und ein gigantisches Unterfangen.",
+      "image": "https://images.handelsblatt.com/aL0DRaSYtmxq/cover/900/506/0/0/0/0/0.5/0.5/ukraine-kraftwerk.jpg",
+      "published": "2026-09-29T08:32:00+00:00",
+      "category": "Politik",
+      "score": 68.83
+    },
+    {
+      "id": "handelsblatt-e319b625b20c2838",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Mobilität: Strom statt Benzin – wie viel spart ein E-Auto beim Tanken ein?",
+      "link": "https://www.handelsblatt.com/mobilitaet/elektromobilitaet/e-auto-so-viel-sparen-autofahrer-beim-laden-im-vergleich-zum-tanken/100251862.html",
+      "summary": "Durch den Iran-Krieg sind die Spritpreise nach wie vor auf Höchstniveau. Wie viel lässt sich durch Laden statt Tanken einsparen? Der Handelsblatt-Rechner zeigt es.",
+      "image": "https://images.handelsblatt.com/BKxHHtSSw4Kd/cover/900/506/0/0/0/0/0.5/0.5/rechner-strom.jpg",
+      "published": "2026-09-29T08:29:00+00:00",
       "category": "Wirtschaft",
-      "score": 68.22
+      "score": 68.79
     },
     {
       "id": "heise-5e74798a73637aec",
@@ -258,19 +253,19 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/7/3/0/6/3/shutterstock_2696506577-8885d70b22883391.jpeg",
       "published": "2026-09-29T06:51:00+02:00",
       "category": "Wirtschaft",
-      "score": 59.63
+      "score": 57.76
     },
     {
-      "id": "golem-984b3ad6a4def95b",
+      "id": "golem-918e0f0205dbfdbf",
       "source": "golem",
       "sourceWeight": 0.85,
-      "title": "Anzeige: Microsoft 365 DSGVO-konform betreiben",
-      "link": "https://www.golem.de/news/anzeige-microsoft-365-dsgvo-konform-betreiben-2609-213172.html",
-      "summary": "Golem Karrierewelt: Microsoft 365 erfordert klare Regeln für Datenschutz und Compliance. Ein Workshop ordnet DSGVO, Datenresidenz, Audits und Drittlandtransfers ein. ( Golem Karrierewelt , Datenschutz )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213172&amp;page=1&amp;ts=1790658907",
-      "published": "2026-09-29T07:15:07+02:00",
+      "title": "Elektromobilität: Auslastung von Ladesäulen nimmt deutlich zu",
+      "link": "https://www.golem.de/news/elektromobilitaet-auslastung-von-ladesaeulen-nimmt-deutlich-zu-2609-213520.html",
+      "summary": "Die hohen Spritpreise und die viele Neuzulassungen von E-Autos führen zu mehr Ladevorgängen an öffentlichen Säulen. ( Ladesäule , Elektroauto )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213520&amp;page=1&amp;ts=1790671202",
+      "published": "2026-09-29T10:40:02+02:00",
       "category": "Technologie",
-      "score": 55.97
+      "score": 56.94
     }
   ]
 }
