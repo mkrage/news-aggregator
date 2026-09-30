@@ -1,81 +1,145 @@
 {
-  "generatedAt": "2026-09-30T09:04:23.651236+00:00",
+  "generatedAt": "2026-09-30T13:56:50.532303+00:00",
   "count": 15,
   "articles": [
     {
-      "id": "handelsblatt-9fc6411f4b6be6d9",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Zahlen für das 1. Halbjahr: Preise für Strom und Gas sinken auf hohem Niveau leicht",
-      "link": "https://www.handelsblatt.com/politik/deutschland/zahlen-fuer-das-1-halbjahr-preise-fuer-strom-und-gas-sinken-auf-hohem-niveau-leicht/100258559.html",
-      "summary": "Trotz rückläufiger Preise zahlen private Verbraucher für Haushaltsenergie deutlich mehr als vor dem Ukraine-Krieg. Gas könnte zudem wieder teurer werden: Unternehmen spüren bereits die Hormus-Krise.",
-      "image": "https://images.handelsblatt.com/og9hiEES5LRu/cover/900/506/0/0/84/83/0.5/0.5/gasflamme.jpg",
-      "published": "2026-09-30T07:13:50+00:00",
-      "category": "Politik",
-      "score": 83.46
-    },
-    {
-      "id": "spiegel-cd89b6484dd7416a",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Wohnen: Welche Maßnahmen gegen hohe Mieten wirklich helfen könnten",
-      "link": "https://www.spiegel.de/wirtschaft/soziales/wohnen-welche-massnahmen-gegen-hohe-mieten-wirklich-helfen-koennten-a-d30da832-9537-47af-a585-3b476af4e31c#ref=rss",
-      "summary": "Die Berliner Landtagswahl zeigt, wie stark die Wohnkrise junge Menschen umtreibt. Doch der Bundesregierung fehlt der Mut, das Problem anzugehen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/92e947cb-c0ce-4cc4-a23b-fb678d043715_w1200_r1.778_fpx58_fpy48.jpg",
-      "published": "2026-09-30T09:30:00+02:00",
-      "category": "Politik",
-      "score": 76.69
-    },
-    {
-      "id": "handelsblatt-4637cbed54927c2c",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Ukraine-Krieg +++: Russland verlängert Exportverbot für Diesel bis Ende Oktober",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-moskau-schliesst-konsulat-in-st.-petersburg123/27982126.html",
-      "summary": "Ukraine beziffert Kriegskosten 2026 auf 155 Milliarden Dollar +++ Treffen von russischem Sondergesandten mit US-Vertretern +++ Russland verkündet Rekordbudget für Militär +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/DFQful6IaLPe/cover/900/506/0/0/249/249/0.5/0.5/russische-tankstelle.jpg",
-      "published": "2026-09-30T08:37:41+00:00",
-      "category": "Politik",
-      "score": 76.63
-    },
-    {
-      "id": "handelsblatt-5c7b25910a90577d",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Nikkei, Topix, CSI 300: Inflations- und Kriegssorgen belasten Anleihemärkte – Märkte in Asien schließen uneinheitlich",
-      "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-topix-csi-300-inflations-und-kriegssorgen-belasten-anleihemaerkte/100258509.html",
-      "summary": "Kursgewinne bei Technologiewerten stützten die Börsen in Japan. Unterdessen steuerten die chinesischen Märkte auf den größten Quartalsverlust seit vier Jahren zu.",
-      "image": "https://images.handelsblatt.com/vtpZ1ofmrlBd/cover/900/506/0/0/209/143/0.5/0.5/9-februar-2016.jpeg",
-      "published": "2026-09-30T07:53:30+00:00",
-      "category": "Wirtschaft",
-      "score": 76.02
-    },
-    {
-      "id": "tagesschau-0f35a968fc0f0ea0",
+      "id": "tagesschau-bbb4927869616704",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Arbeitslosenzahl sinkt leicht unter Marke von drei Millionen",
-      "link": "https://www.tagesschau.de/wirtschaft/arbeitslosigkeit-arbeitsmarkt-september-100.html",
-      "summary": "Mit dem Ende der Sommerpause gibt es meist Bewegung auf dem Arbeitsmarkt. Im September ging die Zahl der Menschen ohne Job aber nur leicht zurück. Unternehmen suchen weiterhin kaum nach neuem Personal.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/ed93c3f2-6394-4f68-9841-e4548e8e2914/AAABnUL20Sg/AAABnSSvrFg/16x9-big/agentur-fuer-arbeit-154.jpg?width=1920",
-      "published": "2026-09-30T10:42:03+02:00",
+      "title": "Inflationsrate steigt im September auf 3,3 Prozent",
+      "link": "https://www.tagesschau.de/wirtschaft/inflation-september-energiepreise-100.html",
+      "summary": "Die Inflation in Deutschland ist im September erstmals seit fast drei Jahren auf über drei Prozent angestiegen. Schuld daran sind vor allem massiv gestiegene Energiepreise. Lebensmittel verteuerten sich kaum.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/86e333d7-691a-4408-9ead-0c32dcf8faf0/AAABoPJVB2k/AAABnSSvrFg/16x9-big/tanken-280.jpg?width=1920",
+      "published": "2026-09-30T14:52:15+02:00",
       "category": "Wirtschaft",
-      "score": 75.63,
+      "score": 83.64,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
-            "title": "Bilanz - Zahl der Arbeitslosen in Deutschland sinkt im September unter drei Millionen - aber keine Trendwende",
-            "link": "https://www.deutschlandfunk.de/zahl-der-arbeitslosen-in-deutschland-sinkt-im-september-unter-drei-millionen-aber-keine-trendwende-100.html"
+            "title": "Wirtschaft - Inflationsrate erstmals seit Ende 2023 wieder über der Drei-Prozent-Marke",
+            "link": "https://www.deutschlandfunk.de/inflationsrate-erstmals-seit-ende-2023-wieder-ueber-der-drei-prozent-marke-100.html"
           },
           {
-            "source": "handelsblatt",
-            "title": "Arbeitsmarkt: Deutsche Arbeitslosenzahl sinkt auf 2,99 Millionen",
-            "link": "https://www.handelsblatt.com/politik/konjunktur/arbeitsmarkt-deutsche-arbeitslosenzahl-sinkt-auf-299-millionen/100258576.html"
+            "source": "spiegel",
+            "title": "Inflation in Deutschland: Rate steigt unerwartet kräftig auf 3,3 Prozent",
+            "link": "https://www.spiegel.de/wirtschaft/service/inflationsrate-in-deutschland-steigt-unerwartet-kraeftig-auf-3-3-prozent-a-9cb7b797-c69d-432b-83f2-f531cf52b69e#ref=rss"
           }
         ]
       }
+    },
+    {
+      "id": "deutschlandfunk-09757c21d94e9e7f",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Ukraine - Regierung beziffert Kriegskosten 2026 auf 155 Milliarden Dollar",
+      "link": "https://www.deutschlandfunk.de/regierung-beziffert-kriegskosten-2026-auf-155-milliarden-dollar-100.html",
+      "summary": "Die Kriegskosten der Ukraine im Verteidigungskampf gegen Russland belaufen sich nach Regierungsangaben in diesem Jahr auf insgesamt 155 Milliarden Dollar.",
+      "image": "https://bilder.deutschlandfunk.de/92/66/49/bb/926649bb-4ce2-403d-be97-f55044ebe29c/ukraine-brand-akademie-der-wissenschaften-kiew-100-1920x1920.jpg",
+      "published": "2026-09-30T15:53:58+02:00",
+      "category": "Politik",
+      "score": 77.96
+    },
+    {
+      "id": "deutschlandfunk-949234fff708d360",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Auf dem Weg nach Israel - Nach Notlandung einer Passagiermaschine in Saudi-Arabien: Verdacht auf versuchten Absturz",
+      "link": "https://www.deutschlandfunk.de/nach-notlandung-einer-passagiermaschine-in-saudi-arabien-verdacht-auf-versuchten-absturz-100.html",
+      "summary": "Nach der Notlandung einer Passagiermaschine in Saudi-Arabien geht die dortige Polizei offenbar dem Verdacht eines Anschlags nach. Laut übereinstimmenden Berichten israelischer Medien wird untersucht, ob der Pilot das Flugzeug zum Absturz bringen wollte.",
+      "image": "https://bilder.deutschlandfunk.de/fb/3f/92/05/fb3f9205-bf2f-4d46-b71f-af37a548ad1d/fly-dubai-flugzeug-100-1920x1920.jpg",
+      "published": "2026-09-30T15:53:58+02:00",
+      "category": "Politik",
+      "score": 77.96,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Notlandung in Saudi-Arabien: Israel geht von versuchtem Terroranschlag aus",
+            "link": "https://www.spiegel.de/ausland/flydubai-maschine-muss-notlanden-israel-geht-von-versuchtem-terroranschlag-aus-a-5455ec81-5edd-45c7-b8e1-1ccb32c9de16#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-fda83972efdd7921",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Regierungsbildung - Mitglied bei \"Rote Hilfe\": Linksextremismus-Vorwürfe gegen Berliner Wahlsiegerin Eralp",
+      "link": "https://www.deutschlandfunk.de/mitglied-bei-rote-hilfe-linksextremismus-vorwuerfe-gegen-berliner-wahlsiegerin-eralp-100.html",
+      "summary": "Die Berliner Linken-Fraktionsvorsitzende Eralp sieht sich Vorwürfen im Zusammenhang mit Linksextremismus ausgesetzt. Die Spitzenkandidatin bei der Abgeordnetenhauswahl sei mehrere Jahre Mitglied des Vereins Rote Hilfe gewesen, bestätigte der Landesverband der Partei einen Bericht der FAZ.",
+      "image": "https://bilder.deutschlandfunk.de/d5/ef/5e/24/d5ef5e24-abaa-4c38-8198-8adce43c3112/linke-parteitag-berlin-elif-eralp-100-1920x1920.jpg",
+      "published": "2026-09-30T15:53:58+02:00",
+      "category": "Politik",
+      "score": 77.96,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Die Linke: Rote Hilfe, Verfassungsschutz und die Rolle von Elif Eralp",
+            "link": "https://www.spiegel.de/politik/deutschland/elif-eralp-war-mitglied-im-verein-was-ist-die-rote-hilfe-a-172dfa0f-b96c-453c-ab7c-d1aa9f97467b#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "handelsblatt-756449610b2d6fd1",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Energie treibt Teuerung: Inflation steigt erstmals seit Ende 2023 über drei Prozent",
+      "link": "https://www.handelsblatt.com/politik/deutschland/energie-treibt-teuerung-inflation-steigt-erstmals-seit-ende-2023-ueber-drei-prozent/100258678.html",
+      "summary": "Der Iran-Krieg hat das Leben in Deutschland so stark verteuert wie seit fast drei Jahren nicht. Der neue Tankrabatt dürfte für etwas Entlastung sorgen - allerdings nur kurzfristig.",
+      "image": "https://images.handelsblatt.com/ri9rdX0ozHJV/cover/900/506/0/0/74/74/0.5/0.5/spritpreise.jpg",
+      "published": "2026-09-30T12:44:31+00:00",
+      "category": "Wirtschaft",
+      "score": 76.0
+    },
+    {
+      "id": "tagesschau-266682c80821459b",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Preis für Deutschlandticket steigt im Januar auf 66,80 Euro",
+      "link": "https://www.tagesschau.de/wirtschaft/verbraucher/deutschlandticket-preis-110.html",
+      "summary": "Das Deutschlandticket wird erneut teurer. Es kostet ab Januar 66,80 Euro und damit 3,80 Euro mehr als bisher. An der neuen Preissteigerung gab es vorab schon deutliche Kritik von Fahrgast- und Umweltverbänden.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/b07b06e0-1d61-4f70-8c19-a1ed11cdaaa5/AAABoPJvxpg/AAABnSSvrFg/16x9-big/fahrkartenautomaten-102.jpg?width=1920",
+      "published": "2026-09-30T15:39:04+02:00",
+      "category": "Nachrichten",
+      "score": 75.96,
+      "coverage": {
+        "sourceCount": 4,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Verkehrsministerkonferenz - Preis für Deutschlandticket steigt 2027 auf 66,80 Euro",
+            "link": "https://www.deutschlandfunk.de/preis-fuer-deutschlandticket-steigt-2027-auf-66-80-euro-100.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "Deutschlandticket: Preis steigt auf 66,80 Euro",
+            "link": "https://www.spiegel.de/mobilitaet/bus-bahn/deutschlandticket-preis-steigt-auf-66-80-euro-a-7be648ac-ed46-4f74-8018-d9148514554a#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Öffentlicher Nahverkehr: Preis für Deutschlandticket steigt auf 66,80 Euro ab Januar",
+            "link": "https://www.handelsblatt.com/politik/deutschland/oeffentlicher-nahverkehr-preis-fuer-deutschlandticket-steigt-auf-6680-euro-ab-januar/100258692.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "handelsblatt-7ebf6afa70639bb2",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Geoeconomics: Trump vor den Midterms: „Betrügt, was das Zeug hält“",
+      "link": "https://www.handelsblatt.com/meinung/kolumnen/geoeconomics-trump-vor-den-midterms-betruegt-was-das-zeug-haelt/100258395.html",
+      "summary": "Umfragen sagen einen Wahlerfolg der Demokraten voraus. Die Außenpolitik des US-Präsidenten würde das kaum einschränken. Für Europa ist die Wahl dennoch wichtig. Ein Gastbeitrag.",
+      "image": "https://images.handelsblatt.com/HraAwORIhJuC/cover/900/506/62/72/4/71/0.5/0.5/die-autorin.jpeg",
+      "published": "2026-09-30T12:30:49+00:00",
+      "category": "Politik",
+      "score": 75.81
     },
     {
       "id": "deutschlandfunk-448a480b2a50aab2",
@@ -85,111 +149,106 @@
       "link": "https://www.deutschlandfunk.de/intensivpfleger-lange-pflege-nicht-als-reinen-kostenfaktor-betrachten-100.html",
       "summary": "Der in der Corona-Pandemie bekannt gewordene Intensivpfleger Ricardo Lange sieht den Berufsalltag im Gesundheitssystem stark belastet. Den Menschen könne man nicht mehr die Pflege zuteil werden lassen, die sie benötigten.",
       "image": "https://bilder.deutschlandfunk.de/FI/LE/_6/53/FILE_6530ca2340bfe91e91081ccc52237d93/imago0117014551h-jpg-102-768x768.jpg",
-      "published": "2026-09-30T11:00:39+02:00",
+      "published": "2026-09-30T15:53:58+02:00",
       "category": "Nachrichten",
-      "score": 74.95
+      "score": 74.96
     },
     {
-      "id": "tagesschau-ef33a9afdc764a37",
+      "id": "tagesschau-4390e206fa9d1995",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Ukrainische Wirtschaft durch Krieg unter Druck",
-      "link": "https://www.tagesschau.de/ausland/europa/ukraine-unternehmen-trotz-krieg-100.html",
-      "summary": "Russland hat seine Angriffe auf die Ukraine seit Wochen verstärkt. Eine große Belastung ist das auch für die Wirtschaft: Brennende Einkaufszentren und Lagerhallen, unterbrochene Logistikketten fordern Unternehmen heraus. Von M. Dugge. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/88a9e0ee-b2fa-44a6-b228-23dedc03b994/AAABoO-oq7I/AAABnSSvrFg/16x9-big/sonnenblumen-feld-ukraine-100.jpg?width=1920",
-      "published": "2026-09-30T04:06:47+02:00",
-      "category": "Wirtschaft",
-      "score": 73.2
-    },
-    {
-      "id": "tagesschau-dac079a701492993",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Reformdebatte in der schwarz-roten Koalition",
-      "link": "https://www.tagesschau.de/inland/reformen-bundesregierung-100.html",
-      "summary": "Die Bundesregierung beteuert es nahezu täglich: Deutschland braucht Reformen. Noch in diesem Herbst hat Schwarz-Rot viel vor - und droht sich in Diskussionen zu verlieren. Was auf der To-do-Liste steht. Von Jan Willems. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/d12ac541-6376-4d93-96d1-fc4e0a9713c6/AAABoO2w0wU/AAABnSSvrFg/16x9-big/klingenbeil-merz-100.jpg?width=1920",
-      "published": "2026-09-30T10:45:42+02:00",
-      "category": "Politik",
-      "score": 70.74,
+      "title": "Volkswagen kündigt zum Jahresende fast alle Tarifverträge",
+      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/volkswagen-aufhebung-tarifvertraege-sparmassnahmen-100.html",
+      "summary": "Der Autobauer Volkswagen hat zum Jahresende eine Reihe von Tarifverträgen gekündigt. Das sei mit Blick auf den aktuellen Kostendruck nötig, erklärte Volkswagen. Der IG Metall zufolge soll sogar der Manteltarifvertrag betroffen sein.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/9fd2c1ed-c835-4076-9c26-652e85c453e5/AAABoPJ_Gf4/AAABnSSvrFg/16x9-big/logo-vw-104.jpg?width=1920",
+      "published": "2026-09-30T15:36:06+02:00",
+      "category": "Technologie",
+      "score": 72.64,
       "coverage": {
-        "sourceCount": 2,
+        "sourceCount": 3,
         "others": [
           {
-            "source": "spiegel",
-            "title": "Reformpolitik: Warum die Regierung vor der Mitte einknickt",
-            "link": "https://www.spiegel.de/wirtschaft/reformpolitik-warum-die-regierung-vor-der-mitte-einknickt-a-5644cfba-7846-4b68-a95d-cbf8fa33e313#ref=rss"
+            "source": "deutschlandfunk",
+            "title": "Hannover - Volkswagen kündigt fast alle Tarifverträge - auch Manteltarifvertrag betroffen",
+            "link": "https://www.deutschlandfunk.de/volkswagen-kuendigt-fast-alle-tarifvertraege-auch-manteltarifvertrag-betroffen-100.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Volkswagen: VW kündigt reihenweise Tarifverträge – müssen Mitarbeiter länger arbeiten?",
+            "link": "https://www.handelsblatt.com/unternehmen/industrie/volkswagen-vw-kuendigt-tarifvertraege-muessen-mitarbeiter-laenger-arbeiten/100258221.html"
           }
         ]
       }
     },
     {
-      "id": "deutschlandfunk-12e49d7ed3245197",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Sozialreformen - Prien (CDU) offen für Änderungen bei Plänen für Elterngeld",
-      "link": "https://www.deutschlandfunk.de/prien-cdu-offen-fuer-aenderungen-bei-plaenen-fuer-elterngeld-102.html",
-      "summary": "Bundesfamilienministerin Prien stellt Nachjustierungen beim Elterngeld in Aussicht.",
-      "image": "https://bilder.deutschlandfunk.de/fb/fb/c8/e5/fbfbc8e5-1d5d-4af8-a0c4-7f8fa948b5b3/eltern-kinderwagen-100-1920x1920.jpg",
-      "published": "2026-09-30T11:00:39+02:00",
-      "category": "Politik",
-      "score": 69.95,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Elterngeld: Karin Prien »offen« für Beibehaltung von 14 Monaten",
-            "link": "https://www.spiegel.de/wirtschaft/soziales/elterngeld-karin-prien-offen-fuer-beibehaltung-von-14-monaten-a-449a3a06-3dac-4755-8ec6-b5143e5e7199#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-1ba3d212cb222d7b",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Nahost - Syrien meldet Festnahme von mit Hisbollah verbundener Terrorzelle",
-      "link": "https://www.deutschlandfunk.de/syrien-meldet-festnahme-von-mit-hisbollah-verbundener-terrorzelle-100.html",
-      "summary": "In Syrien haben die Behörden nach eigenen Angaben im Süden des Landes nahe der von Israel besetzten Golanhöhen eine mit der Hisbollah-Miliz verbundene Terrorzelle ausgehoben.",
-      "image": "https://bilder.deutschlandfunk.de/FI/LE/_2/e8/FILE_2e8fc7659de672efd1d81b6187c673f8/golan-blick-nach-syrien-jpg-100-768x768.jpg",
-      "published": "2026-09-30T11:00:39+02:00",
-      "category": "Politik",
-      "score": 69.95
-    },
-    {
-      "id": "spiegel-06762652546bf200",
+      "id": "spiegel-ee86cfc0017d4290",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Israel – Saudi-Arabien: Piloten prügeln sich auf Linienflug von Dubai nach Tel Aviv",
-      "link": "https://www.spiegel.de/panorama/israel-saudi-arabien-piloten-pruegeln-sich-auf-linienflug-von-dubai-nach-tel-aviv-a-9f066d62-2af4-47f5-b836-11ee10761229#ref=rss",
-      "summary": "Der Flug einer Passagiermaschine von Dubai nach Tel Aviv endete mit einer Notlandung in Saudi-Arabien. An Bord sollen die Piloten aufeinander losgegangen sein. Zunächst bestand sogar die Sorge vor einer Entführung.",
-      "image": "https://cdn.prod.www.spiegel.de/images/3cb7a462-f767-4af9-b279-5bb32e9bb5f3_w1200_r1.778_fpx38_fpy46.jpg",
-      "published": "2026-09-30T10:33:00+02:00",
+      "title": "AfD-Wahlkampf in Sachsen-Anhalt: Staatsrechtler zweifeln Gültigkeit der Wahl an",
+      "link": "https://www.spiegel.de/politik/deutschland/afd-wahlkampf-in-sachsen-anhalt-staatsrechtler-zweifeln-gueltigkeit-der-wahl-an-a-137983c8-4b6d-4ef0-bff9-308cbcdfdaf9#ref=rss",
+      "summary": "Die AfD hat in Sachsen-Anhalt bei der Landtagswahl triumphiert. Die Juraprofessorin Sophie Schönberger kritisiert eine unsaubere Wahlkampf-Finanzierung. Das könne dazu führen, dass die Wahl wiederholt werden muss.",
+      "image": "https://cdn.prod.www.spiegel.de/images/e0cce936-b379-443a-9d65-997f3c7ff66e_w1200_r1.778_fpx61.34_fpy50.jpg",
+      "published": "2026-09-30T15:27:00+02:00",
       "category": "Politik",
-      "score": 69.56
+      "score": 69.59
     },
     {
-      "id": "spiegel-8a76358a71ddbb36",
+      "id": "spiegel-b7db4f847c550786",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Budapest: Berufungsgericht reduziert Haftstrafe für Maja T. auf sieben Jahre",
-      "link": "https://www.spiegel.de/panorama/justiz/budapest-berufungsgericht-reduziert-haftstrafe-fuer-maja-t-auf-sieben-jahre-a-3a9d064e-b06c-418f-9bf8-f206e0f4f0aa#ref=rss",
-      "summary": "Wegen Angriffen auf Rechtsextreme in Ungarn wurde Maja T. verurteilt. Nun erzielt die non-binäre Person einen Erfolg. Das Berufungsgericht wertete T. nicht als Mitglied einer kriminellen Vereinigung und reduzierte die Strafe.",
-      "image": "https://cdn.prod.www.spiegel.de/images/4bd1c618-5d63-437e-8482-e781253f55c6_w1200_r1.778_fpx60_fpy45.jpg",
-      "published": "2026-09-30T10:59:00+02:00",
+      "title": "Hitze in Deutschland: Warum Klimaanlagen allein nicht vor Hitzewellen schützen",
+      "link": "https://www.spiegel.de/politik/hitze-in-deutschland-warum-klimaanlagen-allein-nicht-vor-hitzewellen-schuetzen-a-06cd830e-cd6a-49fb-a320-bf04893f48f1#ref=rss",
+      "summary": "Deutschland muss sich auf heißere Sommer einstellen. Die Erkenntnis ist aber längst nicht überall angekommen: Manchmal reicht schon die Wahl der richtigen Farbe.",
+      "image": "https://cdn.prod.www.spiegel.de/images/51734fd4-18b9-4453-a447-963af15c0fd0_w1200_r1.778_fpx63.99_fpy49.99.jpg",
+      "published": "2026-09-30T14:40:00+02:00",
+      "category": "Politik",
+      "score": 68.93
+    },
+    {
+      "id": "handelsblatt-d33fea323931a435",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "USA: Supreme Court erlaubt Abschiebungen in Drittstaaten vorerst wieder",
+      "link": "https://www.handelsblatt.com/video/politik/usa-supreme-court-erlaubt-abschiebungen-in-drittstaaten-vorerst-wieder/100258701.html",
+      "summary": "Der Oberste Gerichtshof hat der Trump-Regierung Abschiebungen ohne vorherige Anhörung in Drittstaaten wieder erlaubt. Ein Bundesrichter hatte die Praxis im Februar gestoppt, da sie gegen das Verfassungsrecht auf ein ordentliches Verfahren verstoße.",
+      "image": "https://images.handelsblatt.com/eYSsaYozfdKL/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
+      "published": "2026-09-30T13:33:28+00:00",
+      "category": "Politik",
+      "score": 68.68
+    },
+    {
+      "id": "spiegel-f5a6cb356442150c",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Flydubai: Notlandung in Saudi-Arabien – was über Flug FZ1073 bekannt ist",
+      "link": "https://www.spiegel.de/ausland/flydubai-notlandung-in-saudi-arabien-was-ueber-flug-fz1073-bekannt-ist-a-abbf4ca8-42b8-4da7-93e9-3e3855c29c42#ref=rss",
+      "summary": "Ein Flugzeug auf dem Weg von Dubai nach Tel Aviv hat Notfallcodes gesendet und ist in Tabuk notgelandet. Handelt es sich um einen vereitelten Terroranschlag?",
+      "image": "https://cdn.prod.www.spiegel.de/images/fb05e65a-2a9c-4a69-9bfc-9d5419632dda_w1200_r1.778_fpx70_fpy55.01.jpg",
+      "published": "2026-09-30T15:48:00+02:00",
       "category": "Nachrichten",
-      "score": 66.93,
+      "score": 66.88,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "handelsblatt",
-            "title": "Justiz: Gericht verringert Strafe für Maja T. auf sieben Jahre",
-            "link": "https://www.handelsblatt.com/politik/international/justiz-gericht-verringert-strafe-fuer-maja-t-auf-sieben-jahre/100258575.html"
+            "title": "Nahost: Bericht: Israel vermutet versuchten Terroranschlag auf Flydubai-Flug",
+            "link": "https://www.handelsblatt.com/politik/international/nahost-israel-vermutet-wohl-versuchten-terroranschlag-auf-flydubai-flug/100258595.html"
           }
         ]
       }
+    },
+    {
+      "id": "golem-cadc757bc9ea241a",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Donald Trump: KI-Industrie soll sich selbst regulieren",
+      "link": "https://www.golem.de/news/donald-trump-ki-industrie-soll-sich-selbst-regulieren-2609-213573.html",
+      "summary": "Donald Trump setzt beim Thema KI auf Selbstregulierung: Eine \"moralisch bindende\" Vereinbarung mit der KI-Industrie soll KI-Unfälle verhindern. ( KI , Politik )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213573&amp;page=1&amp;ts=1790759882",
+      "published": "2026-09-30T11:18:02+02:00",
+      "category": "Politik",
+      "score": 64.13
     },
     {
       "id": "golem-a8f6a501c23268fb",
@@ -201,31 +260,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213569&amp;page=1&amp;ts=1790754362",
       "published": "2026-09-30T09:46:02+02:00",
       "category": "Politik",
-      "score": 66.91
-    },
-    {
-      "id": "golem-dc65852012a7d4e7",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Rockstar Games: In GTA 6 ziehen Unwetter durch die offene Welt",
-      "link": "https://www.golem.de/news/rockstar-games-in-gta-6-ziehen-unwetter-durch-die-offene-welt-2609-213557.html",
-      "summary": "Gewitter, Autodiebstähle und Polizei: Rockstar verrät neue Details zur Simulation in GTA 6. ( GTA 6 , Red Dead Redemption )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213557&amp;page=1&amp;ts=1790745721",
-      "published": "2026-09-30T07:22:01+02:00",
-      "category": "Panorama",
-      "score": 61.91
-    },
-    {
-      "id": "heise-0ca7e476ff4e4d13",
-      "source": "heise",
-      "sourceWeight": 0.9,
-      "title": "Windows 11 26H2 ist da",
-      "link": "https://www.heise.de/news/Windows-11-26H2-ist-da-11470483.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "summary": "Seit der Nacht zum Mittwoch verteilt Microsoft das Update auf Windows 11 26H2. Die Installation geht flott vonstatten.",
-      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/7/3/8/4/7/2026-08-28-Windows11-26H2-Aufmacher-b951f9c8a4643603.png",
-      "published": "2026-09-30T09:06:00+02:00",
-      "category": "Technologie",
-      "score": 56.36
+      "score": 62.85
     }
   ]
 }
