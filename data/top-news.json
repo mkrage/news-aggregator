@@ -1,169 +1,18 @@
 {
-  "generatedAt": "2026-09-30T13:56:50.532303+00:00",
+  "generatedAt": "2026-09-30T16:08:05.245544+00:00",
   "count": 15,
   "articles": [
-    {
-      "id": "tagesschau-bbb4927869616704",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Inflationsrate steigt im September auf 3,3 Prozent",
-      "link": "https://www.tagesschau.de/wirtschaft/inflation-september-energiepreise-100.html",
-      "summary": "Die Inflation in Deutschland ist im September erstmals seit fast drei Jahren auf über drei Prozent angestiegen. Schuld daran sind vor allem massiv gestiegene Energiepreise. Lebensmittel verteuerten sich kaum.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/86e333d7-691a-4408-9ead-0c32dcf8faf0/AAABoPJVB2k/AAABnSSvrFg/16x9-big/tanken-280.jpg?width=1920",
-      "published": "2026-09-30T14:52:15+02:00",
-      "category": "Wirtschaft",
-      "score": 83.64,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Wirtschaft - Inflationsrate erstmals seit Ende 2023 wieder über der Drei-Prozent-Marke",
-            "link": "https://www.deutschlandfunk.de/inflationsrate-erstmals-seit-ende-2023-wieder-ueber-der-drei-prozent-marke-100.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Inflation in Deutschland: Rate steigt unerwartet kräftig auf 3,3 Prozent",
-            "link": "https://www.spiegel.de/wirtschaft/service/inflationsrate-in-deutschland-steigt-unerwartet-kraeftig-auf-3-3-prozent-a-9cb7b797-c69d-432b-83f2-f531cf52b69e#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-09757c21d94e9e7f",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Ukraine - Regierung beziffert Kriegskosten 2026 auf 155 Milliarden Dollar",
-      "link": "https://www.deutschlandfunk.de/regierung-beziffert-kriegskosten-2026-auf-155-milliarden-dollar-100.html",
-      "summary": "Die Kriegskosten der Ukraine im Verteidigungskampf gegen Russland belaufen sich nach Regierungsangaben in diesem Jahr auf insgesamt 155 Milliarden Dollar.",
-      "image": "https://bilder.deutschlandfunk.de/92/66/49/bb/926649bb-4ce2-403d-be97-f55044ebe29c/ukraine-brand-akademie-der-wissenschaften-kiew-100-1920x1920.jpg",
-      "published": "2026-09-30T15:53:58+02:00",
-      "category": "Politik",
-      "score": 77.96
-    },
-    {
-      "id": "deutschlandfunk-949234fff708d360",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Auf dem Weg nach Israel - Nach Notlandung einer Passagiermaschine in Saudi-Arabien: Verdacht auf versuchten Absturz",
-      "link": "https://www.deutschlandfunk.de/nach-notlandung-einer-passagiermaschine-in-saudi-arabien-verdacht-auf-versuchten-absturz-100.html",
-      "summary": "Nach der Notlandung einer Passagiermaschine in Saudi-Arabien geht die dortige Polizei offenbar dem Verdacht eines Anschlags nach. Laut übereinstimmenden Berichten israelischer Medien wird untersucht, ob der Pilot das Flugzeug zum Absturz bringen wollte.",
-      "image": "https://bilder.deutschlandfunk.de/fb/3f/92/05/fb3f9205-bf2f-4d46-b71f-af37a548ad1d/fly-dubai-flugzeug-100-1920x1920.jpg",
-      "published": "2026-09-30T15:53:58+02:00",
-      "category": "Politik",
-      "score": 77.96,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Notlandung in Saudi-Arabien: Israel geht von versuchtem Terroranschlag aus",
-            "link": "https://www.spiegel.de/ausland/flydubai-maschine-muss-notlanden-israel-geht-von-versuchtem-terroranschlag-aus-a-5455ec81-5edd-45c7-b8e1-1ccb32c9de16#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-fda83972efdd7921",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Regierungsbildung - Mitglied bei \"Rote Hilfe\": Linksextremismus-Vorwürfe gegen Berliner Wahlsiegerin Eralp",
-      "link": "https://www.deutschlandfunk.de/mitglied-bei-rote-hilfe-linksextremismus-vorwuerfe-gegen-berliner-wahlsiegerin-eralp-100.html",
-      "summary": "Die Berliner Linken-Fraktionsvorsitzende Eralp sieht sich Vorwürfen im Zusammenhang mit Linksextremismus ausgesetzt. Die Spitzenkandidatin bei der Abgeordnetenhauswahl sei mehrere Jahre Mitglied des Vereins Rote Hilfe gewesen, bestätigte der Landesverband der Partei einen Bericht der FAZ.",
-      "image": "https://bilder.deutschlandfunk.de/d5/ef/5e/24/d5ef5e24-abaa-4c38-8198-8adce43c3112/linke-parteitag-berlin-elif-eralp-100-1920x1920.jpg",
-      "published": "2026-09-30T15:53:58+02:00",
-      "category": "Politik",
-      "score": 77.96,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Die Linke: Rote Hilfe, Verfassungsschutz und die Rolle von Elif Eralp",
-            "link": "https://www.spiegel.de/politik/deutschland/elif-eralp-war-mitglied-im-verein-was-ist-die-rote-hilfe-a-172dfa0f-b96c-453c-ab7c-d1aa9f97467b#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "handelsblatt-756449610b2d6fd1",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Energie treibt Teuerung: Inflation steigt erstmals seit Ende 2023 über drei Prozent",
-      "link": "https://www.handelsblatt.com/politik/deutschland/energie-treibt-teuerung-inflation-steigt-erstmals-seit-ende-2023-ueber-drei-prozent/100258678.html",
-      "summary": "Der Iran-Krieg hat das Leben in Deutschland so stark verteuert wie seit fast drei Jahren nicht. Der neue Tankrabatt dürfte für etwas Entlastung sorgen - allerdings nur kurzfristig.",
-      "image": "https://images.handelsblatt.com/ri9rdX0ozHJV/cover/900/506/0/0/74/74/0.5/0.5/spritpreise.jpg",
-      "published": "2026-09-30T12:44:31+00:00",
-      "category": "Wirtschaft",
-      "score": 76.0
-    },
-    {
-      "id": "tagesschau-266682c80821459b",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Preis für Deutschlandticket steigt im Januar auf 66,80 Euro",
-      "link": "https://www.tagesschau.de/wirtschaft/verbraucher/deutschlandticket-preis-110.html",
-      "summary": "Das Deutschlandticket wird erneut teurer. Es kostet ab Januar 66,80 Euro und damit 3,80 Euro mehr als bisher. An der neuen Preissteigerung gab es vorab schon deutliche Kritik von Fahrgast- und Umweltverbänden.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/b07b06e0-1d61-4f70-8c19-a1ed11cdaaa5/AAABoPJvxpg/AAABnSSvrFg/16x9-big/fahrkartenautomaten-102.jpg?width=1920",
-      "published": "2026-09-30T15:39:04+02:00",
-      "category": "Nachrichten",
-      "score": 75.96,
-      "coverage": {
-        "sourceCount": 4,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Verkehrsministerkonferenz - Preis für Deutschlandticket steigt 2027 auf 66,80 Euro",
-            "link": "https://www.deutschlandfunk.de/preis-fuer-deutschlandticket-steigt-2027-auf-66-80-euro-100.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Deutschlandticket: Preis steigt auf 66,80 Euro",
-            "link": "https://www.spiegel.de/mobilitaet/bus-bahn/deutschlandticket-preis-steigt-auf-66-80-euro-a-7be648ac-ed46-4f74-8018-d9148514554a#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Öffentlicher Nahverkehr: Preis für Deutschlandticket steigt auf 66,80 Euro ab Januar",
-            "link": "https://www.handelsblatt.com/politik/deutschland/oeffentlicher-nahverkehr-preis-fuer-deutschlandticket-steigt-auf-6680-euro-ab-januar/100258692.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "handelsblatt-7ebf6afa70639bb2",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Geoeconomics: Trump vor den Midterms: „Betrügt, was das Zeug hält“",
-      "link": "https://www.handelsblatt.com/meinung/kolumnen/geoeconomics-trump-vor-den-midterms-betruegt-was-das-zeug-haelt/100258395.html",
-      "summary": "Umfragen sagen einen Wahlerfolg der Demokraten voraus. Die Außenpolitik des US-Präsidenten würde das kaum einschränken. Für Europa ist die Wahl dennoch wichtig. Ein Gastbeitrag.",
-      "image": "https://images.handelsblatt.com/HraAwORIhJuC/cover/900/506/62/72/4/71/0.5/0.5/die-autorin.jpeg",
-      "published": "2026-09-30T12:30:49+00:00",
-      "category": "Politik",
-      "score": 75.81
-    },
-    {
-      "id": "deutschlandfunk-448a480b2a50aab2",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Reformdebatte - Intensivpfleger Lange: \"Pflege nicht als reinen Kostenfaktor betrachten\"",
-      "link": "https://www.deutschlandfunk.de/intensivpfleger-lange-pflege-nicht-als-reinen-kostenfaktor-betrachten-100.html",
-      "summary": "Der in der Corona-Pandemie bekannt gewordene Intensivpfleger Ricardo Lange sieht den Berufsalltag im Gesundheitssystem stark belastet. Den Menschen könne man nicht mehr die Pflege zuteil werden lassen, die sie benötigten.",
-      "image": "https://bilder.deutschlandfunk.de/FI/LE/_6/53/FILE_6530ca2340bfe91e91081ccc52237d93/imago0117014551h-jpg-102-768x768.jpg",
-      "published": "2026-09-30T15:53:58+02:00",
-      "category": "Nachrichten",
-      "score": 74.96
-    },
     {
       "id": "tagesschau-4390e206fa9d1995",
       "source": "tagesschau",
       "sourceWeight": 1.0,
       "title": "Volkswagen kündigt zum Jahresende fast alle Tarifverträge",
       "link": "https://www.tagesschau.de/wirtschaft/unternehmen/volkswagen-aufhebung-tarifvertraege-sparmassnahmen-100.html",
-      "summary": "Der Autobauer Volkswagen hat zum Jahresende eine Reihe von Tarifverträgen gekündigt. Das sei mit Blick auf den aktuellen Kostendruck nötig, erklärte Volkswagen. Der IG Metall zufolge soll sogar der Manteltarifvertrag betroffen sein.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/9fd2c1ed-c835-4076-9c26-652e85c453e5/AAABoPJ_Gf4/AAABnSSvrFg/16x9-big/logo-vw-104.jpg?width=1920",
-      "published": "2026-09-30T15:36:06+02:00",
+      "summary": "Der kriselnde Autobauer VW hat zum Jahresende eine Reihe von Tarifverträgen gekündigt und begründet das mit dem aktuellen Kostendruck. Die IG Metall spricht von einem \"üblen Foul an der Belegschaft\".[ mehr ]",
+      "image": "https://images.tagesschau.de/image/ec5f7509-d72e-44d5-a7d4-95f19f7fdbee/AAABoPKDfnY/AAABnSSvrFg/16x9-big/fahrzeuge-fertigungsstrasse-100.jpg?width=1920",
+      "published": "2026-09-30T16:00:31+02:00",
       "category": "Technologie",
-      "score": 72.64,
+      "score": 80.26,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -181,28 +30,174 @@
       }
     },
     {
+      "id": "tagesschau-a6c5475b0b929615",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Versuchter Terror? Gewaltvorfall in Cockpit von Flydubai-Maschine",
+      "link": "https://www.tagesschau.de/ausland/asien/flydubai-notlandung-terrorverdacht-100.html",
+      "summary": "An Bord einer Maschine von Dubai nach Tel Aviv hat ein Pilot auf seinen Kollegen mit einem Messer eingestochen. 180 Israelis waren an Bord. Israels Regierung spricht bereits von einem Anschlagsversuch. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/84014288-012b-4a48-bbab-038efe8da5fe/AAABoPKdPcA/AAABnSSvrFg/16x9-big/flydubai-flughafen-100.jpg?width=1920",
+      "published": "2026-09-30T17:55:45+02:00",
+      "category": "Politik",
+      "score": 78.83,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Nahost: Israel: Versuchter Anschlag auf Flydubai-Flug nach Tel Aviv",
+            "link": "https://www.handelsblatt.com/politik/international/nahost-israel-versuchter-anschlag-auf-flydubai-flug-nach-tel-aviv/100258650.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-96b0c05e5bd07635",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Pläne der Bundesregierung - Härtere Strafen für Angriffe gegen Einsatzkräfte",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/strafe-angriffe-zugbegleiter-100.html",
+      "summary": "In den vergangenen Jahren haben die Angriffe auf Einsatz- und Rettungskräfte zugenommen. Ebenso auf Zugbegleiter und andere für das Gemeinwohl Tätige. Die Strafen dafür sollen jetzt erhöht werden. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/300d8041-30a2-4ecd-a8c8-ba3da4bf427f/AAABoPHTD3U/AAABnSSvrFg/16x9-big/rettungskraefte-sind-tabu-100.jpg?width=1920",
+      "published": "2026-09-30T13:36:38+02:00",
+      "category": "Politik",
+      "score": 78.8,
+      "coverage": {
+        "sourceCount": 4,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Gewalt gegen Zugbegleiter: Bundesregierung plant härtere Strafen",
+            "link": "https://www.spiegel.de/panorama/justiz/gewalt-gegen-zugbegleiter-bundesregierung-plant-haertere-strafen-a-e2dc0bd5-a8dc-4f39-8c6a-1a4868933bfb#ref=rss"
+          },
+          {
+            "source": "deutschlandfunk",
+            "title": "Bundesregierung - Härtere Strafen für Angriffe auf Polizisten, Ärzte oder Zugbegleiter - Kabinett verabschiedet Entwurf von Justizministerin Hubig",
+            "link": "https://www.deutschlandfunk.de/haertere-strafen-fuer-angriffe-auf-polizisten-aerzte-oder-zugbegleiter-kabinett-verabschiedet-entwur-102.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Kabinett: Härtere Strafen für Angriffe auf Zugbegleiter und Ärzte",
+            "link": "https://www.handelsblatt.com/politik/deutschland/kabinett-haertere-strafen-fuer-angriffe-auf-zugbegleiter-und-aerzte/100258479.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-bbb4927869616704",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Inflationsrate steigt im September auf 3,3 Prozent",
+      "link": "https://www.tagesschau.de/wirtschaft/inflation-september-energiepreise-100.html",
+      "summary": "Die Inflation in Deutschland ist im September erstmals seit fast drei Jahren auf über drei Prozent angestiegen. Schuld daran sind vor allem massiv gestiegene Energiepreise. Lebensmittel verteuerten sich kaum.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/86e333d7-691a-4408-9ead-0c32dcf8faf0/AAABoPJVB2k/AAABnSSvrFg/16x9-big/tanken-280.jpg?width=1920",
+      "published": "2026-09-30T14:52:15+02:00",
+      "category": "Wirtschaft",
+      "score": 78.58,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Wirtschaft - Inflationsrate erstmals seit Ende 2023 wieder über der Drei-Prozent-Marke",
+            "link": "https://www.deutschlandfunk.de/inflationsrate-erstmals-seit-ende-2023-wieder-ueber-der-drei-prozent-marke-100.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-09757c21d94e9e7f",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Ukraine - Regierung beziffert Kriegskosten 2026 auf 155 Milliarden Dollar",
+      "link": "https://www.deutschlandfunk.de/regierung-beziffert-kriegskosten-2026-auf-155-milliarden-dollar-100.html",
+      "summary": "Die Kriegskosten der Ukraine im Verteidigungskampf gegen Russland belaufen sich nach Regierungsangaben in diesem Jahr auf insgesamt 155 Milliarden Dollar.",
+      "image": "https://bilder.deutschlandfunk.de/92/66/49/bb/926649bb-4ce2-403d-be97-f55044ebe29c/ukraine-brand-akademie-der-wissenschaften-kiew-100-1920x1920.jpg",
+      "published": "2026-09-30T17:37:55+02:00",
+      "category": "Politik",
+      "score": 77.58
+    },
+    {
+      "id": "deutschlandfunk-7f3ed202c0c893a3",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Nahost - Flydubai-Vorfall: Israels Premierminister Netanjahu: Pilot stach auf anderen Piloten ein - Notlandung in Saudi-Arabien",
+      "link": "https://www.deutschlandfunk.de/flydubai-vorfall-israels-premierminister-netanjahu-pilot-stach-auf-anderen-piloten-ein-notlandung-in-102.html",
+      "summary": "Die israelische Regierung wertet die Ereignisse an Bord einer Passagier-Maschine auf dem Weg von Dubai nach Tel Aviv als schwerwiegenden Sicherheitsvorfall.",
+      "image": "https://bilder.deutschlandfunk.de/2a/9c/2d/34/2a9c2d34-55ae-4339-b70b-ceefde2a138c/ein-fugzeug-der-gesellschaft-flydubai-100-1920x1920.jpg",
+      "published": "2026-09-30T17:37:55+02:00",
+      "category": "Politik",
+      "score": 77.58,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Flydubai: Notlandung in Saudi-Arabien – was über Flug FZ1073 bekannt ist",
+            "link": "https://www.spiegel.de/ausland/flydubai-notlandung-in-saudi-arabien-was-ueber-flug-fz1073-bekannt-ist-a-abbf4ca8-42b8-4da7-93e9-3e3855c29c42#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-91b3eca7826a7b4e",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Regierungskrise - Rumänien: Wahl von neuem Ministerpräsidenten erneut gescheitert",
+      "link": "https://www.deutschlandfunk.de/rumaenien-wahl-von-neuem-ministerpraesidenten-erneut-gescheitert-100.html",
+      "summary": "In Rumänien ist die Wahl eines Regierungschefs erneut gescheitert.",
+      "image": "https://bilder.deutschlandfunk.de/af/d6/8f/61/afd68f61-aa31-4938-a216-8b47642b04fd/rumaenien-bukarest-parlament-plenum-sitzung-parlamentssitzung-abgeordnete-100-1920x1920.jpg",
+      "published": "2026-09-30T17:37:55+02:00",
+      "category": "Politik",
+      "score": 77.58
+    },
+    {
+      "id": "handelsblatt-756449610b2d6fd1",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Energie treibt Teuerung: Inflation steigt erstmals seit Ende 2023 über drei Prozent",
+      "link": "https://www.handelsblatt.com/politik/deutschland/energie-treibt-teuerung-inflation-steigt-erstmals-seit-ende-2023-ueber-drei-prozent/100258678.html",
+      "summary": "Der Iran-Krieg hat das Leben in Deutschland so stark verteuert wie seit fast drei Jahren nicht. Der neue Tankrabatt dürfte für etwas Entlastung sorgen - allerdings nur kurzfristig.",
+      "image": "https://images.handelsblatt.com/ri9rdX0ozHJV/cover/900/506/0/0/74/74/0.5/0.5/spritpreise.jpg",
+      "published": "2026-09-30T12:44:31+00:00",
+      "category": "Wirtschaft",
+      "score": 74.17
+    },
+    {
+      "id": "handelsblatt-7ebf6afa70639bb2",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Geoeconomics: Trump vor den Midterms: „Betrügt, was das Zeug hält“",
+      "link": "https://www.handelsblatt.com/meinung/kolumnen/geoeconomics-trump-vor-den-midterms-betruegt-was-das-zeug-haelt/100258395.html",
+      "summary": "Umfragen sagen einen Wahlerfolg der Demokraten voraus. Die Außenpolitik des US-Präsidenten würde das kaum einschränken. Für Europa ist die Wahl dennoch wichtig. Ein Gastbeitrag.",
+      "image": "https://images.handelsblatt.com/HraAwORIhJuC/cover/900/506/62/72/4/71/0.5/0.5/die-autorin.jpeg",
+      "published": "2026-09-30T12:30:49+00:00",
+      "category": "Politik",
+      "score": 73.98
+    },
+    {
+      "id": "spiegel-6f5cb3806acac46e",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Bundestag: Diese Abgeordneten kassieren unter Julia Klöckner die meisten Ordnungsrufe",
+      "link": "https://www.spiegel.de/politik/deutschland/bundestag-diese-abgeordneten-kassieren-unter-julia-kloeckner-die-meisten-ordnungsrufe-a-af2415d2-3cf9-497d-bf87-8916df1d7b68#ref=rss",
+      "summary": "Sie beschimpfen sich als Hetzer, Straftäter, Stalinisten: Der Ton unter den Abgeordneten im Bundestag wird immer rauer – trotz neuer Strafen. Das zeigt auch unsere Datenanalyse. Eine Abgeordnete muss bereits zahlen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/4dbf238a-15d7-4d5a-bbd0-8c97dceb541a_w1200_r1.778_fpx50_fpy50.png",
+      "published": "2026-09-30T16:46:00+02:00",
+      "category": "Politik",
+      "score": 68.86
+    },
+    {
       "id": "spiegel-ee86cfc0017d4290",
       "source": "spiegel",
       "sourceWeight": 0.95,
       "title": "AfD-Wahlkampf in Sachsen-Anhalt: Staatsrechtler zweifeln Gültigkeit der Wahl an",
       "link": "https://www.spiegel.de/politik/deutschland/afd-wahlkampf-in-sachsen-anhalt-staatsrechtler-zweifeln-gueltigkeit-der-wahl-an-a-137983c8-4b6d-4ef0-bff9-308cbcdfdaf9#ref=rss",
-      "summary": "Die AfD hat in Sachsen-Anhalt bei der Landtagswahl triumphiert. Die Juraprofessorin Sophie Schönberger kritisiert eine unsaubere Wahlkampf-Finanzierung. Das könne dazu führen, dass die Wahl wiederholt werden muss.",
-      "image": "https://cdn.prod.www.spiegel.de/images/e0cce936-b379-443a-9d65-997f3c7ff66e_w1200_r1.778_fpx61.34_fpy50.jpg",
+      "summary": "Die AfD hat in Sachsen-Anhalt bei der Landtagswahl triumphiert. Die Juraprofessorin Sophie Schönberger kritisiert eine unsaubere Wahlkampffinanzierung. Das könne dazu führen, dass die Wahl wiederholt werden muss.",
+      "image": "https://cdn.prod.www.spiegel.de/images/e0cce936-b379-443a-9d65-997f3c7ff66e_w1200_r1.778_fpx50_fpy49.jpg",
       "published": "2026-09-30T15:27:00+02:00",
       "category": "Politik",
-      "score": 69.59
-    },
-    {
-      "id": "spiegel-b7db4f847c550786",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Hitze in Deutschland: Warum Klimaanlagen allein nicht vor Hitzewellen schützen",
-      "link": "https://www.spiegel.de/politik/hitze-in-deutschland-warum-klimaanlagen-allein-nicht-vor-hitzewellen-schuetzen-a-06cd830e-cd6a-49fb-a320-bf04893f48f1#ref=rss",
-      "summary": "Deutschland muss sich auf heißere Sommer einstellen. Die Erkenntnis ist aber längst nicht überall angekommen: Manchmal reicht schon die Wahl der richtigen Farbe.",
-      "image": "https://cdn.prod.www.spiegel.de/images/51734fd4-18b9-4453-a447-963af15c0fd0_w1200_r1.778_fpx63.99_fpy49.99.jpg",
-      "published": "2026-09-30T14:40:00+02:00",
-      "category": "Politik",
-      "score": 68.93
+      "score": 67.76
     },
     {
       "id": "handelsblatt-d33fea323931a435",
@@ -214,29 +209,19 @@
       "image": "https://images.handelsblatt.com/eYSsaYozfdKL/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
       "published": "2026-09-30T13:33:28+00:00",
       "category": "Politik",
-      "score": 68.68
+      "score": 66.85
     },
     {
-      "id": "spiegel-f5a6cb356442150c",
+      "id": "spiegel-7fd35fcd3d6e302e",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Flydubai: Notlandung in Saudi-Arabien – was über Flug FZ1073 bekannt ist",
-      "link": "https://www.spiegel.de/ausland/flydubai-notlandung-in-saudi-arabien-was-ueber-flug-fz1073-bekannt-ist-a-abbf4ca8-42b8-4da7-93e9-3e3855c29c42#ref=rss",
-      "summary": "Ein Flugzeug auf dem Weg von Dubai nach Tel Aviv hat Notfallcodes gesendet und ist in Tabuk notgelandet. Handelt es sich um einen vereitelten Terroranschlag?",
-      "image": "https://cdn.prod.www.spiegel.de/images/fb05e65a-2a9c-4a69-9bfc-9d5419632dda_w1200_r1.778_fpx70_fpy55.01.jpg",
-      "published": "2026-09-30T15:48:00+02:00",
+      "title": "VW-Krise: Volkswagen kündigt zahlreiche Haustarifverträge",
+      "link": "https://www.spiegel.de/wirtschaft/unternehmen/volkswagen-kuendigt-tarifvertraege-a-c60ba636-204a-4c5d-994c-ea8bf2c1b06a#ref=rss",
+      "summary": "Im Zuge der Konzernsanierung plant VW die Kündigung von zehn seiner Haustarifverträge. Beschäftigte in ganz Deutschland sind betroffen, der Betriebsrat kündigt Widerstand an.",
+      "image": "https://cdn.prod.www.spiegel.de/images/baaa8221-78c6-45f0-b48f-4a521287e16b_w1200_r1.778_fpx64.87_fpy49.99.jpg",
+      "published": "2026-09-30T15:15:00+02:00",
       "category": "Nachrichten",
-      "score": 66.88,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Nahost: Bericht: Israel vermutet versuchten Terroranschlag auf Flydubai-Flug",
-            "link": "https://www.handelsblatt.com/politik/international/nahost-israel-vermutet-wohl-versuchten-terroranschlag-auf-flydubai-flug/100258595.html"
-          }
-        ]
-      }
+      "score": 64.6
     },
     {
       "id": "golem-cadc757bc9ea241a",
@@ -248,7 +233,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213573&amp;page=1&amp;ts=1790759882",
       "published": "2026-09-30T11:18:02+02:00",
       "category": "Politik",
-      "score": 64.13
+      "score": 62.3
     },
     {
       "id": "golem-a8f6a501c23268fb",
@@ -260,7 +245,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213569&amp;page=1&amp;ts=1790754362",
       "published": "2026-09-30T09:46:02+02:00",
       "category": "Politik",
-      "score": 62.85
+      "score": 61.03
     }
   ]
 }
