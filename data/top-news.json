@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T23:59:11.027238+00:00",
+  "generatedAt": "2026-10-01T00:52:54.082357+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/3b963f92-6743-469e-b0fc-31fab2e360a2/AAABoPOzzNQ/AAABnSSvrFg/16x9-big/rbb-ferat-koak-102.jpg?width=1920",
       "published": "2026-09-30T20:59:10+02:00",
       "category": "Politik",
-      "score": 86.77,
+      "score": 86.87,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -44,19 +44,14 @@
       "image": "https://images.tagesschau.de/image/fbe9bd8d-95ad-49dd-b3d7-3b17cac47ac8/AAABoPPLqPg/AAABnSSvrFg/16x9-big/flydubai-flugzeug-102.jpg?width=1920",
       "published": "2026-09-30T22:31:18+02:00",
       "category": "Politik",
-      "score": 86.77,
+      "score": 83.55,
       "coverage": {
-        "sourceCount": 4,
+        "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "Bundesaußenminister - Wadephul nennt Vorfall in Flydubai-Maschine nach Tel Aviv schweren Angriff auf die Luftfahrt",
             "link": "https://www.deutschlandfunk.de/wadephul-nennt-vorfall-in-flydubai-maschine-nach-tel-aviv-schweren-angriff-auf-die-luftfahrt-102.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Flydubai: Gewalt an Bord – Mann mit Messer auf Flug nach Tel Aviv überwältigt",
-            "link": "https://www.spiegel.de/ausland/flydubai-gewalt-an-bord-mann-mit-messer-auf-flug-nach-tel-aviv-ueberwaeltigt-a-e1892e1b-40ec-4c34-984d-dfb33b616f36#ref=rss"
           },
           {
             "source": "handelsblatt",
@@ -65,18 +60,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "spiegel-46c05a2182c23e43",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Israel-Gaza-Krieg: Kino-Start der umstrittenen Gaza-Doku »Naza«",
-      "link": "https://www.spiegel.de/ausland/israel-gaza-krieg-kino-start-der-umstrittenen-gaza-doku-naza-a-fa1e76e4-c7d0-4104-bfdc-a760ac11ac46#ref=rss",
-      "summary": "Im Dokumentarfilm »Naza« enthüllen israelische Soldaten die brutale Kriegsführung in Gaza. Israels Regierung wirft den Machern Landesverrat vor. Nun kommt der Film in die Kinos. Der SPIEGEL hat ihn gesehen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/f7590ce8-cdcb-47d4-9f79-57ae0546e4e5_w1200_r1.778_fpx32.61_fpy50.jpg",
-      "published": "2026-09-30T19:39:00+02:00",
-      "category": "Politik",
-      "score": 80.72
     },
     {
       "id": "tagesschau-4390e206fa9d1995",
@@ -88,7 +71,7 @@
       "image": "https://images.tagesschau.de/image/ec5f7509-d72e-44d5-a7d4-95f19f7fdbee/AAABoPKDfnY/AAABnSSvrFg/16x9-big/fahrzeuge-fertigungsstrasse-100.jpg?width=1920",
       "published": "2026-09-30T16:00:31+02:00",
       "category": "Technologie",
-      "score": 80.45,
+      "score": 80.55,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -106,6 +89,30 @@
       }
     },
     {
+      "id": "spiegel-46c05a2182c23e43",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Israel-Gaza-Krieg: Kino-Start der umstrittenen Gaza-Doku »Naza«",
+      "link": "https://www.spiegel.de/ausland/israel-gaza-krieg-kino-start-der-umstrittenen-gaza-doku-naza-a-fa1e76e4-c7d0-4104-bfdc-a760ac11ac46#ref=rss",
+      "summary": "Im Dokumentarfilm »Naza« enthüllen israelische Soldaten die brutale Kriegsführung in Gaza. Israels Regierung wirft den Machern Landesverrat vor. Nun kommt der Film in die Kinos. Der SPIEGEL hat ihn gesehen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/f7590ce8-cdcb-47d4-9f79-57ae0546e4e5_w1200_r1.778_fpx32.61_fpy50.jpg",
+      "published": "2026-09-30T19:39:00+02:00",
+      "category": "Politik",
+      "score": 79.97
+    },
+    {
+      "id": "deutschlandfunk-e5af0a6f13b3cae7",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Regierungskrise - Rumänien: Wahl von neuem Ministerpräsidenten erneut gescheitert",
+      "link": "https://www.deutschlandfunk.de/rumaenien-wahl-von-neuem-ministerpraesidenten-erneut-gescheitert-106.html",
+      "summary": "In Rumänien ist die Wahl eines Regierungschefs erneut gescheitert.",
+      "image": "https://bilder.deutschlandfunk.de/af/d6/8f/61/afd68f61-aa31-4938-a216-8b47642b04fd/rumaenien-bukarest-parlament-plenum-sitzung-parlamentssitzung-abgeordnete-100-1920x1920.jpg",
+      "published": "2026-10-01T02:43:18+02:00",
+      "category": "Politik",
+      "score": 77.87
+    },
+    {
       "id": "tagesschau-131f26994cb161f9",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -115,7 +122,7 @@
       "image": "https://images.tagesschau.de/image/c300d0ed-a041-487d-ba53-13f49b250255/AAABoPSa0dQ/AAABnSSvrFg/16x9-big/hegseth-militaer-rede-100.jpg?width=1920",
       "published": "2026-10-01T01:16:22+02:00",
       "category": "Politik",
-      "score": 78.41,
+      "score": 77.66,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -128,18 +135,6 @@
       }
     },
     {
-      "id": "deutschlandfunk-e5af0a6f13b3cae7",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Regierungskrise - Rumänien: Wahl von neuem Ministerpräsidenten erneut gescheitert",
-      "link": "https://www.deutschlandfunk.de/rumaenien-wahl-von-neuem-ministerpraesidenten-erneut-gescheitert-106.html",
-      "summary": "In Rumänien ist die Wahl eines Regierungschefs erneut gescheitert.",
-      "image": "https://bilder.deutschlandfunk.de/af/d6/8f/61/afd68f61-aa31-4938-a216-8b47642b04fd/rumaenien-bukarest-parlament-plenum-sitzung-parlamentssitzung-abgeordnete-100-1920x1920.jpg",
-      "published": "2026-10-01T01:42:24+02:00",
-      "category": "Politik",
-      "score": 77.77
-    },
-    {
       "id": "handelsblatt-11c1e09b11884fbf",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
@@ -149,7 +144,7 @@
       "image": "https://images.handelsblatt.com/FC9NE24N2pUb/cover/900/506/0/0/105/104/0.5/0.5/senatorin-marsha-blackburn.jpg",
       "published": "2026-09-30T23:40:00+00:00",
       "category": "Politik",
-      "score": 76.73
+      "score": 75.99
     },
     {
       "id": "handelsblatt-91e53521a191110a",
@@ -161,7 +156,7 @@
       "image": "https://images.handelsblatt.com/kxiB7XD07hSG/cover/900/506/0/0/372/372/0.5/0.5/passagier-yaniv-hayun-bei-seinem-eintreffen-in-tel-aviv-er-soll-zu-denen-gehoeren-die-den-flugzeugentfuehrer-ueberwaeltigt-haben..jpg",
       "published": "2026-09-30T20:44:53+00:00",
       "category": "Politik",
-      "score": 74.3
+      "score": 73.56
     },
     {
       "id": "spiegel-3a0e9d890ca953dc",
@@ -173,29 +168,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/391e97b0-7fc0-409c-bfe0-947ea86b7b47_w1200_r1.778_fpx33.33_fpy49.99.jpg",
       "published": "2026-09-30T20:21:00+02:00",
       "category": "Politik",
-      "score": 73.3
-    },
-    {
-      "id": "spiegel-adeb5626f1528606",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Donald Trump: Diese KI-Bosse waren ihm beim »Super Intelligence Luncheon« besonders nah",
-      "link": "https://www.spiegel.de/netzwelt/donald-trump-diese-ki-bosse-waren-ihm-beim-super-intelligence-luncheon-besonders-nah-a-fa02b2df-eb03-4fb6-b0b0-779f746fc7f9#ref=rss",
-      "summary": "Das Ergebnis der jüngsten KI-Runde in Washington ist mau. Doch US-Präsident Trump setzt auf Symbolik und starke Bilder. Das Schaulaufen der Tech-Elite in der Grafikanalyse.",
-      "image": "https://cdn.prod.www.spiegel.de/images/64addf44-6e39-484a-8e5e-6044be961901_w1200_r1.778_fpx48_fpy50.jpg",
-      "published": "2026-09-30T18:55:00+02:00",
-      "category": "Politik",
-      "score": 72.11,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "golem",
-            "title": "USA: Trump nennt KI offiziell in \"Super Intelligence\" um",
-            "link": "https://www.golem.de/news/usa-trump-nennt-ki-offiziell-in-super-intelligence-um-2609-213569.html"
-          }
-        ]
-      }
+      "score": 72.56
     },
     {
       "id": "deutschlandfunk-42899e077d442a7f",
@@ -205,9 +178,9 @@
       "link": "https://www.deutschlandfunk.de/kerkeling-spricht-bei-anhoerung-im-thueringer-landtag-106.html",
       "summary": "Der Entertainer Hape Kerkeling, dessen Großvater KZ-Häftling in Buchenwald war, hat der AfD wegen der Relativierung des Nationalsozialismus Verfassungsfeindlichkeit vorgeworfen.",
       "image": "https://bilder.deutschlandfunk.de/a3/a9/94/50/a3a99450-cda2-40d9-a2ba-942a6ad0e316/hape-kerkeling-landtag-thueringen-100-1920x1920.jpg",
-      "published": "2026-10-01T01:42:24+02:00",
+      "published": "2026-10-01T02:43:18+02:00",
       "category": "Nachrichten",
-      "score": 71.45,
+      "score": 71.55,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -225,6 +198,28 @@
       }
     },
     {
+      "id": "spiegel-adeb5626f1528606",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Donald Trump: Diese KI-Bosse waren ihm beim »Super Intelligence Luncheon« besonders nah",
+      "link": "https://www.spiegel.de/netzwelt/donald-trump-diese-ki-bosse-waren-ihm-beim-super-intelligence-luncheon-besonders-nah-a-fa02b2df-eb03-4fb6-b0b0-779f746fc7f9#ref=rss",
+      "summary": "Das Ergebnis der jüngsten KI-Runde in Washington ist mau. Doch US-Präsident Trump setzt auf Symbolik und starke Bilder. Das Schaulaufen der Tech-Elite in der Grafikanalyse.",
+      "image": "https://cdn.prod.www.spiegel.de/images/64addf44-6e39-484a-8e5e-6044be961901_w1200_r1.778_fpx48_fpy50.jpg",
+      "published": "2026-09-30T18:55:00+02:00",
+      "category": "Politik",
+      "score": 71.36,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "golem",
+            "title": "USA: Trump nennt KI offiziell in \"Super Intelligence\" um",
+            "link": "https://www.golem.de/news/usa-trump-nennt-ki-offiziell-in-super-intelligence-um-2609-213569.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "deutschlandfunk-1275d4da6da0e849",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
@@ -232,9 +227,9 @@
       "link": "https://www.deutschlandfunk.de/bundesarbeitsgericht-bekraeftigt-gleichbehandlung-von-mindestlohnempfaengern-bei-sonderzahlungen-104.html",
       "summary": "Geringverdiener dürfen wegen der Anhebung des gesetzlichen Mindestlohns nicht von freiwilligen Sonderzahlungen wie etwa einer Inflationsausgleichsprämie ausgeschlossen werden.",
       "image": "https://bilder.deutschlandfunk.de/55/7c/4f/89/557c4f89-c884-4331-8b41-bf66a5b3c02c/bundesarbeitsgericht-100-1920x1920.jpg",
-      "published": "2026-10-01T01:42:24+02:00",
+      "published": "2026-10-01T02:43:18+02:00",
       "category": "Wirtschaft",
-      "score": 69.77
+      "score": 69.87
     },
     {
       "id": "deutschlandfunk-2955d9e82f64cec3",
@@ -244,9 +239,9 @@
       "link": "https://www.deutschlandfunk.de/koretsky-russland-startet-vor-wintereinbruch-neue-offensive-gegen-energieinfrastruktur-106.html",
       "summary": "Die Ukraine wirft Russland vor, im Vorfeld des nahenden Wintereinbruchs wieder verstärkt die Strom- und Wärmeversorgung anzugreifen.",
       "image": "https://bilder.deutschlandfunk.de/49/4d/84/0f/494d840f-41c0-4fa4-9728-98bf85d2ede9/ukraine-kiew-akademie-der-wissenschaften-100-1920x1920.jpg",
-      "published": "2026-10-01T01:42:24+02:00",
+      "published": "2026-10-01T02:43:18+02:00",
       "category": "Politik",
-      "score": 69.77
+      "score": 69.87
     },
     {
       "id": "spiegel-7af8ba579bfaad3a",
@@ -258,7 +253,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/f86ebbc0-e16a-494b-9a85-b69b2e272e8a_w1200_r1.778_fpx52.66_fpy45.jpg",
       "published": "2026-09-30T20:39:00+02:00",
       "category": "Politik",
-      "score": 65.55
+      "score": 64.81
     },
     {
       "id": "handelsblatt-c637a1a4faa3f3b3",
@@ -270,7 +265,7 @@
       "image": "https://images.handelsblatt.com/Nh9ahosZnE3n/cover/900/506/0/0/173/172/0.5/0.5/archiv-02.07.2026-berlin-markus-soeder-csu-l-r-ministerpraesident-von-bayern-und-csu-vorsitzen.jpg",
       "published": "2026-09-30T19:39:50+00:00",
       "category": "Politik",
-      "score": 65.4
+      "score": 64.65
     }
   ]
 }
