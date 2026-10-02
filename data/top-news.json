@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T00:17:16.039095+00:00",
+  "generatedAt": "2026-10-02T05:54:17.829128+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,9 +12,9 @@
       "image": "https://images.tagesschau.de/image/2326e84c-2a53-4fb6-a5cb-d46d9e5af4b0/AAABoPhmwsk/AAABnSSvrFg/16x9-big/drohne-bundeswehr-102.jpg?width=1920",
       "published": "2026-10-01T19:25:59+02:00",
       "category": "Politik",
-      "score": 94.76,
+      "score": 91.46,
       "coverage": {
-        "sourceCount": 4,
+        "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
@@ -25,38 +25,6 @@
             "source": "spiegel",
             "title": "Pistorius lässt Drohnenregiment aufstellen",
             "link": "https://www.spiegel.de/politik/pistorius-laesst-drohnenregiment-aufstellen-a-9ce56de4-0fd5-4f22-93f2-c4c28e9f86ce#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Rüstung: Pistorius lässt Drohnenregiment aufstellen",
-            "link": "https://www.handelsblatt.com/politik/deutschland/ruestung-pistorius-laesst-drohnenregiment-aufstellen/100259088.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-cc49e0ae9155ef7c",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Abgeordnetenhauswahl in Berlin: Erstes Vorgespräch Rot-Grün-Rot ergebnislos",
-      "link": "https://www.tagesschau.de/inland/regional/berlin/berlin-regierungsbildung-vorgespraeche-100.html",
-      "summary": "Das erste Dreiergespräch vor möglichen Sondierungen zwischen Linken, Grünen und SPD in Berlin ist zu Ende. Es habe \"konstruktiven\" Austausch gegeben - aber eine gemeinsame Linie zu Antisemitismus und Organisierter Kriminalität wohl noch nicht.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/2cb4b3ed-6f28-4150-8ef9-3ca2a2b36558/AAABoPgSltg/AAABnSSvrFg/16x9-big/rbb-linke-spd-gruene-100.jpg?width=1920",
-      "published": "2026-10-01T20:11:07+02:00",
-      "category": "Politik",
-      "score": 83.44,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "\"Konstruktiver Austausch\" - Regierungsbildung in Berlin: Linke, Grüne und SPD wollen Gespräche fortsetzen",
-            "link": "https://www.deutschlandfunk.de/regierungsbildung-in-berlin-linke-gruene-und-spd-wollen-gespraeche-fortsetzen-102.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Nach der Berlin-Wahl: Bei Dreiergesprächen noch keine Einigung über Antisemitismus",
-            "link": "https://www.handelsblatt.com/politik/deutschland/nach-der-berlin-wahl-bei-dreiergespraechen-noch-keine-einigung-ueber-antisemitismus/100259072.html"
           }
         ]
       }
@@ -71,7 +39,7 @@
       "image": "https://images.tagesschau.de/image/d8122c97-7e76-4937-8863-0933d4ab4a7f/AAABoPgELug/AAABnSSvrFg/16x9-big/flugzeug-flydubai-100.jpg?width=1920",
       "published": "2026-10-01T21:54:14+02:00",
       "category": "Politik",
-      "score": 78.76,
+      "score": 78.78,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -84,6 +52,28 @@
       }
     },
     {
+      "id": "tagesschau-cc49e0ae9155ef7c",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Abgeordnetenhauswahl in Berlin: Erstes Vorgespräch Rot-Grün-Rot ergebnislos",
+      "link": "https://www.tagesschau.de/inland/regional/berlin/berlin-regierungsbildung-vorgespraeche-100.html",
+      "summary": "Das erste Dreiergespräch vor möglichen Sondierungen zwischen Linken, Grünen und SPD in Berlin ist zu Ende. Es habe \"konstruktiven\" Austausch gegeben - aber eine gemeinsame Linie zu Antisemitismus und Organisierter Kriminalität wohl noch nicht.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/2cb4b3ed-6f28-4150-8ef9-3ca2a2b36558/AAABoPgSltg/AAABnSSvrFg/16x9-big/rbb-linke-spd-gruene-100.jpg?width=1920",
+      "published": "2026-10-01T20:11:07+02:00",
+      "category": "Politik",
+      "score": 78.78,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "\"Konstruktiver Austausch\" - Regierungsbildung in Berlin: Linke, Grüne und SPD wollen Gespräche fortsetzen",
+            "link": "https://www.deutschlandfunk.de/regierungsbildung-in-berlin-linke-gruene-und-spd-wollen-gespraeche-fortsetzen-102.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "deutschlandfunk-74e6f7bdafa43759",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
@@ -91,28 +81,28 @@
       "link": "https://www.deutschlandfunk.de/estland-verbietet-transit-von-getreide-aus-russland-und-belarus-106.html",
       "summary": "Getreide aus Russland und Belarus darf künftig nicht mehr durch Estland transportiert werden.",
       "image": "https://bilder.deutschlandfunk.de/8f/8c/66/cc/8f8c66cc-3c7f-4cf6-bff1-11c72ca47cc6/ukraine-getreide-schiff-100-1920x1920.jpg",
-      "published": "2026-10-02T02:00:02+02:00",
+      "published": "2026-10-02T07:38:38+02:00",
       "category": "Politik",
-      "score": 77.76
+      "score": 77.78
     },
     {
-      "id": "deutschlandfunk-abd69c3a8d5d353a",
+      "id": "deutschlandfunk-b100de743adcf001",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Minneapolis - Renée Goods Familie verklagt Trump-Regierung wegen tödlicher Schüsse bei ICE-Einsatz",
-      "link": "https://www.deutschlandfunk.de/ren-e-goods-familie-verklagt-trump-regierung-wegen-toedlicher-schuesse-bei-ice-einsatz-104.html",
-      "summary": "Fast neun Monate nach dem tödlichen Schusswaffeneinsatz gegen die US-Amerikanerin Renee Good in Minneapolis hat deren Familie die US-Regierung verklagt.",
-      "image": "https://bilder.deutschlandfunk.de/a6/0c/c6/0b/a60cc60b-d789-4ea7-acbb-154604931dcc/renee-nicole-good-100-1920x1920.jpg",
-      "published": "2026-10-02T02:00:02+02:00",
+      "title": "Sören Pellmann - Linken-Fraktionschef tritt nach Linksextremismus-Vorwürfen gegen Eralp der \"Roten Hilfe\" bei",
+      "link": "https://www.deutschlandfunk.de/linken-fraktionschef-tritt-nach-linksextremismus-vorwuerfen-gegen-eralp-der-roten-hilfe-bei-100.html",
+      "summary": "Nach den Linksextremismus-Vorwürfen gegen die Berliner Linken-Spitzenpolitikerin Eralp wegen ihrer früheren Mitgliedschaft bei der Roten Hilfe ist der Bundestagsfraktionschef der Partei, Pellmann, dem Verein beigetreten.",
+      "image": "https://bilder.deutschlandfunk.de/03/bf/30/ed/03bf30ed-73dc-41d8-9e07-6508223b2a5c/soeren-pellmann-linke-abgeordneter-einreise-ukraine-verweigerung-100-1920x1920.jpg",
+      "published": "2026-10-02T07:38:38+02:00",
       "category": "Politik",
-      "score": 77.76,
+      "score": 77.78,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "spiegel",
-            "title": "Renée Good: Hinterbliebene klagen gegen die US-Regierung",
-            "link": "https://www.spiegel.de/ausland/renee-good-hinterbliebene-klagen-gegen-die-us-regierung-a-05c09361-b9fb-4690-ae07-ea63357bedad#ref=rss"
+            "title": "Linkenfraktionschef Pellmann wird Mitglied der Roten Hilfe",
+            "link": "https://www.spiegel.de/politik/linkenfraktionschef-pellmann-wird-mitglied-der-roten-hilfe-a-71a03611-8e04-4c4a-9cfc-33a08a597d90#ref=rss"
           }
         ]
       }
@@ -125,21 +115,77 @@
       "link": "https://www.deutschlandfunk.de/wadephul-fuehrt-gespraeche-im-vatikan-100.html",
       "summary": "Bundesaußenminister Wadephul wird am Vormittag zu Gesprächen im Vatikan erwartet.",
       "image": "https://bilder.deutschlandfunk.de/7f/9b/79/bb/7f9b79bb-9676-494f-9142-b3098f9aab4e/aussenminister-wadephul-montenegro-reise-100-1920x1920.jpg",
-      "published": "2026-10-02T02:00:02+02:00",
+      "published": "2026-10-02T07:38:38+02:00",
       "category": "Politik",
-      "score": 77.76
+      "score": 77.78
     },
     {
-      "id": "handelsblatt-ebdcd1da923781bb",
+      "id": "deutschlandfunk-f42bde841a40ebad",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Sorge vor erneutem Krieg - Äthiopien und Eritrea brechen diplomatische Beziehungen ab",
+      "link": "https://www.deutschlandfunk.de/aethiopien-und-eritrea-brechen-diplomatische-beziehungen-ab-100.html",
+      "summary": "Der Konflikt zwischen Äthiopien und Eritrea spitzt sich zu.",
+      "image": "https://bilder.deutschlandfunk.de/f9/88/e2/4d/f988e24d-a852-478b-b159-70dd32b03362/horn-von-afrika-100-1920x1920.jpg",
+      "published": "2026-10-02T07:38:38+02:00",
+      "category": "Nachrichten",
+      "score": 74.78,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Äthiopien und Eritrea: Einstige Kriegskoalition bricht Beziehungen ab",
+            "link": "https://www.spiegel.de/ausland/aethiopien-und-eritrea-einstige-kriegskoalition-bricht-beziehungen-ab-a-7ac64171-a21f-4f24-a310-3405ea0a735f#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-9fa80f3cd2a80265",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Irankrieg: USA schicken offenbar offenbar weiteren Flugzeugträger nach Nahost",
+      "link": "https://www.spiegel.de/ausland/irankrieg-usa-schicken-offenbar-offenbar-weiteren-flugzeugtraeger-nach-nahost-a-d70472d6-91ba-4a11-9111-5c631e021a70#ref=rss",
+      "summary": "Die USA entsenden Berichten zufolge einen weiteren Flugzeugträger in den Nahen Osten. Das schürt Spekulationen über einen neuen Angriff auf Iran. Unklar ist, ob die »Theodore Roosevelt« Verstärkung oder Ablösung ist.",
+      "image": "https://cdn.prod.www.spiegel.de/images/ecc0e221-4d43-43bf-a9a6-398b106ed0b5_w1200_r1.778_fpx32.14_fpy54.99.jpg",
+      "published": "2026-10-02T07:06:00+02:00",
+      "category": "Nachrichten",
+      "score": 74.33,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ Iran-Krieg +++: USA schicken offenbar weiteren Flugzeugträger nach Nahost",
+            "link": "https://www.handelsblatt.com/politik/international/iran-krieg-usa-schicken-offenbar-weiteren-flugzeugtraeger-nach-nahost/100136895.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "handelsblatt-56a9e87f5ff15eac",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Wahlkampf-Event: Trump: Machen guten Job, aber schlechte PR",
-      "link": "https://www.handelsblatt.com/politik/international/wahlkampf-event-trump-machen-guten-job-aber-schlechte-pr/100259138.html",
-      "summary": "Bei den Midterms steht Trumps Name nicht auf dem Stimmzettel, dennoch hat er sie zu einer Abstimmung über sich selbst erklärt. Gut einen Monat, bevor es so weit ist, äußert er sich ungewohnt kritisch.",
-      "image": "https://images.handelsblatt.com/J7wu4Ivhjk1G/cover/900/506/0/0/107/106/0.5/0.5/us-praesident-trump.jpg",
-      "published": "2026-10-01T22:52:50+00:00",
+      "title": "Wahlkampf-Events: Gut einen Monat vor Midterms: Trump startet Wahlkampftour",
+      "link": "https://www.handelsblatt.com/politik/international/wahlkampf-events-gut-einen-monat-vor-midterms-trump-startet-wahlkampftour/100259138.html",
+      "summary": "Der US-Präsident lässt keinen Zweifel daran: Er will seinen Republikanern helfen, die wichtigen Kongresswahlen zu gewinnen. Auch wenn seine Umfragewerte im Keller sind, reist er dafür nun durchs Land.",
+      "image": "https://images.handelsblatt.com/PpRAqFhAqTnM/cover/900/506/0/0/107/107/0.5/0.5/us-praesident-trump.jpg",
+      "published": "2026-10-02T02:32:49+00:00",
       "category": "Politik",
-      "score": 75.83
+      "score": 74.2
+    },
+    {
+      "id": "spiegel-3f786aeaee1040f6",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Donald Trump: US-Präsident räumt Imageproblem vor Zwischenwahlen ein",
+      "link": "https://www.spiegel.de/ausland/donald-trump-us-praesident-raeumt-imageproblem-vor-zwischenwahlen-ein-a-b74faa7c-0f43-4a88-985f-fe7da6c36ce5#ref=rss",
+      "summary": "Trumps Beliebtheitswerte sind schlecht, doch der US-Präsident sieht das Problem woanders: bei der PR. Kurz vor den Midterms setzt er trotzdem auf seine Strahlkraft.",
+      "image": "https://cdn.prod.www.spiegel.de/images/61a037a3-94f9-450f-934c-88e8bcdec917_w1200_r1.778_fpx55.98_fpy49.99.jpg",
+      "published": "2026-10-02T02:27:00+02:00",
+      "category": "Politik",
+      "score": 73.45
     },
     {
       "id": "tagesschau-65543be0e7ac0821",
@@ -151,19 +197,14 @@
       "image": "https://images.tagesschau.de/image/c6060746-c667-469e-a3f6-b8f34e5bb18e/AAABoPbY_IU/AAABnSSvrFg/16x9-big/amazon-400.jpg?width=1920",
       "published": "2026-10-01T17:47:54+02:00",
       "category": "Technologie",
-      "score": 75.76,
+      "score": 72.46,
       "coverage": {
-        "sourceCount": 4,
+        "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "Urteil - Bundesgerichtshof erklärt Preiserhöhungsklausel bei \"Amazon Prime\" für unwirksam",
             "link": "https://www.deutschlandfunk.de/bundesgerichtshof-erklaert-preiserhoehungsklausel-bei-amazon-prime-fuer-unwirksam-104.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Bundesgerichtshof: BGH-Urteil zu Amazon Prime: Was ist nun mit den Preisen?",
-            "link": "https://www.handelsblatt.com/politik/deutschland/bundesgerichtshof-bgh-urteil-zu-amazon-prime-was-ist-nun-mit-den-preisen/100258821.html"
           },
           {
             "source": "golem",
@@ -174,74 +215,40 @@
       }
     },
     {
-      "id": "handelsblatt-54742d6b9a9d7e3a",
+      "id": "spiegel-d4804de2911adb99",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "USA: Pete Hegseth will nur noch Krieger im US-Militär. Und die Visionen von Elon Musk",
+      "link": "https://www.spiegel.de/ausland/usa-pete-hegseth-will-nur-noch-krieger-im-us-militaer-und-die-visionen-von-elon-musk-a-c5cb10c7-f661-4b62-b878-3ab812e9f7a1#ref=rss",
+      "summary": "Bei seiner Rede zur »State of the Force« sagt Verteidigungsminister Pete Hegseth, wie er das US-Militär weiter nach seinen Vorstellungen umbauen will. Helfen soll dabei ein alter Bekannter.",
+      "image": "https://cdn.prod.www.spiegel.de/images/26a3bb76-1a33-45e6-b90b-4a562b4898d7_w1200_r1.778_fpx38_fpy44.99.jpg",
+      "published": "2026-10-02T07:01:00+02:00",
+      "category": "Politik",
+      "score": 69.26
+    },
+    {
+      "id": "handelsblatt-11421e0c4ddf82df",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "+++ USA +++: Umfrage: Mehrheit unzufrieden mit Trumps Wirtschaftspolitik",
-      "link": "https://www.handelsblatt.com/politik/international/usa-laut-umfrage-mehrheit-unzufrieden-mit-trumps-wirtschaftspolitik/29669594.html",
-      "summary": "Weißes Haus schließt CNN erneut von Reise aus +++ Trump: „Wird Wahlen geben“ in Venezuela – aber noch zu früh +++ Streit bei Republikanern – Senatorin blockiert Trumps Richterwahl +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/yD0DizoyIwUw/cover/900/506/0/0/109/109/0.5/0.5/us-praesident-trump.jpg",
-      "published": "2026-10-01T20:51:00+00:00",
-      "category": "Politik",
-      "score": 74.14
+      "title": "Immobilien: Krise am Immobilienmarkt trifft nun auch Gutverdiener",
+      "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-krise-am-immobilienmarkt-trifft-jetzt-auch-gutverdiener/100258025.html",
+      "summary": "Experten zufolge soll die Zahl der Neubauten in diesem Jahr zehn Prozent unter dem schwachen Vorjahreswert liegen. Die wachsende Zahl an Ein- und Zwei-Personen-Haushalten verstärkt das Wohnproblem.",
+      "image": "https://images.handelsblatt.com/-TpKoBwaPdzV/cover/900/506/0/0/309/309/0.5/0.5/skyline-von-muenchen.jpg",
+      "published": "2026-10-02T05:29:00+00:00",
+      "category": "Wirtschaft",
+      "score": 68.65
     },
     {
-      "id": "handelsblatt-4637cbed54927c2c",
+      "id": "handelsblatt-9546a8aa577eaea8",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "+++ Ukraine-Krieg +++: Ukraine setzt erstmals neue ballistische Rakete ein",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-moskau-schliesst-konsulat-in-st.-petersburg123/27982126.html",
-      "summary": "Putin: Wären eigentlich zu Friedensgesprächen bereit gewesen +++ Putin will Donbass in weniger als anderthalb Jahren erobern +++ Russlands Präsident schließt Nationalisierung westlicher Aktiva nicht aus +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/7kHTL5ZJDGzQ/cover/900/506/0/0/0/282/0.5/0.5/ukraine.jpg",
-      "published": "2026-10-01T20:36:00+00:00",
-      "category": "Politik",
-      "score": 73.93
-    },
-    {
-      "id": "spiegel-d9f140e6ce66d949",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Linkenfraktionschef Pellmann wird Mitglied der Roten Hilfe",
-      "link": "https://www.spiegel.de/politik/linkenfraktionschef-pellmann-wird-mitglied-der-roten-hilfe-a-71a03611-8e04-4c4a-9cfc-33a08a597d90#ref=rss",
-      "summary": "Trotzreaktion: Nach der Aufregung um die Berliner Linke und Wahlsiegerin Elif Eralp und ihre frühere Mitgliedschaft bei der Roten Hilfe, die vom Verfassungsschutz beobachtet wird, setzt der Bundestagsfraktionschef der Partei ein Zeichen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/acbc0650-4bbd-4d84-aa5b-c98367a61f28_w1200_r1.778_fpx39_fpy41.jpg",
-      "published": "2026-10-01T20:05:00+02:00",
-      "category": "Politik",
-      "score": 72.83
-    },
-    {
-      "id": "spiegel-24d06c40fb87a5e5",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "FlyDubai-Drama: Das politische Kapital einer Beinahe-Katastrophe in Israels Wahlkampf",
-      "link": "https://www.spiegel.de/ausland/flydubai-drama-das-politische-kapital-einer-beinahe-katastrophe-in-israels-wahlkampf-a-085fa4da-ee94-4be1-a953-f6df112c903e#ref=rss",
-      "summary": "Noch ist nicht vollständig geklärt, warum der Co-Pilot der Flydubai-Maschine versucht hat, das Flugzeug zum Absturz zu bringen. Dennoch versuchen israelische Politiker, den dramatischen Vorfall im Wahlkampf zu nutzen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/47c77c37-eed6-4a4b-957f-0063ed3d1753_w1200_r1.778_fpx50_fpy53.jpg",
-      "published": "2026-10-01T18:44:00+02:00",
-      "category": "Politik",
-      "score": 71.7
-    },
-    {
-      "id": "spiegel-decf3d59a923bcdd",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Merz warnt vor Russland und den »Parolen der AfD und ihrer russischen Hintermänner«",
-      "link": "https://www.spiegel.de/politik/merz-warnt-vor-russland-und-den-parolen-der-afd-und-ihrer-russischen-hintermaenner-a-f5aa8df7-d72d-480d-a4da-b0201e635f22#ref=rss",
-      "summary": "Die Nato erhält den Preis des Westfälischen Friedens, Laudator ist Kanzler Merz. Er zeigt die Grundzüge seiner Außenpolitik auf: Es stelle sich die Frage, ob Deutsche »das Grauen des Krieges wieder am eigenen Leib zu spüren bekommen«.",
-      "image": "https://cdn.prod.www.spiegel.de/images/32fb5f54-11ad-4cd8-a91c-261dcb19a2c7_w1200_r1.778_fpx32_fpy36.jpg",
-      "published": "2026-10-01T20:59:00+02:00",
-      "category": "Nachrichten",
-      "score": 70.58,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Russland: Merz warnt vor dem „bislang schwersten“ Kriegswinter in der Ukraine",
-            "link": "https://www.handelsblatt.com/politik/international/russland-merz-warnt-vor-bislang-schwerstem-kriegswinter-in-der-ukraine/100258890.html"
-          }
-        ]
-      }
+      "title": "Immobilien: Plötzlich schraubte Hilton die Schilder ab: Warum ein beliebtes Luxushotel jetzt pleite ist",
+      "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-ploetzlich-schraubte-hilton-die-schilder-ab-und-das-luxushotel-ist-pleite-02/100257449.html",
+      "summary": "Das ehemalige Hilton Frankfurt Gravenbruch steckt in der Krise. EU- und US-Sanktionen gegen den Eigentümer erschweren die Rettung. So einen Fall hat der Insolvenzverwalter „noch nie erlebt“.",
+      "image": "https://images.handelsblatt.com/ajP3Y2JPHChg/cover/900/506/0/0/378/378/0.5/0.5/luxushotel-frankfurt-gravenbruch.jpg",
+      "published": "2026-10-02T05:19:00+00:00",
+      "category": "Wirtschaft",
+      "score": 68.51
     },
     {
       "id": "golem-3252b72e802c794c",
@@ -253,19 +260,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213622&amp;page=1&amp;ts=1790863562",
       "published": "2026-10-01T16:06:02+02:00",
       "category": "Politik",
-      "score": 67.51
-    },
-    {
-      "id": "netzpolitik-438e635cd801075b",
-      "source": "netzpolitik",
-      "sourceWeight": 0.75,
-      "title": "Memes: Elif Eralp springt bei Sanifair übers Drehkreuz",
-      "link": "https://netzpolitik.org/2026/memes-elif-eralp-springt-bei-sanifair-uebers-drehkreuz/",
-      "summary": "Die Berichterstattung über die mögliche neue linke Berliner Bürgermeisterin Elif Eralp nimmt mittlerweile bizarre Formen an. Jetzt reagieren Nutzer:innen in sozialen Netzwerken und machen sich über FAZ &amp; Co. lustig. Was Elif Eralp hier wohl schon wieder vorhat? – CC-BY-SA 4.0 : Roy Zuo In Sachsen-Anhalt droht eine Regierung unter der rechtsradikalen AfD und die Wahl von Ulrich Siegmund zum Ministerpräsidenten. Doch seit dem Wahlsieg der Linken in Berlin hat sich der mediale Fokus von Sachsen-Anhalt zur Linkspartei und auf deren Spitzenkandidatin Elif Eralp verschoben. Die kampagnenförmige Berichterstattung , über die wir auch im letzten Wochenrückblick geschrieben haben, fällt mittlerweile vielen auf – und sie hat im Netz ein neues Meme ausgelöst, was Elif Eralp schon wieder Böses angestellt habe. Auf Bluesky, Mastodon, Threads, Instagram und Reddit beteiligen sich zahlreiche Nutzer:innen daran, die derzeitige Berichterstattung mit Humor zu kontern. Elif Eralp bricht Spaghetti vor dem Kochen. Sie hat die Kehrwoche nicht beachtet und „von meinem Tellerchen gegessen“. …",
-      "image": "https://cdn.netzpolitik.org/wp-upload/2026/10/120260918_161347_Linke_Berlin_Wahlkampfabschluss_2-e1790856896919.jpg",
-      "published": "2026-10-01T13:10:44+00:00",
-      "category": "Politik",
-      "score": 56.74
+      "score": 62.83
     }
   ]
 }
