@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T05:54:17.829128+00:00",
+  "generatedAt": "2026-10-02T06:22:21.755931+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/2326e84c-2a53-4fb6-a5cb-d46d9e5af4b0/AAABoPhmwsk/AAABnSSvrFg/16x9-big/drohne-bundeswehr-102.jpg?width=1920",
       "published": "2026-10-01T19:25:59+02:00",
       "category": "Politik",
-      "score": 91.46,
+      "score": 91.07,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -39,7 +39,7 @@
       "image": "https://images.tagesschau.de/image/d8122c97-7e76-4937-8863-0933d4ab4a7f/AAABoPgELug/AAABnSSvrFg/16x9-big/flugzeug-flydubai-100.jpg?width=1920",
       "published": "2026-10-01T21:54:14+02:00",
       "category": "Politik",
-      "score": 78.78,
+      "score": 78.39,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -61,7 +61,7 @@
       "image": "https://images.tagesschau.de/image/2cb4b3ed-6f28-4150-8ef9-3ca2a2b36558/AAABoPgSltg/AAABnSSvrFg/16x9-big/rbb-linke-spd-gruene-100.jpg?width=1920",
       "published": "2026-10-01T20:11:07+02:00",
       "category": "Politik",
-      "score": 78.78,
+      "score": 78.39,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -74,6 +74,18 @@
       }
     },
     {
+      "id": "spiegel-66d691d1bdba4f23",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Ukrainekrieg: »Putin hat eine Obsession mit der Ukraine« – Podcast",
+      "link": "https://www.spiegel.de/ausland/ukrainekrieg-putin-hat-eine-obsession-mit-der-ukraine-podcast-a-97f3a8c3-68eb-4235-85c3-b63c02037b49#ref=rss",
+      "summary": "Die Menschen in der Ukraine befürchten den schlimmsten Kriegswinter ohne Strom, Wasser und Lebensmittel, berichtet SPIEGEL-Reporterin Ann-Dorit Boy. Und sie hat eine Einschätzung, was zum Ende des Krieges führen könnte.",
+      "image": "https://cdn.prod.www.spiegel.de/images/44dbef78-e0b8-422d-9026-1343fa48214a_w1200_r1.778_fpx76_fpy46.jpg",
+      "published": "2026-10-02T08:16:00+02:00",
+      "category": "Politik",
+      "score": 77.91
+    },
+    {
       "id": "deutschlandfunk-74e6f7bdafa43759",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
@@ -83,29 +95,7 @@
       "image": "https://bilder.deutschlandfunk.de/8f/8c/66/cc/8f8c66cc-3c7f-4cf6-bff1-11c72ca47cc6/ukraine-getreide-schiff-100-1920x1920.jpg",
       "published": "2026-10-02T07:38:38+02:00",
       "category": "Politik",
-      "score": 77.78
-    },
-    {
-      "id": "deutschlandfunk-b100de743adcf001",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Sören Pellmann - Linken-Fraktionschef tritt nach Linksextremismus-Vorwürfen gegen Eralp der \"Roten Hilfe\" bei",
-      "link": "https://www.deutschlandfunk.de/linken-fraktionschef-tritt-nach-linksextremismus-vorwuerfen-gegen-eralp-der-roten-hilfe-bei-100.html",
-      "summary": "Nach den Linksextremismus-Vorwürfen gegen die Berliner Linken-Spitzenpolitikerin Eralp wegen ihrer früheren Mitgliedschaft bei der Roten Hilfe ist der Bundestagsfraktionschef der Partei, Pellmann, dem Verein beigetreten.",
-      "image": "https://bilder.deutschlandfunk.de/03/bf/30/ed/03bf30ed-73dc-41d8-9e07-6508223b2a5c/soeren-pellmann-linke-abgeordneter-einreise-ukraine-verweigerung-100-1920x1920.jpg",
-      "published": "2026-10-02T07:38:38+02:00",
-      "category": "Politik",
-      "score": 77.78,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Linkenfraktionschef Pellmann wird Mitglied der Roten Hilfe",
-            "link": "https://www.spiegel.de/politik/linkenfraktionschef-pellmann-wird-mitglied-der-roten-hilfe-a-71a03611-8e04-4c4a-9cfc-33a08a597d90#ref=rss"
-          }
-        ]
-      }
+      "score": 77.39
     },
     {
       "id": "deutschlandfunk-b35d096e241f05d7",
@@ -117,7 +107,7 @@
       "image": "https://bilder.deutschlandfunk.de/7f/9b/79/bb/7f9b79bb-9676-494f-9142-b3098f9aab4e/aussenminister-wadephul-montenegro-reise-100-1920x1920.jpg",
       "published": "2026-10-02T07:38:38+02:00",
       "category": "Politik",
-      "score": 77.78
+      "score": 77.39
     },
     {
       "id": "deutschlandfunk-f42bde841a40ebad",
@@ -129,7 +119,7 @@
       "image": "https://bilder.deutschlandfunk.de/f9/88/e2/4d/f988e24d-a852-478b-b159-70dd32b03362/horn-von-afrika-100-1920x1920.jpg",
       "published": "2026-10-02T07:38:38+02:00",
       "category": "Nachrichten",
-      "score": 74.78,
+      "score": 74.39,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -151,7 +141,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/ecc0e221-4d43-43bf-a9a6-398b106ed0b5_w1200_r1.778_fpx32.14_fpy54.99.jpg",
       "published": "2026-10-02T07:06:00+02:00",
       "category": "Nachrichten",
-      "score": 74.33,
+      "score": 73.94,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -173,7 +163,7 @@
       "image": "https://images.handelsblatt.com/PpRAqFhAqTnM/cover/900/506/0/0/107/107/0.5/0.5/us-praesident-trump.jpg",
       "published": "2026-10-02T02:32:49+00:00",
       "category": "Politik",
-      "score": 74.2
+      "score": 73.81
     },
     {
       "id": "spiegel-3f786aeaee1040f6",
@@ -185,7 +175,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/61a037a3-94f9-450f-934c-88e8bcdec917_w1200_r1.778_fpx55.98_fpy49.99.jpg",
       "published": "2026-10-02T02:27:00+02:00",
       "category": "Politik",
-      "score": 73.45
+      "score": 73.06
     },
     {
       "id": "tagesschau-65543be0e7ac0821",
@@ -197,7 +187,7 @@
       "image": "https://images.tagesschau.de/image/c6060746-c667-469e-a3f6-b8f34e5bb18e/AAABoPbY_IU/AAABnSSvrFg/16x9-big/amazon-400.jpg?width=1920",
       "published": "2026-10-01T17:47:54+02:00",
       "category": "Technologie",
-      "score": 72.46,
+      "score": 72.07,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -215,18 +205,6 @@
       }
     },
     {
-      "id": "spiegel-d4804de2911adb99",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "USA: Pete Hegseth will nur noch Krieger im US-Militär. Und die Visionen von Elon Musk",
-      "link": "https://www.spiegel.de/ausland/usa-pete-hegseth-will-nur-noch-krieger-im-us-militaer-und-die-visionen-von-elon-musk-a-c5cb10c7-f661-4b62-b878-3ab812e9f7a1#ref=rss",
-      "summary": "Bei seiner Rede zur »State of the Force« sagt Verteidigungsminister Pete Hegseth, wie er das US-Militär weiter nach seinen Vorstellungen umbauen will. Helfen soll dabei ein alter Bekannter.",
-      "image": "https://cdn.prod.www.spiegel.de/images/26a3bb76-1a33-45e6-b90b-4a562b4898d7_w1200_r1.778_fpx38_fpy44.99.jpg",
-      "published": "2026-10-02T07:01:00+02:00",
-      "category": "Politik",
-      "score": 69.26
-    },
-    {
       "id": "handelsblatt-11421e0c4ddf82df",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
@@ -236,7 +214,7 @@
       "image": "https://images.handelsblatt.com/-TpKoBwaPdzV/cover/900/506/0/0/309/309/0.5/0.5/skyline-von-muenchen.jpg",
       "published": "2026-10-02T05:29:00+00:00",
       "category": "Wirtschaft",
-      "score": 68.65
+      "score": 68.26
     },
     {
       "id": "handelsblatt-9546a8aa577eaea8",
@@ -248,7 +226,7 @@
       "image": "https://images.handelsblatt.com/ajP3Y2JPHChg/cover/900/506/0/0/378/378/0.5/0.5/luxushotel-frankfurt-gravenbruch.jpg",
       "published": "2026-10-02T05:19:00+00:00",
       "category": "Wirtschaft",
-      "score": 68.51
+      "score": 68.12
     },
     {
       "id": "golem-3252b72e802c794c",
@@ -260,7 +238,19 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213622&amp;page=1&amp;ts=1790863562",
       "published": "2026-10-01T16:06:02+02:00",
       "category": "Politik",
-      "score": 62.83
+      "score": 62.44
+    },
+    {
+      "id": "golem-6ed91a3de7791e4c",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Amazon: Komplette James-Bond-Filmreihe bei Prime Video im Abo",
+      "link": "https://www.golem.de/news/amazon-komplette-james-bond-filmreihe-bei-prime-video-im-abo-2610-213637.html",
+      "summary": "Anders als vor einem Jahr hat sich Amazon dieses Mal nicht nur die Rechte für die offiziellen Spielfilme der James-Bond-Filmreihe besorgt. ( Prime Video , Amazon )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213637&amp;page=1&amp;ts=1790920621",
+      "published": "2026-10-02T07:57:01+02:00",
+      "category": "Technologie",
+      "score": 56.65
     }
   ]
 }
