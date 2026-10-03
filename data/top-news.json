@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T08:19:21.741410+00:00",
+  "generatedAt": "2026-10-03T12:47:40.941545+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/90860c75-7ace-434b-955a-682ce78da785/AAABoPxztMc/AAABnSSvrFg/16x9-big/knesset-134.jpg?width=1920",
       "published": "2026-10-02T15:06:06+02:00",
       "category": "Politik",
-      "score": 86.86,
+      "score": 86.97,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -20,6 +20,28 @@
             "source": "deutschlandfunk",
             "title": "Jerusalem - Gerichtsurteil: Arabische Parteien müssen zur Wahl in Israel zugelassen werden",
             "link": "https://www.deutschlandfunk.de/gerichtsurteil-arabische-parteien-muessen-zur-wahl-in-israel-zugelassen-werden-106.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-9f4d3e6144609160",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Krieg - Neue gegenseitige Luftangriffe der Ukraine und Russlands",
+      "link": "https://www.deutschlandfunk.de/neue-gegenseitige-luftangriffe-der-ukraine-und-russlands-102.html",
+      "summary": "Die Ukraine und Russland haben sich erneut gegenseitig aus der Luft attackiert.",
+      "image": "https://bilder.deutschlandfunk.de/4f/76/8c/05/4f768c05-b71a-4531-a83a-3159642964df/charkiw-114-1920x1920.jpg",
+      "published": "2026-10-03T14:45:13+02:00",
+      "category": "Politik",
+      "score": 85.97,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Ukraine-Krieg: Ukraine-Friedensgespräche sollen an großen Öl-Deal geknüpft werden",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-ukraine-friedensgespraeche-sollen-an-grossen-oel-deal-geknuepft-werden/100259487.html"
           }
         ]
       }
@@ -34,7 +56,7 @@
       "image": "https://images.tagesschau.de/image/60251f3c-31b5-44e4-b51e-90fe19b5360d/AAABoP04Dqg/AAABnSSvrFg/16x9-big/oelraffinerie-106.jpg?width=1920",
       "published": "2026-10-02T21:17:42+02:00",
       "category": "Politik",
-      "score": 78.86,
+      "score": 78.97,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -47,28 +69,89 @@
       }
     },
     {
-      "id": "deutschlandfunk-b619fae08939c811",
+      "id": "deutschlandfunk-490402dd3ff705c0",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg - Wieder russischer Angriff auf Südbrücke in Kiew - lange Staus",
-      "link": "https://www.deutschlandfunk.de/wieder-russischer-angriff-auf-suedbruecke-in-kiew-lange-staus-102.html",
-      "summary": "Russland hat erneut die für den Verkehr wichtige Südbrücke in der ukrainischen Hauptstadt Kiew angegriffen.",
-      "image": "https://bilder.deutschlandfunk.de/e1/06/7d/e2/e1067de2-6230-41ae-943b-92085b1ff504/die-nachrichten-kachel-2176-zu1224-100-768x768.jpg",
-      "published": "2026-10-03T10:09:08+02:00",
+      "title": "Naher Osten - Patriarch in Jerusalem betrauert Opfer in Gaza",
+      "link": "https://www.deutschlandfunk.de/patriarch-in-jerusalem-betrauert-opfer-in-gaza-100.html",
+      "summary": "Das Oberhaupt der katholischen Kirche in Israel und den Palästinensergebieten, Kardinal Pizzaballa, hat zum Tod von zwei Palästinenserinnen bei einem israelischen Luftangriff auf Gaza kondoliert.",
+      "image": "https://bilder.deutschlandfunk.de/a1/22/8c/de/a1228cde-5f8a-4918-9c6c-e66cf53f2f0b/heiligabend-bethlehem-100-1920x1920.jpg",
+      "published": "2026-10-03T14:45:13+02:00",
       "category": "Politik",
-      "score": 77.86
+      "score": 77.97
     },
     {
-      "id": "handelsblatt-4637cbed54927c2c",
+      "id": "tagesschau-7a88d4fb9ad38a4f",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Lula vor Wahl in Brasilien: 80 Jahre und noch nicht müde",
+      "link": "https://www.tagesschau.de/ausland/brasilien-lula-praesidentenwahl-100.html",
+      "summary": "In Brasilien will Präsident Lula am Sonntag die Wahl gegen den Sohn seines Vorgängers Bolsonaro gewinnen. Es wäre die vierte Amtszeit für den früheren Gewerkschaftsführer, der auch für Europa ein wichtiger Partner ist. Von A. Herrberg. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/f825bfd8-07ca-4a34-b408-b0dc1b2220b5/AAABoQBHbIU/AAABnSSvrFg/16x9-big/lula-228.jpg?width=1920",
+      "published": "2026-10-03T10:56:27+02:00",
+      "category": "Politik",
+      "score": 77.62,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Brasilien: Bolsonaro-Sohn Flávio fordert Lula bei Präsidentschaftswahl heraus",
+            "link": "https://www.spiegel.de/ausland/brasilien-bolsonaro-sohn-flavio-fordert-lula-bei-praesidentschaftswahl-heraus-a-b935bf4f-1699-4d5b-b652-6e1a1dae8f06#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-e32153ae7b5e14ab",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Frankreich: Seit Montag mehr als 5.000 Festnahmen bei Schülerprotesten",
+      "link": "https://www.tagesschau.de/ausland/frankreich-schuelerproteste-festnahmen-100.html",
+      "summary": "Bei den Schülerprotesten in Frankreich sind in dieser Woche mehr als 5.000 Menschen festgenommen worden - die meisten von ihnen waren minderjährig. Laut Regierung gab es Angriffe auf Ordnungskräfte, Lehrer und Passanten.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/551624d8-061f-4a66-976b-bb3ca00deecc/AAABoQFFioM/AAABnSSvrFg/16x9-big/schuelerprotest-frankreich-102.jpg?width=1920",
+      "published": "2026-10-03T12:47:51+02:00",
+      "category": "Politik",
+      "score": 75.65,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Innenminister Nuñez - Bislang mehr als 5.000 Festnahmen bei teils gewalttätigen Schülerprotesten in Frankreich",
+            "link": "https://www.deutschlandfunk.de/bislang-mehr-als-5-000-festnahmen-bei-teils-gewalttaetigen-schuelerprotesten-in-frankreich-104.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Demonstrationen: Mehr als 5.000 Festnahmen bei Schülerprotesten in Frankreich",
+            "link": "https://www.handelsblatt.com/politik/international/demonstrationen-mehr-als-5000-festnahmen-bei-schuelerprotesten-in-frankreich/100259251.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "handelsblatt-6b6d7837e968170d",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "+++ Ukraine-Krieg +++: Flughafen Vilnius nach Drohnenalarm geschlossen",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-moskau-schliesst-konsulat-in-st.-petersburg123/27982126.html",
-      "summary": "Sybiha: Russland hat Vorrat an ballistischen Raketen +++ EU zahlt Ukraine weitere Milliardensumme aus +++ Ukraine: Vier Vorschläge für Teil-Waffenruhe mit Russland bekommen +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/jhqZMjY0NzDG/cover/900/506/0/0/251/252/0.5/0.5/airbaltic-files-for-bankruptcy-protection-vilnius-lithuania-september-17-an-airbaltic-aircraft-i.jpg",
-      "published": "2026-10-03T08:13:00+00:00",
+      "title": "Trump-Watch: „Das Versprechen von entstehenden Arbeitsplätzen geht nicht auf“ – Ökonomin ordnet Trumps Wirtschaftspolitik ein",
+      "link": "https://www.handelsblatt.com/audio/trump-watch-podcast/trump-watch-das-versprechen-von-entstehenden-arbeitsplaetzen-geht-nicht-auf-oekonomin-ordnet-trumps-wirtschaftspolitik-ein/100259439.html",
+      "summary": "Die US-Wirtschaft wächst - und dennoch könnten die ökonomischen Entwicklungen bei diesen Zwischenwahlen die Demokraten stärken. Warum besprechen die Hosts mit der Ökonomin Samina Sultan.",
+      "image": "https://images.handelsblatt.com/ajuKMP7NmADk/cover/900/506/0/0/210/1103/0.5/0.5/cover-podcast-trump-watch.jpg",
+      "published": "2026-10-03T11:00:52+00:00",
       "category": "Politik",
-      "score": 76.91
+      "score": 75.52
+    },
+    {
+      "id": "handelsblatt-974d0da27c2807ba",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Nahost: Bericht: Tote bei israelischem Luftangriff auf Gaza",
+      "link": "https://www.handelsblatt.com/politik/international/nahost-bericht-tote-bei-israelischem-luftangriff-auf-gaza/100259475.html",
+      "summary": "Bei einem israelischen Luftangriff im Gazastreifen sterben wieder Menschen. Laut einem israelischen Militärkorrespondenten wollte die Armee ein hochrangiges Hamas-Mitglied gezielt töten.",
+      "image": "https://images.handelsblatt.com/wGdUpDLNoFPQ/cover/900/506/0/0/107/106/0.5/0.5/nahostkonflikt-gaza.jpg",
+      "published": "2026-10-03T08:41:22+00:00",
+      "category": "Politik",
+      "score": 73.58
     },
     {
       "id": "handelsblatt-025c5f759a0c83d1",
@@ -80,90 +163,46 @@
       "image": "https://images.handelsblatt.com/RYKfSl-IYU1P/cover/900/506/0/0/293/292/0.5/0.5/a-street-vendor-sells-campaign-flags-of-presidential-candidates-sen.-flavio-bolsonaro-and-current-pr.jpg",
       "published": "2026-10-03T07:05:00+00:00",
       "category": "Politik",
-      "score": 75.97
+      "score": 72.24
     },
     {
-      "id": "tagesschau-3ce682765aac4423",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Feierlichkeiten zu Tag der Deutschen Einheit in Bremen begonnen",
-      "link": "https://www.tagesschau.de/inland/bremen-tag-deutsche-einheit-100.html",
-      "summary": "Mit einem symbolischen Raketenstart ist das Bürgerfest zum Tag der Deutschen Einheit in Bremen eröffnet worden. Bürgermeister Bovenschulte erwartet einen Tag der \"gelebten deutschen Einheit\". Die ersten prominenten Gäste sind bereits eingetroffen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/745a26fb-9311-44c9-953c-93991464d0e9/AAABoP2tt2c/AAABnSSvrFg/16x9-big/merz-bremen-102.jpg?width=1920",
-      "published": "2026-10-02T21:28:18+02:00",
+      "id": "deutschlandfunk-0d90dced63371b1e",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Berichte - Nordkorea feuert erneut ballistische Rakete ab",
+      "link": "https://www.deutschlandfunk.de/nordkorea-feuert-erneut-ballistische-rakete-ab-132.html",
+      "summary": "Nordkorea hat​ nach südkoreanischen und japanischen Angaben erneut eine ballistische Rakete ‌in Richtung ⁠des Meeres ⁠vor seiner Ostküste abgefeuert.",
+      "image": "https://bilder.deutschlandfunk.de/2e/25/00/58/2e250058-ce9f-44c8-86c8-b77f94476497/nordkorea-raketentest-100-1280x1280.jpg",
+      "published": "2026-10-03T14:45:13+02:00",
       "category": "Nachrichten",
-      "score": 72.54,
+      "score": 71.65,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
-            "source": "deutschlandfunk",
-            "title": "Bremen - Festakt mit Steinmeier und Merz zum Tag der Deutschen Einheit",
-            "link": "https://www.deutschlandfunk.de/festakt-mit-steinmeier-und-merz-zum-tag-der-deutschen-einheit-120.html"
+            "source": "spiegel",
+            "title": "Nordkorea feuert erneut Rakete ab",
+            "link": "https://www.spiegel.de/ausland/nordkorea-feuert-erneut-rakete-ab-a-d0eb004a-63ee-4b32-ba47-75978f37a551#ref=rss"
           },
           {
             "source": "handelsblatt",
-            "title": "Tag der Deutschen Einheit: Spitzenpolitik und Trubel: Einheitsfest in Bremen startet",
-            "link": "https://www.handelsblatt.com/politik/deutschland/tag-der-deutschen-einheit-spitzenpolitik-und-trubel-einheitsfest-in-bremen-startet/100259441.html"
+            "title": "Konflikte: Nordkorea feuert erneut ballistische Rakete ab",
+            "link": "https://www.handelsblatt.com/politik/international/konflikte-nordkorea-feuert-erneut-ballistische-rakete-ab/100259436.html"
           }
         ]
       }
     },
     {
-      "id": "tagesschau-31917373b9fe2fcc",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Spanisches Parlament lehnt Regierungs-Dekrete für Mieterschutz ab",
-      "link": "https://www.tagesschau.de/ausland/europa/spanien-wohungsgesetze-gescheitert-100.html",
-      "summary": "Die Koalition von Spaniens Regierungschef Sánchez ist im Parlament mit ihren Dekreten für mehr Mieterschutz gescheitert. Nach landesweiten Protesten wollte die Regierung unter anderem Zwangsräumungen in sozialen Notlagen verbieten.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/9ca17258-f689-4b02-9de1-af7d6d3cbb1b/AAABoPzFMe4/AAABnSSvrFg/16x9-big/sanchez-250.jpg?width=1920",
-      "published": "2026-10-02T16:42:28+02:00",
+      "id": "golem-8efbb06e8cfe2762",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Autonome Waffen: Ukraines Drohnenchef warnt vor Kontrollverlust bei KI",
+      "link": "https://www.golem.de/news/autonome-waffen-ukraines-drohnenchef-warnt-vor-kontrollverlust-bei-ki-2610-213672.html",
+      "summary": "Robert Brovdi führt Ukraines Drohnentruppen. Er warnt, die Menschheit verliere die Kontrolle über KI-Waffen. ( Drohne , KI )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213672&amp;page=1&amp;ts=1791024181",
+      "published": "2026-10-03T12:43:01+02:00",
       "category": "Politik",
-      "score": 70.86,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Abstimmung im Parlament - Spanische Regierung erleidet Niederlage im Streit um Wohnungsnot",
-            "link": "https://www.deutschlandfunk.de/spanische-regierung-erleidet-niederlage-im-streit-um-wohnungsnot-108.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-19df56521e94f1a7",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "\"Erfrischungsgeld\" - NRW-Städte erhöhen Aufwandsentschädigung für Wahlhelfer",
-      "link": "https://www.deutschlandfunk.de/nrw-staedte-erhoehen-aufwandsentschaedigung-fuer-wahlhelfer-102.html",
-      "summary": "Mehrere Kommunen in Nordrhein-Westfalen erhöhen die Aufwandsentschädigung für Wahlhelfer in der Hoffnung, mehr Menschen für das Amt zu gewinnen.",
-      "image": "https://bilder.deutschlandfunk.de/ef/8d/fc/2f/ef8dfc2f-47e3-4452-b106-056153bfea07/niedersachsen-kommunalwahl-102-1920x1920.jpg",
-      "published": "2026-10-03T10:09:08+02:00",
-      "category": "Politik",
-      "score": 69.86
-    },
-    {
-      "id": "deutschlandfunk-1e4da113240c017b",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Innenminister Nuñez - Bislang mehr als 5.000 Festnahmen bei teils gewalttätigen Schülerprotesten in Frankreich",
-      "link": "https://www.deutschlandfunk.de/bislang-mehr-als-5-000-festnahmen-bei-teils-gewalttaetigen-schuelerprotesten-in-frankreich-104.html",
-      "summary": "Bei den teils gewalttätigen Protesten französischer Schüler sind in dieser Woche bislang mehr als 5.000 Menschen festgenommen worden.",
-      "image": "https://bilder.deutschlandfunk.de/NO/VA/_4/a0/NOVA_4a05adc00d5a3ab881f98393a3d17e32/craft-13451996-asset-100-1920x1920.jpg",
-      "published": "2026-10-03T10:09:08+02:00",
-      "category": "Politik",
-      "score": 69.86,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Demonstrationen: Mehr als 5.000 Festnahmen bei Schülerprotesten in Frankreich",
-            "link": "https://www.handelsblatt.com/politik/international/demonstrationen-mehr-als-5000-festnahmen-bei-schuelerprotesten-in-frankreich/100259251.html"
-          }
-        ]
-      }
+      "score": 66.27
     },
     {
       "id": "spiegel-50f70b1158b0d337",
@@ -175,29 +214,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/941befa3-d02f-47fd-b8cd-f733f2efd08c_w1200_r1.778_fpx61.33_fpy49.99.jpg",
       "published": "2026-10-03T09:04:00+02:00",
       "category": "Politik",
-      "score": 68.95
-    },
-    {
-      "id": "spiegel-9ddfd5e906eb4a4b",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Iran-Krieg: Warum gelangt wieder so viel Öl durch die Straße von Hormus?",
-      "link": "https://www.spiegel.de/ausland/iran-krieg-warum-gelangt-wieder-so-viel-oel-durch-die-strasse-von-hormus-a-c41e5663-bb36-4524-9416-3cb9ca374c86#ref=rss",
-      "summary": "Immer mehr Tanker passieren das Nadelöhr, obwohl Iran Dutzende Drohnen und Raketen pro Woche in der Meerenge verschießt. Das sind die Hintergründe.",
-      "image": "https://cdn.prod.www.spiegel.de/images/4a8fadc4-9082-498b-8bc1-3c3d82c8af06_w1200_r1.778_fpx66.67_fpy50.jpg",
-      "published": "2026-10-02T21:07:00+02:00",
-      "category": "Nachrichten",
-      "score": 68.44,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Iran-Krieg: Rohöltanker vor der Küste des Oman angegriffen",
-            "link": "https://www.handelsblatt.com/politik/international/iran-krieg-rohoeltanker-vor-der-kueste-des-oman-angegriffen/100259433.html"
-          }
-        ]
-      }
+      "score": 65.23
     },
     {
       "id": "spiegel-fe409b90bd97857b",
@@ -209,53 +226,41 @@
       "image": "https://cdn.prod.www.spiegel.de/images/7e6b1049-a5fb-4d92-8579-56d67f74e5d9_w1200_r1.778_fpx51_fpy84.jpg",
       "published": "2026-10-03T07:21:00+02:00",
       "category": "Nachrichten",
-      "score": 66.53,
+      "score": 65.2,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "handelsblatt",
-            "title": "Beinahe-Katastrophe: Medien: Flydubai-Copilot galt zuvor als Sicherheitsrisiko",
-            "link": "https://www.handelsblatt.com/politik/international/beinahe-katastrophe-medien-flydubai-copilot-galt-zuvor-als-sicherheitsrisiko/100259423.html"
+            "title": "+++ Iran-Krieg +++: Irans Währung fällt auf historisches Tief",
+            "link": "https://www.handelsblatt.com/politik/international/iran-krieg-irans-waehrung-faellt-auf-historisches-tief/100136895.html"
           }
         ]
       }
     },
     {
-      "id": "handelsblatt-6dd9607284623014",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Präsidentenwahl: Bolsonaro-Sohn fordert Brasiliens Präsidenten Lula heraus",
-      "link": "https://www.handelsblatt.com/politik/international/praesidentenwahl-bolsonaro-sohn-fordert-brasiliens-praesidenten-lula-heraus/100259453.html",
-      "summary": "Lula will weiterregieren, Flávio Bolsonaro das Erbe seines Vaters antreten. Vor der Wahl am Sonntag prägen mehrere Konflikte das riesige Land: Es geht um Sicherheit, Korruption und Souveränität.",
-      "image": "https://images.handelsblatt.com/zZr1ibw8cK1g/cover/900/506/0/0/107/106/0.5/0.5/unabhaengigkeitstag-in-brasilien.jpg",
-      "published": "2026-10-03T03:00:05+00:00",
-      "category": "Politik",
-      "score": 64.57
+      "id": "spiegel-613b4d16c6e3ca9a",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Formel 1 in Malaysia: Max Verstappen holt seine erste Poleposition der Saison",
+      "link": "https://www.spiegel.de/sport/formel1/formel-1-in-malaysia-max-verstappen-auf-der-pole-saisonfinale-in-abu-dhabi-soll-stattfinden-a-7e851c72-f9c5-491c-b552-91683b8323df#ref=rss",
+      "summary": "2017 fuhr die Königsklasse zuletzt in Malaysia, nun findet dort wegen des Irankriegs der Große Preis von Bahrain statt. Auch Max Verstappen meldet sich zurück.",
+      "image": "https://cdn.prod.www.spiegel.de/images/9ac99c7f-1dfa-4033-ab37-10c8bb29b27f_w1200_r1.778_fpx41.32_fpy49.99.jpg",
+      "published": "2026-10-03T11:48:00+02:00",
+      "category": "Nachrichten",
+      "score": 64.5
     },
     {
-      "id": "golem-9876b2a4cd5caa84",
+      "id": "golem-cc00ea4fc1b4db6b",
       "source": "golem",
       "sourceWeight": 0.85,
-      "title": "Digitale Souveränität: EU-Mitarbeiter kritisieren Teams-Backup Element Pro",
-      "link": "https://www.golem.de/news/digitale-souveraenitaet-eu-mitarbeiter-kritisieren-teams-backup-element-pro-2610-213671.html",
-      "summary": "Die EU-Kommission testet Element Pro als Backup für Teams. Einige Mitarbeiter halten die Software für schlecht. ( Souveränität , Unternehmenssoftware )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213671&amp;page=1&amp;ts=1791015301",
-      "published": "2026-10-03T10:15:01+02:00",
-      "category": "Wirtschaft",
-      "score": 59.94
-    },
-    {
-      "id": "golem-78ed1d0abea492bf",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "(g+) Spec Kit für die Softwareentwicklung: Erst spezifizieren, dann programmieren",
-      "link": "https://www.golem.de/news/spec-kit-fuer-die-softwareentwicklung-erst-spezifizieren-dann-programmieren-2610-213651.html",
-      "summary": "Spec Kit trennt das Was vom Wie und lässt KI-Agenten daraus Plan, Aufgaben und Code erzeugen. Wir haben ausprobiert, wie gut das funktioniert und eine Pizza-App programmiert. Eine Anleitung von Stefanie Schmidt ( Softwareentwicklung , Open Source )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213651&amp;page=1&amp;ts=1791014402",
-      "published": "2026-10-03T10:00:02+02:00",
+      "title": "Autonomes Fahren: VW gibt Nvidia einen Korb",
+      "link": "https://www.golem.de/news/autonomes-fahren-vw-gibt-nvidia-einen-korb-2610-213676.html",
+      "summary": "VW hat sich bei der Software für autonomes Fahren gegen Nvidia entschieden und kooperiert stattdessen mit dem britischen KI-Start-up Wayve. ( VW , Nvidia )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213676&amp;page=1&amp;ts=1791029762",
+      "published": "2026-10-03T14:16:02+02:00",
       "category": "Technologie",
-      "score": 56.73
+      "score": 56.56
     }
   ]
 }
