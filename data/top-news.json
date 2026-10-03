@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T23:05:27.727418+00:00",
+  "generatedAt": "2026-10-03T01:30:43.081563+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/90860c75-7ace-434b-955a-682ce78da785/AAABoPxztMc/AAABnSSvrFg/16x9-big/knesset-134.jpg?width=1920",
       "published": "2026-10-02T15:06:06+02:00",
       "category": "Politik",
-      "score": 86.96,
+      "score": 86.55,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -34,7 +34,7 @@
       "image": "https://images.tagesschau.de/image/60251f3c-31b5-44e4-b51e-90fe19b5360d/AAABoP04Dqg/AAABnSSvrFg/16x9-big/oelraffinerie-106.jpg?width=1920",
       "published": "2026-10-02T21:17:42+02:00",
       "category": "Politik",
-      "score": 83.64,
+      "score": 83.23,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -59,9 +59,9 @@
       "link": "https://www.deutschlandfunk.de/wieder-russischer-angriff-auf-suedbruecke-in-kiew-lange-staus-102.html",
       "summary": "Russland hat erneut die für den Verkehr wichtige Südbrücke in der ukrainischen Hauptstadt Kiew angegriffen.",
       "image": "https://bilder.deutschlandfunk.de/e1/06/7d/e2/e1067de2-6230-41ae-943b-92085b1ff504/die-nachrichten-kachel-2176-zu1224-100-768x768.jpg",
-      "published": "2026-10-03T01:02:51+02:00",
+      "published": "2026-10-03T02:58:30+02:00",
       "category": "Politik",
-      "score": 77.96
+      "score": 77.55
     },
     {
       "id": "tagesschau-5ead86f35f07047f",
@@ -73,7 +73,7 @@
       "image": "https://images.tagesschau.de/image/3e8933cc-c252-4433-8772-fa93cdd0a03d/AAABoP3qomA/AAABnSSvrFg/16x9-big/rbb-584182523-100.jpg?width=1920",
       "published": "2026-10-02T20:37:50+02:00",
       "category": "Politik",
-      "score": 75.28,
+      "score": 73.27,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -86,16 +86,31 @@
       }
     },
     {
-      "id": "tagesschau-5651125745ab436c",
+      "id": "tagesschau-3ce682765aac4423",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "USA: Trumps Republikaner unter Druck vor den Midterms",
-      "link": "https://www.tagesschau.de/ausland/midterms-republikaner-trump-100.html",
-      "summary": "Den Republikanern drohen bei den US-Zwischenwahlen herbe Verluste. Das liegt auch an Präsident Trump. Erste republikanische Kandidaten beginnen, sich von ihm zu distanzieren. Wie ist die Lage einen Monat vor der Wahl? Von Ralf Borchard. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/edc0b1d0-b070-476f-9845-b85751843698/AAABoPqyy1E/AAABnSSvrFg/16x9-big/trump-usflagge-100.jpg?width=1920",
-      "published": "2026-10-02T17:54:40+02:00",
-      "category": "Politik",
-      "score": 73.02
+      "title": "Feierlichkeiten zu Tag der Deutschen Einheit in Bremen begonnen",
+      "link": "https://www.tagesschau.de/inland/bremen-tag-deutsche-einheit-100.html",
+      "summary": "Mit einem symbolischen Raketenstart ist das Bürgerfest zum Tag der Deutschen Einheit in Bremen eröffnet worden. Bürgermeister Bovenschulte erwartet einen Tag der \"gelebten deutschen Einheit\". Die ersten prominenten Gäste sind bereits eingetroffen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/745a26fb-9311-44c9-953c-93991464d0e9/AAABoP2tt2c/AAABnSSvrFg/16x9-big/merz-bremen-102.jpg?width=1920",
+      "published": "2026-10-02T21:28:18+02:00",
+      "category": "Nachrichten",
+      "score": 72.23,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Bremen - Festakt mit Steinmeier und Merz zum Tag der Deutschen Einheit",
+            "link": "https://www.deutschlandfunk.de/festakt-mit-steinmeier-und-merz-zum-tag-der-deutschen-einheit-102.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Fest in Bremen: Tag der Deutschen Einheit - Festauftakt mit Überraschung",
+            "link": "https://www.handelsblatt.com/politik/deutschland/fest-in-bremen-tag-der-deutschen-einheit-festauftakt-mit-ueberraschung/100259399.html"
+          }
+        ]
+      }
     },
     {
       "id": "deutschlandfunk-bba909fb8b57d5fe",
@@ -105,9 +120,99 @@
       "link": "https://www.deutschlandfunk.de/aethiopische-armee-vertreibt-tigray-rebellen-aus-provinz-afar-104.html",
       "summary": "Im neu aufflammenden äthiopischen Bürgerkrieg haben Regierungstruppen nach Angaben von Hilfsorganisationen eine Offensive der Tigray-Rebellen in der Provinz Afar gestoppt. Kämpfer der Volksbefreiungsfront von Tigray seien vollständig aus der nordwestlichen Provinz vertrieben worden, berichten Vertreter von Hilfsorganisationen der Nachrichtenagentur AFP.",
       "image": "https://bilder.deutschlandfunk.de/f9/88/e2/4d/f988e24d-a852-478b-b159-70dd32b03362/horn-von-afrika-100-1920x1920.jpg",
-      "published": "2026-10-03T01:02:51+02:00",
+      "published": "2026-10-03T02:58:30+02:00",
       "category": "Politik",
-      "score": 69.96
+      "score": 69.55
+    },
+    {
+      "id": "handelsblatt-a06facc129a98088",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Iran-Krieg: Rohöltanker vor der Küste des Oman angegriffen",
+      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-rohoeltanker-vor-der-kueste-des-oman-angegriffen/100259433.html",
+      "summary": "Fast täglich kommt es in jüngster Zeit zu Angriffen auf Schiffe in der Straße von Hormus. Ein weiterer Zwischenfall ereignet sich nahe der Küste des Oman.",
+      "image": "https://images.handelsblatt.com/PGA2FFlt5K3b/cover/900/506/0/0/0/0/0.5/0.5/oeltanker-und-frachtschiffe.jpg",
+      "published": "2026-10-03T00:26:53+00:00",
+      "category": "Wirtschaft",
+      "score": 68.11
+    },
+    {
+      "id": "spiegel-2d8b925fd8e127ab",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Sächsisches Innenministerium: Behörde löscht umstrittenen Post zu Berliner Linken",
+      "link": "https://www.spiegel.de/politik/saechsisches-innenministerium-behoerde-loescht-umstrittenen-post-zu-berliner-linken-a-6a172141-f50f-402b-8a98-9db4933e6653#ref=rss",
+      "summary": "Sachsens Innenministerium löscht einen umstrittenen Social-Media-Post über den Wahlsieg der Linkspartei in Berlin. In einer Stellungnahme erklärt Minister Schuster die Intention des Postings.",
+      "image": "https://cdn.prod.www.spiegel.de/images/59c1743e-d46d-44ac-85ca-2c25ec5a3f7f_w1200_r1.778_fpx47.35_fpy44.99.jpg",
+      "published": "2026-10-03T01:13:00+02:00",
+      "category": "Politik",
+      "score": 68.09
+    },
+    {
+      "id": "deutschlandfunk-0d90dced63371b1e",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Berichte - Nordkorea feuert erneut ballistische Rakete ab",
+      "link": "https://www.deutschlandfunk.de/nordkorea-feuert-erneut-ballistische-rakete-ab-132.html",
+      "summary": "Nordkorea hat​ nach südkoreanischen und japanischen Angaben erneut eine ballistische Rakete ‌in Richtung ⁠des Meeres ⁠vor seiner Ostküste abgefeuert.",
+      "image": "https://bilder.deutschlandfunk.de/2e/25/00/58/2e250058-ce9f-44c8-86c8-b77f94476497/nordkorea-raketentest-100-1280x1280.jpg",
+      "published": "2026-10-03T02:58:30+02:00",
+      "category": "Nachrichten",
+      "score": 66.59,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Konflikte: Nordkorea feuert erneut ballistische Rakete ab",
+            "link": "https://www.handelsblatt.com/politik/international/konflikte-nordkorea-feuert-erneut-ballistische-rakete-ab/100259436.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-33b16182d0088fcd",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "USA - Todeskandidatin Pike wird nach fehlgeschlagener Hinrichtung beatmet",
+      "link": "https://www.deutschlandfunk.de/todeskandidatin-pike-wird-nach-fehlgeschlagener-hinrichtung-beatmet-100.html",
+      "summary": "Nach ihrer missglückten Hinrichtung wird die US-Todeskandidatin Pike künstlich beatmet.",
+      "image": "https://bilder.deutschlandfunk.de/d0/ab/3c/8d/d0ab3c8d-288b-49c3-ac69-6b0f24a42555/usa-hinrichtung-hinrichtungen-todesspritze-gefaengnis-liege-100-1920x1920.jpg",
+      "published": "2026-10-03T02:58:30+02:00",
+      "category": "Nachrichten",
+      "score": 66.55,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Christa Pike – Tennessee: Nach gescheiterter Hinrichtung intubiert und beatmet",
+            "link": "https://www.spiegel.de/ausland/christa-pike-tennessee-nach-gescheiterter-hinrichtung-intubiert-und-beatmet-a-e973d002-7ece-4acc-befa-f1a4097d5ca0#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-2894963e8e4bc855",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Großbritannien: Verdächtiger im Mordfall Ann Widdecombe soll auch Anschlag auf Nigel Farage geplant haben",
+      "link": "https://www.spiegel.de/ausland/grossbritannien-verdaechtiger-im-mordfall-ann-widdecombe-soll-auch-anschlag-auf-nigel-farage-geplant-haben-a-8fc4323c-61f9-41a9-a515-e9b1aa96efb6#ref=rss",
+      "summary": "Ihm wird bereits die Ermordung der ultrakonservativen Politikerin Ann Widdecombe vorgeworfen. Nun ergänzt die Staatsanwaltschaft die Vorwürfe gegen den 28 Jahre alten Briten.",
+      "image": "https://cdn.prod.www.spiegel.de/images/20eb8ad0-3887-4f58-8139-a330c30406b3_w1200_r1.778_fpx31_fpy57.jpg",
+      "published": "2026-10-02T23:34:00+02:00",
+      "category": "Nachrichten",
+      "score": 66.07,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Brexit-Politiker als Ziel: Mordfall Widdecombe: Auch Anschlag auf Farage geplant?",
+            "link": "https://www.handelsblatt.com/politik/international/brexit-politiker-als-ziel-mordfall-widdecombe-auch-anschlag-auf-farage-geplant/100259430.html"
+          }
+        ]
+      }
     },
     {
       "id": "handelsblatt-4dd63a44819483b4",
@@ -119,51 +224,7 @@
       "image": "https://images.handelsblatt.com/P7L2h7R6gsIk/cover/900/506/0/0/256/256/0.5/0.5/donald-trump-vor-reportern.jpg",
       "published": "2026-10-02T20:53:00+00:00",
       "category": "Politik",
-      "score": 67.16
-    },
-    {
-      "id": "deutschlandfunk-51154eb00f646912",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Straße von Hormus - Tanker unter Beschuss geraten",
-      "link": "https://www.deutschlandfunk.de/tanker-unter-beschuss-geraten-106.html",
-      "summary": "In der Straße von Hormus ist nach britischen Angaben erneut ein Tanker angegriffen worden.",
-      "image": "https://bilder.deutschlandfunk.de/21/34/37/e2/213437e2-5bf0-4213-bf63-7b9f6b46f115/strasse-hormus-104-1920x1920.jpg",
-      "published": "2026-10-03T01:02:51+02:00",
-      "category": "Nachrichten",
-      "score": 66.96,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Iran-Krieg: Warum gelangt wieder so viel Öl durch die Straße von Hormus?",
-            "link": "https://www.spiegel.de/ausland/iran-krieg-warum-gelangt-wieder-so-viel-oel-durch-die-strasse-von-hormus-a-c41e5663-bb36-4524-9416-3cb9ca374c86#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-66db4abfbec4a723",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Belastung für den Bundeshaushalt - Rechnungshof besorgt über steigende Rentenausgaben des Bundes",
-      "link": "https://www.deutschlandfunk.de/rechnungshof-besorgt-ueber-steigende-rentenausgaben-des-bundes-110.html",
-      "summary": "Der Bundesrechnungshof warnt vor steigenden Belastungen des Bundeshaushalts durch die Rentenversicherung.",
-      "image": "https://bilder.deutschlandfunk.de/1b/bd/43/8a/1bbd438a-e035-40d5-aea3-33960cb94a00/senioren-rentenreform-100-1920x1920.jpg",
-      "published": "2026-10-03T01:02:51+02:00",
-      "category": "Nachrichten",
-      "score": 66.96,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Rente: Rechnungshof warnt vor wachsender Belastung des Bundeshaushalts",
-            "link": "https://www.spiegel.de/politik/deutschland/rente-rechnungshof-warnt-vor-wachsender-belastung-des-bundeshaushalts-a-078e77e8-7152-4158-8fba-dd68fca2779d#ref=rss"
-          }
-        ]
-      }
+      "score": 65.14
     },
     {
       "id": "handelsblatt-a246124a8593d7ee",
@@ -175,7 +236,7 @@
       "image": "https://images.handelsblatt.com/P-73zvwpCO2y/cover/900/506/0/0/75/75/0.5/0.5/wall-street.jpeg",
       "published": "2026-10-02T19:03:43+00:00",
       "category": "Wirtschaft",
-      "score": 65.64
+      "score": 63.62
     },
     {
       "id": "spiegel-5c99898326a1c2af",
@@ -187,7 +248,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/74720736-630f-4556-bdb1-ee9fcdd5a467_w1200_r1.778_fpx51_fpy54.jpg",
       "published": "2026-10-02T17:49:00+02:00",
       "category": "Wirtschaft",
-      "score": 63.94,
+      "score": 61.92,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -209,43 +270,7 @@
       "image": "https://images.handelsblatt.com/FIRAt8JvONZ3/cover/900/506/0/0/107/106/0.5/0.5/nach-dem-flugvorfall-im-nahen-osten.jpg",
       "published": "2026-10-02T16:54:12+00:00",
       "category": "Politik",
-      "score": 63.84
-    },
-    {
-      "id": "spiegel-65aada6155d664ec",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Kid Rock kündigt Song mit Eminem an – dessen Fans zeigen sich entsetzt",
-      "link": "https://www.spiegel.de/kultur/musik/kid-rock-kuendigt-song-mit-eminem-an-dessen-fans-zeigen-sich-entsetzt-a-482a6e46-6b1b-4279-bb98-321aa6c104ea#ref=rss",
-      "summary": "In jungen Jahren kooperierten Kid Rock und Eminem mehrfach. Später wandte sich der Rocker Trumps MAGA-Truppe zu. Nun soll Eminem wieder bei einem Kid-Rock-Song zu hören sein. WTF, fragt sich jetzt so mancher Fan.",
-      "image": "https://cdn.prod.www.spiegel.de/images/4e17a8b2-fb3a-42fe-bfc7-b199c9fffead_w1200_r1.778_fpx57_fpy12.jpg",
-      "published": "2026-10-02T17:33:00+02:00",
-      "category": "Politik",
-      "score": 63.72
-    },
-    {
-      "id": "spiegel-e455721dbad84c8d",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Bundesregierung: Platzt jetzt die Koalition? Was Sie über die Krise wissen müssen",
-      "link": "https://www.spiegel.de/politik/deutschland/platzt-jetzt-die-koalition-was-sie-ueber-die-regierungskrise-wissen-muessen-a-914f55ef-7620-4779-8a22-26f00990c126#ref=rss",
-      "summary": "Der Bundespräsident sorgt sich um den Fortbestand von Schwarz-Rot. Nicht nur er: Union und SPD sind ratlos, wie sie die Konflikte über Zuckersteuer, Pflege, Rente und Haushalt lösen sollen. Der Überblick.",
-      "image": "https://cdn.prod.www.spiegel.de/images/446eeb61-3955-412e-99ce-a273d8d9e351_w1200_r1.778_fpx38.66_fpy49.99.jpg",
-      "published": "2026-10-02T17:12:00+02:00",
-      "category": "Politik",
-      "score": 63.42
-    },
-    {
-      "id": "golem-613ecefb9887a2ef",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Wegen KI-Paper-Flut: Arxiv beschränkt Autoren auf zwei Papers pro Monat",
-      "link": "https://www.golem.de/news/wegen-ki-paper-flut-arxiv-beschraenkt-autoren-auf-zwei-papers-pro-monat-2610-213661.html",
-      "summary": "Die Anzahl an Einreichungen bei Arxiv ist durch KI rapide gestiegen, die Qualität teilweise ebenso deutlich gefallen. Das Portal zieht die Notbremse. ( Open Access , KI )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213661&amp;page=1&amp;ts=1790950742",
-      "published": "2026-10-02T16:19:02+02:00",
-      "category": "Technologie",
-      "score": 57.69
+      "score": 61.83
     }
   ]
 }
