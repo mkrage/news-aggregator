@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T18:51:28.993501+00:00",
+  "generatedAt": "2026-10-04T22:10:28.271667+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/c27f77a9-bfa7-4668-b674-b26e3864515a/AAABoQeTufk/AAABnSSvrFg/16x9-big/sendungsbild-1806734.jpg?width=1920",
       "published": "2026-10-04T18:43:05+02:00",
       "category": "Politik",
-      "score": 91.63,
+      "score": 91.06,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -39,7 +39,7 @@
       "image": "https://images.tagesschau.de/image/bdfad2eb-0774-42ab-ae62-bf95ec327b15/AAABoQa-Lb4/AAABnSSvrFg/16x9-big/spanien-regen-ueberflutete-strasse-100.jpg?width=1920",
       "published": "2026-10-04T13:43:22+02:00",
       "category": "Nachrichten",
-      "score": 83.95,
+      "score": 83.38,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -61,7 +61,7 @@
       "image": "https://images.tagesschau.de/image/80801596-b4c5-4671-8561-6ab5a2a0cea8/AAABoQXtX-Y/AAABnSSvrFg/16x9-big/bosnien-herzegowina-wahl-geraet-100.jpg?width=1920",
       "published": "2026-10-04T05:04:08+02:00",
       "category": "Politik",
-      "score": 78.95,
+      "score": 78.38,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -69,6 +69,40 @@
             "source": "deutschlandfunk",
             "title": "Abstimmung - Bosnien und Herzegowina: Wahlen in einem der kompliziertesten Staatengebilde der Welt",
             "link": "https://www.deutschlandfunk.de/bosnien-und-herzegowina-wahlen-in-einem-der-kompliziertesten-staatengebilde-der-welt-112.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-0ea698f0d69e6f1a",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Lettland - Proeuropäische Regierungspartei gewinnt Parlamentswahl deutlich",
+      "link": "https://www.deutschlandfunk.de/proeuropaeische-regierungspartei-gewinnt-parlamentswahl-deutlich-100.html",
+      "summary": "Bei der Parlamentswahl in Lettland hat sich das proeuropäische Wahlbündnis \"Vereinigte Liste\" von Ministerpräsident Kulbergs klar durchgesetzt. Damit dürfte er seine entschiedene Unterstützung für die Ukraine fortsetzen.",
+      "image": "https://bilder.deutschlandfunk.de/e0/00/57/0f/e000570f-5cb5-44ee-8c90-beac86ff59ed/wahlen-lettland-100-1920x1920.jpg",
+      "published": "2026-10-04T23:26:08+02:00",
+      "category": "Politik",
+      "score": 77.38
+    },
+    {
+      "id": "deutschlandfunk-a176fb776d4aeec6",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Lateinamerika  - Präsidentschaftswahl in Brasilien beendet - Stichwahl erwartet",
+      "link": "https://www.deutschlandfunk.de/praesidentschaftswahl-in-brasilien-beendet-stichwahl-erwartet-100.html",
+      "summary": "In Brasilien ist die Präsidentschaft zu Ende gangen. Der linksgerichtete Amtsinhaber Lula da Silva war gegen den ultrarechten Kandidaten Flávio Bolsonaro angetreten. Er ist der älteste Sohn des wegen eines Putschversuchs verurteilten Ex-Präsidenten Jair Bolsonaro.",
+      "image": "https://bilder.deutschlandfunk.de/NO/VA/_b/83/NOVA_b83858539ba7ed51dece64d9cf84917c/craft-13451259-asset-100-1920x1920.jpg",
+      "published": "2026-10-04T23:26:08+02:00",
+      "category": "Politik",
+      "score": 77.38,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Brasilien-Wahl: Warum Flávio Bolsonaro Präsident Lula besiegen könnte",
+            "link": "https://www.spiegel.de/ausland/brasilien-wahl-warum-flavio-bolsonaro-praesident-lula-besiegen-koennte-a-a3164ecf-1a29-49f9-9396-eff8b4380ecb#ref=rss"
           }
         ]
       }
@@ -83,7 +117,7 @@
       "image": "https://images.tagesschau.de/image/1ceb13da-5fd8-4c51-9787-fc05a3c86eb9/AAABoQe8Ttc/AAABnSSvrFg/16x9-big/sendungsbild-1806754.jpg?width=1920",
       "published": "2026-10-04T20:40:10+02:00",
       "category": "Politik",
-      "score": 78.84,
+      "score": 76.08,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -91,40 +125,6 @@
             "source": "handelsblatt",
             "title": "Sachsen-Anhalt nach der Wahl: CDU-Chef in Sachsen-Anhalt: Niemand wird zur AfD wechseln",
             "link": "https://www.handelsblatt.com/politik/deutschland/sachsen-anhalt-nach-der-wahl-cdu-chef-in-sachsen-anhalt-niemand-wird-zur-afd-wechseln/100259606.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-0ea698f0d69e6f1a",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Lettland - Proeuropäische Regierungspartei gewinnt Parlamentswahl deutlich",
-      "link": "https://www.deutschlandfunk.de/proeuropaeische-regierungspartei-gewinnt-parlamentswahl-deutlich-100.html",
-      "summary": "Bei der Parlamentswahl in Lettland hat sich das proeuropäische Wahlbündnis \"Vereinigte Liste\" von Ministerpräsident Kulbergs klar durchgesetzt. Damit dürfte er seine entschiedene Unterstützung für die Ukraine fortsetzen.",
-      "image": "https://bilder.deutschlandfunk.de/e0/00/57/0f/e000570f-5cb5-44ee-8c90-beac86ff59ed/wahlen-lettland-100-1920x1920.jpg",
-      "published": "2026-10-04T20:47:40+02:00",
-      "category": "Politik",
-      "score": 77.95
-    },
-    {
-      "id": "deutschlandfunk-c0d544bae26a1cd9",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Lateinamerika  - Präsidentschaftswahl in Brasilien läuft - Stichwahl erwartet",
-      "link": "https://www.deutschlandfunk.de/praesidentschaftswahl-in-brasilien-laeuft-stichwahl-erwartet-100.html",
-      "summary": "In Brasilien wird heute ein neuer Präsident gewählt. Der linksgerichtete Amtsinhaber Lula da Silva tritt gegen den ultrarechten Kandidaten Flávio Bolsonaro an. Er ist der älteste Sohn des wegen eines Putschversuchs verurteilten Ex-Präsidenten Jair Bolsonaro.",
-      "image": "https://bilder.deutschlandfunk.de/NO/VA/_b/83/NOVA_b83858539ba7ed51dece64d9cf84917c/craft-13451259-asset-100-1920x1920.jpg",
-      "published": "2026-10-04T20:47:40+02:00",
-      "category": "Politik",
-      "score": 77.95,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Brasilien-Wahl: Warum Flávio Bolsonaro Präsident Lula besiegen könnte",
-            "link": "https://www.spiegel.de/ausland/brasilien-wahl-warum-flavio-bolsonaro-praesident-lula-besiegen-koennte-a-a3164ecf-1a29-49f9-9396-eff8b4380ecb#ref=rss"
           }
         ]
       }
@@ -139,7 +139,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/dd104b6d-0038-4029-83f2-7f20bc84eee2_w1200_r1.778_fpx42.49_fpy44.99.jpg",
       "published": "2026-10-04T18:38:00+02:00",
       "category": "Politik",
-      "score": 76.15,
+      "score": 73.38,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -161,7 +161,7 @@
       "image": "https://images.handelsblatt.com/Cj12ewW5lInq/cover/900/506/0/0/105/104/0.5/0.5/an-iris-t-slm-x-surface-to-air-missile-system-at-the-diehl-defence-booth-at-the-ila-berlin-air-show.jpg",
       "published": "2026-10-04T15:08:00+00:00",
       "category": "Politik",
-      "score": 73.9
+      "score": 71.13
     },
     {
       "id": "deutschlandfunk-2fd7f2580259585c",
@@ -171,21 +171,69 @@
       "link": "https://www.deutschlandfunk.de/afd-begruesst-vorstoss-von-hessens-cdu-chef-rhein-kritik-von-koalitionsvertretern-100.html",
       "summary": "Die Alternative für Deutschland hat den Vorstoß von Hessens Ministerpräsident Rhein zu einem anderen Umgang mit der AfD im Bundestag begrüßt. Parlamentsgeschäftsführer Baumann sagte der Nachrichtenagentur AFP, er gehe davon aus, dass die CDU in absehbarer Zeit ihre Ausgrenzungsstrategie aufgeben werde. Kritik kam hingegen aus den Koalitionsfraktionen.",
       "image": "https://bilder.deutschlandfunk.de/24/4c/6a/73/244c6a73-5d10-41c9-9c83-d0c8b8b0802c/boris-rhein-ministerpraesident-hessen-cdu-102-1920x1920.jpg",
-      "published": "2026-10-04T20:47:40+02:00",
+      "published": "2026-10-04T23:26:08+02:00",
       "category": "Politik",
-      "score": 69.95
+      "score": 69.38
+    },
+    {
+      "id": "handelsblatt-580495a64f4802e3",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Stützpunkt RAF Fairford: Nach Vorfall bei US-Militärbasis: US-Bomber zurückbeordert",
+      "link": "https://www.handelsblatt.com/politik/international/stuetzpunkt-raf-fairford-nach-vorfall-bei-us-militaerbasis-us-bomber-zurueckbeordert/100259615.html",
+      "summary": "Das US-Militär hatte einige seiner Bomber wegen des Iran-Krieges nach Großbritannien verlegt. Nun sind diese nach einem Vorfall am Stützpunkt wieder in die Heimat zurückbeordert worden.",
+      "image": "https://images.handelsblatt.com/qANLvupNoiJY/cover/900/506/0/0/107/106/0.5/0.5/festnahmen-wegen-terrorverdacht-bei-britischer-militaerbasis.jpg",
+      "published": "2026-10-04T21:14:31+00:00",
+      "category": "Wirtschaft",
+      "score": 68.22
+    },
+    {
+      "id": "handelsblatt-3d143483cfd97452",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Lateinamerika: Wahllokale in Brasilien geschlossen – Auszählung begonnen",
+      "link": "https://www.handelsblatt.com/politik/international/lateinamerika-wahllokale-in-brasilien-geschlossen-auszaehlung-begonnen/100259583.html",
+      "summary": "Rund 159 Millionen Brasilianer waren aufgerufen, ihre Stimme abzugeben. Erste Ergebnisse der Präsidentenwahl werden in der Nacht erwartet – es deutet sich ein knappes Rennen an.",
+      "image": "https://images.handelsblatt.com/EN4FLQ3nSpk0/cover/900/506/0/0/107/106/0.5/0.5/wahlen-in-brasilien.jpg",
+      "published": "2026-10-04T20:52:35+00:00",
+      "category": "Politik",
+      "score": 67.92
+    },
+    {
+      "id": "spiegel-691c9bc69d2f95bc",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Israels Spieler tragen Armbinden in Gedenken an Terror-Opfer",
+      "link": "https://www.spiegel.de/ausland/israels-spieler-tragen-armbinden-in-gedenken-an-terror-opfer-a-b65a6bbe-f010-4c7d-86fc-f6a01a775390#ref=rss",
+      "summary": "Die Stimmung im Vorfeld der Nations League-Partie Irland gegen Israel war so aufgeladen, dass das Spiel nach Serbien verlagert wurde. An aussagekräftigen Symbolen auf beiden Seiten fehlt es auch diesmal nicht.",
+      "image": "https://cdn.prod.www.spiegel.de/images/d1e0e5a7-8bee-42f3-9038-8621314da0a1_w1200_r1.778_fpx51_fpy41.jpg",
+      "published": "2026-10-04T21:30:00+02:00",
+      "category": "Politik",
+      "score": 67.77
+    },
+    {
+      "id": "deutschlandfunk-2d8cdf9f88d5e073",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "2. Weltkrieg - Griechenlands Präsident bekräftigt Forderung nach deutschen Kriegsreparationen",
+      "link": "https://www.deutschlandfunk.de/griechenlands-praesident-bekraeftigt-forderung-nach-deutschen-kriegsreparationen-100.html",
+      "summary": "Der griechische Staatspräsident Tasoulas hat die Forderungen Griechenlands nach deutschen Kriegsreparationen bekräftigt.",
+      "image": "https://bilder.deutschlandfunk.de/FI/LE/_e/1f/FILE_e1f9abde93354ac99b255d2067220ada/imago81286724h-jpg-100-768x768.jpg",
+      "published": "2026-10-04T23:26:08+02:00",
+      "category": "Nachrichten",
+      "score": 66.38
     },
     {
       "id": "spiegel-a913b065f7ff53dd",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Gegen 7 Uhr steigt der Kanzler aus dem Zug, um 7:45 Uhr gibt es den ersten Luftalarm",
+      "title": "Gegen 7 Uhr steigt der Kanzler aus dem Zug, um 7.45 Uhr gibt es den ersten Luftalarm",
       "link": "https://www.spiegel.de/ausland/gegen-7-uhr-steigt-der-kanzler-aus-dem-zug-um-7-45-uhr-gibt-es-den-ersten-luftalarm-a-9c77775b-fe7d-47e4-abd3-5cbceb6dc4d8#ref=rss",
       "summary": "Friedrich Merz besucht Kyjiw, und Russland schickt den ganzen Tag weiter Drohnen. Doch die Ukrainer bringen dem Kanzler eine Wertschätzung entgegen, wie er sie von zuhause nicht mehr kennt.",
       "image": "https://cdn.prod.www.spiegel.de/images/2992bf5c-f0c9-4b8f-9ff7-ebd5952bd399_w1200_r1.778_fpx44_fpy50.jpg",
       "published": "2026-10-04T19:38:00+02:00",
       "category": "Politik",
-      "score": 68.98
+      "score": 66.22
     },
     {
       "id": "handelsblatt-91588c68804e1791",
@@ -197,55 +245,7 @@
       "image": "https://images.handelsblatt.com/zywP7MUA3BnM/cover/900/506/0/0/157/470/0.5/0.5/latviaaposs-prime-minister-andris-kulbergs-reacts-after-first-exit-poll-results-of-the-general-ele.jpg",
       "published": "2026-10-04T08:41:00+00:00",
       "category": "Politik",
-      "score": 68.52
-    },
-    {
-      "id": "handelsblatt-c61c616f542cf0e5",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Gefährliche Kiew-Reise: Merz unterstützt Ukraine – und appelliert an Putin",
-      "link": "https://www.handelsblatt.com/politik/deutschland/gefaehrliche-kiew-reise-merz-unterstuetzt-ukraine-und-appelliert-an-putin/100259542.html",
-      "summary": "Noch nie war ein Kanzler-Besuch in Kiew so gefährlich. Immer wieder heulen die Sirenen. Merz bringt eine klare Botschaft an die Ukrainer mit. Aber auch eine an Putin und gewisse Leute in Deutschland.",
-      "image": "https://images.handelsblatt.com/4lE--XXxPkFy/cover/900/506/0/0/107/106/0.5/0.5/bundeskanzler-merz-reist-in-die-ukraine.jpg",
-      "published": "2026-10-04T17:33:41+00:00",
-      "category": "Politik",
-      "score": 67.92
-    },
-    {
-      "id": "spiegel-ee57d7add4a62b25",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Nation League: Warum das Fußballspiel Irland gegen Israel politisch so aufgeladen ist",
-      "link": "https://www.spiegel.de/ausland/nation-league-warum-das-fussballspiel-irland-gegen-israel-politisch-so-aufgeladen-ist-a-a76c7fea-f24c-4933-bd68-68f422fccc8f#ref=rss",
-      "summary": "Boykottaufrufe, gesenkte Köpfe bei der Hymne, ein eskalierter Pressetermin: Irlands Fußballduell mit Israel ist brisant, denn im Nahostkonflikt positionieren sich die Iren aufseiten der Palästinenser.",
-      "image": "https://cdn.prod.www.spiegel.de/images/0c049db6-5ff6-4654-ac33-c5fa79e4a7da_w1200_r1.778_fpx69.99_fpy45.jpg",
-      "published": "2026-10-04T18:12:00+02:00",
-      "category": "Politik",
-      "score": 67.78
-    },
-    {
-      "id": "handelsblatt-bba8c7b73f4c70d8",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Wahlen in Brasilien: „Wenn Lula gewinnt, wandere ich aus“ – Warum Unternehmer den Präsidenten unbedingt loswerden wollen",
-      "link": "https://www.handelsblatt.com/politik/international/wahlen-warum-brasilianische-unternehmer-praesident-lula-loswerden-wollen/100254745.html",
-      "summary": "Ob Wachstum, Inflation oder Arbeitslosigkeit: Brasiliens Wirtschaftsdaten sind gut. Trotzdem fürchten Unternehmer eine zweite Amtszeit von Präsident Lula. Am Sonntag könnten sie ihn abwählen.",
-      "image": "https://images.handelsblatt.com/jeo5cqk-aL5h/cover/900/506/0/0/0/209/0.5/0.5/luiz-inacio-lula-da-silva-brazilaposs-president-greets-supporters-during-a-campaign-rally-in-sao.jpg",
-      "published": "2026-10-04T06:51:28+00:00",
-      "category": "Wirtschaft",
-      "score": 67.0
-    },
-    {
-      "id": "deutschlandfunk-2d8cdf9f88d5e073",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "2. Weltkrieg - Griechenlands Präsident bekräftigt Forderung nach deutschen Kriegsreparationen",
-      "link": "https://www.deutschlandfunk.de/griechenlands-praesident-bekraeftigt-forderung-nach-deutschen-kriegsreparationen-100.html",
-      "summary": "Der griechische Staatspräsident Tasoulas hat die Forderungen Griechenlands nach deutschen Kriegsreparationen bekräftigt.",
-      "image": "https://bilder.deutschlandfunk.de/FI/LE/_e/1f/FILE_e1f9abde93354ac99b255d2067220ada/imago81286724h-jpg-100-768x768.jpg",
-      "published": "2026-10-04T20:47:40+02:00",
-      "category": "Nachrichten",
-      "score": 66.95
+      "score": 65.76
     }
   ]
 }
