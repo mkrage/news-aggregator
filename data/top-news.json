@@ -1,7 +1,39 @@
 {
-  "generatedAt": "2026-10-04T02:11:47.588589+00:00",
+  "generatedAt": "2026-10-04T08:34:28.183431+00:00",
   "count": 15,
   "articles": [
+    {
+      "id": "tagesschau-295c1dec014520c9",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Krieg gegen die Ukraine: Kanzler Merz besucht Kiew",
+      "link": "https://www.tagesschau.de/ausland/europa/eilmeldung-merz-kiew-100.html",
+      "summary": "Es soll auch um weitere militärische Unterstützung gehen: Bundeskanzler Merz ist zu einem Solidaritätsbesuch in Kiew eingetroffen. Zuvor hatte Russland vor Reisen in die Ukraine gewarnt. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/9bf40eff-4bc5-40cc-8ac5-b8db42dee60a/AAABoQU57l4/AAABnSSvrFg/16x9-big/merz-1682.jpg?width=1920",
+      "published": "2026-10-04T06:44:05+02:00",
+      "category": "Politik",
+      "score": 94.84,
+      "coverage": {
+        "sourceCount": 4,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Ukraine-Krieg - Luftangriff auf Kiew während Besuch von Merz",
+            "link": "https://www.deutschlandfunk.de/luftangriff-auf-kiew-waehrend-besuch-von-merz-100.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "Russland-Ukraine-Krieg: Friedrich Merz überraschend in Kyjiw eingetroffen",
+            "link": "https://www.spiegel.de/ausland/russland-ukraine-krieg-friedrich-merz-ueberraschend-in-kyjiw-eingetroffen-a-c6e7607a-70a0-4a19-b913-46020ce53a2d#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Ukraine-Krieg: Merz überraschend in die Ukraine gereist: Kanzler am Morgen in Kiew eingetroffen – Drohnen-Deal geplant",
+            "link": "https://www.handelsblatt.com/politik/deutschland/ukraine-kanzler-merz-ueberraschend-nach-kiew-gereist-drohnen-deal-geplant/100259485.html"
+          }
+        ]
+      }
+    },
     {
       "id": "tagesschau-75be1066e5eea353",
       "source": "tagesschau",
@@ -12,7 +44,7 @@
       "image": "https://images.tagesschau.de/image/e8bf4b11-ec9e-4b8d-8dd6-a79a12c50d61/AAABoQP9eZU/AAABnSSvrFg/16x9-big/gaza-angriff-truemmer-haus-100.jpg?width=1920",
       "published": "2026-10-04T01:54:49+02:00",
       "category": "Politik",
-      "score": 91.61,
+      "score": 91.37,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -30,16 +62,75 @@
       }
     },
     {
-      "id": "spiegel-83f99df2ae5560f0",
-      "source": "spiegel",
+      "id": "deutschlandfunk-0ea698f0d69e6f1a",
+      "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Donald Trump: Jetzt beginnen die gefährlichsten Jahre seiner Präsidentschaft",
-      "link": "https://www.spiegel.de/ausland/donald-trump-jetzt-beginnen-die-gefaehrlichsten-jahre-seiner-praesidentschaft-a-03ff9cf3-7b9b-41e6-8bb6-a41789e25fed#ref=rss",
-      "summary": "Ukrainekrieg, Krise in Nahost, KI-Kontrollverlust – Donald Trump wird von dem Chaos eingeholt, das er selbst mitgestiftet hat. Wie viel Wahnsinn im Weißen Haus kann sich die Welt noch leisten?",
-      "image": "https://cdn.prod.www.spiegel.de/images/5b3d9a65-3851-49b7-ab63-8bf93b249985_w1200_r1.778_fpx54.77_fpy50.jpg",
-      "published": "2026-10-03T16:10:00+02:00",
+      "title": "Lettland - Proeuropäische Regierungspartei gewinnt Parlamentswahl deutlich",
+      "link": "https://www.deutschlandfunk.de/proeuropaeische-regierungspartei-gewinnt-parlamentswahl-deutlich-100.html",
+      "summary": "Bei der Parlamentswahl in Lettland hat sich das proeuropäische Wahlbündnis \"Vereinigte Liste\" von Ministerpräsident Kulbergs klar durchgesetzt. Damit dürfte er seine entschiedene Unterstützung für die Ukraine fortsetzen.",
+      "image": "https://bilder.deutschlandfunk.de/e0/00/57/0f/e000570f-5cb5-44ee-8c90-beac86ff59ed/wahlen-lettland-100-1920x1920.jpg",
+      "published": "2026-10-04T10:12:27+02:00",
       "category": "Politik",
-      "score": 83.98
+      "score": 90.37,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Lettland: Proeuropäische Regierungspartei gewinnt klar bei Parlamentswahl",
+            "link": "https://www.spiegel.de/ausland/lettland-pro-europaeische-regierungspartei-von-andris-kulbergs-gewinnt-parlamentswahl-a-bba7c178-fa10-475f-ae52-cec9ac770ae3#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Nato-Ostflanke: Regierungspartei siegt klar bei Parlamentswahl in Lettland",
+            "link": "https://www.handelsblatt.com/politik/international/nato-ostflanke-regierungspartei-siegt-klar-bei-parlamentswahl-in-lettland/100259543.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-5651125745ab436c",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "USA: Trumps Republikaner unter Druck vor den Midterms",
+      "link": "https://www.tagesschau.de/ausland/midterms-republikaner-trump-100.html",
+      "summary": "Den Republikanern drohen bei den US-Zwischenwahlen herbe Verluste. Das liegt auch an Präsident Trump. Erste republikanische Kandidaten beginnen, sich von ihm zu distanzieren. Wie ist die Lage einen Monat vor der Wahl? Von Ralf Borchard. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/edc0b1d0-b070-476f-9845-b85751843698/AAABoPqyy1E/AAABnSSvrFg/16x9-big/trump-usflagge-100.jpg?width=1920",
+      "published": "2026-10-02T17:54:40+02:00",
+      "category": "Politik",
+      "score": 86.49,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Midterm-Wahlen in den USA: Wie Wähler in Ohio auf Donald Trump blicken",
+            "link": "https://www.spiegel.de/ausland/midterm-wahlen-in-den-usa-wie-waehler-in-ohio-auf-donald-trump-blicken-a-e49c1f69-32ab-49f3-8934-62743d096c28#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-701060b576ebaf0a",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Krieg gegen die Ukraine - Nach Angriffen auf Kiewer Brücken: Selenskyj kündigt verstärkte Angriffe auf russische Raffinerien an",
+      "link": "https://www.deutschlandfunk.de/nach-angriffen-auf-kiewer-bruecken-selenskyj-kuendigt-verstaerkte-angriffe-auf-russische-raffinerien-102.html",
+      "summary": "Der ukrainische Präsident Selenskyj hat verstärkte Angriffe auf russische Raffinerien angekündigt.",
+      "image": "https://bilder.deutschlandfunk.de/50/12/d5/be/5012d5be-4d75-4139-8d9a-edddbdd4919b/622881094-100-1920x1920.jpg",
+      "published": "2026-10-04T10:12:27+02:00",
+      "category": "Politik",
+      "score": 85.69,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ Ukraine-Krieg +++: Luftangriff in Kiew während Merz-Besuch – Brücke getroffen",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-moskau-schliesst-konsulat-in-st.-petersburg123/27982126.html"
+          }
+        ]
+      }
     },
     {
       "id": "tagesschau-517157e08663e2c1",
@@ -51,7 +142,7 @@
       "image": "https://images.tagesschau.de/image/bba26232-ea32-4251-b4e8-97c112735432/AAABoQIBYQw/AAABnSSvrFg/16x9-big/demosntration-madrid-100.jpg?width=1920",
       "published": "2026-10-03T16:22:55+02:00",
       "category": "Politik",
-      "score": 83.61,
+      "score": 83.37,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -69,99 +160,16 @@
       }
     },
     {
-      "id": "tagesschau-4a19962760a4ddeb",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Bundesweite Aktion: Menschenketten für Gerechtigkeit und Klima",
-      "link": "https://www.tagesschau.de/inland/gesellschaft/menschenkette-klima-100.html",
-      "summary": "In mehr als 100 Städten haben Tausende in Menschenketten für mehr Klimaschutz und Gerechtigkeit demonstriert. Die Aktion soll auf die Ursachen von Hitzetoten, Fluten und Waldbrände aufmerksam machen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/43126653-59b4-47b6-a50c-bfdb3d562030/AAABoQIGrdo/AAABnSSvrFg/16x9-big/menschenkette-164.jpg?width=1920",
-      "published": "2026-10-03T16:03:39+02:00",
-      "category": "Nachrichten",
-      "score": 80.61,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Umwelt und Klima - Tausende bilden Menschenkette für gesellschaftlichen Neustart",
-            "link": "https://www.deutschlandfunk.de/tausende-bilden-menschenkette-fuer-gesellschaftlichen-neustart-100.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Deutschland: Tausende bilden Menschenketten für Gerechtigkeit und Klimaschutz",
-            "link": "https://www.spiegel.de/panorama/deutschland-tausende-bilden-menschenketten-fuer-gerechtigkeit-und-klimaschutz-a-6711f912-67e3-40b2-b04d-377c4d83c703#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-acae383039f549bc",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Nach Wahl in Berlin: Linke, Grüne und SPD sehen \"gemeinsamen Weg\"",
-      "link": "https://www.tagesschau.de/inland/regional/berlin/regierungsbildung-berlin-linke-gruene-spd-100.html",
-      "summary": "Linke, Grüne und SPD in Berlin sind sich in Vorgesprächen zur Regierungsbildung nähergekommen. Kommende Woche werde man zu einem ersten Ergebnis kommen, erklärten sie. Als Nächstes sollen dann Sondierungsgespräche beginnen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/9cdc7be9-90ad-4f87-af13-2a603292afa7/AAABoQJLKP8/AAABnSSvrFg/16x9-big/rbb-steffen-krach-spd-werner-graf-buendnis-90die-gruenen-und-elif-eralp-die-linke-100.jpg?width=1920",
-      "published": "2026-10-03T16:59:21+02:00",
-      "category": "Politik",
-      "score": 78.93,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Nach Vorgesprächen - Linke, Grüne und SPD in Berlin verständigen sich auf \"weiteren Weg\" zu möglicher Regierungsbildung",
-            "link": "https://www.deutschlandfunk.de/linke-gruene-und-spd-in-berlin-verstaendigen-sich-auf-weiteren-weg-zu-moeglicher-regierungsbildung-108.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-9910bc7de89c29b6",
+      "id": "spiegel-05ef25362050330a",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg: Russland warnt Ausländer vor Aufenthalt in Kyjiw",
-      "link": "https://www.spiegel.de/ausland/ukraine-krieg-russland-warnt-auslaender-vor-aufenthalt-in-kyjiw-a-6d4c6d84-4042-4bcd-8e6b-ca0a4ecba842#ref=rss",
-      "summary": "Moskau kündigt weitere Angriffe auf Kyjiw und andere ukrainische Städte an. Zugleich fordert das russische Außenministerium Ausländer und Diplomaten erneut auf, die ukrainische Hauptstadt zu verlassen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/292ecfb8-000f-48b9-b9f3-08cff0e4712c_w1200_r1.778_fpx72.19_fpy45.jpg",
-      "published": "2026-10-03T19:32:00+02:00",
+      "title": "Ukraine-Russland-Krieg: US-Thinktank vergleicht Putins Berichte über Geländegewinne mit »Halluzinationen«",
+      "link": "https://www.spiegel.de/ausland/ukraine-russland-krieg-us-thinktank-vergleicht-putins-berichte-ueber-gelaendegewinne-mit-halluzinationen-a-e9f2bce3-be00-4cf9-92df-1c863dbe82ae#ref=rss",
+      "summary": "Russlands Machthaber behauptet, seine Truppen rücken mit hohem Tempo vor. Dem widerspricht das US-Institut ISW nun scharf. Unklar sei allerdings, ob Putin bewusst lüge oder von seinen Untergebenen selbst belogen werde.",
+      "image": "https://cdn.prod.www.spiegel.de/images/6618ee8c-c6c1-45d9-bb44-87b101d215a7_w1200_r1.778_fpx1_fpy1.jpg",
+      "published": "2026-10-04T09:22:00+02:00",
       "category": "Politik",
-      "score": 78.78,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "+++ Ukraine-Krieg +++: Russland kündigt Angriffe auf Kiew an – fordert Ausländer zum Verlassen auf",
-            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-moskau-schliesst-konsulat-in-st.-petersburg123/27982126.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-701060b576ebaf0a",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Krieg gegen die Ukraine - Nach Angriffen auf Kiewer Brücken: Selenskyj kündigt verstärkte Angriffe auf russische Raffinerien an",
-      "link": "https://www.deutschlandfunk.de/nach-angriffen-auf-kiewer-bruecken-selenskyj-kuendigt-verstaerkte-angriffe-auf-russische-raffinerien-102.html",
-      "summary": "Der ukrainische Präsident Selenskyj hat verstärkte Angriffe auf russische Raffinerien angekündigt.",
-      "image": "https://bilder.deutschlandfunk.de/50/12/d5/be/5012d5be-4d75-4139-8d9a-edddbdd4919b/622881094-100-1920x1920.jpg",
-      "published": "2026-10-04T04:06:37+02:00",
-      "category": "Politik",
-      "score": 77.93
-    },
-    {
-      "id": "deutschlandfunk-39d9492331eafbaf",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "EU- und NATO-Mitglied - Regierungspartei \"Vereinte Liste\" offenbar Sieger bei Parlamentswahl in Lettland",
-      "link": "https://www.deutschlandfunk.de/regierungspartei-vereinte-liste-offenbar-sieger-bei-parlamentswahl-in-lettland-108.html",
-      "summary": "Bei der Parlamentswahl in Lettland zeichnet sich ein Sieg des Mitte-rechts-Bündnisses Vereinte Liste von Ministerpräsident Kulbergs ab.",
-      "image": "https://bilder.deutschlandfunk.de/FI/LE/_5/2a/FILE_52a2c3c05ee307de899837642e78e9ab/imago53415497h-jpg-100-512x512.jpg",
-      "published": "2026-10-04T04:06:37+02:00",
-      "category": "Politik",
-      "score": 69.93
+      "score": 76.99
     },
     {
       "id": "deutschlandfunk-b61748ae963340d3",
@@ -171,81 +179,93 @@
       "link": "https://www.deutschlandfunk.de/praesidentschaftswahl-in-brasilien-beginnt-100.html",
       "summary": "In Brasilien wird heute ein neuer Präsident gewählt.",
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_b/83/NOVA_b83858539ba7ed51dece64d9cf84917c/craft-13451259-asset-100-1920x1920.jpg",
-      "published": "2026-10-04T04:06:37+02:00",
+      "published": "2026-10-04T10:12:27+02:00",
       "category": "Politik",
-      "score": 69.93
+      "score": 69.69
     },
     {
-      "id": "deutschlandfunk-be10b71e8835a4f4",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Abstimmung - Bosnien und Herzegowina: Wahlen in einem der kompliziertesten Staatengebilde der Welt",
-      "link": "https://www.deutschlandfunk.de/bosnien-und-herzegowina-wahlen-in-einem-der-kompliziertesten-staatengebilde-der-welt-100.html",
-      "summary": "In Bosnien-Herzegowina wird heute gewählt.",
-      "image": "https://bilder.deutschlandfunk.de/3f/48/bd/88/3f48bd88-0ea1-4f51-b724-3dd3db3da6db/wahlen-bosnien-herzegowina-sarajewo-100-1920x1920.jpg",
-      "published": "2026-10-04T04:06:37+02:00",
-      "category": "Politik",
-      "score": 69.93
-    },
-    {
-      "id": "spiegel-dcd42ab2c847f684",
+      "id": "spiegel-9eccfb3a3655831b",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Oetinger-Verlag: Wie der Kinderbuchverlag gegen die Lesekrise kämpft",
-      "link": "https://www.spiegel.de/wirtschaft/unternehmen/oetinger-verlag-wie-der-kinderbuchverlag-gegen-die-lesekrise-kaempft-a-f59a1641-248c-4f81-884a-a9a3e12ef5c7#ref=rss",
-      "summary": "Mit »Pippi Langstrumpf« wurde Oetinger groß. Nun sucht der Verlag Zugang zu Kindern, die anders lesen, hören und schauen. Kann der Umweg über eine »Olchi«-Erlebniswelt wieder zum Buch führen?",
-      "image": "https://cdn.prod.www.spiegel.de/images/42f106ae-6418-45bd-8011-d95f1001273d_w1200_r1.778_fpx47_fpy60.jpg",
-      "published": "2026-10-03T15:48:00+02:00",
+      "title": "Angelina Jolie bittet um Unterstützung für Gaza",
+      "link": "https://www.spiegel.de/panorama/leute/angelina-jolie-bittet-um-unterstuetzung-fuer-gaza-a-0ddc9f68-3c92-499e-8d19-dacf746b0338#ref=rss",
+      "summary": "Vor dem bevorstehenden Winter hat Schauspielerin Angelina Jolie um Hilfe für die Menschen in Gaza geworben. Es würden grundlegende Güter benötigt, sagt sie: »Was jetzt geschieht, ist entscheidend.«",
+      "image": "https://cdn.prod.www.spiegel.de/images/3e4dc971-6df8-44b3-aa47-48107b713ddf_w1200_r1.778_fpx46_fpy44.jpg",
+      "published": "2026-10-04T10:08:00+02:00",
       "category": "Politik",
-      "score": 67.67
+      "score": 69.63
     },
     {
-      "id": "handelsblatt-1729517594b2e242",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Ukraine-Krieg: Ukraine-Friedensgespräche sollen an großen Öl-Deal geknüpft werden",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-ukraine-friedensgespraeche-sollen-an-grossen-oel-deal-geknuepft-werden/100259487.html",
-      "summary": "Bei den US-Gesprächen mit Russland über ein Ende des Krieges geht es einem Bericht zufolge auch um Ölgeschäfte. Profitieren könnten Geschäftspartner aus dem Umfeld von Witkoff und Kushner.",
-      "image": "https://images.handelsblatt.com/nLtbeCbX9O3g/cover/900/506/0/0/400/400/0.5/0.5/russia-us-9237249-05.09.2026-russian-president-vladimir-putin-welcomes-u.s.-special-envoys-steve-wit.jpg",
-      "published": "2026-10-03T11:37:22+00:00",
-      "category": "Politik",
-      "score": 64.86
-    },
-    {
-      "id": "handelsblatt-6b6d7837e968170d",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Trump-Watch: „Das Versprechen von entstehenden Arbeitsplätzen geht nicht auf“ – Ökonomin ordnet Trumps Wirtschaftspolitik ein",
-      "link": "https://www.handelsblatt.com/audio/trump-watch-podcast/trump-watch-das-versprechen-von-entstehenden-arbeitsplaetzen-geht-nicht-auf-oekonomin-ordnet-trumps-wirtschaftspolitik-ein/100259439.html",
-      "summary": "Die US-Wirtschaft wächst - und dennoch könnten die ökonomischen Entwicklungen bei diesen Zwischenwahlen die Demokraten stärken. Warum besprechen die Hosts mit der Ökonomin Samina Sultan.",
-      "image": "https://images.handelsblatt.com/ajuKMP7NmADk/cover/900/506/0/0/210/1103/0.5/0.5/cover-podcast-trump-watch.jpg",
-      "published": "2026-10-03T11:00:52+00:00",
-      "category": "Politik",
-      "score": 64.35
-    },
-    {
-      "id": "spiegel-e9e6a7e354f65712",
+      "id": "spiegel-e4f9fd4706879b05",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "USA: 9/11, Obama, Trump – so radikal hat sich Amerika in 30 Jahren verändert",
-      "link": "https://www.spiegel.de/ausland/usa-9-11-obama-trump-so-radikal-hat-sich-amerika-in-30-jahren-veraendert-a-f3ffc516-c761-4a2a-9c56-57ad5c0ec4b2#ref=rss",
-      "summary": "Das Land, das er einst liebte, erkennt er heute kaum wieder: SPIEGEL-Korrespondent Marc Pitzke verlässt Amerika nach mehr als drei Jahrzehnten. Und zieht Bilanz über ein Land im freien Fall.",
-      "image": "https://cdn.prod.www.spiegel.de/images/e69354ee-4aa0-4fc1-bfd0-557eb656d627_w1200_r1.778_fpx52_fpy46.jpg",
-      "published": "2026-10-03T19:50:00+02:00",
+      "title": "Donald Trump: Geheimdienstdirektor Clayton wird Leiter der »Super Intelligence Force«",
+      "link": "https://www.spiegel.de/netzwelt/netzpolitik/donald-trump-ernennt-geheimdienstdirektor-jay-clayton-zum-ki-beauftragten-a-f7c18c22-94f7-4b5e-860f-3ba2bc9244ed#ref=rss",
+      "summary": "Ein neues Gremium soll laut »Wall Street Journal« den US-Präsidenten über Chancen und Risiken von KI informieren. Chef dieser »Super Intelligence Force« wird Geheimdienstdirektor Jay Clayton. Für den Bericht hat er 120 Tage Zeit.",
+      "image": "https://cdn.prod.www.spiegel.de/images/69a77bf8-17b1-4f4a-8ad7-fb4c5c9ae54a_w1200_r1.778_fpx3_fpy27.jpg",
+      "published": "2026-10-04T08:18:00+02:00",
       "category": "Politik",
-      "score": 63.03
+      "score": 68.1
     },
     {
-      "id": "handelsblatt-025c5f759a0c83d1",
+      "id": "spiegel-150f12361e9b392f",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Timothy Garton Ash über Mittel gegen Populismus, die AfD und Friedrich Merz",
+      "link": "https://www.spiegel.de/geschichte/timothy-garton-ash-ueber-mittel-gegen-populismus-die-afd-und-friedrich-merz-a-9f43ce3f-4799-493f-8b21-ec2795cbf92c#ref=rss",
+      "summary": "Die Wahlerfolge der AfD haben ihn schockiert, aber noch könne man gegensteuern, sagt der britische Historiker und Deutschlandkenner Timothy Garton Ash. Ein Politikertyp wie Friedrich Merz helfe dabei eher nicht.",
+      "image": "https://cdn.prod.www.spiegel.de/images/52e12438-677d-4085-8066-d955135a9878_w1200_r1.778_fpx51_fpy38.jpg",
+      "published": "2026-10-04T08:01:00+02:00",
+      "category": "Politik",
+      "score": 67.87
+    },
+    {
+      "id": "handelsblatt-d7e8931ec0f69313",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Präsidentschaftswahl: Lula gegen Bolsonaro: Wie stark wird Trumps Einfluss in Südamerika?",
-      "link": "https://www.handelsblatt.com/politik/international/brasilien-lula-oder-bolsonaro-wie-stark-wird-trumps-einfluss-in-suedamerika/100254741.html",
-      "summary": "Am Sonntag wählt Brasilien einen neuen Präsidenten – und entscheidet damit, wie eng es sich an die USA bindet. Das Ergebnis könnte Europa unter Druck setzen.",
-      "image": "https://images.handelsblatt.com/RYKfSl-IYU1P/cover/900/506/0/0/293/292/0.5/0.5/a-street-vendor-sells-campaign-flags-of-presidential-candidates-sen.-flavio-bolsonaro-and-current-pr.jpg",
-      "published": "2026-10-03T07:05:00+00:00",
+      "title": "Baltikum: In Lettland klarer Wahlsieg von Regierungschef Kulbergs",
+      "link": "https://www.handelsblatt.com/politik/international/baltikum-in-lettland-klarer-wahlsieg-von-regierungschef-kulbergs/100259554.html",
+      "summary": "Erst im Mai gab es in Lettland wegen Drohnenvorfällen einen Regierungswechsel. Nicht einmal ein halbes Jahre später stand nun die Parlamentswahl an. Sie bringt einen großen Gewinner hervor.",
+      "image": "https://images.handelsblatt.com/3utcx-NKiC4H/cover/900/506/0/0/107/107/0.5/0.5/wahlen-in-lettland.jpg",
+      "published": "2026-10-04T06:54:04+00:00",
       "category": "Politik",
-      "score": 61.07
+      "score": 67.61
+    },
+    {
+      "id": "handelsblatt-24a7eb323908f827",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Bundesregierung: Wirtschaftsministerin Reiche erwartet keinen Gasmangel im Winter",
+      "link": "https://www.handelsblatt.com/politik/deutschland/bundespolitik-wirtschaftsministerin-reiche-erwartet-keinen-gasmangel-im-winter/100137034.html",
+      "summary": "Reiche warnt vor Linken-Regierung +++ Dobrindt plädiert für Sonderregeln bei Migrationskrisen +++ Kanzleramt stoppt Zuckersteuer +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/nCqvU33tY21H/cover/900/506/0/0/260/261/0.5/0.5/29.07.2026-berlin-katherina-reiche-cdu-bundesministerin-fuer-wirtschaft-und-energie-nimmt-an-de.jpg",
+      "published": "2026-10-04T06:17:00+00:00",
+      "category": "Politik",
+      "score": 67.09
+    },
+    {
+      "id": "handelsblatt-0f364a66e4a7d65c",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ USA +++: Trump ernennt offenbar Geheimdienstchef Jay Clayton zum KI-Beauftragten",
+      "link": "https://www.handelsblatt.com/politik/international/usa-trump-ernennt-offenbar-geheimdienstchef-zum-ki-beauftragten/29669594.html",
+      "summary": "Trump-Regierung verzichtet auf weitere Ermittlungen gegen Ex-Fed-Chef Powell +++ Diesel-Exportverbot stand laut Trump nie wirklich zur Debatte +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/UnSwDAKl8zWb/cover/900/506/430/67/377/112/0.5/0.5/jay-clayton-director-of-national-intelligence-nominee-for-us-president-donald-trump-arrives-for-a.jpg",
+      "published": "2026-10-04T05:54:00+00:00",
+      "category": "Politik",
+      "score": 66.77
+    },
+    {
+      "id": "golem-2f380fbc57f90c79",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Speicherkrise: Kleine Raspberry Pis werden teurer, DGX Spark mit weniger RAM",
+      "link": "https://www.golem.de/news/speicherkrise-kleine-raspberry-pis-werden-teurer-dgx-spark-mit-weniger-ram-2610-213680.html",
+      "summary": "Die Speicherkrise sorgt weiter für steigende Preise. Bislang verschonte Raspberry Pis werden teurer, Nvidias KI-Desktop kommt als kleinere Version. ( RAM , Nvidia )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213680&amp;page=1&amp;ts=1791101762",
+      "published": "2026-10-04T10:16:02+02:00",
+      "category": "Technologie",
+      "score": 64.74
     }
   ]
 }
