@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T08:34:28.183431+00:00",
+  "generatedAt": "2026-10-04T08:54:10.433829+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/9bf40eff-4bc5-40cc-8ac5-b8db42dee60a/AAABoQU57l4/AAABnSSvrFg/16x9-big/merz-1682.jpg?width=1920",
       "published": "2026-10-04T06:44:05+02:00",
       "category": "Politik",
-      "score": 94.84,
+      "score": 94.93,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -44,7 +44,7 @@
       "image": "https://images.tagesschau.de/image/e8bf4b11-ec9e-4b8d-8dd6-a79a12c50d61/AAABoQP9eZU/AAABnSSvrFg/16x9-big/gaza-angriff-truemmer-haus-100.jpg?width=1920",
       "published": "2026-10-04T01:54:49+02:00",
       "category": "Politik",
-      "score": 91.37,
+      "score": 91.61,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -62,33 +62,6 @@
       }
     },
     {
-      "id": "deutschlandfunk-0ea698f0d69e6f1a",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Lettland - Proeuropäische Regierungspartei gewinnt Parlamentswahl deutlich",
-      "link": "https://www.deutschlandfunk.de/proeuropaeische-regierungspartei-gewinnt-parlamentswahl-deutlich-100.html",
-      "summary": "Bei der Parlamentswahl in Lettland hat sich das proeuropäische Wahlbündnis \"Vereinigte Liste\" von Ministerpräsident Kulbergs klar durchgesetzt. Damit dürfte er seine entschiedene Unterstützung für die Ukraine fortsetzen.",
-      "image": "https://bilder.deutschlandfunk.de/e0/00/57/0f/e000570f-5cb5-44ee-8c90-beac86ff59ed/wahlen-lettland-100-1920x1920.jpg",
-      "published": "2026-10-04T10:12:27+02:00",
-      "category": "Politik",
-      "score": 90.37,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Lettland: Proeuropäische Regierungspartei gewinnt klar bei Parlamentswahl",
-            "link": "https://www.spiegel.de/ausland/lettland-pro-europaeische-regierungspartei-von-andris-kulbergs-gewinnt-parlamentswahl-a-bba7c178-fa10-475f-ae52-cec9ac770ae3#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Nato-Ostflanke: Regierungspartei siegt klar bei Parlamentswahl in Lettland",
-            "link": "https://www.handelsblatt.com/politik/international/nato-ostflanke-regierungspartei-siegt-klar-bei-parlamentswahl-in-lettland/100259543.html"
-          }
-        ]
-      }
-    },
-    {
       "id": "tagesschau-5651125745ab436c",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -98,7 +71,7 @@
       "image": "https://images.tagesschau.de/image/edc0b1d0-b070-476f-9845-b85751843698/AAABoPqyy1E/AAABnSSvrFg/16x9-big/trump-usflagge-100.jpg?width=1920",
       "published": "2026-10-02T17:54:40+02:00",
       "category": "Politik",
-      "score": 86.49,
+      "score": 86.22,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -111,6 +84,28 @@
       }
     },
     {
+      "id": "deutschlandfunk-0ea698f0d69e6f1a",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Lettland - Proeuropäische Regierungspartei gewinnt Parlamentswahl deutlich",
+      "link": "https://www.deutschlandfunk.de/proeuropaeische-regierungspartei-gewinnt-parlamentswahl-deutlich-100.html",
+      "summary": "Bei der Parlamentswahl in Lettland hat sich das proeuropäische Wahlbündnis \"Vereinigte Liste\" von Ministerpräsident Kulbergs klar durchgesetzt. Damit dürfte er seine entschiedene Unterstützung für die Ukraine fortsetzen.",
+      "image": "https://bilder.deutschlandfunk.de/e0/00/57/0f/e000570f-5cb5-44ee-8c90-beac86ff59ed/wahlen-lettland-100-1920x1920.jpg",
+      "published": "2026-10-04T10:49:09+02:00",
+      "category": "Politik",
+      "score": 85.93,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Lettland: Proeuropäische Regierungspartei gewinnt klar bei Parlamentswahl",
+            "link": "https://www.spiegel.de/ausland/lettland-pro-europaeische-regierungspartei-von-andris-kulbergs-gewinnt-parlamentswahl-a-bba7c178-fa10-475f-ae52-cec9ac770ae3#ref=rss"
+          }
+        ]
+      }
+    },
+    {
       "id": "deutschlandfunk-701060b576ebaf0a",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
@@ -118,15 +113,15 @@
       "link": "https://www.deutschlandfunk.de/nach-angriffen-auf-kiewer-bruecken-selenskyj-kuendigt-verstaerkte-angriffe-auf-russische-raffinerien-102.html",
       "summary": "Der ukrainische Präsident Selenskyj hat verstärkte Angriffe auf russische Raffinerien angekündigt.",
       "image": "https://bilder.deutschlandfunk.de/50/12/d5/be/5012d5be-4d75-4139-8d9a-edddbdd4919b/622881094-100-1920x1920.jpg",
-      "published": "2026-10-04T10:12:27+02:00",
+      "published": "2026-10-04T10:49:09+02:00",
       "category": "Politik",
-      "score": 85.69,
+      "score": 85.93,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "handelsblatt",
-            "title": "+++ Ukraine-Krieg +++: Luftangriff in Kiew während Merz-Besuch – Brücke getroffen",
+            "title": "+++ Ukraine-Krieg +++: Luftangriff in Kiew während Merz-Besuch – Wichtige Brücke getroffen",
             "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-moskau-schliesst-konsulat-in-st.-petersburg123/27982126.html"
           }
         ]
@@ -142,7 +137,7 @@
       "image": "https://images.tagesschau.de/image/bba26232-ea32-4251-b4e8-97c112735432/AAABoQIBYQw/AAABnSSvrFg/16x9-big/demosntration-madrid-100.jpg?width=1920",
       "published": "2026-10-03T16:22:55+02:00",
       "category": "Politik",
-      "score": 83.37,
+      "score": 83.61,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -160,6 +155,18 @@
       }
     },
     {
+      "id": "handelsblatt-91588c68804e1791",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Parlamentswahl: Ergebnis verdreifacht: Pro-europäische Regierungspartei in Lettland siegt überraschend klar",
+      "link": "https://www.handelsblatt.com/politik/international/lettland-pro-europaeische-regierungspartei-siegt-klar-bei-parlamentswahl/100259546.html",
+      "summary": "Eindeutige Bestätigung für den Pro-EU- und Pro-Ukraine-Kurs des Regierungschefs: Ministerpräsident Kulbergs dürfte nach dem haushohen Wahlsieg erneut die Regierung anführen.",
+      "image": "https://images.handelsblatt.com/zywP7MUA3BnM/cover/900/506/0/0/157/470/0.5/0.5/latviaaposs-prime-minister-andris-kulbergs-reacts-after-first-exit-poll-results-of-the-general-ele.jpg",
+      "published": "2026-10-04T08:41:00+00:00",
+      "category": "Politik",
+      "score": 76.82
+    },
+    {
       "id": "spiegel-05ef25362050330a",
       "source": "spiegel",
       "sourceWeight": 0.95,
@@ -169,7 +176,29 @@
       "image": "https://cdn.prod.www.spiegel.de/images/6618ee8c-c6c1-45d9-bb44-87b101d215a7_w1200_r1.778_fpx1_fpy1.jpg",
       "published": "2026-10-04T09:22:00+02:00",
       "category": "Politik",
-      "score": 76.99
+      "score": 76.72
+    },
+    {
+      "id": "spiegel-400dbf29eb4545cf",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Iran-Krieg: Teheran knüpft Öffnung der Straße von Hormus an Bedingungen",
+      "link": "https://www.spiegel.de/ausland/iran-krieg-teheran-knuepft-oeffnung-der-strasse-von-hormus-an-bedingungen-a-830ffb3b-cbef-4546-b82a-cb8a2fc36fc5#ref=rss",
+      "summary": "Im Gezerre um die Öffnung der Straße von Hormus hat Iran seine Bedingungen bekräftigt. In der Meerenge wurde erneut ein Öltanker beschossen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/8890421c-12c9-48e6-a7f8-bccdc8f98741_w1200_r1.778_fpx55.22_fpy54.99.jpg",
+      "published": "2026-10-04T10:39:00+02:00",
+      "category": "Nachrichten",
+      "score": 74.79,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Iran-Krieg: Tanker in der Straße von Hormus angegriffen",
+            "link": "https://www.handelsblatt.com/politik/international/iran-krieg-tanker-in-der-strasse-von-hormus-angegriffen/100259562.html"
+          }
+        ]
+      }
     },
     {
       "id": "deutschlandfunk-b61748ae963340d3",
@@ -179,9 +208,9 @@
       "link": "https://www.deutschlandfunk.de/praesidentschaftswahl-in-brasilien-beginnt-100.html",
       "summary": "In Brasilien wird heute ein neuer Präsident gewählt.",
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_b/83/NOVA_b83858539ba7ed51dece64d9cf84917c/craft-13451259-asset-100-1920x1920.jpg",
-      "published": "2026-10-04T10:12:27+02:00",
+      "published": "2026-10-04T10:49:09+02:00",
       "category": "Politik",
-      "score": 69.69
+      "score": 69.93
     },
     {
       "id": "spiegel-9eccfb3a3655831b",
@@ -193,7 +222,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/3e4dc971-6df8-44b3-aa47-48107b713ddf_w1200_r1.778_fpx46_fpy44.jpg",
       "published": "2026-10-04T10:08:00+02:00",
       "category": "Politik",
-      "score": 69.63
+      "score": 69.36
+    },
+    {
+      "id": "handelsblatt-f2b26e224205f120",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Öl: Opec plus will Förderziele für November offenbar beibehalten",
+      "link": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/oel-opec-plus-will-foerderziele-fuer-november-offenbar-beibehalten/100259559.html",
+      "summary": "Die Förderländer am Golf hatten zuletzt wegen des Iran-Kriegs deutlich unter ihren Produktionszielen gearbeitet. Doch die Opec plus hat am Markt an Einfluss verloren.",
+      "image": "https://images.handelsblatt.com/-TfKpS8BLfiH/cover/900/506/0/0/75/75/0.5/0.5/opec.jpeg",
+      "published": "2026-10-04T08:42:03+00:00",
+      "category": "Wirtschaft",
+      "score": 68.83
     },
     {
       "id": "spiegel-e4f9fd4706879b05",
@@ -205,31 +246,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/69a77bf8-17b1-4f4a-8ad7-fb4c5c9ae54a_w1200_r1.778_fpx3_fpy27.jpg",
       "published": "2026-10-04T08:18:00+02:00",
       "category": "Politik",
-      "score": 68.1
-    },
-    {
-      "id": "spiegel-150f12361e9b392f",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Timothy Garton Ash über Mittel gegen Populismus, die AfD und Friedrich Merz",
-      "link": "https://www.spiegel.de/geschichte/timothy-garton-ash-ueber-mittel-gegen-populismus-die-afd-und-friedrich-merz-a-9f43ce3f-4799-493f-8b21-ec2795cbf92c#ref=rss",
-      "summary": "Die Wahlerfolge der AfD haben ihn schockiert, aber noch könne man gegensteuern, sagt der britische Historiker und Deutschlandkenner Timothy Garton Ash. Ein Politikertyp wie Friedrich Merz helfe dabei eher nicht.",
-      "image": "https://cdn.prod.www.spiegel.de/images/52e12438-677d-4085-8066-d955135a9878_w1200_r1.778_fpx51_fpy38.jpg",
-      "published": "2026-10-04T08:01:00+02:00",
-      "category": "Politik",
-      "score": 67.87
-    },
-    {
-      "id": "handelsblatt-d7e8931ec0f69313",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Baltikum: In Lettland klarer Wahlsieg von Regierungschef Kulbergs",
-      "link": "https://www.handelsblatt.com/politik/international/baltikum-in-lettland-klarer-wahlsieg-von-regierungschef-kulbergs/100259554.html",
-      "summary": "Erst im Mai gab es in Lettland wegen Drohnenvorfällen einen Regierungswechsel. Nicht einmal ein halbes Jahre später stand nun die Parlamentswahl an. Sie bringt einen großen Gewinner hervor.",
-      "image": "https://images.handelsblatt.com/3utcx-NKiC4H/cover/900/506/0/0/107/107/0.5/0.5/wahlen-in-lettland.jpg",
-      "published": "2026-10-04T06:54:04+00:00",
-      "category": "Politik",
-      "score": 67.61
+      "score": 67.83
     },
     {
       "id": "handelsblatt-24a7eb323908f827",
@@ -241,19 +258,7 @@
       "image": "https://images.handelsblatt.com/nCqvU33tY21H/cover/900/506/0/0/260/261/0.5/0.5/29.07.2026-berlin-katherina-reiche-cdu-bundesministerin-fuer-wirtschaft-und-energie-nimmt-an-de.jpg",
       "published": "2026-10-04T06:17:00+00:00",
       "category": "Politik",
-      "score": 67.09
-    },
-    {
-      "id": "handelsblatt-0f364a66e4a7d65c",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ USA +++: Trump ernennt offenbar Geheimdienstchef Jay Clayton zum KI-Beauftragten",
-      "link": "https://www.handelsblatt.com/politik/international/usa-trump-ernennt-offenbar-geheimdienstchef-zum-ki-beauftragten/29669594.html",
-      "summary": "Trump-Regierung verzichtet auf weitere Ermittlungen gegen Ex-Fed-Chef Powell +++ Diesel-Exportverbot stand laut Trump nie wirklich zur Debatte +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/UnSwDAKl8zWb/cover/900/506/430/67/377/112/0.5/0.5/jay-clayton-director-of-national-intelligence-nominee-for-us-president-donald-trump-arrives-for-a.jpg",
-      "published": "2026-10-04T05:54:00+00:00",
-      "category": "Politik",
-      "score": 66.77
+      "score": 66.82
     },
     {
       "id": "golem-2f380fbc57f90c79",
@@ -265,7 +270,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213680&amp;page=1&amp;ts=1791101762",
       "published": "2026-10-04T10:16:02+02:00",
       "category": "Technologie",
-      "score": 64.74
+      "score": 64.47
     }
   ]
 }
