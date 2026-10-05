@@ -1,39 +1,7 @@
 {
-  "generatedAt": "2026-10-05T16:13:03.111854+00:00",
+  "generatedAt": "2026-10-05T16:30:07.101230+00:00",
   "count": 15,
   "articles": [
-    {
-      "id": "tagesschau-cf4f411c94818af6",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Spanien: Regierungschef Sánchez kündigt Neuwahlen an",
-      "link": "https://www.tagesschau.de/ausland/europa/spanien-neuwahlen-104.html",
-      "summary": "Der Streit über die Wohnungsmarktpolitik führt zu Neuwahlen in Spanien. Regierungschef Sánchez kündigte eine vorgezogene Parlamentswahl im November an. Seine Sozialisten liegen in Umfragen hinter den Konservativen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/5e1ad8ea-740a-4eef-9a72-c56e9fa0713b/AAABoQsgTPk/AAABnSSvrFg/16x9-big/sanchez-256.jpg?width=1920",
-      "published": "2026-10-05T10:11:20+02:00",
-      "category": "Politik",
-      "score": 86.74,
-      "coverage": {
-        "sourceCount": 4,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "News des Tages: Rekord bei Neuzulassungen für Elektroautos, Sánchez kündigt Neuwahlen in Spanien, Medizin-Nobelpreis für zwei Deutsche",
-            "link": "https://www.spiegel.de/politik/deutschland/news-des-tages-rekord-bei-neuzulassungen-fuer-elektroautos-sanchez-kuendigt-neuwahlen-in-spanien-medizin-nobelpreis-fuer-zwei-deutsche-a-7e10d801-7db4-448c-8f36-a7f00e41d2f7#ref=rss"
-          },
-          {
-            "source": "deutschlandfunk",
-            "title": "Spanien - Ministerpräsident Sánchez kündigt vorgezogene Neuwahlen an",
-            "link": "https://www.deutschlandfunk.de/ministerpraesident-s-nchez-kuendigt-vorgezogene-neuwahlen-an-102.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Kommentar: Sánchez' Wette auf die Wut der Mieter ist ein riskantes Kalkül",
-            "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-sanchez-wette-auf-die-wut-der-mieter-ist-ein-riskantes-kalkuel/100259760.html"
-          }
-        ]
-      }
-    },
     {
       "id": "tagesschau-75ee868413842879",
       "source": "tagesschau",
@@ -44,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/c27f77a9-bfa7-4668-b674-b26e3864515a/AAABoQeTufk/AAABnSSvrFg/16x9-big/sendungsbild-1806734.jpg?width=1920",
       "published": "2026-10-04T18:43:05+02:00",
       "category": "Politik",
-      "score": 86.68,
+      "score": 86.89,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -57,6 +25,38 @@
       }
     },
     {
+      "id": "tagesschau-cf4f411c94818af6",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Spanien: Regierungschef Sánchez kündigt Neuwahlen an",
+      "link": "https://www.tagesschau.de/ausland/europa/spanien-neuwahlen-104.html",
+      "summary": "Der Streit über die Wohnungsmarktpolitik führt zu Neuwahlen in Spanien. Regierungschef Sánchez kündigte eine vorgezogene Parlamentswahl im November an. Seine Sozialisten liegen in Umfragen hinter den Konservativen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/5e1ad8ea-740a-4eef-9a72-c56e9fa0713b/AAABoQsgTPk/AAABnSSvrFg/16x9-big/sanchez-256.jpg?width=1920",
+      "published": "2026-10-05T10:11:20+02:00",
+      "category": "Politik",
+      "score": 86.89,
+      "coverage": {
+        "sourceCount": 4,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Spanien - Ministerpräsident Sánchez kündigt vorgezogene Neuwahlen an",
+            "link": "https://www.deutschlandfunk.de/ministerpraesident-s-nchez-kuendigt-vorgezogene-neuwahlen-an-102.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "News des Tages: Rekord bei Neuzulassungen für Elektroautos, Sánchez kündigt Neuwahlen in Spanien, Medizin-Nobelpreis für zwei Deutsche",
+            "link": "https://www.spiegel.de/politik/deutschland/news-des-tages-rekord-bei-neuzulassungen-fuer-elektroautos-sanchez-kuendigt-neuwahlen-in-spanien-medizin-nobelpreis-fuer-zwei-deutsche-a-7e10d801-7db4-448c-8f36-a7f00e41d2f7#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Kommentar: Sánchez' Wette auf die Wut der Mieter ist ein riskantes Kalkül",
+            "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-sanchez-wette-auf-die-wut-der-mieter-ist-ein-riskantes-kalkuel/100259760.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "deutschlandfunk-9114532843f461b6",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
@@ -64,9 +64,9 @@
       "link": "https://www.deutschlandfunk.de/biermann-israel-begeht-im-gaza-streifen-kriegsverbrechen-100.html",
       "summary": "Der Liedermacher und Dichter Wolf Biermann hat der israelischen Regierung vorgeworfen, im Gaza-Streifen Kriegsverbrechen zu begehen.",
       "image": "https://bilder.deutschlandfunk.de/3f/b9/4c/b8/3fb94cb8-fd21-47a0-a8ee-d0bf264160ff/wolf-biermann-102-1920x1920.jpg",
-      "published": "2026-10-05T17:50:13+02:00",
+      "published": "2026-10-05T18:22:07+02:00",
       "category": "Politik",
-      "score": 85.68
+      "score": 85.89
     },
     {
       "id": "tagesschau-17c54a9c9041b5d1",
@@ -78,7 +78,7 @@
       "image": "https://images.tagesschau.de/image/75b8d8f6-38ad-4495-b67c-6c40e98d098e/AAABoQnxd4A/AAABnSSvrFg/16x9-big/andreas-babler-102.jpg?width=1920",
       "published": "2026-10-05T05:04:40+02:00",
       "category": "Politik",
-      "score": 83.36,
+      "score": 83.57,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -105,7 +105,7 @@
       "image": "https://images.tagesschau.de/image/0177c0b8-df3e-47a9-99be-213b4a309878/AAABoQqiK2Q/AAABnSSvrFg/16x9-big/prien-ruge-100.jpg?width=1920",
       "published": "2026-10-05T09:02:36+02:00",
       "category": "Politik",
-      "score": 78.68,
+      "score": 78.89,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -127,7 +127,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/614c3de3-1c79-4188-83c6-82a86ee5e4eb_w1200_r1.778_fpx39.88_fpy49.86.jpg",
       "published": "2026-10-05T16:33:00+02:00",
       "category": "Politik",
-      "score": 76.61
+      "score": 76.37
+    },
+    {
+      "id": "handelsblatt-ad39e0da9c9f7a73",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ Iran-Krieg +++: Regierungstruppen greifen Huthis an – Miliz rückt bis Provinzhauptstadt vor",
+      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-regierungstruppen-greifen-huthis-an-miliz-rueckt-bis-provinzhauptstadt-vor/100136895.html",
+      "summary": "Israel tötet wichtigen Hamas-Kommandeur +++ Huthi-Rebellen warnen vor Flügen über Saudi-Arabien +++ Saudisches Militärbündnis greift Ziele im Jemen an +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/P-XcrjFXsOMz/cover/900/506/0/0/313/312/0.5/0.5/a-man-walks-inside-a-damaged-sponge-factory-in-sanaa-yemen-sunday-oct.-4-2026.-ap-photo-osamah.jpg",
+      "published": "2026-10-05T15:12:00+00:00",
+      "category": "Politik",
+      "score": 75.92
     },
     {
       "id": "handelsblatt-f2eb0143d077ff60",
@@ -139,7 +151,7 @@
       "image": "https://images.handelsblatt.com/jb38e794iX2N/cover/900/506/0/0/107/106/0.5/0.5/gedenken-an-den-7-oktober-in-israel.jpg",
       "published": "2026-10-05T13:27:34+00:00",
       "category": "Politik",
-      "score": 74.7
+      "score": 74.46
     },
     {
       "id": "deutschlandfunk-4ec6e1f18f4ed26b",
@@ -149,9 +161,9 @@
       "link": "https://www.deutschlandfunk.de/bundesfamilienministerin-prien-nach-kiew-gereist-100.html",
       "summary": "Unmittelbar nach Bundeskanzler Merz ist Familienministerin Prien in die Ukraine gereist.",
       "image": "https://bilder.deutschlandfunk.de/e1/5d/50/d1/e15d50d1-1199-4d5c-b2f8-561fb93e45fe/prien-kiew-ukraine-100-1920x1920.jpg",
-      "published": "2026-10-05T17:50:13+02:00",
+      "published": "2026-10-05T18:22:07+02:00",
       "category": "Politik",
-      "score": 69.68
+      "score": 69.89
     },
     {
       "id": "deutschlandfunk-5e58d77a676d2dfe",
@@ -161,21 +173,33 @@
       "link": "https://www.deutschlandfunk.de/gruene-in-nordrhein-westfalen-nominieren-erneut-mona-neubaur-als-spitzenkandidatin-100.html",
       "summary": "Der Grünen-Vorstand in Nordrhein-Westfalen hat die stellvertretende Ministerpräsidentin Neubaur als Spitzenkandidatin für die Landtagswahl im April nominiert.",
       "image": "https://bilder.deutschlandfunk.de/d2/df/8e/a4/d2df8ea4-d3ca-424c-8943-5c222083c4c0/mona-neubaur-nrw-100-1920x1920.jpg",
-      "published": "2026-10-05T17:50:13+02:00",
+      "published": "2026-10-05T18:22:07+02:00",
       "category": "Politik",
-      "score": 69.68
+      "score": 69.89
     },
     {
-      "id": "handelsblatt-99500d16ce420b5f",
+      "id": "spiegel-28e28037d9c598ab",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Karoline Leavitt: Frühere Trump-Sprecherin wechselt zu Fox News",
+      "link": "https://www.spiegel.de/kultur/tv/karoline-leavitt-fruehere-trump-sprecherin-wechselt-zu-fox-news-a-a5a658c0-7abb-4680-8dfb-e3ffedaa5a54#ref=rss",
+      "summary": "Sie verließ das Weiße Haus, um sich auf die Familie zu konzentrieren. Nun hat Donald Trumps Ex-Pressesprecherin einen neuen Job: Karoline Leavitt soll bei Fox News »authentische und pointinerte« Einblicke liefern.",
+      "image": "https://cdn.prod.www.spiegel.de/images/d45c6b4b-c33e-4ef7-acd7-e5e5904e6c4b_w1200_r1.778_fpx67.31_fpy44.98.jpg",
+      "published": "2026-10-05T18:19:00+02:00",
+      "category": "Politik",
+      "score": 69.85
+    },
+    {
+      "id": "handelsblatt-3cee837ed55b3dc7",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Partei: Grüne sortieren im Hintergrund ihren Vorstand neu – Ex Habeck-Vertreter will Generalsekretär werden",
-      "link": "https://www.handelsblatt.com/politik/deutschland/partei-gruene-sortieren-im-hintergrund-ihren-vorstand-neu/100259738.html",
-      "summary": "Der gesamte Grünen-Vorstand muss sich erneut zur Wahl stellen. Sven Giegold soll neuer Generalsekretär werden. Kommt es zu Kampfkandidaturen?",
-      "image": "https://images.handelsblatt.com/zbw2cD-HpK8P/cover/900/506/0/0/107/106/0.5/0.5/felix-banaszak-und-franziska-brantner.jpg",
-      "published": "2026-10-05T16:04:25+00:00",
+      "title": "Deep Read: Den Palästinensern droht der Kollaps ihres Bankensystems",
+      "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken-warum-den-palaestinensern-der-kollaps-ihres-bankensystems-droht/100256782.html",
+      "summary": "Nur zwei israelische Banken wickeln Zahlungen auf palästinensische Konten ab. Jetzt wollen sie den Service stoppen – mit dramatischen Folgen für die Bevölkerung.",
+      "image": "https://images.handelsblatt.com/Fzvuq9gdmDoS/cover/900/506/0/0/0/0/0.5/0.5/das-westjordanland-steht-vor-einer-bankenkrise.jpg",
+      "published": "2026-10-05T16:20:25+00:00",
       "category": "Politik",
-      "score": 68.88
+      "score": 68.87
     },
     {
       "id": "heise-6857d75f60653d53",
@@ -187,7 +211,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/7/6/9/0/9/shutterstock_1016341867-22c01af0eae90381.jpeg",
       "published": "2026-10-05T16:40:00+02:00",
       "category": "Politik",
-      "score": 67.71
+      "score": 67.47
     },
     {
       "id": "spiegel-832c2386574628e5",
@@ -199,31 +223,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/d000baec-e7c0-413d-a468-ae39f1bad856_w1200_r1.778_fpx44.66_fpy45.jpg",
       "published": "2026-10-05T15:02:00+02:00",
       "category": "Politik",
-      "score": 67.35
-    },
-    {
-      "id": "handelsblatt-065b45a76c0cbd10",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Handelsstreit: „Waffengleichheit“ als Ziel: So wollen Merz und Macron China und die USA abschrecken",
-      "link": "https://www.handelsblatt.com/politik/international/handelsstreit-so-wollen-merz-und-macron-china-und-die-usa-abschrecken/100259828.html",
-      "summary": "Der Kanzler und Frankreichs Präsident wollen die EU mit einer mächtigen Wirtschaftswaffe ausstatten. In einem Brief skizzieren sie ihren Plan. Die Logik dahinter stammt aus dem Kalten Krieg.",
-      "image": "https://images.handelsblatt.com/qtGOd6g2zrlJ/cover/900/506/0/0/302/52/0.5/0.5/emmanuel-macron-friedrich-merz-r.-mehr-macht-fuer-die-eu-kommission..jpg",
-      "published": "2026-10-05T13:31:18+00:00",
-      "category": "Wirtschaft",
-      "score": 66.75
-    },
-    {
-      "id": "spiegel-6e2a9765035b3526",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "EU: Deutschland und Frankreich drängen auf neue Instrumente gegen unfaire Handelspartner",
-      "link": "https://www.spiegel.de/wirtschaft/eu-deutschland-und-frankreich-draengen-auf-neue-instrumente-gegen-unfaire-handelspartner-a-eaab940d-fe8d-4873-8e20-116e81cca69e#ref=rss",
-      "summary": "Die EU soll im Fall eines Handelskriegs rasch unfaire Handelspartner vom Binnenmarkt ausschließen können, dafür setzen sich Friedrich Merz und Emmanuel Macron ein. Der Vorstoß dürfte besonders auf China zielen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/de2f7b7e-8134-4946-a10d-2462d38f41c2_w1200_r1.778_fpx72_fpy39.jpg",
-      "published": "2026-10-05T15:59:00+02:00",
-      "category": "Nachrichten",
-      "score": 65.14
+      "score": 67.11
     },
     {
       "id": "netzpolitik-6bdae5c2b11cf9fe",
@@ -235,7 +235,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/10/imago0868594277h_1900.jpg",
       "published": "2026-10-05T14:57:11+00:00",
       "category": "Politik",
-      "score": 64.95
+      "score": 64.71
     }
   ]
 }
