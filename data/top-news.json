@@ -1,25 +1,91 @@
 {
-  "generatedAt": "2026-10-05T16:30:07.101230+00:00",
+  "generatedAt": "2026-10-05T22:47:01.823470+00:00",
   "count": 15,
   "articles": [
     {
-      "id": "tagesschau-75ee868413842879",
+      "id": "tagesschau-4df2de807953829f",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Merz: Ukraine-Hilfen \"notwendig für die Stabilität Europas\"",
-      "link": "https://www.tagesschau.de/ausland/europa/merz-kiew-ukraine-russland-100.html",
-      "summary": "Kanzler Merz hat bei seinem Besuch in Kiew erneut Russland zu einem Ende des Krieges aufgefordert. Im Bericht aus Berlin sagte er, für die Stabilität Europas seien weitere Hilfen für die Ukraine wichtig - genau wie eine zuverlässige Bundesregierung.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/c27f77a9-bfa7-4668-b674-b26e3864515a/AAABoQeTufk/AAABnSSvrFg/16x9-big/sendungsbild-1806734.jpg?width=1920",
-      "published": "2026-10-04T18:43:05+02:00",
+      "title": "Ukraine: Neuer deutscher Besuch, neue russische Angriffe",
+      "link": "https://www.tagesschau.de/ausland/europa/prien-besuch-ukraine-100.html",
+      "summary": "Nach Bundeskanzler Merz besucht Bildungsministerin Prien die Ukraine und betont Deutschlands Unterstützung. Die sei auch im eigenen Interesse, betont CDU-Politiker Röttgen. Die Ukraine meldet derweil neue Angriffe.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/0177c0b8-df3e-47a9-99be-213b4a309878/AAABoQqiK2Q/AAABnSSvrFg/16x9-big/prien-ruge-100.jpg?width=1920",
+      "published": "2026-10-05T09:02:36+02:00",
       "category": "Politik",
-      "score": 86.89,
+      "score": 82.85,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Angriffskrieg - Russland bombardiert Charkiw im Osten der Ukraine",
+            "link": "https://www.deutschlandfunk.de/russland-bombardiert-charkiw-im-osten-der-ukraine-106.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "+++ Ukraine-Krieg +++: Deutschrusse wegen Hilfe für Russland in Lettland verurteilt",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-moskau-schliesst-konsulat-in-st.-petersburg123/27982126.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "handelsblatt-71f62e1d2991d6d9",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ Iran-Krieg +++: USA warnen Finanzinstitute vor Geschäften mit dem Iran",
+      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-usa-warnen-finanzinstitute-vor-geschaeften-mit-dem-iran/100136895.html",
+      "summary": "Huthi Miliz rückt bis Provinzhauptstadt vor +++ Israel tötet wichtigen Hamas-Kommandeur +++ Huthi-Rebellen warnen vor Flügen über Saudi-Arabien +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/nTEcZgfZAiXZ/cover/900/506/0/0/209/209/0.5/0.5/22.09.2026-usa-new-york-us-finanzminister-scott-bessent-nimmt-im-un-hauptquartier-am-rande-der-ge.jpg",
+      "published": "2026-10-05T20:14:00+00:00",
+      "category": "Politik",
+      "score": 74.87
+    },
+    {
+      "id": "deutschlandfunk-1115890b627f760b",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Wohnungskrise - Spaniens Gewerkschaften rufen zum Generalstreik für bezahlbaren Wohnraum auf",
+      "link": "https://www.deutschlandfunk.de/spaniens-gewerkschaften-rufen-zum-generalstreik-fuer-bezahlbaren-wohnraum-auf-102.html",
+      "summary": "Die beiden großen spanischen Gewerkschaften haben einen Generalstreik wegen der Wohnungskrise angekündigt.",
+      "image": "https://bilder.deutschlandfunk.de/76/8b/6e/47/768b6e47-d289-4d8d-94ed-de6eaed1e811/spanien-wohnungsmangel-proteste-100-1920x1920.jpg",
+      "published": "2026-10-05T23:46:57+02:00",
+      "category": "Nachrichten",
+      "score": 74.17,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "deutschlandfunk",
-            "title": "Ukraine-Krieg - CDU-Außenpolitiker Kiesewetter: \"Russland will diesen Krieg\"",
-            "link": "https://www.deutschlandfunk.de/cdu-aussenpolitiker-kiesewetter-russland-will-diesen-krieg-102.html"
+            "source": "spiegel",
+            "title": "Wohnungskrise in Spanien: Gewerkschaften rufen zum Generalstreik auf",
+            "link": "https://www.spiegel.de/ausland/wohnungskrise-in-spanien-gewerkschaften-rufen-zum-generalstreik-auf-a-21d19ec4-f67e-4c73-a11b-7e0c36481f34#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-1c369725b0b19648",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Einflussreiche Klimastiftung - Umwelt-Staatssekretär Flasbarth wechselt zur European Climate Foundation",
+      "link": "https://www.deutschlandfunk.de/umwelt-staatssekretaer-flasbarth-wechselt-zur-european-climate-foundation-108.html",
+      "summary": "Der Staatssekretär im Bundesumweltministerium, Flasbarth, gibt sein Amt auf und wechselt zur European Climate Foundation.",
+      "image": "https://bilder.deutschlandfunk.de/20/a4/0f/e8/20a40fe8-43df-4ee0-90b9-97d0ad67893a/flasbarth-bmz-100-1920x1920.jpg",
+      "published": "2026-10-05T23:46:57+02:00",
+      "category": "Politik",
+      "score": 73.85,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Jochen Flasbarth wird Chef von einflussreicher Klimastiftung",
+            "link": "https://www.spiegel.de/politik/deutschland/jochen-flasbarth-wird-chef-von-einflussreicher-klimastiftung-a-1b25a786-3e52-45f8-a899-8d9370319ce7#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Umweltpolitik: Umweltstaatssekretär Flasbarth wechselt zu Klimastiftung",
+            "link": "https://www.handelsblatt.com/politik/deutschland/umweltpolitik-umweltstaatssekretaer-flasbarth-wechselt-zu-klimastiftung/100259906.html"
           }
         ]
       }
@@ -34,85 +100,41 @@
       "image": "https://images.tagesschau.de/image/5e1ad8ea-740a-4eef-9a72-c56e9fa0713b/AAABoQsgTPk/AAABnSSvrFg/16x9-big/sanchez-256.jpg?width=1920",
       "published": "2026-10-05T10:11:20+02:00",
       "category": "Politik",
-      "score": 86.89,
+      "score": 73.26,
       "coverage": {
-        "sourceCount": 4,
+        "sourceCount": 2,
         "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Spanien - Ministerpräsident Sánchez kündigt vorgezogene Neuwahlen an",
-            "link": "https://www.deutschlandfunk.de/ministerpraesident-s-nchez-kuendigt-vorgezogene-neuwahlen-an-102.html"
-          },
           {
             "source": "spiegel",
             "title": "News des Tages: Rekord bei Neuzulassungen für Elektroautos, Sánchez kündigt Neuwahlen in Spanien, Medizin-Nobelpreis für zwei Deutsche",
             "link": "https://www.spiegel.de/politik/deutschland/news-des-tages-rekord-bei-neuzulassungen-fuer-elektroautos-sanchez-kuendigt-neuwahlen-in-spanien-medizin-nobelpreis-fuer-zwei-deutsche-a-7e10d801-7db4-448c-8f36-a7f00e41d2f7#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Kommentar: Sánchez' Wette auf die Wut der Mieter ist ein riskantes Kalkül",
-            "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-sanchez-wette-auf-die-wut-der-mieter-ist-ein-riskantes-kalkuel/100259760.html"
           }
         ]
       }
     },
     {
-      "id": "deutschlandfunk-9114532843f461b6",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Nahost - Biermann: Israel begeht im Gaza-Streifen Kriegsverbrechen",
-      "link": "https://www.deutschlandfunk.de/biermann-israel-begeht-im-gaza-streifen-kriegsverbrechen-100.html",
-      "summary": "Der Liedermacher und Dichter Wolf Biermann hat der israelischen Regierung vorgeworfen, im Gaza-Streifen Kriegsverbrechen zu begehen.",
-      "image": "https://bilder.deutschlandfunk.de/3f/b9/4c/b8/3fb94cb8-fd21-47a0-a8ee-d0bf264160ff/wolf-biermann-102-1920x1920.jpg",
-      "published": "2026-10-05T18:22:07+02:00",
-      "category": "Politik",
-      "score": 85.89
-    },
-    {
-      "id": "tagesschau-17c54a9c9041b5d1",
+      "id": "tagesschau-30ff76b459023a69",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Österreichs Vizekanzler und SPÖ-Chef Babler kündigt Rückzug an",
-      "link": "https://www.tagesschau.de/ausland/europa/oesterreich-rueckzug-vizekanzler-100.html",
-      "summary": "Der Chefposten der SPÖ in Österreich gilt als Schleudersitz. Und er wurde seinem Ruf erneut gerecht: Vizekanzler und Parteichef Babler zieht sich zurück. Damit will er eine stabile Regierung gewährleisten - und Neuwahlen verhindern. Von S. Hahne. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/75b8d8f6-38ad-4495-b67c-6c40e98d098e/AAABoQnxd4A/AAABnSSvrFg/16x9-big/andreas-babler-102.jpg?width=1920",
-      "published": "2026-10-05T05:04:40+02:00",
-      "category": "Politik",
-      "score": 83.57,
+      "title": "Frankfurter Buchmesse: Shida Bazyar erhält Deutschen Buchpreis 2026",
+      "link": "https://www.tagesschau.de/inland/regional/hessen/hr-shida-bazyar-buchpreis-2026-100.html",
+      "summary": "Für \"Die Lücken\" hat Shida Bazyar in Frankfurt den Deutschen Buchpreis erhalten. In dem Roman verarbeitet die Autorin die NS-Geschichte ihres Geburtsorts im Hunsrück.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/6d9f554f-4d37-43e5-9c8e-757e198b483d/AAABoQ2sWqo/AAABnSSvrFg/16x9-big/hr-shida-bazyar-hat-den-deutschen-buchpreis-2026-in-frankfurt-bekommen-100.jpg?width=1920",
+      "published": "2026-10-05T19:21:22+02:00",
+      "category": "Nachrichten",
+      "score": 71.85,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
-            "title": "Wien - Österreichs Vizekanzler Babler kündigt Rückzug aus Regierungsamt und vom Parteivorsitz der SPÖ an",
-            "link": "https://www.deutschlandfunk.de/oesterreichs-vizekanzler-babler-kuendigt-rueckzug-aus-regierungsamt-und-vom-parteivorsitz-der-spoe-a-108.html"
+            "title": "Frankfurt am Main - Shida Bazyar erhält den Deutschen Buchpreis",
+            "link": "https://www.deutschlandfunk.de/shida-bazyar-erhaelt-den-deutschen-buchpreis-114.html"
           },
           {
             "source": "spiegel",
-            "title": "Österreich: Krise bei der SPÖ - Weichkochen lernen von Wiener Kannibalen",
-            "link": "https://www.spiegel.de/ausland/krise-in-der-sozialdemokratischen-partei-oesterreichs-weichkochen-lernen-von-wiener-kannibalen-a-3d2ac054-59af-44db-ba96-b197576208f6#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-4df2de807953829f",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Ukraine: Neuer deutscher Besuch, neue russische Angriffe",
-      "link": "https://www.tagesschau.de/ausland/europa/prien-besuch-ukraine-100.html",
-      "summary": "Nach Bundeskanzler Merz besucht Bildungsministerin Prien die Ukraine und betont Deutschlands Unterstützung. Die sei auch im eigenen Interesse, betont CDU-Politiker Röttgen. Die Ukraine meldet derweil neue Angriffe.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/0177c0b8-df3e-47a9-99be-213b4a309878/AAABoQqiK2Q/AAABnSSvrFg/16x9-big/prien-ruge-100.jpg?width=1920",
-      "published": "2026-10-05T09:02:36+02:00",
-      "category": "Politik",
-      "score": 78.89,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Gegenangriffe - Ukrainisches Verteidigungsministerium: Hälfte der Kapazitäten der russischen Öl-Industrie durch Angriffe ausgefallen",
-            "link": "https://www.deutschlandfunk.de/ukrainisches-verteidigungsministerium-haelfte-der-kapazitaeten-der-russischen-oel-industrie-durch-an-102.html"
+            "title": "Shida Bazyar erhält den Deutschen Buchpreis",
+            "link": "https://www.spiegel.de/kultur/literatur/shida-bazyar-erhaelt-den-deutschen-buchpreis-a-ee17b332-674f-4255-ad6f-6dbd9b6e9735#ref=rss"
           }
         ]
       }
@@ -127,19 +149,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/614c3de3-1c79-4188-83c6-82a86ee5e4eb_w1200_r1.778_fpx39.88_fpy49.86.jpg",
       "published": "2026-10-05T16:33:00+02:00",
       "category": "Politik",
-      "score": 76.37
-    },
-    {
-      "id": "handelsblatt-ad39e0da9c9f7a73",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Iran-Krieg +++: Regierungstruppen greifen Huthis an – Miliz rückt bis Provinzhauptstadt vor",
-      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-regierungstruppen-greifen-huthis-an-miliz-rueckt-bis-provinzhauptstadt-vor/100136895.html",
-      "summary": "Israel tötet wichtigen Hamas-Kommandeur +++ Huthi-Rebellen warnen vor Flügen über Saudi-Arabien +++ Saudisches Militärbündnis greift Ziele im Jemen an +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/P-XcrjFXsOMz/cover/900/506/0/0/313/312/0.5/0.5/a-man-walks-inside-a-damaged-sponge-factory-in-sanaa-yemen-sunday-oct.-4-2026.-ap-photo-osamah.jpg",
-      "published": "2026-10-05T15:12:00+00:00",
-      "category": "Politik",
-      "score": 75.92
+      "score": 71.14
     },
     {
       "id": "handelsblatt-f2eb0143d077ff60",
@@ -151,79 +161,55 @@
       "image": "https://images.handelsblatt.com/jb38e794iX2N/cover/900/506/0/0/107/106/0.5/0.5/gedenken-an-den-7-oktober-in-israel.jpg",
       "published": "2026-10-05T13:27:34+00:00",
       "category": "Politik",
-      "score": 74.46
+      "score": 69.23
     },
     {
-      "id": "deutschlandfunk-4ec6e1f18f4ed26b",
+      "id": "deutschlandfunk-0d91ec26831ef717",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Ukraine - Bundesfamilienministerin Prien nach Kiew gereist",
-      "link": "https://www.deutschlandfunk.de/bundesfamilienministerin-prien-nach-kiew-gereist-100.html",
-      "summary": "Unmittelbar nach Bundeskanzler Merz ist Familienministerin Prien in die Ukraine gereist.",
-      "image": "https://bilder.deutschlandfunk.de/e1/5d/50/d1/e15d50d1-1199-4d5c-b2f8-561fb93e45fe/prien-kiew-ukraine-100-1920x1920.jpg",
-      "published": "2026-10-05T18:22:07+02:00",
+      "title": "BND, MAD und Verfassungsschutz - Grünen-Politiker von Notz bekräftigt Einschätzung der Geheimdienste zu Russland",
+      "link": "https://www.deutschlandfunk.de/gruenen-politiker-von-notz-bekraeftigt-einschaetzung-der-geheimdienste-zu-russland-102.html",
+      "summary": "Der Grünen-Bundestagsabgeordnete von Notz hat die Einschätzung der Geheimdienste zur Bedrohung durch Russland bekräftigt. Man müsse die Ensthaftigkeit der Lage erkennen, sagte er im Deutschlandfunk. Die Erkenntnisse müssten aber auch bei der Bevölkerung ankommen.",
+      "image": "https://bilder.deutschlandfunk.de/91/3e/9e/ea/913e9eea-d486-43a7-88d3-ab2ed498ebe9/von-notz-102-1920x1920.jpg",
+      "published": "2026-10-05T23:46:57+02:00",
       "category": "Politik",
-      "score": 69.89
+      "score": 69.17
     },
     {
-      "id": "deutschlandfunk-5e58d77a676d2dfe",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Vor Wahl im April - Grüne in Nordrhein-Westfalen nominieren erneut Mona Neubaur als Spitzenkandidatin",
-      "link": "https://www.deutschlandfunk.de/gruene-in-nordrhein-westfalen-nominieren-erneut-mona-neubaur-als-spitzenkandidatin-100.html",
-      "summary": "Der Grünen-Vorstand in Nordrhein-Westfalen hat die stellvertretende Ministerpräsidentin Neubaur als Spitzenkandidatin für die Landtagswahl im April nominiert.",
-      "image": "https://bilder.deutschlandfunk.de/d2/df/8e/a4/d2df8ea4-d3ca-424c-8943-5c222083c4c0/mona-neubaur-nrw-100-1920x1920.jpg",
-      "published": "2026-10-05T18:22:07+02:00",
-      "category": "Politik",
-      "score": 69.89
-    },
-    {
-      "id": "spiegel-28e28037d9c598ab",
+      "id": "spiegel-a5aa4b29fc569718",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Karoline Leavitt: Frühere Trump-Sprecherin wechselt zu Fox News",
-      "link": "https://www.spiegel.de/kultur/tv/karoline-leavitt-fruehere-trump-sprecherin-wechselt-zu-fox-news-a-a5a658c0-7abb-4680-8dfb-e3ffedaa5a54#ref=rss",
-      "summary": "Sie verließ das Weiße Haus, um sich auf die Familie zu konzentrieren. Nun hat Donald Trumps Ex-Pressesprecherin einen neuen Job: Karoline Leavitt soll bei Fox News »authentische und pointinerte« Einblicke liefern.",
-      "image": "https://cdn.prod.www.spiegel.de/images/d45c6b4b-c33e-4ef7-acd7-e5e5904e6c4b_w1200_r1.778_fpx67.31_fpy44.98.jpg",
-      "published": "2026-10-05T18:19:00+02:00",
+      "title": "Flydubai: Co-Pilot soll Anschlag auf Flughafen Ben Gurion geplant haben",
+      "link": "https://www.spiegel.de/ausland/flydubai-co-pilot-soll-anschlag-auf-flughafen-ben-gurion-geplant-haben-a-8d0f2b7c-02a1-48c6-bed5-ce53e6b40949#ref=rss",
+      "summary": "Der Co-Pilot des Flydubai-Flugs wollte die Maschine laut Ermittlern wohl auf den Flughafen Ben Gurion steuern. Derweil meint US-Präsident Trump bereits zu wissen, wer für den Terrorakt verantwortlich ist.",
+      "image": "https://cdn.prod.www.spiegel.de/images/cdbd8237-1c02-4b14-8c8e-a438886c1942_w1200_r1.778_fpx61.99_fpy44.97.jpg",
+      "published": "2026-10-05T23:16:00+02:00",
       "category": "Politik",
-      "score": 69.85
+      "score": 68.74
     },
     {
-      "id": "handelsblatt-3cee837ed55b3dc7",
+      "id": "handelsblatt-9f9f9bb5e427a606",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Deep Read: Den Palästinensern droht der Kollaps ihres Bankensystems",
-      "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken-warum-den-palaestinensern-der-kollaps-ihres-bankensystems-droht/100256782.html",
-      "summary": "Nur zwei israelische Banken wickeln Zahlungen auf palästinensische Konten ab. Jetzt wollen sie den Service stoppen – mit dramatischen Folgen für die Bevölkerung.",
-      "image": "https://images.handelsblatt.com/Fzvuq9gdmDoS/cover/900/506/0/0/0/0/0.5/0.5/das-westjordanland-steht-vor-einer-bankenkrise.jpg",
-      "published": "2026-10-05T16:20:25+00:00",
-      "category": "Politik",
-      "score": 68.87
+      "title": "Stützpunkt RAF Fairford: US-Bomber aus Großbritannien abgezogen - wegen Bedrohung?",
+      "link": "https://www.handelsblatt.com/politik/international/stuetzpunkt-raf-fairford-us-bomber-aus-grossbritannien-abgezogen-wegen-bedrohung/100259615.html",
+      "summary": "Das US-Militär hatte einige seiner Bomber wegen des Iran-Krieges nach Großbritannien verlegt. Nun wurden diese nach einem Vorfall am Stützpunkt wieder in die USA zurückbeordert. Die Frage ist: Warum?",
+      "image": "https://images.handelsblatt.com/fsZGbjRynINJ/cover/900/506/0/0/107/106/0.5/0.5/festnahmen-wegen-terrorverdacht-bei-britischer-militaerbasis.jpg",
+      "published": "2026-10-05T21:03:16+00:00",
+      "category": "Wirtschaft",
+      "score": 67.56
     },
     {
-      "id": "heise-6857d75f60653d53",
-      "source": "heise",
-      "sourceWeight": 0.9,
-      "title": "Nachrichtendienstchefs: Weniger Löschen müssen und mehr können dürfen",
-      "link": "https://www.heise.de/news/Nachrichtendienstchefs-Weniger-Loeschen-muessen-und-mehr-koennen-duerfen-11476531.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "summary": "Bei der Anhörung der Nachrichtendienste-Chefs im Bundestag ging es um die Welt- und die Sicherheitslage in Deutschland – und die Zukunft der Nachrichtendienste.",
-      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/7/6/9/0/9/shutterstock_1016341867-22c01af0eae90381.jpeg",
-      "published": "2026-10-05T16:40:00+02:00",
-      "category": "Politik",
-      "score": 67.47
-    },
-    {
-      "id": "spiegel-832c2386574628e5",
+      "id": "spiegel-013953ba06796252",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Italien: Giorgia Meloni will eigene Stimme vor KI-Fakes schützen",
-      "link": "https://www.spiegel.de/ausland/italien-giorgia-meloni-will-eigene-stimme-vor-ki-fakes-schuetzen-a-bf499c97-e687-413d-9658-08eef79ac445#ref=rss",
-      "summary": "Italiens Regierungschefin kämpft seit Längerem gegen gefälschte KI-Aufnahmen. Nun will Giorgia Meloni ihre Stimme als geistiges Eigentum anmelden – mit einem viersekündigen Schlachtruf aus ihrem Wahlkampf.",
-      "image": "https://cdn.prod.www.spiegel.de/images/d000baec-e7c0-413d-a468-ae39f1bad856_w1200_r1.778_fpx44.66_fpy45.jpg",
-      "published": "2026-10-05T15:02:00+02:00",
+      "title": "Covenant: US-Start-up plant Cruise-Missiles-Produktion bei Leipzig mit Geld von Peter Thiel",
+      "link": "https://www.spiegel.de/wirtschaft/unternehmen/covenant-us-start-up-plant-cruise-missiles-produktion-bei-leipzig-mit-geld-von-peter-thiel-a-8781204e-c8d9-41b9-a86f-cea474b85781#ref=rss",
+      "summary": "Deutschland will sich mit weitreichenden Waffen gegen die russische Bedrohung wappnen und unabhängiger von den USA werden. Helfen soll ein Start-up, hinter dem unter anderem der Trump-nahe Investor Peter Thiel steht.",
+      "image": "https://cdn.prod.www.spiegel.de/images/1b6d5536-a9c4-4216-a70a-76c81234c231_w1200_r1.778_fpx30_fpy36.jpg",
+      "published": "2026-10-05T21:45:00+02:00",
       "category": "Politik",
-      "score": 67.11
+      "score": 67.47
     },
     {
       "id": "netzpolitik-6bdae5c2b11cf9fe",
@@ -235,7 +221,31 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/10/imago0868594277h_1900.jpg",
       "published": "2026-10-05T14:57:11+00:00",
       "category": "Politik",
-      "score": 64.71
+      "score": 59.47
+    },
+    {
+      "id": "golem-a2040074f5bb7b99",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Anzeige: Prime Deal Days 2026 - die besten Deals am zweiten Prime Day sichern",
+      "link": "https://www.golem.de/news/anzeige-prime-deal-days-2026-die-besten-deals-am-zweiten-prime-day-sichern-2610-213729.html",
+      "summary": "Nach langem Warten hat Amazon die Prime Deal Days gestartet. Mit dem zweiten Deal-Event des Jahres nach dem Prime Day geht die Schnäppchenjagd los. ( Prime Day , Amazon )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213729&amp;page=1&amp;ts=1791237662",
+      "published": "2026-10-06T00:01:02+02:00",
+      "category": "Technologie",
+      "score": 56.36
+    },
+    {
+      "id": "golem-78965abe68fcecb0",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Dritter Firmenname seit Februar: Musk will SpaceXAI in SpaceXSI umbenennen",
+      "link": "https://www.golem.de/news/dritter-firmenname-seit-februar-musk-will-spacexai-in-spacexsi-umbenennen-2610-213697.html",
+      "summary": "Obwohl die Trump-Anordnung zur Umbenennung von KI in Superintelligenz nur US-Behörden betrifft, zieht Elon Musk fleißig mit. ( KI , TSMC )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213697&amp;page=1&amp;ts=1791190081",
+      "published": "2026-10-05T10:48:01+02:00",
+      "category": "Politik",
+      "score": 56.35
     }
   ]
 }
