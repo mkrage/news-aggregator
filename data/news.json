@@ -1,40 +1,210 @@
 {
-  "generatedAt": "2026-10-05T01:21:12.423401+00:00",
-  "count": 163,
+  "generatedAt": "2026-10-05T07:13:03.033152+00:00",
+  "count": 180,
   "articles": [
     {
-      "id": "deutschlandfunk-7a6e6302a4880491",
+      "id": "spiegel-e20c5aa4c72938ec",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Kollaboration im Zweiten Weltkrieg: Ein General der Roten Armee, der mit den Nazis kollaborierte",
+      "link": "https://www.spiegel.de/geschichte/zweiten-weltkrieg-ein-general-der-roten-armee-der-mit-den-nazis-kollaborierte-a-c99358a7-715e-4d32-a923-35f10c947899#ref=rss",
+      "summary": "Andrej Wlassow war ein gefeierter Kriegsheld der Roten Armee – bis er in Gefangenschaft geriet und mit den Nazis kollaborierte.",
+      "image": "https://cdn.prod.www.spiegel.de/images/57acf873-c1d1-495d-b4b2-4ac9cf6d8911_w1200_r1.778_fpx37.08_fpy50.jpg",
+      "published": "2026-10-05T09:10:00+02:00",
+      "category": "Nachrichten",
+      "score": 66.96
+    },
+    {
+      "id": "golem-60b3ddffc520fd30",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "KI-Agenten: Metas Muse legt Profile über Freunde und Familie an",
+      "link": "https://www.golem.de/news/ki-agenten-metas-muse-legt-profile-ueber-freunde-und-familie-an-2610-213693.html",
+      "summary": "Metas KI-Assistent Muse führt Seiten über Familie, Partner und Freunde. Forscher haben die Anweisungen dafür ausgelesen. ( Meta , KI )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213693&amp;page=1&amp;ts=1791184081",
+      "published": "2026-10-05T09:08:01+02:00",
+      "category": "Technologie",
+      "score": 56.93
+    },
+    {
+      "id": "tagesschau-cf095747386be51a",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Australien: Alge kann Methan-Ausstoß von Rindern reduzieren",
+      "link": "https://www.tagesschau.de/wissen/klima/australien-methan-kuehe-futter-100.html",
+      "summary": "Rund ein Viertel des menschengemachten Methans entsteht in der Rinderzucht. Australische Landwirte wollen das ändern - mit einem Trick: Sie lassen Rotalgen ins Futter ihrer Rinder mischen. Von Florian Bahrdt . [ mehr ]",
+      "image": "https://images.tagesschau.de/image/cf62b01a-6243-4b6f-892c-97e4d8f3a6a2/AAABoQrGBnw/AAABnSSvrFg/16x9-big/rinder-australien-100.jpg?width=1920",
+      "published": "2026-10-05T09:03:08+02:00",
+      "category": "Nachrichten",
+      "score": 59.86
+    },
+    {
+      "id": "tagesschau-4df2de807953829f",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Ukraine: Neuer deutscher Besuch, neue russische Angriffe",
+      "link": "https://www.tagesschau.de/ausland/europa/prien-besuch-ukraine-100.html",
+      "summary": "Nach Bundeskanzler Merz besucht Bildungsministerin Prien die Ukraine und betont Deutschlands Unterstützung. Die sei auch im eigenen Interesse, betont CDU-Politiker Röttgen. Die Ukraine meldet derweil neue Angriffe.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/0177c0b8-df3e-47a9-99be-213b4a309878/AAABoQqiK2Q/AAABnSSvrFg/16x9-big/prien-ruge-100.jpg?width=1920",
+      "published": "2026-10-05T09:02:36+02:00",
+      "category": "Politik",
+      "score": 78.85
+    },
+    {
+      "id": "golem-edfb721e12cbb87f",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Anzeige: So lernt die FRITZ!Box Zigbee",
+      "link": "https://www.golem.de/news/anzeige-so-lernt-die-fritz-box-zigbee-2610-213481.html",
+      "summary": "Aktuelle FRITZ!Box-Modelle verfügen über den Smart-Home-Standard Zigbee. Aber wie kommt die Technologie in die FRITZ!Box? Die Softwareentwickler Stella und Patrick erklären. ( Fritzbox , AVM )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213481&amp;page=1&amp;ts=1791183602",
+      "published": "2026-10-05T09:00:02+02:00",
+      "category": "Technologie",
+      "score": 56.82
+    },
+    {
+      "id": "tagesschau-e8c093b6766fbf48",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Seit Mai: E-Auto-Prämie an 100.000 Antragsteller ausgezahlt",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/e-auto-praemie-126.html",
+      "summary": "Die neue Prämie zur Förderung von E-Autos hat laut Umweltminister Schneider die Erwartungen übertroffen. Geld sei bereits an 100.000 Antragsteller geflossen - viele von ihnen mit geringerem Einkommen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/07ee5ee4-7679-4ca5-aa77-7905aae59d6b/AAABnvMttoc/AAABnSSvrFg/16x9-big/e-auto-126.jpg?width=1920",
+      "published": "2026-10-05T08:54:00+02:00",
+      "category": "Politik",
+      "score": 75.42
+    },
+    {
+      "id": "spiegel-1cb6e1f5fba28ad8",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Wuppertal: Männer hupen schwangere Frau an – danach streiten sich rund Menschen",
+      "link": "https://www.spiegel.de/panorama/justiz/wuppertal-maenner-hupen-schwangere-frau-an-danach-streiten-sich-rund-menschen-a-4328e785-8635-4040-9437-ef86bf1504c6#ref=rss",
+      "summary": "Vier Männer hupen in Wuppertal eine schwangere Frau im Auto an, sie steigt aus, es kommt zum Streit: Am Ende sind an die hundert Menschen in die Auseinandersetzung verwickelt.",
+      "image": "https://cdn.prod.www.spiegel.de/images/46db8670-ebc2-4bbf-9b63-275bffdd3f69_w1200_r1.778_fpx65.69_fpy50.jpg",
+      "published": "2026-10-05T08:54:00+02:00",
+      "category": "Nachrichten",
+      "score": 58.74
+    },
+    {
+      "id": "spiegel-08329a0572c9de67",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Formel 1: »Ein verrückter, unerwarteter und kaum zu übertreffender Grand Prix« – Pressestimmen",
+      "link": "https://www.spiegel.de/sport/formel1/formel-1-ein-verrueckter-unerwarteter-und-kaum-zu-uebertreffender-grand-prix-pressestimmen-a-1b635604-a364-4889-b679-653ca1f3f8e2#ref=rss",
+      "summary": "Bei der Rückkehr nach Malaysia präsentierte die Formel 1 ein wildes Rennen mit technischen Problemen und Wetterchaos. Das Spektakel bezeichnet die internationale Presse als »peinlich und beispiellos«.",
+      "image": "https://cdn.prod.www.spiegel.de/images/7fd63965-01da-4c68-ba4c-7f8a6f7daacc_w1200_r1.778_fpx69.99_fpy55.jpg",
+      "published": "2026-10-05T08:51:00+02:00",
+      "category": "Nachrichten",
+      "score": 58.69
+    },
+    {
+      "id": "deutschlandfunk-e9a9953ba9055553",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Brasilien - Stichwahl zwischen Bolsonaro und Lula um Präsidentenamt",
-      "link": "https://www.deutschlandfunk.de/stichwahl-zwischen-bolsonaro-und-lula-um-praesidentenamt-100.html",
-      "summary": "Über die Präsidentschaft in Brasilien wird in einer Stichwahl zwischen dem linken Amtsinhaber Lula da Silva und dem rechten Herausforderer Flávio Bolsonaro entscheiden. Am 25. Oktober dürfen die Wählerinnen und Wähler erneut abstimmen.",
-      "image": "https://bilder.deutschlandfunk.de/a9/71/70/68/a9717068-16c8-4fe0-86ef-7b8f832ffb7c/brasilien-praesidentschaftswahl-lula-da-silva-bolsonaro-100-1920x1920.jpg",
-      "published": "2026-10-05T02:56:30+02:00",
+      "title": "Wirtschaft - Deutsche Autoindustrie rutscht tiefer in die Krise",
+      "link": "https://www.deutschlandfunk.de/deutsche-autoindustrie-rutscht-tiefer-in-die-krise-102.html",
+      "summary": "Die Stimmung in der deutschen Autoindustrie ist im September auf einen Jahres-Tiefststand gefallen.",
+      "image": "https://bilder.deutschlandfunk.de/NO/VA/_8/20/NOVA_8200dd2c6d44b06dd757b2c932e59e92/craft-13389758-asset-100-1920x1920.jpg",
+      "published": "2026-10-05T08:48:40+02:00",
+      "category": "Wirtschaft",
+      "score": 69.66
+    },
+    {
+      "id": "deutschlandfunk-30aa3352c0627e77",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Konflikt im Mittleren Osten - Tanker nahe der Meerenge Bab al-Mandab offenbar angegriffen",
+      "link": "https://www.deutschlandfunk.de/tanker-nahe-der-meerenge-bab-al-mandab-offenbar-angegriffen-100.html",
+      "summary": "Nahe der Meerenge Bab-al-Mandab vor der jemenitischen Küste ist offenbar ein Tanker angegriffen worden.",
+      "image": "https://bilder.deutschlandfunk.de/f6/e7/f4/ef/f6e7f4ef-1bf0-4d6d-a874-a8e6c581387c/karte-102-1920x1920.jpg",
+      "published": "2026-10-05T08:48:40+02:00",
+      "category": "Nachrichten",
+      "score": 58.66
+    },
+    {
+      "id": "deutschlandfunk-992290afc1ae594e",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Ukraine - Bundesfamilienminister Prien nach Kiew gereist",
+      "link": "https://www.deutschlandfunk.de/bundesfamilienminister-prien-nach-kiew-gereist-100.html",
+      "summary": "Unmittelbar nach Bundeskanzler Merz ist Familienministerin Prien in die Ukraine gereist.",
+      "image": "https://bilder.deutschlandfunk.de/e1/5d/50/d1/e15d50d1-1199-4d5c-b2f8-561fb93e45fe/prien-kiew-ukraine-100-1920x1920.jpg",
+      "published": "2026-10-05T08:48:40+02:00",
+      "category": "Politik",
+      "score": 69.66
+    },
+    {
+      "id": "deutschlandfunk-73e077684f62b546",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Ukraine-Krieg - CDU-Außenpolitiker Kiesewetter: \"Russland will diesen Krieg\"",
+      "link": "https://www.deutschlandfunk.de/cdu-aussenpolitiker-kiesewetter-russland-will-diesen-krieg-102.html",
+      "summary": "Der CDU-Außenpolitiker Kiesewetter hat sich für eine konsequentere Unterstützung der Ukraine durch Deutschland eingesetzt.",
+      "image": "https://bilder.deutschlandfunk.de/34/3c/a0/8f/343ca08f-33fd-4a9f-a42d-a5df219ba1f3/kiesewetter-cdu-verteidigungsfall-buendnis-100-1920x1920.jpg",
+      "published": "2026-10-05T08:48:40+02:00",
       "category": "Politik",
       "score": 86.66
     },
     {
-      "id": "deutschlandfunk-3388a788c4d5470f",
+      "id": "deutschlandfunk-dc66803753a8097a",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Reformen - Bundeskanzler Merz fordert von Union und SPD noch in diesem Jahr Entscheidung zur Rentenreform",
-      "link": "https://www.deutschlandfunk.de/bundeskanzler-merz-fordert-von-union-und-spd-noch-in-diesem-jahr-entscheidung-zur-rentenreform-110.html",
-      "summary": "Bundeskanzler Merz hat die Koalition von Union und SPD aufgefordert, bei den geplanten Reformen voranzukommen und die Stabilität der Regierung zu sichern.",
-      "image": "https://bilder.deutschlandfunk.de/c3/41/55/aa/c34155aa-a70d-40a8-bf66-75511ea4b808/bundeskanzler-merz-in-kiew-100-1920x1920.jpg",
-      "published": "2026-10-05T02:56:30+02:00",
+      "title": "Brasilien - Bolsonaro und Lula ziehen in Stichwahl um Präsidentenamt ein",
+      "link": "https://www.deutschlandfunk.de/bolsonaro-und-lula-ziehen-in-stichwahl-um-praesidentenamt-ein-100.html",
+      "summary": "Über die Präsidentschaft in Brasilien wird in einer Stichwahl zwischen dem linken Amtsinhaber Lula da Silva und dem rechten Herausforderer Flávio Bolsonaro entschieden. Am 25. Oktober dürfen die Wählerinnen und Wähler erneut abstimmen.",
+      "image": "https://bilder.deutschlandfunk.de/a9/71/70/68/a9717068-16c8-4fe0-86ef-7b8f832ffb7c/brasilien-praesidentschaftswahl-lula-da-silva-bolsonaro-100-1920x1920.jpg",
+      "published": "2026-10-05T08:48:40+02:00",
       "category": "Politik",
-      "score": 69.66,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Zustand der Koalition: Merz: „Wir müssen in der Regierung zusammenbleiben“",
-            "link": "https://www.handelsblatt.com/politik/deutschland/zustand-der-koalition-merz-wir-muessen-in-der-regierung-zusammenbleiben/100259623.html"
-          }
-        ]
-      }
+      "score": 86.66
+    },
+    {
+      "id": "deutschlandfunk-b3b029be116518d6",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Abstimmung - Nationalistische Parteien bei Wahlen in Bosnien-Herzegowina vorne",
+      "link": "https://www.deutschlandfunk.de/nationalistische-parteien-bei-wahlen-in-bosnien-herzegowina-vorne-100.html",
+      "summary": "Bei den Wahlen in Bosnien-Herzegowina zeichnet sich ein Erfolg der nationalistischen Kräfte ab. Der frühere bosnisch-serbische Präsident Dodik erklärte nach Auszählung fast aller Stimmen den Sieg seiner Partei im serbischen Landesteil.",
+      "image": "https://bilder.deutschlandfunk.de/3f/48/bd/88/3f48bd88-0ea1-4f51-b724-3dd3db3da6db/wahlen-bosnien-herzegowina-sarajewo-100-1920x1920.jpg",
+      "published": "2026-10-05T08:48:40+02:00",
+      "category": "Politik",
+      "score": 78.66
+    },
+    {
+      "id": "deutschlandfunk-78f8e85eb3982092",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Reformen - Bundeskanzler Merz drängt innerhalb der Koalition auf Fortschritte bei Reformen",
+      "link": "https://www.deutschlandfunk.de/bundeskanzler-merz-draengt-innerhalb-der-koalition-auf-fortschritte-bei-reformen-100.html",
+      "summary": "Bundeskanzler Merz drängt innerhalb der Koalition auf weitere Fortschritte bei den Reformen.",
+      "image": "https://bilder.deutschlandfunk.de/c3/41/55/aa/c34155aa-a70d-40a8-bf66-75511ea4b808/bundeskanzler-merz-in-kiew-100-1920x1920.jpg",
+      "published": "2026-10-05T08:48:40+02:00",
+      "category": "Nachrichten",
+      "score": 58.66
+    },
+    {
+      "id": "deutschlandfunk-6ea904f17a3277c9",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Bundestag - Präsidenten der Geheimdienste heute in öffentlicher Anhörung",
+      "link": "https://www.deutschlandfunk.de/praesidenten-der-geheimdienste-heute-in-oeffentlicher-anhoerung-100.html",
+      "summary": "Die drei deutschen Nachrichtendienste geben heute in einer öffentlichen Sitzung im Bundestag Auskunft zur Arbeit ihrer Behörden.",
+      "image": null,
+      "published": "2026-10-05T08:48:40+02:00",
+      "category": "Politik",
+      "score": 69.66
+    },
+    {
+      "id": "deutschlandfunk-b764aa7343ff8596",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Terror-Bedrohung - USA ziehen Langstreckenbomber von britischem Luftwaffenstützpunkt ab",
+      "link": "https://www.deutschlandfunk.de/usa-ziehen-langstreckenbomber-von-britischem-luftwaffenstuetzpunkt-ab-104.html",
+      "summary": "Die USA ziehen ihre Langstreckenbomber vom britischen Luftwaffenstützpunkt Fairford ab. Das bestätigte das Verteidigungsministerium in Washington. Die Flugzeuge würden auf ihre Heimatbasen in den USA zurückgeflogen, hieß es. Hintergrund könnte die Sorge vor einem iranischen Anschlag sein.",
+      "image": "https://bilder.deutschlandfunk.de/FI/LE/_2/cb/FILE_2cb1d07f1e2a425bcffb048782ea3962/b52-jpg-100-768x768.jpg",
+      "published": "2026-10-05T08:48:40+02:00",
+      "category": "Politik",
+      "score": 61.66
     },
     {
       "id": "deutschlandfunk-18a76d48ca64a017",
@@ -42,23 +212,35 @@
       "sourceWeight": 0.95,
       "title": "Besuch in Kiew - Merz verteidigt Ukraine-Hilfen: \"Im eigenen Interesse Deutschlands\"",
       "link": "https://www.deutschlandfunk.de/merz-verteidigt-ukraine-hilfen-im-eigenen-interesse-deutschlands-102.html",
-      "summary": "Bundeskanzler Merz hat die in der deutschen Bevölkerung teils umstrittene Unterstützung der Ukraine verteidigt. Er sagte bei seinem Besuch in Kiew, die Hilfe für die Ukraine sei gerade in diesem Jahr und vor diesem Winter im zutiefst eigenen nationalen Interesse Deutschlands. Merz nannte etwa tägliche russische Internetattacken auf Rechenzentren und Datennetze in Deutschland.",
+      "summary": "Bundeskanzler Merz hat die in der deutschen Bevölkerung teils umstrittene Unterstützung der Ukraine verteidigt. Er sagte bei seinem Besuch in Kiew, die Hilfen seien gerade in diesem Jahr und vor diesem Winter im zutiefst eigenen nationalen Interesse Deutschlands. Merz verwies etwa auf tägliche russische Internetattacken auf Rechenzentren und Datennetze in Deutschland.",
       "image": "https://bilder.deutschlandfunk.de/27/fa/25/dc/27fa25dc-2377-4062-bbe1-5cc738682b7b/merz-selenskyj-kiew-100-1920x1920.jpg",
-      "published": "2026-10-05T02:56:30+02:00",
+      "published": "2026-10-05T08:48:40+02:00",
       "category": "Politik",
-      "score": 91.34
+      "score": 78.85
     },
     {
-      "id": "deutschlandfunk-b764aa7343ff8596",
+      "id": "deutschlandfunk-74aed65b096a1425",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Washington - USA ziehen Langstreckenbomber von britischem Luftwaffenstützpunkt ab",
-      "link": "https://www.deutschlandfunk.de/usa-ziehen-langstreckenbomber-von-britischem-luftwaffenstuetzpunkt-ab-104.html",
-      "summary": "Die USA ziehen ihre Langstreckenbomber vom britischen Luftwaffenstützpunkt Fairford ab.",
-      "image": "https://bilder.deutschlandfunk.de/FI/LE/_2/cb/FILE_2cb1d07f1e2a425bcffb048782ea3962/b52-jpg-100-768x768.jpg",
-      "published": "2026-10-05T02:56:30+02:00",
-      "category": "Nachrichten",
-      "score": 58.66
+      "title": "Ukraine - Weitere Tote bei russischen Luftangriffen",
+      "link": "https://www.deutschlandfunk.de/weitere-tote-bei-russischen-luftangriffen-102.html",
+      "summary": "⁠Bei ⁠einem ‌russischen Luftangriff auf Charkiw ist nach ​ukrainischen Angaben eine Person ​getötet worden. ‌",
+      "image": "https://bilder.deutschlandfunk.de/e1/06/7d/e2/e1067de2-6230-41ae-943b-92085b1ff504/die-nachrichten-kachel-2176-zu1224-100-768x768.jpg",
+      "published": "2026-10-05T08:48:40+02:00",
+      "category": "Politik",
+      "score": 69.66
+    },
+    {
+      "id": "deutschlandfunk-e58826b9c75449b0",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Förderprogramm - Umweltminister Schneider würdigt E-Auto-Prämie als Erfolg",
+      "link": "https://www.deutschlandfunk.de/umweltminister-schneider-wuerdigt-e-auto-praemie-als-erfolg-102.html",
+      "summary": "Die Bundesregierung hat die E-Auto-Prämie seit Mai an 100.000 ‌Antragsteller ausgezahlt.",
+      "image": "https://bilder.deutschlandfunk.de/85/b0/34/0c/85b0340c-53d6-4bc0-8857-7aa34cdddb90/e-auto-laden-104-1920x1920.jpg",
+      "published": "2026-10-05T08:48:40+02:00",
+      "category": "Politik",
+      "score": 75.42
     },
     {
       "id": "deutschlandfunk-7c5392f0531e450a",
@@ -68,21 +250,9 @@
       "link": "https://www.deutschlandfunk.de/oesterreichs-vizekanzler-babler-kuendigt-rueckzug-aus-regierungsamt-und-vom-parteivorsitz-der-spoe-a-108.html",
       "summary": "Österreichs Vizekanzler Babler hat seinen Rückzug aus dem Regierungsamt sowie vom Parteivorsitz der SPÖ angekündigt.",
       "image": "https://bilder.deutschlandfunk.de/e1/d0/74/41/e1d07441-4c17-43f3-ab97-fbaeddd0f508/oesterreich-spoe-babler-100-1920x1920.jpg",
-      "published": "2026-10-05T02:56:30+02:00",
+      "published": "2026-10-05T08:48:40+02:00",
       "category": "Politik",
-      "score": 61.66
-    },
-    {
-      "id": "deutschlandfunk-1ef2130e2a905338",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Abstimmung - Bosnien und Herzegowina: Wahlen in einem der kompliziertesten Staatengebilde der Welt",
-      "link": "https://www.deutschlandfunk.de/bosnien-und-herzegowina-wahlen-in-einem-der-kompliziertesten-staatengebilde-der-welt-120.html",
-      "summary": "In Bosnien und Herzegowina haben die Wahllokale geschlossen. Im Fokus stand die Neubesetzung des dreiköpfigen Staatspräsidiums. Es besteht aus jeweils einem Vertreter der drei konstitutiven Volksgruppen - der Bosniaken, Serben und Kroaten. 3,4 Millionen Menschen waren wahlberechtigt.",
-      "image": "https://bilder.deutschlandfunk.de/3f/48/bd/88/3f48bd88-0ea1-4f51-b724-3dd3db3da6db/wahlen-bosnien-herzegowina-sarajewo-100-1920x1920.jpg",
-      "published": "2026-10-05T02:56:30+02:00",
-      "category": "Politik",
-      "score": 69.66
+      "score": 83.34
     },
     {
       "id": "deutschlandfunk-a8f6d728e2c180bb",
@@ -92,19 +262,19 @@
       "link": "https://www.deutschlandfunk.de/iranischer-oelminister-zurueckgetreten-chef-des-staatlichen-oelkonzerns-uebernimmt-amtsgeschaefte-110.html",
       "summary": "Der iranische Ölminister Paknedschad ist zurückgetreten.",
       "image": "https://bilder.deutschlandfunk.de/e1/06/7d/e2/e1067de2-6230-41ae-943b-92085b1ff504/die-nachrichten-kachel-2176-zu1224-100-768x768.jpg",
-      "published": "2026-10-05T02:56:30+02:00",
+      "published": "2026-10-05T08:48:40+02:00",
       "category": "Politik",
       "score": 61.66
     },
     {
-      "id": "deutschlandfunk-48865959f5185d24",
+      "id": "deutschlandfunk-9f4e21300cb3f548",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Nach Angaben von Hilfsorganisationen - Äthiopische Armee vertreibt Tigray-Rebellen aus Provinz Afar",
-      "link": "https://www.deutschlandfunk.de/aethiopische-armee-vertreibt-tigray-rebellen-aus-provinz-afar-110.html",
+      "title": "Nach Angaben von Hilfsorganisationen - Äthiopische Armee übernimmt Kontrolle in Hauptstadt von Tigray",
+      "link": "https://www.deutschlandfunk.de/aethiopische-armee-uebernimmt-kontrolle-in-hauptstadt-von-tigray-100.html",
       "summary": "In Äthiopien haben Regierungstruppen offenbar die volle Kontrolle über die Hauptstadt der Provinz Tigray übernommen.",
       "image": "https://bilder.deutschlandfunk.de/f9/88/e2/4d/f988e24d-a852-478b-b159-70dd32b03362/horn-von-afrika-100-1920x1920.jpg",
-      "published": "2026-10-05T02:56:30+02:00",
+      "published": "2026-10-05T08:48:40+02:00",
       "category": "Politik",
       "score": 61.66
     },
@@ -116,7 +286,7 @@
       "link": "https://www.deutschlandfunk.de/pakistan-anhaenger-von-ex-premier-khan-marschieren-richtung-islamabad-106.html",
       "summary": "In Pakistan sind tausende Anhänger des inhaftierten ehemaligen Premierministers Khan zu einem Protestmarsch in die Hauptstadt Islamabad aufgebrochen.",
       "image": "https://bilder.deutschlandfunk.de/f3/43/67/80/f3436780-3960-43bd-ab69-eabf4a623f4b/pakistan-116-1280x1280.jpg",
-      "published": "2026-10-05T02:56:30+02:00",
+      "published": "2026-10-05T08:48:40+02:00",
       "category": "Politik",
       "score": 61.66
     },
@@ -128,7 +298,7 @@
       "link": "https://www.deutschlandfunk.de/afd-begruesst-vorstoss-von-hessens-cdu-chef-rhein-kritik-von-koalitionsvertretern-110.html",
       "summary": "Die Alternative für Deutschland hat den Vorstoß von Hessens Ministerpräsident Rhein zu einem anderen Umgang mit der AfD im Bundestag begrüßt. Parlamentsgeschäftsführer Baumann sagte der Nachrichtenagentur AFP, er gehe davon aus, dass die CDU in absehbarer Zeit ihre Ausgrenzungsstrategie aufgeben werde. Kritik kam hingegen aus den Koalitionsfraktionen.",
       "image": "https://bilder.deutschlandfunk.de/24/4c/6a/73/244c6a73-5d10-41c9-9c83-d0c8b8b0802c/boris-rhein-ministerpraesident-hessen-cdu-102-1920x1920.jpg",
-      "published": "2026-10-05T02:56:30+02:00",
+      "published": "2026-10-05T08:48:40+02:00",
       "category": "Politik",
       "score": 69.66
     },
@@ -140,7 +310,7 @@
       "link": "https://www.deutschlandfunk.de/buendnis-warnt-vor-kuerzungen-beim-sozialstaat-110.html",
       "summary": "Ein Bündnis von Gewerkschaften und Wohlfahrtsverbänden ruft die Bundesregierung auf, Kürzungspläne im Sozialbereich aufzugeben und hohe Vermögen und Einkommen angemessen zu besteuern.",
       "image": "https://bilder.deutschlandfunk.de/f1/34/cc/2d/f134cc2d-3545-40fd-9691-809080bd17de/pflege-rollator-100-1920x1920.jpg",
-      "published": "2026-10-05T02:56:30+02:00",
+      "published": "2026-10-05T08:48:40+02:00",
       "category": "Politik",
       "score": 61.66
     },
@@ -152,7 +322,7 @@
       "link": "https://www.deutschlandfunk.de/bundesregierung-will-opfer-haeuslicher-gewalt-besserstellen-102.html",
       "summary": "Opfer von häuslicher Gewalt sollen sich nach dem Willen der Bundesregierung leichter aus gemeinsamen Mietverträgen mit den jeweiligen Tätern lösen können.",
       "image": "https://bilder.deutschlandfunk.de/39/76/9f/f9/39769ff9-c491-4142-b3db-1821ef5994dd/haeusliche-gewalt-116-1920x1920.jpg",
-      "published": "2026-10-05T02:56:30+02:00",
+      "published": "2026-10-05T08:48:40+02:00",
       "category": "Politik",
       "score": 61.66
     },
@@ -164,7 +334,7 @@
       "link": "https://www.deutschlandfunk.de/droege-gruene-plaediert-fuer-koalition-aus-ihrer-partei-mit-spd-und-die-linke-112.html",
       "summary": "Grünen-Fraktionschefin Dröge hat sich für eine Dreierkoalition ihrer Partei mit der SPD und den Linken auf Bundesebene ausgesprochen.",
       "image": "https://bilder.deutschlandfunk.de/2f/36/1c/39/2f361c39-ca86-47dd-a9e1-e5595ec35662/katharina-droege-klima-100-1920x1920.jpg",
-      "published": "2026-10-05T02:56:30+02:00",
+      "published": "2026-10-05T08:48:40+02:00",
       "category": "Nachrichten",
       "score": 58.66
     },
@@ -176,7 +346,7 @@
       "link": "https://www.deutschlandfunk.de/spd-dringt-erneut-auf-neuordnung-der-erbschaftsteuer-102.html",
       "summary": "SPD-Generalsekretär Klüssendorf hat die Forderung seiner Partei nach einer Reform der Erbschaftsteuer erneuert.",
       "image": "https://bilder.deutschlandfunk.de/f4/33/88/a8/f43388a8-5812-4869-b26a-214c15e96061/erbschaftssteuer-110-1920x1920.jpg",
-      "published": "2026-10-05T02:56:30+02:00",
+      "published": "2026-10-05T08:48:40+02:00",
       "category": "Nachrichten",
       "score": 58.66
     },
@@ -184,13 +354,37 @@
       "id": "deutschlandfunk-3c168429643bf0e2",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Linskpartei in Berlin - Klage vor dem Verfassungsgericht gegen Wirtschaftsministerin Reiche",
+      "title": "Linkspartei in Berlin - Klage vor dem Verfassungsgericht gegen Wirtschaftsministerin Reiche",
       "link": "https://www.deutschlandfunk.de/klage-vor-dem-verfassungsgericht-gegen-wirtschaftsministerin-reiche-102.html",
       "summary": "Die Linkspartei zieht gegen Bundeswirtschaftsministerin Reiche vor das Bundesverfassungsgericht.",
       "image": "https://bilder.deutschlandfunk.de/FI/LE/_9/f1/FILE_9f1658c17a21a0fe37a28e99f29aa8a8/katharina-reiche-jpg-100-1280x1280.jpg",
-      "published": "2026-10-05T02:56:30+02:00",
+      "published": "2026-10-05T08:48:40+02:00",
       "category": "Politik",
-      "score": 61.66
+      "score": 75.34
+    },
+    {
+      "id": "deutschlandfunk-9114532843f461b6",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Nahost - Biermann: Israel begeht im Gaza-Streifen Kriegsverbrechen",
+      "link": "https://www.deutschlandfunk.de/biermann-israel-begeht-im-gaza-streifen-kriegsverbrechen-100.html",
+      "summary": "Der Liedermacher und Dichter Wolf Biermann hat der israelischen Regierung vorgeworfen, im Gaza-Streifen Kriegsverbrechen zu begehen.",
+      "image": "https://bilder.deutschlandfunk.de/3f/b9/4c/b8/3fb94cb8-fd21-47a0-a8ee-d0bf264160ff/wolf-biermann-102-1920x1920.jpg",
+      "published": "2026-10-05T08:48:40+02:00",
+      "category": "Politik",
+      "score": 85.66
+    },
+    {
+      "id": "deutschlandfunk-2a115620740f9abc",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Wissenschaft - Nobel-Preisträger für Medizin wird benannt",
+      "link": "https://www.deutschlandfunk.de/nobel-preistraeger-fuer-medizin-wird-benannt-100.html",
+      "summary": "In Stockholm wird am Vormittag bekanntgegeben, wer den diesjährigen Nobelpreis für Medizin erhält.",
+      "image": "https://bilder.deutschlandfunk.de/98/ed/7c/3d/98ed7c3d-c309-4598-86ff-8cc9fdb5991f/nobelpreis-medaille-104-1920x1920.jpg",
+      "published": "2026-10-05T08:48:40+02:00",
+      "category": "Wissenschaft",
+      "score": 58.66
     },
     {
       "id": "deutschlandfunk-674c0927a135b553",
@@ -200,7 +394,7 @@
       "link": "https://www.deutschlandfunk.de/aussichtsplattform-der-elbphilharmonie-kostet-jetzt-eintritt-104.html",
       "summary": "Die Aussichtsplattform der Elbphilharmonie ist eines der meistbesuchten Wahrzeichen in Hamburg. Fast zehn Jahre lang war der Besuch der sogenannten Plaza kostenfrei. Ab heute ändert sich das.",
       "image": "https://bilder.deutschlandfunk.de/ef/e8/89/7b/efe8897b-db38-40a1-b6ce-1de80f231378/plaza-elbphilharmonie-100-1920x1920.jpg",
-      "published": "2026-10-05T02:56:30+02:00",
+      "published": "2026-10-05T08:48:40+02:00",
       "category": "Nachrichten",
       "score": 58.66
     },
@@ -212,43 +406,810 @@
       "link": "https://www.deutschlandfunk.de/deutschlands-nationalmannschaft-spielt-0-0-gegen-griechenland-110.html",
       "summary": "In der Fußball-Nations-League hat die deutsche Nationalmannschaft 0:0 gegen Griechenland gespielt.",
       "image": "https://bilder.deutschlandfunk.de/99/cc/97/53/99cc9753-0997-4e6c-b347-6ad74f1440b5/fussball-154-1280x1280.jpg",
-      "published": "2026-10-05T02:56:30+02:00",
+      "published": "2026-10-05T08:48:40+02:00",
       "category": "Nachrichten",
-      "score": 66.66,
+      "score": 66.66
+    },
+    {
+      "id": "deutschlandfunk-b5ffed2c783deda0",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Wetter - Sonnig oder locker bewölkt, im Süden und an den Alpen Schauer, 17 bis 23 Grad",
+      "link": "https://www.deutschlandfunk.de/sonnig-oder-locker-bewoelkt-im-sueden-und-an-den-alpen-schauer-17-bis-23-grad-102.html",
+      "summary": "Das Wetter: Überwiegend sonnig oder locker bewölkt, im Süden und an den Alpen stellenweise schauerartiger Regen, vereinzelt gewittrig. Höchstwerte 17 bis 23 Grad. Morgen im Norden stärker bewölkt und etwas Regen. In der Mitte und im Süden nach Nebelauflösung meist heiter und trocken. 17 bis 24 Grad.",
+      "image": "https://bilder.deutschlandfunk.de/e5/f6/55/84/e5f65584-6dc2-4dce-979d-729a024cd599/wetter-grafik-nachrichten-100-768x768.jpg",
+      "published": "2026-10-05T08:48:40+02:00",
+      "category": "Nachrichten",
+      "score": 58.66
+    },
+    {
+      "id": "golem-9f41bcc4ab821894",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Fünf Jahre Windows 11: Auf dem besten Weg zum meistgehassten Windows",
+      "link": "https://www.golem.de/news/fuenf-jahre-windows-11-auf-dem-besten-weg-zum-meistgehassten-windows-2610-213660.html",
+      "summary": "In den ersten fünf Jahren hat Windows 11 vor allem eines geschafft: Immer mehr Leute wollen stattdessen MacOS oder Linux verwenden. Eine Analyse von Oliver Nickel ( Windows 11 , Microsoft )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213660&amp;page=1&amp;ts=1791181802",
+      "published": "2026-10-05T08:30:02+02:00",
+      "category": "Technologie",
+      "score": 56.4
+    },
+    {
+      "id": "spiegel-218bcb1eb7a3c212",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Bund bewilligte seit Mai 100.000 Anträge für E-Auto-Prämie",
+      "link": "https://www.spiegel.de/wirtschaft/bund-bewilligte-seit-mai-100-000-antraege-fuer-e-auto-praemie-a-0faebd5d-18ca-4fa2-adfd-6a7b44b5fc1b#ref=rss",
+      "summary": "Bis zu 6000 Euro Zuschuss vom Staat sind möglich: Die E-Auto-Prämie kommt laut Umweltminister Carsten Schneider bei vielen Menschen mit niedrigen und mittleren Einkommen an.",
+      "image": "https://cdn.prod.www.spiegel.de/images/eb3c04ac-a150-44d4-9c3f-b67208b6c77f_w1200_r1.778_fpx58.66_fpy50.jpg",
+      "published": "2026-10-05T08:27:00+02:00",
+      "category": "Politik",
+      "score": 75.42
+    },
+    {
+      "id": "heise-7b46416e435c4877",
+      "source": "heise",
+      "sourceWeight": 0.9,
+      "title": "Microsoft schiebt Exchange-Update nach",
+      "link": "https://www.heise.de/news/Microsoft-schiebt-Exchange-Update-nach-11475517.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
+      "summary": "Zum Wochenende hat Microsoft weitere Exchange-Updates nachgelegt. Sie stopfen eine Rechteausweitungslücke.",
+      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/7/6/3/9/9/shutterstock_1458873818-ff3db99ae6953103.jpeg",
+      "published": "2026-10-05T08:26:00+02:00",
+      "category": "Technologie",
+      "score": 57.35
+    },
+    {
+      "id": "spiegel-9031d0071ae23a5a",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Friedrich Merz: Warum die Abitur-Note des CDU-Kanzlers im Tresor bleibt",
+      "link": "https://www.spiegel.de/politik/friedrich-merz-warum-die-abitur-note-des-cdu-kanzlers-im-tresor-bleibt-a-4b3ed61e-0288-4992-9386-8b0cea00536b#ref=rss",
+      "summary": "Friedrich Merz kehrt heute an das Gymnasium zurück, an dem er vor 51 Jahren Abitur gemacht hat. Seine Abiturnote könnte er dort aber unter den Teppich kehren. Offenbar aus gutem Grund.",
+      "image": "https://cdn.prod.www.spiegel.de/images/93bc7cbf-7104-43e8-8415-79733f04c07c_w1200_r1.778_fpx55_fpy49.jpg",
+      "published": "2026-10-05T08:20:00+02:00",
+      "category": "Nachrichten",
+      "score": 66.26
+    },
+    {
+      "id": "golem-136da24e3b6db0bc",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "CEO: Apple-Chef Ternus bestimmt Design-Kurs",
+      "link": "https://www.golem.de/news/ceo-apple-chef-ternus-bestimmt-design-kurs-2610-213688.html",
+      "summary": "Seit dem Weggang von Jony Ive hatte Apple jahrelang keine feste Stimme in Sachen Ästhetik. Jetzt scheint John Ternus diese Lücke zu füllen. ( Apple , Tim Cook )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213688&amp;page=1&amp;ts=1791180902",
+      "published": "2026-10-05T08:15:02+02:00",
+      "category": "Technologie",
+      "score": 56.19
+    },
+    {
+      "id": "golem-0478e4325c113755",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Überwachung am Meeresboden: Unterwasserkabel sollen russische Sabotage erkennen",
+      "link": "https://www.golem.de/news/ueberwachung-am-meeresboden-unterwasserkabel-sollen-russische-sabotage-erkennen-2610-213686.html",
+      "summary": "Forscher entdecken den Meeresgrund als Überwachungsraum. Glasfaserkabel, die Daten durchs Netz schleusen, werden zu Sensoren umfunktioniert. ( Seekabel , Telekommunikation )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213686&amp;page=1&amp;ts=1791180061",
+      "published": "2026-10-05T08:01:01+02:00",
+      "category": "Technologie",
+      "score": 56.0
+    },
+    {
+      "id": "spiegel-5fafaab03d4c3cc7",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Nations League: Griechenland vs. Deutschland – Das sind die Gewinner und Verlierer der ersten Länderspiele unter Jürgen Klopp",
+      "link": "https://www.spiegel.de/sport/fussball/nations-league-griechenland-vs-deutschland-das-sind-die-gewinner-und-verlierer-der-ersten-laenderspiele-unter-juergen-klopp-a-9b8de667-291e-43c9-bd52-e01a1fe5b928#ref=rss",
+      "summary": "Insgesamt 43 Spieler versammelte der Bundestrainer für seine ersten vier Partien. Zwei Neulinge überzeugten besonders. Für einen Platzhirsch könnte es ab sofort jedoch schwieriger werden. Eine Zwischenbilanz.",
+      "image": "https://cdn.prod.www.spiegel.de/images/2cb6dfb3-0652-49d9-a42f-be198ab53e2c_w1200_r1.778_fpx45_fpy41.jpg",
+      "published": "2026-10-05T08:00:00+02:00",
+      "category": "Nachrichten",
+      "score": 57.99
+    },
+    {
+      "id": "spiegel-3157edeacc25cddd",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Chicago: Frau ersticht auf offener Straße siebenjähriges Mädchen",
+      "link": "https://www.spiegel.de/panorama/justiz/chicago-frau-ersticht-auf-offener-strasse-siebenjaehriges-maedchen-a-396f6080-277a-4e7b-8e3d-b3bbdbed158e#ref=rss",
+      "summary": "In der US-Stadt Chicago hat eine Frau ein Kind mit einem spitzen Gegenstand attackiert. Das siebenjährige Mädchen starb im Krankenhaus. Die Frau wurde festgenommen. Ein mögliches Motiv für die Tat ist noch unklar.",
+      "image": "https://cdn.prod.www.spiegel.de/images/46db8670-ebc2-4bbf-9b63-275bffdd3f69_w1200_r1.778_fpx65.69_fpy50.jpg",
+      "published": "2026-10-05T07:47:00+02:00",
+      "category": "Technologie",
+      "score": 57.8
+    },
+    {
+      "id": "heise-3e078ee0c99fdaeb",
+      "source": "heise",
+      "sourceWeight": 0.9,
+      "title": "Bericht: Bei Cyberangriff Zugriff auf Antrieb von Öl-Supertanker erlangt",
+      "link": "https://www.heise.de/news/Cyberangriff-Unbefugte-hatten-angeblich-Zugriff-auf-Antrieb-von-Oel-Supertanker-11475495.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
+      "summary": "Ende August haben FBI und US-Küstenwache einen Öltanker geentert, der stundenlang nicht kommunizieren konnte. Nun gibt es Erkenntnisse über den Cyberangriff.",
+      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/7/6/3/8/6/shutterstock_2623655207-339bee51a2488989.jpeg",
+      "published": "2026-10-05T07:44:00+02:00",
+      "category": "Technologie",
+      "score": 56.76
+    },
+    {
+      "id": "tagesschau-9f6678ad526d7d49",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Stichwahl nötig: Brasilien rückt weiter nach rechts",
+      "link": "https://www.tagesschau.de/ausland/amerika/brasilien-wahl-ergebnis-100.html",
+      "summary": "Bolsonaro oder Lula? Bei der Präsidentschaftswahl in Brasilien gehen beide Kandidaten in eine Stichwahl. Der Sohn des Ex-Präsidenten gilt als Favorit. Er profitiert von Unzufriedenheit über hohe Lebenshaltungskosten und Kriminalität. Von A. Herrberg. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/4d1170cf-40eb-4039-b850-97a36c9dc3bd/AAABoQq54WE/AAABnSSvrFg/16x9-big/brasilien-wahl-bolsonaro-104.jpg?width=1920",
+      "published": "2026-10-05T07:41:41+02:00",
+      "category": "Politik",
+      "score": 86.66,
       "coverage": {
-        "sourceCount": 2,
+        "sourceCount": 4,
         "others": [
           {
+            "source": "deutschlandfunk",
+            "title": "Brasilien - Bolsonaro und Lula ziehen in Stichwahl um Präsidentenamt ein",
+            "link": "https://www.deutschlandfunk.de/bolsonaro-und-lula-ziehen-in-stichwahl-um-praesidentenamt-ein-100.html"
+          },
+          {
             "source": "spiegel",
-            "title": "Deutschland – Griechenland im Liveticker: DFB-Team hofft in der Nations League auf Sieg in Thessaloniki",
-            "link": "https://www.spiegel.de/sport/fussball/deutschland-griechenland-im-liveticker-dfb-team-hofft-in-der-nations-league-auf-sieg-in-thessaloniki-a-a6e83161-46f6-48da-9e83-83340a27bee3#ref=rss"
+            "title": "Brasilien: Lula und Bolsonaro-Sohn Flávio müssen in die Stichwahl",
+            "link": "https://www.spiegel.de/ausland/lula-und-bolsonaro-sohn-flavio-muessen-in-brasilien-in-die-stichwahl-a-fd58869c-7522-423c-8f26-753ace8ccfe8#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Brasilien: Bolsonaro-Sohn Flávio vor Lula – Rechtes Lager baut Macht überraschend deutlich aus",
+            "link": "https://www.handelsblatt.com/politik/international/brasilien-bolsonaro-sohn-vor-lula-rechtes-lager-baut-macht-ueberraschend-aus/100259634.html"
           }
         ]
       }
     },
     {
-      "id": "deutschlandfunk-1aa95bd7e780b8ec",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Wetter - Oft heiter und trocken, 17 bis 23 Grad",
-      "link": "https://www.deutschlandfunk.de/oft-heiter-und-trocken-17-bis-23-grad-102.html",
-      "summary": "Das Wetter: Im Süden und Südosten teils stark bewölkt, gebietsweise schauerartiger Regen. Sonst nach Nebelauflösung heiter bis wolkig. Höchstwerte 17 bis 23 Grad. Morgen in der Mitte Deutschlands und im Süden nach Nebelauflösung meist heiter und trocken. Im Norden stärker bewölkt und im Tagesverlauf etwas Regen. 17 bis 24 Grad.",
-      "image": "https://bilder.deutschlandfunk.de/e5/f6/55/84/e5f65584-6dc2-4dce-979d-729a024cd599/wetter-grafik-nachrichten-100-768x768.jpg",
-      "published": "2026-10-05T02:56:30+02:00",
+      "id": "golem-77dc1ff4b51db8af",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Hochbahn: Hamburg will die Kreditkarte zur Fahrkarte machen",
+      "link": "https://www.golem.de/news/hochbahn-hamburg-will-die-kreditkarte-zur-fahrkarte-machen-2610-213691.html",
+      "summary": "Hamburg nimmt sich London zum Vorbild: Fahrgäste sollen keinen Fahrausweis mehr benötigen, die Kreditkarte wird als Fahrschein gelten. ( ÖPNV , Kreditkarte )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213691&amp;page=1&amp;ts=1791178802",
+      "published": "2026-10-05T07:40:02+02:00",
       "category": "Technologie",
-      "score": 58.66
+      "score": 55.71
     },
     {
-      "id": "spiegel-854535e773af375a",
+      "id": "tagesschau-035cbf9100beccd6",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Marktbericht: DAX-Anleger starten Woche mit gemischten Gefühlen",
+      "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-jones-boerse-166.html",
+      "summary": "Es bleibt auch in der neuen Woche herausfordernd für den deutschen Leitindex. Zwar hat bereits am Freitag der US-Arbeitsmarktbericht die Zinssorgen gebremst. Trotzdem belasten die hohen Ölpreise. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/623e331e-6913-4630-b0aa-bd45003fc6c7/AAABoKO-QqQ/AAABnSSvrFg/16x9-big/boerse-542.jpg?width=1920",
+      "published": "2026-10-05T07:39:12+02:00",
+      "category": "Nachrichten",
+      "score": 58.7
+    },
+    {
+      "id": "spiegel-d4cd5dc87e59d865",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Lula und Bolsonaro-Sohn Flávio müssen in Brasilien in die Stichwahl",
-      "link": "https://www.spiegel.de/ausland/lula-und-bolsonaro-sohn-flavio-muessen-in-brasilien-in-die-stichwahl-a-fd58869c-7522-423c-8f26-753ace8ccfe8#ref=rss",
-      "summary": "Der 80-jährige Amtsinhaber oder der Spross des hart rechten Ex-Präsidenten – wer regiert künftig in Brasilien? Vorerst kann sich weder Luiz Inácio Lula da Silva noch Flávio Bolsonaro durchsetzen. Die Entscheidung fällt in drei Wochen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/af2ca932-5bbc-4aaf-971d-66d03ec6dbbb_w1200_r1.778_fpx54.64_fpy49.99.jpg",
-      "published": "2026-10-05T02:52:00+02:00",
+      "title": "Flydubai-Flug FZ1073: »Im Cockpit war niemand«, berichtet Augenzeuge von Flugdrama",
+      "link": "https://www.spiegel.de/ausland/augenzeuge-von-angriff-bei-flug-von-dubai-nach-israel-im-cockpit-war-niemand-a-9e8e9c2e-c709-4f15-b622-4fbb33e7e079#ref=rss",
+      "summary": "Auf einem Flug nach Israel wollte der Co-Pilot die Maschine offenbar gezielt zum Absturz bringen. Nun werden neue Details bekannt. Womöglich plante der Angreifer die Tat schon länger.",
+      "image": "https://cdn.prod.www.spiegel.de/images/c17c374b-d6b3-4d0d-beb8-535d2a7ea303_w1200_r1.778_fpx60.7_fpy45.jpg",
+      "published": "2026-10-05T07:34:00+02:00",
+      "category": "Politik",
+      "score": 76.62,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Beinahe-Katastrophe: Augenzeuge von Flugdrama: „Im Cockpit war niemand“",
+            "link": "https://www.handelsblatt.com/politik/international/beinahe-katastrophe-augenzeuge-von-flugdrama-im-cockpit-war-niemand/100259629.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "golem-703aad7787032f17",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Terminals: DHLs neue Zahlungsfunktion ist schon wieder gestoppt",
+      "link": "https://www.golem.de/news/terminals-dhls-neue-zahlungsfunktion-ist-schon-wieder-gestoppt-2610-213690.html",
+      "summary": "DHL muss den erst im Juli gestarteten kontaktlosen Zahlungsservice an der Haustür vorübergehend wieder abschalten. ( DHL , Smartphone )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213690&amp;page=1&amp;ts=1791178322",
+      "published": "2026-10-05T07:32:02+02:00",
+      "category": "Technologie",
+      "score": 55.6
+    },
+    {
+      "id": "spiegel-8917b1caa41a4066",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Galeria: Miteigentümer Beetz kritisiert erneuten Insolvenzantrag",
+      "link": "https://www.spiegel.de/wirtschaft/unternehmen/galeria-miteigentuemer-beetz-kritisiert-erneuten-insolvenzantrag-a-e02dab9d-1c67-41e7-93a3-cac5bb7b9bde#ref=rss",
+      "summary": "Die vierte Pleite des Warenhauskonzerns Galeria sorgt bei Miteigentümer Bernd Beetz für Unmut. Er kritisiert das Management. Der Umbau erfolge zu langsam.",
+      "image": "https://cdn.prod.www.spiegel.de/images/b2d41277-4081-4d9b-a18b-58ee48587b34_w1200_r1.778_fpx53.31_fpy49.99.jpg",
+      "published": "2026-10-05T07:26:00+02:00",
+      "category": "Nachrichten",
+      "score": 65.51
+    },
+    {
+      "id": "golem-912bd1a9544fa5fa",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Smartphone: Apple ermöglicht beim iPhone Duo Displayfolienwechsel",
+      "link": "https://www.golem.de/news/smartphone-apple-ermoeglicht-beim-iphone-duo-displayfolienwechsel-2610-213689.html",
+      "summary": "Apple plant für das faltbare iPhone Duo eine auswechselbare Schutzschicht für das Display. ( iPhone Duo , Display )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213689&amp;page=1&amp;ts=1791177422",
+      "published": "2026-10-05T07:17:02+02:00",
+      "category": "Technologie",
+      "score": 55.39
+    },
+    {
+      "id": "spiegel-fe6bcc5acd95f1a7",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Thüringen: Zwei Menschen betrunken am Steuer und kaufen an Tankstelle mehr Alkohol",
+      "link": "https://www.spiegel.de/panorama/justiz/thueringen-zwei-menschen-betrunken-am-steuer-und-kaufen-an-tankstelle-mehr-alkohol-a-94b621b0-673e-42dd-8935-292ca50eb700#ref=rss",
+      "summary": "In Thüringen saßen jeweils eine Frau und ein Mann betrunken am Steuer und fuhren dann noch zu einer Tankstelle, um mehr Alkohol »nachzutanken«. Beide wurden von der Polizei erwischt.",
+      "image": "https://cdn.prod.www.spiegel.de/images/46db8670-ebc2-4bbf-9b63-275bffdd3f69_w1200_r1.778_fpx65.69_fpy50.jpg",
+      "published": "2026-10-05T07:16:00+02:00",
+      "category": "Panorama",
+      "score": 57.37
+    },
+    {
+      "id": "golem-399aacebe066c8ce",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Anzeige: Microsoft Power Automate: Prozesse mit Flows automatisieren",
+      "link": "https://www.golem.de/news/anzeige-microsoft-power-automate-prozesse-mit-flows-automatisieren-2610-213232.html",
+      "summary": "Microsoft Power Automate automatisiert wiederkehrende Abläufe in Microsoft 365. Ein Online-Workshop vermittelt die Arbeit mit Flows, Triggern und Connectoren. ( Golem Karrierewelt , Server-Applikationen )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213232&amp;page=1&amp;ts=1791177302",
+      "published": "2026-10-05T07:15:02+02:00",
+      "category": "Technologie",
+      "score": 55.36
+    },
+    {
+      "id": "spiegel-441db093cbfb4c67",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "USA: Weißes Haus verteidigt neue Sprecherin, die mit Gewehr und »Fuck Joe Biden«-Shirt auftrat",
+      "link": "https://www.spiegel.de/ausland/usa-weisses-haus-verteidigt-neue-sprecherin-die-mit-gewehr-und-fuck-joe-biden-shirt-auftrat-a-705e5dd6-3416-418f-ae2d-c8309532aab6#ref=rss",
+      "summary": "Noch vor Kurzem arbeitete Beni Rae Harmony als Korrespondentin für ein Trump-nahes Medium. Nun darf die 24-Jährige direkt für den Präsidenten sprechen. Das Weiße Haus lobt sie als »vertrauenswürdige Stimme der MAGA-Bewegung«.",
+      "image": "https://cdn.prod.www.spiegel.de/images/447e3a09-dee7-4a58-a301-9eda9c936cea_w1200_r1.778_fpx30_fpy54.85.jpg",
+      "published": "2026-10-05T07:13:00+02:00",
+      "category": "Politik",
+      "score": 68.33
+    },
+    {
+      "id": "spiegel-b64f330b258d54cf",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Berlin: Mensch stürzt am Potsdamer Platz in Aufzugschacht 15 Meter in die Tiefe",
+      "link": "https://www.spiegel.de/panorama/potsdamer-platz-mensch-stuerzt-in-aufzugschacht-15-meter-in-die-tiefe-a-bc6d48de-113c-4523-8f1d-1ae12dc0d6a7#ref=rss",
+      "summary": "In Berlin ist ein Mensch in einem Aufzugschacht vier Stockwerke tief gefallen. Er wurde lebensgefährlich verletzt. Die Polizei ermittelt zur Ursache des Unglücks.",
+      "image": "https://cdn.prod.www.spiegel.de/images/46db8670-ebc2-4bbf-9b63-275bffdd3f69_w1200_r1.778_fpx65.69_fpy50.jpg",
+      "published": "2026-10-05T07:04:00+02:00",
+      "category": "Panorama",
+      "score": 57.21
+    },
+    {
+      "id": "handelsblatt-f1135b59bcf12960",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Bonusprogramm: DeutschlandCard endet: Punkte bald aufbrauchen",
+      "link": "https://www.handelsblatt.com/finanzen/steuern-recht/bonusprogramm-deutschlandcard-endet-punkte-bald-aufbrauchen/100259693.html",
+      "summary": "Ende November ist Schluss mit der DeutschlandCard. Was das für gesammelte Punkte bedeutet und für welche Kunden jetzt die Zeit läuft.",
+      "image": "https://images.handelsblatt.com/O23BlbJHJvrW/cover/900/506/0/0/107/106/0.5/0.5/senkung-der-kraftstoffsteuern-oldenburg.jpg",
+      "published": "2026-10-05T07:02:16+00:00",
+      "category": "Wirtschaft",
+      "score": 60.85
+    },
+    {
+      "id": "handelsblatt-1d93311f3991640b",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Anleihemarkt: Euro fällt auf 17‑Monats-Tief – Haushaltsunruhen destabilisieren",
+      "link": "https://www.handelsblatt.com/finanzen/maerkte/anleihemarkt-euro-faellt-auf-17monats-tief-haushaltsunruhen-destabilisieren/100259684.html",
+      "summary": "Politische Risiken und Sorgen um die Staatsfinanzen in Europa setzen den Euro unter Druck. Auch der starke Dollar belastet die Gemeinschaftswährung.",
+      "image": "https://images.handelsblatt.com/ED6qRqtkmCB7/cover/900/506/0/0/6/6/0.5/0.5/inflation-in-frankreich.jpeg",
+      "published": "2026-10-05T07:01:44+00:00",
+      "category": "Wirtschaft",
+      "score": 60.84
+    },
+    {
+      "id": "spiegel-a3780053da2f213f",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Brasilien: Der Bolsonaro-Clan triumphiert – Lula muss um Amt zittern",
+      "link": "https://www.spiegel.de/ausland/wahlen-in-brasilien-der-bolsonaro-clan-triumphiert-lula-muss-in-stichwahl-a-c1edecab-3c26-4cce-a27c-ed1e989c43e4#ref=rss",
+      "summary": "Das letzte Bollwerk der Linken in Südamerika steht vor dem Fall. Den Ultrarechten gelingt bei den Wahlen ein Durchmarsch. Für Politveteran Lula wird es schwer: Er muss gegen den Sohn von Ex-Präsident Jair Bolsonaro in die Stichwahl.",
+      "image": "https://cdn.prod.www.spiegel.de/images/e411c21a-9b7c-467e-b4d1-e18deccd4791_w1200_r1.778_fpx62.65_fpy49.99.jpg",
+      "published": "2026-10-05T07:01:00+02:00",
+      "category": "Politik",
+      "score": 77.17
+    },
+    {
+      "id": "handelsblatt-f979b6f33c69a558",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Telekommunikationskonzern: Deutsche Telekom will durch KI-Einsatz Milliarden sparen",
+      "link": "https://www.handelsblatt.com/technik/it-internet/telekommunikationskonzern-deutsche-telekom-will-durch-ki-einsatz-milliarden-sparen/100259694.html",
+      "summary": "Mit KI und Automatisierung will die Telekom bis 2030 jährlich 2,5 Milliarden Euro sparen. Was das für Service und neue Angebote bedeutet.",
+      "image": "https://images.handelsblatt.com/4yz9tXtIInmN/cover/900/506/0/0/107/106/0.5/0.5/telekom-chef-tim-hoettges.jpg",
+      "published": "2026-10-05T06:58:03+00:00",
+      "category": "Technologie",
+      "score": 57.79
+    },
+    {
+      "id": "handelsblatt-b6a4babc337c28f2",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Künstliche Intelligenz: Nach Trump-Aufruf: Musk will KI-Firma umbenennen",
+      "link": "https://www.handelsblatt.com/technik/it-internet/kuenstliche-intelligenz-nach-trump-aufruf-musk-will-ki-firma-umbenennen/100259692.html",
+      "summary": "Donald Trump will schon seit Wochen den Namen „Superintelligenz“ statt der gewohnten Bezeichnung Künstliche Intelligenz etablieren. Einer seiner alten Verbündeten folgt dem Ruf des US-Präsidenten.",
+      "image": "https://images.handelsblatt.com/B7o0me7LwRn5/cover/900/506/0/0/107/106/0.5/0.5/elon-musk.jpg",
+      "published": "2026-10-05T06:56:55+00:00",
+      "category": "Technologie",
+      "score": 65.78
+    },
+    {
+      "id": "spiegel-719da280c8d14a6f",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Spanien: Mindestens drei Menschen sterben nach extremen Regenfällen",
+      "link": "https://www.spiegel.de/panorama/spanien-mindestens-drei-menschen-sterben-nach-extremen-regenfaellen-a-7258f134-8969-4511-9350-4ebb9da4cd5f#ref=rss",
+      "summary": "Nach extremen Regenfällen sind in Spanien am Wochenende drei Menschen ums Leben gekommen. Ein weiterer Mensch wird vermisst. Ministerpräsident Sánchez erklärte, in Katalonien bleibe die Lage »sehr kompliziert«",
+      "image": "https://cdn.prod.www.spiegel.de/images/13375643-617a-4d47-b24d-847f9f64f643_w1200_r1.778_fpx28.27_fpy49.98.jpg",
+      "published": "2026-10-05T06:52:00+02:00",
+      "category": "Politik",
+      "score": 82.04
+    },
+    {
+      "id": "handelsblatt-099390c83e54083c",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Harvard-Professorin: „Führungskräfte reden im Schnitt zu viel“",
+      "link": "https://www.handelsblatt.com/unternehmen/management/fuehrungskraefte-persoenliche-fragen-sind-oft-weniger-heikel-als-wir-denken/100233453.html",
+      "summary": "Die Harvard-Professorin Alison Wood Brooks erforscht, was gute Gespräche ausmacht. Im Interview erklärt sie, warum schon 30 Sekunden Vorbereitung ein Gespräch verbessern und man häufiger „Was“ fragen sollte.",
+      "image": "https://images.handelsblatt.com/tWyIul27hYrj/cover/900/506/0/0/0/0/0.5/0.5/alison-wood-brooks.gif",
+      "published": "2026-10-05T06:49:00+00:00",
+      "category": "Wirtschaft",
+      "score": 60.67
+    },
+    {
+      "id": "handelsblatt-b320585f7ae7b87f",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Lungenpest: Pestverdacht in Russland – Labormitarbeiterin wird untersucht",
+      "link": "https://www.handelsblatt.com/technik/medizin/lungenpest-pestverdacht-in-russland-labormitarbeiterin-wird-untersucht/100259685.html",
+      "summary": "Nach dem Tod einer jungen Frau in einem sibirischen Krankenhaus steht der Verdacht auf Lungenpest im Raum. Wie verlief eine mögliche Infektion?",
+      "image": "https://images.handelsblatt.com/zkIYC5VbBCtv/cover/900/506/0/0/409/410/0.5/0.5/pestbakterien.jpg",
+      "published": "2026-10-05T06:44:44+00:00",
+      "category": "Wirtschaft",
+      "score": 60.61
+    },
+    {
+      "id": "handelsblatt-ae4146f7aa0da2f2",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Elektronik: Schneider Electric kündigt Milliardenübernahme von PTC an",
+      "link": "https://www.handelsblatt.com/unternehmen/industrie/elektronik-schneider-electric-kuendigt-milliardenuebernahme-von-ptc-an/100259661.html",
+      "summary": "Der französische Konzern wächst wegen des enormen Bedarfs neuer Rechenzentren. Nun steht das Unternehmen vor der Expansion in den USA und verkündet einen Milliardendeal.",
+      "image": "https://images.handelsblatt.com/vtjVlJppbP4Y/cover/900/506/0/0/268/267/0.5/0.5/schneider-electric.jpg",
+      "published": "2026-10-05T06:38:24+00:00",
+      "category": "Wirtschaft",
+      "score": 60.52
+    },
+    {
+      "id": "handelsblatt-66f2ba723e4e7bf7",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Sozialdemokraten: Babler kündigt Rückzug als Österreichs Vizekanzler an",
+      "link": "https://www.handelsblatt.com/politik/international/sozialdemokraten-babler-kuendigt-rueckzug-als-oesterreichs-vizekanzler-an/100259682.html",
+      "summary": "Finanzminister Marterbauer soll stellvertretender Regierungschef werden – doch seine Ernennung hängt von einer laufenden Krebstherapie ab. Auch andere Fragen bleiben vorerst offen.",
+      "image": "https://images.handelsblatt.com/INGsT0lyoXe-/cover/900/506/0/0/313/312/0.5/0.5/andreas-babler.jpg",
+      "published": "2026-10-05T06:37:34+00:00",
+      "category": "Politik",
+      "score": 83.34
+    },
+    {
+      "id": "tagesschau-d33fcb94cc1648bd",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "125 Jahre Nobelpreis: Was macht die Auszeichnung so bedeutend?",
+      "link": "https://www.tagesschau.de/wissen/forschung/nobelpreise-125-jahre-100.html",
+      "summary": "Von heute an wird wieder verkündet, wer die diesjährigen Nobelpreise erhält - und das seit mittlerweile 125 Jahren. Warum hat die Auszeichnung eine so hohe Bedeutung? Und wie werden die Preisträger ermittelt? Von Nina Kunze. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/5ab9262a-f84c-464e-a648-6135bf47ee62/AAABoQbSoqo/AAABnSSvrFg/16x9-big/nobelpreismuseum-102.jpg?width=1920",
+      "published": "2026-10-05T06:32:01+02:00",
+      "category": "Nachrichten",
+      "score": 57.76
+    },
+    {
+      "id": "handelsblatt-4637cbed54927c2c",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ Ukraine-Krieg +++: Merz in Kiew: Deutsche und ukrainische Firmen schließen Milliardenabkommen",
+      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-moskau-schliesst-konsulat-in-st.-petersburg123/27982126.html",
+      "summary": "Russland greift Industrie- und Infrastruktur an +++ Merz ist Drohnenangriff „offen gestanden relativ gleichgültig“ +++ Russland kündigt noch härtere Schläge auf Ukraine an +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/Cj12ewW5lInq/cover/900/506/0/0/105/104/0.5/0.5/an-iris-t-slm-x-surface-to-air-missile-system-at-the-diehl-defence-booth-at-the-ila-berlin-air-show.jpg",
+      "published": "2026-10-05T06:29:27+00:00",
+      "category": "Politik",
+      "score": 76.39
+    },
+    {
+      "id": "handelsblatt-7361c544cf97f8c1",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Einkommensteuer: Hier schaut das Finanzamt in der Steuererklärung für 2025 ganz genau hin",
+      "link": "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/finanzamt-wann-der-steuerzahler-mit-unangenehmen-nachfragen-rechnen-muss/100105886.html",
+      "summary": "Viele Steuererklärungen werden automatisch bearbeitet. Doch in einigen Fällen ist das Finanzamt besonders kritisch. Wann Steuerzahler unangenehmen Nachfragen zuvorkommen sollten.",
+      "image": "https://images.handelsblatt.com/akX0noZ4HDXd/cover/900/506/0/0/140/140/0.5/0.5/steuererklaerung.png",
+      "published": "2026-10-05T06:27:00+00:00",
+      "category": "Wirtschaft",
+      "score": 60.36
+    },
+    {
+      "id": "spiegel-c05b853003e945f3",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "TikTok-Diskussion: Iced Coffee in Bewerbungsgesprächen, ja oder nein?",
+      "link": "https://www.spiegel.de/netzwelt/tiktok-diskussion-iced-coffee-in-bewerbungsgespraechen-ja-oder-nein-a-8957fbdd-bce3-4111-925e-d8fb3bbdd2e5#ref=rss",
+      "summary": "Auf TikTok diskutieren viele, ob To-go-Getränke im Vorstellungsgespräch erlaubt sind. Dabei geht es um mehr als nur Arbeitsmoral: Die Frage wird zum Konflikt zwischen Gen Z und Millennials.",
+      "image": "https://cdn.prod.www.spiegel.de/images/68d0c6e4-69e9-4f88-8df9-2540829d19b0_w1200_r1.778_fpx51.34_fpy45.jpg",
+      "published": "2026-10-05T06:22:00+02:00",
+      "category": "Nachrichten",
+      "score": 56.62
+    },
+    {
+      "id": "handelsblatt-870ede547e57fa52",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Hochfunktionale Depression: Nach außen leistungsfähig, doch „innerlich wie abgestorben“",
+      "link": "https://www.handelsblatt.com/karriere/fuehrungskraefte-depression-bei-leistungstraegern-bleibt-oft-unsichtbar/100250351.html",
+      "summary": "Wer eine Depression hat, ist antriebslos und igelt sich ein? Falsch, sagt der Psychiater Ulrich Hegerl. Viele Erkrankte bringen weiter Höchstleistung im Job. Was können Chefs tun?",
+      "image": "https://images.handelsblatt.com/4Q6TO635jNwo/cover/900/506/0/0/313/312/0.5/0.5/a-portrait-of-a-red-haired-woman-her-face-covered-in-sticky-notes-reading-deadline-and-focus.-t.jpg",
+      "published": "2026-10-05T06:22:00+00:00",
+      "category": "Wirtschaft",
+      "score": 60.29
+    },
+    {
+      "id": "handelsblatt-2870cde50d7b4dee",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Telekommunikation: Deutsche Telekom erhofft sich Milliarden-Einsparungen durch KI",
+      "link": "https://www.handelsblatt.com/technik/it-internet/telekommunikation-deutsche-telekom-erhofft-sich-milliarden-einsparungen-durch-ki/100259677.html",
+      "summary": "Mit Künstlicher Intelligenz will die Telekom nicht nur den Kundenservice neu aufstellen, sondern auch die Netze entlasten. Das soll sich in der Bilanz bemerkbar machen.",
+      "image": "https://images.handelsblatt.com/uNRKNTUqyg0e/cover/900/506/0/0/206/206/0.5/0.5/timotheus-hoettges.jpg",
+      "published": "2026-10-05T06:13:01+00:00",
+      "category": "Technologie",
+      "score": 57.17
+    },
+    {
+      "id": "handelsblatt-19beb73c4e4837a5",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Insight Innovation: Leise, sparsam, groß: Das radikal neue Flugzeugdesign aus Amerika",
+      "link": "https://www.handelsblatt.com/technik/forschung-innovation/luftfahrt-start-up-aus-amerika-plant-flugzeug-mit-radikal-neuem-design/100248246.html",
+      "summary": "Die US-Regierung unterstützt das Start-up Jetzero, das ein völlig neues Flugzeug bauen will. Diese Nurflügler haben einige Vorteile – aber viele Hindernisse zu überwinden.",
+      "image": "https://images.handelsblatt.com/2GRa1mn5J8ev/cover/900/506/0/0/0/0/0.5/0.5/jetzero-illu.jpg",
+      "published": "2026-10-05T05:59:00+00:00",
+      "category": "Politik",
+      "score": 59.97
+    },
+    {
+      "id": "handelsblatt-fb069dfc89ff8802",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Brasilien: Bolsonaro-Sohn Flávio vor Lula – Rechtes Lager baut Macht überraschend deutlich aus",
+      "link": "https://www.handelsblatt.com/politik/international/brasilien-bolsonaro-sohn-vor-lula-rechtes-lager-baut-macht-ueberraschend-aus/100259634.html",
+      "summary": "Die brasilianische Präsidentschaft geht in die Stichwahl. Der Rechtsruck in den Gouverneurs- und Senatswahlen verschiebt schon jetzt die Machtverhältnisse im ganzen Land.",
+      "image": "https://images.handelsblatt.com/sjdkFMCM6YM0/cover/900/506/0/0/0/410/0.5/0.5/opposition-presidential-candidate-sen.-flavio-bolsonaro-speaks-after-advancing-to-a-runoff-election.jpg",
+      "published": "2026-10-05T05:40:25+00:00",
       "category": "Politik",
       "score": 86.66
+    },
+    {
+      "id": "tagesschau-c1b4602c7f9d43e8",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Linke zieht gegen Reiche vor Bundesverfassungsgericht",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/linke-klage-reiche-bundesverfassungsgericht-100.html",
+      "summary": "Die Linke wirft CDU-Politikerin Reiche vor, mit einem Video auf dem Account des Bundeswirtschaftsministeriums das Neutralitätsgebot verletzt zu haben. Nun will die Partei das höchste deutsche Gericht entscheiden lassen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/e08ec56c-ef69-4d3d-9cc2-a4200166c1fe/AAABn4n8_vo/AAABnSSvrFg/16x9-big/reiche-204.jpg?width=1920",
+      "published": "2026-10-05T05:39:00+02:00",
+      "category": "Politik",
+      "score": 75.34
+    },
+    {
+      "id": "handelsblatt-a8b8be580ca54719",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Zeekr 9X: Geely bringt dieses Luxus-SUV nach Deutschland",
+      "link": "https://www.handelsblatt.com/mobilitaet/motor/zeekr-9x-geely-bringt-dieses-luxus-suv-nach-deutschland/100259672.html",
+      "summary": "Mit dem Zeekr 9X wollen die Chinesen gegen Bentley und Rolls-Royce antreten. Dafür bieten sie viel Komfort. Doch reicht ein günstiger Preis für die anspruchsvolle Kundschaft?",
+      "image": "https://images.handelsblatt.com/311F4O3ig4I0/cover/900/506/393/283/456/253/0.5/0.5/zeekr-9x.jpg",
+      "published": "2026-10-05T05:38:08+00:00",
+      "category": "Wirtschaft",
+      "score": 59.68
+    },
+    {
+      "id": "handelsblatt-d1a1332423c3c074",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Interview: Paulaner-Chef: „Ich bin traditionell – ich trinke Wasser und Bier“",
+      "link": "https://www.handelsblatt.com/unternehmen/mittelstand/familienunternehmer/familienunternehmen-ich-bin-traditionell-ich-trinke-wasser-und-bier-01/100254359.html",
+      "summary": "Eigentümer Florian Schörghuber spricht über die Strahlkraft des Oktoberfests, seine Milliardenwette auf ein Münchener Hochhaus – und erklärt, warum ihm El Niño Sorgen macht.",
+      "image": "https://images.handelsblatt.com/TfFvYDxuyJxB/cover/900/506/0/0/670/2799/0.5/0.5/schoerghuberflorian.jpg",
+      "published": "2026-10-05T05:34:00+00:00",
+      "category": "Wirtschaft",
+      "score": 59.62
+    },
+    {
+      "id": "handelsblatt-5ee384ac106266b8",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Klimaschutz: 15 Verbände stemmen sich gegen Brüssels Klima-Pläne und fordern Unterstützung von der Regierung",
+      "link": "https://www.handelsblatt.com/politik/deutschland/klimaschutz-15-verbaende-stemmen-sich-gegen-eu-reform-01/100259209.html",
+      "summary": "Weite Teile der Industrie warnen vor dem Plan der EU-Kommission, die kostenlose Zuteilung von Emissionszertifikaten mit Investitionspflichten zu verknüpfen. Nun soll die Bundesregierung helfen.",
+      "image": "https://images.handelsblatt.com/p5lizaXMSgHB/cover/900/506/0/0/382/383/0.5/0.5/archiv-17.07.2026-sachsen-anhalt-wittenberg-blick-auf-das-werksgelaende-der-skw-piesteritz-gmbh..jpg",
+      "published": "2026-10-05T05:32:00+00:00",
+      "category": "Politik",
+      "score": 59.6
+    },
+    {
+      "id": "spiegel-6f9e5cb3468d706f",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Literatur & Bestseller: Barack Obama hat jetzt auch einen Literatur-Podcast",
+      "link": "https://www.spiegel.de/kultur/literatur/literatur-bestseller-barack-obama-hat-jetzt-auch-einen-literatur-podcast-a-0f828574-5f8e-49e4-bba9-a4a2e35208fb#ref=rss",
+      "summary": "",
+      "image": "https://cdn.prod.www.spiegel.de/images/4bd001eb-2b0a-484c-b0e0-493d1e8853e0_w1200_r1.778_fpx35.52_fpy49.99.jpg",
+      "published": "2026-10-05T05:31:00+02:00",
+      "category": "Nachrichten",
+      "score": 55.92
+    },
+    {
+      "id": "spiegel-11911852ad1e2f4d",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Mentale Gesundheit: Wie ein Psychiater erschöpften Führungskräften vorbeugt",
+      "link": "https://www.spiegel.de/karriere/mentale-gesundheit-wie-ein-psychiater-erschoepften-fuehrungskraeften-vorbeugt-a-835f76b8-6156-4c09-bf73-3383169a3c97#ref=rss",
+      "summary": "Psychiater Bert te Wildt behandelt erschöpfte Managerinnen, Chefärzte und Museumsdirektoren. Hier erklärt er, warum es in manchen Kreisen fast dazugehört, immer kurz vor dem Burn-out zu stehen – und wie er selbst vorbeugt.",
+      "image": "https://cdn.prod.www.spiegel.de/images/49d10a74-ea84-484c-be7c-ebd0c7cbf92d_w1200_r1.778_fpx57_fpy51.jpg",
+      "published": "2026-10-05T05:30:00+02:00",
+      "category": "Nachrichten",
+      "score": 55.9
+    },
+    {
+      "id": "spiegel-460dbcc0f8295232",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "News: Woche der Nobelpreise, Französische Schulden, Energiekostenrechner",
+      "link": "https://www.spiegel.de/politik/deutschland/news-woche-der-nobelpreise-franzoesische-schulden-energiekostenrechner-a-747c79c3-b777-43a5-b568-369b5e993901#ref=rss",
+      "summary": "Die Nobelpreiswoche beginnt. Frankreich macht immer mehr Schulden. Und die Energiekosten steigen. Das ist die Lage am Montagmorgen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/648c499d-dfda-44ae-bef3-28e45adc7a1e_w1200_r1.778_fpx55.93_fpy54.87.jpg",
+      "published": "2026-10-05T05:27:00+02:00",
+      "category": "Nachrichten",
+      "score": 55.86
+    },
+    {
+      "id": "handelsblatt-5eeddca70f02ed34",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "100 Jahre: Wie Mercedes-Benz zur Weltmarke aufstieg",
+      "link": "https://www.handelsblatt.com/mobilitaet/oldtimer/100-jahre-wie-mercedes-benz-zur-weltmarke-aufstieg/100259667.html",
+      "summary": "Vor genau 100 Jahren wurde die wertvollste Premiummarke geboren: Auf dem Berliner Automobilsalon feierte Mercedes-Benz 1926 seine Premiere. Ein Rückblick auf eine bewegte Geschichte.",
+      "image": "https://images.handelsblatt.com/isci183EXUKY/cover/900/506/414/829/761/457/0.5/0.5/mercedes-fahrzeuge-aus-100-jahren..jpg",
+      "published": "2026-10-05T05:26:29+00:00",
+      "category": "Wirtschaft",
+      "score": 59.52
+    },
+    {
+      "id": "handelsblatt-8464c758345cfe0a",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Kommentar: Der Zins, der die Finanzwelt neu sortiert",
+      "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-der-zins-der-die-finanzwelt-neu-sortiert-01/100259070.html",
+      "summary": "Noch richten die steigenden Anleiherenditen nur begrenzten Schaden an. Aber die Dynamik kann sich schnell ändern. Ein Sektor kann vom Wachstumstreiber zum Großrisiko werden.",
+      "image": "https://images.handelsblatt.com/cBkQgdJ4oNuG/cover/900/506/0/0/417/0/0.5/0.5/wall-street.jpg",
+      "published": "2026-10-05T05:21:00+00:00",
+      "category": "Wirtschaft",
+      "score": 59.44
+    },
+    {
+      "id": "handelsblatt-1412c7c1b621c5e6",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Gen Z: „Die Demut kehrt zurück – aber nicht bei allen“",
+      "link": "https://www.handelsblatt.com/karriere/gen-z-die-demut-kehrt-zurueck-aber-nicht-bei-allen-02/100256476.html",
+      "summary": "Vier-Tage-Woche, Homeoffice – lange bestimmte die Generation Z die Bedingungen am Arbeitsmarkt. Jetzt schrumpft das Jobangebot für Einsteiger massiv. Wie forsch können sie noch auftreten?",
+      "image": "https://images.handelsblatt.com/Fsg74qqa4gYD/cover/900/506/0/0/0/0/0.5/0.5/genz.jpg",
+      "published": "2026-10-05T05:20:00+00:00",
+      "category": "Wirtschaft",
+      "score": 59.43
+    },
+    {
+      "id": "handelsblatt-138956ce6730d498",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Luxusmarketing: Das Geschäft mit dem 60-Dollar-Brot",
+      "link": "https://www.handelsblatt.com/unternehmen/mittelstand/new-york-das-geschaeft-mit-dem-60-dollar-brot/100259525.html",
+      "summary": "In New York ist ein Hype um österreichisches Roggensauerteigbrot entstanden. Er zeigt, wie sich die Sehnsucht nach Herkunft und Handwerk mit Luxusmarketing und Social Media verbinden lässt.",
+      "image": "https://images.handelsblatt.com/6xwpyYhCaxAJ/cover/900/506/0/0/378/378/0.5/0.5/das-geschaeft-mit-dem-60-dollar-brot.jpg",
+      "published": "2026-10-05T05:18:00+00:00",
+      "category": "Wirtschaft",
+      "score": 59.4
+    },
+    {
+      "id": "handelsblatt-71c250bede4190d3",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ Iran-Krieg +++: Iran öffnet Straße von Hormus erst nach Erfüllung des Interimsabkommens",
+      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-iran-oeffnet-strasse-von-hormus-erst-nach-erfuellung-des-interimsabkommens/100136895.html",
+      "summary": "Tanker meldet Explosionen nahe der Meerenge Bab al-Mandab +++ Jemens Regierung kündigt Großoffensive gegen Huthis an +++ Tanker in Straße von Hormus von Geschoss getroffen +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/MoiZIwmuc3-i/cover/900/506/0/0/313/312/0.5/0.5/archiv-07.09.2026-iran-bandar-abbas-eine-schwimmende-baggerplattform-und-handelsschiffe-liegen.jpg",
+      "published": "2026-10-05T05:17:14+00:00",
+      "category": "Politik",
+      "score": 67.39
+    },
+    {
+      "id": "handelsblatt-5ae4d4670e008574",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Studie: Europäische Autobauer dürften Emissionsziele bis 2027 erfüllen",
+      "link": "https://www.handelsblatt.com/unternehmen/industrie/studie-europaeische-autobauer-duerften-emissionsziele-bis-2027-erfuellen/100259666.html",
+      "summary": "Die Emissionsziele der EU seien zu ambitioniert, heißt es aus der Autoindustrie. Dabei haben die Hersteller bereits 75 Prozent der Vorgaben erreicht, zeigt eine neue Studie.",
+      "image": "https://images.handelsblatt.com/yweFJHF1otIT/cover/900/506/0/0/39/174/0.5/0.5/pkw-mit-doppeltem-auspuff.jpeg",
+      "published": "2026-10-05T05:09:45+00:00",
+      "category": "Wissenschaft",
+      "score": 56.29
+    },
+    {
+      "id": "spiegel-25088fcefa0af489",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "»Tatort«-Vote: Wie gefiel Ihnen »Explosive Mischung« mit Ulrike Folkerts?",
+      "link": "https://www.spiegel.de/kultur/tv/tatort-vote-wie-gefiel-ihnen-explosive-mischung-mit-ulrike-folkerts-a-58134545-a106-40a5-acea-6b9a419a51aa#ref=rss",
+      "summary": "Ein Bankautomat war in die Luft gesprengt worden – als mögliche Schuldige präsentierten sich eine Reihe problematischer Männer. Der »Tatort« war eine überladene Parade labiler Lederjäckchenträger. Oder sind Sie anderer Meinung?",
+      "image": "https://cdn.prod.www.spiegel.de/images/f31c9c32-b7c2-40d6-8894-8fc67d5bc068_w1200_r1.778_fpx54.76_fpy45.jpg",
+      "published": "2026-10-05T05:08:00+02:00",
+      "category": "Nachrichten",
+      "score": 55.6
+    },
+    {
+      "id": "tagesschau-17c54a9c9041b5d1",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Österreichs Vizekanzler und SPÖ-Chef Babler kündigt Rückzug an",
+      "link": "https://www.tagesschau.de/ausland/europa/oesterreich-rueckzug-vizekanzler-100.html",
+      "summary": "Der Chefposten der SPÖ in Österreich gilt als Schleudersitz. Und er wurde seinem Ruf erneut gerecht: Vizekanzler und Parteichef Babler zieht sich zurück. Damit will er eine stabile Regierung gewährleisten - und Neuwahlen verhindern. Von S. Hahne. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/75b8d8f6-38ad-4495-b67c-6c40e98d098e/AAABoQnxd4A/AAABnSSvrFg/16x9-big/andreas-babler-102.jpg?width=1920",
+      "published": "2026-10-05T05:04:40+02:00",
+      "category": "Politik",
+      "score": 83.34,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Wien - Österreichs Vizekanzler Babler kündigt Rückzug aus Regierungsamt und vom Parteivorsitz der SPÖ an",
+            "link": "https://www.deutschlandfunk.de/oesterreichs-vizekanzler-babler-kuendigt-rueckzug-aus-regierungsamt-und-vom-parteivorsitz-der-spoe-a-108.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Sozialdemokraten: Babler kündigt Rückzug als Österreichs Vizekanzler an",
+            "link": "https://www.handelsblatt.com/politik/international/sozialdemokraten-babler-kuendigt-rueckzug-als-oesterreichs-vizekanzler-an/100259682.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "handelsblatt-2c04f4e4a3b203d5",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Drohnen: Hält die Wirtschaft der Ukraine Moskaus Luftangriffen stand?",
+      "link": "https://www.handelsblatt.com/politik/international/drohnen-haelt-die-wirtschaft-der-ukraine-moskaus-luftangriffen-stand/100259665.html",
+      "summary": "Im fünften Kriegsjahr richtet Russland seine Gewalt zunehmend gegen die zivile Wirtschaft in der Ukraine. Moskau will die Ukrainer zermürben. Drohnen treffen auch deutsche Unternehmen.",
+      "image": "https://images.handelsblatt.com/rBy11mFlLCqq/cover/900/506/0/0/192/192/0.5/0.5/ukraine-krieg.jpg",
+      "published": "2026-10-05T05:02:52+00:00",
+      "category": "Wirtschaft",
+      "score": 75.19
+    },
+    {
+      "id": "tagesschau-801fe7222e13bf37",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "SPD-Basis setzt rote Linien bei der Arbeitszeitreform",
+      "link": "https://www.tagesschau.de/inland/gesellschaft/spd-arbeitszeit-woche-100.html",
+      "summary": "Die Koalition will Arbeitszeitregeln flexibler machen. Nun meldet sich die SPD-Basis zu Wort: Keine Wochenarbeitszeit ohne Tarifvertrag, heißt es in einem Positionspapier. Das könnte neuen Streit in der Koalition bedeuten. Von Jan-Peter Bartels. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/456a08fe-267d-4543-9720-3355fbe9bc15/AAABoQoBwug/AAABnSSvrFg/16x9-big/arbeitszeit-130.jpg?width=1920",
+      "published": "2026-10-05T05:00:50+02:00",
+      "category": "Nachrichten",
+      "score": 56.5
+    },
+    {
+      "id": "handelsblatt-893cc33db5b3b1e0",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Sachsen-Anhalt: So läuft die erste Landtagssitzung – erster AfD-Präsident?",
+      "link": "https://www.handelsblatt.com/politik/deutschland/sachsen-anhalt-so-laeuft-die-erste-landtagssitzung-erster-afd-praesident/100259662.html",
+      "summary": "Nach der Landtagswahl in Sachsen-Anhalt kommt das Parlament erstmals in Magdeburg zusammen. Was entschieden wird – und warum Präsidentenwahl und Regeln wichtig sind.",
+      "image": "https://images.handelsblatt.com/-OUNpT3RcAue/cover/900/506/0/588/358/357/0.5/0.5/landtag-von-sachsen-anhalt.jpg",
+      "published": "2026-10-05T04:55:18+00:00",
+      "category": "Politik",
+      "score": 67.09
+    },
+    {
+      "id": "spiegel-74d7d592f75ceb49",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Kim Kardashian war ein halbes Jahrzehnt lang Single",
+      "link": "https://www.spiegel.de/panorama/leute/kim-kardashian-realitystar-spricht-ueber-fuenf-jahre-ohne-beziehung-a-c243b160-e03b-403e-9e83-3e21c6e43d7e#ref=rss",
+      "summary": "Ihre Ehe mit Skandalrapper Kanye West scheiterte spektakulär. Danach nahm sich Kim Kardashian nach eigenen Angaben eine extralange Auszeit von der Datingszene. Der »Times« verriet sie, warum das eine gute Idee war.",
+      "image": "https://cdn.prod.www.spiegel.de/images/06af0c31-a66a-4e34-985c-7a27dd469a0f_w1200_r1.778_fpx67_fpy42.jpg",
+      "published": "2026-10-05T04:32:00+02:00",
+      "category": "Technologie",
+      "score": 55.1
+    },
+    {
+      "id": "handelsblatt-d141df82eeee9a09",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Nach Festnahmen: USA ziehen B-1-Bomber von britischem Stützpunkt ab",
+      "link": "https://www.handelsblatt.com/politik/international/grossbritannien-usa-ziehen-b-1-bomber-von-britischem-stuetzpunkt-ab/100259659.html",
+      "summary": "Mehrere Verdächtige sollen einen Anschlag auf eine amerikanische Militärbasis in Großbritannien geplant haben. London verdächtigt den Iran, die USA holen mehrere Bomber zurück.",
+      "image": "https://images.handelsblatt.com/Lab3KPEW2aIG/cover/900/506/0/0/0/282/0.5/0.5/a-usaf-b-1-bomber-on-the-runway-as-it-takes-off-at-raf-fairford-airbase-used-by-united-states-air-f.jpg",
+      "published": "2026-10-05T04:28:09+00:00",
+      "category": "Wirtschaft",
+      "score": 70.39
+    },
+    {
+      "id": "handelsblatt-f3475c0d5c3078ec",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Börse am 5. Oktober: Sechs Punkte, die für Anleger heute wichtig sind",
+      "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+      "summary": "Der deutsche Leitindex ist weiterhin auf der Suche nach klaren Impulsen. Anleger blicken am Montag auf den Anleihemarkt und Konjunkturzahlen. Wie startet der Dax in die neue Börsenwoche?",
+      "image": "https://images.handelsblatt.com/iYJIYlJ0LyLk/cover/900/506/0/0/0/0/0.5/0.5/kurstafel.png",
+      "published": "2026-10-05T04:21:50+00:00",
+      "category": "Wirtschaft",
+      "score": 58.62
+    },
+    {
+      "id": "handelsblatt-457478c8f6847ece",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Morning Briefing Podcast: Ukraine: Der Kanzler geht all in / China: Europa will sich wehren können",
+      "link": "https://www.handelsblatt.com/audio/podcast-morning-briefing/morning-briefing-podcast-ukraine-der-kanzler-geht-all-in---china-europa-will-sich-wehren-koennen/100259656.html",
+      "summary": "Innenpolitisch dürfte die Kanzlerschaft Merz als großes Missverständnis enden. Aber es gibt noch eine Mission, bei der der CDU-Chef für das Land große Verdienste erwerben kann.",
+      "image": "https://images.handelsblatt.com/GqjedYa4TtiY/cover/900/506/0/0/656/657/0.5/0.5/morning-briefing-podcast-teaser-2025.jpg",
+      "published": "2026-10-05T04:21:40+00:00",
+      "category": "Politik",
+      "score": 66.62
+    },
+    {
+      "id": "tagesschau-f404f346cefa253a",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Ermittlungen wegen Terrorverdacht: USA ziehen Bomber von britischem Stützpunkt ab",
+      "link": "https://www.tagesschau.de/ausland/europa/usa-bomber-grossbritannien-abzug-100.html",
+      "summary": "Washington hat seine Langstreckenbomber vom britischen Militärstützpunkt Fairford zurückbeordert - aus Sicherheitsgründen, wie das Pentagon erklärte. Vor einer Woche waren dort Männer wegen möglicher Anschlagspläne festgenommen worden.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/e5c57499-2ab8-4b2a-8d46-ec5dcc92c8f5/AAABoQmlMt8/AAABnSSvrFg/16x9-big/fairford-bomber-kampfjet-100.jpg?width=1920",
+      "published": "2026-10-05T03:56:23+02:00",
+      "category": "Nachrichten",
+      "score": 70.39
+    },
+    {
+      "id": "handelsblatt-2f1831ef24b1bf08",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Morning Briefing: Das eine Thema, an dem Kanzler Merz noch wachsen kann",
+      "link": "https://www.handelsblatt.com/meinung/morningbriefing/morning-briefing-das-eine-thema-an-dem-kanzler-merz-noch-wachsen-kann/100259612.html",
+      "summary": "Innenpolitisch dürfte die Kanzlerschaft Merz als großes Missverständnis enden. Aber es gibt noch eine Mission, bei der der CDU-Chef für das Land große Verdienste erwerben kann.",
+      "image": "https://images.handelsblatt.com/47d5QgD3gb49/cover/900/506/0/0/0/0/0.5/0.5/sven-prange.png",
+      "published": "2026-10-05T03:46:50+00:00",
+      "category": "Wirtschaft",
+      "score": 66.62
     },
     {
       "id": "tagesschau-39e2a0ac14258708",
@@ -258,29 +1219,93 @@
       "link": "https://www.tagesschau.de/ausland/amerika/wahl-brasilien-bolsonaro-lula-100.html",
       "summary": "Die Präsidentenwahl in Brasilien wird in einer Stichwahl entschieden: Herausforderer Bolsonaro liegt nach Auszählung fast aller Stimmen zwar etwas vor Amtsinhaber Lula - aber die absolute Mehrheit erreichten beide nicht.[ mehr ]",
       "image": "https://images.tagesschau.de/image/8e7ac03d-34cb-463f-8307-57eb9ae91772/AAABoQkeNtw/AAABnSSvrFg/16x9-big/flyer-wahl-brasilien-100.jpg?width=1920",
-      "published": "2026-10-05T02:43:14+02:00",
+      "published": "2026-10-05T03:35:56+02:00",
       "category": "Politik",
-      "score": 86.66,
-      "coverage": {
-        "sourceCount": 4,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Brasilien - Stichwahl zwischen Bolsonaro und Lula um Präsidentenamt",
-            "link": "https://www.deutschlandfunk.de/stichwahl-zwischen-bolsonaro-und-lula-um-praesidentenamt-100.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Lula und Bolsonaro-Sohn Flávio müssen in Brasilien in die Stichwahl",
-            "link": "https://www.spiegel.de/ausland/lula-und-bolsonaro-sohn-flavio-muessen-in-brasilien-in-die-stichwahl-a-fd58869c-7522-423c-8f26-753ace8ccfe8#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Wahlen: Stichwahl in Brasilien – Lula gegen Bolsonaro-Sohn Flávio",
-            "link": "https://www.handelsblatt.com/politik/international/wahlen-stichwahl-in-brasilien-lula-gegen-bolsonaro-sohn-flavio/100259634.html"
-          }
-        ]
-      }
+      "score": 86.66
+    },
+    {
+      "id": "handelsblatt-f883d57ace4b5cd7",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Angespielt: „Gears of War: E-Day“: Wie der Kampf gegen die Locust begann",
+      "link": "https://www.handelsblatt.com/technik/it-internet/angespielt-gears-of-war-e-day-wie-der-kampf-gegen-die-locust-begann/100259654.html",
+      "summary": "Voller Härte, voller Wut - und natürlich mit Lancer-Kettensäge: Im neuen, furiosen Prequel der Shooter-Reihe erleben Fans, wie der Krieg auf Sera begann - und Marcus und Dom zu Brüdern wurden.",
+      "image": "https://images.handelsblatt.com/1fresgH-jNhh/cover/900/506/0/0/0/0/0.5/0.5/screenshot-gears-of-war-e-day.jpg",
+      "published": "2026-10-05T03:23:06+00:00",
+      "category": "Wirtschaft",
+      "score": 65.81
+    },
+    {
+      "id": "handelsblatt-31903efbe5432d76",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Fragen aus dem Arbeitsrecht: Kann mein Chef festlegen, wann ich Pause machen muss?",
+      "link": "https://www.handelsblatt.com/politik/deutschland/fragen-aus-dem-arbeitsrecht-kann-mein-chef-festlegen-wann-ich-pause-machen-muss/100259652.html",
+      "summary": "„Ich geh´ dann mal in die Pause!“ In vielen Jobs geht das ganz flexibel. Prinzipiell können Vorgesetzte hier aber mitreden. Ein Anwalt erklärt kurz und kompakt, was rechtlich gilt.",
+      "image": "https://images.handelsblatt.com/sUF26BPlrb8n/cover/900/506/0/0/107/106/0.5/0.5/arbeitnehmer-machen-pause-in-der-buerokueche.jpg",
+      "published": "2026-10-05T03:13:04+00:00",
+      "category": "Wirtschaft",
+      "score": 57.67
+    },
+    {
+      "id": "handelsblatt-500482a8383a4c5c",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Märkte Asien: Hoffnung auf Zinspause beflügelt asiatische Börsen",
+      "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/maerkte-asien-hoffnung-auf-zinspause-befluegelt-asiatische-boersen/100259648.html",
+      "summary": "Die japanischen Investoren schöpfen Mut und hoffen, dass die amerikanische Fed ihren Leitzins erst einmal nicht weiter antastet. In China sind die Börsen derweil geschlossen.",
+      "image": "https://images.handelsblatt.com/-eo-hKAfb-Gp/cover/900/506/0/0/107/106/0.5/0.5/maerkte-asien.jpeg",
+      "published": "2026-10-05T03:10:24+00:00",
+      "category": "Wirtschaft",
+      "score": 57.63
+    },
+    {
+      "id": "handelsblatt-fa3b3ad988f6d99e",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Präsidentenwahl in Brasilien: Flávio Bolsonaro leicht favorisiert in Stichwahl gegen Lula",
+      "link": "https://www.handelsblatt.com/politik/international/praesidentenwahl-in-brasilien-flavio-bolsonaro-leicht-favorisiert-in-stichwahl-gegen-lula/100259635.html",
+      "summary": "Die Präsidentenwahl in Brasilien geht in eine zweite Runde. Wie vor vier Jahren stehen zwei Namen zur Auswahl: Lula und Bolsonaro. Dieses Mal heißt Lulas Herausforderer allerdings mit Vornamen Flávio.",
+      "image": "https://images.handelsblatt.com/f5JznKzT4KVm/cover/900/506/0/0/107/106/0.5/0.5/kombo-luiz-inacio-lula-da-silva-und-flavio-bolsonaro.jpg",
+      "published": "2026-10-05T03:09:25+00:00",
+      "category": "Politik",
+      "score": 75.62
+    },
+    {
+      "id": "handelsblatt-b60f45efc618d643",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Finanzkriminalität: Grüne kritisieren Stellenabbau bei Betriebsprüfern",
+      "link": "https://www.handelsblatt.com/politik/deutschland/finanzkriminalitaet-gruene-kritisieren-stellenabbau-bei-betriebspruefern/100259649.html",
+      "summary": "Betrug mit Cum-Ex und Cum-Cum kostete den Staat Milliarden. Die Grünen warnen nun: Ausgerechnet bei Betriebsprüfern, die die Aufklärung unterstützen, werde gespart.",
+      "image": "https://images.handelsblatt.com/AEDHL3Ibknh-/cover/900/506/0/0/108/107/0.5/0.5/gruenen-politikerin-katharina-beck.jpg",
+      "published": "2026-10-05T03:00:09+00:00",
+      "category": "Panorama",
+      "score": 54.49
+    },
+    {
+      "id": "spiegel-854535e773af375a",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Brasilien: Lula und Bolsonaro-Sohn Flávio müssen in die Stichwahl",
+      "link": "https://www.spiegel.de/ausland/lula-und-bolsonaro-sohn-flavio-muessen-in-brasilien-in-die-stichwahl-a-fd58869c-7522-423c-8f26-753ace8ccfe8#ref=rss",
+      "summary": "Der 80-jährige Amtsinhaber oder der Spross des hart rechten Ex-Präsidenten – wer regiert künftig in Brasilien? Vorerst kann sich weder Luiz Inácio Lula da Silva noch Flávio Bolsonaro durchsetzen. Die Entscheidung fällt in drei Wochen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/af2ca932-5bbc-4aaf-971d-66d03ec6dbbb_w1200_r1.778_fpx54.64_fpy49.99.jpg",
+      "published": "2026-10-05T02:52:00+02:00",
+      "category": "Politik",
+      "score": 86.66
+    },
+    {
+      "id": "handelsblatt-9eb047e19535a516",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Gefühlssache: Wechseljahre oder Psyche: Was ist eigentlich los mit mir?",
+      "link": "https://www.handelsblatt.com/technik/medizin/gefuehlssache-wechseljahre-oder-psyche-was-ist-eigentlich-los-mit-mir/100259645.html",
+      "summary": "Schlechter Schlaf, Stimmungstiefs: Das kann die Perimenopause sein. Aber sie erklärt nicht alles, so Gynäkologe Konstantin Wagner. Wie Selbstfürsorge helfen kann und wann ärztlicher Rat wichtig ist.",
+      "image": "https://images.handelsblatt.com/OBiMlGbBygTW/cover/900/506/0/0/108/107/0.5/0.5/eine-frau-streicht-mit-den-haenden-ihre-haare-zurueck.jpg",
+      "published": "2026-10-05T02:49:05+00:00",
+      "category": "Wirtschaft",
+      "score": 57.33
     },
     {
       "id": "tagesschau-f5590609f24b6fd3",
@@ -292,7 +1317,91 @@
       "image": "https://images.tagesschau.de/image/526cd0cf-3efb-4cea-ab87-feb6b891943c/AAABoQlvusI/AAABnSSvrFg/16x9-big/dodik-118.jpg?width=1920",
       "published": "2026-10-05T02:33:07+02:00",
       "category": "Politik",
-      "score": 70.33
+      "score": 78.66
+    },
+    {
+      "id": "handelsblatt-a7ed1537775d7eec",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Vor der Nobelpreis-Bekanntgabe: Nobelpreis-Countdown: Jetzt kommen die Entscheidungen",
+      "link": "https://www.handelsblatt.com/technik/forschung-innovation/vor-der-nobelpreis-bekanntgabe-nobelpreis-countdown-jetzt-kommen-die-entscheidungen/100259641.html",
+      "summary": "Wer schreibt in diesem Jahr Nobelpreis-Geschichte? In Stockholm und Oslo werden in dieser Woche die diesjährigen Preisträger verkündet. Los geht es mit der Kategorie Medizin.",
+      "image": "https://images.handelsblatt.com/Jq3lfsMfFPwf/cover/900/506/0/0/52/52/0.5/0.5/literaturnobelpreis.jpg",
+      "published": "2026-10-05T02:30:10+00:00",
+      "category": "Wissenschaft",
+      "score": 54.07
+    },
+    {
+      "id": "handelsblatt-58ccd37c3e01473a",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Kanzler zurück in der Schule: Warum das Abi-Zeugnis des Kanzlers unter Verschluss ist",
+      "link": "https://www.handelsblatt.com/politik/deutschland/kanzler-zurueck-in-der-schule-warum-das-abi-zeugnis-des-kanzlers-unter-verschluss-ist/100259642.html",
+      "summary": "Der Kanzler kehrt heute an das Gymnasium zurück, an dem er vor 51 Jahren Abitur gemacht hat. Wird er den Schülern seine Note verraten? Bisher gibt es dazu nur Andeutungen von ihm. Aus gutem Grund.",
+      "image": "https://images.handelsblatt.com/XEoq1vW-n3ze/cover/900/506/0/0/107/106/0.5/0.5/deutscher-schulpreis-2026.jpg",
+      "published": "2026-10-05T02:30:09+00:00",
+      "category": "Wirtschaft",
+      "score": 66.26
+    },
+    {
+      "id": "handelsblatt-8e3376c47bb985a9",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Banken: Finanzinvestor Lone Star erwartet mehrere Angebote für Mittelstandsbank IKB",
+      "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-lone-star-erwartet-mehrere-angebote-fuer-mittelstandsbank-ikb/100259056.html",
+      "summary": "Bereits in dieser Woche soll es nach Handelsblatt-Recherchen erste verbindliche Offerten geben. Ob die Helaba zum Zuge kommt, ist Insidern zufolge fraglich.",
+      "image": "https://images.handelsblatt.com/uIkpmM38-u48/cover/900/506/0/0/135/134/0.5/0.5/logo-der-ikb.jpeg",
+      "published": "2026-10-05T02:11:17+00:00",
+      "category": "Wirtschaft",
+      "score": 56.81
+    },
+    {
+      "id": "handelsblatt-d961e1ed969f4f09",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Gastkommentar: Das deutsche Reformparadox, und wie Merz es knacken kann",
+      "link": "https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-das-deutsche-reformparadox-und-wie-merz-es-knacken-kann/100258639.html",
+      "summary": "Alle wollen Reformen, doch jeder wartet darauf, dass die anderen anfangen. Robert Peters, Direktor des Instituts für Innovation und Technik, zeigt, wie sich diese Blockade lösen lässt.",
+      "image": "https://images.handelsblatt.com/-3r4wxiEMlCK/cover/900/506/0/0/0/0/0.5/0.5/gast.jpg",
+      "published": "2026-10-05T02:09:33+00:00",
+      "category": "Wirtschaft",
+      "score": 56.78
+    },
+    {
+      "id": "handelsblatt-876c885b653faedc",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Expo Real: Die Stimmung auf dem Immobilienmarkt ist düster – bietet aber Chancen für eine Investorengruppe",
+      "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-duestere-stimmung-aber-chancen-fuer-kapitalkraeftige-investoren/100258296.html",
+      "summary": "Pessimistischer als im vergangenen Jahr blicken die Immobilienprofis auf der Expo Real in die Zukunft. Dabei gibt es durchaus auch gute „Einstiegsszenarien“.",
+      "image": "https://images.handelsblatt.com/LPVe8KIlWAea/cover/900/506/0/0/87/1/0.5/0.5/frauenkirche-vor-alpenpanorama-in-muenchen.jpeg",
+      "published": "2026-10-05T02:08:19+00:00",
+      "category": "Wirtschaft",
+      "score": 56.77
+    },
+    {
+      "id": "handelsblatt-76a58979453f1d32",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Interview: Robotaxis von Uber kurz vor dem Start in München – „Werden damit in Deutschland viele Jobs schaffen“",
+      "link": "https://www.handelsblatt.com/unternehmen/dienstleister/uber-chef-wir-werden-mit-robotaxis-in-deutschland-viele-jobs-schaffen/100257956.html",
+      "summary": "Dara Khosrowshahi investiert Milliarden in die Infrastruktur für autonomes Fahren. Der Uber-Chef kündigt den Deutschlandstart an – und will mit Robotaxis die Preise senken sowie neue Kunden gewinnen.",
+      "image": "https://images.handelsblatt.com/JiEJATtxjLqw/cover/900/506/0/0/0/0/0.5/0.5/uber.jpg",
+      "published": "2026-10-05T02:05:11+00:00",
+      "category": "Wirtschaft",
+      "score": 56.72
+    },
+    {
+      "id": "handelsblatt-d805508354b441a5",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "EU: Handelskonflikt mit China gleicht einem Wettrüsten: Deutschland und Frankreich wollen „Kill-Switch“",
+      "link": "https://www.handelsblatt.com/politik/international/eu-deutschland-und-frankreich-wollen-kill-switch-fuer-china-handel/100259009.html",
+      "summary": "Getrieben von Merz und Macron rüstet die EU für Handelskriege auf. Das Handelsblatt enthüllt die Details einer Wirtschaftswaffe, die Peking an den Verhandlungstisch bringen soll.",
+      "image": "https://images.handelsblatt.com/2Qr6N-jJHQUp/cover/900/506/0/0/0/571/0.5/0.5/dpatopbilder-17.07.2026-nordrhein-westfalen-bruehl-bundeskanzler-friedrich-merz-r-cdu-empfaeng.jpg",
+      "published": "2026-10-05T02:03:31+00:00",
+      "category": "Wirtschaft",
+      "score": 64.7
     },
     {
       "id": "spiegel-1237987af9df2ca0",
@@ -304,43 +1413,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/f109a027-3fba-4174-99b6-6864c32573eb_w1200_r1.778_fpx34_fpy66.jpg",
       "published": "2026-10-05T01:39:00+02:00",
       "category": "Nachrichten",
-      "score": 57.58
+      "score": 52.69
     },
     {
       "id": "spiegel-57e2fab893f4ac71",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "RAF Fairford: US-Luftwaffe zieht alle Bomber nach Anschlagsverdacht ab",
+      "title": "RAF Fairford: USA ziehen alle Bomber vom britischen Stützpunkt Fairford ab – offenbar hastig",
       "link": "https://www.spiegel.de/ausland/raf-fairford-us-luftwaffe-zieht-alle-bomber-nach-anschlagsverdacht-ab-a-025f9409-8f20-41db-93fe-532795048816#ref=rss",
       "summary": "Die mutmaßlichen Anschlagspläne gegen die britische Basis Fairford haben das US-Militär aufgeschreckt. Jetzt sind sämtliche Langstreckenbomber zurückbeordert worden. Die Eile des Abzugs wirft neue Fragen auf.",
       "image": "https://cdn.prod.www.spiegel.de/images/cec230a2-9e91-462e-9d46-7321a65f5f11_w1200_r1.778_fpx50_fpy54.98.jpg",
       "published": "2026-10-05T00:56:00+02:00",
       "category": "Nachrichten",
-      "score": 56.98
-    },
-    {
-      "id": "handelsblatt-00dc58cfef04c421",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Wahlen: Stichwahl in Brasilien – Lula gegen Bolsonaro-Sohn Flávio",
-      "link": "https://www.handelsblatt.com/politik/international/wahlen-stichwahl-in-brasilien-lula-gegen-bolsonaro-sohn-flavio/100259634.html",
-      "summary": "Nach Auszählung fast aller Stimmen liegt Lula hauchdünn hinter seinem Kontrahenten. Doch für eine Mehrheit reicht das Ergebnis von keinem von beiden.",
-      "image": "https://images.handelsblatt.com/BAacUi2jaGgA/cover/900/506/0/0/217/216/0.5/0.5/people-watch-a-screen-following-the-partial-results-of-the-presidential-election-in-rio-de-janeiro.jpg",
-      "published": "2026-10-05T00:22:34+00:00",
-      "category": "Politik",
-      "score": 86.66
-    },
-    {
-      "id": "handelsblatt-c3a5bf94b8455eb0",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Präsidentenwahl: Stichwahl in Brasilien: Lula gegen Bolsonaro-Sohn Flávio",
-      "link": "https://www.handelsblatt.com/politik/international/praesidentenwahl-stichwahl-in-brasilien-lula-gegen-bolsonaro-sohn-flavio/100259635.html",
-      "summary": "Die Präsidentenwahl in Brasilien geht in eine zweite Runde. Wie vor vier Jahren stehen zwei Namen zur Auswahl: Lula und Bolsonaro. Dieses Mal heißt Lulas Herausforderer allerdings mit Vornamen Flávio.",
-      "image": "https://images.handelsblatt.com/f5JznKzT4KVm/cover/900/506/0/0/107/106/0.5/0.5/kombo-luiz-inacio-lula-da-silva-und-flavio-bolsonaro.jpg",
-      "published": "2026-10-05T00:13:13+00:00",
-      "category": "Politik",
-      "score": 86.66
+      "score": 70.39
     },
     {
       "id": "handelsblatt-78ad119920a6cfdb",
@@ -352,7 +1437,7 @@
       "image": "https://www.handelsblatt.com/images/opengraph_default_logo/8744082/2-formatOriginal.png",
       "published": "2026-10-04T23:48:54+00:00",
       "category": "Wirtschaft",
-      "score": 59.72
+      "score": 76.62
     },
     {
       "id": "spiegel-8c3191b4c6ab7420",
@@ -360,23 +1445,23 @@
       "sourceWeight": 0.95,
       "title": "Deutschland in der Einzelkritik: Pavlović überzeugt, Woltemade bleibt unsichtbar",
       "link": "https://www.spiegel.de/sport/deutschland-in-der-einzelkritik-pavlovic-ueberzeugt-woltemade-bleibt-unsichtbar-a-c4b1a86c-bb21-4a88-bc3d-bea58af63bc4#ref=rss",
-      "summary": "Mittelfeldspieler Aleksandar Pavlović hat sich beim Remis in Griechenland erneut bewährt. Malick Thiaw zeigte Schulterhärte im Zweikampf – und Lennart Karl verpasst eine Chance. Die deutsche Mannschaft in der Einzelkritik.",
-      "image": "https://cdn.prod.www.spiegel.de/images/0fcaf55f-5394-436e-95e0-e1ba8a954cce_w1200_r1.778_fpx44_fpy34.jpg",
+      "summary": "Mittelfeldspieler Aleksandar Pavlović hat sich beim Remis in Griechenland erneut bewährt. Malick Thiaw zeigte Schulterhärte im Zweikampf – und Lennart Karl verpasste eine Chance. Die deutsche Mannschaft in der Einzelkritik.",
+      "image": "https://cdn.prod.www.spiegel.de/images/0e9c9879-2705-43cd-8cfb-fc9898db6c53_w1200_r1.778_fpx43_fpy50.jpg",
       "published": "2026-10-04T23:37:00+02:00",
       "category": "Nachrichten",
-      "score": 55.89
+      "score": 51.0
     },
     {
       "id": "spiegel-deb8167a979241c2",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Deutschland unter Jürgen Klopp: Das Vorspiel ist vorbei. Es war so lala",
+      "title": "Deutschland gegen Griechenland: Starke erste Hälfte, ernüchterndes 0:0",
       "link": "https://www.spiegel.de/sport/fussball/deutschland-unter-juergen-klopp-das-vorspiel-ist-vorbei-es-war-so-lala-a-a63cd344-fb2e-423d-8879-535c363b648a#ref=rss",
       "summary": "Vier Länderspiele, nur ein einziger Sieg: Mit einem 0:0 in Griechenland endet der Auftakt unter dem neuen Bundestrainer Jürgen Klopp. Dort gab es einen Blitz-Reflex, eine starke erste Hälfte und Enttäuschungen.",
       "image": "https://cdn.prod.www.spiegel.de/images/744c2f35-b8bb-4ee5-9833-ee74c0ad5c6c_w1200_r1.778_fpx67.33_fpy55.jpg",
       "published": "2026-10-04T23:33:00+02:00",
       "category": "Nachrichten",
-      "score": 55.83
+      "score": 57.99
     },
     {
       "id": "handelsblatt-1dd7fe8c748dbeb1",
@@ -388,7 +1473,7 @@
       "image": "https://images.handelsblatt.com/-269npS9vHd2/cover/900/506/0/0/0/460/0.5/0.5/katherina-reiche.jpg",
       "published": "2026-10-04T22:42:05+00:00",
       "category": "Politik",
-      "score": 66.79
+      "score": 75.34
     },
     {
       "id": "handelsblatt-bcb964635f1bc783",
@@ -400,7 +1485,7 @@
       "image": "https://images.handelsblatt.com/WQ-vUb8FTseo/cover/900/506/0/0/107/107/0.5/0.5/bundeskanzler-merz-reist-in-die-ukraine.jpg",
       "published": "2026-10-04T22:25:04+00:00",
       "category": "Politik",
-      "score": 69.66
+      "score": 53.67
     },
     {
       "id": "handelsblatt-39b03137bfa7ee60",
@@ -412,7 +1497,7 @@
       "image": "https://images.handelsblatt.com/YPsDV3mVLUQe/cover/900/506/0/0/0/0/0.5/0.5/bernd-beetz.jpg",
       "published": "2026-10-04T22:15:04+00:00",
       "category": "Wirtschaft",
-      "score": 58.41
+      "score": 65.51
     },
     {
       "id": "handelsblatt-c45d9c9d0feaecf0",
@@ -424,7 +1509,7 @@
       "image": "https://images.handelsblatt.com/ek47X7Ml1EeX/cover/900/506/0/0/107/107/0.5/0.5/bundeswirtschaftsministerin-reiche.jpg",
       "published": "2026-10-04T22:01:05+00:00",
       "category": "Politik",
-      "score": 66.79
+      "score": 75.34
     },
     {
       "id": "handelsblatt-580495a64f4802e3",
@@ -436,43 +1521,43 @@
       "image": "https://images.handelsblatt.com/fsZGbjRynINJ/cover/900/506/0/0/107/106/0.5/0.5/festnahmen-wegen-terrorverdacht-bei-britischer-militaerbasis.jpg",
       "published": "2026-10-04T22:01:04+00:00",
       "category": "Wirtschaft",
-      "score": 66.22
+      "score": 70.39
     },
     {
       "id": "spiegel-691c9bc69d2f95bc",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Israels Spieler tragen Armbinden in Gedenken an Terror-Opfer",
+      "title": "Nations League: Israels Spieler tragen Armbinden in Gedenken an Terror-Opfer",
       "link": "https://www.spiegel.de/ausland/israels-spieler-tragen-armbinden-in-gedenken-an-terror-opfer-a-b65a6bbe-f010-4c7d-86fc-f6a01a775390#ref=rss",
       "summary": "Die Stimmung im Vorfeld der Nations League-Partie Irland gegen Israel war so aufgeladen, dass das Spiel nach Serbien verlagert wurde. An aussagekräftigen Symbolen auf beiden Seiten fehlt es auch diesmal nicht.",
       "image": "https://cdn.prod.www.spiegel.de/images/d1e0e5a7-8bee-42f3-9038-8621314da0a1_w1200_r1.778_fpx51_fpy41.jpg",
       "published": "2026-10-04T21:30:00+02:00",
       "category": "Politik",
-      "score": 65.12
+      "score": 60.24
     },
     {
       "id": "spiegel-deb8dd12b7f71483",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Cornell University: Anwalt berichtet von Drohungen gegen »Jane Doe«",
+      "title": "Cornell University: »Jane Doe« wird laut ihrem Anwalt bedroht",
       "link": "https://www.spiegel.de/ausland/cornell-university-anwalt-berichtet-von-drohungen-gegen-jane-doe-a-294edb3b-c9f0-4192-ac54-c03faa20e873#ref=rss",
       "summary": "Eine ehemalige Studentin der US-Eliteuni Cornell wirft sieben Kommilitonen vor, sie in einem Verbindungshaus vergewaltigt zu haben. Nun wird sie offenbar unter Druck gesetzt, die Klage fallen zu lassen.",
       "image": "https://cdn.prod.www.spiegel.de/images/2fcbc5af-99df-4058-9671-a8d583f55fed_w1200_r1.778_fpx65.32_fpy49.96.jpg",
       "published": "2026-10-04T21:19:00+02:00",
       "category": "Nachrichten",
-      "score": 53.97
+      "score": 49.08
     },
     {
       "id": "tagesschau-94393664fee914ce",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Pfefferspray-Angriff auf Linken-Geschäftsstelle in Oranienburg",
+      "title": "Pfefferspray-Angriff in Linken-Geschäftsstelle in Oranienburg",
       "link": "https://www.tagesschau.de/inland/regional/brandenburg/rbb-oranienburg-angriff-auf-linken-veranstaltung-in-parteibuero-reizgas-versprueht-100.html",
       "summary": "Mitglieder der Linksjugend sind in der Geschäftsstelle der Linken in Oranienburg mit Pfefferspray attackiert worden. Die Polizei sucht nach drei Personen. Eine von ihnen soll kurz vor dem Angriff gefragt haben, ob man hier AfD wählen könne.[ mehr ]",
       "image": "https://images.tagesschau.de/image/257cd816-8962-4428-84f2-6d1c749d0ba6/AAABoQhPEDY/AAABnSSvrFg/16x9-big/rbb-polizei-blaulicht-118.jpg?width=1920",
       "published": "2026-10-04T20:58:00+02:00",
       "category": "Technologie",
-      "score": 54.68
+      "score": 49.79
     },
     {
       "id": "spiegel-d5667e010c34297f",
@@ -484,7 +1569,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/2b905eca-0720-47a4-be2a-13bc9c9385ec_w1200_r1.778_fpx42_fpy45.jpg",
       "published": "2026-10-04T20:56:00+02:00",
       "category": "Nachrichten",
-      "score": 53.65
+      "score": 48.76
     },
     {
       "id": "handelsblatt-3d143483cfd97452",
@@ -496,7 +1581,7 @@
       "image": "https://images.handelsblatt.com/EN4FLQ3nSpk0/cover/900/506/0/0/107/106/0.5/0.5/wahlen-in-brasilien.jpg",
       "published": "2026-10-04T20:52:35+00:00",
       "category": "Politik",
-      "score": 65.27
+      "score": 60.38
     },
     {
       "id": "tagesschau-9f0beec655738df6",
@@ -508,28 +1593,18 @@
       "image": "https://images.tagesschau.de/image/1ceb13da-5fd8-4c51-9787-fc05a3c86eb9/AAABoQe8Ttc/AAABnSSvrFg/16x9-big/sendungsbild-1806754.jpg?width=1920",
       "published": "2026-10-04T20:40:10+02:00",
       "category": "Politik",
-      "score": 73.43,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Sachsen-Anhalt nach der Wahl: CDU-Chef in Sachsen-Anhalt: Niemand wird zur AfD wechseln",
-            "link": "https://www.handelsblatt.com/politik/deutschland/sachsen-anhalt-nach-der-wahl-cdu-chef-in-sachsen-anhalt-niemand-wird-zur-afd-wechseln/100259606.html"
-          }
-        ]
-      }
+      "score": 60.54
     },
     {
       "id": "spiegel-1b46484a6729b0fe",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Deutschland – Griechenland im Liveticker: DFB-Team hofft in der Nations League auf Sieg in Thessaloniki",
+      "title": "Deutschland vs. Griechenland: Drei Erkenntnisse aus dem Remis des DFB-Teams",
       "link": "https://www.spiegel.de/sport/fussball/deutschland-griechenland-im-liveticker-dfb-team-hofft-in-der-nations-league-auf-sieg-in-thessaloniki-a-a6e83161-46f6-48da-9e83-83340a27bee3#ref=rss",
       "summary": "Eine Hälfte stark, eine umkämpft: Die deutsche Fußballnationalmannschaft hat in Griechenland phasenweise richtig guten Fußball gezeigt, doch am Ende steht nur ein Remis. Lesen Sie hier drei Erkenntnisse des vierten Klopp-Spiels.",
       "image": "https://cdn.prod.www.spiegel.de/images/3733ed28-150d-4a2c-915c-c1ff190ed691_w1200_r1.778_fpx52_fpy16.jpg",
       "published": "2026-10-04T20:35:00+02:00",
-      "category": "Technologie",
+      "category": "Nachrichten",
       "score": 66.66
     },
     {
@@ -542,31 +1617,19 @@
       "image": "https://images.tagesschau.de/image/83a5e557-3632-4597-a3e8-ada869e7a8eb/AAABoQgDc5E/AAABnSSvrFg/16x9-big/jemen-840.jpg?width=1920",
       "published": "2026-10-04T19:43:26+02:00",
       "category": "Politik",
-      "score": 64.64
+      "score": 51.76
     },
     {
       "id": "spiegel-a913b065f7ff53dd",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Gegen 7 Uhr steigt der Kanzler aus dem Zug, um 7.45 Uhr gibt es den ersten Luftalarm",
+      "title": "Friedrich Merz in Kiew: Gegen 7 Uhr steigt der Kanzler aus dem Zug, um 7.45 Uhr gibt es Luftalarm",
       "link": "https://www.spiegel.de/ausland/gegen-7-uhr-steigt-der-kanzler-aus-dem-zug-um-7-45-uhr-gibt-es-den-ersten-luftalarm-a-9c77775b-fe7d-47e4-abd3-5cbceb6dc4d8#ref=rss",
-      "summary": "Friedrich Merz besucht Kyjiw, und Russland schickt den ganzen Tag weiter Drohnen. Doch die Ukrainer bringen dem Kanzler eine Wertschätzung entgegen, wie er sie von zuhause nicht mehr kennt.",
+      "summary": "Friedrich Merz besucht Kyjiw, und Russland schickt den ganzen Tag weiter Drohnen. Doch die Ukrainer bringen dem Kanzler eine Wertschätzung entgegen, wie er sie von zu Hause nicht mehr kennt.",
       "image": "https://cdn.prod.www.spiegel.de/images/2992bf5c-f0c9-4b8f-9ff7-ebd5952bd399_w1200_r1.778_fpx44_fpy50.jpg",
       "published": "2026-10-04T19:38:00+02:00",
       "category": "Politik",
-      "score": 63.57
-    },
-    {
-      "id": "spiegel-9bf8e87c2388b4eb",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Bad Neuenahr-Ahrweiler: Unbekannter zerkratzt Autos und hinterlässt Nummer eine Frau",
-      "link": "https://www.spiegel.de/panorama/justiz/bad-neuenahr-ahrweiler-unbekannter-zerkratzt-autos-und-hinterlaesst-nummer-eine-frau-a-e0c9baac-56d2-4a54-a487-56419557e010#ref=rss",
-      "summary": "Ein Unbekannter hat in Bad Neuenahr-Ahrweiler Dutzende Autos beschädigt und dabei die Nummer einer Frau hinterlassen, die mit den Taten offenbar gar nichts zu tun hat. Und das wohl nicht zum ersten Mal.",
-      "image": "https://cdn.prod.www.spiegel.de/images/77796b4e-0d2b-42eb-87f9-453d83eaf6b5_w1200_r1.778_fpx49_fpy53.jpg",
-      "published": "2026-10-04T19:09:00+02:00",
-      "category": "Nachrichten",
-      "score": 52.16
+      "score": 58.68
     },
     {
       "id": "handelsblatt-98867c6fb8c1b981",
@@ -578,7 +1641,7 @@
       "image": "https://images.handelsblatt.com/zKiuGsBPrLDz/cover/900/506/0/0/0/0/0.5/0.5/warenhauskette-galeria.jpg",
       "published": "2026-10-04T19:07:23+00:00",
       "category": "Wirtschaft",
-      "score": 55.81
+      "score": 50.92
     },
     {
       "id": "tagesschau-75ee868413842879",
@@ -590,41 +1653,14 @@
       "image": "https://images.tagesschau.de/image/c27f77a9-bfa7-4668-b674-b26e3864515a/AAABoQeTufk/AAABnSSvrFg/16x9-big/sendungsbild-1806734.jpg?width=1920",
       "published": "2026-10-04T18:43:05+02:00",
       "category": "Politik",
-      "score": 91.34,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Besuch in Kiew - Merz verteidigt Ukraine-Hilfen: \"Im eigenen Interesse Deutschlands\"",
-            "link": "https://www.deutschlandfunk.de/merz-verteidigt-ukraine-hilfen-im-eigenen-interesse-deutschlands-102.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Ukraine-Krieg: Merz: Ganz Europa hängt an der Stabilität in Deutschland",
-            "link": "https://www.handelsblatt.com/politik/deutschland/ukraine-krieg-merz-ganz-europa-haengt-an-der-stabilitaet-in-deutschland/100259601.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-f644954109e97cab",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "AfD-Brandmauer: Hessens Regierungschef Boris Rhein plädiert für Ausschussposten für AfD",
-      "link": "https://www.spiegel.de/politik/afd-brandmauer-hessens-regierungschef-boris-rhein-plaediert-fuer-ausschussposten-fuer-afd-a-5090f962-e76d-4664-ae7b-ef19a74ee683#ref=rss",
-      "summary": "Hessens Ministerpräsident Boris Rhein (CDU) plädiert dafür, die AfD im Bundestag künftig weniger auszugrenzen. Sie solle auch Vorsitze in den Fachausschüssen übernehmen können. Kritik an seinem Vorschlag kommt auch aus den eigenen Reihen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/dd104b6d-0038-4029-83f2-7f20bc84eee2_w1200_r1.778_fpx42.49_fpy44.99.jpg",
-      "published": "2026-10-04T18:38:00+02:00",
-      "category": "Politik",
-      "score": 70.73,
+      "score": 86.66,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "handelsblatt",
-            "title": "AfD: Hessens Ministerpräsident entfacht neue Brandmauer-Debatte",
-            "link": "https://www.handelsblatt.com/politik/deutschland/afd-hessens-ministerpraesident-entfacht-neue-brandmauer-debatte/100259579.html"
+            "source": "deutschlandfunk",
+            "title": "Ukraine-Krieg - CDU-Außenpolitiker Kiesewetter: \"Russland will diesen Krieg\"",
+            "link": "https://www.deutschlandfunk.de/cdu-aussenpolitiker-kiesewetter-russland-will-diesen-krieg-102.html"
           }
         ]
       }
@@ -639,151 +1675,7 @@
       "image": "https://images.tagesschau.de/image/ff16e04c-633d-4296-8e68-814699edd3d6/AAABoQe6xQs/AAABnSSvrFg/16x9-big/rbb-619422349-100.jpg?width=1920",
       "published": "2026-10-04T18:18:17+02:00",
       "category": "Politik",
-      "score": 63.46
-    },
-    {
-      "id": "spiegel-ee57d7add4a62b25",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Nation League: Warum das Fußballspiel Irland gegen Israel politisch so aufgeladen ist",
-      "link": "https://www.spiegel.de/ausland/nation-league-warum-das-fussballspiel-irland-gegen-israel-politisch-so-aufgeladen-ist-a-a76c7fea-f24c-4933-bd68-68f422fccc8f#ref=rss",
-      "summary": "Boykottaufrufe, gesenkte Köpfe bei der Hymne, ein eskalierter Pressetermin: Irlands Fußballduell mit Israel ist brisant, denn im Nahostkonflikt positionieren sich die Iren aufseiten der Palästinenser.",
-      "image": "https://cdn.prod.www.spiegel.de/images/0c049db6-5ff6-4654-ac33-c5fa79e4a7da_w1200_r1.778_fpx69.99_fpy45.jpg",
-      "published": "2026-10-04T18:12:00+02:00",
-      "category": "Politik",
-      "score": 62.37
-    },
-    {
-      "id": "spiegel-d7d6e3945a289266",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Teppich von Bayeux: So will das British Museum die Warteschlangen verkürzen",
-      "link": "https://www.spiegel.de/panorama/teppich-von-bayeux-so-will-das-british-museum-die-warteschlangen-verkuerzen-a-5c06cff2-87cd-4807-a7c8-72b583100959#ref=rss",
-      "summary": "Der berühmte Teppich von Bayeux ist erstmals seit seiner Entstehung vor fast 1000 Jahren wieder in England zu sehen. Der Andrang vor dem Meisterwerk ist groß – bisweilen zu groß.",
-      "image": "https://cdn.prod.www.spiegel.de/images/6953aad0-517d-446d-9fff-26e152d937a7_w1200_r1.778_fpx45.34_fpy50.jpg",
-      "published": "2026-10-04T18:10:00+02:00",
-      "category": "Nachrichten",
-      "score": 51.34
-    },
-    {
-      "id": "tagesschau-d33fcb94cc1648bd",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "125 Jahre Nobelpreis: Was macht die Auszeichnung so bedeutend?",
-      "link": "https://www.tagesschau.de/wissen/forschung/nobelpreise-125-jahre-100.html",
-      "summary": "Von morgen an wird wieder verkündet, wer die diesjährigen Nobelpreise erhält - und das seit mittlerweile 125 Jahren. Warum hat die Auszeichnung eine so hohe Bedeutung? Und wie werden die Preisträger ermittelt? Von Nina Kunze. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/5ab9262a-f84c-464e-a648-6135bf47ee62/AAABoQbSoqo/AAABnSSvrFg/16x9-big/nobelpreismuseum-102.jpg?width=1920",
-      "published": "2026-10-04T18:06:59+02:00",
-      "category": "Nachrichten",
-      "score": 52.3
-    },
-    {
-      "id": "handelsblatt-81f0a79401477678",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Ukraine-Krieg: Merz: Ganz Europa hängt an der Stabilität in Deutschland",
-      "link": "https://www.handelsblatt.com/politik/deutschland/ukraine-krieg-merz-ganz-europa-haengt-an-der-stabilitaet-in-deutschland/100259601.html",
-      "summary": "Kanzler Merz fordert Tempo bei Sozialreformen und warnt vor wackligen politischen Verhältnissen. Deutschland müsse für ganz Europa stabil regiert werden.",
-      "image": "https://images.handelsblatt.com/Jpu7vLpe1cFo/cover/900/506/0/0/107/107/0.5/0.5/bundeskanzler-merz-reist-in-die-ukraine.jpg",
-      "published": "2026-10-04T18:03:05+00:00",
-      "category": "Politik",
-      "score": 91.34
-    },
-    {
-      "id": "spiegel-7fd8ab571bf1b8a8",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Jemen: Regierung kündigt Großoffensive gegen die Huthis an",
-      "link": "https://www.spiegel.de/ausland/jemen-regierung-kuendigt-grossoffensive-gegen-die-huthis-an-a-ab8c8d68-ae38-426e-8cdd-db696817fd59#ref=rss",
-      "summary": "Die Huthis sind auf dem Vormarsch, immer wieder attackieren sie Saudi-Arabiens Infrastruktur. Die international anerkannte Regierung Jemens erklärt nun die Rückeroberung verlorener Gebiete zum Ziel.",
-      "image": "https://cdn.prod.www.spiegel.de/images/4f0ebda0-b4a7-447d-96e3-f6f1c5d74be3_w1200_r1.778_fpx40.64_fpy44.98.jpg",
-      "published": "2026-10-04T17:59:00+02:00",
-      "category": "Politik",
-      "score": 64.64
-    },
-    {
-      "id": "handelsblatt-c61c616f542cf0e5",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Gefährliche Kiew-Reise: Merz unterstützt Ukraine – und appelliert an Putin",
-      "link": "https://www.handelsblatt.com/politik/deutschland/gefaehrliche-kiew-reise-merz-unterstuetzt-ukraine-und-appelliert-an-putin/100259542.html",
-      "summary": "Noch nie war ein Kanzler-Besuch in Kiew so gefährlich. Immer wieder heulen die Sirenen. Merz bringt eine klare Botschaft an die Ukrainer mit. Aber auch eine an Putin und gewisse Leute in Deutschland.",
-      "image": "https://images.handelsblatt.com/4lE--XXxPkFy/cover/900/506/0/0/107/106/0.5/0.5/bundeskanzler-merz-reist-in-die-ukraine.jpg",
-      "published": "2026-10-04T17:33:41+00:00",
-      "category": "Politik",
-      "score": 62.51
-    },
-    {
-      "id": "spiegel-af2582920982f9cb",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Tennis: Novak Djokovic bremst Alexander Zverev bei der Jagd auf die Weltranglistenspitze aus",
-      "link": "https://www.spiegel.de/sport/tennis/tennis-novak-djokovic-bremst-alexander-zverev-bei-der-jagd-auf-die-weltranglistenspitze-aus-a-fc47a7c4-9e02-4440-b964-1ed99b1f236f#ref=rss",
-      "summary": "Rückschlag für den deutschen Tennisprofi Alexander Zverev: Der zweifache Grand-Slam-Sieger verlor gegen Altmeister Novak Djokovic und muss nun länger auf sein großes Ziel warten. Der siegreiche Serbe lobte Zverev.",
-      "image": "https://cdn.prod.www.spiegel.de/images/9619105d-cd55-4b60-a2dd-250c84ccc607_w1200_r1.778_fpx33.33_fpy49.99.jpg",
-      "published": "2026-10-04T17:21:00+02:00",
-      "category": "Nachrichten",
-      "score": 50.66
-    },
-    {
-      "id": "spiegel-ae86edc243859420",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "»Tatort« heute aus Ludwigshafen: »Explosive Mischung« im Schnellcheck",
-      "link": "https://www.spiegel.de/kultur/tv/tatort-heute-aus-ludwigshafen-explosive-mischung-im-schnellcheck-a-f8f94eac-8646-472b-8b6e-dd1316376956#ref=rss",
-      "summary": "Neon über der Stadt, Sprengstoff im Hirn: Der »Tatort« mit Ulrike Folkerts folgt jungen Gangstern durch ihr Problemviertel – und verliert sich dabei in Achtzigerjahre-Ästhetik.",
-      "image": "https://cdn.prod.www.spiegel.de/images/824e11ea-384f-458a-89d9-7328c1c6f438_w1200_r1.778_fpx36.27_fpy54.96.jpg",
-      "published": "2026-10-04T17:18:00+02:00",
-      "category": "Nachrichten",
-      "score": 50.62
-    },
-    {
-      "id": "handelsblatt-d10091ee95fea9d9",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Sachsen-Anhalt nach der Wahl: CDU-Chef in Sachsen-Anhalt: Niemand wird zur AfD wechseln",
-      "link": "https://www.handelsblatt.com/politik/deutschland/sachsen-anhalt-nach-der-wahl-cdu-chef-in-sachsen-anhalt-niemand-wird-zur-afd-wechseln/100259606.html",
-      "summary": "Sven Schulze stellt klar: Es gibt keine Stimme für den AfD-Kandidaten Siegmund bei der Ministerpräsidentenwahl. Was er noch über die Machtverhältnisse in Magdeburg sagt.",
-      "image": "https://images.handelsblatt.com/PpS5S9ou5Sz5/cover/900/506/0/0/106/105/0.5/0.5/sven-schulze-cdu.jpg",
-      "published": "2026-10-04T17:16:15+00:00",
-      "category": "Politik",
-      "score": 73.43
-    },
-    {
-      "id": "spiegel-4bf7e08a25bf300e",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "A2 in Niedersachsen: Hochzeitskorso bremst Verkehr aus",
-      "link": "https://www.spiegel.de/panorama/justiz/a2-in-niedersachsen-hochzeitskorso-bremst-verkehr-aus-a-f8c57d91-7275-4d99-b13b-26c1d07ddcb0#ref=rss",
-      "summary": "Alle drei Fahrspuren in langsamem Tempo blockiert: Eine Hochzeitsgesellschaft hat mit mehreren Autos auf der A2 ein normales Weiterkommen des übrigen Verkehrs verhindert. Schließlich griff die Polizei ein.",
-      "image": "https://cdn.prod.www.spiegel.de/images/9ed80421-b2e9-4187-a6d1-4288bcbf95f3_w1200_r1.778_fpx53.98_fpy45.jpg",
-      "published": "2026-10-04T17:04:00+02:00",
-      "category": "Technologie",
-      "score": 50.43
-    },
-    {
-      "id": "spiegel-3d20e8098b73f5a1",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Xi Jinping: »Wall Street Journal« spekuliert über Gesundheitszustand",
-      "link": "https://www.spiegel.de/ausland/xi-jinping-bei-donald-trump-spekulationen-ueber-gesundheitszustand-von-chinas-staatschef-a-c762a865-a6eb-4ee4-8029-ef33d13c559e#ref=rss",
-      "summary": "Ein eigener Rückzugsraum im Weißen Haus und ein abgesagtes Arbeitsessen: Die Umstände des Gipfeltreffens mit Donald Trump werfen Fragen nach der Verfassung des chinesischen Staatschefs Xi Jinping auf.",
-      "image": "https://cdn.prod.www.spiegel.de/images/48e1d0a1-5fd6-4466-b955-20acc3186a2c_w1200_r1.778_fpx33.33_fpy49.99.jpg",
-      "published": "2026-10-04T17:02:00+02:00",
-      "category": "Politik",
-      "score": 61.4
-    },
-    {
-      "id": "spiegel-e63ec2f3713a136d",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Formel 1 in Malaysia: Fahrer kritisieren Software-Probleme",
-      "link": "https://www.spiegel.de/sport/formel1/formel-1-in-malaysia-fahrer-kritisieren-software-probleme-a-d604865a-9308-4eaa-a71c-14203ac2f911#ref=rss",
-      "summary": "Die Formel 1 fährt in diesem Jahr mit neuen Antriebseinheiten, doch beim ersten Regen der Saison kamen einige Autos nicht mehr vom Fleck. Die Fahrer kritisieren das Chaos, der Verband kündigt eine Aufarbeitung an.",
-      "image": "https://cdn.prod.www.spiegel.de/images/a35b9692-82da-4db9-af40-e1a215d8c78f_w1200_r1.778_fpx57.34_fpy50.jpg",
-      "published": "2026-10-04T16:57:00+02:00",
-      "category": "Nachrichten",
-      "score": 50.33
+      "score": 58.57
     },
     {
       "id": "tagesschau-f8ecd2e69ff7db1b",
@@ -795,19 +1687,7 @@
       "image": "https://images.tagesschau.de/image/e97ddc53-90da-41c5-a415-db956d2a2012/AAABoQc1ids/AAABnSSvrFg/16x9-big/anna-gallina-100.jpg?width=1920",
       "published": "2026-10-04T16:51:32+02:00",
       "category": "Politik",
-      "score": 54.25
-    },
-    {
-      "id": "handelsblatt-8f12be80fc04d89c",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Deep Read: Wie SAP trotz KI-Rückstand wieder gewinnen will",
-      "link": "https://www.handelsblatt.com/technik/it-internet/software-wie-sap-trotz-ki-rueckstand-wieder-gewinnen-will/100258469.html",
-      "summary": "Viel Pilot, wenig Alltag: SAP setzt auf Künstliche Intelligenz – doch die Umsetzung stockt. Konzernchef Christian Klein erhöht nun das Tempo.",
-      "image": "https://images.handelsblatt.com/34Yn5nxim6bc/cover/900/506/0/0/0/0/0.5/0.5/sap.jpg",
-      "published": "2026-10-04T16:39:36+00:00",
-      "category": "Technologie",
-      "score": 50.76
+      "score": 49.37
     },
     {
       "id": "tagesschau-3ac73d29cd61a33e",
@@ -819,7 +1699,7 @@
       "image": "https://images.tagesschau.de/image/b5844d91-c93f-40fa-bf60-01f02c913db8/AAABoPvw_z4/AAABnSSvrFg/16x9-big/flavio-bolsonaro-110.jpg?width=1920",
       "published": "2026-10-04T16:06:39+02:00",
       "category": "Politik",
-      "score": 61.63
+      "score": 77.17
     },
     {
       "id": "tagesschau-981f65e4d6829d14",
@@ -831,19 +1711,7 @@
       "image": "https://images.tagesschau.de/image/b1b69185-1b40-49cb-b15a-7f448c5bf80c/AAABoQb_Dz8/AAABnSSvrFg/16x9-big/migranten-152.jpg?width=1920",
       "published": "2026-10-04T16:03:55+02:00",
       "category": "Nachrichten",
-      "score": 50.59
-    },
-    {
-      "id": "spiegel-a1db66f987b49e8b",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Norwegen: Schüsse auf Jagdgesellschaft – Vater und Sohn getötet",
-      "link": "https://www.spiegel.de/panorama/justiz/norwegen-schuesse-auf-jagdgesellschaft-vater-und-sohn-getoetet-a-f03b1866-13ad-4fd0-96be-888b9d9f382f#ref=rss",
-      "summary": "Ein Mann hat in Norwegen auf die Teilnehmer eines Jagdausfluges geschossen. Dabei starben ein Vater und sein Sohn, eine weitere Person wurde lebensgefährlich verletzt.",
-      "image": "https://cdn.prod.www.spiegel.de/images/4b9f8ab8-4557-4259-8617-6029a178775e_w1200_r1.778_fpx60_fpy56.jpg",
-      "published": "2026-10-04T16:03:00+02:00",
-      "category": "Nachrichten",
-      "score": 49.58
+      "score": 45.71
     },
     {
       "id": "tagesschau-0a410d581a81654f",
@@ -855,7 +1723,7 @@
       "image": "https://images.tagesschau.de/image/0afa5ee8-e68c-4af9-a880-16fb645f296c/AAABoQb1_X4/AAABnSSvrFg/16x9-big/merz-selenskyj-128.jpg?width=1920",
       "published": "2026-10-04T15:33:30+02:00",
       "category": "Politik",
-      "score": 91.34
+      "score": 86.66
     },
     {
       "id": "tagesschau-77cf513a36df7456",
@@ -867,19 +1735,7 @@
       "image": "https://images.tagesschau.de/image/e816d56a-b62f-4ac9-9b1f-2ccb9c2e4000/AAABoQbynTE/AAABnSSvrFg/16x9-big/italien-gardasee-brand-100.jpg?width=1920",
       "published": "2026-10-04T15:32:18+02:00",
       "category": "Nachrichten",
-      "score": 50.15
-    },
-    {
-      "id": "handelsblatt-4637cbed54927c2c",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Ukraine-Krieg +++: Merz in Kiew: Deutsche und ukrainische Firmen schließen Milliardenabkommen",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-moskau-schliesst-konsulat-in-st.-petersburg123/27982126.html",
-      "summary": "Merz ist Drohnenangriff „offen gestanden relativ gleichgültig“ +++ Russland kündigt noch härtere Schläge auf Ukraine an +++ Luftangriff in Kiew während Merz-Besuch +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/Cj12ewW5lInq/cover/900/506/0/0/105/104/0.5/0.5/an-iris-t-slm-x-surface-to-air-missile-system-at-the-diehl-defence-booth-at-the-ila-berlin-air-show.jpg",
-      "published": "2026-10-04T15:08:00+00:00",
-      "category": "Politik",
-      "score": 68.48
+      "score": 45.27
     },
     {
       "id": "golem-a1735723ea895ab8",
@@ -891,67 +1747,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213685&amp;page=1&amp;ts=1791119102",
       "published": "2026-10-04T15:05:02+02:00",
       "category": "Technologie",
-      "score": 46.78
-    },
-    {
-      "id": "handelsblatt-575662e93e5fb484",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "USA: Gelockerte Regeln, teures Benzin – Marktanteil von Detroits Autobauern steuert auf Rekordtief zu",
-      "link": "https://www.handelsblatt.com/unternehmen/industrie/usa-marktanteil-von-gm-ford-und-stellantis-steuert-auf-rekordtief-zu/100258793.html",
-      "summary": "Die Konzerne aus der ehemaligen Autohochburg sind am heimischen Markt so erfolglos wie nie zuvor. Trotz Trumps Verbrennerpolitik treibt teures Benzin die Kunden zur Konkurrenz.",
-      "image": "https://images.handelsblatt.com/2ihZtt39u3ua/cover/900/506/0/0/142/141/0.5/0.5/u.s.-president-donald-trump-delivers-remarks-during-an-event-at-the-general-motors-milford-proving-g.jpg",
-      "published": "2026-10-04T15:03:14+00:00",
-      "category": "Politik",
-      "score": 60.42
-    },
-    {
-      "id": "handelsblatt-d387f1e9259ebcc9",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "PDF: Handelsblatt vom 05. Oktober 2026",
-      "link": "https://www.handelsblatt.com/epaper-pdf/pdf-handelsblatt-vom-05.-oktober-2026/100259596.html",
-      "summary": "",
-      "image": "https://images.handelsblatt.com/9gOloKlpiqTg/cover/900/506/0/0/0/661/0.5/0.5/2026.10.05handelsblatt.png",
-      "published": "2026-10-04T15:00:47+00:00",
-      "category": "Wirtschaft",
-      "score": 52.38
-    },
-    {
-      "id": "spiegel-ab42dc07c1324987",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Südkorea: Gruppe von Chinesen verwüstet Restaurant namens »Xi Jinping«",
-      "link": "https://www.spiegel.de/panorama/justiz/suedkorea-gruppe-von-chinesen-verwuestet-restaurant-namens-xi-jinping-a-f64b72f8-f620-4f65-8b80-2a7612309c72#ref=rss",
-      "summary": "Laut Polizei kamen die Täter als vorgebliche Touristen, vollbrachten ihr Werk und flohen dann nach China: Ein Restaurant in Südkorea, das den Namen von Chinas Präsident Xi Jinping trägt, ist offenbar gezielt demoliert worden.",
-      "image": "https://cdn.prod.www.spiegel.de/images/fdebd000-4594-499b-8cdc-10b392a6b289_w1200_r1.778_fpx38_fpy35.png",
-      "published": "2026-10-04T14:58:00+02:00",
-      "category": "Panorama",
-      "score": 48.68
-    },
-    {
-      "id": "spiegel-42d7a5743125f286",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Psychische Störungen: Das Unbehagen an der Diagnose",
-      "link": "https://www.spiegel.de/geschichte/psychische-stoerungen-das-unbehagen-an-der-diagnose-a-92a86cd7-8c07-44c6-872a-871749dd9ed6#ref=rss",
-      "summary": "Es ist gut, dass psychische Probleme ihr Stigma zunehmend verlieren. Doch die Fixierung auf ADHS oder Autismus-Befunde ist auch ein Problem. Und das sagt viel über unsere Zeit.",
-      "image": "https://cdn.prod.www.spiegel.de/images/606e23a4-736a-432d-87cf-bc68a2e0f28a_w1200_r1.778_fpx54_fpy42.jpg",
-      "published": "2026-10-04T14:53:00+02:00",
-      "category": "Nachrichten",
-      "score": 48.61
-    },
-    {
-      "id": "handelsblatt-718f638b6e4b3ffe",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Migration: Asylanträge steigen im September – Dobrindt sieht langfristigen Erfolg",
-      "link": "https://www.handelsblatt.com/politik/deutschland/migration-asylantraege-steigen-im-september-dobrindt-sieht-langfristigen-erfolg/100259594.html",
-      "summary": "Im September stellten 40 Prozent weniger Menschen erstmals einen Asylantrag als im gleichen Monat ein Jahr zuvor. Im Vergleich zu August ist die Zahl aber leicht gestiegen.",
-      "image": "https://images.handelsblatt.com/P7QpfZ8-1E--/cover/900/506/0/0/175/175/0.5/0.5/archiv-11.06.2026-brandenburg-frankfurt-oder-zwei-beamte-der-bundespolizei-stehen-am-deutsch.jpg",
-      "published": "2026-10-04T14:43:53+00:00",
-      "category": "Wirtschaft",
-      "score": 52.15
+      "score": 41.89
     },
     {
       "id": "tagesschau-f69782db24916c26",
@@ -963,31 +1759,7 @@
       "image": "https://images.tagesschau.de/image/57638b30-7062-49c0-978a-7b6360f82d7a/AAABoQbg53g/AAABnSSvrFg/16x9-big/oktoberfest-muenchen-124.jpg?width=1920",
       "published": "2026-10-04T14:32:14+02:00",
       "category": "Nachrichten",
-      "score": 57.32
-    },
-    {
-      "id": "handelsblatt-4b420615a4e27edf",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Return Hubs: Europas teures Abschiebe-Experiment mit offenem Ausgang",
-      "link": "https://www.handelsblatt.com/politik/eu-bruessel-macht-den-weg-frei-fuer-abschiebezentren-in-drittstaaten/100241240.html",
-      "summary": "Der Rat hat die neue Rückführverordnung beschlossen. Deutschland, Österreich und weitere Staaten verhandeln bereits über Standorte – Experten zweifeln, wie die Zentren rechtlich bestehen sollen.",
-      "image": "https://images.handelsblatt.com/7bPHoW2ez9MM/cover/900/506/0/0/192/433/0.5/0.5/archiv-06.06.2024-brandenburg-schoenefeld-ein-flugzeug-hebt-am-flughafen-ber-hinter-einem-zaun-m.jpg",
-      "published": "2026-10-04T14:31:50+00:00",
-      "category": "Wirtschaft",
-      "score": 51.98
-    },
-    {
-      "id": "spiegel-c3e899b6bcae2c67",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Bei Heilbronn in Baden-Württemberg: Zwei Tote bei Absturz von Kleinflugzeug",
-      "link": "https://www.spiegel.de/panorama/bei-heilbronn-in-baden-wuerttemberg-zwei-tote-bei-absturz-von-kleinflugzeug-a-b95cdc83-d20e-4501-b174-9e0be8a4380c#ref=rss",
-      "summary": "In der Nähe von Gundelsheim bei Heilbronn ist ein kleines Flugzeug abgestürzt und in Brand geraten. Zwei Menschen kamen dabei ums Leben.",
-      "image": "https://cdn.prod.www.spiegel.de/images/f20492e6-fe41-43a2-88d9-af0396f65140_w1200_r1.778_fpx28.26_fpy54.98.jpg",
-      "published": "2026-10-04T14:24:00+02:00",
-      "category": "Nachrichten",
-      "score": 48.21
+      "score": 44.43
     },
     {
       "id": "tagesschau-172d1e59814fcc41",
@@ -999,7 +1771,7 @@
       "image": "https://images.tagesschau.de/image/d39962da-1da8-4aee-87d9-d6eeb7e6834e/AAABoQVAmJE/AAABnSSvrFg/16x9-big/boris-rhein-132.jpg?width=1920",
       "published": "2026-10-04T14:21:51+02:00",
       "category": "Politik",
-      "score": 60.18
+      "score": 55.29
     },
     {
       "id": "golem-0f1019d7129b28ed",
@@ -1011,43 +1783,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213682&amp;page=1&amp;ts=1791116222",
       "published": "2026-10-04T14:17:02+02:00",
       "category": "Technologie",
-      "score": 46.11
-    },
-    {
-      "id": "spiegel-69d6a50bbdf846d1",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Nations League: Hund sorgt für Unterbrechung bei Nordmazedonien gegen Schottland",
-      "link": "https://www.spiegel.de/sport/fussball/nations-league-hund-sorgt-fuer-unterbrechung-beim-spiel-nordmazedonien-gegen-schottland-a-5e0809f0-ca47-4433-91cb-7165dfab855d#ref=rss",
-      "summary": "Ein Vierbeiner hat sich während der Nations-League-Partie zwischen Nordmazedonien und Schottland auf den Rasen verirrt. Einfangen ließ er sich aber nicht.",
-      "image": "https://cdn.prod.www.spiegel.de/images/1c4c9c42-f6d4-4ddb-a256-cb510a5ea7ec_w1200_r1.778_fpx36.66_fpy44.98.jpg",
-      "published": "2026-10-04T14:04:00+02:00",
-      "category": "Nachrichten",
-      "score": 47.93
-    },
-    {
-      "id": "handelsblatt-819e24c09c87f31d",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Kanzler in Kiew: Merz: Instabile Bundesregierung hätte „unermessliche Folgen“",
-      "link": "https://www.handelsblatt.com/politik/deutschland/kanzler-in-kiew-merz-instabile-bundesregierung-haette-unermessliche-folgen/100259592.html",
-      "summary": "Auch in Kiew wird Kanzler Friedrich Merz auf die Stabilität seiner Regierung angesprochen. Seine Antwort ist deutlich.",
-      "image": "https://images.handelsblatt.com/lNrWeYLbV6aM/cover/900/506/0/0/107/107/0.5/0.5/bundeskanzler-merz-reist-in-die-ukraine.jpg",
-      "published": "2026-10-04T13:59:03+00:00",
-      "category": "Politik",
-      "score": 91.34
-    },
-    {
-      "id": "handelsblatt-3221659db3a488b5",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Interview: Paulaner-Chef: „Ich bin traditionell – ich trinke Wasser und Bier“",
-      "link": "https://www.handelsblatt.com/unternehmen/mittelstand/familienunternehmer/familienunternehmen-ich-bin-traditionell-ich-trinke-wasser-und-bier/100254359.html",
-      "summary": "Eigentümer Florian Schörghuber spricht über die Strahlkraft des Oktoberfests, seine Milliardenwette auf ein Münchener Hochhaus – und erklärt, warum ihm El Niño Sorgen macht.",
-      "image": "https://images.handelsblatt.com/TfFvYDxuyJxB/cover/900/506/0/0/670/2799/0.5/0.5/schoerghuberflorian.jpg",
-      "published": "2026-10-04T13:57:09+00:00",
-      "category": "Wirtschaft",
-      "score": 51.5
+      "score": 41.22
     },
     {
       "id": "tagesschau-534fe51ebcd7d308",
@@ -1059,31 +1795,7 @@
       "image": "https://images.tagesschau.de/image/5e9081c1-4a86-41a0-a20e-cf406f0d20d2/AAABoQWfDfA/AAABnSSvrFg/16x9-big/rhein-200.jpg?width=1920",
       "published": "2026-10-04T13:49:51+02:00",
       "category": "Politik",
-      "score": 51.73
-    },
-    {
-      "id": "spiegel-344df4803433878a",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Oktoberfest 2026: München meldet Rekord mit 7,4 Millionen Wiesn-Besuchern",
-      "link": "https://www.spiegel.de/panorama/oktoberfest-2026-muenchen-meldet-rekord-mit-7-4-millionen-wiesn-besuchern-a-094f4712-dece-4772-8220-6725a4b71df9#ref=rss",
-      "summary": "Das Bier strömte, die Massen auch: So viele Menschen wie noch nie waren offiziellen Angaben zufolge in diesem Jahr zu Gast auf dem Münchner Oktoberfest. Überschattet wurde das Volksfest von einigen Unglücken.",
-      "image": "https://cdn.prod.www.spiegel.de/images/74e02bda-65b2-4490-9e63-38754ab7f3a4_w1200_r1.778_fpx36_fpy50.jpg",
-      "published": "2026-10-04T13:49:00+02:00",
-      "category": "Nachrichten",
-      "score": 57.32
-    },
-    {
-      "id": "handelsblatt-da3fecea887be70e",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Vergangenheit und Nostalgie: Merkel-Mania? Warum die Kanzlerin a. D. so viele Fans bewegt",
-      "link": "https://www.handelsblatt.com/politik/deutschland/vergangenheit-und-nostalgie-merkel-mania-warum-die-kanzlerin-a-d-so-viele-fans-bewegt/100259537.html",
-      "summary": "Schlicht, sachlich, stabil: So erinnern sich viele an Angela Merkels 16 Jahre im Kanzleramt. In instabilen Zeiten mit viel Streit wächst Nostalgie. Für Nachfolger Friedrich Merz ein harter Brocken.",
-      "image": "https://images.handelsblatt.com/a3AgVVePjQrV/cover/900/506/0/0/107/106/0.5/0.5/angela-merkel.jpg",
-      "published": "2026-10-04T13:44:11+00:00",
-      "category": "Wirtschaft",
-      "score": 51.32
+      "score": 46.84
     },
     {
       "id": "tagesschau-f7432cd37374d02a",
@@ -1095,79 +1807,17 @@
       "image": "https://images.tagesschau.de/image/bdfad2eb-0774-42ab-ae62-bf95ec327b15/AAABoQa-Lb4/AAABnSSvrFg/16x9-big/spanien-regen-ueberflutete-strasse-100.jpg?width=1920",
       "published": "2026-10-04T13:43:22+02:00",
       "category": "Nachrichten",
-      "score": 64.64
-    },
-    {
-      "id": "handelsblatt-59c0766f67c3a700",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Künstliche Intelligenz: US-Geheimdienstkoordinator Clayton bekommt KI-Rolle",
-      "link": "https://www.handelsblatt.com/technik/it-internet/kuenstliche-intelligenz-us-geheimdienstkoordinator-clayton-bekommt-ki-rolle/100259587.html",
-      "summary": "US-Präsident Donald Trump will allen Warnungen zum Trotz ein hohes Tempo bei der Entwicklung Künstlicher Intelligenz. Er fand in der Geheimdienstwelt den Mann, der das sicherstellen soll.",
-      "image": "https://images.handelsblatt.com/RlLOuaQcQLWl/cover/900/506/0/0/107/106/0.5/0.5/jay-clayton.jpg",
-      "published": "2026-10-04T13:41:25+00:00",
-      "category": "Technologie",
-      "score": 56.28
-    },
-    {
-      "id": "handelsblatt-7ea2f8089f272308",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Mobilisierung geht weiter: Frankreich vor nächster Runde der Schülerproteste",
-      "link": "https://www.handelsblatt.com/politik/international/mobilisierung-geht-weiter-frankreich-vor-naechster-runde-der-schuelerproteste/100259586.html",
-      "summary": "Trotz der Gewaltexzesse rufen die Schülervertretungen für Dienstag zu einem landesweiten Protesttag auf. Unterstützung kommt von großen Bildungsgewerkschaften, die teils auch zum Streik aufrufen.",
-      "image": "https://images.handelsblatt.com/JOQpg-MFsMNJ/cover/900/506/0/0/107/106/0.5/0.5/schulproteste-in-frankreich.jpg",
-      "published": "2026-10-04T13:40:55+00:00",
-      "category": "Wirtschaft",
-      "score": 51.27
-    },
-    {
-      "id": "spiegel-f0b394612e3b6e98",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Vorwahlen USA in Georgia: KI legt offenbar offen, wie Bürger abgestimmt haben",
-      "link": "https://www.spiegel.de/netzwelt/netzpolitik/vorwahlen-usa-in-georgia-ki-legt-offenbar-offen-wie-buerger-bei-vorwahlen-abgestimmt-haben-a-88fa202f-2c19-426e-a3f0-d42c1df8a759#ref=rss",
-      "summary": "Ein Forscher behauptet, er könne mithilfe von künstlicher Intelligenz nachvollziehen, wie einzelne Wähler in Georgia bei den jüngsten Vorwahlen abgestimmt haben. Der Wahlausschuss traf sich deswegen nun zu einer Dringlichkeitssitzung.",
-      "image": "https://cdn.prod.www.spiegel.de/images/39eaae5b-a1f0-4170-90c4-d4dc21eec572_w1200_r1.778_fpx64_fpy35.jpg",
-      "published": "2026-10-04T13:32:00+02:00",
-      "category": "Politik",
-      "score": 58.48
-    },
-    {
-      "id": "handelsblatt-59e77d489549edd2",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Tag der Deutschen Einheit: Einheitsfest in Bremen - Innenressort zieht positive Bilanz",
-      "link": "https://www.handelsblatt.com/politik/deutschland/tag-der-deutschen-einheit-einheitsfest-in-bremen-innenressort-zieht-positive-bilanz/100259565.html",
-      "summary": "Hochrangige Politikerinnen und Politiker feierten, mahnten und zeigten sich volksnah. Politische Institutionen stellten ihre Arbeit vor. Wie sieht die erste Bilanz zum zentralen Fest in Bremen aus?",
-      "image": "https://images.handelsblatt.com/7hXMU-7o-otF/cover/900/506/0/0/107/107/0.5/0.5/ende-der-feier-rund-um-den-tag-der-deutschen-einheit.jpg",
-      "published": "2026-10-04T13:22:14+00:00",
-      "category": "Wirtschaft",
-      "score": 51.01
-    },
-    {
-      "id": "spiegel-c7f400884fcf66d4",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Formel 1: Max Verstappens Erlösung im Chaos von Malaysia",
-      "link": "https://www.spiegel.de/sport/formel1/formel-1-max-verstappens-erloesung-im-chaos-von-malaysia-a-e503e79a-4242-478c-a5da-0dfa3c92b03d#ref=rss",
-      "summary": "Prasselnder Regen, streikende Autos, verspäteter Start: Die Formel 1 erlebt ein aufregendes Comeback in Sepang. Max Verstappen feiert seinen ersten Saisonsieg, der WM-Kampf dagegen scheint entschieden.",
-      "image": "https://cdn.prod.www.spiegel.de/images/983f5a7b-ceb7-49de-92b5-f3626600b09a_w1200_r1.778_fpx30_fpy54.97.jpg",
-      "published": "2026-10-04T13:20:00+02:00",
-      "category": "Nachrichten",
-      "score": 50.33
-    },
-    {
-      "id": "handelsblatt-a870653255b3cd40",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Ukraine-Krieg: Kanzler Merz in Kiew an Putin: „Hören Sie diesen sinnlosen Krieg auf“",
-      "link": "https://www.handelsblatt.com/politik/deutschland/kiew-besuch-merz-appell-an-putin-hoeren-sie-diesen-sinnlosen-krieg-auf/100259485.html",
-      "summary": "Trotz angespannter Sicherheitslage besucht der Kanzler am Sonntag überraschend Kiew. Russland hatte zuvor eine klare Warnung ausgesprochen – und greift während der Merz-Visite mehrfach die Stadt an.",
-      "image": "https://images.handelsblatt.com/8JSC4HRouLDt/cover/900/506/321/204/1046/0/0.5/0.5/ukraineaposs-president-volodymyr-zelenskiy-german-chancellor-friedrich-merz-and-german-energy-min.jpg",
-      "published": "2026-10-04T13:15:27+00:00",
-      "category": "Politik",
-      "score": 62.51
+      "score": 82.04,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Spanien: Mindestens drei Menschen sterben nach extremen Regenfällen",
+            "link": "https://www.spiegel.de/panorama/spanien-mindestens-drei-menschen-sterben-nach-extremen-regenfaellen-a-7258f134-8969-4511-9350-4ebb9da4cd5f#ref=rss"
+          }
+        ]
+      }
     },
     {
       "id": "golem-4890123a7382d04c",
@@ -1179,43 +1829,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213684&amp;page=1&amp;ts=1791112262",
       "published": "2026-10-04T13:11:02+02:00",
       "category": "Technologie",
-      "score": 45.19
-    },
-    {
-      "id": "handelsblatt-6fc51e972fec9c9a",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "AfD: Hessens Ministerpräsident entfacht neue Brandmauer-Debatte",
-      "link": "https://www.handelsblatt.com/politik/deutschland/afd-hessens-ministerpraesident-entfacht-neue-brandmauer-debatte/100259579.html",
-      "summary": "Die AfD ist in Umfragen so stark wie noch nie. Hessens Regierungschef Rhein plädiert nun für einen anderen Umgang mit der Partei und stößt damit auch in der CDU auf Kritik.",
-      "image": "https://images.handelsblatt.com/-PH3uiHlPvrC/cover/900/506/0/0/0/365/0.5/0.5/boris-rhein-bei-einem-auftritt-in-hessen.jpg",
-      "published": "2026-10-04T13:07:37+00:00",
-      "category": "Politik",
-      "score": 70.73
-    },
-    {
-      "id": "spiegel-9b4caf1b5a95fbb7",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Oktoberfest: Mitarbeiter der Schiffschaukel schwer verletzt",
-      "link": "https://www.spiegel.de/panorama/oktoberfest-mitarbeiter-an-fahrgeschaeft-schwer-verletzt-und-reanimiert-a-ce0ca8ea-7e7f-432f-ab66-07f24a358f75#ref=rss",
-      "summary": "Erneut ist ein Mitarbeiter eines Fahrgeschäfts verunglückt, der Mann konnte jedoch von Rettungskräften vor Ort reanimiert werden.",
-      "image": "https://cdn.prod.www.spiegel.de/images/ca069b64-a7e7-429e-a903-b162c336d67b_w1200_r1.778_fpx57.33_fpy50.jpg",
-      "published": "2026-10-04T13:07:00+02:00",
-      "category": "Nachrichten",
-      "score": 47.14
-    },
-    {
-      "id": "spiegel-9babf42ec1014001",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "USA: Christa Pike spendete letzte Mahlzeit",
-      "link": "https://www.spiegel.de/ausland/gescheiterte-hinrichtung-in-den-usa-christa-pike-spendete-letzte-mahlzeit-a-f1ba3fca-065a-4ca0-a50a-aece7d7e28f6#ref=rss",
-      "summary": "Die 50-jährige Christa Pike überlebte am Mittwoch ihre Hinrichtung per Giftspritze im US-Bundesstaat Tennessee. Am Vorabend hatte sie einen ungewöhnlichen letzten Wunsch geäußert.",
-      "image": "https://cdn.prod.www.spiegel.de/images/9d9d6dd5-ff0a-4fd4-bd7b-b21f9e53493a_w1200_r1.778_fpx29.99_fpy54.99.jpg",
-      "published": "2026-10-04T13:01:00+02:00",
-      "category": "Nachrichten",
-      "score": 47.05
+      "score": 40.31
     },
     {
       "id": "heise-a687fc7ce8da1f37",
@@ -1227,19 +1841,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/7/6/1/1/9/shutterstock_2602293623-faec070b7a2b1197.jpeg",
       "published": "2026-10-04T12:58:00+02:00",
       "category": "Technologie",
-      "score": 46.01
-    },
-    {
-      "id": "handelsblatt-71c250bede4190d3",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Iran-Krieg +++: Iran öffnet Straße von Hormus erst nach Erfüllung des Interimsabkommens",
-      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-iran-oeffnet-strasse-von-hormus-erst-nach-erfuellung-des-interimsabkommens/100136895.html",
-      "summary": "Jemens Regierung kündigt Großoffensive gegen Huthis an +++ Tanker in Straße von Hormus von Geschoss getroffen +++ Huthis haben offenbar Aramco-Anlage in Riad angegriffen +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/MoiZIwmuc3-i/cover/900/506/0/0/313/312/0.5/0.5/archiv-07.09.2026-iran-bandar-abbas-eine-schwimmende-baggerplattform-und-handelsschiffe-liegen.jpg",
-      "published": "2026-10-04T12:57:00+00:00",
-      "category": "Politik",
-      "score": 58.66
+      "score": 41.12
     },
     {
       "id": "tagesschau-6b488bb28fcb1bd3",
@@ -1251,43 +1853,7 @@
       "image": "https://images.tagesschau.de/image/ae5df035-a582-4565-be40-0ebbc3559f06/AAABoQKtQy4/AAABnSSvrFg/16x9-big/butter-126.jpg?width=1920",
       "published": "2026-10-04T12:54:10+02:00",
       "category": "Nachrichten",
-      "score": 47.96
-    },
-    {
-      "id": "handelsblatt-505f0c78da4d029a",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Klimaschutz: 15 Verbände stemmen sich gegen Brüssels Klima-Pläne und fordern Unterstützung von der Regierung",
-      "link": "https://www.handelsblatt.com/politik/deutschland/klimaschutz-15-verbaende-stemmen-sich-gegen-eu-reform/100259209.html",
-      "summary": "Weite Teile der Industrie warnen vor dem Plan der EU-Kommission, die kostenlose Zuteilung von Emissionszertifikaten mit Investitionspflichten zu verknüpfen. Nun soll die Bundesregierung helfen.",
-      "image": "https://images.handelsblatt.com/p5lizaXMSgHB/cover/900/506/0/0/382/383/0.5/0.5/archiv-17.07.2026-sachsen-anhalt-wittenberg-blick-auf-das-werksgelaende-der-skw-piesteritz-gmbh..jpg",
-      "published": "2026-10-04T12:31:14+00:00",
-      "category": "Politik",
-      "score": 50.31
-    },
-    {
-      "id": "handelsblatt-da083e7f4527ceaf",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Märkte Insight: Der Zinsschock hat Aktien bereits getroffen",
-      "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/anleihen-der-zinsschock-hat-aktien-bereits-getroffen/100257476.html",
-      "summary": "Trotz steigender Anleiherenditen erweisen sich die Aktienmärkte als robust. Einzelne Branchen spüren den Zinsanstieg zwar – für Anleger ist das aber eine gute Nachricht, meint Martin Müller.",
-      "image": "https://images.handelsblatt.com/unP8PtchKcyy/cover/900/506/0/0/0/0/0.5/0.5/marktkolumne.png",
-      "published": "2026-10-04T12:30:00+00:00",
-      "category": "Wirtschaft",
-      "score": 50.29
-    },
-    {
-      "id": "handelsblatt-4caf235db803efb8",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Kommentar: Der Markt hat längst entschieden: Galeria hat keine Zukunft mehr",
-      "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-galeria-hat-keine-zukunft-mehr/100259573.html",
-      "summary": "Alle zwei Jahre stellt der Warenhauskonzern mittlerweile einen Insolvenzantrag. Allen Beteiligten müsste klar sein: Der Verbraucher hat kein Interesse mehr an Galeria.",
-      "image": "https://images.handelsblatt.com/L2O0lZOb1Itl/cover/900/506/0/0/0/0/0.5/0.5/02.10.2026-nordrhein-westfalen-duesseldorf-eine-frau-geht-am-logo-an-der-galeria-filiale-an-der-sc.jpg",
-      "published": "2026-10-04T12:28:48+00:00",
-      "category": "Wirtschaft",
-      "score": 50.27
+      "score": 43.07
     },
     {
       "id": "golem-da65e5635132def7",
@@ -1299,7 +1865,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213683&amp;page=1&amp;ts=1791109022",
       "published": "2026-10-04T12:17:02+02:00",
       "category": "Technologie",
-      "score": 44.44
+      "score": 39.56
     },
     {
       "id": "tagesschau-521f88d8e0d8dc85",
@@ -1311,19 +1877,7 @@
       "image": "https://images.tagesschau.de/image/ee1c1ee0-63d1-4a4b-9984-3d3b8c39c1bf/AAABoOcWKWc/AAABnSSvrFg/16x9-big/jagdwaffe-100.jpg?width=1920",
       "published": "2026-10-04T12:16:11+02:00",
       "category": "Nachrichten",
-      "score": 47.43
-    },
-    {
-      "id": "handelsblatt-13116b64ea686877",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Wahlen +++: Wahlpanne in Berlin – AfD holt nach Nachzählung weiteres Direktmandat",
-      "link": "https://www.handelsblatt.com/politik/deutschland/landtagswahlen-wahlpanne-in-berlin-afd-holt-nach-nachzaehlung-weiteres-direktmandat/100252039.html",
-      "summary": "Vorgespräche für Sondierungen in Berlin dauern an +++ Krach und Caglar sind neue SPD-Fraktionsvorsitzende in Berlin +++ Sondierungsgespräche in MV begonnen +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/pxPajEXPiszd/cover/900/506/0/0/376/375/0.5/0.5/tommy-tabor-afd.jpg",
-      "published": "2026-10-04T12:10:00+00:00",
-      "category": "Politik",
-      "score": 58.01
+      "score": 42.54
     },
     {
       "id": "tagesschau-d110de022f1a2bf1",
@@ -1335,19 +1889,7 @@
       "image": "https://images.tagesschau.de/image/1f555a51-4d54-43fa-87cc-eba41e4bc277/AAABoQZDBI4/AAABnSSvrFg/16x9-big/jemen-sporthalle-zerstoert-sanaa-100.jpg?width=1920",
       "published": "2026-10-04T12:05:29+02:00",
       "category": "Politik",
-      "score": 64.64
-    },
-    {
-      "id": "handelsblatt-65cdcb417b9bcc4c",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Energiemarkt: Was bringt die Freigabe von Öl-Reserven?",
-      "link": "https://www.handelsblatt.com/politik/deutschland/energiemarkt-was-bringt-die-freigabe-von-oel-reserven/100259489.html",
-      "summary": "Die von den G7-Ländern geplante Freigabe von Öl- und Dieselreserven wird die hohen Spritpreise wohl nicht nachhaltig senken. Doch sie senden ein Signal an den Markt.",
-      "image": "https://images.handelsblatt.com/wE2ytZZlouW9/cover/900/506/0/0/95/94/0.5/0.5/energiepreiskrise.jpg",
-      "published": "2026-10-04T11:44:02+00:00",
-      "category": "Wirtschaft",
-      "score": 49.65
+      "score": 51.76
     },
     {
       "id": "tagesschau-f6fc936d088dd003",
@@ -1359,31 +1901,7 @@
       "image": "https://images.tagesschau.de/image/e8974ca3-6808-4118-9cbd-d3f4ea9cc10f/AAABoQbOBDk/AAABnSSvrFg/16x9-big/merz-selenskyj-124.jpg?width=1920",
       "published": "2026-10-04T11:39:12+02:00",
       "category": "Politik",
-      "score": 91.34
-    },
-    {
-      "id": "handelsblatt-5a92408345189764",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Öl: Opec plus will Förderziele für November beibehalten",
-      "link": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/oel-opec-plus-will-foerderziele-fuer-november-beibehalten/100259559.html",
-      "summary": "Die Förderländer am Golf hatten zuletzt wegen des Iran-Kriegs deutlich unter ihren Produktionszielen gearbeitet. Doch die Opec plus hat am Markt an Einfluss verloren.",
-      "image": "https://images.handelsblatt.com/-TfKpS8BLfiH/cover/900/506/0/0/75/75/0.5/0.5/opec.jpeg",
-      "published": "2026-10-04T11:34:19+00:00",
-      "category": "Wirtschaft",
-      "score": 57.52
-    },
-    {
-      "id": "handelsblatt-bbaa3b868c6816f7",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Steuerreform: „Herbstpaket“: Bund und Länder planen Steuervereinfachungen für Unternehmen",
-      "link": "https://www.handelsblatt.com/politik/deutschland/steuerreform-bund-und-laender-planen-steuervereinfachungen-fuer-unternehmen/100258887.html",
-      "summary": "Noch im Herbst wollen sich das Bundesfinanzministerium und die Länder auf Steuererleichterungen für die Wirtschaft einigen. NRW-Finanzminister Optendrenk macht acht konkrete Vorschläge.",
-      "image": "https://images.handelsblatt.com/LU3pc-J66Mnx/cover/900/506/0/0/0/625/0.5/0.5/16.09.2026-nordrhein-westfalen-duesseldorf-marcus-optendrenk-finanzminister-von-nordrhein-westfal.jpg",
-      "published": "2026-10-04T11:33:34+00:00",
-      "category": "Wirtschaft",
-      "score": 49.51
+      "score": 78.85
     },
     {
       "id": "golem-edf2520952cf07bc",
@@ -1395,7 +1913,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213681&amp;page=1&amp;ts=1791105362",
       "published": "2026-10-04T11:16:02+02:00",
       "category": "Technologie",
-      "score": 43.59
+      "score": 38.71
     },
     {
       "id": "tagesschau-55b322baed394e15",
@@ -1407,43 +1925,7 @@
       "image": "https://images.tagesschau.de/image/88a24db3-08b4-447c-b5db-db9d199ead63/AAABoQYT4S0/AAABnSSvrFg/16x9-big/kemi-badenoch-104.jpg?width=1920",
       "published": "2026-10-04T11:12:59+02:00",
       "category": "Nachrichten",
-      "score": 46.55
-    },
-    {
-      "id": "handelsblatt-8838ad6127f8c395",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Kolumne Inside America: Vergewaltigungsvorwurf – Haben Justiz und Universität versagt?",
-      "link": "https://www.handelsblatt.com/meinung/kolumnen/kolumne-inside-america-vergewaltigungsvorwurf-haben-justiz-und-universitaet-versagt/100258451.html",
-      "summary": "Jahrelang schien der Fall an der US-Universität Cornell erledigt. Jetzt wird neu ermittelt – und die Frage drängt sich auf, wie Elite-Institutionen mit schweren Vorwürfen wirklich umgehen.",
-      "image": "https://images.handelsblatt.com/OLVj0foaTEv2/cover/900/506/0/0/0/0/0.5/0.5/fotot-antonia-mannweiler.jpg",
-      "published": "2026-10-04T11:05:25+00:00",
-      "category": "Wirtschaft",
-      "score": 49.11
-    },
-    {
-      "id": "handelsblatt-aca4a1fde713439f",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Schifffahrt: Neue Niedrigwasser-Rekorde am Rhein – jetzt droht der Wirtschaft die teuerste Phase",
-      "link": "https://www.handelsblatt.com/unternehmen/industrie/industrie-neue-niedrigwasser-rekorde-jetzt-droht-die-teuerste-phase/100258244.html",
-      "summary": "Der Rhein erreicht historische Tiefstände – und der Aufwand für Chemie- und Mineralölkonzerne wird immer größer. Eine Handelsblatt-Umfrage zeigt, wie groß das Problem für die Industrie ist.",
-      "image": "https://images.handelsblatt.com/6yjQD6c4HuTN/cover/900/506/0/0/455/455/0.5/0.5/rhein-bei-oestrich-winkel-in-hessen.jpg",
-      "published": "2026-10-04T10:55:55+00:00",
-      "category": "Wirtschaft",
-      "score": 48.98
-    },
-    {
-      "id": "handelsblatt-8b750c75cfdaff23",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Heizung: Wärmepumpen sind in bis zu 90 Prozent der Mehrfamilienhäuser möglich",
-      "link": "https://www.handelsblatt.com/finanzen/immobilien/waermepumpe-im-mehrfamilienhaus-oft-reicht-ein-heizkoerpertausch-damit-es-machbar-wird/100259569.html",
-      "summary": "In Deutschland könnten mehr Wärmepumpen in Mietshäusern verbaut werden. Oft reicht dazu ein Heizkörpertausch, zeigt eine aktuelle Untersuchung.",
-      "image": "https://images.handelsblatt.com/MAIw6KX0RzpW/cover/900/506/0/0/313/312/0.5/0.5/01.11.2024-heizen-mit-der-waermepumpe.-an-einem-neubau-wohnhaus-in-pfaffenhausen-allgaeu-ist-eine-luf.jpg",
-      "published": "2026-10-04T10:40:38+00:00",
-      "category": "Wirtschaft",
-      "score": 48.77
+      "score": 41.67
     },
     {
       "id": "golem-d157c6064feb4c4e",
@@ -1455,7 +1937,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213666&amp;page=1&amp;ts=1791103202",
       "published": "2026-10-04T10:40:02+02:00",
       "category": "Technologie",
-      "score": 43.09
+      "score": 38.21
     },
     {
       "id": "golem-8ec009ccc2079711",
@@ -1467,19 +1949,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213678&amp;page=1&amp;ts=1791102062",
       "published": "2026-10-04T10:21:02+02:00",
       "category": "Technologie",
-      "score": 42.83
-    },
-    {
-      "id": "handelsblatt-d42de3ff1946c9ca",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Galeria: Sie versprachen einen „Batzen Cash“ – und lieferten die vierte Insolvenz",
-      "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/galeria-sie-versprachen-batzen-cash-und-lieferten-die-vierte-insolvenz/100259572.html",
-      "summary": "Wie Missmanagement, Rabattschlachten und Begehrlichkeiten der Eigner Deutschlands letzte große Warenhauskette ruinierten. Die Anatomie des Galeria-Absturzes.",
-      "image": "https://images.handelsblatt.com/3Hs3t6uRiJX5/cover/900/506/0/0/105/104/0.5/0.5/germany-insolvency-signa.jpg",
-      "published": "2026-10-04T10:20:36+00:00",
-      "category": "Wirtschaft",
-      "score": 48.49
+      "score": 37.94
     },
     {
       "id": "golem-2f380fbc57f90c79",
@@ -1491,19 +1961,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213680&amp;page=1&amp;ts=1791101762",
       "published": "2026-10-04T10:16:02+02:00",
       "category": "Technologie",
-      "score": 50.76
-    },
-    {
-      "id": "handelsblatt-b41cd0e1fdae4f50",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Energiepreise: Spritpreisbremse und Übergewinnsteuer treten in Polen in Kraft",
-      "link": "https://www.handelsblatt.com/politik/international/energiepreise-spritpreisbremse-und-uebergewinnsteuer-treten-in-polen-in-kraft/100259575.html",
-      "summary": "In Polen gilt jetzt eine Spritpreisbremse. Möglich wurde sie durch eine Übergewinnsteuer für Mineralölkonzerne. Für die Autofahrer werden Benzin und Diesel deutlich günstiger.",
-      "image": "https://images.handelsblatt.com/JhA2Wwj5lDDj/cover/900/506/0/0/104/104/0.5/0.5/archiv-31.03.2026-polen-slubice-fahrzeuge-mit-deutschen-kennzeichen-stehen-an-einer-tankstelle.jpg",
-      "published": "2026-10-04T10:05:33+00:00",
-      "category": "Wirtschaft",
-      "score": 48.28
+      "score": 45.87
     },
     {
       "id": "golem-bcb6775bdce90a0a",
@@ -1515,7 +1973,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213670&amp;page=1&amp;ts=1791100802",
       "published": "2026-10-04T10:00:02+02:00",
       "category": "Technologie",
-      "score": 42.54
+      "score": 37.65
     },
     {
       "id": "tagesschau-b140d03b044e1ae3",
@@ -1527,91 +1985,7 @@
       "image": "https://images.tagesschau.de/image/01743d33-1777-4c43-83fa-e98863cd8dd7/AAABoQLjpCg/AAABnSSvrFg/16x9-big/lettland-134.jpg?width=1920",
       "published": "2026-10-04T09:58:11+02:00",
       "category": "Politik",
-      "score": 56.51
-    },
-    {
-      "id": "handelsblatt-cb249c5b9c904363",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Kommentar: Der Zins, der die Finanzwelt neu sortiert",
-      "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-der-zins-der-die-finanzwelt-neu-sortiert/100259070.html",
-      "summary": "Noch richten die steigenden Anleiherenditen nur begrenzten Schaden an. Aber die Dynamik kann sich schnell ändern. Ein Sektor kann vom Wachstumstreiber zum Großrisiko werden.",
-      "image": "https://images.handelsblatt.com/cBkQgdJ4oNuG/cover/900/506/0/0/417/0/0.5/0.5/wall-street.jpg",
-      "published": "2026-10-04T09:46:14+00:00",
-      "category": "Wirtschaft",
-      "score": 48.01
-    },
-    {
-      "id": "handelsblatt-13ac2be087ea85fd",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Insiderbarometer: Diese drei Dax-Aktien sind bei ihren Chefs gefragt – und auch für Privatanleger interessant",
-      "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/geldanlage-diese-drei-dax-aktien-sind-bei-ihren-chefs-gefragt/100258024.html",
-      "summary": "Die Vorstandschefs von Adidas, Rheinmetall und Fresenius greifen im September bei gefallenen Kursen zu. Es gibt aber auch noch weitere interessante Insiderkäufe.",
-      "image": "https://images.handelsblatt.com/-91Q866QPQjd/cover/900/506/0/0/0/0/0.5/0.5/insiderbaromer.jpg",
-      "published": "2026-10-04T09:45:14+00:00",
-      "category": "Wirtschaft",
-      "score": 48.0
-    },
-    {
-      "id": "handelsblatt-231777ff118486ff",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Sozialleistungen: Sozialbündnis ruft Regierung zu Stopp von Kürzungsplänen auf",
-      "link": "https://www.handelsblatt.com/politik/deutschland/sozialleistungen-sozialbuendnis-ruft-regierung-zu-stopp-von-kuerzungsplaenen-auf/100259570.html",
-      "summary": "Bei der Pflege und in anderen Bereichen setzt die Regierung auch auf Einsparungen. Gewerkschaften und Verbände warnen vor weitreichenden Folgen.",
-      "image": "https://images.handelsblatt.com/iDFzyBYxFR3P/cover/900/506/0/0/107/106/0.5/0.5/dgb-aktionstag-fuer-den-sozialstaat-berlin.jpg",
-      "published": "2026-10-04T09:31:02+00:00",
-      "category": "Politik",
-      "score": 47.8
-    },
-    {
-      "id": "handelsblatt-91588c68804e1791",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Parlamentswahl: Ergebnis verdreifacht: Pro-europäische Regierungspartei in Lettland siegt überraschend klar",
-      "link": "https://www.handelsblatt.com/politik/international/lettland-pro-europaeische-regierungspartei-siegt-klar-bei-parlamentswahl/100259546.html",
-      "summary": "Eindeutige Bestätigung für den Pro-EU- und Pro-Ukraine-Kurs des Regierungschefs: Ministerpräsident Kulbergs dürfte nach dem haushohen Wahlsieg erneut die Regierung anführen.",
-      "image": "https://images.handelsblatt.com/zywP7MUA3BnM/cover/900/506/0/0/157/470/0.5/0.5/latviaaposs-prime-minister-andris-kulbergs-reacts-after-first-exit-poll-results-of-the-general-ele.jpg",
-      "published": "2026-10-04T08:41:00+00:00",
-      "category": "Politik",
-      "score": 63.11
-    },
-    {
-      "id": "handelsblatt-d7e8931ec0f69313",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Baltikum: In Lettland klarer Wahlsieg von Regierungschef Kulbergs",
-      "link": "https://www.handelsblatt.com/politik/international/baltikum-in-lettland-klarer-wahlsieg-von-regierungschef-kulbergs/100259554.html",
-      "summary": "Erst im Mai gab es in Lettland wegen Drohnenvorfällen einen Regierungswechsel. Nicht einmal ein halbes Jahre später stand nun die Parlamentswahl an. Sie bringt einen großen Gewinner hervor.",
-      "image": "https://images.handelsblatt.com/3utcx-NKiC4H/cover/900/506/0/0/107/107/0.5/0.5/wahlen-in-lettland.jpg",
-      "published": "2026-10-04T08:30:00+00:00",
-      "category": "Politik",
-      "score": 63.11
-    },
-    {
-      "id": "handelsblatt-39261067730fa59f",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Iran-Krieg: Tanker in der Straße von Hormus angegriffen",
-      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-tanker-in-der-strasse-von-hormus-angegriffen/100259562.html",
-      "summary": "Immer wieder werden in der Straße von Hormus Frachtschiffe angegriffen. Nach dem jüngsten Zwischenfall meldet der Kapitän eines Tankers Schäden am Maschinenraum.",
-      "image": "https://images.handelsblatt.com/qM8eALSVlo0f/cover/900/506/0/0/107/106/0.5/0.5/iran-krieg-strasse-von-hormus.jpg",
-      "published": "2026-10-04T08:26:13+00:00",
-      "category": "Wirtschaft",
-      "score": 58.66
-    },
-    {
-      "id": "handelsblatt-829db25b6d2314a5",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Deutsche Telekom: Wie CEO Höttges die Telekom zum KI-Konzern machen will",
-      "link": "https://www.handelsblatt.com/technik/it-internet/deutsche-telekom-wie-ceo-hoettges-die-telekom-zum-ki-konzern-machen-will/100258239.html",
-      "summary": "Der Telekom-Chef lädt zum AI-Investor-Day nach Bonn. Das Ziel: Unterstützung für eine Neuausrichtung des Konzerns sammeln. Aber Analysten sehen zwei andere Probleme.",
-      "image": "https://images.handelsblatt.com/LyHwkNHn-Eud/cover/900/506/0/0/0/0/0.5/0.5/deutsche-telekom-tim-hoettges.png",
-      "published": "2026-10-04T08:23:42+00:00",
-      "category": "Technologie",
-      "score": 43.87
+      "score": 51.63
     },
     {
       "id": "tagesschau-904b4a3637576654",
@@ -1623,7 +1997,7 @@
       "image": "https://images.tagesschau.de/image/76be640c-653e-41a4-afba-c2d6e69d1f8b/AAABoQWHv5M/AAABnSSvrFg/16x9-big/wahlplakate-brasilien-100.jpg?width=1920",
       "published": "2026-10-04T08:09:05+02:00",
       "category": "Politik",
-      "score": 55.0
+      "score": 75.62
     },
     {
       "id": "tagesschau-6a8232c2dfbd5328",
@@ -1635,7 +2009,7 @@
       "image": "https://images.tagesschau.de/image/a01472ee-c24c-4e7c-ae3e-047a3b6cfa70/AAABoPzs1MU/AAABnSSvrFg/16x9-big/duckdalben-118.jpg?width=1920",
       "published": "2026-10-04T08:00:33+02:00",
       "category": "Nachrichten",
-      "score": 59.88
+      "score": 54.99
     },
     {
       "id": "golem-1871360f5ab81417",
@@ -1647,43 +2021,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=212421&amp;page=1&amp;ts=1791091802",
       "published": "2026-10-04T07:30:02+02:00",
       "category": "Technologie",
-      "score": 40.46
-    },
-    {
-      "id": "handelsblatt-bcc32e5f9946388f",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Die Welt in Bildern: Blickfang",
-      "link": "https://www.handelsblatt.com/die-welt-in-bildern-blickfang/8906950.html",
-      "summary": "Sie beeindrucken. Sie wühlen auf. Sie faszinieren. Sie erschrecken. Sie dokumentieren den großen Moment. Sie zeigen kleine Wunder. Oder sie erzählen eine Geschichte. Die Welt – ein Blickfang.",
-      "image": "https://images.handelsblatt.com/W2mQZEzkff-J/cover/900/506/0/0/0/292/0.5/0.5/dpatopbilder-handout-03.10.2026-nordkorea-die-von-der-staatlichen-nordkoreanischen-nachri.jpg",
-      "published": "2026-10-04T07:30:00+00:00",
-      "category": "Wirtschaft",
-      "score": 46.12
-    },
-    {
-      "id": "handelsblatt-f456a1ec0cb038df",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Pflegereform: Sozialbündnis ruft Regierung zu Stopp von Kürzungsplänen auf",
-      "link": "https://www.handelsblatt.com/politik/deutschland/pflegereform-sozialbuendnis-ruft-regierung-zu-stopp-von-kuerzungsplaenen-auf/100259557.html",
-      "summary": "Bei der Pflege und in anderen Bereichen setzt die Regierung auch auf Einsparungen. Gewerkschaften und Verbände warnen vor weitreichenden Folgen.",
-      "image": "https://images.handelsblatt.com/MORD3aZfpviM/cover/900/506/0/0/188/189/0.5/0.5/archiv-05.08.2026-schleswig-holstein-kiel-bewohnerinnen-und-bewohner-einer-pflegeeinrichtung-ge.jpg",
-      "published": "2026-10-04T07:11:35+00:00",
-      "category": "Politik",
-      "score": 47.8
-    },
-    {
-      "id": "handelsblatt-10b2eac9d488de6d",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Elektromobilität: Mehr als 200.000 öffentliche Punkte: Lademöglichkeiten für E-Autos nehmen in Deutschland zu",
-      "link": "https://www.handelsblatt.com/mobilitaet/elektromobilitaet/unterwegs-aufladen-elektroautos-immer-mehr-oeffentliche-ladepunkte/100259522.html",
-      "summary": "Die prozentualen Zuwächse legen einer Studie zufolge abseits der großen Metropolen am stärksten zu. Trotz des Ausbaus der Ladenetze gibt es aber weiterhin Aufholbedarf.",
-      "image": "https://images.handelsblatt.com/kD-pK1wq6v--/cover/900/506/0/0/291/290/0.5/0.5/20.11.2025-sachsen-leipzig-bundesrat-gibt-gruenes-licht-fuer-kfz-steuerbefreiung.-zu-dpa-elektro.jpg",
-      "published": "2026-10-04T07:02:00+00:00",
-      "category": "Wissenschaft",
-      "score": 42.73
+      "score": 35.57
     },
     {
       "id": "golem-84a8d932e99cbc7b",
@@ -1695,7 +2033,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213643&amp;page=1&amp;ts=1791090002",
       "published": "2026-10-04T07:00:02+02:00",
       "category": "Wirtschaft",
-      "score": 43.04
+      "score": 38.15
     },
     {
       "id": "tagesschau-295c1dec014520c9",
@@ -1707,7 +2045,7 @@
       "image": "https://images.tagesschau.de/image/9bf40eff-4bc5-40cc-8ac5-b8db42dee60a/AAABoQU57l4/AAABnSSvrFg/16x9-big/merz-1682.jpg?width=1920",
       "published": "2026-10-04T06:44:05+02:00",
       "category": "Politik",
-      "score": 91.34
+      "score": 86.66
     },
     {
       "id": "tagesschau-6df270be7eaac8d0",
@@ -1719,7 +2057,7 @@
       "image": "https://images.tagesschau.de/image/80801596-b4c5-4671-8561-6ab5a2a0cea8/AAABoQXtX-Y/AAABnSSvrFg/16x9-big/bosnien-herzegowina-wahl-geraet-100.jpg?width=1920",
       "published": "2026-10-04T05:04:08+02:00",
       "category": "Politik",
-      "score": 70.33
+      "score": 78.66
     },
     {
       "id": "tagesschau-a955a96f1e9fda85",
@@ -1731,7 +2069,7 @@
       "image": "https://images.tagesschau.de/image/facdc8e6-5828-46d2-a09d-e88530f4ac74/AAABngZgB3k/AAABnSSvrFg/16x9-big/bahn-1136.jpg?width=1920",
       "published": "2026-10-04T02:51:20+02:00",
       "category": "Nachrichten",
-      "score": 39.59
+      "score": 34.7
     },
     {
       "id": "tagesschau-75be1066e5eea353",
@@ -1743,7 +2081,7 @@
       "image": "https://images.tagesschau.de/image/e8bf4b11-ec9e-4b8d-8dd6-a79a12c50d61/AAABoQP9eZU/AAABnSSvrFg/16x9-big/gaza-angriff-truemmer-haus-100.jpg?width=1920",
       "published": "2026-10-04T01:54:49+02:00",
       "category": "Politik",
-      "score": 57.8
+      "score": 52.91
     },
     {
       "id": "tagesschau-99676605602f45d4",
@@ -1755,19 +2093,7 @@
       "image": "https://images.tagesschau.de/image/1baf7e11-63e4-41d3-a026-abc648bdc53c/AAABoPIGrMw/AAABnSSvrFg/16x9-big/sachsen-anhalt-172.jpg?width=1920",
       "published": "2026-10-03T18:40:33+02:00",
       "category": "Nachrichten",
-      "score": 32.77
-    },
-    {
-      "id": "tagesschau-118742b7d958b9bd",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Russland beschießt erneut Brücke in Kiew - Tote in Charkiw",
-      "link": "https://www.tagesschau.de/ausland/ukraine-angriff-bruecke-100.html",
-      "summary": "Erneut hat Russland eine Brücke in der ukrainischen Hauptstadt beschossen. Bereits am Vortag waren drei von sechs Straßenbrücken Kiews getroffen worden. Angriffe gab es auch in anderen Landesteilen. Mehrere Menschen wurden getötet. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/71c18147-acd9-44d5-95bd-37244b81f1e9/AAABoQGSpiI/AAABnSSvrFg/16x9-big/bruecke-kiew-100.jpg?width=1920",
-      "published": "2026-10-03T17:03:41+02:00",
-      "category": "Technologie",
-      "score": 31.42
+      "score": 27.88
     },
     {
       "id": "tagesschau-517157e08663e2c1",
@@ -1779,19 +2105,7 @@
       "image": "https://images.tagesschau.de/image/bba26232-ea32-4251-b4e8-97c112735432/AAABoQIBYQw/AAABnSSvrFg/16x9-big/demosntration-madrid-100.jpg?width=1920",
       "published": "2026-10-03T16:22:55+02:00",
       "category": "Politik",
-      "score": 41.86
-    },
-    {
-      "id": "tagesschau-4a19962760a4ddeb",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Bundesweite Aktion: Menschenketten für Gerechtigkeit und Klima",
-      "link": "https://www.tagesschau.de/inland/gesellschaft/menschenkette-klima-100.html",
-      "summary": "In mehr als 100 Städten haben Tausende in Menschenketten für mehr Klimaschutz und Gerechtigkeit demonstriert. Die Aktion soll auf die Ursachen von Hitzetoten, Fluten und Waldbrände aufmerksam machen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/43126653-59b4-47b6-a50c-bfdb3d562030/AAABoQIGrdo/AAABnSSvrFg/16x9-big/menschenkette-164.jpg?width=1920",
-      "published": "2026-10-03T16:03:39+02:00",
-      "category": "Nachrichten",
-      "score": 38.59
+      "score": 36.97
     },
     {
       "id": "golem-d61379e7efe26504",
@@ -1803,43 +2117,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213677&amp;page=1&amp;ts=1791032702",
       "published": "2026-10-03T15:05:02+02:00",
       "category": "Technologie",
-      "score": 26.78
-    },
-    {
-      "id": "tagesschau-5efe84fffbc152c5",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Tag der Deutschen Einheit: Kirchen fordern Zusammenhalt - Warnung vor Polarisierung",
-      "link": "https://www.tagesschau.de/inland/gesellschaft/einheitsfeier-bremen-100.html",
-      "summary": "In Bremen wird der Tag der Deutschen Einheit gefeiert. Kirchenvertreter warnten dabei vor einer Polarisierung der Gesellschaft, Bundespräsident Steinmeier vor Extremismus. Die Ostbeauftragte Kaiser plädierte unterdessen für eine ostdeutsche Bundespräsidentin.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/5a61140e-24e9-46e1-bd3b-e73603f63f37/AAABoQECklc/AAABnSSvrFg/16x9-big/bremen-tag-der-deutschen-einheit-100.jpg?width=1920",
-      "published": "2026-10-03T15:03:27+02:00",
-      "category": "Technologie",
-      "score": 29.75
-    },
-    {
-      "id": "tagesschau-2417917073358275",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Freigabe von G7-Energiereserven stößt auf gemischte Reaktionen",
-      "link": "https://www.tagesschau.de/ausland/europa/freigabe-oelreserven-reaktionen-100.html",
-      "summary": "Angesichts der hohen Energiepreise haben sich die G7-Staaten auf die Freigabe von Ölreserven verständigt. US-Präsident Trump begrüßt die Entscheidung, die Grünen üben Kritik. Eine Ökonomin erwartet nur eine kurzfristige Entlastung.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/02cbf6a1-1fed-4654-a499-3040162504c8/AAABlgpJsbw/AAABnSSvrFg/16x9-big/us-oelreseve-101.jpg?width=1920",
-      "published": "2026-10-03T14:54:53+02:00",
-      "category": "Politik",
-      "score": 40.63
-    },
-    {
-      "id": "tagesschau-ca62637aff2355a0",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Steinmeier: \"Es geht um die Selbstbehauptung der Demokratie\"",
-      "link": "https://www.tagesschau.de/inland/gesellschaft/einheitsfeier-steinmeier-100.html",
-      "summary": "Bundespräsident Steinmeier hat den Tag der Deutschen Einheit für eine Warnung vor Extremismus genutzt. Beim Festakt forderte er dazu auf, die demokratischen Grundrechte zu verteidigen. Steinmeier scheidet im März aus dem Amt. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/b7c2c186-d8c9-44e1-ba10-24f51d4c5c17/AAABoQGW2Nw/AAABnSSvrFg/16x9-big/steinmeier-1486.jpg?width=1920",
-      "published": "2026-10-03T14:29:08+02:00",
-      "category": "Nachrichten",
-      "score": 29.28
+      "score": 21.89
     },
     {
       "id": "golem-cc00ea4fc1b4db6b",
@@ -1851,7 +2129,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213676&amp;page=1&amp;ts=1791029762",
       "published": "2026-10-03T14:16:02+02:00",
       "category": "Technologie",
-      "score": 26.09
+      "score": 21.21
     },
     {
       "id": "golem-6d2d5bc47d8b0765",
@@ -1863,31 +2141,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213675&amp;page=1&amp;ts=1791027062",
       "published": "2026-10-03T13:31:02+02:00",
       "category": "Technologie",
-      "score": 25.47
-    },
-    {
-      "id": "tagesschau-f640e9fc365658b0",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Walfang-Konferenz in Australien: Schutzgebiet scheitert erneut",
-      "link": "https://www.tagesschau.de/ausland/ozeanien/australien-walschutz-konferenz-100.html",
-      "summary": "Die Internationale Walfangkommission hat in Australien über die weltweiten Bestände beraten. Auf ein großes Schutzgebiet konnten sich die Mitglieder nicht verständigen - dafür aber auf andere Maßnahmen. Von Jennifer Johnston. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/d75eadb6-8963-46fa-859f-8baab4342cd1/AAABld6n5ck/AAABnSSvrFg/16x9-big/wal-150.jpg?width=1920",
-      "published": "2026-10-03T12:56:13+02:00",
-      "category": "Nachrichten",
-      "score": 27.99
-    },
-    {
-      "id": "tagesschau-e32153ae7b5e14ab",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Frankreich: Seit Montag mehr als 5.000 Festnahmen bei Schülerprotesten",
-      "link": "https://www.tagesschau.de/ausland/frankreich-schuelerproteste-festnahmen-100.html",
-      "summary": "Bei den Schülerprotesten in Frankreich sind in dieser Woche mehr als 5.000 Menschen festgenommen worden - die meisten von ihnen waren minderjährig. Laut Regierung gab es Angriffe auf Ordnungskräfte, Lehrer und Passanten.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/551624d8-061f-4a66-976b-bb3ca00deecc/AAABoQFFioM/AAABnSSvrFg/16x9-big/schuelerprotest-frankreich-102.jpg?width=1920",
-      "published": "2026-10-03T12:47:51+02:00",
-      "category": "Politik",
-      "score": 30.87
+      "score": 20.58
     },
     {
       "id": "golem-8efbb06e8cfe2762",
@@ -1899,31 +2153,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213672&amp;page=1&amp;ts=1791024181",
       "published": "2026-10-03T12:43:01+02:00",
       "category": "Politik",
-      "score": 35.8
-    },
-    {
-      "id": "tagesschau-e374bb4741a81557",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Wohnungsnot: Kommunen fordern Konzept für ländlichen Raum",
-      "link": "https://www.tagesschau.de/inland/gesellschaft/wohnungsnot-168.html",
-      "summary": "Bezahlbarer Wohnraum ist vor allem in Ballungsgebieten rar. Als eine Lösung schlagen Städte und Gemeinden vor, ländliche Regionen attraktiver zu machen. Bisher mangele es aber vor allem an Versorgungs- und Nahverkehrsangeboten. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/d01d0bb2-19b4-4d09-b5b1-40d874e7b2e5/AAABld1RmwQ/AAABnSSvrFg/16x9-big/reihenhaus-102.jpg?width=1920",
-      "published": "2026-10-03T12:42:24+02:00",
-      "category": "Nachrichten",
-      "score": 27.79
-    },
-    {
-      "id": "tagesschau-bb6bad26eac1604b",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Großbritanniens Zusammenarbeit mit der EU: Bye-bye, Brexit?",
-      "link": "https://www.tagesschau.de/ausland/europa/grossbritannien-zusammenarbeit-eu-100.html",
-      "summary": "Großbritanniens Premier Burnham nährt mit einer Aussage Diskussionen um einen Wiedereintritt seines Landes in die EU. Gründe zur Zusammenarbeit gäbe es genug. Aber wäre eine Rückkehr wirklich denkbar? Von Sabrina Fritz. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/968ea402-52f1-4ae3-8123-7b65523bb52a/AAABoQDmfdc/AAABnSSvrFg/16x9-big/burnham-von-der-leyen-100.jpg?width=1920",
-      "published": "2026-10-03T11:54:11+02:00",
-      "category": "Nachrichten",
-      "score": 27.12
+      "score": 30.92
     },
     {
       "id": "golem-939e28e1ccf50a34",
@@ -1935,7 +2165,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213673&amp;page=1&amp;ts=1791021002",
       "published": "2026-10-03T11:50:02+02:00",
       "category": "Technologie",
-      "score": 24.07
+      "score": 19.18
     },
     {
       "id": "golem-922404ba152b19dd",
@@ -1947,7 +2177,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213674&amp;page=1&amp;ts=1791018122",
       "published": "2026-10-03T11:02:02+02:00",
       "category": "Technologie",
-      "score": 23.4
+      "score": 18.51
     },
     {
       "id": "golem-3310f43ce029675b",
@@ -1959,7 +2189,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213665&amp;page=1&amp;ts=1791016802",
       "published": "2026-10-03T10:40:02+02:00",
       "category": "Technologie",
-      "score": 23.09
+      "score": 18.21
     },
     {
       "id": "golem-f0664715a86fa08e",
@@ -1971,7 +2201,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213653&amp;page=1&amp;ts=1791016201",
       "published": "2026-10-03T10:30:01+02:00",
       "category": "Technologie",
-      "score": 22.96
+      "score": 18.07
     },
     {
       "id": "golem-9876b2a4cd5caa84",
@@ -1983,7 +2213,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213671&amp;page=1&amp;ts=1791015301",
       "published": "2026-10-03T10:15:01+02:00",
       "category": "Wirtschaft",
-      "score": 25.75
+      "score": 20.86
     },
     {
       "id": "golem-78ed1d0abea492bf",
@@ -1995,43 +2225,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213651&amp;page=1&amp;ts=1791014402",
       "published": "2026-10-03T10:00:02+02:00",
       "category": "Technologie",
-      "score": 22.54
-    },
-    {
-      "id": "golem-a4a459369d4f8cae",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Onlinebrettspiele: So wird jeder Abend zum Spieleabend!",
-      "link": "https://www.golem.de/news/onlinebrettspiele-so-wird-jeder-abend-zum-spieleabend-2610-213646.html",
-      "summary": "Brettspiele boomen - ebenso die Möglichkeiten, sie online zu spielen. Auf sechs Plattformen warten Klassiker und moderne Brettspiele für lange Spielenächte. Ein Ratgebertext von Fabian Mauruschat ( Brettspiele , Server )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213646&amp;page=1&amp;ts=1791005402",
-      "published": "2026-10-03T07:30:02+02:00",
-      "category": "Technologie",
-      "score": 20.46
-    },
-    {
-      "id": "netzpolitik-74e772010cd3a1cb",
-      "source": "netzpolitik",
-      "sourceWeight": 0.75,
-      "title": "KW 40: Die Woche, in der wir uns über Brandenburg aufgeregt haben",
-      "link": "https://netzpolitik.org/2026/kw-40-die-woche-in-der-wir-uns-ueber-brandenburg-aufgeregt-haben/",
-      "summary": "Die 40. Kalenderwoche geht zu Ende. Wir haben 13 neue Texte mit insgesamt 99.089 Zeichen veröffentlicht. Willkommen zum netzpolitischen Wochenrückblick. – : Fraktal, generiert mit MandelBrowser von Tomasz Śmigielski Liebe Leser:innen, es gibt etwas, das mich richtig aufregt: Wenn Menschen suggerieren, demokratische Rechte seien etwas, das uns von Gnaden irgendwelcher Regierungen gewährt würde. Und wenn es nicht mehr passt, könne man die – ganz nonchalant – wieder abschaffen. Diese Woche hat Jan Redmann, seines Zeichens Innenminister von Brandenburg, diesen Nerv bei mir getroffen. Wenn es nach ihm geht, sollen in Brandenburg keine Informationsfreiheitsanfragen mehr an die Polizei gestellt werden dürfen. Und überhaupt würden ja 90 Prozent der Anfragen sowieso abgelehnt. Da – so insinuiert er – kann man sich den Aufwand ja gleich ganz sparen. Ich finde das unglaublich verachtend. Wenn er schon meint, die Polizei müsse den Menschen nichts mehr über ihre Arbeit verraten, dann muss die sich wenigstens die Arbeit machen, dafür gute Gründe zu finden. Und diese Gründe müssen anfechtbar sein – zur Not vor Gericht. So wie es eben bei Informationsfreiheitsanfragen der Fall ist. …",
-      "image": "https://cdn.netzpolitik.org/wp-upload/2026/10/26-06.jpg",
-      "published": "2026-10-03T04:30:23+00:00",
-      "category": "Politik",
-      "score": 20.63
-    },
-    {
-      "id": "netzpolitik-9bd5b7433dae9215",
-      "source": "netzpolitik",
-      "sourceWeight": 0.75,
-      "title": "Betroffene in ganz Europa: Mindestens 147 Abgeordnete wurden Ziel sexualisierter Deepfakes",
-      "link": "https://netzpolitik.org/2026/betroffene-in-ganz-europa-mindestens-147-abgeordnete-wurden-ziel-sexualisierter-deepfakes/",
-      "summary": "Eine neue Studie zeigt, wie Politiker:innen in Europa von sexualisierten Deepfakes betroffen sind. Forschende habe 147 Abgeordnete der nationalen Parlamente auf einschlägigen Deepfake-Seiten gefunden. Im EU-Parlament machen 119 Abgeordnete deshalb Druck für schärfere Maßnahmen. Ein Gesicht reicht: Mit KI lassen sich Fotos für sexualisierte Deepfakes missbrauchen (Symbolbild) – Gemeinfrei-ähnlich freigegeben durch unsplash.com: Egor Komarov Rund 150 Abgeordnete aus nationalen Parlamenten in der EU sind bereits Ziel von sexualisierten Deepfakes geworden. Das haben Forschende der Berliner Denkfabrik Agora Digitale Transformation herausgefunden . Die von der Stiftung Mercator geförderte gemeinnützige Organisation arbeitet zu digitalem Wandel und Demokratie . In der Folge fordern 119 Abgeordnete des EU-Parlaments in einem offenen Brief schärfere Maßnahmen von EU-Kommission und Mitgliedstaaten. Für die Studie haben die Forschenden unter anderem bekannte Deepfake-Seiten durchleuchtet. Dort haben sie nach den Namen von 5.872 Abgeordneten aus den nationalen Parlamenten aller 27 EU-Staaten gesucht. …",
-      "image": "https://cdn.netzpolitik.org/wp-upload/2026/10/Egor-Komarov-Unsplash-1.jpg",
-      "published": "2026-10-03T04:28:56+00:00",
-      "category": "Technologie",
-      "score": 17.61
+      "score": 17.65
     }
   ]
 }
