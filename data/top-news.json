@@ -1,7 +1,83 @@
 {
-  "generatedAt": "2026-10-06T10:50:45.770930+00:00",
+  "generatedAt": "2026-10-06T17:01:12.936933+00:00",
   "count": 15,
   "articles": [
+    {
+      "id": "tagesschau-8c5d2e94ec045574",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Bundesweit erster AfD-Landtagspräsident in Sachsen-Anhalt gewählt",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/landtagspraesident-sachsen-anhalt-102.html",
+      "summary": "Tobias Rausch ist neuer Landtagspräsident in Sachsen-Anhalt. Der 35-Jährige wurde im ersten Wahlgang in das höchste Amt des Bundeslandes gewählt. Damit stellt die AfD erstmals in Deutschland einen Landtagspräsidenten. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/ed00db6e-c352-4848-a15d-6883b096a1d0/AAABoRDmx-I/AAABnSSvrFg/16x9-big/rausch-siegmund-100.jpg?width=1920",
+      "published": "2026-10-06T13:47:11+02:00",
+      "category": "Politik",
+      "score": 83.55,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Sachsen-Anhalt - Debatte um CDU-Abstimmungsverhalten nach Wahl von AfD-Politikern ins Landtagspräsidium",
+            "link": "https://www.deutschlandfunk.de/debatte-um-cdu-abstimmungsverhalten-nach-wahl-von-afd-politikern-ins-landtagspraesidium-100.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Sachsen-Anhalt: AfD stellt Landtagspräsidenten - Brandmauer bröckelig?",
+            "link": "https://www.handelsblatt.com/politik/deutschland/sachsen-anhalt-afd-stellt-landtagspraesidenten-brandmauer-broeckelig/100259943.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-111643407c6adad6",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Magdeburg - SPD-Kandidat Willingmann bei Wahl zum Vize-Landtagspräsidenten in Sachsen-Anhalt durchgefallen",
+      "link": "https://www.deutschlandfunk.de/spd-kandidat-willingmann-bei-wahl-zum-vize-landtagspraesidenten-in-sachsen-anhalt-durchgefallen-100.html",
+      "summary": "Nach der Wahl des AfD-Abgeordneten Rausch zum Landtagspräsidenten in Sachsen-Anhalt ist die SPD mit ihrem Vorschlag für einen der Stellvertreterposten gescheitert.",
+      "image": "https://bilder.deutschlandfunk.de/b9/17/50/e3/b91750e3-2ea1-44db-8c77-2c90a25293a2/sachsen-anhalt-plenum-landtag-100-1920x1920.jpg",
+      "published": "2026-10-06T18:52:01+02:00",
+      "category": "Politik",
+      "score": 82.55,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Sachsen-Anhalt - Magdeburg: Tobias Rausch ist AfD-Landtagspräsident, Carsten Borchert und Hans-Thomas Tillschneider werden Vize",
+            "link": "https://www.spiegel.de/politik/deutschland/sachsen-anhalt-magdeburg-tobias-rausch-ist-afd-landtagspraesident-carsten-borchert-und-hans-thomas-tillschneider-werden-vize-a-1b6b0b10-0759-4e62-a595-4b43aa6bad11#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Sachsen-Anhalt: Deutliche Mehrheit für Tobias Rausch: Landtag wählt erstmals AfD-Kandidaten zum Präsidenten",
+            "link": "https://www.handelsblatt.com/politik/deutschland/sachsen-anhalt-landtag-waehlt-erstmals-afd-kandidaten-zum-praesidenten/100260003.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-91c043eccfe92e09",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Abwehrkampf der Ukraine: Massiver Drohnenangriff auf Moskau",
+      "link": "https://www.tagesschau.de/ausland/europa/drohnenangriff-moskau-104.html",
+      "summary": "Als Teil ihres Abwehrkampfs nimmt die Ukraine immer wieder Ziele tief im russischen Hinterland ins Visier. Die russischen Behörden melden einen großangelegten Angriff auf die Hauptstadt Moskau mit rund 650 Drohnen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/8e349c41-4f6c-40f6-8bd2-2e0b273a6563/AAABmnQOl3o/AAABnSSvrFg/16x9-big/langstreckendrohnen-ukraine-100.jpg?width=1920",
+      "published": "2026-10-06T11:20:20+02:00",
+      "category": "Politik",
+      "score": 77.96,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "News des Tages: Landtag in Sachsen-Anhalt, August Hanning festgenommen, Moskau meldet ukrainischen Drohnenangriff",
+            "link": "https://www.spiegel.de/politik/deutschland/news-des-tages-landtag-in-sachsen-anhalt-august-hanning-festgenommen-moskau-meldet-ukrainischen-drohnenangriff-a-cabf38e9-88b0-4a16-ac19-972427c6ac97#ref=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "deutschlandfunk-5db19c5e7e6ac11f",
       "source": "deutschlandfunk",
@@ -10,119 +86,96 @@
       "link": "https://www.deutschlandfunk.de/ukraine-greift-moskau-mit-650-drohnen-an-mindestens-zwei-tote-100.html",
       "summary": "Die ukrainische Armee hat die russische Hauptstadt Moskau mit hunderten Drohnen angegriffen.",
       "image": "https://bilder.deutschlandfunk.de/bb/68/9d/66/bb689d66-634b-4d85-b840-344cfd697223/moskau-114-1920x1920.jpg",
-      "published": "2026-10-06T12:44:26+02:00",
+      "published": "2026-10-06T18:52:01+02:00",
       "category": "Politik",
-      "score": 85.91,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Ukarine-Krieg: Russland meldet ukrainische Attacke mit rund 650 Drohnen in Moskau",
-            "link": "https://www.spiegel.de/ausland/ukarine-krieg-russland-meldet-ukrainische-attacke-mit-rund-650-drohnen-in-moskau-a-b5a643fe-de9f-4976-9de1-23a865d6e397#ref=rss"
-          }
-        ]
-      }
+      "score": 77.87
     },
     {
-      "id": "tagesschau-1f6d2a51b188e116",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Livestream: Die Wahl des Landtagspräsidenten in Sachsen-Anhalt",
-      "link": "https://www.tagesschau.de/multimedia/livestreams/livestream-ts24-104.html",
-      "summary": "Aktuelle Meldungen, vertiefende Analysen und Interviews: Verfolgen Sie das Programm des ARD-Nachrichtenkanals tagesschau24 hier.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/51d0641f-0130-4a85-84af-69db5dda0c8e/AAABmr8-o_o/AAABnSSvrFg/16x9-big/sendungslogo-ts24-livestream-100.jpg?width=1920",
-      "published": "2026-10-06T11:02:17+02:00",
-      "category": "Politik",
-      "score": 83.59,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Sachsen-Anhalt - Erster Landtagspräsident von der AfD - Rausch: \"Ich bin kein Hardliner, ich bin pragmatisch\"",
-            "link": "https://www.deutschlandfunk.de/erster-landtagspraesident-von-der-afd-rausch-ich-bin-kein-hardliner-ich-bin-pragmatisch-100.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Sachsen-Anhalt: Landtag wählt erstmals AfD-Kandidaten zum Präsidenten",
-            "link": "https://www.handelsblatt.com/politik/deutschland/sachsen-anhalt-landtag-waehlt-erstmals-afd-kandidaten-zum-praesidenten/100260003.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-29e0c0bbbbc9e485",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Nobelpreis für Physik geht an Neutrinoforscher Francis Halzen",
-      "link": "https://www.tagesschau.de/wissen/nobelpreis-physik-francis-halzen-100.html",
-      "summary": "Der Nobelpreis für Physik geht an den belgisch-amerikanischen Neutrinoforscher Francis Halzen. Der Wissenschaftler erhalte die Auszeichnung für seine Pionierarbeit bei der Erforschung von Neutrinos am Südpol, wie das Nobelkomitee mitteilte.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/35f76724-8698-463f-b1c4-fcb8cd7de739/AAABoRC0WTM/AAABnSSvrFg/16x9-big/halzen-100.jpg?width=1920",
-      "published": "2026-10-06T12:32:54+02:00",
-      "category": "Wissenschaft",
-      "score": 78.49,
-      "coverage": {
-        "sourceCount": 5,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Wissenschaft - Physik-Nobelpreis an Neutrinoforscher Francis Halzen",
-            "link": "https://www.deutschlandfunk.de/physik-nobelpreis-an-neutrinoforscher-francis-halzen-100.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Physik-Nobelpreis geht an Francis Halzen für Entdeckung hochenergetischer Neutrinos aus dem All",
-            "link": "https://www.spiegel.de/wissenschaft/physik-nobelpreis-geht-an-entdecker-hochenergetischer-neutrinos-aus-dem-all-a-ff9a9674-115f-4625-9aec-19b9ccff90f6#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Nobelpreis: Neutrinoforscher Francis Halzen erhält den Physik-Nobelpreis",
-            "link": "https://www.handelsblatt.com/technik/forschung-innovation/physik-nobelpreis-neutrinoforscher-francis-halzen-erhaelt-den-nobelpreis/100260087.html"
-          },
-          {
-            "source": "heise",
-            "title": "IceCube-Forscher Francis Halzen erhält Physiknobelpreis 2026",
-            "link": "https://www.heise.de/news/IceCube-Forscher-Francis-Halzen-erhaelt-Physiknobelpreis-2026-11477568.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag"
-          }
-        ]
-      }
-    },
-    {
-      "id": "handelsblatt-8dbed8124791ff52",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Nahost-Konflikt: Israel: Ranghöchster Hamas-Führer in Gaza überlebt Angriff",
-      "link": "https://www.handelsblatt.com/politik/international/nahost-konflikt-israel-ranghoechster-hamas-fuehrer-in-gaza-ueberlebt-angriff/100260074.html",
-      "summary": "Bei einem israelischen Luftangriff im Gazastreifen sind am Wochenende mehrere Menschen getötet worden. Israel zielte auf den ranghöchsten Hamas-Führer in dem Küstengebiet ab - doch der hat überlebt.",
-      "image": "https://images.handelsblatt.com/hfPLiBBwBl9b/cover/900/506/0/0/107/106/0.5/0.5/nahostkonflikt-gaza.jpg",
-      "published": "2026-10-06T09:30:31+00:00",
-      "category": "Politik",
-      "score": 75.89
-    },
-    {
-      "id": "deutschlandfunk-75447c73fd2fafee",
-      "source": "deutschlandfunk",
+      "id": "spiegel-26a36af4d62202db",
+      "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Geheimdienste - Ehemaliger BND-Chef Hanning wegen Spionageverdachts festgenommen",
-      "link": "https://www.deutschlandfunk.de/ehemaliger-bnd-chef-hanning-wegen-spionageverdachts-festgenommen-102.html",
-      "summary": "Der frühere Chef des Bundesnachrichtendienstes, Hanning, ist wegen Spionageverdachts festgenommen worden. Wie der Generalbundesanwalt mitteilte, wird Hanning unter anderem des versuchten Landesverrats und der geheimdienstlichen Agententätigkeit verdächtigt.",
-      "image": "https://bilder.deutschlandfunk.de/77/99/ce/8f/7799ce8f-4ea9-400e-b2e2-19ccd1aa30af/ehemaliger-bundesnachrichtendienstchef-hanning-100-1920x1920.jpg",
-      "published": "2026-10-06T12:44:26+02:00",
-      "category": "Nachrichten",
-      "score": 74.91,
+      "title": "Donald Trump spricht über Auslöschung von Los Angeles und San Diego durch Iran",
+      "link": "https://www.spiegel.de/politik/donald-trump-spricht-ueber-ausloeschung-von-los-angeles-und-san-diego-durch-iran-a-aaf95ba2-5e18-4329-989b-313ff5673471#ref=rss",
+      "summary": "Die Auslöschung von Los Angeles und San Diego? Für Wahlkämpfer Donald Trump wäre das »ein sehr kleiner Preis« im Kampf gegen Iran. Führende Demokraten sind entsetzt. Der Kommunikationschef des Präsidenten weist die Kritik zurück.",
+      "image": "https://cdn.prod.www.spiegel.de/images/81adaa0e-de82-41b4-a546-811acd4856fc_w1200_r1.778_fpx47_fpy31.jpg",
+      "published": "2026-10-06T18:43:00+02:00",
+      "category": "Politik",
+      "score": 77.75
+    },
+    {
+      "id": "tagesschau-65f29073c21d84f7",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Schülerproteste in Frankreich erreichen neuen Höhepunkt",
+      "link": "https://www.tagesschau.de/ausland/europa/frankreich-proteste-schulen-100.html",
+      "summary": "Blockierte Gymnasien und Hochschulen, landesweite Demos: In Frankreich haben sich die Schülerproteste ausgeweitet. Auch Gewerkschaften schlossen sich den Protesten an. Die Polizei ist mit einem Großaufgebot im Einsatz.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/7947fb73-601c-456b-8ff6-1c9693085c84/AAABoRFIzqE/AAABnSSvrFg/16x9-big/demonstration-paris-104.jpg?width=1920",
+      "published": "2026-10-06T15:42:34+02:00",
+      "category": "Technologie",
+      "score": 75.89,
       "coverage": {
         "sourceCount": 4,
         "others": [
           {
-            "source": "spiegel",
-            "title": "August Hanning: Ex-BND-Chef verhaftet – Verdacht auf Landesverräterische Ausspähung",
-            "link": "https://www.spiegel.de/panorama/justiz/august-hanning-ex-bnd-chef-verhaftet-a-a0314149-2e9c-44e4-9338-1cc5ce61da07#ref=rss"
+            "source": "deutschlandfunk",
+            "title": "Groß-Demo in Paris - Erneute Zusammenstöße bei Schülerprotesten, Macron beruft Krisensitzung ein",
+            "link": "https://www.deutschlandfunk.de/erneute-zusammenstoesse-bei-schuelerprotesten-macron-beruft-krisensitzung-ein-100.html"
           },
           {
             "source": "handelsblatt",
-            "title": "Spionageverdacht: Ex-BND-Präsident Hanning wegen Spionageverdacht festgenommen",
-            "link": "https://www.handelsblatt.com/politik/deutschland/spionageverdacht-ex-bnd-praesident-hanning-wegen-spionageverdacht-festgenommen/100260035.html"
+            "title": "Frankreich: Schülerproteste erreichen neuen Höhepunkt – Macron ruft zu Krisensitzung",
+            "link": "https://www.handelsblatt.com/politik/international/frankreich-schuelerproteste-erreichen-neuen-hoehepunkt-macron-ruft-zu-krisensitzung/100259690.html"
+          },
+          {
+            "source": "netzpolitik",
+            "title": "Frankreich: Massive Kritik an Polizeigewalt gegen Schüler-Proteste",
+            "link": "https://netzpolitik.org/2026/frankreich-massive-kritik-an-polizeigewalt-gegen-schueler-proteste/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "handelsblatt-67071e0bb88ab255",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "China: Bundesregierung soll Taiwan-Krieg durchspielen – China-Kommission fordert Stresstest für Wirtschaft",
+      "link": "https://www.handelsblatt.com/politik/deutschland/china-bundesregierung-soll-taiwan-krieg-durchspielen/100259837.html",
+      "summary": "Die vom Bundestag eingesetzte China-Kommission macht weitreichende Vorschläge für einen härteren Umgang mit der Volksrepublik. Die Bundesregierung arbeitet bereits an einem ähnlichen Vorhaben.",
+      "image": "https://images.handelsblatt.com/bVSO8fkTEWkN/cover/900/506/0/0/131/131/0.5/0.5/militaeruebungen-in-taiwan.jpg",
+      "published": "2026-10-06T15:36:46+00:00",
+      "category": "Politik",
+      "score": 75.83
+    },
+    {
+      "id": "netzpolitik-5df78498e8cdef3f",
+      "source": "netzpolitik",
+      "sourceWeight": 0.75,
+      "title": "Verwaltungsdigitalisierung: Vieles unklar bei der Deutschland-App",
+      "link": "https://netzpolitik.org/2026/verwaltungsdigitalisierung-vieles-unklar-bei-der-deutschland-app/",
+      "summary": "Mit der Deutschland-App will Digitalminister Karsten Wildberger die öffentliche Verwaltung zügig digitalisieren. Umsetzen soll das Projekt die Telekom. Doch die Bundesregierung hat keinen Überblick darüber, was die der Konzern genau macht, wie die Antwort der Bundesregierung auf eine Kleine Anfrage zeigt. Karsten Wildberger sprach im Bundestag Anfang September über das Digitalbudget. – Alle Rechte vorbehalten: IMAGO / dts Nachrichtenagentur Die öffentliche Verwaltung zu digitalisieren und den Staat zu modernisieren, hat sich Digitalminister Karsten Wildberger (CDU) von Anfang an auf die Fahnen geschrieben. Sein Ziel sei ein Staat, „der mehr kann“, so der Minister in seiner Rede zur Haushaltsdebatte. Dabei inszeniert er sich als Anpacker, der tiefsitzende Probleme der Digitalisierung überwindet, etwa fehlende IT-Standards oder föderale Hürden. Wildbergers Mittel der Wahl ist generative KI : Sie bildet auch die Basis seiner Verwaltungsplattform und der damit verbundenen Deutschland-App. Die Vision: Bürger*innen nutzen die App, können darüber Anträge stellen oder Termine beim Amt buchen. …",
+      "image": "https://cdn.netzpolitik.org/wp-upload/2026/10/wildberger-deutschland-app-scaled-e1791296149169.jpg",
+      "published": "2026-10-06T16:52:30+00:00",
+      "category": "Politik",
+      "score": 73.88
+    },
+    {
+      "id": "deutschlandfunk-629abcc583c4a722",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Geheimdienste - Ex-BND-Chef Hanning wegen Spionageverdachts festgenommen, Rufe nach Konsequenzen",
+      "link": "https://www.deutschlandfunk.de/ex-bnd-chef-hanning-wegen-spionageverdachts-festgenommen-rufe-nach-konsequenzen-100.html",
+      "summary": "Der frühere Chef des Bundesnachrichtendienstes, Hanning, ist wegen Spionageverdachts festgenommen worden. Wie der Generalbundesanwalt mitteilte, wird Hanning unter anderem des versuchten Landesverrats und der geheimdienstlichen Agententätigkeit verdächtigt.",
+      "image": "https://bilder.deutschlandfunk.de/77/99/ce/8f/7799ce8f-4ea9-400e-b2e2-19ccd1aa30af/ehemaliger-bundesnachrichtendienstchef-hanning-100-1920x1920.jpg",
+      "published": "2026-10-06T18:52:01+02:00",
+      "category": "Nachrichten",
+      "score": 71.55,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Bundesnachrichtendienst: Ex-BND-Präsident Hanning unter Spionageverdacht festgenommen",
+            "link": "https://www.handelsblatt.com/politik/deutschland/bundesnachrichtendienst-ex-bnd-praesident-hanning-unter-spionageverdacht-festgenommen/100260035.html"
           },
           {
             "source": "golem",
@@ -133,152 +186,52 @@
       }
     },
     {
-      "id": "handelsblatt-fd4186fb432ed592",
+      "id": "spiegel-87e92f702aa438e2",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "AfD in Sachsen-Anhalt: So lief die Wahl von Tobias RauschSo lief die Zäsur von Magdeburg",
+      "link": "https://www.spiegel.de/politik/deutschland/afd-in-sachsen-anhalt-so-lief-die-wahl-von-tobias-rauschso-lief-die-zaesur-von-magdeburg-a-dabfe448-ce7e-4251-ac7a-f55dbcbe8659#ref=rss",
+      "summary": "In Sachsen-Anhalt ist das Parlament erstmals seit der historischen Wahl zusammengekommen. Die AfD triumphiert bei der Abstimmung zum Landtagspräsidium und demonstriert ihre neue Macht.",
+      "image": "https://cdn.prod.www.spiegel.de/images/8bddcc79-c279-4490-be0e-2535ce0a858e_w1200_r1.778_fpx54_fpy44.jpg",
+      "published": "2026-10-06T18:36:00+02:00",
+      "category": "Politik",
+      "score": 69.65
+    },
+    {
+      "id": "handelsblatt-f7d31d365ddb101c",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Drei Jahre nach Überfall: Israel erhöht Alarmbereitschaft vor Jahrestag von Massaker",
-      "link": "https://www.handelsblatt.com/politik/international/drei-jahre-nach-ueberfall-israel-erhoeht-alarmbereitschaft-vor-jahrestag-von-massaker/100260042.html",
-      "summary": "Trotz einer Waffenruhe im Gazastreifen gibt es immer wieder tödliche Angriffe. Israel bereitet sich vor dem Jahrestag des 7. Oktobers auf weitere Hamas-Attacken vor - und droht den Terroristen.",
-      "image": "https://images.handelsblatt.com/ZoVduZEzFnUu/cover/900/506/0/0/107/106/0.5/0.5/nahostkonflikt-grenze-zum-gazastreifen.jpg",
-      "published": "2026-10-06T08:20:01+00:00",
+      "title": "Landtag Magdeburg: Kontroverse um Brandmauer in Magdeburg – Gab es geheime Absprachen zwischen CDU und AfD?",
+      "link": "https://www.handelsblatt.com/politik/deutschland/landtag-magdeburg-gab-es-geheime-absprachen-in-magdeburg/100260193.html",
+      "summary": "Die Wahlen um den Vorsitz im Magdeburger Landtag bringen die CDU in Erklärungsnot. Von der SPD kommt harte Kritik. Das Thema soll auch beim Koalitionsausschuss in Berlin auf den Tisch kommen.",
+      "image": "https://images.handelsblatt.com/Oeg0U3hMRz5M/cover/900/506/0/0/0/395/0.5/0.5/magdeburg-sachsen-anhalt-deutschland-06.10.2026-konstituierende-sitzung-des-landtags-hans-thoma.jpg",
+      "published": "2026-10-06T16:51:10+00:00",
       "category": "Politik",
-      "score": 74.91
+      "score": 68.86
     },
     {
-      "id": "tagesschau-47a84618f2a69655",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Trump erlaubt angesichts hoher Spritpreise Nutzung von steuerfreiem Diesel",
-      "link": "https://www.tagesschau.de/ausland/amerika/usa-trump-diesel-100.html",
-      "summary": "Mit dem Iran-Krieg ist das Tanken auch in den USA deutlich teurer geworden. Nun verspricht US-Präsident Trump Abhilfe: Autofahrer sollen steuerfreien, \"roten\" Diesel nutzen können. Der ist bisher nur in der Landwirtschaft erlaubt.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/058e8a24-4658-4180-9ce5-ce30304585d2/AAABoQ-xMYg/AAABnSSvrFg/16x9-big/trump-dekret-diesel-100.jpg?width=1920",
-      "published": "2026-10-06T07:30:33+02:00",
+      "id": "netzpolitik-29f326759aca6277",
+      "source": "netzpolitik",
+      "sourceWeight": 0.75,
+      "title": "Neuer Bundesdatenschutzbeauftragter: „Weder besonders hart, noch besonders lasch, sondern ausgewogen“",
+      "link": "https://netzpolitik.org/2026/neuer-bundesdatenschutzbeauftragter-weder-besonders-hart-noch-besonders-lasch-sondern-ausgewogen/",
+      "summary": "Seit wenigen Tagen ist Moritz Hennemann im Amt, heute hat er sich erstmalig zu seinen Prioritäten geäußert. Dabei fand er Lob für Reformvorhaben beim Datenschutz, kritisierte jedoch Pläne der Bundesregierung für den Ausbau von Geheimdiensten und die Aushöhlung der Informationsfreiheit. Der neue Bundesbeauftragte für den Datenschutz und die Informationsfreiheit: Moritz Hennemann – Alle Rechte vorbehalten: IMAGO / Metodi Popow Seit Ende September ist Moritz Hennemann neuer Bundesbeauftragter für den Datenschutz und die Informationsfreiheit (BfDI). Der 41-jährige Jurist folgt auf Louisa Specht-Riemenschneider, die das Amt aus gesundheitlichen Gründen abgegeben hat. Hennemann wurde von der Unionsfraktion vorgeschlagen und im Juni vom Bundestag gewählt . Er übernimmt das Amt in angespannten Zeiten. Datenschutzpolitik ist seit einer Weile wieder ein heiß diskutiertes Thema. In Deutschland hat die schwarz-rote Koalition Reformen „im Sinne der Wirtschaft“ angekündigt, in der EU werden weitreichende Änderungen im Rahmen des Digital-Omnibus-Pakets bereits konkret verhandelt. …",
+      "image": "https://cdn.netzpolitik.org/wp-upload/2026/10/imago0868711589h-scaled.jpg",
+      "published": "2026-10-06T14:20:47+00:00",
       "category": "Politik",
-      "score": 74.55
+      "score": 63.77
     },
     {
-      "id": "tagesschau-c1a339ec9588817b",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Konstituierende Sitzung in Sachsen-Anhalt: Die AfD und die ganz große Bühne",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/sachsen-anhalt-konstituierende-sitzung-100.html",
-      "summary": "Heute richten sich erneut viele Blicke auf Sachsen-Anhalt: Der Landtag kommt zu seiner konstituierenden Sitzung zusammen. Die AfD will erstmals einen Parlamentspräsidenten stellen - und Regierungsfähigkeit beweisen. Von Torben Lehning. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/3eebd116-6b9e-4c06-9b3d-3e55f8bdb99d/AAABoQ3Anjw/AAABnSSvrFg/16x9-big/landtag-sachsen-anhalt-336.jpg?width=1920",
-      "published": "2026-10-06T04:18:45+02:00",
+      "id": "golem-a81f3b56ce7573b4",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Digitale Brieftasche D-You: Experten monieren fehlende Funktionen und Sicherheitsrisiken",
+      "link": "https://www.golem.de/news/digitale-brieftasche-d-you-experten-monieren-fehlende-funktionen-und-sicherheitsrisiken-2610-213760.html",
+      "summary": "In drei Monaten soll die digitale Brieftasche D-You starten. Im Bundestag herrschte unter Experten Unklarheit über die Funktionen. Ein Bericht von Friedhelm Greis ( EUDI-Wallet , Datenschutz )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213760&amp;page=1&amp;ts=1791287762",
+      "published": "2026-10-06T13:56:02+02:00",
       "category": "Politik",
-      "score": 74.2,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Sachsen-Anhalt - Magdeburg: So läuft die erste Sitzung im neuen Landtag",
-            "link": "https://www.spiegel.de/politik/deutschland/sachsen-anhalt-magdeburg-so-laeuft-die-erste-sitzung-im-neuen-landtag-a-1b6b0b10-0759-4e62-a595-4b43aa6bad11#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Sachsen-Anhalt: Erste Sitzung des Landtags von Sachsen-Anhalt begonnen",
-            "link": "https://www.handelsblatt.com/politik/deutschland/sachsen-anhalt-erste-sitzung-des-landtags-von-sachsen-anhalt-begonnen/100259943.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-4bedb11fbe3e71b0",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Statistisches Bundesamt - Aufträge bei der Industrie gehen im August unerwartet stark zurück",
-      "link": "https://www.deutschlandfunk.de/auftraege-bei-der-industrie-gehen-im-august-unerwartet-stark-zurueck-100.html",
-      "summary": "Die deutsche Industrie hat im August einen unerwartet starken Rückgang der Aufträge verzeichnet.",
-      "image": "https://bilder.deutschlandfunk.de/65/81/1b/5e/65811b5e-213e-4a9c-9e27-bf2faeb881f6/klimaneutrale-industrie-100-1920x1920.jpg",
-      "published": "2026-10-06T12:44:26+02:00",
-      "category": "Nachrichten",
-      "score": 71.59,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Industrieaufträge brechen im August unerwartet stark ein",
-            "link": "https://www.spiegel.de/wirtschaft/unternehmen/industrieauftraege-brechen-im-august-unerwartet-stark-ein-a-298a9a3d-8580-435b-a479-d994483ea37c#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Konjunktur: Deutsche Industrie mit unerwartet starkem Auftragseinbruch",
-            "link": "https://www.handelsblatt.com/politik/konjunktur/konjunktur-deutsche-industrie-mit-unerwartet-starkem-auftragseinbruch/100259989.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-087a6b526d80523c",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Weltfußball - DFB-Präsident Neuendorf weiter für alternativen Kandidaten zu FIFA-Chef Infantino",
-      "link": "https://www.deutschlandfunk.de/dfb-praesident-neuendorf-weiter-fuer-alternativen-kandidaten-zu-fifa-chef-infantino-102.html",
-      "summary": "DFB-Präsident Neuendorf hat seinen Kurs gegen FIFA-Präsident Infantino bekräftigt. Der Schweizer sei nicht mehr tragbar, sagte Neuendorf dem \"Tagesspiegel\". Er sprach sich für einen alternativen Kandidaten für die Wahl im kommenden Frühjahr aus.",
-      "image": "https://bilder.deutschlandfunk.de/c7/3c/56/77/c73c5677-50e8-4d88-aa47-d062dba02a20/dfb-praesident-bernd-neuendorf-100-1920x1920.jpg",
-      "published": "2026-10-06T12:44:26+02:00",
-      "category": "Politik",
-      "score": 69.91
-    },
-    {
-      "id": "handelsblatt-6df76a9009f72ba9",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Luftfahrt: Fluggesellschaften fordern Subventionen für innerdeutsche Flüge",
-      "link": "https://www.handelsblatt.com/unternehmen/dienstleister/luftfahrt-fluggesellschaften-fordern-subventionen-fuer-innerdeutsche-fluege/100260086.html",
-      "summary": "Inlandsflüge sind in Deutschland nach Corona teuer und deutlich seltener geworden. Die Branche ruft nach staatlichem Geld, um einzelne Regionen weiterhin anzubinden.",
-      "image": "https://images.handelsblatt.com/9E3X8krwqAya/cover/900/506/200/0/154/171/0.5/0.5/flughafen-dresden.jpg",
-      "published": "2026-10-06T09:52:47+00:00",
-      "category": "Wirtschaft",
-      "score": 68.19
-    },
-    {
-      "id": "spiegel-0eafed444412b3a0",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "USA: Weißes Haus verweigert »Politico« Zutritt zur »Air Force One«",
-      "link": "https://www.spiegel.de/ausland/usa-weisses-haus-verweigert-politico-zutritt-zur-air-force-one-a-d3beedda-b2bb-41f5-9e47-b8480bc1e684#ref=rss",
-      "summary": "Vor Gericht wehren sich mehrere US-Medien gegen ihren Ausschluss aus dem Weißen Haus. Nun darf »Politico« auch nicht mehr in die Präsidentenmaschine. Berichterstattung von dort sei ein »Privileg«, so eine Trump-Sprecherin.",
-      "image": "https://cdn.prod.www.spiegel.de/images/cc9dab9a-558b-4602-afcb-4a7e5c629956_w1200_r1.778_fpx68.53_fpy53.jpg",
-      "published": "2026-10-06T09:39:00+02:00",
-      "category": "Politik",
-      "score": 67.34
-    },
-    {
-      "id": "spiegel-ea74df7068b3e2b0",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Deutsche Bahn: Neuer Infraplan soll Entwicklung des Schienennetzes steuern",
-      "link": "https://www.spiegel.de/wirtschaft/unternehmen/deutsche-bahn-neuer-infraplan-soll-entwicklung-des-schienennetzes-steuern-a-80e7dcd8-5142-4176-92ff-cc459a89b489#ref=rss",
-      "summary": "Mit dem sogenannten Infraplan will der Bund klare Vorgaben für das Schienennetz machen. Kann die Bahn so wieder flott werden? Der Überblick.",
-      "image": "https://cdn.prod.www.spiegel.de/images/d301cbc5-c2d8-478c-92a8-ab88b7f9f691_w1200_r1.778_fpx49_fpy27.jpg",
-      "published": "2026-10-06T09:43:00+02:00",
-      "category": "Nachrichten",
-      "score": 66.43,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Deutsche Bahn: Neuer Infraplan soll Bahn-Sanierung bis 2030 steuern",
-            "link": "https://www.handelsblatt.com/unternehmen/dienstleister/deutsche-bahn-neuer-infraplan-soll-bahn-sanierung-bis-2030-steuern/100260092.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-63ae030ac8f134fc",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "USA: Prominenter Parteifreund von Donald Trump bereut Unterstützung für Hegseth",
-      "link": "https://www.spiegel.de/ausland/usa-prominenter-parteifreund-von-donald-trump-bereut-unterstuetzung-fuer-hegseth-a-6c16577e-6389-4c1f-b3f8-3ecaf58712cb#ref=rss",
-      "summary": "Seine Stimme hätte den Unterschied machen können. In einem Buch bereut der Republikaner Thom Tillis nun, dass er dennoch für Pete Hegseth stimmte. Auch zu Gesundheitsminister Kennedy hat er eine klare Meinung.",
-      "image": "https://cdn.prod.www.spiegel.de/images/34c34537-b923-44e6-a957-bd49d655a4e5_w1200_r1.778_fpx49.99_fpy44.99.jpg",
-      "published": "2026-10-06T07:54:00+02:00",
-      "category": "Politik",
-      "score": 65.88
+      "score": 63.76
     },
     {
       "id": "heise-dab1c60e995119be",
@@ -290,7 +243,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/7/7/3/7/1/android-bugdroid-schloss-c73ee4b489ef93ea.jpeg",
       "published": "2026-10-06T11:52:00+02:00",
       "category": "Technologie",
-      "score": 65.18,
+      "score": 60.04,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -301,6 +254,18 @@
           }
         ]
       }
+    },
+    {
+      "id": "golem-df6076252b8ea5da",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "(g+) Wirtschaft: Chinas Wachstum soll im dritten Quartal bei nur 4,4 Prozent liegen - trotz KI-Boom",
+      "link": "https://www.golem.de/news/wirtschaft-chinas-wachstum-soll-im-dritten-quartal-bei-nur-4-4-prozent-liegen-trotz-ki-boom-2610-213770.html",
+      "summary": "Unsere Leseempfehlung: Nikkei Asia zeigt, welche Rolle der KI-Boom für Chinas Wirtschaft spielt und warum er trotzdem nicht zum großen Wachstumstreiber wird. ( Wirtschaft , KI )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213770&amp;page=1&amp;ts=1791302402",
+      "published": "2026-10-06T18:00:02+02:00",
+      "category": "Wirtschaft",
+      "score": 59.15
     }
   ]
 }
