@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T03:08:42.394210+00:00",
+  "generatedAt": "2026-10-06T03:30:02.731772+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/0177c0b8-df3e-47a9-99be-213b4a309878/AAABoQqiK2Q/AAABnSSvrFg/16x9-big/prien-ruge-100.jpg?width=1920",
       "published": "2026-10-05T09:02:36+02:00",
       "category": "Politik",
-      "score": 83.58,
+      "score": 83.29,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -30,6 +30,28 @@
       }
     },
     {
+      "id": "tagesschau-20c8bfaf9ce0ecdc",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Neuer Wehrdienst: Zahl der Kriegsdienstverweigerer stark angestiegen",
+      "link": "https://www.tagesschau.de/inland/kriegsdienstverweigerer-124.html",
+      "summary": "Die Wehrpflicht ist immer noch ausgesetzt in Deutschland. Und doch steigt die Zahl der Anträge auf Kriegsdienstverweigerung stark an. Dafür gibt es Gründe.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/6d955f20-f9ab-46b8-8fab-b0289e505d1b/AAABoQ8wAhw/AAABnSSvrFg/16x9-big/schulstreik-wehrpflicht-132.jpg?width=1920",
+      "published": "2026-10-06T05:25:07+02:00",
+      "category": "Nachrichten",
+      "score": 75.93,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Wehrdienst: Zahl der Kriegsdienstverweigerer schnellt weiter nach oben",
+            "link": "https://www.spiegel.de/politik/deutschland/wehrdienst-zahl-der-kriegsdienstverweigerer-schnellt-weiter-nach-oben-a-9e3785bd-ff6e-48ea-925d-fed7482df2f0#ref=rss"
+          }
+        ]
+      }
+    },
+    {
       "id": "handelsblatt-0db9cb48495296bd",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
@@ -39,7 +61,7 @@
       "image": "https://images.handelsblatt.com/7lqewhmq0J7L/cover/900/506/0/0/107/107/0.5/0.5/ig-metall.jpg",
       "published": "2026-10-06T02:00:17+00:00",
       "category": "Wirtschaft",
-      "score": 76.05
+      "score": 75.75
     },
     {
       "id": "tagesschau-c1a339ec9588817b",
@@ -51,7 +73,7 @@
       "image": "https://images.tagesschau.de/image/3eebd116-6b9e-4c06-9b3d-3e55f8bdb99d/AAABoQ3Anjw/AAABnSSvrFg/16x9-big/landtag-sachsen-anhalt-336.jpg?width=1920",
       "published": "2026-10-06T04:18:45+02:00",
       "category": "Politik",
-      "score": 75.58,
+      "score": 75.29,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -78,7 +100,7 @@
       "image": "https://bilder.deutschlandfunk.de/76/8b/6e/47/768b6e47-d289-4d8d-94ed-de6eaed1e811/spanien-wohnungsmangel-proteste-100-1920x1920.jpg",
       "published": "2026-10-06T05:01:51+02:00",
       "category": "Nachrichten",
-      "score": 74.9,
+      "score": 74.61,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -100,7 +122,7 @@
       "image": "https://bilder.deutschlandfunk.de/20/a4/0f/e8/20a40fe8-43df-4ee0-90b9-97d0ad67893a/flasbarth-bmz-100-1920x1920.jpg",
       "published": "2026-10-06T05:01:51+02:00",
       "category": "Politik",
-      "score": 74.58,
+      "score": 74.29,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -127,7 +149,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/3432b65a-2cc5-4c24-88b7-b7ab49832615_w1200_r1.778_fpx33.34_fpy49.99.jpg",
       "published": "2026-10-06T02:40:00+02:00",
       "category": "Nachrichten",
-      "score": 72.93,
+      "score": 72.64,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -149,7 +171,7 @@
       "image": "https://images.tagesschau.de/image/6d9f554f-4d37-43e5-9c8e-757e198b483d/AAABoQ2sWqo/AAABnSSvrFg/16x9-big/hr-shida-bazyar-hat-den-deutschen-buchpreis-2026-in-frankfurt-bekommen-100.jpg?width=1920",
       "published": "2026-10-05T19:21:22+02:00",
       "category": "Nachrichten",
-      "score": 72.58,
+      "score": 72.29,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -167,33 +189,6 @@
       }
     },
     {
-      "id": "tagesschau-e3bf9d39e15a32f0",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Türkei und Pakistan entsenden Truppen nach Saudi-Arabien",
-      "link": "https://www.tagesschau.de/ausland/asien/tuerkei-pakistan-saudi-arabien-102.html",
-      "summary": "Aufgrund von Huthi-Angriffen auf Saudi-Arabien schicken Pakistan und die Türkei Truppen zur Unterstützung. Zudem wurden Explosionen in der Hauptstadt Riad gemeldet.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/5605a9fc-23c2-48b7-b839-1abc7edcd617/AAABoQ6c_x4/AAABnSSvrFg/16x9-big/tuerkei-pakistan-saudi-arabien-104.jpg?width=1920",
-      "published": "2026-10-06T02:54:01+02:00",
-      "category": "Technologie",
-      "score": 72.58,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Verteidigungsbündnis - Saudi-Arabien bekommt nach Huthi-Angriffen militärische Hilfe aus Pakistan und der Türkei",
-            "link": "https://www.deutschlandfunk.de/saudi-arabien-bekommt-nach-huthi-angriffen-militaerische-hilfe-aus-pakistan-und-der-tuerkei-100.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Mekka-Allianz: Türkei und Pakistan entsenden Truppen nach Saudi-Arabien",
-            "link": "https://www.spiegel.de/ausland/mekka-allianz-tuerkei-und-pakistan-entsenden-truppen-nach-saudi-arabien-a-85af32de-b1b0-40b0-a292-8eb4e3ca281a#ref=rss"
-          }
-        ]
-      }
-    },
-    {
       "id": "handelsblatt-71f62e1d2991d6d9",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
@@ -203,7 +198,7 @@
       "image": "https://images.handelsblatt.com/nTEcZgfZAiXZ/cover/900/506/0/0/209/209/0.5/0.5/22.09.2026-usa-new-york-us-finanzminister-scott-bessent-nimmt-im-un-hauptquartier-am-rande-der-ge.jpg",
       "published": "2026-10-05T20:14:00+00:00",
       "category": "Politik",
-      "score": 71.24
+      "score": 70.94
     },
     {
       "id": "deutschlandfunk-0d91ec26831ef717",
@@ -215,7 +210,7 @@
       "image": "https://bilder.deutschlandfunk.de/91/3e/9e/ea/913e9eea-d486-43a7-88d3-ab2ed498ebe9/von-notz-102-1920x1920.jpg",
       "published": "2026-10-06T05:01:51+02:00",
       "category": "Politik",
-      "score": 69.9
+      "score": 69.61
     },
     {
       "id": "deutschlandfunk-13c581f7fd94921f",
@@ -227,7 +222,7 @@
       "image": "https://bilder.deutschlandfunk.de/a9/71/70/68/a9717068-16c8-4fe0-86ef-7b8f832ffb7c/brasilien-praesidentschaftswahl-lula-da-silva-bolsonaro-100-1920x1920.jpg",
       "published": "2026-10-06T05:01:51+02:00",
       "category": "Politik",
-      "score": 69.9
+      "score": 69.61
     },
     {
       "id": "spiegel-753c47b06df1d3df",
@@ -239,7 +234,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/38c0f8b4-288f-40e3-a3be-b1c437182273_w891_r1.778_fpx39_fpy41.jpg",
       "published": "2026-10-06T04:33:00+02:00",
       "category": "Politik",
-      "score": 69.5
+      "score": 69.21
     },
     {
       "id": "handelsblatt-e5a094bacec93347",
@@ -251,7 +246,19 @@
       "image": "https://images.handelsblatt.com/WiVSNb9sVUlz/cover/900/506/0/0/418/0/0.5/0.5/exterior-view-of-a-large-crane-system-and-dock-at-a-shipbuilding-factory.jpg",
       "published": "2026-10-06T02:03:31+00:00",
       "category": "Wirtschaft",
-      "score": 68.09
+      "score": 67.8
+    },
+    {
+      "id": "handelsblatt-dd823a856e8fbd71",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Florian Seibel: „Wir sind in der Lage, solche Geran-Drohnen abzuwehren“",
+      "link": "https://www.handelsblatt.com/unternehmen/industrie/florian-seibel-wir-sind-in-der-lage-solche-geran-drohnen-abzuwehren/100259097.html",
+      "summary": "Quantum Systems baut mehrere Zehntausend Abfangdrohnen für die Ukraine. Damit auch Deutschland besser geschützt wird, hat Unternehmenschef Seibel eine klare Forderung an die Politik.",
+      "image": "https://images.handelsblatt.com/ZUh-5ALdO77r/cover/900/506/0/0/107/106/0.5/0.5/florian-seibel.jpeg",
+      "published": "2026-10-06T02:01:49+00:00",
+      "category": "Politik",
+      "score": 67.77
     },
     {
       "id": "spiegel-01ba438e6e9f5bfa",
@@ -263,19 +270,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/50e62e01-23d9-464b-9c68-7e6eb98170df_w1200_r1.778_fpx69.97_fpy55.jpg",
       "published": "2026-10-06T01:52:00+02:00",
       "category": "Politik",
-      "score": 67.27
-    },
-    {
-      "id": "netzpolitik-6bdae5c2b11cf9fe",
-      "source": "netzpolitik",
-      "sourceWeight": 0.75,
-      "title": "Parlamentarisches Kontrollgremium: Operieren in der Grauzone",
-      "link": "https://netzpolitik.org/2026/parlamentarisches-kontrollgremium-operieren-in-der-grauzone/",
-      "summary": "Die Präsident:innen der Geheimdienste des Bundes verlangten heute im Bundestag deutlich mehr Befugnisse, um „auf Augenhöhe“ mit anderen Diensten zu arbeiten. Als Gründe führen sie eine neue Bedrohungslage und technologische Entwicklungen an. Die Folgen für die Grundrechte gerieten zur Randnotiz. Guter Dinge: Sinan Selen (BfV), Martina Rosenberg (MAD), Martin Jäger (BND). – Alle Rechte vorbehalten: IMAGO / Jens Schicke Nur selten äußern sich die Chefs der Geheimdienste des Bundes in der Öffentlichkeit. Einmal im Jahr müssen sie aber Abgeordneten des Deutschen Bundestages Rede und Antwort stehen. Heute fand die zehnte öffentliche Anhörung durch das Parlamentarische Kontrollgremium (PKGr) statt. Insgesamt drei Stunden lang befragten die Abgeordneten die Präsident:innen vom Bundesnachrichtendienst (BND), Martin Jäger, dem Bundesamt für Verfassungsschutz (BfV), Sinan Selen, und die Präsidentin des Militärischen Abschirmdienstes (BAMAD), Martina Rosenberg. Zentrale Themen der dreistündigen Anhörung waren die Gefahr durch Russland, der politische Extremismus und die anstehende Reform der Dienste. Allzu kritisch ging es bei dem Termin nicht zu. …",
-      "image": "https://cdn.netzpolitik.org/wp-upload/2026/10/imago0868594277h_1900.jpg",
-      "published": "2026-10-05T14:57:11+00:00",
-      "category": "Politik",
-      "score": 55.84
+      "score": 66.97
     }
   ]
 }
