@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T15:51:37.239243+00:00",
+  "generatedAt": "2026-10-07T16:41:00.994650+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/7585e2c3-e1a6-43de-92e4-ea2870db8a8e/AAABoRUWvW8/AAABnSSvrFg/16x9-big/ukraine-2858.jpg?width=1920",
       "published": "2026-10-07T17:21:49+02:00",
       "category": "Politik",
-      "score": 83.53,
+      "score": 83.52,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -30,6 +30,28 @@
       }
     },
     {
+      "id": "tagesschau-33ecc1cf6ba5d4ed",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Bundeskabinett bringt besseren Schutz vor digitaler Gewalt auf den Weg",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/bundeskabinett-digitalegewalt-gesetzgebung-100.html",
+      "summary": "Bundesjustizministerin Hubig will die Menschen besser vor digitaler Gewalt schützen - also etwa sexualisierten Deepfake-Videos oder heimlichen Sauna-Aufnahmen. Das Kabinett stimmte ihrem Gesetzentwurf zu, nun ist der Bundestag am Zug.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/f321cb71-8d9e-458c-bdce-9c0a4a0efeee/AAABoRY0O_Y/AAABnSSvrFg/16x9-big/hubig-148.jpg?width=1920",
+      "published": "2026-10-07T14:55:24+02:00",
+      "category": "Politik",
+      "score": 78.84,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Politik - Gesetz gegen digitale Gewalt: Bundeskabinett beschließt Entwurf",
+            "link": "https://www.deutschlandfunk.de/gesetz-gegen-digitale-gewalt-bundeskabinett-beschliesst-entwurf-100.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "tagesschau-a139562cbc0386ea",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -39,7 +61,7 @@
       "image": "https://images.tagesschau.de/image/b4a7bd76-65d0-4b31-9d9a-6475613dc212/AAABoRV1NME/AAABnSSvrFg/16x9-big/ice-344.jpg?width=1920",
       "published": "2026-10-07T10:58:04+02:00",
       "category": "Politik",
-      "score": 78.85,
+      "score": 78.84,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -61,29 +83,7 @@
       "image": "https://images.tagesschau.de/image/36c1f66a-88ac-4fb6-a589-6793b67549f5/AAABoRYKiIY/AAABnSSvrFg/16x9-big/merz-netanjahu-110.jpg?width=1920",
       "published": "2026-10-07T17:30:04+02:00",
       "category": "Politik",
-      "score": 78.7
-    },
-    {
-      "id": "deutschlandfunk-b9a52a4c51d932b2",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Landtag - AfD und BSW in Sachsen-Anhalt fordern Stopp deutscher Ukraine-Hilfen",
-      "link": "https://www.deutschlandfunk.de/afd-und-bsw-in-sachsen-anhalt-fordern-stopp-deutscher-ukraine-hilfen-100.html",
-      "summary": "AfD und BSW im Landtag von Sachsen-Anhalt fordern einen Stopp der deutschen Hilfen für die Ukraine.",
-      "image": "https://bilder.deutschlandfunk.de/b9/17/50/e3/b91750e3-2ea1-44db-8c77-2c90a25293a2/sachsen-anhalt-plenum-landtag-100-1920x1920.jpg",
-      "published": "2026-10-07T17:40:37+02:00",
-      "category": "Politik",
-      "score": 77.85,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Sachsen-Anhalt: BSW will mit AfD Ukraine-Antrag verabschieden",
-            "link": "https://www.spiegel.de/politik/deutschland/sachsen-anhalt-bsw-will-mit-afd-ukraine-antrag-verabschieden-a-8bd24922-614f-44d4-aa1f-b99c3e69e839#ref=rss"
-          }
-        ]
-      }
+      "score": 78.01
     },
     {
       "id": "handelsblatt-8b9c42150c98f998",
@@ -95,7 +95,7 @@
       "image": "https://images.handelsblatt.com/63v2LH-t4oUB/cover/900/506/0/0/0/0/0.5/0.5/former-german-chancellor-gerhard-schroeder-visits-an-outlet-of-russian-retailer-hyperglobus-after-jo.jpg",
       "published": "2026-10-07T15:39:17+00:00",
       "category": "Politik",
-      "score": 76.83
+      "score": 76.14
     },
     {
       "id": "handelsblatt-e1c4a5a4f0a7f507",
@@ -107,46 +107,19 @@
       "image": "https://images.handelsblatt.com/H6jRTMMlcIDw/cover/900/506/0/0/0/0/0.5/0.5/andrea.jpg",
       "published": "2026-10-07T15:29:56+00:00",
       "category": "Politik",
-      "score": 76.7
+      "score": 76.01
     },
     {
-      "id": "spiegel-32370a73f7b6672d",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Israel – Mutter von getöteter Hamas-Geisel: »Wenn ich in Panik gerate, rufe ich laut nach ihm«",
-      "link": "https://www.spiegel.de/ausland/israel-mutter-von-getoeteter-hamas-geisel-es-wird-nicht-besser-a-3cd317d5-fb8e-4c37-aa2b-1bde2d04a5f5#ref=rss",
-      "summary": "Hersh Goldberg-Polin wurde von der Hamas nach Gaza verschleppt, gefoltert, ermordet. Hier erklärt seine Mutter Rachel, wie sie die Trauer verarbeitet, warum ihr Rache nicht hilft – und sie in Deutschland Trost findet.",
-      "image": "https://cdn.prod.www.spiegel.de/images/711e6b48-dfb8-4e8a-bfa2-02b5023c9f7d_w1200_r1.778_fpx54_fpy23.jpg",
-      "published": "2026-10-07T15:54:00+02:00",
+      "id": "golem-49ff83e04cea3ecd",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Nato in Alarmbereitschaft: Drohnenangriffe auf Handelsschiffe im Schwarzen Meer",
+      "link": "https://www.golem.de/news/nato-in-alarmbereitschaft-drohnenangriffe-auf-handelsschiffe-im-schwarzen-meer-2610-213810.html",
+      "summary": "Innerhalb von 48 Stunden wurden zwei Frachter versenkt und ein dritter in Brand gesetzt, erstmals in den Wirtschaftszonen von Nato-Mitgliedern. ( Ukrainekrieg , Politik )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213810&amp;page=1&amp;ts=1791389402",
+      "published": "2026-10-07T18:10:02+02:00",
       "category": "Politik",
-      "score": 76.37
-    },
-    {
-      "id": "deutschlandfunk-ff002bbcf05137b4",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Ermittlungen - Niedersachsen: Immunität von SPD-Fraktionschef Politze aufgehoben",
-      "link": "https://www.deutschlandfunk.de/niedersachsen-immunitaet-von-spd-fraktionschef-politze-aufgehoben-102.html",
-      "summary": "In Niedersachsen hat der Landtag die Immunität des SPD-Fraktionsvorsitzenden Politze aufgehoben.",
-      "image": "https://bilder.deutschlandfunk.de/6d/0e/67/31/6d0e6731-2b8b-4890-bc8c-56b4dbb01dd3/hannover-politze-immunitaet-100-1920x1920.jpg",
-      "published": "2026-10-07T17:40:37+02:00",
-      "category": "Nachrichten",
-      "score": 71.53,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Steffen Krach – Ermittlungen zu Parteispende: Immunität von Niedersachsens SPD-Fraktionschef aufgehoben",
-            "link": "https://www.spiegel.de/panorama/steffen-krach-ermittlungen-zu-parteispende-immunitaet-von-niedersachsens-spd-fraktionschef-aufgehoben-a-e3bb334b-9d17-4819-86a8-2891268c6093#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Landtag: Ermittlung gegen SPD-Fraktionschef in Niedersachsen – Zusammenhang mit Krach",
-            "link": "https://www.handelsblatt.com/politik/deutschland/landtag-ermittlung-gegen-spd-fraktionschef-zusammenhang-mit-krach/100260500.html"
-          }
-        ]
-      }
+      "score": 75.57
     },
     {
       "id": "deutschlandfunk-14f20cd75e7699ed",
@@ -156,33 +129,45 @@
       "link": "https://www.deutschlandfunk.de/prominente-von-cdu-gruenen-und-spd-warnen-vor-rot-gruen-rot-in-berlin-106.html",
       "summary": "Nach der Wahl zum Berliner Abgeordnetenhaus warnen zahlreiche Menschen aus Politik und Zivilgesellschaft vor einer Koalition unter Führung der Linken.",
       "image": "https://bilder.deutschlandfunk.de/95/67/8d/35/95678d35-0e40-4707-8e4d-2aa15d355246/berlin-regierung-100-1920x1920.jpg",
-      "published": "2026-10-07T17:40:37+02:00",
+      "published": "2026-10-07T18:29:50+02:00",
       "category": "Politik",
-      "score": 69.85
+      "score": 69.84
     },
     {
-      "id": "spiegel-d5e19bfda8f5923d",
-      "source": "spiegel",
+      "id": "deutschlandfunk-b9a52a4c51d932b2",
+      "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Sachsen-Anhalt: Wie der CDU-Streit AfD-Mann Ulrich Siegmund ins Amt bringen könnte",
-      "link": "https://www.spiegel.de/politik/deutschland/sachsen-anhalt-wie-der-cdu-streit-afd-mann-ulrich-siegmund-ins-amt-bringen-koennte-a-e1b5c9b3-7391-48f9-9e94-487f058b30cd#ref=rss",
-      "summary": "Die Brandmauer zerbröselt: In Sachsen-Anhalt wird die Wahl von Ulrich Siegmund zum neuen Ministerpräsidenten immer wahrscheinlicher. Die AfD-Leute wollen die Spaltung der CDU ganz gezielt für sich nutzen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/6f62534d-55ac-41bb-b536-3809a1a58dad_w1200_r1.778_fpx42.12_fpy49.99.jpg",
-      "published": "2026-10-07T17:23:00+02:00",
+      "title": "Landtag - AfD und BSW in Sachsen-Anhalt fordern Stopp deutscher Ukraine-Hilfen",
+      "link": "https://www.deutschlandfunk.de/afd-und-bsw-in-sachsen-anhalt-fordern-stopp-deutscher-ukraine-hilfen-100.html",
+      "summary": "AfD und BSW im Landtag von Sachsen-Anhalt fordern einen Stopp der deutschen Hilfen für die Ukraine.",
+      "image": "https://bilder.deutschlandfunk.de/b9/17/50/e3/b91750e3-2ea1-44db-8c77-2c90a25293a2/sachsen-anhalt-plenum-landtag-100-1920x1920.jpg",
+      "published": "2026-10-07T18:29:50+02:00",
       "category": "Politik",
-      "score": 69.6
+      "score": 69.84
     },
     {
-      "id": "handelsblatt-b17fc033d8e896e8",
+      "id": "deutschlandfunk-dac3f19d797a8ac3",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Berlin - Bundespräsident Steinmeier gedenkt der Terroropfer des 7. Oktobers: Schlimmster Anschlag auf jüdisches Leben seit dem Holocaust",
+      "link": "https://www.deutschlandfunk.de/bundespraesident-steinmeier-gedenkt-der-terroropfer-des-7-oktobers-schlimmster-anschlag-auf-juedisch-100.html",
+      "summary": "Bundespräsident Steinmeier hat den terroristischen Angriff auf Israel vor drei Jahren, als schlimmsten Anschlag auf jüdisches Leben seit dem Holocaust verurteilt. Steinmeier erklärte, die Terroristen hätten mit unvorstellbarer Grausamkeit Frauen, Männer, Kinder, junge und alte Menschen ermordet.",
+      "image": "https://bilder.deutschlandfunk.de/6d/54/13/6a/6d54136a-1fb6-4cf9-b984-63663fbe4d7e/steinmeier-158-1920x1920.jpg",
+      "published": "2026-10-07T18:29:50+02:00",
+      "category": "Politik",
+      "score": 69.84
+    },
+    {
+      "id": "handelsblatt-f3b578cfd233bc82",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Anleihen: „Investoren preisen Frankreich-Risiko ein“: Druck auf Staatsanleihen belastet Banken",
-      "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/anleihen-druck-auf-franzoesische-staatsanleihen-belastet-banken/100259330.html",
-      "summary": "Der rasante Renditeanstieg lässt die Risikoprämien großer Institute des Landes steigen. Experten sehen noch keine Krise – doch ein attraktiver Vorteil geht französischen Banken verloren.",
-      "image": "https://images.handelsblatt.com/X0Bg6fe-gLSI/cover/900/506/0/0/0/0/0.5/0.5/absturz-franzoesischer-bonds-belastet-banken-und-unternehmen.jpg",
-      "published": "2026-10-07T15:42:23+00:00",
-      "category": "Wirtschaft",
-      "score": 68.87
+      "title": "Nach der Wahl in Berlin: Parteien suchen Einigung zum Thema Antisemitismus in Berlin",
+      "link": "https://www.handelsblatt.com/politik/deutschland/nach-der-wahl-in-berlin-parteien-suchen-einigung-zum-thema-antisemitismus-in-berlin/100260525.html",
+      "summary": "Schon dreimal haben sich Linke, Grüne und SPD in Berlin getroffen, um über das Thema Antisemitismus zu sprechen. Ergebnisse wurden bisher nicht bekannt. Wie geht es weiter?",
+      "image": "https://images.handelsblatt.com/f1dlHUIO55rB/cover/900/506/0/0/107/107/0.5/0.5/regierungsbildung-nach-der-wahl-zum-berliner-abgeordnetenhaus.jpg",
+      "published": "2026-10-07T16:01:16+00:00",
+      "category": "Politik",
+      "score": 68.45
     },
     {
       "id": "golem-3aa459ddf70cf20c",
@@ -194,7 +179,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213834&amp;page=1&amp;ts=1791385382",
       "published": "2026-10-07T17:03:02+02:00",
       "category": "Politik",
-      "score": 67.33
+      "score": 66.64
     },
     {
       "id": "netzpolitik-2960f44afd7b9a82",
@@ -206,7 +191,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2023/08/imago-BND-zentrale-scaled-e1692717771699-860x484.jpg",
       "published": "2026-10-07T14:31:53+00:00",
       "category": "Politik",
-      "score": 64.89
+      "score": 64.21
     },
     {
       "id": "netzpolitik-074a5e852f5d6f5b",
@@ -218,7 +203,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/10/26-10_landtag-magdeburg-protest.jpg",
       "published": "2026-10-07T14:08:13+00:00",
       "category": "Politik",
-      "score": 64.56
+      "score": 63.88
     },
     {
       "id": "heise-b44cbe6a4dc5b214",
@@ -230,7 +215,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/7/7/9/7/6/shutterstock_2425344215-1de33f2445905d12.jpeg",
       "published": "2026-10-07T06:55:00+02:00",
       "category": "Wirtschaft",
-      "score": 63.81,
+      "score": 63.13,
       "coverage": {
         "sourceCount": 2,
         "others": [
