@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T21:35:55.794250+00:00",
+  "generatedAt": "2026-10-08T22:13:16.657704+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://bilder.deutschlandfunk.de/ea/47/70/80/ea477080-675a-423f-9bc4-c4d7282e425c/623207074-100-1920x1920.jpg",
       "published": "2026-10-08T23:32:03+02:00",
       "category": "Politik",
-      "score": 85.95
+      "score": 85.43
     },
     {
       "id": "tagesschau-d5dbd244216566fe",
@@ -24,7 +24,7 @@
       "image": "https://images.tagesschau.de/image/0fca837c-627f-4c05-ba94-2beac15f572e/AAABoRrUGKE/AAABnSSvrFg/16x9-big/lars-klingbeil-226.jpg?width=1920",
       "published": "2026-10-08T12:07:43+02:00",
       "category": "Politik",
-      "score": 83.63,
+      "score": 83.11,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -42,6 +42,38 @@
       }
     },
     {
+      "id": "tagesschau-7e62e306de90e0df",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Schülerproteste: Frankreich will kurzfristig 3.000 Vertretungslehrer einsetzen",
+      "link": "https://www.tagesschau.de/ausland/europa/frankreich-verspricht-dreitausend-vertretungslehrer-100.html",
+      "summary": "Nach anhaltenden Schulprotesten will Frankreich kurzfristig mehr als 3.000 Vertretungslehrer organisieren. Eine Software solle dabei die Schulen anzeigen, die sich in einer problematischen Situation befänden, so Bildungsminister Geffray.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/3b316099-1898-4b35-984c-09f16db5f5b4/AAABoR0sZ0w/AAABnSSvrFg/16x9-big/frankreich-858.jpg?width=1920",
+      "published": "2026-10-09T00:08:21+02:00",
+      "category": "Politik",
+      "score": 78.93,
+      "coverage": {
+        "sourceCount": 4,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Schulproteste in Frankreich - Regierung setzt kurzfristig 3.000 Vertretungslehrer an Gymnasien ein",
+            "link": "https://www.deutschlandfunk.de/regierung-setzt-kurzfristig-3-000-vertretungslehrer-an-gymnasien-ein-100.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "Frankreich setzt kurzfristig 3000 Vertretungslehrer ein",
+            "link": "https://www.spiegel.de/ausland/frankreich-setzt-kurzfristig-3000-vertretungslehrer-ein-a-6c20340e-5db1-4bf8-9eff-82e0719009bd#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Reaktion auf Proteste: Frankreich setzt kurzfristig 3.000 Vertretungslehrer ein",
+            "link": "https://www.handelsblatt.com/politik/international/reaktion-auf-proteste-frankreich-setzt-kurzfristig-3000-vertretungslehrer-ein/100260869.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "tagesschau-46026288d7d13304",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -51,7 +83,7 @@
       "image": "https://images.tagesschau.de/image/cf080010-c867-4e84-811b-f155b62c0cf6/AAABoRtKTjw/AAABnSSvrFg/16x9-big/schlein-104.jpg?width=1920",
       "published": "2026-10-08T15:47:19+02:00",
       "category": "Politik",
-      "score": 78.95,
+      "score": 78.43,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -73,7 +105,7 @@
       "image": "https://images.tagesschau.de/image/df74c0cc-b835-48de-a3f7-ad89434464e9/AAABoRsL_hc/AAABnSSvrFg/16x9-big/bus-ukraine-100.jpg?width=1920",
       "published": "2026-10-08T21:16:45+02:00",
       "category": "Politik",
-      "score": 78.95,
+      "score": 78.43,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -81,28 +113,6 @@
             "source": "deutschlandfunk",
             "title": "Krieg gegen die Ukraine - 30 Tote bei russischem Angriff auf Bus im Osten der Ukraine - Ukraine trifft russisches Datenzentrum",
             "link": "https://www.deutschlandfunk.de/30-tote-bei-russischem-angriff-auf-bus-im-osten-der-ukraine-ukraine-trifft-russisches-datenzentrum-100.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-05d633208e068d7d",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Down-Syndrom: Bundestag will Anwendung von Pränataltests prüfen",
-      "link": "https://www.tagesschau.de/inland/bundestag-schwangerschaft-diagnostik-100.html",
-      "summary": "Bluttests können Schwangeren die Wahrscheinlichkeit eines Gen-Defekts beim ungeborenen Kind aufzeigen. Unter Bedingungen sind die Tests inzwischen Kassenleistung. Der Bundestag will zu der Praxis nun aber genauere Daten.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/ab68bf7d-be38-4341-92b6-13a217fc1a3f/AAABoRynLJM/AAABnSSvrFg/16x9-big/praenataltest-broschueren-100.jpg?width=1920",
-      "published": "2026-10-08T21:32:04+02:00",
-      "category": "Politik",
-      "score": 77.28,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Soziales: Bundestag will Monitoring von Bluttests bei Schwangeren",
-            "link": "https://www.handelsblatt.com/politik/deutschland/soziales-bundestag-will-monitoring-von-bluttests-bei-schwangeren/100260855.html"
           }
         ]
       }
@@ -117,34 +127,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/fe52dc99-bcdf-486e-93d5-c3a65654d990_w1200_r1.778_fpx49_fpy43.jpg",
       "published": "2026-10-08T21:49:00+02:00",
       "category": "Politik",
-      "score": 76.51
+      "score": 76.0
     },
     {
-      "id": "deutschlandfunk-5907f87ee1079385",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Schulproteste in Frankreich - Regierung setzt kurzfristig 3.000 Vertretungslehrer an Gymnasien ein",
-      "link": "https://www.deutschlandfunk.de/regierung-setzt-kurzfristig-3-000-vertretungslehrer-an-gymnasien-ein-100.html",
-      "summary": "Nach den Schulprotesten der vergangenen Tage will die französische Regierung mehr als 3.000 Vertretungslehrer einsetzen.",
-      "image": "https://bilder.deutschlandfunk.de/df/a7/8c/26/dfa78c26-04cc-418b-a1e8-c709c515d30f/frankreich-schueler-protest-100-1920x1920.jpg",
-      "published": "2026-10-08T23:32:03+02:00",
+      "id": "handelsblatt-4409a05746180d67",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Fall Maricarmen: Nach Seniorin-Tod neue Proteste gegen Wohnkrise in Spanien",
+      "link": "https://www.handelsblatt.com/politik/international/fall-maricarmen-nach-seniorin-tod-neue-proteste-gegen-wohnkrise-in-spanien/100260564.html",
+      "summary": "Der Tod einer 87-Jährigen nach ihrer Zwangsräumung befeuert in Spanien den Protest gegen die Wohnungsnot. Ein Streik und Neuwahlen sind schon angekündigt. Ein Ende des Unmuts ist aber nicht in Sicht.",
+      "image": "https://images.handelsblatt.com/kyfanVUY0xB3/cover/900/506/0/0/107/106/0.5/0.5/wohnungskrise-in-spanien.jpg",
+      "published": "2026-10-08T20:18:00+00:00",
       "category": "Politik",
-      "score": 74.63,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Frankreich setzt kurzfristig 3000 Vertretungslehrer ein",
-            "link": "https://www.spiegel.de/ausland/frankreich-setzt-kurzfristig-3000-vertretungslehrer-ein-a-6c20340e-5db1-4bf8-9eff-82e0719009bd#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Reaktion auf Proteste: Frankreich setzt kurzfristig 3.000 Vertretungslehrer ein",
-            "link": "https://www.handelsblatt.com/politik/international/reaktion-auf-proteste-frankreich-setzt-kurzfristig-3000-vertretungslehrer-ein/100260869.html"
-          }
-        ]
-      }
+      "score": 75.4
     },
     {
       "id": "spiegel-541fe449581748dd",
@@ -156,7 +151,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/e3caed3c-f571-4fae-ab0a-de6a9c22a3e3_w1200_r1.778_fpx44_fpy42.jpg",
       "published": "2026-10-08T19:23:00+02:00",
       "category": "Politik",
-      "score": 74.49
+      "score": 73.97
     },
     {
       "id": "handelsblatt-1e223a551dde272b",
@@ -168,7 +163,7 @@
       "image": "https://images.handelsblatt.com/okGLp4b7TREN/cover/900/506/0/0/299/300/0.5/0.5/archiv-25.01.2026-litauen-vilnius-der-ukrainische-praesident-wolodymyr-selenskyj-spricht-waehrend.jpg",
       "published": "2026-10-08T17:47:22+00:00",
       "category": "Politik",
-      "score": 73.83
+      "score": 73.31
     },
     {
       "id": "spiegel-13460011ed4a7a40",
@@ -180,7 +175,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/df321356-ac23-4fa0-98b9-c36625efada8_w1200_r1.778_fpx51.99_fpy50.jpg",
       "published": "2026-10-08T18:05:00+02:00",
       "category": "Politik",
-      "score": 73.4
+      "score": 72.89
     },
     {
       "id": "handelsblatt-d246a4e90cc7a3b8",
@@ -192,7 +187,7 @@
       "image": "https://images.handelsblatt.com/2datGq6bh4EH/cover/900/506/0/0/107/107/0.5/0.5/pentagon.jpg",
       "published": "2026-10-08T16:40:36+00:00",
       "category": "Politik",
-      "score": 72.9
+      "score": 72.38
     },
     {
       "id": "handelsblatt-00583b1a32baf61e",
@@ -204,7 +199,7 @@
       "image": "https://images.handelsblatt.com/ajuKMP7NmADk/cover/900/506/0/0/210/1103/0.5/0.5/cover-podcast-trump-watch.jpg",
       "published": "2026-10-08T15:46:36+00:00",
       "category": "Politik",
-      "score": 72.15
+      "score": 71.63
     },
     {
       "id": "spiegel-f31b1e6df52a445b",
@@ -216,7 +211,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/d9e28db6-b63e-4263-9a68-b9b951da0c27_w1200_r1.778_fpx36.67_fpy45.jpg",
       "published": "2026-10-08T19:48:00+02:00",
       "category": "Technologie",
-      "score": 71.83,
+      "score": 71.32,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -238,7 +233,7 @@
       "image": "https://bilder.deutschlandfunk.de/6d/0e/67/31/6d0e6731-2b8b-4890-bc8c-56b4dbb01dd3/hannover-politze-immunitaet-100-1920x1920.jpg",
       "published": "2026-10-08T23:32:03+02:00",
       "category": "Nachrichten",
-      "score": 71.63,
+      "score": 71.11,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -256,16 +251,16 @@
       }
     },
     {
-      "id": "golem-33c286ba36dda274",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Operativer Gewinn: Samsung macht durch Speicherkrise 80 Milliarden US-Dollar im Quartal",
-      "link": "https://www.golem.de/news/operativer-gewinn-samsung-macht-durch-speicherkrise-80-milliarden-us-dollar-im-quartal-2610-213897.html",
-      "summary": "Samsung Electronics kann durch die Umstellung auf High-Bandwidth Memory den operativen Gewinn fast verneunfachen. Die Speicherkrise wird sich laut dem Konzern fortsetzen. ( Samsung , KI )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213897&amp;page=1&amp;ts=1791478980",
-      "published": "2026-10-08T19:03:00+02:00",
-      "category": "Technologie",
-      "score": 61.21
+      "id": "deutschlandfunk-0c19a753881d680d",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Staatsbesuch in Frankreich - Bundespräsident Steinmeier: \"Die Deutschen werden gute Europäer bleiben\"",
+      "link": "https://www.deutschlandfunk.de/bundespraesident-steinmeier-die-deutschen-werden-gute-europaeer-bleiben-102.html",
+      "summary": "Bundespräsident Steinmeier hat bei seinem Staatsbesuch in Frankreich versichert, dass Deutschland auch nach den jüngsten Wahlergebnissen eine tragende Rolle in Europa einnehmen werde.",
+      "image": "https://bilder.deutschlandfunk.de/b1/db/46/dd/b1db46dd-22e3-4ad8-9fa4-b0d32d5684e4/steinmeier-macron-paris-frankreich-100-1920x1920.jpg",
+      "published": "2026-10-08T23:32:03+02:00",
+      "category": "Politik",
+      "score": 69.43
     }
   ]
 }
