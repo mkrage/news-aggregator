@@ -1,25 +1,57 @@
 {
-  "generatedAt": "2026-10-08T08:05:20.010126+00:00",
+  "generatedAt": "2026-10-08T09:10:18.389156+00:00",
   "count": 15,
   "articles": [
     {
-      "id": "deutschlandfunk-7ecdfc788246cb9c",
+      "id": "deutschlandfunk-aaaf4f33d2d8c1c6",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg - Russland greift Ukraine wieder vermehrt an - mindestens 24 Tote",
-      "link": "https://www.deutschlandfunk.de/russland-greift-ukraine-wieder-vermehrt-an-mindestens-24-tote-106.html",
-      "summary": "Bei neuen russischen Angriffen auf die Ukraine sind nach dortigen Angaben mindestens 24 Menschen getötet worden.",
-      "image": "https://bilder.deutschlandfunk.de/e4/96/8b/26/e4968b26-2bae-46da-b73f-00007182f4c1/pryluki-ukraine-anschlag-100-1920x1920.jpg",
-      "published": "2026-10-08T09:23:42+02:00",
+      "title": "Krieg gegen die Ukraine - Ukraine beschädigt russisches Datenzentrum",
+      "link": "https://www.deutschlandfunk.de/ukraine-beschaedigt-russisches-datenzentrum-104.html",
+      "summary": "In Russland ist ein wichtiges Rechenzentrum des Internet-Konzerns Yandex durch einen ukrainischen Drohnenangriff lahmgelegt worden.",
+      "image": "https://bilder.deutschlandfunk.de/79/df/38/5d/79df385d-29f1-47ff-86b7-4fe823b0de9a/yandex-russland-100-1280x1280.jpg",
+      "published": "2026-10-08T10:50:38+02:00",
       "category": "Politik",
-      "score": 85.42,
+      "score": 93.73,
+      "coverage": {
+        "sourceCount": 4,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Ukraine-Krieg: Kyjiw meldet 28 Tote bei russischen Angriffen an Putins Geburtstag",
+            "link": "https://www.spiegel.de/ausland/ukraine-meldet-28-tote-bei-russischen-angriffen-an-putins-geburtstag-a-bdc849af-276c-4032-af74-8b98de284b9f#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "+++ Ukraine-Krieg +++: Angriff legt Rechenzentrum von russischem Tech-Giganten lahm",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-moskau-schliesst-konsulat-in-st.-petersburg123/27982126.html"
+          },
+          {
+            "source": "golem",
+            "title": "Drohnen: Ukraine trifft Yandex-Rechenzentrum in Russland",
+            "link": "https://www.golem.de/news/drohnen-ukraine-trifft-yandex-rechenzentrum-in-russland-2610-213856.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-77adff1992e24cb9",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Midterms: Demokraten verklagen Trump-Regierung wegen TV-Spots",
+      "link": "https://www.tagesschau.de/ausland/amerika/trump-wahlwerbespots-100.html",
+      "summary": "Vor den Midterms in den USA reichen die Demokraten gegen die Trump-Regierung Klage ein - anscheinend wurde mit Steuergeldern Wahlwerbung finanziert. Die umstrittenen TV-Spots stoßen auch bei Republikanern auf Kritik.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/0c4780b5-dc06-46bf-a77b-964c24fd26d7/AAABoRpYecM/AAABnSSvrFg/16x9-big/donald-trump-944.jpg?width=1920",
+      "published": "2026-10-08T10:35:14+02:00",
+      "category": "Politik",
+      "score": 86.51,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "handelsblatt",
-            "title": "+++ Ukraine-Krieg +++: Drohnenangriff legt Rechenzentrum von russischem KI-Konzern lahm",
-            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-moskau-schliesst-konsulat-in-st.-petersburg123/27982126.html"
+            "source": "spiegel",
+            "title": "Donald Trump: Demokraten verklagen US-Präsidenten wegen Wahlwerbung aus Steuergeldern",
+            "link": "https://www.spiegel.de/ausland/us-demokraten-verklagen-trump-wegen-wahlwerbung-aus-steuergeldern-a-0b8ed0d9-a241-4154-85a4-b3a2248af262#ref=rss"
           }
         ]
       }
@@ -34,7 +66,7 @@
       "image": "https://images.tagesschau.de/image/35f36760-c58d-4196-abcd-9c458dce7082/AAABoRffwLA/AAABnSSvrFg/16x9-big/maricarmen-104.jpg?width=1920",
       "published": "2026-10-07T21:38:22+02:00",
       "category": "Nachrichten",
-      "score": 83.42,
+      "score": 83.73,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -57,16 +89,31 @@
       }
     },
     {
-      "id": "handelsblatt-8930f9c5f2a1aa93",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Finanzen: Frauen fühlen sich Umfrage zufolge finanziell unsicherer",
-      "link": "https://www.handelsblatt.com/politik/deutschland/umfrage-sorgen-um-geld-frauen-fuehlen-sich-finanziell-unsicherer/100260261.html",
-      "summary": "Mehr Sorgen, weniger Spielraum: Beim Geld gehen die Geschlechter auseinander. Laut einer Umfrage blicken Frauen anders auf ihre finanzielle Zukunft als Männer.",
-      "image": "https://images.handelsblatt.com/OfUrxWEQkr5H/cover/900/506/119/94/258/0/0.5/0.5/frau-steht-in-einem-buerozimmer-am-fenster-und-telefoniert.jpg",
-      "published": "2026-10-09T07:12:00+00:00",
-      "category": "Wirtschaft",
-      "score": 80.26
+      "id": "tagesschau-3786b0978826a2e6",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Nach Wahl in Berlin: Linke, Grüne und SPD vor Einigung auf Sondierungsgespräche",
+      "link": "https://www.tagesschau.de/inland/regional/berlin/berlin-linke-gruene--spd-sondierungen-100.html",
+      "summary": "Zweieinhalb Wochen nach der Wahl zum Berliner Abgeordnetenhaus stehen laut Medienberichten Linke, Grüne und SPD vor einer Einigung auf Sondierungsgespräche. Auch über den Umgang mit Antisemitismus habe man sich verständigt.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/64d1c67d-b542-4415-982b-21e0f7c938b0/AAABoRqrf8Q/AAABnSSvrFg/16x9-big/rbb-623778331-100.jpg?width=1920",
+      "published": "2026-10-08T10:39:37+02:00",
+      "category": "Politik",
+      "score": 83.41,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Regierungsbildung in Berlin - Linke, SPD und Grüne räumen Hindernis für Sondierungen aus dem Weg",
+            "link": "https://www.deutschlandfunk.de/linke-spd-und-gruene-raeumen-hindernis-fuer-sondierungen-aus-dem-weg-102.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Nach Berlin-Wahl: Rot-Grün-Rot einigen sich offenbar auf Sondierungsgespräche",
+            "link": "https://www.handelsblatt.com/politik/deutschland/wahlen-zum-abgeordnetenhaus-rot-gruen-rot-einigen-sich-auf-sondierungsgespraeche/100260617.html"
+          }
+        ]
+      }
     },
     {
       "id": "tagesschau-d5a55d226c63f1ad",
@@ -78,7 +125,7 @@
       "image": "https://images.tagesschau.de/image/6ad94281-0a9e-4537-aecb-95d305107176/AAABoRkQi7E/AAABnSSvrFg/16x9-big/israel-tel-aviv-gedenktag-100.jpg?width=1920",
       "published": "2026-10-08T03:35:58+02:00",
       "category": "Politik",
-      "score": 78.42,
+      "score": 78.73,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -91,16 +138,26 @@
       }
     },
     {
-      "id": "handelsblatt-728d7f7700bb6925",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Börse am 8. Oktober: Sieben Punkte, die für Anleger heute wichtig sind",
-      "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-      "summary": "Nach drei Gewinntagen gerät der Dax unter Druck. Anleger blicken am Donnerstag nun auf Exportdaten, US-Arbeitsmarkt und Notenbanker-Aussagen.",
-      "image": "https://images.handelsblatt.com/iYJIYlJ0LyLk/cover/900/506/0/0/0/0/0.5/0.5/kurstafel.png",
-      "published": "2026-10-09T04:20:00+00:00",
-      "category": "Wirtschaft",
-      "score": 77.87
+      "id": "deutschlandfunk-493e22b962ccb36c",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Bundestag - Finanzminister Klingbeil verteidigt Steuerentlastungen; Kritik aus der Opposition",
+      "link": "https://www.deutschlandfunk.de/finanzminister-klingbeil-verteidigt-steuerentlastungen-kritik-aus-der-opposition-102.html",
+      "summary": "Finanzminister Klingbeil hat im Bundestag die geplanten Änderungen bei der Einkommensteuer gegen Kritik verteidigt.",
+      "image": "https://bilder.deutschlandfunk.de/e9/ad/a0/41/e9ada041-30d3-43d7-adbc-4c2c03d419e1/klingbeil-bundestag-102-1920x1920.jpg",
+      "published": "2026-10-08T10:50:38+02:00",
+      "category": "Politik",
+      "score": 77.73,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Steuerreform: Klingbeil verteidigt Steuerentlastungen – Union fordert mehr",
+            "link": "https://www.handelsblatt.com/politik/deutschland/steuerreform-klingbeil-verteidigt-steuerentlastungen-union-fordert-mehr/100260676.html"
+          }
+        ]
+      }
     },
     {
       "id": "deutschlandfunk-edd7230110ab3cd5",
@@ -110,9 +167,9 @@
       "link": "https://www.deutschlandfunk.de/spd-beendet-initiative-fuer-regierung-mit-ueberparteilichem-ministerpraesidenten-108.html",
       "summary": "Nach der Wahl des AfD-Abgeordneten Rausch zum Landtagspräsidenten von Sachsen-Anhalt will die SPD nicht erneut zu Gesprächen über eine überparteiliche Landesregierung einladen.",
       "image": "https://bilder.deutschlandfunk.de/e6/4e/a4/d8/e64ea4d8-e021-4bd8-ae6c-75ec04fb2365/sachsen-anhalt-wahl-100-1920x1920.jpg",
-      "published": "2026-10-08T09:23:42+02:00",
+      "published": "2026-10-08T10:50:38+02:00",
       "category": "Politik",
-      "score": 77.42,
+      "score": 77.73,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -120,28 +177,6 @@
             "source": "netzpolitik",
             "title": "Nach der Landtagswahl: Freiwillige wollen öffentliche Daten in Sachsen-Anhalt sichern",
             "link": "https://netzpolitik.org/2026/nach-der-landtagswahl-freiwillige-wollen-oeffentliche-daten-in-sachsen-anhalt-sichern/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-6c481700f340063a",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Hamas-Überfall auf Israel: Der Strand, an dem der 7. Oktober begann",
-      "link": "https://www.tagesschau.de/ausland/asien/israel-gedenktag-ueberfall-hamas-zikim-100.html",
-      "summary": "In Zikim griff die Hamas am 7. Oktober 2023 Israel vom Meer aus an. 18 Menschen starben dort, doch der Versuch der Terroristen, in den Kibbuz vorzudringen, scheiterte. Wie schaut man heute auf die dramatischen Stunden? Von B. Meier. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/b021ebad-2e98-4227-bb08-040c732b961b/AAABoRYAt5w/AAABnSSvrFg/16x9-big/strand-zikim-100.jpg?width=1920",
-      "published": "2026-10-07T19:31:36+02:00",
-      "category": "Politik",
-      "score": 76.91,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Berlin-Kreuzberg: Festnahmen bei Pro-Palästina-Demo am 7. Oktober",
-            "link": "https://www.spiegel.de/panorama/gesellschaft/berlin-kreuzberg-festnahmen-bei-pro-palaestina-demo-am-7-oktober-a-97338d48-26d0-4751-8690-275c13d13b16#ref=rss"
           }
         ]
       }
@@ -156,92 +191,79 @@
       "image": "https://cdn.prod.www.spiegel.de/images/02759e62-15b6-4eb7-8fc1-2547b52d552f_w1200_r1.778_fpx52_fpy46.jpg",
       "published": "2026-10-08T06:13:00+02:00",
       "category": "Politik",
-      "score": 74.77
+      "score": 73.87
     },
     {
-      "id": "tagesschau-0081ff0052d9c9e8",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Nach Huthi-Angriffen auf Riad: Saudi-Arabien greift erneut Ziele im Jemen an",
-      "link": "https://www.tagesschau.de/ausland/asien/saudi-arabien-jemen-huthi-angriffe-100.html",
-      "summary": "Die gegenseitigen Angriffe von Saudi-Arabien und der jemenitischen Huthi-Miliz halten an. Nach Attacken auf saudi-arabische Flughäfen meldet Riad die Zerstörung von Dutzenden militärischen Objekten der Huthi im Jemen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/c95edeab-a20a-4485-92da-d683bb208b90/AAABoKlUqsg/AAABnSSvrFg/16x9-big/karte-saudi-arabien-mekka-riad-jemen-sanaa-100.jpg?width=1920",
-      "published": "2026-10-08T08:34:42+02:00",
-      "category": "Nachrichten",
-      "score": 72.1,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Riad und Abha - Drei Tote nach Huthi-Angriffen auf Flughäfen in Saudi-Arabien",
-            "link": "https://www.deutschlandfunk.de/drei-tote-nach-huthi-angriffen-auf-flughaefen-in-saudi-arabien-100.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Saudi-Arabien: Huthi-Miliz bekennt sich zu Angriffen auf Flughäfen in Riad und Abha",
-            "link": "https://www.spiegel.de/ausland/saudi-arabien-huthi-miliz-bekennt-sich-zu-angriffen-auf-flughaefen-in-riad-und-abha-a-49e98df2-7b50-44ba-a1a6-c7d46e708db1#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-8475955cfdb2aff9",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg: Kyjiw meldet 28 Tote bei russischen Angriffen an Putins Geburtstag",
-      "link": "https://www.spiegel.de/ausland/ukraine-meldet-28-tote-bei-russischen-angriffen-an-putins-geburtstag-a-bdc849af-276c-4032-af74-8b98de284b9f#ref=rss",
-      "summary": "Der Kremlchef ist 74 Jahre alt geworden. Laut dem ukrainischen Präsidenten Selenskyj nahm die russische Armee dies zum Anlass für eine schwere Angriffswelle – unter anderem auf ein fünfstöckiges Wohnhaus.",
-      "image": "https://cdn.prod.www.spiegel.de/images/2ef33c6e-34a4-4a4b-ba05-7453ebc54b01_w1200_r1.778_fpx69.1_fpy54.99.jpg",
-      "published": "2026-10-08T02:42:00+02:00",
-      "category": "Politik",
-      "score": 71.84
-    },
-    {
-      "id": "handelsblatt-8fab68d1f978e049",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Wahlkampf-Events: Trumps Kampf um Texas: „Es ist entscheidend“",
-      "link": "https://www.handelsblatt.com/politik/international/wahlkampf-events-trumps-kampf-um-texas-es-ist-entscheidend/100260576.html",
-      "summary": "Trump reist für seine Wahlkampftour seit Tagen quer durchs Land. Bereits zum dritten Mal innerhalb eines Monats ist er nun in Texas, wo seine Republikaner besonders um ihren Senatssitz zittern.",
-      "image": "https://images.handelsblatt.com/xMPczzklOrn1/cover/900/506/0/0/107/107/0.5/0.5/us-praesident-trump.jpg",
-      "published": "2026-10-08T01:18:10+00:00",
-      "category": "Politik",
-      "score": 71.34
-    },
-    {
-      "id": "spiegel-52038ad8ff12953e",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Donald Trump: Demokraten verklagen US-Präsidenten wegen Wahlwerbung aus Steuergeldern",
-      "link": "https://www.spiegel.de/ausland/us-demokraten-verklagen-trump-wegen-wahlwerbung-aus-steuergeldern-a-0b8ed0d9-a241-4154-85a4-b3a2248af262#ref=rss",
-      "summary": "In hinreichend schrägen Werbespots wirbt Donald Trump derzeit um Stimmen bei den Zwischenwahlen – mit dem Disclaimer: »Finanziert von der US-Regierung«. Deshalb schicken die Demokraten jetzt ihre Anwälte los.",
-      "image": "https://cdn.prod.www.spiegel.de/images/9252b6b3-8ec5-41ae-85ee-3783673c245d_w1200_r1.778_fpx33.32_fpy49.99.jpg",
-      "published": "2026-10-08T01:37:00+02:00",
-      "category": "Politik",
-      "score": 70.94
-    },
-    {
-      "id": "deutschlandfunk-8ece786dd66395a0",
+      "id": "deutschlandfunk-028573ffb145b01a",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Berlin - Weiteres Vorgespräch von Linke, SPD und Grünen - keine Angaben zu Inhalten",
-      "link": "https://www.deutschlandfunk.de/weiteres-vorgespraech-von-linke-spd-und-gruenen-keine-angaben-zu-inhalten-102.html",
-      "summary": "In Berlin ist weiter unklar, ob es Sondierungen von Linken, SPD und Grünen zur Bildung einer Landesregierung geben wird. Nach einem dritten Vorgespräch verließen Spitzenpolitiker der drei Parteien am Mittwochabend den Tagungsort, ohne sich zu Inhalten zu äußern.",
-      "image": "https://bilder.deutschlandfunk.de/95/67/8d/35/95678d35-0e40-4707-8e4d-2aa15d355246/berlin-regierung-100-1920x1920.jpg",
-      "published": "2026-10-08T09:23:42+02:00",
+      "title": "NIPT - Angst vor Selektion: Bundestagsabgeordnete wollen vorgeburtliche Bluttests überwachen",
+      "link": "https://www.deutschlandfunk.de/angst-vor-selektion-bundestagsabgeordnete-wollen-vorgeburtliche-bluttests-ueberwachen-100.html",
+      "summary": "Der Bundestag debattiert heute über Regeln bei vorgeburtlichen Bluttests für Schwangere. Seit vier Jahren bezahlen die gesetzlichen Krankenkassen den sogenannten NIPT-Test.",
+      "image": "https://bilder.deutschlandfunk.de/FI/LE/_f/82/FILE_f828db5aac39bfaa689310eeb1e970f5/imago0102322490h-jpg-102-768x768.jpg",
+      "published": "2026-10-08T10:50:38+02:00",
       "category": "Politik",
-      "score": 69.53,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Nach Berlin-Wahl: Rot-Grün-Rot einigen sich offenbar auf Sondierungsgespräche",
-            "link": "https://www.handelsblatt.com/politik/deutschland/wahlen-zum-abgeordnetenhaus-rot-gruen-rot-einigen-sich-auf-sondierungsgespraeche/100260617.html"
-          }
-        ]
-      }
+      "score": 69.73
+    },
+    {
+      "id": "spiegel-981626f1418a755d",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Frankreich-Wahlkampf: Wie zwei extreme Bewerber den Ton gegen Deutschland verschärfen",
+      "link": "https://www.spiegel.de/ausland/frankreich-wahlkampf-wie-zwei-extreme-bewerber-den-ton-gegen-deutschland-verschaerfen-a-da044afe-aa5a-4a35-a137-744668124862#ref=rss",
+      "summary": "Der beginnende Präsidentschaftswahlkampf in Frankreich wird von zwei extremen Kandidaten dominiert: Marine Le Pen und Jean-Luc Mélenchon. Sie eint die Abneigung gegen den Nachbarn jenseits des Rheins.",
+      "image": "https://cdn.prod.www.spiegel.de/images/0f3b7f14-be73-4b86-be9a-4f86f3f4065c_w900_r1.778_fpx48_fpy41.jpg",
+      "published": "2026-10-08T10:25:00+02:00",
+      "category": "Politik",
+      "score": 69.37
+    },
+    {
+      "id": "handelsblatt-19328ae68f51719c",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Dax aktuell: Dax notiert unverändert – EZB‑Protokolle und Ölpreis im Blick",
+      "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-notiert-im-minus-und-rutscht-unter-25.000-punkte-marke/100260619.html",
+      "summary": "Angriffe im Iran-Krieg und ein Hurrikan im Golf von Mexiko treiben die Ölpreise nach oben. Das belastet nicht nur den deutschen Aktienmarkt.",
+      "image": "https://images.handelsblatt.com/bckzfpdOn42n/cover/900/506/0/1/0/0/0.5/0.5/graph-aktienkurs-aktienchart-dax-online-dax-bericht.jpg",
+      "published": "2026-10-08T09:07:02+00:00",
+      "category": "Wirtschaft",
+      "score": 68.95
+    },
+    {
+      "id": "handelsblatt-66ba601b77dbbba4",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Rentnerparadies: Rente im Ausland: Dieses Tool zeigt, wohin Sie auswandern sollten",
+      "link": "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-sparen/rente-im-ausland-finden-sie-heraus-wo-der-ruhestand-am-meisten-spass-macht/100168299.html",
+      "summary": "Den Lebensabend im Ausland verbringen, davon träumen viele. Doch wie finden Sie zum Beispiel heraus, in welchem Land am Meer es sonnig und sicher ist? Das Handelsblatt hilft bei der Auswahl.",
+      "image": "https://images.handelsblatt.com/aqNLFTYn9usL/cover/900/506/0/0/67/196/0.5/0.5/auswandern-im-alter.jpg",
+      "published": "2026-10-08T08:58:00+00:00",
+      "category": "Politik",
+      "score": 68.83
+    },
+    {
+      "id": "spiegel-f3f75995e98052b8",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "John Coale: Dreht Donald Trumps Ex-Anwalt jetzt die US-Strategie für Russland?",
+      "link": "https://www.spiegel.de/ausland/john-coale-dreht-donald-trumps-ex-anwalt-jetzt-die-us-strategie-fuer-russland-a-0c20a834-4ead-472f-a653-e65e3ea963fe#ref=rss",
+      "summary": "John Coale soll offenbar die festgefahrenen Gespräche mit dem Kreml voranbringen. Einem Medienbericht zufolge mit einem Wirtschaftsdeal nach belarussischem Vorbild. Gegen den Willen der Ukraine.",
+      "image": "https://cdn.prod.www.spiegel.de/images/ff2c1d82-9536-4e63-9d04-dd2e07d107a7_w1200_r1.778_fpx68.69_fpy44.98.jpg",
+      "published": "2026-10-07T22:33:00+02:00",
+      "category": "Politik",
+      "score": 67.48
+    },
+    {
+      "id": "handelsblatt-2a565ee930cd9154",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Nach Spitzentreffen: Koalition für zügige Reformen und gegen Extremismus",
+      "link": "https://www.handelsblatt.com/politik/deutschland/nach-spitzentreffen-koalition-fuer-zuegige-reformen-und-gegen-extremismus/100260452.html",
+      "summary": "Der Koalitionsausschuss hat sich mit dem weiteren Reformprogramm befasst, aber auch mit den Nachwehen der Landtagswahlen. In einer ersten Erklärung dazu werden die Ergebnisse nur grob umrissen.",
+      "image": "https://images.handelsblatt.com/z1qlwiYndgsq/cover/900/506/0/0/107/106/0.5/0.5/koalitionsausschuss.jpg",
+      "published": "2026-10-08T07:19:15+00:00",
+      "category": "Politik",
+      "score": 67.46
     },
     {
       "id": "golem-49ff83e04cea3ecd",
@@ -253,19 +275,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213810&amp;page=1&amp;ts=1791389402",
       "published": "2026-10-07T18:10:02+02:00",
       "category": "Politik",
-      "score": 62.73
-    },
-    {
-      "id": "netzpolitik-0ffcaa77f94187f2",
-      "source": "netzpolitik",
-      "sourceWeight": 0.75,
-      "title": "Gesetz gegen digitale Gewalt: Fake-Accounts und Vergewaltigungsvideos sollen strafbar werden",
-      "link": "https://netzpolitik.org/2026/gesetz-gegen-digitale-gewalt-fake-accounts-und-vergewaltigungsvideos-sollen-strafbar-werden/",
-      "summary": "Bundesjustizministerin Hubig hat den Entwurf für ein Gesetz gegen digitale Gewalt erneut nachgeschärft. Hinzugekommen sind Straftatbestände für Fake-Accounts und das Abrufen von Vergewaltigungsvideos sowie der Anspruch, strafbare Inhalte löschen zu lassen. Doch es gibt weiterhin Kritik. Teilnehmer*innen einer Demonstration gegen patriarchale Gewalt im März. – Alle Rechte vorbehalten: IMAGO / Panama Pictures Ein halbes Jahr nach der Vorstellung eines ersten Entwurfs hat die Bundesregierung am Mittwoch das Gesetz gegen digitale Gewalt auf den Weg gebracht. Das Bundesjustizministerium will damit Menschen entlasten, die im Netz Gewalt erfahren. Zum einen will sie dafür das Strafrecht verschärfen und um neue Tatbestände ergänzen. Zum anderen will sie es Betroffenen einfacher machen, selbst auf dem zivilrechtlichen Weg gegen strafbare Inhalte wie Beleidigungen vorzugehen. Die aktuelle Kabinettsfassung enthält gegenüber dem von Stefanie Hubig (SPD) im April vorgestellten Entwurf mehrere relevante Änderungen. So sieht der zivilrechtliche Teil jetzt vor, dass es einen Anspruch auf Löschung von rechtswidrigen Inhalten bei den Plattformen geben soll. …",
-      "image": "https://cdn.netzpolitik.org/wp-upload/2026/10/imago0852015424h-scaled.jpg",
-      "published": "2026-10-08T07:41:43+00:00",
-      "category": "Politik",
-      "score": 57.67
+      "score": 61.83
     }
   ]
 }
