@@ -1,7 +1,61 @@
 {
-  "generatedAt": "2026-10-07T22:05:48.958531+00:00",
+  "generatedAt": "2026-10-08T01:23:41.426113+00:00",
   "count": 15,
   "articles": [
+    {
+      "id": "tagesschau-fe0f84e31b87560b",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Ukraine: Viele Tote bei russischen Angriffen",
+      "link": "https://www.tagesschau.de/ausland/europa/russland-greift-kiew-an-100.html",
+      "summary": "Wieder haben russische Raketen, Drohnen und Marschflugkörper Kiew und andere ukrainische Städte getroffen. In der nordukrainischen Stadt Pryluki trafen Raketen ein mehrstöckiges Wohnhaus. Es gibt viele Tote.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/7585e2c3-e1a6-43de-92e4-ea2870db8a8e/AAABoRUWvW8/AAABnSSvrFg/16x9-big/ukraine-2858.jpg?width=1920",
+      "published": "2026-10-07T17:21:49+02:00",
+      "category": "Politik",
+      "score": 86.43,
+      "coverage": {
+        "sourceCount": 4,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Ukraine-Krieg - Russland greift Ukraine wieder vermehrt an - mindestens 24 Tote",
+            "link": "https://www.deutschlandfunk.de/russland-greift-ukraine-wieder-vermehrt-an-mindestens-24-tote-106.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "Ukraine meldet 28 Tote bei russischen Angriffen an Putins Geburtstag",
+            "link": "https://www.spiegel.de/ausland/ukraine-meldet-28-tote-bei-russischen-angriffen-an-putins-geburtstag-a-bdc849af-276c-4032-af74-8b98de284b9f#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Krieg gegen die Ukraine: Angriff an Putins Geburtstag - viele Tote in der Ukraine",
+            "link": "https://www.handelsblatt.com/politik/international/krieg-gegen-die-ukraine-angriff-an-putins-geburtstag-viele-tote-in-der-ukraine/100260237.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-52038ad8ff12953e",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "US-Demokraten verklagen Trump wegen Wahlwerbung aus Steuergeldern",
+      "link": "https://www.spiegel.de/ausland/us-demokraten-verklagen-trump-wegen-wahlwerbung-aus-steuergeldern-a-0b8ed0d9-a241-4154-85a4-b3a2248af262#ref=rss",
+      "summary": "In hinreichend schrägen Werbespots wirbt Donald Trump derzeit um Stimmen bei den Zwischenwahlen – mit dem Disclaimer: »Finanziert von der US-Regierung«. Deshalb schicken die Demokraten jetzt ihre Anwälte los.",
+      "image": "https://cdn.prod.www.spiegel.de/images/9252b6b3-8ec5-41ae-85ee-3783673c245d_w1200_r1.778_fpx33.32_fpy49.99.jpg",
+      "published": "2026-10-08T01:37:00+02:00",
+      "category": "Politik",
+      "score": 84.52,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Wahlkampagnen-Finanzierung: Werbung durch Steuergelder? Demokraten klagen gegen Trump",
+            "link": "https://www.handelsblatt.com/politik/international/wahlkampagnen-finanzierung-werbung-durch-steuergelder-demokraten-klagen-gegen-trump/100260558.html"
+          }
+        ]
+      }
+    },
     {
       "id": "tagesschau-c771cc0449c8361d",
       "source": "tagesschau",
@@ -12,7 +66,7 @@
       "image": "https://images.tagesschau.de/image/35f36760-c58d-4196-abcd-9c458dce7082/AAABoRffwLA/AAABnSSvrFg/16x9-big/maricarmen-104.jpg?width=1920",
       "published": "2026-10-07T21:38:22+02:00",
       "category": "Nachrichten",
-      "score": 83.8,
+      "score": 83.43,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -35,28 +89,23 @@
       }
     },
     {
-      "id": "tagesschau-fe0f84e31b87560b",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Ukraine: Viele Tote bei russischen Angriffen",
-      "link": "https://www.tagesschau.de/ausland/europa/russland-greift-kiew-an-100.html",
-      "summary": "Wieder haben russische Raketen, Drohnen und Marschflugkörper Kiew und andere ukrainische Städte getroffen. In der nordukrainischen Stadt Pryluki trafen Raketen ein mehrstöckiges Wohnhaus. Es gibt viele Tote.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/7585e2c3-e1a6-43de-92e4-ea2870db8a8e/AAABoRUWvW8/AAABnSSvrFg/16x9-big/ukraine-2858.jpg?width=1920",
-      "published": "2026-10-07T17:21:49+02:00",
+      "id": "deutschlandfunk-bfa6af937d7e3897",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Sachsen-Anhalt - Staatsministerin Güler geht von CDU-Stimmen für AfD-Mann aus",
+      "link": "https://www.deutschlandfunk.de/staatsministerin-gueler-geht-von-cdu-stimmen-fuer-afd-mann-aus-100.html",
+      "summary": "Die CDU-Bundestagsabgeordnete Güler geht davon aus, dass der neue Landtagspräsident in Sachsen-Anhalt von der AfD auch mit Stimmen aus ihrer Partei ins Amt gewählt worden ist.",
+      "image": "https://bilder.deutschlandfunk.de/d4/80/50/0a/d480500a-63d7-46cf-a27c-0187935d99b1/serap-gueler-interview-100-1920x1920.jpg",
+      "published": "2026-10-08T02:42:18+02:00",
       "category": "Politik",
-      "score": 83.48,
+      "score": 77.43,
       "coverage": {
-        "sourceCount": 3,
+        "sourceCount": 2,
         "others": [
           {
-            "source": "deutschlandfunk",
-            "title": "Ukraine-Krieg - Russland greift Ukraine wieder vermehrt an - mindestens 24 Tote",
-            "link": "https://www.deutschlandfunk.de/russland-greift-ukraine-wieder-vermehrt-an-mindestens-24-tote-106.html"
-          },
-          {
             "source": "handelsblatt",
-            "title": "Krieg gegen die Ukraine: Angriff an Putins Geburtstag - viele Tote in der Ukraine",
-            "link": "https://www.handelsblatt.com/politik/international/krieg-gegen-die-ukraine-angriff-an-putins-geburtstag-viele-tote-in-der-ukraine/100260237.html"
+            "title": "Sachsen-Anhalt: AfD-Erfolge in Magdeburg: CDU unter Druck vor MP-Wahl",
+            "link": "https://www.handelsblatt.com/politik/deutschland/sachsen-anhalt-afd-erfolge-in-magdeburg-cdu-unter-druck-vor-mp-wahl/100260250.html"
           }
         ]
       }
@@ -69,9 +118,9 @@
       "link": "https://www.deutschlandfunk.de/spd-beendet-initiative-fuer-regierung-mit-ueberparteilichem-ministerpraesidenten-108.html",
       "summary": "Nach der Wahl des AfD-Abgeordneten Rausch zum Landtagspräsidenten von Sachsen-Anhalt will die SPD nicht erneut zu Gesprächen über eine überparteiliche Landesregierung einladen.",
       "image": "https://bilder.deutschlandfunk.de/e6/4e/a4/d8/e64ea4d8-e021-4bd8-ae6c-75ec04fb2365/sachsen-anhalt-wahl-100-1920x1920.jpg",
-      "published": "2026-10-07T23:51:33+02:00",
+      "published": "2026-10-08T02:42:18+02:00",
       "category": "Politik",
-      "score": 77.8,
+      "score": 77.43,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -93,19 +142,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/ff2c1d82-9536-4e63-9d04-dd2e07d107a7_w1200_r1.778_fpx68.69_fpy44.98.jpg",
       "published": "2026-10-07T22:33:00+02:00",
       "category": "Politik",
-      "score": 76.71
-    },
-    {
-      "id": "handelsblatt-879e8139673c924d",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Wahlkampagnen-Finanzierung: Werbung durch Steuergelder? Demokraten klagen gegen Trump",
-      "link": "https://www.handelsblatt.com/politik/international/wahlkampagnen-finanzierung-werbung-durch-steuergelder-demokraten-klagen-gegen-trump/100260558.html",
-      "summary": "Wenige Wochen vor den Kongresswahlen inszenieren aktuell mehrere Videos US-Präsident Trump als antikommunistisches Bollwerk. Kritik daran gibt es schon länger - nun folgt eine Klage.",
-      "image": "https://images.handelsblatt.com/2jBsodnvaaJu/cover/900/506/0/0/107/106/0.5/0.5/us-praesident-trump.jpg",
-      "published": "2026-10-07T21:38:17+00:00",
-      "category": "Politik",
-      "score": 76.62
+      "score": 73.96
     },
     {
       "id": "tagesschau-dfb08bcfc826335d",
@@ -117,7 +154,34 @@
       "image": "https://images.tagesschau.de/image/731039d6-751a-44e3-9891-42d45460d58a/AAABoReDI7s/AAABnSSvrFg/16x9-big/shiroka-pula-102.jpg?width=1920",
       "published": "2026-10-07T20:45:48+02:00",
       "category": "Politik",
-      "score": 76.22
+      "score": 73.47
+    },
+    {
+      "id": "tagesschau-4f4a9b97440a9e51",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Frankreichs Premier verspricht Schülern Verbesserungen, aber nicht mehr Geld",
+      "link": "https://www.tagesschau.de/ausland/europa/proteste-frankreich-lecornu-100.html",
+      "summary": "Die Schulproteste in Frankreich halten weiter an. Premier Lecornu sicherte den Schülern nun bessere Lernbedingungen zu, ohne aber zusätzlichen Finanzhilfen in Aussicht zu stellen. Doch neue Proteste sind bereits angekündigt.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/0a183822-fa30-4ebe-8932-2992c4a9ba9e/AAABoRfhG5Y/AAABnSSvrFg/16x9-big/lecornu-146.jpg?width=1920",
+      "published": "2026-10-07T22:00:05+02:00",
+      "category": "Nachrichten",
+      "score": 72.1,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Schüler-Proteste - Frankreichs Premier verspricht bessere Lernbedingungen - aber nicht zusätzliches Geld",
+            "link": "https://www.deutschlandfunk.de/frankreichs-premier-verspricht-bessere-lernbedingungen-aber-nicht-zusaetzliches-geld-104.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Neue Kundgebungen angekündigt: Schulproteste in Frankreich: Regierung weiter unter Druck",
+            "link": "https://www.handelsblatt.com/politik/international/neue-kundgebungen-angekuendigt-schulproteste-in-frankreich-regierung-weiter-unter-druck/100260373.html"
+          }
+        ]
+      }
     },
     {
       "id": "spiegel-78f2aa600c23fb2a",
@@ -129,7 +193,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/6fdd51a7-b192-43fb-80a7-fa69f504e31b_w1200_r1.778_fpx49.48_fpy50.jpg",
       "published": "2026-10-07T20:09:00+02:00",
       "category": "Politik",
-      "score": 74.71,
+      "score": 71.96,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -142,16 +206,16 @@
       }
     },
     {
-      "id": "spiegel-2f812118ba063481",
-      "source": "spiegel",
+      "id": "deutschlandfunk-47b74ac31aa5c442",
+      "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Berlin: Er feierte auf der Linken-Wahlparty – dann reiste er zum Treffen mit Hamas-Funktionären",
-      "link": "https://www.spiegel.de/panorama/berlin-er-feierte-auf-der-linken-wahlparty-dann-reiste-er-zum-treffen-mit-hamas-funktionaeren-a-91b667c4-31b5-4a49-b159-a40d9f9661fb#ref=rss",
-      "summary": "Ein Foto des Pro-Palästina-Aktivisten Ibrahim Ibrahim von der Wahlparty der Linken in Berlin warf Fragen auf. Nun zeigt sich, wie eng der israelfeindliche Funktionär mit dem Terrormilieu verbunden ist.",
-      "image": "https://cdn.prod.www.spiegel.de/images/c2b87a79-0f67-40f1-b161-df44ca4167ea_w1200_r1.778_fpx48_fpy48.jpg",
-      "published": "2026-10-07T19:04:00+02:00",
+      "title": "Noch keine Trendwende - DFB-Auswahl sackt auch nach Klopps Amtsantritt in Weltrangliste ab",
+      "link": "https://www.deutschlandfunk.de/dfb-auswahl-sackt-auch-nach-klopps-amtsantritt-in-weltrangliste-ab-106.html",
+      "summary": "Die deutsche Fußball-Nationalmannschaft hat in der Länder-Weltrangliste weiter an Boden verloren. In dem von der FIFA veröffentlichten Ranking findet sich die DFB-Auswahl auf Platz 13 wieder und damit einen Rang schlechter als nach dem WM-Aus im Sechzehntelfinale.",
+      "image": "https://bilder.deutschlandfunk.de/09/75/aa/83/0975aa83-a814-4f29-85c0-aa390d808a90/nations-league-deutschland-griechenland-100-1920x1920.jpg",
+      "published": "2026-10-08T02:42:18+02:00",
       "category": "Politik",
-      "score": 73.81
+      "score": 69.43
     },
     {
       "id": "handelsblatt-e1c4a5a4f0a7f507",
@@ -163,7 +227,7 @@
       "image": "https://images.handelsblatt.com/H6jRTMMlcIDw/cover/900/506/0/0/0/0/0.5/0.5/andrea.jpg",
       "published": "2026-10-07T15:29:56+00:00",
       "category": "Politik",
-      "score": 71.5
+      "score": 68.75
     },
     {
       "id": "golem-49ff83e04cea3ecd",
@@ -175,31 +239,31 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213810&amp;page=1&amp;ts=1791389402",
       "published": "2026-10-07T18:10:02+02:00",
       "category": "Politik",
-      "score": 71.06
+      "score": 68.31
     },
     {
-      "id": "deutschlandfunk-47b74ac31aa5c442",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Noch keine Trendwende - DFB-Auswahl sackt auch nach Klopps Amtsantritt in Weltrangliste ab",
-      "link": "https://www.deutschlandfunk.de/dfb-auswahl-sackt-auch-nach-klopps-amtsantritt-in-weltrangliste-ab-106.html",
-      "summary": "Die deutsche Fußball-Nationalmannschaft hat in der Länder-Weltrangliste weiter an Boden verloren. In dem von der FIFA veröffentlichten Ranking findet sich die DFB-Auswahl auf Platz 13 wieder und damit einen Rang schlechter als nach dem WM-Aus im Sechzehntelfinale.",
-      "image": "https://bilder.deutschlandfunk.de/09/75/aa/83/0975aa83-a814-4f29-85c0-aa390d808a90/nations-league-deutschland-griechenland-100-1920x1920.jpg",
-      "published": "2026-10-07T23:51:33+02:00",
+      "id": "handelsblatt-d3adadd6d3741981",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Erschütterung und Zorn: Tod nach Zwangsräumung heizt Protest in Spanien weiter an",
+      "link": "https://www.handelsblatt.com/politik/international/erschuetterung-und-zorn-tod-nach-zwangsraeumung-heizt-protest-in-spanien-weiter-an/100260564.html",
+      "summary": "Das Schicksal einer 87-jährigen Spanierin, die von der Polizei aus ihrer Wohnung geholt wurde, hat Massenproteste und Neuwahlen ausgelöst. Ihr Tod wird die Fronten nun noch weiter verhärten.",
+      "image": "https://images.handelsblatt.com/fGHgYj3yk4JC/cover/900/506/0/0/107/106/0.5/0.5/demonstration-zur-unterstuetzung-des-maricarmen.jpg",
+      "published": "2026-10-07T23:23:26+00:00",
       "category": "Politik",
-      "score": 69.8
+      "score": 67.33
     },
     {
-      "id": "deutschlandfunk-cd8eb05da41c60c7",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Landtag - AfD und BSW in Sachsen-Anhalt fordern Stopp deutscher Ukraine-Hilfen",
-      "link": "https://www.deutschlandfunk.de/afd-und-bsw-in-sachsen-anhalt-fordern-stopp-deutscher-ukraine-hilfen-104.html",
-      "summary": "AfD und BSW im Landtag von Sachsen-Anhalt fordern einen Stopp der deutschen Hilfen für die Ukraine.",
-      "image": "https://bilder.deutschlandfunk.de/b9/17/50/e3/b91750e3-2ea1-44db-8c77-2c90a25293a2/sachsen-anhalt-plenum-landtag-100-1920x1920.jpg",
-      "published": "2026-10-07T23:51:33+02:00",
-      "category": "Politik",
-      "score": 69.8
+      "id": "handelsblatt-f95355c03b212876",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Fed-Protokolle: US-Zentralbank uneins über weiteren Zinserhöhungskurs",
+      "link": "https://www.handelsblatt.com/finanzen/geldpolitik/us-geldpolitik-fed-protokolle-untermauern-uneinigkeit-ueber-zinserhoehungen/100260547.html",
+      "summary": "Die US-Notenbank ist nach der jüngsten Zinserhöhung gespalten. Die neuen Fed-Protokolle zeigen Uneinigkeit über Inflation, Wirtschaftslage und den weiteren geldpolitischen Kurs.",
+      "image": "https://images.handelsblatt.com/12ju3Guu4MRq/cover/900/506/0/0/143/143/0.5/0.5/file-photo-a-man-walks-past-the-federal-reserve-in-washington-december-16-2015.-reuters-kevin-lam.jpg",
+      "published": "2026-10-07T19:09:21+00:00",
+      "category": "Wirtschaft",
+      "score": 63.8
     },
     {
       "id": "golem-3aa459ddf70cf20c",
@@ -211,41 +275,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213834&amp;page=1&amp;ts=1791385382",
       "published": "2026-10-07T17:03:02+02:00",
       "category": "Politik",
-      "score": 62.13
-    },
-    {
-      "id": "netzpolitik-2960f44afd7b9a82",
-      "source": "netzpolitik",
-      "sourceWeight": 0.75,
-      "title": "Geheimdienstreform: BND-Skandal zur Unzeit",
-      "link": "https://netzpolitik.org/2026/geheimdienstreform-bnd-skandal-zur-unzeit/",
-      "summary": "In Kürze soll der gesetzliche Umbau der Geheimdienste durch den Bundestag gebracht werden. Eine bessere Kontrolle der Geheimdienste steht der massiven Ausweitung der Befugnisse allerdings nicht gegenüber. Nicht erst seit dem Skandal um den Ex-BND-Chef Hanning wäre dies jedoch dringend nötig. Das Gebäude des Bundesnachrichtendienstes in Berlin, mit Überwachungspalme. – Alle Rechte vorbehalten: IMAGO / imagebroker Das war schon eine Bombe, die gestern im politischen Berlin einschlug. Am Vormittag tickerten die Spionage-Vorwürfe und die Verhaftung des ehemaligen BND-Präsidenten August Hanning über alle Kanäle, auch in der internationalen Presse. Hanning war nicht nur BND-Chef, als die den deutschen Geheimdiensten wohlbekannten Todespiloten aus Hamburg die gekaperten Flugzeuge in New York in die Wolkenkratzer steuerten. Er und der damalige Bundesinnenminister Wolfgang Schäuble (CDU) wurden danach auch zu Architekten des Ausbaus der Überwachungsgesetze nach 9/11, die „Anti-Terror-Gesetze“ genannt wurden und bis heute Bestand haben. …",
-      "image": "https://cdn.netzpolitik.org/wp-upload/2023/08/imago-BND-zentrale-scaled-e1692717771699-860x484.jpg",
-      "published": "2026-10-07T14:31:53+00:00",
-      "category": "Politik",
-      "score": 59.7
-    },
-    {
-      "id": "heise-b44cbe6a4dc5b214",
-      "source": "heise",
-      "sourceWeight": 0.9,
-      "title": "OpenAI veröffentlicht hunderte KI-generierte Lösungen für Mathematikprobleme",
-      "link": "https://www.heise.de/news/OpenAI-Hunderte-weitere-KI-generierte-Loesungen-fuer-Mathematikprobleme-11478615.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "summary": "Das KI-Unternehmen hat ein internes KI-Modell auf tausende Probleme aus der Mathematik angesetzt. Für ein Zehntel davon hat es relevante Lösungen generiert.",
-      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/7/7/9/7/6/shutterstock_2425344215-1de33f2445905d12.jpeg",
-      "published": "2026-10-07T06:55:00+02:00",
-      "category": "Wirtschaft",
-      "score": 58.61,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "golem",
-            "title": "Forschung & KI: OpenAI veröffentlicht Lösungen für 372 Mathe-Probleme",
-            "link": "https://www.golem.de/news/forschung-ki-openai-veroeffentlicht-loesungen-fuer-372-mathe-probleme-2610-213798.html"
-          }
-        ]
-      }
+      "score": 59.38
     }
   ]
 }
