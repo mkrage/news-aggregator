@@ -1,0 +1,62 @@
+{
+  "tagesschau": {
+    "url": "https://www.tagesschau.de/xml/rss2/",
+    "weight": 1.0,
+    "category": "Nachrichten"
+  },
+  "heise": {
+    "url": "https://www.heise.de/rss/heise-top-atom.xml",
+    "weight": 0.9,
+    "category": "Technologie"
+  },
+  "golem": {
+    "url": "https://rss.golem.de/rss.php?feed=RSS2.0",
+    "weight": 0.85,
+    "category": "Technologie"
+  },
+  "spiegel": {
+    "url": "https://www.spiegel.de/schlagzeilen/index.rss",
+    "weight": 0.95,
+    "category": "Nachrichten"
+  },
+  "deutschlandfunk": {
+    "url": "https://www.deutschlandfunk.de/nachrichten-100.rss",
+    "weight": 0.95,
+    "category": "Nachrichten"
+  },
+  "deutsche-welle": {
+    "url": "https://rss.dw.com/rdf/rss-de-all",
+    "weight": 0.9,
+    "category": "Nachrichten"
+  },
+  "handelsblatt": {
+    "url": "https://feeds.cms.handelsblatt.com/schlagzeilen",
+    "weight": 0.9,
+    "category": "Wirtschaft"
+  },
+  "netzpolitik": {
+    "url": "https://netzpolitik.org/feed/",
+    "weight": 0.75,
+    "category": "Politik"
+  },
+  "espn-nfl": {
+    "url": "https://www.espn.com/espn/rss/nfl/news",
+    "weight": 0.65,
+    "category": "NFL Fantasy",
+    "filter": {
+      "keywords": [
+        "fantasy",
+        "waiver",
+        "start/sit",
+        "injury",
+        "injuries",
+        "depth chart",
+        "sleeper",
+        "breakout",
+        "trade",
+        "suspension"
+      ],
+      "maxItems": 5
+    }
+  }
+}

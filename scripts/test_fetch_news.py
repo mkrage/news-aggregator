@@ -11,6 +11,7 @@ import tempfile
 import unittest
 from contextlib import redirect_stdout
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from unittest import mock
 
 import requests
@@ -641,6 +642,219 @@ class TestDropStaleAiSummary(unittest.TestCase):
         self.assertFalse(fn.drop_stale_ai_summary(self.path, None, self.now))
 
 
+class TestLoadFeeds(unittest.TestCase):
+    """Die Quellenliste ist eine Datei – Pfad und Prüfung müssen sitzen."""
+
+    VALID = {"url": "https://example.com/feed", "weight": 0.5, "category": "Nachrichten"}
+
+    def _write(self, content):
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        path = Path(tmp.name) / "sources.json"
+        with open(path, "w", encoding="utf-8") as f:
+            if isinstance(content, str):
+                f.write(content)
+            else:
+                json.dump(content, f)
+        return path
+
+    def _entry(self, **changes):
+        entry = dict(self.VALID)
+        entry.update(changes)
+        return {"beispiel": entry}
+
+    def test_standardpfad_haengt_am_skript_nicht_am_cwd(self):
+        self.assertEqual(fn.SOURCES_PATH, fn.REPO_ROOT / "config" / "sources.json")
+        self.assertTrue(fn.SOURCES_PATH.is_file())
+
+    def test_laedt_aus_fremdem_arbeitsverzeichnis(self):
+        # Der Import darf nicht davon abhängen, von wo aus gestartet wurde.
+        with tempfile.TemporaryDirectory() as elsewhere:
+            cwd = os.getcwd()
+            os.chdir(elsewhere)
+            try:
+                self.assertEqual(fn.load_feeds(), fn.FEEDS)
+            finally:
+                os.chdir(cwd)
+
+    def test_datei_und_modulzustand_stimmen_ueberein(self):
+        with open(fn.SOURCES_PATH, encoding="utf-8") as f:
+            raw = json.load(f)
+        self.assertEqual(set(raw), set(fn.FEEDS))
+        for name, entry in raw.items():
+            with self.subTest(source=name):
+                self.assertEqual(fn.FEEDS[name]["url"], entry["url"])
+                self.assertEqual(fn.FEEDS[name]["weight"], float(entry["weight"]))
+                self.assertEqual(fn.FEEDS[name]["category"], entry["category"])
+
+    def test_gewichte_kommen_als_float_an(self):
+        feeds = fn.load_feeds(self._write(self._entry(weight=1)))
+        self.assertIsInstance(feeds["beispiel"]["weight"], float)
+        self.assertEqual(feeds["beispiel"]["weight"], 1.0)
+
+    def test_gueltige_datei_wird_unveraendert_uebernommen(self):
+        self.assertEqual(
+            fn.load_feeds(self._write(self._entry())),
+            {"beispiel": dict(self.VALID)},
+        )
+
+    def test_fehlende_datei_scheitert_verstaendlich(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            missing = Path(tmp) / "gibtsnicht.json"
+            with self.assertRaises(ValueError) as caught:
+                fn.load_feeds(missing)
+        self.assertIn("nicht lesbar", str(caught.exception))
+
+    def test_kaputtes_json_scheitert_verstaendlich(self):
+        with self.assertRaises(ValueError) as caught:
+            fn.load_feeds(self._write("{kein json"))
+        self.assertIn("kein gültiges JSON", str(caught.exception))
+
+    def test_wurzel_muss_ein_objekt_sein(self):
+        # Rohes JSON, weil sich ein nackter String sonst nicht schreiben lässt.
+        for content in ("[]", '["tagesschau"]', '"Text"', "5", "null"):
+            with self.subTest(content=content):
+                with self.assertRaises(ValueError) as caught:
+                    fn.load_feeds(self._write(content))
+                self.assertIn("JSON-Objekt", str(caught.exception))
+
+    def test_leere_quellenliste_scheitert(self):
+        with self.assertRaises(ValueError) as caught:
+            fn.load_feeds(self._write({}))
+        self.assertIn("keine Quelle", str(caught.exception))
+
+    def test_leerer_name_scheitert(self):
+        for name in ("", "   "):
+            with self.subTest(name=name):
+                with self.assertRaises(ValueError) as caught:
+                    fn.load_feeds(self._write({name: dict(self.VALID)}))
+                self.assertIn("Quellenname", str(caught.exception))
+
+    def test_eintrag_muss_ein_objekt_sein(self):
+        for entry in ("https://example.com/feed", ["https://example.com/feed"], 1, None):
+            with self.subTest(entry=entry):
+                with self.assertRaises(ValueError) as caught:
+                    fn.load_feeds(self._write({"beispiel": entry}))
+                self.assertIn("JSON-Objekt", str(caught.exception))
+
+    def test_fehlendes_feld_scheitert(self):
+        for field in ("url", "weight", "category"):
+            with self.subTest(field=field):
+                entry = dict(self.VALID)
+                del entry[field]
+                with self.assertRaises(ValueError) as caught:
+                    fn.load_feeds(self._write({"beispiel": entry}))
+                self.assertIn("fehlende Felder", str(caught.exception))
+                self.assertIn(field, str(caught.exception))
+
+    def test_zusaetzliches_feld_scheitert(self):
+        # Ein Tippfehler im Schlüssel soll auffallen, nicht still durchgehen.
+        with self.assertRaises(ValueError) as caught:
+            fn.load_feeds(self._write(self._entry(weigth=0.5)))
+        self.assertIn("unbekannte Felder", str(caught.exception))
+        self.assertIn("weigth", str(caught.exception))
+
+    def test_url_muss_http_sein(self):
+        for url in ("javascript:alert(1)", "file:///etc/passwd", "/relativ", "", None, 5):
+            with self.subTest(url=url):
+                with self.assertRaises(ValueError) as caught:
+                    fn.load_feeds(self._write(self._entry(url=url)))
+                self.assertIn("http(s)-Adresse", str(caught.exception))
+
+    def test_weight_muss_eine_zahl_sein(self):
+        # True ist in Python eine 1 – als Gewicht ist es ein Tippfehler.
+        for weight in (True, False, "0.9", None, [0.9]):
+            with self.subTest(weight=weight):
+                with self.assertRaises(ValueError) as caught:
+                    fn.load_feeds(self._write(self._entry(weight=weight)))
+                self.assertIn("muss eine Zahl sein", str(caught.exception))
+
+    def test_weight_muss_im_bereich_liegen(self):
+        for weight in (-0.1, 1.5, 100):
+            with self.subTest(weight=weight):
+                with self.assertRaises(ValueError) as caught:
+                    fn.load_feeds(self._write(self._entry(weight=weight)))
+                self.assertIn("zwischen 0 und 1", str(caught.exception))
+
+    def test_category_muss_text_sein(self):
+        for category in ("", "   ", None, 5, ["Politik"]):
+            with self.subTest(category=category):
+                with self.assertRaises(ValueError) as caught:
+                    fn.load_feeds(self._write(self._entry(category=category)))
+                self.assertIn("category", str(caught.exception))
+
+    def test_filter_ist_optional(self):
+        # Quellen ohne Filter behalten exakt ihre drei Felder.
+        feeds = fn.load_feeds(self._write(self._entry()))
+        self.assertNotIn("filter", feeds["beispiel"])
+
+    def test_filter_wird_uebernommen_und_normalisiert(self):
+        feeds = fn.load_feeds(self._write(self._entry(
+            filter={"keywords": ["  Fantasy ", "Start/Sit"], "maxItems": 5}
+        )))
+        self.assertEqual(
+            feeds["beispiel"]["filter"],
+            {"keywords": ["fantasy", "start/sit"], "maxItems": 5},
+        )
+
+    def test_filter_mit_nur_einem_feld_ist_gueltig(self):
+        for raw, expected in (
+            ({"keywords": ["fantasy"]}, {"keywords": ["fantasy"]}),
+            ({"maxItems": 3}, {"maxItems": 3}),
+        ):
+            with self.subTest(filter=raw):
+                feeds = fn.load_feeds(self._write(self._entry(filter=raw)))
+                self.assertEqual(feeds["beispiel"]["filter"], expected)
+
+    def test_leerer_filter_scheitert(self):
+        with self.assertRaises(ValueError) as caught:
+            fn.load_feeds(self._write(self._entry(filter={})))
+        self.assertIn("mindestens eines der Felder", str(caught.exception))
+
+    def test_filter_muss_ein_objekt_sein(self):
+        for raw in ("fantasy", ["fantasy"], 5, None):
+            with self.subTest(filter=raw):
+                with self.assertRaises(ValueError) as caught:
+                    fn.load_feeds(self._write(self._entry(filter=raw)))
+                self.assertIn("filter muss ein JSON-Objekt sein", str(caught.exception))
+
+    def test_zusaetzliches_filterfeld_scheitert(self):
+        # Ein Tippfehler im Filter soll auffallen, nicht still durchgehen.
+        with self.assertRaises(ValueError) as caught:
+            fn.load_feeds(self._write(self._entry(filter={"maxitems": 5})))
+        self.assertIn("unbekannte filter-Felder", str(caught.exception))
+        self.assertIn("maxitems", str(caught.exception))
+
+    def test_keywords_muessen_eine_nicht_leere_liste_sein(self):
+        for keywords in ([], "fantasy", {"a": 1}, None, 5):
+            with self.subTest(keywords=keywords):
+                with self.assertRaises(ValueError) as caught:
+                    fn.load_feeds(self._write(self._entry(filter={"keywords": keywords})))
+                self.assertIn("nicht leere Liste", str(caught.exception))
+
+    def test_keywords_duerfen_nur_texte_enthalten(self):
+        for keywords in (["fantasy", ""], ["fantasy", "   "], ["fantasy", 5], [None]):
+            with self.subTest(keywords=keywords):
+                with self.assertRaises(ValueError) as caught:
+                    fn.load_feeds(self._write(self._entry(filter={"keywords": keywords})))
+                self.assertIn("nicht leere Texte", str(caught.exception))
+
+    def test_maxitems_muss_eine_ganze_zahl_sein(self):
+        # True ist in Python eine 1 – als Obergrenze ist es ein Tippfehler.
+        for max_items in (True, False, 2.5, "5", None, [5]):
+            with self.subTest(maxItems=max_items):
+                with self.assertRaises(ValueError) as caught:
+                    fn.load_feeds(self._write(self._entry(filter={"maxItems": max_items})))
+                self.assertIn("ganze Zahl", str(caught.exception))
+
+    def test_maxitems_muss_positiv_sein(self):
+        for max_items in (0, -1):
+            with self.subTest(maxItems=max_items):
+                with self.assertRaises(ValueError) as caught:
+                    fn.load_feeds(self._write(self._entry(filter={"maxItems": max_items})))
+                self.assertIn("mindestens 1", str(caught.exception))
+
+
 class TestFeedConfig(unittest.TestCase):
     """Die Quellenliste selbst: ein Tippfehler hier kostet einen ganzen Feed."""
 
@@ -650,17 +864,22 @@ class TestFeedConfig(unittest.TestCase):
         "golem": "https://rss.golem.de/rss.php?feed=RSS2.0",
         "spiegel": "https://www.spiegel.de/schlagzeilen/index.rss",
         "deutschlandfunk": "https://www.deutschlandfunk.de/nachrichten-100.rss",
+        "deutsche-welle": "https://rss.dw.com/rdf/rss-de-all",
         "handelsblatt": "https://feeds.cms.handelsblatt.com/schlagzeilen",
         "netzpolitik": "https://netzpolitik.org/feed/",
+        "espn-nfl": "https://www.espn.com/espn/rss/nfl/news",
     }
 
     def test_quellen_und_urls_stimmen(self):
         self.assertEqual({name: cfg["url"] for name, cfg in fn.FEEDS.items()}, self.EXPECTED_URLS)
+        self.assertEqual(len(fn.FEEDS), 9)
 
     def test_jede_quelle_ist_vollstaendig(self):
+        erlaubt = fn.FEED_FIELDS | fn.FEED_OPTIONAL_FIELDS
         for name, config in fn.FEEDS.items():
             with self.subTest(source=name):
-                self.assertEqual(set(config), {"url", "weight", "category"})
+                self.assertTrue(fn.FEED_FIELDS <= set(config))
+                self.assertTrue(set(config) <= erlaubt)
                 self.assertTrue(fn.is_http_url(config["url"]))
                 self.assertIsInstance(config["weight"], float)
                 self.assertTrue(0 < config["weight"] <= 1.0)
@@ -668,16 +887,32 @@ class TestFeedConfig(unittest.TestCase):
 
     def test_rangfolge_der_gewichte(self):
         # Breite Nachrichtenquellen vor Fachredaktionen vor Spezialressort.
-        order = ["tagesschau", "deutschlandfunk", "spiegel", "handelsblatt", "heise",
-                 "golem", "netzpolitik"]
+        order = ["tagesschau", "deutschlandfunk", "spiegel", "deutsche-welle", "handelsblatt",
+                 "heise", "golem", "netzpolitik", "espn-nfl"]
         weights = [fn.FEEDS[name]["weight"] for name in order]
         self.assertEqual(weights, sorted(weights, reverse=True))
         self.assertEqual(max(weights), fn.FEEDS["tagesschau"]["weight"])
+        self.assertEqual(min(weights), fn.FEEDS["espn-nfl"]["weight"])
+
+    def test_nur_espn_ist_gefiltert(self):
+        # Alle anderen Quellen sollen sich verhalten wie vor dem Filter.
+        gefiltert = {name for name, cfg in fn.FEEDS.items() if "filter" in cfg}
+        self.assertEqual(gefiltert, {"espn-nfl"})
+
+    def test_espn_filtert_auf_fantasy_relevantes(self):
+        # Ohne diese Schlagwörter kämen Spielberichte und Wettinhalte durch und
+        # würden die allgemeinen Nachrichten verdrängen.
+        config = fn.FEEDS["espn-nfl"]["filter"]
+        self.assertEqual(config["maxItems"], 5)
+        for keyword in ("fantasy", "waiver", "start/sit", "injury", "injuries",
+                        "depth chart", "sleeper", "breakout", "trade", "suspension"):
+            with self.subTest(keyword=keyword):
+                self.assertIn(keyword, config["keywords"])
 
     def test_defaultkategorien_sind_bekannt(self):
         # Die Default-Kategorie greift, wenn kein Schlagwort passt – sie muss
         # zum Filter im Frontend passen und darf kein Einzelfall sein.
-        erlaubt = set(fn.CATEGORY_KEYWORDS) | {"Nachrichten", "Allgemein"}
+        erlaubt = set(fn.CATEGORY_KEYWORDS) | {"Nachrichten", "Allgemein", "NFL Fantasy"}
         for name, config in fn.FEEDS.items():
             with self.subTest(source=name):
                 self.assertIn(config["category"], erlaubt)
@@ -751,6 +986,110 @@ class TestFetchFeed(unittest.TestCase):
     def test_unlesbarer_feed_ergibt_leere_liste(self):
         fn.download_feed = lambda name, url: b"kein xml"
         self.assertEqual(fn.fetch_feed("test", {"url": "x", "weight": 1.0}), [])
+
+
+class TestFetchFeedFilter(unittest.TestCase):
+    """Der quellenbezogene Filter – ohne Netzwerk, gegen einen festen Feed.
+
+    Der Feed bildet nach, was ESPN liefert: ein paar fantasy-relevante Artikel
+    zwischen Spielberichten und Wettvorschauen.
+    """
+
+    ITEMS = [
+        ("Waiver wire targets for Week 6", "Pickups to consider."),
+        ("Chiefs beat Raiders 24-10", "Nuechterner Spielbericht ohne Bezug."),
+        ("Roster notes from Sunday", "The starter suffered a knee injury late."),
+        ("Best bets and odds for Sunday", "Our betting preview."),
+        ("Fantasy sleeper picks", "Deep league options."),
+        ("Depth chart shuffle in Denver", "New order behind center."),
+        ("Blockbuster trade sends receiver east", "Deadline move."),
+        ("Start/Sit calls for Week 6", "Tough lineup decisions."),
+        ("Suspension lifted for lineman", "Back on the field."),
+    ]
+
+    KEYWORDS = ["fantasy", "waiver", "start/sit", "injury", "injuries",
+                "depth chart", "sleeper", "breakout", "trade", "suspension"]
+
+    # Alles, was mindestens ein Schlagwort in Titel oder Beschreibung trägt.
+    PASSING = [
+        "Waiver wire targets for Week 6",
+        "Roster notes from Sunday",
+        "Fantasy sleeper picks",
+        "Depth chart shuffle in Denver",
+        "Blockbuster trade sends receiver east",
+        "Start/Sit calls for Week 6",
+        "Suspension lifted for lineman",
+    ]
+
+    BLOCKED = ["Chiefs beat Raiders 24-10", "Best bets and odds for Sunday"]
+
+    def setUp(self):
+        recent = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S %z")
+        items = "".join(
+            f"<item><title>{title}</title>"
+            f"<link>https://example.com/{index}</link>"
+            f"<description>{description}</description>"
+            f"<pubDate>{recent}</pubDate></item>"
+            for index, (title, description) in enumerate(self.ITEMS)
+        )
+        raw = (
+            '<?xml version="1.0" encoding="UTF-8"?>'
+            f'<rss version="2.0"><channel>{items}</channel></rss>'
+        ).encode("utf-8")
+        self._original = fn.download_feed
+        fn.download_feed = lambda name, url: raw
+
+    def tearDown(self):
+        fn.download_feed = self._original
+
+    def _titles(self, **filter_fields):
+        config = {"url": "x", "weight": 0.65, "category": "NFL Fantasy"}
+        if filter_fields:
+            config["filter"] = filter_fields
+        return [article["title"] for article in fn.fetch_feed("espn-nfl", config)]
+
+    def test_ohne_filter_bleibt_alles_wie_bisher(self):
+        self.assertEqual(self._titles(), [title for title, _ in self.ITEMS])
+
+    def test_passende_artikel_kommen_durch(self):
+        self.assertEqual(self._titles(keywords=self.KEYWORDS), self.PASSING)
+
+    def test_unpassende_artikel_bleiben_draussen(self):
+        titles = self._titles(keywords=self.KEYWORDS)
+        for title in self.BLOCKED:
+            with self.subTest(title=title):
+                self.assertNotIn(title, titles)
+
+    def test_schlagwort_wird_auch_in_der_beschreibung_gefunden(self):
+        # "injury" steht nur im Beschreibungstext, nicht im Titel.
+        self.assertEqual(self._titles(keywords=["injury"]), ["Roster notes from Sunday"])
+
+    def test_schreibweise_ist_egal(self):
+        # "Start/Sit" steht so im Titel, das Schlagwort kommt klein aus dem
+        # Loader – gefunden wird es trotzdem.
+        self.assertEqual(self._titles(keywords=["start/sit"]), ["Start/Sit calls for Week 6"])
+
+    def test_grenze_greift_nach_dem_filtern(self):
+        # Erst filtern, dann deckeln: die fünf ersten passenden in Feed-Reihenfolge.
+        self.assertEqual(
+            self._titles(keywords=self.KEYWORDS, maxItems=5),
+            self.PASSING[:5],
+        )
+
+    def test_grenze_wirkt_auch_ohne_schlagwoerter(self):
+        self.assertEqual(self._titles(maxItems=2), [title for title, _ in self.ITEMS[:2]])
+
+    def test_ausgabefelder_bleiben_unveraendert(self):
+        config = {
+            "url": "x", "weight": 0.65, "category": "NFL Fantasy",
+            "filter": {"keywords": self.KEYWORDS, "maxItems": 5},
+        }
+        article = fn.fetch_feed("espn-nfl", config)[0]
+        self.assertEqual(
+            set(article),
+            {"id", "source", "sourceWeight", "title", "link", "summary", "image",
+             "published", "category"},
+        )
 
 
 class FakeResponse:

@@ -15,50 +15,153 @@ import time
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from urllib.parse import urlparse
 
 import feedparser
 import requests
 from dateutil import parser as date_parser
 
-# Konfiguration
-FEEDS = {
-    "tagesschau": {
-        "url": "https://www.tagesschau.de/xml/rss2/",
-        "weight": 1.0,
-        "category": "Nachrichten",
-    },
-    "heise": {
-        "url": "https://www.heise.de/rss/heise-top-atom.xml",
-        "weight": 0.9,
-        "category": "Technologie",
-    },
-    "golem": {
-        "url": "https://rss.golem.de/rss.php?feed=RSS2.0",
-        "weight": 0.85,
-        "category": "Technologie",
-    },
-    "spiegel": {
-        "url": "https://www.spiegel.de/schlagzeilen/index.rss",
-        "weight": 0.95,
-        "category": "Nachrichten",
-    },
-    "deutschlandfunk": {
-        "url": "https://www.deutschlandfunk.de/nachrichten-100.rss",
-        "weight": 0.95,
-        "category": "Nachrichten",
-    },
-    "handelsblatt": {
-        "url": "https://feeds.cms.handelsblatt.com/schlagzeilen",
-        "weight": 0.9,
-        "category": "Wirtschaft",
-    },
-    "netzpolitik": {
-        "url": "https://netzpolitik.org/feed/",
-        "weight": 0.75,
-        "category": "Politik",
-    },
-}
+
+def is_http_url(url):
+    """Prüft, ob eine URL per HTTP(S) abrufbar ist."""
+    if not url:
+        return False
+    try:
+        return urlparse(url).scheme in ("http", "https")
+    except ValueError:
+        return False
+
+
+# Quellenliste: redaktionelle Daten, kein Code. Der Pfad hängt am Ort dieser
+# Datei, nicht am Arbeitsverzeichnis – sonst fände ein Lauf aus einem anderen
+# Ordner (oder ein Test) die Konfiguration nicht.
+REPO_ROOT = Path(__file__).resolve().parent.parent
+SOURCES_PATH = REPO_ROOT / "config" / "sources.json"
+
+# Genau diese drei Felder sind Pflicht; dazu darf höchstens `filter` kommen. Was
+# sonst im Eintrag steht, ist ein Tippfehler und soll auffallen, statt still als
+# Vorgabe durchzugehen.
+FEED_FIELDS = frozenset({"url", "weight", "category"})
+FEED_OPTIONAL_FIELDS = frozenset({"filter"})
+
+# Der Filter engt eine Quelle ein, die mehr liefert, als hier gebraucht wird:
+# `keywords` behält nur Artikel zum gewünschten Thema, `maxItems` deckelt die
+# Menge pro Lauf. Beide Felder sind für sich sinnvoll, deshalb ist jedes einzeln
+# erlaubt – ein leerer Filter dagegen nicht: er sagt nichts und meint vermutlich
+# etwas anderes.
+FILTER_FIELDS = frozenset({"keywords", "maxItems"})
+
+
+def validate_filter(name, raw):
+    """Prüft den optionalen Filter einer Quelle und gibt ihn normalisiert zurück."""
+    if not isinstance(raw, dict):
+        raise ValueError(f"Quelle '{name}': filter muss ein JSON-Objekt sein")
+
+    fields = set(raw)
+    unknown = fields - FILTER_FIELDS
+    if unknown:
+        raise ValueError(f"Quelle '{name}': unbekannte filter-Felder {sorted(unknown)}")
+    if not fields:
+        raise ValueError(
+            f"Quelle '{name}': filter braucht mindestens eines der Felder {sorted(FILTER_FIELDS)}"
+        )
+
+    normalized = {}
+
+    if "keywords" in raw:
+        keywords = raw["keywords"]
+        if not isinstance(keywords, list) or not keywords:
+            raise ValueError(
+                f"Quelle '{name}': filter.keywords muss eine nicht leere Liste sein"
+            )
+        cleaned = []
+        for keyword in keywords:
+            if not isinstance(keyword, str) or not keyword.strip():
+                raise ValueError(
+                    f"Quelle '{name}': filter.keywords darf nur nicht leere Texte enthalten"
+                )
+            # Kleinschreibung einmal hier, nicht bei jedem Artikel erneut.
+            cleaned.append(keyword.strip().lower())
+        normalized["keywords"] = cleaned
+
+    if "maxItems" in raw:
+        max_items = raw["maxItems"]
+        # bool ist in Python eine Zahl – True als Obergrenze ist ein Tippfehler.
+        if isinstance(max_items, bool) or not isinstance(max_items, int):
+            raise ValueError(f"Quelle '{name}': filter.maxItems muss eine ganze Zahl sein")
+        if max_items < 1:
+            raise ValueError(
+                f"Quelle '{name}': filter.maxItems muss mindestens 1 sein, nicht {max_items}"
+            )
+        normalized["maxItems"] = max_items
+
+    return normalized
+
+
+def validate_feed(name, entry):
+    """Prüft einen einzelnen Quelleneintrag und gibt ihn normalisiert zurück."""
+    if not isinstance(name, str) or not name.strip():
+        raise ValueError("Quellenname muss ein nicht leerer Text sein")
+    if not isinstance(entry, dict):
+        raise ValueError(f"Quelle '{name}': Eintrag muss ein JSON-Objekt sein")
+
+    fields = set(entry)
+    missing = FEED_FIELDS - fields
+    if missing:
+        raise ValueError(f"Quelle '{name}': fehlende Felder {sorted(missing)}")
+    unknown = fields - FEED_FIELDS - FEED_OPTIONAL_FIELDS
+    if unknown:
+        raise ValueError(f"Quelle '{name}': unbekannte Felder {sorted(unknown)}")
+
+    url = entry["url"]
+    if not isinstance(url, str) or not is_http_url(url):
+        raise ValueError(f"Quelle '{name}': url muss eine http(s)-Adresse sein")
+
+    weight = entry["weight"]
+    # bool ist in Python eine Zahl – hier wäre True als 1.0 aber ein Tippfehler.
+    if isinstance(weight, bool) or not isinstance(weight, (int, float)):
+        raise ValueError(f"Quelle '{name}': weight muss eine Zahl sein")
+    weight = float(weight)
+    if not 0 <= weight <= 1:
+        raise ValueError(f"Quelle '{name}': weight muss zwischen 0 und 1 liegen, nicht {weight}")
+
+    category = entry["category"]
+    if not isinstance(category, str) or not category.strip():
+        raise ValueError(f"Quelle '{name}': category muss ein nicht leerer Text sein")
+
+    feed = {"url": url, "weight": weight, "category": category}
+    # Nur eintragen, wenn die Quelle ihn wirklich mitbringt: Quellen ohne Filter
+    # sollen im Lauf nicht einmal anders aussehen als zuvor.
+    if "filter" in entry:
+        feed["filter"] = validate_filter(name, entry["filter"])
+    return feed
+
+
+def load_feeds(path=SOURCES_PATH):
+    """Liest die Quellenliste und prüft sie, bevor ein Lauf damit beginnt.
+
+    Lieber hier mit einer klaren Meldung abbrechen als später mit einem
+    KeyError mitten im Abruf: eine kaputte Quellenliste ist ein Konfigurations-
+    fehler, kein Laufzeitproblem.
+    """
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+    except OSError as error:
+        raise ValueError(f"Quellenliste {path} nicht lesbar: {error}") from error
+    except ValueError as error:
+        raise ValueError(f"Quellenliste {path} ist kein gültiges JSON: {error}") from error
+
+    if not isinstance(data, dict):
+        raise ValueError(f"Quellenliste {path}: oberste Ebene muss ein JSON-Objekt sein")
+    if not data:
+        raise ValueError(f"Quellenliste {path}: keine Quelle eingetragen")
+
+    return {name: validate_feed(name, entry) for name, entry in data.items()}
+
+
+FEEDS = load_feeds()
 
 HIGHLIGHT_KEYWORDS = [
     "krieg", "ukraine", "gaza", "israel", "wahl", "bundestag", "trump",
@@ -238,16 +341,6 @@ session = requests.Session()
 session.headers.update({"User-Agent": USER_AGENT})
 
 
-def is_http_url(url):
-    """Prüft, ob eine URL per HTTP(S) abrufbar ist."""
-    if not url:
-        return False
-    try:
-        return urlparse(url).scheme in ("http", "https")
-    except ValueError:
-        return False
-
-
 def parse_date(entry):
     """Extrahiert das Veröffentlichungsdatum – immer zeitzonenbewusst."""
     for field in ("published", "updated", "created"):
@@ -402,8 +495,26 @@ def download_feed(source_name, url):
         return None
 
 
+def matches_keywords(keywords, title, summary):
+    """Prüft, ob Titel oder Beschreibung eines der Schlagwörter enthalten.
+
+    Gesucht wird als Teilzeichenkette und ohne Rücksicht auf Groß- und
+    Kleinschreibung: "Start/Sit" in einer Überschrift und "start/sit" im
+    Fließtext sind dasselbe Stichwort. Die Schlagwörter kommen bereits
+    kleingeschrieben aus `validate_filter()`.
+    """
+    haystack = f"{title} {summary}".lower()
+    return any(keyword in haystack for keyword in keywords)
+
+
 def fetch_feed(source_name, config):
-    """Holt und parst einen einzelnen Feed."""
+    """Holt und parst einen einzelnen Feed.
+
+    Quellen mit `filter` liefern mehr, als hier gebraucht wird: dort fallen
+    zuerst alle Artikel ohne passendes Schlagwort weg, und erst von den übrigen
+    werden höchstens `maxItems` in Feed-Reihenfolge übernommen. Quellen ohne
+    Filter laufen unverändert durch.
+    """
     print(f"Fetching {source_name}...")
     raw = download_feed(source_name, config["url"])
     if raw is None:
@@ -413,6 +524,10 @@ def fetch_feed(source_name, config):
     if parsed.bozo and not parsed.entries:
         print(f"  ! {source_name}: Feed nicht lesbar: {parsed.get('bozo_exception')}")
         return []
+
+    source_filter = config.get("filter") or {}
+    keywords = source_filter.get("keywords")
+    max_items = source_filter.get("maxItems")
 
     articles = []
     cutoff = datetime.now(timezone.utc) - timedelta(hours=MAX_AGE_HOURS)
@@ -429,7 +544,12 @@ def fetch_feed(source_name, config):
             if not title or not is_http_url(link):
                 continue
 
+            # Derselbe Text, den der Artikel später als summary trägt – der
+            # Filter sucht in dem, was die Seite auch anzeigt.
             summary = extract_best_text(entry)
+            if keywords and not matches_keywords(keywords, title, summary):
+                continue
+
             articles.append({
                 "id": article_id(source_name, link, title),
                 "source": source_name,
@@ -441,6 +561,8 @@ def fetch_feed(source_name, config):
                 "published": pub_date.isoformat(),
                 "category": detect_category(title, summary, config.get("category", "Allgemein")),
             })
+            if max_items is not None and len(articles) >= max_items:
+                break
         except Exception as error:  # noqa: BLE001 - ein Eintrag ist nie kritisch
             print(f"  ! {source_name}: Eintrag übersprungen: {error}")
 

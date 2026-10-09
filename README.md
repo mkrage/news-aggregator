@@ -4,8 +4,8 @@ Ein statischer News-Aggregator, der auf GitHub Pages läuft und über GitHub Act
 
 ## Features
 
-- RSS-Feeds von tagesschau, deutschlandfunk, spiegel, handelsblatt, heise, golem
-  und netzpolitik
+- RSS-Feeds von tagesschau, deutschlandfunk, spiegel, Deutsche Welle,
+  handelsblatt, heise, golem, netzpolitik und ESPN NFL
 - Gewichtete Top-News (nicht nur nach Aktualität)
 - Eine Nachricht, ein Eintrag: mehrfach gemeldete Themen werden zusammengefasst
 - Lokaler Lesestatus im Browser
@@ -17,10 +17,70 @@ Ein statischer News-Aggregator, der auf GitHub Pages läuft und über GitHub Act
 
 - **Frontend**: Statische HTML/CSS/JS-Seite auf GitHub Pages
 - **Daten**: `data/news.json`, `data/top-news.json` und `data/ai-summary.json`
+- **Quellen**: `config/sources.json` – die Feed-Liste, getrennt vom Code
 - **Updater**: GitHub Actions Workflow `.github/workflows/update-news.yml`
 - **Parser**: Python-Script `scripts/fetch_news.py`
 - **Tests**: `scripts/test_fetch_news.py` und `tests/frontend.test.mjs`, CI in `.github/workflows/tests.yml`
 - **Icons**: `scripts/make_icons.py` erzeugt `favicon.svg` und die PNG-Fallbacks
+
+## Quellen
+
+Die Feed-Liste steht in `config/sources.json` und wird dort gepflegt – nicht im
+Python-Code. Jeder Schlüssel ist der Quellenname, wie er im Frontend und in den
+Artikel-IDs erscheint:
+
+```json
+{
+  "tagesschau": {
+    "url": "https://www.tagesschau.de/xml/rss2/",
+    "weight": 1.0,
+    "category": "Nachrichten"
+  }
+}
+```
+
+| Feld | Bedeutung |
+| --- | --- |
+| `url` | Adresse des RSS- oder Atom-Feeds, `http` oder `https` |
+| `weight` | Quellengewicht von 0 bis 1 – steuert Score und wer ein Thema vertritt |
+| `category` | Vorgabekategorie, wenn kein Schlagwort greift (siehe `CATEGORY_KEYWORDS`) |
+| `filter` | optional: engt eine Quelle ein, siehe unten |
+
+Die ersten drei Felder sind Pflicht, `filter` ist das einzige zusätzlich
+erlaubte: `fetch_news.py` lädt die Datei beim Start über `load_feeds()` und
+bricht bei einem Tippfehler mit einer klaren Meldung ab, statt stillschweigend
+eine Quelle auszulassen. Der Pfad hängt am Ort des Scripts, nicht am
+Arbeitsverzeichnis – der Lauf findet die Konfiguration also aus jedem Ordner.
+
+### Eine Quelle einengen: `filter`
+
+Manche Feeds liefern mehr oder anderes, als hier gebraucht wird. Für sie gibt es
+den optionalen Block `filter` mit zwei Feldern, die beide für sich sinnvoll sind
+und daher einzeln gesetzt werden dürfen – leer bleiben darf der Block nicht:
+
+| Feld | Bedeutung |
+| --- | --- |
+| `keywords` | nicht leere Liste nicht leerer Texte; ein Artikel bleibt nur, wenn mindestens einer davon in Titel oder Beschreibung vorkommt |
+| `maxItems` | positive ganze Zahl; so viele Artikel übernimmt der Lauf höchstens aus dieser Quelle |
+
+Gesucht wird als Teilzeichenkette und ohne Rücksicht auf Groß- und
+Kleinschreibung, also findet `start/sit` auch „Start/Sit". Durchsucht wird der
+Titel zusammen mit dem Beschreibungstext, den der Artikel später auch anzeigt.
+Erst wird gefiltert, dann greift `maxItems` auf das übrig Gebliebene – in
+Feed-Reihenfolge. Quellen ohne `filter` verhalten sich unverändert.
+
+Genutzt wird das von `espn-nfl`: Der Feed ist ein allgemeiner NFL-Ticker, in dem
+Spielberichte, Vorschauen und Wettinhalte den weitaus größten Teil ausmachen.
+Interessant sind hier aber nur die Artikel mit Bezug zum Fantasy Football, also
+die zu Waiver Wire, Start/Sit, Verletzungen, Depth Charts, Trades und Sperren.
+Die Schlagwortliste lässt genau diese durch, alles andere bleibt draußen. Dazu
+kommt `maxItems: 5`: Selbst an einem Spieltag mit vielen passenden Meldungen
+übernimmt ein Lauf höchstens fünf Einträge, damit ein Spezialressort die
+allgemeinen Nachrichten nicht verdrängt. Das niedrige Gewicht von 0.65 sorgt für
+denselben Effekt in der Bewertung.
+
+Wer Quellen ergänzt oder austauscht, prüft vorher die Nutzungsbedingungen des
+Anbieters, siehe [Hinweis zu Inhalten und Datenquellen](#hinweis-zu-inhalten-und-datenquellen).
 
 ## Sortierung der Top-News
 
@@ -48,13 +108,13 @@ nicht mehr – der Zuwachs läuft von selbst aus.
 
 ### Welcher Artikel ein Thema vertritt
 
-Das Quellen-Ranking ist das `weight` in `FEEDS`: tagesschau (1.0),
-deutschlandfunk und spiegel (0.95), handelsblatt und heise (0.9), golem (0.85),
-netzpolitik (0.75). Abgestuft wird danach, wie breit eine Quelle das
-Tagesgeschehen abdeckt: die allgemeinen Nachrichtenquellen oben, die
-Fachredaktionen darunter, das enge Spezialressort von netzpolitik zuletzt.
-Berichten mehrere über dasselbe, steht der Artikel der bestplatzierten Quelle in
-der Liste, die übrigen erscheinen als
+Das Quellen-Ranking ist das `weight` aus `config/sources.json`: tagesschau (1.0),
+deutschlandfunk und spiegel (0.95), Deutsche Welle, handelsblatt und heise (0.9),
+golem (0.85), netzpolitik (0.75), ESPN NFL (0.65). Abgestuft wird danach, wie
+breit eine Quelle das Tagesgeschehen abdeckt: die allgemeinen Nachrichtenquellen
+oben, die Fachredaktionen darunter, die engen Spezialressorts von netzpolitik und
+ESPN zuletzt. Berichten mehrere über dasselbe, steht der Artikel der
+bestplatzierten Quelle in der Liste, die übrigen erscheinen als
 „Auch bei" darunter – mit Link, damit die Auswahl nachvollziehbar bleibt. Bei
 gleichem Gewicht gewinnt der neuere Artikel.
 
@@ -344,8 +404,8 @@ die er anzeigt. Schlagzeilen, Vorspänne, Bilder, Logos und Markennamen gehören
 den jeweiligen Rechteinhabern. Deshalb verlinkt jeder Eintrag seine Quelle; der
 vollständige Artikel wird dort gelesen, nicht hier.
 
-Wer das Projekt betreibt, forkt oder die Feed-Liste ändert, ist selbst dafür
-verantwortlich, die Nutzungsbedingungen der jeweiligen Anbieter zu beachten –
-auch die zu Abruffrequenz, Bildnutzung und Weiterverbreitung.
+Wer das Projekt betreibt, forkt oder `config/sources.json` ändert, ist selbst
+dafür verantwortlich, die Nutzungsbedingungen der jeweiligen Anbieter zu beachten
+– auch die zu Abruffrequenz, Bildnutzung und Weiterverbreitung.
 
 Das ist eine praktische Einordnung, keine Rechtsberatung.
