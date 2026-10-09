@@ -54,9 +54,11 @@ const state = {
   top: [],
   aiSummary: null,
   tab: "top",
-  // Lesestatus-Filter des aktiven Artikel-Tabs. Springt beim Tabwechsel auf
-  // "all" zurück, damit er nicht unbemerkt weiterfiltert.
-  status: "all",
+  // Lesestatus-Filter des aktiven Artikel-Tabs. Voreinstellung ist
+  // "unread": der Normalfall ist das Weiterlesen, nicht das Wiederfinden.
+  // Springt beim Tabwechsel dorthin zurück, damit eine andere Wahl nicht
+  // unbemerkt weiterfiltert.
+  status: "unread",
   view: "grid",
   density: "cards",
   theme: "app",
@@ -883,14 +885,18 @@ function cacheDom() {
   dom.main = document.querySelector("main");
 }
 
-function setStatus(status) {
-  if (!STATUSES.includes(status) || status === state.status) return;
-  state.status = status;
+function syncStatusButtons() {
   document.querySelectorAll(".status-btn").forEach((btn) => {
-    const active = btn.dataset.status === status;
+    const active = btn.dataset.status === state.status;
     btn.classList.toggle("active", active);
     btn.setAttribute("aria-checked", String(active));
   });
+}
+
+function setStatus(status) {
+  if (!STATUSES.includes(status) || status === state.status) return;
+  state.status = status;
+  syncStatusButtons();
   render();
 }
 
@@ -946,8 +952,8 @@ function activateTab(name) {
 
   state.tab = name;
   // Der Statusfilter gehört zum jeweiligen Artikel-Tab und klebt nicht: ein
-  // Wechsel beginnt wieder mit der vollen Liste ("Alle").
-  setStatus("all");
+  // Wechsel beginnt wieder bei der Voreinstellung ("Ungelesen").
+  setStatus("unread");
 
   // Genau ein Panel ist sichtbar: Überblick oder Artikelliste samt
   // Steuerleiste. Beide Panels benennen ihren Tab über aria-labelledby.
@@ -1108,10 +1114,12 @@ function initFilters() {
   });
 
   // Lesestatus-Umschalter: kein Tabwechsel, sondern ein Filter auf der
-  // gerade sichtbaren Artikelliste.
+  // gerade sichtbaren Artikelliste. Der Startzustand steht im Markup noch
+  // auf "Alle" – hier wird er einmal an die Voreinstellung angeglichen.
   document.querySelectorAll(".status-btn").forEach((btn) => {
     btn.addEventListener("click", () => setStatus(btn.dataset.status));
   });
+  syncStatusButtons();
   updateFilterBadge();
 
   dom.filterToggle.addEventListener("click", () => {

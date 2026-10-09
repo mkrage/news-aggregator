@@ -349,8 +349,14 @@ section("Lesestatus-Umschalter");
       statusButtons.every((b) => b.getAttribute("role") === "radio")
   );
   check(
-    "Start ist Alle",
-    doc.querySelector('.status-btn[data-status="all"]').getAttribute("aria-checked") === "true"
+    "Start ist Ungelesen",
+    doc.querySelector('.status-btn[data-status="unread"]').getAttribute("aria-checked") === "true" &&
+      doc.querySelector('.status-btn[data-status="all"]').getAttribute("aria-checked") === "false"
+  );
+  check(
+    "Startzustand auch als aktive Markierung",
+    doc.querySelector(".status-btn.active")?.dataset.status === "unread" &&
+      doc.querySelectorAll(".status-btn.active").length === 1
   );
 
   clickTab(doc, "latest");
@@ -393,9 +399,11 @@ section("Lesestatus-Umschalter");
   check("Wieder nur Gelesene", items(doc).length === 2, `${items(doc).length}`);
   clickTab(doc, "top");
   check(
-    "Nach Tabwechsel wieder Alle",
-    doc.querySelector('.status-btn[data-status="all"]').getAttribute("aria-checked") === "true"
+    "Nach Tabwechsel wieder Ungelesen",
+    doc.querySelector('.status-btn[data-status="unread"]').getAttribute("aria-checked") === "true" &&
+      doc.querySelector('.status-btn[data-status="all"]').getAttribute("aria-checked") === "false"
   );
+  setStatus("all");
   check("Volle Top-Liste", items(doc).length > 2, `${items(doc).length}`);
 
   // Leere Statusansichten bekommen eigene, ruhige Hinweise.
@@ -409,13 +417,13 @@ section("Lesestatus-Umschalter");
   );
 
   // Sind alle Artikel des Tabs beim Laden schon gelesen, bleibt "Ungelesen"
-  // leer – mit eigenem Hinweis statt der allgemeinen Leermeldung.
+  // leer – mit eigenem Hinweis statt der allgemeinen Leermeldung. Hier greift
+  // schon die Voreinstellung, ohne dass jemand den Umschalter anfasst.
   const allIds = Object.fromEntries(
     [...news.articles, hostile, hostileWithValidLink, longArticle, sparseArticle].map((a) => [a.id, Date.now()])
   );
   const allRead = await boot({ store: new Map([["news-aggregator-read", JSON.stringify(allIds)]]) });
   clickTab(allRead.doc, "latest");
-  fire(allRead.doc.querySelector('.status-btn[data-status="unread"]'), "click");
   check(
     "Ungelesen komplett leer: eigener Hinweis",
     allRead.doc.querySelector("#news-list .empty")?.textContent.includes("Alles gelesen"),
@@ -432,11 +440,15 @@ section("Ausblenden erst beim nächsten Laden");
   const { doc, window, observed } = await boot({ store, captureObservers: true });
   clickTab(doc, "latest");
 
+  // Voreinstellung ist "Ungelesen": was beim Laden schon gelesen war, steht
+  // gar nicht erst in der Liste.
+  check("Start blendet vorher Gelesenes aus", !doc.querySelector(`[data-id="${alreadyRead}"]`));
+
   // "Alle" filtert nichts: das vorher Gelesene steht markiert in der Liste.
+  fire(doc.querySelector('.status-btn[data-status="all"]'), "click");
   check("Alle zeigt auch Gelesenes", !!doc.querySelector(`[data-id="${alreadyRead}"]`));
 
-  // "Ungelesen" blendet es aus – die frühere Voreinstellung als eigener
-  // Zustand des Dreifach-Umschalters.
+  // Zurück auf "Ungelesen" – den Zustand, mit dem die Liste begonnen hat.
   fire(doc.querySelector('.status-btn[data-status="unread"]'), "click");
   check("Vorher Gelesenes ist ausgeblendet", !doc.querySelector(`[data-id="${alreadyRead}"]`));
 
@@ -475,10 +487,14 @@ section("Ausblenden erst beim nächsten Laden");
   check("Überscrollt: gespeichert", marks(store, "news-aggregator-scrolled")[scrolledId] > 0);
   check("Observer nach Treffer beendet", entry.observer.disconnected === true);
 
-  // Erst der nächste Ladevorgang blendet aus.
+  // Erst der nächste Ladevorgang blendet aus – und zwar ohne Zutun, weil
+  // "Ungelesen" die Voreinstellung ist.
   const reloaded = await boot({ store: new Map(store) });
   clickTab(reloaded.doc, "latest");
-  fire(reloaded.doc.querySelector('.status-btn[data-status="unread"]'), "click");
+  check(
+    "Nach Neuladen steht der Umschalter wieder auf Ungelesen",
+    reloaded.doc.querySelector('.status-btn[data-status="unread"]').getAttribute("aria-checked") === "true"
+  );
   check("Nach Neuladen ausgeblendet", !reloaded.doc.querySelector(`[data-id="${targetId}"]`));
   check("Auch das Überscrollte ist weg", !reloaded.doc.querySelector(`[data-id="${scrolledId}"]`));
   check("Insgesamt weniger Artikel", items(reloaded.doc).length < before);
@@ -701,7 +717,7 @@ section("Speicherformat: Migration und Verfall");
   const legacyStore = new Map([["news-aggregator-read", JSON.stringify([id])]]);
   const legacy = await boot({ store: legacyStore });
   clickTab(legacy.doc, "latest");
-  fire(legacy.doc.querySelector('.status-btn[data-status="unread"]'), "click");
+  // Die Voreinstellung "Ungelesen" blendet den gelesenen Artikel direkt aus.
   check("Altes Array-Format wird gelesen", !legacy.doc.querySelector(`[data-id="${id}"]`));
   const migrated = marks(legacyStore, "news-aggregator-read");
   check("Auf Objektformat umgeschrieben", !Array.isArray(migrated) && typeof migrated[id] === "number");
@@ -711,7 +727,6 @@ section("Speicherformat: Migration und Verfall");
   ]);
   const expired = await boot({ store: oldStore });
   clickTab(expired.doc, "latest");
-  fire(expired.doc.querySelector('.status-btn[data-status="unread"]'), "click");
   check("Eintrag älter als 30 Tage verfällt", Object.keys(marks(oldStore, "news-aggregator-read")).length === 0);
   check("Artikel wieder sichtbar", !!expired.doc.querySelector(`[data-id="${id}"]`));
 
