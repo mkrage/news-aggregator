@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T02:19:02.102605+00:00",
+  "generatedAt": "2026-10-09T08:05:00.858178+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,29 @@
       "image": "https://images.handelsblatt.com/Qs26Pps5Gnzc/cover/900/506/0/0/93/93/0.5/0.5/psychische-belastung-nimmt-in-deutschland-zu.jpg",
       "published": "2026-10-09T02:00:12+00:00",
       "category": "Wirtschaft",
-      "score": 92.74
+      "score": 87.93
+    },
+    {
+      "id": "tagesschau-b54cd85778efc177",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Verhandlungen in den USA während massiver Angriffe in der Ukraine",
+      "link": "https://www.tagesschau.de/ausland/europa/ukraine-trump-angriffe-100.html",
+      "summary": "Unterhändler aus der Ukraine und den USA treffen sich zu Gesprächen über den Krieg. Die vergangenen Tage in der Ukraine waren geprägt von massiven russischen Angriffen mit vielen Toten. Außenminister Wadephul verschärft seinen Ton gegenüber Putin.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/26d69c80-f0b6-4586-b3e1-5e77b7d86096/AAABoR9xg9U/AAABnSSvrFg/16x9-big/autowracks-ukraine-100.jpg?width=1920",
+      "published": "2026-10-09T09:57:06+02:00",
+      "category": "Politik",
+      "score": 86.89,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Russland - Ukraine: Außenminister Wadephul verschärft Tonlage gegenüber Putin",
+            "link": "https://www.handelsblatt.com/politik/international/russland-ukraine-aussenminister-wadephul-verschaerft-tonlage-gegenueber-putin/100260905.html"
+          }
+        ]
+      }
     },
     {
       "id": "deutschlandfunk-29b3c3d17ebe8c10",
@@ -22,9 +44,94 @@
       "link": "https://www.deutschlandfunk.de/ukraine-delegation-fuehrt-gespraeche-mit-trump-unterhaendlern-in-den-usa-100.html",
       "summary": "Eine Delegation aus der Ukraine führt in den USA neue Gespräche über ein mögliches Ende des russischen Angriffskriegs.",
       "image": "https://bilder.deutschlandfunk.de/ea/47/70/80/ea477080-675a-423f-9bc4-c4d7282e425c/623207074-100-1920x1920.jpg",
-      "published": "2026-10-09T03:54:13+02:00",
+      "published": "2026-10-09T09:17:27+02:00",
       "category": "Politik",
-      "score": 85.66
+      "score": 85.34
+    },
+    {
+      "id": "tagesschau-cf2b419354166103",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Protest und Andenken: Zehntausende in Spanien auf der Straße für Maricarmen",
+      "link": "https://www.tagesschau.de/ausland/europa/spanien-wohnungsnot-proteste-100.html",
+      "summary": "Der Tod einer 87-Jährigen nach der Zwangsräumung ihrer Wohnung befeuert in Spanien den Protest gegen die Wohnungsnot. Ein Streik und Neuwahlen sind schon angekündigt. Ein Ende des Unmuts ist aber nicht in Sicht.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/4b6f0f60-80b4-4693-9fcc-0a689fd20f63/AAABoR6fJp8/AAABnSSvrFg/16x9-big/spanien-maricarmen-proteste-100.jpg?width=1920",
+      "published": "2026-10-09T05:20:12+02:00",
+      "category": "Politik",
+      "score": 78.34,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Wohnungsnot in Spanien - Weitere Proteste nach Tod von Rentnerin Maricarmen",
+            "link": "https://www.deutschlandfunk.de/weitere-proteste-nach-tod-von-rentnerin-maricarmen-104.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-47fdff58b0478a35",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Spanien vor Neuwahlen: »Das wird eine Kampagne, die Spanien so noch nicht gesehen hat«",
+      "link": "https://www.spiegel.de/ausland/spanien-vor-neuwahlen-das-wird-eine-kampagne-die-spanien-so-noch-nicht-gesehen-hat-a-9bdccc7e-0a1c-4670-930c-50feee197797#ref=rss",
+      "summary": "Die Wut über die Wohnungskrise ist bei vielen Spaniern nach dem Tod der 87-jährigen Maricarmen noch gewachsen. SPIEGEL-Reporter Steffen Lüdke erwartet jetzt von der konservativen Opposition einen »bestialischen« Wahlkampf.",
+      "image": "https://cdn.prod.www.spiegel.de/images/0e265e1f-7d3c-4c31-9962-fec4a18488f6_w1200_r1.778_fpx45_fpy63.jpg",
+      "published": "2026-10-09T09:36:00+02:00",
+      "category": "Politik",
+      "score": 77.6
+    },
+    {
+      "id": "deutschlandfunk-56b23b602aab9dc1",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Kriegsgeschehen - Ukraine und Russland melden weiteren gegenseitigen Beschuss",
+      "link": "https://www.deutschlandfunk.de/ukraine-und-russland-melden-weiteren-gegenseitigen-beschuss-100.html",
+      "summary": "Bei gegenseitigen Angriffen hat es in Russland und der Ukraine wieder Tote und Verletzte gegeben.",
+      "image": "https://bilder.deutschlandfunk.de/67/68/86/96/67688696-1431-450f-81ac-f0d93cf00d62/saporischschja-ukraine-russischer-angriff-100-1920x1920.jpg",
+      "published": "2026-10-09T09:17:27+02:00",
+      "category": "Politik",
+      "score": 77.34
+    },
+    {
+      "id": "handelsblatt-20b0fbf614055779",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Gastkommentar: Trump ignoriert die größte Gefahr für Amerikas Wirtschaft",
+      "link": "https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-trump-ignoriert-die-groesste-gefahr-fuer-amerikas-wirtschaft/100260376.html",
+      "summary": "Wie eine Staatsschuldenkrise beginnt, ist in der Regel recht leicht nachvollziehbar. Das Ende ist viel schwerer vorherzusagen, warnt Harvard-Ökonom Kenneth Rogoff.",
+      "image": "https://images.handelsblatt.com/cwqGXnf-fjlI/cover/900/506/0/0/0/0/0.5/0.5/195-gastkommentar-et-09.10.2026-kenneth-rogoff.jpg",
+      "published": "2026-10-09T06:40:06+00:00",
+      "category": "Politik",
+      "score": 75.82
+    },
+    {
+      "id": "tagesschau-0387cfcc59f9b7e5",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "USA wollen Hinrichtung von Attentäter per Livestream übertragen",
+      "link": "https://www.tagesschau.de/ausland/amerika/pentagon-hinrichtung-livestream-100.html",
+      "summary": "Anfang Dezember wollen die USA erstmals seit mehr als 60 Jahren eine Militärhinrichtung durchführen. Sie soll öffentlich sein, sagt der US-Verteidigungsminister Hegseth - und per Livestream übertragen werden.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/deacc2ce-adcf-49ce-92d4-541bbb4d72f5/AAABoR8leGQ/AAABnSSvrFg/16x9-big/hegseth-182.jpg?width=1920",
+      "published": "2026-10-09T04:33:17+02:00",
+      "category": "Politik",
+      "score": 75.02,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Laut Pentagon - Hinrichtung von US-Amokläufer soll per Livestream übertragen werden",
+            "link": "https://www.deutschlandfunk.de/hinrichtung-von-us-amoklaeufer-soll-per-livestream-uebertragen-werden-102.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "USA: Pentagon plant Livestream der Hinrichtung von Nidal Hasas",
+            "link": "https://www.spiegel.de/ausland/fort-hood-pentagon-plant-livestream-der-hinrichtung-von-nidal-hasas-a-9a9f55b1-378a-40a2-a52b-9c24a6524ac5#ref=rss"
+          }
+        ]
+      }
     },
     {
       "id": "tagesschau-7e62e306de90e0df",
@@ -36,9 +143,9 @@
       "image": "https://images.tagesschau.de/image/3b316099-1898-4b35-984c-09f16db5f5b4/AAABoR0sZ0w/AAABnSSvrFg/16x9-big/frankreich-858.jpg?width=1920",
       "published": "2026-10-09T00:08:21+02:00",
       "category": "Politik",
-      "score": 78.66,
+      "score": 75.02,
       "coverage": {
-        "sourceCount": 4,
+        "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
@@ -49,208 +156,101 @@
             "source": "spiegel",
             "title": "Frankreich setzt kurzfristig 3000 Vertretungslehrer ein",
             "link": "https://www.spiegel.de/ausland/frankreich-setzt-kurzfristig-3000-vertretungslehrer-ein-a-6c20340e-5db1-4bf8-9eff-82e0719009bd#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Reaktion auf Proteste: Frankreich setzt kurzfristig 3.000 Vertretungslehrer ein",
-            "link": "https://www.handelsblatt.com/politik/international/reaktion-auf-proteste-frankreich-setzt-kurzfristig-3000-vertretungslehrer-ein/100260869.html"
           }
         ]
       }
     },
     {
-      "id": "tagesschau-88ad7945361d880f",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Geringe Chancen: Donald Trump will den Friedensnobelpreis",
-      "link": "https://www.tagesschau.de/ausland/trump-friedensnobelpreis-100.html",
-      "summary": "Wer unter den diesjährigen 287 Kandidaten für den Friedensnobelpreis ist, ist geheim. Doch ziemlich sicher auf der Liste stehen dürfte US-Präsident Trump - trotz Krieg gegen den Iran. Seine Chancen sind allerdings eher gering. Von J. Oppel . [ mehr ]",
-      "image": "https://images.tagesschau.de/image/7b4fb075-224f-4f70-a284-c90454f027db/AAABoQGi9MU/AAABnSSvrFg/16x9-big/trump-5308.jpg?width=1920",
-      "published": "2026-10-09T03:41:40+02:00",
+      "id": "handelsblatt-719fcf57cbac81e5",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Interview: Trumps EU-Botschafter: „Wirtschaftlich sehen wir einen deutlichen Niedergang in Europa“",
+      "link": "https://www.handelsblatt.com/politik/international/interview-wirtschaftlich-sehen-wir-einen-deutlichen-niedergang-in-europa/100260604.html",
+      "summary": "Der US-Botschafter in Brüssel, Andrew Puzder, sieht Europa vor der Wahl: China oder Amerika. Aus eigener Kraft könne der Kontinent den Rückstand, etwa bei KI nicht mehr aufholen.",
+      "image": "https://images.handelsblatt.com/Xkh8faSZ5VWq/cover/900/506/0/0/124/501/0.5/0.5/united-states-ambassador-to-the-european-union-andrew-puzder-gestures-as-he-speaks-during-an-intervi.jpg",
+      "published": "2026-10-09T05:25:26+00:00",
       "category": "Politik",
-      "score": 78.48
+      "score": 74.78
     },
     {
-      "id": "tagesschau-05d633208e068d7d",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Down-Syndrom: Bundestag will Anwendung von Pränataltests prüfen",
-      "link": "https://www.tagesschau.de/inland/bundestag-schwangerschaft-diagnostik-100.html",
-      "summary": "Bluttests können Schwangeren die Wahrscheinlichkeit eines Gen-Defekts beim ungeborenen Kind aufzeigen. Unter Bedingungen sind die Tests inzwischen Kassenleistung. Der Bundestag will zu der Praxis nun aber genauere Daten.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/ab68bf7d-be38-4341-92b6-13a217fc1a3f/AAABoRynLJM/AAABnSSvrFg/16x9-big/praenataltest-broschueren-100.jpg?width=1920",
-      "published": "2026-10-08T21:32:04+02:00",
-      "category": "Politik",
-      "score": 73.35,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Soziales: Bundestag will Monitoring von Bluttests bei Schwangeren",
-            "link": "https://www.handelsblatt.com/politik/deutschland/soziales-bundestag-will-monitoring-von-bluttests-bei-schwangeren/100260855.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-3229295d1711c636",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Regierungskrise: Wahl des AfD-Landtagspräsidenten und die Folgen für Kanzler und Union im Spitzengespräch",
-      "link": "https://www.spiegel.de/politik/deutschland/regierungskrise-wahl-des-afd-landtagspraesidenten-und-die-folgen-fuer-kanzler-und-union-im-spitzengespraech-a-e9c42786-1f6b-4a50-80ec-9565ddf9b298#ref=rss",
-      "summary": "Die Wahl des AfD-Langtagspräsidenten in Magdeburg stürzt Bundeskanzler Merz und die Regierung in eine tiefe Krise. Wie geht es weiter? Darüber diskutieren die Ex-Minister Karl Lauterbach, Peter Altmaier und die Ex-Grünenchefin Ricarda Lang.",
-      "image": "https://cdn.prod.www.spiegel.de/images/fe52dc99-bcdf-486e-93d5-c3a65654d990_w1200_r1.778_fpx49_fpy43.jpg",
-      "published": "2026-10-08T21:49:00+02:00",
-      "category": "Politik",
-      "score": 72.58
-    },
-    {
-      "id": "tagesschau-a7d4b322ac752886",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "USA klagen venezolanischen Ex-Präsidenten Maduro wegen Folter an",
-      "link": "https://www.tagesschau.de/ausland/amerika/maduro-wegen-folter-angeklagt-100.html",
-      "summary": "Im Juni kommenden Jahres soll der Prozess gegen Venezuelas ehemaligen Staatschef Maduro in den USA beginnen. Er und seine Frau müssen sich dabei neuen Vorwürfen stellen - neben \"Drogenterrorismus\" ist nun auch von Folter die Rede.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/3bd879b7-65f8-491f-87ff-15cf7e8392d3/AAABoRv95zY/AAABnSSvrFg/16x9-big/maduro-308.jpg?width=1920",
-      "published": "2026-10-09T00:00:28+02:00",
-      "category": "Panorama",
-      "score": 72.34,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Anklage in den USA - Venezolanisches Präsidentenpaar Maduro jetzt auch wegen Verschwörung zur Folter angeklagt",
-            "link": "https://www.deutschlandfunk.de/venezolanisches-praesidentenpaar-maduro-jetzt-auch-wegen-verschwoerung-zur-folter-angeklagt-104.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Nicolás Maduro: US-Justiz klagt Ex-Präsident und Ehefrau wegen Folter an",
-            "link": "https://www.spiegel.de/ausland/nicolas-maduro-us-justiz-klagt-ex-praesident-und-ehefrau-wegen-folter-an-a-cd75ea91-0054-4e00-b5e3-555f75732585#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-a367c0743f7b3c8e",
+      "id": "deutschlandfunk-d1efca0817c309f8",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Niedersachsen - Strafrechtliche Ermittlungen: Niedersachsens SPD-Fraktionschef Politze tritt zurück",
-      "link": "https://www.deutschlandfunk.de/strafrechtliche-ermittlungen-niedersachsens-spd-fraktionschef-politze-tritt-zurueck-106.html",
-      "summary": "Der Vorsitzende der SPD-Fraktion im niedersächsischen Landtag, Politze, hat seinen Rücktritt erklärt.",
-      "image": "https://bilder.deutschlandfunk.de/6d/0e/67/31/6d0e6731-2b8b-4890-bc8c-56b4dbb01dd3/hannover-politze-immunitaet-100-1920x1920.jpg",
-      "published": "2026-10-09T03:54:13+02:00",
+      "title": "Wirbelsturm - Evakuierungen in mehreren US-Bundesstaaten wegen Hurrikan \"Isaias\" angeordnet",
+      "link": "https://www.deutschlandfunk.de/evakuierungen-in-mehreren-us-bundesstaaten-wegen-hurrikan-isaias-angeordnet-100.html",
+      "summary": "Der tropische Wirbelsturm \"Isaias\" hat sich vor der US-Golfküste zu einem Hurrikan der Kategorie zwei verstärkt.",
+      "image": "https://bilder.deutschlandfunk.de/6f/21/09/83/6f210983-828c-4f30-8ba7-3d3c7de6fe7b/hurrikan-isaias-100-1920x1920.jpg",
+      "published": "2026-10-09T09:17:27+02:00",
       "category": "Nachrichten",
-      "score": 71.34,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Niedersachsen: SPD-Fraktionschef Stefan Politze tritt zurück - strafrechtliche Ermittlungen",
-            "link": "https://www.spiegel.de/politik/niedersachsen-spd-fraktionschef-stefan-politze-tritt-zurueck-strafrechtliche-ermittlungen-a-021d1d62-e3bf-499a-b577-16c0375d5878#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Staatsanwaltschaft ermittelt: Niedersächsischer SPD-Fraktionschef Politze tritt zurück",
-            "link": "https://www.handelsblatt.com/politik/deutschland/staatsanwaltschaft-ermittelt-niedersaechsischer-spd-fraktionschef-politze-tritt-zurueck/100260861.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-541fe449581748dd",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ukraine: Bischof verkauft Laien Klerikerpapiere gegen Kriegsdienst",
-      "link": "https://www.spiegel.de/ausland/ukraine-bischof-verkauft-laien-klerikerpapiere-gegen-kriegsdienst-a-4156df6c-ba48-4286-9ce8-457e7a75ce8e#ref=rss",
-      "summary": "Für 2000 Dollar bescheinigte er ukrainischen Männern, als Diakon tätig zu sein: Ein 62-jähriger Geistlicher ist zu drei Jahren Haft auf Bewährung verurteilt worden. Und im Ruhestand ist er jetzt auch schon.",
-      "image": "https://cdn.prod.www.spiegel.de/images/e3caed3c-f571-4fae-ab0a-de6a9c22a3e3_w1200_r1.778_fpx44_fpy42.jpg",
-      "published": "2026-10-08T19:23:00+02:00",
-      "category": "Politik",
-      "score": 70.56
-    },
-    {
-      "id": "handelsblatt-1e223a551dde272b",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Ukraine-Krieg: Selenskyj kritisiert fehlende US-Hilfe: „Das nennt man Unwillen!“",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-kritisiert-fehlende-us-hilfe-das-nennt-man-unwillen/100260853.html",
-      "summary": "Selenskyj wirft den USA vor, der Ukraine nicht ausreichend helfen zu wollen und fordert uneingeschränkten Starlink-Zugang. Zugleich kritisiert er die Beziehung zwischen Russland und den USA.",
-      "image": "https://images.handelsblatt.com/okGLp4b7TREN/cover/900/506/0/0/299/300/0.5/0.5/archiv-25.01.2026-litauen-vilnius-der-ukrainische-praesident-wolodymyr-selenskyj-spricht-waehrend.jpg",
-      "published": "2026-10-08T17:47:22+00:00",
-      "category": "Politik",
-      "score": 69.89
-    },
-    {
-      "id": "deutschlandfunk-761809412710801f",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Bundestag - Verordnung vorgeburtlicher Bluttests soll überprüft werden",
-      "link": "https://www.deutschlandfunk.de/verordnung-vorgeburtlicher-bluttests-soll-ueberprueft-werden-110.html",
-      "summary": "Für vorgeburtliche Bluttests, mit denen bestimmte genetische Auffälligkeiten festgestellt werden können, sollen genauere Regeln geschaffen werden. Der Bundestag hat mit großer Mehrheit für einen entsprechenden fraktionsübergreifenden Antrag gestimmt. Eine Expertenkommission soll jetzt weitere Daten zusammentragen; der Bundestag will sich dann erneut mit dem Thema beschäftigen.",
-      "image": "https://bilder.deutschlandfunk.de/ab/ce/3d/4f/abce3d4f-f742-4074-be63-40db8969bed5/praenataltest-nichtinvasiv-down-syndrom-bundestag-beratung-bluttest-schwangere-100-1920x1920.jpg",
-      "published": "2026-10-09T03:54:13+02:00",
-      "category": "Politik",
-      "score": 69.66
-    },
-    {
-      "id": "deutschlandfunk-880b1cd5d32e9d1b",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Laut Pentagon - Hinrichtung von US-Amokläufer soll per Livestream übertragen werden",
-      "link": "https://www.deutschlandfunk.de/hinrichtung-von-us-amoklaeufer-soll-per-livestream-uebertragen-werden-102.html",
-      "summary": "In den USA soll die Hinrichtung eines Amokläufers nach Angaben des Verteidigungsministeriums per Livestream übertragen werden.",
-      "image": "https://bilder.deutschlandfunk.de/NO/VA/_f/f1/NOVA_ff163d289f9fc329708093b4142bc1ed/craft-13007973-asset-100-1920x1920.jpg",
-      "published": "2026-10-09T03:54:13+02:00",
-      "category": "Politik",
-      "score": 69.66,
+      "score": 74.34,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "spiegel",
-            "title": "Fort Hood: Pentagon plant Livestream der Hinrichtung von Nidal Hasas",
-            "link": "https://www.spiegel.de/ausland/fort-hood-pentagon-plant-livestream-der-hinrichtung-von-nidal-hasas-a-9a9f55b1-378a-40a2-a52b-9c24a6524ac5#ref=rss"
+            "title": "USA: Hurrikan »Isaias« verstärkt sich – Evakuierungen an Golfküste",
+            "link": "https://www.spiegel.de/panorama/usa-hurrikan-isaias-verstaerkt-sich-evakuierungen-an-golfkueste-a-7adbd1ff-ff7d-4280-b115-9965095f0cb9#ref=rss"
           }
         ]
       }
     },
     {
-      "id": "spiegel-13460011ed4a7a40",
+      "id": "spiegel-fa5c13cd77527351",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg: Drohnen greifen Raffinerie tief in Sibirien an",
-      "link": "https://www.spiegel.de/ausland/ukraine-krieg-drohnen-greifen-raffinerie-tief-in-sibirien-an-a-a3857b7e-b2f0-4dcc-a58d-1086b147b1c2#ref=rss",
-      "summary": "Ukrainische Drohnen sollen mehr als 2500 Kilometer nach Sibirien geflogen sein, um dort die größte Raffinerie Russlands ins Visier zu nehmen. Nun gibt es Berichte über Brände.",
-      "image": "https://cdn.prod.www.spiegel.de/images/df321356-ac23-4fa0-98b9-c36625efada8_w1200_r1.778_fpx51.99_fpy50.jpg",
-      "published": "2026-10-08T18:05:00+02:00",
+      "title": "CDU und Linkspartei: Warum der Vergleich mit der AfD eine fatale Ausrede ist",
+      "link": "https://www.spiegel.de/politik/deutschland/cdu-und-linkspartei-warum-der-vergleich-mit-der-afd-eine-fatale-ausrede-ist-a-16029459-74d1-4d2a-9178-0233ffeaf72f#ref=rss",
+      "summary": "Der CDU-Vorsitzende spielt die Rolle seiner Parteifreunde bei der Wahl eines AfD-Landtagspräsidenten in Sachsen-Anhalt herunter. Friedrich Merz droht der rechte Rand der Partei zu entgleiten.",
+      "image": "https://cdn.prod.www.spiegel.de/images/6a75711d-d4d6-4367-8aa8-63ee58a5e4a6_w1200_r1.778_fpx43.98_fpy50.jpg",
+      "published": "2026-10-09T09:26:00+02:00",
       "category": "Politik",
-      "score": 69.47
+      "score": 69.46
     },
     {
-      "id": "handelsblatt-d246a4e90cc7a3b8",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Iran-Krieg: Trump: Keine Angriffe auf Iran bis zu Midterms im November",
-      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-trump-keine-angriffe-auf-iran-bis-zu-midterms-im-november/100260797.html",
-      "summary": "Am 3. November wird in den USA gewählt. Medien berichteten über mögliche neue Angriffe gegen den Iran noch vor dem Urnengang. Dem widerspricht Trump nun.",
-      "image": "https://images.handelsblatt.com/2datGq6bh4EH/cover/900/506/0/0/107/107/0.5/0.5/pentagon.jpg",
-      "published": "2026-10-08T16:40:36+00:00",
+      "id": "spiegel-efd449d0c286fe58",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "»Ich kann auch Niveau«, sagt Daniel Günther – und singt »Arschloch!«",
+      "link": "https://www.spiegel.de/politik/deutschland/ich-kann-auch-niveau-daniel-guenther-singt-arschloch-a-9b6d2a97-1f5e-4fb9-a841-052a158b5b8d#ref=rss",
+      "summary": "Schleswig-Holsteins Ministerpräsident bestellt sich ein Bier, singt Punk und erzählt von einer ruppigen Begegnung mit Helmut Kohl. Bei »Inas Nacht« beweist Daniel Günther Schlagfertigkeit, auch nach einer ungenierten Frage.",
+      "image": "https://cdn.prod.www.spiegel.de/images/8c81c381-6ccb-497c-a17d-de66b47cd03b_w1200_r1.778_fpx53_fpy31.jpg",
+      "published": "2026-10-09T08:41:00+02:00",
       "category": "Politik",
-      "score": 68.97
+      "score": 68.83,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Keine Berlin-Ambitionen: Günther zieht Schleswig-Holstein Berlin vor und schätzt Merz",
+            "link": "https://www.handelsblatt.com/politik/deutschland/keine-berlin-ambitionen-guenther-zieht-schleswig-holstein-berlin-vor-und-schaetzt-merz/100260901.html"
+          }
+        ]
+      }
     },
     {
-      "id": "handelsblatt-ca923ff87b4c70e6",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Nobelpreise: Wer bekommt den Friedensnobelpreis?",
-      "link": "https://www.handelsblatt.com/politik/international/nobelpreise-wer-bekommt-den-friedensnobelpreis/100260896.html",
-      "summary": "Der Friedensnobelpreis gilt als wichtigste Auszeichnung der Welt. Trump schielt schon länger auf den Preis. Doch die norwegische Nobeljury dürfte andere Kandidaten im Auge haben.",
-      "image": "https://images.handelsblatt.com/syzY48FVzYG3/cover/900/506/0/0/107/106/0.5/0.5/friedensnobelpreis-2025.jpg",
-      "published": "2026-10-09T02:00:29+00:00",
+      "id": "golem-e2170b571f721a25",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Wenn Algorithmen angreifen: SPD will BSI zum KI-Lagezentrum machen",
+      "link": "https://www.golem.de/news/wenn-algorithmen-angreifen-spd-will-bsi-zum-ki-lagezentrum-machen-2610-213899.html",
+      "summary": "Ein Positionspapier der SPD-Bundestagsfraktion skizziert, wie Deutschland auf KI-gestützte Angriffe reagieren könnte. ( BSI , KI )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213899&amp;page=1&amp;ts=1791529981",
+      "published": "2026-10-09T09:13:01+02:00",
       "category": "Politik",
-      "score": 68.74
+      "score": 67.28
+    },
+    {
+      "id": "golem-0a6522b0c4673e42",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Gradmesser für KI-Nachfrage: OpenAI meldet 20 Milliarden weniger Umsatz als erwartet",
+      "link": "https://www.golem.de/news/gradmesser-fuer-ki-nachfrage-openai-meldet-20-milliarden-weniger-umsatz-als-erwartet-2610-213906.html",
+      "summary": "Die ausbleibenden Umsätze bei OpenAI haben Auswirkungen auf die Aktienkurse großer Technologieunternehmen. ( OpenAI , Börse )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213906&amp;page=1&amp;ts=1791530462",
+      "published": "2026-10-09T09:21:02+02:00",
+      "category": "Wirtschaft",
+      "score": 59.39
     }
   ]
 }
