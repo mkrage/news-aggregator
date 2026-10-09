@@ -328,3 +328,24 @@ Die Seite braucht einen HTTP-Server, weil `fetch` auf `file://` blockiert wird:
 python -m http.server 8000
 # dann http://localhost:8000 öffnen
 ```
+
+## Lizenz
+
+Dieses Projekt steht unter der MIT-Lizenz, siehe [LICENSE](LICENSE).
+
+Copyright (c) 2026 Manuel Krage
+
+Beiträge sind willkommen – wie, steht in [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Hinweis zu Inhalten und Datenquellen
+
+Die MIT-Lizenz gilt für den Code dieses Repositories, nicht für die Nachrichten,
+die er anzeigt. Schlagzeilen, Vorspänne, Bilder, Logos und Markennamen gehören
+den jeweiligen Rechteinhabern. Deshalb verlinkt jeder Eintrag seine Quelle; der
+vollständige Artikel wird dort gelesen, nicht hier.
+
+Wer das Projekt betreibt, forkt oder die Feed-Liste ändert, ist selbst dafür
+verantwortlich, die Nutzungsbedingungen der jeweiligen Anbieter zu beachten –
+auch die zu Abruffrequenz, Bildnutzung und Weiterverbreitung.
+
+Das ist eine praktische Einordnung, keine Rechtsberatung.
