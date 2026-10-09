@@ -65,11 +65,12 @@ jobs:
       - name: Fetch news
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          # Die Feeds kommen stündlich, die KI-Zusammenfassung nur zweimal am
-          # Tag. Welcher Lauf sie erzeugt, entscheidet das Script anhand der
-          # Berliner Ortszeit (07:xx und 19:xx) – Cron kennt nur UTC und läge
-          # nach der Zeitumstellung eine Stunde daneben. Manuelle Läufe
-          # erzwingen sie standardmäßig.
+          # Die Feeds kommen stündlich, die KI-Zusammenfassung höchstens alle
+          # zwölf Stunden. Welcher Lauf sie erzeugt, entscheidet das Script am
+          # Alter der vorhandenen Zusammenfassung: Fehlt sie oder sind zwölf
+          # Stunden vergangen, holt der nächste geplante Lauf sie nach – ohne
+          # festes Zeitfenster, das ein ausgefallener Lauf verpassen könnte.
+          # Manuelle Läufe erzwingen sie standardmäßig.
           AI_SUMMARY_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.ai_summary || 'auto' }}
         working-directory: scripts
         run: python fetch_news.py

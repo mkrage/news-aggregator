@@ -469,57 +469,131 @@ class TestWriteJson(unittest.TestCase):
 
 
 class TestAiSummarySchedule(unittest.TestCase):
-    """07:23 und 19:23 Berliner Zeit – im Sommer wie im Winter."""
+    """Der Abstand entscheidet, nicht die Uhrzeit: zwölf Stunden oder mehr."""
 
-    @staticmethod
-    def _utc(*args):
-        return datetime(*args, tzinfo=timezone.utc)
+    NOW = datetime(2026, 7, 1, 12, 0, tzinfo=timezone.utc)
 
-    def test_sommerzeit_fenster(self):
-        # CEST = UTC+2: 05:23 UTC ist 07:23 in Berlin.
-        self.assertEqual(fn.ai_summary_slot(self._utc(2026, 7, 1, 5, 23)), "2026-07-01T07")
-        self.assertEqual(fn.ai_summary_slot(self._utc(2026, 7, 1, 17, 23)), "2026-07-01T19")
+    def _existing(self, age=None, generated_at=None):
+        if age is not None:
+            generated_at = (self.NOW - age).isoformat()
+        return {"summary": "x", "generatedAt": generated_at}
 
-    def test_winterzeit_fenster(self):
-        # CET = UTC+1: dieselbe Ortszeit liegt eine Stunde später in UTC.
-        self.assertEqual(fn.ai_summary_slot(self._utc(2026, 1, 15, 6, 23)), "2026-01-15T07")
-        self.assertEqual(fn.ai_summary_slot(self._utc(2026, 1, 15, 18, 23)), "2026-01-15T19")
+    def _auto(self, existing):
+        return fn.should_generate_ai_summary("auto", self.NOW, existing)
 
-    def test_sommerzeit_utc_zeitpunkt_ist_im_winter_kein_fenster(self):
-        self.assertIsNone(fn.ai_summary_slot(self._utc(2026, 1, 15, 5, 23)))
-        self.assertIsNone(fn.ai_summary_slot(self._utc(2026, 7, 1, 6, 23)))
+    def test_ohne_bisherigen_stand_wird_erzeugt(self):
+        self.assertTrue(self._auto(None))
 
-    def test_uebrige_stunden_ohne_fenster(self):
-        for hour in range(24):
-            moment = self._utc(2026, 7, 1, hour, 23)
-            if hour in (5, 17):
-                continue
-            with self.subTest(hour=hour):
-                self.assertIsNone(fn.ai_summary_slot(moment))
+    def test_ohne_zeitstempel_wird_erzeugt(self):
+        self.assertTrue(self._auto({"summary": "x"}))
 
-    def test_auto_erzeugt_nur_im_fenster(self):
-        self.assertTrue(fn.should_generate_ai_summary("auto", self._utc(2026, 7, 1, 5, 23)))
-        self.assertFalse(fn.should_generate_ai_summary("auto", self._utc(2026, 7, 1, 8, 23)))
+    def test_unlesbarer_zeitstempel_wird_erzeugt(self):
+        # Ohne Zeitzone ist der Vergleich ein TypeError, Unsinn ein ValueError –
+        # ein Stand, dessen Alter niemand kennt, zählt als keiner.
+        for value in (None, "", "Unsinn", "2026-07-01T10:00:00", 1751371200, {"a": 1}):
+            with self.subTest(value=value):
+                self.assertTrue(self._auto(self._existing(generated_at=value)))
 
-    def test_auto_nur_einmal_pro_fenster(self):
-        # Der :53-Lauf derselben Stunde soll nicht noch einmal fragen.
-        existing = {"slot": "2026-07-01T07"}
+    def test_kaputte_datei_wird_erzeugt(self):
+        # read_json kann auch etwas liefern, das kein Objekt ist.
+        for existing in ([], "kein objekt", 5):
+            with self.subTest(existing=existing):
+                self.assertTrue(self._auto(existing))
+
+    def test_unter_zwoelf_stunden_wird_nicht_erzeugt(self):
+        for hours in (0, 1, 6, 11):
+            with self.subTest(hours=hours):
+                self.assertFalse(self._auto(self._existing(timedelta(hours=hours))))
         self.assertFalse(
-            fn.should_generate_ai_summary("auto", self._utc(2026, 7, 1, 5, 53), existing)
+            self._auto(self._existing(timedelta(hours=12) - timedelta(minutes=1)))
         )
-        self.assertTrue(
-            fn.should_generate_ai_summary("auto", self._utc(2026, 7, 1, 17, 23), existing)
-        )
+
+    def test_genau_zwoelf_stunden_wird_erzeugt(self):
+        self.assertTrue(self._auto(self._existing(timedelta(hours=12))))
+
+    def test_ueber_zwoelf_stunden_wird_erzeugt(self):
+        for hours in (13, 24, 100):
+            with self.subTest(hours=hours):
+                self.assertTrue(self._auto(self._existing(timedelta(hours=hours))))
+
+    def test_zeitzone_des_zeitstempels_ist_egal(self):
+        # Derselbe Moment, nur anders notiert: 11:00+02:00 ist 09:00 UTC.
+        self.assertFalse(self._auto({"generatedAt": "2026-07-01T11:00:00+02:00"}))
+        self.assertTrue(self._auto({"generatedAt": "2026-07-01T02:00:00+02:00"}))
+
+    def test_keine_uhrzeitabhaengigkeit(self):
+        # Früher entschied die Berliner Ortszeit; jetzt zählt nur der Abstand.
+        stale = self._existing(timedelta(hours=13))
+        fresh = self._existing(timedelta(hours=2))
+        for hour in range(24):
+            moment = datetime(2026, 1, 15, hour, 23, tzinfo=timezone.utc)
+            with self.subTest(hour=hour):
+                self.assertTrue(
+                    fn.should_generate_ai_summary(
+                        "auto", moment, {"generatedAt": (moment - timedelta(hours=13)).isoformat()}
+                    )
+                )
+                self.assertFalse(
+                    fn.should_generate_ai_summary(
+                        "auto", moment, {"generatedAt": (moment - timedelta(hours=2)).isoformat()}
+                    )
+                )
+        self.assertTrue(self._auto(stale))
+        self.assertFalse(self._auto(fresh))
+
+    def test_verpasster_lauf_wird_nachgeholt(self):
+        # Fällt ein Lauf aus, wartet der nächste nicht auf ein festes Fenster.
+        self.assertTrue(self._auto(self._existing(timedelta(hours=12, minutes=1))))
 
     def test_force_und_skip(self):
-        outside = self._utc(2026, 7, 1, 8, 23)
-        inside = self._utc(2026, 7, 1, 5, 23)
-        self.assertTrue(fn.should_generate_ai_summary("force", outside))
-        self.assertFalse(fn.should_generate_ai_summary("skip", inside))
+        fresh = self._existing(timedelta(hours=1))
+        stale = self._existing(timedelta(hours=30))
+        self.assertTrue(fn.should_generate_ai_summary("force", self.NOW, fresh))
+        self.assertFalse(fn.should_generate_ai_summary("skip", self.NOW, stale))
+        self.assertFalse(fn.should_generate_ai_summary("skip", self.NOW, None))
+
+    def test_schreibweisen_von_force_und_skip(self):
+        fresh = self._existing(timedelta(hours=1))
+        for mode in ("force", "FORCE", " Force ", "always", "true", "1", "yes", "on"):
+            with self.subTest(mode=mode):
+                self.assertTrue(fn.should_generate_ai_summary(mode, self.NOW, fresh))
+        for mode in ("skip", "SKIP", " Skip ", "never", "false", "0", "no", "off"):
+            with self.subTest(mode=mode):
+                self.assertFalse(fn.should_generate_ai_summary(mode, self.NOW, None))
 
     def test_unbekannter_modus_verhaelt_sich_wie_auto(self):
-        self.assertFalse(fn.should_generate_ai_summary("", self._utc(2026, 7, 1, 8, 23)))
-        self.assertTrue(fn.should_generate_ai_summary(None, self._utc(2026, 7, 1, 5, 23)))
+        fresh = self._existing(timedelta(hours=1))
+        stale = self._existing(timedelta(hours=13))
+        for mode in ("", None, "auto", "vielleicht"):
+            with self.subTest(mode=mode):
+                self.assertFalse(fn.should_generate_ai_summary(mode, self.NOW, fresh))
+                self.assertTrue(fn.should_generate_ai_summary(mode, self.NOW, stale))
+
+    def test_intervall_bleibt_unter_der_verfallsgrenze(self):
+        # Sonst verschwände die Zusammenfassung, bevor eine neue fällig wäre.
+        self.assertEqual(fn.AI_SUMMARY_INTERVAL_HOURS, 12)
+        self.assertLess(fn.AI_SUMMARY_INTERVAL_HOURS, fn.AI_SUMMARY_MAX_AGE_HOURS)
+
+    def test_zeitfenster_sind_restlos_verschwunden(self):
+        for name in ("ai_summary_slot", "AI_SUMMARY_HOURS", "berlin_tz", "BERLIN_TZ_NAME"):
+            with self.subTest(name=name):
+                self.assertFalse(hasattr(fn, name))
+
+
+class TestAiSummaryAge(unittest.TestCase):
+    """Gemeinsame Altersbestimmung für Erzeugung und Verfall."""
+
+    NOW = datetime(2026, 7, 1, 12, 0, tzinfo=timezone.utc)
+
+    def test_alter_wird_berechnet(self):
+        existing = {"generatedAt": (self.NOW - timedelta(hours=5)).isoformat()}
+        self.assertEqual(fn.ai_summary_age(existing, self.NOW), timedelta(hours=5))
+
+    def test_unbrauchbare_eingaben_ergeben_none(self):
+        for existing in (None, {}, [], "x", {"generatedAt": None}, {"generatedAt": "Unsinn"},
+                         {"generatedAt": "2026-07-01T10:00:00"}, {"generatedAt": 5}):
+            with self.subTest(existing=existing):
+                self.assertIsNone(fn.ai_summary_age(existing, self.NOW))
 
 
 class TestDropStaleAiSummary(unittest.TestCase):
@@ -544,10 +618,12 @@ class TestDropStaleAiSummary(unittest.TestCase):
         self.assertTrue(os.path.exists(self.path))
 
     def test_stuendlicher_lauf_loescht_nicht(self):
-        # Zwischen zwei KI-Fenstern liegen zwölf Stunden; die dürfen nichts kosten.
+        # Zwölf Stunden machen eine neue Zusammenfassung fällig, die alte aber
+        # noch nicht wertlos: Verfall und Erzeugung sind zwei Schwellen.
         payload = self._write((self.now - timedelta(hours=12)).isoformat())
         self.assertFalse(fn.drop_stale_ai_summary(self.path, payload, self.now))
         self.assertTrue(os.path.exists(self.path))
+        self.assertTrue(fn.should_generate_ai_summary("auto", self.now, payload))
 
     def test_ueberalterte_zusammenfassung_faellt_weg(self):
         payload = self._write((self.now - timedelta(hours=30)).isoformat())

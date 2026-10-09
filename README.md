@@ -214,30 +214,29 @@ bricht das Script mit Exit-Code 1 ab und lässt die bestehenden Daten unangetast
 
 ### KI-Zusammenfassung
 
-Die Feeds kommen stündlich, die Gemini-Zusammenfassung nur zweimal täglich: im
-Lauf um `:23` in der Stunde 07 und 19 **Berliner Ortszeit**. Cron kennt nur UTC
-und läge nach jeder Zeitumstellung eine Stunde daneben, deshalb entscheidet
-`fetch_news.py` anhand der Ortszeit, nicht der Zeitplan. Wird der Lauf verzögert,
-greift noch jeder Start innerhalb derselben Stunde; der `:53`-Lauf erkennt an der
-bereits vermerkten Fensterkennung (`slot`), dass nichts mehr zu tun ist.
+Die Feeds kommen stündlich, die Gemini-Zusammenfassung höchstens zweimal
+täglich. `fetch_news.py` misst dafür das Alter von `generatedAt`: Fehlt die
+Zusammenfassung oder ist sie mindestens zwölf Stunden alt, erzeugt der nächste
+erfolgreiche Lauf eine neue. Die Erzeugung hängt damit nicht von einem festen
+Zeitfenster ab; verzögerte oder von GitHub verworfene geplante Läufe werden beim
+nächsten verfügbaren Lauf nachgeholt.
 
 Manuelle Starts über *Run workflow* bieten die Eingabe `ai_summary`:
 
 | Wert | Verhalten |
 | --- | --- |
 | `force` (Vorgabe) | fragt Gemini in jedem Fall |
-| `auto` | wie der Zeitplan – nur im Morgen- oder Abendfenster |
+| `auto` | wie der Zeitplan – bei fehlender oder mindestens zwölf Stunden alter Zusammenfassung |
 | `skip` | lässt die Zusammenfassung unberührt |
 
-Stündliche Läufe ohne KI-Fenster fassen `data/ai-summary.json` nicht an, und ein
-fehlgeschlagener Gemini-Aufruf löscht den letzten guten Stand nicht sofort – er
-ist höchstens ein paar Stunden alt. Erst nach `AI_SUMMARY_MAX_AGE_HOURS` (26 h,
-also zwei ausgefallenen Fenstern) verschwindet die Datei, ebenso bei unlesbarem
+Ein fehlgeschlagener Gemini-Aufruf löscht den letzten guten Stand nicht sofort;
+der nächste erfolgreiche News-Lauf versucht die überfällige Zusammenfassung
+erneut. Erst nach `AI_SUMMARY_MAX_AGE_HOURS` (26 h, also mehr als zwei
+Erneuerungsintervallen) verschwindet die Datei, ebenso bei unlesbarem
 Zeitstempel. Ohne `GEMINI_API_KEY` entsteht gar keine Zusammenfassung.
 
-Weil das nächste Fenster erst zwölf Stunden später kommt, gibt ein einzelner
-Fehlversuch nicht auf – aber blindes Wiederholen hilft wenig, wenn das Modell
-selbst klemmt. `fetch_news.py` arbeitet deshalb eine feste Kaskade von fünf
+Weil ein einzelner Fehlversuch nicht den nächsten geplanten Lauf blockieren
+soll, arbeitet `fetch_news.py` innerhalb eines Laufs eine feste Kaskade von fünf
 Aufrufen ab (`GEMINI_ATTEMPT_MODELS`, die Obergrenze für den ganzen Lauf):
 
 | Versuch | Modell |

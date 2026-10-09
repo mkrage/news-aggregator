@@ -16,12 +16,10 @@ from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from urllib.parse import urlparse
-from zoneinfo import ZoneInfo
 
 import feedparser
 import requests
 from dateutil import parser as date_parser
-from dateutil import tz as date_tz
 
 # Konfiguration
 FEEDS = {
@@ -118,8 +116,9 @@ GEMINI_API_BASE = "https://generativelanguage.googleapis.com/v1beta/models"
 GEMINI_TIMEOUT = 60
 
 # Gemini fällt gelegentlich für Sekunden aus oder drosselt. Ein einzelner
-# Fehlversuch kostet sonst das ganze Zeitfenster – der nächste Lauf fragt erst
-# zwölf Stunden später wieder.
+# Fehlversuch kostet zwar nicht mehr den halben Tag – der nächste stündliche
+# Lauf versucht es sofort wieder, weil der alte Stand alt bleibt. Aber eine
+# Zusammenfassung erst eine Stunde später ist eine Stunde zu spät.
 #
 # Die Kaskade steht als Liste da, weil sie so ohne Nachdenken lesbar ist: ein
 # kurzer zweiter Versuch beim neuen Modell (Aussetzer sind meist in Sekunden
@@ -155,13 +154,13 @@ GEMINI_RETRY_ERRORS = (
     requests.exceptions.ChunkedEncodingError,
 )
 
-# Die Feeds laufen stündlich, die KI-Zusammenfassung nur zweimal täglich – sie
-# kostet Kontingent und ändert sich zwischen zwei Stunden kaum. Maßgeblich ist
-# die lokale Zeit in Berlin, damit die Punkte im Sommer wie im Winter morgens
-# und abends erscheinen; die Sommerzeit kommt aus der tz-Datenbank.
-BERLIN_TZ_NAME = "Europe/Berlin"
-AI_SUMMARY_HOURS = (7, 19)
-# Nach zwei ausgefallenen Fenstern ist selbst eine Zusammenfassung von gestern
+# Die Feeds laufen stündlich, die KI-Zusammenfassung höchstens alle zwölf
+# Stunden – sie kostet Kontingent und ändert sich dazwischen kaum. Maßgeblich
+# ist der Abstand zur vorhandenen Zusammenfassung, nicht die Uhrzeit: ein
+# ausgefallener, verworfener oder an Gemini gescheiterter Lauf holt sie dann
+# beim nächsten Durchgang nach, statt bis zum nächsten festen Fenster zu warten.
+AI_SUMMARY_INTERVAL_HOURS = 12
+# Nach zwei ausgefallenen Abständen ist selbst eine Zusammenfassung von gestern
 # keine Hilfe mehr – dann lieber gar keine anzeigen.
 AI_SUMMARY_MAX_AGE_HOURS = 26
 
@@ -697,40 +696,32 @@ def generate_top_news(articles):
     return top_news
 
 
-def berlin_tz():
-    """Zeitzone Europe/Berlin – zoneinfo zuerst, dateutil als Reserve.
+def ai_summary_age(existing, moment=None):
+    """Alter einer vorhandenen Zusammenfassung, None wenn es keine gültige gibt.
 
-    Auf Windows fehlt der Standardbibliothek oft die tz-Datenbank; dateutil
-    bringt eine eigene mit und ist ohnehin schon installiert.
+    Ungültig heißt: keine Datei, kein `generatedAt`, kein lesbarer oder ein
+    zeitloser Zeitstempel. Ein Stand, dessen Alter niemand kennt, ist keiner –
+    und ohne Zeitzone wäre der Vergleich ein TypeError.
     """
-    try:
-        return ZoneInfo(BERLIN_TZ_NAME)
-    except Exception:  # ZoneInfoNotFoundError und alles, was beim Laden schiefgeht
-        zone = date_tz.gettz(BERLIN_TZ_NAME)
-        if zone is None:
-            raise
-        return zone
-
-
-def ai_summary_slot(moment=None):
-    """Kennung des aktuellen KI-Zeitfensters in Berliner Zeit, sonst None.
-
-    Ein Fenster ist eine ganze Stunde, nicht die exakte Minute: GitHub startet
-    geplante Läufe unzuverlässig, ein um 20 Minuten verzögerter 07:23-Lauf soll
-    die Zusammenfassung trotzdem noch erzeugen.
-    """
-    moment = moment or datetime.now(timezone.utc)
-    local = moment.astimezone(berlin_tz())
-    if local.hour not in AI_SUMMARY_HOURS:
+    if not isinstance(existing, dict):
         return None
-    return f"{local.date().isoformat()}T{local.hour:02d}"
+    generated_at = existing.get("generatedAt")
+    if not isinstance(generated_at, str):
+        return None
+    try:
+        return (moment or datetime.now(timezone.utc)) - date_parser.parse(generated_at)
+    except (TypeError, ValueError, OverflowError):
+        return None
 
 
 def should_generate_ai_summary(mode=None, moment=None, existing=None):
     """Entscheidet, ob dieser Lauf Gemini befragt.
 
     `force`/`skip` kommen aus dem manuellen Workflow-Start, `auto` aus dem
-    Zeitplan: dann nur im Morgen- bzw. Abendfenster und nur einmal darin.
+    Zeitplan: dann hängt alles am Abstand zur vorhandenen Zusammenfassung. Fehlt
+    sie oder ist sie mindestens AI_SUMMARY_INTERVAL_HOURS alt, wird eine neue
+    erzeugt; darunter nicht. Keine Uhrzeit, keine Zeitzone, kein Fenster, das
+    ein ausgefallener Lauf verpassen könnte – der nächste Lauf holt sie nach.
     """
     mode = (mode or "auto").strip().lower()
     if mode in ("force", "always", "true", "1", "yes", "on"):
@@ -738,11 +729,8 @@ def should_generate_ai_summary(mode=None, moment=None, existing=None):
     if mode in ("skip", "never", "false", "0", "no", "off"):
         return False
 
-    slot = ai_summary_slot(moment)
-    if slot is None:
-        return False
-    # Im selben Fenster läuft der Workflow zweimal (:23 und :53) – einmal reicht.
-    return (existing or {}).get("slot") != slot
+    age = ai_summary_age(existing, moment)
+    return age is None or age >= timedelta(hours=AI_SUMMARY_INTERVAL_HOURS)
 
 
 def read_json(path):
@@ -757,22 +745,15 @@ def read_json(path):
 def drop_stale_ai_summary(path, existing, moment=None):
     """Entfernt eine überalterte Zusammenfassung, behält eine frische.
 
-    Stündliche Läufe ohne KI-Fenster und fehlgeschlagene KI-Aufrufe dürfen den
-    letzten guten Stand nicht wegwerfen – er ist höchstens ein paar Stunden alt.
+    Eigene, deutlich großzügigere Schwelle als AI_SUMMARY_INTERVAL_HOURS: dass
+    ein Lauf keine neue Zusammenfassung erzeugt, heißt nicht, dass die alte weg
+    muss. Stündliche Läufe und fehlgeschlagene KI-Aufrufe dürfen den letzten
+    guten Stand nicht wegwerfen – er ist höchstens ein paar Stunden alt.
     """
     if not os.path.exists(path):
         return False
 
-    moment = moment or datetime.now(timezone.utc)
-    generated_at = (existing or {}).get("generatedAt")
-    age = None
-    if isinstance(generated_at, str):
-        try:
-            age = moment - date_parser.parse(generated_at)
-        except (TypeError, ValueError, OverflowError):
-            # TypeError: Zeitstempel ohne Zeitzone lässt sich nicht vergleichen.
-            age = None
-
+    age = ai_summary_age(existing, moment)
     if age is not None and age <= timedelta(hours=AI_SUMMARY_MAX_AGE_HOURS):
         return False
 
@@ -1119,13 +1100,13 @@ def main():
     if should_generate_ai_summary(ai_mode, now, existing_ai):
         ai_summary = generate_ai_summary(top_news)
         if ai_summary:
-            ai_summary["slot"] = ai_summary_slot(now) or "manual"
             write_json(ai_path, ai_summary)
             written = True
         else:
             print("AI-Zusammenfassung fehlgeschlagen – bisheriger Stand bleibt vorerst stehen")
     if not written:
-        # Stündliche Läufe außerhalb der KI-Fenster fassen die Datei nicht an.
+        # Läufe, die keine neue Zusammenfassung erzeugen, fassen die Datei nur
+        # an, wenn der bisherige Stand endgültig zu alt ist.
         drop_stale_ai_summary(ai_path, existing_ai, now)
 
     if failed_sources:
