@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T22:04:24.781033+00:00",
+  "generatedAt": "2026-10-10T23:40:24.709416+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/b780b014-d654-44f9-ae2e-ab85a7928960/AAABoSbjyVc/AAABnSSvrFg/16x9-big/trump-5328.jpg?width=1920",
       "published": "2026-10-10T20:26:35+02:00",
       "category": "Politik",
-      "score": 94.63,
+      "score": 94.37,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -44,7 +44,7 @@
       "image": "https://images.handelsblatt.com/3vFCEnqjjaf2/cover/900/506/170/170/0/0/0.5/0.5/donald-trump-und-wladimir-putin-telefonieren.jpg",
       "published": "2026-10-10T19:43:42+00:00",
       "category": "Politik",
-      "score": 83.05
+      "score": 81.71
     },
     {
       "id": "tagesschau-a5d11546c47f70f3",
@@ -56,7 +56,7 @@
       "image": "https://images.tagesschau.de/image/6a678e43-2dba-4d4b-9eb1-59a438ee4bec/AAABoSMa5Jw/AAABnSSvrFg/16x9-big/panama-228.jpg?width=1920",
       "published": "2026-10-10T11:34:50+02:00",
       "category": "Nachrichten",
-      "score": 80.31,
+      "score": 80.05,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -74,6 +74,33 @@
       }
     },
     {
+      "id": "tagesschau-da66d0d1fb0df17b",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Mehrere Tote und etliche ohne Strom durch Sturm \"Isaias\"",
+      "link": "https://www.tagesschau.de/ausland/amerika/usa-hurrikan-isaias-tote-100.html",
+      "summary": "Mit \"Isaias\" ist der erste Hurrikan der Saison auf die US-Küste getroffen. Er brachte heftige Regenfälle mit sich, in Hunderttausenden Haushalten fiel der Strom aus. Inzwischen hat sich der Sturm aber deutlich abgeschwächt.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/7370d223-ada8-4767-b5db-1cd5156f78c6/AAABoSeO-94/AAABnSSvrFg/16x9-big/isaias-102.jpg?width=1920",
+      "published": "2026-10-10T22:44:04+02:00",
+      "category": "Nachrichten",
+      "score": 80.05,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "USA - Sturm \"Isaias\" in Florida und Alabama: vier Tote und Hunderttausende ohne Strom - Mexiko bereitet sich auf Hurrikan \"Simon vor\"",
+            "link": "https://www.deutschlandfunk.de/sturm-isaias-in-florida-und-alabama-vier-tote-und-hunderttausende-ohne-strom-mexiko-bereitet-sich-au-100.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Unwetter: Sturm „Isaias“ trifft US-Golfküste – Hunderttausende ohne Strom",
+            "link": "https://www.handelsblatt.com/politik/international/unwetter-sturm-isaias-trifft-us-golfkueste-hunderttausende-ohne-strom/100261219.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "tagesschau-341874ad774349b6",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -83,7 +110,7 @@
       "image": "https://images.tagesschau.de/image/d285081a-6934-457a-b919-c151e5842da8/AAABoL8oRa4/AAABnSSvrFg/16x9-big/schloss-schwerin-112.jpg?width=1920",
       "published": "2026-10-10T16:36:51+02:00",
       "category": "Politik",
-      "score": 78.63,
+      "score": 78.37,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -113,9 +140,9 @@
       "link": "https://www.deutschlandfunk.de/achtungserfolg-fuer-opposition-bei-senatswahl-104.html",
       "summary": "Bei der Wahl in Tschechien hat die Opposition ihre Mehrheit im Senat verteidigt.",
       "image": "https://bilder.deutschlandfunk.de/28/b8/93/d6/28b893d6-ddea-4b47-a3aa-ae603b1be94a/bitcoin-prag-100-1920x1920.jpg",
-      "published": "2026-10-10T23:37:36+02:00",
+      "published": "2026-10-11T00:55:22+02:00",
       "category": "Politik",
-      "score": 77.63,
+      "score": 77.37,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -123,28 +150,6 @@
             "source": "handelsblatt",
             "title": "Politischer Stimmungstest: Tschechiens Opposition mit Achtungserfolg bei Senatswahl",
             "link": "https://www.handelsblatt.com/politik/international/politischer-stimmungstest-tschechiens-opposition-mit-achtungserfolg-bei-senatswahl/100261247.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-993edf65e6255656",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Ein Jahr brüchige Waffenruhe Gaza: \"Der Krieg lässt uns nicht in Ruhe\"",
-      "link": "https://www.tagesschau.de/ausland/asien/israel-gaza-waffenruhe-112.html",
-      "summary": "Ein Jahr nach der Waffenruhe im Gazastreifen leben viele Menschen weiter in Not, Hilfsorganisationen sichern ihr Überleben. Von der internationalen Politik fühlen sich die Menschen vergessen. Von Felicitas Boeselager. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/7ebf7660-a546-42ab-98ff-abf48d3e3a7d/AAABoSS-sq0/AAABnSSvrFg/16x9-big/zelte-gaza-102.jpg?width=1920",
-      "published": "2026-10-10T09:37:37+02:00",
-      "category": "Politik",
-      "score": 74.96,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Nahost: Ein Jahr Waffenruhe – wie steht es um das Gaza-Abkommen?",
-            "link": "https://www.handelsblatt.com/politik/international/nahost-ein-jahr-waffenruhe-wie-steht-es-um-das-gaza-abkommen/100261181.html"
           }
         ]
       }
@@ -159,7 +164,7 @@
       "image": "https://static.dw.com/image/74689599_6.jpg",
       "published": "2026-10-10T18:32:00+00:00",
       "category": "Politik",
-      "score": 74.05
+      "score": 72.72
     },
     {
       "id": "deutschlandfunk-768858faa0319cbf",
@@ -169,9 +174,9 @@
       "link": "https://www.deutschlandfunk.de/praesident-abbas-verschiebt-parlaments-und-praesidentenwahl-106.html",
       "summary": "Der palästinensische Präsident Abbas hat die für Ende November geplante Parlamentswahl in den Palästinensergebieten vertagt.",
       "image": "https://bilder.deutschlandfunk.de/77/84/0f/fb/77840ffb-71de-4ab0-a32a-f0b7007c80a2/mahmud-abbas-102-1920x1920.jpg",
-      "published": "2026-10-10T23:37:36+02:00",
+      "published": "2026-10-11T00:55:22+02:00",
       "category": "Politik",
-      "score": 69.63
+      "score": 69.37
     },
     {
       "id": "deutschlandfunk-f8ea9f77ba9b18eb",
@@ -181,9 +186,21 @@
       "link": "https://www.deutschlandfunk.de/kulturstaatsminister-weimer-appelliert-an-spd-vorsitz-rot-gruen-rot-in-berlin-zu-verhindern-110.html",
       "summary": "Kulturstaatsminister Weimer hat an die SPD-Bundesvorsitzenden Klingbeil und Bas appelliert, ein rot-grün-rotes Bündnis auf Landesebene in Berlin zu verhindern.",
       "image": "https://bilder.deutschlandfunk.de/ec/f4/17/d2/ecf417d2-9175-48a2-a38a-b6eff30e027e/wolfram-weimer-kulturstaatsminister-104-1920x1920.jpg",
-      "published": "2026-10-10T23:37:36+02:00",
+      "published": "2026-10-11T00:55:22+02:00",
       "category": "Politik",
-      "score": 69.63
+      "score": 69.37
+    },
+    {
+      "id": "spiegel-f7deace99d7093e4",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "USA: Wirbelsturm »Isaias« sorgt für Tote und massive Schäden",
+      "link": "https://www.spiegel.de/panorama/usa-wirbelsturm-isaias-sorgt-fuer-tote-und-massive-schaeden-a-9fea6cae-ef7d-4038-9ff0-a6c48186fcd0#ref=rss",
+      "summary": "Ein Hurrikan ist »Isaias« zwar nicht mehr, trotzdem hat das Sturmsystem in Florida und Alabama erhebliche Schäden angerichtet – und Menschenleben gekostet. Ein Mann wurde tot neben einem laufenden Generator gefunden.",
+      "image": "https://cdn.prod.www.spiegel.de/images/df445d69-00a0-4c69-bc51-46f97eb36033_w1200_r1.778_fpx61.38_fpy49.99.jpg",
+      "published": "2026-10-11T00:41:00+02:00",
+      "category": "Nachrichten",
+      "score": 66.17
     },
     {
       "id": "handelsblatt-20b0fbf614055779",
@@ -195,7 +212,7 @@
       "image": "https://images.handelsblatt.com/cwqGXnf-fjlI/cover/900/506/0/0/0/0/0.5/0.5/195-gastkommentar-et-09.10.2026-kenneth-rogoff.jpg",
       "published": "2026-10-10T10:35:00+00:00",
       "category": "Politik",
-      "score": 67.42
+      "score": 66.09
     },
     {
       "id": "spiegel-26ab4a1b8143c218",
@@ -207,7 +224,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/384d6d24-7ff0-4eab-a747-629b67076761_w1200_r1.778_fpx40.52_fpy52.99.jpg",
       "published": "2026-10-10T20:25:00+02:00",
       "category": "Politik",
-      "score": 66.95
+      "score": 65.62
     },
     {
       "id": "spiegel-31770b4543498ead",
@@ -219,7 +236,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/1449d645-4c33-41a2-82cc-4c17e8aab179_w1200_r1.778_fpx67_fpy51.jpg",
       "published": "2026-10-10T19:57:00+02:00",
       "category": "Politik",
-      "score": 66.56
+      "score": 65.23
     },
     {
       "id": "deutsche-welle-7786a25e903e3aed",
@@ -231,7 +248,7 @@
       "image": "https://static.dw.com/image/79625869_6.jpg",
       "published": "2026-10-10T09:29:00+00:00",
       "category": "Politik",
-      "score": 66.51
+      "score": 65.17
     },
     {
       "id": "handelsblatt-ca11bf932d71cd89",
@@ -243,19 +260,7 @@
       "image": "https://images.handelsblatt.com/ajuKMP7NmADk/cover/900/506/0/0/210/1103/0.5/0.5/cover-podcast-trump-watch.jpg",
       "published": "2026-10-10T07:54:29+00:00",
       "category": "Politik",
-      "score": 65.2
-    },
-    {
-      "id": "spiegel-0e5df5a397ad7e11",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Donald Trump: Expertin erwartet kaum Preiswirkung nach Diesel-Deal",
-      "link": "https://www.spiegel.de/wirtschaft/donald-trump-expertin-zweifelt-an-sinkenden-spritpreisen-durch-diesel-deal-a-e763aab8-f9c6-4509-a140-832b0d3b4ac1#ref=rss",
-      "summary": "Der US-Präsident hat mit dem Kremlchef Diesellieferungen vereinbart. Auf die Preise am Weltmarkt wird das Abkommen laut einer Expertin kaum Auswirkungen haben. Sie ahnt, was Trump stattdessen antreibt.",
-      "image": "https://cdn.prod.www.spiegel.de/images/7d1ed941-24f0-440d-bfc5-307df3cd00fb_w1200_r1.778_fpx61.2_fpy44.98.jpg",
-      "published": "2026-10-10T18:07:00+02:00",
-      "category": "Politik",
-      "score": 65.04
+      "score": 63.86
     }
   ]
 }
