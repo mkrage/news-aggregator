@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T19:53:12.329755+00:00",
+  "generatedAt": "2026-10-12T20:01:32.976127+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/b2bb1464-3151-4fba-9095-3fe60f1fb591/AAABoTCd6lY/AAABnSSvrFg/16x9-big/feuerwehrmann-ukraine-100.jpg?width=1920",
       "published": "2026-10-12T16:44:12+02:00",
       "category": "Politik",
-      "score": 102.9,
+      "score": 102.78,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -35,6 +35,18 @@
       }
     },
     {
+      "id": "deutsche-welle-035e8866b211c84d",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "Ukraine und USA in der Krise: Was folgt auf den Diesel-Deal mit Russland?",
+      "link": "https://www.dw.com/de/ukraine-und-usa-in-der-krise-was-folgt-auf-den-diesel-deal-mit-russland/a-79646257?maca=de-rss-de-all-1119-rdf",
+      "summary": "Donald Trump will den Kauf russischen Diesels erlauben, was im In- und Ausland kritisiert wird. Was ist der Grund für die Entscheidung des US-Präsidenten und was soll die Ukraine tun? Die DW hat mit Experten gesprochen.",
+      "image": "https://static.dw.com/image/79626408_6.jpg",
+      "published": "2026-10-12T19:52:00+00:00",
+      "category": "Politik",
+      "score": 84.87
+    },
+    {
       "id": "tagesschau-be7e0527032ad6c4",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -44,7 +56,7 @@
       "image": "https://images.tagesschau.de/image/86cc84bd-f70f-49f1-bf96-9538d9a7c1cc/AAABoTDsiLw/AAABnSSvrFg/16x9-big/kallas-210.jpg?width=1920",
       "published": "2026-10-12T19:01:25+02:00",
       "category": "Politik",
-      "score": 84.61
+      "score": 84.5
     },
     {
       "id": "tagesschau-8c371f190de8fb76",
@@ -56,7 +68,7 @@
       "image": "https://images.tagesschau.de/image/99564836-868b-4c5e-af04-a4d14fe5cb90/AAABoTGpkCE/AAABnSSvrFg/16x9-big/polen-tusk-110.jpg?width=1920",
       "published": "2026-10-12T21:49:18+02:00",
       "category": "Politik",
-      "score": 83.63,
+      "score": 83.51,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -83,7 +95,7 @@
       "image": "https://bilder.deutschlandfunk.de/b2/68/fd/8e/b268fd8e-18b2-459d-9bc4-cc781b5264c8/sitzung-cdu-sachsen-anhalt-schulze-ruland-100-1920x1920.jpg",
       "published": "2026-10-12T21:45:48+02:00",
       "category": "Politik",
-      "score": 82.58,
+      "score": 82.46,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -101,28 +113,6 @@
       }
     },
     {
-      "id": "tagesschau-abefa49aae2af735",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Israel verweigert taz-Korrespondentin die Einreise",
-      "link": "https://www.tagesschau.de/ausland/asien/israel-pressefreiheit-korrespondentin-taz-einreise-verweigert-100.html",
-      "summary": "Offenbar in Verbindung mit ihrer kritischen Berichterstattung verweigert Israel der taz-Journalistin Bilanceri die Einreise. Sie spricht von einer schlechten Nachricht für die Pressefreiheit. Auch israelische Kollegen sind besorgt. Von J.-C. Kitzler. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/86b23b55-c769-417b-87de-aca4d8f31697/AAABoTCuyCQ/AAABnSSvrFg/16x9-big/taz-logo-100.jpg?width=1920",
-      "published": "2026-10-12T18:08:10+02:00",
-      "category": "Politik",
-      "score": 78.9,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Wegen \"Boykott\" - Israel verweigert TAZ-Journalistin Arbeitserlaubnis als Korrespondentin",
-            "link": "https://www.deutschlandfunk.de/israel-verweigert-taz-journalistin-arbeitserlaubnis-als-korrespondentin-100.html"
-          }
-        ]
-      }
-    },
-    {
       "id": "spiegel-759eac29ef992401",
       "source": "spiegel",
       "sourceWeight": 0.95,
@@ -132,17 +122,29 @@
       "image": "https://cdn.prod.www.spiegel.de/images/e099c094-e7e6-419b-be32-ec90b28ef7cb_w1200_r1.778_fpx48_fpy58.jpg",
       "published": "2026-10-12T19:42:00+02:00",
       "category": "Politik",
-      "score": 76.18,
+      "score": 77.83,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "handelsblatt",
-            "title": "+++ Iran-Krieg +++: Premier Burnham: Anschlagspläne auf britische Militärbasis wohl vom Iran gesteuert",
-            "link": "https://www.handelsblatt.com/politik/international/iran-krieg-burnham-iran-hat-anschlagsplaene-auf-militaerbasis-gesteuert/100136895.html"
+            "title": "+++ Iran-Krieg +++: Angriff auf Flughafen Riad – Reiche saß in Saudi-Arabien fest",
+            "link": "https://www.handelsblatt.com/politik/international/iran-krieg-angriff-auf-flughafen-riad-reiche-sass-in-saudi-arabien-fest/100136895.html"
           }
         ]
       }
+    },
+    {
+      "id": "deutschlandfunk-efaff3f3bf8b474b",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Brüchige Waffenruhe - Mindestens zwei Tote bei israelischem Angriff auf Gazastreifen",
+      "link": "https://www.deutschlandfunk.de/mindestens-zwei-tote-bei-israelischem-angriff-auf-gazastreifen-102.html",
+      "summary": "Bei einem israelischen Angriff auf den südlichen Gazastreifen sind nach Angaben von örtlichen Gesundheitsbehörden mindestens zwei Palästinenser getötet worden.",
+      "image": "https://bilder.deutschlandfunk.de/1b/35/6c/6d/1b356c6d-221a-46f2-b647-1ac72a78f2c2/gazastreifen-israelischer-angriff-106-1920x1920.jpg",
+      "published": "2026-10-12T21:45:48+02:00",
+      "category": "Politik",
+      "score": 77.78
     },
     {
       "id": "spiegel-31ac2cc65bb46ef0",
@@ -154,7 +156,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/5d904737-6e89-41ec-ab9b-922f7054f496_w1200_r1.778_fpx40_fpy50.jpg",
       "published": "2026-10-12T18:16:00+02:00",
       "category": "Politik",
-      "score": 74.98,
+      "score": 74.87,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -176,7 +178,7 @@
       "image": "https://bilder.deutschlandfunk.de/97/cd/d0/90/97cdd090-e29f-4e73-b403-25ac57e987ec/britischer-premierminister-burnham-london-100-1280x1280.jpg",
       "published": "2026-10-12T21:45:48+02:00",
       "category": "Nachrichten",
-      "score": 71.58,
+      "score": 71.46,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -194,18 +196,6 @@
       }
     },
     {
-      "id": "deutschlandfunk-873a2cf962b4e687",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Außenministertreffen - EU verhängt neue Sanktionen gegen Russland - Unklarheit über Trumps Ankündigung einer Waffenruhe",
-      "link": "https://www.deutschlandfunk.de/eu-verhaengt-neue-sanktionen-gegen-russland-unklarheit-ueber-trumps-ankuendigung-einer-waffenruhe-104.html",
-      "summary": "Die EU verhängt neue Sanktionen gegen Russland.",
-      "image": "https://bilder.deutschlandfunk.de/80/3d/83/8b/803d838b-3269-4353-980c-c10487f062be/eu-hohe-vertreterin-europaeische-union-kaja-kallas-100-1920x1920.jpg",
-      "published": "2026-10-12T21:45:48+02:00",
-      "category": "Politik",
-      "score": 69.9
-    },
-    {
       "id": "deutsche-welle-fffca7dc26786414",
       "source": "deutsche-welle",
       "sourceWeight": 0.9,
@@ -215,7 +205,7 @@
       "image": "https://static.dw.com/image/78155521_6.jpg",
       "published": "2026-10-12T19:26:00+00:00",
       "category": "Politik",
-      "score": 68.62
+      "score": 68.51
     },
     {
       "id": "handelsblatt-1d2ca9c0f4a1cc6e",
@@ -227,7 +217,7 @@
       "image": "https://images.handelsblatt.com/xuq3v8M8wizj/cover/900/506/0/0/152/151/0.5/0.5/us-abgeordnete-omar.jpg",
       "published": "2026-10-12T18:28:32+00:00",
       "category": "Politik",
-      "score": 67.82
+      "score": 67.71
     },
     {
       "id": "handelsblatt-c29fb4642df081db",
@@ -239,7 +229,7 @@
       "image": "https://images.handelsblatt.com/iHlp6dhGDbto/cover/900/506/0/0/61/147/0.5/0.5/merz-und-wuest.jpg",
       "published": "2026-10-12T18:16:15+00:00",
       "category": "Politik",
-      "score": 67.65
+      "score": 67.54
     },
     {
       "id": "handelsblatt-8c0a1637808e7aa5",
@@ -251,7 +241,7 @@
       "image": "https://images.handelsblatt.com/ozUbE2KnuGwB/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
       "published": "2026-10-12T17:26:35+00:00",
       "category": "Wirtschaft",
-      "score": 66.96
+      "score": 66.85
     },
     {
       "id": "spiegel-96dcbb35b080b8a2",
@@ -263,7 +253,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/ef294cc3-3f43-4e8b-a10b-1b93abb3b311_w1200_r1.778_fpx46_fpy59.jpg",
       "published": "2026-10-12T18:10:00+02:00",
       "category": "Wirtschaft",
-      "score": 66.9,
+      "score": 66.78,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -285,7 +275,7 @@
       "image": "https://static.dw.com/image/79637055_6.jpg",
       "published": "2026-10-12T16:57:00+00:00",
       "category": "Politik",
-      "score": 66.55
+      "score": 66.44
     }
   ]
 }
