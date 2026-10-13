@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T20:01:32.976127+00:00",
+  "generatedAt": "2026-10-13T02:07:28.707674+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,19 +12,19 @@
       "image": "https://images.tagesschau.de/image/b2bb1464-3151-4fba-9095-3fe60f1fb591/AAABoTCd6lY/AAABnSSvrFg/16x9-big/feuerwehrmann-ukraine-100.jpg?width=1920",
       "published": "2026-10-12T16:44:12+02:00",
       "category": "Politik",
-      "score": 102.78,
+      "score": 102.96,
       "coverage": {
         "sourceCount": 4,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "Ukraine-Krieg - Merz und Selenskyj fordern Waffenruhe für Energieanlagen",
-            "link": "https://www.deutschlandfunk.de/merz-und-selenskyj-fordern-waffenruhe-fuer-energieanlagen-100.html"
+            "link": "https://www.deutschlandfunk.de/merz-und-selenskyj-fordern-waffenruhe-fuer-energieanlagen-106.html"
           },
           {
             "source": "handelsblatt",
-            "title": "+++ Ukraine-Krieg +++: Merz und Selenskyj fordern Waffenruhe für Energieanlagen",
-            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-merz-und-selenskyj-fordern-waffenruhe-fuer-energieanlagen/27982126.html"
+            "title": "+++ Ukraine-Krieg +++: Trump verteidigt Diesel-Abkommen mit Russland",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-trump-verteidigt-diesel-abkommen-mit-russland/27982126.html"
           },
           {
             "source": "deutsche-welle",
@@ -33,30 +33,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "deutsche-welle-035e8866b211c84d",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Ukraine und USA in der Krise: Was folgt auf den Diesel-Deal mit Russland?",
-      "link": "https://www.dw.com/de/ukraine-und-usa-in-der-krise-was-folgt-auf-den-diesel-deal-mit-russland/a-79646257?maca=de-rss-de-all-1119-rdf",
-      "summary": "Donald Trump will den Kauf russischen Diesels erlauben, was im In- und Ausland kritisiert wird. Was ist der Grund für die Entscheidung des US-Präsidenten und was soll die Ukraine tun? Die DW hat mit Experten gesprochen.",
-      "image": "https://static.dw.com/image/79626408_6.jpg",
-      "published": "2026-10-12T19:52:00+00:00",
-      "category": "Politik",
-      "score": 84.87
-    },
-    {
-      "id": "tagesschau-be7e0527032ad6c4",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "EU-Außenminister: Sanktionspaket mit willkommener Nebenwirkung",
-      "link": "https://www.tagesschau.de/ausland/europa/eu-neue-sanktionen-russland-102.html",
-      "summary": "Noch nie hat die EU auf einen Schlag so viele Personen und Organisationen wegen des Kriegs gegen die Ukraine auf eine Sanktionsliste gesetzt wie heute. Dass das wie eine Antwort auf Trump wirkt, war nicht geplant, ist aber willkommen. Von K. Schmid. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/86cc84bd-f70f-49f1-bf96-9538d9a7c1cc/AAABoTDsiLw/AAABnSSvrFg/16x9-big/kallas-210.jpg?width=1920",
-      "published": "2026-10-12T19:01:25+02:00",
-      "category": "Politik",
-      "score": 84.5
     },
     {
       "id": "tagesschau-8c371f190de8fb76",
@@ -68,14 +44,14 @@
       "image": "https://images.tagesschau.de/image/99564836-868b-4c5e-af04-a4d14fe5cb90/AAABoTGpkCE/AAABnSSvrFg/16x9-big/polen-tusk-110.jpg?width=1920",
       "published": "2026-10-12T21:49:18+02:00",
       "category": "Politik",
-      "score": 83.51,
+      "score": 83.64,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "Erfolgreiche Fahndung - Nach Brand von Starlink-Anlage in Polen zwei Tatverdächtige in Deutschland festgenommen",
-            "link": "https://www.deutschlandfunk.de/nach-brand-von-starlink-anlage-in-polen-zwei-tatverdaechtige-in-deutschland-festgenommen-100.html"
+            "link": "https://www.deutschlandfunk.de/nach-brand-von-starlink-anlage-in-polen-zwei-tatverdaechtige-in-deutschland-festgenommen-108.html"
           },
           {
             "source": "spiegel",
@@ -86,99 +62,86 @@
       }
     },
     {
-      "id": "deutschlandfunk-a431ae80a10982cc",
+      "id": "handelsblatt-0c4da9b8d0c3289f",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Ukraine-Krieg: Trump: Putin will Deal mehr als Selenskyj",
+      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-trump-putin-will-deal-mehr-als-selenskyj/100261699.html",
+      "summary": "Der ukrainische Staatschef fordert vom US-Präsidenten mehr Druck auf Russland - doch der scheint in dieser Hinsicht keinen Handlungsbedarf zu sehen. Ganz im Gegenteil.",
+      "image": "https://images.handelsblatt.com/SarBRKIr8Fse/cover/900/506/0/0/107/106/0.5/0.5/us-praesident-trump.jpg",
+      "published": "2026-10-12T22:55:35+00:00",
+      "category": "Politik",
+      "score": 82.33
+    },
+    {
+      "id": "deutsche-welle-035e8866b211c84d",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "Ukraine und USA in der Krise: Was folgt auf den Diesel-Deal mit Russland?",
+      "link": "https://www.dw.com/de/ukraine-und-usa-in-der-krise-was-folgt-auf-den-diesel-deal-mit-russland/a-79646257?maca=de-rss-de-all-1119-rdf",
+      "summary": "Donald Trump will den Kauf russischen Diesels erlauben, was im In- und Ausland kritisiert wird. Was ist der Grund für die Entscheidung des US-Präsidenten und was soll die Ukraine tun? Die DW hat mit Experten gesprochen.",
+      "image": "https://static.dw.com/image/79626408_6.jpg",
+      "published": "2026-10-12T19:52:00+00:00",
+      "category": "Politik",
+      "score": 79.79
+    },
+    {
+      "id": "tagesschau-be7e0527032ad6c4",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "EU-Außenminister: Sanktionspaket mit willkommener Nebenwirkung",
+      "link": "https://www.tagesschau.de/ausland/europa/eu-neue-sanktionen-russland-102.html",
+      "summary": "Noch nie hat die EU auf einen Schlag so viele Personen und Organisationen wegen des Kriegs gegen die Ukraine auf eine Sanktionsliste gesetzt wie heute. Dass das wie eine Antwort auf Trump wirkt, war nicht geplant, ist aber willkommen. Von K. Schmid. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/86cc84bd-f70f-49f1-bf96-9538d9a7c1cc/AAABoTDsiLw/AAABnSSvrFg/16x9-big/kallas-210.jpg?width=1920",
+      "published": "2026-10-12T19:01:25+02:00",
+      "category": "Politik",
+      "score": 79.42
+    },
+    {
+      "id": "golem-6ff879ea8a4cefd1",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Angriffe auf russische Raffinerien: USA drohen Ukraine mit Stopp von Geheimdienstinfos",
+      "link": "https://www.golem.de/news/angriffe-auf-russische-raffinerien-usa-drohen-ukraine-mit-stopp-von-geheimdienstinfos-2610-213993.html",
+      "summary": "US-Präsident Trump will vor den US-Zwischenwahlen den hohen Dieselpreis drücken. Dabei kooperiert er mit Russland und droht der Ukraine. ( Ukrainekrieg , Politik )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213993&amp;page=1&amp;ts=1791798541",
+      "published": "2026-10-12T11:49:01+02:00",
+      "category": "Politik",
+      "score": 78.41
+    },
+    {
+      "id": "deutschlandfunk-95d33d65b4dd92d3",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Sachsen-Anhalt - Verlässt die CDU bei der Ministerpräsidentenwahl den Saal?",
-      "link": "https://www.deutschlandfunk.de/verlaesst-die-cdu-bei-der-ministerpraesidentenwahl-den-saal-100.html",
-      "summary": "Die CDU in Sachsen-Anhalt will dem Verdacht aus dem Weg gehen, aus ihren Reihen könnte es bei der Ministerpräsidentenwahl Stimmen für die AfD geben. Der geschäftsführende Vorstand der Landtagsfraktion schlägt als Lösung vor, dass die 15 Abgeordneten der CDU vor der Abstimmung geschlossen den Saal verlassen.",
+      "title": "Bei Ministerpräsidentenwahl - Aus Angst vor heimlichen AfD-Stimmen: CDU Sachsen-Anhalt erwägt, Plenarsaal zu verlassen",
+      "link": "https://www.deutschlandfunk.de/aus-angst-vor-heimlichen-afd-stimmen-cdu-sachsen-anhalt-erwaegt-plenarsaal-zu-verlassen-100.html",
+      "summary": "In der CDU Sachsen-Anhalt gibt es Überlegungen, vor der Ministerpräsidentenwahl im Dezember geschlossen den Plenarsaal zu verlassen.",
       "image": "https://bilder.deutschlandfunk.de/b2/68/fd/8e/b268fd8e-18b2-459d-9bc4-cc781b5264c8/sitzung-cdu-sachsen-anhalt-schulze-ruland-100-1920x1920.jpg",
-      "published": "2026-10-12T21:45:48+02:00",
+      "published": "2026-10-13T04:04:53+02:00",
       "category": "Politik",
-      "score": 82.46,
+      "score": 77.96,
       "coverage": {
-        "sourceCount": 3,
+        "sourceCount": 2,
         "others": [
           {
             "source": "spiegel",
             "title": "Sachsen-Anhalt: CDU-Politiker empfehlen Fraktion, bei Ministerpräsidentenwahl geschlossen den Saal zu verlassen",
             "link": "https://www.spiegel.de/politik/sachsen-anhalt-cdu-politiker-empfehlen-fraktion-bei-ministerpraesidentenwahl-geschlossen-den-saal-zu-verlassen-a-67c19d5b-92f8-46ee-bee5-df43df9a3784#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Landtag Sachsen-Anhalt: Verlässt die CDU bei der Ministerpräsidentenwahl den Saal?",
-            "link": "https://www.handelsblatt.com/politik/deutschland/landtag-sachsen-anhalt-verlaesst-die-cdu-bei-der-ministerpraesidentenwahl-den-saal/100261656.html"
           }
         ]
       }
     },
     {
-      "id": "spiegel-759eac29ef992401",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Iran reklamiert Angriff auf Supertanker in Straße von Hormus",
-      "link": "https://www.spiegel.de/ausland/iran-reklamiert-angriff-auf-supertanker-in-strasse-von-hormus-a-62b40ff1-a3ed-4c9f-b867-2cd01342139b#ref=rss",
-      "summary": "Zum dritten Mal innerhalb von zwei Tagen hat Iran offenbar Tanker in der Straße von Hormus angegriffen. Die Trump-Regierung muss derweil die Zahl ihrer toten Soldaten im Nahen Osten nach oben korrigieren.",
-      "image": "https://cdn.prod.www.spiegel.de/images/e099c094-e7e6-419b-be32-ec90b28ef7cb_w1200_r1.778_fpx48_fpy58.jpg",
-      "published": "2026-10-12T19:42:00+02:00",
-      "category": "Politik",
-      "score": 77.83,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "+++ Iran-Krieg +++: Angriff auf Flughafen Riad – Reiche saß in Saudi-Arabien fest",
-            "link": "https://www.handelsblatt.com/politik/international/iran-krieg-angriff-auf-flughafen-riad-reiche-sass-in-saudi-arabien-fest/100136895.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-efaff3f3bf8b474b",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Brüchige Waffenruhe - Mindestens zwei Tote bei israelischem Angriff auf Gazastreifen",
-      "link": "https://www.deutschlandfunk.de/mindestens-zwei-tote-bei-israelischem-angriff-auf-gazastreifen-102.html",
-      "summary": "Bei einem israelischen Angriff auf den südlichen Gazastreifen sind nach Angaben von örtlichen Gesundheitsbehörden mindestens zwei Palästinenser getötet worden.",
-      "image": "https://bilder.deutschlandfunk.de/1b/35/6c/6d/1b356c6d-221a-46f2-b647-1ac72a78f2c2/gazastreifen-israelischer-angriff-106-1920x1920.jpg",
-      "published": "2026-10-12T21:45:48+02:00",
-      "category": "Politik",
-      "score": 77.78
-    },
-    {
-      "id": "spiegel-31ac2cc65bb46ef0",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Midterms in den USA: Elon Musk ist größter bekannter Spender bei den US-Zwischenwahlen",
-      "link": "https://www.spiegel.de/ausland/midterms-in-den-usa-elon-musk-ist-groesster-bekannter-spender-bei-den-us-zwischenwahlen-a-d3fb69ac-47da-4ef5-9bc7-8fc67bdd601c#ref=rss",
-      "summary": "Eigentlich wollte sich Elon Musk aus der Politik zurückziehen. Das mag für Ämter stimmen, nicht aber für sein finanzielles Engagement. Der Milliardär hat im laufenden Wahlkampf 276 Millionen US-Dollar an die Republikaner überwiesen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/5d904737-6e89-41ec-ab9b-922f7054f496_w1200_r1.778_fpx40_fpy50.jpg",
-      "published": "2026-10-12T18:16:00+02:00",
-      "category": "Politik",
-      "score": 74.87,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "+++ USA +++: 276 Millionen Dollar – Musk ist der wichtigste Geldgeber für Trumps Republikaner",
-            "link": "https://www.handelsblatt.com/politik/international/usa-musk-ist-der-wichtigste-geldgeber-fuer-die-republikaner/29669594.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-c9fc4675b51e1aa1",
+      "id": "deutschlandfunk-9e963344b3ac2f50",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
       "title": "Großbritannien - Burnham: Iran wohl verantwortlich für Militärbasis-Vorfall",
-      "link": "https://www.deutschlandfunk.de/burnham-iran-wohl-verantwortlich-fuer-militaerbasis-vorfall-100.html",
+      "link": "https://www.deutschlandfunk.de/burnham-iran-wohl-verantwortlich-fuer-militaerbasis-vorfall-108.html",
       "summary": "Hinter dem Vorfall bei einer US-Militärbasis in England steckt nach Ansicht des britischen Premiers Burnham mit sehr hoher Wahrscheinlichkeit der Iran.",
       "image": "https://bilder.deutschlandfunk.de/97/cd/d0/90/97cdd090-e29f-4e73-b403-25ac57e987ec/britischer-premierminister-burnham-london-100-1280x1280.jpg",
-      "published": "2026-10-12T21:45:48+02:00",
+      "published": "2026-10-13T04:04:53+02:00",
       "category": "Nachrichten",
-      "score": 71.46,
+      "score": 71.64,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -196,16 +159,28 @@
       }
     },
     {
-      "id": "deutsche-welle-fffca7dc26786414",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Geheimdienste: Ist die geplante Reform verfassungskonform?",
-      "link": "https://www.dw.com/de/geheimdienste-ist-die-geplante-reform-verfassungskonform/a-79645444?maca=de-rss-de-all-1119-rdf",
-      "summary": "Viele Experten warnen davor, die Trennlinien zwischen Polizei und Geheimdiensten aufzuweichen. Nur wenige haben bei einer Anhörung im Bundestag kein Problem damit.",
-      "image": "https://static.dw.com/image/78155521_6.jpg",
-      "published": "2026-10-12T19:26:00+00:00",
+      "id": "deutschlandfunk-0934926105252563",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Bundestag - Blaulicht-Protest in Berlin: Retter warnen vor Notfallreform",
+      "link": "https://www.deutschlandfunk.de/blaulicht-protest-in-berlin-retter-warnen-vor-notfallreform-100.html",
+      "summary": "Hilfsorganisationen im Zivil- und Katastrophenschutz wollen heute mit Rettungshubschraubern und Rettungswagen zum Brandenburger Tor in Berlin kommen.",
+      "image": null,
+      "published": "2026-10-13T04:04:53+02:00",
       "category": "Politik",
-      "score": 68.51
+      "score": 69.96
+    },
+    {
+      "id": "handelsblatt-72727707a1f9a0c7",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Interview: „Der Fall lässt Partner an der Integrität des BND zweifeln“",
+      "link": "https://www.handelsblatt.com/politik/deutschland/interview-der-fall-laesst-partner-an-der-integritaet-des-bnd-zweifeln/100260980.html",
+      "summary": "Spionagevorwürfe belasten das Vertrauen in den BND. Geheimdienstexperte Luca Manns spricht im Interview über die BND-Krise und die Folgen für die Kooperation mit anderen Geheimdiensten.",
+      "image": "https://images.handelsblatt.com/2Leg0A-24DDd/cover/900/506/0/0/313/312/0.5/0.5/zentrale-des-bnd-in-berlin.jpg",
+      "published": "2026-10-13T02:00:47+00:00",
+      "category": "Wirtschaft",
+      "score": 68.91
     },
     {
       "id": "handelsblatt-1d2ca9c0f4a1cc6e",
@@ -215,33 +190,45 @@
       "link": "https://www.handelsblatt.com/politik/international/us-kongress-einschuechterung-durchsuchung-bei-us-abgeordneter-omar/100261654.html",
       "summary": "Die Abgeordnete Omar aus Minneapolis sitzt seit 2019 im US-Kongress - und tritt auch bei den Zwischenwahlen in drei Wochen wieder an. Nun gab es Durchsuchungen bei ihr. Worum geht es?",
       "image": "https://images.handelsblatt.com/xuq3v8M8wizj/cover/900/506/0/0/152/151/0.5/0.5/us-abgeordnete-omar.jpg",
-      "published": "2026-10-12T18:28:32+00:00",
+      "published": "2026-10-12T21:21:08+00:00",
       "category": "Politik",
-      "score": 67.71
+      "score": 65.02
     },
     {
-      "id": "handelsblatt-c29fb4642df081db",
-      "source": "handelsblatt",
+      "id": "deutsche-welle-fffca7dc26786414",
+      "source": "deutsche-welle",
       "sourceWeight": 0.9,
-      "title": "Kommentar: Fünf magere Seiten bleiben vom angedrohten Aufstand gegen Merz",
-      "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-fuenf-magere-seiten-bleiben-vom-angedrohten-aufstand-gegen-merz/100261642.html",
-      "summary": "Die CDU-Ministerpräsidenten wollten nach den Wahlniederlagen in Ostdeutschland in Berlin eine Kurskorrektur durchdrücken. Doch weder das Personal ändert sich noch die Politik der Regierung.",
-      "image": "https://images.handelsblatt.com/iHlp6dhGDbto/cover/900/506/0/0/61/147/0.5/0.5/merz-und-wuest.jpg",
-      "published": "2026-10-12T18:16:15+00:00",
+      "title": "Geheimdienste: Ist die geplante Reform verfassungskonform?",
+      "link": "https://www.dw.com/de/geheimdienste-ist-die-geplante-reform-verfassungskonform/a-79645444?maca=de-rss-de-all-1119-rdf",
+      "summary": "Viele Experten warnen davor, die Trennlinien zwischen Polizei und Geheimdiensten aufzuweichen. Nur wenige haben bei einer Anhörung im Bundestag kein Problem damit.",
+      "image": "https://static.dw.com/image/78155521_6.jpg",
+      "published": "2026-10-12T19:26:00+00:00",
       "category": "Politik",
-      "score": 67.54
+      "score": 63.42
     },
     {
-      "id": "handelsblatt-8c0a1637808e7aa5",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Handelsblatt Live: US-Börsenexperte Koch: „Die Messlatte für die Banken hängt ein bisschen niedriger als sonst“",
-      "link": "https://www.handelsblatt.com/video/finanzen/handelsblatt-live-us-boersenexperte-koch-die-messlatte-fuer-die-banken-haengt-ein-bisschen-niedriger-als-sonst/100261662.html",
-      "summary": "Im Wochenverlauf stehen US-Inflationsdaten und die Quartalszahlen mehrerer Großbanken an. Markus Koch analysiert das Börsengeschehen zum Auftakt einer Woche mit „vielen Ereignissen, die für die Wall Street entscheidend sein werden“.",
-      "image": "https://images.handelsblatt.com/ozUbE2KnuGwB/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
-      "published": "2026-10-12T17:26:35+00:00",
-      "category": "Wirtschaft",
-      "score": 66.85
+      "id": "spiegel-759eac29ef992401",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Iran reklamiert Angriff auf Supertanker in Straße von Hormus",
+      "link": "https://www.spiegel.de/ausland/iran-reklamiert-angriff-auf-supertanker-in-strasse-von-hormus-a-62b40ff1-a3ed-4c9f-b867-2cd01342139b#ref=rss",
+      "summary": "Zum dritten Mal innerhalb von zwei Tagen hat Iran offenbar Tanker in der Straße von Hormus angegriffen. Die Trump-Regierung muss derweil die Zahl ihrer toten Soldaten im Nahen Osten nach oben korrigieren.",
+      "image": "https://cdn.prod.www.spiegel.de/images/e099c094-e7e6-419b-be32-ec90b28ef7cb_w1200_r1.778_fpx48_fpy58.jpg",
+      "published": "2026-10-12T19:42:00+02:00",
+      "category": "Politik",
+      "score": 62.98
+    },
+    {
+      "id": "spiegel-31ac2cc65bb46ef0",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Midterms in den USA: Elon Musk ist größter bekannter Spender bei den US-Zwischenwahlen",
+      "link": "https://www.spiegel.de/ausland/midterms-in-den-usa-elon-musk-ist-groesster-bekannter-spender-bei-den-us-zwischenwahlen-a-d3fb69ac-47da-4ef5-9bc7-8fc67bdd601c#ref=rss",
+      "summary": "Eigentlich wollte sich Elon Musk aus der Politik zurückziehen. Das mag für Ämter stimmen, nicht aber für sein finanzielles Engagement. Der Milliardär hat im laufenden Wahlkampf 276 Millionen US-Dollar an die Republikaner überwiesen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/5d904737-6e89-41ec-ab9b-922f7054f496_w1200_r1.778_fpx40_fpy50.jpg",
+      "published": "2026-10-12T18:16:00+02:00",
+      "category": "Politik",
+      "score": 61.79
     },
     {
       "id": "spiegel-96dcbb35b080b8a2",
@@ -253,7 +240,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/ef294cc3-3f43-4e8b-a10b-1b93abb3b311_w1200_r1.778_fpx46_fpy59.jpg",
       "published": "2026-10-12T18:10:00+02:00",
       "category": "Wirtschaft",
-      "score": 66.78,
+      "score": 61.7,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -264,18 +251,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "deutsche-welle-bb4d887ea01372e4",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Zwei Krisen, eine Koalition: Was Bas' Rücktritt und die CDU-Neuaufstellung für Schwarz-Rot bedeuten",
-      "link": "https://www.dw.com/de/zwei-krisen-eine-koalition-was-bas-rücktritt-und-die-cdu-neuaufstellung-für-schwarz-rot-bedeuten/a-79645182?maca=de-rss-de-all-1119-rdf",
-      "summary": "In der Koalition liegen die Nerven blank. Der Rücktritt von Arbeitsministerin Bärbel Bas verschärft die Krise, doch Union und SPD sehen derzeit keinen anderen Weg als gemeinsam weiter zu regieren.",
-      "image": "https://static.dw.com/image/79637055_6.jpg",
-      "published": "2026-10-12T16:57:00+00:00",
-      "category": "Politik",
-      "score": 66.44
     }
   ]
 }
