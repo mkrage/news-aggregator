@@ -1,18 +1,52 @@
 {
-  "generatedAt": "2026-10-15T15:22:45.872194+00:00",
+  "generatedAt": "2026-10-15T18:24:37.106392+00:00",
   "count": 15,
   "articles": [
     {
-      "id": "deutsche-welle-9de2c5a95e803965",
-      "source": "deutsche-welle",
+      "id": "handelsblatt-ac1a161e55089560",
+      "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Starlink: Eine Weltraumfirma beeinflusst die Geopolitik",
-      "link": "https://www.dw.com/de/starlink-eine-weltraumfirma-beeinflusst-die-geopolitik/a-75932968?maca=de-rss-de-all-1119-rdf",
-      "summary": "Elon Musks Starlink hat sich zu einem wichtigen Kommunikationsmittel in Kriegs- und Krisengebieten entwickelt. In der Ukraine zeigt sich jedoch auch, welche Abhängigkeiten daraus entstehen können. Ein Überblick.",
-      "image": "https://static.dw.com/image/79647469_6.jpg",
-      "published": "2026-10-15T13:04:00+00:00",
+      "title": "Trump-Watch: Diesel-Deal mit Putin und ein Botschafter-Problem: Trump-News der Woche",
+      "link": "https://www.handelsblatt.com/audio/trump-watch-podcast/trump-watch-diesel-deal-mit-putin-und-ein-botschafter-problem-trump-news-der-woche/100262643.html",
+      "summary": "Die Inflation in den USA steigt und erhöht den Druck vor den Zwischenwahlen. Der US-Präsident setzt Diesel-Sanktionen gegen Russland aus und die Ukraine unter Druck.",
+      "image": "https://images.handelsblatt.com/ajuKMP7NmADk/cover/900/506/0/0/210/1103/0.5/0.5/cover-podcast-trump-watch.jpg",
+      "published": "2026-10-15T15:58:26+00:00",
       "category": "Politik",
-      "score": 83.07
+      "score": 90.97
+    },
+    {
+      "id": "spiegel-0654d3b83417c3fe",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Donald Trump verrät die Ukraine. So kann sich Europa wehren",
+      "link": "https://www.spiegel.de/ausland/donald-trump-verraet-die-ukraine-so-kann-sich-europa-wehren-a-754002ed-3439-4801-903d-9aca7b18b1f7#ref=rss",
+      "summary": "Donald Trump will die Ukraine für seinen verkorksten Irankrieg bezahlen lassen. Aber die Europäer haben Hebel, die sie endlich nutzen sollten.",
+      "image": "https://cdn.prod.www.spiegel.de/images/039db86c-45b3-4f04-8427-f59b4f791f3f_w1200_r1.778_fpx64_fpy23.jpg",
+      "published": "2026-10-15T19:52:00+02:00",
+      "category": "Politik",
+      "score": 85.55
+    },
+    {
+      "id": "tagesschau-a9e80f6c2fa7ce5f",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Krieg gegen die Ukraine: Sorge vor dem Winter, Hoffen auf EU-Hilfe",
+      "link": "https://www.tagesschau.de/ausland/europa/ukraine-krieg-russland-288.html",
+      "summary": "Russlands Angriffe auf Energieanlagen bringen die Menschen in der Ukraine in Not. Ohne Strom und Wasser wächst die Sorge vor dem Winter. Präsident Selenskyj ringt um mehr Unterstützung aus Europa. Von Rebecca Barth. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/93d5491b-792f-4b81-bb76-7c4b73078e8d/AAABoT4RSuQ/AAABnSSvrFg/16x9-big/kiew-570.jpg?width=1920",
+      "published": "2026-10-15T08:01:26+02:00",
+      "category": "Politik",
+      "score": 84.14,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Angriffe auf Energieanlagen: Ukraine attackiert wieder Ölraffinerien - Russland gelassen",
+            "link": "https://www.handelsblatt.com/politik/international/angriffe-auf-energieanlagen-ukraine-attackiert-wieder-oelraffinerien-russland-gelassen/100262433.html"
+          }
+        ]
+      }
     },
     {
       "id": "deutschlandfunk-82bf9fd6f36dfdc2",
@@ -22,9 +56,9 @@
       "link": "https://www.deutschlandfunk.de/hinrichtung-in-den-usa-soll-doch-nicht-live-uebertragen-werden-100.html",
       "summary": "US-Präsident Trump hat die umstrittenen Pläne zurückgenommen, die Hinrichtung eines verurteilten Attentäters live zu übertragen.",
       "image": "https://bilder.deutschlandfunk.de/2c/84/e0/69/2c84e069-3e06-4fe8-96f5-6d3ed15b2cb8/donald-trump-us-praesident-108-1920x1920.jpg",
-      "published": "2026-10-15T17:10:07+02:00",
+      "published": "2026-10-15T20:17:52+02:00",
       "category": "Politik",
-      "score": 82.5,
+      "score": 82.59,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -42,16 +76,16 @@
       }
     },
     {
-      "id": "tagesschau-5a3e9850fe149866",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Schwere Schäden nach Unwetter auf Rhodos",
-      "link": "https://www.tagesschau.de/ausland/europa/rhodos-unwetter-100.html",
-      "summary": "Bei heftigen Regenfällen und Sturm auf der griechischen Insel Rhodos ist mindestens ein Mensch gestorben. Autos wurden ins Meer gespült, Straßen sind überflutet. Das Ausmaß der Schäden wird nur langsam sichtbar. Von Jasper Riemann. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/541dd9cf-4279-48d7-ac93-343475772caf/AAABoT97vjU/AAABnSSvrFg/16x9-big/rhodos-kueste-autos-100.jpg?width=1920",
-      "published": "2026-10-15T12:45:23+02:00",
-      "category": "Nachrichten",
-      "score": 80.15
+      "id": "deutsche-welle-9de2c5a95e803965",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "Starlink: Eine Weltraumfirma beeinflusst die Geopolitik",
+      "link": "https://www.dw.com/de/starlink-eine-weltraumfirma-beeinflusst-die-geopolitik/a-75932968?maca=de-rss-de-all-1119-rdf",
+      "summary": "Elon Musks Starlink hat sich zu einem wichtigen Kommunikationsmittel in Kriegs- und Krisengebieten entwickelt. In der Ukraine zeigt sich jedoch auch, welche Abhängigkeiten daraus entstehen können. Ein Überblick.",
+      "image": "https://static.dw.com/image/79647469_6.jpg",
+      "published": "2026-10-15T13:04:00+00:00",
+      "category": "Politik",
+      "score": 80.55
     },
     {
       "id": "tagesschau-308da27c521a55f0",
@@ -63,7 +97,7 @@
       "image": "https://images.tagesschau.de/image/eee0b621-0a3f-4209-9639-423c43a95784/AAABoT8c_KQ/AAABnSSvrFg/16x9-big/notaufnahme-240.jpg?width=1920",
       "published": "2026-10-15T10:32:37+02:00",
       "category": "Politik",
-      "score": 78.82,
+      "score": 78.91,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -76,6 +110,28 @@
       }
     },
     {
+      "id": "tagesschau-4773122c40155311",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Das sind die Pläne für den Ausweis auf dem Smartphone",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/digitaler-personalausweis-100.html",
+      "summary": "Die Brieftasche soll digital werden: Der Bundestag hat neue Regelungen für Pässe und Ausweise auf den Weg gebracht. So kann künftig der Personalausweis auf dem Smartphone hinterlegt werden. Älteren Menschen sollen Behördengänge erspart bleiben.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/868ebb62-8fbc-4aac-ba68-c12f90284a1b/AAABoUBAi6Q/AAABnSSvrFg/16x9-big/smartphone-d-you-app-100.jpg?width=1920",
+      "published": "2026-10-15T17:53:10+02:00",
+      "category": "Politik",
+      "score": 78.91,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Digitalisierung - Bundestag stimmt digitaler Brieftasche zu",
+            "link": "https://www.deutschlandfunk.de/bundestag-stimmt-digitaler-brieftasche-zu-100.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "deutschlandfunk-082756d92394f271",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
@@ -83,43 +139,70 @@
       "link": "https://www.deutschlandfunk.de/botschafter-makeiev-schlagkraft-des-ukrainischen-militaers-stark-eingeschraenkt-100.html",
       "summary": "Der ukrainische Botschafter in Deutschland, Makeiev, hat sich besorgt über die Drosselung des US-Satellitensystems Starlink in der Ukraine geäußert.",
       "image": "https://bilder.deutschlandfunk.de/93/6f/dd/72/936fdd72-1bc6-4a09-87ce-0094091f6183/makeiev-100-1920x1920.jpg",
-      "published": "2026-10-15T17:10:07+02:00",
+      "published": "2026-10-15T20:17:52+02:00",
       "category": "Politik",
-      "score": 77.82
+      "score": 77.91
     },
     {
-      "id": "deutschlandfunk-b414bc9cdb7f0fd1",
-      "source": "deutschlandfunk",
+      "id": "spiegel-23a060e6061c80a9",
+      "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Digitalisierung - Bundestag stimmt digitaler Brieftasche zu",
-      "link": "https://www.deutschlandfunk.de/bundestag-stimmt-digitaler-brieftasche-zu-100.html",
-      "summary": "Der Bundestag hat Neuerungen für Personalausweis und Pass auf den Weg gebracht.",
-      "image": "https://bilder.deutschlandfunk.de/NO/VA/_2/a2/NOVA_2a2ed70f2080cb645e4fd04fc6c6321e/craft-12169451-asset-100-1920x1920.jpg",
-      "published": "2026-10-15T17:10:07+02:00",
+      "title": "News des Tages: Ukrainekrieg, Fifa und DFB, Tabaksteuer",
+      "link": "https://www.spiegel.de/politik/deutschland/news-des-tages-ukrainekrieg-fifa-und-dfb-tabaksteuer-a-a5ba86cf-d688-42a5-aba2-5b1333527734#ref=rss",
+      "summary": "Musks Firma Starlink macht es der Ukraine offenbar schwerer, sich zu verteidigen. Gianni Infantino entschuldigt sich. Und der Ex-Mann von Baerbock soll bei den Grünen für eine Tabakfirma lobbyiert haben. Das ist die Lage am Donnerstagabend.",
+      "image": "https://cdn.prod.www.spiegel.de/images/0fb372c3-843d-4dc6-a445-e7c34c92f75c_w1200_r1.778_fpx28.09_fpy49.93.png",
+      "published": "2026-10-15T17:49:00+02:00",
       "category": "Politik",
-      "score": 77.82,
+      "score": 75.84
+    },
+    {
+      "id": "heise-b845e55fa4508687",
+      "source": "heise",
+      "sourceWeight": 0.9,
+      "title": "AEG will der Midea PortaSplit Konkurrenz machen",
+      "link": "https://www.heise.de/news/AEG-will-der-Midea-PortaSplit-Konkurrenz-machen-11489814.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
+      "summary": "Ab 2027 haben Hitzegeplagte mehr Auswahl bei mobilen Split-Klimaanlagen. Von AEG kommt die Roomovi, die der PortaSplit ähnelt.",
+      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/8/3/6/3/8/Screenshot_2026-10-15_174912-67a5d19f3b22a211.jpeg",
+      "published": "2026-10-15T18:19:00+02:00",
+      "category": "Politik",
+      "score": 75.26,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "handelsblatt",
-            "title": "Digitalisierung: Bundestag beschließt Neuerungen für Personalausweis und Pass",
-            "link": "https://www.handelsblatt.com/politik/deutschland/digitalisierung-bundestag-beschliesst-neuerungen-fuer-personalausweis-und-pass/100262593.html"
+            "source": "golem",
+            "title": "Mobile Klimaanlage: AEG Roomovi fordert die Portasplit heraus",
+            "link": "https://www.golem.de/news/mobile-klimaanlage-aeg-roomovi-fordert-die-portasplit-heraus-2610-214129.html"
           }
         ]
       }
     },
     {
-      "id": "handelsblatt-620c8db4b3755128",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Angriffe auf Energieanlagen: Ukraine attackiert wieder Ölraffinerien - Russland gelassen",
-      "link": "https://www.handelsblatt.com/politik/international/angriffe-auf-energieanlagen-ukraine-attackiert-wieder-oelraffinerien-russland-gelassen/100262433.html",
-      "summary": "Die Ukraine fühlt sich von den USA im Stich gelassen, während Russland seine Angriffe intensiviert. Selenskyj will sich nicht in Zurückhaltung üben - Moskau spricht von einem Affront gegenüber Trump.",
-      "image": "https://images.handelsblatt.com/GifcqAUWSG5o/cover/900/506/0/0/107/106/0.5/0.5/ukraines-praesident-selenskyj-in-grossbritannien.jpg",
-      "published": "2026-10-15T14:58:31+00:00",
+      "id": "deutschlandfunk-52b95e4932b7829f",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Ausschreitungen - Proteste gegen Regierung in Albanien weiten sich aus",
+      "link": "https://www.deutschlandfunk.de/proteste-gegen-regierung-in-albanien-weiten-sich-aus-100.html",
+      "summary": "In Albanien haben sich die Proteste gegen schlechte Zustände an den Hochschulen und gegen die Regierung ausgeweitet.",
+      "image": "https://bilder.deutschlandfunk.de/c6/c9/2c/30/c6c92c30-67a2-4c37-a3a6-d26db6c393e9/proteste-albanien-tirana-100-1920x1920.jpg",
+      "published": "2026-10-15T20:17:52+02:00",
       "category": "Politik",
-      "score": 76.66
+      "score": 74.59,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Unruhen: Proteste gegen Regierung in Albanien weiten sich aus",
+            "link": "https://www.handelsblatt.com/politik/international/unruhen-proteste-gegen-regierung-in-albanien-weiten-sich-aus/100262554.html"
+          },
+          {
+            "source": "deutsche-welle",
+            "title": "Albanien: Proteste gegen Regierung weiten sich aus",
+            "link": "https://www.dw.com/de/albanien-proteste-gegen-regierung-weiten-sich-aus/a-79671388?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
     },
     {
       "id": "handelsblatt-e34207964005e5de",
@@ -131,63 +214,7 @@
       "image": "https://images.handelsblatt.com/YmDBTMQWPmQa/cover/900/506/0/0/0/521/0.5/0.5/ukrainian-drone-units-are-on-duty-at-the-front-lines-in-donetsk-region-donetsk-region-ukraine-oct.jpg",
       "published": "2026-10-15T14:27:46+00:00",
       "category": "Politik",
-      "score": 76.24
-    },
-    {
-      "id": "tagesschau-e335e101369a99ce",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Brustkrebs: Mammografie-Screening künftig bereits ab 45 Jahren",
-      "link": "https://www.tagesschau.de/wissen/gesundheit/mammografie-ab-45-100.html",
-      "summary": "Bisher zahlen die Krankenkassen ein Mammografie-Screening zur Früherkennung von Brustkrebs bei Frauen erst ab einem Alter von 50 Jahren. Das soll sich nun ändern. Die geplante Neuregelung könnte im Sommer 2027 in Kraft treten.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/1a184ff7-f604-4b9c-82f3-e2afb2926bcd/AAABletAy4Y/AAABnSSvrFg/16x9-big/mammographie-102.jpg?width=1920",
-      "published": "2026-10-15T15:47:58+02:00",
-      "category": "Nachrichten",
-      "score": 75.82,
-      "coverage": {
-        "sourceCount": 4,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Mammografie-Screening - Altersgrenze für Brustkrebs-Früherkennung wird auf 45 Jahre herabgesetzt",
-            "link": "https://www.deutschlandfunk.de/altersgrenze-fuer-brustkrebs-frueherkennung-wird-auf-45-jahre-herabgesetzt-100.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Brustkrebs-Früherkennung: Mammografie-Screening ist künftig ab 45 Jahren kostenlos möglich",
-            "link": "https://www.spiegel.de/gesundheit/diagnose/brustkrebs-frueherkennung-mammografie-screening-ist-kuenftig-ab-45-jahren-kostenlos-moeglich-a-6881fefb-fd80-4379-8885-225a290979bf#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Krankenkassen: Brustkrebs-Früherkennung schon ab 45 Jahren",
-            "link": "https://www.handelsblatt.com/technik/forschung-innovation/krankenkassen-brustkrebs-frueherkennung-schon-ab-45-jahren/100262594.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-a045343aca1d74b2",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg: So abhängig ist Kyjiw wirklich von den USA",
-      "link": "https://www.spiegel.de/ausland/ukraine-wie-abhaengig-ist-kyjiw-wirklich-von-us-satelliten-und-amerikanischen-geheimdienstinformationen-a-86700c9e-a778-4b01-9e2b-20e3dd56b081#ref=rss",
-      "summary": "Mal läuft Starlink, mal nicht: Amerikanische Satelliten und Geheimdienstinformationen sind zentral für die Verteidigung gegen russische Angriffe. Wo Ukrainer und Europäer aufgeholt haben und wo sie hinterherhinken.",
-      "image": "https://cdn.prod.www.spiegel.de/images/14aba7e2-3154-49cb-8482-b00fcab2f8ac_w1200_r1.778_fpx33_fpy38.jpg",
-      "published": "2026-10-15T14:10:00+02:00",
-      "category": "Politik",
-      "score": 75.32
-    },
-    {
-      "id": "spiegel-e369d7feb3eda21d",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ukraine: Friedrich Merz will russisches Vermögen nicht in die USA überführen",
-      "link": "https://www.spiegel.de/ausland/ukraine-friedrich-merz-will-russisches-vermoegen-nicht-in-die-usa-ueberfuehren-a-e74d7a84-b7ca-4ccf-8282-b98d3b8340ce#ref=rss",
-      "summary": "Bundeskanzler Friedrich Merz will beschlagnahmtes Vermögen aus Russland nicht mit den USA teilen. Zugleich wirbt er dafür, die Ukraine weiter oder sogar noch stärker zu unterstützen. Doch längst nicht alle in Europa denken so.",
-      "image": "https://cdn.prod.www.spiegel.de/images/97c0ab30-ab45-4d47-bcbf-fdf5ae34833a_w1200_r1.778_fpx54.74_fpy49.86.jpg",
-      "published": "2026-10-15T15:01:00+02:00",
-      "category": "Politik",
-      "score": 68.03
+      "score": 73.71
     },
     {
       "id": "golem-d06347d730218719",
@@ -199,7 +226,19 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214140&amp;page=1&amp;ts=1792075022",
       "published": "2026-10-15T16:37:02+02:00",
       "category": "Politik",
-      "score": 67.36
+      "score": 64.84
+    },
+    {
+      "id": "netzpolitik-2a9ba9620d0e9fd1",
+      "source": "netzpolitik",
+      "sourceWeight": 0.75,
+      "title": "Digitale Identitätengesetz verabschiedet: Schwuppdiwupp, die digitale Brieftasche kommt",
+      "link": "https://netzpolitik.org/2026/digitale-identitaetengesetz-verabschiedet-schwuppdiwupp-die-digitale-brieftasche-kommt/",
+      "summary": "Wenige Funktionen, kaum Kontrolle und schwacher Datenschutz: Der Bundestag hat heute das Digitale Identitätengesetz beschlossen. In einer Schrumpfversion soll die digitale Brieftasche „d‑you“ in wenigen Wochen starten. Markus Reichel, Wallet-Berichterstatter der Unionsfraktion, warb heute im Bundestag für das Digitale Identitätengesetz. – Alle Rechte vorbehalten: bundestag.de Der Bundestag hat heute mit Mehrheit von Union und SPD das Digitale Identitätengesetz beschlossen. Damit ist die rechtliche Grundlage für die Einführung der digitalen Brieftasche „d‑you“ zum 2. Januar 2027 gelegt. In der Smartphone-App sollen Bürger:innen künftig digitale Ausweisdokumente, Zeugnisse und Hotelreservierungen ablegen können. Zunächst startet d‑you mit weit weniger Funktionen als geplant: Zu Beginn soll nur die Ausweisfunktion verfügbar sein, später sollen Führerschein und ein biometrisches Passfoto folgen. Erst danach sollen schrittweise Funktionen hinzukommen, die für mehr Sicherheit sowie Verbraucher- und Datenschutz sorgen sollen. Dazu zählen unter anderem pseudonyme Logins, Zero-Knowledge-Proofs (zu Deutsch: Null-Wissen-Beweis) und die selektive Datenfreigabe. …",
+      "image": "https://cdn.netzpolitik.org/wp-upload/2026/10/Markus-Reichel-DIdG-Bundestag.jpg",
+      "published": "2026-10-15T15:47:07+00:00",
+      "category": "Politik",
+      "score": 63.81
     },
     {
       "id": "heise-6c591e16fbc65b77",
@@ -211,7 +250,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/8/3/6/0/3/shutterstock_2037557195-ec863fb85b4dabc2.jpeg",
       "published": "2026-10-15T17:06:00+02:00",
       "category": "Wissenschaft",
-      "score": 65.77,
+      "score": 63.24,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -222,40 +261,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "heise-ae7b77cbea7bb3da",
-      "source": "heise",
-      "sourceWeight": 0.9,
-      "title": "Xbox Nano Controller: Microsoft schrumpft Gamepad auf 13 Zentimeter",
-      "link": "https://www.heise.de/news/Xbox-Nano-Controller-Microsoft-schrumpft-Gamepad-auf-13-Zentimeter-11489263.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "summary": "Mit dem Xbox Nano bringt Microsoft einen besonders kleinen Controller auf den Markt. Das Gamepad wiegt knapp 100 Gramm und besitzt einen eingebauten Akku.",
-      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/8/3/3/4/8/Xbox-Nano-Controller-c75782f160f34512.jpeg",
-      "published": "2026-10-15T12:48:00+02:00",
-      "category": "Technologie",
-      "score": 62.18,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "golem",
-            "title": "Xbox Nano: Microsoft stellt Controller im Taschenformat vor",
-            "link": "https://www.golem.de/news/xbox-nano-microsoft-stellt-controller-im-taschenformat-vor-2610-214119.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutsche-welle-c5f0fba81049d483",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "News kompakt: Brasilien beschließt kürzere Arbeitswoche",
-      "link": "https://www.dw.com/de/news-kompakt-brasilien-beschließt-kürzere-arbeitswoche/a-79665107?maca=de-rss-de-all-1119-rdf",
-      "summary": "Die Reform könnte Präsident Lula kurz vor der Stichwahl gegen Flávio Bolsonaro Rückenwind geben. In Brüssel beginnt der zweitägige EU-Gipfel. Der DW-Nachrichtenüberblick.",
-      "image": "https://static.dw.com/image/79645001_6.jpg",
-      "published": "2026-10-15T07:00:00+00:00",
-      "category": "Politik",
-      "score": 62.02
     }
   ]
 }
