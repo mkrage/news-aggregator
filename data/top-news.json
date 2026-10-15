@@ -1,18 +1,28 @@
 {
-  "generatedAt": "2026-10-15T01:34:56.947165+00:00",
+  "generatedAt": "2026-10-15T05:22:04.074842+00:00",
   "count": 15,
   "articles": [
     {
-      "id": "handelsblatt-2b5a177cb8805e6d",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ USA +++: Trump würde Informanten für Geheimnisverrat erschießen lassen",
-      "link": "https://www.handelsblatt.com/politik/international/usa-usa-erwaegen-lockerung-von-sanktionen-gegen-schattenflotten-tanker/29669594.html",
-      "summary": "Trump würde Informanten für Geheimnisverrat erschießen lassen +++ Demokraten planen bei Mehrheitsgewinn ein Blitzprogramm +++ Anthropic integriert Wahlinformationen in KI-Chatbot Claude vor US-Wahl +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/PlQuhDhzHZcK/cover/900/506/0/0/318/318/0.5/0.5/schiffe-der-russischen-schattenflotte-vor-der-kueste-schwedens-archiv.jpg",
-      "published": "2026-10-17T01:21:00+00:00",
+      "id": "spiegel-bc944764516cbcc4",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "USA: Donald Trump würde Informanten für Geheimnisverrat erschießen lassen",
+      "link": "https://www.spiegel.de/ausland/usa-donald-trump-wuerde-informanten-fuer-geheimnisverrat-erschiessen-lassen-a-0714e940-291d-49d3-92ac-1da6cbacbe51#ref=rss",
+      "summary": "Wer Details zu US-Militäreinsätzen an die Presse durchsticht, hat nach Meinung von Präsident Donald Trump die Todesstrafe verdient. Solche Erschießungen seien auch »in den alten Zeiten« schon üblich gewesen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/0b889d76-37db-4ea0-b8f9-7448694e57c5_w1200_r1.778_fpx24_fpy40.jpg",
+      "published": "2026-10-15T04:18:00+02:00",
       "category": "Politik",
-      "score": 116.81
+      "score": 114.65,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ USA +++: USA erwägen Lockerung von Sanktionen gegen Schattenflotten-Tanker",
+            "link": "https://www.handelsblatt.com/politik/international/usa-usa-erwaegen-lockerung-von-sanktionen-gegen-schattenflotten-tanker/29669594.html"
+          }
+        ]
+      }
     },
     {
       "id": "spiegel-dfe496aebf963342",
@@ -24,51 +34,85 @@
       "image": "https://cdn.prod.www.spiegel.de/images/c8033c92-ac1a-4107-8444-00753120dace_w1200_r1.778_fpx51_fpy44.jpg",
       "published": "2026-10-15T02:10:00+02:00",
       "category": "Politik",
-      "score": 84.82
+      "score": 81.67
     },
     {
-      "id": "handelsblatt-69e184f296a7e10d",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Problem für Trump: Vor Zwischenwahlen: Teurer Sprit treibt US-Inflation hoch",
-      "link": "https://www.handelsblatt.com/politik/deutschland/problem-fuer-trump-vor-zwischenwahlen-teurer-sprit-treibt-us-inflation-hoch/100262267.html",
-      "summary": "In den USA steigen die Verbraucherpreise wegen des Iran-Kriegs überraschend stark - denn teures Öl verteuert Sprit. Für Präsident Trump könnte das ein Problem bei den nahenden Zwischenwahlen werden.",
-      "image": "https://images.handelsblatt.com/lLPv3u8EsT90/cover/900/506/0/0/107/106/0.5/0.5/oelfoerderung-in-usa.jpg",
-      "published": "2026-10-14T14:32:14+00:00",
-      "category": "Politik",
-      "score": 83.8
-    },
-    {
-      "id": "tagesschau-3a166f505c1dd417",
+      "id": "tagesschau-abf5fee837ce7c45",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Gesetzliche Krankenversicherung: Zusatzbeitrag kann 2027 stabil bleiben",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/gkv-zusatzbeitrag-bleibt-offenbar-stabil-100.html",
-      "summary": "Gute Nachrichten für gesetzlich Versicherte: Der GKV-Schätzerkreis hat über den Zusatzbeitrag für das kommende Jahr beraten - mit dem Ergebnis, dass dieser stabil bleiben kann. Der Gesundheitsminister wertet die Entwicklung positiv. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/c4ef8a21-a224-4e74-95e8-71b2296e54e8/AAABoI8M2XI/AAABnSSvrFg/16x9-big/gesundheitskarten-126.jpg?width=1920",
-      "published": "2026-10-14T22:01:02+02:00",
+      "title": "Ukraine kritisiert fehlende US-Unterstützung - NATO und EU widersprechen",
+      "link": "https://www.tagesschau.de/ausland/europa/ukraine-angriffe-selenskyj-fehlende-warnung-100.html",
+      "summary": "Die Ukraine ist beim Abwehrkampf gegen Russland auf Geheimdienstinformationen der USA angewiesen - doch die sollen vor neuen russischen Angriffen ausgeblieben sein. Präsident Selenskyj übt Kritik. EU und NATO beschwichtigen. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/2d8e9f13-1f20-4c6e-985d-39aa2e419db4/AAABoTrTEdA/AAABnSSvrFg/16x9-big/feuerwehrmann-rauch-ukraine-100.jpg?width=1920",
+      "published": "2026-10-14T17:33:55+02:00",
       "category": "Politik",
-      "score": 77.92,
+      "score": 78.46,
       "coverage": {
-        "sourceCount": 4,
+        "sourceCount": 2,
         "others": [
           {
-            "source": "deutschlandfunk",
-            "title": "Gesundheitspolitik - Schätzerkreis: Zusatzbeitrag für Krankenkassen 2027 unverändert",
-            "link": "https://www.deutschlandfunk.de/schaetzerkreis-zusatzbeitrag-fuer-krankenkassen-2027-unveraendert-104.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Krankenversicherung: Zusatzbeitrag kann 2027 stabil bleiben",
-            "link": "https://www.spiegel.de/wirtschaft/soziales/krankenversicherung-zusatzbeitrag-kann-2027-stabil-bleiben-a-20efc3bb-48e7-469d-8357-16d70bbb12fd#ref=rss"
-          },
-          {
             "source": "handelsblatt",
-            "title": "Krankenversicherung: Krankenkassen-Beiträge sollen 2027 stabil bleiben",
-            "link": "https://www.handelsblatt.com/politik/deutschland/krankenversicherung-krankenkassen-beitraege-sollen-2027-stabil-bleiben/100262323.html"
+            "title": "+++ Ukraine-Krieg +++: Selenskyj kündigt neue Angriffe auf russische Raffinerien an",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-kuendigt-neue-angriffe-auf-russische-raffinerien-an/27982126.html"
           }
         ]
       }
+    },
+    {
+      "id": "tagesschau-7edb0af0f61ec810",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Notfallmedizin unter Druck: Bundestag stimmt über Reform ab",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/notfallreform-im-bundestag-100.html",
+      "summary": "Notaufnahmen und Rettungsdienste sind seit Jahren überlastet. Nun will der Bundestag endlich eine Reform auf den Weg bringen. Große Hilfs- und Rettungsorganisationen verlangen allerdings Nachbesserungen. Von B. Sönnichsen. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/b1a69e3b-03f3-4111-b90c-a20da309d095/AAABoTuGAZ0/AAABnSSvrFg/16x9-big/notaufnahme-236.jpg?width=1920",
+      "published": "2026-10-15T05:00:17+02:00",
+      "category": "Politik",
+      "score": 77.94,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Gesundheitspolitik - Bundestag will Reform der Notfallversorgung beschließen",
+            "link": "https://www.deutschlandfunk.de/bundestag-will-reform-der-notfallversorgung-beschliessen-102.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-ca031a68fb20ab36",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Donald Trump: Grönländische Regierung wiederspricht Aussagen über Rohstoffe",
+      "link": "https://www.spiegel.de/ausland/donald-trump-groenlaendische-regierung-wiederspricht-aussagen-ueber-rohstoffe-a-33e14432-41be-428e-8630-fb866e3541c2#ref=rss",
+      "summary": "Der US-Präsident sagt, die Erkundung von Öl-, Gas- und Mineralvorkommen durch US-Firmen auf Grönland stehe kurz bevor. Dort will man davon nichts wissen. Bis Trumps Träume wahr würden, könnten noch Jahre vergehen, heißt es.",
+      "image": "https://cdn.prod.www.spiegel.de/images/ed418996-29e6-43a1-81fc-90805c354305_w1200_r1.778_fpx47.33_fpy44.99.jpg",
+      "published": "2026-10-15T07:04:00+02:00",
+      "category": "Politik",
+      "score": 77.75,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutsche-welle",
+            "title": "Trump kündigt Erschließung von Rohstoffen in Grönland an",
+            "link": "https://www.dw.com/de/trump-kündigt-erschließung-von-rohstoffen-in-grönland-an/a-79657712?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-47a49567e6f699ed",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Ukraine-Krieg - Großbritannien will Sanktionen gegen Schattenflotte erhalten - USA erwägen Lockerungen",
+      "link": "https://www.deutschlandfunk.de/grossbritannien-will-sanktionen-gegen-schattenflotte-erhalten-usa-erwaegen-lockerungen-102.html",
+      "summary": "Großbritanniens Finanzminister Healey hat seine Amtskollegen beim ⁠Jahrestreffen des Internationalen Währungsfonds aufgefordert, Sanktionen gegen Russlands Schifffahrt zu verschärfen.",
+      "image": "https://bilder.deutschlandfunk.de/69/87/97/53/69879753-c32a-467b-b692-f67f40270772/frankreich-marine-atlantik-russland-oeltanker-schattenflotte-100-1280x1280.jpg",
+      "published": "2026-10-15T06:05:44+02:00",
+      "category": "Politik",
+      "score": 76.94
     },
     {
       "id": "deutschlandfunk-77d51b9075775999",
@@ -78,9 +122,9 @@
       "link": "https://www.deutschlandfunk.de/groenland-und-daenemark-widersprechen-trump-keine-massiven-oel-erkundungen-102.html",
       "summary": "Dänemark und Grönland haben Aussagen von US-Präsident Trump zu bevorstehenden Erkundungen von Ölvorkommen auf der Arktisinsel zurückgewiesen.",
       "image": "https://bilder.deutschlandfunk.de/09/02/0a/c1/09020ac1-1f89-43fd-a23d-a655b0f37d81/groenland-136-1920x1920.jpg",
-      "published": "2026-10-15T02:17:24+02:00",
+      "published": "2026-10-15T06:05:44+02:00",
       "category": "Politik",
-      "score": 76.92,
+      "score": 76.94,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -100,91 +144,81 @@
       "link": "https://www.deutschlandfunk.de/musk-weist-verantwortung-fuer-mutmassliche-starlink-drosselung-zurueck-102.html",
       "summary": "US-Unternehmer Musk hat auf die Kritik des ukrainischen Präsidenten Selenskyj reagiert und die Verantwortung für eine Drosselung seines Satelliteninternetsystems Starlink zurückgewiesen.",
       "image": "https://bilder.deutschlandfunk.de/f7/61/1e/5f/f7611e5f-9fbe-4160-b55d-2fa6b6cc71ee/logo-satelliten-internet-starlink-100-1920x1920.jpg",
-      "published": "2026-10-15T02:17:24+02:00",
+      "published": "2026-10-15T06:05:44+02:00",
       "category": "Politik",
-      "score": 76.92
+      "score": 76.94
     },
     {
-      "id": "spiegel-a184db0fd3d7c547",
+      "id": "spiegel-09e553860dfb9557",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Unwetter in der Türkei: Extreme Regenfälle überfluten Istanbul – ein Toter",
-      "link": "https://www.spiegel.de/panorama/unwetter-in-der-tuerkei-extreme-regenfaelle-ueberfluten-istanbul-ein-toter-a-07049c6d-06ef-4f0d-bfba-982e4ba0e0c0#ref=rss",
-      "summary": "Ganze Viertel stehen unter Wasser, Erdrutsche blockieren Straßen: Extreme Regenfälle sorgen in Istanbul für chaotische Zustände. Ein Junge kam bei einem tragischen Unfall ums Leben.",
-      "image": "https://cdn.prod.www.spiegel.de/images/4a821942-6c5a-4d6b-af24-b9cae90ba782_w1200_r1.778_fpx66.67_fpy50.jpg",
-      "published": "2026-10-15T02:42:00+02:00",
-      "category": "Technologie",
-      "score": 74.26
+      "title": "News: Friedrich Merz verhandelt über EU-Etat, Kyjiw bereitet sich auf Kriegswinter vor, Alkoholverbot auf Bahnhöfen",
+      "link": "https://www.spiegel.de/politik/deutschland/news-merz-verhandelt-ueber-eu-etat-kyjiw-bereitet-sich-auf-kriegswinter-vor-alkoholverbot-auf-bahnhoefen-a-faae7225-30a0-4a87-a0e8-6ea87cb78a10#ref=rss",
+      "summary": "Friedrich Merz verhandelt in Brüssel über den EU-Etat. Die Ukraine bereitet sich auf den nächsten Kriegswinter vor. Und ab sofort darf erst im Bahnabteil getrunken werden. Das ist die Lage am Donnerstagmorgen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/71bb7751-837f-4c89-ac5b-21c53c4cbf2c_w1200_r1.778_fpx48.47_fpy54.97.jpg",
+      "published": "2026-10-15T06:01:00+02:00",
+      "category": "Politik",
+      "score": 76.87
     },
     {
-      "id": "handelsblatt-0af6ce0821b0dda9",
+      "id": "handelsblatt-70f7e2db0dea56d2",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "+++ Ukraine-Krieg +++: Selenskyj zu Gespräch mit Premierminister Burnham in London eingetroffen",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-zu-gespraech-mit-burnham-in-london-eingetroffen/27982126.html",
-      "summary": "Tanker vor Rumänien in Flammen – möglicher Drohnenangriff wird untersucht +++ Musk: Satelliten-Kontrolle liegt bei US-Regierung +++ Frankreich kann Ukraine nicht weiter finanzieren +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/UhUvyHzBOk1W/cover/900/506/0/0/44/164/0.5/0.5/archiv-03.01.2026-ukraine-kiew-wolodymyr-selenskyj-praesident-der-ukraine-spricht-waehrend-eine.jpg",
-      "published": "2026-10-14T20:57:00+00:00",
+      "title": "Morning Briefing Podcast: Offshore-Krise trifft deutsche Industrie / Europas Antwort auf den China-Schock 2.0",
+      "link": "https://www.handelsblatt.com/audio/podcast-morning-briefing/morning-briefing-podcast-offshore-krise-trifft-deutsche-industrie---europas-antwort-auf-den-china-schock-2.0/100262379.html",
+      "summary": "Die Offshore-Windkraft steuert auf einen Rückschlag zu: Seit zwei Jahren ist in Deutschland kein neuer Windpark gestartet. Zugleich blickt Europa nach Brüssel, wo die Staats- und Regierungschefs über die Ukraine und Abwehrinstrumente gegen chinesische Billigimporte beraten.",
+      "image": "https://images.handelsblatt.com/GqjedYa4TtiY/cover/900/506/0/0/656/657/0.5/0.5/morning-briefing-podcast-teaser-2025.jpg",
+      "published": "2026-10-15T04:10:33+00:00",
       "category": "Politik",
-      "score": 73.14
+      "score": 76.01
     },
     {
-      "id": "spiegel-2429543e88ae2cc0",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ukraine: Wie sich die Menschen in Kyjiw auf den Kriegswinter vorbereiten",
-      "link": "https://www.spiegel.de/ausland/ukraine-wie-sich-die-menschen-in-kyjiw-auf-den-kriegswinter-vorbereiten-a-4112c6c2-aab5-4322-ab75-bff436515455#ref=rss",
-      "summary": "US-Geheimdienstinformationen flossen zuletzt nicht wie gewohnt, darum sieht sich die Ukraine Russlands Luftangriffen zunehmend hilflos ausgeliefert. Die Einwohner von Kyjiw treffen Vorkehrungen, manche verlassen die Stadt.",
-      "image": "https://cdn.prod.www.spiegel.de/images/2501d025-13a5-4d1a-b7ec-9a4cd1a2e33f_w1200_r1.778_fpx57.39_fpy50.jpg",
-      "published": "2026-10-14T20:20:00+02:00",
+      "id": "handelsblatt-1475f22602c506dc",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Krieg in der Ukraine: Warum Kiew auf Starlink und US-Informationen angewiesen ist",
+      "link": "https://www.handelsblatt.com/politik/international/krieg-in-der-ukraine-warum-kiew-auf-starlink-und-us-informationen-angewiesen-ist/100262382.html",
+      "summary": "Starlink-Internet und US-Aufklärungsdaten ermöglichen ukrainische Drohnenangriffe im russischen Hinterland. Doch der Informationsfluss stockt - und auch das Satelliteninternet. Was steckt dahinter?",
+      "image": "https://images.handelsblatt.com/zvYkIZdtIgsj/cover/900/506/0/0/109/108/0.5/0.5/un-generalversammlung.jpg",
+      "published": "2026-10-15T04:00:10+00:00",
       "category": "Politik",
-      "score": 71.96
+      "score": 75.86
     },
     {
-      "id": "tagesschau-26698e1869726fbf",
+      "id": "handelsblatt-f25a6c9280edc635",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Vermögen: Bin ich schon reich oder nicht? Dieser Rechner liefert Ihnen die Antwort",
+      "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/reichtum-rechner-ab-welchem-vermoegen-gelten-sie-in-deutschland-als-reich-02/100149729.html",
+      "summary": "Trotz Inflation zeigen aktuelle Daten, dass die Vermögen in Deutschland gewachsen sind. Der Handelsblatt-Rechner zeigt Ihnen, wo Sie im Vergleich zur deutschen Bevölkerung stehen.",
+      "image": "https://images.handelsblatt.com/6Rp3TI0UnSgT/cover/900/506/0/0/0/0/0.5/0.5/reichtum.jpg",
+      "published": "2026-10-15T05:05:00+00:00",
+      "category": "Wirtschaft",
+      "score": 68.76
+    },
+    {
+      "id": "tagesschau-3a166f505c1dd417",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Erklärung zu Antisemitismus - Sondierungen in Berlin gehen weiter",
-      "link": "https://www.tagesschau.de/inland/regional/berlin/fortsetzung-sondierungen-berlin-100.html",
-      "summary": "Nachdem SPD und Grüne die Sondierungen mit der Linkspartei unterbrochen hatten, geht es nun weiter. Alle Parteien verständigten sich, ihre Antisemitismus-Vereinbarung in einen möglichen Koalitionsvertrag aufzunehmen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/47cffec3-3400-4302-91b8-37d6796613bd/AAABoTwhD8w/AAABnSSvrFg/16x9-big/rbb-krach-stahr-schirmer-624095053-100.jpg?width=1920",
-      "published": "2026-10-14T22:33:16+02:00",
-      "category": "Nachrichten",
-      "score": 71.6,
+      "title": "Gesetzliche Krankenversicherung: Zusatzbeitrag kann 2027 stabil bleiben",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/gkv-zusatzbeitrag-bleibt-offenbar-stabil-100.html",
+      "summary": "Gute Nachrichten für gesetzlich Versicherte: Der GKV-Schätzerkreis hat über den Zusatzbeitrag für das kommende Jahr beraten - mit dem Ergebnis, dass dieser stabil bleiben kann. Der Gesundheitsminister wertet die Entwicklung positiv. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/c4ef8a21-a224-4e74-95e8-71b2296e54e8/AAABoI8M2XI/AAABnSSvrFg/16x9-big/gesundheitskarten-126.jpg?width=1920",
+      "published": "2026-10-14T22:01:02+02:00",
+      "category": "Politik",
+      "score": 67.89,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
-            "source": "deutschlandfunk",
-            "title": "Berlin - Linke, Grüne und SPD sondieren weiter",
-            "link": "https://www.deutschlandfunk.de/linke-gruene-und-spd-sondieren-weiter-102.html"
+            "source": "spiegel",
+            "title": "Krankenversicherung: Zusatzbeitrag kann 2027 stabil bleiben",
+            "link": "https://www.spiegel.de/wirtschaft/soziales/krankenversicherung-zusatzbeitrag-kann-2027-stabil-bleiben-a-20efc3bb-48e7-469d-8357-16d70bbb12fd#ref=rss"
           },
           {
-            "source": "spiegel",
-            "title": "Sondierungen mit Linke gehen weiter: Grüne Bundesspitzen sind sauer auf Berliner Grüne",
-            "link": "https://www.spiegel.de/politik/deutschland/sondierungen-mit-linke-gehen-weiter-gruene-bundesspitzen-sind-sauer-auf-berliner-gruene-a-9b169450-85b8-4276-a2cf-dcdda0c2ab48#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-902dbca87f006ebb",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Nord-Stream-Anschlag - ein Prozess mit politischer Dimension",
-      "link": "https://www.tagesschau.de/inland/prozess-nord-stream-100.html",
-      "summary": "Rund vier Jahre nach den Anschlägen auf die Nord-Stream-Pipelines hat in Hamburg der Prozess gegen den angeklagten Ukrainer begonnen. Der Prozess dürfte die Debatte über die Ukraine-Hilfen befeuern. Von Christina Nagel. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/934f0a79-cee7-44bd-91ec-0c9732c94d7a/AAABoTi9luM/AAABnSSvrFg/16x9-big/nordstream-festnahme-102.jpg?width=1920",
-      "published": "2026-10-14T11:27:25+02:00",
-      "category": "Politik",
-      "score": 70.56,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
             "source": "handelsblatt",
-            "title": "Kommentar: Nord-Stream-Prozess: Im Saal geht Recht vor Staatsräson",
-            "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-nord-stream-prozess-im-saal-geht-recht-vor-staatsraeson/100261945.html"
+            "title": "GKV-Schätzerkreis: Krankenkassen-Beiträge sollen 2027 stabil bleiben",
+            "link": "https://www.handelsblatt.com/politik/deutschland/krankenversicherung-krankenkassen-beitraege-sollen-2027-stabil-bleiben/100262322.html"
           }
         ]
       }
@@ -199,7 +233,7 @@
       "image": "https://static.dw.com/image/79660451_6.jpg",
       "published": "2026-10-14T17:00:00+00:00",
       "category": "Politik",
-      "score": 69.85
+      "score": 66.69
     },
     {
       "id": "deutsche-welle-27758ffc39f2f7c9",
@@ -211,31 +245,7 @@
       "image": "https://static.dw.com/image/78069555_6.jpg",
       "published": "2026-10-14T19:56:00+00:00",
       "category": "Nachrichten",
-      "score": 69.29
-    },
-    {
-      "id": "deutschlandfunk-1c40243769a0d111",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Staatsfinanzen - Bundestag soll höhere Tabaksteuer absegnen - Packung soll bald 12 Euro kosten",
-      "link": "https://www.deutschlandfunk.de/bundestag-soll-hoehere-tabaksteuer-absegnen-packung-soll-bald-12-euro-kosten-102.html",
-      "summary": "Rauchen soll ab dem kommenden Jahr deutlich teurer werden. Der Finanzausschuss des Bundestages ‌stimmte ⁠gestern für ⁠den entsprechenden Gesetzentwurf, der heute im Bundestag beschlossen werden soll.",
-      "image": "https://bilder.deutschlandfunk.de/3c/b9/34/d7/3cb934d7-5a36-4276-b5b7-a17d07807a66/zigarettenschachtel-100-1920x1920.jpg",
-      "published": "2026-10-15T02:17:24+02:00",
-      "category": "Politik",
-      "score": 68.92
-    },
-    {
-      "id": "golem-0475105ecf4198d2",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "US-Zwischenwahlen: Musk spendet 366 Millionen US-Dollar an Republikaner",
-      "link": "https://www.golem.de/news/us-zwischenwahlen-musk-spendet-366-millionen-us-dollar-an-republikaner-2610-214089.html",
-      "summary": "Trotz seines zwischenzeitlichen Zerwürfnisses mit Donald Trump ist Elon Musk im US-Wahlkampf der größte Einzelspender der Republikaner. ( Elon Musk , Sergey Brin )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214089&amp;page=1&amp;ts=1791971462",
-      "published": "2026-10-14T11:51:02+02:00",
-      "category": "Politik",
-      "score": 62.89
+      "score": 66.14
     }
   ]
 }
