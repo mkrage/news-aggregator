@@ -1,18 +1,52 @@
 {
-  "generatedAt": "2026-10-15T10:26:38.634730+00:00",
+  "generatedAt": "2026-10-15T13:33:07.931109+00:00",
   "count": 15,
   "articles": [
     {
-      "id": "spiegel-45b1f517ff5d0c34",
+      "id": "spiegel-ad924034ae83eb40",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg: Elon Musk fordert Rücktritt von Wolodymyr Selenskyj",
-      "link": "https://www.spiegel.de/ausland/ukraine-krieg-elon-musk-fordert-ruecktritt-von-wolodymyr-selenskyj-a-4eacd072-6b21-488e-bd88-49b0c5bb657d#ref=rss",
-      "summary": "Mit einer zwischenzeitlichen Drosselung des SpaceX-Satellitensystems für die Ukraine will Elon Musk nichts zu tun haben. Trotzdem schließt er sich den Angriffen von Donald Trump auf Wolodymyr Selenskyj an.",
-      "image": "https://cdn.prod.www.spiegel.de/images/3082b35a-13d5-4d22-a34d-0fcb3577d7dc_w1200_r1.778_fpx46_fpy49.jpg",
-      "published": "2026-10-15T10:59:00+02:00",
+      "title": "Ukraine-Krieg: Wolodymyr Selenskyj kündigt erneute Angriffe auf Russlands Ölraffinerien an",
+      "link": "https://www.spiegel.de/ausland/ukraine-krieg-wolodymyr-selenskyj-kuendigt-erneute-angriffe-auf-russlands-oelraffinerien-an-a-90568cfc-073b-40c4-a6b4-7b79097edeaf#ref=rss",
+      "summary": "Mehrere Tage hielt sich die Ukraine mit Drohnenangriffen zurück, auch aus Rücksicht auf die USA. Nachdem diese ihre Unterstützung offenbar jedoch einschränken, kritisiert der ukrainische Präsident Donald Trump deutlich.",
+      "image": "https://cdn.prod.www.spiegel.de/images/fad19f72-330a-4cd0-b6f3-ecae13095a12_w1200_r1.778_fpx33.34_fpy50.jpg",
+      "published": "2026-10-15T13:43:00+02:00",
       "category": "Politik",
-      "score": 84.78
+      "score": 93.68,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ Ukraine-Krieg +++: „Werden Mittel aufstocken müssen“ – Merz spricht sich für weitere Hilfen für die Ukraine aus",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-merz-spricht-sich-fuer-weitere-hilfen-fuer-die-ukraine-aus/27982126.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutsche-welle-9de2c5a95e803965",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "Starlink: Eine Weltraumfirma beeinflusst die Geopolitik",
+      "link": "https://www.dw.com/de/starlink-eine-weltraumfirma-beeinflusst-die-geopolitik/a-75932968?maca=de-rss-de-all-1119-rdf",
+      "summary": "Elon Musks Starlink hat sich zu einem wichtigen Kommunikationsmittel in Kriegs- und Krisengebieten entwickelt. In der Ukraine zeigt sich jedoch auch, welche Abhängigkeiten daraus entstehen können. Ein Überblick.",
+      "image": "https://static.dw.com/image/79647469_6.jpg",
+      "published": "2026-10-15T13:04:00+00:00",
+      "category": "Politik",
+      "score": 84.6
+    },
+    {
+      "id": "tagesschau-5a3e9850fe149866",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Schwere Schäden nach Unwetter auf Rhodos",
+      "link": "https://www.tagesschau.de/ausland/europa/rhodos-unwetter-100.html",
+      "summary": "Bei heftigen Regenfällen und Sturm auf der griechischen Insel Rhodos ist mindestens ein Mensch gestorben. Autos wurden ins Meer gespült, Straßen sind überflutet. Das Ausmaß der Schäden wird nur langsam sichtbar. Von Jasper Riemann. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/541dd9cf-4279-48d7-ac93-343475772caf/AAABoT97vjU/AAABnSSvrFg/16x9-big/rhodos-kueste-autos-100.jpg?width=1920",
+      "published": "2026-10-15T12:45:23+02:00",
+      "category": "Nachrichten",
+      "score": 81.67
     },
     {
       "id": "tagesschau-308da27c521a55f0",
@@ -21,25 +55,54 @@
       "title": "Reform der Notfallversorgung beschlossen - was sich für Patienten ändert",
       "link": "https://www.tagesschau.de/inland/innenpolitik/notfallversorgung-krankenhaus-reform-100.html",
       "summary": "Wer wirklich dringend medizinische Hilfe braucht, soll schneller drankommen. Leichtere Fälle sollen gar nicht erst in der Notaufnahme landen - der Bundestag hat die Reform der Notfallmedizin beschlossen. Was ändert sich konkret?[ mehr ]",
-      "image": "https://images.tagesschau.de/image/eee0b621-0a3f-4209-9639-423c43a95784/AAABoT5bH9o/AAABnSSvrFg/16x9-big/notaufnahme-240.jpg?width=1920",
+      "image": "https://images.tagesschau.de/image/eee0b621-0a3f-4209-9639-423c43a95784/AAABoT8c_KQ/AAABnSSvrFg/16x9-big/notaufnahme-240.jpg?width=1920",
       "published": "2026-10-15T10:32:37+02:00",
       "category": "Politik",
-      "score": 83.47,
+      "score": 78.11,
       "coverage": {
-        "sourceCount": 3,
+        "sourceCount": 2,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "Gesundheitspolitik - Bundestag hat Reform der Notfallversorgung beschlossen",
             "link": "https://www.deutschlandfunk.de/bundestag-hat-reform-der-notfallversorgung-beschlossen-100.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Gesundheit: Bundestag beschließt Reform der Notfallversorgung",
-            "link": "https://www.handelsblatt.com/politik/deutschland/gesundheit-bundestag-beschliesst-reform-der-notfallversorgung/100262478.html"
           }
         ]
       }
+    },
+    {
+      "id": "deutschlandfunk-aa6c37bdd0791e8b",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Staatsanwaltschaft Hannover - Durchsuchungen bei SPD-Abgeordnetem Adis Ahmetovic nach Aufhebung der Immunität",
+      "link": "https://www.deutschlandfunk.de/durchsuchungen-bei-spd-abgeordnetem-adis-ahmetovic-nach-aufhebung-der-immunitaet-100.html",
+      "summary": "Die Staatsanwaltschaft Hannover hat im Zuge von Ermittlungen gegen den niedersächsischen SPD-Bundestagsabgeordneten Ahmetovic sein Bundestagsbüro und drei Wohnungen durchsuchen lassen.",
+      "image": "https://bilder.deutschlandfunk.de/cf/e8/a2/8b/cfe8a28b-68a3-4bbf-b20b-0a5ad59656d1/bundestag-adis-ahmetovic-spd-immunitaet-entzug-100-1920x1920.jpg",
+      "published": "2026-10-15T14:28:52+02:00",
+      "category": "Politik",
+      "score": 77.65,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Bundestag: Parlament hebt Immunität von SPD-Abgeordnetem Ahmetovic auf – Ermittler durchsuchen Büro- und Privaträume",
+            "link": "https://www.handelsblatt.com/politik/deutschland/bundestag-parlament-hebt-immunitaet-von-spd-abgeordnetem-ahmetovic-auf/100262448.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-e805dec3fcdc2715",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Ukrainekrieg: Kanzler Friedtich Merz will russisches Vermögen nicht in USA überführen",
+      "link": "https://www.spiegel.de/ausland/ukrainekrieg-kanzler-friedtich-merz-will-russisches-vermoegen-nicht-in-usa-ueberfuehren-a-e74d7a84-b7ca-4ccf-8282-b98d3b8340ce#ref=rss",
+      "summary": "Bundeskanzler Friedrich Merz will beschlagnahmtes Vermögen aus Russland nicht mit den USA teilen. Zugleich wirbt er dafür, die Ukraine weiter oder sogar noch stärker zu unterstützen. Doch längst nicht alle in Europa denken so.",
+      "image": "https://cdn.prod.www.spiegel.de/images/97c0ab30-ab45-4d47-bcbf-fdf5ae34833a_w1200_r1.778_fpx54.74_fpy49.86.jpg",
+      "published": "2026-10-15T15:01:00+02:00",
+      "category": "Politik",
+      "score": 77.55
     },
     {
       "id": "deutschlandfunk-082756d92394f271",
@@ -49,31 +112,9 @@
       "link": "https://www.deutschlandfunk.de/botschafter-makeiev-schlagkraft-des-ukrainischen-militaers-stark-eingeschraenkt-100.html",
       "summary": "Der ukrainische Botschafter in Deutschland, Makeiev, hat sich besorgt über die Drosselung des US-Satellitensystems Starlink in der Ukraine geäußert.",
       "image": "https://bilder.deutschlandfunk.de/93/6f/dd/72/936fdd72-1bc6-4a09-87ce-0094091f6183/makeiev-100-1920x1920.jpg",
-      "published": "2026-10-15T12:11:20+02:00",
+      "published": "2026-10-15T14:28:52+02:00",
       "category": "Politik",
-      "score": 77.79
-    },
-    {
-      "id": "deutschlandfunk-1c40243769a0d111",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Staatsfinanzen - Bundestag soll höhere Tabaksteuer absegnen - Packung soll bald 12 Euro kosten",
-      "link": "https://www.deutschlandfunk.de/bundestag-soll-hoehere-tabaksteuer-absegnen-packung-soll-bald-12-euro-kosten-102.html",
-      "summary": "Rauchen soll ab dem kommenden Jahr deutlich teurer werden. Der Finanzausschuss des Bundestages ‌stimmte ⁠gestern für ⁠den entsprechenden Gesetzentwurf, der heute im Bundestag beschlossen werden soll.",
-      "image": "https://bilder.deutschlandfunk.de/3c/b9/34/d7/3cb934d7-5a36-4276-b5b7-a17d07807a66/zigarettenschachtel-100-1920x1920.jpg",
-      "published": "2026-10-15T12:11:20+02:00",
-      "category": "Politik",
-      "score": 77.79,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Höhere Tabaksteuer: Vapen soll deutlich teurer werden",
-            "link": "https://www.spiegel.de/wirtschaft/hoehere-tabaksteuer-vapen-soll-deutlich-teurer-werden-a-fc720ea4-7bf7-424c-bea2-62a73167f853#ref=rss"
-          }
-        ]
-      }
+      "score": 77.11
     },
     {
       "id": "deutschlandfunk-ee979fecb8dbb44f",
@@ -83,28 +124,52 @@
       "link": "https://www.deutschlandfunk.de/musk-weist-verantwortung-fuer-mutmassliche-starlink-drosselung-zurueck-102.html",
       "summary": "US-Unternehmer Musk hat auf die Kritik des ukrainischen Präsidenten Selenskyj reagiert und die Verantwortung für eine Drosselung seines Satelliteninternetsystems Starlink zurückgewiesen.",
       "image": "https://bilder.deutschlandfunk.de/f7/61/1e/5f/f7611e5f-9fbe-4160-b55d-2fa6b6cc71ee/logo-satelliten-internet-starlink-100-1920x1920.jpg",
-      "published": "2026-10-15T12:11:20+02:00",
+      "published": "2026-10-15T14:28:52+02:00",
       "category": "Politik",
-      "score": 77.79
+      "score": 77.11
     },
     {
-      "id": "spiegel-9cf8dc8712611be1",
+      "id": "spiegel-a045343aca1d74b2",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Adis Ahmetović: Bundestag hebt Immunität des SPD-Abgeordneten auf",
-      "link": "https://www.spiegel.de/politik/spd-abgeordneter-adis-ahmetovic-bundestag-hebt-immunitaet-auf-a-b61b6c7a-c7f2-433a-9dc4-a116f74028d7#ref=rss",
-      "summary": "Der Bundestag hat die Immunität des Abgeordneten Ahmetović aufgehoben. Ermittler der Staatsanwaltschaft Hannover durchsuchen nach SPIEGEL-Informationen Wohn- und Geschäftsräume des SPD-Politikers – auch sein Büro im Parlament.",
-      "image": "https://cdn.prod.www.spiegel.de/images/0e1e9ed0-7d9b-4dfd-a41b-70f2cadf8fb1_w1200_r1.778_fpx58_fpy45.jpg",
-      "published": "2026-10-15T10:59:00+02:00",
+      "title": "Ukraine-Krieg: So abhängig ist Kyjiw wirklich von den USA",
+      "link": "https://www.spiegel.de/ausland/ukraine-wie-abhaengig-ist-kyjiw-wirklich-von-us-satelliten-und-amerikanischen-geheimdienstinformationen-a-86700c9e-a778-4b01-9e2b-20e3dd56b081#ref=rss",
+      "summary": "Mal läuft Starlink, mal nicht: Amerikanische Satelliten und Geheimdienstinformationen sind zentral für die Verteidigung gegen russische Angriffe. Wo Ukrainer und Europäer aufgeholt haben und wo sie hinterherhinken.",
+      "image": "https://cdn.prod.www.spiegel.de/images/14aba7e2-3154-49cb-8482-b00fcab2f8ac_w1200_r1.778_fpx33.32_fpy49.99.jpg",
+      "published": "2026-10-15T14:10:00+02:00",
       "category": "Politik",
-      "score": 76.89,
+      "score": 76.85
+    },
+    {
+      "id": "handelsblatt-1475f22602c506dc",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Krieg in der Ukraine: Warum Kiew auf Starlink und US-Informationen angewiesen ist",
+      "link": "https://www.handelsblatt.com/politik/international/krieg-in-der-ukraine-warum-kiew-auf-starlink-und-us-informationen-angewiesen-ist/100262382.html",
+      "summary": "Starlink-Internet und US-Aufklärungsdaten ermöglichen ukrainische Drohnenangriffe im russischen Hinterland. Doch der Informationsfluss stockt - und auch das Satelliteninternet. Was steckt dahinter?",
+      "image": "https://images.handelsblatt.com/Wrzf1ikBuIHu/cover/900/506/0/0/109/108/0.5/0.5/un-generalversammlung.jpg",
+      "published": "2026-10-15T12:48:20+00:00",
+      "category": "Politik",
+      "score": 76.38
+    },
+    {
+      "id": "handelsblatt-9102fab89d8c8a86",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Brasilien: Bolsonaro gewinnt vor Stichwahl gegen Lula zahlreiche Unterstützer",
+      "link": "https://www.handelsblatt.com/politik/international/brasilien-bolsonaro-gewinnt-vor-stichwahl-gegen-lula-zahlreiche-unterstuetzer/100262530.html",
+      "summary": "Ende Oktober steht im Kampf um das Präsidentenamt in Brasilien eine Stichwahl an. Der rechtgerichtete Kandidat Bolsonaro bekommt nun Rückendeckung durch politische Konkurrenten.",
+      "image": "https://images.handelsblatt.com/6CaMTCrKaXEi/cover/900/506/0/0/156/157/0.5/0.5/record-date-not-stated-comicio-flavio-bolsonaro-em-chapeco-chapeco-sc-september-19-2026-politics-c.jpg",
+      "published": "2026-10-15T10:31:07+00:00",
+      "category": "Politik",
+      "score": 74.47,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "handelsblatt",
-            "title": "Bundestag: Bundestag hebt Immunität von Abgeordnetem Ahmetovic auf",
-            "link": "https://www.handelsblatt.com/politik/deutschland/bundestag-bundestag-hebt-immunitaet-von-abgeordnetem-ahmetovic-auf/100262463.html"
+            "source": "deutsche-welle",
+            "title": "News kompakt: Brasilien beschließt kürzere Arbeitswoche",
+            "link": "https://www.dw.com/de/news-kompakt-brasilien-beschließt-kürzere-arbeitswoche/a-79665107?maca=de-rss-de-all-1119-rdf"
           }
         ]
       }
@@ -119,128 +184,53 @@
       "image": "https://images.tagesschau.de/image/93d5491b-792f-4b81-bb76-7c4b73078e8d/AAABoT4RSuQ/AAABnSSvrFg/16x9-big/kiew-570.jpg?width=1920",
       "published": "2026-10-15T08:01:26+02:00",
       "category": "Politik",
-      "score": 75.32
+      "score": 72.73
     },
     {
-      "id": "spiegel-ca031a68fb20ab36",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Donald Trump: Grönländische Regierung wiederspricht Aussagen über Rohstoffe",
-      "link": "https://www.spiegel.de/ausland/donald-trump-groenlaendische-regierung-wiederspricht-aussagen-ueber-rohstoffe-a-33e14432-41be-428e-8630-fb866e3541c2#ref=rss",
-      "summary": "Der US-Präsident sagt, die Erkundung von Öl-, Gas- und Mineralvorkommen durch amerikanische Firmen auf Grönland stehe kurz bevor. Dort will man davon nichts wissen. Bis Trumps Träume wahr würden, könnten noch Jahre vergehen, heißt es.",
-      "image": "https://cdn.prod.www.spiegel.de/images/28c38137-c39d-4ea9-8cbb-1629463f025f_w1200_r1.778_fpx44.66_fpy44.98.jpg",
-      "published": "2026-10-15T07:04:00+02:00",
-      "category": "Politik",
-      "score": 73.52,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutsche-welle",
-            "title": "Trump kündigt Erschließung von Rohstoffen in Grönland an",
-            "link": "https://www.dw.com/de/trump-kündigt-erschließung-von-rohstoffen-in-grönland-an/a-79657712?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-59ecdc925153d35c",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Viele Tote bei Einsturz von Schuldach in Pakistan",
-      "link": "https://www.tagesschau.de/ausland/asien/pakistan-schuldach-einsturz-tote-100.html",
-      "summary": "In Pakistan sind bei dem Einsturz eines Schuldachs mindestens 28 Menschen gestorben. Unter den Toten befinden sich vor allem Schüler, die gerade im Unterricht saßen. Die Polizei meldete bereits eine Festnahme.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/76596099-4b37-4734-bb75-44a6a7356a3c/AAABoT7CTzc/AAABnSSvrFg/16x9-big/schule-pakistan-100.jpg?width=1920",
-      "published": "2026-10-15T12:10:33+02:00",
-      "category": "Technologie",
-      "score": 72.47,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Pakistan - Schuldach in der Stadt Peshawar stürzt ein - Zahlreiche Tote und Verletzte",
-            "link": "https://www.deutschlandfunk.de/schuldach-in-der-stadt-peshawar-stuerzt-ein-zahlreiche-tote-und-verletzte-100.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Pakistan: Mindestens 29 Tote bei Einsturz von Schuldach",
-            "link": "https://www.spiegel.de/panorama/pakistan-mindestens-29-tote-bei-einsturz-von-schuldach-a-437a0fb3-daf1-406a-b2da-159d3cc3f1cc#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "handelsblatt-eeca7eae9369d10a",
+      "id": "handelsblatt-7f1cc098c68a48e5",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Prozess: Gefängnis für geheimdienstliche Tätigkeit im Auftrag Irans",
-      "link": "https://www.handelsblatt.com/politik/deutschland/prozess-gefaengnis-fuer-geheimdienstliche-taetigkeit-im-auftrag-irans/100262519.html",
-      "summary": "Zwei Männer haben im Auftrag Teherans jüdische und proisraelische Ziele in Deutschland für Anschläge ausgespäht. Das Oberlandesgericht hat sie deshalb nun zu mehrjährigen Haftstrafen verurteilt.",
-      "image": "https://images.handelsblatt.com/VFgAtCIzy11Y/cover/900/506/0/0/107/106/0.5/0.5/prozess-wegen-geheimdienstlicher-agententaetigkeit.jpg",
-      "published": "2026-10-15T09:58:44+00:00",
+      "title": "Drei SPD-Politiker im Fokus: Klinikaffäre führt Ermittler bis in den Bundestag",
+      "link": "https://www.handelsblatt.com/politik/deutschland/drei-spd-politiker-im-fokus-klinikaffaere-fuehrt-ermittler-bis-in-den-bundestag/100262463.html",
+      "summary": "Drei SPD-Politiker stehen im Blick der Ermittler. Nun werden in Berlin und Hannover Räume durchsucht. Im Zentrum steht ein früheres Klinikgelände in Lehrte.",
+      "image": "https://images.handelsblatt.com/8pfHThwZsWNR/cover/900/506/0/0/107/107/0.5/0.5/bundestag.jpg",
+      "published": "2026-10-15T13:05:06+00:00",
       "category": "Politik",
       "score": 68.61
     },
     {
-      "id": "handelsblatt-c66ecca378a0cd00",
-      "source": "handelsblatt",
+      "id": "heise-ae7b77cbea7bb3da",
+      "source": "heise",
       "sourceWeight": 0.9,
-      "title": "Führungskräfte: Hochqualifiziert, erfolgreich, arbeitssuchend – Vier Betroffene berichten",
-      "link": "https://www.handelsblatt.com/karriere/karriere-die-folgen-eines-ploetzlichen-jobverlusts-fuer-fuehrungskraefte/100228751.html",
-      "summary": "In der Krise finden auch Menschen, deren Karrieren bislang steil nach oben gingen, keinen Job mehr. Vier Betroffene erzählen, vor welche Herausforderungen sie das stellt.",
-      "image": "https://images.handelsblatt.com/YepeK0zZ0MpH/cover/900/506/15/3/0/0/0.5/0.5/boss-erasing-career-ladder.jpg",
-      "published": "2026-10-15T09:51:00+00:00",
-      "category": "Wirtschaft",
-      "score": 68.5
-    },
-    {
-      "id": "deutsche-welle-c5f0fba81049d483",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "News kompakt: Brasilien beschließt kürzere Arbeitswoche",
-      "link": "https://www.dw.com/de/news-kompakt-brasilien-beschließt-kürzere-arbeitswoche/a-79665107?maca=de-rss-de-all-1119-rdf",
-      "summary": "Die Reform könnte Präsident Lula kurz vor der Stichwahl gegen Flávio Bolsonaro Rückenwind geben. In Brüssel beginnt der zweitägige EU-Gipfel. Der DW-Nachrichtenüberblick.",
-      "image": "https://static.dw.com/image/79645001_6.jpg",
-      "published": "2026-10-15T07:00:00+00:00",
-      "category": "Politik",
-      "score": 66.13
+      "title": "Xbox Nano Controller: Microsoft schrumpft Gamepad auf 13 Zentimeter",
+      "link": "https://www.heise.de/news/Xbox-Nano-Controller-Microsoft-schrumpft-Gamepad-auf-13-Zentimeter-11489263.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
+      "summary": "Mit dem Xbox Nano bringt Microsoft einen besonders kleinen Controller auf den Markt. Das Gamepad wiegt knapp 100 Gramm und besitzt einen eingebauten Akku.",
+      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/8/3/3/4/8/Xbox-Nano-Controller-c75782f160f34512.jpeg",
+      "published": "2026-10-15T12:48:00+02:00",
+      "category": "Technologie",
+      "score": 63.71,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "golem",
+            "title": "Xbox Nano: Microsoft stellt Controller im Taschenformat vor",
+            "link": "https://www.golem.de/news/xbox-nano-microsoft-stellt-controller-im-taschenformat-vor-2610-214119.html"
+          }
+        ]
+      }
     },
     {
       "id": "golem-c1de24b1dfb0d64f",
       "source": "golem",
       "sourceWeight": 0.85,
-      "title": "Energiewende: Gaskrise 2026 verläuft anders als 2022",
+      "title": "Strompreise: Solarstrom bremst die Folgen der Gaskrise",
       "link": "https://www.golem.de/news/energiewende-gaskrise-2026-verlaeuft-anders-als-2022-2610-214135.html",
       "summary": "Innerhalb von vier Jahren ist zweimal die Gasversorgung in Europa eingebrochen. Das Resultat auf dem Strommarkt ist heute aber ein ganz anderes. ( Energiewende , Solarenergie )",
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214135&amp;page=1&amp;ts=1792054982",
       "published": "2026-10-15T11:03:02+02:00",
       "category": "Technologie",
-      "score": 63.84
-    },
-    {
-      "id": "deutsche-welle-465f745987795d49",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Kanzler Merz im Bundestag: Gerechtigkeit ist Grundlage der Demokratie",
-      "link": "https://www.dw.com/de/kanzler-merz-im-bundestag-gerechtigkeit-ist-grundlage-der-demokratie/a-79661732?maca=de-rss-de-all-1119-rdf",
-      "summary": "Dem Bundeskanzler bläst der Wind von vielen Seiten ins Gesicht. Die neue Überschrift seiner Regierung soll Gerechtigkeit sein. Merz verteidigt die Ukraine-Unterstützung gegen \"ganz links und ganz rechts\".",
-      "image": "https://static.dw.com/image/79660451_6.jpg",
-      "published": "2026-10-14T17:00:00+00:00",
-      "category": "Politik",
-      "score": 62.46
-    },
-    {
-      "id": "golem-fc593083edbec401",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Anzeige: Von der Buchung bis zum Boarding: Geschäftsreisen effektiv planen",
-      "link": "https://www.golem.de/news/anzeige-von-der-buchung-bis-zum-boarding-geschaeftsreisen-effektiv-planen-2610-213907.html",
-      "summary": "Von der Buchung über Versicherung und Lounge bis zu Mobilität und Reisekosten: So holst du aus einer Geschäftsreise das Beste für dein Business raus. ( Reisen , Wirtschaft )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213907&amp;page=1&amp;ts=1792047602",
-      "published": "2026-10-15T09:00:02+02:00",
-      "category": "Wirtschaft",
-      "score": 57.13
+      "score": 61.25
     }
   ]
 }
