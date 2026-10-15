@@ -1,29 +1,7 @@
 {
-  "generatedAt": "2026-10-15T13:33:07.931109+00:00",
+  "generatedAt": "2026-10-15T15:22:45.872194+00:00",
   "count": 15,
   "articles": [
-    {
-      "id": "spiegel-ad924034ae83eb40",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg: Wolodymyr Selenskyj kündigt erneute Angriffe auf Russlands Ölraffinerien an",
-      "link": "https://www.spiegel.de/ausland/ukraine-krieg-wolodymyr-selenskyj-kuendigt-erneute-angriffe-auf-russlands-oelraffinerien-an-a-90568cfc-073b-40c4-a6b4-7b79097edeaf#ref=rss",
-      "summary": "Mehrere Tage hielt sich die Ukraine mit Drohnenangriffen zurück, auch aus Rücksicht auf die USA. Nachdem diese ihre Unterstützung offenbar jedoch einschränken, kritisiert der ukrainische Präsident Donald Trump deutlich.",
-      "image": "https://cdn.prod.www.spiegel.de/images/fad19f72-330a-4cd0-b6f3-ecae13095a12_w1200_r1.778_fpx33.34_fpy50.jpg",
-      "published": "2026-10-15T13:43:00+02:00",
-      "category": "Politik",
-      "score": 93.68,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "+++ Ukraine-Krieg +++: „Werden Mittel aufstocken müssen“ – Merz spricht sich für weitere Hilfen für die Ukraine aus",
-            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-merz-spricht-sich-fuer-weitere-hilfen-fuer-die-ukraine-aus/27982126.html"
-          }
-        ]
-      }
-    },
     {
       "id": "deutsche-welle-9de2c5a95e803965",
       "source": "deutsche-welle",
@@ -34,7 +12,34 @@
       "image": "https://static.dw.com/image/79647469_6.jpg",
       "published": "2026-10-15T13:04:00+00:00",
       "category": "Politik",
-      "score": 84.6
+      "score": 83.07
+    },
+    {
+      "id": "deutschlandfunk-82bf9fd6f36dfdc2",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Mitteilung durch Präsident Trump - Hinrichtung in den USA soll doch nicht live übertragen werden",
+      "link": "https://www.deutschlandfunk.de/hinrichtung-in-den-usa-soll-doch-nicht-live-uebertragen-werden-100.html",
+      "summary": "US-Präsident Trump hat die umstrittenen Pläne zurückgenommen, die Hinrichtung eines verurteilten Attentäters live zu übertragen.",
+      "image": "https://bilder.deutschlandfunk.de/2c/84/e0/69/2c84e069-3e06-4fe8-96f5-6d3ed15b2cb8/donald-trump-us-praesident-108-1920x1920.jpg",
+      "published": "2026-10-15T17:10:07+02:00",
+      "category": "Politik",
+      "score": 82.5,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Donald Trump: Hinrichtung von Attentäter soll doch nicht live übertragen werden",
+            "link": "https://www.spiegel.de/ausland/donald-trump-hinrichtung-von-attentaeter-soll-doch-nicht-live-uebertragen-werden-a-2e19c96d-d723-4baa-85bd-ac4c0ed6ebd6#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "+++ USA +++: Trump: Kein Livestream bei Hinrichtung eines Attentäters",
+            "link": "https://www.handelsblatt.com/politik/international/usa-doch-kein-livestream-bei-hinrichtung-eines-attentaeters/29669594.html"
+          }
+        ]
+      }
     },
     {
       "id": "tagesschau-5a3e9850fe149866",
@@ -46,7 +51,7 @@
       "image": "https://images.tagesschau.de/image/541dd9cf-4279-48d7-ac93-343475772caf/AAABoT97vjU/AAABnSSvrFg/16x9-big/rhodos-kueste-autos-100.jpg?width=1920",
       "published": "2026-10-15T12:45:23+02:00",
       "category": "Nachrichten",
-      "score": 81.67
+      "score": 80.15
     },
     {
       "id": "tagesschau-308da27c521a55f0",
@@ -58,7 +63,7 @@
       "image": "https://images.tagesschau.de/image/eee0b621-0a3f-4209-9639-423c43a95784/AAABoT8c_KQ/AAABnSSvrFg/16x9-big/notaufnahme-240.jpg?width=1920",
       "published": "2026-10-15T10:32:37+02:00",
       "category": "Politik",
-      "score": 78.11,
+      "score": 78.82,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -71,40 +76,6 @@
       }
     },
     {
-      "id": "deutschlandfunk-aa6c37bdd0791e8b",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Staatsanwaltschaft Hannover - Durchsuchungen bei SPD-Abgeordnetem Adis Ahmetovic nach Aufhebung der Immunität",
-      "link": "https://www.deutschlandfunk.de/durchsuchungen-bei-spd-abgeordnetem-adis-ahmetovic-nach-aufhebung-der-immunitaet-100.html",
-      "summary": "Die Staatsanwaltschaft Hannover hat im Zuge von Ermittlungen gegen den niedersächsischen SPD-Bundestagsabgeordneten Ahmetovic sein Bundestagsbüro und drei Wohnungen durchsuchen lassen.",
-      "image": "https://bilder.deutschlandfunk.de/cf/e8/a2/8b/cfe8a28b-68a3-4bbf-b20b-0a5ad59656d1/bundestag-adis-ahmetovic-spd-immunitaet-entzug-100-1920x1920.jpg",
-      "published": "2026-10-15T14:28:52+02:00",
-      "category": "Politik",
-      "score": 77.65,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Bundestag: Parlament hebt Immunität von SPD-Abgeordnetem Ahmetovic auf – Ermittler durchsuchen Büro- und Privaträume",
-            "link": "https://www.handelsblatt.com/politik/deutschland/bundestag-parlament-hebt-immunitaet-von-spd-abgeordnetem-ahmetovic-auf/100262448.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-e805dec3fcdc2715",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ukrainekrieg: Kanzler Friedtich Merz will russisches Vermögen nicht in USA überführen",
-      "link": "https://www.spiegel.de/ausland/ukrainekrieg-kanzler-friedtich-merz-will-russisches-vermoegen-nicht-in-usa-ueberfuehren-a-e74d7a84-b7ca-4ccf-8282-b98d3b8340ce#ref=rss",
-      "summary": "Bundeskanzler Friedrich Merz will beschlagnahmtes Vermögen aus Russland nicht mit den USA teilen. Zugleich wirbt er dafür, die Ukraine weiter oder sogar noch stärker zu unterstützen. Doch längst nicht alle in Europa denken so.",
-      "image": "https://cdn.prod.www.spiegel.de/images/97c0ab30-ab45-4d47-bcbf-fdf5ae34833a_w1200_r1.778_fpx54.74_fpy49.86.jpg",
-      "published": "2026-10-15T15:01:00+02:00",
-      "category": "Politik",
-      "score": 77.55
-    },
-    {
       "id": "deutschlandfunk-082756d92394f271",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
@@ -112,21 +83,87 @@
       "link": "https://www.deutschlandfunk.de/botschafter-makeiev-schlagkraft-des-ukrainischen-militaers-stark-eingeschraenkt-100.html",
       "summary": "Der ukrainische Botschafter in Deutschland, Makeiev, hat sich besorgt über die Drosselung des US-Satellitensystems Starlink in der Ukraine geäußert.",
       "image": "https://bilder.deutschlandfunk.de/93/6f/dd/72/936fdd72-1bc6-4a09-87ce-0094091f6183/makeiev-100-1920x1920.jpg",
-      "published": "2026-10-15T14:28:52+02:00",
+      "published": "2026-10-15T17:10:07+02:00",
       "category": "Politik",
-      "score": 77.11
+      "score": 77.82
     },
     {
-      "id": "deutschlandfunk-ee979fecb8dbb44f",
+      "id": "deutschlandfunk-b414bc9cdb7f0fd1",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg - Musk weist Verantwortung für mutmaßliche Starlink-Drosselung zurück",
-      "link": "https://www.deutschlandfunk.de/musk-weist-verantwortung-fuer-mutmassliche-starlink-drosselung-zurueck-102.html",
-      "summary": "US-Unternehmer Musk hat auf die Kritik des ukrainischen Präsidenten Selenskyj reagiert und die Verantwortung für eine Drosselung seines Satelliteninternetsystems Starlink zurückgewiesen.",
-      "image": "https://bilder.deutschlandfunk.de/f7/61/1e/5f/f7611e5f-9fbe-4160-b55d-2fa6b6cc71ee/logo-satelliten-internet-starlink-100-1920x1920.jpg",
-      "published": "2026-10-15T14:28:52+02:00",
+      "title": "Digitalisierung - Bundestag stimmt digitaler Brieftasche zu",
+      "link": "https://www.deutschlandfunk.de/bundestag-stimmt-digitaler-brieftasche-zu-100.html",
+      "summary": "Der Bundestag hat Neuerungen für Personalausweis und Pass auf den Weg gebracht.",
+      "image": "https://bilder.deutschlandfunk.de/NO/VA/_2/a2/NOVA_2a2ed70f2080cb645e4fd04fc6c6321e/craft-12169451-asset-100-1920x1920.jpg",
+      "published": "2026-10-15T17:10:07+02:00",
       "category": "Politik",
-      "score": 77.11
+      "score": 77.82,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Digitalisierung: Bundestag beschließt Neuerungen für Personalausweis und Pass",
+            "link": "https://www.handelsblatt.com/politik/deutschland/digitalisierung-bundestag-beschliesst-neuerungen-fuer-personalausweis-und-pass/100262593.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "handelsblatt-620c8db4b3755128",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Angriffe auf Energieanlagen: Ukraine attackiert wieder Ölraffinerien - Russland gelassen",
+      "link": "https://www.handelsblatt.com/politik/international/angriffe-auf-energieanlagen-ukraine-attackiert-wieder-oelraffinerien-russland-gelassen/100262433.html",
+      "summary": "Die Ukraine fühlt sich von den USA im Stich gelassen, während Russland seine Angriffe intensiviert. Selenskyj will sich nicht in Zurückhaltung üben - Moskau spricht von einem Affront gegenüber Trump.",
+      "image": "https://images.handelsblatt.com/GifcqAUWSG5o/cover/900/506/0/0/107/106/0.5/0.5/ukraines-praesident-selenskyj-in-grossbritannien.jpg",
+      "published": "2026-10-15T14:58:31+00:00",
+      "category": "Politik",
+      "score": 76.66
+    },
+    {
+      "id": "handelsblatt-e34207964005e5de",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ Ukraine-Krieg +++: Starshield-Einschränkung für Ukraine wieder aufgehoben",
+      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-starshield-einschraenkung-fuer-ukraine-wieder-aufgehoben/27982126.html",
+      "summary": "Selenskyj kündigt neue Angriffe auf russische Raffinerien an – Kallas verteidigt das Vorgehen +++ Merz spricht sich für weitere Hilfen für die Ukraine aus +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/YmDBTMQWPmQa/cover/900/506/0/0/0/521/0.5/0.5/ukrainian-drone-units-are-on-duty-at-the-front-lines-in-donetsk-region-donetsk-region-ukraine-oct.jpg",
+      "published": "2026-10-15T14:27:46+00:00",
+      "category": "Politik",
+      "score": 76.24
+    },
+    {
+      "id": "tagesschau-e335e101369a99ce",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Brustkrebs: Mammografie-Screening künftig bereits ab 45 Jahren",
+      "link": "https://www.tagesschau.de/wissen/gesundheit/mammografie-ab-45-100.html",
+      "summary": "Bisher zahlen die Krankenkassen ein Mammografie-Screening zur Früherkennung von Brustkrebs bei Frauen erst ab einem Alter von 50 Jahren. Das soll sich nun ändern. Die geplante Neuregelung könnte im Sommer 2027 in Kraft treten.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/1a184ff7-f604-4b9c-82f3-e2afb2926bcd/AAABletAy4Y/AAABnSSvrFg/16x9-big/mammographie-102.jpg?width=1920",
+      "published": "2026-10-15T15:47:58+02:00",
+      "category": "Nachrichten",
+      "score": 75.82,
+      "coverage": {
+        "sourceCount": 4,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Mammografie-Screening - Altersgrenze für Brustkrebs-Früherkennung wird auf 45 Jahre herabgesetzt",
+            "link": "https://www.deutschlandfunk.de/altersgrenze-fuer-brustkrebs-frueherkennung-wird-auf-45-jahre-herabgesetzt-100.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "Brustkrebs-Früherkennung: Mammografie-Screening ist künftig ab 45 Jahren kostenlos möglich",
+            "link": "https://www.spiegel.de/gesundheit/diagnose/brustkrebs-frueherkennung-mammografie-screening-ist-kuenftig-ab-45-jahren-kostenlos-moeglich-a-6881fefb-fd80-4379-8885-225a290979bf#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Krankenkassen: Brustkrebs-Früherkennung schon ab 45 Jahren",
+            "link": "https://www.handelsblatt.com/technik/forschung-innovation/krankenkassen-brustkrebs-frueherkennung-schon-ab-45-jahren/100262594.html"
+          }
+        ]
+      }
     },
     {
       "id": "spiegel-a045343aca1d74b2",
@@ -135,68 +172,56 @@
       "title": "Ukraine-Krieg: So abhängig ist Kyjiw wirklich von den USA",
       "link": "https://www.spiegel.de/ausland/ukraine-wie-abhaengig-ist-kyjiw-wirklich-von-us-satelliten-und-amerikanischen-geheimdienstinformationen-a-86700c9e-a778-4b01-9e2b-20e3dd56b081#ref=rss",
       "summary": "Mal läuft Starlink, mal nicht: Amerikanische Satelliten und Geheimdienstinformationen sind zentral für die Verteidigung gegen russische Angriffe. Wo Ukrainer und Europäer aufgeholt haben und wo sie hinterherhinken.",
-      "image": "https://cdn.prod.www.spiegel.de/images/14aba7e2-3154-49cb-8482-b00fcab2f8ac_w1200_r1.778_fpx33.32_fpy49.99.jpg",
+      "image": "https://cdn.prod.www.spiegel.de/images/14aba7e2-3154-49cb-8482-b00fcab2f8ac_w1200_r1.778_fpx33_fpy38.jpg",
       "published": "2026-10-15T14:10:00+02:00",
       "category": "Politik",
-      "score": 76.85
+      "score": 75.32
     },
     {
-      "id": "handelsblatt-1475f22602c506dc",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Krieg in der Ukraine: Warum Kiew auf Starlink und US-Informationen angewiesen ist",
-      "link": "https://www.handelsblatt.com/politik/international/krieg-in-der-ukraine-warum-kiew-auf-starlink-und-us-informationen-angewiesen-ist/100262382.html",
-      "summary": "Starlink-Internet und US-Aufklärungsdaten ermöglichen ukrainische Drohnenangriffe im russischen Hinterland. Doch der Informationsfluss stockt - und auch das Satelliteninternet. Was steckt dahinter?",
-      "image": "https://images.handelsblatt.com/Wrzf1ikBuIHu/cover/900/506/0/0/109/108/0.5/0.5/un-generalversammlung.jpg",
-      "published": "2026-10-15T12:48:20+00:00",
+      "id": "spiegel-e369d7feb3eda21d",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Ukraine: Friedrich Merz will russisches Vermögen nicht in die USA überführen",
+      "link": "https://www.spiegel.de/ausland/ukraine-friedrich-merz-will-russisches-vermoegen-nicht-in-die-usa-ueberfuehren-a-e74d7a84-b7ca-4ccf-8282-b98d3b8340ce#ref=rss",
+      "summary": "Bundeskanzler Friedrich Merz will beschlagnahmtes Vermögen aus Russland nicht mit den USA teilen. Zugleich wirbt er dafür, die Ukraine weiter oder sogar noch stärker zu unterstützen. Doch längst nicht alle in Europa denken so.",
+      "image": "https://cdn.prod.www.spiegel.de/images/97c0ab30-ab45-4d47-bcbf-fdf5ae34833a_w1200_r1.778_fpx54.74_fpy49.86.jpg",
+      "published": "2026-10-15T15:01:00+02:00",
       "category": "Politik",
-      "score": 76.38
+      "score": 68.03
     },
     {
-      "id": "handelsblatt-9102fab89d8c8a86",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Brasilien: Bolsonaro gewinnt vor Stichwahl gegen Lula zahlreiche Unterstützer",
-      "link": "https://www.handelsblatt.com/politik/international/brasilien-bolsonaro-gewinnt-vor-stichwahl-gegen-lula-zahlreiche-unterstuetzer/100262530.html",
-      "summary": "Ende Oktober steht im Kampf um das Präsidentenamt in Brasilien eine Stichwahl an. Der rechtgerichtete Kandidat Bolsonaro bekommt nun Rückendeckung durch politische Konkurrenten.",
-      "image": "https://images.handelsblatt.com/6CaMTCrKaXEi/cover/900/506/0/0/156/157/0.5/0.5/record-date-not-stated-comicio-flavio-bolsonaro-em-chapeco-chapeco-sc-september-19-2026-politics-c.jpg",
-      "published": "2026-10-15T10:31:07+00:00",
+      "id": "golem-d06347d730218719",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Militärischer Satellitendienst: USA beschränken Zugang der Ukraine zu Starshield",
+      "link": "https://www.golem.de/news/militaerischer-satellitendienst-usa-beschraenken-zugang-der-ukraine-zu-starshield-2610-214140.html",
+      "summary": "Der Zugang zum militärische Satellitendienst von SpaceX hat sich nach ukrainischen Angaben verschlechtert. Präsident Selenskyj kritisiert das scharf. ( SpaceX , Politik )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214140&amp;page=1&amp;ts=1792075022",
+      "published": "2026-10-15T16:37:02+02:00",
       "category": "Politik",
-      "score": 74.47,
+      "score": 67.36
+    },
+    {
+      "id": "heise-6c591e16fbc65b77",
+      "source": "heise",
+      "sourceWeight": 0.9,
+      "title": "AdFection: Wie Online-Werbung zum Einfallstor für Staatstrojaner wird",
+      "link": "https://www.heise.de/news/AdFection-Wie-Online-Werbung-zum-Einfallstor-fuer-Staatstrojaner-wird-11489744.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
+      "summary": "Eine Studie des Citizen Lab enthüllt, dass globale Werbenetzwerke für gezielte Zero-Click-Spionageangriffe missbraucht werden. Auch Medienhäuser sind im Visier.",
+      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/8/3/6/0/3/shutterstock_2037557195-ec863fb85b4dabc2.jpeg",
+      "published": "2026-10-15T17:06:00+02:00",
+      "category": "Wissenschaft",
+      "score": 65.77,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "deutsche-welle",
-            "title": "News kompakt: Brasilien beschließt kürzere Arbeitswoche",
-            "link": "https://www.dw.com/de/news-kompakt-brasilien-beschließt-kürzere-arbeitswoche/a-79665107?maca=de-rss-de-all-1119-rdf"
+            "source": "netzpolitik",
+            "title": "Angriff auf Al Jazeera: Der Trojaner kam per Online-Werbung",
+            "link": "https://netzpolitik.org/2026/angriff-auf-al-jazeera-der-trojaner-kam-per-online-werbung/"
           }
         ]
       }
-    },
-    {
-      "id": "tagesschau-a9e80f6c2fa7ce5f",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Krieg gegen die Ukraine: Sorge vor dem Winter, Hoffen auf EU-Hilfe",
-      "link": "https://www.tagesschau.de/ausland/europa/ukraine-krieg-russland-288.html",
-      "summary": "Russlands Angriffe auf Energieanlagen bringen die Menschen in der Ukraine in Not. Ohne Strom und Wasser wächst die Sorge vor dem Winter. Präsident Selenskyj ringt um mehr Unterstützung aus Europa. Von Rebecca Barth. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/93d5491b-792f-4b81-bb76-7c4b73078e8d/AAABoT4RSuQ/AAABnSSvrFg/16x9-big/kiew-570.jpg?width=1920",
-      "published": "2026-10-15T08:01:26+02:00",
-      "category": "Politik",
-      "score": 72.73
-    },
-    {
-      "id": "handelsblatt-7f1cc098c68a48e5",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Drei SPD-Politiker im Fokus: Klinikaffäre führt Ermittler bis in den Bundestag",
-      "link": "https://www.handelsblatt.com/politik/deutschland/drei-spd-politiker-im-fokus-klinikaffaere-fuehrt-ermittler-bis-in-den-bundestag/100262463.html",
-      "summary": "Drei SPD-Politiker stehen im Blick der Ermittler. Nun werden in Berlin und Hannover Räume durchsucht. Im Zentrum steht ein früheres Klinikgelände in Lehrte.",
-      "image": "https://images.handelsblatt.com/8pfHThwZsWNR/cover/900/506/0/0/107/107/0.5/0.5/bundestag.jpg",
-      "published": "2026-10-15T13:05:06+00:00",
-      "category": "Politik",
-      "score": 68.61
     },
     {
       "id": "heise-ae7b77cbea7bb3da",
@@ -208,7 +233,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/8/3/3/4/8/Xbox-Nano-Controller-c75782f160f34512.jpeg",
       "published": "2026-10-15T12:48:00+02:00",
       "category": "Technologie",
-      "score": 63.71,
+      "score": 62.18,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -221,16 +246,16 @@
       }
     },
     {
-      "id": "golem-c1de24b1dfb0d64f",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Strompreise: Solarstrom bremst die Folgen der Gaskrise",
-      "link": "https://www.golem.de/news/energiewende-gaskrise-2026-verlaeuft-anders-als-2022-2610-214135.html",
-      "summary": "Innerhalb von vier Jahren ist zweimal die Gasversorgung in Europa eingebrochen. Das Resultat auf dem Strommarkt ist heute aber ein ganz anderes. ( Energiewende , Solarenergie )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214135&amp;page=1&amp;ts=1792054982",
-      "published": "2026-10-15T11:03:02+02:00",
-      "category": "Technologie",
-      "score": 61.25
+      "id": "deutsche-welle-c5f0fba81049d483",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "News kompakt: Brasilien beschließt kürzere Arbeitswoche",
+      "link": "https://www.dw.com/de/news-kompakt-brasilien-beschließt-kürzere-arbeitswoche/a-79665107?maca=de-rss-de-all-1119-rdf",
+      "summary": "Die Reform könnte Präsident Lula kurz vor der Stichwahl gegen Flávio Bolsonaro Rückenwind geben. In Brüssel beginnt der zweitägige EU-Gipfel. Der DW-Nachrichtenüberblick.",
+      "image": "https://static.dw.com/image/79645001_6.jpg",
+      "published": "2026-10-15T07:00:00+00:00",
+      "category": "Politik",
+      "score": 62.02
     }
   ]
 }
