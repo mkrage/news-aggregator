@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T19:05:16.540976+00:00",
+  "generatedAt": "2026-10-16T21:24:44.052495+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,19 +12,41 @@
       "image": "https://images.tagesschau.de/image/4db3351e-c00a-4e73-b091-f5bae0ca4225/AAABoUNZayE/AAABnSSvrFg/16x9-big/familie-mahlzeit-100.jpg?width=1920",
       "published": "2026-10-16T08:19:43+02:00",
       "category": "Nachrichten",
-      "score": 96.34,
+      "score": 91.74,
       "coverage": {
-        "sourceCount": 3,
+        "sourceCount": 2,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "Welternährungstag - Verbände warnen vor Verschärfung der Hungerkrisen weltweit",
             "link": "https://www.deutschlandfunk.de/verbaende-warnen-vor-verschaerfung-der-hungerkrisen-weltweit-100.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-1dfcaa175ba0c42f",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Starlink-Störung in der Ukraine: Enttäuscht von Musk, enttäuscht von Trump",
+      "link": "https://www.tagesschau.de/ausland/europa/ukraine-starlink-104.html",
+      "summary": "In der Ukraine scheint für viele klar: Die Starlink-Ausfälle sind kein Zufall, sondern politisch gewollt. Die Unterstützung aus der EU wird immer wichtiger. Von Rebecca Barth .[ mehr ]",
+      "image": "https://images.tagesschau.de/image/0aa9ed6d-f209-4d2f-a056-3d1516074fbc/AAABoUIT7jk/AAABnSSvrFg/16x9-big/starlink-zug-100.jpg?width=1920",
+      "published": "2026-10-16T03:23:51+02:00",
+      "category": "Politik",
+      "score": 91.42,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Ukraine-Krieg - Trump: Weder US-Regierung noch Musk für Starlink-Ausfälle verantwortlich",
+            "link": "https://www.deutschlandfunk.de/trump-weder-us-regierung-noch-musk-fuer-starlink-ausfaelle-verantwortlich-102.html"
           },
           {
             "source": "deutsche-welle",
-            "title": "Eine Welt ohne Hunger rückt in weite Ferne",
-            "link": "https://www.dw.com/de/eine-welt-ohne-hunger-rückt-in-weite-ferne/a-79662949?maca=de-rss-de-all-1119-rdf"
+            "title": "Warum Starlink für die Ukraine so wichtig ist",
+            "link": "https://www.dw.com/de/warum-starlink-für-die-ukraine-so-wichtig-ist/a-79668027?maca=de-rss-de-all-1119-rdf"
           }
         ]
       }
@@ -39,7 +61,7 @@
       "image": "https://images.handelsblatt.com/o0a0LbEGlLZa/cover/900/506/0/0/313/312/0.5/0.5/16.10.2026-belgien-bruessel-wolodymyr-selenskyj-praesident-der-ukraine-spricht-bei-einer-presseko.jpg",
       "published": "2026-10-16T18:41:00+00:00",
       "category": "Politik",
-      "score": 92.66,
+      "score": 90.73,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -61,7 +83,7 @@
       "image": "https://images.tagesschau.de/image/ee8836eb-c8c8-4e02-9f27-c920ec990883/AAABoUYD11k/AAABnSSvrFg/16x9-big/rbb-vanessa-emde-100.jpg?width=1920",
       "published": "2026-10-16T20:34:40+02:00",
       "category": "Politik",
-      "score": 86.66,
+      "score": 86.74,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -93,14 +115,14 @@
       "image": "https://images.tagesschau.de/image/709f2e0f-8243-4132-a52b-e1fc7dd6422e/AAABoUXgTvQ/AAABnSSvrFg/16x9-big/selenskyj-1226.jpg?width=1920",
       "published": "2026-10-16T20:07:15+02:00",
       "category": "Politik",
-      "score": 86.66,
+      "score": 86.74,
       "coverage": {
         "sourceCount": 4,
         "others": [
           {
             "source": "deutschlandfunk",
-            "title": "Gipfel in Brüssel - EU-Staats- und Regierungschefs sichern Ukraine weitere Unterstützung zu",
-            "link": "https://www.deutschlandfunk.de/eu-staats-und-regierungschefs-sichern-ukraine-weitere-unterstuetzung-zu-100.html"
+            "title": "Gipfel in Brüssel - Selenskyj: Ukraine braucht 2027 weitere 70 Milliarden Euro für Abwehrkampf gegen Russland",
+            "link": "https://www.deutschlandfunk.de/selenskyj-ukraine-braucht-2027-weitere-70-milliarden-euro-fuer-abwehrkampf-gegen-russland-100.html"
           },
           {
             "source": "spiegel",
@@ -116,33 +138,6 @@
       }
     },
     {
-      "id": "tagesschau-6691b2a7a09c09a5",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Trumps neue Sprecherin räumt ihren Posten nach wenigen Tagen im Amt",
-      "link": "https://www.tagesschau.de/ausland/amerika/zacharia-sprecherin-trump-100.html",
-      "summary": "Die gerade erst angetretene neue Pressesprecherin von US-Präsident Donald Trump, Katie Zacharia, gibt ihr Amt wieder auf. In den vergangenen Tagen war sie mit Negativschlagzeilen aufgefallen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/8070fa84-1257-4f56-baea-ff8d105531ac/AAABoUX7JFI/AAABnSSvrFg/16x9-big/katie-zacharia-trump-100.jpg?width=1920",
-      "published": "2026-10-16T20:46:52+02:00",
-      "category": "Politik",
-      "score": 83.42,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Donald Trump: Sprecherin Katie Zacharia laut US-Medien gefeuert",
-            "link": "https://www.spiegel.de/ausland/donald-trump-legt-sprecherin-katie-zacharia-nah-ihre-berufswahl-zu-ueberdenken-a-f70761b6-278e-48b3-aa84-35d75bb40a7c#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Weißes Haus: US-Kreise: Trumps Sprecherin Zacharia gibt Posten auf",
-            "link": "https://www.handelsblatt.com/politik/international/weisses-haus-us-kreise-trumps-sprecherin-zacharia-gibt-posten-auf/100262902.html"
-          }
-        ]
-      }
-    },
-    {
       "id": "tagesschau-59a106df09ceff20",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -152,19 +147,63 @@
       "image": "https://images.tagesschau.de/image/c8dc871e-86d7-4307-b791-e26af85b4fb6/AAABmoMLMv0/AAABnSSvrFg/16x9-big/merz-1090.jpg?width=1920",
       "published": "2026-10-16T13:28:58+02:00",
       "category": "Nachrichten",
-      "score": 80.38,
+      "score": 80.42,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
-            "title": "\"Deutschlandtag\" der Jungen Union - Parteinachwuchs will \"gewisser Resignation\" in CDU und CSU entgegentreten",
-            "link": "https://www.deutschlandfunk.de/parteinachwuchs-will-gewisser-resignation-in-cdu-und-csu-entgegentreten-100.html"
+            "title": "\"Deutschlandtag\" der Jungen Union - Wüst warnt vor Linken und AfD",
+            "link": "https://www.deutschlandfunk.de/wuest-warnt-vor-linken-und-afd-100.html"
           },
           {
             "source": "handelsblatt",
-            "title": "Parteinachwuchs von CDU/CSU: Wüst warnt beim JU-Treffen vor Linken und AfD",
-            "link": "https://www.handelsblatt.com/politik/deutschland/parteinachwuchs-von-cdu-csu-wuest-warnt-beim-ju-treffen-vor-linken-und-afd/100262907.html"
+            "title": "Junge Union: Wüst Richtung Bundesregierung – „Reißt euch zusammen“",
+            "link": "https://www.handelsblatt.com/politik/deutschland/junge-union-wuest-richtung-bundesregierung-reisst-euch-zusammen/100261877.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-04bcc5b201bbb2c2",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Nach kurzfristiger Drosselung - Außenbeauftragte Kallas: EU kann Starlink-System in der Ukraine kurzfristig nicht ersetzen",
+      "link": "https://www.deutschlandfunk.de/aussenbeauftragte-kallas-eu-kann-starlink-system-in-der-ukraine-kurzfristig-nicht-ersetzen-100.html",
+      "summary": "Nach der zeitweisen Drosselung des Satelliten-Kommunikationsdienstes Starlink in der Ukraine hat die EU-Außenbeauftragte Kallas die Bedeutung der Technik für Kiew hervorgehoben. Das System sei für die Ukraine absolut notwendig, sagte Kallas beim EU-Gipfel in Brüssel.",
+      "image": "https://bilder.deutschlandfunk.de/b7/5f/13/7d/b75f137d-a51a-4f9f-8ceb-d0f017ef2a2a/eu-aussenbeauftragte-kaja-kallas-kommission-gipfel-100-1920x1920.jpg",
+      "published": "2026-10-16T23:05:48+02:00",
+      "category": "Politik",
+      "score": 77.74,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Ukraine-Krieg: Trump: War nicht für Starlink-Drosselung verantwortlich",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-trump-war-nicht-fuer-starlink-drosselung-verantwortlich/100262910.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-db1632388dc2b078",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Weißes Haus - Trumps Pressesprecherin Zacharia tritt wieder ab",
+      "link": "https://www.deutschlandfunk.de/trumps-pressesprecherin-zacharia-tritt-wieder-ab-102.html",
+      "summary": "Die gerade erst angetretene neue Pressesprecherin von US-Präsident Trump, Zacharia, gibt ihr Amt Berichten zufolge wieder auf.",
+      "image": "https://bilder.deutschlandfunk.de/aa/ac/50/a0/aaac50a0-0ae1-447b-8d80-f96f4840605c/katie-zacharia-100-1280x1280.jpg",
+      "published": "2026-10-16T23:05:48+02:00",
+      "category": "Politik",
+      "score": 77.74,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Weißes Haus: US-Kreise: Trumps Sprecherin Zacharia gibt Posten auf",
+            "link": "https://www.handelsblatt.com/politik/international/weisses-haus-us-kreise-trumps-sprecherin-zacharia-gibt-posten-auf/100262902.html"
           }
         ]
       }
@@ -179,7 +218,34 @@
       "image": "https://images.handelsblatt.com/sfEd2tmE0TQy/cover/900/506/0/0/519/0/0.5/0.5/katie-zacharia.jpg",
       "published": "2026-10-16T17:38:00+00:00",
       "category": "Politik",
-      "score": 75.79
+      "score": 73.85
+    },
+    {
+      "id": "deutschlandfunk-bd51a18799d7b1e1",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "New York - UNO-Sicherheitsrat verurteilt Huthi-Angriffe auf Saudi-Arabien",
+      "link": "https://www.deutschlandfunk.de/uno-sicherheitsrat-verurteilt-huthi-angriffe-auf-saudi-arabien-100.html",
+      "summary": "Der Sicherheitsrat der Vereinten Nationen hat die Angriffe der Huthi-Miliz gegen Saudi-Arabien verurteilt.",
+      "image": "https://bilder.deutschlandfunk.de/f0/ee/c0/22/f0eec022-2647-4909-bfee-60e06ae71edf/uno-sicherheitsrat-112-1920x1920.jpg",
+      "published": "2026-10-16T23:05:48+02:00",
+      "category": "Nachrichten",
+      "score": 71.42,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Huthis vs. Saudi-Arabien: So rechtfertigen die Milizen in Jemen ihren Krieg",
+            "link": "https://www.spiegel.de/ausland/huthis-vs-saudi-arabien-so-rechtfertigen-die-milizen-in-jemen-ihren-krieg-a-13987a5a-fba9-4173-99d7-3ef13b9c9fa3#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "+++ Iran-Krieg +++: Wadephul sieht „Europa im Fadenkreuz Irans“",
+            "link": "https://www.handelsblatt.com/politik/international/iran-krieg-wadephul-sieht-europa-im-fadenkreuz-irans/100136895.html"
+          }
+        ]
+      }
     },
     {
       "id": "deutschlandfunk-d43314bb07699f76",
@@ -189,9 +255,9 @@
       "link": "https://www.deutschlandfunk.de/merz-verbrenner-aus-ist-geschichte-102.html",
       "summary": "Nach der deutsch-französischen Einigung über ‌die Senkung der CO2-Werte für Neuwagen ⁠ab 2035 hat Bundeskanzler ⁠Merz vom \"Ende des Verbrenner-Aus\" gesprochen. Merz und Frankreichs Präsident Macron hatten die Einigung am Rande des EU-Gipfels in Brüssel bekannt gegeben. Danach soll das CO2-Reduktionsziel für Neuwagen von bisher 100 auf 90 Prozent sinken, ohne dass weitere Ausgleichsmaßnahmen erforderlich wären.",
       "image": "https://bilder.deutschlandfunk.de/3f/da/1a/e4/3fda1ae4-5254-4896-a506-38c05dcc0d2b/bundeskanzler-merz-bruessel-gipfel-100-1920x1920.jpg",
-      "published": "2026-10-16T20:40:45+02:00",
+      "published": "2026-10-16T23:05:48+02:00",
       "category": "Nachrichten",
-      "score": 71.34,
+      "score": 71.42,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -209,40 +275,16 @@
       }
     },
     {
-      "id": "deutschlandfunk-02668260ec959683",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Berlin - Wanderwitz zum Vorstand der Filmförderungsanstalt gewählt",
-      "link": "https://www.deutschlandfunk.de/wanderwitz-zum-vorstand-der-filmfoerderungsanstalt-gewaehlt-102.html",
-      "summary": "Der frühere Ost-Beauftragte der Bundesregierung, Wanderwitz, ist neuer geschäftsführender Vorstand der nationalen Filmförderungsanstalt (FFA). Der Verwaltungsrat habe den 51-jährigen gebürtigen Sachsen und ehemaligen CDU-Bundestagsabgeordneten einstimmig gewählt, teilte Kulturstaatsminister Weimer mit.",
-      "image": "https://bilder.deutschlandfunk.de/24/81/bc/d1/2481bcd1-34ea-406b-a749-66802b74e17b/marco-wanderwitz-100-1920x1920.jpg",
-      "published": "2026-10-16T20:40:45+02:00",
+      "id": "handelsblatt-020bac0bd15fc60e",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "EU-Gipfel: Europa will Asylrecht in Krisenfällen einschränken",
+      "link": "https://www.handelsblatt.com/politik/international/eu-gipfel-europa-will-asylrecht-in-krisenfaellen-einschraenken/100260835.html",
+      "summary": "Die EU-Staats- und Regierungschefs haben sich auf eine Notfall-Rahmenverordnung im Asylbereich verständigt. Mitgliedstaaten sollen das Asylrecht im Ernstfall vorübergehend aussetzen können.",
+      "image": "https://images.handelsblatt.com/0sHUuZhUnvhT/cover/900/506/0/0/0/606/0.5/0.5/bruessel-belgien-16.10.2026-europa-gebaeude-eu-gipfel-mette-frederiksen-und-giorgia-meloni-foto.jpg",
+      "published": "2026-10-16T18:57:01+00:00",
       "category": "Politik",
-      "score": 69.66
-    },
-    {
-      "id": "deutschlandfunk-04bcc5b201bbb2c2",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Nach kurzfristiger Drosselung - Außenbeauftragte Kallas: EU kann Starlink-System in der Ukraine kurzfristig nicht ersetzen",
-      "link": "https://www.deutschlandfunk.de/aussenbeauftragte-kallas-eu-kann-starlink-system-in-der-ukraine-kurzfristig-nicht-ersetzen-100.html",
-      "summary": "Nach der zeitweisen Drosselung des Satelliten-Kommunikationsdienstes Starlink in der Ukraine hat die EU-Außenbeauftragte Kallas die Bedeutung der Technik für Kiew hervorgehoben. Das System sei für die Ukraine absolut notwendig, sagte Kallas beim EU-Gipfel in Brüssel.",
-      "image": "https://bilder.deutschlandfunk.de/b7/5f/13/7d/b75f137d-a51a-4f9f-8ceb-d0f017ef2a2a/eu-aussenbeauftragte-kaja-kallas-kommission-gipfel-100-1920x1920.jpg",
-      "published": "2026-10-16T20:40:45+02:00",
-      "category": "Politik",
-      "score": 69.66
-    },
-    {
-      "id": "deutschlandfunk-3d1e01e9fc81ad6e",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Berlin - Drogenbeauftragter Streeck begrüßt Erhöhung der Tabaksteuer: \"Schützt vor allem Kinder und Jugendliche\"",
-      "link": "https://www.deutschlandfunk.de/drogenbeauftragter-streeck-begruesst-erhoehung-der-tabaksteuer-schuetzt-vor-allem-kinder-und-jugendl-100.html",
-      "summary": "Der Drogenbeauftragte der Bundesregierung, Streeck, sieht in der vom Bundestag beschlossenen Erhöhung der Tabaksteuer eine wichtige Schutzmaßnahme. Streeck sagte, Rauchen koste in Deutschland jedes Jahr mehr als 130.000 Menschen das Leben und die Gesellschaft fast 100 Milliarden Euro.",
-      "image": "https://bilder.deutschlandfunk.de/a2/a9/4b/d2/a2a94bd2-bf78-4c58-a3c5-7b5ed0f8fb05/tabaksteuer-100-1280x1280.jpg",
-      "published": "2026-10-16T20:40:45+02:00",
-      "category": "Politik",
-      "score": 69.66
+      "score": 66.95
     },
     {
       "id": "spiegel-1585f829e21603bf",
@@ -254,7 +296,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/2120ef08-6cfa-4929-b309-f108713546ef_w1200_r1.778_fpx33_fpy46.jpg",
       "published": "2026-10-16T18:39:00+02:00",
       "category": "Politik",
-      "score": 67.97
+      "score": 66.03
     },
     {
       "id": "spiegel-64ebe4cfce7d464e",
@@ -266,7 +308,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/eb1b0651-f269-481e-be2b-29fc04fca308_w1200_r1.778_fpx51_fpy36.jpg",
       "published": "2026-10-16T17:50:00+02:00",
       "category": "Politik",
-      "score": 67.29
+      "score": 65.35
     },
     {
       "id": "deutsche-welle-6a69bb8c8bd340d0",
@@ -278,19 +320,7 @@
       "image": "https://static.dw.com/image/79673243_6.jpg",
       "published": "2026-10-16T16:55:00+00:00",
       "category": "Politik",
-      "score": 67.19
-    },
-    {
-      "id": "spiegel-0067eb48c62f3e00",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Irmgard Keun: Tobias Lehmkuhl rekonstruiert ein vergessenes Leben",
-      "link": "https://www.spiegel.de/kultur/literatur/irmgard-keun-tobias-lehmkuhl-rekonstruiert-ein-vergessenes-leben-a-1a3e07fc-287d-43e3-87a7-a4396b7c5da5#ref=rss",
-      "summary": "Anfang der Dreißigerjahre wurde sie gefeiert, aber nach dem Krieg vergessen: In »Keine von uns« rekonstruiert Tobias Lehmkuhl das gerade in ihren letzten Jahrzehnten erschütternde Leben der Schriftstellerin Irmgard Keun.",
-      "image": "https://cdn.prod.www.spiegel.de/images/625bb109-55ae-4db3-9e56-31e90e3eec92_w1200_r1.778_fpx52_fpy34.jpg",
-      "published": "2026-10-16T19:10:00+02:00",
-      "category": "Nachrichten",
-      "score": 65.4
+      "score": 65.25
     }
   ]
 }
