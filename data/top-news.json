@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T22:44:13.500197+00:00",
+  "generatedAt": "2026-10-16T00:51:39.626218+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,19 @@
       "image": "https://images.handelsblatt.com/ajuKMP7NmADk/cover/900/506/0/0/210/1103/0.5/0.5/cover-podcast-trump-watch.jpg",
       "published": "2026-10-15T15:58:26+00:00",
       "category": "Politik",
-      "score": 87.36
+      "score": 85.59
+    },
+    {
+      "id": "handelsblatt-a7a06b0d55d9b5b6",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Ukraine-Krieg: Selenskyj beim EU-Gipfel: Finanzen, Trump und Starlink",
+      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-beim-eu-gipfel-finanzen-trump-und-starlink/100262690.html",
+      "summary": "Eine Finanzierungslücke in zweistelliger Milliardenhöhe und der Ärger mit Trump um Starlink und den Dieseldeal mit Putin: Das dürften Hauptthemen beim Brüssel-Besuch Selenskyjs sein.",
+      "image": "https://images.handelsblatt.com/RoqbfYdeeoEU/cover/900/506/0/0/104/103/0.5/0.5/eu-gipfel.jpg",
+      "published": "2026-10-15T23:09:31+00:00",
+      "category": "Politik",
+      "score": 83.58
     },
     {
       "id": "spiegel-0654d3b83417c3fe",
@@ -24,29 +36,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/039db86c-45b3-4f04-8427-f59b4f791f3f_w1200_r1.778_fpx64_fpy23.jpg",
       "published": "2026-10-15T19:52:00+02:00",
       "category": "Politik",
-      "score": 81.94
-    },
-    {
-      "id": "tagesschau-a9e80f6c2fa7ce5f",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Krieg gegen die Ukraine: Sorge vor dem Winter, Hoffen auf EU-Hilfe",
-      "link": "https://www.tagesschau.de/ausland/europa/ukraine-krieg-russland-288.html",
-      "summary": "Russlands Angriffe auf Energieanlagen bringen die Menschen in der Ukraine in Not. Ohne Strom und Wasser wächst die Sorge vor dem Winter. Präsident Selenskyj ringt um mehr Unterstützung aus Europa. Von Rebecca Barth. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/93d5491b-792f-4b81-bb76-7c4b73078e8d/AAABoT4RSuQ/AAABnSSvrFg/16x9-big/kiew-570.jpg?width=1920",
-      "published": "2026-10-15T08:01:26+02:00",
-      "category": "Politik",
-      "score": 80.53,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Angriffe auf Energieanlagen: Ukraine attackiert wieder Ölraffinerien - Russland gelassen",
-            "link": "https://www.handelsblatt.com/politik/international/angriffe-auf-energieanlagen-ukraine-attackiert-wieder-oelraffinerien-russland-gelassen/100262433.html"
-          }
-        ]
-      }
+      "score": 80.17
     },
     {
       "id": "tagesschau-4773122c40155311",
@@ -58,7 +48,7 @@
       "image": "https://images.tagesschau.de/image/868ebb62-8fbc-4aac-ba68-c12f90284a1b/AAABoUBAi6Q/AAABnSSvrFg/16x9-big/smartphone-d-you-app-100.jpg?width=1920",
       "published": "2026-10-15T17:53:10+02:00",
       "category": "Politik",
-      "score": 78.09,
+      "score": 78.71,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -80,7 +70,7 @@
       "image": "https://images.tagesschau.de/image/e29c55e2-0b6a-4d3a-a644-2d7da7f4ce5c/AAABoUDj2bk/AAABnSSvrFg/16x9-big/commerzbank-320.jpg?width=1920",
       "published": "2026-10-15T21:53:38+02:00",
       "category": "Wirtschaft",
-      "score": 78.09,
+      "score": 78.71,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -103,26 +93,38 @@
       }
     },
     {
-      "id": "spiegel-2c9bf37a390415f6",
-      "source": "spiegel",
+      "id": "deutschlandfunk-62d3a7af1b4dbb60",
+      "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Bundestag stimmt für höhere Tabaksteuer",
-      "link": "https://www.spiegel.de/politik/deutschland/bundestag-stimmt-fuer-hoehere-tabaksteuer-a-20329c97-f272-44ae-91be-771d48ed14a7#ref=rss",
-      "summary": "Rauchen wird wohl deutlich teurer: Der Bundestag hat der Anhebung der Tabaksteuer in den kommenden Jahren zugestimmt. Die Regierung hofft auf Milliardeneinnahmen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/2dba27be-3d73-49b6-9b26-473966abddb2_w1200_r1.778_fpx67.09_fpy49.97.jpg",
-      "published": "2026-10-15T23:27:00+02:00",
+      "title": "Berlin - Bundestag stimmt für Erhöhung der Tabaksteuer",
+      "link": "https://www.deutschlandfunk.de/bundestag-stimmt-fuer-erhoehung-der-tabaksteuer-106.html",
+      "summary": "Der Bundestag hat für eine Erhöhung der Tabaksteuer gestimmt.",
+      "image": "https://bilder.deutschlandfunk.de/a8/d1/39/d0/a8d139d0-cc41-43a5-86b1-e799e42fe77d/bundestag-haushaltswoche-104-1920x1920.jpg",
+      "published": "2026-10-16T02:30:34+02:00",
       "category": "Politik",
-      "score": 77.4,
+      "score": 77.71,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "handelsblatt",
-            "title": "Rauchen: Teure Zigaretten: Bundestag stimmt für höhere Tabaksteuer",
-            "link": "https://www.handelsblatt.com/politik/deutschland/rauchen-bundestag-stimmt-fuer-hoehere-tabaksteuer/100262681.html"
+            "source": "spiegel",
+            "title": "Bundestag stimmt für höhere Tabaksteuer",
+            "link": "https://www.spiegel.de/politik/deutschland/bundestag-stimmt-fuer-hoehere-tabaksteuer-a-20329c97-f272-44ae-91be-771d48ed14a7#ref=rss"
           }
         ]
       }
+    },
+    {
+      "id": "deutschlandfunk-9fb872e991865ba0",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Ukraine-Krieg - Stromausfall in Teilen von Kiew und dem Umland nach russischen Angriffen",
+      "link": "https://www.deutschlandfunk.de/stromausfall-in-teilen-von-kiew-und-dem-umland-nach-russischen-angriffen-102.html",
+      "summary": "In Teilen der ukrainischen Hauptstadt Kiew und in deren Umland ist nach einem russischen Angriff der Strom ausgefallen.",
+      "image": "https://bilder.deutschlandfunk.de/02/d3/85/43/02d38543-bb97-4bd4-8903-3182c5ea15b9/nacht-hochhaus-100-1920x1920.jpg",
+      "published": "2026-10-16T02:30:34+02:00",
+      "category": "Politik",
+      "score": 77.71
     },
     {
       "id": "deutschlandfunk-ed2f3b5a1a775662",
@@ -132,9 +134,9 @@
       "link": "https://www.deutschlandfunk.de/bundeswehr-einsaetze-im-roten-meer-und-suedsudan-verlaengert-114.html",
       "summary": "Der Bundestag hat zwei Auslandseinsätze der Bundeswehr verlängert.",
       "image": "https://bilder.deutschlandfunk.de/98/52/3d/a5/98523da5-cc88-4276-ba5e-467e17230df4/aspides-bundeswehr-eu-einsatz-huthi-rotes-meer-laserangriff-100-1920x1920.jpg",
-      "published": "2026-10-15T23:38:58+02:00",
+      "published": "2026-10-16T02:30:34+02:00",
       "category": "Politik",
-      "score": 77.09,
+      "score": 77.71,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -142,6 +144,33 @@
             "source": "spiegel",
             "title": "Bundeswehr-Einsätze gegen Huthi-Miliz und im Südsudan verlängert",
             "link": "https://www.spiegel.de/politik/deutschland/bundeswehr-einsaetze-gegen-huthi-miliz-und-im-suedsudan-verlaengert-a-360aa317-391c-4b39-be88-33453877c8e2#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-9161b0f0e2d9e9a5",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Reiche muss Instagram-Video mit Vorwurf gegen Linke löschen",
+      "link": "https://www.tagesschau.de/inland/reiche-linke-instagram-100.html",
+      "summary": "Bundeswirtschaftsministerin Reiche muss ein Instagram-Video über die Linke vorerst entfernen, in dem sie der Partei Antisemitismus vorwirft. Das entschied das Bundesverfassungsgericht in einem Eilverfahren. Von I. Sayram und J. Pentz. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/60e5c17f-9d2f-4c9b-bd4e-7b6178d578f6/AAABoUATiZ8/AAABnSSvrFg/16x9-big/reiche-222.jpg?width=1920",
+      "published": "2026-10-15T18:35:05+02:00",
+      "category": "Politik",
+      "score": 75.39,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Bundesverfassungsgericht - Reiche muss Instagram-Video mit Antisemitismusvorwürfen gegen Linkspartei vorerst entfernen",
+            "link": "https://www.deutschlandfunk.de/reiche-muss-instagram-video-mit-antisemitismusvorwuerfen-gegen-linkspartei-vorerst-entfernen-102.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Katherina Reiche: Linke mit Eilantrag gegen Reiche erfolgreich – Wirtschaftsministerin muss Video löschen",
+            "link": "https://www.handelsblatt.com/politik/deutschland/katherina-reiche-linke-mit-eilantrag-gegen-ministerin-reiche-erfolgreich/100262638.html"
           }
         ]
       }
@@ -156,34 +185,7 @@
       "image": "https://static.dw.com/image/79647469_6.jpg",
       "published": "2026-10-15T13:04:00+00:00",
       "category": "Politik",
-      "score": 76.94
-    },
-    {
-      "id": "deutschlandfunk-73932a249d0cc628",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Ausschreitungen - Proteste gegen Regierung in Albanien weiten sich aus",
-      "link": "https://www.deutschlandfunk.de/proteste-gegen-regierung-in-albanien-weiten-sich-aus-102.html",
-      "summary": "In Albanien haben sich die Proteste gegen schlechte Zustände an den Hochschulen und gegen die Regierung ausgeweitet.",
-      "image": "https://bilder.deutschlandfunk.de/c6/c9/2c/30/c6c92c30-67a2-4c37-a3a6-d26db6c393e9/proteste-albanien-tirana-100-1920x1920.jpg",
-      "published": "2026-10-15T23:38:58+02:00",
-      "category": "Politik",
-      "score": 73.77,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Unruhen: Proteste gegen Regierung in Albanien weiten sich aus",
-            "link": "https://www.handelsblatt.com/politik/international/unruhen-proteste-gegen-regierung-in-albanien-weiten-sich-aus/100262554.html"
-          },
-          {
-            "source": "deutsche-welle",
-            "title": "Albanien: Proteste gegen Regierung weiten sich aus",
-            "link": "https://www.dw.com/de/albanien-proteste-gegen-regierung-weiten-sich-aus/a-79671388?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
+      "score": 75.17
     },
     {
       "id": "spiegel-23a060e6061c80a9",
@@ -195,7 +197,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/0fb372c3-843d-4dc6-a445-e7c34c92f75c_w1200_r1.778_fpx28.09_fpy49.93.png",
       "published": "2026-10-15T17:49:00+02:00",
       "category": "Politik",
-      "score": 72.23
+      "score": 70.46
     },
     {
       "id": "heise-b845e55fa4508687",
@@ -207,7 +209,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/8/3/6/3/8/Screenshot_2026-10-15_174912-67a5d19f3b22a211.jpeg",
       "published": "2026-10-15T18:19:00+02:00",
       "category": "Politik",
-      "score": 71.65,
+      "score": 69.88,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -220,55 +222,16 @@
       }
     },
     {
-      "id": "deutschlandfunk-0ecdf6082e42b7ed",
-      "source": "deutschlandfunk",
+      "id": "spiegel-d9550213d75f11bf",
+      "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Prozess in USA - Ehepaar Maduro plädiert bei Folter-Anklage auf nicht schuldig",
-      "link": "https://www.deutschlandfunk.de/ehepaar-maduro-plaediert-bei-folter-anklage-auf-nicht-schuldig-104.html",
-      "summary": "Der in den USA inhaftierte ehemalige Staatschef Venezuelas, Maduro, hat vor Gericht Foltervorwürfe zurückgewiesen.",
-      "image": "https://bilder.deutschlandfunk.de/2a/75/72/75/2a757275-9b64-4fc4-86e9-90979cc2775e/maduro-ehefrau-gefangen-100-1920x1920.jpg",
-      "published": "2026-10-15T23:38:58+02:00",
-      "category": "Panorama",
-      "score": 70.77,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Nicolás Maduro plädiert bei Folter-Vorwürfen auf nicht schuldig",
-            "link": "https://www.spiegel.de/ausland/nicolas-maduro-plaediert-bei-folter-vorwuerfen-auf-nicht-schuldig-a-57b923c8-db97-42c3-9000-00de5fc99414#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Justiz: Ehepaar Maduro plädiert bei Folter-Anklage auf unschuldig",
-            "link": "https://www.handelsblatt.com/politik/international/justiz-ehepaar-maduro-plaediert-bei-folter-anklage-auf-unschuldig/100262667.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "handelsblatt-e34207964005e5de",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Ukraine-Krieg +++: Starshield-Einschränkung für Ukraine wieder aufgehoben",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-starshield-einschraenkung-fuer-ukraine-wieder-aufgehoben/27982126.html",
-      "summary": "Selenskyj kündigt neue Angriffe auf russische Raffinerien an – Kallas verteidigt das Vorgehen +++ Merz spricht sich für weitere Hilfen für die Ukraine aus +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/YmDBTMQWPmQa/cover/900/506/0/0/0/521/0.5/0.5/ukrainian-drone-units-are-on-duty-at-the-front-lines-in-donetsk-region-donetsk-region-ukraine-oct.jpg",
-      "published": "2026-10-15T14:27:46+00:00",
+      "title": "Donald Trump: Entlassene FBI-Agenten werfen Präsident persönliche Rache vor",
+      "link": "https://www.spiegel.de/ausland/donald-trump-entlassene-fbi-agenten-werfen-praesident-persoenliche-rache-vor-a-cd4fc477-a974-43b5-bc1b-9f02d9ed55f6#ref=rss",
+      "summary": "Donald Trump gilt als legendär nachtragend. Das zeigte sich auch bei der Entlassung von FBI-Leuten, die zuvor gegen ihn ermittelt hatten. Neun Agenten und Analysten wollen ihren Jobverlust allerdings nicht kampflos hinnehmen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/98fb1a67-1f72-4aa1-a902-a6912a57ae09_w1200_r1.778_fpx62.65_fpy50.jpg",
+      "published": "2026-10-16T02:34:00+02:00",
       "category": "Politik",
-      "score": 70.1
-    },
-    {
-      "id": "handelsblatt-2f6b5dd964600acf",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Krieg im Jemen: Stadt Tais im Jemen eingekesselt - Menschen leben in Angst",
-      "link": "https://www.handelsblatt.com/politik/international/krieg-im-jemen-stadt-tais-im-jemen-eingekesselt-menschen-leben-in-angst/100262683.html",
-      "summary": "Trinkwasser gibt es oft nur noch in Literflaschen, Mehl und Gas sind schwer zu finden. In Tais geht die Angst um. Und viele fragen sich: Beginnt bald die Schlacht um Jemens drittgrößte Stadt?",
-      "image": "https://images.handelsblatt.com/OiRMC9MPPLrV/cover/900/506/0/0/33/32/0.5/0.5/konflikt-im-jemen.jpg",
-      "published": "2026-10-15T22:01:04+00:00",
-      "category": "Wirtschaft",
-      "score": 68.4
+      "score": 69.75
     },
     {
       "id": "deutsche-welle-2e3e851806d9d0c0",
@@ -280,7 +243,19 @@
       "image": "https://static.dw.com/image/79592326_6.jpg",
       "published": "2026-10-15T19:29:00+00:00",
       "category": "Politik",
-      "score": 66.29
+      "score": 64.52
+    },
+    {
+      "id": "golem-d06347d730218719",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Militärischer Satellitendienst: USA beschränken Zugang der Ukraine zu Starshield",
+      "link": "https://www.golem.de/news/militaerischer-satellitendienst-usa-beschraenken-zugang-der-ukraine-zu-starshield-2610-214140.html",
+      "summary": "Der Zugang zum militärische Satellitendienst von SpaceX hat sich nach ukrainischen Angaben verschlechtert. Präsident Selenskyj kritisiert das scharf. ( SpaceX , Politik )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214140&amp;page=1&amp;ts=1792075022",
+      "published": "2026-10-15T16:37:02+02:00",
+      "category": "Politik",
+      "score": 59.46
     }
   ]
 }
