@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T07:21:15.284485+00:00",
+  "generatedAt": "2026-10-16T10:14:21.834617+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/4db3351e-c00a-4e73-b091-f5bae0ca4225/AAABoUNZayE/AAABnSSvrFg/16x9-big/familie-mahlzeit-100.jpg?width=1920",
       "published": "2026-10-16T08:19:43+02:00",
       "category": "Nachrichten",
-      "score": 96.58,
+      "score": 96.49,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -30,137 +30,189 @@
       }
     },
     {
-      "id": "handelsblatt-c900de4d23221ff0",
+      "id": "handelsblatt-60b521d08cd9a5d1",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Ukraine-Krieg: Trump über Selenskyj: „Kein guter Mann zum Verhandeln“",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-trump-ueber-selenskyj-kein-guter-mann-zum-verhandeln/100262742.html",
-      "summary": "Donald Trump und Wolodymyr Selenskyj tragen immer wieder Differenzen aus - auch öffentlich. Der US-Präsident sieht in seinem Amtskollegen offenbar ein Hindernis für Frieden in der Ukraine.",
-      "image": "https://images.handelsblatt.com/bQTveFzaZWyQ/cover/900/506/0/0/0/0/0.5/0.5/wolodymyr-selenskyj-und-donald-trump.jpg",
-      "published": "2026-10-16T05:08:56+00:00",
+      "title": "+++ Ukraine-Krieg +++: Trump verurteilt ukrainische Angriffe auf russische Raffinerien",
+      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-trump-verurteilt-angriffe-auf-russische-raffinerien/27982126.html",
+      "summary": "Russland: Zwei Tote durch ukrainische Angriffe in Luhansk +++ Trump über Selenskyj: „Kein guter Mann zum Verhandeln“ +++ Russland stellt Firmen unter staatliche Verwaltung +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/-5xm1cPfsChv/cover/900/506/0/0/0/299/0.5/0.5/donald-trump.jpg",
+      "published": "2026-10-16T10:06:00+00:00",
       "category": "Politik",
-      "score": 83.16
+      "score": 92.88,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutsche-welle",
+            "title": "Ukraine-Krieg: Trump sieht Selenskyj als Friedenshindernis",
+            "link": "https://www.dw.com/de/ukraine-krieg-trump-sieht-selenskyj-als-friedenshindernis/a-79676193?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
     },
     {
-      "id": "tagesschau-a25b46a16a752ee5",
+      "id": "tagesschau-1dfcaa175ba0c42f",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Bundestag beschließt Anhebung der Tabaksteuer",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/rauchen-bundestag-tabaksteuer-100.html",
-      "summary": "Millionen Menschen rauchen in Deutschland, das beschert dem Bund Milliardeneinnahmen über die Tabaksteuer. Künftig soll es noch mehr werden. Raucher müssen sich daher auf höhere Preise einstellen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/fd9be30f-b42d-48cb-89f1-8b2c56826d03/AAABoUHGCn8/AAABnSSvrFg/16x9-big/zigaretten-168.jpg?width=1920",
-      "published": "2026-10-16T08:54:24+02:00",
+      "title": "Starlink-Störung in der Ukraine: Enttäuscht von Musk, enttäuscht von Trump",
+      "link": "https://www.tagesschau.de/ausland/europa/ukraine-starlink-104.html",
+      "summary": "In der Ukraine scheint für viele klar: Die Starlink-Ausfälle sind kein Zufall, sondern politisch gewollt. Die Unterstützung aus der EU wird immer wichtiger. Von Rebecca Barth .[ mehr ]",
+      "image": "https://images.tagesschau.de/image/0aa9ed6d-f209-4d2f-a056-3d1516074fbc/AAABoUIT7jk/AAABnSSvrFg/16x9-big/starlink-zug-100.jpg?width=1920",
+      "published": "2026-10-16T03:23:51+02:00",
       "category": "Politik",
-      "score": 78.63,
+      "score": 86.59,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutsche-welle",
+            "title": "Warum Starlink für die Ukraine so wichtig ist",
+            "link": "https://www.dw.com/de/warum-starlink-für-die-ukraine-so-wichtig-ist/a-79668027?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-53d15f43e3d59969",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Donald Trump und Wolodymyr Selenskyj: Ukraine im Zangengriff, Russland profitiert",
+      "link": "https://www.spiegel.de/ausland/donald-trump-und-wolodymyr-selenskyj-ukraine-im-zangengriff-russland-profitiert-a-776839bc-7a91-4c87-820d-b08d2f93ee4f#ref=rss",
+      "summary": "Donald Trumps Umfragewerte sind mies, rund zwei Wochen vor den Kongresswahlen. Jetzt versucht er, den ukrainischen Präsidenten Wolodymyr Selenskyj zum Sündenbock zu machen. Im Kreml dürften sie ihr Glück kaum fassen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/63b3ab07-192c-420d-a0b1-c2ee1ece5706_w1200_r1.778_fpx49_fpy41.jpg",
+      "published": "2026-10-16T10:04:00+02:00",
+      "category": "Politik",
+      "score": 84.19
+    },
+    {
+      "id": "deutschlandfunk-5dfd10f3a7db4540",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Bundestag - Frühstart-Rente: Wie aus zehn Euro eine Altersvorsorge werden soll",
+      "link": "https://www.deutschlandfunk.de/fruehstart-rente-wie-aus-zehn-euro-eine-altersvorsorge-werden-soll-102.html",
+      "summary": "Der Bundestag hat mit der ‌sogenannten Frühstartrente erstmals eine ⁠staatlich geförderte private Altersvorsorge bereits im ⁠Kindesalter beschlossen. Sie soll Kindern ab dem Geburtsjahrgang 2020 den Aufbau einer privaten Altersvorsorge erleichtern.",
+      "image": "https://bilder.deutschlandfunk.de/bb/ff/d7/0c/bbffd70c-99bf-44a3-89a0-1a0dd1ce13c8/fruehstartrente-kinder-100-1920x1920.jpg",
+      "published": "2026-10-16T12:00:40+02:00",
+      "category": "Politik",
+      "score": 77.81,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "spiegel",
-            "title": "Bundestag stimmt für höhere Tabaksteuer",
-            "link": "https://www.spiegel.de/politik/deutschland/bundestag-stimmt-fuer-hoehere-tabaksteuer-a-20329c97-f272-44ae-91be-771d48ed14a7#ref=rss"
+            "title": "Frühstartrente: So soll aus 10 Euro im Monat eine Rente von 50.000 Euro werden",
+            "link": "https://www.spiegel.de/wirtschaft/soziales/fruehstartrente-so-soll-aus-10-euro-im-monat-eine-rente-von-50-000-euro-werden-a-4bf67846-d9d8-41d4-a469-799845f4dae2#ref=rss"
           }
         ]
       }
     },
     {
-      "id": "deutschlandfunk-5dbc4b2aa43c7a13",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Satellitensystem - Einschränkungen von Starlink für ukrainische Drohnenabwehr wieder aufgehoben",
-      "link": "https://www.deutschlandfunk.de/einschraenkungen-von-starlink-fuer-ukrainische-drohnenabwehr-wieder-aufgehoben-106.html",
-      "summary": "Die ukrainischen Streitkräfte können nach übereinstimmenden Berichten wieder uneingeschränkt auf das Satellitennetzwerk Starlink zugreifen. Ukrainische Medien meldeten unter Berufung auf das Verteidigungsministerium in Kiew, die Drosselung sei aufgehoben. Dennoch eskaliert US-Präsident Trump weiter den Konflikt mit Ukraines Präsident Selenskyj.",
-      "image": "https://bilder.deutschlandfunk.de/f7/61/1e/5f/f7611e5f-9fbe-4160-b55d-2fa6b6cc71ee/logo-satelliten-internet-starlink-100-1920x1920.jpg",
-      "published": "2026-10-16T09:14:21+02:00",
-      "category": "Politik",
-      "score": 77.9
-    },
-    {
-      "id": "spiegel-d66463d5b869c122",
+      "id": "spiegel-a63beef43a059ee7",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg: Weißes Haus soll Starshield-Einsatz begrenzt haben",
-      "link": "https://www.spiegel.de/politik/ukraine-krieg-weisses-haus-soll-starshield-einsatz-begrenzt-haben-a-202e59ca-08b8-4fd9-8907-9dc8d063e3e5#ref=rss",
-      "summary": "Die Drosselung des US-Satellitensystems Starshield soll ukrainische Drohnenangriffe beeinträchtigt haben. Einem Bericht zufolge kam die Anweisung aus dem Weißen Haus. Außenminister Wadephul fordert Aufklärung",
-      "image": "https://cdn.prod.www.spiegel.de/images/4bc9706e-bdf2-4380-b1d9-ac4645854910_w1200_r1.778_fpx44_fpy46.jpg",
-      "published": "2026-10-16T08:32:00+02:00",
+      "title": "Lars Klingbeil: Später IWF-Start in Bangkok und neue Konflikte mit den USA",
+      "link": "https://www.spiegel.de/wirtschaft/soziales/lars-klingbeil-spaeter-iwf-start-in-bangkok-und-neue-konflikte-mit-den-usa-a-cb4f3a1d-f3da-4348-8e64-80d20e3b45fc#ref=rss",
+      "summary": "Wegen der Koalitionskrise kommt Finanzminister Klingbeil später als geplant zum IWF-Jahrestreffen in Bangkok. Dort warten neue Probleme und Amerikaner, die Donald Trumps seltsame Wortkreationen umsetzen müssen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/6e7a28c6-8437-406c-9dd6-042e032d4c7d_w1200_r1.778_fpx54.5_fpy50.jpg",
+      "published": "2026-10-16T11:14:00+02:00",
       "category": "Politik",
-      "score": 77.32
+      "score": 77.16
     },
     {
-      "id": "tagesschau-800fff8a8cb6085c",
+      "id": "handelsblatt-7cdfdf14bed74313",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "US-Wahlen: Blaue Welle oder blaues Wunder – stehen die Demokraten sich selbst im Weg?",
+      "link": "https://www.handelsblatt.com/politik/international/us-wahlen-stehen-die-demokraten-sich-selbst-im-weg-01/100261672.html",
+      "summary": "Donald Trump ist so unpopulär wie kaum ein Präsident vor ihm – und trotzdem ist ein Sieg der Demokraten alles andere als sicher. Das liegt vor allem an der Partei selbst.",
+      "image": "https://images.handelsblatt.com/xpqBZh2ZwxDu/cover/900/506/0/0/0/0/0.5/0.5/longread-demokraten.jpg",
+      "published": "2026-10-16T09:22:00+00:00",
+      "category": "Politik",
+      "score": 76.27
+    },
+    {
+      "id": "spiegel-478f309587f3c523",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Immobilien-Krise: Baugenehmigungen für Wohnungen steigen erneut",
+      "link": "https://www.spiegel.de/wirtschaft/immobilien-baugenehmigungen-fuer-wohnungen-steigen-erneut-a-c57fda03-e2d0-4d35-9d13-9f03de80e3b9#ref=rss",
+      "summary": "In Deutschland fehlen nach Schätzungen mehr als eine Million Wohnungen. Nun steigen zumindest die Genehmigungszahlen, doch die Branche steht weiter unter Druck.",
+      "image": "https://cdn.prod.www.spiegel.de/images/f3f20786-c298-466f-a72b-f861ce404ea4_w1200_r1.778_fpx51.01_fpy50.jpg",
+      "published": "2026-10-16T09:32:00+02:00",
+      "category": "Nachrichten",
+      "score": 73.65,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Kommt der Bau aus der Krise?: Baugenehmigungen steigen - Bundesbaugesellschaft vor Start",
+            "link": "https://www.handelsblatt.com/politik/deutschland/kommt-der-bau-aus-der-krise-baugenehmigungen-steigen-bundesbaugesellschaft-vor-start/100262758.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-c2e445b5b6a3ed6e",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Alexus Grynkewich: Nato-Oberbefehlshaber über Kriegsszenarien mit Russland",
+      "link": "https://www.spiegel.de/politik/deutschland/alexus-grynkewich-nato-oberbefehlshaber-ueber-kriegsszenarien-mit-russland-a-d42d7e7b-cfd9-4200-bc98-0d5cd808f84c#ref=rss",
+      "summary": "US-General Alexus Grynkewich führt alle Nato-Truppen in Europa, Carsten Breuer ist der ranghöchste Soldat der Bundeswehr. Im SPIEGEL-Interview erläutern beide, wie sie die Allianz für einen Konflikt mit Russland rüsten.",
+      "image": "https://cdn.prod.www.spiegel.de/images/7973ee54-cf8e-4b91-84f0-a2f148528b20_w1200_r1.778_fpx34.67_fpy50.jpg",
+      "published": "2026-10-16T06:41:00+02:00",
+      "category": "Nachrichten",
+      "score": 73.52,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Militär: Nato-General hält die Allianz im Konflikt mit Russland für klar überlegen",
+            "link": "https://www.handelsblatt.com/politik/international/konflikt-mit-russland-general-haelt-die-nato-fuer-klar-ueberlegen/100262779.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-5e61642c2b2e38a8",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "UniCredit bekommt grünes Licht von EZB für Übernahme der Commerzbank",
-      "link": "https://www.tagesschau.de/wirtschaft/ezb-uebernahme-commerzbank-100.html",
-      "summary": "Seit zwei Jahren bemüht sich die italienische Großbank UniCredit um die Commerzbank. Nach langem Widerstand hat UniCredit nun eine wichtige Hürde genommen - und grünes Licht von der EZB bekommen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/e29c55e2-0b6a-4d3a-a644-2d7da7f4ce5c/AAABoUDj2bk/AAABnSSvrFg/16x9-big/commerzbank-320.jpg?width=1920",
-      "published": "2026-10-15T21:53:38+02:00",
-      "category": "Wirtschaft",
-      "score": 75.58,
+      "title": "Frankreich und Deutschland wollen Verbrenner-Aus aufweichen",
+      "link": "https://www.tagesschau.de/ausland/europa/verbrenner-aus-lockerung-100.html",
+      "summary": "Deutschland setzt sich dafür ein, dass weiter Neuwagen mit Verbrennungstechnologie zugelassen werden können. Frankreichs Präsident Macron hat sich bisher gesperrt - nun zeichnet sich eine Einigung ab.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/90974820-1ec2-40d2-b13a-d64595a79d49/AAABoUJAJ4Q/AAABnSSvrFg/16x9-big/verbrenner-abgase-100.jpg?width=1920",
+      "published": "2026-10-16T03:17:45+02:00",
+      "category": "Nachrichten",
+      "score": 72.51,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
-            "source": "deutschlandfunk",
-            "title": "Wirtschaft - Unicredit erhält grünes Licht der EZB für Übernahme der Commerzbank",
-            "link": "https://www.deutschlandfunk.de/unicredit-erhaelt-gruenes-licht-der-ezb-fuer-uebernahme-der-commerzbank-106.html"
+            "source": "handelsblatt",
+            "title": "Automobilindustrie: Deutschland und Frankreich legen Auto-Vorschläge vor",
+            "link": "https://www.handelsblatt.com/politik/deutschland/automobilindustrie-deutschland-und-frankreich-legen-auto-vorschlaege-vor/100262807.html"
           },
           {
-            "source": "spiegel",
-            "title": "EZB erlaubt UniCredit offenbar Übernahme von Commerzbank",
-            "link": "https://www.spiegel.de/wirtschaft/unternehmen/ezb-erlaubt-unicredit-offenbar-uebernahme-von-commerzbank-anteilen-a-4fdb9120-ecc0-4431-ac6c-3d5340d5bb4a#ref=rss"
+            "source": "heise",
+            "title": "Merz und Macron einigen sich offenbar bei Verbrenner-Ende",
+            "link": "https://www.heise.de/news/Ende-des-Verbrenners-Deutschland-und-Frankreich-fuer-Lockerungen-11490190.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag"
           }
         ]
       }
     },
     {
-      "id": "spiegel-0654d3b83417c3fe",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Donald Trump verrät die Ukraine: Wie Europa sich wehren kann",
-      "link": "https://www.spiegel.de/ausland/donald-trump-verraet-die-ukraine-so-kann-sich-europa-wehren-a-754002ed-3439-4801-903d-9aca7b18b1f7#ref=rss",
-      "summary": "Donald Trump will die Ukraine für seinen verkorksten Irankrieg bezahlen lassen. Aber die Europäer haben Hebel, die sie endlich nutzen sollten.",
-      "image": "https://cdn.prod.www.spiegel.de/images/039db86c-45b3-4f04-8427-f59b4f791f3f_w1200_r1.778_fpx64_fpy23.jpg",
-      "published": "2026-10-15T19:52:00+02:00",
-      "category": "Politik",
-      "score": 74.76
-    },
-    {
-      "id": "handelsblatt-9fea9d6f864a80e0",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Deep Read: Der Wiederaufbau in Gaza kommt nur dort voran, wo Israel ein Problem hat",
-      "link": "https://www.handelsblatt.com/politik/international/gaza-der-wiederaufbau-kommt-nur-dort-voran-wo-israel-ein-problem-hat/100258342.html",
-      "summary": "Im Gazastreifen bereiten sich gut eine Million Palästinenser auf den vierten Winter ohne Dach über dem Kopf vor. Dort, wo etwas Neues entsteht, passiert das nicht aus humanitären Gründen.",
-      "image": "https://images.handelsblatt.com/wCfX645m5ErT/cover/900/506/0/0/292/333/0.5/0.5/the-sun-sets-behind-war-damaged-buildings-in-gaza-city-wednesday-dec.-31-2025.-ap-photo-abdel-ka.jpg",
-      "published": "2026-10-16T02:03:13+00:00",
-      "category": "Politik",
-      "score": 72.58
-    },
-    {
-      "id": "handelsblatt-89fcd30637ee2ee2",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "US-Wahlen: Blaue Welle oder blaues Wunder – stehen die Demokraten sich selbst im Weg?",
-      "link": "https://www.handelsblatt.com/politik/international/us-wahlen-stehen-die-demokraten-sich-selbst-im-weg/100261672.html",
-      "summary": "Donald Trump ist so unpopulär wie kaum ein Präsident vor ihm – und trotzdem ist ein Sieg der Demokraten alles andere als sicher. Das liegt vor allem an der Partei selbst.",
-      "image": "https://images.handelsblatt.com/xpqBZh2ZwxDu/cover/900/506/0/0/0/0/0.5/0.5/longread-demokraten.jpg",
-      "published": "2026-10-16T02:00:00+00:00",
-      "category": "Politik",
-      "score": 72.54
-    },
-    {
-      "id": "deutschlandfunk-0ad1fb975791b247",
+      "id": "deutschlandfunk-04bcc5b201bbb2c2",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Krieg im Mittleren Osten - Angriff auf jemenitischen Präsidentenpalast in Aden - Regierung spricht von Toten und Verletzten",
-      "link": "https://www.deutschlandfunk.de/angriff-auf-jemenitischen-praesidentenpalast-in-aden-regierung-spricht-von-toten-und-verletzten-104.html",
-      "summary": "Im Jemen ist der Präsidentenpalast in der Hafenstadt Aden mit Raketen angegriffen worden.",
-      "image": "https://bilder.deutschlandfunk.de/c2/e4/8f/7a/c2e48f7a-8909-46d4-bc4a-e635c91c73b8/jemen-aden-angriff-100-1920x1920.jpg",
-      "published": "2026-10-16T09:14:21+02:00",
+      "title": "Gipfel in Brüssel - Außenbeauftragte Kallas: EU kann Starlink-System in der Ukraine kurzfristig nicht ersetzen",
+      "link": "https://www.deutschlandfunk.de/aussenbeauftragte-kallas-eu-kann-starlink-system-in-der-ukraine-kurzfristig-nicht-ersetzen-100.html",
+      "summary": "Nach der zeitweisen Drosselung des Satelliten-Kommunikationsdienstes Starlink in der Ukraine hat die EU-Außenbeauftragte Kallas die Bedeutung der Technik für Kiew hervorgehoben. Das System sei für die Ukraine absolut notwendig, sagte Kallas beim EU-Gipfel in Brüssel.",
+      "image": "https://bilder.deutschlandfunk.de/b7/5f/13/7d/b75f137d-a51a-4f9f-8ceb-d0f017ef2a2a/eu-aussenbeauftragte-kaja-kallas-kommission-gipfel-100-1920x1920.jpg",
+      "published": "2026-10-16T12:00:40+02:00",
       "category": "Politik",
-      "score": 69.9
+      "score": 69.81
     },
     {
       "id": "deutschlandfunk-27f57adc581da496",
@@ -170,9 +222,21 @@
       "link": "https://www.deutschlandfunk.de/erhoehung-der-tabaksteuer-und-weitere-beschluesse-100.html",
       "summary": "Der Bundestag hat für eine Erhöhung der Tabaksteuer gestimmt. Das Parlament beschloss in Berlin, dass die Steuer auf Tabakprodukte über einen Zeitraum von vier Jahren regelmäßig angehoben wird.",
       "image": "https://bilder.deutschlandfunk.de/a8/d1/39/d0/a8d139d0-cc41-43a5-86b1-e799e42fe77d/bundestag-haushaltswoche-104-1920x1920.jpg",
-      "published": "2026-10-16T09:14:21+02:00",
+      "published": "2026-10-16T12:00:40+02:00",
       "category": "Politik",
-      "score": 69.9
+      "score": 69.81
+    },
+    {
+      "id": "handelsblatt-cdefef623cb0353a",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Dax aktuell: Dax notiert im Plus – Aixtron-Aktie steigt",
+      "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-notiert-im-plus-aixtron-aktie-steigt-zweistellig/100262751.html",
+      "summary": "Die Inflation von 3,8 Prozent für den Euroraum schürt Sorgen vor weiteren EZB‑Zinserhöhungen. Gleichzeitig geben die Ölpreise leicht nach.",
+      "image": "https://images.handelsblatt.com/bckzfpdOn42n/cover/900/506/0/1/0/0/0.5/0.5/graph-aktienkurs-aktienchart-dax-online-dax-bericht.jpg",
+      "published": "2026-10-16T10:02:01+00:00",
+      "category": "Wirtschaft",
+      "score": 68.83
     },
     {
       "id": "deutsche-welle-9de2c5a95e803965",
@@ -184,19 +248,19 @@
       "image": "https://static.dw.com/image/79647469_6.jpg",
       "published": "2026-10-15T13:04:00+00:00",
       "category": "Politik",
-      "score": 69.76
+      "score": 67.36
     },
     {
       "id": "heise-49e08d5aa1c78b2f",
       "source": "heise",
       "sourceWeight": 0.9,
-      "title": "Tesla Roadster II vorgestellt: Ganz schön abgehoben - Raketentechnik sei Dank",
+      "title": "Tesla Roadster II vorgestellt: Ganz schön abgehoben – Raketentechnik sei Dank",
       "link": "https://www.heise.de/news/Tesla-Roadster-II-vorgestellt-Ganz-schoen-abgehoben-Raketentechnik-sei-Dank-11490167.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
       "summary": "Tesla zeigt den Roadster II mit aktivem Ground Effect, die das Auto auf den Boden pressen, und Kaltgastriebwerken, mit denen es ein bisschen fliegen kann.",
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/8/3/8/1/7/ROA01-dbb4a171819b0e6c.jpeg",
       "published": "2026-10-16T08:10:00+02:00",
       "category": "Technologie",
-      "score": 65.01,
+      "score": 62.61,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -207,40 +271,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "heise-b845e55fa4508687",
-      "source": "heise",
-      "sourceWeight": 0.9,
-      "title": "AEG will der Midea PortaSplit Konkurrenz machen",
-      "link": "https://www.heise.de/news/AEG-will-der-Midea-PortaSplit-Konkurrenz-machen-11489814.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "summary": "Ab 2027 haben Hitzegeplagte mehr Auswahl bei mobilen Split-Klimaanlagen. Von AEG kommt die Roomovi, die der PortaSplit ähnelt.",
-      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/8/3/6/3/8/Screenshot_2026-10-15_174912-67a5d19f3b22a211.jpeg",
-      "published": "2026-10-15T18:19:00+02:00",
-      "category": "Politik",
-      "score": 64.47,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "golem",
-            "title": "Mobile Klimaanlage: AEG Roomovi fordert die Portasplit heraus",
-            "link": "https://www.golem.de/news/mobile-klimaanlage-aeg-roomovi-fordert-die-portasplit-heraus-2610-214129.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutsche-welle-2e3e851806d9d0c0",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Russische Angriffe auf Kraftwerke: Was die Ukraine im Winter erwartet",
-      "link": "https://www.dw.com/de/russische-angriffe-auf-kraftwerke-was-die-ukraine-im-winter-erwartet/a-79668910?maca=de-rss-de-all-1119-rdf",
-      "summary": "Die Städte der Ukraine bereiten sich unter massiven Angriffen Russlands auf die Energieinfrastruktur auf die bevorstehende Heizperiode vor. Welche Probleme drohen den Ukrainern im kommenden Winter?",
-      "image": "https://static.dw.com/image/79592326_6.jpg",
-      "published": "2026-10-15T19:29:00+00:00",
-      "category": "Politik",
-      "score": 59.11
     }
   ]
 }
