@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T15:03:14.870913+00:00",
+  "generatedAt": "2026-10-16T17:32:36.818654+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/4db3351e-c00a-4e73-b091-f5bae0ca4225/AAABoUNZayE/AAABnSSvrFg/16x9-big/familie-mahlzeit-100.jpg?width=1920",
       "published": "2026-10-16T08:19:43+02:00",
       "category": "Nachrichten",
-      "score": 96.15,
+      "score": 96.64,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -30,41 +30,132 @@
       }
     },
     {
-      "id": "deutsche-welle-5973b7642e4e7e87",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Ukraine-Krieg: Trump sieht Selenskyj als Friedenshindernis",
-      "link": "https://www.dw.com/de/ukraine-krieg-trump-sieht-selenskyj-als-friedenshindernis/a-79676193?maca=de-rss-de-all-1119-rdf",
-      "summary": "Donald Trump verschärft seine Kritik an der Ukraine. Der US-Präsident macht deren Angriffe auf russische Ölraffinerien für steigende Energiepreise verantwortlich. Rückendeckung erhält die Ukraine dagegen von der EU.",
-      "image": "https://static.dw.com/image/79636230_6.jpg",
-      "published": "2026-10-16T13:08:00+00:00",
+      "id": "tagesschau-957c6802603b66fe",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Berlin: Linken-Vorstand distanziert sich von Abgeordneter Emde",
+      "link": "https://www.tagesschau.de/inland/regional/berlin/beratungen-vorstand-linksfraktion-berlin-100.html",
+      "summary": "Die Vorstand der Linken in Berlin will offenbar nicht mehr mit der Abgeordneten Emde zusammenarbeiten. Hintergrund ist ein Instagram-Video, in dem Emde israel-kritische Positionen wiederholt. Kommende Woche soll es ein Gespräch geben.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/ee8836eb-c8c8-4e02-9f27-c920ec990883/AAABoUVVpT4/AAABnSSvrFg/16x9-big/rbb-vanessa-emde-100.jpg?width=1920",
+      "published": "2026-10-16T17:26:49+02:00",
       "category": "Politik",
-      "score": 91.4,
+      "score": 86.96,
       "coverage": {
-        "sourceCount": 2,
+        "sourceCount": 4,
         "others": [
           {
+            "source": "deutschlandfunk",
+            "title": "Rot-grün-rote Sondierungen - Berlin: Fraktionsspitze der Linken distanziert sich von Vanessa Emde",
+            "link": "https://www.deutschlandfunk.de/berlin-fraktionsspitze-der-linken-distanziert-sich-von-vanessa-emde-100.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "Linke, SPD, Grüne in Berlin: Vanessa Emde postet ein Video - und die Ruhe ist vorbei",
+            "link": "https://www.spiegel.de/politik/linke-spd-gruene-in-berlin-israel-gegnerin-vanessa-emde-postet-ein-video-und-die-ruhe-ist-vorbei-a-c7003dde-5e89-43ab-9c35-45d4eccb208b#ref=rss"
+          },
+          {
             "source": "handelsblatt",
-            "title": "+++ Ukraine-Krieg +++: Selenskyj verteidigt Angriffe auf russische Energieanlagen",
-            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-verteidigt-angriffe-auf-russische-energieanlagen/27982126.html"
+            "title": "Regierungsbildung in Berlin: Linke-Fraktionsspitze rückt von umstrittener Abgeordneter ab",
+            "link": "https://www.handelsblatt.com/politik/deutschland/regierungsbildung-in-berlin-linke-fraktionsspitze-rueckt-von-umstrittener-abgeordneter-ab/100262888.html"
           }
         ]
       }
     },
     {
-      "id": "spiegel-6689668266048614",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Eurowings prüft Kurzarbeit: Kerosin-Krise bei Lufthansa-Tochter",
-      "link": "https://www.spiegel.de/wirtschaft/eurowings-prueft-kurzarbeit-kerosin-krise-bei-lufthansa-tochter-a-c4fb0ddf-188c-4e26-97f5-2720d443e851#ref=rss",
-      "summary": "Die Lufthansa-Tochter streicht Flüge, sagt die Weihnachtsfeier ab und prüft die Möglichkeit von Kurzarbeit im Flugbetrieb. Das wäre das erste Mal seit der Coronapandemie.",
-      "image": "https://cdn.prod.www.spiegel.de/images/e273da4e-7579-4294-a62f-ac11be1062f9_w1200_r1.778_fpx56.43_fpy55.jpg",
-      "published": "2026-10-16T14:03:00+02:00",
-      "category": "Nachrichten",
-      "score": 89.64,
+      "id": "handelsblatt-af2661f21926b681",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ Ukraine-Krieg +++: Selenskyj verteidigt Angriffe auf russische Energieanlagen",
+      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-verteidigt-angriffe-auf-russische-energieanlagen/27982126.html",
+      "summary": "Russland schafft unverhandelbare „Sicherheitszone“ in Ukraine +++ Hunderttausende Haushalte in der Ukraine ohne Strom +++ Selenskyj: Starlink-Service noch nicht wiederhergestellt +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/o0a0LbEGlLZa/cover/900/506/0/0/313/312/0.5/0.5/16.10.2026-belgien-bruessel-wolodymyr-selenskyj-praesident-der-ukraine-spricht-bei-einer-presseko.jpg",
+      "published": "2026-10-16T16:51:00+00:00",
+      "category": "Politik",
+      "score": 84.42,
       "coverage": {
         "sourceCount": 2,
         "others": [
+          {
+            "source": "deutsche-welle",
+            "title": "Ukraine-Krieg: Trump sieht Selenskyj als Friedenshindernis",
+            "link": "https://www.dw.com/de/ukraine-krieg-trump-sieht-selenskyj-als-friedenshindernis/a-79676193?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-0e35677a805f2863",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Gipfel in Brüssel - EU-Staats- und Regierungschefs sichern Ukraine weitere Unterstützung zu",
+      "link": "https://www.deutschlandfunk.de/eu-staats-und-regierungschefs-sichern-ukraine-weitere-unterstuetzung-zu-100.html",
+      "summary": "In Brüssel haben die Staats- und Regierungschefs der Europäischen Union über die weitere Unterstützung der Ukraine beraten. EU-Kommissionspräsidentin von der Leyen sagte neue Hilfen zu und bekräftigte die Aufrechterhaltung der Sanktionen gegen Russland. Der ukrainische Präsident Selenskyj betonte, sein Land brauche im kommenden Jahr mindestens 70 Milliarden Euro für die Verteidigung.",
+      "image": "https://bilder.deutschlandfunk.de/6c/82/e3/54/6c82e354-7595-44db-a044-07541c543c2a/eu-gipfel-148-1920x1920.jpg",
+      "published": "2026-10-16T19:29:47+02:00",
+      "category": "Politik",
+      "score": 82.64,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "EU-Gipfel: Bröckelt jetzt die Unterstützung für die Ukraine?",
+            "link": "https://www.spiegel.de/politik/deutschland/eu-gipfel-broeckelt-jetzt-die-unterstuetzung-fuer-die-ukraine-a-c0bbe93c-b8ee-48c0-a6a9-e4c83304e644#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "EU-Gipfel: Selenskyj fordert weitere 70 Milliarden Euro von der EU",
+            "link": "https://www.handelsblatt.com/politik/international/eu-gipfel-selenskyj-fordert-weitere-70-milliarden-euro-von-der-eu/100262742.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-59a106df09ceff20",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "\"Deutschlandtag\" der Jungen Union - der Parteinachwuchs als Antreiber",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/junge-union-deutschlandtag-112.html",
+      "summary": "Die Umfragewerte im Keller, die Stimmung auch: In der Koalition kriselt es. Beim \"Deutschlandtag\" der Jungen Union in Bonn will der Parteinachwuchs nun neue Impulse für die Union setzen. Von Dagmar Pepping. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/c8dc871e-86d7-4307-b791-e26af85b4fb6/AAABmoMLMv0/AAABnSSvrFg/16x9-big/merz-1090.jpg?width=1920",
+      "published": "2026-10-16T13:28:58+02:00",
+      "category": "Nachrichten",
+      "score": 80.64,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Bonn - \"Deutschlandtag\" der Jungen Union begonnen",
+            "link": "https://www.deutschlandfunk.de/deutschlandtag-der-jungen-union-begonnen-100.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Interview: „Dann lasse ich mich gerne abwählen“: Chef der Jungen Gruppe erhöht den Reformdruck﻿ auf Merz",
+            "link": "https://www.handelsblatt.com/politik/deutschland/interview-rentenrebell-fordert-reform-dann-lasse-ich-mich-gerne-abwaehlen/100261894.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-33470a920fdf3cd5",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Eurowings streicht Flüge und prüft Kurzarbeit",
+      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/eurowings-kurzarbeit-100.html",
+      "summary": "Der Kostendruck steigt: Eurowings streicht Flüge und prüft die Möglichkeit von Kurzarbeit für seine Mitarbeitenden. Als Grund nennt die Lufthansa-Tochter die gestiegenen Preise für Kerosin durch den Iran-Krieg. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/e77ca4af-73a5-41b8-8744-f7d4da5f0617/AAABoUU6aNU/AAABnSSvrFg/16x9-big/flugzeug-eurowings-100.jpg?width=1920",
+      "published": "2026-10-16T18:52:09+02:00",
+      "category": "Nachrichten",
+      "score": 80.12,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "News des Tages: Wartezeiten beim Arzt, Eurowings, Raupenplage in der Schweiz",
+            "link": "https://www.spiegel.de/politik/deutschland/news-des-tages-wartezeiten-beim-arzt-eurowings-raupenplage-in-der-schweiz-a-aec9d2b0-a6f4-42ad-aa72-2cdb863d4f17#ref=rss"
+          },
           {
             "source": "handelsblatt",
             "title": "Luftfahrt: Eurowings prüft Kurzarbeit wegen hoher Kerosinkosten",
@@ -74,60 +165,31 @@
       }
     },
     {
-      "id": "tagesschau-1dfcaa175ba0c42f",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Starlink-Störung in der Ukraine: Enttäuscht von Musk, enttäuscht von Trump",
-      "link": "https://www.tagesschau.de/ausland/europa/ukraine-starlink-104.html",
-      "summary": "In der Ukraine scheint für viele klar: Die Starlink-Ausfälle sind kein Zufall, sondern politisch gewollt. Die Unterstützung aus der EU wird immer wichtiger. Von Rebecca Barth .[ mehr ]",
-      "image": "https://images.tagesschau.de/image/0aa9ed6d-f209-4d2f-a056-3d1516074fbc/AAABoUIT7jk/AAABnSSvrFg/16x9-big/starlink-zug-100.jpg?width=1920",
-      "published": "2026-10-16T03:23:51+02:00",
-      "category": "Politik",
-      "score": 82.58,
+      "id": "deutschlandfunk-d43314bb07699f76",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Automobilindustrie - Merz: \"Verbrenner-Aus ist Geschichte\"",
+      "link": "https://www.deutschlandfunk.de/merz-verbrenner-aus-ist-geschichte-102.html",
+      "summary": "Nach der deutsch-französischen Einigung über ‌die Senkung der CO2-Werte für Neuwagen ⁠ab 2035 hat Bundeskanzler ⁠Merz vom \"Ende des Verbrenner-Aus\" gesprochen. Merz und Frankreichs Präsident Macron hatten die Einigung am Rande des EU-Gipfels in Brüssel bekannt gegeben. Danach soll das CO2-Reduktionsziel für Neuwagen von bisher 100 auf 90 Prozent sinken, ohne dass weitere Ausgleichsmaßnahmen erforderlich wären.",
+      "image": "https://bilder.deutschlandfunk.de/3f/da/1a/e4/3fda1ae4-5254-4896-a506-38c05dcc0d2b/bundeskanzler-merz-bruessel-gipfel-100-1920x1920.jpg",
+      "published": "2026-10-16T19:29:47+02:00",
+      "category": "Nachrichten",
+      "score": 71.64,
       "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutsche-welle",
-            "title": "Warum Starlink für die Ukraine so wichtig ist",
-            "link": "https://www.dw.com/de/warum-starlink-für-die-ukraine-so-wichtig-ist/a-79668027?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-5e82fffb7f644536",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Altersvorsorge: Wie das mit der \"Frühstartrente\" laufen soll",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/faq-fruehstartrente-100.html",
-      "summary": "Der Entwurf für eine große Rentenreform liegt noch nicht vor, aber der Bundestag hat heute eine Maßnahme zur Alterssicherung beschlossen: die sogenannte Frühstartrente. Was sie beinhaltet und wer sie bekommt.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/f6b00ed5-8625-4281-a381-0722af315e59/AAABoT_rt44/AAABnSSvrFg/16x9-big/kleinkinder-kita-102.jpg?width=1920",
-      "published": "2026-10-16T10:16:46+02:00",
-      "category": "Politik",
-      "score": 78.36,
-      "coverage": {
-        "sourceCount": 2,
+        "sourceCount": 3,
         "others": [
           {
             "source": "handelsblatt",
-            "title": "Altersvorsorge: Bundestag beschließt „Frühstartrente“",
-            "link": "https://www.handelsblatt.com/video/politik/altersvorsorge-bundestag-beschliesst-fruehstartrente/100262872.html"
+            "title": "Automobilindustrie: Berlin und Paris einig - „Verbrenner-Aus damit Geschichte“",
+            "link": "https://www.handelsblatt.com/politik/deutschland/automobilindustrie-berlin-und-paris-einig-verbrenner-aus-damit-geschichte/100262807.html"
+          },
+          {
+            "source": "heise",
+            "title": "Merz und Macron einigen sich offenbar bei Verbrenner-Ende",
+            "link": "https://www.heise.de/news/Ende-des-Verbrenners-Deutschland-und-Frankreich-fuer-Lockerungen-11490190.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag"
           }
         ]
       }
-    },
-    {
-      "id": "handelsblatt-16659ba81500de6a",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Ukraine-Krieg: Russland greift immer mehr Frachtschiffe im Schwarzen Meer an",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-russland-greift-immer-mehr-frachtschiffe-im-schwarzen-meer-an/100262748.html",
-      "summary": "Drohnenangriffe auf zivile Schiffe nehmen zu – selbst in den Hoheitsgewässern der Nato-Staaten. Auch an der Außengrenze des Bündnisses häufen sich verdächtige Vorfälle.",
-      "image": "https://images.handelsblatt.com/8sW3UaJWZ92i/cover/900/506/0/0/112/13/0.5/0.5/standort-drohnenangriff.webp",
-      "published": "2026-10-16T13:03:30+00:00",
-      "category": "Politik",
-      "score": 75.34
     },
     {
       "id": "deutschlandfunk-02668260ec959683",
@@ -137,57 +199,57 @@
       "link": "https://www.deutschlandfunk.de/wanderwitz-zum-vorstand-der-filmfoerderungsanstalt-gewaehlt-102.html",
       "summary": "Der frühere Ost-Beauftragte der Bundesregierung, Wanderwitz, ist neuer geschäftsführender Vorstand der nationalen Filmförderungsanstalt (FFA). Der Verwaltungsrat habe den 51-jährigen gebürtigen Sachsen und ehemaligen CDU-Bundestagsabgeordneten einstimmig gewählt, teilte Kulturstaatsminister Weimer mit.",
       "image": "https://bilder.deutschlandfunk.de/24/81/bc/d1/2481bcd1-34ea-406b-a749-66802b74e17b/marco-wanderwitz-100-1920x1920.jpg",
-      "published": "2026-10-16T16:24:50+02:00",
+      "published": "2026-10-16T19:29:47+02:00",
       "category": "Politik",
-      "score": 69.47
+      "score": 69.96
     },
     {
-      "id": "deutschlandfunk-04bcc5b201bbb2c2",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Nach kurzfristiger Drosselung - Außenbeauftragte Kallas: EU kann Starlink-System in der Ukraine kurzfristig nicht ersetzen",
-      "link": "https://www.deutschlandfunk.de/aussenbeauftragte-kallas-eu-kann-starlink-system-in-der-ukraine-kurzfristig-nicht-ersetzen-100.html",
-      "summary": "Nach der zeitweisen Drosselung des Satelliten-Kommunikationsdienstes Starlink in der Ukraine hat die EU-Außenbeauftragte Kallas die Bedeutung der Technik für Kiew hervorgehoben. Das System sei für die Ukraine absolut notwendig, sagte Kallas beim EU-Gipfel in Brüssel.",
-      "image": "https://bilder.deutschlandfunk.de/b7/5f/13/7d/b75f137d-a51a-4f9f-8ceb-d0f017ef2a2a/eu-aussenbeauftragte-kaja-kallas-kommission-gipfel-100-1920x1920.jpg",
-      "published": "2026-10-16T16:24:50+02:00",
-      "category": "Politik",
-      "score": 69.47
-    },
-    {
-      "id": "deutschlandfunk-0e35677a805f2863",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Gipfel in Brüssel - EU-Staats- und Regierungschefs sichern Ukraine weitere Unterstützung zu",
-      "link": "https://www.deutschlandfunk.de/eu-staats-und-regierungschefs-sichern-ukraine-weitere-unterstuetzung-zu-100.html",
-      "summary": "In Brüssel beraten die Staats- und Regierungschefs der Europäischen Union über die weitere Unterstützung der Ukraine. EU-Kommissionspräsidentin von der Leyen sagte weitere Hilfen zu und bekräftigte die Aufrechterhaltung der Sanktionen gegen Russland. Auch der ukrainische Präsident Selenskyj nimmt an dem Gipfeltreffen teil.",
-      "image": "https://bilder.deutschlandfunk.de/6c/82/e3/54/6c82e354-7595-44db-a044-07541c543c2a/eu-gipfel-148-1920x1920.jpg",
-      "published": "2026-10-16T16:24:50+02:00",
-      "category": "Politik",
-      "score": 69.47
-    },
-    {
-      "id": "spiegel-9096783362909b3e",
+      "id": "spiegel-1585f829e21603bf",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Ferat Koçak: Clanchef Issa Rammo will sich mit Linken-Politiker getroffen haben",
-      "link": "https://www.spiegel.de/politik/ferat-kocak-clanchef-issa-rammo-will-sich-mit-linken-politiker-getroffen-haben-a-61e1b233-f644-40b8-8cb3-3feb6fcd7a17#ref=rss",
-      "summary": "Ferat Koçak hat wegen der Nähe zum Clanmilieu seinen Sitz im Innenausschuss des Bundestages aufgegeben. Nun hat ein führendes Mitglied der Großfamilie Rammo von einem Treffen mit dem Politiker in seinem Büro berichtet.",
-      "image": "https://cdn.prod.www.spiegel.de/images/616b7dea-777c-4a61-a8c9-d7cb1e2ec8cb_w1200_r1.778_fpx54.2_fpy45.jpg",
-      "published": "2026-10-16T14:50:00+02:00",
+      "title": "AfD: Alkoholisierte Mitarbeiter sollen sich im Bundestag geprügelt haben – Ermittlungsverfahren eingeleitet",
+      "link": "https://www.spiegel.de/politik/deutschland/afd-alkoholisierte-mitarbeiter-sollen-sich-im-bundestag-gepruegelt-haben-ermittlungsverfahren-eingeleitet-a-373ec8ba-6b36-4257-b596-096587ca377c#ref=rss",
+      "summary": "Zwei angetrunkene Mitarbeiter von AfD-Abgeordneten sollen am Mittwochabend in einem Parlamentsgebäude aufeinander losgegangen sein. Die Bundestagspolizei musste eingreifen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/2120ef08-6cfa-4929-b309-f108713546ef_w1200_r1.778_fpx33_fpy46.jpg",
+      "published": "2026-10-16T18:39:00+02:00",
       "category": "Politik",
-      "score": 68.15
+      "score": 69.26
     },
     {
-      "id": "handelsblatt-5ab6ab010877ecec",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "EU-Gipfel: Trump legt bei Selenskyj-Kritik nach - EU will deeskalieren",
-      "link": "https://www.handelsblatt.com/politik/international/eu-gipfel-trump-legt-bei-selenskyj-kritik-nach-eu-will-deeskalieren/100262742.html",
-      "summary": "Der Konflikt zwischen US-Präsident Trump und seinem ukrainischen Amtskollegen hat sich gefährlich zugespitzt. Jetzt war Selenskyj bei einem EU-Gipfel in Brüssel zu Gast und macht eine Ankündigung.",
-      "image": "https://images.handelsblatt.com/eaR8CEa2fVie/cover/900/506/0/0/74/73/0.5/0.5/eu-gipfel.jpg",
-      "published": "2026-10-16T13:09:41+00:00",
+      "id": "spiegel-64ebe4cfce7d464e",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Martin Reichardt: Rüge wegen »Klitoris«-Äußerung – AfD-Politiker muss Ordnungsgeld zahlen",
+      "link": "https://www.spiegel.de/politik/deutschland/martin-reichardt-ruege-wegen-klitoris-aeusserung-afd-politiker-muss-ordnungsgeld-zahlen-a-e9f1059b-a706-4a51-b8c1-5505990aff85#ref=rss",
+      "summary": "Der AfD-Politiker Martin Reichardt warf einer Abgeordneten der Linken im Bundestag »Unkenntnis über ihre eigene Klitoris« vor. Dafür muss er nun ein Ordnungsgeld zahlen. Die Bemerkung hat eine Vorgeschichte.",
+      "image": "https://cdn.prod.www.spiegel.de/images/eb1b0651-f269-481e-be2b-29fc04fca308_w1200_r1.778_fpx51_fpy36.jpg",
+      "published": "2026-10-16T17:50:00+02:00",
       "category": "Politik",
-      "score": 67.42
+      "score": 68.57
+    },
+    {
+      "id": "deutsche-welle-6a69bb8c8bd340d0",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "Deutschland und der Kolonialismus: Wo bleibt die Aufarbeitung?",
+      "link": "https://www.dw.com/de/deutschland-und-der-kolonialismus-wo-bleibt-die-aufarbeitung/a-79672893?maca=de-rss-de-all-1119-rdf",
+      "summary": "Die Opposition erzwingt eine Debatte im Bundestag über Deutschlands Völkermord an den Ovahereo und Nama. Kommt jetzt Bewegung in die Aufarbeitung der Kolonialverbrechen?",
+      "image": "https://static.dw.com/image/79673243_6.jpg",
+      "published": "2026-10-16T16:55:00+00:00",
+      "category": "Politik",
+      "score": 68.48
+    },
+    {
+      "id": "spiegel-0067eb48c62f3e00",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Irmgard Keun: Tobias Lehmkuhl rekonstruiert ein vergessenes Leben",
+      "link": "https://www.spiegel.de/kultur/literatur/irmgard-keun-tobias-lehmkuhl-rekonstruiert-ein-vergessenes-leben-a-1a3e07fc-287d-43e3-87a7-a4396b7c5da5#ref=rss",
+      "summary": "Anfang der Dreißigerjahre wurde sie gefeiert, aber nach dem Krieg vergessen: In »Keine von uns« rekonstruiert Tobias Lehmkuhl das gerade in ihren letzten Jahrzehnten erschütternde Leben der Schriftstellerin Irmgard Keun.",
+      "image": "https://cdn.prod.www.spiegel.de/images/625bb109-55ae-4db3-9e56-31e90e3eec92_w1200_r1.778_fpx52_fpy34.jpg",
+      "published": "2026-10-16T19:10:00+02:00",
+      "category": "Nachrichten",
+      "score": 66.69
     },
     {
       "id": "deutsche-welle-37c9b2f0c037115f",
@@ -199,29 +261,7 @@
       "image": "https://static.dw.com/image/79680976_6.jpg",
       "published": "2026-10-16T12:52:00+00:00",
       "category": "Politik",
-      "score": 67.18
-    },
-    {
-      "id": "spiegel-987daf0e12b0353b",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Tesla Roadster fliegt durch die Luft: Elon Musk hat die Bodenhaftung verloren. Buchstäblich",
-      "link": "https://www.spiegel.de/mobilitaet/auto/tesla-roadster-fliegt-durch-die-luft-elon-musk-hat-die-bodenhaftung-verloren-buchstaeblich-a-ed7a0234-7b5c-4c95-8744-5e4575995ecb#ref=rss",
-      "summary": "Tesla stellt 20 Jahre nach seinem ersten Elektroauto den Nachfolger vor. Der Roadster ist Elon Musks aktuelle Vision eines Zukunftsautos: Es soll von 0 auf 100 in weniger als einer Sekunde beschleunigen – und fliegen können.",
-      "image": "https://cdn.prod.www.spiegel.de/images/15f8aa18-21b2-4783-9cc9-1168f5d0fb1a_w1200_r1.778_fpx45.98_fpy44.97.jpg",
-      "published": "2026-10-16T16:47:00+02:00",
-      "category": "Nachrichten",
-      "score": 66.77,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "golem",
-            "title": "Hypersportwagen: Tesla Roadster kann fliegen",
-            "link": "https://www.golem.de/news/hypersportwagen-tesla-roadster-kann-fliegen-2610-214167.html"
-          }
-        ]
-      }
+      "score": 65.1
     },
     {
       "id": "golem-9f9db50e5677d797",
@@ -233,7 +273,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214190&amp;page=1&amp;ts=1792154102",
       "published": "2026-10-16T14:35:02+02:00",
       "category": "Politik",
-      "score": 65.94
+      "score": 63.87
     },
     {
       "id": "handelsblatt-d5f99fba0d211491",
@@ -245,7 +285,7 @@
       "image": "https://images.handelsblatt.com/AX-ptWd48RVC/cover/900/506/0/0/174/0/0.5/0.5/archiv-illustration-eine-frau-liest-am-20082011-in-einer-haengematte-am-bodensee-in-lindau-sch.jpg",
       "published": "2026-10-16T13:52:00+00:00",
       "category": "Technologie",
-      "score": 65.01
+      "score": 62.94
     }
   ]
 }
