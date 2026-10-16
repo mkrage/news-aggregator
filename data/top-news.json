@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-10-16T10:14:21.834617+00:00",
+  "generatedAt": "2026-10-16T12:36:41.165837+00:00",
   "count": 15,
   "articles": [
+    {
+      "id": "spiegel-53d15f43e3d59969",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Ukraine-Krieg: Donald Trump und Wladimir Putin nehmen Kyjiw in die Zange",
+      "link": "https://www.spiegel.de/ausland/donald-trump-und-wolodymyr-selenskyj-ukraine-im-zangengriff-russland-profitiert-a-776839bc-7a91-4c87-820d-b08d2f93ee4f#ref=rss",
+      "summary": "Donald Trumps Umfragewerte sind mies, rund zwei Wochen vor den Kongresswahlen. Jetzt versucht er, den ukrainischen Präsidenten Wolodymyr Selenskyj zum Sündenbock zu machen. Im Kreml dürften sie ihr Glück kaum fassen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/63b3ab07-192c-420d-a0b1-c2ee1ece5706_w1200_r1.778_fpx49_fpy41.jpg",
+      "published": "2026-10-16T10:04:00+02:00",
+      "category": "Politik",
+      "score": 98.56,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutsche-welle",
+            "title": "Ukraine-Krieg: Trump sieht Selenskyj als Friedenshindernis",
+            "link": "https://www.dw.com/de/ukraine-krieg-trump-sieht-selenskyj-als-friedenshindernis/a-79676193?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
+    },
     {
       "id": "tagesschau-2ff608487627fcce",
       "source": "tagesschau",
@@ -12,7 +34,7 @@
       "image": "https://images.tagesschau.de/image/4db3351e-c00a-4e73-b091-f5bae0ca4225/AAABoUNZayE/AAABnSSvrFg/16x9-big/familie-mahlzeit-100.jpg?width=1920",
       "published": "2026-10-16T08:19:43+02:00",
       "category": "Nachrichten",
-      "score": 96.49,
+      "score": 96.64,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -30,28 +52,6 @@
       }
     },
     {
-      "id": "handelsblatt-60b521d08cd9a5d1",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Ukraine-Krieg +++: Trump verurteilt ukrainische Angriffe auf russische Raffinerien",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-trump-verurteilt-angriffe-auf-russische-raffinerien/27982126.html",
-      "summary": "Russland: Zwei Tote durch ukrainische Angriffe in Luhansk +++ Trump über Selenskyj: „Kein guter Mann zum Verhandeln“ +++ Russland stellt Firmen unter staatliche Verwaltung +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/-5xm1cPfsChv/cover/900/506/0/0/0/299/0.5/0.5/donald-trump.jpg",
-      "published": "2026-10-16T10:06:00+00:00",
-      "category": "Politik",
-      "score": 92.88,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutsche-welle",
-            "title": "Ukraine-Krieg: Trump sieht Selenskyj als Friedenshindernis",
-            "link": "https://www.dw.com/de/ukraine-krieg-trump-sieht-selenskyj-als-friedenshindernis/a-79676193?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
-    },
-    {
       "id": "tagesschau-1dfcaa175ba0c42f",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -61,7 +61,7 @@
       "image": "https://images.tagesschau.de/image/0aa9ed6d-f209-4d2f-a056-3d1516074fbc/AAABoUIT7jk/AAABnSSvrFg/16x9-big/starlink-zug-100.jpg?width=1920",
       "published": "2026-10-16T03:23:51+02:00",
       "category": "Politik",
-      "score": 86.59,
+      "score": 84.62,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -74,16 +74,28 @@
       }
     },
     {
-      "id": "spiegel-53d15f43e3d59969",
+      "id": "handelsblatt-60b521d08cd9a5d1",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ Ukraine-Krieg +++: Trump verurteilt ukrainische Angriffe auf russische Raffinerien",
+      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-trump-verurteilt-angriffe-auf-russische-raffinerien/27982126.html",
+      "summary": "Selenskyj verteidigt Angriffe auf russische Energieanlagen +++ Bulgarien bittet Nato nach Drohnenangriffen um Hilfe +++ Trump über Selenskyj: „Kein guter Mann zum Verhandeln“ +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/-5xm1cPfsChv/cover/900/506/0/0/0/299/0.5/0.5/donald-trump.jpg",
+      "published": "2026-10-16T10:06:00+00:00",
+      "category": "Politik",
+      "score": 82.91
+    },
+    {
+      "id": "spiegel-6689668266048614",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Donald Trump und Wolodymyr Selenskyj: Ukraine im Zangengriff, Russland profitiert",
-      "link": "https://www.spiegel.de/ausland/donald-trump-und-wolodymyr-selenskyj-ukraine-im-zangengriff-russland-profitiert-a-776839bc-7a91-4c87-820d-b08d2f93ee4f#ref=rss",
-      "summary": "Donald Trumps Umfragewerte sind mies, rund zwei Wochen vor den Kongresswahlen. Jetzt versucht er, den ukrainischen Präsidenten Wolodymyr Selenskyj zum Sündenbock zu machen. Im Kreml dürften sie ihr Glück kaum fassen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/63b3ab07-192c-420d-a0b1-c2ee1ece5706_w1200_r1.778_fpx49_fpy41.jpg",
-      "published": "2026-10-16T10:04:00+02:00",
-      "category": "Politik",
-      "score": 84.19
+      "title": "Eurowings prüft Kurzarbeit: Kerosin-Krise bei Lufthansa-Tochter",
+      "link": "https://www.spiegel.de/wirtschaft/eurowings-prueft-kurzarbeit-kerosin-krise-bei-lufthansa-tochter-a-c4fb0ddf-188c-4e26-97f5-2720d443e851#ref=rss",
+      "summary": "Die Lufthansa-Tochter streicht Flüge, sagt die Weihnachtsfeier ab und prüft die Möglichkeit von Kurzarbeit im Flugbetrieb. Das wäre das erste Mal seit der Coronapandemie.",
+      "image": "https://cdn.prod.www.spiegel.de/images/e273da4e-7579-4294-a62f-ac11be1062f9_w1200_r1.778_fpx56.43_fpy55.jpg",
+      "published": "2026-10-16T14:03:00+02:00",
+      "category": "Nachrichten",
+      "score": 82.53
     },
     {
       "id": "deutschlandfunk-5dfd10f3a7db4540",
@@ -93,138 +105,87 @@
       "link": "https://www.deutschlandfunk.de/fruehstart-rente-wie-aus-zehn-euro-eine-altersvorsorge-werden-soll-102.html",
       "summary": "Der Bundestag hat mit der ‌sogenannten Frühstartrente erstmals eine ⁠staatlich geförderte private Altersvorsorge bereits im ⁠Kindesalter beschlossen. Sie soll Kindern ab dem Geburtsjahrgang 2020 den Aufbau einer privaten Altersvorsorge erleichtern.",
       "image": "https://bilder.deutschlandfunk.de/bb/ff/d7/0c/bbffd70c-99bf-44a3-89a0-1a0dd1ce13c8/fruehstartrente-kinder-100-1920x1920.jpg",
-      "published": "2026-10-16T12:00:40+02:00",
+      "published": "2026-10-16T14:33:49+02:00",
       "category": "Politik",
-      "score": 77.81,
+      "score": 77.96,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "spiegel",
-            "title": "Frühstartrente: So soll aus 10 Euro im Monat eine Rente von 50.000 Euro werden",
+            "title": "Frühstartrente: Wie aus zehn Euro im Monat 50.000 Euro werden sollen",
             "link": "https://www.spiegel.de/wirtschaft/soziales/fruehstartrente-so-soll-aus-10-euro-im-monat-eine-rente-von-50-000-euro-werden-a-4bf67846-d9d8-41d4-a469-799845f4dae2#ref=rss"
           }
         ]
       }
     },
     {
-      "id": "spiegel-a63beef43a059ee7",
+      "id": "spiegel-a475723842775d66",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Lars Klingbeil: Später IWF-Start in Bangkok und neue Konflikte mit den USA",
-      "link": "https://www.spiegel.de/wirtschaft/soziales/lars-klingbeil-spaeter-iwf-start-in-bangkok-und-neue-konflikte-mit-den-usa-a-cb4f3a1d-f3da-4348-8e64-80d20e3b45fc#ref=rss",
-      "summary": "Wegen der Koalitionskrise kommt Finanzminister Klingbeil später als geplant zum IWF-Jahrestreffen in Bangkok. Dort warten neue Probleme und Amerikaner, die Donald Trumps seltsame Wortkreationen umsetzen müssen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/6e7a28c6-8437-406c-9dd6-042e032d4c7d_w1200_r1.778_fpx54.5_fpy50.jpg",
-      "published": "2026-10-16T11:14:00+02:00",
+      "title": "Linke, SPD, Grüne in Berlin: Israel-Gegnerin Vanessa Emde postet ein Video - und die Ruhe ist vorbei",
+      "link": "https://www.spiegel.de/politik/linke-spd-gruene-in-berlin-israel-gegnerin-vanessa-emde-postet-ein-video-und-die-ruhe-ist-vorbei-a-c7003dde-5e89-43ab-9c35-45d4eccb208b#ref=rss",
+      "summary": "Kaum 24 Stunden nachdem Linke, Grüne und SPD in Berlin die Sondierungen wieder aufgenommen haben, sorgt erneut Vanessa Emde für Aufruhr. Die Abgeordnete wird immer mehr zur Bedrohung für eine mögliche Koalition.",
+      "image": "https://cdn.prod.www.spiegel.de/images/6cde29b4-942f-4855-8f1e-557e9c66cdf2_w1200_r1.778_fpx47_fpy23.jpg",
+      "published": "2026-10-16T14:21:00+02:00",
       "category": "Politik",
-      "score": 77.16
-    },
-    {
-      "id": "handelsblatt-7cdfdf14bed74313",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "US-Wahlen: Blaue Welle oder blaues Wunder – stehen die Demokraten sich selbst im Weg?",
-      "link": "https://www.handelsblatt.com/politik/international/us-wahlen-stehen-die-demokraten-sich-selbst-im-weg-01/100261672.html",
-      "summary": "Donald Trump ist so unpopulär wie kaum ein Präsident vor ihm – und trotzdem ist ein Sieg der Demokraten alles andere als sicher. Das liegt vor allem an der Partei selbst.",
-      "image": "https://images.handelsblatt.com/xpqBZh2ZwxDu/cover/900/506/0/0/0/0/0.5/0.5/longread-demokraten.jpg",
-      "published": "2026-10-16T09:22:00+00:00",
-      "category": "Politik",
-      "score": 76.27
-    },
-    {
-      "id": "spiegel-478f309587f3c523",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Immobilien-Krise: Baugenehmigungen für Wohnungen steigen erneut",
-      "link": "https://www.spiegel.de/wirtschaft/immobilien-baugenehmigungen-fuer-wohnungen-steigen-erneut-a-c57fda03-e2d0-4d35-9d13-9f03de80e3b9#ref=rss",
-      "summary": "In Deutschland fehlen nach Schätzungen mehr als eine Million Wohnungen. Nun steigen zumindest die Genehmigungszahlen, doch die Branche steht weiter unter Druck.",
-      "image": "https://cdn.prod.www.spiegel.de/images/f3f20786-c298-466f-a72b-f861ce404ea4_w1200_r1.778_fpx51.01_fpy50.jpg",
-      "published": "2026-10-16T09:32:00+02:00",
-      "category": "Nachrichten",
-      "score": 73.65,
+      "score": 77.78,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "handelsblatt",
-            "title": "Kommt der Bau aus der Krise?: Baugenehmigungen steigen - Bundesbaugesellschaft vor Start",
-            "link": "https://www.handelsblatt.com/politik/deutschland/kommt-der-bau-aus-der-krise-baugenehmigungen-steigen-bundesbaugesellschaft-vor-start/100262758.html"
+            "title": "Berlin: Linken-Abgeordnete Emde verteidigt Israel-Aussagen",
+            "link": "https://www.handelsblatt.com/politik/deutschland/berlin-linken-abgeordnete-emde-verteidigt-israel-aussagen/100262769.html"
           }
         ]
       }
     },
     {
-      "id": "spiegel-c2e445b5b6a3ed6e",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Alexus Grynkewich: Nato-Oberbefehlshaber über Kriegsszenarien mit Russland",
-      "link": "https://www.spiegel.de/politik/deutschland/alexus-grynkewich-nato-oberbefehlshaber-ueber-kriegsszenarien-mit-russland-a-d42d7e7b-cfd9-4200-bc98-0d5cd808f84c#ref=rss",
-      "summary": "US-General Alexus Grynkewich führt alle Nato-Truppen in Europa, Carsten Breuer ist der ranghöchste Soldat der Bundeswehr. Im SPIEGEL-Interview erläutern beide, wie sie die Allianz für einen Konflikt mit Russland rüsten.",
-      "image": "https://cdn.prod.www.spiegel.de/images/7973ee54-cf8e-4b91-84f0-a2f148528b20_w1200_r1.778_fpx34.67_fpy50.jpg",
-      "published": "2026-10-16T06:41:00+02:00",
-      "category": "Nachrichten",
-      "score": 73.52,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Militär: Nato-General hält die Allianz im Konflikt mit Russland für klar überlegen",
-            "link": "https://www.handelsblatt.com/politik/international/konflikt-mit-russland-general-haelt-die-nato-fuer-klar-ueberlegen/100262779.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-5e61642c2b2e38a8",
+      "id": "tagesschau-136c09efab9ed8d8",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Frankreich und Deutschland wollen Verbrenner-Aus aufweichen",
-      "link": "https://www.tagesschau.de/ausland/europa/verbrenner-aus-lockerung-100.html",
-      "summary": "Deutschland setzt sich dafür ein, dass weiter Neuwagen mit Verbrennungstechnologie zugelassen werden können. Frankreichs Präsident Macron hat sich bisher gesperrt - nun zeichnet sich eine Einigung ab.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/90974820-1ec2-40d2-b13a-d64595a79d49/AAABoUJAJ4Q/AAABnSSvrFg/16x9-big/verbrenner-abgase-100.jpg?width=1920",
-      "published": "2026-10-16T03:17:45+02:00",
-      "category": "Nachrichten",
-      "score": 72.51,
+      "title": "Trump sagt Livestream zu geplanter Hinrichtung von Attentäter ab",
+      "link": "https://www.tagesschau.de/ausland/amerika/trump-livestream-hinrichtung-100.html",
+      "summary": "Die ganze Welt sollte zusehen, wie ein verurteilter Attentäter hingerichtet wird - nun hat US-Präsident Trump den geplanten Livestream abgesagt. Die Ankündigung von Verteidigungsminister Hegseth war auf Empörung gestoßen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/d23d2570-5f56-422b-aa49-1ee363277308/AAABoUACWko/AAABnSSvrFg/16x9-big/trump-5346.jpg?width=1920",
+      "published": "2026-10-15T17:57:03+02:00",
+      "category": "Politik",
+      "score": 77.68,
       "coverage": {
-        "sourceCount": 3,
+        "sourceCount": 2,
         "others": [
           {
             "source": "handelsblatt",
-            "title": "Automobilindustrie: Deutschland und Frankreich legen Auto-Vorschläge vor",
-            "link": "https://www.handelsblatt.com/politik/deutschland/automobilindustrie-deutschland-und-frankreich-legen-auto-vorschlaege-vor/100262807.html"
-          },
-          {
-            "source": "heise",
-            "title": "Merz und Macron einigen sich offenbar bei Verbrenner-Ende",
-            "link": "https://www.heise.de/news/Ende-des-Verbrenners-Deutschland-und-Frankreich-fuer-Lockerungen-11490190.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag"
+            "title": "USA: Trump stoppt Pläne für Live-Übertragung von Hinrichtung",
+            "link": "https://www.handelsblatt.com/video/politik/usa-trump-stoppt-plaene-fuer-live-uebertragung-von-hinrichtung/100262809.html"
           }
         ]
       }
+    },
+    {
+      "id": "deutschlandfunk-02668260ec959683",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Berlin - Wanderwitz zum Vorstand der Filmförderungsanstalt gewählt",
+      "link": "https://www.deutschlandfunk.de/wanderwitz-zum-vorstand-der-filmfoerderungsanstalt-gewaehlt-102.html",
+      "summary": "Der frühere Ost-Beauftragte der Bundesregierung, Wanderwitz, ist neuer geschäftsführender Vorstand der nationalen Filmförderungsanstalt (FFA). Der Verwaltungsrat habe den 51-jährigen gebürtigen Sachsen und ehemaligen CDU-Bundestagsabgeordneten einstimmig gewählt, teilte Kulturstaatsminister Weimer mit.",
+      "image": "https://bilder.deutschlandfunk.de/24/81/bc/d1/2481bcd1-34ea-406b-a749-66802b74e17b/marco-wanderwitz-100-1920x1920.jpg",
+      "published": "2026-10-16T14:33:49+02:00",
+      "category": "Politik",
+      "score": 69.96
     },
     {
       "id": "deutschlandfunk-04bcc5b201bbb2c2",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Gipfel in Brüssel - Außenbeauftragte Kallas: EU kann Starlink-System in der Ukraine kurzfristig nicht ersetzen",
+      "title": "Nach kurzfristiger Drosselung - Außenbeauftragte Kallas: EU kann Starlink-System in der Ukraine kurzfristig nicht ersetzen",
       "link": "https://www.deutschlandfunk.de/aussenbeauftragte-kallas-eu-kann-starlink-system-in-der-ukraine-kurzfristig-nicht-ersetzen-100.html",
       "summary": "Nach der zeitweisen Drosselung des Satelliten-Kommunikationsdienstes Starlink in der Ukraine hat die EU-Außenbeauftragte Kallas die Bedeutung der Technik für Kiew hervorgehoben. Das System sei für die Ukraine absolut notwendig, sagte Kallas beim EU-Gipfel in Brüssel.",
       "image": "https://bilder.deutschlandfunk.de/b7/5f/13/7d/b75f137d-a51a-4f9f-8ceb-d0f017ef2a2a/eu-aussenbeauftragte-kaja-kallas-kommission-gipfel-100-1920x1920.jpg",
-      "published": "2026-10-16T12:00:40+02:00",
+      "published": "2026-10-16T14:33:49+02:00",
       "category": "Politik",
-      "score": 69.81
-    },
-    {
-      "id": "deutschlandfunk-27f57adc581da496",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Bundestag - Erhöhung der Tabaksteuer und weitere Beschlüsse",
-      "link": "https://www.deutschlandfunk.de/erhoehung-der-tabaksteuer-und-weitere-beschluesse-100.html",
-      "summary": "Der Bundestag hat für eine Erhöhung der Tabaksteuer gestimmt. Das Parlament beschloss in Berlin, dass die Steuer auf Tabakprodukte über einen Zeitraum von vier Jahren regelmäßig angehoben wird.",
-      "image": "https://bilder.deutschlandfunk.de/a8/d1/39/d0/a8d139d0-cc41-43a5-86b1-e799e42fe77d/bundestag-haushaltswoche-104-1920x1920.jpg",
-      "published": "2026-10-16T12:00:40+02:00",
-      "category": "Politik",
-      "score": 69.81
+      "score": 69.96
     },
     {
       "id": "handelsblatt-cdefef623cb0353a",
@@ -232,11 +193,35 @@
       "sourceWeight": 0.9,
       "title": "Dax aktuell: Dax notiert im Plus – Aixtron-Aktie steigt",
       "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-notiert-im-plus-aixtron-aktie-steigt-zweistellig/100262751.html",
-      "summary": "Die Inflation von 3,8 Prozent für den Euroraum schürt Sorgen vor weiteren EZB‑Zinserhöhungen. Gleichzeitig geben die Ölpreise leicht nach.",
+      "summary": "Die Inflation von 3,8 Prozent für den Euroraum schürt Sorgen vor weiteren Zinserhöhungen der Europäischen Zentralbank. Zudem steigen die Ölpreise wieder an.",
       "image": "https://images.handelsblatt.com/bckzfpdOn42n/cover/900/506/0/1/0/0/0.5/0.5/graph-aktienkurs-aktienchart-dax-online-dax-bericht.jpg",
-      "published": "2026-10-16T10:02:01+00:00",
+      "published": "2026-10-16T12:08:41+00:00",
       "category": "Wirtschaft",
-      "score": 68.83
+      "score": 68.61
+    },
+    {
+      "id": "handelsblatt-7034c55d01f406f6",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Führungskräfte: Hochqualifiziert, erfolgreich, arbeitssuchend – Vier Betroffene berichten",
+      "link": "https://www.handelsblatt.com/karriere/fuehrungskraefte-wenn-der-jobverlust-das-bisherige-leben-infrage-stellt/100228751.html",
+      "summary": "In der Krise finden auch Menschen, deren Karrieren bislang steil nach oben gingen, keinen Job mehr. Vier Betroffene erzählen, vor welche Herausforderungen sie das stellt.",
+      "image": "https://images.handelsblatt.com/YepeK0zZ0MpH/cover/900/506/15/3/0/0/0.5/0.5/boss-erasing-career-ladder.jpg",
+      "published": "2026-10-16T11:30:00+00:00",
+      "category": "Wirtschaft",
+      "score": 68.07
+    },
+    {
+      "id": "golem-9f9db50e5677d797",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Optimierte Einspeisung: CDU-Vorschlag zu 1.000-Watt-Balkonkraftwerk ist keine gute Idee",
+      "link": "https://www.golem.de/news/optimierte-einspeisung-cdu-vorschlag-zu-1-000-watt-balkonkraftwerk-ist-keine-gute-idee-2610-214190.html",
+      "summary": "Die Bundestagsfraktion von CDU/CSU schlägt größere Wechselrichter für Steckersolargeräte vor. Eine andere Idee wäre zielführender. ( Balkonkraftwerk , GreenIT )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214190&amp;page=1&amp;ts=1792154102",
+      "published": "2026-10-16T14:35:02+02:00",
+      "category": "Politik",
+      "score": 67.98
     },
     {
       "id": "deutsche-welle-9de2c5a95e803965",
@@ -248,29 +233,19 @@
       "image": "https://static.dw.com/image/79647469_6.jpg",
       "published": "2026-10-15T13:04:00+00:00",
       "category": "Politik",
-      "score": 67.36
+      "score": 65.38
     },
     {
-      "id": "heise-49e08d5aa1c78b2f",
-      "source": "heise",
+      "id": "deutsche-welle-c1b78408de2c8b27",
+      "source": "deutsche-welle",
       "sourceWeight": 0.9,
-      "title": "Tesla Roadster II vorgestellt: Ganz schön abgehoben – Raketentechnik sei Dank",
-      "link": "https://www.heise.de/news/Tesla-Roadster-II-vorgestellt-Ganz-schoen-abgehoben-Raketentechnik-sei-Dank-11490167.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "summary": "Tesla zeigt den Roadster II mit aktivem Ground Effect, die das Auto auf den Boden pressen, und Kaltgastriebwerken, mit denen es ein bisschen fliegen kann.",
-      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/8/3/8/1/7/ROA01-dbb4a171819b0e6c.jpeg",
-      "published": "2026-10-16T08:10:00+02:00",
+      "title": "Veto-Flut gegen EU-Anwärter: Wer blockiert wen - und warum?",
+      "link": "https://www.dw.com/de/veto-flut-gegen-eu-anwärter-wer-blockiert-wen-und-warum/a-79676189?maca=de-rss-de-all-1119-rdf",
+      "summary": "Immer häufiger legen einzelne EU-Mitglieder im Beitrittsprozess von Kandidatenländern ihr Veto ein. Oft geht es dabei nicht um die Sache, sondern um eigene Innenpolitik. Die DW erklärt die Fälle - und ihre Hintergründe.",
+      "image": "https://static.dw.com/image/79677727_6.jpg",
+      "published": "2026-10-16T10:36:00+00:00",
       "category": "Technologie",
-      "score": 62.61,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "golem",
-            "title": "Hypersportwagen: Tesla Roadster kann fliegen",
-            "link": "https://www.golem.de/news/hypersportwagen-tesla-roadster-kann-fliegen-2610-214167.html"
-          }
-        ]
-      }
+      "score": 64.32
     }
   ]
 }
