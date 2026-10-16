@@ -1,29 +1,7 @@
 {
-  "generatedAt": "2026-10-16T12:36:41.165837+00:00",
+  "generatedAt": "2026-10-16T15:03:14.870913+00:00",
   "count": 15,
   "articles": [
-    {
-      "id": "spiegel-53d15f43e3d59969",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg: Donald Trump und Wladimir Putin nehmen Kyjiw in die Zange",
-      "link": "https://www.spiegel.de/ausland/donald-trump-und-wolodymyr-selenskyj-ukraine-im-zangengriff-russland-profitiert-a-776839bc-7a91-4c87-820d-b08d2f93ee4f#ref=rss",
-      "summary": "Donald Trumps Umfragewerte sind mies, rund zwei Wochen vor den Kongresswahlen. Jetzt versucht er, den ukrainischen Präsidenten Wolodymyr Selenskyj zum Sündenbock zu machen. Im Kreml dürften sie ihr Glück kaum fassen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/63b3ab07-192c-420d-a0b1-c2ee1ece5706_w1200_r1.778_fpx49_fpy41.jpg",
-      "published": "2026-10-16T10:04:00+02:00",
-      "category": "Politik",
-      "score": 98.56,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutsche-welle",
-            "title": "Ukraine-Krieg: Trump sieht Selenskyj als Friedenshindernis",
-            "link": "https://www.dw.com/de/ukraine-krieg-trump-sieht-selenskyj-als-friedenshindernis/a-79676193?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
-    },
     {
       "id": "tagesschau-2ff608487627fcce",
       "source": "tagesschau",
@@ -34,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/4db3351e-c00a-4e73-b091-f5bae0ca4225/AAABoUNZayE/AAABnSSvrFg/16x9-big/familie-mahlzeit-100.jpg?width=1920",
       "published": "2026-10-16T08:19:43+02:00",
       "category": "Nachrichten",
-      "score": 96.64,
+      "score": 96.15,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -52,6 +30,50 @@
       }
     },
     {
+      "id": "deutsche-welle-5973b7642e4e7e87",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "Ukraine-Krieg: Trump sieht Selenskyj als Friedenshindernis",
+      "link": "https://www.dw.com/de/ukraine-krieg-trump-sieht-selenskyj-als-friedenshindernis/a-79676193?maca=de-rss-de-all-1119-rdf",
+      "summary": "Donald Trump verschärft seine Kritik an der Ukraine. Der US-Präsident macht deren Angriffe auf russische Ölraffinerien für steigende Energiepreise verantwortlich. Rückendeckung erhält die Ukraine dagegen von der EU.",
+      "image": "https://static.dw.com/image/79636230_6.jpg",
+      "published": "2026-10-16T13:08:00+00:00",
+      "category": "Politik",
+      "score": 91.4,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ Ukraine-Krieg +++: Selenskyj verteidigt Angriffe auf russische Energieanlagen",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-verteidigt-angriffe-auf-russische-energieanlagen/27982126.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-6689668266048614",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Eurowings prüft Kurzarbeit: Kerosin-Krise bei Lufthansa-Tochter",
+      "link": "https://www.spiegel.de/wirtschaft/eurowings-prueft-kurzarbeit-kerosin-krise-bei-lufthansa-tochter-a-c4fb0ddf-188c-4e26-97f5-2720d443e851#ref=rss",
+      "summary": "Die Lufthansa-Tochter streicht Flüge, sagt die Weihnachtsfeier ab und prüft die Möglichkeit von Kurzarbeit im Flugbetrieb. Das wäre das erste Mal seit der Coronapandemie.",
+      "image": "https://cdn.prod.www.spiegel.de/images/e273da4e-7579-4294-a62f-ac11be1062f9_w1200_r1.778_fpx56.43_fpy55.jpg",
+      "published": "2026-10-16T14:03:00+02:00",
+      "category": "Nachrichten",
+      "score": 89.64,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Luftfahrt: Eurowings prüft Kurzarbeit wegen hoher Kerosinkosten",
+            "link": "https://www.handelsblatt.com/unternehmen/industrie/luftfahrt-eurowings-prueft-kurzarbeit-wegen-hoher-kerosinkosten/100262859.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "tagesschau-1dfcaa175ba0c42f",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -61,7 +83,7 @@
       "image": "https://images.tagesschau.de/image/0aa9ed6d-f209-4d2f-a056-3d1516074fbc/AAABoUIT7jk/AAABnSSvrFg/16x9-big/starlink-zug-100.jpg?width=1920",
       "published": "2026-10-16T03:23:51+02:00",
       "category": "Politik",
-      "score": 84.62,
+      "score": 82.58,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -74,94 +96,38 @@
       }
     },
     {
-      "id": "handelsblatt-60b521d08cd9a5d1",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Ukraine-Krieg +++: Trump verurteilt ukrainische Angriffe auf russische Raffinerien",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-trump-verurteilt-angriffe-auf-russische-raffinerien/27982126.html",
-      "summary": "Selenskyj verteidigt Angriffe auf russische Energieanlagen +++ Bulgarien bittet Nato nach Drohnenangriffen um Hilfe +++ Trump über Selenskyj: „Kein guter Mann zum Verhandeln“ +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/-5xm1cPfsChv/cover/900/506/0/0/0/299/0.5/0.5/donald-trump.jpg",
-      "published": "2026-10-16T10:06:00+00:00",
-      "category": "Politik",
-      "score": 82.91
-    },
-    {
-      "id": "spiegel-6689668266048614",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Eurowings prüft Kurzarbeit: Kerosin-Krise bei Lufthansa-Tochter",
-      "link": "https://www.spiegel.de/wirtschaft/eurowings-prueft-kurzarbeit-kerosin-krise-bei-lufthansa-tochter-a-c4fb0ddf-188c-4e26-97f5-2720d443e851#ref=rss",
-      "summary": "Die Lufthansa-Tochter streicht Flüge, sagt die Weihnachtsfeier ab und prüft die Möglichkeit von Kurzarbeit im Flugbetrieb. Das wäre das erste Mal seit der Coronapandemie.",
-      "image": "https://cdn.prod.www.spiegel.de/images/e273da4e-7579-4294-a62f-ac11be1062f9_w1200_r1.778_fpx56.43_fpy55.jpg",
-      "published": "2026-10-16T14:03:00+02:00",
-      "category": "Nachrichten",
-      "score": 82.53
-    },
-    {
-      "id": "deutschlandfunk-5dfd10f3a7db4540",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Bundestag - Frühstart-Rente: Wie aus zehn Euro eine Altersvorsorge werden soll",
-      "link": "https://www.deutschlandfunk.de/fruehstart-rente-wie-aus-zehn-euro-eine-altersvorsorge-werden-soll-102.html",
-      "summary": "Der Bundestag hat mit der ‌sogenannten Frühstartrente erstmals eine ⁠staatlich geförderte private Altersvorsorge bereits im ⁠Kindesalter beschlossen. Sie soll Kindern ab dem Geburtsjahrgang 2020 den Aufbau einer privaten Altersvorsorge erleichtern.",
-      "image": "https://bilder.deutschlandfunk.de/bb/ff/d7/0c/bbffd70c-99bf-44a3-89a0-1a0dd1ce13c8/fruehstartrente-kinder-100-1920x1920.jpg",
-      "published": "2026-10-16T14:33:49+02:00",
-      "category": "Politik",
-      "score": 77.96,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Frühstartrente: Wie aus zehn Euro im Monat 50.000 Euro werden sollen",
-            "link": "https://www.spiegel.de/wirtschaft/soziales/fruehstartrente-so-soll-aus-10-euro-im-monat-eine-rente-von-50-000-euro-werden-a-4bf67846-d9d8-41d4-a469-799845f4dae2#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-a475723842775d66",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Linke, SPD, Grüne in Berlin: Israel-Gegnerin Vanessa Emde postet ein Video - und die Ruhe ist vorbei",
-      "link": "https://www.spiegel.de/politik/linke-spd-gruene-in-berlin-israel-gegnerin-vanessa-emde-postet-ein-video-und-die-ruhe-ist-vorbei-a-c7003dde-5e89-43ab-9c35-45d4eccb208b#ref=rss",
-      "summary": "Kaum 24 Stunden nachdem Linke, Grüne und SPD in Berlin die Sondierungen wieder aufgenommen haben, sorgt erneut Vanessa Emde für Aufruhr. Die Abgeordnete wird immer mehr zur Bedrohung für eine mögliche Koalition.",
-      "image": "https://cdn.prod.www.spiegel.de/images/6cde29b4-942f-4855-8f1e-557e9c66cdf2_w1200_r1.778_fpx47_fpy23.jpg",
-      "published": "2026-10-16T14:21:00+02:00",
-      "category": "Politik",
-      "score": 77.78,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Berlin: Linken-Abgeordnete Emde verteidigt Israel-Aussagen",
-            "link": "https://www.handelsblatt.com/politik/deutschland/berlin-linken-abgeordnete-emde-verteidigt-israel-aussagen/100262769.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-136c09efab9ed8d8",
+      "id": "tagesschau-5e82fffb7f644536",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Trump sagt Livestream zu geplanter Hinrichtung von Attentäter ab",
-      "link": "https://www.tagesschau.de/ausland/amerika/trump-livestream-hinrichtung-100.html",
-      "summary": "Die ganze Welt sollte zusehen, wie ein verurteilter Attentäter hingerichtet wird - nun hat US-Präsident Trump den geplanten Livestream abgesagt. Die Ankündigung von Verteidigungsminister Hegseth war auf Empörung gestoßen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/d23d2570-5f56-422b-aa49-1ee363277308/AAABoUACWko/AAABnSSvrFg/16x9-big/trump-5346.jpg?width=1920",
-      "published": "2026-10-15T17:57:03+02:00",
+      "title": "Altersvorsorge: Wie das mit der \"Frühstartrente\" laufen soll",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/faq-fruehstartrente-100.html",
+      "summary": "Der Entwurf für eine große Rentenreform liegt noch nicht vor, aber der Bundestag hat heute eine Maßnahme zur Alterssicherung beschlossen: die sogenannte Frühstartrente. Was sie beinhaltet und wer sie bekommt.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/f6b00ed5-8625-4281-a381-0722af315e59/AAABoT_rt44/AAABnSSvrFg/16x9-big/kleinkinder-kita-102.jpg?width=1920",
+      "published": "2026-10-16T10:16:46+02:00",
       "category": "Politik",
-      "score": 77.68,
+      "score": 78.36,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "handelsblatt",
-            "title": "USA: Trump stoppt Pläne für Live-Übertragung von Hinrichtung",
-            "link": "https://www.handelsblatt.com/video/politik/usa-trump-stoppt-plaene-fuer-live-uebertragung-von-hinrichtung/100262809.html"
+            "title": "Altersvorsorge: Bundestag beschließt „Frühstartrente“",
+            "link": "https://www.handelsblatt.com/video/politik/altersvorsorge-bundestag-beschliesst-fruehstartrente/100262872.html"
           }
         ]
       }
+    },
+    {
+      "id": "handelsblatt-16659ba81500de6a",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Ukraine-Krieg: Russland greift immer mehr Frachtschiffe im Schwarzen Meer an",
+      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-russland-greift-immer-mehr-frachtschiffe-im-schwarzen-meer-an/100262748.html",
+      "summary": "Drohnenangriffe auf zivile Schiffe nehmen zu – selbst in den Hoheitsgewässern der Nato-Staaten. Auch an der Außengrenze des Bündnisses häufen sich verdächtige Vorfälle.",
+      "image": "https://images.handelsblatt.com/8sW3UaJWZ92i/cover/900/506/0/0/112/13/0.5/0.5/standort-drohnenangriff.webp",
+      "published": "2026-10-16T13:03:30+00:00",
+      "category": "Politik",
+      "score": 75.34
     },
     {
       "id": "deutschlandfunk-02668260ec959683",
@@ -171,9 +137,9 @@
       "link": "https://www.deutschlandfunk.de/wanderwitz-zum-vorstand-der-filmfoerderungsanstalt-gewaehlt-102.html",
       "summary": "Der frühere Ost-Beauftragte der Bundesregierung, Wanderwitz, ist neuer geschäftsführender Vorstand der nationalen Filmförderungsanstalt (FFA). Der Verwaltungsrat habe den 51-jährigen gebürtigen Sachsen und ehemaligen CDU-Bundestagsabgeordneten einstimmig gewählt, teilte Kulturstaatsminister Weimer mit.",
       "image": "https://bilder.deutschlandfunk.de/24/81/bc/d1/2481bcd1-34ea-406b-a749-66802b74e17b/marco-wanderwitz-100-1920x1920.jpg",
-      "published": "2026-10-16T14:33:49+02:00",
+      "published": "2026-10-16T16:24:50+02:00",
       "category": "Politik",
-      "score": 69.96
+      "score": 69.47
     },
     {
       "id": "deutschlandfunk-04bcc5b201bbb2c2",
@@ -183,69 +149,103 @@
       "link": "https://www.deutschlandfunk.de/aussenbeauftragte-kallas-eu-kann-starlink-system-in-der-ukraine-kurzfristig-nicht-ersetzen-100.html",
       "summary": "Nach der zeitweisen Drosselung des Satelliten-Kommunikationsdienstes Starlink in der Ukraine hat die EU-Außenbeauftragte Kallas die Bedeutung der Technik für Kiew hervorgehoben. Das System sei für die Ukraine absolut notwendig, sagte Kallas beim EU-Gipfel in Brüssel.",
       "image": "https://bilder.deutschlandfunk.de/b7/5f/13/7d/b75f137d-a51a-4f9f-8ceb-d0f017ef2a2a/eu-aussenbeauftragte-kaja-kallas-kommission-gipfel-100-1920x1920.jpg",
-      "published": "2026-10-16T14:33:49+02:00",
+      "published": "2026-10-16T16:24:50+02:00",
       "category": "Politik",
-      "score": 69.96
+      "score": 69.47
     },
     {
-      "id": "handelsblatt-cdefef623cb0353a",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Dax aktuell: Dax notiert im Plus – Aixtron-Aktie steigt",
-      "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-notiert-im-plus-aixtron-aktie-steigt-zweistellig/100262751.html",
-      "summary": "Die Inflation von 3,8 Prozent für den Euroraum schürt Sorgen vor weiteren Zinserhöhungen der Europäischen Zentralbank. Zudem steigen die Ölpreise wieder an.",
-      "image": "https://images.handelsblatt.com/bckzfpdOn42n/cover/900/506/0/1/0/0/0.5/0.5/graph-aktienkurs-aktienchart-dax-online-dax-bericht.jpg",
-      "published": "2026-10-16T12:08:41+00:00",
-      "category": "Wirtschaft",
-      "score": 68.61
+      "id": "deutschlandfunk-0e35677a805f2863",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Gipfel in Brüssel - EU-Staats- und Regierungschefs sichern Ukraine weitere Unterstützung zu",
+      "link": "https://www.deutschlandfunk.de/eu-staats-und-regierungschefs-sichern-ukraine-weitere-unterstuetzung-zu-100.html",
+      "summary": "In Brüssel beraten die Staats- und Regierungschefs der Europäischen Union über die weitere Unterstützung der Ukraine. EU-Kommissionspräsidentin von der Leyen sagte weitere Hilfen zu und bekräftigte die Aufrechterhaltung der Sanktionen gegen Russland. Auch der ukrainische Präsident Selenskyj nimmt an dem Gipfeltreffen teil.",
+      "image": "https://bilder.deutschlandfunk.de/6c/82/e3/54/6c82e354-7595-44db-a044-07541c543c2a/eu-gipfel-148-1920x1920.jpg",
+      "published": "2026-10-16T16:24:50+02:00",
+      "category": "Politik",
+      "score": 69.47
     },
     {
-      "id": "handelsblatt-7034c55d01f406f6",
+      "id": "spiegel-9096783362909b3e",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Ferat Koçak: Clanchef Issa Rammo will sich mit Linken-Politiker getroffen haben",
+      "link": "https://www.spiegel.de/politik/ferat-kocak-clanchef-issa-rammo-will-sich-mit-linken-politiker-getroffen-haben-a-61e1b233-f644-40b8-8cb3-3feb6fcd7a17#ref=rss",
+      "summary": "Ferat Koçak hat wegen der Nähe zum Clanmilieu seinen Sitz im Innenausschuss des Bundestages aufgegeben. Nun hat ein führendes Mitglied der Großfamilie Rammo von einem Treffen mit dem Politiker in seinem Büro berichtet.",
+      "image": "https://cdn.prod.www.spiegel.de/images/616b7dea-777c-4a61-a8c9-d7cb1e2ec8cb_w1200_r1.778_fpx54.2_fpy45.jpg",
+      "published": "2026-10-16T14:50:00+02:00",
+      "category": "Politik",
+      "score": 68.15
+    },
+    {
+      "id": "handelsblatt-5ab6ab010877ecec",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Führungskräfte: Hochqualifiziert, erfolgreich, arbeitssuchend – Vier Betroffene berichten",
-      "link": "https://www.handelsblatt.com/karriere/fuehrungskraefte-wenn-der-jobverlust-das-bisherige-leben-infrage-stellt/100228751.html",
-      "summary": "In der Krise finden auch Menschen, deren Karrieren bislang steil nach oben gingen, keinen Job mehr. Vier Betroffene erzählen, vor welche Herausforderungen sie das stellt.",
-      "image": "https://images.handelsblatt.com/YepeK0zZ0MpH/cover/900/506/15/3/0/0/0.5/0.5/boss-erasing-career-ladder.jpg",
-      "published": "2026-10-16T11:30:00+00:00",
-      "category": "Wirtschaft",
-      "score": 68.07
+      "title": "EU-Gipfel: Trump legt bei Selenskyj-Kritik nach - EU will deeskalieren",
+      "link": "https://www.handelsblatt.com/politik/international/eu-gipfel-trump-legt-bei-selenskyj-kritik-nach-eu-will-deeskalieren/100262742.html",
+      "summary": "Der Konflikt zwischen US-Präsident Trump und seinem ukrainischen Amtskollegen hat sich gefährlich zugespitzt. Jetzt war Selenskyj bei einem EU-Gipfel in Brüssel zu Gast und macht eine Ankündigung.",
+      "image": "https://images.handelsblatt.com/eaR8CEa2fVie/cover/900/506/0/0/74/73/0.5/0.5/eu-gipfel.jpg",
+      "published": "2026-10-16T13:09:41+00:00",
+      "category": "Politik",
+      "score": 67.42
+    },
+    {
+      "id": "deutsche-welle-37c9b2f0c037115f",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "Indien mobilisiert 25.000 Sicherheitskräfte gegen \"Kakerlaken\"-Proteste",
+      "link": "https://www.dw.com/de/indien-mobilisiert-25-000-sicherheitskräfte-gegen-kakerlaken-proteste/a-79680554?maca=de-rss-de-all-1119-rdf",
+      "summary": "Die Protestbewegung wirft der Wahlkommission vor, Millionen Menschen das Wahlrecht zu entziehen. Hintergrund ist die umstrittene Überprüfung der Wählerverzeichnisse. Auch die katholische Kirche unterstützt die Proteste.",
+      "image": "https://static.dw.com/image/79680976_6.jpg",
+      "published": "2026-10-16T12:52:00+00:00",
+      "category": "Politik",
+      "score": 67.18
+    },
+    {
+      "id": "spiegel-987daf0e12b0353b",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Tesla Roadster fliegt durch die Luft: Elon Musk hat die Bodenhaftung verloren. Buchstäblich",
+      "link": "https://www.spiegel.de/mobilitaet/auto/tesla-roadster-fliegt-durch-die-luft-elon-musk-hat-die-bodenhaftung-verloren-buchstaeblich-a-ed7a0234-7b5c-4c95-8744-5e4575995ecb#ref=rss",
+      "summary": "Tesla stellt 20 Jahre nach seinem ersten Elektroauto den Nachfolger vor. Der Roadster ist Elon Musks aktuelle Vision eines Zukunftsautos: Es soll von 0 auf 100 in weniger als einer Sekunde beschleunigen – und fliegen können.",
+      "image": "https://cdn.prod.www.spiegel.de/images/15f8aa18-21b2-4783-9cc9-1168f5d0fb1a_w1200_r1.778_fpx45.98_fpy44.97.jpg",
+      "published": "2026-10-16T16:47:00+02:00",
+      "category": "Nachrichten",
+      "score": 66.77,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "golem",
+            "title": "Hypersportwagen: Tesla Roadster kann fliegen",
+            "link": "https://www.golem.de/news/hypersportwagen-tesla-roadster-kann-fliegen-2610-214167.html"
+          }
+        ]
+      }
     },
     {
       "id": "golem-9f9db50e5677d797",
       "source": "golem",
       "sourceWeight": 0.85,
-      "title": "Optimierte Einspeisung: CDU-Vorschlag zu 1.000-Watt-Balkonkraftwerk ist keine gute Idee",
+      "title": "Optimierte Einspeisung: 1.000-Watt-Balkonkraftwerk ist keine gute Idee",
       "link": "https://www.golem.de/news/optimierte-einspeisung-cdu-vorschlag-zu-1-000-watt-balkonkraftwerk-ist-keine-gute-idee-2610-214190.html",
       "summary": "Die Bundestagsfraktion von CDU/CSU schlägt größere Wechselrichter für Steckersolargeräte vor. Eine andere Idee wäre zielführender. ( Balkonkraftwerk , GreenIT )",
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214190&amp;page=1&amp;ts=1792154102",
       "published": "2026-10-16T14:35:02+02:00",
       "category": "Politik",
-      "score": 67.98
+      "score": 65.94
     },
     {
-      "id": "deutsche-welle-9de2c5a95e803965",
-      "source": "deutsche-welle",
+      "id": "handelsblatt-d5f99fba0d211491",
+      "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Starlink: Eine Weltraumfirma beeinflusst die Geopolitik",
-      "link": "https://www.dw.com/de/starlink-eine-weltraumfirma-beeinflusst-die-geopolitik/a-75932968?maca=de-rss-de-all-1119-rdf",
-      "summary": "Elon Musks Starlink hat sich zu einem wichtigen Kommunikationsmittel in Kriegs- und Krisengebieten entwickelt. In der Ukraine zeigt sich jedoch auch, welche Abhängigkeiten daraus entstehen können. Ein Überblick.",
-      "image": "https://static.dw.com/image/79647469_6.jpg",
-      "published": "2026-10-15T13:04:00+00:00",
-      "category": "Politik",
-      "score": 65.38
-    },
-    {
-      "id": "deutsche-welle-c1b78408de2c8b27",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Veto-Flut gegen EU-Anwärter: Wer blockiert wen - und warum?",
-      "link": "https://www.dw.com/de/veto-flut-gegen-eu-anwärter-wer-blockiert-wen-und-warum/a-79676189?maca=de-rss-de-all-1119-rdf",
-      "summary": "Immer häufiger legen einzelne EU-Mitglieder im Beitrittsprozess von Kandidatenländern ihr Veto ein. Oft geht es dabei nicht um die Sache, sondern um eigene Innenpolitik. Die DW erklärt die Fälle - und ihre Hintergründe.",
-      "image": "https://static.dw.com/image/79677727_6.jpg",
-      "published": "2026-10-16T10:36:00+00:00",
+      "title": "FIRE: „Wer finanziell unabhängig wird, gerät oft in eine Existenzkrise“",
+      "link": "https://www.handelsblatt.com/finanzen/vorsorge/vermoegen-frugalismus-heisst-nicht-askese-sondern-bewusster-konsum/100149007.html",
+      "summary": "US-Autorin Vicki Robin gilt als geistige Vordenkerin der FIRE-Bewegung. Wie es ihr gelang, schon früh finanziell unabhängig zu werden – und warum sie die Frugalisten-Szene heute kritisch sieht.",
+      "image": "https://images.handelsblatt.com/AX-ptWd48RVC/cover/900/506/0/0/174/0/0.5/0.5/archiv-illustration-eine-frau-liest-am-20082011-in-einer-haengematte-am-bodensee-in-lindau-sch.jpg",
+      "published": "2026-10-16T13:52:00+00:00",
       "category": "Technologie",
-      "score": 64.32
+      "score": 65.01
     }
   ]
 }
