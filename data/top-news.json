@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T17:20:52.853419+00:00",
+  "generatedAt": "2026-10-17T18:55:12.737350+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/d5ac48ef-5849-4873-b318-dfae827a5d4a_w1200_r1.778_fpx30_fpy46.98.jpg",
       "published": "2026-10-17T17:31:00+02:00",
       "category": "Politik",
-      "score": 92.47
+      "score": 91.16
     },
     {
       "id": "deutsche-welle-9a2bd14770e08efa",
@@ -24,7 +24,7 @@
       "image": "https://static.dw.com/image/79685810_6.jpg",
       "published": "2026-10-17T08:49:00+00:00",
       "category": "Politik",
-      "score": 91.32,
+      "score": 90.01,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -42,16 +42,16 @@
       }
     },
     {
-      "id": "tagesschau-b4c5545a768806f9",
+      "id": "tagesschau-f8c3e1ed64a6c609",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Linke, Grüne und SPD verkünden Durchbruch bei Sondierungen in Berlin",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/berlin-sondierungsvereinbarung-100.html",
-      "summary": "Vier Wochen nach der Wahl zum Berliner Abgeordnetenhaus haben Linke, Grüne und SPD ihre Sondierungsgespräche erfolgreich abgeschlossen. Sofern die Parteigremien zustimmen, können Koalitionsverhandlungen beginnen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/c45d1532-db85-46a5-85be-e491bd86637a/AAABoUptRPc/AAABnSSvrFg/16x9-big/sondierungsvereinbarung-berlin-100.jpg?width=1920",
-      "published": "2026-10-17T18:02:16+02:00",
+      "title": "Sondierungen in Berlin: Linke, Grüne und SPD erzielen offenbar Einigung",
+      "link": "https://www.tagesschau.de/inland/regional/berlin/sondierungen-berlin-112.html",
+      "summary": "Vier Wochen nach der Wahl zum Berliner Abgeordnetenhaus haben Linke, Grüne und SPD bei den Sondierungen offenbar eine Einigung erzielt. Am Nachmittag soll es ein gemeinsames Pressestatement geben. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/8a43574e-1606-46b3-bf4c-d71d8da49bc4/AAABoUszGZU/AAABnSSvrFg/16x9-big/rbb-urn-1120.jpg?width=1920",
+      "published": "2026-10-17T20:46:07+02:00",
       "category": "Politik",
-      "score": 86.97,
+      "score": 86.87,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -74,23 +74,33 @@
       }
     },
     {
-      "id": "tagesschau-ce309fdc3d434de6",
+      "id": "tagesschau-094540230193643c",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "\"Nationales Interesse\" - Trump setzt geplante Sanktionen gegen Russland aus",
-      "link": "https://www.tagesschau.de/ausland/amerika/usa-russland-ukraine-sanktionen-100.html",
-      "summary": "Erst macht der US-Präsident einen umstrittenen Diesel-Deal mit Russland, nun setzt Trump gerade erst beschlossene Sanktionen aus. Das Weiße Haus begründet dies mit nationalem Interesse. Moskau reagiert erfreut, die Ukraine ist entsetzt.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/5726031f-d77e-47f7-9265-703989cd7bc5/AAABoUh5qsI/AAABnSSvrFg/16x9-big/trump-5350.jpg?width=1920",
-      "published": "2026-10-17T14:07:08+02:00",
+      "title": "Selenskyj kritisiert Trumps Aussetzung von Russland-Sanktionen",
+      "link": "https://www.tagesschau.de/ausland/europa/ukraine-usa-sanktionen-100.html",
+      "summary": "US-Präsident Trump setzt geplante Russland-Sanktionen aus - während Angriffe auf die Infrastruktur laut dem ukrainischen Staatschef Selenskyj zunehmen. Er warnt, Trumps Entscheidung werde Moskau nur weiter bestärken.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/506258a1-d762-4700-a6ce-687b4302de26/AAABoUqkI0o/AAABnSSvrFg/16x9-big/wolodymyr-zelenskyj-100.jpg?width=1920",
+      "published": "2026-10-17T19:26:53+02:00",
       "category": "Politik",
-      "score": 84.67,
+      "score": 86.27,
       "coverage": {
-        "sourceCount": 2,
+        "sourceCount": 4,
         "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "US-Kongress - Trumps Entscheidung gegen Russland-Sanktionen sorgt auch unter Republikanern für Empörung",
+            "link": "https://www.deutschlandfunk.de/trumps-entscheidung-gegen-russland-sanktionen-sorgt-auch-unter-republikanern-fuer-empoerung-100.html"
+          },
           {
             "source": "handelsblatt",
             "title": "USA: US-Präsident Trump setzt neue Russland-Sanktionen per Dekret aus",
             "link": "https://www.handelsblatt.com/politik/international/usa-trump-setzt-neue-russland-sanktionen-per-dekret-aus/100262955.html"
+          },
+          {
+            "source": "deutsche-welle",
+            "title": "News kompakt: Selenskyj fordert 70 Milliarden Euro von der EU",
+            "link": "https://www.dw.com/de/news-kompakt-selenskyj-fordert-70-milliarden-euro-von-der-eu/a-79685651?maca=de-rss-de-all-1119-rdf"
           }
         ]
       }
@@ -103,9 +113,9 @@
       "link": "https://www.deutschlandfunk.de/trumps-pressesprecherin-zacharia-tritt-wieder-ab-110.html",
       "summary": "Die gerade erst angetretene neue Pressesprecherin von US-Präsident Trump, Zacharia, gibt ihr Amt Berichten zufolge wieder auf.",
       "image": "https://bilder.deutschlandfunk.de/aa/ac/50/a0/aaac50a0-0ae1-447b-8d80-f96f4840605c/katie-zacharia-100-1280x1280.jpg",
-      "published": "2026-10-17T19:18:36+02:00",
+      "published": "2026-10-17T20:02:44+02:00",
       "category": "Politik",
-      "score": 82.65,
+      "score": 81.95,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -123,33 +133,6 @@
       }
     },
     {
-      "id": "deutschlandfunk-e45c443876257383",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Ukraine - Selenskyj kritisiert Aussetzung von US-Sanktionen",
-      "link": "https://www.deutschlandfunk.de/selenskyj-kritisiert-aussetzung-von-us-sanktionen-102.html",
-      "summary": "Der ukrainische Präsident Selenskyj hat die Aussetzung von US-Sanktionen gegen Russland kritisiert. Eine Lockerung des Drucks auf Russland und finanzielle Belohnungen seien für Kremlchef Putin nur Ansporn, weiter zuzuschlagen, erklärte er.",
-      "image": "https://bilder.deutschlandfunk.de/92/64/df/f4/9264dff4-4dc1-4d39-bb10-13f523aa57ff/usa-ukraine-praesident-trump-selenskyj-gespraeche-100-1920x1920.jpg",
-      "published": "2026-10-17T19:18:36+02:00",
-      "category": "Politik",
-      "score": 82.65,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "+++ Ukraine-Krieg +++: Selenskyj meldet schwere russische Angriffe auf Energieanlagen",
-            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-haelt-treffen-mit-usa-und-russland-im-dezember-fuer-moeglich/27982126.html"
-          },
-          {
-            "source": "deutsche-welle",
-            "title": "News kompakt: Selenskyj fordert 70 Milliarden Euro von der EU",
-            "link": "https://www.dw.com/de/news-kompakt-selenskyj-fordert-70-milliarden-euro-von-der-eu/a-79685651?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
-    },
-    {
       "id": "handelsblatt-38d8262baae3e626",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
@@ -159,7 +142,41 @@
       "image": "https://images.handelsblatt.com/Tf9NI84awI7H/cover/900/506/0/0/107/106/0.5/0.5/us-praesident-trump.jpg",
       "published": "2026-10-17T13:59:14+00:00",
       "category": "Politik",
-      "score": 82.2
+      "score": 80.89
+    },
+    {
+      "id": "tagesschau-807df4a1748ca4a0",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Olivenernte: Verletzte bei Siedlergewalt im Westjordanland",
+      "link": "https://www.tagesschau.de/ausland/asien/westjordanland-olivenernte-angriffe-100.html",
+      "summary": "Während der Olivenernte im Westjordanland häuft sich die Gewalt israelischer Siedler gegen palästinensische Helfer. In mehreren Orten sind dabei Menschen verletzt worden, unter ihnen auch eine US-Journalistin.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/b6903c17-a5a2-47f7-8725-84a64fc67201/AAABoUpaOoU/AAABnSSvrFg/16x9-big/olivenernte-westjordanland-100.jpg?width=1920",
+      "published": "2026-10-17T20:09:16+02:00",
+      "category": "Politik",
+      "score": 78.36,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Westjordanland: Israelische Siedler greifen Journalistin und Diplomaten an",
+            "link": "https://www.spiegel.de/ausland/westjordanland-israelische-siedler-greifen-journalistin-und-diplomaten-an-a-ee2b08bc-2039-44a6-a8f1-2381a0d5d085#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-7058a147367b4535",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Midterms 2026: Trumps Migrationspolitik verunsichert Unternehmen",
+      "link": "https://www.tagesschau.de/ausland/amerika/usa-midterms-trump-migration-100.html",
+      "summary": "Viele Wähler unterstützten 2024 Trumps Versprechen einer rigiden Abschiebepolitik. Doch vor den Zwischenwahlen zeigt sich: Das rücksichtslose Vorgehen der Einwanderungsbehörde ICE befremdet Bürger - und Unternehmer. Von Carsten Kühntopp. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/254d0550-a31e-4e56-b124-0dd6179a5f1c/AAABoT7BE1w/AAABnSSvrFg/16x9-big/ice-festnahme-100.jpg?width=1920",
+      "published": "2026-10-17T19:44:57+02:00",
+      "category": "Politik",
+      "score": 78.02
     },
     {
       "id": "deutschlandfunk-189d3714a842c57b",
@@ -169,9 +186,9 @@
       "link": "https://www.deutschlandfunk.de/behoerden-ein-toter-bei-russischem-angriff-auf-cherson-102.html",
       "summary": "Bei russischen Luftangriffen auf die Ukraine ist in Cherson eine Person getötet worden.",
       "image": "https://bilder.deutschlandfunk.de/f3/1f/12/81/f31f1281-e6db-44c1-8e61-da846c945481/cherson-drohnen-krieg-ukraine-100-1920x1920.jpg",
-      "published": "2026-10-17T19:18:36+02:00",
+      "published": "2026-10-17T20:02:44+02:00",
       "category": "Politik",
-      "score": 77.97
+      "score": 77.27
     },
     {
       "id": "deutschlandfunk-b4fef32c103fad34",
@@ -181,9 +198,9 @@
       "link": "https://www.deutschlandfunk.de/selenskyj-satelliteninternet-weiter-gedrosselt-100.html",
       "summary": "Das militärisch wichtige Satelliteninternet Starlink funktioniert nach Angaben von Präsident Selenskyj über der Ukraine weiterhin nur gedrosselt.",
       "image": "https://bilder.deutschlandfunk.de/f7/61/1e/5f/f7611e5f-9fbe-4160-b55d-2fa6b6cc71ee/logo-satelliten-internet-starlink-100-1920x1920.jpg",
-      "published": "2026-10-17T19:18:36+02:00",
+      "published": "2026-10-17T20:02:44+02:00",
       "category": "Politik",
-      "score": 77.97,
+      "score": 77.27,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -191,38 +208,6 @@
             "source": "deutsche-welle",
             "title": "Warum Starlink für die Ukraine so wichtig ist",
             "link": "https://www.dw.com/de/warum-starlink-für-die-ukraine-so-wichtig-ist/a-79668027?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-dcff502602008c1f",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Zusammenstöße zwischen Polizei und Demonstranten bei Protesten in Frankreich",
-      "link": "https://www.tagesschau.de/ausland/europa/frankreich-proteste-212.html",
-      "summary": "Angriffe auf Polizisten, Plünderungen und Brandstiftungen: Bei Protesten gegen hohe Lebenshaltungskosten ist es in Frankreich zu Ausschreitungen gekommen. An den laufenden Demonstrationen beteiligen sich Zehntausende.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/8e6b9779-05a8-4b0d-b06b-813c9f4eb81d/AAABoUnoAZ8/AAABnSSvrFg/16x9-big/paris-feuer-demonstration-100.jpg?width=1920",
-      "published": "2026-10-17T16:04:22+02:00",
-      "category": "Panorama",
-      "score": 75.97,
-      "coverage": {
-        "sourceCount": 4,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Proteste in Frankreich - Zusammenstöße zwischen Demonstranten und Polizei in Paris, Lyon und Marseille",
-            "link": "https://www.deutschlandfunk.de/zusammenstoesse-zwischen-demonstranten-und-polizei-in-paris-lyon-und-marseille-100.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Frankreich: Landesweite Proteste – Erste Zusammenstöße mit Polizei",
-            "link": "https://www.handelsblatt.com/politik/international/frankreich-landesweite-proteste-erste-zusammenstoesse-mit-polizei/100262971.html"
-          },
-          {
-            "source": "deutsche-welle",
-            "title": "Argentinien: Demonstranten fordern mehr Geld für Unis",
-            "link": "https://www.dw.com/de/argentinien-demonstranten-fordern-mehr-geld-für-unis/a-79677729?maca=de-rss-de-all-1119-rdf"
           }
         ]
       }
@@ -237,7 +222,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/a8bdfb70-73d3-4c70-bc5f-4dd71eb47fb1_w1200_r1.778_fpx47_fpy60.jpg",
       "published": "2026-10-17T15:22:00+02:00",
       "category": "Politik",
-      "score": 74.68
+      "score": 73.37
+    },
+    {
+      "id": "spiegel-3f753f94d00e4d1b",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Donald Trump: US-Republikaner verurteilen Trumps Aussetzung von neuen Russlandsanktionen",
+      "link": "https://www.spiegel.de/ausland/donald-trump-us-kongressabgeordnete-verurteilen-trumps-aussetzung-von-neuen-russlandsanktionen-a-7933a7fd-09c5-4bf9-9329-a891e64e9ad7#ref=rss",
+      "summary": "Mehrere republikanische Politiker im Kongress halten das Zurückstellen neuer Strafmaßnahmen gegen Russland für falsch. Die Entscheidung des US-Präsidenten sei »mehr als unverantwortlich«.",
+      "image": "https://cdn.prod.www.spiegel.de/images/00c00f38-027d-4610-9730-727f61762647_w1200_r1.778_fpx48.65_fpy45.jpg",
+      "published": "2026-10-17T19:31:00+02:00",
+      "category": "Politik",
+      "score": 68.83
     },
     {
       "id": "handelsblatt-98e6cebcfabf2300",
@@ -249,19 +246,7 @@
       "image": "https://images.handelsblatt.com/pqmAtmx6DXfy/cover/900/506/0/0/255/255/0.5/0.5/us-president-donald-trump-arrives-to-speak-at-a-midterm-campaign-rally-at-dalton-municipal-airport-i.jpg",
       "published": "2026-10-17T08:57:18+00:00",
       "category": "Politik",
-      "score": 70.01
-    },
-    {
-      "id": "spiegel-a77b1e62b8dc7a8e",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ukraine: Wolodymyr Selenskyj beklagt anhaltende Drosselung von Starlink in der Ukraine",
-      "link": "https://www.spiegel.de/ausland/urkaine-wolodymyr-selenskyj-beklagt-anhaltende-drosselung-von-starlink-in-der-ukraine-a-8e43cbbd-11bc-4a8a-a33c-1a6a24b6e981#ref=rss",
-      "summary": "Nach Angaben des ukrainischen Präsidenten kann Kyjiws Militär wegen der Störung von Starlink wichtige Drohnen weiterhin nicht steuern. In anderen europäischen Ländern funktioniere der Dienst.",
-      "image": "https://cdn.prod.www.spiegel.de/images/dc91493d-c594-4e98-b279-e0c19bdacd08_w1200_r1.778_fpx43.34_fpy45.jpg",
-      "published": "2026-10-17T17:51:00+02:00",
-      "category": "Politik",
-      "score": 68.75
+      "score": 68.7
     },
     {
       "id": "handelsblatt-14a545afe0f9c139",
@@ -273,7 +258,7 @@
       "image": "https://images.handelsblatt.com/ajuKMP7NmADk/cover/900/506/0/0/210/1103/0.5/0.5/cover-podcast-trump-watch.jpg",
       "published": "2026-10-17T07:16:07+00:00",
       "category": "Politik",
-      "score": 68.6
+      "score": 67.29
     },
     {
       "id": "deutsche-welle-730272c9330fa386",
@@ -285,7 +270,7 @@
       "image": "https://static.dw.com/image/79466988_6.jpg",
       "published": "2026-10-17T10:53:00+00:00",
       "category": "Politik",
-      "score": 63.61
+      "score": 62.3
     }
   ]
 }
