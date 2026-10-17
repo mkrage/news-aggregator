@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T10:59:04.067904+00:00",
+  "generatedAt": "2026-10-17T13:18:48.587125+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://static.dw.com/image/79685810_6.jpg",
       "published": "2026-10-17T08:49:00+00:00",
       "category": "Politik",
-      "score": 96.62,
+      "score": 94.68,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -30,24 +30,73 @@
       }
     },
     {
+      "id": "tagesschau-f8c3e1ed64a6c609",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Sondierungen in Berlin: Linke, Grüne und SPD erzielen offenbar Einigung",
+      "link": "https://www.tagesschau.de/inland/regional/berlin/sondierungen-berlin-112.html",
+      "summary": "Vier Wochen nach der Wahl zum Berliner Abgeordnetenhaus haben Linke, Grüne und SPD bei den Sondierungen offenbar eine Einigung erzielt. Am Nachmittag soll es ein gemeinsames Pressestatement geben. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/984f37ec-6a04-4956-9ae6-80aa1511df72/AAABoUnl1qs/AAABnSSvrFg/16x9-big/rbb-625532287-100.jpg?width=1920",
+      "published": "2026-10-17T14:54:37+02:00",
+      "category": "Politik",
+      "score": 86.96,
+      "coverage": {
+        "sourceCount": 4,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Berlin - Linke, Grüne und SPD erzielen Durchbruch bei Sondierungen",
+            "link": "https://www.deutschlandfunk.de/linke-gruene-und-spd-erzielen-durchbruch-bei-sondierungen-100.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "Berlin: Linke, SPD und Grüne in Berlin einigen sich auf Koalitionsgespräche",
+            "link": "https://www.spiegel.de/politik/deutschland/berlin-linke-spd-und-gruene-in-berlin-einigen-sich-auf-koalitionsgespraeche-a-a770d892-0e3e-4bd7-a65f-3b43c450dff7#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Nach der Wahl: Durchbruch bei Sondierungen zur Regierungsbildung in Berlin",
+            "link": "https://www.handelsblatt.com/politik/deutschland/nach-der-wahl-durchbruch-bei-sondierungen-zur-regierungsbildung-in-berlin/100262973.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "tagesschau-ce309fdc3d434de6",
       "source": "tagesschau",
       "sourceWeight": 1.0,
       "title": "\"Nationales Interesse\" - Trump setzt geplante Sanktionen gegen Russland aus",
       "link": "https://www.tagesschau.de/ausland/amerika/usa-russland-ukraine-sanktionen-100.html",
-      "summary": "Erst macht der US-Präsident einen umstrittenen Diesel-Deal mit Russland, nun setzt Trump gerade erst beschlossene Sanktionen aus. Das Weiße Haus begründet dies mit nationalem Interesse. Moskau reagiert erfreut.[ mehr ]",
+      "summary": "Erst macht der US-Präsident einen umstrittenen Diesel-Deal mit Russland, nun setzt Trump gerade erst beschlossene Sanktionen aus. Das Weiße Haus begründet dies mit nationalem Interesse. Moskau reagiert erfreut, die Ukraine ist entsetzt.[ mehr ]",
       "image": "https://images.tagesschau.de/image/5726031f-d77e-47f7-9265-703989cd7bc5/AAABoUh5qsI/AAABnSSvrFg/16x9-big/trump-5350.jpg?width=1920",
-      "published": "2026-10-17T10:35:52+02:00",
+      "published": "2026-10-17T14:07:08+02:00",
       "category": "Politik",
-      "score": 89.33,
+      "score": 86.0,
       "coverage": {
-        "sourceCount": 5,
+        "sourceCount": 2,
         "others": [
           {
-            "source": "deutschlandfunk",
-            "title": "Weißes Haus - US-Präsident Trump setzt gegen Russland gerichtete Sanktionen teilweise aus",
-            "link": "https://www.deutschlandfunk.de/us-praesident-trump-setzt-gegen-russland-gerichtete-sanktionen-teilweise-aus-100.html"
-          },
+            "source": "handelsblatt",
+            "title": "USA: US-Präsident Trump setzt neue Russland-Sanktionen per Dekret aus",
+            "link": "https://www.handelsblatt.com/politik/international/usa-trump-setzt-neue-russland-sanktionen-per-dekret-aus/100262955.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-e45c443876257383",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Ukraine - Selenskyj kritisiert Aussetzung von US-Sanktionen",
+      "link": "https://www.deutschlandfunk.de/selenskyj-kritisiert-aussetzung-von-us-sanktionen-102.html",
+      "summary": "Der ukrainische Präsident Selenskyj hat die Aussetzung von US-Sanktionen gegen Russland kritisiert. Eine Lockerung des Drucks auf Russland und finanzielle Belohnungen seien für Kremlchef Putin nur Ansporn, weiter zuzuschlagen, erklärte er.",
+      "image": "https://bilder.deutschlandfunk.de/92/64/df/f4/9264dff4-4dc1-4d39-bb10-13f523aa57ff/usa-ukraine-praesident-trump-selenskyj-gespraeche-100-1920x1920.jpg",
+      "published": "2026-10-17T15:15:40+02:00",
+      "category": "Politik",
+      "score": 85.96,
+      "coverage": {
+        "sourceCount": 4,
+        "others": [
           {
             "source": "spiegel",
             "title": "Russland: Kreml feiert Aussetzung von US-Sanktionen durch Donald Trump als »historischen Moment«",
@@ -56,7 +105,7 @@
           {
             "source": "handelsblatt",
             "title": "+++ Ukraine-Krieg +++: Selenskyj meldet schwere russische Angriffe auf Energieanlagen",
-            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-meldet-schwere-russische-angriffe-auf-energieanlagen/27982126.html"
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-haelt-treffen-mit-usa-und-russland-im-dezember-fuer-moeglich/27982126.html"
           },
           {
             "source": "deutsche-welle",
@@ -67,36 +116,16 @@
       }
     },
     {
-      "id": "tagesschau-59a106df09ceff20",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "\"Deutschlandtag\" der Jungen Union - der Parteinachwuchs als Antreiber",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/junge-union-deutschlandtag-112.html",
-      "summary": "Die Umfragewerte im Keller, die Stimmung auch: In der Koalition kriselt es. Beim \"Deutschlandtag\" der Jungen Union in Bonn will der Parteinachwuchs nun neue Impulse für die Union setzen. Von Dagmar Pepping. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/c8dc871e-86d7-4307-b791-e26af85b4fb6/AAABmoMLMv0/AAABnSSvrFg/16x9-big/merz-1090.jpg?width=1920",
-      "published": "2026-10-16T13:28:58+02:00",
-      "category": "Nachrichten",
-      "score": 83.75,
-      "coverage": {
-        "sourceCount": 4,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Deutschlandtag der Jungen Union - Merz: Reformprozess schnell abschließen",
-            "link": "https://www.deutschlandfunk.de/merz-reformprozess-schnell-abschliessen-100.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "News: Friedrich Merz, Junge Union, Juden-Deportation vor 85 Jahren, Dieter Dehm verurteilt",
-            "link": "https://www.spiegel.de/politik/deutschland/news-friedrich-merz-junge-union-juden-deportation-vor-85-jahren-dieter-dehm-verurteilt-a-cd266a43-6ea0-4bbf-a17a-38bb53e9afbc#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Junge Union: Merz sieht ohne Reformen keine Wahlchancen für CDU im Bund",
-            "link": "https://www.handelsblatt.com/politik/deutschland/junge-union-merz-sieht-ohne-reformen-keine-wahlchancen-fuer-cdu-im-bund/100261878.html"
-          }
-        ]
-      }
+      "id": "handelsblatt-38d8262baae3e626",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Ukraine-Krieg: Trump gegen neue Strafen für Moskau – Kiew enttäuscht",
+      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-trump-gegen-neue-strafen-fuer-moskau-kiew-enttaeuscht/100262936.html",
+      "summary": "Mit weitreichenden Sanktionen wollte der US-Kongress den Angreifer Russland im Ukraine-Krieg unter Druck setzen. US-Präsident Trump verzichtet nun auf Strafen. Moskau ist erfreut, Kiew hofft noch.",
+      "image": "https://images.handelsblatt.com/Tf9NI84awI7H/cover/900/506/0/0/107/106/0.5/0.5/us-praesident-trump.jpg",
+      "published": "2026-10-17T12:27:43+00:00",
+      "category": "Politik",
+      "score": 84.29
     },
     {
       "id": "tagesschau-957c6802603b66fe",
@@ -108,7 +137,7 @@
       "image": "https://images.tagesschau.de/image/ee8836eb-c8c8-4e02-9f27-c920ec990883/AAABoUYD11k/AAABnSSvrFg/16x9-big/rbb-vanessa-emde-100.jpg?width=1920",
       "published": "2026-10-16T20:34:40+02:00",
       "category": "Politik",
-      "score": 83.43,
+      "score": 83.64,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -133,16 +162,16 @@
       "link": "https://www.deutschlandfunk.de/trumps-pressesprecherin-zacharia-tritt-wieder-ab-110.html",
       "summary": "Die gerade erst angetretene neue Pressesprecherin von US-Präsident Trump, Zacharia, gibt ihr Amt Berichten zufolge wieder auf.",
       "image": "https://bilder.deutschlandfunk.de/aa/ac/50/a0/aaac50a0-0ae1-447b-8d80-f96f4840605c/katie-zacharia-100-1280x1280.jpg",
-      "published": "2026-10-17T12:41:21+02:00",
+      "published": "2026-10-17T15:15:40+02:00",
       "category": "Politik",
-      "score": 82.43,
+      "score": 82.64,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
             "source": "spiegel",
-            "title": "Katie Zacharia: Gefeuerte Trump-Sprecherin scheitert nach nur fünf Tagen",
-            "link": "https://www.spiegel.de/ausland/katie-zacharia-gefeuerte-trump-sprecherin-scheitert-nach-nur-fuenf-tagen-a-6b40d659-cbaf-41d6-89c2-93b91327deab#ref=rss"
+            "title": "Katie Zacharia als Pressesprecherin im Weißen Haus: Fünf Tage Chaos",
+            "link": "https://www.spiegel.de/ausland/katie-zacharia-als-pressesprecherin-im-weissen-haus-fuenf-tage-chaos-a-3933c8ac-90c2-4976-940a-d8199e086b5a#ref=rss"
           },
           {
             "source": "handelsblatt",
@@ -160,9 +189,21 @@
       "link": "https://www.deutschlandfunk.de/behoerden-ein-toter-bei-russischem-angriff-auf-cherson-102.html",
       "summary": "Bei russischen Luftangriffen auf die Ukraine ist in Cherson eine Person getötet worden.",
       "image": "https://bilder.deutschlandfunk.de/f3/1f/12/81/f31f1281-e6db-44c1-8e61-da846c945481/cherson-drohnen-krieg-ukraine-100-1920x1920.jpg",
-      "published": "2026-10-17T12:41:21+02:00",
+      "published": "2026-10-17T15:15:40+02:00",
       "category": "Politik",
-      "score": 77.75
+      "score": 77.96
+    },
+    {
+      "id": "deutschlandfunk-abdca602a322bdf8",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Deutschlandtag der Jungen Union - Merz: Reformprozess schnell abschließen",
+      "link": "https://www.deutschlandfunk.de/merz-reformprozess-schnell-abschliessen-100.html",
+      "summary": "Bundeskanzler Merz hat eine zügige Umsetzung der geplanten Sozialreformen zugesagt. Es sei wichtig, den Reformprozess bald abzuschließen, sagte er auf dem Deutschlandtag der Jungen Union in Bonn. Andernfalls drohe eine Niederlage bei der nächsten Bundestagswahl.",
+      "image": "https://bilder.deutschlandfunk.de/1e/a1/e8/a7/1ea1e8a7-7f7c-4fb7-9bbc-2d622f593443/deutschlandtag-2026-merz-100-1920x1920.jpg",
+      "published": "2026-10-17T15:15:40+02:00",
+      "category": "Politik",
+      "score": 77.96
     },
     {
       "id": "spiegel-f9fb0fb741b93761",
@@ -174,19 +215,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/a8bdfb70-73d3-4c70-bc5f-4dd71eb47fb1_w1200_r1.778_fpx47_fpy60.jpg",
       "published": "2026-10-17T11:38:00+02:00",
       "category": "Politik",
-      "score": 76.87
-    },
-    {
-      "id": "handelsblatt-351c6a7b2b97e356",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Ukraine-Krieg: Selenskyj kritisiert Aussetzung von US-Sanktionen",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-kritisiert-aussetzung-von-us-sanktionen/100262936.html",
-      "summary": "Die Ukraine hoffte, dass neue US-Sanktionen den Druck auf Russland erhöhen, den Angriffskrieg zu beenden. Nun zeigt sich Staatschef Selenskyj enttäuscht von einer Entscheidung des US-Präsidenten.",
-      "image": "https://images.handelsblatt.com/n4HhuARX3o1c/cover/900/506/0/0/173/173/0.5/0.5/eu-gipfel.jpg",
-      "published": "2026-10-17T10:22:04+00:00",
-      "category": "Politik",
-      "score": 76.49
+      "score": 74.93
     },
     {
       "id": "handelsblatt-98e6cebcfabf2300",
@@ -198,7 +227,7 @@
       "image": "https://images.handelsblatt.com/pqmAtmx6DXfy/cover/900/506/0/0/255/255/0.5/0.5/us-president-donald-trump-arrives-to-speak-at-a-midterm-campaign-rally-at-dalton-municipal-airport-i.jpg",
       "published": "2026-10-17T08:57:18+00:00",
       "category": "Politik",
-      "score": 75.31
+      "score": 73.37
     },
     {
       "id": "spiegel-0be9aa8ec321489a",
@@ -210,7 +239,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/42895bd3-c728-433d-889d-062e78a24e22_w1200_r1.778_fpx69.88_fpy45.jpg",
       "published": "2026-10-17T08:44:00+02:00",
       "category": "Politik",
-      "score": 74.46,
+      "score": 72.52,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -232,34 +261,7 @@
       "image": "https://images.handelsblatt.com/ajuKMP7NmADk/cover/900/506/0/0/210/1103/0.5/0.5/cover-podcast-trump-watch.jpg",
       "published": "2026-10-17T07:16:07+00:00",
       "category": "Politik",
-      "score": 73.9
-    },
-    {
-      "id": "deutschlandfunk-0a268f9b5bff8c29",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Vatikan - Papst Leo XIV. kann das Krankenhaus heute verlassen",
-      "link": "https://www.deutschlandfunk.de/papst-leo-xiv-kann-das-krankenhaus-heute-verlassen-100.html",
-      "summary": "Papst Leo XIV. kann nach seiner Krebsoperation das Krankenhaus verlassen. Das Oberhaupt der katholischen Kirche werde noch heute in seine Wohnung zurückkehren, teilte der Vatikan mit. Morgen werde Leo das Mittagsgebet von seinem Arbeitszimmer hoch über dem Petersplatz leiten.",
-      "image": "https://bilder.deutschlandfunk.de/12/30/e9/ff/1230e9ff-43d2-47ec-9982-5e759f4d793d/leo-krankenhaus-100-1920x1920.jpg",
-      "published": "2026-10-17T12:41:21+02:00",
-      "category": "Technologie",
-      "score": 71.43,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Papst Leo XIV. kann nach Krebs-OP das Krankenhaus verlassen",
-            "link": "https://www.spiegel.de/ausland/papst-leo-xiv-kann-nach-krebs-op-das-krankenhaus-verlassen-a-09e35d6a-f51b-4295-9f43-76de38fe8113#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Papstgenesung: Vatikan: Papst kann Krankenhaus verlassen",
-            "link": "https://www.handelsblatt.com/politik/international/papstgenesung-vatikan-papst-kann-krankenhaus-verlassen/100262965.html"
-          }
-        ]
-      }
+      "score": 71.96
     },
     {
       "id": "deutsche-welle-730272c9330fa386",
@@ -271,31 +273,19 @@
       "image": "https://static.dw.com/image/79466988_6.jpg",
       "published": "2026-10-17T10:53:00+00:00",
       "category": "Politik",
-      "score": 68.92
+      "score": 66.97
     },
     {
-      "id": "golem-114c00f5053caed3",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Defense Radar: Krieg im All",
-      "link": "https://www.golem.de/news/defense-radar-krieg-im-all-2610-214196.html",
-      "summary": "In unserem Videoformat Defense Radar geben wir Einblicke in Militärtechnik. Diesmal geht es um Waffensysteme im erdnahen Weltraum. ( Militär , Politik )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214196&amp;page=1&amp;ts=1792222501",
-      "published": "2026-10-17T09:35:01+02:00",
-      "category": "Technologie",
-      "score": 62.17
-    },
-    {
-      "id": "netzpolitik-7921d28d7ca201b2",
-      "source": "netzpolitik",
-      "sourceWeight": 0.75,
-      "title": "Interview mit Simon Strick: „Faschisierung ist ein medialer Prozess“",
-      "link": "https://netzpolitik.org/2026/interview-simon-strick-faschisierung-ist-ein-medialer-prozess/",
-      "summary": "Wir alle sind im Internet unterwegs, wir klicken, liken und kommentieren – und befördern oftmals eine Dynamik der Eskalation, schreibt der Kulturwissenschaftler Simon Strick in seinem neuen Buch. Wir haben mit ihm über Faschisierung, Memes und mediale Eigendynamiken gesprochen. Demonstration vor dem Deutschen Bundestag im Juli 2025. – Alle Rechte vorbehalten: IMAGO / Metodi Popow Faschisierung ist von Beginn an eine Grundtendenz digitaler Medien. Der heutige Rechtspopulismus und das Internet entstanden nicht nur zeitgleich, sondern arbeiten auch mit verwandten Formeln und haben die Öffentlichkeit zum Reaktionären hin transformiert. Das schreibt der Kulturwissenschaftler Simon Strick in seinem Buch „ Faschisierung. Fluchtlinie des Digitalen “, das vor wenigen Tagen im Suhrkamp Verlag erschienen ist. Strick zeigt darin eine kulturelle und politische Entwicklung, die mehr als zwanzig Jahre zurückreicht. Dieser Entwicklung stehen wir bis heute nicht nur unvorbereitet und hilflos gegenüber, sondern wir treiben selbst auch einen Prozess an, in dem wir jeden Tag und in aller Öffentlichkeit rechtsradikale Formeln einüben. …",
-      "image": "https://cdn.netzpolitik.org/wp-upload/2026/10/imago0827274573h.jpg",
-      "published": "2026-10-17T06:00:07+00:00",
+      "id": "deutsche-welle-5973b7642e4e7e87",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "Ukraine-Krieg: Trump sieht Selenskyj als Friedenshindernis",
+      "link": "https://www.dw.com/de/ukraine-krieg-trump-sieht-selenskyj-als-friedenshindernis/a-79676193?maca=de-rss-de-all-1119-rdf",
+      "summary": "Donald Trump verschärft seine Kritik an der Ukraine. Der US-Präsident macht deren Angriffe auf russische Ölraffinerien für steigende Energiepreise verantwortlich. Rückendeckung erhält die Ukraine dagegen von der EU.",
+      "image": "https://static.dw.com/image/79636230_6.jpg",
+      "published": "2026-10-16T13:08:00+00:00",
       "category": "Politik",
-      "score": 61.85
+      "score": 64.85
     }
   ]
 }
