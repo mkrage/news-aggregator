@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-10-18T01:45:01.538948+00:00",
+  "generatedAt": "2026-10-18T06:05:12.968792+00:00",
   "count": 15,
   "articles": [
+    {
+      "id": "handelsblatt-6a242a962dcadc28",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Krieg gegen die Ukraine: Verständigung zulasten der Ukraine: Trump geht auf Moskau zu",
+      "link": "https://www.handelsblatt.com/politik/international/krieg-gegen-die-ukraine-verstaendigung-zulasten-der-ukraine-trump-geht-auf-moskau-zu/100263031.html",
+      "summary": "Trump ist Selenskyj schon oft in den Rücken gefallen, in seinem aktuellen Kurs sehen einige Experten eine neue Qualität. Gibt der US-Präsident die Ukraine wegen der Folgen des Iran-Kriegs völlig auf?",
+      "image": "https://images.handelsblatt.com/4ougG1Vd9yji/cover/900/506/0/0/107/106/0.5/0.5/verstaendigung-zulasten-der-ukraine-trump-geht-auf-moskau-zu.jpg",
+      "published": "2026-10-18T03:00:18+00:00",
+      "category": "Politik",
+      "score": 90.43,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutsche-welle",
+            "title": "Ukraine-Krieg: Trump sieht Selenskyj als Friedenshindernis",
+            "link": "https://www.dw.com/de/ukraine-krieg-trump-sieht-selenskyj-als-friedenshindernis/a-79676193?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
+    },
     {
       "id": "tagesschau-094540230193643c",
       "source": "tagesschau",
@@ -12,7 +34,7 @@
       "image": "https://images.tagesschau.de/image/506258a1-d762-4700-a6ce-687b4302de26/AAABoUqkI0o/AAABnSSvrFg/16x9-big/wolodymyr-zelenskyj-100.jpg?width=1920",
       "published": "2026-10-17T19:26:53+02:00",
       "category": "Politik",
-      "score": 86.53,
+      "score": 86.77,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -23,8 +45,8 @@
           },
           {
             "source": "handelsblatt",
-            "title": "USA: US-Präsident Trump setzt neue Russland-Sanktionen per Dekret aus",
-            "link": "https://www.handelsblatt.com/politik/international/usa-trump-setzt-neue-russland-sanktionen-per-dekret-aus/100262955.html"
+            "title": "+++ Ukraine-Krieg +++: Trumps Aussetzung von Sanktionen – Parteiübergreifende Kritik",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-trumps-aussetzung-von-sanktionen-parteiuebergreifende-kritik/27982126.html"
           },
           {
             "source": "deutsche-welle",
@@ -35,16 +57,53 @@
       }
     },
     {
-      "id": "spiegel-fc9f2c72e36298c1",
-      "source": "spiegel",
+      "id": "deutschlandfunk-6fca5f22897d0107",
+      "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Donald Trump beim Wahlkampf in Georgia für die Midterms: »Ich unterstütze meinen Präsidenten trotzdem«",
-      "link": "https://www.spiegel.de/ausland/donald-trump-beim-wahlkampf-in-georgia-fuer-die-midterms-ich-unterstuetze-meinen-praesidenten-trotzdem-a-64784bbd-0caa-4275-9d0b-2d75a471e1d7#ref=rss",
-      "summary": "Donald Trump tritt im Swing State Georgia vor seinen Anhängern auf. Hohe Inflation, der Krieg mit Iran – es scheint egal zu sein, was der US-Präsident tut. Für sie ist er unfehlbar.",
-      "image": "https://cdn.prod.www.spiegel.de/images/d5ac48ef-5849-4873-b318-dfae827a5d4a_w1200_r1.778_fpx30_fpy46.98.jpg",
-      "published": "2026-10-17T17:31:00+02:00",
+      "title": "USA - Proteste unter dem Motto \"No Kings\" gegen Präsident Trump",
+      "link": "https://www.deutschlandfunk.de/proteste-unter-dem-motto-no-kings-gegen-praesident-trump-102.html",
+      "summary": "Zweieinhalb Wochen vor den Kongresswahlen in den USA haben landesweit zahlreiche Menschen gegen Präsident Trump demonstriert.",
+      "image": "https://bilder.deutschlandfunk.de/03/92/62/50/03926250-697c-4729-b6c4-f5b633aa319e/no-kings-demo-flagge-100-1920x1920.jpg",
+      "published": "2026-10-18T07:48:25+02:00",
       "category": "Politik",
-      "score": 85.47
+      "score": 85.77,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "USA: Landesweite »No Kings«-Proteste vor Midtermwahlen",
+            "link": "https://www.spiegel.de/ausland/usa-landesweite-no-kings-proteste-vor-midtermwahlen-a-edf27c1c-ba80-4336-8a20-3acb1e009d0b#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-9a0ea24ba7960ca1",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Frankreich - \"Entsetzliches Ausmaß an Gewalt\": viele Verletzte nach landesweitem Protesttag - Präsident Macron droht Randalierern",
+      "link": "https://www.deutschlandfunk.de/entsetzliches-ausmass-an-gewalt-viele-verletzte-nach-landesweitem-protesttag-praesident-macron-droht-100.html",
+      "summary": "Bei den Ausschreitungen anlässlich des landesweiten Protesttags in Frankreich sind nach offiziellen Angaben rund 150 Polizisten verletzt worden. Es habe 1.200 Festnahmen gegeben, teilte Premierminister Lecornu nach einer Krisensitzung der Regierung mit.",
+      "image": "https://bilder.deutschlandfunk.de/8d/bb/ee/74/8dbbee74-1dde-4703-ae0a-55b57f1885ce/paris-krawalle-ausschreitungen-100-1920x1920.jpg",
+      "published": "2026-10-18T07:48:25+02:00",
+      "category": "Politik",
+      "score": 82.45,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Frankreich-Proteste: Premierminister beklagt »entsetzliches Ausmaß an Gewalt",
+            "link": "https://www.spiegel.de/ausland/frankreich-proteste-premierminister-beklagt-entsetzliches-ausmass-an-gewalt-a-fec939b4-9e40-45c7-9825-6657845cc77d#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Hunderttausende demonstrieren: Frankreichs Protesttag endet in Gewalt und Plünderungen",
+            "link": "https://www.handelsblatt.com/politik/international/hunderttausende-demonstrieren-frankreichs-protesttag-endet-in-gewalt-und-pluenderungen/100263018.html"
+          }
+        ]
+      }
     },
     {
       "id": "deutsche-welle-9a2bd14770e08efa",
@@ -56,7 +115,7 @@
       "image": "https://static.dw.com/image/79685810_6.jpg",
       "published": "2026-10-17T08:49:00+00:00",
       "category": "Politik",
-      "score": 84.32,
+      "score": 80.7,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -83,7 +142,7 @@
       "image": "https://images.tagesschau.de/image/8a43574e-1606-46b3-bf4c-d71d8da49bc4/AAABoUtXuE0/AAABnSSvrFg/16x9-big/rbb-urn-1120.jpg?width=1920",
       "published": "2026-10-17T21:24:05+02:00",
       "category": "Politik",
-      "score": 78.53,
+      "score": 78.77,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -103,77 +162,72 @@
       "link": "https://www.deutschlandfunk.de/russische-hauptstadt-ziel-massiver-angriffe-selenskyj-satelliteninternet-weiter-gedrosselt-104.html",
       "summary": "Russland ist nach eigenen Angaben Ziel massiver ukrainischer Drohnenangriffe.",
       "image": "https://bilder.deutschlandfunk.de/f7/61/1e/5f/f7611e5f-9fbe-4160-b55d-2fa6b6cc71ee/logo-satelliten-internet-starlink-100-1920x1920.jpg",
-      "published": "2026-10-18T03:11:28+02:00",
+      "published": "2026-10-18T07:48:25+02:00",
       "category": "Politik",
-      "score": 77.53
+      "score": 77.77
     },
     {
-      "id": "handelsblatt-38d8262baae3e626",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Ukraine-Krieg: Trump gegen neue Strafen für Moskau – Kiew enttäuscht",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-trump-gegen-neue-strafen-fuer-moskau-kiew-enttaeuscht/100262936.html",
-      "summary": "Mit weitreichenden Sanktionen wollte der US-Kongress den Angreifer Russland im Ukraine-Krieg unter Druck setzen. US-Präsident Trump verzichtet nun auf Strafen. Moskau ist erfreut, Kiew hofft noch.",
-      "image": "https://images.handelsblatt.com/Tf9NI84awI7H/cover/900/506/0/0/107/106/0.5/0.5/us-praesident-trump.jpg",
-      "published": "2026-10-17T13:59:14+00:00",
-      "category": "Politik",
-      "score": 75.2
-    },
-    {
-      "id": "spiegel-f311ac83c3e13f13",
+      "id": "spiegel-f9fb0fb741b93761",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Frankreich: Schwere Krawalle bei Protesten",
-      "link": "https://www.spiegel.de/ausland/frankreich-schwere-krawalle-bei-protesten-a-c90e5583-a5ef-4125-9992-b8469f4dfa8d#ref=rss",
-      "summary": "Die Proteste gegen hohe Lebenshaltungskosten in Frankreich eskalieren weiter. Geschäfte werden geplündert, Gebäude in Brand gesetzt. Die Regierung kam zu einer Krisensitzung zusammen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/29f9dfbc-25ca-4df5-b8df-7504ec3c90ad_w1200_r1.778_fpx33.99_fpy55.jpg",
-      "published": "2026-10-17T21:23:00+02:00",
+      "title": "Ukraine: Eine Liebesgeschichte mitten im Krieg – die guten News der Woche",
+      "link": "https://www.spiegel.de/ausland/ukraine-eine-liebesgeschichte-mitten-im-krieg-die-guten-news-der-woche-a-a16558a9-6782-425e-b125-a4edac240c81#ref=rss",
+      "summary": "Witalij Papirnyj und Lilija Dschemiljewa mussten wegen Russlands Angriffskrieg ihr Zuhause verlassen. Nun wollen sie zusammen neu anfangen. Und: So einfach sichern Sie sich eine höhere Rente. Die guten Nachrichten der Woche.",
+      "image": "https://cdn.prod.www.spiegel.de/images/a8bdfb70-73d3-4c70-bc5f-4dd71eb47fb1_w1200_r1.778_fpx47_fpy60.jpg",
+      "published": "2026-10-18T06:58:00+02:00",
       "category": "Politik",
-      "score": 72.69,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Sozialkonflikte: Schwere Unruhen in Frankreich – Proteste auch in Belgien, Portugal, Italien",
-            "link": "https://www.handelsblatt.com/politik/international/sozialkonflikte-schwere-unruhen-in-frankreich-proteste-auch-in-belgien-portugal-italien/100262971.html"
-          }
-        ]
-      }
+      "score": 77.07
     },
     {
-      "id": "tagesschau-807df4a1748ca4a0",
+      "id": "tagesschau-dcff502602008c1f",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Olivenernte: Verletzte bei Siedlergewalt im Westjordanland",
-      "link": "https://www.tagesschau.de/ausland/asien/westjordanland-olivenernte-angriffe-100.html",
-      "summary": "Während der Olivenernte im Westjordanland häuft sich die Gewalt israelischer Siedler gegen palästinensische Helfer. In mehreren Orten sind dabei Menschen verletzt worden, unter ihnen auch eine US-Journalistin.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/b6903c17-a5a2-47f7-8725-84a64fc67201/AAABoUpaOoU/AAABnSSvrFg/16x9-big/olivenernte-westjordanland-100.jpg?width=1920",
-      "published": "2026-10-17T20:09:16+02:00",
-      "category": "Politik",
-      "score": 72.67,
+      "title": "Schwere Ausschreitungen bei Massenprotesten in Frankreich",
+      "link": "https://www.tagesschau.de/ausland/europa/frankreich-proteste-212.html",
+      "summary": "Angriffe auf Polizisten, Plünderungen und Brandstiftungen: In Frankreich hat es bei landesweiten Protesten schwere Ausschreitungen gegeben. In Limoges setzten Randalierer das historische Rathaus in Brand. 1.200 Menschen wurden festgenommen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/ad6a129e-61b4-408b-90ec-2f4a3938c431/AAABoUv9_zs/AAABnSSvrFg/16x9-big/feuer-rathaus-100.jpg?width=1920",
+      "published": "2026-10-18T00:31:39+02:00",
+      "category": "Nachrichten",
+      "score": 72.45,
       "coverage": {
-        "sourceCount": 2,
+        "sourceCount": 3,
         "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Frankreich - Randalierer in Limoges setzen unter Denkmalschutz stehendes Rathaus in Brand",
+            "link": "https://www.deutschlandfunk.de/randalierer-in-limoges-setzen-unter-denkmalschutz-stehendes-rathaus-in-brand-100.html"
+          },
           {
             "source": "spiegel",
-            "title": "Westjordanland: Israelische Siedler greifen Journalistin und Diplomaten an",
-            "link": "https://www.spiegel.de/ausland/westjordanland-israelische-siedler-greifen-journalistin-und-diplomaten-an-a-ee2b08bc-2039-44a6-a8f1-2381a0d5d085#ref=rss"
+            "title": "Frankreich: Historisches Rathaus von Limoges in Flammen",
+            "link": "https://www.spiegel.de/ausland/frankreich-historisches-rathaus-von-limoges-in-flammen-a-d16d7122-f22b-4a62-972b-fec1ae76ca01#ref=rss"
           }
         ]
       }
     },
     {
-      "id": "tagesschau-7058a147367b4535",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Midterms 2026: Trumps Migrationspolitik verunsichert Unternehmen",
-      "link": "https://www.tagesschau.de/ausland/amerika/usa-midterms-trump-migration-100.html",
-      "summary": "Viele Wähler unterstützten 2024 Trumps Versprechen einer rigiden Abschiebepolitik. Doch vor den Zwischenwahlen zeigt sich: Das rücksichtslose Vorgehen der Einwanderungsbehörde ICE befremdet Bürger - und Unternehmer. Von Carsten Kühntopp. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/254d0550-a31e-4e56-b124-0dd6179a5f1c/AAABoT7BE1w/AAABnSSvrFg/16x9-big/ice-festnahme-100.jpg?width=1920",
-      "published": "2026-10-17T19:44:57+02:00",
+      "id": "spiegel-d7eb14b4915eadae",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Pilze suchen im deutschen Herbst: Der Angriff der falschen Rotkappen",
+      "link": "https://www.spiegel.de/panorama/pilze-suchen-im-deutschen-herbst-der-angriff-der-falschen-rotkappen-a-7c201642-bc66-4a4b-b0a3-1b093f0468f1#ref=rss",
+      "summary": "Ich weiß nicht, ob es an der Weltpolitik liegt, den Wahlergebnissen, an Merz oder der Klimaerwärmung – jedenfalls verwandele ich mich langsam, aber sicher in einen Waldpilz. Einen ungenießbaren.",
+      "image": "https://cdn.prod.www.spiegel.de/images/35903b32-8782-49a8-a640-f1d142cbf558_w1200_r1.778_fpx51_fpy40.jpg",
+      "published": "2026-10-18T06:52:00+02:00",
       "category": "Politik",
-      "score": 72.33
+      "score": 68.98
+    },
+    {
+      "id": "handelsblatt-88e0cde6b1386e9e",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Übernimmt Schwesig?: Wie die SPD-Krise Lars Klingbeil bis nach Bangkok verfolgt",
+      "link": "https://www.handelsblatt.com/politik/deutschland/uebernimmt-schwesig-wie-die-spd-krise-lars-klingbeil-bis-nach-bangkok-verfolgt/100262219.html",
+      "summary": "Nach den Tumulten in Berlin versucht der SPD-Chef, in Thailand für 48 Stunden Abstand zur Innenpolitik zu gewinnen. Doch eine Frage begleitet ihn auch nach Bangkok: Was wird aus ihm?",
+      "image": "https://images.handelsblatt.com/O-26NVdvOrxD/cover/900/506/0/0/0/634/0.5/0.5/lars-klingbeil.jpg",
+      "published": "2026-10-18T05:41:39+00:00",
+      "category": "Wirtschaft",
+      "score": 68.67
     },
     {
       "id": "spiegel-a77b1e62b8dc7a8e",
@@ -185,7 +239,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/dc91493d-c594-4e98-b279-e0c19bdacd08_w1200_r1.778_fpx43.34_fpy45.jpg",
       "published": "2026-10-17T17:51:00+02:00",
       "category": "Politik",
-      "score": 69.75,
+      "score": 66.14,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -198,30 +252,6 @@
       }
     },
     {
-      "id": "deutschlandfunk-174aa85533697095",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Westjordanland - US-Außenminister Rubio fordert Israel zum Einschreiten gegen Siedlergewalt auf",
-      "link": "https://www.deutschlandfunk.de/us-aussenminister-rubio-fordert-israel-zum-einschreiten-gegen-siedlergewalt-auf-102.html",
-      "summary": "Die USA fordern ⁠von ⁠Israel ⁠ein stärkeres Vorgehen gegen ⁠Angriffe von ⁠Siedlern ‌im Westjordanland.",
-      "image": "https://bilder.deutschlandfunk.de/2f/8a/14/2e/2f8a142e-cb89-4c1c-ac66-d558ae4d01ed/westjordanland-gazastreifen-palaestinenser-israel-streitkraefte-angriff-siedler-100-1920x1920.jpg",
-      "published": "2026-10-18T03:11:28+02:00",
-      "category": "Politik",
-      "score": 69.53
-    },
-    {
-      "id": "deutschlandfunk-93823d60d9b40c39",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Nach Landtagswahl - Merz droht CDU-Politikern in Magdeburg bei Votum für AfD-Kandidaten mit Parteiausschluss",
-      "link": "https://www.deutschlandfunk.de/merz-droht-cdu-politikern-in-magdeburg-bei-votum-fuer-afd-kandidaten-mit-parteiausschluss-106.html",
-      "summary": "Bundeskanzler Merz hat sich auf dem Deutschlandtag der Jungen Union mit klaren Worten von Linkspartei und AfD abgegrenzt. ‌",
-      "image": "https://bilder.deutschlandfunk.de/82/99/0b/27/82990b27-267f-4cc7-8396-4068590de119/landtag-sachsen-anhalt-magdeburg-102-1920x1920.jpg",
-      "published": "2026-10-18T03:11:28+02:00",
-      "category": "Politik",
-      "score": 69.53
-    },
-    {
       "id": "deutsche-welle-22db6cc50c7756a2",
       "source": "deutsche-welle",
       "sourceWeight": 0.9,
@@ -231,31 +261,31 @@
       "image": "https://static.dw.com/image/78987593_6.jpg",
       "published": "2026-10-17T19:29:00+00:00",
       "category": "Politik",
-      "score": 63.78
+      "score": 60.16
     },
     {
-      "id": "handelsblatt-98e6cebcfabf2300",
+      "id": "handelsblatt-4ab18d6f1079c55f",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "US-Wahlen: „Was für eine Show“ – Donald Trumps „Kampagnen-Blitz“ vor den Zwischenwahlen",
-      "link": "https://www.handelsblatt.com/politik/international/us-wahlen-donald-trumps-kampagnen-blitz-vor-den-zwischenwahlen/100262722.html",
-      "summary": "Wer an einer Rally von Donald Trump teilnimmt, merkt, dass er seine Anhänger immer noch begeistern kann. Die Frage ist nur: Sind es noch genug, um die Zwischenwahlen zu gewinnen?",
-      "image": "https://images.handelsblatt.com/pqmAtmx6DXfy/cover/900/506/0/0/255/255/0.5/0.5/us-president-donald-trump-arrives-to-speak-at-a-midterm-campaign-rally-at-dalton-municipal-airport-i.jpg",
-      "published": "2026-10-17T08:57:18+00:00",
-      "category": "Politik",
-      "score": 63.0
+      "title": "Zahlen zu Vergiftungen: Einige Hundert schwere Pilzvergiftungen pro Jahr",
+      "link": "https://www.handelsblatt.com/technik/forschung-innovation/zahlen-zu-vergiftungen-einige-hundert-schwere-pilzvergiftungen-pro-jahr/100263041.html",
+      "summary": "Beim Pilze sammeln ist Vorsicht geboten. Was wirkt wie ein Speisepilz, kann auch mal ein giftiger sein – der nur ähnlich aussieht. Wie viele Menschen sich vergiften, ist nicht ganz leicht zu erfassen.",
+      "image": "https://images.handelsblatt.com/BQ3fDYAJtifo/cover/900/506/0/0/107/107/0.5/0.5/fliegenpilz.jpg",
+      "published": "2026-10-18T05:00:05+00:00",
+      "category": "Wirtschaft",
+      "score": 60.1
     },
     {
-      "id": "handelsblatt-14a545afe0f9c139",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Trump-Watch: „Russland hat noch immer die Oberhand“ – Außenpolitik-Expertin Friedlander erklärt Trumps Ukrainepolitik",
-      "link": "https://www.handelsblatt.com/audio/trump-watch-podcast/trump-watch-russland-hat-noch-immer-die-oberhand-aussenpolitik-expertin-friedlander-erklaert-trumps-ukrainepolitik/100262930.html",
-      "summary": "Gescheiterte Energie-Waffenruhe und Druck auf Kiew: Die Geschäftsführerin der Atlantikbrücke ordnet die Ukrainepolitik des US-Präsidenten ein – und die Folgen für Europa.",
-      "image": "https://images.handelsblatt.com/ajuKMP7NmADk/cover/900/506/0/0/210/1103/0.5/0.5/cover-podcast-trump-watch.jpg",
-      "published": "2026-10-17T07:16:07+00:00",
-      "category": "Politik",
-      "score": 61.6
+      "id": "golem-e9507df40cd8a23f",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Anzeige: IT-Jobs in Administration, Service und Datenanalyse",
+      "link": "https://www.golem.de/news/anzeige-it-jobs-in-administration-service-und-datenanalyse-2610-213913.html",
+      "summary": "Arbeitgeber aus Industrie, Gesundheitswesen und Versicherung haben sechs spannende IT-Positionen im Angebot. ( Golem Karrierewelt , Unternehmenssoftware )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=213913&amp;page=1&amp;ts=1792299602",
+      "published": "2026-10-18T07:00:02+02:00",
+      "category": "Wirtschaft",
+      "score": 59.09
     }
   ]
 }
