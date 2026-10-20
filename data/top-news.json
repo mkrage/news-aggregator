@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T13:41:35.120369+00:00",
+  "generatedAt": "2026-10-20T15:25:09.608971+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/d9b552bc-b4c0-40c6-b558-c1e990a5dae1/AAABoVii2gE/AAABnSSvrFg/16x9-big/selenskyj-1238.jpg?width=1920",
       "published": "2026-10-20T12:50:05+02:00",
       "category": "Politik",
-      "score": 90.94,
+      "score": 91.45,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -39,7 +39,7 @@
       "image": "https://images.tagesschau.de/image/8e2226d1-a744-4eec-957e-5f6474f08741/AAABoVl-pPY/AAABnSSvrFg/16x9-big/rbb-archivbild-vanessa-emde-die-linke-kommt-im-berliner-abgeordnetenhaus-zu-einer-fraktionssitzung-ihrer-partei-100.jpg?width=1920",
       "published": "2026-10-20T15:27:29+02:00",
       "category": "Politik",
-      "score": 86.8,
+      "score": 86.89,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -50,13 +50,47 @@
           },
           {
             "source": "spiegel",
-            "title": "Vanessa Emde meldet sich krank – Fraktionsvorstand der Berliner Linken vertagt Aussprache",
-            "link": "https://www.spiegel.de/politik/vanesse-emde-meldet-sich-krank-fraktionsvorstand-der-berlinen-linken-vertagt-aussprache-a-d9425403-82d7-4ee3-9a2e-663947ec9cb4#ref=rss"
+            "title": "Die Linke Berlin: Vanessa Emde meldet sich krank – Fraktionsvorstand vertagt Aussprache",
+            "link": "https://www.spiegel.de/politik/die-linke-berlin-vanessa-emde-meldet-sich-krank-fraktionsvorstand-vertagt-aussprache-a-d9425403-82d7-4ee3-9a2e-663947ec9cb4#ref=rss"
           },
           {
             "source": "handelsblatt",
             "title": "Israel-Kritik: Berliner Linke kann Konflikt um Abgeordnete nicht lösen",
             "link": "https://www.handelsblatt.com/politik/deutschland/israel-kritik-berliner-linke-kann-konflikt-um-abgeordnete-nicht-loesen/100263651.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-1f8c6ba42f4c1566",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Ukraine-Krieg - Trump zu Dreiertreffen mit Putin und Xi bereit",
+      "link": "https://www.deutschlandfunk.de/trump-zu-dreiertreffen-mit-putin-und-xi-bereit-106.html",
+      "summary": "US-Präsident Trump hat sich offen für ein Gespräch zur Beendigung des",
+      "image": "https://bilder.deutschlandfunk.de/3b/62/5c/ca/3b625cca-e4b2-4c1d-8c68-8014f4b1f406/donald-trump-254-1920x1920.jpg",
+      "published": "2026-10-20T17:17:23+02:00",
+      "category": "Politik",
+      "score": 85.89
+    },
+    {
+      "id": "deutschlandfunk-f082c41de178ff1b",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Ukraine-Krieg - Selenskyj spricht mit Rubio über Starlink-Drosselung und Abfangraketen",
+      "link": "https://www.deutschlandfunk.de/selenskyj-spricht-mit-rubio-ueber-starlink-drosselung-und-abfangraketen-100.html",
+      "summary": "US-Außenminister Rubio hat mögliche Verzögerungen bei der Lieferung von Abfangraketen an die Ukraine eingeräumt.",
+      "image": "https://bilder.deutschlandfunk.de/f4/e6/57/20/f4e65720-227c-4eb2-8830-1434cbeee38c/usa-aussenminister-rubio-indien-besuch-100-1920x1920.jpg",
+      "published": "2026-10-20T17:17:23+02:00",
+      "category": "Politik",
+      "score": 85.89,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutsche-welle",
+            "title": "Ukraine-Krieg: USA liefern laut Selenskyj wieder Geheimdienstinformationen",
+            "link": "https://www.dw.com/de/ukraine-krieg-usa-liefern-laut-selenskyj-wieder-geheimdienstinformationen/a-79695673?maca=de-rss-de-all-1119-rdf"
           }
         ]
       }
@@ -71,63 +105,7 @@
       "image": "https://images.tagesschau.de/image/b0eecf9d-4d77-4dc1-b26a-1d5e29a67450/AAABoViD2LA/AAABnSSvrFg/16x9-big/supermarkt-usa-108.jpg?width=1920",
       "published": "2026-10-20T15:07:51+02:00",
       "category": "Politik",
-      "score": 86.53
-    },
-    {
-      "id": "deutschlandfunk-1f8c6ba42f4c1566",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg - Trump zu Dreiertreffen mit Putin und Xi bereit",
-      "link": "https://www.deutschlandfunk.de/trump-zu-dreiertreffen-mit-putin-und-xi-bereit-106.html",
-      "summary": "US-Präsident Trump hat sich offen für ein Gespräch zur Beendigung des",
-      "image": "https://bilder.deutschlandfunk.de/3b/62/5c/ca/3b625cca-e4b2-4c1d-8c68-8014f4b1f406/donald-trump-254-1920x1920.jpg",
-      "published": "2026-10-20T15:27:03+02:00",
-      "category": "Politik",
-      "score": 85.8
-    },
-    {
-      "id": "deutschlandfunk-7e32133aa690c997",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Streit um Wehrpflicht - Israel: 40 ultraorthodoxe Kriegsdienstverweigerer festgenommen",
-      "link": "https://www.deutschlandfunk.de/israel-40-ultraorthodoxe-kriegsdienstverweigerer-festgenommen-100.html",
-      "summary": "In Israel sind rund 40 ultraorthodoxe Juden wegen Wehrdienstverweigerung festgenommen worden.",
-      "image": "https://bilder.deutschlandfunk.de/ee/ce/07/56/eece0756-ea0d-4e3a-b9e8-2e4c4703f908/israel-ultraorthodox-100-1920x1920.jpg",
-      "published": "2026-10-20T15:27:03+02:00",
-      "category": "Politik",
-      "score": 85.8,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Israel: Massenfestnahme ultraorthodoxer Wehrdienstverweigerer verschärft Debatte",
-            "link": "https://www.spiegel.de/ausland/israel-massenfestnahme-ultraorthodoxer-wehrdienstverweigerer-verschaerft-debatte-a-3e017016-867b-4d2a-af9e-b99e78f0dc10#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-f082c41de178ff1b",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg - Selenskyj spricht mit Rubio über Starlink-Drosselung und Abfangraketen",
-      "link": "https://www.deutschlandfunk.de/selenskyj-spricht-mit-rubio-ueber-starlink-drosselung-und-abfangraketen-100.html",
-      "summary": "US-Außenminister Rubio hat mögliche Verzögerungen bei der Lieferung von Abfangraketen an die Ukraine eingeräumt.",
-      "image": "https://bilder.deutschlandfunk.de/77/9f/ab/a0/779faba0-524b-45d7-a827-c384ba860e79/marco-rubio-indien-100-1920x1920.jpg",
-      "published": "2026-10-20T15:27:03+02:00",
-      "category": "Politik",
-      "score": 85.8,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutsche-welle",
-            "title": "Ukraine-Krieg: USA liefern laut Selenskyj wieder Geheimdienstinformationen",
-            "link": "https://www.dw.com/de/ukraine-krieg-usa-liefern-laut-selenskyj-wieder-geheimdienstinformationen/a-79695673?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
+      "score": 85.09
     },
     {
       "id": "handelsblatt-4f49e5c2e42a3cae",
@@ -139,7 +117,44 @@
       "image": "https://images.handelsblatt.com/HQ7DhqQ7fT49/cover/900/506/0/0/0/624/0.5/0.5/president-donald-trump-talks-to-reporters-as-he-walks-on-the-south-lawn-upon-his-arrival-to-the-whit.jpg",
       "published": "2026-10-20T13:26:30+00:00",
       "category": "Politik",
-      "score": 84.79
+      "score": 83.35
+    },
+    {
+      "id": "tagesschau-ea7ae3fc70d79ce6",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Berlin: Grüne und SPD stimmen für Koalitionsgespräche mit Linke",
+      "link": "https://www.tagesschau.de/inland/berlin-wahl-spd-gruene-koalitionsverhandlungen-100.html",
+      "summary": "Die Grünen und die SPD wollen in Berlin mit der Linkspartei Koalitionsverhandlungen aufnehmen. Beide Parteien entschieden sich am Abend für die Gespräche - die Abstimmung bei der Linken steht noch aus.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/367106a4-4c0e-4842-bb0f-420e633097b1/AAABoVW5ZZw/AAABnSSvrFg/16x9-big/gruene-berlin-abstimmung-100.jpg?width=1920",
+      "published": "2026-10-19T21:52:35+02:00",
+      "category": "Nachrichten",
+      "score": 78.47,
+      "coverage": {
+        "sourceCount": 5,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Rot-Grün-Rot in Berlin - Wohnungskonzern Vonovia: Vergesellschaftung in geplanter Form verfassungswidrig",
+            "link": "https://www.deutschlandfunk.de/wohnungskonzern-vonovia-vergesellschaftung-in-geplanter-form-verfassungswidrig-102.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Berliner Regierungsbildung: Merz warnt Berlin vor Vergesellschaftung von Wohnraum",
+            "link": "https://www.handelsblatt.com/politik/deutschland/berliner-regierungsbildung-merz-warnt-berlin-vor-vergesellschaftung-von-wohnraum/100263664.html"
+          },
+          {
+            "source": "deutsche-welle",
+            "title": "Rot-Grün-Rot in Berlin nimmt Konturen an  - trotz heftiger Kritik der Konservativen an den Plänen, rund 160.000 Wohnungen zu \"vergesellschaften\"",
+            "link": "https://www.dw.com/de/rot-grün-rot-in-berlin-nimmt-konturen-an-trotz-heftiger-kritik-der-konservativen-an-den-plänen-rund-160-000-wohnungen-zu-vergesellschaften/a-79710431?maca=de-rss-de-all-1119-rdf"
+          },
+          {
+            "source": "netzpolitik",
+            "title": "Linke, Grüne und SPD: Was außer Vergesellschaftung im Berliner Sondierungspapier steht",
+            "link": "https://netzpolitik.org/2026/linke-gruene-und-spd-was-ausser-vergesellschaftung-im-berliner-sondierungspapier-steht/"
+          }
+        ]
+      }
     },
     {
       "id": "deutschlandfunk-35af3030242b65d2",
@@ -149,21 +164,45 @@
       "link": "https://www.deutschlandfunk.de/tote-und-verletzte-bei-gegenseitigen-angriffen-102.html",
       "summary": "Bei russischen Drohnenangriffen sind in der Ukraine mehrere Menschen getötet worden.",
       "image": "https://bilder.deutschlandfunk.de/80/92/ee/9f/8092ee9f-e0f9-4b73-b63a-03ddf20f0848/ukraine-russland-krieg-angriff-raketen-drohnen-kiew-126-1920x1920.jpg",
-      "published": "2026-10-20T15:27:03+02:00",
+      "published": "2026-10-20T17:17:23+02:00",
       "category": "Politik",
-      "score": 77.8
+      "score": 77.89
     },
     {
-      "id": "tagesschau-f8303cd2fe1b4be1",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Marktbericht: Ölpreis springt auf Fünf-Monats-Hoch",
-      "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktbericht-oelpreis-100.html",
-      "summary": "Neue Angriffe im Persischen Golf machen Öl wieder so teuer wie im Mai. Das schürt die Sorge vor einem neuen Inflationsschub. Die einzige Hoffnung bleibt derzeit eine Annäherung der Kriegsparteien.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/5c323536-e016-4959-9a0d-3961e156c21e/AAABoVjzTzU/AAABnSSvrFg/16x9-big/oeltanker-140.jpg?width=1920",
-      "published": "2026-10-20T14:15:27+02:00",
-      "category": "Wirtschaft",
-      "score": 77.8
+      "id": "deutschlandfunk-7e32133aa690c997",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Streit um Wehrpflicht - Israel: 40 ultraorthodoxe Kriegsdienstverweigerer festgenommen",
+      "link": "https://www.deutschlandfunk.de/israel-40-ultraorthodoxe-kriegsdienstverweigerer-festgenommen-100.html",
+      "summary": "In Israel sind rund 40 ultraorthodoxe Juden wegen Wehrdienstverweigerung festgenommen worden.",
+      "image": "https://bilder.deutschlandfunk.de/ee/ce/07/56/eece0756-ea0d-4e3a-b9e8-2e4c4703f908/israel-ultraorthodox-100-1920x1920.jpg",
+      "published": "2026-10-20T17:17:23+02:00",
+      "category": "Politik",
+      "score": 77.89
+    },
+    {
+      "id": "spiegel-93d3c434fbffec8d",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Ukraine-Krieg: Drohne rettet erstmals verletzten Soldaten von der Front",
+      "link": "https://www.spiegel.de/ausland/ukraine-krieg-drohne-rettet-erstmals-verletzten-soldaten-von-der-front-a-49ed8d13-0bf5-4188-8052-d60d11feee5b#ref=rss",
+      "summary": "Im Ukrainekrieg hat erstmals eine Drohne einen verletzten Soldaten von der Front abtransportieren können. Die ukrainischen Streitkräfte feiern das mit einem Imagefilm auf Telegram.",
+      "image": "https://cdn.prod.www.spiegel.de/images/9ec8d369-da50-4b39-b5f5-b0fb5f04708c_w1080_r1.778_fpx49_fpy52.png",
+      "published": "2026-10-20T16:49:00+02:00",
+      "category": "Politik",
+      "score": 77.5
+    },
+    {
+      "id": "handelsblatt-778302ec0db39850",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Militär: Der Ukraine-Krieg verlagert sich in den Weltraum",
+      "link": "https://www.handelsblatt.com/politik/international/militaer-der-ukraine-krieg-verlagert-sich-in-den-weltraum/100263430.html",
+      "summary": "Ein russischer Satellit hat in einem außergewöhnlichen Manöver einen europäischen Satelliten verfolgt. Das weckt die Sorge vor weiteren militärischen Auseinandersetzungen – im Weltall.",
+      "image": "https://images.handelsblatt.com/P8D2xwJ9r6nj/cover/900/506/0/0/525/525/0.5/0.5/illustration-of-competing-satellites-in-orbit-around-the-earth-publicationxinxgerxsuixautxonly-copyr.jpg",
+      "published": "2026-10-20T15:04:47+00:00",
+      "category": "Politik",
+      "score": 76.72
     },
     {
       "id": "handelsblatt-370404d304b61110",
@@ -175,7 +214,7 @@
       "image": "https://images.handelsblatt.com/OyLFzIQBSxgB/cover/900/506/0/0/106/107/0.5/0.5/ukrainischer-praesident-selenskyj.jpeg",
       "published": "2026-10-20T12:49:01+00:00",
       "category": "Politik",
-      "score": 76.27
+      "score": 74.83
     },
     {
       "id": "handelsblatt-0f524937b2b8a6ff",
@@ -187,55 +226,31 @@
       "image": "https://images.handelsblatt.com/2nGIH-cIIOWy/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
       "published": "2026-10-20T12:01:08+00:00",
       "category": "Politik",
-      "score": 75.6
+      "score": 74.17
     },
     {
-      "id": "spiegel-5a89624b22323c90",
+      "id": "spiegel-7ea756a2b7a77a79",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Martin Suter: Bestsellerautor hat keine Angst vor KI-Literatur",
-      "link": "https://www.spiegel.de/kultur/literatur/martin-suter-bestsellerautor-hat-keine-angst-vor-ki-literatur-a-194b477f-fdb5-4913-96da-ef0b54cc815d#ref=rss",
+      "title": "Verfolgungsjagd im All: Russische Attacke auf finnischen Satelliten",
+      "link": "https://www.spiegel.de/wissenschaft/weltall/verfolgungsjagd-im-all-erst-drohte-russland-mit-angriffen-auf-satelliten-jetzt-kommt-ein-jaeger-extrem-nah-a-adf7b19b-5175-4819-9143-b72c29b3d7b0#ref=rss",
+      "summary": "Ein russischer Satellit ist bis auf 200 Meter an einen Radarsatelliten herangeflogen, den womöglich auch die Ukraine nutzt. Ein Angriff oder nur Einschüchterung? Experten erkennen eine neue Eskalationsstufe im All.",
+      "image": "https://cdn.prod.www.spiegel.de/images/6e3a1801-d001-4855-856f-74a7e876a01d_w1200_r1.778_fpx41_fpy52.jpg",
+      "published": "2026-10-20T15:42:00+02:00",
+      "category": "Politik",
+      "score": 68.57
+    },
+    {
+      "id": "spiegel-0ab2d97085050e02",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Martin Suter: Schweizer Bestsellerautor hat keine Angst vor KI-Literatur",
+      "link": "https://www.spiegel.de/kultur/literatur/martin-suter-schweizer-bestsellerautor-hat-keine-angst-vor-ki-literatur-a-194b477f-fdb5-4913-96da-ef0b54cc815d#ref=rss",
       "summary": "KI sei Wissen, nicht Intelligenz, sagt der Schweizer Autor Martin Suter. Gefühle zu haben, sei der Trumpf im Ärmel der Autorinnen und Autoren. Der 78-Jährige zeigt sich trotz der schnellen Entwicklung nicht beunruhigt.",
       "image": "https://cdn.prod.www.spiegel.de/images/09750d29-c80b-477a-8c77-b08fe15228ac_w1200_r1.778_fpx39.25_fpy50.99.jpg",
       "published": "2026-10-20T12:54:00+02:00",
       "category": "Politik",
-      "score": 67.67
-    },
-    {
-      "id": "spiegel-1a23c719750ffa94",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Immobilienkredite: Zinsen auf höchstem Stand seit 2009 - drastischer Anstieg",
-      "link": "https://www.spiegel.de/wirtschaft/service/immobilienkredite-zinsen-auf-hoechstem-stand-seit-2009-drastischer-anstieg-a-d4f3dcdd-475b-43f2-803f-42b5ecb5066b#ref=rss",
-      "summary": "Die Bauzinsen sind laut dem Vergleichsportal Interhyp auf den höchsten Stand seit der Finanzkrise geklettert. Das trifft nicht nur Eigenheimkäufer, sondern auch die Bauindustrie.",
-      "image": "https://cdn.prod.www.spiegel.de/images/a59e2151-aba2-4d72-a93f-fff5bb80f286_w1200_r1.778_fpx38.65_fpy49.99.jpg",
-      "published": "2026-10-20T11:41:00+02:00",
-      "category": "Nachrichten",
-      "score": 63.66
-    },
-    {
-      "id": "deutsche-welle-5562382416ae6466",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Chef des weltweit größten Chipherstellers Nvidia wirbt in Deutschland für KI - News kompakt: Das Wichtigste kurz gefasst",
-      "link": "https://www.dw.com/de/chef-des-weltweit-größten-chipherstellers-nvidia-wirbt-in-deutschland-für-ki-news-kompakt-das-wichtigste-kurz-gefasst/a-79708505?maca=de-rss-de-all-1119-rdf",
-      "summary": "Deutschland will führend in der industriellen KI werden. VW plant, Löhne und Gehälter bis 2030 einzufrieren. Der Streit zwischen Trump und Selenskyj wird heftiger. Der DW-Nachrichtenüberblick",
-      "image": "https://static.dw.com/image/79707941_6.jpg",
-      "published": "2026-10-20T07:00:00+00:00",
-      "category": "Politik",
-      "score": 63.42
-    },
-    {
-      "id": "deutsche-welle-5ceed95ea03eb17d",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Iran: Warum die Gewalt in Belutschistan zunimmt",
-      "link": "https://www.dw.com/de/iran-warum-die-gewalt-in-belutschistan-zunimmt/a-79709849?maca=de-rss-de-all-1119-rdf",
-      "summary": "An der Grenze zu Afghanistan und Pakistan gelegen nehmen in Belutschistan die bewaffneten Auseinandersetzungen zu. Der Iran-Krieg könnte die Handlungsspielräume bewaffneter Gruppen verändern.",
-      "image": "https://static.dw.com/image/68997556_6.jpg",
-      "published": "2026-10-20T10:12:00+00:00",
-      "category": "Technologie",
-      "score": 63.09
+      "score": 66.23
     }
   ]
 }
