@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T19:41:18.668397+00:00",
+  "generatedAt": "2026-10-20T22:26:14.550711+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/bc9528d4-491b-4d3e-b080-7aa2225a223e_w1200_r1.778_fpx65.32_fpy50.jpg",
       "published": "2026-10-20T21:22:00+02:00",
       "category": "Politik",
-      "score": 101.73,
+      "score": 99.44,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -25,23 +25,45 @@
       }
     },
     {
-      "id": "tagesschau-11bc1125dcad5530",
+      "id": "spiegel-0d2ed130c6ce3e5c",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Ukrainekrieg: US-Gesandter Steve Witkoff reist für Gespräche nach Russland",
+      "link": "https://www.spiegel.de/ausland/ukrainekrieg-us-gesandter-steve-witkoff-reist-fuer-gespraeche-nach-russland-a-270a79eb-fe7e-412e-ba0d-508f9466d1ed#ref=rss",
+      "summary": "In das diplomatische Ringen um Frieden in der Ukraine kommt offenbar Bewegung: Trumps Unterhändler Witkoff reist mit Vorschlägen nach Sankt Petersburg. Der US-Präsident drängt Selenskyj derweil erneut zu einem Abkommen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/8ad124a8-fff9-4eeb-827d-20fa13d24262_w1200_r1.778_fpx46.67_fpy50.jpg",
+      "published": "2026-10-20T21:40:00+02:00",
+      "category": "Politik",
+      "score": 91.69,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Ukraine-Krieg: Neue Hoffnung für Kiew? US-Unterhändler reist nach Russland",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-neue-hoffnung-fuer-kiew-us-unterhaendler-reist-nach-russland/100263479.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-5902dd3f93ea83ab",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Selenskyj trifft sich mit US-Gesandtem Witkoff zu Gesprächen in Oslo",
-      "link": "https://www.tagesschau.de/ausland/europa/ukraine-treffen-witkoff-100.html",
-      "summary": "In Oslo kommt der ukrainische Präsident Selenskyj mit dem US-Gesandten Witkoff zu Gesprächen zusammen. Zuletzt hatten sich die Beziehungen zwischen den USA der Ukraine wegen Trumps Umgang mit Russland wieder verschlechtert. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/d9b552bc-b4c0-40c6-b558-c1e990a5dae1/AAABoVii2gE/AAABnSSvrFg/16x9-big/selenskyj-1238.jpg?width=1920",
-      "published": "2026-10-20T12:50:05+02:00",
+      "title": "Selenskyj fordert Teilnahme an Putin-Xi-Trump-Treffen",
+      "link": "https://www.tagesschau.de/ausland/europa/selenskyj-witkoff-norwegen-100.html",
+      "summary": "Trump hatte Interesse an einem Gespräch mit den Präsidenten Russlands und Chinas über die Ukraine gezeigt. Nach einem Treffen mit europäischen Partnern sowie dem US-Sondergesandten Witkoff in Oslo forderte Präsident Selenskyj nun eine Beteiligung Kiews.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/a50666ee-685e-4f98-a7fb-ba98d1b22a34/AAABoVrm2G4/AAABnSSvrFg/16x9-big/wolodymyr-selenskyj-276.jpg?width=1920",
+      "published": "2026-10-20T22:01:00+02:00",
       "category": "Politik",
-      "score": 91.61,
+      "score": 91.0,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "Ukraine-Krieg - Selenskyj trifft US-Gesandten Witkoff in Oslo - Teilnahme an möglichem Treffen mit Trump, Putin und Xi gefordert",
-            "link": "https://www.deutschlandfunk.de/selenskyj-trifft-us-gesandten-witkoff-in-oslo-teilnahme-an-moeglichem-treffen-mit-trump-putin-und-xi-100.html"
+            "link": "https://www.deutschlandfunk.de/selenskyj-trifft-us-gesandten-witkoff-in-oslo-teilnahme-an-moeglichem-treffen-mit-trump-putin-und-xi-102.html"
           },
           {
             "source": "deutsche-welle",
@@ -50,18 +72,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "handelsblatt-4a347f144398c5c0",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Ukraine-Krieg: Neue Hoffnung für Kiew? US-Unterhändler reist nach Russland",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-neue-hoffnung-fuer-kiew-us-unterhaendler-reist-nach-russland/100263479.html",
-      "summary": "Die Ukraine und die USA reden wieder miteinander, auch wenn Trump vorab Kiew den Willen zum Frieden abspricht. Nach einem Treffen mit Selenskyj in Oslo reist US-Unterhändler Witkoff nach Russland.",
-      "image": "https://images.handelsblatt.com/hIokb2hBvPDg/cover/900/506/0/0/107/106/0.5/0.5/ukraine-krieg-selenskyj-zu-gespraechen-in-oslo.jpg",
-      "published": "2026-10-20T19:25:03+00:00",
-      "category": "Politik",
-      "score": 84.77
     },
     {
       "id": "tagesschau-b0f4bd0340090297",
@@ -73,14 +83,14 @@
       "image": "https://images.tagesschau.de/image/8e2226d1-a744-4eec-957e-5f6474f08741/AAABoVl-pPY/AAABnSSvrFg/16x9-big/rbb-archivbild-vanessa-emde-die-linke-kommt-im-berliner-abgeordnetenhaus-zu-einer-fraktionssitzung-ihrer-partei-100.jpg?width=1920",
       "published": "2026-10-20T15:27:29+02:00",
       "category": "Politik",
-      "score": 83.61,
+      "score": 83.0,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "Verhandlungen über Dreier-Bündnis - Berliner Linksfraktion vertagt Entscheidung zur umstrittenen Abgeordneten Emde",
-            "link": "https://www.deutschlandfunk.de/berliner-linksfraktion-vertagt-entscheidung-zur-umstrittenen-abgeordneten-emde-100.html"
+            "link": "https://www.deutschlandfunk.de/berliner-linksfraktion-vertagt-entscheidung-zur-umstrittenen-abgeordneten-emde-104.html"
           },
           {
             "source": "handelsblatt",
@@ -100,90 +110,19 @@
       "image": "https://images.tagesschau.de/image/b0eecf9d-4d77-4dc1-b26a-1d5e29a67450/AAABoViD2LA/AAABnSSvrFg/16x9-big/supermarkt-usa-108.jpg?width=1920",
       "published": "2026-10-20T15:07:51+02:00",
       "category": "Politik",
-      "score": 81.54
+      "score": 79.24
     },
     {
-      "id": "tagesschau-ea7ae3fc70d79ce6",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Berlin: Grüne und SPD stimmen für Koalitionsgespräche mit Linke",
-      "link": "https://www.tagesschau.de/inland/berlin-wahl-spd-gruene-koalitionsverhandlungen-100.html",
-      "summary": "Die Grünen und die SPD wollen in Berlin mit der Linkspartei Koalitionsverhandlungen aufnehmen. Beide Parteien entschieden sich am Abend für die Gespräche - die Abstimmung bei der Linken steht noch aus.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/367106a4-4c0e-4842-bb0f-420e633097b1/AAABoVW5ZZw/AAABnSSvrFg/16x9-big/gruene-berlin-abstimmung-100.jpg?width=1920",
-      "published": "2026-10-19T21:52:35+02:00",
-      "category": "Nachrichten",
-      "score": 78.51,
-      "coverage": {
-        "sourceCount": 5,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Parteigremien - Grüne und SPD für Koalitionsverhandlungen mit Linkspartei in Berlin",
-            "link": "https://www.deutschlandfunk.de/gruene-und-spd-fuer-koalitionsverhandlungen-mit-linkspartei-in-berlin-100.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Berliner Regierungsbildung: Merz warnt Berlin vor Vergesellschaftung von Wohnraum",
-            "link": "https://www.handelsblatt.com/politik/deutschland/berliner-regierungsbildung-merz-warnt-berlin-vor-vergesellschaftung-von-wohnraum/100263664.html"
-          },
-          {
-            "source": "deutsche-welle",
-            "title": "Rot-Grün-Rot in Berlin nimmt Konturen an - trotz heftiger Kritik",
-            "link": "https://www.dw.com/de/rot-grün-rot-in-berlin-nimmt-konturen-an-trotz-heftiger-kritik/a-79710431?maca=de-rss-de-all-1119-rdf"
-          },
-          {
-            "source": "netzpolitik",
-            "title": "Linke, Grüne und SPD: Was außer Vergesellschaftung im Berliner Sondierungspapier steht",
-            "link": "https://netzpolitik.org/2026/linke-gruene-und-spd-was-ausser-vergesellschaftung-im-berliner-sondierungspapier-steht/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-35af3030242b65d2",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg - Tote und Verletzte bei gegenseitigen Angriffen",
-      "link": "https://www.deutschlandfunk.de/tote-und-verletzte-bei-gegenseitigen-angriffen-102.html",
-      "summary": "Bei russischen Drohnenangriffen sind in der Ukraine mehrere Menschen getötet worden.",
-      "image": "https://bilder.deutschlandfunk.de/80/92/ee/9f/8092ee9f-e0f9-4b73-b63a-03ddf20f0848/ukraine-russland-krieg-angriff-raketen-drohnen-kiew-126-1920x1920.jpg",
-      "published": "2026-10-20T21:36:37+02:00",
+      "id": "handelsblatt-4f49e5c2e42a3cae",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Ukraine-Krieg: Trump lobt Russland und blockiert EU-Hilfe für Kiew",
+      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-trump-lobt-russland-und-blockiert-eu-hilfe-fuer-kiew/100263442.html",
+      "summary": "Der US-Präsident bezieht im Ukrainekrieg inzwischen offen Partei für Russland. Selenskyj setzt zunehmend auf andere Gesprächspartner in Washington.",
+      "image": "https://images.handelsblatt.com/HQ7DhqQ7fT49/cover/900/506/0/0/0/624/0.5/0.5/president-donald-trump-talks-to-reporters-as-he-walks-on-the-south-lawn-upon-his-arrival-to-the-whit.jpg",
+      "published": "2026-10-20T13:26:30+00:00",
       "category": "Politik",
-      "score": 77.93
-    },
-    {
-      "id": "deutschlandfunk-7e32133aa690c997",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Streit um Wehrpflicht - Israel: 40 ultraorthodoxe Kriegsdienstverweigerer festgenommen",
-      "link": "https://www.deutschlandfunk.de/israel-40-ultraorthodoxe-kriegsdienstverweigerer-festgenommen-100.html",
-      "summary": "In Israel sind rund 40 ultraorthodoxe Juden wegen Wehrdienstverweigerung festgenommen worden.",
-      "image": "https://bilder.deutschlandfunk.de/ee/ce/07/56/eece0756-ea0d-4e3a-b9e8-2e4c4703f908/israel-ultraorthodox-100-1920x1920.jpg",
-      "published": "2026-10-20T21:36:37+02:00",
-      "category": "Politik",
-      "score": 77.93
-    },
-    {
-      "id": "deutschlandfunk-d4e19d8f0575a5a6",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Nach Landtagswahl - Mecklenburg-Vorpommern: Bisherige Landtagspräsidentin Hesse (SPD) wiedergewählt",
-      "link": "https://www.deutschlandfunk.de/mecklenburg-vorpommern-bisherige-landtagspraesidentin-hesse-spd-wiedergewaehlt-100.html",
-      "summary": "Einen Monat nach der Landtagswahl in Mecklenburg-Vorpommern ist dort das neue Parlament zu seiner konstituierenden Sitzung zusammengekommen. Im Schweriner Schloss wurde die SPD-Politikerin und bisherige Landtagspräsidentin Hesse erneut ins Amt gewählt.",
-      "image": "https://bilder.deutschlandfunk.de/3a/83/b4/f0/3a83b4f0-4e1b-49a2-8638-eab5c5959cad/mecklenburg-vorpommern-birgit-hesse-spd-landtagspraesidentin-wiederwahl-100-1920x1920.jpg",
-      "published": "2026-10-20T21:36:37+02:00",
-      "category": "Politik",
-      "score": 77.93,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Mecklenburg-Vorpommern: Birgit Hesse als Landtagspräsidentin wiedergewählt",
-            "link": "https://www.spiegel.de/politik/deutschland/mecklenburg-vorpommern-birgit-hesse-als-landtagspraesidentin-wiedergewaehlt-a-224faf7a-1d32-4f2f-ac22-1620cb5bc31b#ref=rss"
-          }
-        ]
-      }
+      "score": 77.5
     },
     {
       "id": "spiegel-e1fcb9daf83751c4",
@@ -195,7 +134,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/4cec740b-ff52-45c6-8d8a-307b9c98eef0_w1200_r1.778_fpx45.31_fpy49.99.jpg",
       "published": "2026-10-20T20:23:00+02:00",
       "category": "Politik",
-      "score": 76.91
+      "score": 74.62
     },
     {
       "id": "handelsblatt-aa458502e106ab3f",
@@ -207,7 +146,7 @@
       "image": "https://images.handelsblatt.com/bJuWMH6gXRJp/cover/900/506/0/0/0/0/0.5/0.5/trump.jpg",
       "published": "2026-10-20T18:03:55+00:00",
       "category": "Politik",
-      "score": 75.65
+      "score": 73.36
     },
     {
       "id": "handelsblatt-12ba336dc7cc5265",
@@ -219,7 +158,7 @@
       "image": "https://images.handelsblatt.com/l1AOP1AyJqqC/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
       "published": "2026-10-20T16:19:55+00:00",
       "category": "Politik",
-      "score": 74.2
+      "score": 71.91
     },
     {
       "id": "spiegel-93d3c434fbffec8d",
@@ -231,7 +170,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/9ec8d369-da50-4b39-b5f5-b0fb5f04708c_w1080_r1.778_fpx49_fpy52.png",
       "published": "2026-10-20T16:49:00+02:00",
       "category": "Politik",
-      "score": 73.94
+      "score": 71.65
+    },
+    {
+      "id": "handelsblatt-778302ec0db39850",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Militär: Der Ukraine-Krieg verlagert sich in den Weltraum",
+      "link": "https://www.handelsblatt.com/politik/international/militaer-der-ukraine-krieg-verlagert-sich-in-den-weltraum/100263430.html",
+      "summary": "Ein russischer Satellit hat in einem außergewöhnlichen Manöver einen europäischen Satelliten verfolgt. Das weckt die Sorge vor weiteren militärischen Auseinandersetzungen – im Weltall.",
+      "image": "https://images.handelsblatt.com/P8D2xwJ9r6nj/cover/900/506/0/0/525/525/0.5/0.5/illustration-of-competing-satellites-in-orbit-around-the-earth-publicationxinxgerxsuixautxonly-copyr.jpg",
+      "published": "2026-10-20T15:04:47+00:00",
+      "category": "Politik",
+      "score": 70.87
     },
     {
       "id": "deutsche-welle-e04f5170b8d900e0",
@@ -243,7 +194,7 @@
       "image": "https://static.dw.com/image/79707941_6.jpg",
       "published": "2026-10-20T07:00:00+00:00",
       "category": "Politik",
-      "score": 72.34,
+      "score": 70.05,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -256,23 +207,47 @@
       }
     },
     {
-      "id": "heise-452160e4bdd8fd4b",
-      "source": "heise",
-      "sourceWeight": 0.9,
-      "title": "Revolut: Banking und Support nicht erreichbar",
-      "link": "https://www.heise.de/news/Revolut-Banking-und-Support-nicht-erreichbar-11493640.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "summary": "Die Neobank Revolut meldet Ausfälle: Weder Banking noch der Support sind erreichbar.",
-      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/8/5/6/1/2/hp-73b8e5e1c694f6d6.jpeg",
-      "published": "2026-10-20T10:35:00+02:00",
-      "category": "Technologie",
-      "score": 60.59,
+      "id": "deutschlandfunk-6a0a5667cebd2f6f",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Regierungskrise beendet - Parteiloser Diplomat wird neuer Regierungschef von Rumänien",
+      "link": "https://www.deutschlandfunk.de/parteiloser-diplomat-wird-neuer-regierungschef-von-rumaenien-104.html",
+      "summary": "In Rumänien ist der parteilose Diplomat Luca Niculescu zum neuen Ministerpräsidenten gewählt worden.",
+      "image": "https://bilder.deutschlandfunk.de/48/96/95/3e/4896953e-7854-4486-8e08-e17f16058c95/rumaenien-wahl-ministerpraesident-luca-niculescu-parlament-100-1920x1920.jpg",
+      "published": "2026-10-20T23:37:14+02:00",
+      "category": "Politik",
+      "score": 69.32
+    },
+    {
+      "id": "deutschlandfunk-c2707dcdae052623",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Nach Landtagswahl - Mecklenburg-Vorpommern: Bisherige Landtagspräsidentin Hesse (SPD) wiedergewählt",
+      "link": "https://www.deutschlandfunk.de/mecklenburg-vorpommern-bisherige-landtagspraesidentin-hesse-spd-wiedergewaehlt-110.html",
+      "summary": "Einen Monat nach der Landtagswahl in Mecklenburg-Vorpommern ist dort das neue Parlament zu seiner konstituierenden Sitzung zusammengekommen. Im Schweriner Schloss wurde die SPD-Politikerin und bisherige Landtagspräsidentin Hesse erneut ins Amt gewählt.",
+      "image": "https://bilder.deutschlandfunk.de/3a/83/b4/f0/3a83b4f0-4e1b-49a2-8638-eab5c5959cad/mecklenburg-vorpommern-birgit-hesse-spd-landtagspraesidentin-wiederwahl-100-1920x1920.jpg",
+      "published": "2026-10-20T23:37:14+02:00",
+      "category": "Politik",
+      "score": 69.32
+    },
+    {
+      "id": "deutschlandfunk-07a696c9dc9f2b99",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Betriebsstart verschoben - Brennerbasistunnel wird um mehr als eine Milliarde teurer",
+      "link": "https://www.deutschlandfunk.de/brennerbasistunnel-wird-um-mehr-als-eine-milliarde-teurer-104.html",
+      "summary": "Der Brennerbasistunnel zwischen Österreich und Italien soll zwei Jahre später in Betrieb gehen und mehr als eine Milliarde Euro mehr kosten als geplant.",
+      "image": "https://bilder.deutschlandfunk.de/40/ec/03/71/40ec0371-d9ca-43e2-a01b-b1d1b53b6823/brenner-basistunnel-tirol-100-1920x1920.jpg",
+      "published": "2026-10-20T23:37:14+02:00",
+      "category": "Nachrichten",
+      "score": 66.32,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "golem",
-            "title": "Wegen Google Cloud: Onlinebank Revolut meldet mehrere Ausfälle",
-            "link": "https://www.golem.de/news/onlinebank-revolut-meldet-probleme-wegen-ausfall-von-google-cloud-2610-214308.html"
+            "source": "handelsblatt",
+            "title": "Start 2034 statt 2032: Brennerbasistunnel wird um mehr als eine Milliarde teurer",
+            "link": "https://www.handelsblatt.com/politik/deutschland/start-2034-statt-2032-brennerbasistunnel-wird-um-mehr-als-eine-milliarde-teurer/100263686.html"
           }
         ]
       }
