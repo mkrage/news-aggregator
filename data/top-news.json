@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T15:25:09.608971+00:00",
+  "generatedAt": "2026-10-20T18:33:24.954290+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,10 +12,15 @@
       "image": "https://images.tagesschau.de/image/d9b552bc-b4c0-40c6-b558-c1e990a5dae1/AAABoVii2gE/AAABnSSvrFg/16x9-big/selenskyj-1238.jpg?width=1920",
       "published": "2026-10-20T12:50:05+02:00",
       "category": "Politik",
-      "score": 91.45,
+      "score": 94.69,
       "coverage": {
-        "sourceCount": 3,
+        "sourceCount": 4,
         "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Ukraine-Krieg - Selenskyj trifft US-Gesandten Witkoff in Oslo - Teilnahme an möglichem Treffen mit Trump, Putin und Xi gefordert",
+            "link": "https://www.deutschlandfunk.de/selenskyj-trifft-us-gesandten-witkoff-in-oslo-teilnahme-an-moeglichem-treffen-mit-trump-putin-und-xi-100.html"
+          },
           {
             "source": "handelsblatt",
             "title": "Ukraine-Krieg: Neuer Ort, neue Hoffnung? Selenskyj trifft Witkoff in Oslo",
@@ -23,8 +28,30 @@
           },
           {
             "source": "deutsche-welle",
-            "title": "\"An der Zeit\": Trump will Selenskyj als Präsidenten der Ukraine weghaben",
-            "link": "https://www.dw.com/de/an-der-zeit-trump-will-selenskyj-als-präsidenten-der-ukraine-weghaben/a-79710646?maca=de-rss-de-all-1119-rdf"
+            "title": "Trump will Selenskyj als Präsidenten der Ukraine weghaben",
+            "link": "https://www.dw.com/de/trump-will-selenskyj-als-präsidenten-der-ukraine-weghaben/a-79710646?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "handelsblatt-4f49e5c2e42a3cae",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Ukraine-Krieg: Trump lobt Russland und blockiert EU-Hilfe für Kiew",
+      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-trump-lobt-russland-und-blockiert-eu-hilfe-fuer-kiew/100263442.html",
+      "summary": "Der US-Präsident bezieht im Ukrainekrieg inzwischen offen Partei für Russland. Selenskyj setzt zunehmend auf andere Gesprächspartner in Washington.",
+      "image": "https://images.handelsblatt.com/HQ7DhqQ7fT49/cover/900/506/0/0/0/624/0.5/0.5/president-donald-trump-talks-to-reporters-as-he-walks-on-the-south-lawn-upon-his-arrival-to-the-whit.jpg",
+      "published": "2026-10-20T13:26:30+00:00",
+      "category": "Politik",
+      "score": 88.74,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutsche-welle",
+            "title": "Ukraine-Krieg: USA liefern laut Selenskyj wieder Geheimdienstinformationen",
+            "link": "https://www.dw.com/de/ukraine-krieg-usa-liefern-laut-selenskyj-wieder-geheimdienstinformationen/a-79695673?maca=de-rss-de-all-1119-rdf"
           }
         ]
       }
@@ -39,9 +66,9 @@
       "image": "https://images.tagesschau.de/image/8e2226d1-a744-4eec-957e-5f6474f08741/AAABoVl-pPY/AAABnSSvrFg/16x9-big/rbb-archivbild-vanessa-emde-die-linke-kommt-im-berliner-abgeordnetenhaus-zu-einer-fraktionssitzung-ihrer-partei-100.jpg?width=1920",
       "published": "2026-10-20T15:27:29+02:00",
       "category": "Politik",
-      "score": 86.89,
+      "score": 83.37,
       "coverage": {
-        "sourceCount": 4,
+        "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
@@ -49,48 +76,9 @@
             "link": "https://www.deutschlandfunk.de/berliner-linksfraktion-vertagt-entscheidung-zur-umstrittenen-abgeordneten-emde-100.html"
           },
           {
-            "source": "spiegel",
-            "title": "Die Linke Berlin: Vanessa Emde meldet sich krank – Fraktionsvorstand vertagt Aussprache",
-            "link": "https://www.spiegel.de/politik/die-linke-berlin-vanessa-emde-meldet-sich-krank-fraktionsvorstand-vertagt-aussprache-a-d9425403-82d7-4ee3-9a2e-663947ec9cb4#ref=rss"
-          },
-          {
             "source": "handelsblatt",
             "title": "Israel-Kritik: Berliner Linke kann Konflikt um Abgeordnete nicht lösen",
             "link": "https://www.handelsblatt.com/politik/deutschland/israel-kritik-berliner-linke-kann-konflikt-um-abgeordnete-nicht-loesen/100263651.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-1f8c6ba42f4c1566",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg - Trump zu Dreiertreffen mit Putin und Xi bereit",
-      "link": "https://www.deutschlandfunk.de/trump-zu-dreiertreffen-mit-putin-und-xi-bereit-106.html",
-      "summary": "US-Präsident Trump hat sich offen für ein Gespräch zur Beendigung des",
-      "image": "https://bilder.deutschlandfunk.de/3b/62/5c/ca/3b625cca-e4b2-4c1d-8c68-8014f4b1f406/donald-trump-254-1920x1920.jpg",
-      "published": "2026-10-20T17:17:23+02:00",
-      "category": "Politik",
-      "score": 85.89
-    },
-    {
-      "id": "deutschlandfunk-f082c41de178ff1b",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg - Selenskyj spricht mit Rubio über Starlink-Drosselung und Abfangraketen",
-      "link": "https://www.deutschlandfunk.de/selenskyj-spricht-mit-rubio-ueber-starlink-drosselung-und-abfangraketen-100.html",
-      "summary": "US-Außenminister Rubio hat mögliche Verzögerungen bei der Lieferung von Abfangraketen an die Ukraine eingeräumt.",
-      "image": "https://bilder.deutschlandfunk.de/f4/e6/57/20/f4e65720-227c-4eb2-8830-1434cbeee38c/usa-aussenminister-rubio-indien-besuch-100-1920x1920.jpg",
-      "published": "2026-10-20T17:17:23+02:00",
-      "category": "Politik",
-      "score": 85.89,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutsche-welle",
-            "title": "Ukraine-Krieg: USA liefern laut Selenskyj wieder Geheimdienstinformationen",
-            "link": "https://www.dw.com/de/ukraine-krieg-usa-liefern-laut-selenskyj-wieder-geheimdienstinformationen/a-79695673?maca=de-rss-de-all-1119-rdf"
           }
         ]
       }
@@ -105,19 +93,7 @@
       "image": "https://images.tagesschau.de/image/b0eecf9d-4d77-4dc1-b26a-1d5e29a67450/AAABoViD2LA/AAABnSSvrFg/16x9-big/supermarkt-usa-108.jpg?width=1920",
       "published": "2026-10-20T15:07:51+02:00",
       "category": "Politik",
-      "score": 85.09
-    },
-    {
-      "id": "handelsblatt-4f49e5c2e42a3cae",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Ukraine-Krieg: Trump lobt Russland und blockiert EU-Hilfe für Kiew",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-trump-lobt-russland-und-blockiert-eu-hilfe-fuer-kiew/100263442.html",
-      "summary": "Der US-Präsident bezieht im Ukrainekrieg inzwischen offen Partei für Russland. Selenskyj setzt zunehmend auf andere Gesprächspartner in Washington.",
-      "image": "https://images.handelsblatt.com/HQ7DhqQ7fT49/cover/900/506/0/0/0/624/0.5/0.5/president-donald-trump-talks-to-reporters-as-he-walks-on-the-south-lawn-upon-his-arrival-to-the-whit.jpg",
-      "published": "2026-10-20T13:26:30+00:00",
-      "category": "Politik",
-      "score": 83.35
+      "score": 82.48
     },
     {
       "id": "tagesschau-ea7ae3fc70d79ce6",
@@ -129,14 +105,14 @@
       "image": "https://images.tagesschau.de/image/367106a4-4c0e-4842-bb0f-420e633097b1/AAABoVW5ZZw/AAABnSSvrFg/16x9-big/gruene-berlin-abstimmung-100.jpg?width=1920",
       "published": "2026-10-19T21:52:35+02:00",
       "category": "Nachrichten",
-      "score": 78.47,
+      "score": 78.27,
       "coverage": {
         "sourceCount": 5,
         "others": [
           {
             "source": "deutschlandfunk",
-            "title": "Rot-Grün-Rot in Berlin - Wohnungskonzern Vonovia: Vergesellschaftung in geplanter Form verfassungswidrig",
-            "link": "https://www.deutschlandfunk.de/wohnungskonzern-vonovia-vergesellschaftung-in-geplanter-form-verfassungswidrig-102.html"
+            "title": "Parteigremien - Grüne und SPD für Koalitionsverhandlungen mit Linkspartei in Berlin",
+            "link": "https://www.deutschlandfunk.de/gruene-und-spd-fuer-koalitionsverhandlungen-mit-linkspartei-in-berlin-100.html"
           },
           {
             "source": "handelsblatt",
@@ -145,8 +121,8 @@
           },
           {
             "source": "deutsche-welle",
-            "title": "Rot-Grün-Rot in Berlin nimmt Konturen an  - trotz heftiger Kritik der Konservativen an den Plänen, rund 160.000 Wohnungen zu \"vergesellschaften\"",
-            "link": "https://www.dw.com/de/rot-grün-rot-in-berlin-nimmt-konturen-an-trotz-heftiger-kritik-der-konservativen-an-den-plänen-rund-160-000-wohnungen-zu-vergesellschaften/a-79710431?maca=de-rss-de-all-1119-rdf"
+            "title": "Rot-Grün-Rot in Berlin nimmt Konturen an - trotz heftiger Kritik",
+            "link": "https://www.dw.com/de/rot-grün-rot-in-berlin-nimmt-konturen-an-trotz-heftiger-kritik/a-79710431?maca=de-rss-de-all-1119-rdf"
           },
           {
             "source": "netzpolitik",
@@ -157,6 +133,18 @@
       }
     },
     {
+      "id": "spiegel-e1fcb9daf83751c4",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Bulgarien lehnt Beteiligung an neuer EU-Finanzhilfe für Ukraine ab",
+      "link": "https://www.spiegel.de/ausland/bulgarien-lehnt-beteiligung-an-neuer-eu-finanzhilfe-fuer-ukraine-ab-a-c691ff7a-35a8-4bfe-a930-3e9f40ffc6f6#ref=rss",
+      "summary": "Der Krieg erschöpfe die Volkswirtschaften und führe zu Spannung und Instabilität, so Bulgariens russlandfreundlicher Regierungschef Rumen Radew. An weiteren 70 Milliarden Euro für die Ukraine will er sich nicht beteiligen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/4cec740b-ff52-45c6-8d8a-307b9c98eef0_w1200_r1.778_fpx45.31_fpy49.99.jpg",
+      "published": "2026-10-20T20:23:00+02:00",
+      "category": "Politik",
+      "score": 77.86
+    },
+    {
       "id": "deutschlandfunk-35af3030242b65d2",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
@@ -164,9 +152,9 @@
       "link": "https://www.deutschlandfunk.de/tote-und-verletzte-bei-gegenseitigen-angriffen-102.html",
       "summary": "Bei russischen Drohnenangriffen sind in der Ukraine mehrere Menschen getötet worden.",
       "image": "https://bilder.deutschlandfunk.de/80/92/ee/9f/8092ee9f-e0f9-4b73-b63a-03ddf20f0848/ukraine-russland-krieg-angriff-raketen-drohnen-kiew-126-1920x1920.jpg",
-      "published": "2026-10-20T17:17:23+02:00",
+      "published": "2026-10-20T20:11:07+02:00",
       "category": "Politik",
-      "score": 77.89
+      "score": 77.69
     },
     {
       "id": "deutschlandfunk-7e32133aa690c997",
@@ -176,9 +164,55 @@
       "link": "https://www.deutschlandfunk.de/israel-40-ultraorthodoxe-kriegsdienstverweigerer-festgenommen-100.html",
       "summary": "In Israel sind rund 40 ultraorthodoxe Juden wegen Wehrdienstverweigerung festgenommen worden.",
       "image": "https://bilder.deutschlandfunk.de/ee/ce/07/56/eece0756-ea0d-4e3a-b9e8-2e4c4703f908/israel-ultraorthodox-100-1920x1920.jpg",
-      "published": "2026-10-20T17:17:23+02:00",
+      "published": "2026-10-20T20:11:07+02:00",
       "category": "Politik",
-      "score": 77.89
+      "score": 77.69
+    },
+    {
+      "id": "deutschlandfunk-d4e19d8f0575a5a6",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Nach Landtagswahl - Mecklenburg-Vorpommern: Bisherige Landtagspräsidentin Hesse (SPD) wiedergewählt",
+      "link": "https://www.deutschlandfunk.de/mecklenburg-vorpommern-bisherige-landtagspraesidentin-hesse-spd-wiedergewaehlt-100.html",
+      "summary": "Einen Monat nach der Landtagswahl in Mecklenburg-Vorpommern ist dort das neue Parlament zu seiner konstituierenden Sitzung zusammengekommen. Im Schweriner Schloss wurde die SPD-Politikerin und bisherige Landtagspräsidentin Hesse erneut ins Amt gewählt.",
+      "image": "https://bilder.deutschlandfunk.de/3a/83/b4/f0/3a83b4f0-4e1b-49a2-8638-eab5c5959cad/mecklenburg-vorpommern-birgit-hesse-spd-landtagspraesidentin-wiederwahl-100-1920x1920.jpg",
+      "published": "2026-10-20T20:11:07+02:00",
+      "category": "Politik",
+      "score": 77.69,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Mecklenburg-Vorpommern: Birgit Hesse als Landtagspräsidentin wiedergewählt",
+            "link": "https://www.spiegel.de/politik/deutschland/mecklenburg-vorpommern-birgit-hesse-als-landtagspraesidentin-wiedergewaehlt-a-224faf7a-1d32-4f2f-ac22-1620cb5bc31b#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "handelsblatt-aa458502e106ab3f",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Deep Read: „Die folgenreichste Wirkung seiner Präsidentschaft“: Trumps diabolischer Pakt mit dem Silicon Valley",
+      "link": "https://www.handelsblatt.com/technik/it-internet/usa-donald-trumps-diabolischer-pakt-mit-dem-silicon-valley/100262339.html",
+      "summary": "Die Tech-Fürsten stehen dem US-Präsidenten so nah wie nie – dabei diktiert Trump die Bedingungen. Zwei Wochen vor den Kongresswahlen wächst vor allem auf einer Seite das Risiko.",
+      "image": "https://images.handelsblatt.com/bJuWMH6gXRJp/cover/900/506/0/0/0/0/0.5/0.5/trump.jpg",
+      "published": "2026-10-20T18:03:55+00:00",
+      "category": "Politik",
+      "score": 76.59
+    },
+    {
+      "id": "handelsblatt-12ba336dc7cc5265",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Parlamentswahl in Israel: Netanjahu droht Wahlniederlage – Wer seine Konkurrenten sind",
+      "link": "https://www.handelsblatt.com/video/politik/parlamentswahl-in-israel-netanjahu-droht-wahlniederlage-wer-seine-konkurrenten-sind/100263696.html",
+      "summary": "Benjamin Netanjahu stand in den vergangenen 30 Jahren fünfmal an der Spitze der israelischen Regierung. Bei der Parlamentswahl am 27. Oktober droht dem amtierenden Premier und seiner Likud-Partei laut Umfragen eine Niederlage.",
+      "image": "https://images.handelsblatt.com/l1AOP1AyJqqC/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
+      "published": "2026-10-20T16:19:55+00:00",
+      "category": "Politik",
+      "score": 75.15
     },
     {
       "id": "spiegel-93d3c434fbffec8d",
@@ -190,67 +224,78 @@
       "image": "https://cdn.prod.www.spiegel.de/images/9ec8d369-da50-4b39-b5f5-b0fb5f04708c_w1080_r1.778_fpx49_fpy52.png",
       "published": "2026-10-20T16:49:00+02:00",
       "category": "Politik",
-      "score": 77.5
+      "score": 74.88
     },
     {
-      "id": "handelsblatt-778302ec0db39850",
-      "source": "handelsblatt",
+      "id": "deutsche-welle-e04f5170b8d900e0",
+      "source": "deutsche-welle",
       "sourceWeight": 0.9,
-      "title": "Militär: Der Ukraine-Krieg verlagert sich in den Weltraum",
-      "link": "https://www.handelsblatt.com/politik/international/militaer-der-ukraine-krieg-verlagert-sich-in-den-weltraum/100263430.html",
-      "summary": "Ein russischer Satellit hat in einem außergewöhnlichen Manöver einen europäischen Satelliten verfolgt. Das weckt die Sorge vor weiteren militärischen Auseinandersetzungen – im Weltall.",
-      "image": "https://images.handelsblatt.com/P8D2xwJ9r6nj/cover/900/506/0/0/525/525/0.5/0.5/illustration-of-competing-satellites-in-orbit-around-the-earth-publicationxinxgerxsuixautxonly-copyr.jpg",
-      "published": "2026-10-20T15:04:47+00:00",
+      "title": "Nvidia-Chef Jensen Huang wirbt in Deutschland für KI",
+      "link": "https://www.dw.com/de/nvidia-chef-jensen-huang-wirbt-in-deutschland-für-ki/a-79708505?maca=de-rss-de-all-1119-rdf",
+      "summary": "Deutschland will führend in der industriellen KI werden. VW plant, Löhne und Gehälter bis 2030 einzufrieren. Der Streit zwischen Trump und Selenskyj wird heftiger. Der DW-Nachrichtenüberblick",
+      "image": "https://static.dw.com/image/79707941_6.jpg",
+      "published": "2026-10-20T07:00:00+00:00",
       "category": "Politik",
-      "score": 76.72
+      "score": 73.29,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "golem",
+            "title": "Nvidia-Kooperation: Deutschland hat seinen Retter gefunden",
+            "link": "https://www.golem.de/news/nvidia-kooperation-deutschland-hat-seinen-retter-gefunden-2610-214305.html"
+          }
+        ]
+      }
     },
     {
-      "id": "handelsblatt-370404d304b61110",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Ukraine-Krieg +++: Selenskyj dankt Rubio und warnt vor Engpass bei Patriot-Raketen",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-dankt-rubio-und-warnt-vor-engpass-bei-patriot-raketen/27982126.html",
-      "summary": "Von der Leyen fordert neue EU-Strategie für die Arktis +++ Russland weitet Angriffe auf ukrainisches Stromnetz aus +++ Rubio räumt Verzögerung bei Raketenlieferung ein +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/OyLFzIQBSxgB/cover/900/506/0/0/106/107/0.5/0.5/ukrainischer-praesident-selenskyj.jpeg",
-      "published": "2026-10-20T12:49:01+00:00",
-      "category": "Politik",
-      "score": 74.83
-    },
-    {
-      "id": "handelsblatt-0f524937b2b8a6ff",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Midterms: Trump warnt vor Unruhen wie in Frankreich bei Wahlsieg der Demokraten",
-      "link": "https://www.handelsblatt.com/video/politik/midterms-trump-warnt-vor-unruhen-wie-in-frankreich-bei-wahlsieg-der-demokraten/100263601.html",
-      "summary": "US-Präsident Trump hat am Montag im Bundesstaat Kansas um Unterstützung für die Republikaner bei den Midterms geworben. Mit Blick auf die sozialen Unruhen in Frankreich warnte er, ein Wahlsieg der Demokraten könne zu ähnlichen Zuständen führen.",
-      "image": "https://images.handelsblatt.com/2nGIH-cIIOWy/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
-      "published": "2026-10-20T12:01:08+00:00",
-      "category": "Politik",
-      "score": 74.17
-    },
-    {
-      "id": "spiegel-7ea756a2b7a77a79",
+      "id": "spiegel-0502618f89065a4f",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Verfolgungsjagd im All: Russische Attacke auf finnischen Satelliten",
-      "link": "https://www.spiegel.de/wissenschaft/weltall/verfolgungsjagd-im-all-erst-drohte-russland-mit-angriffen-auf-satelliten-jetzt-kommt-ein-jaeger-extrem-nah-a-adf7b19b-5175-4819-9143-b72c29b3d7b0#ref=rss",
-      "summary": "Ein russischer Satellit ist bis auf 200 Meter an einen Radarsatelliten herangeflogen, den womöglich auch die Ukraine nutzt. Ein Angriff oder nur Einschüchterung? Experten erkennen eine neue Eskalationsstufe im All.",
-      "image": "https://cdn.prod.www.spiegel.de/images/6e3a1801-d001-4855-856f-74a7e876a01d_w1200_r1.778_fpx41_fpy52.jpg",
-      "published": "2026-10-20T15:42:00+02:00",
-      "category": "Politik",
-      "score": 68.57
+      "title": "BMW: Autobauer schließt Abfindungsprogramm wegen hoher Nachfrage frühzeitig",
+      "link": "https://www.spiegel.de/wirtschaft/unternehmen/bmw-autobauer-schliesst-abfindungsprogramm-wegen-hoher-nachfrage-fruehzeitig-a-0e0d3b11-5308-4df1-8213-0ebdab1c69b0#ref=rss",
+      "summary": "Das Interesse der Mitarbeitenden an dem Abfindungsprogramm von BMW ist offenbar so groß, dass der Konzern früher als geplant die Anmeldung schließt. Die Angebote waren wohl oft deutlich im sechsstelligen Bereich.",
+      "image": "https://cdn.prod.www.spiegel.de/images/08f0eae0-e55b-480d-a295-4724b57bf530_w1200_r1.778_fpx60.32_fpy54.99.jpg",
+      "published": "2026-10-20T15:58:00+02:00",
+      "category": "Nachrichten",
+      "score": 68.94,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Nach wenigen Wochen: Jobabbau: BMW schließt Abfindungsprogramm für Mitarbeiter",
+            "link": "https://www.handelsblatt.com/politik/deutschland/nach-wenigen-wochen-jobabbau-bmw-schliesst-abfindungsprogramm-fuer-mitarbeiter/100263641.html"
+          },
+          {
+            "source": "golem",
+            "title": "Arbeit: BMW muss Abfindungsprogramm wegen zu hoher Nachfrage früher beenden",
+            "link": "https://www.golem.de/news/arbeit-bmw-muss-abfindungsprogramm-wegen-zu-hoher-nachfrage-frueher-beenden-2610-214317.html"
+          }
+        ]
+      }
     },
     {
-      "id": "spiegel-0ab2d97085050e02",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Martin Suter: Schweizer Bestsellerautor hat keine Angst vor KI-Literatur",
-      "link": "https://www.spiegel.de/kultur/literatur/martin-suter-schweizer-bestsellerautor-hat-keine-angst-vor-ki-literatur-a-194b477f-fdb5-4913-96da-ef0b54cc815d#ref=rss",
-      "summary": "KI sei Wissen, nicht Intelligenz, sagt der Schweizer Autor Martin Suter. Gefühle zu haben, sei der Trumpf im Ärmel der Autorinnen und Autoren. Der 78-Jährige zeigt sich trotz der schnellen Entwicklung nicht beunruhigt.",
-      "image": "https://cdn.prod.www.spiegel.de/images/09750d29-c80b-477a-8c77-b08fe15228ac_w1200_r1.778_fpx39.25_fpy50.99.jpg",
-      "published": "2026-10-20T12:54:00+02:00",
-      "category": "Politik",
-      "score": 66.23
+      "id": "heise-452160e4bdd8fd4b",
+      "source": "heise",
+      "sourceWeight": 0.9,
+      "title": "Revolut: Banking und Support nicht erreichbar",
+      "link": "https://www.heise.de/news/Revolut-Banking-und-Support-nicht-erreichbar-11493640.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
+      "summary": "Die Neobank Revolut meldet Ausfälle: Weder Banking noch der Support sind erreichbar.",
+      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/8/5/6/1/2/hp-73b8e5e1c694f6d6.jpeg",
+      "published": "2026-10-20T10:35:00+02:00",
+      "category": "Technologie",
+      "score": 61.54,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "golem",
+            "title": "Wegen Google Cloud: Onlinebank Revolut meldet mehrere Ausfälle",
+            "link": "https://www.golem.de/news/onlinebank-revolut-meldet-probleme-wegen-ausfall-von-google-cloud-2610-214308.html"
+          }
+        ]
+      }
     }
   ]
 }
