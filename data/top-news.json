@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T22:26:14.550711+00:00",
+  "generatedAt": "2026-10-20T22:45:15.205318+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/bc9528d4-491b-4d3e-b080-7aa2225a223e_w1200_r1.778_fpx65.32_fpy50.jpg",
       "published": "2026-10-20T21:22:00+02:00",
       "category": "Politik",
-      "score": 99.44,
+      "score": 99.18,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -20,28 +20,6 @@
             "source": "deutsche-welle",
             "title": "Ukraine-Krieg: USA liefern laut Selenskyj wieder Geheimdienstinformationen",
             "link": "https://www.dw.com/de/ukraine-krieg-usa-liefern-laut-selenskyj-wieder-geheimdienstinformationen/a-79695673?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-0d2ed130c6ce3e5c",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ukrainekrieg: US-Gesandter Steve Witkoff reist für Gespräche nach Russland",
-      "link": "https://www.spiegel.de/ausland/ukrainekrieg-us-gesandter-steve-witkoff-reist-fuer-gespraeche-nach-russland-a-270a79eb-fe7e-412e-ba0d-508f9466d1ed#ref=rss",
-      "summary": "In das diplomatische Ringen um Frieden in der Ukraine kommt offenbar Bewegung: Trumps Unterhändler Witkoff reist mit Vorschlägen nach Sankt Petersburg. Der US-Präsident drängt Selenskyj derweil erneut zu einem Abkommen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/8ad124a8-fff9-4eeb-827d-20fa13d24262_w1200_r1.778_fpx46.67_fpy50.jpg",
-      "published": "2026-10-20T21:40:00+02:00",
-      "category": "Politik",
-      "score": 91.69,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Ukraine-Krieg: Neue Hoffnung für Kiew? US-Unterhändler reist nach Russland",
-            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-neue-hoffnung-fuer-kiew-us-unterhaendler-reist-nach-russland/100263479.html"
           }
         ]
       }
@@ -56,7 +34,7 @@
       "image": "https://images.tagesschau.de/image/a50666ee-685e-4f98-a7fb-ba98d1b22a34/AAABoVrm2G4/AAABnSSvrFg/16x9-big/wolodymyr-selenskyj-276.jpg?width=1920",
       "published": "2026-10-20T22:01:00+02:00",
       "category": "Politik",
-      "score": 91.0,
+      "score": 91.47,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -74,6 +52,28 @@
       }
     },
     {
+      "id": "spiegel-0d2ed130c6ce3e5c",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Ukrainekrieg: US-Gesandter Steve Witkoff reist für Gespräche nach Russland",
+      "link": "https://www.spiegel.de/ausland/ukrainekrieg-us-gesandter-steve-witkoff-reist-fuer-gespraeche-nach-russland-a-270a79eb-fe7e-412e-ba0d-508f9466d1ed#ref=rss",
+      "summary": "In das diplomatische Ringen um Frieden in der Ukraine kommt offenbar Bewegung: Trumps Unterhändler Witkoff reist mit Vorschlägen nach Sankt Petersburg. Der US-Präsident drängt Selenskyj derweil erneut zu einem Abkommen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/8ad124a8-fff9-4eeb-827d-20fa13d24262_w1200_r1.778_fpx46.67_fpy50.jpg",
+      "published": "2026-10-20T21:40:00+02:00",
+      "category": "Politik",
+      "score": 91.43,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Ukraine-Krieg: Neue Hoffnung für Kiew? US-Unterhändler reist nach Russland",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-neue-hoffnung-fuer-kiew-us-unterhaendler-reist-nach-russland/100263479.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "tagesschau-b0f4bd0340090297",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -83,7 +83,7 @@
       "image": "https://images.tagesschau.de/image/8e2226d1-a744-4eec-957e-5f6474f08741/AAABoVl-pPY/AAABnSSvrFg/16x9-big/rbb-archivbild-vanessa-emde-die-linke-kommt-im-berliner-abgeordnetenhaus-zu-einer-fraktionssitzung-ihrer-partei-100.jpg?width=1920",
       "published": "2026-10-20T15:27:29+02:00",
       "category": "Politik",
-      "score": 83.0,
+      "score": 83.47,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -110,7 +110,7 @@
       "image": "https://images.tagesschau.de/image/b0eecf9d-4d77-4dc1-b26a-1d5e29a67450/AAABoViD2LA/AAABnSSvrFg/16x9-big/supermarkt-usa-108.jpg?width=1920",
       "published": "2026-10-20T15:07:51+02:00",
       "category": "Politik",
-      "score": 79.24
+      "score": 78.98
     },
     {
       "id": "handelsblatt-4f49e5c2e42a3cae",
@@ -122,7 +122,7 @@
       "image": "https://images.handelsblatt.com/HQ7DhqQ7fT49/cover/900/506/0/0/0/624/0.5/0.5/president-donald-trump-talks-to-reporters-as-he-walks-on-the-south-lawn-upon-his-arrival-to-the-whit.jpg",
       "published": "2026-10-20T13:26:30+00:00",
       "category": "Politik",
-      "score": 77.5
+      "score": 77.24
     },
     {
       "id": "spiegel-e1fcb9daf83751c4",
@@ -134,7 +134,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/4cec740b-ff52-45c6-8d8a-307b9c98eef0_w1200_r1.778_fpx45.31_fpy49.99.jpg",
       "published": "2026-10-20T20:23:00+02:00",
       "category": "Politik",
-      "score": 74.62
+      "score": 74.36
     },
     {
       "id": "handelsblatt-aa458502e106ab3f",
@@ -146,7 +146,7 @@
       "image": "https://images.handelsblatt.com/bJuWMH6gXRJp/cover/900/506/0/0/0/0/0.5/0.5/trump.jpg",
       "published": "2026-10-20T18:03:55+00:00",
       "category": "Politik",
-      "score": 73.36
+      "score": 73.09
     },
     {
       "id": "handelsblatt-12ba336dc7cc5265",
@@ -158,7 +158,7 @@
       "image": "https://images.handelsblatt.com/l1AOP1AyJqqC/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
       "published": "2026-10-20T16:19:55+00:00",
       "category": "Politik",
-      "score": 71.91
+      "score": 71.65
     },
     {
       "id": "spiegel-93d3c434fbffec8d",
@@ -170,7 +170,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/9ec8d369-da50-4b39-b5f5-b0fb5f04708c_w1080_r1.778_fpx49_fpy52.png",
       "published": "2026-10-20T16:49:00+02:00",
       "category": "Politik",
-      "score": 71.65
+      "score": 71.39
     },
     {
       "id": "handelsblatt-778302ec0db39850",
@@ -182,7 +182,31 @@
       "image": "https://images.handelsblatt.com/P8D2xwJ9r6nj/cover/900/506/0/0/525/525/0.5/0.5/illustration-of-competing-satellites-in-orbit-around-the-earth-publicationxinxgerxsuixautxonly-copyr.jpg",
       "published": "2026-10-20T15:04:47+00:00",
       "category": "Politik",
-      "score": 70.87
+      "score": 70.6
+    },
+    {
+      "id": "deutschlandfunk-6a0a5667cebd2f6f",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Regierungskrise beendet - Parteiloser Diplomat wird neuer Regierungschef von Rumänien",
+      "link": "https://www.deutschlandfunk.de/parteiloser-diplomat-wird-neuer-regierungschef-von-rumaenien-104.html",
+      "summary": "In Rumänien ist der parteilose Diplomat Luca Niculescu zum neuen Ministerpräsidenten gewählt worden.",
+      "image": "https://bilder.deutschlandfunk.de/48/96/95/3e/4896953e-7854-4486-8e08-e17f16058c95/rumaenien-wahl-ministerpraesident-luca-niculescu-parlament-100-1920x1920.jpg",
+      "published": "2026-10-21T00:30:27+02:00",
+      "category": "Politik",
+      "score": 69.79
+    },
+    {
+      "id": "deutschlandfunk-c2707dcdae052623",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Nach Landtagswahl - Mecklenburg-Vorpommern: Bisherige Landtagspräsidentin Hesse (SPD) wiedergewählt",
+      "link": "https://www.deutschlandfunk.de/mecklenburg-vorpommern-bisherige-landtagspraesidentin-hesse-spd-wiedergewaehlt-110.html",
+      "summary": "Einen Monat nach der Landtagswahl in Mecklenburg-Vorpommern ist dort das neue Parlament zu seiner konstituierenden Sitzung zusammengekommen. Im Schweriner Schloss wurde die SPD-Politikerin und bisherige Landtagspräsidentin Hesse erneut ins Amt gewählt.",
+      "image": "https://bilder.deutschlandfunk.de/3a/83/b4/f0/3a83b4f0-4e1b-49a2-8638-eab5c5959cad/mecklenburg-vorpommern-birgit-hesse-spd-landtagspraesidentin-wiederwahl-100-1920x1920.jpg",
+      "published": "2026-10-21T00:30:27+02:00",
+      "category": "Politik",
+      "score": 69.79
     },
     {
       "id": "deutsche-welle-e04f5170b8d900e0",
@@ -194,7 +218,7 @@
       "image": "https://static.dw.com/image/79707941_6.jpg",
       "published": "2026-10-20T07:00:00+00:00",
       "category": "Politik",
-      "score": 70.05,
+      "score": 69.79,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -207,30 +231,6 @@
       }
     },
     {
-      "id": "deutschlandfunk-6a0a5667cebd2f6f",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Regierungskrise beendet - Parteiloser Diplomat wird neuer Regierungschef von Rumänien",
-      "link": "https://www.deutschlandfunk.de/parteiloser-diplomat-wird-neuer-regierungschef-von-rumaenien-104.html",
-      "summary": "In Rumänien ist der parteilose Diplomat Luca Niculescu zum neuen Ministerpräsidenten gewählt worden.",
-      "image": "https://bilder.deutschlandfunk.de/48/96/95/3e/4896953e-7854-4486-8e08-e17f16058c95/rumaenien-wahl-ministerpraesident-luca-niculescu-parlament-100-1920x1920.jpg",
-      "published": "2026-10-20T23:37:14+02:00",
-      "category": "Politik",
-      "score": 69.32
-    },
-    {
-      "id": "deutschlandfunk-c2707dcdae052623",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Nach Landtagswahl - Mecklenburg-Vorpommern: Bisherige Landtagspräsidentin Hesse (SPD) wiedergewählt",
-      "link": "https://www.deutschlandfunk.de/mecklenburg-vorpommern-bisherige-landtagspraesidentin-hesse-spd-wiedergewaehlt-110.html",
-      "summary": "Einen Monat nach der Landtagswahl in Mecklenburg-Vorpommern ist dort das neue Parlament zu seiner konstituierenden Sitzung zusammengekommen. Im Schweriner Schloss wurde die SPD-Politikerin und bisherige Landtagspräsidentin Hesse erneut ins Amt gewählt.",
-      "image": "https://bilder.deutschlandfunk.de/3a/83/b4/f0/3a83b4f0-4e1b-49a2-8638-eab5c5959cad/mecklenburg-vorpommern-birgit-hesse-spd-landtagspraesidentin-wiederwahl-100-1920x1920.jpg",
-      "published": "2026-10-20T23:37:14+02:00",
-      "category": "Politik",
-      "score": 69.32
-    },
-    {
       "id": "deutschlandfunk-07a696c9dc9f2b99",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
@@ -238,9 +238,9 @@
       "link": "https://www.deutschlandfunk.de/brennerbasistunnel-wird-um-mehr-als-eine-milliarde-teurer-104.html",
       "summary": "Der Brennerbasistunnel zwischen Österreich und Italien soll zwei Jahre später in Betrieb gehen und mehr als eine Milliarde Euro mehr kosten als geplant.",
       "image": "https://bilder.deutschlandfunk.de/40/ec/03/71/40ec0371-d9ca-43e2-a01b-b1d1b53b6823/brenner-basistunnel-tirol-100-1920x1920.jpg",
-      "published": "2026-10-20T23:37:14+02:00",
+      "published": "2026-10-21T00:30:27+02:00",
       "category": "Nachrichten",
-      "score": 66.32,
+      "score": 66.79,
       "coverage": {
         "sourceCount": 2,
         "others": [
