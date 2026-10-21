@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T06:41:10.983523+00:00",
+  "generatedAt": "2026-10-21T07:49:43.713769+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/3c5fc449-1908-4f6a-928a-9513ee37095c/AAABoVvgNgs/AAABnSSvrFg/16x9-big/elon-musk-294.jpg?width=1920",
       "published": "2026-10-21T08:30:22+02:00",
       "category": "Politik",
-      "score": 94.94,
+      "score": 94.71,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -35,33 +35,6 @@
       }
     },
     {
-      "id": "tagesschau-5902dd3f93ea83ab",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Selenskyj fordert Teilnahme an Putin-Xi-Trump-Treffen",
-      "link": "https://www.tagesschau.de/ausland/europa/selenskyj-witkoff-norwegen-100.html",
-      "summary": "Trump hatte Interesse an einem Gespräch mit den Präsidenten Russlands und Chinas über die Ukraine gezeigt. Nach einem Treffen mit europäischen Partnern sowie dem US-Sondergesandten Witkoff in Oslo forderte Präsident Selenskyj nun eine Beteiligung Kiews.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/a50666ee-685e-4f98-a7fb-ba98d1b22a34/AAABoVrm2G4/AAABnSSvrFg/16x9-big/wolodymyr-selenskyj-276.jpg?width=1920",
-      "published": "2026-10-20T22:01:00+02:00",
-      "category": "Politik",
-      "score": 91.62,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Russlands Krieg gegen die Ukraine - US-Gesandter Witkoff zu Treffen mit Putin in St. Petersburg erwartet",
-            "link": "https://www.deutschlandfunk.de/us-gesandter-witkoff-zu-treffen-mit-putin-in-st-petersburg-erwartet-100.html"
-          },
-          {
-            "source": "deutsche-welle",
-            "title": "Trump will Selenskyj als Präsidenten der Ukraine weghaben",
-            "link": "https://www.dw.com/de/trump-will-selenskyj-als-präsidenten-der-ukraine-weghaben/a-79710646?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
-    },
-    {
       "id": "spiegel-0d2ed130c6ce3e5c",
       "source": "spiegel",
       "sourceWeight": 0.95,
@@ -71,17 +44,56 @@
       "image": "https://cdn.prod.www.spiegel.de/images/8ad124a8-fff9-4eeb-827d-20fa13d24262_w1200_r1.778_fpx46.67_fpy50.jpg",
       "published": "2026-10-20T21:40:00+02:00",
       "category": "Politik",
-      "score": 90.67,
+      "score": 93.68,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "handelsblatt",
-            "title": "Ukraine-Krieg: Trump-Gesandter Witkoff reist nach Russland",
-            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-trump-gesandter-witkoff-reist-nach-russland/100263769.html"
+            "title": "Ukraine-Krieg: Trump-Gesandter Witkoff zu Ukraine-Gesprächen in Russland",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-trump-gesandter-witkoff-zu-ukraine-gespraechen-in-russland/100263769.html"
           }
         ]
       }
+    },
+    {
+      "id": "tagesschau-aa497868eec28afc",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "US-Vermittler Witkoff berät mit Putin über Ukraine",
+      "link": "https://www.tagesschau.de/ausland/europa/ukraine-russland-usa-verhandlungen-104.html",
+      "summary": "Nach Gesprächen mit dem ukrainischen Präsidenten Selenskyj in Oslo ist US-Unterhändler Witkoff zu Verhandlungen mit der russischen Führung in St. Petersburg eingetroffen. US-Präsident Trump hatte Selenskyj zuvor zu einem \"Deal\" aufgefordert.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/258ad48a-e412-41de-82b5-095a7fb9e806/AAABoV08ipo/AAABnSSvrFg/16x9-big/wittkoff-dmitriev-100.jpg?width=1920",
+      "published": "2026-10-21T09:03:44+02:00",
+      "category": "Politik",
+      "score": 91.39,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Russlands Krieg gegen die Ukraine - US-Gesandter Witkoff trifft Putin in St. Petersburg",
+            "link": "https://www.deutschlandfunk.de/us-gesandter-witkoff-trifft-putin-in-st-petersburg-100.html"
+          },
+          {
+            "source": "deutsche-welle",
+            "title": "Trumps Gesandter Witkoff trifft Putin - News kompakt: Das Wichtigste kurz gefasst",
+            "link": "https://www.dw.com/de/trumps-gesandter-witkoff-trifft-putin-news-kompakt-das-wichtigste-kurz-gefasst/a-79718918?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-a78f6d1dc4bc55a0",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Klimakrise: Erde erwärmt sich stärker als befürchtet – Uno sieht USA als Treiber",
+      "link": "https://www.spiegel.de/wissenschaft/klimakrise-erde-erwaermt-sich-staerker-als-befuerchtet-uno-sieht-usa-als-treiber-a-19db1fbf-f48c-407a-950b-543ec47b182c#ref=rss",
+      "summary": "Die Erde wird sich laut einer neuen Auswertung stärker aufheizen als bisher geschätzt, das Risiko für Fluten, Hitzewellen und Waldbrände steigt. Für Fachleute eine Folge von Trumps Rückzug aus Klimaschutzprogrammen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/767ae6b6-8daa-4b27-9f34-b27ab874f9f9_w1200_r1.778_fpx48_fpy80.jpg",
+      "published": "2026-10-21T09:48:00+02:00",
+      "category": "Politik",
+      "score": 85.98
     },
     {
       "id": "handelsblatt-cdd70966c26c7916",
@@ -93,7 +105,7 @@
       "image": "https://images.handelsblatt.com/-z1GiAAnqT6g/cover/900/506/0/0/0/350/0.5/0.5/us-secretary-of-state-marco-rubio-speaks-during-a-freedom-250-reception-at-the-jio-world-convention.jpg",
       "published": "2026-10-21T06:13:00+00:00",
       "category": "Politik",
-      "score": 84.61
+      "score": 83.66
     },
     {
       "id": "spiegel-480b5c7dc5da6f0b",
@@ -105,7 +117,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/bc9528d4-491b-4d3e-b080-7aa2225a223e_w1200_r1.778_fpx61_fpy48.jpg",
       "published": "2026-10-20T21:22:00+02:00",
       "category": "Politik",
-      "score": 84.57
+      "score": 83.61
     },
     {
       "id": "deutschlandfunk-273c84776a9a2147",
@@ -115,9 +127,9 @@
       "link": "https://www.deutschlandfunk.de/lula-und-bolsonaro-fordern-ausschluss-des-jeweils-anderen-100.html",
       "summary": "Kurz vor der Stichwahl um das Präsidentenamt in Brasilien fordern beide Kandidaten den Ausschluss des jeweils anderen.",
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_b/83/NOVA_b83858539ba7ed51dece64d9cf84917c/craft-13451259-asset-100-1920x1920.jpg",
-      "published": "2026-10-21T08:36:59+02:00",
+      "published": "2026-10-21T09:28:53+02:00",
       "category": "Politik",
-      "score": 82.62,
+      "score": 82.39,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -142,45 +154,97 @@
       "link": "https://www.deutschlandfunk.de/mehrere-tote-und-verletzte-in-charkiw-und-krementschuk-ein-toter-in-russischer-stadt-brjansk-100.html",
       "summary": "Russland hat mit Drohnen erneut Ziele in der Ukraine angegriffen.",
       "image": "https://bilder.deutschlandfunk.de/c9/e2/da/5c/c9e2da5c-b5ef-4096-9bcb-2bb2599e31ec/charkiw-ukraine-russischer-angriff-102-1920x1920.jpg",
-      "published": "2026-10-21T08:36:59+02:00",
+      "published": "2026-10-21T09:28:53+02:00",
       "category": "Politik",
-      "score": 77.94
+      "score": 77.71
     },
     {
-      "id": "handelsblatt-1dc017ebc683b65a",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Bundestagswahl 2021: Behörde: Wahlwerbung nach Nutzerprofilen war rechtswidrig",
-      "link": "https://www.handelsblatt.com/technik/it-internet/bundestagswahl-2021-behoerde-wahlwerbung-nach-nutzerprofilen-war-rechtswidrig/100263796.html",
-      "summary": "Eine Browser-Erweiterung machte 2021 sichtbar, welche Wahlwerbung Nutzer zu sehen bekamen. Die daraus entstandenen Beschwerden führten zu Rügen für vier Parteien. Was im Fall der AfD noch aussteht.",
-      "image": "https://images.handelsblatt.com/3d3RrnA6sETE/cover/900/506/0/0/107/107/0.5/0.5/bundestag.jpg",
-      "published": "2026-10-21T05:00:05+00:00",
-      "category": "Politik",
-      "score": 75.6
-    },
-    {
-      "id": "handelsblatt-de1d301561046bf7",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ USA +++: US-Regierung widerruft mehr als 300.000 Visa in zweiter Amtszeit Trumps",
-      "link": "https://www.handelsblatt.com/politik/international/usa-us-regierung-widerruft-mehr-als-300.000-visa-in-zweiter-amtszeit-trumps/29669594.html",
-      "summary": "Trump will offenbar gesamte Presse aus Weißem Haus ausschließen +++ Trump nutzt Demonstrationen in Frankreich für Wahlkampf +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/2HdCz3R7gaoW/cover/900/506/0/0/209/208/0.5/0.5/us-praesident-trump-seine-regierung-arbeitet-offenbar-daran-200.000-visa-zu-entziehen..jpg",
-      "published": "2026-10-21T04:58:00+00:00",
-      "category": "Politik",
-      "score": 75.57
-    },
-    {
-      "id": "spiegel-eb5fff25fe1b8f49",
+      "id": "spiegel-8fc904cc9e21bfd7",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "News: Ukrainegespräche, US-Präsident Trump, AfD-Datenleak",
-      "link": "https://www.spiegel.de/politik/deutschland/news-ukrainegespraeche-us-praesident-trump-afd-datenleak-a-2c7921c3-28d1-4254-94b8-f65836b59716#ref=rss",
-      "summary": "US-Unterhändler Steve Witkoff fliegt für Ukrainegespräche nach Russland. Donald Trump kämpft mit niedrigen Zustimmungswerten. Und ein Datenleak macht der AfD zu schaffen. Das ist die Lage am Mittwochmorgen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/dd17189a-707c-4b57-af32-bf59855d3d25_w1200_r1.778_fpx28.09_fpy49.93.png",
-      "published": "2026-10-21T05:46:00+02:00",
+      "title": "US-Wahl 2000: Wie Al Gores Niederlage das Weltklima veränderte",
+      "link": "https://www.spiegel.de/politik/us-wahl-2000-wie-al-gores-niederlage-das-weltklima-veraenderte-a-afde0d34-1d33-4c0d-922f-61680d0129af#ref=rss",
+      "summary": "Al Gore zeigte vor zwanzig Jahren im Film »Eine unbequeme Wahrheit« die Folgen des Klimawandels. Warum er immer noch daran glaubt, dass Menschen am Ende die richtigen Entscheidungen treffen werden.",
+      "image": "https://cdn.prod.www.spiegel.de/images/b0b4c1d8-2aa0-4211-864a-ef8ce7eff14b_w1200_r1.778_fpx29.64_fpy44.97.jpg",
+      "published": "2026-10-21T09:20:00+02:00",
       "category": "Politik",
-      "score": 75.57
+      "score": 77.59
+    },
+    {
+      "id": "handelsblatt-bfb9c910d0952fa0",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Folgen des Ukraine-Kriegs: Wirtschaftliche Beziehungen zu Russland nicht bei Null",
+      "link": "https://www.handelsblatt.com/politik/deutschland/folgen-des-ukraine-kriegs-wirtschaftliche-beziehungen-zu-russland-nicht-bei-null/100263820.html",
+      "summary": "Der Handel zwischen Deutschland und Russland ist seit Beginn des Ukraine-Kriegs stark geschrumpft. Doch einige Beziehungen bestehen fort.",
+      "image": "https://images.handelsblatt.com/-F2IIAC8Rah5/cover/900/506/0/0/107/106/0.5/0.5/oelterminal-in-russland.jpg",
+      "published": "2026-10-21T06:56:54+00:00",
+      "category": "Politik",
+      "score": 76.27
+    },
+    {
+      "id": "tagesschau-321a8e0a8598858b",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "UN-Bericht: Erde steuert auf 2,8 Grad Erwärmung zu",
+      "link": "https://www.tagesschau.de/wissen/klima/erderwaermung-un-bericht-102.html",
+      "summary": "Die Folgen der Erderwärmung sind verheerend. Das eigentlich vereinbarte 1,5-Grad-Limit wird ziemlich sicher gerissen. Doch die UN betonen: Es gibt Fortschritte beim Klimaschutz, die Zeit drängt allerdings. Von Janina Schreiber. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/5be1260e-3393-467e-b433-1d624aad7186/AAABoLB_TX0/AAABnSSvrFg/16x9-big/duerre-reisfeld-100.jpg?width=1920",
+      "published": "2026-10-21T09:09:57+02:00",
+      "category": "Nachrichten",
+      "score": 75.85,
+      "coverage": {
+        "sourceCount": 4,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Klimawandel - Neuer UNO-Bericht: Erde steuert bis 2100 auf bis zu 2,8 Grad Erwärmung zu",
+            "link": "https://www.deutschlandfunk.de/neuer-uno-bericht-erde-steuert-bis-2100-auf-bis-zu-2-8-grad-erwaermung-zu-100.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Klimawandel: Neue UN-Schätzung – Erde steuert auf 2,8 Grad Erwärmung zu",
+            "link": "https://www.handelsblatt.com/politik/international/klimawandel-neue-un-schaetzung-erde-steuert-auf-28-grad-erwaermung-zu/100263803.html"
+          },
+          {
+            "source": "golem",
+            "title": "UN-Klimabericht: Erde steuert laut UN auf 2,8 Grad Erwärmung zu",
+            "link": "https://www.golem.de/news/un-klimabericht-erde-steuert-laut-un-auf-2-8-grad-erwaermung-zu-2610-214333.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-547f0bdf43d6ccf6",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Tesla und SpaceX prüfen Zusammenschluss - noch mehr Macht für Musk?",
+      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/tesla-spacex-zusammenschluss-moeglich-100.html",
+      "summary": "Die beiden US-Konzerne Tesla und SpaceX, die von Tech-Milliardär Elon Musk geführt werden, prüfen einen Zusammenschluss. Sollte dieser zustande kommen, wäre es die bislang größte Fusion zweier Firmen. Doch es gibt große Hürden.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/da43a845-a941-4d42-bffd-77b034ca942d/AAABn342QzI/AAABnSSvrFg/16x9-big/tesla-446.jpg?width=1920",
+      "published": "2026-10-21T09:11:45+02:00",
+      "category": "Nachrichten",
+      "score": 75.71,
+      "coverage": {
+        "sourceCount": 4,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Wirtschaft - Musk bestätigt: Tesla und SpaceX prüfen Zusammenschluss",
+            "link": "https://www.deutschlandfunk.de/musk-bestaetigt-tesla-und-spacex-pruefen-zusammenschluss-100.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "SpaceX verdoppelt Umsatz und prüft laut Elon Musk Zusammenschluss mit Tesla",
+            "link": "https://www.spiegel.de/wirtschaft/spacex-verdoppelt-umsatz-und-prueft-laut-elon-musk-zusammenschluss-mit-tesla-a-3779587d-36cd-4217-8f8c-cc60ecd06c47#ref=rss"
+          },
+          {
+            "source": "golem",
+            "title": "Elon Musk: SpaceX und Tesla könnten sich zusammenschließen",
+            "link": "https://www.golem.de/news/elon-musk-spacex-und-tesla-koennten-sich-zusammenschliessen-2610-214336.html"
+          }
+        ]
+      }
     },
     {
       "id": "deutschlandfunk-40444d0f9ab856e3",
@@ -190,9 +254,9 @@
       "link": "https://www.deutschlandfunk.de/britische-kampfjets-sollen-saudi-arabien-im-kampf-gegen-huthi-miliz-unterstuetzen-104.html",
       "summary": "Großbritannien will Kampfjets nach Saudi-Arabien entsenden.",
       "image": "https://bilder.deutschlandfunk.de/4e/bb/64/51/4ebb6451-24bc-4302-811f-216244a622db/jemen-usa-grossbritanien-100-1920x1920.jpg",
-      "published": "2026-10-21T08:36:59+02:00",
+      "published": "2026-10-21T09:28:53+02:00",
       "category": "Nachrichten",
-      "score": 74.94,
+      "score": 74.71,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -205,77 +269,28 @@
       }
     },
     {
-      "id": "deutschlandfunk-7c5e7ff4c7bbc4a9",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Klimawandel - Neuer UNO-Bericht: Erde steuert bis 2100 auf bis zu 2,8 Grad Erwärmung zu",
-      "link": "https://www.deutschlandfunk.de/neuer-uno-bericht-erde-steuert-bis-2100-auf-bis-zu-2-8-grad-erwaermung-zu-100.html",
-      "summary": "Die Vereinten Nationen warnen, dass die Erde bis zum Ende des Jahrhunderts auf eine Erwärmung von bis zu 2,8 Grad gegenüber der vorindustriellen Zeit zusteuern könnte. UNO-Generalsekretär Guterres sagte bei der Vorstellung des Jahresberichts des Umweltprogramms UNEP, die internationale Gemeinschaft sei gefährlich weit vom Erreichen ihrer Klimaziele entfernt.",
-      "image": "https://bilder.deutschlandfunk.de/FI/LE/_6/6d/FILE_66d415c084d738daa94efc19688e068c/122803053-jpg-100-768x768.jpg",
-      "published": "2026-10-21T08:36:59+02:00",
-      "category": "Nachrichten",
-      "score": 74.94,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Klimawandel: Neue UN-Schätzung – Erde steuert auf 2,8 Grad Erwärmung zu",
-            "link": "https://www.handelsblatt.com/politik/international/klimawandel-neue-un-schaetzung-erde-steuert-auf-28-grad-erwaermung-zu/100263803.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "handelsblatt-31e46ca9786dfbc9",
+      "id": "handelsblatt-1dc017ebc683b65a",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "+++ Iran-Krieg +++: Teheran will „nicht einen Partikel“ angereicherten Urans aushändigen",
-      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-teheran-will-nicht-einen-partikel-angereicherten-urans-aushaendigen/100136895.html",
-      "summary": "Hegseth in Israel – Gespräch mit Netanjahu über Iran +++ Netanjahu deutet neue gemeinsame Angriffe auf den Iran an +++ Pakistans Armeechef als Vermittler nach Teheran gereist +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/B2HCk4tMdmOV/cover/900/506/0/0/222/221/0.5/0.5/urnnewsmldpa.com20090101260511-935-1335925.jpg",
-      "published": "2026-10-21T02:45:00+00:00",
+      "title": "Bundestagswahl 2021: Behörde: Wahlwerbung nach Nutzerprofilen war rechtswidrig",
+      "link": "https://www.handelsblatt.com/technik/it-internet/bundestagswahl-2021-behoerde-wahlwerbung-nach-nutzerprofilen-war-rechtswidrig/100263796.html",
+      "summary": "Eine Browser-Erweiterung machte 2021 sichtbar, welche Wahlwerbung Nutzer zu sehen bekamen. Die daraus entstandenen Beschwerden führten zu Rügen für vier Parteien. Was im Fall der AfD noch aussteht.",
+      "image": "https://images.handelsblatt.com/3d3RrnA6sETE/cover/900/506/0/0/107/107/0.5/0.5/bundestag.jpg",
+      "published": "2026-10-21T05:00:05+00:00",
       "category": "Politik",
-      "score": 73.72
+      "score": 74.64
     },
     {
-      "id": "tagesschau-b0c2dfc3d28c5cf4",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Nigeria bestätigt ersten Ebola-Fall",
-      "link": "https://www.tagesschau.de/ausland/ebola-nigeria-102.html",
-      "summary": "Bislang waren drei afrikanische Länder von dem aktuellen Ebola-Ausbruch betroffen, nun meldet auch Nigeria einen Fall. Eine Frau sei in der Hauptstadt Abuja in Behandlung, so die Behörden. Nigeria ist das bevölkerungsreichste Land auf dem Kontinent.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/f433ca12-0788-429e-9cc3-db7b75eaff0d/AAABoVviQKs/AAABnSSvrFg/16x9-big/ebola-nigeria-100.jpg?width=1920",
-      "published": "2026-10-21T03:11:10+02:00",
-      "category": "Nachrichten",
-      "score": 72.62,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Epidemie - Erster Ebola-Fall in Nigeria nachgewiesen",
-            "link": "https://www.deutschlandfunk.de/erster-ebola-fall-in-nigeria-nachgewiesen-108.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Nigeria bestätigt ersten Ebolafall",
-            "link": "https://www.spiegel.de/ausland/nigeria-bestaetigt-ersten-ebolafall-a-d62a79e5-615c-4a4b-bf74-ef9925db8b8e#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-b535d57989f5964c",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "US-Midterms: Wie Preise die Zwischenwahlen beeinflussen könnten",
-      "link": "https://www.tagesschau.de/ausland/amerika/us-zwischenwahlen-wirtschaft-100.html",
-      "summary": "Inflation, Lebenshaltungskosten, Treibstoffpreise: Viele Amerikaner machen Präsident Trump für die hohen Preise verantwortlich. Für die Republikaner könnte das vor den Midterms zum Problem werden. Von Carsten Kühntopp. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/b0eecf9d-4d77-4dc1-b26a-1d5e29a67450/AAABoViD2LA/AAABnSSvrFg/16x9-big/supermarkt-usa-108.jpg?width=1920",
-      "published": "2026-10-20T15:07:51+02:00",
+      "id": "handelsblatt-de1d301561046bf7",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ USA +++: US-Regierung widerruft mehr als 300.000 Visa in zweiter Amtszeit Trumps",
+      "link": "https://www.handelsblatt.com/politik/international/usa-us-regierung-widerruft-mehr-als-300.000-visa-in-zweiter-amtszeit-trumps/29669594.html",
+      "summary": "Trump will offenbar gesamte Presse aus Weißem Haus ausschließen +++ Trump nutzt Demonstrationen in Frankreich für Wahlkampf +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/2HdCz3R7gaoW/cover/900/506/0/0/209/208/0.5/0.5/us-praesident-trump-seine-regierung-arbeitet-offenbar-daran-200.000-visa-zu-entziehen..jpg",
+      "published": "2026-10-21T04:58:00+00:00",
       "category": "Politik",
-      "score": 72.37
+      "score": 74.61
     }
   ]
 }
