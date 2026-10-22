@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-10-22T15:42:47.335160+00:00",
+  "generatedAt": "2026-10-22T18:39:29.476642+00:00",
   "count": 15,
   "articles": [
+    {
+      "id": "handelsblatt-e332bd1361e7a389",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Trump-Watch: Wird Trump zum Wahlkampfrisiko? – Die Trump-News der Woche",
+      "link": "https://www.handelsblatt.com/audio/trump-watch-podcast/trump-watch-wird-trump-zum-wahlkampfrisiko-die-trump-news-der-woche/100264335.html",
+      "summary": "Trumps Unterstützung könnte zur Belastung für republikanische Kandidaten werden. Und: Die Ukraine wartet auf Luftabwehrraketen, während in Kalifornien Wahlbehörden unter Druck geraten.",
+      "image": "https://images.handelsblatt.com/ajuKMP7NmADk/cover/900/506/0/0/210/1103/0.5/0.5/cover-podcast-trump-watch.jpg",
+      "published": "2026-10-22T17:53:55+00:00",
+      "category": "Politik",
+      "score": 84.37
+    },
     {
       "id": "deutsche-welle-6cc82d820ab5b768",
       "source": "deutsche-welle",
@@ -12,7 +24,7 @@
       "image": "https://static.dw.com/image/79722267_6.jpg",
       "published": "2026-10-22T14:34:00+00:00",
       "category": "Politik",
-      "score": 84.04
+      "score": 81.59
     },
     {
       "id": "tagesschau-75a050a208c914f9",
@@ -24,34 +36,17 @@
       "image": "https://images.tagesschau.de/image/3961f037-9844-47f1-a8c4-d9143607df3c/AAABoOv2mV4/AAABnSSvrFg/16x9-big/blaulicht-polizei-108.jpg?width=1920",
       "published": "2026-10-22T13:32:31+02:00",
       "category": "Politik",
-      "score": 83.14,
+      "score": 78.87,
       "coverage": {
-        "sourceCount": 3,
+        "sourceCount": 2,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "Bundesanwaltschaft - Mutmaßlicher Russland-Spion in Brandenburg festgenommen",
             "link": "https://www.deutschlandfunk.de/mutmasslicher-russland-spion-in-brandenburg-festgenommen-100.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "+++ Ukraine-Krieg +++: Russland setzt offenbar ballistische Raketen mit Streumunition gegen Ukraine ein",
-            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-russland-setzt-offenbar-streumunition-gegen-ukraine-ein/27982126.html"
           }
         ]
       }
-    },
-    {
-      "id": "tagesschau-e4729a8c45f7462f",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Knesset-Wahl: Was die Kriegskosten für Israels Wähler bedeuten",
-      "link": "https://www.tagesschau.de/ausland/asien/israel-wirtschaft-wahl-100.html",
-      "summary": "Sicherheit steht in Israels Wahlkampf im Vordergrund. Doch drei Jahre Krieg haben die Wirtschaft schwer getroffen: Für viele Menschen geht es vor der Wahl am 27. Oktober auch um die Frage, wie es wirtschaftlich weitergehen soll. Von B. Meier. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/98acc4d4-73fa-41f9-934b-d7d71e104580/AAABoV4oeo0/AAABnSSvrFg/16x9-big/markt-gemuese-isarel-100.jpg?width=1920",
-      "published": "2026-10-22T09:56:08+02:00",
-      "category": "Politik",
-      "score": 80.52
     },
     {
       "id": "tagesschau-828c40bd49854159",
@@ -63,7 +58,7 @@
       "image": "https://images.tagesschau.de/image/bf15d8c9-9431-4551-b23e-07ee40b0a12f/AAABoTP1tpU/AAABnSSvrFg/16x9-big/istgh-122.jpg?width=1920",
       "published": "2026-10-22T13:42:57+02:00",
       "category": "Politik",
-      "score": 78.46,
+      "score": 78.87,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -83,9 +78,9 @@
       "link": "https://www.tagesschau.de/inland/innenpolitik/steuerschaetzung-bund-klingbeil-100.html",
       "summary": "Trotz aktueller Krisen kann der Bund im kommenden Jahr mit mehr Steuereinnahmen rechnen als zunächst erwartet. Dennoch rechnet Finanzminister Klingbeil nicht mit mehr Spielräumen für den Haushalt.[ mehr ]",
       "image": "https://images.tagesschau.de/image/4de88358-2633-4e3d-b591-e7e0549dbc4d/AAABoWO2yS8/AAABnSSvrFg/16x9-big/klingbeil-450.jpg?width=1920",
-      "published": "2026-10-22T16:11:16+02:00",
+      "published": "2026-10-22T17:54:20+02:00",
       "category": "Politik",
-      "score": 78.46,
+      "score": 78.87,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -98,16 +93,38 @@
       }
     },
     {
-      "id": "spiegel-0bbd42bc1461eace",
-      "source": "spiegel",
+      "id": "deutschlandfunk-64e4202ed342c2bb",
+      "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Russland-Ukraine-Krieg: Tote Delfine, tote Wälder – Natur als Opfer des Krieges",
-      "link": "https://www.spiegel.de/ausland/russland-ukraine-krieg-tote-delfine-tote-waelder-natur-als-opfer-des-krieges-a-9cdb6e66-8391-4ec2-a5c2-d67b9e47ed2c#ref=rss",
-      "summary": "Tote Delfine, abgestorbene Wälder und drohende Trinkwasserverseuchung: Ermittler in der Ukraine dokumentieren die Umweltfolgen von Russlands Angriffskrieg. SPIEGEL-Reporter Jonah Lemm hat sie begleitet.",
-      "image": "https://cdn.prod.www.spiegel.de/images/1a6b2dae-31ad-494b-a438-41d8174fc4da_w1080_r1.778_fpx48_fpy30.jpg",
-      "published": "2026-10-22T17:26:00+02:00",
+      "title": "Ukraine-Krieg - Gouverneur von Donezk: Familien mit Kindern sollen bestimmte Gebiete verlassen",
+      "link": "https://www.deutschlandfunk.de/gouverneur-von-donezk-familien-mit-kindern-sollen-bestimmte-gebiete-verlassen-104.html",
+      "summary": "Im Osten der Ukraine sollen wegen des Vormarschs der russischen Armee in mehreren Orten Familien mit Kindern evakuiert werden.",
+      "image": "https://bilder.deutschlandfunk.de/55/b4/36/0d/55b4360d-8090-487d-85bc-720fc55c258c/ukraine-kramatorsk-angriff-100-1920x1920.jpg",
+      "published": "2026-10-22T20:30:02+02:00",
       "category": "Politik",
-      "score": 77.77
+      "score": 77.87
+    },
+    {
+      "id": "deutschlandfunk-759c179af96cf5d6",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Entgegen der Fraktionslinie - Ministerpräsidentenwahl in Sachsen-Anhalt: CDU-Abgeordneter Heuer will Plenum nicht verlassen",
+      "link": "https://www.deutschlandfunk.de/ministerpraesidentenwahl-in-sachsen-anhalt-cdu-abgeordneter-heuer-will-plenum-nicht-verlassen-100.html",
+      "summary": "In Sachsen-Anhalt will der CDU-Landtagsabgeordnete Heuer bei der Wahl des Ministerpräsidenten - anders als es seine Fraktionskollegen planen - den Plenarsaal nicht verlassen.",
+      "image": "https://bilder.deutschlandfunk.de/6b/12/01/f5/6b1201f5-e105-43d9-90e3-e593e2cc8d05/guido-heuer-cdu-sachsen-anhalt-plenarsaal-verlassen-wahl-ministerpraesident-100-1920x1920.jpg",
+      "published": "2026-10-22T20:30:02+02:00",
+      "category": "Politik",
+      "score": 77.87,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "CDU in Sachsen-Anhalt: Verdacht auf AfD-Nähe bei Abgeordnetem Guido Heuer",
+            "link": "https://www.spiegel.de/politik/deutschland/cdu-in-sachsen-anhalt-verdacht-auf-afd-naehe-bei-abgeordnetem-guido-heuer-a-4befff58-c23f-426b-91d8-74fd99493982#ref=rss"
+          }
+        ]
+      }
     },
     {
       "id": "deutschlandfunk-c8c88d5127d07fbf",
@@ -117,9 +134,33 @@
       "link": "https://www.deutschlandfunk.de/ukraine-meldet-tote-durch-russische-angriffe-geringe-erwartungen-an-neue-gespraeche-unter-us-vermitt-100.html",
       "summary": "Der Kreml ist nach eigener Aussage bereit, ab Mitte November mit den USA und der Ukraine über den eigenen Angriffskrieg zu sprechen. Ungeachtet dessen setzt die russische Armee ihre Angriffe fort. Nach ukrainischen Angaben wurden sieben Menschen getötet.",
       "image": "https://bilder.deutschlandfunk.de/f4/db/d4/e8/f4dbd4e8-d457-4464-a75e-073e2c30226f/kiew-angriff-108-1920x1920.jpg",
-      "published": "2026-10-22T17:03:47+02:00",
+      "published": "2026-10-22T20:30:02+02:00",
       "category": "Politik",
-      "score": 77.46
+      "score": 77.87
+    },
+    {
+      "id": "handelsblatt-8372c86d5e09456f",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ Ukraine-Krieg +++: Russland setzt offenbar ballistische Raketen mit Streumunition gegen Ukraine ein",
+      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-russland-setzt-offenbar-streumunition-gegen-ukraine-ein/27982126.html",
+      "summary": "Starlink-Probleme – Selenskyj hofft auf Gespräche mit US-Außenminister +++ Dänemark kauft weitreichende Präzisionsraketen +++ Wohl Russland-Spion in Brandenburg gefasst +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/D0H5FtMOT02x/cover/900/506/0/0/313/312/0.5/0.5/archiv-09.08.2023-brandenburg-neuglienicke-streumunition-aus-russischer-produktion-ist-auf-dem.jpg",
+      "published": "2026-10-22T18:27:00+00:00",
+      "category": "Politik",
+      "score": 76.83
+    },
+    {
+      "id": "spiegel-0bbd42bc1461eace",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Russland-Ukraine-Krieg: Tote Delfine, tote Wälder – Natur als Opfer des Krieges",
+      "link": "https://www.spiegel.de/ausland/russland-ukraine-krieg-tote-delfine-tote-waelder-natur-als-opfer-des-krieges-a-9cdb6e66-8391-4ec2-a5c2-d67b9e47ed2c#ref=rss",
+      "summary": "Tote Delfine, abgestorbene Wälder und drohende Trinkwasserverseuchung: Ermittler in der Ukraine dokumentieren die Umweltfolgen von Russlands Angriffskrieg. SPIEGEL-Reporter Jonah Lemm hat sie begleitet.",
+      "image": "https://cdn.prod.www.spiegel.de/images/1a6b2dae-31ad-494b-a438-41d8174fc4da_w1080_r1.778_fpx48_fpy30.jpg",
+      "published": "2026-10-22T17:26:00+02:00",
+      "category": "Politik",
+      "score": 75.31
     },
     {
       "id": "handelsblatt-1f5c422237c24902",
@@ -131,67 +172,43 @@
       "image": "https://images.handelsblatt.com/KD45UYecylDF/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
       "published": "2026-10-22T14:51:42+00:00",
       "category": "Politik",
-      "score": 76.29
+      "score": 73.84
     },
     {
-      "id": "spiegel-dce6501f373ff310",
+      "id": "spiegel-ef17b323016b13bf",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Donald Trump: Jubel über Schlag gegen Störer bei Auftritt in South Carolina",
-      "link": "https://www.spiegel.de/politik/donald-trump-jubel-ueber-schlag-gegen-stoerer-bei-auftritt-in-south-carolina-a-c9e4d68e-5ba3-453e-ba27-77371dd4a235#ref=rss",
-      "summary": "Es ist ein Ritual bei Wahlkampfauftritten von Donald Trump: Störer mischen sich unters Publikum, werden dann rabiat abgeführt, unter dem Beifall Trumps. Eindrücke aus South Carolina von SPIEGEL-Korrespondent Cornelius Dieckmann.",
-      "image": "https://cdn.prod.www.spiegel.de/images/09c28d2f-1b4f-4ed8-bf3f-e80211222b14_w1200_r1.778_fpx49_fpy8.jpg",
-      "published": "2026-10-22T15:01:00+02:00",
+      "title": "Mike DeWine: Ohios republikanischer Gouverneur kritisiert Vivek Ramaswamy",
+      "link": "https://www.spiegel.de/ausland/mike-dewine-ohios-republikanischer-gouverneur-kritisiert-vivek-ramaswamy-a-46e58b65-48c9-410c-a9c5-095bff7abc07#ref=rss",
+      "summary": "Der Republikaner Vivek Ramaswamy will Gouverneur in Ohio werden. Im Wahlkampf gegen die demokratische Kandidatin Amy Acton schlachtet er deren Vergangenheit skrupellos aus. Nun bekommt er Kritik aus den eigenen Reihen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/28463488-56ed-46d9-beda-2337c5db3ed9_w1200_r1.778_fpx54_fpy50.98.jpg",
+      "published": "2026-10-22T19:14:00+02:00",
       "category": "Politik",
-      "score": 75.75
+      "score": 68.81
     },
     {
-      "id": "handelsblatt-6a5e882f97511b0c",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "US-Wahlen: Blaue Welle oder blaues Wunder? Wie sich die Demokraten trotz guter Umfragewerte selbst im Weg stehen",
-      "link": "https://www.handelsblatt.com/politik/international/usa-warum-trumps-schwaeche-den-demokraten-keinen-wahlsieg-garantiert-01/100261672.html",
-      "summary": "Donald Trump ist so unpopulär wie kaum ein Präsident vor ihm – und trotzdem ist ein Sieg der Demokraten alles andere als sicher. Das liegt vor allem an der Partei selbst.",
-      "image": "https://images.handelsblatt.com/xpqBZh2ZwxDu/cover/900/506/0/0/0/0/0.5/0.5/longread-demokraten.jpg",
-      "published": "2026-10-22T14:09:00+00:00",
-      "category": "Politik",
-      "score": 75.7
-    },
-    {
-      "id": "handelsblatt-248116422f36676c",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Deep Read: Seltene Einblicke in Deutschlands größte Handwaffenschmiede",
-      "link": "https://www.handelsblatt.com/politik/deutschland/ruestung-wie-die-zeitenwende-das-geschaeft-von-heckler-koch-veraendert-01/100261494.html",
-      "summary": "Heckler & Koch stand vor dem Aus. Dann kam ein neuer Chef und Russland überfiel die Ukraine. Jetzt bringen Sturmgewehre satte Gewinne – und finanzieren am Firmensitz Feuerwehr und Schwimmbad.",
-      "image": "https://images.handelsblatt.com/7c3DV0J1zAaD/cover/900/506/0/0/0/0/0.5/0.5/longread-heckler-koch-jens-bodo-koch.jpg",
-      "published": "2026-10-22T13:56:00+00:00",
-      "category": "Politik",
-      "score": 75.52
-    },
-    {
-      "id": "deutschlandfunk-05b879e02ecf7443",
-      "source": "deutschlandfunk",
+      "id": "spiegel-38a45faa27c70a82",
+      "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Berlin - SPD will Pflegereform im Bundestag nachbessern",
-      "link": "https://www.deutschlandfunk.de/spd-will-pflegereform-im-bundestag-nachbessern-100.html",
-      "summary": "Die SPD-Bundestagsfraktion dringt auf Nachbesserungen beim Gesetzentwurf der Bundesregierung zur Pflegeversicherung.",
-      "image": "https://bilder.deutschlandfunk.de/de/c8/7f/87/dec87f87-5262-47c0-a7fa-4d04c466a39b/christos-pantazis-100-1920x1920.jpg",
-      "published": "2026-10-22T17:03:47+02:00",
-      "category": "Politik",
-      "score": 69.46
+      "title": "A5 bei Sinzheim gesperrt - Weltkriegsbombe wird entschärft",
+      "link": "https://www.spiegel.de/panorama/a5-bei-sinzheim-gesperrt-weltkriegsbombe-wird-entschaerft-a-6c78b147-464d-4848-ad1b-8587af4e6795#ref=rss",
+      "summary": "Ein Baggerfahrer hat in Sinzheim eine Bombe aus dem Zweiten Weltkrieg entdeckt. Die Entschärfung hat nun Auswirkungen für viele Autofahrer.",
+      "image": "https://cdn.prod.www.spiegel.de/images/1a475f54-b742-49f9-85cf-842de2ce15ca_w1200_r1.778_fpx68.81_fpy50.jpg",
+      "published": "2026-10-22T19:14:00+02:00",
+      "category": "Nachrichten",
+      "score": 65.81
     },
     {
-      "id": "deutschlandfunk-3a7a5cecddb2b54f",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Forderung nach Verbotsverfahren - SPD-Abgeordnete Wegge für Auswertung gehackter E-Mails der AfD",
-      "link": "https://www.deutschlandfunk.de/spd-abgeordnete-wegge-fuer-auswertung-gehackter-e-mails-der-afd-102.html",
-      "summary": "Die SPD-Bundestagsabgeordnete Wegge plädiert dafür, Inhalte gehackter E-Mails der AfD für ein Verbotsverfahren zu nutzen.",
-      "image": "https://bilder.deutschlandfunk.de/c7/cf/bd/43/c7cfbd43-a0c8-436f-9b4c-da6af2c7687e/spd-carmen-wegge-100-1920x1920.jpg",
-      "published": "2026-10-22T17:03:47+02:00",
-      "category": "Politik",
-      "score": 69.46
+      "id": "deutsche-welle-16b7ccabfb3cb0f0",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "Russlands Angriffe machen Kyjiw zur Frontstadt",
+      "link": "https://www.dw.com/de/russlands-angriffe-machen-kyjiw-zur-frontstadt/a-79733058?maca=de-rss-de-all-1119-rdf",
+      "summary": "Die russischen Angriffe auf die ukrainische Hauptstadt werden häufiger und härter. Kyjiw erlebt das womöglich blutigste Jahr in diesem Krieg. Wo finden die Menschen Schutz? Und wie bewältigen sie ihren Alltag?",
+      "image": "https://static.dw.com/image/79723936_6.jpg",
+      "published": "2026-10-22T17:51:00+00:00",
+      "category": "Nachrichten",
+      "score": 65.33
     },
     {
       "id": "deutsche-welle-33388f6500b0b385",
@@ -203,19 +220,7 @@
       "image": "https://static.dw.com/image/75460805_6.jpg",
       "published": "2026-10-22T04:29:00+00:00",
       "category": "Politik",
-      "score": 67.64
-    },
-    {
-      "id": "netzpolitik-8e6921148b35e870",
-      "source": "netzpolitik",
-      "sourceWeight": 0.75,
-      "title": "Geheimdienstreform: Opposition kritisiert ungeregelte Überwachung mit Werbedaten",
-      "link": "https://netzpolitik.org/2026/geheimdienstreform-opposition-kritisiert-ungeregelte-ueberwachung-mit-werbedaten/",
-      "summary": "BND und Bundesverfassungsschutz sollen umfangreiche neue Gesetze bekommen, aber ein Bereich fehlt: Dürfen die Geheimdienste mit illegalen Daten aus der Werbeindustrie überwachen? Opposition und Fachleute kritisieren diese Regelungslücke vehement, aber die Regierung schaltet auf stur. Der Bundestag berät momentan einen Ausbau der Geheimdienste – Gemeinfrei-ähnlich freigegeben durch unsplash.com: Christian Lue Sollen deutsche Geheimdienste Daten aus der Welt der Online-Werbung nutzen dürfen, die Tracking-Firmen und Databroker illegal in Umlauf bringen? Und wenn ja, welche Regeln sollen gelten? Die Bundesregierung bleibt Antworten auf diese Fragen bislang schuldig. In ihrem hunderte Seiten langen Entwurf für eine Reform des Nachrichtendienstrechts regelt sie die umstrittene neue Überwachungsmethode nicht. Kritik daran kommt aus der Opposition. „Niemals dürfen Polizei und Geheimdienste solche illegal entstandenen Datenhalden nutzen“, sagt Clara Bünger, innenpolitische Sprecherin der Linksfraktion im Bundestag, gegenüber netzpolitik.org. …",
-      "image": "https://cdn.netzpolitik.org/wp-upload/2026/10/christian-lue-seWsl9kjkW8-unsplash-scaled-e1792606185969.jpg",
-      "published": "2026-10-22T10:21:04+00:00",
-      "category": "Politik",
-      "score": 61.53
+      "score": 65.19
     }
   ]
 }
