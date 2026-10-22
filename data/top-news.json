@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T22:29:35.156777+00:00",
+  "generatedAt": "2026-10-22T00:17:28.192642+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/7bb0edf8-6be4-4605-88b6-249be459681d/AAABoV7pQj4/AAABnSSvrFg/16x9-big/wladimir-putin-326.jpg?width=1920",
       "published": "2026-10-21T23:02:08+02:00",
       "category": "Politik",
-      "score": 90.47,
+      "score": 88.97,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -39,7 +39,7 @@
       "image": "https://images.tagesschau.de/image/258ad48a-e412-41de-82b5-095a7fb9e806/AAABoV08ipo/AAABnSSvrFg/16x9-big/wittkoff-dmitriev-100.jpg?width=1920",
       "published": "2026-10-21T11:37:12+02:00",
       "category": "Politik",
-      "score": 87.77,
+      "score": 86.27,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -66,7 +66,7 @@
       "image": "https://images.tagesschau.de/image/3c5fc449-1908-4f6a-928a-9513ee37095c/AAABoVvgNgs/AAABnSSvrFg/16x9-big/elon-musk-294.jpg?width=1920",
       "published": "2026-10-21T08:30:22+02:00",
       "category": "Politik",
-      "score": 83.33,
+      "score": 81.83,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -79,6 +79,18 @@
       }
     },
     {
+      "id": "tagesschau-4e8d98d5a836aef9",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Krieg gegen die Ukraine: Russische Raketen schlagen erneut in Kiew ein",
+      "link": "https://www.tagesschau.de/ausland/europa/raketen-kiew-ukraine-100.html",
+      "summary": "Mehrere Raketenangriffe haben in der Nacht erneut Kiew erschüttert. Bürgermeister Klitschko sprach von mindestens sechs Verletzten. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/88f9b81b-bea0-44ec-8a2f-4fef0c048744/AAABoWDLfNk/AAABnSSvrFg/16x9-big/kiew-haus-raketen-100.jpg?width=1920",
+      "published": "2026-10-22T02:05:26+02:00",
+      "category": "Politik",
+      "score": 78.83
+    },
+    {
       "id": "deutschlandfunk-40799129447be52c",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
@@ -86,67 +98,21 @@
       "link": "https://www.deutschlandfunk.de/russland-zu-verhandlungen-mit-der-ukraine-und-den-usa-bereit-selenskyj-schlaegt-einfrieren-der-front-102.html",
       "summary": "Im November soll ein neuer diplomatischer Anlauf für eine mögliche Lösung im Angriffskrieg Russlands gegen die Ukraine unternommen werden.",
       "image": "https://bilder.deutschlandfunk.de/2a/af/41/10/2aaf4110-518e-4ab6-a00e-da4bfd18cdfe/putin-witkoff-russland-100-1920x1920.jpg",
-      "published": "2026-10-21T23:33:21+02:00",
+      "published": "2026-10-22T02:08:56+02:00",
       "category": "Politik",
-      "score": 77.22
+      "score": 77.88
     },
     {
-      "id": "tagesschau-28f1cf04b5871430",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Macron kritisiert Trump nach Äußerungen zu Unruhen in Frankreich",
-      "link": "https://www.tagesschau.de/ausland/europa/macron-rede-112.html",
-      "summary": "Auch US-Präsident Trump hatte sich zu den Unruhen in Frankreich zu Wort gemeldet - der französische Präsident Macron hat nun offenbar genug davon. Bei einem Besuch in Katar machte er seinem Ärger Luft. Von Cai Rienäcker. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/7591d6e9-1860-49f3-893a-ce7b33a918a7/AAABoV9dYv8/AAABnSSvrFg/16x9-big/macron-1014.jpg?width=1920",
-      "published": "2026-10-21T19:48:20+02:00",
-      "category": "Politik",
-      "score": 75.09,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Unruhen in Frankreich: Macron kritisiert „dumme Äußerungen“ ausländischer Staatschefs – explizit auch die von Trump",
-            "link": "https://www.handelsblatt.com/video/politik/unruhen-in-frankreich-macron-kritisiert-dumme-aeusserungen-auslaendischer-staatschefs/100263999.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "handelsblatt-dccbb02cccc79d3e",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Deep Read: „Schon ein spezielles Animal“: Seltene Einblicke in Deutschlands größte Handwaffenschmiede",
-      "link": "https://www.handelsblatt.com/politik/deutschland/ruestung-seltene-einblicke-in-deutschlands-groesste-handwaffenschmiede/100261494.html",
-      "summary": "Heckler & Koch stand vor dem Aus. Dann kam ein neuer Chef und Russland überfiel die Ukraine. Jetzt bringen Sturmgewehre satte Gewinne – und finanzieren am Firmensitz Feuerwehr und Schwimmbad.",
-      "image": "https://images.handelsblatt.com/7c3DV0J1zAaD/cover/900/506/0/0/0/0/0.5/0.5/longread-heckler-koch-jens-bodo-koch.jpg",
-      "published": "2026-10-21T17:07:31+00:00",
-      "category": "Politik",
-      "score": 72.53
-    },
-    {
-      "id": "spiegel-af9de8fa192ca128",
-      "source": "spiegel",
+      "id": "deutschlandfunk-615b30f07b90094c",
+      "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Ukrainekrieg: Selenskyj zeigt sich offen dafür, die Frontlinie einzufrieren",
-      "link": "https://www.spiegel.de/ausland/ukraine-krieg-selenskyj-zeigt-sich-offen-dafuer-die-frontlinie-einzufrieren-a-9d7751ec-4ad9-4e84-b95b-aa7a32226fb7#ref=rss",
-      "summary": "Wie reagiert Russlands Machthaber Wladimir Putin auf mögliche Friedenslösungen in seinem Angriffskrieg gegen die Ukraine? Der Präsident der Ukraine signalisiert seine Bereitschaft zu Gesprächen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/992ecff3-9dc8-4485-b584-8c73acee9f10_w1200_r1.778_fpx33.33_fpy49.99.jpg",
-      "published": "2026-10-21T16:45:00+02:00",
+      "title": "Ukraine-Krieg - Grüne fordern von Merz mehr Druck auf US-Regierung",
+      "link": "https://www.deutschlandfunk.de/gruene-fordern-von-merz-mehr-druck-auf-us-regierung-100.html",
+      "summary": "Die Grünen haben Bundeskanzler Merz aufgefordert, bei der US-Regierung auf eine anhaltende Unterstützung für die Ukraine zu dringen.",
+      "image": "https://bilder.deutschlandfunk.de/fa/87/60/6b/fa87606b-7a38-448e-9a2d-3276033408b3/merz-trump-oval-office-102-1920x1920.jpg",
+      "published": "2026-10-22T02:08:56+02:00",
       "category": "Politik",
-      "score": 71.55
-    },
-    {
-      "id": "handelsblatt-e6433b911f0fc1bd",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Zwischenwahlen: Wahlforscher hält Trump-Debakel für möglich: „Unmut der Wähler schlimmer als unter Biden“",
-      "link": "https://www.handelsblatt.com/politik/international/usa-der-unmut-der-waehler-ist-schlimmer-als-unter-biden/100262686.html",
-      "summary": "Vor den Zwischenwahlen sieht Wahlforscher Phillips die Demokraten im Repräsentantenhaus und erstmals auch im Senat vorn. Die Republikaner hätten einen großen Fehler zu spät bemerkt.",
-      "image": "https://images.handelsblatt.com/AD3ta0IAJMof/cover/900/506/0/0/276/277/0.5/0.5/donald-trump.jpg",
-      "published": "2026-10-21T15:33:28+00:00",
-      "category": "Politik",
-      "score": 71.22
+      "score": 77.88
     },
     {
       "id": "deutschlandfunk-4aed16d31dfba445",
@@ -156,9 +122,9 @@
       "link": "https://www.deutschlandfunk.de/cambridge-analytica-skandal-gericht-verurteilt-meta-zu-25-milliarden-dollar-strafzahlung-102.html",
       "summary": "In den USA ist der Facebook-Mutterkonzern Meta zu einer Zahlung von 25 Milliarden Dollar verurteilt worden.",
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_3/5a/NOVA_35ad9b7855dde48b4385c861caca8054/craft-12862500-asset-100-1920x1920.jpg",
-      "published": "2026-10-21T23:33:21+02:00",
+      "published": "2026-10-22T02:08:56+02:00",
       "category": "Technologie",
-      "score": 70.9,
+      "score": 71.56,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -176,31 +142,64 @@
       }
     },
     {
-      "id": "deutschlandfunk-ee638a9f5f447524",
-      "source": "deutschlandfunk",
+      "id": "handelsblatt-dccbb02cccc79d3e",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Deep Read: „Schon ein spezielles Animal“: Seltene Einblicke in Deutschlands größte Handwaffenschmiede",
+      "link": "https://www.handelsblatt.com/politik/deutschland/ruestung-seltene-einblicke-in-deutschlands-groesste-handwaffenschmiede/100261494.html",
+      "summary": "Heckler & Koch stand vor dem Aus. Dann kam ein neuer Chef und Russland überfiel die Ukraine. Jetzt bringen Sturmgewehre satte Gewinne – und finanzieren am Firmensitz Feuerwehr und Schwimmbad.",
+      "image": "https://images.handelsblatt.com/7c3DV0J1zAaD/cover/900/506/0/0/0/0/0.5/0.5/longread-heckler-koch-jens-bodo-koch.jpg",
+      "published": "2026-10-21T17:07:31+00:00",
+      "category": "Politik",
+      "score": 71.03
+    },
+    {
+      "id": "handelsblatt-e6433b911f0fc1bd",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Zwischenwahlen: Wahlforscher hält Trump-Debakel für möglich: „Unmut der Wähler schlimmer als unter Biden“",
+      "link": "https://www.handelsblatt.com/politik/international/usa-der-unmut-der-waehler-ist-schlimmer-als-unter-biden/100262686.html",
+      "summary": "Vor den Zwischenwahlen sieht Wahlforscher Phillips die Demokraten im Repräsentantenhaus und erstmals auch im Senat vorn. Die Republikaner hätten einen großen Fehler zu spät bemerkt.",
+      "image": "https://images.handelsblatt.com/AD3ta0IAJMof/cover/900/506/0/0/276/277/0.5/0.5/donald-trump.jpg",
+      "published": "2026-10-21T15:33:28+00:00",
+      "category": "Politik",
+      "score": 69.72
+    },
+    {
+      "id": "handelsblatt-31e46ca9786dfbc9",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ Iran-Krieg +++: Teheran will „nicht einen Partikel“ angereicherten Urans aushändigen",
+      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-teheran-will-nicht-einen-partikel-angereicherten-urans-aushaendigen/100136895.html",
+      "summary": "Hegseth in Israel – Gespräch mit Netanjahu über Iran +++ Netanjahu deutet neue gemeinsame Angriffe auf den Iran an +++ Pakistans Armeechef als Vermittler nach Teheran gereist +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/B2HCk4tMdmOV/cover/900/506/0/0/222/221/0.5/0.5/urnnewsmldpa.com20090101260511-935-1335925.jpg",
+      "published": "2026-10-21T15:21:00+00:00",
+      "category": "Politik",
+      "score": 69.55
+    },
+    {
+      "id": "spiegel-8c6918b4e6fd047f",
+      "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Brüssel und Straßburg - Ermittler durchsuchen Büros von rechter Fraktion im Europarlament",
-      "link": "https://www.deutschlandfunk.de/ermittler-durchsuchen-bueros-von-rechter-fraktion-im-europarlament-106.html",
-      "summary": "Im Europaparlament sind Büros der rechtsgerichteten \"Patrioten\"-Fraktion durchsucht worden.",
-      "image": "https://bilder.deutschlandfunk.de/e1/9b/cb/9b/e19bcb9b-7411-4285-a343-fc7c368ba66b/strassburg-eu-parlament-patriots-of-europe-fraktion-durchsuchung-100-1920x1920.jpg",
-      "published": "2026-10-21T23:33:21+02:00",
-      "category": "Nachrichten",
-      "score": 70.9,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Brüssel und Straßburg: Ermittler durchsuchen Büros rechter Fraktion im EU-Parlament",
-            "link": "https://www.spiegel.de/ausland/bruessel-und-strassburg-ermittler-durchsuchen-bueros-rechter-fraktion-im-eu-parlament-a-8f50684f-8092-483d-9fd0-7ff67bdd599c#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Ermittlungen: Ermittler durchsuchen Büros rechter Fraktion im EU-Parlament",
-            "link": "https://www.handelsblatt.com/politik/international/ermittlungen-ermittler-durchsuchen-bueros-rechter-fraktion-im-eu-parlament/100263986.html"
-          }
-        ]
-      }
+      "title": "Midterms in den USA: Neil Bush stimmt in Texas für Demokraten James Talarico",
+      "link": "https://www.spiegel.de/ausland/midterms-in-den-usa-neil-bush-stimmt-in-texas-fuer-demokraten-james-talarico-a-2cde7394-9e83-46cc-843f-195ea676c6c7#ref=rss",
+      "summary": "Sollte es den Demokraten bei den Kongresswahlen gelingen, Texas zu erobern, wäre das ein Triumph. Kandidat James Talarico hat jetzt eine prominente Stimme bekommen: die von Langzeitrepublikaner Neil Bush.",
+      "image": "https://cdn.prod.www.spiegel.de/images/c786ae59-a171-4bc5-9a45-1ffdd93b19fa_w1200_r1.778_fpx35_fpy44.jpg",
+      "published": "2026-10-22T01:17:00+02:00",
+      "category": "Politik",
+      "score": 69.16
+    },
+    {
+      "id": "spiegel-fac6d46951116cd5",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Wolodymyr Selenskyj möchte »so bald wie möglich« Gespräche mit USA und Russland",
+      "link": "https://www.spiegel.de/ausland/wolodymyr-selenskyj-moechte-so-bald-wie-moeglich-gespraeche-mit-usa-und-russland-a-32f2b741-827e-483b-b2f3-f98feb2d653e#ref=rss",
+      "summary": "Russland hat einem Dreiertreffen mit den USA und der Ukraine zugestimmt. Der ukrainische Präsident Wolodymyr Selenskyj möchte schnellstmöglich mit den Gesprächen beginnen. Die russische Seite hat es offenbar weniger eilig.",
+      "image": "https://cdn.prod.www.spiegel.de/images/2b6e69b5-5eee-41a2-90f1-dfc1a7ad1b6f_w1200_r1.778_fpx66.67_fpy50.jpg",
+      "published": "2026-10-22T01:06:00+02:00",
+      "category": "Politik",
+      "score": 69.01
     },
     {
       "id": "deutsche-welle-08d61530f9db2a1b",
@@ -212,29 +211,7 @@
       "image": "https://static.dw.com/image/79713592_6.jpg",
       "published": "2026-10-21T11:43:00+00:00",
       "category": "Politik",
-      "score": 68.02
-    },
-    {
-      "id": "handelsblatt-7a17cd2fd504cb0d",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Elektroautos: Tesla mit Gewinneinbruch und stagnierendem Umsatz",
-      "link": "https://www.handelsblatt.com/technik/it-internet/elektroautos-tesla-mit-gewinneinbruch-und-stagnierendem-umsatz/100264040.html",
-      "summary": "Elon Musk will Tesla auf Roboter und Robotaxis ausrichten. Aktuell muss das Geld aber noch mit dem Verkauf von Elektroautos verdient werden - und da gab es zuletzt Rückgänge.",
-      "image": "https://images.handelsblatt.com/hzJRYADz428d/cover/900/506/0/0/126/125/0.5/0.5/tesla-werk-gruenheide.jpg",
-      "published": "2026-10-21T20:41:22+00:00",
-      "category": "Wirtschaft",
-      "score": 67.5,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "golem",
-            "title": "Elon Musk: \"Geld wird irrelevant werden\"",
-            "link": "https://www.golem.de/news/elon-musk-geld-wird-irrelevant-werden-2610-214352.html"
-          }
-        ]
-      }
+      "score": 66.52
     },
     {
       "id": "spiegel-14d3e9fd380b542e",
@@ -246,7 +223,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/7491dfaf-8ed9-4824-b33e-103cd7985803_w1200_r1.778_fpx32.67_fpy45.jpg",
       "published": "2026-10-21T19:21:00+02:00",
       "category": "Politik",
-      "score": 65.71
+      "score": 64.22
     },
     {
       "id": "golem-898dc6c193320eac",
@@ -258,29 +235,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214339&amp;page=1&amp;ts=1792570682",
       "published": "2026-10-21T10:18:02+02:00",
       "category": "Politik",
-      "score": 64.17
-    },
-    {
-      "id": "spiegel-e3202504b80088eb",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Nvidia: So umschmeichelt Jensen Huang die Deutschen",
-      "link": "https://www.spiegel.de/netzwelt/nvidia-so-umschmeichelt-jensen-huang-die-deutschen-a-04ce3383-1b03-403f-bd06-99beec57095e#ref=rss",
-      "summary": "Der Chipentwickler Nvidia schwimmt auf der KI-Erfolgswelle. In Berlin wirbt der Gründer für seine Robotik-Pläne und preist Europa als idealen Partner. Das Lob ist nicht ganz uneigennützig.",
-      "image": "https://cdn.prod.www.spiegel.de/images/7f0fb72b-06b0-4c67-8283-6d4bb347f4de_w1200_r1.778_fpx34_fpy58.jpg",
-      "published": "2026-10-21T16:52:00+02:00",
-      "category": "Technologie",
-      "score": 60.64,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Technologie: Nvidia präsentiert sich als Partner für Europas KI-Zukunft",
-            "link": "https://www.handelsblatt.com/technik/it-internet/technologie-nvidia-praesentiert-sich-als-partner-fuer-europas-ki-zukunft/100261884.html"
-          }
-        ]
-      }
+      "score": 62.67
     }
   ]
 }
