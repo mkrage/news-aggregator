@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-10-23T20:42:37.688213+00:00",
+  "generatedAt": "2026-10-23T22:24:02.226760+00:00",
   "count": 15,
   "articles": [
+    {
+      "id": "tagesschau-6ba2825fa12d2896",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Israel will Westjordanland nach Angriff in Hebron abriegeln",
+      "link": "https://www.tagesschau.de/ausland/israel-westjordanland-abriegelung-100.html",
+      "summary": "Nach einem Angriff nahe Hebron im Westjordanland hat Israels Militär den Tod von zwei Soldaten bestätigt. Die Zufahrten zur Stadt sind gesperrt - bald soll die Armee das ganze Westjordanland abriegeln. Von B. Meier. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/fb67e229-3cce-48c8-a0a3-4c3628c69bd5/AAABoWlmaqk/AAABnSSvrFg/16x9-big/soldaten-hebron-100.jpg?width=1920",
+      "published": "2026-10-23T18:31:33+02:00",
+      "category": "Politik",
+      "score": 83.1,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Nahost - Israel bereitet vollständige Abriegelung des Westjordanlands vor",
+            "link": "https://www.deutschlandfunk.de/israel-bereitet-vollstaendige-abriegelung-des-westjordanlands-vor-110.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Nahost: Israel startet im Westjordanland „Anti-Terror-Operation“",
+            "link": "https://www.handelsblatt.com/politik/international/nahost-israel-startet-im-westjordanland-anti-terror-operation/100264615.html"
+          }
+        ]
+      }
+    },
     {
       "id": "tagesschau-f5cb9700447845b8",
       "source": "tagesschau",
@@ -12,7 +39,7 @@
       "image": "https://images.tagesschau.de/image/a111bf3a-9485-4c36-82cc-c621e4893902/AAABoWlYGkY/AAABnSSvrFg/16x9-big/gebaeude-oleshky-100.jpg?width=1920",
       "published": "2026-10-23T19:26:28+02:00",
       "category": "Politik",
-      "score": 84.28,
+      "score": 82.87,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -44,61 +71,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/d0795491-01b8-4a59-9edb-84fb18af9df5_w1200_r1.778_fpx43_fpy19.jpg",
       "published": "2026-10-23T19:35:00+02:00",
       "category": "Politik",
-      "score": 83.39
-    },
-    {
-      "id": "tagesschau-18e0529265c14e3c",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Trump soll Musk gebeten haben, Drosselung aufzuheben",
-      "link": "https://www.tagesschau.de/ausland/amerika/musk-trump-starlink-ukraine-100.html",
-      "summary": "Das ukrainische Militär beklagt eine Drosselung von Elon Musks Satelliten-Internetdienst. Laut einem Medienbericht soll Trump nun die Aufhebung befohlen haben. Der US-Präsident bezieht selbst Stellung dazu - doch viele Fragen bleiben offen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/2d6848ac-69ef-479f-9886-bc509408a43a/AAABoWdSspw/AAABnSSvrFg/16x9-big/trump-musk-126.jpg?width=1920",
-      "published": "2026-10-23T04:28:21+02:00",
-      "category": "Politik",
-      "score": 82.1,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Satelliten-Dienst - US-Präsident Trump: Musk hat Starlink-Zugang für Ukraine wiederhergestellt",
-            "link": "https://www.deutschlandfunk.de/us-praesident-trump-musk-hat-starlink-zugang-fuer-ukraine-wiederhergestellt-100.html"
-          },
-          {
-            "source": "golem",
-            "title": "Starlink: Trump soll Musk zu Aufhebung von Drosselung gedrängt haben",
-            "link": "https://www.golem.de/news/starlink-trump-soll-musk-zu-aufhebung-von-drosselung-gedraengt-haben-2610-214422.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-6ba2825fa12d2896",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Israel will Westjordanland nach Angriff in Hebron abriegeln",
-      "link": "https://www.tagesschau.de/ausland/israel-westjordanland-abriegelung-100.html",
-      "summary": "Nach einem Angriff nahe Hebron im Westjordanland hat Israels Militär den Tod von zwei Soldaten bestätigt. Die Zufahrten zur Stadt sind gesperrt - bald soll die Armee das ganze Westjordanland abriegeln. Von B. Meier. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/fb67e229-3cce-48c8-a0a3-4c3628c69bd5/AAABoWlmaqk/AAABnSSvrFg/16x9-big/soldaten-hebron-100.jpg?width=1920",
-      "published": "2026-10-23T18:31:33+02:00",
-      "category": "Politik",
-      "score": 82.1,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Nahost - Israel bereitet vollständige Abriegelung des Westjordanlands vor",
-            "link": "https://www.deutschlandfunk.de/israel-bereitet-vollstaendige-abriegelung-des-westjordanlands-vor-100.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "+++ Iran-Krieg +++: Israel bereitet Abriegelung des Westjordanlands vor",
-            "link": "https://www.handelsblatt.com/politik/international/iran-krieg-israel-bereitet-abriegelung-des-westjordanlands-vor/100136895.html"
-          }
-        ]
-      }
+      "score": 81.99
     },
     {
       "id": "tagesschau-41d379bccefc0b42",
@@ -110,7 +83,7 @@
       "image": "https://images.tagesschau.de/image/f044cdb3-68fc-4ead-b1f3-edf8215a3899/AAABoVSbZqI/AAABnSSvrFg/16x9-big/wahlplakat-tel-aviv-102.jpg?width=1920",
       "published": "2026-10-23T11:33:59+02:00",
       "category": "Politik",
-      "score": 77.71
+      "score": 76.3
     },
     {
       "id": "handelsblatt-473c4644260f1965",
@@ -122,19 +95,7 @@
       "image": "https://images.handelsblatt.com/xLk9BY-xWVvd/cover/900/506/0/0/107/106/0.5/0.5/ukraine-krieg-oleschky.jpg",
       "published": "2026-10-23T20:04:51+00:00",
       "category": "Politik",
-      "score": 76.48
-    },
-    {
-      "id": "deutschlandfunk-57fd22e61f9323f3",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Angriffskrieg - Ukraine: großflächige Stromausfälle nach russischen Angriffen",
-      "link": "https://www.deutschlandfunk.de/ukraine-grossflaechige-stromausfaelle-nach-russischen-angriffen-104.html",
-      "summary": "Die russischen Streitkräfte haben erneut Energieanlagen in der Ukraine angegriffen.",
-      "image": "https://bilder.deutschlandfunk.de/46/d4/c0/26/46d4c026-5d1a-458c-b3c8-7a4a1e3225ef/ukraine-russland-krieg-angriff-drohnen-raketen-kiew-106-1920x1920.jpg",
-      "published": "2026-10-23T20:49:04+02:00",
-      "category": "Politik",
-      "score": 76.42
+      "score": 75.07
     },
     {
       "id": "handelsblatt-95cd8249f71c8eeb",
@@ -146,7 +107,7 @@
       "image": "https://images.handelsblatt.com/RPL-KhbY1mqS/cover/900/506/0/0/107/106/0.5/0.5/vorwahl-im-us-bundesstaat-alaska.jpg",
       "published": "2026-10-23T18:50:53+00:00",
       "category": "Politik",
-      "score": 75.45
+      "score": 74.04
     },
     {
       "id": "spiegel-21c746e7607c4902",
@@ -158,7 +119,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/ce6de6c1-3d7f-4ab4-a4fa-7f263454b3b4_w1200_r1.778_fpx33.34_fpy50.jpg",
       "published": "2026-10-23T18:30:00+02:00",
       "category": "Politik",
-      "score": 74.49
+      "score": 73.08
     },
     {
       "id": "handelsblatt-c5b177e8210c865f",
@@ -170,7 +131,7 @@
       "image": "https://images.handelsblatt.com/49HFUEijo9G8/cover/900/506/0/0/0/0/0.5/0.5/politologe-fukuyama.jpg",
       "published": "2026-10-23T16:40:21+00:00",
       "category": "Politik",
-      "score": 73.64
+      "score": 72.23
     },
     {
       "id": "spiegel-e91e033ab80658c2",
@@ -182,7 +143,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/6135a73e-b95c-497c-9640-82894fbb0804_w1200_r1.778_fpx93_fpy29.jpg",
       "published": "2026-10-23T16:28:00+02:00",
       "category": "Politik",
-      "score": 72.8
+      "score": 71.39
     },
     {
       "id": "deutsche-welle-a154d91c79604403",
@@ -194,31 +155,41 @@
       "image": "https://static.dw.com/image/79741053_6.jpg",
       "published": "2026-10-23T11:40:00+00:00",
       "category": "Politik",
-      "score": 69.46
+      "score": 68.06
     },
     {
-      "id": "deutschlandfunk-6227386ade2e772f",
+      "id": "deutschlandfunk-9315f12af6c0f24c",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Vor Parlamentswahl - Serbien: Zehntausende Anhänger der Opposition demonstrieren in Belgrad",
-      "link": "https://www.deutschlandfunk.de/serbien-zehntausende-anhaenger-der-opposition-demonstrieren-in-belgrad-102.html",
-      "summary": "Drei Tage vor der Parlamentswahl in Serbien haben zehntausende Anhänger der oppositionellen Studentenliste demonstriert.",
-      "image": "https://bilder.deutschlandfunk.de/c0/cf/7b/01/c0cf7b01-ca25-4008-af33-4364418cb660/serbien-belgrad-demonstration-protest-100-1920x1920.jpg",
-      "published": "2026-10-23T20:49:04+02:00",
+      "title": "Ukraine - Russland und die Ukraine vereinbaren humanitäre Feuerpause für Oleschky",
+      "link": "https://www.deutschlandfunk.de/russland-und-die-ukraine-vereinbaren-humanitaere-feuerpause-fuer-oleschky-112.html",
+      "summary": "Russland und die Ukraine haben sich nach Angaben aus Washington auf eine vorübergehende Feuerpause für die südukrainische Stadt Oleschky verständigt.",
+      "image": "https://bilder.deutschlandfunk.de/b3/b0/11/3e/b3b0113e-c1f6-4e3f-b8c4-4d4cac67021e/melania-trump-100-1920x1920.jpg",
+      "published": "2026-10-23T21:16:39+02:00",
       "category": "Politik",
-      "score": 68.42
+      "score": 67.4
     },
     {
-      "id": "deutschlandfunk-816b94c0f35107ce",
+      "id": "deutschlandfunk-9a1fd21cf7b5073d",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Bericht - Seit Trumps Amtsübernahme: Fast eine Million Abschiebungen aus den USA",
-      "link": "https://www.deutschlandfunk.de/seit-trumps-amtsuebernahme-fast-eine-million-abschiebungen-aus-den-usa-100.html",
-      "summary": "In den USA sind seit dem Amtsantritt von Präsident Trump im vergangenen Jahr 980.000 Menschen abgeschoben werden.",
-      "image": "https://bilder.deutschlandfunk.de/NO/VA/_6/07/NOVA_6076f1c95997fb37efac7951b380e557/craft-13233416-asset-100-1920x1920.jpg",
-      "published": "2026-10-23T20:49:04+02:00",
+      "title": "Energieversorgung - Bundesregierung gibt weiteren Teil der Ölreserve frei",
+      "link": "https://www.deutschlandfunk.de/bundesregierung-gibt-weiteren-teil-der-oelreserve-frei-106.html",
+      "summary": "Deutschland gibt weitere Ölreserven frei.",
+      "image": "https://bilder.deutschlandfunk.de/e1/bd/7a/74/e1bd7a74-c299-4772-956d-2f80da712540/nationale-oelreserven-verbrauch-lager-bundeswirtschaftsministerium-100-1280x1280.jpg",
+      "published": "2026-10-23T21:16:39+02:00",
       "category": "Politik",
-      "score": 68.42
+      "score": 67.4,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Energieversorgung: Bundesregierung gibt weiteren Teil der Ölreserve frei",
+            "link": "https://www.handelsblatt.com/politik/deutschland/energieversorgung-bundesregierung-gibt-weiteren-teil-der-oelreserve-frei/100264572.html"
+          }
+        ]
+      }
     },
     {
       "id": "netzpolitik-1b1c23e4f18ef7cc",
@@ -230,7 +201,41 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/10/Pfeil_Silvan-Arnet_Unsplash.jpg",
       "published": "2026-10-23T12:45:30+00:00",
       "category": "Politik",
-      "score": 67.37
+      "score": 65.96
+    },
+    {
+      "id": "golem-595bea0aea9dee5d",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Daten-Omnibus: EU-Ministerrat will Datenschutz für KI-Training lockern",
+      "link": "https://www.golem.de/news/daten-omnibus-eu-ministerrat-will-datenschutz-fuer-ki-training-lockern-2610-214448.html",
+      "summary": "Der EU-Ministerrat hat sich beim Daten-Omnibus geeinigt. KI-Training mit persönlichen Daten soll einfacher werden. ( DSGVO , Datenschutz )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214448&amp;page=1&amp;ts=1792758421",
+      "published": "2026-10-23T14:27:01+02:00",
+      "category": "Politik",
+      "score": 59.71,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "netzpolitik",
+            "title": "EU-Länder einig beim Daten-Omnibus: Mehr KI-Training, weniger Datenschutz",
+            "link": "https://netzpolitik.org/2026/eu-laender-einig-beim-daten-omnibus-mehr-ki-training-weniger-datenschutz/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutsche-welle-e48a8ee331d35367",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "Erneute Wahlverschiebung in Guinea-Bissau: Politisches Chaos hält an",
+      "link": "https://www.dw.com/de/erneute-wahlverschiebung-in-guinea-bissau-politisches-chaos-hält-an/a-79729647?maca=de-rss-de-all-1119-rdf",
+      "summary": "Die für den 6. Dezember angekündigten Wahlen in Guinea-Bissau sind auf unbestimmte Zeit verschoben. Ein neuer Termin steht nicht fest. Die Rückkehr zu einer zivilen Regierung bleibt ungewiss.",
+      "image": "https://static.dw.com/image/74915625_6.jpg",
+      "published": "2026-10-23T10:26:00+00:00",
+      "category": "Politik",
+      "score": 59.03
     }
   ]
 }
