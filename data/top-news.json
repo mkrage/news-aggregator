@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T07:40:14.878756+00:00",
+  "generatedAt": "2026-10-24T12:17:44.465247+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,19 +12,24 @@
       "image": "https://images.tagesschau.de/image/165069c4-ef89-4bc5-a057-14b8a0dfd86e/AAABoWsq8OM/AAABnSSvrFg/16x9-big/israel-westjordanland-142.jpg?width=1920",
       "published": "2026-10-24T03:01:43+02:00",
       "category": "Politik",
-      "score": 86.92,
+      "score": 89.4,
       "coverage": {
-        "sourceCount": 4,
+        "sourceCount": 5,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "Nach tödlichem Angriff - Israelische Armee startet Großoffensive im Westjordanland",
-            "link": "https://www.deutschlandfunk.de/israelische-armee-startet-grossoffensive-im-westjordanland-102.html"
+            "link": "https://www.deutschlandfunk.de/israelische-armee-startet-grossoffensive-im-westjordanland-104.html"
           },
           {
             "source": "spiegel",
-            "title": "Israel startet »Anti-Terror-Operation« im Westjordanland",
+            "title": "Israel: Armee startet »Anti-Terror-Operation« im Westjordanland",
             "link": "https://www.spiegel.de/ausland/israel-startet-anti-terror-operation-im-westjordanland-a-8cbc7e56-580a-48a8-a316-03807df8852d#ref=rss"
+          },
+          {
+            "source": "deutsche-welle",
+            "title": "Israel beginnt \"Anti-Terror-Einsatz\" im Westjordanland",
+            "link": "https://www.dw.com/de/israel-beginnt-anti-terror-einsatz-im-westjordanland/a-79749417?maca=de-rss-de-all-1119-rdf"
           },
           {
             "source": "handelsblatt",
@@ -35,50 +40,38 @@
       }
     },
     {
-      "id": "deutschlandfunk-b660d715ec445f6f",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Ukraine - Moskau und Kiew bestätigen Einigung auf Waffenruhe in Oleschky",
-      "link": "https://www.deutschlandfunk.de/moskau-und-kiew-bestaetigen-einigung-auf-waffenruhe-in-oleschky-106.html",
-      "summary": "Russland und die Ukraine haben eine lokal begrenzte Waffenruhe in der seit Monaten abgeriegelten Frontstadt Oleschky bestätigt.",
-      "image": "https://bilder.deutschlandfunk.de/28/84/d2/03/2884d203-a92e-4a15-be3c-1b42e072a136/oleschky-oleshky-ukraine-kiew-kundgebung-demonstration-demonstranten-solidaritaet-hunger-russland-100-1920x1920.jpg",
-      "published": "2026-10-24T09:34:27+02:00",
+      "id": "tagesschau-ceaeb8e339d7bec1",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Krieg gegen die Ukraine: Starlink funktioniert wieder stabil",
+      "link": "https://www.tagesschau.de/ausland/amerika/musk-starlink-ukraine-102.html",
+      "summary": "Die Satellitenkommunikation von SpaceX in der Ukraine funktioniert nach Angaben aus Kiew wieder stabil. Die ukrainische Armee meldet derweil Angriffe auf russische Industrieanlagen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/0232602b-a10d-4723-ad50-6e379705e159/AAABoW2n8k0/AAABnSSvrFg/16x9-big/starlink-ukraine-108.jpg?width=1920",
+      "published": "2026-10-24T13:24:45+02:00",
       "category": "Politik",
-      "score": 77.92,
+      "score": 86.82,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "handelsblatt",
-            "title": "Die Lage im Überblick: Waffenruhe um Frontstadt Oleschky - Zeichen aus Moskau?",
-            "link": "https://www.handelsblatt.com/politik/international/die-lage-im-ueberblick-waffenruhe-um-frontstadt-oleschky-zeichen-aus-moskau/100264605.html"
+            "source": "deutschlandfunk",
+            "title": "Russischer Angriffskrieg - Starlink-Satellitensystem funktioniert wieder über der Ukraine - Waffenstillstand für Oleschky bestätigt",
+            "link": "https://www.deutschlandfunk.de/starlink-satellitensystem-funktioniert-wieder-ueber-der-ukraine-waffenstillstand-fuer-oleschky-besta-100.html"
           }
         ]
       }
     },
     {
-      "id": "tagesschau-f4bd6247c3dd278d",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "US-Midterms: Die Sorge vor einer neuen Wahllüge Trumps",
-      "link": "https://www.tagesschau.de/ausland/amerika/usa-midterms-trump-wahlbetrug-100.html",
-      "summary": "Seitdem Trump vor sechs Jahren gegen Biden verlor, leugnet er das Wahlergebnis. Die Lüge ist Doktrin in seiner Partei, viele US-Bürger haben sie verinnerlicht. Was, wenn die Republikaner nun die Zwischenwahlen verlieren sollten? Von C. Kühntopp. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/4977a173-9125-438b-8829-a8dfddff63aa/AAABoWwMbfI/AAABnSSvrFg/16x9-big/trump-dallas-100.jpg?width=1920",
-      "published": "2026-10-24T06:10:57+02:00",
+      "id": "handelsblatt-2208e425503aefcc",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Trump-Watch: Warum Israel und der Iran-Krieg Trumps Basis spalten – mit Politologe Sascha Lohmann",
+      "link": "https://www.handelsblatt.com/audio/trump-watch-podcast/trump-watch-warum-israel-und-der-iran-krieg-trumps-basis-spalten/100264634.html",
+      "summary": "Laut einer Umfrage liegen die Sympathien der Amerikaner erstmals eher bei den Palästinensern als bei Israel. Was heißt das für die Midterms? SWP-Experte Sascha Lohmann ordnet ein.",
+      "image": "https://images.handelsblatt.com/ajuKMP7NmADk/cover/900/506/0/0/210/1103/0.5/0.5/cover-podcast-trump-watch.jpg",
+      "published": "2026-10-24T09:42:27+00:00",
       "category": "Politik",
-      "score": 76.09
-    },
-    {
-      "id": "spiegel-865714e34065dfb3",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Israel vor der Wahl: Kommt jetzt das Ende der Ära Benjamin Netanyahu? – Podcast",
-      "link": "https://www.spiegel.de/ausland/israel-vor-der-wahl-kommt-jetzt-das-ende-der-aera-benjamin-netanyahu-podcast-a-90a5d94a-fcbc-4a3c-971d-7a415bb10180#ref=rss",
-      "summary": "Vor der ersten Wahl in Israel seit dem Hamas-Überfall sehen die Umfragen weder Premier Netanyahu noch seinen Herausforderer vorn. Wie dennoch eine neue Ära beginnen könnte, beschreibt Korrespondent Thore Schröder.",
-      "image": "https://cdn.prod.www.spiegel.de/images/7e7c9471-19a0-4781-8c8e-19199fc5f15e_w1200_r1.778_fpx53.99_fpy44.99.jpg",
-      "published": "2026-10-24T07:10:00+02:00",
-      "category": "Politik",
-      "score": 75.91
+      "score": 82.84
     },
     {
       "id": "tagesschau-6a7b2c7f349b6ccd",
@@ -87,64 +80,61 @@
       "title": "Verletzte und Schäden nach \"Sturmtief\" Luise",
       "link": "https://www.tagesschau.de/inland/herbststurm-104.html",
       "summary": "Bäume und Äste auf Straßen und Gleisen, ein umgestürztes Gestell: Sturmtief \"Luise\" ist über Teile Deutschlands hinweggefegt. Zwei Menschen wurden schwer verletzt. Mit \"Manja\" zieht schon der nächste Sturm heran.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/4f94b55b-b20d-478d-bbc4-8acf7de00c9b/AAABoWy_tvE/AAABnSSvrFg/16x9-big/sturmtief-148.jpg?width=1920",
-      "published": "2026-10-24T09:31:39+02:00",
+      "image": "https://images.tagesschau.de/image/2ce64551-8a79-4617-a4f3-892486cb272c/AAABoW0Znzo/AAABnSSvrFg/16x9-big/feuerwehreinsatz-duisburg-100.jpg?width=1920",
+      "published": "2026-10-24T10:59:50+02:00",
       "category": "Nachrichten",
-      "score": 75.88,
+      "score": 80.5,
       "coverage": {
-        "sourceCount": 2,
+        "sourceCount": 3,
         "others": [
           {
+            "source": "deutschlandfunk",
+            "title": "Herbststurm \"Luise\" - Sturmtief sorgt für Zugausfälle und Verspätungen bei der Bahn, zwei Schwerverletzte auf Stadtfest",
+            "link": "https://www.deutschlandfunk.de/sturmtief-sorgt-fuer-zugausfaelle-und-verspaetungen-bei-der-bahn-zwei-schwerverletzte-auf-stadtfest-116.html"
+          },
+          {
             "source": "spiegel",
-            "title": "Herbstwetter in Deutschland: Verletzte und Bahnchaos wegen Sturm – Sonntag drohen Orkanböen",
-            "link": "https://www.spiegel.de/panorama/herbstwetter-in-deutschland-verletzte-und-bahnchaos-wegen-sturm-sonntag-drohen-orkanboeen-a-65d85963-3487-4e10-9466-c9cfa5c6c3e6#ref=rss"
+            "title": "Wetter in Deutschland: Sturm sorgt für Verletzte und Bahn-Chaos – Sonntag drohen Orkanböen",
+            "link": "https://www.spiegel.de/panorama/wetter-in-deutschland-sturm-sorgt-fuer-verletzte-und-bahn-chaos-sonntag-drohen-orkanboeen-a-65d85963-3487-4e10-9466-c9cfa5c6c3e6#ref=rss"
           }
         ]
       }
     },
     {
-      "id": "tagesschau-f5cb9700447845b8",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Vermittelt durch Melania Trump - Waffenruhe für besetzte ukrainische Stadt",
-      "link": "https://www.tagesschau.de/ausland/melania-trump-waffenruhe-oleschky-100.html",
-      "summary": "Die humanitäre Lage in der von Russland besetzten ukrainischen Stadt Oleschky ist dramatisch. Nun gibt es Hoffnung für eine Evakuierung. Das Weiße Haus gab eine lokale Waffenruhe bekannt - vermittelt durch First Lady Melania Trump.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/a111bf3a-9485-4c36-82cc-c621e4893902/AAABoWlYGkY/AAABnSSvrFg/16x9-big/gebaeude-oleshky-100.jpg?width=1920",
-      "published": "2026-10-23T19:26:28+02:00",
-      "category": "Politik",
-      "score": 75.14,
-      "coverage": {
-        "sourceCount": 4,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Ukraine: Melania Trump verkündet lokale Waffenruhe, Russland und Kyjiw bestätigen",
-            "link": "https://www.spiegel.de/ausland/ukraine-russland-krieg-melania-trump-verkuendet-lokale-waffenruhe-verkuenden-kreml-und-kyjiw-bestaetigen-a-7c266a41-621e-4d77-80d8-cc4dd675ecf6#ref=rss"
-          },
-          {
-            "source": "deutsche-welle",
-            "title": "USA: Waffenruhe für ukrainische Stadt Oleschky vereinbart",
-            "link": "https://www.dw.com/de/usa-waffenruhe-für-ukrainische-stadt-oleschky-vereinbart/a-79745990?maca=de-rss-de-all-1119-rdf"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "+++ Ukraine-Krieg +++: Weißes Haus: Melania Trump vermittelt lokale Waffenruhe in der Ukraine – Bestätigung",
-            "link": "https://www.handelsblatt.com/politik/international/ukraine-weisses-haus-melania-trump-vermittelt-lokale-waffenruhe/27982126.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-af3ea697e64fb5f8",
+      "id": "spiegel-9afd401373392ff0",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Darline Graham: Donald Trump verrät ihren Bruder Lindsey – fünf Tage später macht sie Wahlkampf mit ihm",
-      "link": "https://www.spiegel.de/ausland/darline-graham-donald-trump-verraet-ihren-bruder-lindsey-fuenf-tage-spaeter-macht-sie-wahlkampf-mit-ihm-a-906d3578-7439-46f5-89f1-e05de781108e#ref=rss",
-      "summary": "Lindsey Graham war der wichtigste Ukrainefreund in Trumps Lager. Seine Schwester erbte den Senatssitz. Nun kippt Trump die Russlandsanktionen, die den Namen ihres Bruders tragen. Und Darline Graham? Umgarnt den Präsidenten.",
-      "image": "https://cdn.prod.www.spiegel.de/images/0f68d5ae-9701-4fe9-a05f-5c24e1151e5d_w1200_r1.778_fpx55.33_fpy44.98.jpg",
-      "published": "2026-10-23T19:35:00+02:00",
+      "title": "Ukraine-Krieg: Norbert Röttgen (CDU) sieht Donald Trump auf der Seite von Russland",
+      "link": "https://www.spiegel.de/ausland/norbert-roettgen-cdu-trump-steht-aktuell-auf-der-seite-russlands-a-18dce848-6af9-4f65-9a27-5704ac8c2da1#ref=rss",
+      "summary": "Trump wolle »den Konflikt mit einem Deal beenden, für den er zu weitgehenden Konzessionen bereit ist«, sagt CDU-Außenpolitiker Norbert Röttgen. Der US-Präsident stehe auf der Seite von Putin. Europa müsse dagegenhalten.",
+      "image": "https://cdn.prod.www.spiegel.de/images/cd857946-83c2-4273-b689-b2f3d1f763ae_w1200_r1.778_fpx64.64_fpy55.jpg",
+      "published": "2026-10-24T07:23:00+02:00",
       "category": "Politik",
-      "score": 74.26
+      "score": 80.24
+    },
+    {
+      "id": "deutschlandfunk-c298dff92c59f47c",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Naher Osten - Aufwind für die Opposition: Das ist die Lage vor der Parlamentswahl in Israel",
+      "link": "https://www.deutschlandfunk.de/aufwind-fuer-die-opposition-das-ist-die-lage-vor-der-parlamentswahl-in-israel-100.html",
+      "summary": "Am Dienstag wählt Israel ein neues Parlament. Die Wahl wird auch als Volksurteil über die Politik von Ministerpräsident Netanjahu nach dem Hamas-Angriff am 7. Oktober 2023 betrachtet. In den vergangenen Wochen hat eine Oppositionspartei viel Aufschwung bekommen.",
+      "image": "https://bilder.deutschlandfunk.de/69/d7/60/65/69d76065-b74a-4f64-a559-b751164f106a/israel-knesset-wahlen-100-1920x1920.jpg",
+      "published": "2026-10-24T14:04:59+02:00",
+      "category": "Politik",
+      "score": 77.82
+    },
+    {
+      "id": "spiegel-827d6afd20dbdc22",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Ron Lauder: Langjähriger Netanjahu-Vertrauter warnt vor dessen Wiederwahl",
+      "link": "https://www.spiegel.de/ausland/ron-lauder-langjaehriger-netanjahu-vertrauter-warnt-vor-dessen-wiederwahl-a-214a00ad-e2e2-4667-9547-4127f48b548e#ref=rss",
+      "summary": "Kurz vor den Wahlen in Israel hat ein ehemaliger Netanyahu-Vertrauter sein Schweigen gebrochen: Der Präsident des Jüdischen Weltkongresses, Ron Lauder, bezeichnete Israels Regierungschef als »Diktator«.",
+      "image": "https://cdn.prod.www.spiegel.de/images/9a428f6a-edd8-455c-9dcc-8fbae8464c6d_w1200_r1.778_fpx59.31_fpy44.99.jpg",
+      "published": "2026-10-24T13:50:00+02:00",
+      "category": "Politik",
+      "score": 77.61
     },
     {
       "id": "deutschlandfunk-a6142f856a878360",
@@ -154,113 +144,108 @@
       "link": "https://www.deutschlandfunk.de/nach-hacks-openai-will-spitzen-ki-ohne-internet-trainieren-102.html",
       "summary": "Das US-Softwareunternehmen Open AI hat angekündigt, seine leistungsstärksten Modelle Künstlicher Intelligenz künftig ohne direkten Internet-Zugang zu trainieren.",
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_3/47/NOVA_3474641a937642ab2db74ef6342d435b/craft-13409269-asset-100-1920x1920.jpg",
-      "published": "2026-10-24T09:34:27+02:00",
+      "published": "2026-10-24T14:04:59+02:00",
       "category": "Wirtschaft",
-      "score": 69.92,
+      "score": 74.5,
       "coverage": {
-        "sourceCount": 2,
+        "sourceCount": 3,
         "others": [
           {
             "source": "handelsblatt",
             "title": "Künstliche Intelligenz: Nach Hacks: OpenAI will Spitzen-KI ohne Internet trainieren",
             "link": "https://www.handelsblatt.com/technik/it-internet/kuenstliche-intelligenz-nach-hacks-openai-will-spitzen-ki-ohne-internet-trainieren/100264618.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-a778a558ef0deda5",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "ÖPNV - Verkehrsminister Bilger: Deutschlandticket für Gelegenheitsfahrerer ist \"spannende Idee\"",
-      "link": "https://www.deutschlandfunk.de/verkehrsminister-bilger-deutschlandticket-fuer-gelegenheitsfahrerer-ist-spannende-idee-100.html",
-      "summary": "Bundesverkehrsminister Bilger begrüßt den Vorschlag eines bundesweiten Tickets für gelegentliche Fahrten mit öffentlichen Verkehrsmitteln.",
-      "image": "https://bilder.deutschlandfunk.de/71/a1/d4/ba/71a1d4ba-1015-4364-8f3b-97bf4faeff8c/verkehrsminister-bilger-100-1920x1920.jpg",
-      "published": "2026-10-24T09:34:27+02:00",
-      "category": "Politik",
-      "score": 69.92,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
+          },
           {
-            "source": "spiegel",
-            "title": "Verkehrsminister Steffen Bilger nennt Deutschlandticket für Gelegenheitsfahrer »spannende Idee«",
-            "link": "https://www.spiegel.de/politik/verkehrsminister-steffen-bilger-nennt-deutschlandticket-fuer-gelegenheitsfahrer-spannende-idee-a-47cd5579-0a22-4298-a839-5eafd7495352#ref=rss"
+            "source": "golem",
+            "title": "Ausbruchsgefahr: OpenAI sperrt seine KI-Modelle vom Internet aus",
+            "link": "https://www.golem.de/news/ausbruchsgefahr-openai-sperrt-seine-ki-modelle-vom-internet-aus-2610-214474.html"
           }
         ]
       }
     },
     {
-      "id": "spiegel-9afd401373392ff0",
+      "id": "spiegel-3f39bf8ebbfe5aef",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Norbert Röttgen (CDU): »Trump steht aktuell auf der Seite Russlands«",
-      "link": "https://www.spiegel.de/ausland/norbert-roettgen-cdu-trump-steht-aktuell-auf-der-seite-russlands-a-18dce848-6af9-4f65-9a27-5704ac8c2da1#ref=rss",
-      "summary": "Trump wolle »den Konflikt mit einem Deal beenden, für den er zu weitgehenden Konzessionen bereit ist«, sagt CDU-Außenpolitiker Norbert Röttgen. Der US-Präsident stehe auf der Seite von Putin. Europa müsse dagegenhalten.",
-      "image": "https://cdn.prod.www.spiegel.de/images/cd857946-83c2-4273-b689-b2f3d1f763ae_w1200_r1.778_fpx64.64_fpy55.jpg",
-      "published": "2026-10-24T07:23:00+02:00",
+      "title": "Berlin: SPD-Mann Wolfgang Thierse rät zu unabhängigem Regierungschef",
+      "link": "https://www.spiegel.de/politik/deutschland/wolfgang-thierse-ex-bundestagspraesident-von-der-spd-raet-zu-unabhaengigem-regierungschef-in-berlin-a-78d4f98f-e83d-49bb-9e8c-a3e1beb9b50e#ref=rss",
+      "summary": "Nach der Wahl in der Hauptstadt rät der ehemalige Bundestagspräsident Wolfgang Thierse der SPD dringend, ein Bündnis mit der Linken zu vermeiden. Er schlägt eine Alternative für die Regierungsbildung vor.",
+      "image": "https://cdn.prod.www.spiegel.de/images/3ef351cf-c673-41b1-97a8-8c7e3483490b_w1200_r1.778_fpx52.55_fpy55.jpg",
+      "published": "2026-10-24T09:59:00+02:00",
       "category": "Politik",
-      "score": 68.09
+      "score": 74.41
     },
     {
-      "id": "handelsblatt-95cd8249f71c8eeb",
+      "id": "handelsblatt-65de9ed19f20d3a8",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Midterms: Namen bei Wahl zu ähnlich? Trump befiehlt Klage gegen Alaska",
-      "link": "https://www.handelsblatt.com/politik/international/midterms-namen-bei-wahl-zu-aehnlich-trump-befiehlt-klage-gegen-alaska/100264607.html",
-      "summary": "Ein abgekartetes Spiel der Demokraten oder doch reiner Zufall? Im nördlichsten US-Bundesstaat konkurrieren zwei Republikaner um einen Senatsposten. Nun hat sich der Präsident eingeschaltet.",
-      "image": "https://images.handelsblatt.com/RPL-KhbY1mqS/cover/900/506/0/0/107/106/0.5/0.5/vorwahl-im-us-bundesstaat-alaska.jpg",
-      "published": "2026-10-23T18:50:53+00:00",
+      "title": "Israel: Netanjahu könnte die Wahl verlieren – und dennoch regieren",
+      "link": "https://www.handelsblatt.com/politik/international/israel-netanjahu-koennte-die-wahl-verlieren-und-dennoch-regieren/100260417.html",
+      "summary": "Laut allen Umfragen der vergangenen Monate verliert Israels Premier seine Mehrheit. Es gibt allerdings drei Szenarien, wie er dennoch an der Macht bleiben könnte.",
+      "image": "https://images.handelsblatt.com/dIxB3hNFXQSv/cover/900/506/0/0/107/106/0.5/0.5/israels-ministerpraesident-benjamin-netanjahu.jpg",
+      "published": "2026-10-24T08:00:00+00:00",
       "category": "Politik",
-      "score": 66.31
+      "score": 73.42
     },
     {
-      "id": "handelsblatt-c5b177e8210c865f",
+      "id": "handelsblatt-f05ff5b0cf2ecc6e",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Deep Read: Politikforscher Francis Fukuyama im Interview: „Der Widerstand gegen den Trumpismus hat begonnen“",
-      "link": "https://www.handelsblatt.com/politik/international/francis-fukuyama-der-widerstand-gegen-den-trumpismus-hat-begonnen/100262978.html",
-      "summary": "Verliert Trump die Zwischenwahlen, könnte er großen Schaden anrichten, warnt Politologe Francis Fukuyama – und fürchtet außenpolitische Abenteuer des Präsidenten. Ist Amerikas Demokratie noch zu retten?",
-      "image": "https://images.handelsblatt.com/49HFUEijo9G8/cover/900/506/0/0/0/0/0.5/0.5/politologe-fukuyama.jpg",
-      "published": "2026-10-23T16:40:21+00:00",
+      "title": "Zollstreit: Trump hebt Zölle auf bestimmte kanadische Waren auf",
+      "link": "https://www.handelsblatt.com/politik/international/zollstreit-trump-hebt-zoelle-auf-bestimmte-kanadische-waren-auf/100264655.html",
+      "summary": "Kurz vor den Zwischenwahlen am 3. November lockert das Weiße Haus die Zölle auf Agrar- und Forstprodukte aus Kanada. Andere Güter wurden jedoch neu auf die Liste gesetzt.",
+      "image": "https://images.handelsblatt.com/z1DtvGQirR3X/cover/900/506/0/0/121/121/0.5/0.5/urnnewsmldpa.com20090101260824-935-1563003.jpg",
+      "published": "2026-10-24T07:38:19+00:00",
       "category": "Politik",
-      "score": 64.5
+      "score": 73.12
     },
     {
-      "id": "handelsblatt-dcb9e32c0a7cba03",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Keine Ausnahme von EU-Verbot: Dänemark stoppt Nerzzucht",
-      "link": "https://www.handelsblatt.com/technik/forschung-innovation/keine-ausnahme-von-eu-verbot-daenemark-stoppt-nerzzucht/100264588.html",
-      "summary": "In der Corona-Pandemie tötete Dänemark aus Sorge vor dem Virus 15 Millionen Nerze. Später wurde die Zucht wieder erlaubt. Jetzt kommt das endgültige Aus: Spätestens 2029 ist Schluss mit Pelzfarmen.",
-      "image": "https://images.handelsblatt.com/9vojNtij6wJX/cover/900/506/0/0/107/106/0.5/0.5/nerzzucht-in-daenemark.jpg",
-      "published": "2026-10-23T15:43:01+00:00",
-      "category": "Wirtschaft",
-      "score": 63.71
-    },
-    {
-      "id": "deutsche-welle-a154d91c79604403",
+      "id": "deutsche-welle-3e136f4056d49786",
       "source": "deutsche-welle",
       "sourceWeight": 0.9,
-      "title": "Netanjahu stellt Abriegelung des Westjordanlands in Aussicht",
-      "link": "https://www.dw.com/de/netanjahu-stellt-abriegelung-des-westjordanlands-in-aussicht/a-79742127?maca=de-rss-de-all-1119-rdf",
-      "summary": "Der israelische Regierungschef muss bei der Wahl am Dienstag um seine Wiederwahl zittern. Nach einem tödlichen Schusswaffenangriff in Hebron präsentiert sich Benjamin Netanjahu als Garant für Sicherheit.",
-      "image": "https://static.dw.com/image/79741053_6.jpg",
-      "published": "2026-10-23T11:40:00+00:00",
-      "category": "Politik",
-      "score": 60.33
+      "title": "Türkei und Griechenland: Neuer Seerechtsstreit im Mittelmeer",
+      "link": "https://www.dw.com/de/türkei-und-griechenland-neuer-seerechtsstreit-im-mittelmeer/a-79741004?maca=de-rss-de-all-1119-rdf",
+      "summary": "Die Türkei will zusammen mit Libyen die Seegrenzen im Mittelmeer verändern und einen gemeinsamen Wirtschaftskorridor schaffen. Das sorgt für scharfen Protest aus Griechenland – und ruft auch die EU auf den Plan.",
+      "image": "https://static.dw.com/image/79426060_6.jpg",
+      "published": "2026-10-24T11:36:00+00:00",
+      "category": "Wirtschaft",
+      "score": 60.42
     },
     {
-      "id": "netzpolitik-1b1c23e4f18ef7cc",
-      "source": "netzpolitik",
-      "sourceWeight": 0.75,
-      "title": "Beschwerde erfolgreich: Politisches Microtargeting von vier Parteien war rechtswidrig",
-      "link": "https://netzpolitik.org/2026/beschwerde-erfolgreich-politisches-microtargeting-von-vier-parteien-war-rechtswidrig/",
-      "summary": "Nicht alle bekamen dieselbe Wahlwerbung zu sehen: Mindestens vier Parteien spielten im Bundestagswahlkampf 2021 auf Facebook gezielt Werbung für bestimmte Personengruppen aus. Die Berliner Datenschutzbeauftragte hat diese Praxis nun als rechtswidrig eingestuft. Vier Parteien spielten gezielte Wahlwerbung für bestimmte Nutzergruppen aus (Symbolbild) – Gemeinfrei-ähnlich freigegeben durch unsplash.com: Silvan Arnet Die Berliner Datenschutzbeauftragte hat Verwarnungen gegen CDU, SPD, Bündnis 90/Die Grünen und Die Linke ausgesprochen. Die Parteien sollen im Bundestagswahlkampf 2021 sogenanntes politisches Microtargeting eingesetzt und damit gegen Datenschutzbestimmungen verstoßen haben. Das Verfahren gegen die AfD ist noch nicht abgeschlossen. Anlass der Verfahren war eine Beschwerde der europäischen Datenschutzorganisation Noyb . Die Bescheide sind noch nicht rechtskräftig, wie der Sprecher der Berliner Datenschutzbeauftragten auf Anfrage von netzpolitik.org mitteilte. Fehlende Einwilligung und mangelnde Transparenz Beim sogenannten Microtargeting erstellen Plattformen Nutzerprofile auf Grundlage von per Tracking erfassten Daten, etwa zu persönlichen Interessen und Verhaltensweisen. …",
-      "image": "https://cdn.netzpolitik.org/wp-upload/2026/10/Pfeil_Silvan-Arnet_Unsplash.jpg",
-      "published": "2026-10-23T12:45:30+00:00",
+      "id": "golem-15d696f21fa11496",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Brandbrief: Bundesländer fordern Reform von Offshore-Windkraftgesetz",
+      "link": "https://www.golem.de/news/brandbrief-bundeslaender-fordern-reform-von-offshore-windkraftgesetz-2610-214475.html",
+      "summary": "Acht Ministerpräsidenten fordern Änderungen am Offshore-Windkraftgesetz und warnen, dass der derzeitige Ansatz Investitionen verhindern könnte. ( Windkraft , Bundesregierung )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214475&amp;page=1&amp;ts=1792844101",
+      "published": "2026-10-24T14:15:01+02:00",
       "category": "Politik",
-      "score": 58.24
+      "score": 59.96
+    },
+    {
+      "id": "deutsche-welle-449a1f851e693434",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "Anschlag auf Kirche in Jordanien: Fahndung nach Tätern läuft",
+      "link": "https://www.dw.com/de/anschlag-auf-kirche-in-jordanien-fahndung-nach-tätern-läuft/a-79749460?maca=de-rss-de-all-1119-rdf",
+      "summary": "Nach den tödlichen Schüssen bei einer Trauerfeier im Westen Jordaniens sind die Täter weiter auf der Flucht. Die Regierung in Amman stuft die Tat als Terrorakt ein.",
+      "image": "https://static.dw.com/image/79749687_6.jpg",
+      "published": "2026-10-24T10:42:00+00:00",
+      "category": "Politik",
+      "score": 59.67
+    },
+    {
+      "id": "golem-d45c7d79cf1fadf2",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Palantir: Nato-KI hat keinen Kill-Switch",
+      "link": "https://www.golem.de/news/palantir-nato-ki-hat-keinen-kill-switch-2610-214473.html",
+      "summary": "Palantir beteuert, weder das Unternehmen noch die US-Regierung das Nato-System Maven abschalten zu können. Die Sorge vor einer Abhängigkeit von US-Technologie ist hoch. ( Palantir , KI )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214473&amp;page=1&amp;ts=1792839482",
+      "published": "2026-10-24T12:58:02+02:00",
+      "category": "Politik",
+      "score": 58.89
     }
   ]
 }
