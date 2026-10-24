@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T16:19:15.609788+00:00",
+  "generatedAt": "2026-10-24T16:43:28.750246+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/0232602b-a10d-4723-ad50-6e379705e159/AAABoW2n8k0/AAABnSSvrFg/16x9-big/starlink-ukraine-108.jpg?width=1920",
       "published": "2026-10-24T17:29:30+02:00",
       "category": "Politik",
-      "score": 94.65,
+      "score": 94.84,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -44,7 +44,7 @@
       "image": "https://images.handelsblatt.com/ajuKMP7NmADk/cover/900/506/0/0/210/1103/0.5/0.5/cover-podcast-trump-watch.jpg",
       "published": "2026-10-24T09:42:27+00:00",
       "category": "Politik",
-      "score": 79.49
+      "score": 79.15
     },
     {
       "id": "tagesschau-fe0750d87c22518f",
@@ -56,7 +56,7 @@
       "image": "https://images.tagesschau.de/image/165069c4-ef89-4bc5-a057-14b8a0dfd86e/AAABoWsq8OM/AAABnSSvrFg/16x9-big/israel-westjordanland-142.jpg?width=1920",
       "published": "2026-10-24T03:01:43+02:00",
       "category": "Politik",
-      "score": 78.69,
+      "score": 78.35,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -74,18 +74,6 @@
       }
     },
     {
-      "id": "spiegel-b3586f3c4bb00c2d",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Israel: Sonst geht es bei Wahlen um Zukunft. In Sderot wird sie von der Vergangenheit verdrängt",
-      "link": "https://www.spiegel.de/ausland/israel-sonst-geht-es-bei-wahlen-um-zukunft-in-sderot-wird-sie-von-der-vergangenheit-verdraengt-a-357cbe2c-3304-476d-a79e-5b42219f2118#ref=rss",
-      "summary": "Der Terrorangriff vom 7. Oktober ist das wichtigste Thema bei den Wahlen in Israel. Wie geht es Menschen, die persönlich betroffen sind? Ein Besuch in der Stadt Sderot, die unter Beschuss geriet, und nun politisch immer weiter nach rechts rückt.",
-      "image": "https://cdn.prod.www.spiegel.de/images/ca3e11ba-265f-47db-b6cc-8f1e2cd06bff_w1200_r1.778_fpx55_fpy48.jpg",
-      "published": "2026-10-24T18:03:00+02:00",
-      "category": "Politik",
-      "score": 77.77
-    },
-    {
       "id": "deutschlandfunk-016e268051c1ed93",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
@@ -93,9 +81,9 @@
       "link": "https://www.deutschlandfunk.de/palaestinenser-fordern-hilfe-nach-israelischem-armeeeinsatz-102.html",
       "summary": "Die palästinensische Autonomiebehörde ruft die internationale Gemeinschaft auf, wegen des Vorgehens israelischer Sicherheitskräfte im besetzten Westjordanland einzugreifen. Der Militäreinsatz stelle eine Kollektivstrafe dar, hieß es.",
       "image": "https://bilder.deutschlandfunk.de/f9/ee/ea/70/f9eeea70-f46d-4653-b9b4-24af63da690f/habron-westjordanland-terrorismus-israel-armee-soldaten-abriegelung-operation-palaestinenser-nahost-100-1920x1920.jpg",
-      "published": "2026-10-24T17:54:02+02:00",
+      "published": "2026-10-24T18:32:06+02:00",
       "category": "Politik",
-      "score": 77.65,
+      "score": 77.84,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -115,9 +103,21 @@
       "link": "https://www.deutschlandfunk.de/aufwind-fuer-die-opposition-das-ist-die-lage-vor-der-parlamentswahl-in-israel-100.html",
       "summary": "Am Dienstag wählt Israel ein neues Parlament. Die Wahl wird auch als Volksurteil über die Politik von Ministerpräsident Netanjahu nach dem Hamas-Angriff am 7. Oktober 2023 betrachtet. In den vergangenen Wochen hat eine Oppositionspartei viel Aufschwung bekommen.",
       "image": "https://bilder.deutschlandfunk.de/69/d7/60/65/69d76065-b74a-4f64-a559-b751164f106a/israel-knesset-wahlen-100-1920x1920.jpg",
-      "published": "2026-10-24T17:54:02+02:00",
+      "published": "2026-10-24T18:32:06+02:00",
       "category": "Politik",
-      "score": 77.65
+      "score": 77.84
+    },
+    {
+      "id": "spiegel-b3586f3c4bb00c2d",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Israel: Sonst geht es bei Wahlen um Zukunft. In Sderot wird sie von der Vergangenheit verdrängt",
+      "link": "https://www.spiegel.de/ausland/israel-sonst-geht-es-bei-wahlen-um-zukunft-in-sderot-wird-sie-von-der-vergangenheit-verdraengt-a-357cbe2c-3304-476d-a79e-5b42219f2118#ref=rss",
+      "summary": "Der Terrorangriff vom 7. Oktober ist das wichtigste Thema bei den Wahlen in Israel. Wie geht es Menschen, die persönlich betroffen sind? Ein Besuch in der Stadt Sderot, die unter Beschuss geriet, und nun politisch immer weiter nach rechts rückt.",
+      "image": "https://cdn.prod.www.spiegel.de/images/ca3e11ba-265f-47db-b6cc-8f1e2cd06bff_w1200_r1.778_fpx55_fpy48.jpg",
+      "published": "2026-10-24T18:03:00+02:00",
+      "category": "Politik",
+      "score": 77.44
     },
     {
       "id": "tagesschau-6a7b2c7f349b6ccd",
@@ -129,7 +129,7 @@
       "image": "https://images.tagesschau.de/image/2ce64551-8a79-4617-a4f3-892486cb272c/AAABoW0Znzo/AAABnSSvrFg/16x9-big/feuerwehreinsatz-duisburg-100.jpg?width=1920",
       "published": "2026-10-24T10:59:50+02:00",
       "category": "Nachrichten",
-      "score": 75.65,
+      "score": 75.84,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -151,7 +151,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/f4bb81d0-1ab4-42de-b9ab-c2c3ebf1f983_w1080_r1.778_fpx57_fpy32.jpg",
       "published": "2026-10-24T14:39:00+02:00",
       "category": "Politik",
-      "score": 74.94
+      "score": 74.6
     },
     {
       "id": "deutschlandfunk-a6142f856a878360",
@@ -161,9 +161,9 @@
       "link": "https://www.deutschlandfunk.de/nach-hacks-openai-will-spitzen-ki-ohne-internet-trainieren-102.html",
       "summary": "Das US-Softwareunternehmen Open AI hat angekündigt, seine leistungsstärksten Modelle Künstlicher Intelligenz künftig ohne direkten Internet-Zugang zu trainieren.",
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_3/47/NOVA_3474641a937642ab2db74ef6342d435b/craft-13409269-asset-100-1920x1920.jpg",
-      "published": "2026-10-24T17:54:02+02:00",
+      "published": "2026-10-24T18:32:06+02:00",
       "category": "Wirtschaft",
-      "score": 74.33,
+      "score": 74.52,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -190,7 +190,7 @@
       "image": "https://images.handelsblatt.com/dIxB3hNFXQSv/cover/900/506/0/0/107/106/0.5/0.5/israels-ministerpraesident-benjamin-netanjahu.jpg",
       "published": "2026-10-24T08:00:00+00:00",
       "category": "Politik",
-      "score": 70.07
+      "score": 69.73
     },
     {
       "id": "handelsblatt-f05ff5b0cf2ecc6e",
@@ -202,7 +202,7 @@
       "image": "https://images.handelsblatt.com/z1DtvGQirR3X/cover/900/506/0/0/121/121/0.5/0.5/urnnewsmldpa.com20090101260824-935-1563003.jpg",
       "published": "2026-10-24T07:38:19+00:00",
       "category": "Politik",
-      "score": 69.76
+      "score": 69.43
     },
     {
       "id": "spiegel-d5e20517cd7fd4ca",
@@ -214,7 +214,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/2091c0dd-827d-4c34-99ad-b45a6c5c7b6e_w1200_r1.778_fpx31.79_fpy44.99.jpg",
       "published": "2026-10-24T15:37:00+02:00",
       "category": "Politik",
-      "score": 67.75
+      "score": 67.41
     },
     {
       "id": "golem-2c23295b2dcb57ea",
@@ -226,7 +226,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214476&amp;page=1&amp;ts=1792846022",
       "published": "2026-10-24T14:47:02+02:00",
       "category": "Politik",
-      "score": 65.05
+      "score": 64.72
     },
     {
       "id": "deutsche-welle-e669977b5cca1125",
@@ -238,7 +238,7 @@
       "image": "https://static.dw.com/image/79711947_6.jpg",
       "published": "2026-10-24T12:48:00+00:00",
       "category": "Politik",
-      "score": 58.07
+      "score": 57.73
     },
     {
       "id": "deutsche-welle-ab47b9d8ca21b9be",
@@ -250,7 +250,7 @@
       "image": "https://static.dw.com/image/79750505_6.jpg",
       "published": "2026-10-24T12:42:00+00:00",
       "category": "Politik",
-      "score": 57.98
+      "score": 57.65
     }
   ]
 }
