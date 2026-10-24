@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T07:25:57.991362+00:00",
+  "generatedAt": "2026-10-24T07:40:14.878756+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,14 +12,14 @@
       "image": "https://images.tagesschau.de/image/165069c4-ef89-4bc5-a057-14b8a0dfd86e/AAABoWsq8OM/AAABnSSvrFg/16x9-big/israel-westjordanland-142.jpg?width=1920",
       "published": "2026-10-24T03:01:43+02:00",
       "category": "Politik",
-      "score": 86.82,
+      "score": 86.92,
       "coverage": {
         "sourceCount": 4,
         "others": [
           {
             "source": "deutschlandfunk",
-            "title": "Nahost - Israel startet \"Anti-Terror-Operation\" im Westjordanland nach tödlichem Schusswaffenangriff in Hebron",
-            "link": "https://www.deutschlandfunk.de/israel-startet-anti-terror-operation-im-westjordanland-nach-toedlichem-schusswaffenangriff-in-hebron-100.html"
+            "title": "Nach tödlichem Angriff - Israelische Armee startet Großoffensive im Westjordanland",
+            "link": "https://www.deutschlandfunk.de/israelische-armee-startet-grossoffensive-im-westjordanland-102.html"
           },
           {
             "source": "spiegel",
@@ -42,9 +42,9 @@
       "link": "https://www.deutschlandfunk.de/moskau-und-kiew-bestaetigen-einigung-auf-waffenruhe-in-oleschky-106.html",
       "summary": "Russland und die Ukraine haben eine lokal begrenzte Waffenruhe in der seit Monaten abgeriegelten Frontstadt Oleschky bestätigt.",
       "image": "https://bilder.deutschlandfunk.de/28/84/d2/03/2884d203-a92e-4a15-be3c-1b42e072a136/oleschky-oleshky-ukraine-kiew-kundgebung-demonstration-demonstranten-solidaritaet-hunger-russland-100-1920x1920.jpg",
-      "published": "2026-10-24T09:12:47+02:00",
+      "published": "2026-10-24T09:34:27+02:00",
       "category": "Politik",
-      "score": 77.82,
+      "score": 77.92,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -66,7 +66,7 @@
       "image": "https://images.tagesschau.de/image/4977a173-9125-438b-8829-a8dfddff63aa/AAABoWwMbfI/AAABnSSvrFg/16x9-big/trump-dallas-100.jpg?width=1920",
       "published": "2026-10-24T06:10:57+02:00",
       "category": "Politik",
-      "score": 76.29
+      "score": 76.09
     },
     {
       "id": "spiegel-865714e34065dfb3",
@@ -78,7 +78,29 @@
       "image": "https://cdn.prod.www.spiegel.de/images/7e7c9471-19a0-4781-8c8e-19199fc5f15e_w1200_r1.778_fpx53.99_fpy44.99.jpg",
       "published": "2026-10-24T07:10:00+02:00",
       "category": "Politik",
-      "score": 76.11
+      "score": 75.91
+    },
+    {
+      "id": "tagesschau-6a7b2c7f349b6ccd",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Verletzte und Schäden nach \"Sturmtief\" Luise",
+      "link": "https://www.tagesschau.de/inland/herbststurm-104.html",
+      "summary": "Bäume und Äste auf Straßen und Gleisen, ein umgestürztes Gestell: Sturmtief \"Luise\" ist über Teile Deutschlands hinweggefegt. Zwei Menschen wurden schwer verletzt. Mit \"Manja\" zieht schon der nächste Sturm heran.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/4f94b55b-b20d-478d-bbc4-8acf7de00c9b/AAABoWy_tvE/AAABnSSvrFg/16x9-big/sturmtief-148.jpg?width=1920",
+      "published": "2026-10-24T09:31:39+02:00",
+      "category": "Nachrichten",
+      "score": 75.88,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Herbstwetter in Deutschland: Verletzte und Bahnchaos wegen Sturm – Sonntag drohen Orkanböen",
+            "link": "https://www.spiegel.de/panorama/herbstwetter-in-deutschland-verletzte-und-bahnchaos-wegen-sturm-sonntag-drohen-orkanboeen-a-65d85963-3487-4e10-9466-c9cfa5c6c3e6#ref=rss"
+          }
+        ]
+      }
     },
     {
       "id": "tagesschau-f5cb9700447845b8",
@@ -90,7 +112,7 @@
       "image": "https://images.tagesschau.de/image/a111bf3a-9485-4c36-82cc-c621e4893902/AAABoWlYGkY/AAABnSSvrFg/16x9-big/gebaeude-oleshky-100.jpg?width=1920",
       "published": "2026-10-23T19:26:28+02:00",
       "category": "Politik",
-      "score": 75.34,
+      "score": 75.14,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -122,7 +144,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/0f68d5ae-9701-4fe9-a05f-5c24e1151e5d_w1200_r1.778_fpx55.33_fpy44.98.jpg",
       "published": "2026-10-23T19:35:00+02:00",
       "category": "Politik",
-      "score": 74.46
+      "score": 74.26
     },
     {
       "id": "deutschlandfunk-a6142f856a878360",
@@ -132,9 +154,9 @@
       "link": "https://www.deutschlandfunk.de/nach-hacks-openai-will-spitzen-ki-ohne-internet-trainieren-102.html",
       "summary": "Das US-Softwareunternehmen Open AI hat angekündigt, seine leistungsstärksten Modelle Künstlicher Intelligenz künftig ohne direkten Internet-Zugang zu trainieren.",
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_3/47/NOVA_3474641a937642ab2db74ef6342d435b/craft-13409269-asset-100-1920x1920.jpg",
-      "published": "2026-10-24T09:12:47+02:00",
+      "published": "2026-10-24T09:34:27+02:00",
       "category": "Wirtschaft",
-      "score": 69.82,
+      "score": 69.92,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -154,9 +176,9 @@
       "link": "https://www.deutschlandfunk.de/verkehrsminister-bilger-deutschlandticket-fuer-gelegenheitsfahrerer-ist-spannende-idee-100.html",
       "summary": "Bundesverkehrsminister Bilger begrüßt den Vorschlag eines bundesweiten Tickets für gelegentliche Fahrten mit öffentlichen Verkehrsmitteln.",
       "image": "https://bilder.deutschlandfunk.de/71/a1/d4/ba/71a1d4ba-1015-4364-8f3b-97bf4faeff8c/verkehrsminister-bilger-100-1920x1920.jpg",
-      "published": "2026-10-24T09:12:47+02:00",
+      "published": "2026-10-24T09:34:27+02:00",
       "category": "Politik",
-      "score": 69.82,
+      "score": 69.92,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -178,7 +200,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/cd857946-83c2-4273-b689-b2f3d1f763ae_w1200_r1.778_fpx64.64_fpy55.jpg",
       "published": "2026-10-24T07:23:00+02:00",
       "category": "Politik",
-      "score": 68.29
+      "score": 68.09
     },
     {
       "id": "handelsblatt-95cd8249f71c8eeb",
@@ -190,7 +212,7 @@
       "image": "https://images.handelsblatt.com/RPL-KhbY1mqS/cover/900/506/0/0/107/106/0.5/0.5/vorwahl-im-us-bundesstaat-alaska.jpg",
       "published": "2026-10-23T18:50:53+00:00",
       "category": "Politik",
-      "score": 66.51
+      "score": 66.31
     },
     {
       "id": "handelsblatt-c5b177e8210c865f",
@@ -202,7 +224,7 @@
       "image": "https://images.handelsblatt.com/49HFUEijo9G8/cover/900/506/0/0/0/0/0.5/0.5/politologe-fukuyama.jpg",
       "published": "2026-10-23T16:40:21+00:00",
       "category": "Politik",
-      "score": 64.7
+      "score": 64.5
     },
     {
       "id": "handelsblatt-dcb9e32c0a7cba03",
@@ -214,7 +236,7 @@
       "image": "https://images.handelsblatt.com/9vojNtij6wJX/cover/900/506/0/0/107/106/0.5/0.5/nerzzucht-in-daenemark.jpg",
       "published": "2026-10-23T15:43:01+00:00",
       "category": "Wirtschaft",
-      "score": 63.9
+      "score": 63.71
     },
     {
       "id": "deutsche-welle-a154d91c79604403",
@@ -226,7 +248,7 @@
       "image": "https://static.dw.com/image/79741053_6.jpg",
       "published": "2026-10-23T11:40:00+00:00",
       "category": "Politik",
-      "score": 60.53
+      "score": 60.33
     },
     {
       "id": "netzpolitik-1b1c23e4f18ef7cc",
@@ -238,19 +260,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/10/Pfeil_Silvan-Arnet_Unsplash.jpg",
       "published": "2026-10-23T12:45:30+00:00",
       "category": "Politik",
-      "score": 58.44
-    },
-    {
-      "id": "golem-e7e00e8ede8bd3f1",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "30 Jahre Baphomets Fluch: Paris sehen und Tempelritter jagen",
-      "link": "https://www.golem.de/news/30-jahre-baphomets-fluch-paris-sehen-und-tempelritter-jagen-2610-214384.html",
-      "summary": "Ein Clown, ein Mord und die Geheimnisse der Tempelritter: Warum Baphomets Fluch auch 30 Jahre später noch beste Adventure-Unterhaltung bietet! Von Olaf Bleich und Benedikt Plass-Fleßenkämper ( Baphomets Fluch , Adventure )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214384&amp;page=1&amp;ts=1792819802",
-      "published": "2026-10-24T07:30:02+02:00",
-      "category": "Technologie",
-      "score": 55.39
+      "score": 58.24
     }
   ]
 }
