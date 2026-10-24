@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T12:47:36.156078+00:00",
+  "generatedAt": "2026-10-24T16:19:15.609788+00:00",
   "count": 15,
   "articles": [
     {
@@ -10,11 +10,11 @@
       "link": "https://www.tagesschau.de/ausland/amerika/musk-starlink-ukraine-102.html",
       "summary": "Die Satellitenkommunikation von SpaceX in der Ukraine funktioniert nach Angaben aus Kiew wieder stabil. Die ukrainische Armee meldet derweil Angriffe auf russische Industrieanlagen.[ mehr ]",
       "image": "https://images.tagesschau.de/image/0232602b-a10d-4723-ad50-6e379705e159/AAABoW2n8k0/AAABnSSvrFg/16x9-big/starlink-ukraine-108.jpg?width=1920",
-      "published": "2026-10-24T13:24:45+02:00",
+      "published": "2026-10-24T17:29:30+02:00",
       "category": "Politik",
-      "score": 91.58,
+      "score": 94.65,
       "coverage": {
-        "sourceCount": 3,
+        "sourceCount": 4,
         "others": [
           {
             "source": "deutschlandfunk",
@@ -22,41 +22,14 @@
             "link": "https://www.deutschlandfunk.de/starlink-satellitensystem-funktioniert-wieder-ueber-der-ukraine-waffenstillstand-fuer-oleschky-besta-100.html"
           },
           {
+            "source": "spiegel",
+            "title": "Russland und Ukraine setzen Angriffe fort – Starlink-Verbindung wieder stabil",
+            "link": "https://www.spiegel.de/ausland/trotz-us-vermittlungsbemuehungen-ukraine-und-russland-fuehren-gegenseitige-angriffe-fort-a-50595754-bdfb-459c-84bb-1cd3d533b8bf#ref=rss"
+          },
+          {
             "source": "handelsblatt",
             "title": "+++ Ukraine-Krieg +++: Satellitenverbindung von SpaceX laut Ukraine wieder stabil",
             "link": "https://www.handelsblatt.com/politik/international/ukraine-satellitenverbindung-von-spacex-laut-ukraine-wieder-stabil/27982126.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-fe0750d87c22518f",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Nach Anschlag auf Soldaten: Israel startet Operation im Westjordanland",
-      "link": "https://www.tagesschau.de/ausland/israel-westjordanland-militaeroperation-100.html",
-      "summary": "Nach den tödlichen Schüssen auf zwei Soldaten hat Israels Armee einen \"Anti-Terror-Einsatz\" im Westjordanland begonnen. Man suche dort nach Waffen und Terrorinfrastruktur. Israels Premier drohte zudem mit einem großangelegten Militäreinsatz.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/165069c4-ef89-4bc5-a057-14b8a0dfd86e/AAABoWsq8OM/AAABnSSvrFg/16x9-big/israel-westjordanland-142.jpg?width=1920",
-      "published": "2026-10-24T03:01:43+02:00",
-      "category": "Politik",
-      "score": 86.9,
-      "coverage": {
-        "sourceCount": 4,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Nach tödlichem Angriff - Israelische Armee startet Großoffensive im Westjordanland",
-            "link": "https://www.deutschlandfunk.de/israelische-armee-startet-grossoffensive-im-westjordanland-104.html"
-          },
-          {
-            "source": "deutsche-welle",
-            "title": "Israel beginnt \"Anti-Terror-Einsatz\" im Westjordanland",
-            "link": "https://www.dw.com/de/israel-beginnt-anti-terror-einsatz-im-westjordanland/a-79749417?maca=de-rss-de-all-1119-rdf"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Die Lage im Überblick: Israel startet „Anti-Terror-Operation“ im Westjordanland",
-            "link": "https://www.handelsblatt.com/politik/international/die-lage-im-ueberblick-israel-startet-anti-terror-operation-im-westjordanland/100264615.html"
           }
         ]
       }
@@ -71,19 +44,68 @@
       "image": "https://images.handelsblatt.com/ajuKMP7NmADk/cover/900/506/0/0/210/1103/0.5/0.5/cover-podcast-trump-watch.jpg",
       "published": "2026-10-24T09:42:27+00:00",
       "category": "Politik",
-      "score": 82.43
+      "score": 79.49
     },
     {
-      "id": "spiegel-9afd401373392ff0",
+      "id": "tagesschau-fe0750d87c22518f",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Nach Anschlag auf Soldaten: Israel startet Operation im Westjordanland",
+      "link": "https://www.tagesschau.de/ausland/israel-westjordanland-militaeroperation-100.html",
+      "summary": "Nach den tödlichen Schüssen auf zwei Soldaten hat Israels Armee einen \"Anti-Terror-Einsatz\" im Westjordanland begonnen. Man suche dort nach Waffen und Terrorinfrastruktur. Israels Premier drohte zudem mit einem großangelegten Militäreinsatz.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/165069c4-ef89-4bc5-a057-14b8a0dfd86e/AAABoWsq8OM/AAABnSSvrFg/16x9-big/israel-westjordanland-142.jpg?width=1920",
+      "published": "2026-10-24T03:01:43+02:00",
+      "category": "Politik",
+      "score": 78.69,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutsche-welle",
+            "title": "Israel beginnt \"Anti-Terror-Einsatz\" im Westjordanland",
+            "link": "https://www.dw.com/de/israel-beginnt-anti-terror-einsatz-im-westjordanland/a-79749417?maca=de-rss-de-all-1119-rdf"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Die Lage im Überblick: Israel startet „Anti-Terror-Operation“ im Westjordanland",
+            "link": "https://www.handelsblatt.com/politik/international/die-lage-im-ueberblick-israel-startet-anti-terror-operation-im-westjordanland/100264615.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-b3586f3c4bb00c2d",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg: Norbert Röttgen (CDU) sieht Donald Trump auf der Seite von Russland",
-      "link": "https://www.spiegel.de/ausland/norbert-roettgen-cdu-trump-steht-aktuell-auf-der-seite-russlands-a-18dce848-6af9-4f65-9a27-5704ac8c2da1#ref=rss",
-      "summary": "Trump wolle »den Konflikt mit einem Deal beenden, für den er zu weitgehenden Konzessionen bereit ist«, sagt CDU-Außenpolitiker Norbert Röttgen. Der US-Präsident stehe auf der Seite von Putin. Europa müsse dagegenhalten.",
-      "image": "https://cdn.prod.www.spiegel.de/images/cd857946-83c2-4273-b689-b2f3d1f763ae_w1200_r1.778_fpx64.64_fpy55.jpg",
-      "published": "2026-10-24T07:23:00+02:00",
+      "title": "Israel: Sonst geht es bei Wahlen um Zukunft. In Sderot wird sie von der Vergangenheit verdrängt",
+      "link": "https://www.spiegel.de/ausland/israel-sonst-geht-es-bei-wahlen-um-zukunft-in-sderot-wird-sie-von-der-vergangenheit-verdraengt-a-357cbe2c-3304-476d-a79e-5b42219f2118#ref=rss",
+      "summary": "Der Terrorangriff vom 7. Oktober ist das wichtigste Thema bei den Wahlen in Israel. Wie geht es Menschen, die persönlich betroffen sind? Ein Besuch in der Stadt Sderot, die unter Beschuss geriet, und nun politisch immer weiter nach rechts rückt.",
+      "image": "https://cdn.prod.www.spiegel.de/images/ca3e11ba-265f-47db-b6cc-8f1e2cd06bff_w1200_r1.778_fpx55_fpy48.jpg",
+      "published": "2026-10-24T18:03:00+02:00",
       "category": "Politik",
-      "score": 79.82
+      "score": 77.77
+    },
+    {
+      "id": "deutschlandfunk-016e268051c1ed93",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Nahost - Palästinenser fordern Hilfe nach israelischem Armeeeinsatz",
+      "link": "https://www.deutschlandfunk.de/palaestinenser-fordern-hilfe-nach-israelischem-armeeeinsatz-102.html",
+      "summary": "Die palästinensische Autonomiebehörde ruft die internationale Gemeinschaft auf, wegen des Vorgehens israelischer Sicherheitskräfte im besetzten Westjordanland einzugreifen. Der Militäreinsatz stelle eine Kollektivstrafe dar, hieß es.",
+      "image": "https://bilder.deutschlandfunk.de/f9/ee/ea/70/f9eeea70-f46d-4653-b9b4-24af63da690f/habron-westjordanland-terrorismus-israel-armee-soldaten-abriegelung-operation-palaestinenser-nahost-100-1920x1920.jpg",
+      "published": "2026-10-24T17:54:02+02:00",
+      "category": "Politik",
+      "score": 77.65,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Westjordanland: Palästinenser fordern internationalen Druck nach israelischem Armeeeinsatz",
+            "link": "https://www.spiegel.de/ausland/westjordanland-palaestinenser-fordern-internationalen-druck-nach-israelischem-armeeeinsatz-a-2175eeed-6dcf-4de8-94b7-47e8756539bc#ref=rss"
+          }
+        ]
+      }
     },
     {
       "id": "deutschlandfunk-c298dff92c59f47c",
@@ -93,33 +115,9 @@
       "link": "https://www.deutschlandfunk.de/aufwind-fuer-die-opposition-das-ist-die-lage-vor-der-parlamentswahl-in-israel-100.html",
       "summary": "Am Dienstag wählt Israel ein neues Parlament. Die Wahl wird auch als Volksurteil über die Politik von Ministerpräsident Netanjahu nach dem Hamas-Angriff am 7. Oktober 2023 betrachtet. In den vergangenen Wochen hat eine Oppositionspartei viel Aufschwung bekommen.",
       "image": "https://bilder.deutschlandfunk.de/69/d7/60/65/69d76065-b74a-4f64-a559-b751164f106a/israel-knesset-wahlen-100-1920x1920.jpg",
-      "published": "2026-10-24T14:40:08+02:00",
+      "published": "2026-10-24T17:54:02+02:00",
       "category": "Politik",
-      "score": 77.9
-    },
-    {
-      "id": "spiegel-9907e996bed9c0b3",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Wahl in Israel: Was die Menschen über Benjamin Netanyahu denken",
-      "link": "https://www.spiegel.de/ausland/wahl-in-israel-was-die-menschen-ueber-benjamin-netanyahu-denken-a-ac83287a-8c87-4cd8-a23e-e903ad531ae1#ref=rss",
-      "summary": "Nach der Parlamentswahl am 27. Oktober könnte Benjamin Netanyahu sein Amt verlieren. Wie blicken die Israelis auf den Wahltag und ihren Langzeit-Premier? SPIEGEL-Korrespondent Thore Schröder hat sich umgehört.",
-      "image": "https://cdn.prod.www.spiegel.de/images/f4bb81d0-1ab4-42de-b9ab-c2c3ebf1f983_w1080_r1.778_fpx57_fpy32.jpg",
-      "published": "2026-10-24T14:39:00+02:00",
-      "category": "Politik",
-      "score": 77.88
-    },
-    {
-      "id": "spiegel-827d6afd20dbdc22",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ron Lauder: Langjähriger Netanjahu-Vertrauter warnt vor dessen Wiederwahl",
-      "link": "https://www.spiegel.de/ausland/ron-lauder-langjaehriger-netanjahu-vertrauter-warnt-vor-dessen-wiederwahl-a-214a00ad-e2e2-4667-9547-4127f48b548e#ref=rss",
-      "summary": "Kurz vor den Wahlen in Israel hat ein ehemaliger Netanyahu-Vertrauter sein Schweigen gebrochen: Der Präsident des Jüdischen Weltkongresses, Ron Lauder, bezeichnete Israels Regierungschef als »Diktator«.",
-      "image": "https://cdn.prod.www.spiegel.de/images/9a428f6a-edd8-455c-9dcc-8fbae8464c6d_w1200_r1.778_fpx59.31_fpy44.99.jpg",
-      "published": "2026-10-24T13:50:00+02:00",
-      "category": "Politik",
-      "score": 77.2
+      "score": 77.65
     },
     {
       "id": "tagesschau-6a7b2c7f349b6ccd",
@@ -131,7 +129,7 @@
       "image": "https://images.tagesschau.de/image/2ce64551-8a79-4617-a4f3-892486cb272c/AAABoW0Znzo/AAABnSSvrFg/16x9-big/feuerwehreinsatz-duisburg-100.jpg?width=1920",
       "published": "2026-10-24T10:59:50+02:00",
       "category": "Nachrichten",
-      "score": 75.9,
+      "score": 75.65,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -144,6 +142,18 @@
       }
     },
     {
+      "id": "spiegel-9907e996bed9c0b3",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Wahl in Israel: Was die Menschen über Benjamin Netanyahu denken",
+      "link": "https://www.spiegel.de/ausland/wahl-in-israel-was-die-menschen-ueber-benjamin-netanyahu-denken-a-ac83287a-8c87-4cd8-a23e-e903ad531ae1#ref=rss",
+      "summary": "Nach der Parlamentswahl am 27. Oktober könnte Benjamin Netanyahu sein Amt verlieren. Wie blicken die Israelis auf den Wahltag und ihren Langzeitpremier? SPIEGEL-Korrespondent Thore Schröder hat sich umgehört.",
+      "image": "https://cdn.prod.www.spiegel.de/images/f4bb81d0-1ab4-42de-b9ab-c2c3ebf1f983_w1080_r1.778_fpx57_fpy32.jpg",
+      "published": "2026-10-24T14:39:00+02:00",
+      "category": "Politik",
+      "score": 74.94
+    },
+    {
       "id": "deutschlandfunk-a6142f856a878360",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
@@ -151,9 +161,9 @@
       "link": "https://www.deutschlandfunk.de/nach-hacks-openai-will-spitzen-ki-ohne-internet-trainieren-102.html",
       "summary": "Das US-Softwareunternehmen Open AI hat angekündigt, seine leistungsstärksten Modelle Künstlicher Intelligenz künftig ohne direkten Internet-Zugang zu trainieren.",
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_3/47/NOVA_3474641a937642ab2db74ef6342d435b/craft-13409269-asset-100-1920x1920.jpg",
-      "published": "2026-10-24T14:40:08+02:00",
+      "published": "2026-10-24T17:54:02+02:00",
       "category": "Wirtschaft",
-      "score": 74.58,
+      "score": 74.33,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -180,7 +190,7 @@
       "image": "https://images.handelsblatt.com/dIxB3hNFXQSv/cover/900/506/0/0/107/106/0.5/0.5/israels-ministerpraesident-benjamin-netanjahu.jpg",
       "published": "2026-10-24T08:00:00+00:00",
       "category": "Politik",
-      "score": 73.01
+      "score": 70.07
     },
     {
       "id": "handelsblatt-f05ff5b0cf2ecc6e",
@@ -192,34 +202,43 @@
       "image": "https://images.handelsblatt.com/z1DtvGQirR3X/cover/900/506/0/0/121/121/0.5/0.5/urnnewsmldpa.com20090101260824-935-1563003.jpg",
       "published": "2026-10-24T07:38:19+00:00",
       "category": "Politik",
-      "score": 72.7
+      "score": 69.76
     },
     {
-      "id": "deutschlandfunk-ad71c188ea0964bc",
-      "source": "deutschlandfunk",
+      "id": "spiegel-d5e20517cd7fd4ca",
+      "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Proteste - Frankreich: 70.000 Polizisten sichern Demonstrationen - Sorge vor Ausschreitungen",
-      "link": "https://www.deutschlandfunk.de/frankreich-70-000-polizisten-sichern-demonstrationen-sorge-vor-ausschreitungen-118.html",
-      "summary": "In Frankreich werden heute weitere landesweite Demonstrationen erwartet.",
-      "image": "https://bilder.deutschlandfunk.de/NO/VA/_0/ea/NOVA_0eab99f641e7508923108c56f833e100/craft-13458715-asset-100-1920x1920.jpg",
-      "published": "2026-10-24T14:40:08+02:00",
-      "category": "Nachrichten",
-      "score": 71.58,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Frankreich rüstet sich für Proteste: 70.000 Polizisten, Demos verboten, Museen geschlossen",
-            "link": "https://www.spiegel.de/ausland/frankreich-ruestet-sich-fuer-proteste-70-000-polizisten-demos-verboten-museen-geschlossen-a-0890d667-ab5f-4b7e-aa92-244e0c72e9ca#ref=rss"
-          },
-          {
-            "source": "deutsche-welle",
-            "title": "News kompakt: Sorge vor neuen Ausschreitungen in Paris",
-            "link": "https://www.dw.com/de/news-kompakt-sorge-vor-neuen-ausschreitungen-in-paris/a-79748108?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
+      "title": "Wahlkampf in Spanien: KI-generiertes Video von Frau des Premiers sorgt für Aufruhr in Spanien",
+      "link": "https://www.spiegel.de/ausland/wahlkampf-in-spanien-ki-generiertes-video-von-frau-des-premiers-sorgt-fuer-aufruhr-in-spanien-a-4f2d3176-ad26-41a5-8694-dd22186d9b1f#ref=rss",
+      "summary": "Im spanischen Wahlkampf hat die Opposition ein KI-generiertes Video veröffentlicht, in dem Personen aus dem Umfeld des Ministerpräsidenten angeblich Fehlverhalten eingestehen. Die Angegriffenen wehren sich.",
+      "image": "https://cdn.prod.www.spiegel.de/images/2091c0dd-827d-4c34-99ad-b45a6c5c7b6e_w1200_r1.778_fpx31.79_fpy44.99.jpg",
+      "published": "2026-10-24T15:37:00+02:00",
+      "category": "Politik",
+      "score": 67.75
+    },
+    {
+      "id": "golem-2c23295b2dcb57ea",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "AfD-Datenleck: Geleakte Mails bringen Weidel in der Spendenaffäre in Erklärungsnot",
+      "link": "https://www.golem.de/news/afd-datenleck-geleakte-mails-bringen-weidel-in-der-spendenaffaere-in-erklaerungsnot-2610-214476.html",
+      "summary": "Geleakte E-Mails zeigen, dass Alice Weidel 2017 konkrete Spenden für ihren Social-Media-Wahlkampf erwartete und selbst festlegte, wie das Geld fließen sollte. ( Datenleck , E-Mail )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214476&amp;page=1&amp;ts=1792846022",
+      "published": "2026-10-24T14:47:02+02:00",
+      "category": "Politik",
+      "score": 65.05
+    },
+    {
+      "id": "deutsche-welle-e669977b5cca1125",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "\"Tinubu muss weg\": Regierungskritiker in Nigeria unter Druck",
+      "link": "https://www.dw.com/de/tinubu-muss-weg-regierungskritiker-in-nigeria-unter-druck/a-79719726?maca=de-rss-de-all-1119-rdf",
+      "summary": "Die Festnahme junger Männer wegen regierungskritischer T-Shirts und die Verhinderung eines politischen Treffens haben die Debatte über Meinungsfreiheit und das Recht auf Protest in Nigeria neu entfacht.",
+      "image": "https://static.dw.com/image/79711947_6.jpg",
+      "published": "2026-10-24T12:48:00+00:00",
+      "category": "Politik",
+      "score": 58.07
     },
     {
       "id": "deutsche-welle-ab47b9d8ca21b9be",
@@ -231,31 +250,7 @@
       "image": "https://static.dw.com/image/79750505_6.jpg",
       "published": "2026-10-24T12:42:00+00:00",
       "category": "Politik",
-      "score": 60.92
-    },
-    {
-      "id": "deutsche-welle-3e136f4056d49786",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Türkei und Griechenland: Neuer Seerechtsstreit im Mittelmeer",
-      "link": "https://www.dw.com/de/türkei-und-griechenland-neuer-seerechtsstreit-im-mittelmeer/a-79741004?maca=de-rss-de-all-1119-rdf",
-      "summary": "Die Türkei will zusammen mit Libyen die Seegrenzen im Mittelmeer verändern und einen gemeinsamen Wirtschaftskorridor schaffen. Das sorgt für scharfen Protest aus Griechenland – und ruft auch die EU auf den Plan.",
-      "image": "https://static.dw.com/image/79426060_6.jpg",
-      "published": "2026-10-24T11:36:00+00:00",
-      "category": "Wirtschaft",
-      "score": 60.01
-    },
-    {
-      "id": "golem-15d696f21fa11496",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Brandbrief: Bundesländer fordern Reform von Offshore-Windkraftgesetz",
-      "link": "https://www.golem.de/news/brandbrief-bundeslaender-fordern-reform-von-offshore-windkraftgesetz-2610-214475.html",
-      "summary": "Acht Ministerpräsidenten fordern Änderungen am Offshore-Windkraftgesetz und warnen, dass der derzeitige Ansatz Investitionen verhindern könnte. ( Windkraft , Bundesregierung )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214475&amp;page=1&amp;ts=1792844101",
-      "published": "2026-10-24T14:15:01+02:00",
-      "category": "Politik",
-      "score": 59.55
+      "score": 57.98
     }
   ]
 }
