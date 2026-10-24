@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-10-24T12:17:44.465247+00:00",
+  "generatedAt": "2026-10-24T12:47:36.156078+00:00",
   "count": 15,
   "articles": [
+    {
+      "id": "tagesschau-ceaeb8e339d7bec1",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Krieg gegen die Ukraine: Starlink funktioniert wieder stabil",
+      "link": "https://www.tagesschau.de/ausland/amerika/musk-starlink-ukraine-102.html",
+      "summary": "Die Satellitenkommunikation von SpaceX in der Ukraine funktioniert nach Angaben aus Kiew wieder stabil. Die ukrainische Armee meldet derweil Angriffe auf russische Industrieanlagen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/0232602b-a10d-4723-ad50-6e379705e159/AAABoW2n8k0/AAABnSSvrFg/16x9-big/starlink-ukraine-108.jpg?width=1920",
+      "published": "2026-10-24T13:24:45+02:00",
+      "category": "Politik",
+      "score": 91.58,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Russischer Angriffskrieg - Starlink-Satellitensystem funktioniert wieder über der Ukraine - Waffenstillstand für Oleschky bestätigt",
+            "link": "https://www.deutschlandfunk.de/starlink-satellitensystem-funktioniert-wieder-ueber-der-ukraine-waffenstillstand-fuer-oleschky-besta-100.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "+++ Ukraine-Krieg +++: Satellitenverbindung von SpaceX laut Ukraine wieder stabil",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-satellitenverbindung-von-spacex-laut-ukraine-wieder-stabil/27982126.html"
+          }
+        ]
+      }
+    },
     {
       "id": "tagesschau-fe0750d87c22518f",
       "source": "tagesschau",
@@ -12,19 +39,14 @@
       "image": "https://images.tagesschau.de/image/165069c4-ef89-4bc5-a057-14b8a0dfd86e/AAABoWsq8OM/AAABnSSvrFg/16x9-big/israel-westjordanland-142.jpg?width=1920",
       "published": "2026-10-24T03:01:43+02:00",
       "category": "Politik",
-      "score": 89.4,
+      "score": 86.9,
       "coverage": {
-        "sourceCount": 5,
+        "sourceCount": 4,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "Nach tödlichem Angriff - Israelische Armee startet Großoffensive im Westjordanland",
             "link": "https://www.deutschlandfunk.de/israelische-armee-startet-grossoffensive-im-westjordanland-104.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Israel: Armee startet »Anti-Terror-Operation« im Westjordanland",
-            "link": "https://www.spiegel.de/ausland/israel-startet-anti-terror-operation-im-westjordanland-a-8cbc7e56-580a-48a8-a316-03807df8852d#ref=rss"
           },
           {
             "source": "deutsche-welle",
@@ -40,28 +62,6 @@
       }
     },
     {
-      "id": "tagesschau-ceaeb8e339d7bec1",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Krieg gegen die Ukraine: Starlink funktioniert wieder stabil",
-      "link": "https://www.tagesschau.de/ausland/amerika/musk-starlink-ukraine-102.html",
-      "summary": "Die Satellitenkommunikation von SpaceX in der Ukraine funktioniert nach Angaben aus Kiew wieder stabil. Die ukrainische Armee meldet derweil Angriffe auf russische Industrieanlagen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/0232602b-a10d-4723-ad50-6e379705e159/AAABoW2n8k0/AAABnSSvrFg/16x9-big/starlink-ukraine-108.jpg?width=1920",
-      "published": "2026-10-24T13:24:45+02:00",
-      "category": "Politik",
-      "score": 86.82,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Russischer Angriffskrieg - Starlink-Satellitensystem funktioniert wieder über der Ukraine - Waffenstillstand für Oleschky bestätigt",
-            "link": "https://www.deutschlandfunk.de/starlink-satellitensystem-funktioniert-wieder-ueber-der-ukraine-waffenstillstand-fuer-oleschky-besta-100.html"
-          }
-        ]
-      }
-    },
-    {
       "id": "handelsblatt-2208e425503aefcc",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
@@ -71,34 +71,7 @@
       "image": "https://images.handelsblatt.com/ajuKMP7NmADk/cover/900/506/0/0/210/1103/0.5/0.5/cover-podcast-trump-watch.jpg",
       "published": "2026-10-24T09:42:27+00:00",
       "category": "Politik",
-      "score": 82.84
-    },
-    {
-      "id": "tagesschau-6a7b2c7f349b6ccd",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Verletzte und Schäden nach \"Sturmtief\" Luise",
-      "link": "https://www.tagesschau.de/inland/herbststurm-104.html",
-      "summary": "Bäume und Äste auf Straßen und Gleisen, ein umgestürztes Gestell: Sturmtief \"Luise\" ist über Teile Deutschlands hinweggefegt. Zwei Menschen wurden schwer verletzt. Mit \"Manja\" zieht schon der nächste Sturm heran.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/2ce64551-8a79-4617-a4f3-892486cb272c/AAABoW0Znzo/AAABnSSvrFg/16x9-big/feuerwehreinsatz-duisburg-100.jpg?width=1920",
-      "published": "2026-10-24T10:59:50+02:00",
-      "category": "Nachrichten",
-      "score": 80.5,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Herbststurm \"Luise\" - Sturmtief sorgt für Zugausfälle und Verspätungen bei der Bahn, zwei Schwerverletzte auf Stadtfest",
-            "link": "https://www.deutschlandfunk.de/sturmtief-sorgt-fuer-zugausfaelle-und-verspaetungen-bei-der-bahn-zwei-schwerverletzte-auf-stadtfest-116.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Wetter in Deutschland: Sturm sorgt für Verletzte und Bahn-Chaos – Sonntag drohen Orkanböen",
-            "link": "https://www.spiegel.de/panorama/wetter-in-deutschland-sturm-sorgt-fuer-verletzte-und-bahn-chaos-sonntag-drohen-orkanboeen-a-65d85963-3487-4e10-9466-c9cfa5c6c3e6#ref=rss"
-          }
-        ]
-      }
+      "score": 82.43
     },
     {
       "id": "spiegel-9afd401373392ff0",
@@ -110,7 +83,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/cd857946-83c2-4273-b689-b2f3d1f763ae_w1200_r1.778_fpx64.64_fpy55.jpg",
       "published": "2026-10-24T07:23:00+02:00",
       "category": "Politik",
-      "score": 80.24
+      "score": 79.82
     },
     {
       "id": "deutschlandfunk-c298dff92c59f47c",
@@ -120,9 +93,21 @@
       "link": "https://www.deutschlandfunk.de/aufwind-fuer-die-opposition-das-ist-die-lage-vor-der-parlamentswahl-in-israel-100.html",
       "summary": "Am Dienstag wählt Israel ein neues Parlament. Die Wahl wird auch als Volksurteil über die Politik von Ministerpräsident Netanjahu nach dem Hamas-Angriff am 7. Oktober 2023 betrachtet. In den vergangenen Wochen hat eine Oppositionspartei viel Aufschwung bekommen.",
       "image": "https://bilder.deutschlandfunk.de/69/d7/60/65/69d76065-b74a-4f64-a559-b751164f106a/israel-knesset-wahlen-100-1920x1920.jpg",
-      "published": "2026-10-24T14:04:59+02:00",
+      "published": "2026-10-24T14:40:08+02:00",
       "category": "Politik",
-      "score": 77.82
+      "score": 77.9
+    },
+    {
+      "id": "spiegel-9907e996bed9c0b3",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Wahl in Israel: Was die Menschen über Benjamin Netanyahu denken",
+      "link": "https://www.spiegel.de/ausland/wahl-in-israel-was-die-menschen-ueber-benjamin-netanyahu-denken-a-ac83287a-8c87-4cd8-a23e-e903ad531ae1#ref=rss",
+      "summary": "Nach der Parlamentswahl am 27. Oktober könnte Benjamin Netanyahu sein Amt verlieren. Wie blicken die Israelis auf den Wahltag und ihren Langzeit-Premier? SPIEGEL-Korrespondent Thore Schröder hat sich umgehört.",
+      "image": "https://cdn.prod.www.spiegel.de/images/f4bb81d0-1ab4-42de-b9ab-c2c3ebf1f983_w1080_r1.778_fpx57_fpy32.jpg",
+      "published": "2026-10-24T14:39:00+02:00",
+      "category": "Politik",
+      "score": 77.88
     },
     {
       "id": "spiegel-827d6afd20dbdc22",
@@ -134,7 +119,29 @@
       "image": "https://cdn.prod.www.spiegel.de/images/9a428f6a-edd8-455c-9dcc-8fbae8464c6d_w1200_r1.778_fpx59.31_fpy44.99.jpg",
       "published": "2026-10-24T13:50:00+02:00",
       "category": "Politik",
-      "score": 77.61
+      "score": 77.2
+    },
+    {
+      "id": "tagesschau-6a7b2c7f349b6ccd",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Verletzte und Schäden nach \"Sturmtief\" Luise",
+      "link": "https://www.tagesschau.de/inland/herbststurm-104.html",
+      "summary": "Bäume und Äste auf Straßen und Gleisen, ein umgestürztes Gestell: Sturmtief \"Luise\" ist über Teile Deutschlands hinweggefegt. Zwei Menschen wurden schwer verletzt. Mit \"Manja\" zieht schon der nächste Sturm heran.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/2ce64551-8a79-4617-a4f3-892486cb272c/AAABoW0Znzo/AAABnSSvrFg/16x9-big/feuerwehreinsatz-duisburg-100.jpg?width=1920",
+      "published": "2026-10-24T10:59:50+02:00",
+      "category": "Nachrichten",
+      "score": 75.9,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Herbststurm \"Luise\" - Sturmtief sorgt für Zugausfälle und Verspätungen bei der Bahn, zwei Schwerverletzte auf Stadtfest",
+            "link": "https://www.deutschlandfunk.de/sturmtief-sorgt-fuer-zugausfaelle-und-verspaetungen-bei-der-bahn-zwei-schwerverletzte-auf-stadtfest-116.html"
+          }
+        ]
+      }
     },
     {
       "id": "deutschlandfunk-a6142f856a878360",
@@ -144,9 +151,9 @@
       "link": "https://www.deutschlandfunk.de/nach-hacks-openai-will-spitzen-ki-ohne-internet-trainieren-102.html",
       "summary": "Das US-Softwareunternehmen Open AI hat angekündigt, seine leistungsstärksten Modelle Künstlicher Intelligenz künftig ohne direkten Internet-Zugang zu trainieren.",
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_3/47/NOVA_3474641a937642ab2db74ef6342d435b/craft-13409269-asset-100-1920x1920.jpg",
-      "published": "2026-10-24T14:04:59+02:00",
+      "published": "2026-10-24T14:40:08+02:00",
       "category": "Wirtschaft",
-      "score": 74.5,
+      "score": 74.58,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -164,18 +171,6 @@
       }
     },
     {
-      "id": "spiegel-3f39bf8ebbfe5aef",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Berlin: SPD-Mann Wolfgang Thierse rät zu unabhängigem Regierungschef",
-      "link": "https://www.spiegel.de/politik/deutschland/wolfgang-thierse-ex-bundestagspraesident-von-der-spd-raet-zu-unabhaengigem-regierungschef-in-berlin-a-78d4f98f-e83d-49bb-9e8c-a3e1beb9b50e#ref=rss",
-      "summary": "Nach der Wahl in der Hauptstadt rät der ehemalige Bundestagspräsident Wolfgang Thierse der SPD dringend, ein Bündnis mit der Linken zu vermeiden. Er schlägt eine Alternative für die Regierungsbildung vor.",
-      "image": "https://cdn.prod.www.spiegel.de/images/3ef351cf-c673-41b1-97a8-8c7e3483490b_w1200_r1.778_fpx52.55_fpy55.jpg",
-      "published": "2026-10-24T09:59:00+02:00",
-      "category": "Politik",
-      "score": 74.41
-    },
-    {
       "id": "handelsblatt-65de9ed19f20d3a8",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
@@ -185,7 +180,7 @@
       "image": "https://images.handelsblatt.com/dIxB3hNFXQSv/cover/900/506/0/0/107/106/0.5/0.5/israels-ministerpraesident-benjamin-netanjahu.jpg",
       "published": "2026-10-24T08:00:00+00:00",
       "category": "Politik",
-      "score": 73.42
+      "score": 73.01
     },
     {
       "id": "handelsblatt-f05ff5b0cf2ecc6e",
@@ -197,7 +192,46 @@
       "image": "https://images.handelsblatt.com/z1DtvGQirR3X/cover/900/506/0/0/121/121/0.5/0.5/urnnewsmldpa.com20090101260824-935-1563003.jpg",
       "published": "2026-10-24T07:38:19+00:00",
       "category": "Politik",
-      "score": 73.12
+      "score": 72.7
+    },
+    {
+      "id": "deutschlandfunk-ad71c188ea0964bc",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Proteste - Frankreich: 70.000 Polizisten sichern Demonstrationen - Sorge vor Ausschreitungen",
+      "link": "https://www.deutschlandfunk.de/frankreich-70-000-polizisten-sichern-demonstrationen-sorge-vor-ausschreitungen-118.html",
+      "summary": "In Frankreich werden heute weitere landesweite Demonstrationen erwartet.",
+      "image": "https://bilder.deutschlandfunk.de/NO/VA/_0/ea/NOVA_0eab99f641e7508923108c56f833e100/craft-13458715-asset-100-1920x1920.jpg",
+      "published": "2026-10-24T14:40:08+02:00",
+      "category": "Nachrichten",
+      "score": 71.58,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Frankreich rüstet sich für Proteste: 70.000 Polizisten, Demos verboten, Museen geschlossen",
+            "link": "https://www.spiegel.de/ausland/frankreich-ruestet-sich-fuer-proteste-70-000-polizisten-demos-verboten-museen-geschlossen-a-0890d667-ab5f-4b7e-aa92-244e0c72e9ca#ref=rss"
+          },
+          {
+            "source": "deutsche-welle",
+            "title": "News kompakt: Sorge vor neuen Ausschreitungen in Paris",
+            "link": "https://www.dw.com/de/news-kompakt-sorge-vor-neuen-ausschreitungen-in-paris/a-79748108?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutsche-welle-ab47b9d8ca21b9be",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "Tschechien: Umstrittenes Rundfunkgebühren-Aus nimmt erste Hürde",
+      "link": "https://www.dw.com/de/tschechien-umstrittenes-rundfunkgebühren-aus-nimmt-erste-hürde/a-79750477?maca=de-rss-de-all-1119-rdf",
+      "summary": "Wird der tschechische Rundfunk bald vom Wohlwollen der Regierung abhängig sein? Die Finanzierung soll sich ändern. Der Widerstand wächst.",
+      "image": "https://static.dw.com/image/79750505_6.jpg",
+      "published": "2026-10-24T12:42:00+00:00",
+      "category": "Politik",
+      "score": 60.92
     },
     {
       "id": "deutsche-welle-3e136f4056d49786",
@@ -209,7 +243,7 @@
       "image": "https://static.dw.com/image/79426060_6.jpg",
       "published": "2026-10-24T11:36:00+00:00",
       "category": "Wirtschaft",
-      "score": 60.42
+      "score": 60.01
     },
     {
       "id": "golem-15d696f21fa11496",
@@ -221,31 +255,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214475&amp;page=1&amp;ts=1792844101",
       "published": "2026-10-24T14:15:01+02:00",
       "category": "Politik",
-      "score": 59.96
-    },
-    {
-      "id": "deutsche-welle-449a1f851e693434",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Anschlag auf Kirche in Jordanien: Fahndung nach Tätern läuft",
-      "link": "https://www.dw.com/de/anschlag-auf-kirche-in-jordanien-fahndung-nach-tätern-läuft/a-79749460?maca=de-rss-de-all-1119-rdf",
-      "summary": "Nach den tödlichen Schüssen bei einer Trauerfeier im Westen Jordaniens sind die Täter weiter auf der Flucht. Die Regierung in Amman stuft die Tat als Terrorakt ein.",
-      "image": "https://static.dw.com/image/79749687_6.jpg",
-      "published": "2026-10-24T10:42:00+00:00",
-      "category": "Politik",
-      "score": 59.67
-    },
-    {
-      "id": "golem-d45c7d79cf1fadf2",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Palantir: Nato-KI hat keinen Kill-Switch",
-      "link": "https://www.golem.de/news/palantir-nato-ki-hat-keinen-kill-switch-2610-214473.html",
-      "summary": "Palantir beteuert, weder das Unternehmen noch die US-Regierung das Nato-System Maven abschalten zu können. Die Sorge vor einer Abhängigkeit von US-Technologie ist hoch. ( Palantir , KI )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214473&amp;page=1&amp;ts=1792839482",
-      "published": "2026-10-24T12:58:02+02:00",
-      "category": "Politik",
-      "score": 58.89
+      "score": 59.55
     }
   ]
 }
