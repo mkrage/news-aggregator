@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T19:35:02.640827+00:00",
+  "generatedAt": "2026-10-24T22:02:03.072365+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,15 +12,10 @@
       "image": "https://images.tagesschau.de/image/0232602b-a10d-4723-ad50-6e379705e159/AAABoW2n8k0/AAABnSSvrFg/16x9-big/starlink-ukraine-108.jpg?width=1920",
       "published": "2026-10-24T17:29:30+02:00",
       "category": "Politik",
-      "score": 94.8,
+      "score": 90.86,
       "coverage": {
-        "sourceCount": 4,
+        "sourceCount": 3,
         "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Russischer Angriffskrieg - Starlink-Satellitensystem funktioniert wieder über der Ukraine - Waffenstillstand für Oleschky bestätigt",
-            "link": "https://www.deutschlandfunk.de/starlink-satellitensystem-funktioniert-wieder-ueber-der-ukraine-waffenstillstand-fuer-oleschky-besta-100.html"
-          },
           {
             "source": "spiegel",
             "title": "Russland und Ukraine setzen Angriffe fort – Starlink-Verbindung wieder stabil",
@@ -28,23 +23,45 @@
           },
           {
             "source": "handelsblatt",
-            "title": "+++ Ukraine-Krieg +++: Satellitenverbindung von SpaceX laut Ukraine wieder stabil",
-            "link": "https://www.handelsblatt.com/politik/international/ukraine-satellitenverbindung-von-spacex-laut-ukraine-wieder-stabil/27982126.html"
+            "title": "+++ Ukraine-Krieg +++: Musk: Ukraine hat Starlink für Offensivangriffe genutzt",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-laut-musk-habe-ukraine-starlink-fuer-offensivangriffe-genutzt/27982126.html"
           }
         ]
       }
     },
     {
-      "id": "deutschlandfunk-016e268051c1ed93",
+      "id": "tagesschau-8dc7b177308c2e0b",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Stichwahl in Brasilien: Flávio Bolsonaro - der Kandidat des Vaters",
+      "link": "https://www.tagesschau.de/ausland/amerika/brasilien-wahl-bolsonaro-106.html",
+      "summary": "Flávio Bolsonaro will seinen verurteilten Vater als Präsident beerben - und wohl auch aus der Haft befreien. Trotz allem: Für seine Anhänger ist der Familienname sein wichtigstes Kapital bei der morgigen Stichwahl. Von A. Herrberg und L. Bilard. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/323e9df3-a08e-458d-a941-e26927992033/AAABoW4ggCs/AAABnSSvrFg/16x9-big/flavio-jair-bolsonaro-100.jpg?width=1920",
+      "published": "2026-10-24T15:36:26+02:00",
+      "category": "Politik",
+      "score": 78.47,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Brasilien - Stichwahl über das Präsidentenamt: Lula oder Bolsonaro?",
+            "link": "https://www.deutschlandfunk.de/stichwahl-ueber-das-praesidentenamt-lula-oder-bolsonaro-100.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-54d018cc0d554c98",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
       "title": "Nahost - Palästinenser fordern Hilfe nach israelischem Armeeeinsatz",
-      "link": "https://www.deutschlandfunk.de/palaestinenser-fordern-hilfe-nach-israelischem-armeeeinsatz-102.html",
+      "link": "https://www.deutschlandfunk.de/palaestinenser-fordern-hilfe-nach-israelischem-armeeeinsatz-108.html",
       "summary": "Die palästinensische Autonomiebehörde ruft die internationale Gemeinschaft auf, wegen des Vorgehens israelischer Sicherheitskräfte im besetzten Westjordanland einzugreifen. Der Militäreinsatz stelle eine Kollektivstrafe dar, hieß es.",
       "image": "https://bilder.deutschlandfunk.de/f9/ee/ea/70/f9eeea70-f46d-4653-b9b4-24af63da690f/habron-westjordanland-terrorismus-israel-armee-soldaten-abriegelung-operation-palaestinenser-nahost-100-1920x1920.jpg",
-      "published": "2026-10-24T21:20:53+02:00",
+      "published": "2026-10-24T23:23:34+02:00",
       "category": "Politik",
-      "score": 77.8,
+      "score": 77.47,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -57,16 +74,38 @@
       }
     },
     {
-      "id": "deutschlandfunk-c298dff92c59f47c",
+      "id": "deutschlandfunk-a506fbfe656d1404",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
       "title": "Naher Osten - Aufwind für die Opposition: Das ist die Lage vor der Parlamentswahl in Israel",
-      "link": "https://www.deutschlandfunk.de/aufwind-fuer-die-opposition-das-ist-die-lage-vor-der-parlamentswahl-in-israel-100.html",
+      "link": "https://www.deutschlandfunk.de/aufwind-fuer-die-opposition-das-ist-die-lage-vor-der-parlamentswahl-in-israel-102.html",
       "summary": "Am Dienstag wählt Israel ein neues Parlament. Die Wahl wird auch als Volksurteil über die Politik von Ministerpräsident Netanjahu nach dem Hamas-Angriff am 7. Oktober 2023 betrachtet. In den vergangenen Wochen hat eine Oppositionspartei viel Aufschwung bekommen.",
       "image": "https://bilder.deutschlandfunk.de/69/d7/60/65/69d76065-b74a-4f64-a559-b751164f106a/israel-knesset-wahlen-100-1920x1920.jpg",
-      "published": "2026-10-24T21:20:53+02:00",
+      "published": "2026-10-24T23:23:34+02:00",
       "category": "Politik",
-      "score": 77.8
+      "score": 77.47
+    },
+    {
+      "id": "deutschlandfunk-cb457507d4ae7959",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Slowakei - Regional- und Kommunalwahlen zu Ende",
+      "link": "https://www.deutschlandfunk.de/regional-und-kommunalwahlen-zu-ende-102.html",
+      "summary": "In der Slowakei sind Regional- und Kommunalwahlen abgehalten worden.",
+      "image": "https://bilder.deutschlandfunk.de/23/eb/33/ff/23eb33ff-84f8-4fc3-b947-0445823ae994/slowakei-116-1920x1920.jpg",
+      "published": "2026-10-24T23:23:34+02:00",
+      "category": "Politik",
+      "score": 77.47,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Wahlen: Regional- und Kommunalwahlen in der Slowakei zu Ende",
+            "link": "https://www.handelsblatt.com/politik/international/wahlen-regional-und-kommunalwahlen-in-der-slowakei-zu-ende/100264704.html"
+          }
+        ]
+      }
     },
     {
       "id": "handelsblatt-2208e425503aefcc",
@@ -78,7 +117,7 @@
       "image": "https://images.handelsblatt.com/ajuKMP7NmADk/cover/900/506/0/0/210/1103/0.5/0.5/cover-podcast-trump-watch.jpg",
       "published": "2026-10-24T09:42:27+00:00",
       "category": "Politik",
-      "score": 76.77
+      "score": 74.73
     },
     {
       "id": "tagesschau-fe0750d87c22518f",
@@ -90,7 +129,7 @@
       "image": "https://images.tagesschau.de/image/165069c4-ef89-4bc5-a057-14b8a0dfd86e/AAABoWsq8OM/AAABnSSvrFg/16x9-big/israel-westjordanland-142.jpg?width=1920",
       "published": "2026-10-24T03:01:43+02:00",
       "category": "Politik",
-      "score": 75.97,
+      "score": 73.93,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -108,28 +147,6 @@
       }
     },
     {
-      "id": "tagesschau-6a7b2c7f349b6ccd",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Verletzte und Schäden nach \"Sturmtief\" Luise",
-      "link": "https://www.tagesschau.de/inland/herbststurm-104.html",
-      "summary": "Bäume und Äste auf Straßen und Gleisen, ein umgestürztes Gestell: Sturmtief \"Luise\" ist über Teile Deutschlands hinweggefegt. Zwei Menschen wurden schwer verletzt. Mit \"Manja\" zieht schon der nächste Sturm heran.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/2ce64551-8a79-4617-a4f3-892486cb272c/AAABoW0Znzo/AAABnSSvrFg/16x9-big/feuerwehreinsatz-duisburg-100.jpg?width=1920",
-      "published": "2026-10-24T10:59:50+02:00",
-      "category": "Nachrichten",
-      "score": 75.8,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Herbststurm \"Luise\" - Sturmtief sorgt für Zugausfälle und Verspätungen bei der Bahn, zwei Schwerverletzte auf Stadtfest",
-            "link": "https://www.deutschlandfunk.de/sturmtief-sorgt-fuer-zugausfaelle-und-verspaetungen-bei-der-bahn-zwei-schwerverletzte-auf-stadtfest-116.html"
-          }
-        ]
-      }
-    },
-    {
       "id": "spiegel-b3586f3c4bb00c2d",
       "source": "spiegel",
       "sourceWeight": 0.95,
@@ -139,34 +156,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/ca3e11ba-265f-47db-b6cc-8f1e2cd06bff_w1200_r1.778_fpx55_fpy48.jpg",
       "published": "2026-10-24T18:03:00+02:00",
       "category": "Politik",
-      "score": 75.05
-    },
-    {
-      "id": "deutschlandfunk-a6142f856a878360",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "USA - Nach Hacks: OpenAI will Spitzen-KI ohne Internet trainieren",
-      "link": "https://www.deutschlandfunk.de/nach-hacks-openai-will-spitzen-ki-ohne-internet-trainieren-102.html",
-      "summary": "Das US-Softwareunternehmen Open AI hat angekündigt, seine leistungsstärksten Modelle Künstlicher Intelligenz künftig ohne direkten Internet-Zugang zu trainieren.",
-      "image": "https://bilder.deutschlandfunk.de/NO/VA/_3/47/NOVA_3474641a937642ab2db74ef6342d435b/craft-13409269-asset-100-1920x1920.jpg",
-      "published": "2026-10-24T21:20:53+02:00",
-      "category": "Wirtschaft",
-      "score": 74.48,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Künstliche Intelligenz: Nach Hacks: OpenAI will Spitzen-KI ohne Internet trainieren",
-            "link": "https://www.handelsblatt.com/technik/it-internet/kuenstliche-intelligenz-nach-hacks-openai-will-spitzen-ki-ohne-internet-trainieren/100264618.html"
-          },
-          {
-            "source": "golem",
-            "title": "Ausbruchsgefahr: OpenAI sperrt seine KI-Modelle vom Internet aus",
-            "link": "https://www.golem.de/news/ausbruchsgefahr-openai-sperrt-seine-ki-modelle-vom-internet-aus-2610-214474.html"
-          }
-        ]
-      }
+      "score": 73.01
     },
     {
       "id": "tagesschau-2d3624640e8ea917",
@@ -178,14 +168,14 @@
       "image": "https://images.tagesschau.de/image/75e53fcc-ad65-4552-9098-c0f1ed6df143/AAABoW5wUjA/AAABnSSvrFg/16x9-big/merz-aigner-102.jpg?width=1920",
       "published": "2026-10-24T18:51:47+02:00",
       "category": "Nachrichten",
-      "score": 72.48,
+      "score": 72.15,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "CSU-Parteitag - Merz ruft Union zu Geschlossenheit auf und warnt vor Extremisten \"von ganz links und ganz rechts\"",
-            "link": "https://www.deutschlandfunk.de/merz-ruft-union-zu-geschlossenheit-auf-und-warnt-vor-extremisten-von-ganz-links-und-ganz-rechts-100.html"
+            "link": "https://www.deutschlandfunk.de/merz-ruft-union-zu-geschlossenheit-auf-und-warnt-vor-extremisten-von-ganz-links-und-ganz-rechts-102.html"
           },
           {
             "source": "handelsblatt",
@@ -196,16 +186,16 @@
       }
     },
     {
-      "id": "spiegel-9907e996bed9c0b3",
+      "id": "spiegel-1fe9b38b0c9770bb",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Wahl in Israel: Was die Menschen über Benjamin Netanyahu denken",
-      "link": "https://www.spiegel.de/ausland/wahl-in-israel-was-die-menschen-ueber-benjamin-netanyahu-denken-a-ac83287a-8c87-4cd8-a23e-e903ad531ae1#ref=rss",
-      "summary": "Nach der Parlamentswahl am 27. Oktober könnte Benjamin Netanyahu sein Amt verlieren. Wie blicken die Israelis auf den Wahltag und ihren Langzeitpremier? SPIEGEL-Korrespondent Thore Schröder hat sich umgehört.",
-      "image": "https://cdn.prod.www.spiegel.de/images/f4bb81d0-1ab4-42de-b9ab-c2c3ebf1f983_w1080_r1.778_fpx57_fpy32.jpg",
-      "published": "2026-10-24T14:39:00+02:00",
+      "title": "Elon Musk wirft Ukraine Missbrauch von Starlink-Satelliten vor",
+      "link": "https://www.spiegel.de/ausland/elon-musk-wirft-ukraine-missbrauch-von-starlink-satelliten-vor-a-042c1f86-3094-4a33-9fbc-c6e1b057e1e9#ref=rss",
+      "summary": "Techmilliardär Elon Musk hat nach Tagen des gedrosselten Internets in der Ukraine Vorwürfe gegen die Regierung erhoben: Das Militär habe Starlink für Angriffe genutzt. Belege liefert er nicht.",
+      "image": "https://cdn.prod.www.spiegel.de/images/e2b90b07-498a-4fa4-aab4-21477f3b4cc3_w1200_r1.778_fpx45_fpy51.jpg",
+      "published": "2026-10-24T23:17:00+02:00",
       "category": "Politik",
-      "score": 72.22
+      "score": 69.37
     },
     {
       "id": "spiegel-20b49a066032ad91",
@@ -217,7 +207,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/f6e80ee2-617e-422a-a8f9-a40519dcc550_w1200_r1.778_fpx66.66_fpy50.jpg",
       "published": "2026-10-24T19:17:00+02:00",
       "category": "Politik",
-      "score": 69.65,
+      "score": 67.61,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -239,19 +229,7 @@
       "image": "https://static.dw.com/image/79738242_6.jpg",
       "published": "2026-10-24T19:20:00+00:00",
       "category": "Politik",
-      "score": 68.79
-    },
-    {
-      "id": "handelsblatt-3528fd02aedd5898",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Iran-Krieg +++: Iran nimmt offenbar US-Diplomaten in Nahost ins Visier",
-      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-iran-nimmt-offenbar-us-diplomaten-in-nahost-ins-visier/100136895.html",
-      "summary": "Huthi melden Angriffe auf Ölanlagen und Flughäfen in Saudi-Arabien +++ Trinkwasser in der von den Huthi belagerten Stadt Tais im Jemen wird knapp +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/IhzcgM4BYNZQ/cover/900/506/0/410/167/277/0.5/0.5/abkommen-usa-iran.jpg",
-      "published": "2026-10-24T18:10:00+00:00",
-      "category": "Wirtschaft",
-      "score": 67.82
+      "score": 66.75
     },
     {
       "id": "handelsblatt-65de9ed19f20d3a8",
@@ -263,7 +241,19 @@
       "image": "https://images.handelsblatt.com/dIxB3hNFXQSv/cover/900/506/0/0/107/106/0.5/0.5/israels-ministerpraesident-benjamin-netanjahu.jpg",
       "published": "2026-10-24T08:00:00+00:00",
       "category": "Politik",
-      "score": 67.35
+      "score": 65.3
+    },
+    {
+      "id": "handelsblatt-f05ff5b0cf2ecc6e",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Zollstreit: Trump hebt Zölle auf bestimmte kanadische Waren auf",
+      "link": "https://www.handelsblatt.com/politik/international/zollstreit-trump-hebt-zoelle-auf-bestimmte-kanadische-waren-auf/100264655.html",
+      "summary": "Kurz vor den Zwischenwahlen am 3. November lockert das Weiße Haus die Zölle auf Agrar- und Forstprodukte aus Kanada. Andere Güter wurden jedoch neu auf die Liste gesetzt.",
+      "image": "https://images.handelsblatt.com/z1DtvGQirR3X/cover/900/506/0/0/121/121/0.5/0.5/urnnewsmldpa.com20090101260824-935-1563003.jpg",
+      "published": "2026-10-24T07:38:19+00:00",
+      "category": "Politik",
+      "score": 65.0
     },
     {
       "id": "golem-2c23295b2dcb57ea",
@@ -275,7 +265,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214476&amp;page=1&amp;ts=1792846022",
       "published": "2026-10-24T14:47:02+02:00",
       "category": "Politik",
-      "score": 62.33
+      "score": 60.29
     }
   ]
 }
