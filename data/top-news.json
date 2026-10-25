@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T00:37:35.500543+00:00",
+  "generatedAt": "2026-10-25T01:19:30.860946+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/0232602b-a10d-4723-ad50-6e379705e159/AAABoW2n8k0/AAABnSSvrFg/16x9-big/starlink-ukraine-108.jpg?width=1920",
       "published": "2026-10-24T17:29:30+02:00",
       "category": "Politik",
-      "score": 88.7,
+      "score": 88.12,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -39,7 +39,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/945c8306-d056-4b41-94e8-2700e6d99ecb_w1200_r1.778_fpx33.34_fpy50.jpg",
       "published": "2026-10-25T00:26:00+02:00",
       "category": "Politik",
-      "score": 84.35,
+      "score": 83.77,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -61,7 +61,7 @@
       "image": "https://images.tagesschau.de/image/323e9df3-a08e-458d-a941-e26927992033/AAABoW4ggCs/AAABnSSvrFg/16x9-big/flavio-jair-bolsonaro-100.jpg?width=1920",
       "published": "2026-10-24T15:36:26+02:00",
       "category": "Politik",
-      "score": 83.45,
+      "score": 82.87,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -86,9 +86,9 @@
       "link": "https://www.deutschlandfunk.de/regional-und-kommunalwahlen-zu-ende-102.html",
       "summary": "In der Slowakei sind Regional- und Kommunalwahlen abgehalten worden.",
       "image": "https://bilder.deutschlandfunk.de/23/eb/33/ff/23eb33ff-84f8-4fc3-b947-0445823ae994/slowakei-116-1920x1920.jpg",
-      "published": "2026-10-25T00:09:43+02:00",
+      "published": "2026-10-25T02:01:46+02:00",
       "category": "Politik",
-      "score": 75.95,
+      "score": 76.92,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -101,6 +101,30 @@
       }
     },
     {
+      "id": "handelsblatt-8440605dc7a0136c",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Auto: Nach Handelsblatt-Bericht: Trump bestätigt Bau von Audi-Werk in den USA",
+      "link": "https://www.handelsblatt.com/unternehmen/industrie/auto-nach-handelsblatt-bericht-trump-bestaetigt-bau-von-audi-werk-in-den-usa/100264447.html",
+      "summary": "Bei einem Wahlkampfauftritt in Georgia macht der US-Präsident die Pläne der Volkswagen-Tochter offiziell. Im Gegenzug für die Milliardeninvestition könnte der Konzern auch Zollerleichterungen erhalten.",
+      "image": "https://images.handelsblatt.com/cnJwH9H5Lveu/cover/900/506/0/0/311/311/0.5/0.5/us-president-donald-trump-speaks-during-a-rally-at-guardian-centers-in-perry-georgia-us-october-2.jpg",
+      "published": "2026-10-25T01:11:16+00:00",
+      "category": "Politik",
+      "score": 76.89
+    },
+    {
+      "id": "spiegel-320dbe20b420edf5",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Nicht-US-Bürger bei Midterms: US-Justizministerium setzt Beamte in Kalifornien unter Druck",
+      "link": "https://www.spiegel.de/ausland/nicht-us-buerger-bei-midterms-us-justizministerium-setzt-beamte-in-kalifornien-unter-druck-a-830ee8f2-7afc-48f8-b71a-24ce8fdfc4fd#ref=rss",
+      "summary": "Wenige Tage vor den Midterms droht das US-Justizministerium Wahlbeamten in Kalifornien mit Ermittlungen gegen sie. Die Trump-Regierung behauptet, dass Hunderte Nicht-US-Bürger als Wähler registriert sind. Kalifornien weist die Vorwürfe zurück.",
+      "image": "https://cdn.prod.www.spiegel.de/images/11ceaf54-897a-4b0a-858c-6aeb860a7222_w1200_r1.778_fpx65.34_fpy50.jpg",
+      "published": "2026-10-25T01:55:00+02:00",
+      "category": "Politik",
+      "score": 76.83
+    },
+    {
       "id": "handelsblatt-2208e425503aefcc",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
@@ -110,46 +134,7 @@
       "image": "https://images.handelsblatt.com/ajuKMP7NmADk/cover/900/506/0/0/210/1103/0.5/0.5/cover-podcast-trump-watch.jpg",
       "published": "2026-10-24T09:42:27+00:00",
       "category": "Politik",
-      "score": 72.57
-    },
-    {
-      "id": "tagesschau-fe0750d87c22518f",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Nach Anschlag auf Soldaten: Israel startet Operation im Westjordanland",
-      "link": "https://www.tagesschau.de/ausland/israel-westjordanland-militaeroperation-100.html",
-      "summary": "Nach den tödlichen Schüssen auf zwei Soldaten hat Israels Armee einen \"Anti-Terror-Einsatz\" im Westjordanland begonnen. Man suche dort nach Waffen und Terrorinfrastruktur. Israels Premier drohte zudem mit einem großangelegten Militäreinsatz.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/165069c4-ef89-4bc5-a057-14b8a0dfd86e/AAABoWsq8OM/AAABnSSvrFg/16x9-big/israel-westjordanland-142.jpg?width=1920",
-      "published": "2026-10-24T03:01:43+02:00",
-      "category": "Politik",
-      "score": 71.77,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutsche-welle",
-            "title": "Israel beginnt \"Anti-Terror-Einsatz\" im Westjordanland",
-            "link": "https://www.dw.com/de/israel-beginnt-anti-terror-einsatz-im-westjordanland/a-79749417?maca=de-rss-de-all-1119-rdf"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Die Lage im Überblick: Israel startet „Anti-Terror-Operation“ im Westjordanland",
-            "link": "https://www.handelsblatt.com/politik/international/die-lage-im-ueberblick-israel-startet-anti-terror-operation-im-westjordanland/100264615.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-b3586f3c4bb00c2d",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Israel: Sonst geht es bei Wahlen um Zukunft. In Sderot wird sie von der Vergangenheit verdrängt",
-      "link": "https://www.spiegel.de/ausland/israel-sonst-geht-es-bei-wahlen-um-zukunft-in-sderot-wird-sie-von-der-vergangenheit-verdraengt-a-357cbe2c-3304-476d-a79e-5b42219f2118#ref=rss",
-      "summary": "Der Terrorangriff vom 7. Oktober ist das wichtigste Thema bei den Wahlen in Israel. Wie geht es Menschen, die persönlich betroffen sind? Ein Besuch in der Stadt Sderot, die unter Beschuss geriet und nun politisch immer weiter nach rechts rückt.",
-      "image": "https://cdn.prod.www.spiegel.de/images/ca3e11ba-265f-47db-b6cc-8f1e2cd06bff_w1200_r1.778_fpx55_fpy48.jpg",
-      "published": "2026-10-24T18:03:00+02:00",
-      "category": "Politik",
-      "score": 70.85
+      "score": 71.99
     },
     {
       "id": "tagesschau-2d3624640e8ea917",
@@ -161,7 +146,7 @@
       "image": "https://images.tagesschau.de/image/75e53fcc-ad65-4552-9098-c0f1ed6df143/AAABoW5wUjA/AAABnSSvrFg/16x9-big/merz-aigner-102.jpg?width=1920",
       "published": "2026-10-24T18:51:47+02:00",
       "category": "Nachrichten",
-      "score": 70.63,
+      "score": 71.6,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -179,6 +164,33 @@
       }
     },
     {
+      "id": "tagesschau-fe0750d87c22518f",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Nach Anschlag auf Soldaten: Israel startet Operation im Westjordanland",
+      "link": "https://www.tagesschau.de/ausland/israel-westjordanland-militaeroperation-100.html",
+      "summary": "Nach den tödlichen Schüssen auf zwei Soldaten hat Israels Armee einen \"Anti-Terror-Einsatz\" im Westjordanland begonnen. Man suche dort nach Waffen und Terrorinfrastruktur. Israels Premier drohte zudem mit einem großangelegten Militäreinsatz.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/165069c4-ef89-4bc5-a057-14b8a0dfd86e/AAABoWsq8OM/AAABnSSvrFg/16x9-big/israel-westjordanland-142.jpg?width=1920",
+      "published": "2026-10-24T03:01:43+02:00",
+      "category": "Politik",
+      "score": 71.19,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutsche-welle",
+            "title": "Israel beginnt \"Anti-Terror-Einsatz\" im Westjordanland",
+            "link": "https://www.dw.com/de/israel-beginnt-anti-terror-einsatz-im-westjordanland/a-79749417?maca=de-rss-de-all-1119-rdf"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Die Lage im Überblick: Israel startet „Anti-Terror-Operation“ im Westjordanland",
+            "link": "https://www.handelsblatt.com/politik/international/die-lage-im-ueberblick-israel-startet-anti-terror-operation-im-westjordanland/100264615.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "deutschlandfunk-5f2612269a3144c8",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
@@ -186,9 +198,9 @@
       "link": "https://www.deutschlandfunk.de/huthi-miliz-meldet-neue-angriffe-auf-saudi-arabien-102.html",
       "summary": "Die jemenitische Huthi-Miliz hat nach eigenen Angaben erneut mehrere Angriffe auf Saudi-Arabien durchgeführt.",
       "image": "https://bilder.deutschlandfunk.de/ba/19/52/d5/ba1952d5-6be8-4f93-bbac-70bac12ccafa/jemen-angriffe-102-1920x1920.jpg",
-      "published": "2026-10-25T00:09:43+02:00",
+      "published": "2026-10-25T02:01:46+02:00",
       "category": "Nachrichten",
-      "score": 69.63,
+      "score": 71.14,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -206,6 +218,18 @@
       }
     },
     {
+      "id": "spiegel-b3586f3c4bb00c2d",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Israel: Sonst geht es bei Wahlen um Zukunft. In Sderot wird sie von der Vergangenheit verdrängt",
+      "link": "https://www.spiegel.de/ausland/israel-sonst-geht-es-bei-wahlen-um-zukunft-in-sderot-wird-sie-von-der-vergangenheit-verdraengt-a-357cbe2c-3304-476d-a79e-5b42219f2118#ref=rss",
+      "summary": "Der Terrorangriff vom 7. Oktober ist das wichtigste Thema bei den Wahlen in Israel. Wie geht es Menschen, die persönlich betroffen sind? Ein Besuch in der Stadt Sderot, die unter Beschuss geriet und nun politisch immer weiter nach rechts rückt.",
+      "image": "https://cdn.prod.www.spiegel.de/images/ca3e11ba-265f-47db-b6cc-8f1e2cd06bff_w1200_r1.778_fpx55_fpy48.jpg",
+      "published": "2026-10-24T18:03:00+02:00",
+      "category": "Politik",
+      "score": 70.27
+    },
+    {
       "id": "deutschlandfunk-c33c5e5e1ece5287",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
@@ -213,45 +237,21 @@
       "link": "https://www.deutschlandfunk.de/serbien-waehlt-neues-parlament-praesidentschaftswahlen-in-bulgarien-100.html",
       "summary": "In Serbien finden heute vorgezogene Parlamentswahlen statt.",
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_6/1c/NOVA_61c1caee454f123daba811dc55f1b094/craft-13363019-asset-100-1920x1920.jpg",
-      "published": "2026-10-25T00:09:43+02:00",
+      "published": "2026-10-25T02:01:46+02:00",
       "category": "Politik",
-      "score": 67.95
+      "score": 68.92
     },
     {
-      "id": "spiegel-1fe9b38b0c9770bb",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Elon Musk wirft Ukraine Missbrauch von Starlink-Satelliten vor",
-      "link": "https://www.spiegel.de/ausland/elon-musk-wirft-ukraine-missbrauch-von-starlink-satelliten-vor-a-042c1f86-3094-4a33-9fbc-c6e1b057e1e9#ref=rss",
-      "summary": "Techmilliardär Elon Musk hat nach Tagen des gedrosselten Internets in der Ukraine Vorwürfe gegen die Regierung erhoben: Das Militär habe Starlink für Angriffe genutzt. Belege liefert er nicht.",
-      "image": "https://cdn.prod.www.spiegel.de/images/e2b90b07-498a-4fa4-aab4-21477f3b4cc3_w1200_r1.778_fpx45_fpy51.jpg",
-      "published": "2026-10-24T23:17:00+02:00",
-      "category": "Politik",
-      "score": 67.21
-    },
-    {
-      "id": "deutsche-welle-4cce80aef5784803",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Vorgezogene Parlamentswahlen in Serbien: Machtwechsel oder weiter mit  Aleksandar Vučić?",
-      "link": "https://www.dw.com/de/vorgezogene-parlamentswahlen-in-serbien-machtwechsel-oder-weiter-mit-aleksandar-vučić/a-79750692?maca=de-rss-de-all-1119-rdf",
-      "summary": "Kommt es zum Showdown gegen den langjährigen Machthaber und Ex-Präsidenten Staatschef Aleksandar Vučić? Bei den vorgezogenen Parlamentswahlen in Serbien am Sonntag geht es um einen politischen Richtungswechsel im Land.",
-      "image": "https://static.dw.com/image/79738242_6.jpg",
-      "published": "2026-10-24T19:20:00+00:00",
-      "category": "Politik",
-      "score": 64.59
-    },
-    {
-      "id": "handelsblatt-04f1a73f112d9b7e",
+      "id": "handelsblatt-0db15e844a933a08",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Demonstrationen: Mindestens 1.000 Festnahmen nach Protesten in Frankreich",
-      "link": "https://www.handelsblatt.com/politik/international/demonstrationen-mindestens-1000-festnahmen-nach-protesten-in-frankreich/100264717.html",
-      "summary": "In Frankreich gehen Hunderttausende Menschen friedlich auf die Straßen. Es gibt aber auch wieder Gewalt - trotz eines Großaufgebots der Polizei. Die Bilanz ist noch unvollständig.",
-      "image": "https://images.handelsblatt.com/C2cvmfVppVrh/cover/900/506/0/0/107/106/0.5/0.5/proteste-in-paris.jpg",
-      "published": "2026-10-24T22:36:36+00:00",
-      "category": "Panorama",
-      "score": 64.32,
+      "title": "Katalonien: Randale in Barcelona: Rund 100 Festnahmen bei Protesten",
+      "link": "https://www.handelsblatt.com/politik/international/katalonien-randale-in-barcelona-rund-100-festnahmen-bei-protesten/100264723.html",
+      "summary": "Im Zentrum der Hauptstadt Kataloniens kommen Hunderte junge Menschen zu Protesten zusammen. Etliche randalieren und plündern Geschäfte. Das genaue Ziel der Proteste ist unklar.",
+      "image": "https://images.handelsblatt.com/gsObM0Zapf0F/cover/900/506/0/0/107/106/0.5/0.5/proteste-in-barcelona.jpg",
+      "published": "2026-10-25T00:41:05+00:00",
+      "category": "Wirtschaft",
+      "score": 68.47,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -264,16 +264,16 @@
       }
     },
     {
-      "id": "handelsblatt-65de9ed19f20d3a8",
-      "source": "handelsblatt",
+      "id": "deutsche-welle-4cce80aef5784803",
+      "source": "deutsche-welle",
       "sourceWeight": 0.9,
-      "title": "Israel: Netanjahu könnte die Wahl verlieren – und dennoch regieren",
-      "link": "https://www.handelsblatt.com/politik/international/israel-netanjahu-koennte-die-wahl-verlieren-und-dennoch-regieren/100260417.html",
-      "summary": "Laut allen Umfragen der vergangenen Monate verliert Israels Premier seine Mehrheit. Es gibt allerdings drei Szenarien, wie er dennoch an der Macht bleiben könnte.",
-      "image": "https://images.handelsblatt.com/dIxB3hNFXQSv/cover/900/506/0/0/107/106/0.5/0.5/israels-ministerpraesident-benjamin-netanjahu.jpg",
-      "published": "2026-10-24T08:00:00+00:00",
+      "title": "Vorgezogene Parlamentswahlen in Serbien: Machtwechsel oder weiter mit  Aleksandar Vučić?",
+      "link": "https://www.dw.com/de/vorgezogene-parlamentswahlen-in-serbien-machtwechsel-oder-weiter-mit-aleksandar-vučić/a-79750692?maca=de-rss-de-all-1119-rdf",
+      "summary": "Kommt es zum Showdown gegen den langjährigen Machthaber und Ex-Präsidenten Staatschef Aleksandar Vučić? Bei den vorgezogenen Parlamentswahlen in Serbien am Sonntag geht es um einen politischen Richtungswechsel im Land.",
+      "image": "https://static.dw.com/image/79738242_6.jpg",
+      "published": "2026-10-24T19:20:00+00:00",
       "category": "Politik",
-      "score": 63.14
+      "score": 64.01
     },
     {
       "id": "golem-2c23295b2dcb57ea",
@@ -283,9 +283,9 @@
       "link": "https://www.golem.de/news/afd-datenleck-geleakte-mails-bringen-weidel-in-der-spendenaffaere-in-erklaerungsnot-2610-214476.html",
       "summary": "Geleakte E-Mails zeigen, dass Alice Weidel 2017 konkrete Spenden für ihren Social-Media-Wahlkampf erwartete und selbst festlegte, wie das Geld fließen sollte. ( Datenleck , E-Mail )",
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214476&amp;page=1&amp;ts=1792846022",
-      "published": "2026-10-24T14:47:02+02:00",
+      "published": "2026-10-24T13:47:02+01:00",
       "category": "Politik",
-      "score": 58.13
+      "score": 57.55
     }
   ]
 }
