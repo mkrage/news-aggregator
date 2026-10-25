@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T05:26:04.284872+00:00",
+  "generatedAt": "2026-10-25T06:21:10.114510+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/0232602b-a10d-4723-ad50-6e379705e159/AAABoW2n8k0/AAABnSSvrFg/16x9-big/starlink-ukraine-108.jpg?width=1920",
       "published": "2026-10-24T17:29:30+02:00",
       "category": "Politik",
-      "score": 90.4,
+      "score": 91.51,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -35,14 +35,19 @@
       "sourceWeight": 0.95,
       "title": "USA - Audi kündigt während Wahlkampfveranstaltung von Trump ein neues Werk an",
       "link": "https://www.deutschlandfunk.de/audi-kuendigt-waehrend-wahlkampfveranstaltung-von-trump-ein-neues-werk-an-104.html",
-      "summary": "Auf einer Wahlkampfveranstaltung von US-Präsident Trump hat der deutsche Autobauer Audi den Bau eines neuen Werks für SUV-Fahrzeuge in den Vereinigten Staaten bekanntgegeben.",
+      "summary": "Audi will für vier Milliarden Dollar ein ‌neues Werk in den USA bauen.",
       "image": "https://bilder.deutschlandfunk.de/FI/LE/_6/b5/FILE_6b57e9d70e5cd07f4e4af660f41b09b9/87129157-jpg-102-512x512.jpg",
-      "published": "2026-10-25T04:53:57+01:00",
+      "published": "2026-10-25T07:09:14+01:00",
       "category": "Politik",
-      "score": 85.01,
+      "score": 90.51,
       "coverage": {
-        "sourceCount": 2,
+        "sourceCount": 3,
         "others": [
+          {
+            "source": "spiegel",
+            "title": "Audi baut für vier Milliarden Dollar eigenes Werk in den USA",
+            "link": "https://www.spiegel.de/wirtschaft/audi-baut-fuer-vier-milliarden-dollar-eigenes-werk-in-den-usa-a-a6807fc7-f806-4c09-b692-90bfdd32e174#ref=rss"
+          },
           {
             "source": "handelsblatt",
             "title": "Parlamentswahlen: Auf Trump-Wahlkampftour: Audi kündigt SUV-Werk in den USA an",
@@ -50,18 +55,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "handelsblatt-ec6edc663092a225",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Wegweisende Abstimmung: Schicksalswahl in Israel: Es geht um mehr als Netanjahu",
-      "link": "https://www.handelsblatt.com/politik/international/wegweisende-abstimmung-schicksalswahl-in-israel-es-geht-um-mehr-als-netanjahu/100264744.html",
-      "summary": "Kann Netanjahu trotz des Versagens vom 7. Oktober und dreier harter Kriegsjahre seine Macht behaupten? Oder gelingt es der liberaleren Opposition, ihn nach Jahren an der Regierungsspitze abzulösen?",
-      "image": "https://images.handelsblatt.com/WRnWcAErdDIW/cover/900/506/0/0/107/106/0.5/0.5/nahostkonflikt-netanjahu.jpg",
-      "published": "2026-10-25T04:00:07+00:00",
-      "category": "Politik",
-      "score": 83.81
     },
     {
       "id": "tagesschau-d10a2c8a6041d201",
@@ -73,7 +66,7 @@
       "image": "https://images.tagesschau.de/image/d1655185-f8a9-452b-87c9-ae485a7ca38c/AAABoWuZ1jc/AAABnSSvrFg/16x9-big/lula-bolsonaro-102.jpg?width=1920",
       "published": "2026-10-25T05:07:12+01:00",
       "category": "Politik",
-      "score": 82.58,
+      "score": 83.51,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -91,6 +84,18 @@
       }
     },
     {
+      "id": "handelsblatt-ec6edc663092a225",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Wegweisende Abstimmung: Schicksalswahl in Israel: Es geht um mehr als Netanjahu",
+      "link": "https://www.handelsblatt.com/politik/international/wegweisende-abstimmung-schicksalswahl-in-israel-es-geht-um-mehr-als-netanjahu/100264744.html",
+      "summary": "Kann Netanjahu trotz des Versagens vom 7. Oktober und dreier harter Kriegsjahre seine Macht behaupten? Oder gelingt es der liberaleren Opposition, ihn nach Jahren an der Regierungsspitze abzulösen?",
+      "image": "https://images.handelsblatt.com/WRnWcAErdDIW/cover/900/506/0/0/107/106/0.5/0.5/nahostkonflikt-netanjahu.jpg",
+      "published": "2026-10-25T04:00:07+00:00",
+      "category": "Politik",
+      "score": 83.04
+    },
+    {
       "id": "spiegel-058586ecade70782",
       "source": "spiegel",
       "sourceWeight": 0.95,
@@ -100,7 +105,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/945c8306-d056-4b41-94e8-2700e6d99ecb_w1200_r1.778_fpx33.34_fpy50.jpg",
       "published": "2026-10-25T00:26:00+02:00",
       "category": "Politik",
-      "score": 80.35,
+      "score": 79.58,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -120,9 +125,9 @@
       "link": "https://www.deutschlandfunk.de/regional-und-kommunalwahlen-zu-ende-102.html",
       "summary": "In der Slowakei sind Regional- und Kommunalwahlen abgehalten worden.",
       "image": "https://bilder.deutschlandfunk.de/23/eb/33/ff/23eb33ff-84f8-4fc3-b947-0445823ae994/slowakei-116-1920x1920.jpg",
-      "published": "2026-10-25T04:53:57+01:00",
+      "published": "2026-10-25T07:09:14+01:00",
       "category": "Politik",
-      "score": 76.72,
+      "score": 77.83,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -135,18 +140,6 @@
       }
     },
     {
-      "id": "spiegel-3b76b8617b9dd835",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Audi baut für vier Milliarden Dollar eigenes Werk in den USA",
-      "link": "https://www.spiegel.de/wirtschaft/audi-baut-fuer-vier-milliarden-dollar-eigenes-werk-in-den-usa-a-a6807fc7-f806-4c09-b692-90bfdd32e174#ref=rss",
-      "summary": "Bislang importiert Audi alles seine Fahrzeuge in die USA und zahlt dafür hohe Zölle. Nun will das Unternehmen erstmals vor Ort produzieren. Ausgerechnet Donald Trump darf die Milliardeninvestition im Wahlkampf verkünden – zusammen mit dem Audi-Chef.",
-      "image": "https://cdn.prod.www.spiegel.de/images/b47fe38e-b748-4898-9693-4313b737db35_w1200_r1.778_fpx56.81_fpy54.98.jpg",
-      "published": "2026-10-25T04:47:00+01:00",
-      "category": "Politik",
-      "score": 76.62
-    },
-    {
       "id": "tagesschau-6ba2825fa12d2896",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -156,7 +149,7 @@
       "image": "https://images.tagesschau.de/image/fb67e229-3cce-48c8-a0a3-4c3628c69bd5/AAABoWlmaqk/AAABnSSvrFg/16x9-big/soldaten-hebron-100.jpg?width=1920",
       "published": "2026-10-23T18:31:33+02:00",
       "category": "Politik",
-      "score": 76.05,
+      "score": 75.29,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -178,19 +171,19 @@
       "image": "https://images.handelsblatt.com/0udsHEFYl1T2/cover/900/506/0/0/107/106/0.5/0.5/nahostkonflikt-westjordanland.jpg",
       "published": "2026-10-25T03:16:06+00:00",
       "category": "Politik",
-      "score": 75.19
+      "score": 74.43
     },
     {
-      "id": "handelsblatt-8440605dc7a0136c",
+      "id": "handelsblatt-85334e94d13b5488",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Auto: Nach Handelsblatt-Bericht: Trump bestätigt Bau von Audi-Werk in den USA",
-      "link": "https://www.handelsblatt.com/unternehmen/industrie/auto-nach-handelsblatt-bericht-trump-bestaetigt-bau-von-audi-werk-in-den-usa/100264447.html",
+      "title": "Autobauer: Trump bestätigt Handelsblatt-Bericht: Audi baut neues Werk in den USA",
+      "link": "https://www.handelsblatt.com/unternehmen/industrie/autobauer-trump-bestaetigt-handelsblatt-bericht-audi-baut-werk-in-den-usa/100264447.html",
       "summary": "Bei einem Wahlkampfauftritt in Georgia macht der US-Präsident die Pläne der Volkswagen-Tochter offiziell. Im Gegenzug für die Milliardeninvestition könnte der Konzern auch Zollerleichterungen erhalten.",
       "image": "https://images.handelsblatt.com/cnJwH9H5Lveu/cover/900/506/0/0/311/311/0.5/0.5/us-president-donald-trump-speaks-during-a-rally-at-guardian-centers-in-perry-georgia-us-october-2.jpg",
       "published": "2026-10-25T01:11:16+00:00",
       "category": "Politik",
-      "score": 73.46
+      "score": 72.7
     },
     {
       "id": "spiegel-320dbe20b420edf5",
@@ -202,7 +195,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/11ceaf54-897a-4b0a-858c-6aeb860a7222_w1200_r1.778_fpx65.34_fpy50.jpg",
       "published": "2026-10-25T01:55:00+02:00",
       "category": "Politik",
-      "score": 73.4
+      "score": 72.64
     },
     {
       "id": "tagesschau-2d3624640e8ea917",
@@ -214,7 +207,7 @@
       "image": "https://images.tagesschau.de/image/75e53fcc-ad65-4552-9098-c0f1ed6df143/AAABoW5wUjA/AAABnSSvrFg/16x9-big/merz-aigner-102.jpg?width=1920",
       "published": "2026-10-24T18:51:47+02:00",
       "category": "Nachrichten",
-      "score": 71.4,
+      "score": 72.51,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -239,9 +232,9 @@
       "link": "https://www.deutschlandfunk.de/huthi-miliz-meldet-neue-angriffe-auf-saudi-arabien-102.html",
       "summary": "Die jemenitische Huthi-Miliz hat nach eigenen Angaben erneut mehrere Angriffe auf Saudi-Arabien durchgeführt.",
       "image": "https://bilder.deutschlandfunk.de/ba/19/52/d5/ba1952d5-6be8-4f93-bbac-70bac12ccafa/jemen-angriffe-102-1920x1920.jpg",
-      "published": "2026-10-25T04:53:57+01:00",
+      "published": "2026-10-25T07:09:14+01:00",
       "category": "Nachrichten",
-      "score": 70.4,
+      "score": 71.51,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -259,16 +252,16 @@
       }
     },
     {
-      "id": "deutschlandfunk-c33c5e5e1ece5287",
-      "source": "deutschlandfunk",
+      "id": "spiegel-b3586f3c4bb00c2d",
+      "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Wahlsonntag - Serbien wählt neues Parlament - Präsidentschaftswahlen in Bulgarien",
-      "link": "https://www.deutschlandfunk.de/serbien-waehlt-neues-parlament-praesidentschaftswahlen-in-bulgarien-100.html",
-      "summary": "In Serbien finden heute vorgezogene Parlamentswahlen statt.",
-      "image": "https://bilder.deutschlandfunk.de/NO/VA/_6/1c/NOVA_61c1caee454f123daba811dc55f1b094/craft-13363019-asset-100-1920x1920.jpg",
-      "published": "2026-10-25T04:53:57+01:00",
+      "title": "Israel: Sonst geht es bei Wahlen um Zukunft. In Sderot wird sie von der Vergangenheit verdrängt",
+      "link": "https://www.spiegel.de/ausland/israel-sonst-geht-es-bei-wahlen-um-zukunft-in-sderot-wird-sie-von-der-vergangenheit-verdraengt-a-357cbe2c-3304-476d-a79e-5b42219f2118#ref=rss",
+      "summary": "Der Terrorangriff vom 7. Oktober ist das wichtigste Thema bei den Wahlen in Israel. Wie geht es Menschen, die persönlich betroffen sind? Ein Besuch in der Stadt Sderot, die unter Beschuss geriet und nun politisch immer weiter nach rechts rückt.",
+      "image": "https://cdn.prod.www.spiegel.de/images/ca3e11ba-265f-47db-b6cc-8f1e2cd06bff_w1200_r1.778_fpx55_fpy48.jpg",
+      "published": "2026-10-24T18:03:00+02:00",
       "category": "Politik",
-      "score": 68.72
+      "score": 66.08
     },
     {
       "id": "deutsche-welle-4cce80aef5784803",
@@ -280,7 +273,19 @@
       "image": "https://static.dw.com/image/79738242_6.jpg",
       "published": "2026-10-24T19:20:00+00:00",
       "category": "Politik",
-      "score": 60.58
+      "score": 59.82
+    },
+    {
+      "id": "golem-98167d73d701c8fa",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Anzeige: Sechs IT-Jobs in Datenanalyse, Entwicklung und IT-Operations",
+      "link": "https://www.golem.de/news/anzeige-sechs-it-jobs-in-datenanalyse-entwicklung-und-it-operations-2610-214144.html",
+      "summary": "Von Data Analytics und CI/CD bis IT-Security und Operationsmanagement: Sechs neue IT-Jobs bieten anspruchsvolle Aufgaben und Perspektiven. ( Golem Karrierewelt , Unternehmenssoftware )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214144&amp;page=1&amp;ts=1792908002",
+      "published": "2026-10-25T07:00:02+01:00",
+      "category": "Wirtschaft",
+      "score": 59.71
     }
   ]
 }
