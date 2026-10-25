@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T22:40:34.244931+00:00",
+  "generatedAt": "2026-10-25T23:39:07.357061+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,14 +12,14 @@
       "image": "https://images.tagesschau.de/image/2d475b55-fad5-4039-b944-32c6bc3a8b2b/AAABoXHj9CA/AAABnSSvrFg/16x9-big/audi-trump-100.jpg?width=1920",
       "published": "2026-10-25T16:04:51+01:00",
       "category": "Politik",
-      "score": 99.62,
+      "score": 99.54,
       "coverage": {
         "sourceCount": 6,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "VW-Tochter - Audi lässt Trump im Wahlkampf Bau eines US-Werks verkünden - Auftritt von Audi-Chef verstößt gegen eigene Richtlinien",
-            "link": "https://www.deutschlandfunk.de/audi-laesst-trump-im-wahlkampf-bau-eines-us-werks-verkuenden-auftritt-von-audi-chef-verstoesst-gegen-100.html"
+            "link": "https://www.deutschlandfunk.de/audi-laesst-trump-im-wahlkampf-bau-eines-us-werks-verkuenden-auftritt-von-audi-chef-verstoesst-gegen-102.html"
           },
           {
             "source": "spiegel",
@@ -28,8 +28,8 @@
           },
           {
             "source": "handelsblatt",
-            "title": "US-Wahlkampf: Auftritt bei Trump: Audi will neues Werk in den USA bauen",
-            "link": "https://www.handelsblatt.com/politik/deutschland/us-wahlkampf-auftritt-bei-trump-audi-will-neues-werk-in-den-usa-bauen/100264729.html"
+            "title": "Autobauer: Trump bestätigt Handelsblatt-Bericht: Audi baut neues Werk in den USA",
+            "link": "https://www.handelsblatt.com/unternehmen/industrie/autobauer-trump-bestaetigt-handelsblatt-bericht-audi-baut-werk-in-den-usa/100264447.html"
           },
           {
             "source": "deutsche-welle",
@@ -45,18 +45,6 @@
       }
     },
     {
-      "id": "spiegel-da2bab59ea5fa95a",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Wahlen in Israel: Interview mit Bildungsforscherin Tammy Hoffman über rechte Erstwähler",
-      "link": "https://www.spiegel.de/ausland/wahlen-in-israel-interview-mit-bildungsforscherin-tammy-hoffmann-ueber-rechte-erstwaehler-a-b23b05a0-d9c8-476d-9709-814069e7351f#ref=rss",
-      "summary": "Coronapandemie, Protestwellen, Terror: Die junge Generation hat kaum Hoffnung erlebt. Bildungsforscherin Tammy Hoffman erklärt, warum viele junge Israelis nach rechts abdriften.",
-      "image": "https://cdn.prod.www.spiegel.de/images/565a60c8-6645-4716-885d-77a7fd8d1e48_w1200_r1.778_fpx52.02_fpy50.jpg",
-      "published": "2026-10-25T20:57:00+01:00",
-      "category": "Politik",
-      "score": 91.73
-    },
-    {
       "id": "tagesschau-742faedcae4687a8",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -66,19 +54,53 @@
       "image": "https://images.tagesschau.de/image/99deff4b-d50e-4e7b-9c89-3c6ec5ff3798/AAABoXJueMA/AAABnSSvrFg/16x9-big/obama-954.jpg?width=1920",
       "published": "2026-10-25T11:35:11+01:00",
       "category": "Politik",
-      "score": 91.62,
+      "score": 91.54,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "Midterms - Obama greift Trump im Wahlkampf scharf an",
-            "link": "https://www.deutschlandfunk.de/obama-greift-trump-im-wahlkampf-scharf-an-100.html"
+            "link": "https://www.deutschlandfunk.de/obama-greift-trump-im-wahlkampf-scharf-an-102.html"
           },
           {
             "source": "spiegel",
             "title": "Barack Obama verspottet Donald Trump für Einrichtung im Weißen Haus",
             "link": "https://www.spiegel.de/ausland/barack-obama-verspottet-donald-trump-fuer-einrichtung-im-weissen-haus-a-6cf7e48f-8ce4-4fb9-94da-40ac935132a7#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-da2bab59ea5fa95a",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Wahlen in Israel: Interview mit Bildungsforscherin Tammy Hoffman über rechte Erstwähler",
+      "link": "https://www.spiegel.de/ausland/wahlen-in-israel-interview-mit-bildungsforscherin-tammy-hoffmann-ueber-rechte-erstwaehler-a-b23b05a0-d9c8-476d-9709-814069e7351f#ref=rss",
+      "summary": "Coronapandemie, Protestwellen, Terror: Die junge Generation hat kaum Hoffnung erlebt. Bildungsforscherin Tammy Hoffman erklärt, warum viele junge Israelis nach rechts abdriften.",
+      "image": "https://cdn.prod.www.spiegel.de/images/565a60c8-6645-4716-885d-77a7fd8d1e48_w1200_r1.778_fpx52.02_fpy50.jpg",
+      "published": "2026-10-25T20:57:00+01:00",
+      "category": "Politik",
+      "score": 90.91
+    },
+    {
+      "id": "deutschlandfunk-afbe8f775a38873c",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "SPD - \"Wahlkampfhilfe für Autokraten\": Vorwürfe gegen VW nach Audi-Chef-Auftritt bei Trump",
+      "link": "https://www.deutschlandfunk.de/wahlkampfhilfe-fuer-autokraten-vorwuerfe-gegen-vw-nach-audi-chef-auftritt-bei-trump-100.html",
+      "summary": "Der Auftritt des Vorstandschefs der VW-Tochter Audi, Döllner, im Wahlkampf von US-Präsident Trump ist auf Kritik gestoßen.",
+      "image": "https://bilder.deutschlandfunk.de/f4/62/96/c3/f46296c3-6615-4c17-8ea7-8a6d94256826/isabel-cademartori-100-1920x1920.jpg",
+      "published": "2026-10-26T00:29:24+01:00",
+      "category": "Politik",
+      "score": 85.86,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ Bundespolitik +++: „Das ist eine Schande“: SPD-Politikerin kritisiert Auftritt des Audi-Chefs mit Trump scharf",
+            "link": "https://www.handelsblatt.com/politik/deutschland/bundespolitik-spd-politikerin-kritisiert-auftritt-des-audi-chefs-mit-trump-scharf/100137034.html"
           }
         ]
       }
@@ -93,7 +115,7 @@
       "image": "https://images.tagesschau.de/image/9ac8c9bf-ce83-4fd4-85c7-c284fe8da23d/AAABoXH7A5k/AAABnSSvrFg/16x9-big/brasilien-726.jpg?width=1920",
       "published": "2026-10-25T05:07:12+01:00",
       "category": "Politik",
-      "score": 80.69,
+      "score": 79.87,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -125,7 +147,7 @@
       "image": "https://images.tagesschau.de/image/0232602b-a10d-4723-ad50-6e379705e159/AAABoW2n8k0/AAABnSSvrFg/16x9-big/starlink-ukraine-108.jpg?width=1920",
       "published": "2026-10-24T17:29:30+02:00",
       "category": "Politik",
-      "score": 80.56,
+      "score": 79.75,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -138,28 +160,40 @@
       }
     },
     {
-      "id": "deutschlandfunk-16831efe3e2ea40e",
+      "id": "deutschlandfunk-333694d61dbc2e2f",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Nahost - Kliniken melden sieben Tote bei israelischen Angriffen im Gazastreifen - Israels Militär verhängt neue Beschränkungen im Westjordanland",
+      "link": "https://www.deutschlandfunk.de/kliniken-melden-sieben-tote-bei-israelischen-angriffen-im-gazastreifen-israels-militaer-verhaengt-ne-102.html",
+      "summary": "Bei erneuten israelischen Angriffen sollen im Gazastreifen nach örtlichen Angaben mindestens sieben Menschen getötet worden sein.",
+      "image": "https://bilder.deutschlandfunk.de/07/3f/32/56/073f3256-06b6-4235-85f8-54b1d2d44cea/gaza-angriffe-110-1920x1920.jpg",
+      "published": "2026-10-26T00:29:24+01:00",
+      "category": "Politik",
+      "score": 77.86
+    },
+    {
+      "id": "deutschlandfunk-89354c832a77adbf",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
       "title": "Ukraine-Krieg - Selenskyj hofft auf Fortschritte bei Verhandlungen",
-      "link": "https://www.deutschlandfunk.de/selenskyj-hofft-auf-fortschritte-bei-verhandlungen-102.html",
+      "link": "https://www.deutschlandfunk.de/selenskyj-hofft-auf-fortschritte-bei-verhandlungen-106.html",
       "summary": "Der ukrainische Präsident Selenskyj erwartet von den neuen Friedensgesprächen im November diplomatische Fortschritte.",
       "image": "https://bilder.deutschlandfunk.de/aa/3e/ce/6a/aa3ece6a-0f17-4980-98a3-0c4b3e6a1977/selenskyj-184-1920x1920.jpg",
-      "published": "2026-10-25T23:36:15+01:00",
+      "published": "2026-10-26T00:29:24+01:00",
       "category": "Politik",
-      "score": 77.94
+      "score": 77.86
     },
     {
-      "id": "deutschlandfunk-3e425515904ef351",
+      "id": "deutschlandfunk-af603c787b00df86",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
       "title": "Parlamentswahl - Serbien steht vor einem Machtwechsel - Vucic räumt Niederlage ein",
-      "link": "https://www.deutschlandfunk.de/serbien-steht-vor-einem-machtwechsel-vucic-raeumt-niederlage-ein-100.html",
+      "link": "https://www.deutschlandfunk.de/serbien-steht-vor-einem-machtwechsel-vucic-raeumt-niederlage-ein-102.html",
       "summary": "Serbien steht nach der Parlamentswahl vor einem Machtwechsel. Der ehemalige Staatspräsident Vucic räumte die Niederlage seiner Partei gegen die sogenannte Studentenliste ein. Das neue Bündnis mit ihrem Spitzenkandidaten Ilija Srdanovic erzielte serbischen Medien zufolge mit mehr als 51 Prozent der Stimmen die absolute Mehrheit.",
       "image": "https://bilder.deutschlandfunk.de/10/98/1c/b4/10981cb4-53b3-4091-987d-f6dddafb8bf2/serbien-vucic-wahl-100-1920x1920.jpg",
-      "published": "2026-10-25T23:36:15+01:00",
+      "published": "2026-10-26T00:29:24+01:00",
       "category": "Politik",
-      "score": 77.94,
+      "score": 77.86,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -172,18 +206,6 @@
       }
     },
     {
-      "id": "deutschlandfunk-7a04574868da4812",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Nahost - Kliniken melden sieben Tote bei israelischen Angriffen im Gazastreifen - Israels Militär verhängt neue Beschränkungen im Westjordanland",
-      "link": "https://www.deutschlandfunk.de/kliniken-melden-sieben-tote-bei-israelischen-angriffen-im-gazastreifen-israels-militaer-verhaengt-ne-100.html",
-      "summary": "Bei erneuten israelischen Angriffen sollen im Gazastreifen nach örtlichen Angaben mindestens sieben Menschen getötet worden sein.",
-      "image": "https://bilder.deutschlandfunk.de/07/3f/32/56/073f3256-06b6-4235-85f8-54b1d2d44cea/gaza-angriffe-110-1920x1920.jpg",
-      "published": "2026-10-25T23:36:15+01:00",
-      "category": "Politik",
-      "score": 77.94
-    },
-    {
       "id": "handelsblatt-a66be55036a0b21a",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
@@ -193,29 +215,7 @@
       "image": "https://images.handelsblatt.com/3EQTSkCSKNzx/cover/900/506/0/0/313/312/0.5/0.5/archiv-18.10.2026-israel-ramat-gan-menschen-ueberqueren-eine-bruecke-unter-einem-wahlplakat-mit-d.jpg",
       "published": "2026-10-25T11:46:00+00:00",
       "category": "Politik",
-      "score": 75.91
-    },
-    {
-      "id": "deutschlandfunk-cf4d5e32e121fb0e",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Iran-Krieg - Strände in Emiraten wegen Ölverschmutzung geschlossen",
-      "link": "https://www.deutschlandfunk.de/straende-in-emiraten-wegen-oelverschmutzung-geschlossen-102.html",
-      "summary": "In den Vereinigten Arabischen Emiraten sind mehrere Strände wegen Ölverschmutzung geschlossen worden.",
-      "image": "https://bilder.deutschlandfunk.de/28/e2/79/48/28e27948-3f1a-459c-8682-4fc86176a7be/strand-emirate-100-1920x1920.jpg",
-      "published": "2026-10-25T23:36:15+01:00",
-      "category": "Nachrichten",
-      "score": 74.94,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Umweltfolgen im Iran-Krieg: Strände in Emiraten wegen Ölverschmutzung geschlossen",
-            "link": "https://www.handelsblatt.com/technik/forschung-innovation/umweltfolgen-im-iran-krieg-straende-in-emiraten-wegen-oelverschmutzung-geschlossen/100264789.html"
-          }
-        ]
-      }
+      "score": 75.1
     },
     {
       "id": "spiegel-0d3a8475353ee248",
@@ -227,7 +227,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/d967b142-8840-477d-b4d1-9c6e7c790def_w1200_r1.778_fpx30_fpy54.jpg",
       "published": "2026-10-25T16:18:00+01:00",
       "category": "Politik",
-      "score": 71.85
+      "score": 71.04
     },
     {
       "id": "handelsblatt-f90ff8deda34677d",
@@ -239,19 +239,7 @@
       "image": "https://images.handelsblatt.com/du5KfEtSwA5A/cover/900/506/0/0/0/0/0.5/0.5/us-korrespondent-laurin-meyer.jpg",
       "published": "2026-10-25T16:04:53+00:00",
       "category": "Politik",
-      "score": 71.5
-    },
-    {
-      "id": "handelsblatt-ec6edc663092a225",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Wegweisende Abstimmung: Schicksalswahl in Israel: Es geht um mehr als Netanjahu",
-      "link": "https://www.handelsblatt.com/politik/international/wegweisende-abstimmung-schicksalswahl-in-israel-es-geht-um-mehr-als-netanjahu/100264744.html",
-      "summary": "Kann Netanjahu trotz des Versagens vom 7. Oktober und dreier harter Kriegsjahre seine Macht behaupten? Oder gelingt es der liberaleren Opposition, ihn nach Jahren an der Regierungsspitze abzulösen?",
-      "image": "https://images.handelsblatt.com/WRnWcAErdDIW/cover/900/506/0/0/107/106/0.5/0.5/nahostkonflikt-netanjahu.jpg",
-      "published": "2026-10-25T04:00:07+00:00",
-      "category": "Politik",
-      "score": 69.44
+      "score": 70.69
     },
     {
       "id": "spiegel-56bcabcbf7d670eb",
@@ -263,7 +251,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/f1f27fce-9558-4525-8f55-ab6e6589bc16_w1200_r1.778_fpx54_fpy43.jpg",
       "published": "2026-10-25T22:53:00+01:00",
       "category": "Politik",
-      "score": 69.34
+      "score": 68.53
+    },
+    {
+      "id": "handelsblatt-49dc81e0e9302ba9",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Brasilien: Brasiliens Wahllokale schließen nach verlängertem Wahlgang",
+      "link": "https://www.handelsblatt.com/politik/international/brasilien-brasiliens-wahllokale-schliessen-nach-verlaengertem-wahlgang/100264825.html",
+      "summary": "Das Oberste Gericht ordnete an, die Wahllokale zwei Stunden länger geöffnet zu lassen. Nun wird die Auszählung fortgesetzt. Erste Ergebnisse der Präsidentenwahl werden im Laufe der Nacht erwartet.",
+      "image": "https://images.handelsblatt.com/rFJQ4IoisdNr/cover/900/506/0/0/243/243/0.5/0.5/dpatopbilder-25.10.2026-brasilien-brasilia-ein-mann-der-in-eine-brasilianische-fahne-gehuellt-i.jpg",
+      "published": "2026-10-25T22:47:40+00:00",
+      "category": "Politik",
+      "score": 68.29
     },
     {
       "id": "golem-4bfb8cdea7ffeefa",
@@ -275,7 +275,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214481&amp;page=1&amp;ts=1792922642",
       "published": "2026-10-25T11:04:02+01:00",
       "category": "Politik",
-      "score": 65.49
+      "score": 64.68
     }
   ]
 }
