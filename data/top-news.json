@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T16:36:40.519251+00:00",
+  "generatedAt": "2026-10-25T17:55:33.016623+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,19 +12,19 @@
       "image": "https://images.tagesschau.de/image/2d475b55-fad5-4039-b944-32c6bc3a8b2b/AAABoXHj9CA/AAABnSSvrFg/16x9-big/audi-trump-100.jpg?width=1920",
       "published": "2026-10-25T16:04:51+01:00",
       "category": "Politik",
-      "score": 99.46,
+      "score": 99.58,
       "coverage": {
         "sourceCount": 6,
         "others": [
           {
+            "source": "deutschlandfunk",
+            "title": "VW-Tochter - Audi lässt Trump im Wahlkampf Bau eines US-Werks verkünden - Auftritt von Audi-Chef verstößt gegen eigene Richtlinien",
+            "link": "https://www.deutschlandfunk.de/audi-laesst-trump-im-wahlkampf-bau-eines-us-werks-verkuenden-auftritt-von-audi-chef-verstoesst-gegen-100.html"
+          },
+          {
             "source": "spiegel",
             "title": "Donald Trump: Audi-Chef Döllner stellt neues Werk in Georgia an Trumps Seite vor",
             "link": "https://www.spiegel.de/wirtschaft/unternehmen/donald-trump-audi-chef-doellner-stellt-neues-werk-in-georgia-an-trumps-seite-vor-a-a93e3d40-e162-4bfb-abfe-76e6fcac71e6#ref=rss"
-          },
-          {
-            "source": "deutschlandfunk",
-            "title": "VW-Tochter - Audi lässt Trump im Wahlkampf Bau eines US-Werks verkünden - Kritik aus der SPD",
-            "link": "https://www.deutschlandfunk.de/audi-laesst-trump-im-wahlkampf-bau-eines-us-werks-verkuenden-kritik-aus-der-spd-100.html"
           },
           {
             "source": "handelsblatt",
@@ -54,7 +54,7 @@
       "image": "https://images.tagesschau.de/image/99deff4b-d50e-4e7b-9c89-3c6ec5ff3798/AAABoXJueMA/AAABnSSvrFg/16x9-big/obama-954.jpg?width=1920",
       "published": "2026-10-25T11:35:11+01:00",
       "category": "Politik",
-      "score": 91.06,
+      "score": 91.58,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -72,33 +72,6 @@
       }
     },
     {
-      "id": "tagesschau-ceaeb8e339d7bec1",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Krieg gegen die Ukraine: Starlink funktioniert wieder stabil",
-      "link": "https://www.tagesschau.de/ausland/amerika/musk-starlink-ukraine-102.html",
-      "summary": "Die Satellitenkommunikation von SpaceX in der Ukraine funktioniert nach Angaben aus Kiew wieder stabil. Die ukrainische Armee meldet derweil Angriffe auf russische Industrieanlagen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/0232602b-a10d-4723-ad50-6e379705e159/AAABoW2n8k0/AAABnSSvrFg/16x9-big/starlink-ukraine-108.jpg?width=1920",
-      "published": "2026-10-24T17:29:30+02:00",
-      "category": "Politik",
-      "score": 91.06,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Ukraine-Krieg - Musk beschuldigt Kiew, Starlink missbräuchlich genutzt zu haben",
-            "link": "https://www.deutschlandfunk.de/musk-beschuldigt-kiew-starlink-missbraeuchlich-genutzt-zu-haben-102.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "+++ Ukraine-Krieg +++: Ukraine weist Vorwürfe von Musk zu Starlink-Nutzung für Offensivangriffe zurück",
-            "link": "https://www.handelsblatt.com/politik/international/ukraine-ukraine-weist-vorwuerfe-von-musk-zu-starlink-nutzung-zurueck/27982126.html"
-          }
-        ]
-      }
-    },
-    {
       "id": "tagesschau-d10a2c8a6041d201",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -108,7 +81,7 @@
       "image": "https://images.tagesschau.de/image/9ac8c9bf-ce83-4fd4-85c7-c284fe8da23d/AAABoXH7A5k/AAABnSSvrFg/16x9-big/brasilien-726.jpg?width=1920",
       "published": "2026-10-25T05:07:12+01:00",
       "category": "Politik",
-      "score": 88.96,
+      "score": 89.47,
       "coverage": {
         "sourceCount": 5,
         "others": [
@@ -136,6 +109,28 @@
       }
     },
     {
+      "id": "tagesschau-ceaeb8e339d7bec1",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Krieg gegen die Ukraine: Starlink funktioniert wieder stabil",
+      "link": "https://www.tagesschau.de/ausland/amerika/musk-starlink-ukraine-102.html",
+      "summary": "Die Satellitenkommunikation von SpaceX in der Ukraine funktioniert nach Angaben aus Kiew wieder stabil. Die ukrainische Armee meldet derweil Angriffe auf russische Industrieanlagen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/0232602b-a10d-4723-ad50-6e379705e159/AAABoW2n8k0/AAABnSSvrFg/16x9-big/starlink-ukraine-108.jpg?width=1920",
+      "published": "2026-10-24T17:29:30+02:00",
+      "category": "Politik",
+      "score": 84.52,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ Ukraine-Krieg +++: Ukraine weist Vorwürfe von Musk zu Starlink-Nutzung für Offensivangriffe zurück",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-ukraine-weist-vorwuerfe-von-musk-zu-starlink-nutzung-zurueck/27982126.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "handelsblatt-a66be55036a0b21a",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
@@ -145,7 +140,7 @@
       "image": "https://images.handelsblatt.com/3EQTSkCSKNzx/cover/900/506/0/0/313/312/0.5/0.5/archiv-18.10.2026-israel-ramat-gan-menschen-ueberqueren-eine-bruecke-unter-einem-wahlplakat-mit-d.jpg",
       "published": "2026-10-25T11:46:00+00:00",
       "category": "Politik",
-      "score": 80.96
+      "score": 79.87
     },
     {
       "id": "deutschlandfunk-1671b822be70b70d",
@@ -155,21 +150,9 @@
       "link": "https://www.deutschlandfunk.de/trotz-ukraine-krieges-russland-darf-gewichtheben-wm-ausrichten-102.html",
       "summary": "Trotz des andauernden russischen Angriffskrieges gegen die Ukraine ist die Weltmeisterschaft der Gewichtheber im Jahr 2030 an Moskau vergeben worden.",
       "image": "https://bilder.deutschlandfunk.de/33/12/79/d7/331279d7-504f-4dad-8d18-cef610659da8/gewichtheben-weltmeisterschaft-gewichtheber-roberto-2024-gutu-manama-bahrain-100-1920x1920.jpg",
-      "published": "2026-10-25T16:52:16+01:00",
+      "published": "2026-10-25T18:48:05+01:00",
       "category": "Politik",
-      "score": 77.38
-    },
-    {
-      "id": "deutschlandfunk-44314e2750f39cfc",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Netanjahu-Regierung - Aufwind für die Opposition: Das ist die Lage vor der Parlamentswahl in Israel",
-      "link": "https://www.deutschlandfunk.de/aufwind-fuer-die-opposition-das-ist-die-lage-vor-der-parlamentswahl-in-israel-104.html",
-      "summary": "Am Dienstag wählt Israel ein neues Parlament. Die Wahl wird auch als Volksurteil über die Politik von Ministerpräsident Netanjahu nach dem Hamas-Angriff am 7. Oktober 2023 betrachtet. In den vergangenen Wochen hat eine Oppositionspartei viel Aufschwung bekommen.",
-      "image": "https://bilder.deutschlandfunk.de/69/d7/60/65/69d76065-b74a-4f64-a559-b751164f106a/israel-knesset-wahlen-100-1920x1920.jpg",
-      "published": "2026-10-25T16:52:16+01:00",
-      "category": "Politik",
-      "score": 77.38
+      "score": 77.9
     },
     {
       "id": "deutschlandfunk-7a04574868da4812",
@@ -179,9 +162,9 @@
       "link": "https://www.deutschlandfunk.de/kliniken-melden-sieben-tote-bei-israelischen-angriffen-im-gazastreifen-israels-militaer-verhaengt-ne-100.html",
       "summary": "Bei erneuten israelischen Angriffen sollen im Gazastreifen nach örtlichen Angaben mindestens sieben Menschen getötet worden sein.",
       "image": "https://bilder.deutschlandfunk.de/07/3f/32/56/073f3256-06b6-4235-85f8-54b1d2d44cea/gaza-angriffe-110-1920x1920.jpg",
-      "published": "2026-10-25T16:52:16+01:00",
+      "published": "2026-10-25T18:48:05+01:00",
       "category": "Politik",
-      "score": 77.38
+      "score": 77.9
     },
     {
       "id": "spiegel-0d3a8475353ee248",
@@ -193,7 +176,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/d967b142-8840-477d-b4d1-9c6e7c790def_w1200_r1.778_fpx30_fpy54.jpg",
       "published": "2026-10-25T16:18:00+01:00",
       "category": "Politik",
-      "score": 76.91
+      "score": 75.81
     },
     {
       "id": "handelsblatt-f90ff8deda34677d",
@@ -205,43 +188,7 @@
       "image": "https://images.handelsblatt.com/du5KfEtSwA5A/cover/900/506/0/0/0/0/0.5/0.5/us-korrespondent-laurin-meyer.jpg",
       "published": "2026-10-25T16:04:53+00:00",
       "category": "Politik",
-      "score": 76.56
-    },
-    {
-      "id": "handelsblatt-571e46f3271f11cd",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Bundespolitik +++: „Das ist eine Schande“: SPD-Politikerin kritisiert Auftritt des Audi-Chefs mit Trump scharf",
-      "link": "https://www.handelsblatt.com/politik/deutschland/bundespolitik-spd-politikerin-kritisiert-auftritt-des-audi-chefs-mit-trump-scharf/100137034.html",
-      "summary": "Bundesregierung gibt weiteren Teil der Ölreserve frei +++ CDU-Abgeordneter will bei Siegmund-Wahl nicht den Saal verlassen +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/zRC8RDCXTQ9m/cover/900/506/0/0/0/1117/0.5/0.5/19.06.2026-baden-wuerttemberg-ulm-isabel-cademartori-spricht-in-der-donauhalle-beim-landesparteita.jpg",
-      "published": "2026-10-25T14:50:01+00:00",
-      "category": "Politik",
-      "score": 75.52
-    },
-    {
-      "id": "spiegel-3e90cb1b7e7b7905",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "USA: Latinos kehren Republikanern vor Kongresswahlen den Rücken",
-      "link": "https://www.spiegel.de/ausland/usa-latinos-kehren-republikanern-vor-kongresswahlen-den-ruecken-a-a3f752f1-243d-4bd5-bf0c-fe964d6c4925#ref=rss",
-      "summary": "Noch vor zwei Jahren verhalfen viele Latinos Donald Trump ins Amt. Doch die Stimmung hat sich infolge von Massenabschiebungen gedreht. Ein Blick nach Florida.",
-      "image": "https://cdn.prod.www.spiegel.de/images/54eaf800-a714-4580-8093-5dd93e4e94a4_w1200_r1.778_fpx64_fpy50.jpg",
-      "published": "2026-10-25T13:44:00+01:00",
-      "category": "Politik",
-      "score": 74.77
-    },
-    {
-      "id": "handelsblatt-ec6edc663092a225",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Wegweisende Abstimmung: Schicksalswahl in Israel: Es geht um mehr als Netanjahu",
-      "link": "https://www.handelsblatt.com/politik/international/wegweisende-abstimmung-schicksalswahl-in-israel-es-geht-um-mehr-als-netanjahu/100264744.html",
-      "summary": "Kann Netanjahu trotz des Versagens vom 7. Oktober und dreier harter Kriegsjahre seine Macht behaupten? Oder gelingt es der liberaleren Opposition, ihn nach Jahren an der Regierungsspitze abzulösen?",
-      "image": "https://images.handelsblatt.com/WRnWcAErdDIW/cover/900/506/0/0/107/106/0.5/0.5/nahostkonflikt-netanjahu.jpg",
-      "published": "2026-10-25T04:00:07+00:00",
-      "category": "Politik",
-      "score": 74.49
+      "score": 75.46
     },
     {
       "id": "deutschlandfunk-cf4d5e32e121fb0e",
@@ -251,9 +198,9 @@
       "link": "https://www.deutschlandfunk.de/straende-in-emiraten-wegen-oelverschmutzung-geschlossen-102.html",
       "summary": "In den Vereinigten Arabischen Emiraten sind mehrere Strände wegen Ölverschmutzung geschlossen worden.",
       "image": "https://bilder.deutschlandfunk.de/28/e2/79/48/28e27948-3f1a-459c-8682-4fc86176a7be/strand-emirate-100-1920x1920.jpg",
-      "published": "2026-10-25T16:52:16+01:00",
+      "published": "2026-10-25T18:48:05+01:00",
       "category": "Nachrichten",
-      "score": 74.38,
+      "score": 74.9,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -266,6 +213,42 @@
       }
     },
     {
+      "id": "handelsblatt-571e46f3271f11cd",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ Bundespolitik +++: „Das ist eine Schande“: SPD-Politikerin kritisiert Auftritt des Audi-Chefs mit Trump scharf",
+      "link": "https://www.handelsblatt.com/politik/deutschland/bundespolitik-spd-politikerin-kritisiert-auftritt-des-audi-chefs-mit-trump-scharf/100137034.html",
+      "summary": "Bundesregierung gibt weiteren Teil der Ölreserve frei +++ CDU-Abgeordneter will bei Siegmund-Wahl nicht den Saal verlassen +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/zRC8RDCXTQ9m/cover/900/506/0/0/0/1117/0.5/0.5/19.06.2026-baden-wuerttemberg-ulm-isabel-cademartori-spricht-in-der-donauhalle-beim-landesparteita.jpg",
+      "published": "2026-10-25T14:50:01+00:00",
+      "category": "Politik",
+      "score": 74.42
+    },
+    {
+      "id": "spiegel-3e90cb1b7e7b7905",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "USA: Latinos kehren Republikanern vor Kongresswahlen den Rücken",
+      "link": "https://www.spiegel.de/ausland/usa-latinos-kehren-republikanern-vor-kongresswahlen-den-ruecken-a-a3f752f1-243d-4bd5-bf0c-fe964d6c4925#ref=rss",
+      "summary": "Noch vor zwei Jahren verhalfen viele Latinos Donald Trump ins Amt. Doch die Stimmung hat sich infolge von Massenabschiebungen gedreht. Ein Blick nach Florida.",
+      "image": "https://cdn.prod.www.spiegel.de/images/54eaf800-a714-4580-8093-5dd93e4e94a4_w1200_r1.778_fpx64_fpy50.jpg",
+      "published": "2026-10-25T13:44:00+01:00",
+      "category": "Politik",
+      "score": 73.67
+    },
+    {
+      "id": "handelsblatt-ec6edc663092a225",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Wegweisende Abstimmung: Schicksalswahl in Israel: Es geht um mehr als Netanjahu",
+      "link": "https://www.handelsblatt.com/politik/international/wegweisende-abstimmung-schicksalswahl-in-israel-es-geht-um-mehr-als-netanjahu/100264744.html",
+      "summary": "Kann Netanjahu trotz des Versagens vom 7. Oktober und dreier harter Kriegsjahre seine Macht behaupten? Oder gelingt es der liberaleren Opposition, ihn nach Jahren an der Regierungsspitze abzulösen?",
+      "image": "https://images.handelsblatt.com/WRnWcAErdDIW/cover/900/506/0/0/107/106/0.5/0.5/nahostkonflikt-netanjahu.jpg",
+      "published": "2026-10-25T04:00:07+00:00",
+      "category": "Politik",
+      "score": 73.4
+    },
+    {
       "id": "golem-4bfb8cdea7ffeefa",
       "source": "golem",
       "sourceWeight": 0.85,
@@ -275,7 +258,29 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214481&amp;page=1&amp;ts=1792922642",
       "published": "2026-10-25T11:04:02+01:00",
       "category": "Politik",
-      "score": 70.55
+      "score": 69.45
+    },
+    {
+      "id": "spiegel-240930d0b01eb688",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Angriffe auf Saudi-Arabien: Auch die Rallye Dakar wird abgesagt",
+      "link": "https://www.spiegel.de/sport/angriffe-auf-saudi-arabien-auch-die-rallye-dakar-wird-abgesagt-a-6aec8dc2-6005-46d7-badc-1db9a5fd6f76#ref=rss",
+      "summary": "Die Formel 1 machte in diesem Jahr bereits einen Bogen um Saudi-Arabien, auch die Rallye Dakar wird nicht in dem Land stattfinden. Die Lage nach den Huthi-Angriffen ist zu unsicher.",
+      "image": "https://cdn.prod.www.spiegel.de/images/97236e78-6e92-437a-92a2-0687d6768a59_w1200_r1.778_fpx65.32_fpy49.98.jpg",
+      "published": "2026-10-25T16:15:00+01:00",
+      "category": "Nachrichten",
+      "score": 65.73,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutsche-welle",
+            "title": "Saudi-Arabien setzt gegen Huthis auf KI-Hilfe aus den USA",
+            "link": "https://www.dw.com/de/saudi-arabien-setzt-gegen-huthis-auf-ki-hilfe-aus-den-usa/a-79747115?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
     }
   ]
 }
