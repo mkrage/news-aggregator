@@ -1,18 +1,139 @@
 {
-  "generatedAt": "2026-10-26T01:58:18.526371+00:00",
-  "count": 188,
+  "generatedAt": "2026-10-26T06:39:51.218890+00:00",
+  "count": 193,
   "articles": [
     {
-      "id": "deutschlandfunk-730cb1711ed631f7",
+      "id": "tagesschau-cb0259726c64b724",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Wahlen in Brasilien: Eine Nacht zwischen Jubel und Misstrauen",
+      "link": "https://www.tagesschau.de/ausland/amerika/brasilien-wahlen-lula-102.html",
+      "summary": "Feuerwerk und Freudentränen - in Brasilien feiern Anhänger den Wahlsieg von Lula als Erfolg der Demokratie. Doch während die einen aufatmen, warnen andere vor dem politischen Kampf, der jetzt erst beginnt. V on Anne Herrberg. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/c1fa3cf1-f086-4b48-9226-b8e4220a156b/AAABoXblEOM/AAABnSSvrFg/16x9-big/brasilien-728.jpg?width=1920",
+      "published": "2026-10-26T07:34:32+01:00",
+      "category": "Politik",
+      "score": 70.93
+    },
+    {
+      "id": "golem-e69720e030e3e5c4",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Sicherheit: Polizei stoppt Cybertruck auf der A99",
+      "link": "https://www.golem.de/news/sicherheit-polizei-stoppt-cybertruck-auf-der-a99-2610-214491.html",
+      "summary": "Ein 50-jähriger Schwede hat einen Tesla Cybertruck mit polnischem Kennzeichen über die A99 gelenkt - allerdings nicht lange. ( Tesla Cybertruck , Auto )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214491&amp;page=1&amp;ts=1792996261",
+      "published": "2026-10-26T07:31:01+01:00",
+      "category": "Technologie",
+      "score": 56.88
+    },
+    {
+      "id": "spiegel-20143b8e7951fb9c",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Nachfolge des Bundespräsidenten: Ilse Aigner erhält Unterstützung aus Sachsen und Bremen",
+      "link": "https://www.spiegel.de/politik/deutschland/nachfolge-des-bundespraesidenten-ilse-aigner-erhaelt-unterstuetzung-aus-sachsen-und-bremen-a-dd7a21ad-84f6-4503-b0c5-5d6dde16a9da#ref=rss",
+      "summary": "Sie könnte die erste Frau an der Staatsspitze werden: Zwei Ministerpräsidenten sprachen sich für die Kandidatur von CSU-Politikerin Ilse Aigner aus. Nur die CDU-Spitze und Kanzler Merz hat sich noch nicht festgelegt.",
+      "image": "https://cdn.prod.www.spiegel.de/images/099aa4ea-d7de-4d13-b907-a7efa1ea23db_w1200_r1.778_fpx56_fpy49.jpg",
+      "published": "2026-10-26T07:30:00+01:00",
+      "category": "Politik",
+      "score": 61.86
+    },
+    {
+      "id": "tagesschau-002a762da56ee4aa",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Marktbericht: Anleger versuchen DAX zu stabilisieren",
+      "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-fed-ezb-100.html",
+      "summary": "Die Zahl der Sorgen bleibt groß. Neben den anhaltend hohen Ölpreisen dämpfen die Sorgen um den KI-Boom die Stimmung. Jetzt hoffen die Anleger auf gute Unternehmensbilanzen und Hilfe von den Notenbanken. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/b67c6b6d-ed89-46e7-9b57-495550086b8e/AAABn1pS1lI/AAABnSSvrFg/16x9-big/boerse-524.jpg?width=1920",
+      "published": "2026-10-26T07:27:39+01:00",
+      "category": "Wirtschaft",
+      "score": 62.83
+    },
+    {
+      "id": "spiegel-973e6605036d8484",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Umbau zur Fußgängerzone: London verbannt Autos aus der Oxford Street",
+      "link": "https://www.spiegel.de/wirtschaft/umbau-zur-fussgaengerzone-london-verbannt-autos-aus-der-oxford-street-a-ba746ffb-aca3-43af-aaa9-9bcd4857ab70#ref=rss",
+      "summary": "Die Oxford Street in London hat in den vergangenen Jahren viel von seiner Anziehungskraft verloren. Der Umbau zur Fußgängerzone soll den alten Glanz wieder herstellen. Ab Montag müssen Autos, Busse und Taxen einen Umweg fahren.",
+      "image": "https://cdn.prod.www.spiegel.de/images/1040764f-b68f-4908-ac27-6193b39b9c7d_w1200_r1.778_fpx66.67_fpy50.jpg",
+      "published": "2026-10-26T07:26:00+01:00",
+      "category": "Nachrichten",
+      "score": 58.81
+    },
+    {
+      "id": "spiegel-2d1f20ea173904eb",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Brasilien: Wie Lula da Silva überraschend Flávio Bolsonaro besiegte",
+      "link": "https://www.spiegel.de/ausland/brasilien-wie-lula-da-silva-ueberraschend-flavio-bolsonaro-besiegte-a-54205e62-424d-419d-b42b-78fd7a5d236d#ref=rss",
+      "summary": "Entgegen allen Erwartungen hat Präsident Lula die Wiederwahl klar gewonnen. Doch sein Widersacher Flávio Bolsonaro erkennt das Ergebnis nicht an. Er schürt den Hass seiner Anhänger auf das demokratische System.",
+      "image": "https://cdn.prod.www.spiegel.de/images/55c451f0-ec35-4699-9288-15286dda6e1d_w1200_r1.778_fpx39.99_fpy50.jpg",
+      "published": "2026-10-26T07:22:00+01:00",
+      "category": "Politik",
+      "score": 77.75,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Präsidentenwahl in Brasilien: Lula zum Wahlsieger erklärt - Bolsonaro protestiert",
+            "link": "https://www.handelsblatt.com/politik/international/praesidentenwahl-in-brasilien-lula-zum-wahlsieger-erklaert-bolsonaro-protestiert/100264837.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-5ec6927dc7840ed3",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Brasilien - Lula gewinnt Präsidenten-Stichwahl gegen Bolsonaro",
-      "link": "https://www.deutschlandfunk.de/lula-gewinnt-praesidenten-stichwahl-gegen-bolsonaro-100.html",
-      "summary": "In Brasilien hat der linksgerichtete Amtsinhaber Lula da Silva die Stichwahl um das Präsidentenamt gewonnen. Das teilte das Oberste Wahlgericht mit. Der 80-Jährige kommt auf fast 52 Prozent der Stimmen.",
-      "image": "https://bilder.deutschlandfunk.de/a9/71/70/68/a9717068-16c8-4fe0-86ef-7b8f832ffb7c/brasilien-praesidentschaftswahl-lula-da-silva-bolsonaro-100-1920x1920.jpg",
-      "published": "2026-10-26T02:37:15+01:00",
+      "title": "Brasilien - Lula gewinnt Präsidenten-Stichwahl - Bolsonaro erkennt Ergebnis nicht an",
+      "link": "https://www.deutschlandfunk.de/lula-gewinnt-praesidenten-stichwahl-bolsonaro-erkennt-ergebnis-nicht-an-100.html",
+      "summary": "In Brasilien hat der linksgerichtete Amtsinhaber Lula da Silva die Stichwahl um das Präsidentenamt gewonnen. Das teilte das Oberste Wahlgericht mit. Der unterlegene Präsidentschaftskandidat Bolsonaro will das Ergebnis nicht anerkennen.",
+      "image": "https://bilder.deutschlandfunk.de/e8/e0/08/33/e8e00833-b63e-4b2c-902c-e31916dac114/lula-da-silva-brasilien-wahl-praesident-100-1920x1920.jpg",
+      "published": "2026-10-26T07:18:53+01:00",
       "category": "Politik",
       "score": 86.71
+    },
+    {
+      "id": "deutschlandfunk-af603c787b00df86",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Parlamentswahl - Serbien steht vor einem Machtwechsel - Vucic räumt Niederlage ein",
+      "link": "https://www.deutschlandfunk.de/serbien-steht-vor-einem-machtwechsel-vucic-raeumt-niederlage-ein-102.html",
+      "summary": "Serbien steht nach der Parlamentswahl vor einem Machtwechsel. Der ehemalige Staatspräsident Vucic räumte die Niederlage seiner Partei ein. Das gegnerische Bündnis \"Studentenliste\" mit Spitzenkandidat Ilija Srdanovic holte bei der Parlamentswahl die absolute Mehrheit.",
+      "image": "https://bilder.deutschlandfunk.de/10/98/1c/b4/10981cb4-53b3-4091-987d-f6dddafb8bf2/serbien-vucic-wahl-100-1920x1920.jpg",
+      "published": "2026-10-26T07:18:53+01:00",
+      "category": "Politik",
+      "score": 82.39,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Studentenbewegung triumphiert: Serbien steht nach Parlamentswahl vor einem Machtwechsel",
+            "link": "https://www.handelsblatt.com/politik/international/studentenbewegung-triumphiert-serbien-steht-nach-parlamentswahl-vor-einem-machtwechsel/100264844.html"
+          },
+          {
+            "source": "deutsche-welle",
+            "title": "Vorgezogene Parlamentswahlen in Serbien: Machtwechsel oder weiter mit  Aleksandar Vucic?",
+            "link": "https://www.dw.com/de/vorgezogene-parlamentswahlen-in-serbien-machtwechsel-oder-weiter-mit-aleksandar-vucic/a-79750692?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-8dc2575ec32a3c40",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "DGB-Chefin Fahimi fordert mehr Fokus der Regierung auf Wirtschaftswachstum",
+      "link": "https://www.deutschlandfunk.de/dgb-chefin-fahimi-fordert-mehr-fokus-der-regierung-auf-wirtschaftswachstum-100.html",
+      "summary": "Die Vorsitzende des Deutschen Gewerkschaftsbundes, Fahimi, hat die Bundesregierung aufgefordert, ihre Politik stärker auf die Modernisierung des Landes und auf wirtschaftliches Wachstum zu richten.",
+      "image": "https://bilder.deutschlandfunk.de/0a/a4/46/25/0aa44625-f73a-4bb7-aca5-e1db55f781f3/fahimi-dgb-100-1920x1920.jpg",
+      "published": "2026-10-26T07:18:53+01:00",
+      "category": "Politik",
+      "score": 61.71
     },
     {
       "id": "deutschlandfunk-afbe8f775a38873c",
@@ -20,18 +141,18 @@
       "sourceWeight": 0.95,
       "title": "SPD - \"Wahlkampfhilfe für Autokraten\": Vorwürfe gegen VW nach Audi-Chef-Auftritt bei Trump",
       "link": "https://www.deutschlandfunk.de/wahlkampfhilfe-fuer-autokraten-vorwuerfe-gegen-vw-nach-audi-chef-auftritt-bei-trump-100.html",
-      "summary": "Der Auftritt des Vorstandschefs der VW-Tochter Audi, Döllner, im Wahlkampf von US-Präsident Trump ist auf Kritik gestoßen. Es sei eine Schande, insbesondere in Anbetracht der Geschichte des VW-Konzerns, erklärte die SPD-Bundestagsabgeordnete Cademartori.",
-      "image": "https://bilder.deutschlandfunk.de/f4/62/96/c3/f46296c3-6615-4c17-8ea7-8a6d94256826/isabel-cademartori-100-1920x1920.jpg",
-      "published": "2026-10-26T02:37:15+01:00",
+      "summary": "Der Auftritt des Vorstandschefs der VW-Tochter Audi, Döllner, im Wahlkampf von US-Präsident Trump ist auf Kritik gestoßen. Es sei eine Schande, insbesondere in Anbetracht der Geschichte des VW-Konzerns, erklärte die SPD-Bundestagsabgeordnete Cademartori. Die verkehrspolitische Sprecherin ihrer Fraktion sprach von Wahlkampfhilfe für einen Autokraten.",
+      "image": "https://bilder.deutschlandfunk.de/b7/83/77/98/b7837798-d1f0-4936-a67d-9e3775620a3e/audi-suvs-in-usa-100-1280x1280.jpg",
+      "published": "2026-10-26T07:18:53+01:00",
       "category": "Politik",
-      "score": 93.71,
+      "score": 93.86,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "handelsblatt",
-            "title": "+++ Bundespolitik +++: „Das ist eine Schande“: SPD-Politikerin kritisiert Auftritt des Audi-Chefs mit Trump scharf",
-            "link": "https://www.handelsblatt.com/politik/deutschland/bundespolitik-spd-politikerin-kritisiert-auftritt-des-audi-chefs-mit-trump-scharf/100137034.html"
+            "title": "Audi in den USA: Cavallo: Auftritt von Audi-Chef bei Trump ist beschämend",
+            "link": "https://www.handelsblatt.com/unternehmen/industrie/audi-in-den-usa-auftritt-von-audi-chef-bei-trump-laut-cavallo-beschaemend/100264879.html"
           }
         ]
       }
@@ -44,7 +165,7 @@
       "link": "https://www.deutschlandfunk.de/schaeden-und-verletzte-bei-herbststuermen-kreuzfahrtschiff-stoesst-mit-frachter-zusammen-100.html",
       "summary": "Herbststürme haben in Deutschland und anderen Ländern Westeuropas Schäden hinterlassen.",
       "image": "https://bilder.deutschlandfunk.de/d0/06/58/04/d0065804-b589-4a0c-8b14-53acf473e34c/bremerhaven-kollision-100-768x768.jpg",
-      "published": "2026-10-26T02:37:15+01:00",
+      "published": "2026-10-26T07:18:53+01:00",
       "category": "Nachrichten",
       "score": 58.71
     },
@@ -54,38 +175,11 @@
       "sourceWeight": 0.95,
       "title": "Kehrtwende - Berichte über AfD-Leaks: Interne Mails belegen Weidels Abkehr von Distanzierung zum rechten Flügel",
       "link": "https://www.deutschlandfunk.de/berichte-ueber-afd-leaks-interne-mails-belegen-weidels-abkehr-von-distanzierung-zum-rechten-fluegel-100.html",
-      "summary": "In der Diskussion um die politische Ausrichtung der AfD ist interne Kommunikation veröffentlicht worden, die im Gegensatz zum heutigen Auftreten der Parteispitze steht.",
+      "summary": "In der Diskussion über die politische Ausrichtung der AfD ist interne Kommunikation veröffentlicht worden, die im Gegensatz zum heutigen Auftreten der Parteispitze steht.",
       "image": "https://bilder.deutschlandfunk.de/9c/a9/ca/ec/9ca9caec-a71b-4a10-8eea-ad90d88f8c5f/weidel-afd-berlin-100-1920x1920.jpg",
-      "published": "2026-10-26T02:37:15+01:00",
+      "published": "2026-10-26T07:18:53+01:00",
       "category": "Nachrichten",
       "score": 58.71
-    },
-    {
-      "id": "deutschlandfunk-af603c787b00df86",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Parlamentswahl - Serbien steht vor einem Machtwechsel - Vucic räumt Niederlage ein",
-      "link": "https://www.deutschlandfunk.de/serbien-steht-vor-einem-machtwechsel-vucic-raeumt-niederlage-ein-102.html",
-      "summary": "Serbien steht nach der Parlamentswahl vor einem Machtwechsel. Der ehemalige Staatspräsident Vucic räumte die Niederlage seiner Partei gegen die sogenannte Studentenliste ein. Das neue Bündnis mit ihrem Spitzenkandidaten Ilija Srdanovic erzielte serbischen Medien zufolge mit mehr als 51 Prozent der Stimmen die absolute Mehrheit.",
-      "image": "https://bilder.deutschlandfunk.de/10/98/1c/b4/10981cb4-53b3-4091-987d-f6dddafb8bf2/serbien-vucic-wahl-100-1920x1920.jpg",
-      "published": "2026-10-26T02:37:15+01:00",
-      "category": "Politik",
-      "score": 82.39,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Vor Regierungswechsel: Vucic: Studentenliste gewinnt Wahl in Serbien",
-            "link": "https://www.handelsblatt.com/politik/international/vor-regierungswechsel-vucic-studentenliste-gewinnt-wahl-in-serbien/100264743.html"
-          },
-          {
-            "source": "deutsche-welle",
-            "title": "Vorgezogene Parlamentswahlen in Serbien: Machtwechsel oder weiter mit  Aleksandar Vucic?",
-            "link": "https://www.dw.com/de/vorgezogene-parlamentswahlen-in-serbien-machtwechsel-oder-weiter-mit-aleksandar-vucic/a-79750692?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
     },
     {
       "id": "deutschlandfunk-b0a816aafe990c04",
@@ -95,7 +189,7 @@
       "link": "https://www.deutschlandfunk.de/fernsehansagerin-hanni-vanhaiden-mit-88-jahren-gestorben-100.html",
       "summary": "Die frühere NDR-Fernsehansagerin Hanni Vanhaiden ist tot.",
       "image": "https://bilder.deutschlandfunk.de/b1/99/1d/2d/b1991d2d-c428-42df-bff5-73b7cac590c6/hanni-vanhaiden-100-768x768.jpg",
-      "published": "2026-10-26T02:37:15+01:00",
+      "published": "2026-10-26T07:18:53+01:00",
       "category": "Nachrichten",
       "score": 58.71
     },
@@ -107,7 +201,7 @@
       "link": "https://www.deutschlandfunk.de/230-000-besucher-brettspiele-messe-endet-ausverkauft-100.html",
       "summary": "In Essen ist die viertägige Brettspielmesse \"Spiel\" mit 230.000 Besuchern zu Ende gegangen.",
       "image": "https://bilder.deutschlandfunk.de/59/cc/2d/c3/59cc2dc3-140a-47ae-8580-e7fb4b66e812/spiel-essen-2026-100-1920x1920.jpg",
-      "published": "2026-10-26T02:37:15+01:00",
+      "published": "2026-10-26T07:18:53+01:00",
       "category": "Nachrichten",
       "score": 58.71
     },
@@ -118,8 +212,20 @@
       "title": "Chancengleichheit - Signal gegen Stadt-Land-Gefälle: Sachsen stärkt Erwachsenenbildung im ländlichen Raum",
       "link": "https://www.deutschlandfunk.de/signal-gegen-stadt-land-gefaelle-sachsen-staerkt-erwachsenenbildung-im-laendlichen-raum-100.html",
       "summary": "Als Signal gegen das Stadt-Land-Gefälle stärkt Sachsen die Bildung im ländlichen Raum mit rund einer Million Euro.",
-      "image": "https://bilder.deutschlandfunk.de/cd/0f/6c/5f/cd0f6c5f-0592-42c5-8bf4-ef689cce03d8/rettungswagen-104-1920x1920.jpg",
-      "published": "2026-10-26T02:37:15+01:00",
+      "image": "https://bilder.deutschlandfunk.de/ea/5d/38/f7/ea5d38f7-26a6-4bf4-a55a-dcf043db1d7e/leisnig-dorf-sachsen-100-1920x1920.jpg",
+      "published": "2026-10-26T07:18:53+01:00",
+      "category": "Nachrichten",
+      "score": 58.71
+    },
+    {
+      "id": "deutschlandfunk-f099d2f2d97aba6a",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Rauchen - Vapes inzwischen beliebter unter Jugendlichen als normale Zigaretten - DAK fordert weiteres Einschreiten der Politik",
+      "link": "https://www.deutschlandfunk.de/vapes-inzwischen-beliebter-unter-jugendlichen-als-normale-zigaretten-dak-fordert-weiteres-einschreit-100.html",
+      "summary": "Einweg-E-Zigaretten sind bei Jugendlichen in Deutschland inzwischen das populärste Nikotinprodukt.",
+      "image": "https://bilder.deutschlandfunk.de/NO/VA/_c/40/NOVA_c4057a128c01b79d048df515bd7cf552/craft-13150058-asset-100-1920x1920.jpg",
+      "published": "2026-10-26T07:18:53+01:00",
       "category": "Nachrichten",
       "score": 58.71
     },
@@ -131,7 +237,7 @@
       "link": "https://www.deutschlandfunk.de/juso-chef-tuermer-regt-ende-der-doppelspitze-zugunsten-einer-frau-als-alleiniger-spd-chefin-an-100.html",
       "summary": "Juso-Chef Türmer hat ein Ende der Doppelspitze bei der SPD zugunsten einer Frau als Parteichefin angeregt.",
       "image": "https://bilder.deutschlandfunk.de/eb/d3/be/bf/ebd3bebf-5278-48c3-8e0f-b196d1ca8067/tuermer-spd-juso-100-1920x1920.jpg",
-      "published": "2026-10-26T02:37:15+01:00",
+      "published": "2026-10-26T07:18:53+01:00",
       "category": "Nachrichten",
       "score": 58.71
     },
@@ -141,9 +247,9 @@
       "sourceWeight": 0.95,
       "title": "Entlastungen - Union und SPD diskutieren weiter über Stromsteuer - unterschiedliche Vorschläge von Kretschmer und Bovenschulte",
       "link": "https://www.deutschlandfunk.de/union-und-spd-diskutieren-weiter-ueber-stromsteuer-unterschiedliche-vorschlaege-von-kretschmer-und-b-104.html",
-      "summary": "Union und SPD diskutieren weiter über mögliche Wege, um eine Senkung der Stromsteuer zu finanzieren.",
+      "summary": "Union und SPD diskutieren weiter über Möglichkeiten, um die geplante Stromsteuersenkung zu finanzieren.",
       "image": "https://bilder.deutschlandfunk.de/32/ae/ee/29/32aeee29-a82b-40dc-8d17-40c3ee61d598/gasumlage-stromzaehler-100-1280x1280.jpg",
-      "published": "2026-10-26T02:37:15+01:00",
+      "published": "2026-10-26T07:18:53+01:00",
       "category": "Nachrichten",
       "score": 58.71
     },
@@ -155,9 +261,9 @@
       "link": "https://www.deutschlandfunk.de/innenminister-dobrindt-plant-hohe-huerden-fuer-vergesellschaftungen-von-wohnungen-114.html",
       "summary": "Bundesinnenminister Dobrindt hat Eckpunkte für ein neues Investitionsschutzgesetz vorgelegt, das die Hürden für die Vergesellschaftung großer Wohnungsbestände deutlich erhöhen soll. Sein Ministerium bestätigte mehreren Nachrichtenagenturen Details zu den Plänen.",
       "image": "https://bilder.deutschlandfunk.de/9f/59/16/0a/9f59160a-d75a-4f0c-a9f0-4794d3e9e8e8/dobrindt-bundestag-112-1920x1920.jpg",
-      "published": "2026-10-26T02:37:15+01:00",
+      "published": "2026-10-26T07:18:53+01:00",
       "category": "Politik",
-      "score": 78.71
+      "score": 70.71
     },
     {
       "id": "deutschlandfunk-c3a81b6886124b2d",
@@ -167,43 +273,21 @@
       "link": "https://www.deutschlandfunk.de/stichwahl-entscheidet-ueber-staatsoberhaupt-in-bulgarien-100.html",
       "summary": "In Bulgarien kommt es zur Stichwahl für das Präsidentenamt.",
       "image": "https://bilder.deutschlandfunk.de/4a/84/12/8c/4a84128c-eeda-4176-aa4a-5209efe948fc/sofia-bulgarien-100-1920x1920.jpg",
-      "published": "2026-10-26T02:37:15+01:00",
+      "published": "2026-10-26T07:18:53+01:00",
       "category": "Politik",
-      "score": 77.71,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Wahlen in Bulgarien: Stichwahl entscheidet über Staatsoberhaupt",
-            "link": "https://www.handelsblatt.com/politik/international/wahlen-in-bulgarien-stichwahl-entscheidet-ueber-staatsoberhaupt/100264831.html"
-          }
-        ]
-      }
+      "score": 77.71
     },
     {
-      "id": "deutschlandfunk-3c3fca54dd22cbfe",
+      "id": "deutschlandfunk-43ab853b622e8812",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Frankreich - Le Pen eröffnet den Präsidentschaftswahlkampf - \"Ordnung und nationales Selbstvertrauen\"",
-      "link": "https://www.deutschlandfunk.de/le-pen-eroeffnet-den-praesidentschaftswahlkampf-ordnung-und-nationales-selbstvertrauen-102.html",
-      "summary": "In Frankreich hat der rechtsnationale Rassemblement National den Präsidentschaftswahlkampf eröffnet.",
-      "image": "https://bilder.deutschlandfunk.de/d2/d0/1b/85/d2d01b85-d01b-4a08-a8ed-2425898f6f7e/frankreich-le-pen-wahlkampfauftakt-100-1920x1920.jpg",
-      "published": "2026-10-26T02:37:15+01:00",
-      "category": "Politik",
-      "score": 69.71
-    },
-    {
-      "id": "deutschlandfunk-44fc4f7d9baa4e95",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Tschechien - Demonstrationen in Prag gegen geplante Abschaffung von Rundfunkgebühren",
-      "link": "https://www.deutschlandfunk.de/demonstrationen-in-prag-gegen-geplante-abschaffung-von-rundfunkgebuehren-104.html",
-      "summary": "In Tschechien haben Tausende Menschen gegen die Abschaffung von Rundfunkgebühren demonstriert.",
-      "image": "https://bilder.deutschlandfunk.de/e0/79/b2/0f/e079b20f-58c8-4793-836f-8ae5b5c0a7ad/prag-demonstration-medien-100-1920x1920.jpg",
-      "published": "2026-10-26T02:37:15+01:00",
+      "title": "Vereinigte Arabische Emirate - Strände nahe Dubai nach Ölverschmutzung offenbar infolge des Iran-Kriegs geschlossen",
+      "link": "https://www.deutschlandfunk.de/straende-nahe-dubai-nach-oelverschmutzung-offenbar-infolge-des-iran-kriegs-geschlossen-100.html",
+      "summary": "In den Vereinigten Arabischen Emiraten sind mehrere Strände nahe Dubai wegen Ölverschmutzung geschlossen worden.",
+      "image": "https://bilder.deutschlandfunk.de/5b/d9/7d/03/5bd97d03-97ef-4521-9ced-ef8e11b3af89/oelverschmutzung-emirate-iran-krieg-100-1920x1920.jpg",
+      "published": "2026-10-26T07:18:53+01:00",
       "category": "Nachrichten",
-      "score": 58.71
+      "score": 66.71
     },
     {
       "id": "deutschlandfunk-333694d61dbc2e2f",
@@ -213,9 +297,21 @@
       "link": "https://www.deutschlandfunk.de/kliniken-melden-sieben-tote-bei-israelischen-angriffen-im-gazastreifen-israels-militaer-verhaengt-ne-102.html",
       "summary": "Bei erneuten israelischen Angriffen sollen im Gazastreifen nach örtlichen Angaben mindestens sieben Menschen getötet worden sein.",
       "image": "https://bilder.deutschlandfunk.de/07/3f/32/56/073f3256-06b6-4235-85f8-54b1d2d44cea/gaza-angriffe-110-1920x1920.jpg",
-      "published": "2026-10-26T02:37:15+01:00",
+      "published": "2026-10-26T07:18:53+01:00",
       "category": "Politik",
       "score": 77.71
+    },
+    {
+      "id": "deutschlandfunk-44fc4f7d9baa4e95",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Tschechien - Demonstrationen in Prag gegen geplante Abschaffung von Rundfunkgebühren",
+      "link": "https://www.deutschlandfunk.de/demonstrationen-in-prag-gegen-geplante-abschaffung-von-rundfunkgebuehren-104.html",
+      "summary": "In Tschechien haben Tausende Menschen gegen die Abschaffung von Rundfunkgebühren demonstriert.",
+      "image": "https://bilder.deutschlandfunk.de/e0/79/b2/0f/e079b20f-58c8-4793-836f-8ae5b5c0a7ad/prag-demonstration-medien-100-1920x1920.jpg",
+      "published": "2026-10-26T07:18:53+01:00",
+      "category": "Nachrichten",
+      "score": 58.71
     },
     {
       "id": "deutschlandfunk-90e7062cff12f34a",
@@ -225,7 +321,7 @@
       "link": "https://www.deutschlandfunk.de/obama-greift-trump-im-wahlkampf-scharf-an-102.html",
       "summary": "Wenige Tage vor den Zwischenwahlen in den USA hat sich der ehemalige Präsident Obama in den Wahlkampf eingeschaltet - mit ⁠scharfer Kritik an ⁠seinem Nachfolger Donald Trump. Bei Auftritten in Cleveland und Detroit warf er dem republikanischen Präsidenten Korruption vor und verspottete dessen Politik.",
       "image": "https://bilder.deutschlandfunk.de/b0/44/7b/dc/b0447bdc-b0a4-4167-a1ca-3a95d1b53960/obama-midterms-michigan-100-1920x1920.jpg",
-      "published": "2026-10-26T02:37:15+01:00",
+      "published": "2026-10-26T07:18:53+01:00",
       "category": "Politik",
       "score": 86.71
     },
@@ -237,7 +333,19 @@
       "link": "https://www.deutschlandfunk.de/auf-welche-juengeren-koepfe-die-demokraten-setzen-102.html",
       "summary": "Bei den US-Kongresswahlen am 3. November treten für die Demokratische Partei einige prominente jüngere Köpfe an. Sie symbolisieren den Generationswechsel in der Partei, den Anhänger nach der verlorenen Präsidentschaftswahl 2024 forderten. Drei Männer und eine Frau stehen beispielhaft für die verschiedenen Strömungen der Demokraten:",
       "image": "https://bilder.deutschlandfunk.de/3a/e7/ba/7a/3ae7ba7a-2d21-4c87-890f-52eb8f880fcd/james-talarico-texas-demokrat-100-1920x1920.jpg",
-      "published": "2026-10-26T02:37:15+01:00",
+      "published": "2026-10-26T07:18:53+01:00",
+      "category": "Politik",
+      "score": 69.71
+    },
+    {
+      "id": "deutschlandfunk-3c3fca54dd22cbfe",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Frankreich - Le Pen eröffnet den Präsidentschaftswahlkampf - \"Ordnung und nationales Selbstvertrauen\"",
+      "link": "https://www.deutschlandfunk.de/le-pen-eroeffnet-den-praesidentschaftswahlkampf-ordnung-und-nationales-selbstvertrauen-102.html",
+      "summary": "In Frankreich hat der rechtsnationale Rassemblement National den Präsidentschaftswahlkampf eröffnet.",
+      "image": "https://bilder.deutschlandfunk.de/d2/d0/1b/85/d2d01b85-d01b-4a08-a8ed-2425898f6f7e/frankreich-le-pen-wahlkampfauftakt-100-1920x1920.jpg",
+      "published": "2026-10-26T07:18:53+01:00",
       "category": "Politik",
       "score": 69.71
     },
@@ -249,9 +357,31 @@
       "link": "https://www.deutschlandfunk.de/oppositionsfuehrerin-machado-soll-zurueck-in-venezuela-sein-102.html",
       "summary": "Rund zehn Monate nach ihrer heimlichen Ausreise aus Venezuela soll die Friedensnobelpreisträgerin María Corina Machado in ihr Heimatland zurückgekehrt sein. \"Ich bin hier. Bei euch\", schrieb Machado in Online-Medien. Auch der Oppositionspolitiker González verwies auf diese Mitteilung.",
       "image": "https://bilder.deutschlandfunk.de/9c/40/31/b8/9c4031b8-d9dd-400d-b7c5-d8048f8df319/nobelpreistraegerin-machdo-venezuela-100-512x512.jpg",
-      "published": "2026-10-26T02:37:15+01:00",
+      "published": "2026-10-26T07:18:53+01:00",
       "category": "Nachrichten",
-      "score": 78.71
+      "score": 75.39
+    },
+    {
+      "id": "deutschlandfunk-89354c832a77adbf",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Ukraine-Krieg - Selenskyj hofft auf Fortschritte bei Verhandlungen",
+      "link": "https://www.deutschlandfunk.de/selenskyj-hofft-auf-fortschritte-bei-verhandlungen-106.html",
+      "summary": "Der ukrainische Präsident Selenskyj erwartet von den neuen Friedensgesprächen im November diplomatische Fortschritte.",
+      "image": "https://bilder.deutschlandfunk.de/aa/3e/ce/6a/aa3ece6a-0f17-4980-98a3-0c4b3e6a1977/selenskyj-184-1920x1920.jpg",
+      "published": "2026-10-26T07:18:53+01:00",
+      "category": "Politik",
+      "score": 85.72,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ Ukraine-Krieg +++: Selenskyj: US-Warnungen vor russischen Raketenangriffen wiederhergestellt",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-us-warnungen-vor-russischen-raketenangriffen-wiederhergestellt/27982126.html"
+          }
+        ]
+      }
     },
     {
       "id": "deutschlandfunk-d9141f43a0fb5fd9",
@@ -261,7 +391,7 @@
       "link": "https://www.deutschlandfunk.de/europaeische-unterstuetzer-der-ukraine-beraten-in-paris-100.html",
       "summary": "Die Verteidigungsminister der fünf militärisch stärksten europäischen NATO-Mitglieder kommen am Vormittag in Paris zu Beratungen zusammen.",
       "image": "https://bilder.deutschlandfunk.de/7d/20/57/c6/7d2057c6-aa18-4519-bc74-a2c05818b8f1/pistorius-berlin-104-1920x1920.jpg",
-      "published": "2026-10-26T02:37:15+01:00",
+      "published": "2026-10-26T07:18:53+01:00",
       "category": "Politik",
       "score": 69.71
     },
@@ -273,7 +403,7 @@
       "link": "https://www.deutschlandfunk.de/mutmacher-die-zeigen-wie-es-positiv-vorangehen-kann-umweltpreis-fuer-juristin-und-ingenieur-102.html",
       "summary": "Die Hamburger Umweltjuristin Roda Verheyen und der Ingenieur Klaus Vossenkaul haben den Deutschen Umweltpreis der Deutschen Bundesstiftung Umwelt erhalten.",
       "image": "https://bilder.deutschlandfunk.de/5a/97/51/6d/5a97516d-ecd4-4c9f-a94a-31d6f3611922/deutscher-umweltpreis-dr-roda-verheyen-membranfilter-ingenieur-dr-klaus-vossenkaul-dbu-100-1920x1920.jpg",
-      "published": "2026-10-26T02:37:15+01:00",
+      "published": "2026-10-26T07:18:53+01:00",
       "category": "Nachrichten",
       "score": 66.71
     },
@@ -285,9 +415,9 @@
       "link": "https://www.deutschlandfunk.de/fc-bayern-siegt-in-freiburg-hoffenheim-stoppt-leverkusen-106.html",
       "summary": "Trotz des Schocks um Vincent Kompany bleibt der FC Bayern München in der Fußball-Bundesliga auch nach dem siebten Spieltag an der Tabellenspitze. Im ersten Spiel nach dem Zusammenbruch seines Cheftrainers siegten die Münchner beim SC Freiburg mit 3:1 (2:0).",
       "image": "https://bilder.deutschlandfunk.de/39/91/47/c8/399147c8-50b8-4409-9576-93e7e07768b4/fussball-bundesliga-bayern-freiburg-102-1920x1920.jpg",
-      "published": "2026-10-26T02:37:15+01:00",
+      "published": "2026-10-26T07:18:53+01:00",
       "category": "Nachrichten",
-      "score": 66.71
+      "score": 58.71
     },
     {
       "id": "deutschlandfunk-5f5155aec1a9a61a",
@@ -297,43 +427,439 @@
       "link": "https://www.deutschlandfunk.de/antonelli-siegt-in-austin-und-steht-vor-kurz-vor-weltmeister-titel-106.html",
       "summary": "Der italienische Formel-1-Pilot Kimi Antonelli hat den Großen der Preis der USA gewonnen. Der Mercedes-Fahrer gewann in Austin vor Charles Leclerc aus Monaco und dem Niederländer Max Verstappen. Antonelli fehlen noch zwei Punkte bis zum Weltmeister-Titel.",
       "image": "https://bilder.deutschlandfunk.de/10/4b/34/3b/104b343b-12ed-41ff-b207-2a729bb630da/kimi-antonelli-austin-100-1920x1920.jpg",
-      "published": "2026-10-26T02:37:15+01:00",
+      "published": "2026-10-26T07:18:53+01:00",
       "category": "Technologie",
       "score": 66.71
     },
     {
-      "id": "deutschlandfunk-497aefc5f7e07818",
+      "id": "deutschlandfunk-ce96c0897d83feac",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Wetter - Nachlassender Regen - am Tag bis 16 Grad",
-      "link": "https://www.deutschlandfunk.de/nachlassender-regen-am-tag-bis-16-grad-110.html",
-      "summary": "Das Wetter: In der Nacht unterschiedlich bewölkt, noch einzelne Schauer, vor allem in Küstennähe und an den Alpen. 10 bis 2 Grad. Morgen bewölkt, im Norden und Nordosten noch vereinzelt Regen. 10 bis 16 Grad.",
+      "title": "Wetter - Verbreitet wechselnd bewölkt und mild",
+      "link": "https://www.deutschlandfunk.de/verbreitet-wechselnd-bewoelkt-und-mild-100.html",
+      "summary": "Der Wetterbericht, die Lage: Heute setzt sich vor allem in Süddeutschland Zwischenhocheinfluss durch, bevor morgen die Ausläufer eines weiteren Sturmtiefs bei den Britischen Inseln auf Deutschland übergreifen.",
       "image": "https://bilder.deutschlandfunk.de/e5/f6/55/84/e5f65584-6dc2-4dce-979d-729a024cd599/wetter-grafik-nachrichten-100-768x768.jpg",
-      "published": "2026-10-26T02:37:15+01:00",
+      "published": "2026-10-26T07:18:53+01:00",
       "category": "Nachrichten",
-      "score": 58.71
+      "score": 66.71
     },
     {
-      "id": "deutschlandfunk-89354c832a77adbf",
-      "source": "deutschlandfunk",
+      "id": "golem-782fb4f2480c3bc0",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Anzeige: Microsoft 365 sicher administrieren und verwalten",
+      "link": "https://www.golem.de/news/anzeige-microsoft-365-sicher-administrieren-und-verwalten-2610-214467.html",
+      "summary": "Microsoft 365 Administration umfasst Lizenzierung, Migration und Sicherheit. Ein dreitägiger Online-Workshop vermittelt die praktische Verwaltung der Cloud-Umgebung. ( Golem Karrierewelt , Unternehmenssoftware )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214467&amp;page=1&amp;ts=1792995301",
+      "published": "2026-10-26T07:15:01+01:00",
+      "category": "Wirtschaft",
+      "score": 59.66
+    },
+    {
+      "id": "tagesschau-f93ab379f8cb8ff6",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Wie die Goldsuche Natur und Lebensgrundlagen in Ghana zerstört",
+      "link": "https://www.tagesschau.de/wissen/klima/goldabbau-ghana-abholzung-regenwald-100.html",
+      "summary": "In Ghana wird unter extremen Bedingungen Gold abgebaut - auch Kakaoplantagen müssen dafür weichen. Mit verheerenden Folgen: Zurück bleiben zerstörte Landschaften und verdreckte, belastete Flüsse. Von Judith Hartmann und Jakob Sax. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/ef721bb8-7f94-4ba3-8dc6-b701ed2ec582/AAABoWmaVl0/AAABnSSvrFg/16x9-big/goldmine-ghana-100.jpg?width=1920",
+      "published": "2026-10-26T07:13:21+01:00",
+      "category": "Nachrichten",
+      "score": 59.63
+    },
+    {
+      "id": "spiegel-9307611aa3df0816",
+      "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg - Selenskyj hofft auf Fortschritte bei Verhandlungen",
-      "link": "https://www.deutschlandfunk.de/selenskyj-hofft-auf-fortschritte-bei-verhandlungen-106.html",
-      "summary": "Der ukrainische Präsident Selenskyj erwartet von den neuen Friedensgesprächen im November diplomatische Fortschritte.",
-      "image": "https://bilder.deutschlandfunk.de/aa/3e/ce/6a/aa3ece6a-0f17-4980-98a3-0c4b3e6a1977/selenskyj-184-1920x1920.jpg",
-      "published": "2026-10-26T02:36:56+01:00",
+      "title": "Essen: Gleisarbeiter von ICE erfasst und getötet",
+      "link": "https://www.spiegel.de/panorama/essen-gleisarbeiter-von-ice-erfasst-und-getoetet-a-f916eb7c-979c-4989-acf9-f39dad877212#ref=rss",
+      "summary": "Eine Gruppe Arbeiter befand sich in Essen auf den Gleisen als ein ICE durchfuhr. Zwei Personen wurden von dem Zug getroffen, für eine kam jede Hilfe zu spät.",
+      "image": "https://cdn.prod.www.spiegel.de/images/ecc1340e-56de-4bb3-b25b-23e22e40a2e4_w1200_r1.778_fpx54_fpy61.jpg",
+      "published": "2026-10-26T06:58:00+01:00",
+      "category": "Nachrichten",
+      "score": 58.42
+    },
+    {
+      "id": "spiegel-1e69af3d074d2ded",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Deutsche Bahn beginnt mit dem Verkauf des Familientickets",
+      "link": "https://www.spiegel.de/wirtschaft/deutsche-bahn-beginnt-mit-dem-verkauf-des-familientickets-a-77cde14d-6f44-4cb8-99a4-ed3a27f59538#ref=rss",
+      "summary": "Um den öffentlichen Ärger nach der Abschaffung der Familienreservierung zu lindern, führte die Deutsche Bahn das Familienticket ein. Ab 1. November ist es fester Bestandteil des Angebots.",
+      "image": "https://cdn.prod.www.spiegel.de/images/9d1fbdb2-7532-493c-823b-1d5e5ef145d2_w1200_r1.778_fpx29.94_fpy45.jpg",
+      "published": "2026-10-26T06:57:00+01:00",
+      "category": "Nachrichten",
+      "score": 66.4
+    },
+    {
+      "id": "spiegel-1dabf11fd6d547ca",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Hofreiter verlangt Einsatz der Marine gegen russische Schattenflotte",
+      "link": "https://www.spiegel.de/politik/deutschland/hofreiter-verlangt-einsatz-der-marine-gegen-russische-schattenflotte-a-59e825a6-4e13-4013-8f98-ab9c47664668#ref=rss",
+      "summary": "Illegal unterwegs und trotzdem unbehelligt: Russlands Schattenflotte zieht unter fremder Flagge durch deutsche Seegebiete. Grünenpolitiker Anton Hofreiter hält das für ein Versäumnis und fordert ein Eingreifen der Marine.",
+      "image": "https://cdn.prod.www.spiegel.de/images/70215b63-59af-4292-8a58-53675b2ac263_w1200_r1.778_fpx45.94_fpy54.99.jpg",
+      "published": "2026-10-26T06:50:00+01:00",
+      "category": "Nachrichten",
+      "score": 58.31
+    },
+    {
+      "id": "spiegel-28ff5e430fa1b587",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "BMW iX5 im Test: Aller guten Dinge sind fünf",
+      "link": "https://www.spiegel.de/mobilitaet/auto/bmw-ix5-im-test-aller-guten-dinge-sind-fuenf-a-5a34c545-1279-4105-b627-dd8ad44d5a1a#ref=rss",
+      "summary": "BMW predigt die Technologieoffenheit so laut wie kein anderer Hersteller – und treibt sie bei der neuen X5-Baureihe auf die Spitze. Der Wagen kommt mit fünf Antriebsarten auf den Markt, auch als Wasserstoffauto.",
+      "image": "https://cdn.prod.www.spiegel.de/images/f15bdcd0-b1c3-401c-b5f8-fe952d279ef0_w1200_r1.778_fpx49_fpy53.jpg",
+      "published": "2026-10-26T06:40:00+01:00",
+      "category": "Nachrichten",
+      "score": 58.17
+    },
+    {
+      "id": "spiegel-5e8f8d4ba84bb0e8",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Umgang mit Andersdenkenden: Wie man trotz Differenzen auf eine Wellenlänge kommt",
+      "link": "https://www.spiegel.de/karriere/umgang-mit-andersdenkenden-wie-man-trotz-differenzen-auf-eine-wellenlaenge-kommt-a-4298b310-8403-4ddc-8c3a-8131628247ec#ref=rss",
+      "summary": "Kolleginnen und Kollegen muss man nicht mögen, um gut mit ihnen zu arbeiten, sagt der Organisationspsychologe Adam Grant. Was Teams wirklich verbindet, lernte er bei zerstrittenen Fußballerinnen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/c7a4de18-4e40-4f06-acc6-55e6e2038ebd_w1200_r1.778_fpx61_fpy37.jpg",
+      "published": "2026-10-26T06:38:00+01:00",
+      "category": "Nachrichten",
+      "score": 58.14
+    },
+    {
+      "id": "handelsblatt-1db9249875f036c6",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Künstliche Intelligenz: Musk: SpaceX sichert sich 40 Milliarden für KI-Chips",
+      "link": "https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-spacex-sichert-sich-40-milliarden-fuer-ki-chips/100264828.html",
+      "summary": "Nach Angaben von Elon Musk hat sich SpaceX 40 Milliarden Dollar für den Kauf von KI‑Chips geliehen. Einem Bericht zufolge ist der Deal allerdings noch nicht final.",
+      "image": "https://images.handelsblatt.com/ns6sgXJrQyHM/cover/900/506/0/0/313/312/0.5/0.5/september-29-2026-washington-district-of-coulmbia-united-states-elon-musk-stands-in-the-backgro.jpg",
+      "published": "2026-10-26T06:31:51+00:00",
+      "category": "Technologie",
+      "score": 57.89
+    },
+    {
+      "id": "handelsblatt-0d94e9c30b30a95d",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Audi in den USA: Cavallo: Auftritt von Audi-Chef bei Trump ist beschämend",
+      "link": "https://www.handelsblatt.com/unternehmen/industrie/audi-in-den-usa-auftritt-von-audi-chef-bei-trump-laut-cavallo-beschaemend/100264879.html",
+      "summary": "Ein neues Audi-Werk in den USA – verkündet auf Trumps Wahlkampfbühne. Für VW-Betriebsratschefin Cavallo ein Grund zur Scham. Der VW-Konzernvorstand habe sich zur Marionette machen lassen.",
+      "image": "https://images.handelsblatt.com/GKYK6UUihx2a/cover/900/506/323/175/0/461/0.5/0.5/daniela-cavallo.jpg",
+      "published": "2026-10-26T06:29:40+00:00",
       "category": "Politik",
-      "score": 77.7
+      "score": 93.86
+    },
+    {
+      "id": "handelsblatt-0bf5d62db2f6050d",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Kommentar: Der Audi-Chef lässt sich zu Trumps Wahlkampfhelfer degradieren",
+      "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-audi-chef-laesst-sich-zu-trumps-wahlkampfhelfer-degradieren-01/100264757.html",
+      "summary": "Gernot Döllner verkündet das Milliardeninvestment von Audi in den USA auf einer Wahlkampfveranstaltung des US-Präsidenten – und überschreitet damit eine Grenze.",
+      "image": "https://images.handelsblatt.com/80UDRgnJIcRn/cover/900/506/0/0/58/154/0.5/0.5/24.10.2026-usa-perry-us-praesident-donald-trump-begruesst-gernot-doellner-vorstandsvorsitzender-der.jpg",
+      "published": "2026-10-26T06:29:00+00:00",
+      "category": "Politik",
+      "score": 76.85
+    },
+    {
+      "id": "tagesschau-add074d153483e3e",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "11KM-Podcast: Frauen in der Bundeswehr - belästigt, gemobbt, missbraucht",
+      "link": "https://www.tagesschau.de/podcast-11km-frauen-bundeswehr-100.html",
+      "summary": "Seit 25 Jahren können Frauen in der Bundeswehr alle Dienstgrade erreichen. Doch viele Soldatinnen berichten von Sexismus und Gewalt. Der Podcast 11KM über eine Kultur des Wegschauens.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/87ee4179-356e-4fc2-bd3b-a20c4acb4176/AAABoXadsko/AAABnSSvrFg/16x9-big/podcast-11km-3974.jpg?width=1920",
+      "published": "2026-10-26T06:27:48+01:00",
+      "category": "Nachrichten",
+      "score": 59.0
+    },
+    {
+      "id": "handelsblatt-83c1f9086d2bd422",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Republikaner: „Sie wollen eure Kinder verstümmeln“ – Trump setzt voll auf Angst",
+      "link": "https://www.handelsblatt.com/politik/international/midterms-sie-wollen-eure-kinder-verstuemmeln-trump-setzt-voll-auf-angst-01/100262689.html",
+      "summary": "Immer mehr gemäßigte Republikaner wenden sich vom US-Präsidenten ab. Der versucht gar nicht erst, sie zurückzugewinnen – sondern wirbt um seine MAGA-Anhänger. Ein riskantes Manöver.",
+      "image": "https://images.handelsblatt.com/0IePADWt8vYc/cover/900/506/0/0/0/0/0.5/0.5/republikaner.jpg",
+      "published": "2026-10-26T06:25:00+00:00",
+      "category": "Politik",
+      "score": 68.79
+    },
+    {
+      "id": "handelsblatt-95fa494355308e38",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ Ukraine-Krieg +++: Selenskyj: US-Warnungen vor russischen Raketenangriffen wiederhergestellt",
+      "link": "https://www.handelsblatt.com/politik/international/ukraine-us-warnungen-vor-russischen-raketenangriffen-wiederhergestellt/27982126.html",
+      "summary": "Ukraine: Sechs Verletzte bei russischen Angriffen +++ Hofreiter fordert deutschen Marine-Einsatz gegen Schattenflotte +++ Selenskyj hofft auf Fortschritte bei Verhandlungen +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/tz5eSprm1vMt/cover/900/506/0/0/137/138/0.5/0.5/28.12.2025-usa-west-palm-beach-us-praesident-donald-trump-r-begruesst-wolodymyr-selenskyj-praeside.jpg",
+      "published": "2026-10-26T06:19:51+00:00",
+      "category": "Politik",
+      "score": 85.72
+    },
+    {
+      "id": "handelsblatt-ad84c34d9ffd94df",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Geldanlage: Der Goldpreis hängt jetzt vom Ölpreis ab",
+      "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/geldanlage-der-goldpreis-haengt-jetzt-vom-oelpreis-ab-01/100264148.html",
+      "summary": "Obwohl Investoren in sichere Anlagen flüchten, fällt der Goldpreis. Dabei gilt das Edelmetall eigentlich als „sicherer Hafen“. Zwei Gründe erklären das Phänomen, meint Martin Müller.",
+      "image": "https://images.handelsblatt.com/qZ2khOgQcYa4/cover/900/506/0/0/0/0/0.5/0.5/marktkolumne-martin-mueller.jpg",
+      "published": "2026-10-26T06:19:00+00:00",
+      "category": "Technologie",
+      "score": 57.71
+    },
+    {
+      "id": "handelsblatt-56a9418e23038164",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ Iran-Krieg +++: Vertreter aus Saudi-Arabien, Türkei und Pakistan im Iran erwartet",
+      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-vertreter-aus-saudi-arabien-tuerkei-und-pakistan-im-iran-erwartet/100136895.html",
+      "summary": "Rekordhoch bei Angriffen auf Schiffe in Straße von Hormus +++ Saudi-Arabien: Raketenangriff der Huthis auf Riad abgewehrt +++ Netanjahu zeigt Bild von Atompilz über Tel Aviv +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/em3nks804M4r/cover/900/506/0/0/313/312/0.5/0.5/a-man-waves-an-iranian-flag-before-a-political-billboard-at-valiasr-square-in-central-tehran-on-augu.jpg",
+      "published": "2026-10-26T06:18:11+00:00",
+      "category": "Technologie",
+      "score": 73.7
+    },
+    {
+      "id": "deutsche-welle-3034babf6f87a34e",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "Deepfakes, Bots und Desinformation: KI im israelischen Wahlkampf",
+      "link": "https://www.dw.com/de/deepfakes-bots-und-desinformation-ki-im-israelischen-wahlkampf/a-79746514?maca=de-rss-de-all-1119-rdf",
+      "summary": "Zum ersten Mal spielt bei den Wahlen in Israel auch KI eine wichtige Rolle. Beobachter warnen vor Wahlbeeinflussung durch Deepfakes, Bots, automatisierte Anrufe und andere KI-generierte Inhalte.",
+      "image": "https://static.dw.com/image/78426381_6.jpg",
+      "published": "2026-10-26T06:18:00+00:00",
+      "category": "Politik",
+      "score": 76.7
+    },
+    {
+      "id": "handelsblatt-a17655bcb6d20307",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Studentenbewegung triumphiert: Serbien steht nach Parlamentswahl vor einem Machtwechsel",
+      "link": "https://www.handelsblatt.com/politik/international/studentenbewegung-triumphiert-serbien-steht-nach-parlamentswahl-vor-einem-machtwechsel/100264844.html",
+      "summary": "14 Jahre lang bestimmte Aleksandar Vucic die Politik seines Landes im Alleingang. Doch eine Protestbewegung von Studierenden wuchs ihm über den Kopf. Bricht für Serbien nun eine bessere Zukunft an?",
+      "image": "https://images.handelsblatt.com/QT3kBrXSOG0h/cover/900/506/0/0/107/106/0.5/0.5/vorgezogene-parlamentswahl-in-serbien.jpg",
+      "published": "2026-10-26T06:17:07+00:00",
+      "category": "Politik",
+      "score": 82.39
+    },
+    {
+      "id": "tagesschau-87adeed61af15ffc",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Kreuzfahrtschiff rammt zwei Containerschiffe in Bremerhaven",
+      "link": "https://www.tagesschau.de/inland/seeunfall-bremerhaven-100.html",
+      "summary": "Das Kreuzfahrtschiff \"Mein Schiff 3\" ist nach dem Auslaufen in Bremerhaven bei stürmischem Wetter mit zwei Schiffen kollidiert. Zwei Schlepper wurden beschädigt. Nach aktuellem Stand gab es keine Verletzten.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/6a3f8ef9-940f-4800-be2b-2f708d3bdf2c/AAABoXaxu3E/AAABnSSvrFg/16x9-big/rb-an-einem-schiff-sind-mittransportierte-rettungsboote-beschaedigt-100.jpg?width=1920",
+      "published": "2026-10-26T06:16:00+01:00",
+      "category": "Nachrichten",
+      "score": 66.84
+    },
+    {
+      "id": "handelsblatt-92260eac10f00d4b",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "US-Werk von Audi: Cavallo: Auftritt von Audi-Chef bei Trump ist beschämend",
+      "link": "https://www.handelsblatt.com/politik/deutschland/us-werk-von-audi-cavallo-auftritt-von-audi-chef-bei-trump-ist-beschaemend/100264874.html",
+      "summary": "Ein neues Audi-Werk in den USA - verkündet auf Trumps Wahlkampfbühne. Für VW-Betriebsratschefin Cavallo ist das ein Grund zur Scham. Der VW-Konzernvorstand habe sich zur Marionette machen lassen.",
+      "image": "https://images.handelsblatt.com/GKYK6UUihx2a/cover/900/506/0/0/91/90/0.5/0.5/daniela-cavallo.jpg",
+      "published": "2026-10-26T06:15:04+00:00",
+      "category": "Politik",
+      "score": 94.66
+    },
+    {
+      "id": "handelsblatt-df76cd878c578675",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Millennials: „Sie haben ihre Boomer-Chefs erlebt und sich gesagt: Ich mache es anders“",
+      "link": "https://www.handelsblatt.com/unternehmen/management/millennials-sie-haben-geleistet-aber-die-gegenleistung-ist-ausgeblieben-01/100255043.html",
+      "summary": "Millennials sind 32 bis 45, gut ausgebildet, oft Führungskräfte – und hinterfragen zunehmend ihr Leben. Warum? Und was unterscheidet sie von der Gen Z? Eine Expertin gibt Antworten.",
+      "image": "https://images.handelsblatt.com/WCiHYqhn4WXp/cover/900/506/0/0/0/0/0.5/0.5/millenials.gif",
+      "published": "2026-10-26T06:14:00+00:00",
+      "category": "Wirtschaft",
+      "score": 60.64
+    },
+    {
+      "id": "handelsblatt-15ff671c8b1c165f",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Handel: Russische Metro-Tochter spendet Millionen für Krieg gegen Ukraine",
+      "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/handel-russische-metro-tochter-spendet-millionen-fuer-krieg-gegen-ukraine-01/100264760.html",
+      "summary": "Die Russland-Tochter der Metro steht seit einem Monat unter Putins Zwangsverwaltung. Nun fällt sie mit einer außergewöhnlichen Spende auf. Die deutsche Zentrale reagiert deutlich.",
+      "image": "https://images.handelsblatt.com/4Tqt-nqyJMLT/cover/900/506/0/0/21/168/0.5/0.5/grosshandel-metro.jpeg",
+      "published": "2026-10-26T06:12:00+00:00",
+      "category": "Politik",
+      "score": 76.61
+    },
+    {
+      "id": "tagesschau-ee497ca05b50aafe",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Deutsche Geheimdienste setzen auf Cloud-System von Google",
+      "link": "https://www.tagesschau.de/investigativ/ndr-wdr/nachrichtendienst-google-100.html",
+      "summary": "Um geheime Informationen schneller untereinander austauschen zu können, wollen BND, Verfassungsschutz und MAD ein gemeinsames Cloud-System aufbauen. Nach Recherchen von NDR und WDR soll Google dabei eine maßgebliche Rolle spielen. Von F. Flade und R. Pinkert. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/76f1d164-a5b5-4e09-a708-2604589dde2b/AAABoWjURUw/AAABnSSvrFg/16x9-big/google-cloud-112.jpg?width=1920",
+      "published": "2026-10-26T06:11:08+01:00",
+      "category": "Technologie",
+      "score": 58.77
+    },
+    {
+      "id": "spiegel-6f3f7da8a5666b76",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Babybäuche der Stars: Warum Promis wie Hillary Swank ihren nackten Bauch zeigen",
+      "link": "https://www.spiegel.de/kultur/babybaeuche-der-stars-warum-promis-wie-hillary-swank-ihren-nackten-bauch-zeigen-a-9ee79348-f7f2-4e84-8b0b-6a1e56382a7d#ref=rss",
+      "summary": "",
+      "image": "https://cdn.prod.www.spiegel.de/images/2993dd80-ae47-4cdc-a71f-830733c9b266_w1200_r1.778_fpx37_fpy49.jpg",
+      "published": "2026-10-26T06:10:00+01:00",
+      "category": "Nachrichten",
+      "score": 57.75
+    },
+    {
+      "id": "handelsblatt-2ebee5fa5b541a43",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Sterne-Restaurants: Wie Baiersbronn sein kulinarisches Top-Niveau hält",
+      "link": "https://www.handelsblatt.com/unternehmen/dienstleister/sterne-restaurants-wie-baiersbronn-sein-kulinarisches-top-niveau-haelt/100264875.html",
+      "summary": "Der Ort im Schwarzwald weist eine der höchsten Dichten an Sternen des „Guide Michelin“ auf. Auch ein Restaurantbrand änderte daran nur kurz etwas. Über die kulinarische Karriere einer Gemeinde.",
+      "image": "https://images.handelsblatt.com/VmeeWcUvuFyn/cover/900/506/0/0/106/106/0.5/0.5/ansicht-des-sackmann-genusshotel.jpg",
+      "published": "2026-10-26T06:09:13+00:00",
+      "category": "Wirtschaft",
+      "score": 60.57
+    },
+    {
+      "id": "handelsblatt-2488be04f03b2314",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Interview: Neue Fertigung in Deutschland? „Da fehlt mir derzeit die Fantasie“, sagt der Chef von Stihl",
+      "link": "https://www.handelsblatt.com/unternehmen/mittelstand/familienunternehmer/stihl-chef-neue-fertigung-in-deutschland-da-fehlt-mir-derzeit-die-fantasie-01/100262271.html",
+      "summary": "Die Motorsägen-Weltmarke stellt auf Elektro um. Verbrennertechnik kommt weiter aus heimischer Produktion, die Zukunft sieht Stihl woanders. Denn Deutschland hat ein Problem, sagt Michael Traub.",
+      "image": "https://images.handelsblatt.com/NEs-es7nO5Ce/cover/900/506/0/0/0/625/0.5/0.5/stihl-chef-michael-traub.jpg",
+      "published": "2026-10-26T06:06:00+00:00",
+      "category": "Wirtschaft",
+      "score": 60.53
+    },
+    {
+      "id": "spiegel-9963e3660fceffc4",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "News: Debatte um Bundespräsidentin, Merz und Steinmeier in Asien, Alexander Dobrindt gegen Vergesellschaftungspläne",
+      "link": "https://www.spiegel.de/politik/deutschland/news-debatte-um-bundespraesidentin-merz-und-steinmeier-in-asien-alexander-dobrindt-gegen-vergesellschaftungsplaene-a-5b20ca08-303c-4eac-87e8-36224dc3a59d#ref=rss",
+      "summary": "Die Union ringt um die Steinmeier-Nachfolge. Der Kanzler und der Bundespräsident fliegen nach Asien. Und Innenminister Dobrindt sagt der Vergesellschaftung in Berlin den Kampf an. Das ist die Lage am Montagmorgen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/dd17189a-707c-4b57-af32-bf59855d3d25_w1200_r1.778_fpx28.09_fpy49.93.png",
+      "published": "2026-10-26T05:34:00+01:00",
+      "category": "Politik",
+      "score": 60.25
+    },
+    {
+      "id": "spiegel-5a8d534dcd8bf082",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Recruiting: Ihre Bewerbung wurde abgelehnt? Bei diesen Absagen sollten Sie stutzig werden",
+      "link": "https://www.spiegel.de/karriere/recruiting-ihre-bewerbung-wurde-abgelehnt-bei-diesen-absagen-sollten-sie-stutzig-werden-a-3cd8d70d-bfef-4cd3-bd0a-1f7380c123da#ref=rss",
+      "summary": "Nach dem Vorstellungsgespräch kommt nur ein Zweizeiler oder gar nichts? Das ist feige, sagt der Recruiter Marcel Rütten. Hier erklärt er, was in einer fairen Absage stehen sollte.",
+      "image": "https://cdn.prod.www.spiegel.de/images/ce79a21d-a968-478f-b7ed-c7ca0b8c3812_w1200_r1.778_fpx28_fpy50.jpg",
+      "published": "2026-10-26T05:30:00+01:00",
+      "category": "Nachrichten",
+      "score": 57.2
+    },
+    {
+      "id": "handelsblatt-2d5e1dd00ec8732b",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Morning Briefing: Der gar nicht so verrückte Trump-Besuch des Audi-Chefs",
+      "link": "https://www.handelsblatt.com/meinung/morningbriefing/morning-briefing-der-gar-nicht-so-verrueckte-trump-besuch-des-audi-chefs/100264829.html",
+      "summary": "Gernot Döllner macht sich mit einer peinlichen Wahlkampfhilfe für den US-Präsidenten unbeliebt. Wirtschaftlich aber gibt es gute Gründe für den Wahlkampf-Stunt.",
+      "image": "https://images.handelsblatt.com/47d5QgD3gb49/cover/900/506/0/0/0/0/0.5/0.5/sven-prange.png",
+      "published": "2026-10-26T05:21:29+00:00",
+      "category": "Politik",
+      "score": 93.86
+    },
+    {
+      "id": "handelsblatt-3bb4af657321692a",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Podcast: Audi: Die riskante US-Wette des Gernot Döllner / Brasilien: Präsident Lula sichert sich vierte Amtszeit",
+      "link": "https://www.handelsblatt.com/audio/podcast-morning-briefing/podcast-audi-die-riskante-us-wette-des-gernot-doellner---brasilien-praesident-lula-sichert-sich-vierte-amtszeit/100264869.html",
+      "summary": "Gernot Döllner macht sich mit einer peinlichen Wahlkampfhilfe für den US-Präsidenten unbeliebt. Wirtschaftlich aber gibt es gute Gründe für den Wahlkampf-Stunt.",
+      "image": "https://images.handelsblatt.com/GqjedYa4TtiY/cover/900/506/0/0/656/657/0.5/0.5/morning-briefing-podcast-teaser-2025.jpg",
+      "published": "2026-10-26T05:20:43+00:00",
+      "category": "Politik",
+      "score": 67.9
+    },
+    {
+      "id": "handelsblatt-91adada3a8fd52b2",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Börse am 26. Oktober: Vier Punkte, die für Anleger heute wichtig sind",
+      "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-vier-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+      "summary": "Neue Einkaufsmanagerindizes liefern Anlegern am Freitag Hinweise auf die Konjunktur. Zudem prüft Moody’s Frankreichs Kreditwürdigkeit – eine Herabstufung könnte die Märkte belasten.",
+      "image": "https://images.handelsblatt.com/iYJIYlJ0LyLk/cover/900/506/0/0/0/0/0.5/0.5/kurstafel.png",
+      "published": "2026-10-26T05:13:08+00:00",
+      "category": "Wirtschaft",
+      "score": 59.8
+    },
+    {
+      "id": "spiegel-025f4a12ea02da56",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "»Tatort«-Vote: Wie gefiel Ihnen »Gottesgarten« mit Rosalie Thomass?",
+      "link": "https://www.spiegel.de/kultur/tv/tatort-vote-wie-gefiel-ihnen-gottesgarten-mit-rosalie-thomass-a-ba625166-9a25-4119-8ce0-623fdc8f988f#ref=rss",
+      "summary": "In Nürnberg trat Rosalie Thomass als Kommissarin Emilia Rathgeber ihren »Tatort«-Dienst an – und geriet am Ende in ein überreiztes Blutbad. Oder sind Sie anderer Meinung?",
+      "image": "https://cdn.prod.www.spiegel.de/images/9572c6a9-8333-4051-b4a4-ef08c77fc355_w1200_r1.778_fpx33.33_fpy50.jpg",
+      "published": "2026-10-26T04:49:00+01:00",
+      "category": "Nachrichten",
+      "score": 56.63
+    },
+    {
+      "id": "spiegel-8215f1dd95e6c159",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Nicki Minaj: Donald Trump lobt ihren Hintern. Wird sie seine neue Sprecherin?",
+      "link": "https://www.spiegel.de/panorama/leute/nicki-minaj-donald-trump-lobt-ihren-hintern-wird-sie-seine-neue-sprecherin-a-211e5317-1f9a-4eb7-9019-8cfb410576ef#ref=rss",
+      "summary": "Rapperin Nicki Minaj ist einmal mehr im Wahlkampf für den US-Präsidenten aufgetreten. Er revanchierte sich mit Komplimenten über ihr Äußeres. Sein Kommunikationsdirektor hat derweil eine Idee für ihre berufliche Zukunft.",
+      "image": "https://cdn.prod.www.spiegel.de/images/48703de5-0ba4-4fcf-91d7-23ab2317518f_w1200_r1.778_fpx50_fpy36.jpg",
+      "published": "2026-10-26T04:45:00+01:00",
+      "category": "Politik",
+      "score": 75.57
+    },
+    {
+      "id": "tagesschau-399c1b9466c8106a",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Reisen in die Boom-Region: Merz und Steinmeier gleichzeitig in Asien",
+      "link": "https://www.tagesschau.de/ausland/asien/asien-reise-merz-steinmeier-100.html",
+      "summary": "Kanzler Merz besucht ab heute Singapur, Japan und Südkorea - und dürfte versuchen, Partnerschaften auszubauen, um die Abhängigkeit von China zu reduzieren. Dort wiederum ist Bundespräsident Steinmeier zu Gast. Von Dagmar Pepping. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/d09b1b85-516a-4c8a-aebb-0e8a7da1121d/AAABoXP8C54/AAABnSSvrFg/16x9-big/merz-1758.jpg?width=1920",
+      "published": "2026-10-26T04:31:40+01:00",
+      "category": "Nachrichten",
+      "score": 65.39
+    },
+    {
+      "id": "handelsblatt-fd2f76c54aa8809a",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Nikkei, Yen, Hang Seng: Asiens Börsen geben nach – Tech-Werte belasten und Ölpreis sinkt",
+      "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-asiens-boersen-geben-nach-tech-werte-belasten-und-oelpreis-sinkt/100264841.html",
+      "summary": "Die asiatischen Börsen starten überwiegend schwächer in die Woche. Sorgen über hohe Zinsen und die schwache chinesische Binnennachfrage belasten – Ölpreise geben nach.",
+      "image": "https://images.handelsblatt.com/UpTWUlWJCkhh/cover/900/506/0/0/271/271/0.5/0.5/a-person-walks-past-an-electronic-stock-board-displaying-japans-nikkei-index-at-a-securities-firm-i.jpg",
+      "published": "2026-10-26T04:30:57+00:00",
+      "category": "Wirtschaft",
+      "score": 59.21
     },
     {
       "id": "tagesschau-de83e0e306633737",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Lula gewinnt Wahl in Brasilien",
+      "title": "Lula gewinnt Wahl - Bolsonaro erkennt Niederlage nicht an",
       "link": "https://www.tagesschau.de/ausland/amerika/brasilien-wahlen-lula-100.html",
-      "summary": "Der linksgerichtete Staatschef Lula da Silva hat die Präsidentschaftswahl in Brasilien gewonnen. Der 80-Jährige setzte sich gegen den rechtsgerichteten Kandidaten Flávio Bolsonaro durch, wie das Oberste Wahlgericht mitteilte. [ mehr ]",
+      "summary": "Der linke Staatschef Lula hat die Präsidentschaftswahl in Brasilien gewonnen. Er setzte sich gegen den rechten Kandidaten Bolsonaro durch - doch der will das Ergebnis nicht anerkennen.[ mehr ]",
       "image": "https://images.tagesschau.de/image/7e52859b-49af-4843-83be-ad391e13f68b/AAABoXXW07o/AAABnSSvrFg/16x9-big/lula-234.jpg?width=1920",
-      "published": "2026-10-26T02:12:14+01:00",
+      "published": "2026-10-26T04:28:19+01:00",
       "category": "Politik",
       "score": 86.71,
       "coverage": {
@@ -341,8 +867,8 @@
         "others": [
           {
             "source": "deutschlandfunk",
-            "title": "Brasilien - Lula gewinnt Präsidenten-Stichwahl gegen Bolsonaro",
-            "link": "https://www.deutschlandfunk.de/lula-gewinnt-praesidenten-stichwahl-gegen-bolsonaro-100.html"
+            "title": "Brasilien - Lula gewinnt Präsidenten-Stichwahl - Bolsonaro erkennt Ergebnis nicht an",
+            "link": "https://www.deutschlandfunk.de/lula-gewinnt-praesidenten-stichwahl-bolsonaro-erkennt-ergebnis-nicht-an-100.html"
           },
           {
             "source": "spiegel",
@@ -351,11 +877,215 @@
           },
           {
             "source": "handelsblatt",
-            "title": "Gegen Rechtsruck in der Region: Brasilien bleibt links: Lula gewinnt Präsidentenwahl",
-            "link": "https://www.handelsblatt.com/politik/international/gegen-rechtsruck-in-der-region-brasilien-bleibt-links-lula-gewinnt-praesidentenwahl/100264837.html"
+            "title": "Südamerika: Lula gewinnt Präsidentschaftswahl in Brasilien – Bolsonaro erkennt Ergebnis nicht an",
+            "link": "https://www.handelsblatt.com/politik/international/brasilien-lula-gewinnt-zum-vierten-mal-die-praesidentschaftswahl/100264825.html"
           }
         ]
       }
+    },
+    {
+      "id": "handelsblatt-53cca7f156b8f93c",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Wegweisende Abstimmung: Was bedeutet die Wahl in Israel für Krieg und Frieden?",
+      "link": "https://www.handelsblatt.com/politik/international/wegweisende-abstimmung-was-bedeutet-die-wahl-in-israel-fuer-krieg-und-frieden/100264852.html",
+      "summary": "In Israel soll morgen ein neues Parlament gewählt werden. Welche Folgen hätten ein Regierungswechsel oder eine Wiederwahl der aktuellen Führung unter Netanjahu für die Konflikte der Region?",
+      "image": "https://images.handelsblatt.com/QY3Dknvk86VV/cover/900/506/0/0/101/101/0.5/0.5/vor-den-wahlen-in-israel.jpg",
+      "published": "2026-10-26T04:28:10+00:00",
+      "category": "Politik",
+      "score": 83.17
+    },
+    {
+      "id": "handelsblatt-a593903dbfb48eb8",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Präsidentenwahl in Brasilien: Lula zum Wahlsieger erklärt - Bolsonaro protestiert",
+      "link": "https://www.handelsblatt.com/politik/international/praesidentenwahl-in-brasilien-lula-zum-wahlsieger-erklaert-bolsonaro-protestiert/100264837.html",
+      "summary": "Linken-Ikone Lula bejubelt ein historisches Comeback, sein rechter Rivale Flávio Bolsonaro will das Ergebnis der Präsidentenwahl anfechten. Stehen Brasilien wieder turbulente Zeiten bevor?",
+      "image": "https://images.handelsblatt.com/CgMVWmYxtGan/cover/900/506/0/0/107/106/0.5/0.5/praesidentenwahl-in-brasilien.jpg",
+      "published": "2026-10-26T04:24:18+00:00",
+      "category": "Politik",
+      "score": 77.75
+    },
+    {
+      "id": "tagesschau-0211120430ef79ab",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Massenproteste gegen Rundfunkreform in Tschechien",
+      "link": "https://www.tagesschau.de/ausland/europa/tschechien-rundfunk-proteste-100.html",
+      "summary": "Die tschechische Regierung will den öffentlich-rechtlichen Rundfunk künftig aus dem Staatshaushalt finanzieren - und Mittel für die Sender deutlich kürzen. Landesweit protestierten Zehntausende. Sie befürchten weniger Unabhängigkeit. Von K. Peetz. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/a30b859b-7ce3-4177-8aa8-a1ae7586efed/AAABoXbGrRU/AAABnSSvrFg/16x9-big/tschechien-202.jpg?width=1920",
+      "published": "2026-10-26T04:06:18+01:00",
+      "category": "Politik",
+      "score": 68.03
+    },
+    {
+      "id": "handelsblatt-8eb3d85d6b05579f",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Aufklärung: „Ist das schlimm genug?“ Männer suchen spät Hilfe",
+      "link": "https://www.handelsblatt.com/technik/forschung-innovation/aufklaerung-ist-das-schlimm-genug-maenner-suchen-spaet-hilfe/100264862.html",
+      "summary": "Schnurrbart als Symbol: Aus Moustache und November wird „Movember“. In diesem Monat sollen Männergesundheit und mögliche Tabuthemen in den Fokus rücken. Ein Aspekt dabei: die psychische Verfassung.",
+      "image": "https://images.handelsblatt.com/KGss7f-i4ykE/cover/900/506/0/0/107/106/0.5/0.5/hilfe-in-psychischen-krisen.jpg",
+      "published": "2026-10-26T04:00:22+00:00",
+      "category": "Wirtschaft",
+      "score": 58.78
+    },
+    {
+      "id": "handelsblatt-c97eb3f6eeb0b490",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Fragen aus dem Arbeitsrecht: Den neuen Job ohne Arbeitsvertrag beginnen – geht das?",
+      "link": "https://www.handelsblatt.com/politik/deutschland/fragen-aus-dem-arbeitsrecht-den-neuen-job-ohne-arbeitsvertrag-beginnen-geht-das/100264861.html",
+      "summary": "Angestellt im neuen Job, aber es gibt keinen schriftlichen Arbeitsvertrag oder er lässt auf sich warten? Muss ich trotzdem am vereinbarten ersten Arbeitstag erscheinen? Das gilt.",
+      "image": "https://images.handelsblatt.com/UTlwojEIJ2CT/cover/900/506/0/0/107/106/0.5/0.5/ein-mann-gibt-einer-frau-im-buero-die-hand.jpg",
+      "published": "2026-10-26T04:00:13+00:00",
+      "category": "Wirtschaft",
+      "score": 58.78
+    },
+    {
+      "id": "handelsblatt-2e2dd6f7239b2045",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Hilfsangebote: Wo Männer bei psychischer Belastung Hilfe finden können",
+      "link": "https://www.handelsblatt.com/technik/medizin/hilfsangebote-wo-maenner-bei-psychischer-belastung-hilfe-finden-koennen/100264863.html",
+      "summary": "Männer tun sich teils schwer, bei belastenden Gefühlen oder Gedanken Hilfe zu suchen. Welche Angebote den Einstieg erleichtern können - und wann ein Schubser von Angehörigen angemessen ist.",
+      "image": "https://images.handelsblatt.com/ckONg9CeB6ke/cover/900/506/0/0/79/79/0.5/0.5/mitarbeiterin-der-telefonseelsorge-sitzt-an-ihrem-arbeitsplatz.jpg",
+      "published": "2026-10-26T04:00:06+00:00",
+      "category": "Wirtschaft",
+      "score": 58.78
+    },
+    {
+      "id": "handelsblatt-c87c8ca23cc23b26",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Vorteile und Fallen: Beutekisten und Kleinvieh: In-App-Käufe können teuer werden",
+      "link": "https://www.handelsblatt.com/technik/it-internet/vorteile-und-fallen-beutekisten-und-kleinvieh-in-app-kaeufe-koennen-teuer-werden/100264859.html",
+      "summary": "In-App-Käufe sind für die Anbieter meist eine Cashcow, für Nutzerinnen und Nutzer oft schwer durchschaubare Trickserei. Was man über Risiken, Schutzmechanismen und flexible Kaufoptionen wissen muss.",
+      "image": "https://images.handelsblatt.com/Nbd0S4LXjapS/cover/900/506/0/0/107/106/0.5/0.5/ein-mann-mit-kopfhoerern-streamt-auf-einem-smartphone.jpg",
+      "published": "2026-10-26T03:50:04+00:00",
+      "category": "Technologie",
+      "score": 55.64
+    },
+    {
+      "id": "handelsblatt-245f02fe4bcc5dc8",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Südamerika: Lula gewinnt Präsidentschaftswahl in Brasilien – Bolsonaro erkennt Ergebnis nicht an",
+      "link": "https://www.handelsblatt.com/politik/international/brasilien-lula-gewinnt-zum-vierten-mal-die-praesidentschaftswahl/100264825.html",
+      "summary": "Mit einer spektakulären Aufholjagd hat Präsident Lula seinen rechten Herausforderer Flávio Bolsonaro besiegt. Der kündigte an, die Annullierung der Wahl zu beantragen.",
+      "image": "https://images.handelsblatt.com/jSoKz7FPmSo7/cover/900/506/0/0/27/598/0.5/0.5/25.10.2026-brasilien-sao-paulo-praesident-luiz-inacio-lula-da-silva-spricht-auf-der-avenida-paulis.jpg",
+      "published": "2026-10-26T03:45:53+00:00",
+      "category": "Politik",
+      "score": 86.71
+    },
+    {
+      "id": "spiegel-31de3e22184f2dd8",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Libyen – USA: Libyen bestellt US-Vertreter wegen Trumps Hetze ein",
+      "link": "https://www.spiegel.de/ausland/libyen-usa-libyen-bestellt-us-vertreter-wegen-trumps-hetze-ein-a-85934277-55e9-42a1-9959-8d5ef2aaaad2#ref=rss",
+      "summary": "»Terrorverseucht« und« Dreckslochland«: Diese Beschimpfungen des US-Präsidenten wollte man sich in Libyen nicht gefallen lassen – und ließ die Sache diplomatisch eskalieren. Später gab sich Donald Trump dann plötzlich handzahm.",
+      "image": "https://cdn.prod.www.spiegel.de/images/a4369008-e00b-4ba6-bacc-0d6b96936611_w1200_r1.778_fpx53.34_fpy49.99.jpg",
+      "published": "2026-10-26T03:43:00+01:00",
+      "category": "Politik",
+      "score": 74.71
+    },
+    {
+      "id": "handelsblatt-4b11b370c69f66cf",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Zahlungspflicht - oder nicht?: Achtung, teuer? Wer haftet für die In-App-Käufe von Kindern?",
+      "link": "https://www.handelsblatt.com/technik/it-internet/zahlungspflicht-oder-nicht-achtung-teuer-wer-haftet-fuer-die-in-app-kaeufe-von-kindern/100264857.html",
+      "summary": "Plötzlich hohe Abbuchungen wegen Kinder-Handyspielen? Verbraucherschützer erklären, warum Eltern oft nichts zahlen müssen - und wann App-Anbieter das Risiko tragen.",
+      "image": "https://images.handelsblatt.com/0i0QAYSg0Vuv/cover/900/506/0/0/107/106/0.5/0.5/ein-teenager-guckt-auf-ein-handy.jpg",
+      "published": "2026-10-26T03:42:04+00:00",
+      "category": "Technologie",
+      "score": 55.53
+    },
+    {
+      "id": "handelsblatt-e24f86c1cf8d113a",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Reisediplomatie: Merz und Steinmeier auf getrennten Wegen nach Asien",
+      "link": "https://www.handelsblatt.com/politik/international/reisediplomatie-merz-und-steinmeier-auf-getrennten-wegen-nach-asien/100264854.html",
+      "summary": "Steinmeier bricht zu seinem zweiten Staatsbesuch nach China auf. Gleichzeitig reist Merz in die Nachbarschaft des Riesenreichs. Ist das Zufall?",
+      "image": "https://images.handelsblatt.com/IX7lTUD5wCsW/cover/900/506/0/0/192/192/0.5/0.5/regierungsflieger-der-luftwaffe.jpg",
+      "published": "2026-10-26T03:30:06+00:00",
+      "category": "Wirtschaft",
+      "score": 65.39
+    },
+    {
+      "id": "handelsblatt-4066357428778b77",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Kommentar: Der Preis der Billigjagd: Europa geht die Elektronik aus",
+      "link": "https://www.handelsblatt.com/technik/it-internet/kommentar-der-preis-der-billigjagd-europa-geht-die-elektronik-aus/100263837.html",
+      "summary": "Fast die gesamte Elektronikproduktion befindet sich inzwischen in Übersee. Der Boom der Rechenzentren für die Künstliche Intelligenz legt offen, wie gefährlich das ist.",
+      "image": "https://images.handelsblatt.com/N98Z05JXo9p1/cover/900/506/0/0/0/750/0.5/0.5/leiterplatten.jpg",
+      "published": "2026-10-26T03:08:37+00:00",
+      "category": "Technologie",
+      "score": 55.07
+    },
+    {
+      "id": "handelsblatt-ed57e386e342125a",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Thyssenkrupp: So soll die Sparte Werkstoffhandel nach dem Börsengang wachsen",
+      "link": "https://www.handelsblatt.com/unternehmen/industrie/thyssenkrupp-so-soll-die-sparte-werkstoffhandel-nach-dem-boersengang-wachsen/100261863.html",
+      "summary": "Im Handelsblatt spricht TK-Accelis-Chefin Ilse Henne über die neue Unabhängigkeit vom Mutterkonzern und künftige Übernahmepläne.",
+      "image": "https://images.handelsblatt.com/fYSTDUJjCGEL/cover/900/506/0/0/313/312/0.5/0.5/handout-10.06.2026-nordrhein-westfalen-dortmund-die-vorstandsvorsitzende-der-thyssenkrupp-werks.jpg",
+      "published": "2026-10-26T03:05:49+00:00",
+      "category": "Wirtschaft",
+      "score": 58.03
+    },
+    {
+      "id": "handelsblatt-a7aeaf523b0b39e8",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Leapmotor: „Wir setzen nicht einfach Teile zusammen, die aus China kommen“",
+      "link": "https://www.handelsblatt.com/unternehmen/industrie/leapmotor-wir-setzen-nicht-einfach-teile-zusammen-die-aus-china-kommen/100263433.html",
+      "summary": "Der chinesische Autobauer fertigt über ein Joint Venture Fahrzeuge beim Partner Stellantis. Leapmotor-International-Chef Danilo Annese erklärt, wie es mit „Made in Europe“ weitergehen soll.",
+      "image": "https://images.handelsblatt.com/J6D62y36z7qq/cover/900/506/0/0/76/133/0.5/0.5/danilo-annese-chief-executive-officer-of-leapmotor-international-during-a-presentation-on-the-open.jpg",
+      "published": "2026-10-26T03:02:48+00:00",
+      "category": "Wirtschaft",
+      "score": 57.99
+    },
+    {
+      "id": "handelsblatt-779a8e76b20dffc7",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Krieg im Gazastreifen: Kugel im Kopf - Deutsche Ärzte behandeln Patienten aus Gaza",
+      "link": "https://www.handelsblatt.com/politik/international/krieg-im-gazastreifen-kugel-im-kopf-deutsche-aerzte-behandeln-patienten-aus-gaza/100264849.html",
+      "summary": "Tanzen war Ahmeds Leidenschaft. Jetzt kann sich der Palästinenser aus dem Gazastreifen kaum bewegen. Er hat eine Kugel im Kopf. Deutsche Ärzte haben ihn in Kairo behandelt. Aber wie geht es weiter?",
+      "image": "https://images.handelsblatt.com/B7jcdjc4VHgx/cover/900/506/0/0/107/106/0.5/0.5/patienten-aus-gazastreifen-in-kairo.jpg",
+      "published": "2026-10-26T03:00:10+00:00",
+      "category": "Politik",
+      "score": 73.95
+    },
+    {
+      "id": "handelsblatt-8cd4dd6d1a45841c",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Lieferkrise: Dieses elektronische Bauteil gefährdet Europas Industrie – „Tragweite bislang unterschätzt“",
+      "link": "https://www.handelsblatt.com/technik/it-internet/lieferkrise-dieses-elektronische-bauteil-gefaehrdet-europas-industrie/100261099.html",
+      "summary": "Leiterplatten waren nie ein Thema, nun werden sie zum Problem Nummer eins für Einkäufer. KI-Riesen kaufen die Fabriken in Asien leer, doch hierzulande ist die Produktion längst weggezogen.",
+      "image": "https://images.handelsblatt.com/2hJElyr2n7wS/cover/900/506/0/0/0/208/0.5/0.5/leiterplatte.jpg",
+      "published": "2026-10-26T02:59:18+00:00",
+      "category": "Technologie",
+      "score": 62.94
+    },
+    {
+      "id": "handelsblatt-8b0659dec9d2119f",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "99,99 Euro: Bahn verkauft Familienticket ab heute wieder",
+      "link": "https://www.handelsblatt.com/politik/deutschland/9999-euro-bahn-verkauft-familienticket-ab-heute-wieder/100264845.html",
+      "summary": "Für die Abschaffung der Familienreservierung musste die Deutsche Bahn viel Schelte einstecken. Ihre Antwort: das Familienticket. Aus dem temporären Angebot wird nun ein dauerhaftes.",
+      "image": "https://images.handelsblatt.com/PxWyx1UnJQq1/cover/900/506/0/0/107/107/0.5/0.5/ice.jpg",
+      "published": "2026-10-26T02:00:12+00:00",
+      "category": "Wirtschaft",
+      "score": 66.4
     },
     {
       "id": "spiegel-4b725671ac263b8c",
@@ -363,7 +1093,7 @@
       "sourceWeight": 0.95,
       "title": "Brasilien: Lula gewinnt Präsidentschaftswahl gegen Flávio Bolsonaro knapp",
       "link": "https://www.spiegel.de/ausland/brasilien-lula-gewinnt-praesidentschaftswahl-gegen-flavio-bolsonaro-knapp-a-1d4b448a-82dc-403d-8f23-d23f71aa375e#ref=rss",
-      "summary": "Die Wählerinnen und Wähler in Brasilien haben entschieden – und den 80-jährigen Luiz Inácio Lula da Silva erneut zum Präsidenten bestimmt. Sein Sieg über den rechten Flávio Bolsonaro war knapp.",
+      "summary": "Die Wählerinnen und Wähler in Brasilien haben den 80-jährigen Luiz Inácio Lula da Silva erneut zum Präsidenten bestimmt. Sein Sieg über den rechten Flávio Bolsonaro war knapp. Der Unterlegene will das Ergebnis anfechten.",
       "image": "https://cdn.prod.www.spiegel.de/images/3846dfa4-2b06-4668-926e-c65b1cb83a8f_w1200_r1.778_fpx48_fpy54.jpg",
       "published": "2026-10-26T01:24:00+01:00",
       "category": "Politik",
@@ -379,7 +1109,7 @@
       "image": "https://images.handelsblatt.com/moTjmZGLfrKC/cover/900/506/0/0/191/191/0.5/0.5/west-palm-beach-florida-october-24-u.s.-president-donald-trump-l-speaks-to-reporters-alongside.jpg",
       "published": "2026-10-26T01:24:00+00:00",
       "category": "Politik",
-      "score": 68.52
+      "score": 74.71
     },
     {
       "id": "spiegel-0ee117ba19e9971b",
@@ -391,31 +1121,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/6ce4951f-0f9f-4a73-a30f-c170c4875797_w1200_r1.778_fpx59_fpy46.jpg",
       "published": "2026-10-26T01:09:00+01:00",
       "category": "Nachrichten",
-      "score": 65.48
-    },
-    {
-      "id": "handelsblatt-99a8608e0f1874b7",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Gegen Rechtsruck in der Region: Brasilien bleibt links: Lula gewinnt Präsidentenwahl",
-      "link": "https://www.handelsblatt.com/politik/international/gegen-rechtsruck-in-der-region-brasilien-bleibt-links-lula-gewinnt-praesidentenwahl/100264837.html",
-      "summary": "Linken-Ikone Lula bleibt Präsident, sein rechter Rivale Flávio Bolsonaro unterliegt. Vor dem 80-jährigen Amtsinhaber liegen nun große Aufgaben - und wohl auch Konflikte mit den USA unter Donald Trump.",
-      "image": "https://images.handelsblatt.com/i8QHkObhsVkT/cover/900/506/0/0/107/106/0.5/0.5/praesidentenwahl-in-brasilien.jpg",
-      "published": "2026-10-26T01:01:55+00:00",
-      "category": "Politik",
-      "score": 86.71
-    },
-    {
-      "id": "handelsblatt-457f793f93724503",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Wahlen in Brasilien: Lula gewinnt Stichwahl in Brasilien",
-      "link": "https://www.handelsblatt.com/politik/international/wahlen-in-brasilien-lula-gewinnt-stichwahl-in-brasilien/100264825.html",
-      "summary": "Der linksgerichtete Lula bleibt Präsident, sein rechter Rivale Flávio Bolsonaro unterliegt. Vor dem 80-jährigen Amtsinhaber liegen nun große Aufgaben – und wohl auch Konflikte mit den USA unter Donald Trump.",
-      "image": "https://images.handelsblatt.com/b0i4LFuFrSUT/cover/900/506/0/0/313/312/0.5/0.5/25.10.2026-brasilien-sao-paulo-anhaenger-des-praesidenten-lula-der-sich-um-eine-wiederwahl-bewirbt.jpg",
-      "published": "2026-10-26T00:28:16+00:00",
-      "category": "Politik",
-      "score": 86.71
+      "score": 61.57
     },
     {
       "id": "tagesschau-c28006cd1aacb528",
@@ -427,7 +1133,7 @@
       "image": "https://images.tagesschau.de/image/01544186-423c-402f-8bc1-5be4d2385c15/AAABoVhIwSY/AAABnSSvrFg/16x9-big/baustelle-382.jpg?width=1920",
       "published": "2026-10-26T00:07:11+01:00",
       "category": "Nachrichten",
-      "score": 57.62
+      "score": 53.71
     },
     {
       "id": "spiegel-6e58dd479049a818",
@@ -439,7 +1145,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/8f1103e5-b3c8-4deb-b3cf-e444b4874bc4_w1200_r1.778_fpx56_fpy37.jpg",
       "published": "2026-10-25T23:35:00+01:00",
       "category": "Nachrichten",
-      "score": 56.18
+      "score": 52.27
     },
     {
       "id": "spiegel-31456c491ae83099",
@@ -454,6 +1160,18 @@
       "score": 66.71
     },
     {
+      "id": "handelsblatt-fbc7452f44a31261",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Gen-Z-Proteste: Nach Unruhen in Frankreich warnen Politiker vor „Gewaltexzessen“ auch in Deutschland",
+      "link": "https://www.handelsblatt.com/politik/deutschland/gen-z-proteste-politiker-warnen-vor-gewaltexzessen-wie-in-frankreich/100264821.html",
+      "summary": "CDU-Politiker fürchten, dass radikale Gruppen in mehreren deutschen Städten geplante Kundgebungen vereinnahmen. Hessens Innenminister sieht die Ausschreitungen in Frankreich als Warnsignal.",
+      "image": "https://images.handelsblatt.com/LvfZfhMS6DRx/cover/900/506/0/0/209/208/0.5/0.5/protest-against-the-high-cost-of-living-in-lyon-on-october-24-2026-nicolas-liponne-maxppp-lyon-10-2.jpg",
+      "published": "2026-10-25T23:29:26+00:00",
+      "category": "Politik",
+      "score": 61.57
+    },
+    {
       "id": "handelsblatt-20903cb6ecf66be4",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
@@ -463,7 +1181,7 @@
       "image": "https://images.handelsblatt.com/fH0YrI6k5UrK/cover/900/506/0/0/107/106/0.5/0.5/wohnen-in-frankfurt.jpg",
       "published": "2026-10-25T23:05:05+00:00",
       "category": "Wirtschaft",
-      "score": 58.59
+      "score": 54.68
     },
     {
       "id": "handelsblatt-a8b2b353afe7c112",
@@ -475,7 +1193,7 @@
       "image": "https://images.handelsblatt.com/6Ugozq8pLl4o/cover/900/506/0/0/107/106/0.5/0.5/mercedes-benz-c-klasse-limousine.jpg",
       "published": "2026-10-25T23:01:05+00:00",
       "category": "Wirtschaft",
-      "score": 58.54
+      "score": 54.63
     },
     {
       "id": "handelsblatt-73ba2cc5cc04ae26",
@@ -499,19 +1217,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/f1f27fce-9558-4525-8f55-ab6e6589bc16_w1200_r1.778_fpx54_fpy43.jpg",
       "published": "2026-10-25T22:53:00+01:00",
       "category": "Politik",
-      "score": 66.59
-    },
-    {
-      "id": "handelsblatt-1db9249875f036c6",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Künstliche Intelligenz: SpaceX sichert sich 40 Milliarden für KI-Chips",
-      "link": "https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-spacex-sichert-sich-40-milliarden-fuer-ki-chips/100264828.html",
-      "summary": "Nach Angaben von Elon Musk hat sich SpaceX 40 Milliarden Dollar für den Kauf von KI‑Chips geliehen. Die gute Bonität und Einnahmen aus Starlink und Raketenstarts hätten den Zugang zu Krediten gesichert.",
-      "image": "https://images.handelsblatt.com/ns6sgXJrQyHM/cover/900/506/0/0/313/312/0.5/0.5/september-29-2026-washington-district-of-coulmbia-united-states-elon-musk-stands-in-the-backgro.jpg",
-      "published": "2026-10-25T22:38:59+00:00",
-      "category": "Technologie",
-      "score": 55.23
+      "score": 62.68
     },
     {
       "id": "spiegel-d9f294d00cbbe79f",
@@ -523,7 +1229,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/417eee3a-1e7b-4a95-8171-11b5a50512fa_w1200_r1.778_fpx66_fpy55.jpg",
       "published": "2026-10-25T22:22:00+01:00",
       "category": "Panorama",
-      "score": 64.16
+      "score": 66.84
     },
     {
       "id": "handelsblatt-571e46f3271f11cd",
@@ -535,7 +1241,7 @@
       "image": "https://images.handelsblatt.com/zRC8RDCXTQ9m/cover/900/506/0/0/0/1117/0.5/0.5/19.06.2026-baden-wuerttemberg-ulm-isabel-cademartori-spricht-in-der-donauhalle-beim-landesparteita.jpg",
       "published": "2026-10-25T22:18:00+00:00",
       "category": "Politik",
-      "score": 93.71
+      "score": 93.86
     },
     {
       "id": "handelsblatt-2f9332f705a56da1",
@@ -547,7 +1253,7 @@
       "image": "https://images.handelsblatt.com/VajZjdqrTbRS/cover/900/506/0/0/107/106/0.5/0.5/stichwahl-um-das-praesidentenamt-in-brasilien.jpg",
       "published": "2026-10-25T22:10:55+00:00",
       "category": "Politik",
-      "score": 65.84
+      "score": 61.93
     },
     {
       "id": "spiegel-db9d3c1285939a78",
@@ -559,7 +1265,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/c87b1e56-db7a-47cb-a110-4c2fd6ac03eb_w1200_r1.778_fpx45.99_fpy44.99.jpg",
       "published": "2026-10-25T21:52:00+01:00",
       "category": "Politik",
-      "score": 65.75
+      "score": 61.84
     },
     {
       "id": "tagesschau-2f85a254d22093cd",
@@ -571,7 +1277,7 @@
       "image": "https://images.tagesschau.de/image/948e8b30-dfe7-488f-ac5a-076329d53d82/AAABoXOiu_U/AAABnSSvrFg/16x9-big/polizei-brasilien-100.jpg?width=1920",
       "published": "2026-10-25T21:43:16+01:00",
       "category": "Politik",
-      "score": 66.62
+      "score": 62.71
     },
     {
       "id": "handelsblatt-f6d880f5ee7f055f",
@@ -586,13 +1292,13 @@
       "score": 82.39
     },
     {
-      "id": "handelsblatt-baa0f1bb7ab2073d",
+      "id": "handelsblatt-eabd36c2dfbe54b1",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Wahlen in Serbien: Serbiens Präsident Vucic räumt Wahlniederlage ein",
-      "link": "https://www.handelsblatt.com/politik/international/wahlen-in-serbien-serbiens-praesident-vucic-raeumt-wahlniederlage-ein/100264823.html",
-      "summary": "Viele Wähler sahen die Abstimmung als Referendum über die Vucics Führung auf. Nun muss der Langzeitherrscher seine Niederlage eingestehen. EU-Vertreter sprechen von einem neuen Kapitel für das Land.",
-      "image": "https://images.handelsblatt.com/R1Zu4RZOfhVk/cover/900/506/0/0/233/233/0.5/0.5/25.10.2026-serbien-belgrad-aleksandar-vucic-vorsitzender-der-rechtsgerichteten-serbischen-fortsc.jpg",
+      "title": "Parlamentswahl: Studentenbewegung siegt bei Wahlen in Serbien – Vucic räumt Niederlage ein",
+      "link": "https://www.handelsblatt.com/politik/international/serbien-vucic-raeumt-wahlniederlage-ein-studentenbewegung-triumphiert/100264823.html",
+      "summary": "14 Jahre lang bestimmte Aleksandar Vucic die Politik seines Landes im Alleingang. Doch nun hat ihn eine Protestbewegung bei der Parlamentswahl besiegt. Ihm bleibt künftig nur die Opposition.",
+      "image": "https://images.handelsblatt.com/CZ-JiqJTrUlC/cover/900/506/0/0/0/625/0.5/0.5/serbien.jpg",
       "published": "2026-10-25T21:12:55+00:00",
       "category": "Politik",
       "score": 82.39
@@ -607,7 +1313,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/565a60c8-6645-4716-885d-77a7fd8d1e48_w1200_r1.778_fpx52.02_fpy50.jpg",
       "published": "2026-10-25T20:57:00+01:00",
       "category": "Politik",
-      "score": 88.98
+      "score": 85.07
     },
     {
       "id": "spiegel-0eb9f1c30a32d9ad",
@@ -619,7 +1325,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/7f80be50-4fcb-42b5-a284-4ac6b186a960_w1200_r1.778_fpx47_fpy53.jpg",
       "published": "2026-10-25T20:55:00+01:00",
       "category": "Nachrichten",
-      "score": 53.95
+      "score": 50.04
     },
     {
       "id": "tagesschau-7708b13a1a97ab9d",
@@ -631,19 +1337,14 @@
       "image": "https://images.tagesschau.de/image/d522bc22-1f4a-496a-81bc-efdd0fdda33c/AAABoXP5EcU/AAABnSSvrFg/16x9-big/machado-130.jpg?width=1920",
       "published": "2026-10-25T20:41:15+01:00",
       "category": "Politik",
-      "score": 78.71,
+      "score": 75.39,
       "coverage": {
-        "sourceCount": 4,
+        "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "Nach Exil - Oppositionsführerin Machado soll zurück in Venezuela sein",
             "link": "https://www.deutschlandfunk.de/oppositionsfuehrerin-machado-soll-zurueck-in-venezuela-sein-102.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Venezuela: Oppositionspolitikerin María Corina Machado gibt Rückkehr bekannt",
-            "link": "https://www.spiegel.de/ausland/maria-corina-machado-oppositionspolitikerin-gibt-rueckkehr-nach-venezuela-bekannt-a-0645a250-a873-4c28-b833-748ab7f03b25#ref=rss"
           },
           {
             "source": "handelsblatt",
@@ -663,7 +1364,7 @@
       "image": "https://images.tagesschau.de/image/274f91de-e565-4573-9330-b5d370a0773f/AAABoXRQYOc/AAABnSSvrFg/16x9-big/le-pen-frankreich-102.jpg?width=1920",
       "published": "2026-10-25T20:25:14+01:00",
       "category": "Politik",
-      "score": 65.54
+      "score": 61.63
     },
     {
       "id": "spiegel-51912bf78745cfd1",
@@ -675,7 +1376,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/a255166a-2923-452a-8eec-1790b8592978_w1200_r1.778_fpx36_fpy43.jpg",
       "published": "2026-10-25T20:12:00+01:00",
       "category": "Panorama",
-      "score": 53.36
+      "score": 49.45
     },
     {
       "id": "spiegel-ea571dd4fad9c3ec",
@@ -687,7 +1388,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/bfda789a-d242-4de7-88d6-36effcf78212_w1200_r1.778_fpx66_fpy35.jpg",
       "published": "2026-10-25T20:01:00+01:00",
       "category": "Nachrichten",
-      "score": 53.2
+      "score": 49.29
     },
     {
       "id": "tagesschau-fc59d96a62551ad6",
@@ -699,7 +1400,7 @@
       "image": "https://images.tagesschau.de/image/9cea354c-b999-4f3e-b80d-621fd3470c99/AAABoXQtGEI/AAABnSSvrFg/16x9-big/kretschmer-bab-100.jpg?width=1920",
       "published": "2026-10-25T19:49:43+01:00",
       "category": "Politik",
-      "score": 57.05
+      "score": 53.14
     },
     {
       "id": "spiegel-e818032e163e7dbc",
@@ -711,7 +1412,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/2a97fbb9-83dd-4b26-a473-89a8da84a67c_w1200_r1.778_fpx50_fpy42.jpg",
       "published": "2026-10-25T19:49:00+01:00",
       "category": "Nachrichten",
-      "score": 53.04
+      "score": 49.13
     },
     {
       "id": "handelsblatt-9e1097409516bb90",
@@ -723,19 +1424,7 @@
       "image": "https://images.handelsblatt.com/dLvEjLU9RxXk/cover/900/506/0/0/107/106/0.5/0.5/friedensnobelpreistraegerin-machado.jpg",
       "published": "2026-10-25T19:36:39+00:00",
       "category": "Politik",
-      "score": 78.71
-    },
-    {
-      "id": "tagesschau-87adeed61af15ffc",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Kreuzfahrtschiff rammt zwei Containerschiffe in Bremerhaven",
-      "link": "https://www.tagesschau.de/inland/seeunfall-bremerhaven-100.html",
-      "summary": "Das Kreuzfahrtschiff \"Mein Schiff 3\" ist nach dem Auslaufen in Bremerhaven bei stürmischem Wetter mit zwei Schiffen kollidiert. Zwei Schlepper wurden beschädigt. Nach aktuellem Stand gab es keine Verletzten.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/6a3f8ef9-940f-4800-be2b-2f708d3bdf2c/AAABoXTVqLQ/AAABnSSvrFg/16x9-big/rb-an-einem-schiff-sind-mittransportierte-rettungsboote-beschaedigt-100.jpg?width=1920",
-      "published": "2026-10-25T19:30:00+01:00",
-      "category": "Nachrichten",
-      "score": 64.16
+      "score": 75.39
     },
     {
       "id": "spiegel-3c4ab7b96b92e94d",
@@ -747,7 +1436,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/dfadf0bf-f4e9-4a15-9e7d-20381e24ed28_w1200_r1.778_fpx63_fpy69.jpg",
       "published": "2026-10-25T19:14:00+01:00",
       "category": "Nachrichten",
-      "score": 52.55
+      "score": 68.03
     },
     {
       "id": "spiegel-a2adfccc544dd694",
@@ -759,7 +1448,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/b8469935-f901-4fd4-8eb6-d46be1ea71e2_w1200_r1.778_fpx65.32_fpy50.jpg",
       "published": "2026-10-25T18:58:00+01:00",
       "category": "Politik",
-      "score": 63.33
+      "score": 59.42
     },
     {
       "id": "spiegel-bb5ecfef1b0a3f49",
@@ -771,7 +1460,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/f8f809f4-4862-4093-bed9-8b4668a51052_w1200_r1.778_fpx49_fpy40.jpg",
       "published": "2026-10-25T18:50:00+01:00",
       "category": "Nachrichten",
-      "score": 61.22
+      "score": 57.31
     },
     {
       "id": "handelsblatt-170927b3f63ce4df",
@@ -783,7 +1472,7 @@
       "image": "https://images.handelsblatt.com/GjOMsCYLyvzB/cover/900/506/0/0/0/113/0.5/0.5/this-handout-photo-released-by-the-press-office-of-the-vente-venezuela-party-shows-venezuelan-oppos.jpg",
       "published": "2026-10-25T18:46:39+00:00",
       "category": "Politik",
-      "score": 63.0
+      "score": 59.09
     },
     {
       "id": "spiegel-4ff0a6ab0efa4cd6",
@@ -795,7 +1484,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/f8b2210b-fd40-4c3a-9237-5097d8904dd2_w1200_r1.778_fpx69_fpy45.jpg",
       "published": "2026-10-25T18:36:00+01:00",
       "category": "Nachrichten",
-      "score": 52.02
+      "score": 48.11
     },
     {
       "id": "handelsblatt-ebbcf0085d1a7007",
@@ -807,43 +1496,7 @@
       "image": "https://images.handelsblatt.com/8V9g6nctwH-2/cover/900/506/0/0/269/269/0.5/0.5/leader-of-frances-far-right-national-rally-rn-party-marine-le-pen-waves-to-supporters-prior-to.jpg",
       "published": "2026-10-25T18:30:11+00:00",
       "category": "Politik",
-      "score": 62.78
-    },
-    {
-      "id": "spiegel-90b6b33234dfacaf",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Römisches Reich: Forscher rekonstruieren Farbtrick des Lycurgus-Bechers",
-      "link": "https://www.spiegel.de/wissenschaft/technik/roemisches-reich-forscher-rekonstruieren-farbtrick-des-lycurgus-bechers-a-bbe621cd-61f2-4a78-b3e9-88e3421606fd#ref=rss",
-      "summary": "Ein Glas, das je nach Lichteinfall die Farben wechselt, fasziniert Historiker und Glasmacher seit Jahrhunderten. Jetzt ist es Forschern gelungen, den Farbtrick der Römer nachzuahmen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/96c70fcc-602f-411b-b912-d7bdd3141d2d_w1200_r1.778_fpx49.98_fpy35.96.jpg",
-      "published": "2026-10-25T18:25:00+01:00",
-      "category": "Nachrichten",
-      "score": 51.87
-    },
-    {
-      "id": "spiegel-08273aa1a70676ed",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Bundesliga: TSG Hoffenheim besiegt Bayer Leverkusen in einer turbulenten Schussphase",
-      "link": "https://www.spiegel.de/sport/fussball/fussball-bundesliga-tsg-hoffenheim-besiegt-bayer-leverkusen-in-einer-turbulenten-schussphase-a-fda27755-fb39-4a20-9965-0f6ec51cc141#ref=rss",
-      "summary": "Hoffenheim gegen Leverkusen – das klingt nicht besonders aufregend. Aber es passierte dann doch einiges: Schiedsrichterwechsel, ein übler Zusammenstoß und ein kurioser Platzverweis.",
-      "image": "https://cdn.prod.www.spiegel.de/images/98d7a3e3-7c61-4a26-a2b0-190b6079c95d_w1200_r1.778_fpx51.98_fpy49.99.jpg",
-      "published": "2026-10-25T18:03:00+01:00",
-      "category": "Nachrichten",
-      "score": 66.71
-    },
-    {
-      "id": "spiegel-1445f48260f73f74",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Venezuela: Oppositionspolitikerin María Corina Machado gibt Rückkehr bekannt",
-      "link": "https://www.spiegel.de/ausland/maria-corina-machado-oppositionspolitikerin-gibt-rueckkehr-nach-venezuela-bekannt-a-0645a250-a873-4c28-b833-748ab7f03b25#ref=rss",
-      "summary": "»Ich bin hier. Bei euch.« Mit diesen Worten hat María Corina Machado ihre Rückkehr in ihre Heimat bekannt gegeben. Die Oppositionspolitikerin und Friedensnobelpreisträgerin hatte das Land im Dezember verlassen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/56724adb-daa3-4f11-8a4e-9283be47a705_w1200_r1.778_fpx37.32_fpy50.jpg",
-      "published": "2026-10-25T17:59:00+01:00",
-      "category": "Nachrichten",
-      "score": 78.71
+      "score": 58.87
     },
     {
       "id": "handelsblatt-d8d71b29a2064adb",
@@ -855,31 +1508,7 @@
       "image": "https://images.handelsblatt.com/0TFctlZXKriT/cover/900/506/0/0/314/313/0.5/0.5/arbeit-mit-kuenstlicher-intelligenz-an-einem-laptop..jpg",
       "published": "2026-10-25T17:40:38+00:00",
       "category": "Wirtschaft",
-      "score": 54.09
-    },
-    {
-      "id": "spiegel-a208c3fdca59e145",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Manchester United startet schlecht in die Premier League - kommt jetzt Julian Nagelsmann?",
-      "link": "https://www.spiegel.de/sport/fussball/premier-league-noch-nie-ist-manchester-united-so-schlecht-gestartet-kommt-jetzt-julian-nagelsmann-a-a28dea98-5bc5-45ae-ba3d-5f8c9a613df2#ref=rss",
-      "summary": "Der Absturz des englischen Rekordmeisters Manchester United geht weiter. Trainer Michael Carrick steht nach der nächsten Niederlage vor dem Aus. Als Nachfolger wird der ehemalige Bundestrainer gehandelt.",
-      "image": "https://cdn.prod.www.spiegel.de/images/33380203-ad5a-4199-a878-9d39261f3fc1_w1200_r1.778_fpx68.82_fpy54.98.jpg",
-      "published": "2026-10-25T17:34:00+01:00",
-      "category": "Nachrichten",
-      "score": 51.16
-    },
-    {
-      "id": "spiegel-09c944d1c00ea535",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Studentin aus Reutlingen verzichtet auf Handy und Armbanduhr: »Du lebst mehr im Moment«",
-      "link": "https://www.spiegel.de/panorama/gesellschaft/studentin-aus-reutlingen-verzichtet-auf-handy-und-armbanduhr-du-lebst-mehr-im-moment-a-8a27c34a-58f1-4e0e-b749-cb6e4e69f762#ref=rss",
-      "summary": "Josephine Moser, 27, verzichtet auf ein Smartphone. Sie sagt, sie fühle sich weniger gehetzt im Leben und komme öfter mit Fremden ins Gespräch.",
-      "image": "https://cdn.prod.www.spiegel.de/images/c921a362-b4d8-4feb-9727-090c4162c8a3_w1200_r1.778_fpx56.28_fpy44.99.jpg",
-      "published": "2026-10-25T17:31:00+01:00",
-      "category": "Nachrichten",
-      "score": 51.12
+      "score": 50.18
     },
     {
       "id": "tagesschau-5a14edb7c7d995d0",
@@ -891,19 +1520,7 @@
       "image": "https://images.tagesschau.de/image/f90a7f85-8cba-4a3b-80e8-3acfb9b8b09c/AAABoXPImHI/AAABnSSvrFg/16x9-big/serbien-wahl-112.jpg?width=1920",
       "published": "2026-10-25T17:24:20+01:00",
       "category": "Politik",
-      "score": 63.03
-    },
-    {
-      "id": "spiegel-a227bcced57133ac",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Donald Trump: »Mr Audi« macht US-Präsident ein milliardenschweres Wahlkampfgeschenk",
-      "link": "https://www.spiegel.de/wirtschaft/unternehmen/donald-trump-audi-chef-doellner-stellt-neues-werk-in-georgia-an-trumps-seite-vor-a-a93e3d40-e162-4bfb-abfe-76e6fcac71e6#ref=rss",
-      "summary": "Audi-Chef Gernot Döllner kündigt an Trumps Seite ein neues Werk im Swing State Georgia an. Der US-Präsident feiert einen Erfolg seiner rabiaten Zollpolitik. Dem Manager bringt es zu Hause Querelen mit seinen Arbeitnehmern ein.",
-      "image": "https://cdn.prod.www.spiegel.de/images/6873522a-2dc4-4b6c-95a5-304beaa3285d_w1200_r1.778_fpx37.34_fpy50.jpg",
-      "published": "2026-10-25T17:21:00+01:00",
-      "category": "Politik",
-      "score": 89.56
+      "score": 59.12
     },
     {
       "id": "handelsblatt-acaf6195c4e95049",
@@ -915,31 +1532,7 @@
       "image": "https://images.handelsblatt.com/CiHijFxnoEEL/cover/900/506/0/0/127/128/0.5/0.5/logo-von-revolut-die-britische-neobank-setzt-kuenftig-auf-venture-capital..jpg",
       "published": "2026-10-25T17:00:00+00:00",
       "category": "Wirtschaft",
-      "score": 53.52
-    },
-    {
-      "id": "spiegel-aaab461d5777a99a",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Portugal: Polizei räumt Protestcamps gegen Wohnungsnot in Lissabon und Porto",
-      "link": "https://www.spiegel.de/ausland/lissabon-und-porto-polizei-raeumt-protestcamps-gegen-wohnungsnot-a-66a6ea6e-4703-4e67-b3fd-e46398d76dc8#ref=rss",
-      "summary": "In Portugal fehlen 300.000 Wohnungen, die Menschen klagen über Mietwucher – und demonstrieren dagegen. Die Polizei hat eine nächtliche Protestaktion mit Zelten aufgelöst. Nicht zum ersten Mal.",
-      "image": "https://cdn.prod.www.spiegel.de/images/3301108f-0996-4ed5-a522-bd1703dcbf75_w1200_r1.778_fpx30_fpy54.99.jpg",
-      "published": "2026-10-25T16:42:00+01:00",
-      "category": "Panorama",
-      "score": 50.44
-    },
-    {
-      "id": "spiegel-2a330e988c3c3793",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Berlin-Wahl: Alexander Dobrindt plant hohe Hürden für Vergesellschaftungen",
-      "link": "https://www.spiegel.de/politik/deutschland/nach-berlin-wahl-alexander-dobrindt-plant-hohe-huerden-fuer-vergesellschaftungen-a-9d5feeea-5988-47e5-87c8-d4328a60cb98#ref=rss",
-      "summary": "Bundesinnenminister Alexander Dobrindt will Enteignungen, wie sie in Berlin geplant sind, per Gesetz erschweren. Die Linke hält das für rechtswidrig.",
-      "image": "https://cdn.prod.www.spiegel.de/images/7144a3c6-5c3a-4c0e-9746-d47bfd09a852_w1200_r1.778_fpx48_fpy41.jpg",
-      "published": "2026-10-25T16:32:00+01:00",
-      "category": "Politik",
-      "score": 78.71
+      "score": 49.61
     },
     {
       "id": "deutsche-welle-346b78f9bbf8c2b1",
@@ -951,7 +1544,7 @@
       "image": "https://static.dw.com/image/78307185_6.jpg",
       "published": "2026-10-25T16:24:00+00:00",
       "category": "Technologie",
-      "score": 59.02
+      "score": 73.7
     },
     {
       "id": "handelsblatt-84792f3380110dd9",
@@ -963,31 +1556,7 @@
       "image": "https://images.handelsblatt.com/AJGsbNxjZT2y/cover/900/506/0/0/107/106/0.5/0.5/us-midterms-us-praesident-trump.jpg",
       "published": "2026-10-25T16:20:34+00:00",
       "category": "Politik",
-      "score": 93.71
-    },
-    {
-      "id": "spiegel-0d3a8475353ee248",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Die Grünen: Suche nach Spitzenkandidaten für die Bundestagswahl 2029",
-      "link": "https://www.spiegel.de/politik/deutschland/die-gruenen-suche-nach-spitzenkandidaten-fuer-die-bundestagswahl-2029-a-36315cab-735f-45dd-befb-872727223b06#ref=rss",
-      "summary": "Das grüne Führungsquartett hat die Partei erfolgreich aus dem Schatten von Robert Habeck herausgeführt. Trotzdem fällt sein Name derzeit erstaunlich oft. Hat sein Rückzug eine Lücke hinterlassen oder ist das schon Verklärung?",
-      "image": "https://cdn.prod.www.spiegel.de/images/d967b142-8840-477d-b4d1-9c6e7c790def_w1200_r1.778_fpx30_fpy54.jpg",
-      "published": "2026-10-25T16:18:00+01:00",
-      "category": "Politik",
-      "score": 69.11
-    },
-    {
-      "id": "spiegel-240930d0b01eb688",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Huthi-Angriffe auf Saudi-Arabien: Auch die Rallye Dakar wird abgesagt",
-      "link": "https://www.spiegel.de/sport/angriffe-auf-saudi-arabien-auch-die-rallye-dakar-wird-abgesagt-a-6aec8dc2-6005-46d7-badc-1db9a5fd6f76#ref=rss",
-      "summary": "Die Formel 1 machte in diesem Jahr bereits einen Bogen um Saudi-Arabien, auch die Rallye Dakar wird nicht in dem Land stattfinden. Die Lage nach den Huthi-Angriffen ist zu unsicher.",
-      "image": "https://cdn.prod.www.spiegel.de/images/97236e78-6e92-437a-92a2-0687d6768a59_w1200_r1.778_fpx65.32_fpy49.98.jpg",
-      "published": "2026-10-25T16:15:00+01:00",
-      "category": "Nachrichten",
-      "score": 59.02
+      "score": 93.86
     },
     {
       "id": "tagesschau-4aa1b01cadfaf5db",
@@ -999,19 +1568,7 @@
       "image": "https://images.tagesschau.de/image/b2bad63b-39ca-46d5-a377-4375a6ec0473/AAABoS_ZOsc/AAABnSSvrFg/16x9-big/burnham-158.jpg?width=1920",
       "published": "2026-10-25T16:12:04+01:00",
       "category": "Nachrichten",
-      "score": 51.02
-    },
-    {
-      "id": "spiegel-bd7779723411a77a",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "»Tatort« heute aus Franken: »Gottesgarten« im Schnellcheck",
-      "link": "https://www.spiegel.de/kultur/tv/tatort-heute-aus-franken-gottesgarten-im-schnellcheck-a-409f5fec-c285-400d-b7cd-48bb25db926b#ref=rss",
-      "summary": "Neuaufstellung in Nürnberg: Fabian Hinrichs wird jetzt von Rosalie Thomass unterstützt. Im ersten Fall geht es um Prostitution, Missbrauch und die Frage, weshalb eigentlich nicht eine Kollegin befördert wurde.",
-      "image": "https://cdn.prod.www.spiegel.de/images/a12ad216-93ba-4c22-a777-5c24f5978996_w1200_r1.778_fpx59.3_fpy44.98.jpg",
-      "published": "2026-10-25T16:08:00+01:00",
-      "category": "Nachrichten",
-      "score": 49.97
+      "score": 47.11
     },
     {
       "id": "handelsblatt-594a69c659bf8252",
@@ -1023,19 +1580,7 @@
       "image": "https://images.handelsblatt.com/stsdOoYkh7IQ/cover/900/506/0/0/521/235/0.5/0.5/powerwolf-auftritt-auf-dem-full-metal-japan-festival.jpg",
       "published": "2026-10-25T16:07:39+00:00",
       "category": "Technologie",
-      "score": 49.8
-    },
-    {
-      "id": "spiegel-fe0b2af9ce9e82cb",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Brasilien-Wahl: »Demokratien sterben langsam, in homöopathischen Dosen«",
-      "link": "https://www.spiegel.de/ausland/wahl-in-brasilien-demokratien-sterben-langsam-in-homoeopathischen-dosen-a-6486c33c-e719-4d08-9a4a-e90bd3365b38#ref=rss",
-      "summary": "Kann sich Präsident Lula in Brasilien Bolsonaro-Sohn Flávio widersetzen? Und was, wenn der oppositionelle Rechtspopulist siegt? Wissenschaftler André Singer über einen möglichen Rachefeldzug – und die Rolle der Demonstranten.",
-      "image": "https://cdn.prod.www.spiegel.de/images/8c755b63-8cca-4c9c-ac60-5b2c569e54bb_w1200_r1.778_fpx70.36_fpy48.97.jpg",
-      "published": "2026-10-25T16:06:00+01:00",
-      "category": "Politik",
-      "score": 86.71
+      "score": 45.89
     },
     {
       "id": "handelsblatt-f90ff8deda34677d",
@@ -1047,7 +1592,7 @@
       "image": "https://images.handelsblatt.com/du5KfEtSwA5A/cover/900/506/0/0/0/0/0.5/0.5/us-korrespondent-laurin-meyer.jpg",
       "published": "2026-10-25T16:04:53+00:00",
       "category": "Politik",
-      "score": 68.76
+      "score": 64.85
     },
     {
       "id": "tagesschau-7c1cf9b93d3f33d6",
@@ -1059,19 +1604,14 @@
       "image": "https://images.tagesschau.de/image/2d475b55-fad5-4039-b944-32c6bc3a8b2b/AAABoXHj9CA/AAABnSSvrFg/16x9-big/audi-trump-100.jpg?width=1920",
       "published": "2026-10-25T16:04:51+01:00",
       "category": "Politik",
-      "score": 89.56,
+      "score": 94.66,
       "coverage": {
-        "sourceCount": 5,
+        "sourceCount": 4,
         "others": [
           {
-            "source": "spiegel",
-            "title": "Donald Trump: »Mr Audi« macht US-Präsident ein milliardenschweres Wahlkampfgeschenk",
-            "link": "https://www.spiegel.de/wirtschaft/unternehmen/donald-trump-audi-chef-doellner-stellt-neues-werk-in-georgia-an-trumps-seite-vor-a-a93e3d40-e162-4bfb-abfe-76e6fcac71e6#ref=rss"
-          },
-          {
             "source": "handelsblatt",
-            "title": "Autobauer: Trump bestätigt Handelsblatt-Bericht: Audi baut neues Werk in den USA",
-            "link": "https://www.handelsblatt.com/unternehmen/industrie/autobauer-trump-bestaetigt-handelsblatt-bericht-audi-baut-werk-in-den-usa/100264447.html"
+            "title": "US-Werk von Audi: Cavallo: Auftritt von Audi-Chef bei Trump ist beschämend",
+            "link": "https://www.handelsblatt.com/politik/deutschland/us-werk-von-audi-cavallo-auftritt-von-audi-chef-bei-trump-ist-beschaemend/100264874.html"
           },
           {
             "source": "deutsche-welle",
@@ -1096,7 +1636,7 @@
       "image": "https://images.handelsblatt.com/lMZMMQl-Tr1O/cover/900/506/0/0/186/185/0.5/0.5/handelsblatt-vom-26.-oktober-2026.png",
       "published": "2026-10-25T15:52:14+00:00",
       "category": "Wirtschaft",
-      "score": 52.58
+      "score": 48.67
     },
     {
       "id": "tagesschau-78a8c93051da8cfe",
@@ -1108,19 +1648,7 @@
       "image": "https://images.tagesschau.de/image/ec83de56-0d43-400b-a850-82b0fe018a46/AAABoXNgEyQ/AAABnSSvrFg/16x9-big/unwetter-schleswig-holstein-100.jpg?width=1920",
       "published": "2026-10-25T15:48:27+01:00",
       "category": "Nachrichten",
-      "score": 66.7
-    },
-    {
-      "id": "spiegel-200e5381b8468bd0",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Pflegeversicherung: Pflegereform geht zulasten der Angehörigen",
-      "link": "https://www.spiegel.de/wirtschaft/sozialverband-vdk-pflegereform-geht-zulasten-der-angehoerigen-a-fbb828fd-67fb-4ba1-96d7-2196affb343c#ref=rss",
-      "summary": "Starre Budgets könnten nach der geplanten Pflegereform dazu führen, dass Betroffene notwendige Hilfen nicht mehr bezahlen können. Der Sozialverband VdK weist auf die Folgen für eine bisher wenig beachtete Gruppe hin.",
-      "image": "https://cdn.prod.www.spiegel.de/images/e8949ae6-8888-4dca-9e31-2d49d6aa719c_w1200_r1.778_fpx44.67_fpy45.jpg",
-      "published": "2026-10-25T15:41:00+01:00",
-      "category": "Nachrichten",
-      "score": 49.59
+      "score": 62.79
     },
     {
       "id": "tagesschau-51fc8aa5977de6ef",
@@ -1132,91 +1660,7 @@
       "image": "https://images.tagesschau.de/image/d4fdf3f7-968c-442a-b9c7-ada7308dee2b/AAABoXNL1Lk/AAABnSSvrFg/16x9-big/gaza-1510.jpg?width=1920",
       "published": "2026-10-25T15:31:54+01:00",
       "category": "Politik",
-      "score": 69.47
-    },
-    {
-      "id": "spiegel-22ce1cbe762d3315",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Berlin: Mutmaßlich antisemitische Attacke – 60-Jähriger erleidet Platzwunde",
-      "link": "https://www.spiegel.de/panorama/justiz/mutmassliche-antisemitische-attacke-in-berlin-60-jaehriger-erleidet-platzwunde-a-6847a4e5-3823-41ae-bfd8-b7ac037d3872#ref=rss",
-      "summary": "Im Berliner Stadtteil Schöneberg wurde ein 60-Jähriger niedergeschlagen, nachdem ihn ein Mann angesprochen und nach seinem jüdischen Glauben gefragt hatte. Der Staatsschutz ermittelt.",
-      "image": "https://cdn.prod.www.spiegel.de/images/4b946740-7f91-4645-b14c-5552c28e0913_w1200_r1.778_fpx52_fpy48.jpg",
-      "published": "2026-10-25T15:17:00+01:00",
-      "category": "Nachrichten",
-      "score": 49.26
-    },
-    {
-      "id": "handelsblatt-14d2eda1ba12230f",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Übernahme: Sportartikel-Händler Frasers übernimmt Mehrheit bei Hugo Boss",
-      "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/uebernahme-sportartikel-haendler-frasers-uebernimmt-mehrheit-bei-hugo-boss/100264800.html",
-      "summary": "Die britische Frasers Group war mit einem freiwilligen Übernahmeangebot für Hugo Boss zuletzt gescheitert. Nun hält sie doch mehr als die Hälfte der Aktien.",
-      "image": "https://images.handelsblatt.com/QAULjLbN49Nh/cover/900/506/0/0/123/122/0.5/0.5/firmensitz-hugo-boss.jpg",
-      "published": "2026-10-25T15:03:21+00:00",
-      "category": "Wirtschaft",
-      "score": 51.9
-    },
-    {
-      "id": "handelsblatt-a33ec80f0328bcd0",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Geldanlage: Welcher Welt-ETF ist der beste? Die Antwort dürfte Anleger überraschen",
-      "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/fonds-etf/geldanlage-welcher-welt-etf-ist-der-beste-die-antwort-duerfte-ueberraschen/100263472.html",
-      "summary": "Ein weltweit streuender Fonds sollte den Kern eines ETF-Portfolios bilden. Dementsprechend viel Zeit investieren Anleger in den Vergleich der Angebote. Dabei müssten sie das gar nicht tun.",
-      "image": "https://images.handelsblatt.com/HXyx0OnfZ5Fu/cover/900/506/0/0/527/526/0.5/0.5/weltkugel.jpg",
-      "published": "2026-10-25T15:02:26+00:00",
-      "category": "Wirtschaft",
-      "score": 51.89
-    },
-    {
-      "id": "handelsblatt-53f1299adfae1327",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Ukraine-Krieg +++: Ukraine weist Vorwürfe von Musk zu Starlink-Nutzung für Offensivangriffe zurück",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-ukraine-weist-vorwuerfe-von-musk-zu-starlink-nutzung-zurueck/27982126.html",
-      "summary": "Deutsche Offiziere nehmen an Ukraine-Übung teil +++ Tote und Verletzte bei ukrainischen Angriffen auf russisches Belgorod +++ Satellitenverbindung von SpaceX wohl wieder stabil +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/jINHjrz-9rUS/cover/900/506/0/0/252/253/0.5/0.5/ukraine-crisis-rubio.jpg",
-      "published": "2026-10-25T14:57:00+00:00",
-      "category": "Politik",
-      "score": 77.82
-    },
-    {
-      "id": "handelsblatt-f8164b9aad225b19",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Schwarz-Rot in der Krise: Umfrage: Mehrheit rechnet mit vorzeitigem Ende der Koalition",
-      "link": "https://www.handelsblatt.com/politik/deutschland/schwarz-rot-in-der-krise-umfrage-mehrheit-rechnet-mit-vorzeitigem-ende-der-koalition/100264798.html",
-      "summary": "Streit um die Reformen, den Haushalt sowie den Umgang mit Linke und AfD setzt der Koalition schwer zu. Bei den Wählern schwindet das Vertrauen in den Fortbestand des Bündnisses.",
-      "image": "https://images.handelsblatt.com/AJR9qFRNGbm3/cover/900/506/0/0/88/87/0.5/0.5/bundeskabinett.jpg",
-      "published": "2026-10-25T14:51:25+00:00",
-      "category": "Wirtschaft",
-      "score": 59.74
-    },
-    {
-      "id": "handelsblatt-e652e4a3ed37793e",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Hotellerie: Kempinski und das kriselnde Geschäft mit dem schönen Schein",
-      "link": "https://www.handelsblatt.com/unternehmen/dienstleister/kempinski-und-das-kriselnde-geschaeft-mit-dem-schoenen-schein/100264490.html",
-      "summary": "Europas älteste Luxushotelkette muss viele Häuser schließen. Dabei sollte und wollte Barbara Muckermann kräftig expandieren. Nun ist sie ihren Job los.",
-      "image": "https://images.handelsblatt.com/9-HLQVY47aG4/cover/900/506/0/0/209/208/0.5/0.5/portraet-von-barbara-muckermann-kempinski-chefin..jpg",
-      "published": "2026-10-25T14:51:02+00:00",
-      "category": "Technologie",
-      "score": 56.73
-    },
-    {
-      "id": "handelsblatt-b8c60d3cf43c62f0",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Mitteleuropa: Wahl in der Slowakei – Alle Regionspräsidenten behalten Amt",
-      "link": "https://www.handelsblatt.com/politik/international/mitteleuropa-wahl-in-der-slowakei-alle-regionspraesidenten-behalten-amt/100264797.html",
-      "summary": "Die Slowakei hat am Samstag gewählt. Die Wähler bestimmten ihre Bürgermeister und Regionspräsidenten. Ein klares Signal für die Parlamentswahl in einem Jahr blieb jedoch aus.",
-      "image": "https://images.handelsblatt.com/sXquMc9kMJ7A/cover/900/506/0/0/167/166/0.5/0.5/24.10.2026-slowakei-kokoovce-ein-waehler-gibt-seine-stimme-bei-den-regional-und-kommunalwahlen-a.jpg",
-      "published": "2026-10-25T14:15:56+00:00",
-      "category": "Politik",
-      "score": 59.24
+      "score": 65.56
     },
     {
       "id": "tagesschau-469b92936240552d",
@@ -1228,7 +1672,7 @@
       "image": "https://images.tagesschau.de/image/c9633176-21ce-44cc-85cd-562872195015/AAABoXMmDjs/AAABnSSvrFg/16x9-big/umweltpreistraeger-steinmeier-100.jpg?width=1920",
       "published": "2026-10-25T14:13:45+01:00",
       "category": "Nachrichten",
-      "score": 65.38
+      "score": 53.47
     },
     {
       "id": "golem-cad491e1131731da",
@@ -1240,19 +1684,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214487&amp;page=1&amp;ts=1792933802",
       "published": "2026-10-25T14:10:02+01:00",
       "category": "Technologie",
-      "score": 46.33
-    },
-    {
-      "id": "handelsblatt-85334e94d13b5488",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Autobauer: Trump bestätigt Handelsblatt-Bericht: Audi baut neues Werk in den USA",
-      "link": "https://www.handelsblatt.com/unternehmen/industrie/autobauer-trump-bestaetigt-handelsblatt-bericht-audi-baut-werk-in-den-usa/100264447.html",
-      "summary": "Bei einem Wahlkampfauftritt in Georgia macht der US-Präsident die Pläne offiziell und holt Audi-Chef Döllner auf die Bühne. Die IG Metall spricht von „Wahlkampfhilfe“ – und stellt eine Bedingung.",
-      "image": "https://images.handelsblatt.com/cnJwH9H5Lveu/cover/900/506/0/0/311/311/0.5/0.5/us-president-donald-trump-speaks-during-a-rally-at-guardian-centers-in-perry-georgia-us-october-2.jpg",
-      "published": "2026-10-25T13:51:40+00:00",
-      "category": "Politik",
-      "score": 89.56
+      "score": 42.42
     },
     {
       "id": "golem-d04ce4f30d8d7ffb",
@@ -1264,7 +1696,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214485&amp;page=1&amp;ts=1792931942",
       "published": "2026-10-25T13:39:02+01:00",
       "category": "Technologie",
-      "score": 45.9
+      "score": 41.99
     },
     {
       "id": "deutsche-welle-846fe584263d9993",
@@ -1279,18 +1711,6 @@
       "score": 66.71
     },
     {
-      "id": "handelsblatt-dd07c484d1c44826",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Millennials: „Sie haben ihre Boomer-Chefs erlebt und sich gesagt: Ich mache es anders“",
-      "link": "https://www.handelsblatt.com/unternehmen/management/millennials-sie-haben-geleistet-aber-die-gegenleistung-ist-ausgeblieben/100255043.html",
-      "summary": "Millennials sind 32 bis 45, gut ausgebildet, oft Führungskräfte – und hinterfragen zunehmend ihr Leben. Warum? Und was unterscheidet sie von der Gen Z? Eine Expertin gibt Antworten.",
-      "image": "https://images.handelsblatt.com/WCiHYqhn4WXp/cover/900/506/0/0/0/0/0.5/0.5/millenials.gif",
-      "published": "2026-10-25T13:35:00+00:00",
-      "category": "Wirtschaft",
-      "score": 50.68
-    },
-    {
       "id": "tagesschau-efdf8f0447ff005c",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -1300,55 +1720,7 @@
       "image": "https://images.tagesschau.de/image/12480ce0-3910-4aae-b5a6-7b2d310c06d9/AAABoXIyT6w/AAABnSSvrFg/16x9-big/frankreich-proteste-238.jpg?width=1920",
       "published": "2026-10-25T13:21:49+01:00",
       "category": "Panorama",
-      "score": 61.22
-    },
-    {
-      "id": "handelsblatt-ba375326b2fdb2df",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Geldanlage: Der Goldpreis hängt jetzt vom Ölpreis ab",
-      "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/geldanlage-der-goldpreis-haengt-jetzt-vom-oelpreis-ab/100264148.html",
-      "summary": "Obwohl Investoren in sichere Anlagen flüchten, fällt der Goldpreis. Dabei gilt das Edelmetall eigentlich als „sicherer Hafen“. Zwei Gründe erklären das Phänomen, meint Martin Müller.",
-      "image": "https://images.handelsblatt.com/qZ2khOgQcYa4/cover/900/506/0/0/0/0/0.5/0.5/marktkolumne-martin-mueller.jpg",
-      "published": "2026-10-25T13:21:43+00:00",
-      "category": "Technologie",
-      "score": 47.49
-    },
-    {
-      "id": "handelsblatt-3e28b233d9ee7d3c",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Nach FCAS-Aus: Airbus prüft offenbar Beteiligung an neuem Kampfjet-Programm",
-      "link": "https://www.handelsblatt.com/unternehmen/industrie/nach-fcas-aus-airbus-prueft-offenbar-beteiligung-an-neuem-kampfjet-programm/100264792.html",
-      "summary": "Nach dem Aus für das deutsch-französische Kampfjet-Projekt FCAS rückt eine internationale Alternative in den Fokus. Airbus lotet offenbar eine Beteiligung am Kampfjet-Programm GCAP aus.",
-      "image": "https://images.handelsblatt.com/JC4OsTISV7hy/cover/900/506/0/0/227/228/0.5/0.5/file-photo-an-attendee-sits-in-the-cockpit-of-a-full-scale-mock-up-of-a-gcap-global-combat-air-pro.jpg",
-      "published": "2026-10-25T13:13:32+00:00",
-      "category": "Wirtschaft",
-      "score": 50.38
-    },
-    {
-      "id": "handelsblatt-e239a7c65cabfeff",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "CSU-Parteitag: Küsschen für Aigner – aber keine Antwort auf die P-Frage",
-      "link": "https://www.handelsblatt.com/politik/deutschland/csu-parteitag-kuesschen-fuer-aigner-aber-keine-antwort-auf-die-p-frage/100264779.html",
-      "summary": "Küsschen rechts, Küsschen links: So begrüßt der Kanzler Ilse Aigner – und lässt den CSU-Parteitag jubeln. Die Antwort auf die entscheidende Frage bleibt er aber schuldig. Wie geht es nun weiter?",
-      "image": "https://images.handelsblatt.com/iPczmBHTevsb/cover/900/506/0/0/154/154/0.5/0.5/csu-parteitag.jpg",
-      "published": "2026-10-25T13:13:02+00:00",
-      "category": "Wirtschaft",
-      "score": 57.37
-    },
-    {
-      "id": "handelsblatt-60c5b3239a388775",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Enteignung: Dobrindt will Vergesellschaftungen komplizierter machen",
-      "link": "https://www.handelsblatt.com/politik/deutschland/enteignung-dobrindt-will-vergesellschaftungen-komplizierter-machen/100264772.html",
-      "summary": "Die Union kritisiert die Vergesellschaftungspläne einer möglichen Berliner Landesregierung und will sie vom Bund aus verhindern. Helfen soll dabei ein neues Gesetz. Was wird drinstehen?",
-      "image": "https://images.handelsblatt.com/ENw-an96MWdS/cover/900/506/0/0/0/625/0.5/0.5/munich-bavaria-germany-october-23-2026-the-2026-party-convention-of-the-csu-christian-social-u.jpg",
-      "published": "2026-10-25T13:09:46+00:00",
-      "category": "Politik",
-      "score": 50.33
+      "score": 57.31
     },
     {
       "id": "golem-cf6df2a98bdc4a8d",
@@ -1360,7 +1732,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214486&amp;page=1&amp;ts=1792930082",
       "published": "2026-10-25T13:08:02+01:00",
       "category": "Wirtschaft",
-      "score": 48.47
+      "score": 44.56
     },
     {
       "id": "tagesschau-d722cb0b7155e3e6",
@@ -1372,7 +1744,7 @@
       "image": "https://images.tagesschau.de/image/79aafefc-acd1-4a74-af02-874d792db655/AAABoUVCKdI/AAABnSSvrFg/16x9-big/dorfbewohner-leissnitz-100.jpg?width=1920",
       "published": "2026-10-25T13:06:21+01:00",
       "category": "Nachrichten",
-      "score": 48.45
+      "score": 44.53
     },
     {
       "id": "deutsche-welle-c60b445e8a915863",
@@ -1384,7 +1756,7 @@
       "image": "https://static.dw.com/image/79754280_6.jpg",
       "published": "2026-10-25T13:02:00+00:00",
       "category": "Politik",
-      "score": 58.22
+      "score": 54.31
     },
     {
       "id": "tagesschau-74f6fa30e19a0a19",
@@ -1396,7 +1768,7 @@
       "image": "https://images.tagesschau.de/image/18bdfa59-84b4-47dd-9fc5-1f696464400e/AAABoWg8pXQ/AAABnSSvrFg/16x9-big/bundestag-1428.jpg?width=1920",
       "published": "2026-10-25T12:57:30+01:00",
       "category": "Politik",
-      "score": 59.32
+      "score": 55.41
     },
     {
       "id": "tagesschau-a6388fbd1c1e83c2",
@@ -1408,31 +1780,7 @@
       "image": "https://images.tagesschau.de/image/2499f771-a9dd-4a29-8486-7b333fd578cc/AAABoXL_6vU/AAABnSSvrFg/16x9-big/berlin-vergesellschaftungen-100.jpg?width=1920",
       "published": "2026-10-25T12:51:21+01:00",
       "category": "Politik",
-      "score": 78.71
-    },
-    {
-      "id": "handelsblatt-1fd2223d532f260b",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Republikaner: „Sie wollen eure Kinder verstümmeln“ – Trump setzt voll auf Angst",
-      "link": "https://www.handelsblatt.com/politik/international/midterms-sie-wollen-eure-kinder-verstuemmeln-trump-setzt-voll-auf-angst/100262689.html",
-      "summary": "Immer mehr gemäßigte Republikaner wenden sich vom US-Präsidenten ab. Der versucht gar nicht erst, sie zurückzugewinnen – sondern wirbt um seine MAGA-Anhänger. Ein riskantes Manöver.",
-      "image": "https://images.handelsblatt.com/0IePADWt8vYc/cover/900/506/0/0/0/0/0.5/0.5/republikaner.jpg",
-      "published": "2026-10-25T12:44:45+00:00",
-      "category": "Politik",
-      "score": 57.98
-    },
-    {
-      "id": "handelsblatt-e1da97c39fac9f2f",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "„Koalition der Willigen“: Deutsche Stabsoffiziere und Tankflugzeuge für Ukraine-Übung",
-      "link": "https://www.handelsblatt.com/politik/international/koalition-der-willigen-deutsche-stabsoffiziere-und-tankflugzeuge-fuer-ukraine-uebung/100264742.html",
-      "summary": "Die Verbündeten der Ukraine bauen eine Truppe auf, um einen möglichen Waffenstillstand mit Russland abzusichern. Im November übt sie erstmals – mit deutscher Beteiligung. Der Zeitpunkt ist heikel.",
-      "image": "https://images.handelsblatt.com/Dg69QCm9Xm50/cover/900/506/0/0/127/127/0.5/0.5/a400m-als-tankflugzeug.jpg",
-      "published": "2026-10-25T12:42:27+00:00",
-      "category": "Politik",
-      "score": 57.95
+      "score": 70.71
     },
     {
       "id": "golem-43e8c6375de1c58a",
@@ -1444,31 +1792,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214484&amp;page=1&amp;ts=1792928281",
       "published": "2026-10-25T12:38:01+01:00",
       "category": "Politik",
-      "score": 89.56
-    },
-    {
-      "id": "handelsblatt-f0a65a16a005b2b5",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Demonstrationen: Ausschreitungen bei Protesten in europäischen Ländern",
-      "link": "https://www.handelsblatt.com/politik/international/demonstrationen-ausschreitungen-bei-protesten-in-europaeischen-laendern/100264771.html",
-      "summary": "Nicht nur in Frankreich, sondern auch anderorts gehen zahlreiche Menschen auf die Straßen für eine bessere Bildung und gegen hohe Lebenshaltungskosten. Es kommt zu Gewalt, Festnahmen und Verletzten.",
-      "image": "https://images.handelsblatt.com/t-PTWn-gaIEv/cover/900/506/0/0/107/106/0.5/0.5/proteste-in-strassburg.jpg",
-      "published": "2026-10-25T12:36:28+00:00",
-      "category": "Wirtschaft",
-      "score": 65.48
-    },
-    {
-      "id": "handelsblatt-caab7fb9c4c4262a",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Interview: Israels Opposition: „Man muss nicht jeder Forderung eines Verbündeten zustimmen“",
-      "link": "https://www.handelsblatt.com/politik/international/israels-opposition-nicht-jeder-forderung-eines-verbuendeten-zustimmen/100253583.html",
-      "summary": "Mati Gill kandidiert bei der israelischen Parlamentswahl mit Ex-Premier Bennett. Im Interview sagt er: Israel müsse Hightech stärken, sicherheitspolitisch aber „noch kämpferischer“ sein.",
-      "image": "https://images.handelsblatt.com/6q7P5C9rsaxC/cover/900/506/0/0/313/313/0.5/0.5/mati-gill-will-naftali-bennet-wieder-zum-premierminister-israels-machen..jpg",
-      "published": "2026-10-25T12:26:48+00:00",
-      "category": "Politik",
-      "score": 65.73
+      "score": 94.66
     },
     {
       "id": "deutsche-welle-deb9fac25fca55b5",
@@ -1480,19 +1804,7 @@
       "image": "https://static.dw.com/image/79754514_6.jpg",
       "published": "2026-10-25T12:13:00+00:00",
       "category": "Politik",
-      "score": 89.56
-    },
-    {
-      "id": "handelsblatt-9a5bd00cc1aca493",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Umweltfolgen im Iran-Krieg: Strände in Emiraten wegen Ölverschmutzung geschlossen",
-      "link": "https://www.handelsblatt.com/technik/forschung-innovation/umweltfolgen-im-iran-krieg-straende-in-emiraten-wegen-oelverschmutzung-geschlossen/100264789.html",
-      "summary": "Die emiratischen Küsten bieten vielen Vögeln und Meerestieren einen Lebensraum. Jetzt werden dort Strände nach einem Angriff auf einen Tanker durch Öl verschmutzt - und vorerst geschlossen.",
-      "image": "https://images.handelsblatt.com/FhGItLYv49qn/cover/900/506/0/0/107/106/0.5/0.5/emirate-sperren-teile-von-kueste-wegen-verschmutzungen.jpg",
-      "published": "2026-10-25T12:09:44+00:00",
-      "category": "Wirtschaft",
-      "score": 57.49
+      "score": 94.66
     },
     {
       "id": "golem-43783c0d91699bd9",
@@ -1504,19 +1816,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214483&amp;page=1&amp;ts=1792926422",
       "published": "2026-10-25T12:07:02+01:00",
       "category": "Technologie",
-      "score": 44.62
-    },
-    {
-      "id": "handelsblatt-a66be55036a0b21a",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Iran-Krieg +++: Netanjahu macht Wahlwerbung mit Bild von Atompilz über Tel Aviv",
-      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-netanjahu-veroeffentlicht-bild-von-atompilz-ueber-tel-aviv/100136895.html",
-      "summary": "Israels Militär verhängt neue Beschränkungen im Westjordanland +++ Saudi-Arabien fängt Drohnen und Raketen über Riad ab +++ Iran zerstört US-Drohne über Bandar Abbas +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/3EQTSkCSKNzx/cover/900/506/0/0/313/312/0.5/0.5/archiv-18.10.2026-israel-ramat-gan-menschen-ueberqueren-eine-bruecke-unter-einem-wahlplakat-mit-d.jpg",
-      "published": "2026-10-25T11:46:00+00:00",
-      "category": "Politik",
-      "score": 73.16
+      "score": 40.71
     },
     {
       "id": "golem-a1400968e0c991f6",
@@ -1528,7 +1828,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214482&amp;page=1&amp;ts=1792924561",
       "published": "2026-10-25T11:36:01+01:00",
       "category": "Technologie",
-      "score": 44.19
+      "score": 40.28
     },
     {
       "id": "tagesschau-742faedcae4687a8",
@@ -1553,54 +1853,6 @@
       }
     },
     {
-      "id": "handelsblatt-daf7e00744c0cb55",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Proteste: 1300 Festnahmen bei erneuten Krawallen in Frankreich – Plünderungen und Chaos in Barcelona",
-      "link": "https://www.handelsblatt.com/politik/international/frankreich-1300-festnahmen-bei-erneuten-krawallen-chaos-auch-in-barcelona/100264143.html",
-      "summary": "In Frankreich gingen Hunderttausende friedlich auf die Straße, es gab aber auch wieder Randale. Auch in Italien eskalierten Proteste. Und Barcelona erlebte eine Nacht der Gewalt.",
-      "image": "https://images.handelsblatt.com/xfwLRpssw2PS/cover/900/506/0/0/280/279/0.5/0.5/yellow-vests-protest-act-ii-paris-demonstration-in-favor-of-purchasing-power-the-protection-of-pu.jpg",
-      "published": "2026-10-25T11:30:00+00:00",
-      "category": "Wirtschaft",
-      "score": 56.94
-    },
-    {
-      "id": "handelsblatt-6739b7dc9e8cd801",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Wohnungen: Dobrindt plant hohe Hürden für Vergesellschaftungen",
-      "link": "https://www.handelsblatt.com/politik/deutschland/wohnungen-dobrindt-plant-hohe-huerden-fuer-vergesellschaftungen/100264774.html",
-      "summary": "Es ist ein Wettlauf gegen die Regierungsbildung in Berlin: Die Bundesregierung will ein Gesetz vorlegen, das Vergesellschaftungen deutlich komplizierter machen würde. Was soll drinstehen?",
-      "image": "https://images.handelsblatt.com/S9z8p5Mvezqq/cover/900/506/0/0/107/106/0.5/0.5/vergesellschaftung-von-wohnraum.jpg",
-      "published": "2026-10-25T11:26:39+00:00",
-      "category": "Politik",
-      "score": 78.71
-    },
-    {
-      "id": "handelsblatt-1f4dd71e143a8c45",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Deutscher Umweltpreis: Steinmeier: Müssen Lebensweisen überdenken",
-      "link": "https://www.handelsblatt.com/technik/forschung-innovation/deutscher-umweltpreis-steinmeier-muessen-lebensweisen-ueberdenken/100264784.html",
-      "summary": "Eine Klima-Anwältin und ein Daniel Düsentrieb der Abwasserreinigung haben den Deutschen Umweltpreis erhalten. Richtige Feierlaune kam trotzdem nicht auf: „Wir begeben uns in immense Gefahr.“",
-      "image": "https://images.handelsblatt.com/bQGZm8gmX6DR/cover/900/506/0/0/130/129/0.5/0.5/umweltpreis-der-deutschen-bundesstiftung-umwelt.jpg",
-      "published": "2026-10-25T11:23:50+00:00",
-      "category": "Wirtschaft",
-      "score": 65.38
-    },
-    {
-      "id": "handelsblatt-cfa8299f36658b14",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Ukraine-Krieg: Ukraine: Starlink läuft wieder - Musk beklagt Missbrauch",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-ukraine-starlink-laeuft-wieder-musk-beklagt-missbrauch/100264782.html",
-      "summary": "Im Abwehrkampf gegen Russlands Angriffskrieg kann die Ukraine nun wieder auf das US-Satelliteninternet Starlink setzen. Kiew ist damit aber nicht zufrieden und wehrt sich gegen Vorwürfe.",
-      "image": "https://images.handelsblatt.com/MujrKVFUCTnN/cover/900/506/0/0/107/106/0.5/0.5/elon-musk.jpg",
-      "published": "2026-10-25T11:10:21+00:00",
-      "category": "Politik",
-      "score": 77.82
-    },
-    {
       "id": "golem-4bfb8cdea7ffeefa",
       "source": "golem",
       "sourceWeight": 0.85,
@@ -1610,31 +1862,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214481&amp;page=1&amp;ts=1792922642",
       "published": "2026-10-25T11:04:02+01:00",
       "category": "Politik",
-      "score": 62.75
-    },
-    {
-      "id": "handelsblatt-74144ceb96e6ecb0",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "AfD-Leak: Wie Alice Weidel ihre Wahlkampfkasse steuerte",
-      "link": "https://www.handelsblatt.com/politik/deutschland/afd-leak-wie-alice-weidel-ihre-wahlkampfkasse-steuerte/100264557.html",
-      "summary": "Rund 396.000 Euro Sanktion für die Spende aus der Schweiz: Interne Dokumente geben Einblick in Weidels Wahlkampfkasse. Sie zeigen auch die Suche der AfD nach einem Informanten.",
-      "image": "https://images.handelsblatt.com/lU1Ox9CfIKps/cover/900/506/0/124/71/212/0.5/0.5/alice-weidel.jpeg",
-      "published": "2026-10-25T11:02:20+00:00",
-      "category": "Politik",
-      "score": 56.56
-    },
-    {
-      "id": "handelsblatt-8d58083f5e2b8047",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Autokonzern: Exklusive Auswertung: So läuft die Modelloffensive von Mercedes",
-      "link": "https://www.handelsblatt.com/unternehmen/industrie/autobauer-exklusive-auswertung-so-laeuft-die-modelloffensive-von-mercedes/100263196.html",
-      "summary": "Mit der größten Modelloffensive in der Konzerngeschichte will der Dax-Konzern die Wende erreichen. Das Handelsblatt hat die ersten Zulassungszahlen ausgewertet.",
-      "image": "https://images.handelsblatt.com/V0Ga5j7lS6ZZ/cover/900/506/0/0/259/54/0.5/0.5/mercedes-cla.jpg",
-      "published": "2026-10-25T10:49:00+00:00",
-      "category": "Wirtschaft",
-      "score": 48.37
+      "score": 58.84
     },
     {
       "id": "deutsche-welle-573b4c43ca4a240a",
@@ -1646,19 +1874,7 @@
       "image": "https://static.dw.com/image/79754182_6.jpg",
       "published": "2026-10-25T10:45:00+00:00",
       "category": "Nachrichten",
-      "score": 55.32
-    },
-    {
-      "id": "handelsblatt-6628433354e084f0",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Kommentar: Der Audi-Chef lässt sich zu Trumps Wahlkampfhelfer degradieren",
-      "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-audi-chef-laesst-sich-zu-trumps-wahlkampfhelfer-degradieren/100264757.html",
-      "summary": "Gernot Döllner verkündet das Milliardeninvestment von Audi in den USA auf einer Wahlkampfveranstaltung des US-Präsidenten – und überschreitet damit eine Grenze.",
-      "image": "https://images.handelsblatt.com/80UDRgnJIcRn/cover/900/506/0/0/58/154/0.5/0.5/24.10.2026-usa-perry-us-praesident-donald-trump-begruesst-gernot-doellner-vorstandsvorsitzender-der.jpg",
-      "published": "2026-10-25T10:41:14+00:00",
-      "category": "Politik",
-      "score": 64.26
+      "score": 41.4
     },
     {
       "id": "golem-9a190fd91e03260e",
@@ -1670,7 +1886,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214461&amp;page=1&amp;ts=1792921202",
       "published": "2026-10-25T10:40:02+01:00",
       "category": "Technologie",
-      "score": 43.41
+      "score": 39.5
     },
     {
       "id": "golem-40cdfcb67d28bea9",
@@ -1682,7 +1898,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214480&amp;page=1&amp;ts=1792920302",
       "published": "2026-10-25T10:25:02+01:00",
       "category": "Technologie",
-      "score": 43.2
+      "score": 39.29
     },
     {
       "id": "golem-e7adce14788621a0",
@@ -1694,7 +1910,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214452&amp;page=1&amp;ts=1792918802",
       "published": "2026-10-25T10:00:02+01:00",
       "category": "Technologie",
-      "score": 42.86
+      "score": 38.95
     },
     {
       "id": "tagesschau-ea53ccc5b610b563",
@@ -1706,43 +1922,7 @@
       "image": "https://images.tagesschau.de/image/d97311c9-8348-4f07-b955-1d558d3fb4b3/AAABoXEMPS8/AAABnSSvrFg/16x9-big/israel-westjordanland-144.jpg?width=1920",
       "published": "2026-10-25T09:51:16+01:00",
       "category": "Politik",
-      "score": 64.74
-    },
-    {
-      "id": "handelsblatt-9fa79d240d817ae6",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Interview: Neue Fertigung in Deutschland? „Da fehlt mir derzeit die Fantasie“, sagt der Chef von Stihl",
-      "link": "https://www.handelsblatt.com/unternehmen/mittelstand/familienunternehmer/stihl-chef-neue-fertigung-in-deutschland-da-fehlt-mir-derzeit-die-fantasie/100262271.html",
-      "summary": "Die Motorsägen-Weltmarke stellt auf Elektro um. Verbrennertechnik kommt weiter aus heimischer Produktion, die Zukunft sieht Stihl woanders. Denn Deutschland hat ein Problem, sagt Michael Traub.",
-      "image": "https://images.handelsblatt.com/NEs-es7nO5Ce/cover/900/506/0/0/0/625/0.5/0.5/stihl-chef-michael-traub.jpg",
-      "published": "2026-10-25T09:25:00+00:00",
-      "category": "Wirtschaft",
-      "score": 47.2
-    },
-    {
-      "id": "handelsblatt-c3ed0c2b1cee5c87",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Brasilien: Manipuliert Meta den Wahlkampf zugunsten von Bolsonaro?",
-      "link": "https://www.handelsblatt.com/politik/international/brasilien-manipuliert-meta-den-wahlkampf-zugunsten-von-bolsonaro/100264546.html",
-      "summary": "Zur Stichwahl um das Präsidentenamt in Brasilien gerät der Technologiekonzern unter Verdacht. Jetzt fordern auch US-Kongressabgeordnete Aufklärung von Chef Mark Zuckerberg.",
-      "image": "https://images.handelsblatt.com/V--LI-xay4Ow/cover/900/506/0/0/312/312/0.5/0.5/topshot-a-woman-walks-past-flags-and-towels-bearing-the-images-of-brazilaposs-president-and-pres.jpg",
-      "published": "2026-10-25T09:17:46+00:00",
-      "category": "Politik",
-      "score": 55.1
-    },
-    {
-      "id": "handelsblatt-bcc32e5f9946388f",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Die Welt in Bildern: Blickfang",
-      "link": "https://www.handelsblatt.com/die-welt-in-bildern-blickfang/8906950.html",
-      "summary": "Sie beeindrucken. Sie wühlen auf. Sie faszinieren. Sie erschrecken. Sie dokumentieren den großen Moment. Sie zeigen kleine Wunder. Oder sie erzählen eine Geschichte. Die Welt – ein Blickfang.",
-      "image": "https://images.handelsblatt.com/W4bycwv3S-gO/cover/900/506/0/0/61/355/0.5/0.5/wta-tennis-damen-kinoshita-group-japan-open-day-7-katerina-siniakova-of-the-czech-republic-poses.jpg",
-      "published": "2026-10-25T09:00:00+00:00",
-      "category": "Wirtschaft",
-      "score": 46.86
+      "score": 60.83
     },
     {
       "id": "tagesschau-ea97c72ccf85c548",
@@ -1754,7 +1934,7 @@
       "image": "https://images.tagesschau.de/image/3c5fc449-1908-4f6a-928a-9513ee37095c/AAABoVvgNgs/AAABnSSvrFg/16x9-big/elon-musk-294.jpg?width=1920",
       "published": "2026-10-25T08:45:03+01:00",
       "category": "Politik",
-      "score": 55.82
+      "score": 51.91
     },
     {
       "id": "deutsche-welle-d983fb799116b187",
@@ -1766,31 +1946,7 @@
       "image": "https://static.dw.com/image/79751809_6.jpg",
       "published": "2026-10-25T08:29:00+00:00",
       "category": "Panorama",
-      "score": 56.94
-    },
-    {
-      "id": "handelsblatt-9699b7713c43cbd7",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Handel: Russische Metro-Tochter spendet Millionen für Krieg gegen Ukraine",
-      "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/handel-russische-metro-tochter-spendet-millionen-fuer-krieg-gegen-ukraine/100264760.html",
-      "summary": "Die Russland-Tochter der Metro steht seit einem Monat unter Putins Zwangsverwaltung. Nun fällt sie mit einer außergewöhnlichen Spende auf. Die deutsche Zentrale reagiert deutlich.",
-      "image": "https://images.handelsblatt.com/4Tqt-nqyJMLT/cover/900/506/0/0/21/168/0.5/0.5/grosshandel-metro.jpeg",
-      "published": "2026-10-25T08:16:18+00:00",
-      "category": "Politik",
-      "score": 62.25
-    },
-    {
-      "id": "handelsblatt-8e6973ccf296a44c",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "IT-Sicherheit: Experte: Software-Schwachstellen bleiben länger ein Problem",
-      "link": "https://www.handelsblatt.com/technik/it-internet/it-sicherheit-experte-software-schwachstellen-bleiben-laenger-ein-problem/100264761.html",
-      "summary": "Angreifer können neue Sicherheitslücken inzwischen in Minuten oder Stunden für Attacken auswerten. Doch KI dürfte auch helfen, das künftig zu ändern, glaubt ein Experte der Cyberagentur des Bundes.",
-      "image": "https://images.handelsblatt.com/tvGqCoh6ZJjc/cover/900/506/0/0/107/106/0.5/0.5/gravierende-sicherheitsluecke-bedroht-weltweit-webseiten.jpg",
-      "published": "2026-10-25T08:00:04+00:00",
-      "category": "Technologie",
-      "score": 43.02
+      "score": 39.52
     },
     {
       "id": "golem-7d0993e2c8c728f0",
@@ -1802,7 +1958,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214447&amp;page=1&amp;ts=1792909801",
       "published": "2026-10-25T07:30:01+01:00",
       "category": "Technologie",
-      "score": 40.77
+      "score": 36.86
     },
     {
       "id": "golem-98167d73d701c8fa",
@@ -1814,7 +1970,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214144&amp;page=1&amp;ts=1792908002",
       "published": "2026-10-25T07:00:02+01:00",
       "category": "Wirtschaft",
-      "score": 43.36
+      "score": 39.45
     },
     {
       "id": "netzpolitik-ef9cb7c23452873e",
@@ -1826,7 +1982,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/10/imago0869827427h_1900.jpg",
       "published": "2026-10-25T06:52:08+00:00",
       "category": "Politik",
-      "score": 50.08
+      "score": 46.17
     },
     {
       "id": "tagesschau-643f1a1358e95c27",
@@ -1838,7 +1994,7 @@
       "image": "https://images.tagesschau.de/image/9074f296-062b-4969-8698-46bebb74c3ee/AAABoTVNe_M/AAABnSSvrFg/16x9-big/heizen-158.jpg?width=1920",
       "published": "2026-10-25T05:10:34+01:00",
       "category": "Technologie",
-      "score": 41.84
+      "score": 37.93
     },
     {
       "id": "tagesschau-ce9236ebb524ee80",
@@ -1850,7 +2006,7 @@
       "image": "https://images.tagesschau.de/image/7fe85c23-37fa-404f-8826-c9d02e1fd2dc/AAABoXFAejs/AAABnSSvrFg/16x9-big/aleksandar-vucic-112.jpg?width=1920",
       "published": "2026-10-25T05:10:13+01:00",
       "category": "Politik",
-      "score": 52.83
+      "score": 48.92
     },
     {
       "id": "tagesschau-d10a2c8a6041d201",
@@ -1865,18 +2021,6 @@
       "score": 86.71
     },
     {
-      "id": "tagesschau-e34d7210bd56465d",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Sommerzeit beendet - Uhren um eine Stunde zurückgestellt",
-      "link": "https://www.tagesschau.de/wissen/gesundheit/zeitumstellung-sommerzeit-138.html",
-      "summary": "Die Sommerzeit ist zu Ende, die Uhren wurden um eine Stunde zurückgestellt. Auch wenn es in der ersten Nacht Vorteile bringt, sind die meisten Menschen nicht zufrieden mit der Zeitumstellung.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/7d6b7325-7168-4ce9-baeb-c0e74e2c96eb/AAABoWMO72Y/AAABnSSvrFg/16x9-big/wecker-100.jpg?width=1920",
-      "published": "2026-10-25T02:11:58+01:00",
-      "category": "Nachrichten",
-      "score": 39.36
-    },
-    {
       "id": "tagesschau-abfc390d699e759c",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -1886,7 +2030,7 @@
       "image": "https://images.tagesschau.de/image/236feb84-b24d-4116-b8f0-5a0b0cf48424/AAABoW7hjg0/AAABnSSvrFg/16x9-big/marseille-protest-100.jpg?width=1920",
       "published": "2026-10-24T21:00:39+02:00",
       "category": "Panorama",
-      "score": 34.2
+      "score": 30.29
     },
     {
       "id": "deutsche-welle-726b1c7adb3f5353",
@@ -1910,7 +2054,7 @@
       "image": "https://images.tagesschau.de/image/75e53fcc-ad65-4552-9098-c0f1ed6df143/AAABoW5wUjA/AAABnSSvrFg/16x9-big/merz-aigner-102.jpg?width=1920",
       "published": "2026-10-24T18:51:47+02:00",
       "category": "Nachrichten",
-      "score": 57.37
+      "score": 28.5
     },
     {
       "id": "tagesschau-65d4f920e5fb694d",
@@ -1922,7 +2066,7 @@
       "image": "https://images.tagesschau.de/image/8be3bd92-525f-4cd4-a0a6-b93d28f04157/AAABoWgUEo8/AAABnSSvrFg/16x9-big/sendungsbild-1816008.jpg?width=1920",
       "published": "2026-10-24T18:19:11+02:00",
       "category": "Nachrichten",
-      "score": 31.96
+      "score": 28.05
     },
     {
       "id": "tagesschau-754951fd6465ed0f",
@@ -1934,7 +2078,7 @@
       "image": "https://images.tagesschau.de/image/5f40dd81-b3e5-4438-ab65-ee5b3fe1c7b4/AAABoW6qTsk/AAABnSSvrFg/16x9-big/hebron-abriegelung-100.jpg?width=1920",
       "published": "2026-10-24T18:06:57+02:00",
       "category": "Politik",
-      "score": 42.79
+      "score": 38.88
     },
     {
       "id": "tagesschau-ceaeb8e339d7bec1",
@@ -1946,7 +2090,7 @@
       "image": "https://images.tagesschau.de/image/0232602b-a10d-4723-ad50-6e379705e159/AAABoW2n8k0/AAABnSSvrFg/16x9-big/starlink-ukraine-108.jpg?width=1920",
       "published": "2026-10-24T17:29:30+02:00",
       "category": "Politik",
-      "score": 77.82
+      "score": 46.36
     },
     {
       "id": "tagesschau-a419c1d718206eb8",
@@ -1958,19 +2102,7 @@
       "image": "https://images.tagesschau.de/image/2a396c0a-e923-4711-996b-aa3340ab3b09/AAABoW4Uff8/AAABnSSvrFg/16x9-big/westjordanland-hebron-100.jpg?width=1920",
       "published": "2026-10-24T16:14:53+02:00",
       "category": "Politik",
-      "score": 42.79
-    },
-    {
-      "id": "tagesschau-51d372e6d2f3ef4b",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Nazi-Bau: Kehlsteinhaus am Obersalzberg durch Brand weitgehend zerstört",
-      "link": "https://www.tagesschau.de/inland/gesellschaft/berchtesgaden-feuer-nazihaus-100.html",
-      "summary": "Es diente den Nazis als Repräsentationsort hoch in den Bergen. In Nacht hat es nun im Kehlsteinhaus am Obersalzberg bei Berchtesgaden gebrannt. Die Polizei vermutet Brandstiftung und hat einen Verdächtigen festgenommen. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/31ad951d-b1a4-4757-9d95-dcd58da8337f/AAABoW3k3Lg/AAABnSSvrFg/16x9-big/kehlsteinhaus-114.jpg?width=1920",
-      "published": "2026-10-24T15:58:56+02:00",
-      "category": "Panorama",
-      "score": 55.32
+      "score": 38.88
     },
     {
       "id": "tagesschau-ff477166a365ecae",
@@ -1982,7 +2114,7 @@
       "image": "https://images.tagesschau.de/image/1bd073ba-d0c5-416f-b770-76c5502439f2/AAABoVgpKZI/AAABnSSvrFg/16x9-big/souvenir-shop-texas-100.jpg?width=1920",
       "published": "2026-10-24T15:47:08+02:00",
       "category": "Politik",
-      "score": 40.84
+      "score": 36.93
     },
     {
       "id": "golem-2b3cb06347603b0c",
@@ -1994,7 +2126,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214479&amp;page=1&amp;ts=1792852802",
       "published": "2026-10-24T15:40:02+01:00",
       "category": "Technologie",
-      "score": 27.58
+      "score": 23.67
     },
     {
       "id": "tagesschau-8dc7b177308c2e0b",
@@ -2006,7 +2138,7 @@
       "image": "https://images.tagesschau.de/image/323e9df3-a08e-458d-a941-e26927992033/AAABoW4ggCs/AAABnSSvrFg/16x9-big/flavio-jair-bolsonaro-100.jpg?width=1920",
       "published": "2026-10-24T15:36:26+02:00",
       "category": "Politik",
-      "score": 86.71
+      "score": 36.79
     },
     {
       "id": "golem-ae0fce19cdcea4b6",
@@ -2018,7 +2150,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214478&amp;page=1&amp;ts=1792850702",
       "published": "2026-10-24T15:05:02+01:00",
       "category": "Technologie",
-      "score": 27.09
+      "score": 23.18
     },
     {
       "id": "deutsche-welle-03c776960f333504",
@@ -2030,7 +2162,7 @@
       "image": "https://static.dw.com/image/79744159_6.jpg",
       "published": "2026-10-24T14:22:00+00:00",
       "category": "Nachrichten",
-      "score": 28.33
+      "score": 24.42
     },
     {
       "id": "golem-fc0239e1a9808c84",
@@ -2042,7 +2174,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214477&amp;page=1&amp;ts=1792848002",
       "published": "2026-10-24T14:20:02+01:00",
       "category": "Technologie",
-      "score": 26.47
+      "score": 22.56
     },
     {
       "id": "tagesschau-eb2185c79d293139",
@@ -2054,7 +2186,7 @@
       "image": "https://images.tagesschau.de/image/b9a1484e-0137-48fd-96c3-88255c4468fb/AAABoW2eYRA/AAABnSSvrFg/16x9-big/merz-aigner-100.jpg?width=1920",
       "published": "2026-10-24T14:19:07+02:00",
       "category": "Nachrichten",
-      "score": 28.62
+      "score": 24.71
     },
     {
       "id": "golem-2c23295b2dcb57ea",
@@ -2066,7 +2198,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214476&amp;page=1&amp;ts=1792846022",
       "published": "2026-10-24T13:47:02+01:00",
       "category": "Politik",
-      "score": 37.01
+      "score": 33.1
     },
     {
       "id": "deutsche-welle-776d3ff68ae8ac1c",
@@ -2078,7 +2210,7 @@
       "image": null,
       "published": "2026-10-24T13:38:00+00:00",
       "category": "Nachrichten",
-      "score": 56.94
+      "score": 39.52
     },
     {
       "id": "golem-15d696f21fa11496",
@@ -2090,7 +2222,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214475&amp;page=1&amp;ts=1792844101",
       "published": "2026-10-24T13:15:01+01:00",
       "category": "Politik",
-      "score": 28.57
+      "score": 24.66
     },
     {
       "id": "tagesschau-feee260ce48aeb80",
@@ -2102,7 +2234,7 @@
       "image": "https://images.tagesschau.de/image/69afef09-1cd2-4e8f-b67f-4817b4cb0449/AAABoW1nid8/AAABnSSvrFg/16x9-big/tuermer-klingbeil-100.jpg?width=1920",
       "published": "2026-10-24T12:52:30+02:00",
       "category": "Nachrichten",
-      "score": 27.42
+      "score": 23.51
     },
     {
       "id": "deutsche-welle-e669977b5cca1125",
@@ -2114,19 +2246,7 @@
       "image": "https://static.dw.com/image/79711947_6.jpg",
       "published": "2026-10-24T12:48:00+00:00",
       "category": "Politik",
-      "score": 30.02
-    },
-    {
-      "id": "tagesschau-46050729901fb6d2",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Deutschlandticket für Gelegenheitsfahrer: Bilger findet Idee gut",
-      "link": "https://www.tagesschau.de/wirtschaft/verbraucher/bahn-nahverkehr-deutschlandticket-light-100.html",
-      "summary": "Schnell mit dem Handy bei Bahn oder Öffis einchecken - und der günstigste Tarif wird berechnet. Am Monatsende kostet das Ganze höchstens so viel wie das Deutschlandticket. Der Verkehrsminister findet die Idee gut.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/0b9dfd8f-63ed-469d-9375-373e707e1d29/AAABoW1PJPI/AAABnSSvrFg/16x9-big/regionalzug-126.jpg?width=1920",
-      "published": "2026-10-24T12:46:34+02:00",
-      "category": "Politik",
-      "score": 30.34
+      "score": 26.11
     },
     {
       "id": "deutsche-welle-ab47b9d8ca21b9be",
@@ -2138,7 +2258,7 @@
       "image": "https://static.dw.com/image/79750505_6.jpg",
       "published": "2026-10-24T12:42:00+00:00",
       "category": "Politik",
-      "score": 29.94
+      "score": 26.03
     },
     {
       "id": "golem-947e91c73708c665",
@@ -2150,19 +2270,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214474&amp;page=1&amp;ts=1792841221",
       "published": "2026-10-24T12:27:01+01:00",
       "category": "Technologie",
-      "score": 24.9
-    },
-    {
-      "id": "tagesschau-972e0b36749d4407",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Massive Waldbrände in Indonesien - Kritik an Regierung",
-      "link": "https://www.tagesschau.de/ausland/asien/braende-indonesien-100.html",
-      "summary": "In Indonesien wüten die schlimmsten Feuer seit 2015. Hauptsächlich ausgelöst wurden die Feuer durch illegale Brandrodung. Die Nachbarn Singapur und Malaysia kritisieren die indonesische Regierung scharf. Von Jennifer Johnston. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/ddb2ba1f-c4ed-43f6-ab12-0dd93fe09f25/AAABoW1yJdM/AAABnSSvrFg/16x9-big/indonesien-braende-104.jpg?width=1920",
-      "published": "2026-10-24T12:26:00+02:00",
-      "category": "Politik",
-      "score": 30.05
+      "score": 20.99
     },
     {
       "id": "golem-d45c7d79cf1fadf2",
@@ -2174,7 +2282,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214473&amp;page=1&amp;ts=1792839482",
       "published": "2026-10-24T11:58:02+01:00",
       "category": "Politik",
-      "score": 27.5
+      "score": 23.59
     },
     {
       "id": "deutsche-welle-3e136f4056d49786",
@@ -2186,7 +2294,7 @@
       "image": "https://static.dw.com/image/79426060_6.jpg",
       "published": "2026-10-24T11:36:00+00:00",
       "category": "Wirtschaft",
-      "score": 29.02
+      "score": 25.11
     },
     {
       "id": "golem-fda1a8c59c30ba2a",
@@ -2198,31 +2306,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214472&amp;page=1&amp;ts=1792836722",
       "published": "2026-10-24T11:12:02+01:00",
       "category": "Technologie",
-      "score": 23.86
-    },
-    {
-      "id": "tagesschau-6a7b2c7f349b6ccd",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Verletzte und Schäden nach \"Sturmtief\" Luise",
-      "link": "https://www.tagesschau.de/inland/herbststurm-104.html",
-      "summary": "Bäume und Äste auf Straßen und Gleisen, ein umgestürztes Gestell: Sturmtief \"Luise\" ist über Teile Deutschlands hinweggefegt. Zwei Menschen wurden schwer verletzt. Mit \"Manja\" zieht schon der nächste Sturm heran.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/2ce64551-8a79-4617-a4f3-892486cb272c/AAABoW0Znzo/AAABnSSvrFg/16x9-big/feuerwehreinsatz-duisburg-100.jpg?width=1920",
-      "published": "2026-10-24T10:59:50+02:00",
-      "category": "Nachrichten",
-      "score": 66.7
-    },
-    {
-      "id": "tagesschau-bb101d912b170ef8",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Studie über Zeitumstellung - Welche Zeit ist besser für unsere Gesundheit?",
-      "link": "https://www.tagesschau.de/wissen/gesundheit/zeitumstellung-winterzeit-sommerzeit-114.html",
-      "summary": "Was einmal Energie sparen sollte, ist jetzt für viele ein Ärgernis. Die EU-Kommission schlug 2018 vor, die Zeitumstellung abzuschaffen. Nur: Welche Zeit soll gelten? Forschende haben eine Antwort. V on Wiebke Drescher. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/3cea98c0-bba7-48a7-856e-cca34aeaaeb2/AAABoWivUQI/AAABnSSvrFg/16x9-big/schlaf-menschen-100.jpg?width=1920",
-      "published": "2026-10-24T10:55:12+02:00",
-      "category": "Wissenschaft",
-      "score": 25.79
+      "score": 19.95
     },
     {
       "id": "deutsche-welle-449a1f851e693434",
@@ -2234,19 +2318,7 @@
       "image": "https://static.dw.com/image/79749687_6.jpg",
       "published": "2026-10-24T10:42:00+00:00",
       "category": "Politik",
-      "score": 28.27
-    },
-    {
-      "id": "tagesschau-eb124a7f721db8f5",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Energie-Entkoppelung: So abhängig ist Europa noch von Russland",
-      "link": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/abhaengigkeit-russische-energie-100.html",
-      "summary": "Nach dem Vollangriff auf die Ukraine wollte Europa schnell unabhängig werden von russischer Energie. Teilweise ist das auch gelungen. Vor allem bei Öl und Uran bleiben aber alte Abhängigkeiten. Von Jean-Marie Magro. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/14c91b9c-d039-41ff-8c05-a380fde1807b/AAABoWNdIL4/AAABnSSvrFg/16x9-big/oelanlage-lkw-russland-100.jpg?width=1920",
-      "published": "2026-10-24T10:27:08+02:00",
-      "category": "Politik",
-      "score": 36.4
+      "score": 24.36
     },
     {
       "id": "golem-254922aac05de740",
@@ -2258,7 +2330,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214471&amp;page=1&amp;ts=1792834022",
       "published": "2026-10-24T10:27:02+01:00",
       "category": "Technologie",
-      "score": 23.23
+      "score": 19.32
     },
     {
       "id": "deutsche-welle-a1e61f5ae4f7dc38",
@@ -2270,7 +2342,7 @@
       "image": "https://static.dw.com/image/79739444_6.jpg",
       "published": "2026-10-24T10:20:00+00:00",
       "category": "Politik",
-      "score": 35.97
+      "score": 32.06
     },
     {
       "id": "golem-965f7f20f90e45b1",
@@ -2282,7 +2354,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214470&amp;page=1&amp;ts=1792831562",
       "published": "2026-10-24T09:46:02+01:00",
       "category": "Technologie",
-      "score": 22.66
+      "score": 18.75
     },
     {
       "id": "golem-d33360aee3858461",
@@ -2294,7 +2366,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214454&amp;page=1&amp;ts=1792831201",
       "published": "2026-10-24T09:40:01+01:00",
       "category": "Technologie",
-      "score": 22.58
+      "score": 18.67
     },
     {
       "id": "golem-5de0508a3d8b5006",
@@ -2306,7 +2378,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214445&amp;page=1&amp;ts=1792830602",
       "published": "2026-10-24T09:30:02+01:00",
       "category": "Technologie",
-      "score": 22.44
+      "score": 18.53
     },
     {
       "id": "golem-89ed14141066d386",
@@ -2318,7 +2390,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214469&amp;page=1&amp;ts=1792828982",
       "published": "2026-10-24T09:03:02+01:00",
       "category": "Technologie",
-      "score": 22.07
+      "score": 18.16
     },
     {
       "id": "golem-963d0141eb497246",
@@ -2330,7 +2402,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214456&amp;page=1&amp;ts=1792828802",
       "published": "2026-10-24T09:00:02+01:00",
       "category": "Technologie",
-      "score": 22.02
+      "score": 18.11
     },
     {
       "id": "deutsche-welle-b12d820902710406",
@@ -2342,7 +2414,7 @@
       "image": "https://static.dw.com/image/79746285_6.jpg",
       "published": "2026-10-24T07:18:00+00:00",
       "category": "Nachrichten",
-      "score": 22.44
+      "score": 18.53
     },
     {
       "id": "netzpolitik-1dddf66671b1cc74",
@@ -2354,19 +2426,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/10/MandelBrowser_261009_133811.jpg",
       "published": "2026-10-24T06:53:00+00:00",
       "category": "Technologie",
-      "score": 19.09
-    },
-    {
-      "id": "golem-e7e00e8ede8bd3f1",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "30 Jahre Baphomets Fluch: Paris sehen und Tempelritter jagen",
-      "link": "https://www.golem.de/news/30-jahre-baphomets-fluch-paris-sehen-und-tempelritter-jagen-2610-214384.html",
-      "summary": "Ein Clown, ein Mord und die Geheimnisse der Tempelritter: Warum Baphomets Fluch auch 30 Jahre später noch beste Adventure-Unterhaltung bietet! Von Olaf Bleich und Benedikt Plass-Fleßenkämper ( Baphomets Fluch , Adventure )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214384&amp;page=1&amp;ts=1792819802",
-      "published": "2026-10-24T06:30:02+01:00",
-      "category": "Technologie",
-      "score": 19.94
+      "score": 15.18
     }
   ]
 }
