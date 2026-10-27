@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T20:47:11.470775+00:00",
+  "generatedAt": "2026-10-27T00:07:27.637107+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,14 +12,14 @@
       "image": "https://images.tagesschau.de/image/c75175e1-3383-485a-b61d-f9f29721e772/AAABoXnIy2Y/AAABnSSvrFg/16x9-big/doellner-trump-104.jpg?width=1920",
       "published": "2026-10-26T20:56:04+01:00",
       "category": "Politik",
-      "score": 91.62,
+      "score": 91.59,
       "coverage": {
         "sourceCount": 6,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "Investitionen in den USA - Audi-Chef Döllner weist Kritik an Auftritt mit US-Präsident Trump zurück",
-            "link": "https://www.deutschlandfunk.de/audi-chef-doellner-weist-kritik-an-auftritt-mit-us-praesident-trump-zurueck-100.html"
+            "link": "https://www.deutschlandfunk.de/audi-chef-doellner-weist-kritik-an-auftritt-mit-us-praesident-trump-zurueck-102.html"
           },
           {
             "source": "spiegel",
@@ -45,24 +45,85 @@
       }
     },
     {
-      "id": "deutschlandfunk-f542920c198aa8c9",
+      "id": "tagesschau-1c38d1ba75e479ec",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Ukraine-Krieg: Russland will Angriffe trotz Gesprächen fortsetzen",
+      "link": "https://www.tagesschau.de/ausland/europa/russland-will-angriffe-fortsetzen-100.html",
+      "summary": "Trotz der geplanten Wiederaufnahme von Gesprächen unter US-Vermittlung will Russland die Ukraine weiter angreifen. Das teilte Kremlsprecher Peskow mit. In Charkiw wurden bei einer russischen Attacke zwei Menschen getötet. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/12a37bfe-40ae-47e8-a07f-41d39d40f57d/AAABoXlqiT8/AAABnSSvrFg/16x9-big/feuerwehrmann-charkiw-100.jpg?width=1920",
+      "published": "2026-10-26T23:30:15+01:00",
+      "category": "Politik",
+      "score": 86.91,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Ukraine-Krieg - Mehrere Tote nach russischen und ukrainischen Angriffen",
+            "link": "https://www.deutschlandfunk.de/mehrere-tote-nach-russischen-und-ukrainischen-angriffen-108.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-80bb577575bff874",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Knesset - Israel vor Schicksalswahl: Enges Rennen um Mehrheit erwartet",
+      "link": "https://www.deutschlandfunk.de/israel-vor-schicksalswahl-enges-rennen-um-mehrheit-erwartet-102.html",
+      "summary": "Israel steht vor einer richtungsweisenden Parlamentswahl. Rund 7,3 Millionen Wahlberechtigte sind am Dienstag aufgerufen, die 120 Abgeordneten der Knesset zu bestimmen. Angesichts der gesellschaftlichen Spaltung und der zunehmenden internationalen Isolation Israels gilt die Abstimmung als Weichenstellung.",
+      "image": "https://bilder.deutschlandfunk.de/8a/ae/de/a6/8aaedea6-a8e1-403a-bdaa-d848e6a7c35c/wahlen-israel-100-1920x1920.jpg",
+      "published": "2026-10-27T01:00:52+01:00",
+      "category": "Politik",
+      "score": 85.91,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ Iran-Krieg +++: Israel vor Schicksalswahl – Enges Rennen um Mehrheit erwartet",
+            "link": "https://www.handelsblatt.com/politik/international/iran-krieg-israel-vor-schicksalswahl-enges-rennen-um-mehrheit-erwartet/100136895.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-1d1ae1af6f8cc68b",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "USA: Trump verspricht eine Million Dollar für Hinweise auf Wahlbetrug bei Midterms",
+      "link": "https://www.spiegel.de/ausland/usa-trump-verspricht-eine-million-dollar-fuer-hinweise-auf-wahlbetrug-bei-midterms-a-183a8589-7c38-40c1-80e6-c028027af241#ref=rss",
+      "summary": "Bei den US-Midterms stehen für Donald Trump Mehrheiten in beiden Kongresskammern auf dem Spiel. Der Republikaner hatte mehrfach von Wahlbetrug gesprochen – ohne Beweise. Für die verspricht er nun eine hohe Belohnung.",
+      "image": "https://cdn.prod.www.spiegel.de/images/6482e7cf-0f44-4207-b1db-f62fdca9ad09_w1200_r1.778_fpx51_fpy27.jpg",
+      "published": "2026-10-26T23:29:00+01:00",
+      "category": "Politik",
+      "score": 84.63,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Vor den Midterms: Trump verspricht Millionen für Hinweise auf Wahlbetrug",
+            "link": "https://www.handelsblatt.com/politik/international/vor-den-midterms-trump-verspricht-millionen-fuer-hinweise-auf-wahlbetrug/100265100.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-187836e9e87ef1f1",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
       "title": "Bericht - Bundesrechnungshof sieht Fehlentwicklungen bei Bahn-Sanierungen",
-      "link": "https://www.deutschlandfunk.de/bundesrechnungshof-sieht-fehlentwicklungen-bei-bahn-sanierungen-100.html",
+      "link": "https://www.deutschlandfunk.de/bundesrechnungshof-sieht-fehlentwicklungen-bei-bahn-sanierungen-106.html",
       "summary": "Der Bundesrechnungshof wirft der Bahn erhebliche Mängel bei der Sanierung viel befahrener Zugstrecken vor. Die Nachrichtenagentur dpa zitiert aus einem entsprechenden Bericht der Behörde an den Haushaltsausschuss des Bundestags. Darin heißt es, die ersten Korridorsanierungen zeigten gravierende Fehlentwicklungen.",
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_1/f3/NOVA_1f38edfe49109683ca753ab39ee776c6/craft-12555228-asset-100-1920x1920.jpg",
-      "published": "2026-10-26T21:42:43+01:00",
+      "published": "2026-10-27T01:00:52+01:00",
       "category": "Politik",
-      "score": 82.62,
+      "score": 77.91,
       "coverage": {
-        "sourceCount": 3,
+        "sourceCount": 2,
         "others": [
-          {
-            "source": "spiegel",
-            "title": "Deutsche Bahn: Bundesrechnungshof wirft Bahn erhebliche Mängel bei Sanierungen vor",
-            "link": "https://www.spiegel.de/wirtschaft/deutsche-bahn-bundesrechnungshof-wirft-bahn-erhebliche-maengel-bei-sanierungen-vor-a-72373b69-4579-4876-b049-a773fefc484d#ref=rss"
-          },
           {
             "source": "handelsblatt",
             "title": "Bahn: Rechnungshof sieht Fehlentwicklungen bei Bahn-Sanierungen",
@@ -72,89 +133,80 @@
       }
     },
     {
-      "id": "handelsblatt-7b4ad6e30cd118a9",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Iran-Krieg +++: Israel vor Schicksalswahl – Enges Rennen um Mehrheit erwartet",
-      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-israel-vor-schicksalswahl-enges-rennen-um-mehrheit-erwartet/100136895.html",
-      "summary": "Huthi werfen Militärkoalition Angriff auf Krankenhaus vor +++ Huthi melden Angriffe auf jemenitische Regierungstruppen +++ Libanesische Hisbollah rüstet sich für neuen Krieg in der Region +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/9kTgiE9CesiC/cover/900/506/0/0/0/625/0.5/0.5/benjamin-netanjahu.jpg",
-      "published": "2026-10-26T17:05:00+00:00",
+      "id": "deutschlandfunk-6aea78aa51bbd8ba",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Wahlplakat mit Hitlergruß - Urteil gegen Brandenburger AfD-Abgeordneten rechtskräftig",
+      "link": "https://www.deutschlandfunk.de/urteil-gegen-brandenburger-afd-abgeordneten-rechtskraeftig-106.html",
+      "summary": "Im Rechtsstreit um einen Hitlergruß auf einem Wahlplakat hat der brandenburgische AfD-Landtagsabgeordnete Möller eine Niederlage erlitten.",
+      "image": "https://bilder.deutschlandfunk.de/2f/94/03/1a/2f94031a-d51c-43b8-aea7-85f37e49afe6/afd-abgeordneter-moeller-100-1920x1920.jpg",
+      "published": "2026-10-27T01:00:52+01:00",
       "category": "Politik",
-      "score": 81.91
-    },
-    {
-      "id": "tagesschau-de83e0e306633737",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Lula gewinnt Wahl in Brasilien - Bolsonaro erkennt Niederlage nicht an",
-      "link": "https://www.tagesschau.de/ausland/amerika/brasilien-wahlen-lula-100.html",
-      "summary": "Der linke Staatschef Lula hat die Präsidentschaftswahl in Brasilien gewonnen. Er setzte sich gegen den rechten Kandidaten Bolsonaro durch - doch der will das Ergebnis nicht anerkennen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/7e52859b-49af-4843-83be-ad391e13f68b/AAABoXXW07o/AAABnSSvrFg/16x9-big/lula-234.jpg?width=1920",
-      "published": "2026-10-26T07:58:43+01:00",
-      "category": "Politik",
-      "score": 78.97,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Präsidentenwahl in Brasilien: Lula gewinnt Wahl in Brasilien - Bolsonaro protestiert",
-            "link": "https://www.handelsblatt.com/politik/international/praesidentenwahl-in-brasilien-lula-gewinnt-wahl-in-brasilien-bolsonaro-protestiert/100265020.html"
-          },
-          {
-            "source": "deutsche-welle",
-            "title": "Brasiliens Präsident Lula gewinnt Stichwahl, Bolsonaro erkennt das Ergebnis nicht an - News kompakt: Das Wichtigste kurz gefasst",
-            "link": "https://www.dw.com/de/brasiliens-präsident-lula-gewinnt-stichwahl-bolsonaro-erkennt-das-ergebnis-nicht-an-news-kompakt-das-wichtigste-kurz-gefasst/a-79759184?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-5a14edb7c7d995d0",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Hohe Wahlbeteiligung und Manipulationsvorwürfe in Serbien",
-      "link": "https://www.tagesschau.de/ausland/europa/serbien-wahl-update-100.html",
-      "summary": "Lange Schlangen vor den Wahllokalen in Serbien: Viele Menschen wünschen sich Veränderung. Bei der Parlamentswahl setzt die Studentenbewegung auf einen Erfolg. Doch auch Präsident Vucic hat überzeugte Anhänger.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/f90a7f85-8cba-4a3b-80e8-3acfb9b8b09c/AAABoXPImHI/AAABnSSvrFg/16x9-big/serbien-wahl-112.jpg?width=1920",
-      "published": "2026-10-25T17:24:20+01:00",
-      "category": "Politik",
-      "score": 78.94,
+      "score": 77.91,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "deutschlandfunk",
-            "title": "Sieg über Vucic - Studentenbewegung gewinnt Parlamentswahl in Serbien",
-            "link": "https://www.deutschlandfunk.de/studentenbewegung-gewinnt-parlamentswahl-in-serbien-100.html"
+            "source": "spiegel",
+            "title": "Hitlergruß: Urteil gegen AfD-Politiker Wilko Möller rechtskräftig",
+            "link": "https://www.spiegel.de/politik/deutschland/hitlergruss-urteil-gegen-afd-politiker-wilko-moeller-rechtskraeftig-a-f6aa74f1-cdbe-4027-8163-97d21b98fbb5#ref=rss"
           }
         ]
       }
     },
     {
-      "id": "deutschlandfunk-4daabe6363bbd10d",
+      "id": "deutschlandfunk-e9cd3b2f6128ef1c",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg - UNO-Menschenrechtsrat: Russische Angriffe auf ukrainische Energieinfrastruktur sind Kriegsverbrechen",
-      "link": "https://www.deutschlandfunk.de/uno-menschenrechtsrat-russische-angriffe-auf-ukrainische-energieinfrastruktur-sind-kriegsverbrechen-100.html",
-      "summary": "Die russischen Angriffe auf die ukrainische Energieinfrastruktur sind nach Ansicht des UNO-Menschenrechtsrates Kriegsverbrechen.",
-      "image": "https://bilder.deutschlandfunk.de/3c/65/08/b3/3c6508b3-79b8-4326-aaee-2aeb296d571f/ukraine-strom-100-1920x1920.jpg",
-      "published": "2026-10-26T21:42:43+01:00",
+      "title": "Anordnung des Obersten Gerichts - Wegen Geldwäsche-Ermittlungen: Flávio Bolsonaro darf Brasilien nicht verlassen",
+      "link": "https://www.deutschlandfunk.de/wegen-geldwaesche-ermittlungen-fl-vio-bolsonaro-darf-brasilien-nicht-verlassen-102.html",
+      "summary": "Nach seiner Niederlage bei der Stichwahl um das Präsidentenamt in Brasilien darf der unterlegene Kandidat Flávio Bolsonaro das Land nicht verlassen.",
+      "image": "https://bilder.deutschlandfunk.de/9d/af/60/42/9daf6042-73f0-4203-8d33-4b39e5e45c08/flavio-bolsonaro-102-1920x1920.jpg",
+      "published": "2026-10-27T01:00:52+01:00",
       "category": "Politik",
-      "score": 77.94
+      "score": 77.91,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Nach der Präsidentenwahl: Geldwäsche-Ermittlungen: Ausreiseverbot für Flávio Bolsonaro",
+            "link": "https://www.handelsblatt.com/politik/international/nach-der-praesidentenwahl-geldwaesche-ermittlungen-ausreiseverbot-fuer-flavio-bolsonaro/100265020.html"
+          }
+        ]
+      }
     },
     {
-      "id": "deutschlandfunk-681e51e680e1aedd",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Nahost - UNO-Kommission erneuert Vorwürfe gegen Israel wegen Vorgehen im Westjordanland und im Gazastreifen",
-      "link": "https://www.deutschlandfunk.de/uno-kommission-erneuert-vorwuerfe-gegen-israel-wegen-vorgehen-im-westjordanland-und-im-gazastreifen-100.html",
-      "summary": "Eine UNO-Untersuchungskommission zum israelischen Vorgehen in palästinensischen Gebieten hat ihre Vorwürfe gegen Israel erneuert.",
-      "image": "https://bilder.deutschlandfunk.de/2f/8a/14/2e/2f8a142e-cb89-4c1c-ac66-d558ae4d01ed/westjordanland-gazastreifen-palaestinenser-israel-streitkraefte-angriff-siedler-100-1920x1920.jpg",
-      "published": "2026-10-26T21:42:43+01:00",
-      "category": "Politik",
-      "score": 77.94
+      "id": "tagesschau-6941f2c16715d626",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Harry Kane gewinnt Ballon d'Or",
+      "link": "https://www.tagesschau.de/sport/eilmeldung-9588.html",
+      "summary": "Harry Kane wurde in London mit dem Ballon d'Or ausgezeichnet. Er ist der erste Bundesliga-Spieler seit Matthias Sammer 1996, der den Award gewinnt. Bei den Frauen gewann Alexia Putellas, bester Trainer wurde Luis de la Fuente.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/531a7ed5-383b-497f-8ee6-1f160619676a/AAABoXqD0lw/AAABnSSvrFg/16x9-big/harrykane-100.jpg?width=1920",
+      "published": "2026-10-27T00:20:35+01:00",
+      "category": "Nachrichten",
+      "score": 75.91,
+      "coverage": {
+        "sourceCount": 4,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "London - Alexia Putellas und Harry Kane mit Ballon d'Or ausgezeichnet",
+            "link": "https://www.deutschlandfunk.de/alexia-putellas-und-harry-kane-mit-ballon-d-or-ausgezeichnet-104.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "Ballon d'Or: Harry Kane und Alexia Putellas triumphieren",
+            "link": "https://www.spiegel.de/sport/fussball/ballon-dor-harry-kane-und-alexia-putellas-triumphieren-a-27bfacb8-19b8-4149-bbfc-b3808c5fa39f#ref=rss"
+          },
+          {
+            "source": "deutsche-welle",
+            "title": "Harry Kane: Ballon d’Or für Bayern Münchens Stürmer?",
+            "link": "https://www.dw.com/de/harry-kane-ballon-d-or-für-bayern-münchens-stürmer/a-79760904?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
     },
     {
       "id": "spiegel-13982e6dfdda2ba0",
@@ -166,7 +218,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/f8a7b70f-2af8-4f50-ad96-3b974c7007bc_w1200_r1.778_fpx40_fpy16.jpg",
       "published": "2026-10-26T21:14:00+01:00",
       "category": "Politik",
-      "score": 77.54
+      "score": 74.76
     },
     {
       "id": "spiegel-cadb33d92412fc0d",
@@ -178,19 +230,43 @@
       "image": "https://cdn.prod.www.spiegel.de/images/56c2c6a9-0041-4f35-a8e0-95be95bbe9bc_w1200_r1.778_fpx33.35_fpy50.jpg",
       "published": "2026-10-26T21:11:00+01:00",
       "category": "Politik",
-      "score": 77.5
+      "score": 74.72
     },
     {
-      "id": "handelsblatt-e8b7ea8dfad404a7",
+      "id": "handelsblatt-40da5f363e7f4fe7",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Vor den Midterms: Trump verspricht Millionen für Hinweise auf Wahlbetrug",
-      "link": "https://www.handelsblatt.com/politik/international/vor-den-midterms-trump-verspricht-millionen-fuer-hinweise-auf-wahlbetrug/100265100.html",
-      "summary": "Immer wieder behauptet Präsident Trump, bei US-Wahlen würde im großen Stil betrogen. Nun lockt er Hinweisgeber mit einer Belohnung.",
-      "image": "https://images.handelsblatt.com/ymGReDxEX9bL/cover/900/506/0/0/107/107/0.5/0.5/us-praesident-trump.jpg",
-      "published": "2026-10-26T20:24:38+00:00",
+      "title": "Ukraine-Krieg: Hilfsaktion für Frontstadt Oleschky läuft an",
+      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-hilfsaktion-fuer-frontstadt-oleschky-laeuft-an/100265095.html",
+      "summary": "Nach diplomatischen Vermittlungen läuft eine Hilfsaktion für ein umkämpftes Dorf in der Ukraine an. Russische und ukrainische Truppen wollen eine örtliche Feuerpause einhalten.",
+      "image": "https://images.handelsblatt.com/57qknNrkiuVA/cover/900/506/0/0/107/106/0.5/0.5/ukraine-krieg-oleschky.jpg",
+      "published": "2026-10-26T19:53:46+00:00",
       "category": "Politik",
-      "score": 76.69
+      "score": 73.48
+    },
+    {
+      "id": "handelsblatt-4f57e93a5f2c4774",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Midterms: Amerikaner „extrem besorgt“: Plötzlich könnten Korruptions-Vorwürfe Donald Trump Stimmen kosten",
+      "link": "https://www.handelsblatt.com/politik/international/midterms-ploetzlich-koennten-korruptions-vorwuerfe-donald-trump-stimmen-kosten/100264611.html",
+      "summary": "Lange sah es so aus, als profitierten der US-Präsident und seine Familie finanziell von seiner Präsidentschaft, ohne dass dies Folgen hätte. Doch kurz vor den Zwischenwahlen dreht die Stimmung.",
+      "image": "https://images.handelsblatt.com/ylJERpJekS4O/cover/900/506/0/0/313/312/0.5/0.5/us-president-donald-trump-speaks-to-the-press-before-he-boards-air-force-one-for-his-first-flight-ab.jpg",
+      "published": "2026-10-26T18:45:50+00:00",
+      "category": "Politik",
+      "score": 72.53
+    },
+    {
+      "id": "handelsblatt-bd9b1c9438934639",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ US-Zollpolitik +++: USA und Kanada verhandeln laut Insidern über Lockerung von Zöllen",
+      "link": "https://www.handelsblatt.com/politik/international/us-zoelle-usa-und-kanada-verhandeln-laut-insidern-ueber-lockerung-von-zoellen/30026990.html",
+      "summary": "Bericht: USA heben Zölle auf bestimmte kanadische Waren auf +++ Datum für US-Einfuhrverbot gegen kanadische Waren erreicht +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/4PejOa-a29Ng/cover/900/506/0/0/209/208/0.5/0.5/flaggen-der-usa-und-kanada-das-handelsverhaeltnis-der-nachbarlaender-ist-schon-lange-angespannt..jpg",
+      "published": "2026-10-27T13:00:00+00:00",
+      "category": "Wirtschaft",
+      "score": 71.73
     },
     {
       "id": "golem-99e3bb42a3813906",
@@ -202,7 +278,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214530&amp;page=1&amp;ts=1793038202",
       "published": "2026-10-26T19:10:02+01:00",
       "category": "Politik",
-      "score": 73.82
+      "score": 71.04
     },
     {
       "id": "heise-1c161795f7e1ee65",
@@ -214,43 +290,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/8/9/2/6/8/shutterstock_2438621631-130c51e980bbe5fa.jpeg",
       "published": "2026-10-26T18:07:00+01:00",
       "category": "Politik",
-      "score": 65.94
-    },
-    {
-      "id": "deutsche-welle-fe5c04d6af08afa5",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Was hinter Audis Vier-Milliarden-Dollar-Deal mit Trump steckt",
-      "link": "https://www.dw.com/de/was-hinter-audis-vier-milliarden-dollar-deal-mit-trump-steckt/a-79768812?maca=de-rss-de-all-1119-rdf",
-      "summary": "Der Autobauer aus dem Hause VW will sein erstes Werk in den USA eröffnen. Die DW untersucht die Reaktion Deutschlands angesichts des massiven Stellenabbaus in der heimischen Autoindustrie.",
-      "image": "https://static.dw.com/image/79355326_6.jpg",
-      "published": "2026-10-26T16:18:00+00:00",
-      "category": "Politik",
-      "score": 65.26
-    },
-    {
-      "id": "golem-747b1c23ace92799",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Zuverlässigkeit: Starlink wird zur Warnung für Amerikas Kunden",
-      "link": "https://www.golem.de/news/zuverlaessigkeit-starlink-wird-zur-warnung-fuer-amerikas-kunden-2610-214488.html",
-      "summary": "Die Starlink-Störung in der Ukraine ist vorbei. Offen bleibt, wer über kritische US-Infrastruktur verfügt und wie verlässlich sie ist. Ein IMHO von Andreas Donath ( Ukrainekrieg , Politik )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214488&amp;page=1&amp;ts=1792999802",
-      "published": "2026-10-26T08:30:02+01:00",
-      "category": "Politik",
-      "score": 64.93
-    },
-    {
-      "id": "deutsche-welle-3034babf6f87a34e",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Deepfakes, Bots und Desinformation: KI im israelischen Wahlkampf",
-      "link": "https://www.dw.com/de/deepfakes-bots-und-desinformation-ki-im-israelischen-wahlkampf/a-79746514?maca=de-rss-de-all-1119-rdf",
-      "summary": "Zum ersten Mal spielt bei den Wahlen in Israel auch KI eine wichtige Rolle. Beobachter warnen vor Wahlbeeinflussung durch Deepfakes, Bots, automatisierte Anrufe und andere KI-generierte Inhalte.",
-      "image": "https://static.dw.com/image/78426381_6.jpg",
-      "published": "2026-10-26T06:18:00+00:00",
-      "category": "Politik",
-      "score": 64.93
+      "score": 63.16
     }
   ]
 }
