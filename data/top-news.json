@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T21:52:48.023177+00:00",
+  "generatedAt": "2026-10-29T22:05:45.066122+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.handelsblatt.com/oscEpgRtZ628/cover/900/506/0/0/313/312/0.5/0.5/a-woman-walks-past-a-likud-party-campaign-billboard-featuring-u.s.-president-donald-trump-and-israel.jpg",
       "published": "2026-10-29T17:31:53+00:00",
       "category": "Politik",
-      "score": 89.38
+      "score": 89.2
     },
     {
       "id": "deutschlandfunk-6230f7ee158ab34c",
@@ -22,9 +22,9 @@
       "link": "https://www.deutschlandfunk.de/oleschky-waffenruhe-ukrainer-und-russen-bereiten-evakuierung-vor-102.html",
       "summary": "Die seit Dienstag geltende Waffenruhe in der von russischen Truppen besetzten Frontstadt Oleschky im südukrainischen Gebiet Cherson hält weiter.",
       "image": "https://bilder.deutschlandfunk.de/7c/36/4c/6e/7c364c6e-7e1c-4d49-a4ad-d0f5af85846f/ukraine-waffenruhe-oleschky-100-1920x1920.jpg",
-      "published": "2026-10-29T22:08:13+01:00",
+      "published": "2026-10-29T23:02:11+01:00",
       "category": "Politik",
-      "score": 85.38,
+      "score": 85.95,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -37,16 +37,26 @@
       }
     },
     {
-      "id": "handelsblatt-b20c6f2acf272fe4",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Iran-Krieg +++: Iran meldet drei brennende Tanker in der Straße von Hormus",
-      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-iran-meldet-drei-brennende-tanker-in-der-strasse-von-hormus/100136895.html",
-      "summary": "Pattsituation im Parlament nach Wahl in Israel +++ Iraner fürchten neue Angriffe nach Wahlen in USA und Israel +++ USA loten offenbar Basis für Verhandlungen mit Iran aus +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/-VtocaaUGGlD/cover/900/506/0/0/313/312/0.5/0.5/archiv-16.06.2026-oman-im-golf-von-oman-entlang-der-schifffahrtsrouten-zwischen-der-strasse.jpg",
-      "published": "2026-10-29T20:06:00+00:00",
+      "id": "deutschlandfunk-a507c72a2a5b33ed",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Russlands Ukrainekrieg - Wieder Angriffe mit Raketen auf Kiew",
+      "link": "https://www.deutschlandfunk.de/wieder-angriffe-mit-raketen-auf-kiew-102.html",
+      "summary": "Russland hat die ukrainische Hauptstadt Kiew erneut mit ballistischen Raketen angegriffen.",
+      "image": "https://bilder.deutschlandfunk.de/e1/06/7d/e2/e1067de2-6230-41ae-943b-92085b1ff504/die-nachrichten-kachel-2176-zu1224-100-768x768.jpg",
+      "published": "2026-10-29T23:02:11+01:00",
       "category": "Politik",
-      "score": 83.52
+      "score": 85.95,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ Ukraine-Krieg +++: Putin warnt vor Eskalation in der Ostsee: „Will keine Situation wie in Hormus“",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-putin-warnt-vor-ostsee-situation-wie-in-strasse-von-hormus/27982126.html"
+          }
+        ]
+      }
     },
     {
       "id": "tagesschau-3dd01e5734a3f92d",
@@ -58,7 +68,7 @@
       "image": "https://images.tagesschau.de/image/a9b84f79-28ea-47f0-9a7b-acbe41d12073/AAABoYfKFTc/AAABnSSvrFg/16x9-big/bolsonaro-jet-100.jpg?width=1920",
       "published": "2026-10-29T03:14:59+01:00",
       "category": "Politik",
-      "score": 83.06,
+      "score": 83.63,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -76,6 +86,18 @@
       }
     },
     {
+      "id": "handelsblatt-b20c6f2acf272fe4",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ Iran-Krieg +++: Iran meldet drei brennende Tanker in der Straße von Hormus",
+      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-iran-meldet-drei-brennende-tanker-in-der-strasse-von-hormus/100136895.html",
+      "summary": "Pattsituation im Parlament nach Wahl in Israel +++ Iraner fürchten neue Angriffe nach Wahlen in USA und Israel +++ USA loten offenbar Basis für Verhandlungen mit Iran aus +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/-VtocaaUGGlD/cover/900/506/0/0/313/312/0.5/0.5/archiv-16.06.2026-oman-im-golf-von-oman-entlang-der-schifffahrtsrouten-zwischen-der-strasse.jpg",
+      "published": "2026-10-29T20:06:00+00:00",
+      "category": "Politik",
+      "score": 83.34
+    },
+    {
       "id": "handelsblatt-d34852d5b09a7c16",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
@@ -85,7 +107,7 @@
       "image": "https://images.handelsblatt.com/t4x3MIawttl3/cover/900/506/0/0/0/214/0.5/0.5/vor-der-parlamentswahl-in-israel.jpg",
       "published": "2026-10-29T19:25:56+00:00",
       "category": "Politik",
-      "score": 82.96,
+      "score": 82.78,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -107,29 +129,7 @@
       "image": "https://static.dw.com/image/79759992_6.jpg",
       "published": "2026-10-29T15:09:00+00:00",
       "category": "Politik",
-      "score": 79.39
-    },
-    {
-      "id": "tagesschau-67954dc636438d62",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Zahlreiche Tote bei Angriff auf Bahnhof in Dnipro",
-      "link": "https://www.tagesschau.de/ausland/europa/russland-ukraine-angriffe-120.html",
-      "summary": "Eine russische Drohne hat nach ukrainischen Angaben am Bahnhof von Dnipro mindestens 14 Menschen getötet. Während Russland und die Ukraine sich weiter gegenseitig mit Drohnen angreifen, hält die Waffenruhe in der Frontstadt Oleschky.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/b6cffbf3-12b7-4c72-b7cb-67f744b32dc2/AAABoYeG6C4/AAABnSSvrFg/16x9-big/ukraine-dnipro-angriff-100.jpg?width=1920",
-      "published": "2026-10-29T15:04:36+01:00",
-      "category": "Politik",
-      "score": 78.38,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Ukraine - 14 Tote bei russischem Luftangriff auf Bahnhof in Dnipro",
-            "link": "https://www.deutschlandfunk.de/14-tote-bei-russischem-luftangriff-auf-bahnhof-in-dnipro-102.html"
-          }
-        ]
-      }
+      "score": 79.21
     },
     {
       "id": "tagesschau-6f49015b96c0c5fc",
@@ -141,7 +141,7 @@
       "image": "https://images.tagesschau.de/image/7343b9a1-fc7f-40b9-b5b4-4032214027e4/AAABoYi51Rg/AAABnSSvrFg/16x9-big/rbb-628859365-100.jpg?width=1920",
       "published": "2026-10-29T18:31:06+01:00",
       "category": "Politik",
-      "score": 78.38,
+      "score": 78.95,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -163,7 +163,7 @@
       "image": "https://images.tagesschau.de/image/b890a9f4-60f6-41fc-962f-bfc614bbb8f7/AAABoYk_9pE/AAABnSSvrFg/16x9-big/stewart-102.jpg?width=1920",
       "published": "2026-10-29T21:53:05+01:00",
       "category": "Nachrichten",
-      "score": 77.96,
+      "score": 78.53,
       "coverage": {
         "sourceCount": 5,
         "others": [
@@ -174,8 +174,8 @@
           },
           {
             "source": "spiegel",
-            "title": "Patrick Stewart ist tot",
-            "link": "https://www.spiegel.de/kultur/tv/patrick-stewart-ist-tot-a-40ffba85-794a-45f4-b2a3-7948168155d4#ref=rss"
+            "title": "Patrick Stewart: Fans und Wegbegleiter trauern um Captain Jean-Luc Picard",
+            "link": "https://www.spiegel.de/kultur/patrick-stewart-fans-und-wegbegleiter-trauern-um-captain-jean-luc-picard-a-25743358-65a6-45e7-b64d-6e1f861f98dd#ref=rss"
           },
           {
             "source": "heise",
@@ -198,9 +198,9 @@
       "link": "https://www.deutschlandfunk.de/historiker-segev-rechnet-mit-regierung-der-nationalen-einheit-in-israel-100.html",
       "summary": "Nach der Parlamentswahl in Israel rechnet der Autor und Historiker Segev mit der Bildung einer Regierung der nationalen Einheit.",
       "image": "https://bilder.deutschlandfunk.de/12/4d/4f/00/124d4f00-908b-4d22-afa1-8c27b47678d0/israel-parlamentswahlen-wahl-netanjahu-eisenkot-102-1920x1920.jpg",
-      "published": "2026-10-29T22:08:13+01:00",
+      "published": "2026-10-29T23:02:11+01:00",
       "category": "Politik",
-      "score": 77.38
+      "score": 77.95
     },
     {
       "id": "deutschlandfunk-c4784ac30a021086",
@@ -210,21 +210,9 @@
       "link": "https://www.deutschlandfunk.de/steinmeier-appelliert-an-china-wegen-ukraine-krieg-und-handelskonflikt-100.html",
       "summary": "Bundespräsident Steinmeier hat China dazu aufgerufen, gemeinsam für Frieden und einen freien Welthandel einzutreten.",
       "image": "https://bilder.deutschlandfunk.de/f9/56/72/2d/f956722d-107e-4f7e-aa79-73a72123746f/bundespraesident-steinmeier-peking-rede-universitaet-ehrenprofessur-100-1920x1920.jpg",
-      "published": "2026-10-29T22:08:13+01:00",
+      "published": "2026-10-29T23:02:11+01:00",
       "category": "Politik",
-      "score": 77.38
-    },
-    {
-      "id": "spiegel-997a85a314a8392c",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Israel nach der Wahl: Jetzt kommt es auf Präsident Isaac Herzog an",
-      "link": "https://www.spiegel.de/ausland/regierungsbildung-in-israel-nun-hat-isaac-herzog-die-wahl-a-67d69a24-eb8e-4e47-952b-e692a3fafc0c#ref=rss",
-      "summary": "Bei den israelischen Parlamentswahlen konnte kein Lager eine klare Mehrheit erringen. Nun muss Präsident Herzog entscheiden, wen er mit der Regierungsbildung beauftragt.",
-      "image": "https://cdn.prod.www.spiegel.de/images/ab5d371c-197f-4e9b-85a5-e866483e4d4e_w1200_r1.778_fpx49_fpy30.jpg",
-      "published": "2026-10-29T17:47:00+01:00",
-      "category": "Politik",
-      "score": 73.75
+      "score": 77.95
     },
     {
       "id": "spiegel-97aadf970c27c20b",
@@ -236,7 +224,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/4d8f92f4-0a29-476f-a99b-928d270af295_w1200_r1.778_fpx66.67_fpy50.jpg",
       "published": "2026-10-29T22:24:00+01:00",
       "category": "Politik",
-      "score": 69.6
+      "score": 69.42
     },
     {
       "id": "spiegel-37821ce011f73ddb",
@@ -248,7 +236,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/713daf37-4446-4640-888a-a1422b48a664_w1200_r1.778_fpx47_fpy52.jpg",
       "published": "2026-10-29T21:30:00+01:00",
       "category": "Politik",
-      "score": 68.85
+      "score": 68.67
     },
     {
       "id": "heise-3d5b0be9cb451bbb",
@@ -260,7 +248,19 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/1/3/3/4/24H-c503c35e9adf3d89.png",
       "published": "2026-10-29T15:51:00+01:00",
       "category": "Technologie",
-      "score": 68.14
+      "score": 67.96
+    },
+    {
+      "id": "spiegel-0c5e8e98f86e875f",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Midterms in den USA: Alaska prüft Klage wegen zwei gleich heißender Kandidaten",
+      "link": "https://www.spiegel.de/ausland/alaska-prueft-klage-wegen-zwei-gleich-heissender-midterms-kandidaten-a-c51c9930-ead6-4a8c-8a32-0b7adbca5b4c#ref=rss",
+      "summary": "Dan S. Sullivan oder Dan J. Sullivan? In Alaska heißen zwei Kandidaten für die Senatswahl nahezu gleich. Die Republikaner verdächtigen die Demokraten, hinter dem Verwirrspiel zu stehen. Jetzt schaltet sich der Gouverneur ein.",
+      "image": "https://cdn.prod.www.spiegel.de/images/169e0138-f9fe-414d-8cd2-f472f6c58ab9_w1200_r1.778_fpx65_fpy47.jpg",
+      "published": "2026-10-29T18:30:00+01:00",
+      "category": "Politik",
+      "score": 66.17
     }
   ]
 }
