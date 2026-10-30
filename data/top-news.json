@@ -1,25 +1,47 @@
 {
-  "generatedAt": "2026-10-30T16:18:45.988739+00:00",
+  "generatedAt": "2026-10-30T20:54:54.480853+00:00",
   "count": 15,
   "articles": [
     {
-      "id": "deutschlandfunk-4650199abff56a6c",
-      "source": "deutschlandfunk",
+      "id": "spiegel-f2b78b387a72e915",
+      "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg - Evakuierungen in Oleschky - neue Angriffe auf Dnipro",
-      "link": "https://www.deutschlandfunk.de/evakuierungen-in-oleschky-neue-angriffe-auf-dnipro-102.html",
-      "summary": "Trotz anhaltender Kämpfe in anderen Teilen des Landes hat in der von Russland besetzten ukrainischen Stadt Oleschky eine gemeinsame humanitäre Hilfsaktion begonnen. Nach Angaben beider Seiten werden die Bewohner mit Lebensmitteln, Medikamenten und Hygieneartikeln versorgt. Es handelt sich um die größte humanitäre Hilfsaktion seit Kriegsbeginn im Februar 2022.",
-      "image": "https://bilder.deutschlandfunk.de/7c/36/4c/6e/7c364c6e-7e1c-4d49-a4ad-d0f5af85846f/ukraine-waffenruhe-oleschky-100-1920x1920.jpg",
-      "published": "2026-10-30T17:14:00+01:00",
+      "title": "Ukraine-Krieg: USA genehmigen Verkauf von 500 Patriot-Abwehrraketen",
+      "link": "https://www.spiegel.de/ausland/ukraine-krieg-usa-genehmigen-verkauf-von-500-patriot-abwehrraketen-a-2a082d3f-12c3-4c6d-8ef0-a9be89feb674#ref=rss",
+      "summary": "Das US-Außenministerium hat den Verkauf von 500 Patriot-Raketen an die Ukraine freigegeben. Zuvor hatte es Streit zwischen US-Präsident Trump und dem ukrainischen Präsidenten Selenskyj über verzögerte Lieferungen gegeben.",
+      "image": "https://cdn.prod.www.spiegel.de/images/37e827bc-e79a-44ec-b1d3-26561b74a757_w1200_r1.778_fpx49_fpy58.jpg",
+      "published": "2026-10-30T21:40:00+01:00",
       "category": "Politik",
-      "score": 93.93,
+      "score": 93.79,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ Ukraine-Krieg +++: Evakuierung aus russisch besetztem Oleschky abgeschlossen",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-evakuierung-aus-russisch-besetztem-oleschky-abgeschlossen/27982126.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-2ee106c80dcb32dd",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Erste Einwohner aus besetzter ukrainischer Stadt Oleschky evakuiert",
+      "link": "https://www.tagesschau.de/ausland/europa/ukraine-erste-menschen-verlassen-oleschky-100.html",
+      "summary": "Inmitten einer Feuerpause haben die ersten Einwohner von Oleschky die von Russland besetzte südukrainische Stadt verlassen. Die Ukraine hofft, dass auch weitere Städte in der Region auf ähnlichem Weg versorgt werden können.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/d4855fdf-43b3-43c7-a54a-397ee7c45e9a/AAABoY2w1fI/AAABnSSvrFg/16x9-big/busse-oleschky-100.jpg?width=1920",
+      "published": "2026-10-30T17:49:53+01:00",
+      "category": "Politik",
+      "score": 86.85,
       "coverage": {
         "sourceCount": 4,
         "others": [
           {
-            "source": "spiegel",
-            "title": "Ukraine: Hilfsaktion in der besetzten Frontstadt Oleschky gestartet",
-            "link": "https://www.spiegel.de/ausland/ukraine-hilfsaktion-in-der-besetzten-frontstadt-oleschky-gestartet-a-e74f0c50-f82c-461c-ac78-ba12d887b8ae#ref=rss"
+            "source": "deutschlandfunk",
+            "title": "Ukraine-Krieg - Menschen verlassen russisch besetzte Stadt Oleschky",
+            "link": "https://www.deutschlandfunk.de/menschen-verlassen-russisch-besetzte-stadt-oleschky-100.html"
           },
           {
             "source": "deutsche-welle",
@@ -44,7 +66,7 @@
       "image": "https://images.tagesschau.de/image/4fd8cb36-680d-4b40-a806-2223e18d10b5/AAABoYzqT78/AAABnSSvrFg/16x9-big/wahlplakat-netanjahu-102.jpg?width=1920",
       "published": "2026-10-30T15:28:05+01:00",
       "category": "Politik",
-      "score": 86.93,
+      "score": 86.85,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -57,92 +79,103 @@
       }
     },
     {
-      "id": "tagesschau-84adeb97eeea86e9",
+      "id": "tagesschau-a8944ca2f399b6a8",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Inflationsrate geht im Oktober auf 2,8 Prozent zurück",
-      "link": "https://www.tagesschau.de/wirtschaft/verbraucher/inflationsrate-deutschland-oktober-100.html",
-      "summary": "Die hohe Inflation in Deutschland ‌hat sich ​im Oktober spürbar abgeschwächt. Dafür sorgen vor allem die fallenden Preise an den Zapfsäulen. Doch Ökonomen geben noch keine Entwarnung.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/566cc412-8755-4cba-b3b6-41c0044a4ba3/AAABoYzxgjY/AAABnSSvrFg/16x9-big/euro-314.jpg?width=1920",
-      "published": "2026-10-30T15:08:37+01:00",
-      "category": "Wirtschaft",
-      "score": 78.93,
+      "title": "\"Allianz für die Zukunft\": Kanada und Europa gründen Bündnis",
+      "link": "https://www.tagesschau.de/ausland/amerika/kanada-eu-allianz-zukunft-100.html",
+      "summary": "Die EU und Kanada gründen in Montreal eine \"Allianz für die Zukunft\". Ziel ist mehr Unabhängigkeit und eine engere Zusammenarbeit von KI bis Raumfahrt. Auch die Ukraine spielt eine Rolle.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/b24841d1-87c4-4a16-ba6c-c4db63284842/AAABoY4uPLA/AAABnSSvrFg/16x9-big/kanada-eu-buendnis-100.jpg?width=1920",
+      "published": "2026-10-30T19:59:17+01:00",
+      "category": "Politik",
+      "score": 83.53,
       "coverage": {
-        "sourceCount": 2,
+        "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
-            "title": "Wirtschaft - Inflationsrate in Deutschland sinkt deutlich auf 2,8 Prozent",
-            "link": "https://www.deutschlandfunk.de/inflationsrate-in-deutschland-sinkt-deutlich-auf-2-8-prozent-100.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-39358b1e3b07f7f0",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Tankrabatt: Inflation im Oktober gesunken",
-      "link": "https://www.spiegel.de/wirtschaft/tankrabatt-inflation-im-oktober-gesunken-a-1334be70-9cd6-4182-a5a9-d58c29f0571d#ref=rss",
-      "summary": "Hohe Energiepreise treiben die Teuerung in Deutschland weiter an. Im Oktober hat der Tankrabatt der Bundesregierung für Entlastung gesorgt: Die Inflation sank auf unter drei Prozent. Eine Trendwende sehen Experten dennoch nicht.",
-      "image": "https://cdn.prod.www.spiegel.de/images/b9313ac4-eece-45a6-9f22-177e3d78d4e1_w1200_r1.778_fpx49.99_fpy45.jpg",
-      "published": "2026-10-30T15:34:00+01:00",
-      "category": "Politik",
-      "score": 76.54,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
+            "title": "Gipfel in Montreal - EU und Kanada schmieden \"Allianz für die Zukunft\"",
+            "link": "https://www.deutschlandfunk.de/eu-und-kanada-schmieden-allianz-fuer-die-zukunft-100.html"
+          },
           {
             "source": "handelsblatt",
-            "title": "Verbraucherpreise: Tankrabatt dämpft Inflation - aber noch keine Entwarnung",
-            "link": "https://www.handelsblatt.com/politik/deutschland/verbraucherpreise-tankrabatt-daempft-inflation-aber-noch-keine-entwarnung/100266197.html"
+            "title": "Gipfel in Montreal: EU und Kanada schmieden Allianz für die Zukunft",
+            "link": "https://www.handelsblatt.com/politik/international/gipfel-in-montreal-eu-und-kanada-schmieden-allianz-fuer-die-zukunft/100266031.html"
           }
         ]
       }
     },
     {
-      "id": "handelsblatt-61452967cade4cd7",
+      "id": "handelsblatt-52d826bcdf6967fa",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "+++ US-Midterms +++: Nach Absagen – Trump reist nun doch zu Wahlkampfveranstaltungen",
-      "link": "https://www.handelsblatt.com/politik/international/usa-nach-absagen-trump-reist-nun-doch-zu-wahlkampfveranstaltungen/29669594.html",
-      "summary": "Schlappe für Trump im Streit um 20.000 Wähler in Kalifornien +++ Hegseth erlässt weiteren General +++ USA weisen kubanischen Diplomaten aus +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/JpVJCBHm3thu/cover/900/506/0/0/0/533/0.5/0.5/october-29-2026-washington-district-of-columbia-usa-united-states-president-donald-j-trump-give.jpg",
-      "published": "2026-10-30T15:15:00+00:00",
+      "title": "Treffen in Atlanta: Kein „Familienfoto“: G20-Außenminister mit Signal an Moskau",
+      "link": "https://www.handelsblatt.com/politik/international/treffen-in-atlanta-kein-familienfoto-g20-aussenminister-mit-signal-an-moskau/100266251.html",
+      "summary": "Die großen Industrie- und Schwellenländer beraten in Atlanta über die Kriege und Krisen im Nahen Osten und der Ukraine. Auch der Umgang mit Russlands Außenminister wird zu einem zentralen Thema.",
+      "image": "https://images.handelsblatt.com/vnSebnnQooJE/cover/900/506/0/0/71/70/0.5/0.5/g20-aussenministertreffen.jpg",
+      "published": "2026-10-30T17:38:57+00:00",
       "category": "Politik",
-      "score": 76.11
+      "score": 82.28
     },
     {
-      "id": "tagesschau-5860bf7a6d11831f",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Aus für die Nowaja Gaseta in Russland: \"Die Zeitung gibt es nicht mehr\"",
-      "link": "https://www.tagesschau.de/ausland/asien/kremlkritische-zeitung-russland-geschlossen-100.html",
-      "summary": "Die Nowaja Gaseta galt als eine der kritischsten Stimmen in Russland. Nach mehr als 30 Jahren und massivem Druck muss sie schließen. \"Nowaja Gaseta beendet ihr Leben\", sagt Chefredakteur Sokolow. V on Björn Blaschke. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/e5fa707f-f898-40ad-a473-4fc6ed87c5a9/AAABoYyYSP8/AAABnSSvrFg/16x9-big/nowaja-gaseta-106.jpg?width=1920",
-      "published": "2026-10-30T13:20:47+01:00",
+      "id": "handelsblatt-b449b9791cf8447b",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ Iran-Krieg +++: Militärchef berät wohl Trump über Optionen im Iran-Krieg",
+      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-militaerchef-beraet-wohl-trump-ueber-optionen-im-iran-krieg/100136895.html",
+      "summary": "USA ziehen Regierungsmitarbeiter aus Saudi-Arabien ab +++ Vermittler aus Katar wohl zu Gesprächen in den Iran gereist +++ Brennender Supertanker in Straße von Hormus +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/i6GQCua853Nr/cover/900/506/0/0/82/428/0.5/0.5/archiv-14.05.2026-usa-washington-us-admiral-charles-brad-cooper-ii-befehlshaber-des-us-central.jpg",
+      "published": "2026-10-30T18:52:00+00:00",
+      "category": "Politik",
+      "score": 75.29
+    },
+    {
+      "id": "deutschlandfunk-bcae86d3a8e393af",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Gewalt und schwindende Ressourcen - UNHCR: Lage afrikanischer Flüchtlinge im Jemen verschlimmert sich",
+      "link": "https://www.deutschlandfunk.de/unhcr-lage-afrikanischer-fluechtlinge-im-jemen-verschlimmert-sich-100.html",
+      "summary": "Das Flüchtlingshilfswerk der Vereinten Nationen zeigt sich besorgt über die Situation von mehr als 65.000 größtenteils afrikanischen Flüchtlingen im Jemen. Die Menschen in dem Kriegsland seien Opfer einer sich rapide verschlimmernden humanitären Krise, erklärte ein UNHCR-Sprecher in Genf.",
+      "image": null,
+      "published": "2026-10-30T21:44:14+01:00",
       "category": "Nachrichten",
-      "score": 75.93,
-      "coverage": {
-        "sourceCount": 4,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Russland - Aus für kremlkritische Zeitung \"Nowaja Gaseta\"",
-            "link": "https://www.deutschlandfunk.de/aus-fuer-kremlkritische-zeitung-nowaja-gaseta-100.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Nowaja Gaseta: Aus für kremlkritische Zeitung von Friedensnobelpreisträger",
-            "link": "https://www.handelsblatt.com/politik/international/nowaja-gaseta-aus-fuer-kremlkritische-zeitung-von-friedensnobelpreistraeger/100266230.html"
-          },
-          {
-            "source": "deutsche-welle",
-            "title": "Aus für kremlkritische Zeitung \"Nowaja Gaseta\"",
-            "link": "https://www.dw.com/de/aus-für-kremlkritische-zeitung-nowaja-gaseta/a-79805570?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
+      "score": 74.85
+    },
+    {
+      "id": "deutschlandfunk-e682d1c83444c864",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Nordseeküste - Erste Herbst-Sturmfluten lassen Badestrände auf Norderney und Wangerooge schrumpfen",
+      "link": "https://www.deutschlandfunk.de/erste-herbst-sturmfluten-lassen-badestraende-auf-norderney-und-wangerooge-schrumpfen-100.html",
+      "summary": "Die ersten Herbststürme dieses Jahres haben auf fast allen ostfriesischen Inseln deutlich sichtbare Schäden hinterlassen. Zum Teil gingen erhebliche Teile der Badestrände verloren. Den Schutz der Inseln insgesamt sehen die Behörden aber nicht gefährdet.",
+      "image": "https://bilder.deutschlandfunk.de/91/4b/38/93/914b3893-3ec9-4a6d-bd94-f206171a5d4f/norderney-weisse-duene-sturmfluten-strandabschnitt-sand-abbruchkanten-sturmflut-100-1920x1920.jpg",
+      "published": "2026-10-30T21:44:14+01:00",
+      "category": "Nachrichten",
+      "score": 74.85
+    },
+    {
+      "id": "handelsblatt-46d71e23037ebcce",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Deep Read: „Trumps Ziel macht ihn bedrohlicher als Marine Le Pen in Frankreich oder die AfD in Deutschland“",
+      "link": "https://www.handelsblatt.com/politik/international/usa-wenn-trump-diesen-kurs-nicht-beendet-droht-eine-tiefe-wirtschaftskrise/100263638.html",
+      "summary": "Daron Acemoglu prophezeit eine tiefe Wirtschaftskrise, wenn der US-Präsident seinen „Zerstörungskurs“ nicht beende. Der Nobelpreisträger sagt: „Ich möchte heute nicht jung sein.“",
+      "image": "https://images.handelsblatt.com/ktlg24xUM7i0/cover/900/506/0/0/0/0/0.5/0.5/daron-acemoglu-longread.jpg",
+      "published": "2026-10-30T18:17:22+00:00",
+      "category": "Politik",
+      "score": 74.81
+    },
+    {
+      "id": "spiegel-0b1350ff42a64f66",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Oleschky, Ukraine: Ein bisschen Frieden, ein kurzes Verschnaufen, dann geht der Krieg weiter",
+      "link": "https://www.spiegel.de/ausland/ukraine-lokaler-waffenstillstand-ermoeglicht-rettung-von-zivilisten-hoffnung-in-oleschky-a-d049ce41-0541-4f18-881b-82778beeb224#ref=rss",
+      "summary": "In Oleschky hat Russland einen lokalen Waffenstillstand eingehalten und mit der Ukraine die Rettung von Zivilisten organisiert. Der Hilfseinsatz in der Region Cherson sollte aber keine allzu großen Hoffnungen wecken.",
+      "image": "https://cdn.prod.www.spiegel.de/images/8c31a323-eee4-49cd-9e41-f944603de092_w1200_r1.778_fpx45_fpy51.jpg",
+      "published": "2026-10-30T16:49:00+01:00",
+      "category": "Politik",
+      "score": 73.75
     },
     {
       "id": "deutsche-welle-984a2525d8cdef3d",
@@ -154,7 +187,7 @@
       "image": "https://static.dw.com/image/79799414_6.jpg",
       "published": "2026-10-30T14:57:00+00:00",
       "category": "Politik",
-      "score": 75.86
+      "score": 72.03
     },
     {
       "id": "deutsche-welle-31b0fce841949759",
@@ -166,19 +199,31 @@
       "image": "https://static.dw.com/image/79567904_6.jpg",
       "published": "2026-10-30T14:33:00+00:00",
       "category": "Politik",
-      "score": 75.53
+      "score": 71.7
     },
     {
-      "id": "deutschlandfunk-e682d1c83444c864",
+      "id": "deutschlandfunk-64e70923033c7464",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Nordseeküste - Erste Herbst-Sturmfluten lassen Badestrände auf Norderney und Wangerooge schrumpfen",
-      "link": "https://www.deutschlandfunk.de/erste-herbst-sturmfluten-lassen-badestraende-auf-norderney-und-wangerooge-schrumpfen-100.html",
-      "summary": "Die ersten Herbststürme dieses Jahres haben auf fast allen ostfriesischen Inseln deutlich sichtbare Schäden hinterlassen. Zum Teil gingen erhebliche Teile der Badestrände verloren. Den Schutz der Inseln insgesamt sehen die Behörden aber nicht gefährdet.",
-      "image": "https://bilder.deutschlandfunk.de/91/4b/38/93/914b3893-3ec9-4a6d-bd94-f206171a5d4f/norderney-weisse-duene-sturmfluten-strandabschnitt-sand-abbruchkanten-sturmflut-100-1920x1920.jpg",
-      "published": "2026-10-30T17:14:00+01:00",
-      "category": "Nachrichten",
-      "score": 74.93
+      "title": "G20-Außenminister-Treffen - Rubio fordert gemeinsames Vorgehen gegen Bedrohungen der Weltwirtschaft",
+      "link": "https://www.deutschlandfunk.de/rubio-fordert-gemeinsames-vorgehen-gegen-bedrohungen-der-weltwirtschaft-102.html",
+      "summary": "US-Außenminister Rubio hat beim Treffen der G20-Außenminister eine stärkere Zusammenarbeit gefordert, um gegen Bedrohungen der Weltwirtschaft vorzugehen. Wirtschaftliche und geopolitische Krisen bedrohten den globalen Handel, die Versorgung mit Energie und Lebensmitteln sowie die freie Schifffahrt, sagte Rubio zum Auftakt des Treffens in Atlanta im Bundesstaat Georgia.",
+      "image": "https://bilder.deutschlandfunk.de/dc/b7/ae/e3/dcb7aee3-0905-44e5-b203-f00053e1a265/rubio-g-20-treffen-100-1920x1920.jpg",
+      "published": "2026-10-30T21:44:14+01:00",
+      "category": "Politik",
+      "score": 69.85
+    },
+    {
+      "id": "spiegel-1215e35108e8ff88",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Abdul El-Sayed: Kann er für die Demokraten die Mehrheit im Senat erobern?",
+      "link": "https://www.spiegel.de/ausland/abdul-el-sayed-kann-er-fuer-die-demokraten-die-mehrheit-im-senat-erobern-a-5cc3eb74-450a-4e06-8649-07cbcac04e24#ref=rss",
+      "summary": "Donald Trump nennt ihn »Mohammed« und diffamiert ihn als »Dschihadisten«. Trotzdem liegt Abdul El-Sayed in Michigan vorn. Bei den Midterms könnte er die Mehrheit für die Demokraten erobern.",
+      "image": "https://cdn.prod.www.spiegel.de/images/73a5ce11-b00d-4b2b-8a49-17e8c563c8b9_w1200_r1.778_fpx70_fpy44.98.jpg",
+      "published": "2026-10-30T20:20:00+01:00",
+      "category": "Politik",
+      "score": 68.68
     },
     {
       "id": "deutsche-welle-0ef7600b77735b79",
@@ -190,107 +235,7 @@
       "image": "https://static.dw.com/image/79801921_6.jpg",
       "published": "2026-10-30T08:00:00+00:00",
       "category": "Politik",
-      "score": 70.07
-    },
-    {
-      "id": "deutschlandfunk-0a4a92d27477ab1e",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Plattform Binance - Reaktionen auf Krypto-Hackerangriff: \"Entsetzen an der Börse\", \"3,3 Milliarden Dollar sind nicht mehr zurückzuholen\"",
-      "link": "https://www.deutschlandfunk.de/reaktionen-auf-krypto-hackerangriff-entsetzen-an-der-boerse-3-3-milliarden-dollar-sind-nicht-mehr-zu-100.html",
-      "summary": "Der Hackerangriff auf die weltgrößte Digitalwährungsbörse Binance hat bei Anlegern und Börsenvertretern für Aufruhr gesorgt. Wie das Unternehmen erklärte, wurden Kryptowährungen im Wert von 6,3 Milliarden US-Dollar gestohlen, um einen Teil davon wird noch gerungen. Ein Überblick über den Ablauf des wohl größten Krypto-Hackerangriffs der Geschichte und darüber, wie sich Anleger schützen können.",
-      "image": "https://bilder.deutschlandfunk.de/63/c7/08/26/63c70826-5020-4a28-857b-b6ccfdceaf75/binance-100-1920x1920.jpg",
-      "published": "2026-10-30T17:14:00+01:00",
-      "category": "Wirtschaft",
-      "score": 69.93,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "heise",
-            "title": "Neuer größter Diebstahl: Über 6 Milliarden US-Dollar bei Binance abgegriffen",
-            "link": "https://www.heise.de/news/6-3-Milliarden-US-Dollar-Neuer-groesster-Krypto-Coup-aller-Zeiten-trifft-Binance-11505601.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-0b1350ff42a64f66",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ukraine: Lokaler Waffenstillstand ermöglicht Rettung von Zivilisten - Hoffnung in Oleschky",
-      "link": "https://www.spiegel.de/ausland/ukraine-lokaler-waffenstillstand-ermoeglicht-rettung-von-zivilisten-hoffnung-in-oleschky-a-d049ce41-0541-4f18-881b-82778beeb224#ref=rss",
-      "summary": "In Oleschky hat Russland einen lokalen Waffenstillstand eingehalten und mit der Ukraine die Rettung von Zivilisten organisiert. Der Hilfseinsatz in der Region Cherson sollte aber keine allzu großen Hoffnungen wecken.",
-      "image": "https://cdn.prod.www.spiegel.de/images/8c31a323-eee4-49cd-9e41-f944603de092_w1200_r1.778_fpx45_fpy51.jpg",
-      "published": "2026-10-30T16:49:00+01:00",
-      "category": "Politik",
-      "score": 69.59
-    },
-    {
-      "id": "handelsblatt-83f504623c74cb36",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Android-Sicherheitslücke: SMS des Todes: Warum Ihr Telefon abstürzt und neu startet",
-      "link": "https://www.handelsblatt.com/technik/it-internet/android-sicherheitsluecke-sms-des-todes-warum-ihr-telefon-abstuerzt-und-neu-startet/100266240.html",
-      "summary": "Eine unsichtbare SMS kann Android-Smartphones in eine Neustart-Schleife schicken - und eine Wiederherstellungs-Aufforderung samt Löschen aller Daten anzeigen. Was Betroffene keinesfalls tun sollten.",
-      "image": "https://images.handelsblatt.com/1IBSV3QYH8yF/cover/900/506/0/0/107/106/0.5/0.5/eine-android-figur-erscheint-hinter-einem-smartphone.jpg",
-      "published": "2026-10-30T15:37:39+00:00",
-      "category": "Wirtschaft",
-      "score": 68.43,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "heise",
-            "title": "„SMS des Todes“: Sicherheitslücke lässt Android-Smartphones abstürzen",
-            "link": "https://www.heise.de/news/SMS-des-Todes-Sicherheitsluecke-laesst-Android-Smartphones-abstuerzen-11506526.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag"
-          }
-        ]
-      }
-    },
-    {
-      "id": "heise-392d2d2b246f1c2d",
-      "source": "heise",
-      "sourceWeight": 0.9,
-      "title": "Claude-Code-Erweiterung im Cursor-Marktplatz mit Malware infiziert",
-      "link": "https://www.heise.de/news/Claude-Code-Erweiterung-im-Cursor-Marktplatz-mit-Malware-infiziert-11506368.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "summary": "Im Marktplatz der Entwicklungsumgebung Cursor steckte in der offiziellen Claude-Code-Erweiterung eine SSH-Backdoor.",
-      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/2/0/7/9/shutterstock_2550518111-267ab5f57bfada2a.jpeg",
-      "published": "2026-10-30T14:08:00+01:00",
-      "category": "Technologie",
-      "score": 63.35,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "golem",
-            "title": "Claude Code: Millionenfach installierte Cursor-Erweiterung kompromittiert",
-            "link": "https://www.golem.de/news/claude-code-millionenfach-installierte-vs-code-erweiterung-kompromittiert-2610-214680.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "heise-785782dc8fc0be98",
-      "source": "heise",
-      "sourceWeight": 0.9,
-      "title": "Verbraucherzentrale Niedersachsen mahnt Disney+ wegen Premium-Abo ab",
-      "link": "https://www.heise.de/news/Voller-Preis-weniger-Bild-Verbraucherzentrale-mahnt-Disney-ab-11504225.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "summary": "HDR und 4K funktionieren auf Disney+ seit Monaten bestenfalls eingeschränkt. Nun mahnen Verbraucherschützer das Unternehmen ab – und fordern niedrigere Preise.",
-      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/0/9/9/8/shutterstock_1551002795-68fe53359bd58305.jpeg",
-      "published": "2026-10-29T14:22:00+01:00",
-      "category": "Wirtschaft",
-      "score": 62.92,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "golem",
-            "title": "Disney+ Premium: Verbraucherschützer wollen Preisnachlass für Abonnenten erreichen",
-            "link": "https://www.golem.de/news/disney-premium-verbraucherschuetzer-wollen-preisnachlass-fuer-abonnenten-erreichen-2610-214670.html"
-          }
-        ]
-      }
+      "score": 66.24
     }
   ]
 }
