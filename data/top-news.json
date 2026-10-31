@@ -1,28 +1,172 @@
 {
-  "generatedAt": "2026-10-31T13:57:03.205345+00:00",
+  "generatedAt": "2026-10-31T18:39:02.549114+00:00",
   "count": 15,
   "articles": [
     {
-      "id": "handelsblatt-cb5f19dfbf1cf790",
+      "id": "tagesschau-f1470d0e5cb7a626",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Arabische Parteien in Israel stecken in einem Dilemma",
+      "link": "https://www.tagesschau.de/ausland/asien/israel-wahl-arabische-parteien-100.html",
+      "summary": "Die arabischen Listen in Israel haben bei der Parlamentswahl große Erfolge erzielt. Sie traten gemeinsam an, unterscheiden sich aber inhaltlich. Vor allem wollen sie nicht nur Mehrheitsbeschaffer sein. Von Julio Segador .[ mehr ]",
+      "image": "https://images.tagesschau.de/image/005f06c7-ca9c-4c25-9207-cbebb48ad074/AAABoZDn2MM/AAABnSSvrFg/16x9-big/israel-arabischepartei-100.jpg?width=1920",
+      "published": "2026-10-31T09:49:15+01:00",
+      "category": "Politik",
+      "score": 88.12,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Wahl in Israel: Warum tanzen wir nicht auf den Straßen? - Meinung",
+            "link": "https://www.spiegel.de/kultur/wahl-in-israel-warum-tanzen-wir-nicht-auf-den-strassen-meinung-a-7ec0f2c8-dacc-425f-b704-6bffd67c1d01#ref=rss"
+          },
+          {
+            "source": "deutsche-welle",
+            "title": "Behörden in Israel weisen Wahlbetrugsvorwürfe zurück",
+            "link": "https://www.dw.com/de/behörden-in-israel-weisen-wahlbetrugsvorwürfe-zurück/a-79808773?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-efa33cecdec1fc38",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Berliner Linke stimmt für Aufnahme von Koalitionsverhandlungen mit Grünen und SPD",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/linke-parteitag-koalitionsverhandlungen-100.html",
+      "summary": "Sechs Wochen nach der Wahl in Berlin ist der Weg frei für rot-grün-rote Koalitionsverhandlungen: Nach Grünen und SPD stimmte nun auch der Parteitag der Linken dafür. Am Montag sollen die Gespräche beginnen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/3c693696-01d8-4305-a50e-b410eef58dc0/AAABoZKxZXE/AAABnSSvrFg/16x9-big/berlin-die-linke-100.jpg?width=1920",
+      "published": "2026-10-31T19:00:40+01:00",
+      "category": "Politik",
+      "score": 86.92,
+      "coverage": {
+        "sourceCount": 4,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Berlin - Linke stimmt für Koalitionsverhandlungen mit Grünen und SPD",
+            "link": "https://www.deutschlandfunk.de/linke-stimmt-fuer-koalitionsverhandlungen-mit-gruenen-und-spd-100.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "Linke in Berlin: Elif Eralp bekommt Applaus bei Parteitag – Vanessa Emde demonstriert draußen",
+            "link": "https://www.spiegel.de/politik/linke-in-berlin-elif-eralp-bekommt-applaus-bei-parteitag-vanessa-emde-demonstriert-draussen-a-1c4807ec-4e32-4a03-8b54-9c4138debf4e#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Regierungsbildung in Berlin: Weg frei für rot-grün-rote Koalitionsgespräche in Berlin",
+            "link": "https://www.handelsblatt.com/politik/deutschland/regierungsbildung-in-berlin-weg-frei-fuer-rot-gruen-rote-koalitionsgespraeche-in-berlin/100266352.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-a8944ca2f399b6a8",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "\"Allianz für die Zukunft\": Kanada und Europa gründen Bündnis",
+      "link": "https://www.tagesschau.de/ausland/amerika/kanada-eu-allianz-zukunft-100.html",
+      "summary": "Die EU und Kanada gründen in Montreal eine \"Allianz für die Zukunft\". Ziel ist mehr Unabhängigkeit und eine engere Zusammenarbeit von KI bis Raumfahrt. Auch die Ukraine spielt eine Rolle.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/b24841d1-87c4-4a16-ba6c-c4db63284842/AAABoY4uPLA/AAABnSSvrFg/16x9-big/kanada-eu-buendnis-100.jpg?width=1920",
+      "published": "2026-10-31T04:57:32+01:00",
+      "category": "Politik",
+      "score": 83.6,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Gipfel in Montreal - EU und Kanada verabreden \"Allianz für die Zukunft\" - Von der Leyen spricht mit Carney auch über Mitgliedschaft",
+            "link": "https://www.deutschlandfunk.de/eu-und-kanada-verabreden-allianz-fuer-die-zukunft-von-der-leyen-spricht-mit-carney-auch-ueber-mitgli-102.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Gipfel in Montreal: EU und Kanada schmieden Allianz für die Zukunft",
+            "link": "https://www.handelsblatt.com/politik/international/gipfel-in-montreal-eu-und-kanada-schmieden-allianz-fuer-die-zukunft/100266031.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "handelsblatt-e532c81eef1eac2a",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Ukraine-Krieg: Oleschky-Flüchtlinge sollen bald zurück in der Ukraine sein",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-oleschky-fluechtlinge-sollen-bald-zurueck-in-der-ukraine-sein/100266307.html",
-      "summary": "Ukrainer sind nach der von US-First-Lady Melania Trump vermittelten Evakuierung in der von Russland besetzten Frontstadt Oleschky in Belarus. Von dort soll es in die Ukraine gehen.",
-      "image": "https://images.handelsblatt.com/pe93lc4fnzlU/cover/900/506/0/0/192/192/0.5/0.5/ukraine-krieg-oleschky.jpg",
-      "published": "2026-10-31T12:26:55+00:00",
+      "title": "Trump-Watch: Steht MAGA noch hinter Trump? – mit Politologin Julia Simon",
+      "link": "https://www.handelsblatt.com/audio/trump-watch-podcast/trump-watch-steht-maga-noch-hinter-trump-mit-politologin-julia-simon/100266284.html",
+      "summary": "Frühere Verbündete wenden sich von Donald Trump ab, die Zwischenwahlen stehen kurz bevor und die Frage nach den Präsidentschaftskandidaten 2028 wird lauter. Steckt MAGA in der Krise?",
+      "image": "https://images.handelsblatt.com/Jg6A18QplJvV/cover/1440/810/0/0/315/315/0.5/0.5/.jpg",
+      "published": "2026-10-31T14:06:47+00:00",
       "category": "Politik",
-      "score": 91.75,
+      "score": 81.22
+    },
+    {
+      "id": "tagesschau-f0aec8538f4c32ec",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Midterms in den USA: Kippt ausgerechnet Texas?",
+      "link": "https://www.tagesschau.de/ausland/amerika/usa-midterms-wahlkampf-texas-100.html",
+      "summary": "In Texas könnte bei den Zwischenwahlen am Dienstag ein Demokrat das Rennen um den Sitz im US-Senat für sich entscheiden. Dabei gewinnen in dem Bundesstaat seit Jahrzehnten verlässlich die Republikaner. Welche Themen beschäftigen die Wähler? Von S. Schmidt. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/e9f16895-9ebb-4142-af64-dd559d5ebdcb/AAABoYvDJ2U/AAABnSSvrFg/16x9-big/anhaenger-trump-102.jpg?width=1920",
+      "published": "2026-10-31T19:05:02+01:00",
+      "category": "Politik",
+      "score": 78.92,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "deutsche-welle",
-            "title": "Oleschky-Evakuierung: Wer verhandelt für Russland und die Ukraine?",
-            "link": "https://www.dw.com/de/oleschky-evakuierung-wer-verhandelt-für-russland-und-die-ukraine/a-79808325?maca=de-rss-de-all-1119-rdf"
+            "source": "deutschlandfunk",
+            "title": "Midterms - Demokraten und Republikaner bemühen US-Gerichte vor den Zwischenwahlen",
+            "link": "https://www.deutschlandfunk.de/demokraten-und-republikaner-bemuehen-us-gerichte-vor-den-zwischenwahlen-102.html"
           }
         ]
       }
+    },
+    {
+      "id": "spiegel-7be71cb77571941b",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Oleschky-Flüchtlinge sind wieder in der Ukraine",
+      "link": "https://www.spiegel.de/ausland/oleschky-fluechtlinge-sind-wieder-in-der-ukraine-a-84c2759e-6b0b-419a-87e9-ab0b2e5ff5a7#ref=rss",
+      "summary": "Ukrainische Männer, Frauen und Kinder haben die Trümmerstadt Oleschky verlassen und sind via Belarus in Sicherheit gebracht worden. Um wie viele Menschen es sich handelt, ist unklar.",
+      "image": "https://cdn.prod.www.spiegel.de/images/9b3efc3a-bafd-407e-b5f2-cef39eb2dc98_w1200_r1.778_fpx55.99_fpy49.99.jpg",
+      "published": "2026-10-31T17:15:00+01:00",
+      "category": "Politik",
+      "score": 77.46,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ Ukraine-Krieg +++: Oleschky-Flüchtlinge in der Ukraine angekommen – Evakuierung von ukrainischer Frontstadt beendet",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-oleschky-fluechtlinge-in-der-ukraine-angekommen/27982126.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-cd466540bdbb00c3",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Midterm-Wahlkampf in Alaska: »Trump wird so lange weitermachen, bis ihn jemand stoppt«",
+      "link": "https://www.spiegel.de/ausland/midterm-wahlkampf-in-alaska-trump-wird-so-lange-weitermachen-bis-ihn-jemand-stoppt-a-c8cd7822-3b01-44e3-ba79-3d0aae5c7322#ref=rss",
+      "summary": "Laut Umfragen ist der US-Präsident unbeliebt wie nie, selbst bei manchen Republikanern. In Alaska könnte die Demokratin Mary Peltola deshalb siegen – und Trump die Macht im Senat kosten. Doch wenige Tage vor der Wahl macht ihr ein Skandal zu schaffen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/76007521-f809-4590-8989-ac8a4f7bbc15_w1200_r1.778_fpx65.33_fpy50.jpg",
+      "published": "2026-10-31T17:18:00+01:00",
+      "category": "Politik",
+      "score": 76.04
+    },
+    {
+      "id": "deutschlandfunk-21a601c02af2f91c",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Gewalt und schwindende Ressourcen - UNHCR: Lage afrikanischer Flüchtlinge im Jemen verschlimmert sich",
+      "link": "https://www.deutschlandfunk.de/unhcr-lage-afrikanischer-fluechtlinge-im-jemen-verschlimmert-sich-104.html",
+      "summary": "Das Flüchtlingshilfswerk der Vereinten Nationen zeigt sich besorgt über die Situation von mehr als 65.000 größtenteils afrikanischen Flüchtlingen im Jemen. Die Menschen in dem Kriegsland seien Opfer einer sich rapide verschlimmernden humanitären Krise, erklärte ein UNHCR-Sprecher in Genf.",
+      "image": null,
+      "published": "2026-10-31T19:33:07+01:00",
+      "category": "Nachrichten",
+      "score": 74.92
     },
     {
       "id": "deutschlandfunk-c615202a6891d6d1",
@@ -30,11 +174,11 @@
       "sourceWeight": 0.95,
       "title": "Iran-Krieg - Iran will auf Bedrohung geografisch unbeschränkt reagieren",
       "link": "https://www.deutschlandfunk.de/iran-will-auf-bedrohung-geografisch-unbeschraenkt-reagieren-100.html",
-      "summary": "Der Iran will im Krieg gegen die USA und Israel offenbar seine Angriffe ausweiten.",
+      "summary": "Der Iran droht im Falle neuer Angriffe durch die USA mit einer Ausweitung von Vergeltungsattacken.",
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_f/66/NOVA_f6618dcfb29496786ec5cf62081ed974/craft-12936327-asset-100-1920x1920.jpg",
-      "published": "2026-10-31T14:52:41+01:00",
-      "category": "Politik",
-      "score": 85.94,
+      "published": "2026-10-31T19:33:07+01:00",
+      "category": "Nachrichten",
+      "score": 74.92,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -47,72 +191,40 @@
       }
     },
     {
-      "id": "tagesschau-d18087cff6efc7b3",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "US-Regierung genehmigt \"Patriot\"-Lieferungen an Ukraine",
-      "link": "https://www.tagesschau.de/ausland/amerika/usa-ukraine-patriot-100.html",
-      "summary": "Um sich gegen russische Angriffe zur Wehr zu setzen, ist die Ukraine vor allem auf US-Waffenlieferungen angewiesen. Diese kamen zuletzt ins Stocken. Bei einer Lieferung hat das US-Außenministerium nun grünes Licht gegeben.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/968e7d78-8248-45ab-a5b3-c7f16815a1e6/AAABnLz_Yjc/AAABnSSvrFg/16x9-big/tuerkei-patriot-100.jpg?width=1920",
-      "published": "2026-10-31T00:56:24+01:00",
+      "id": "handelsblatt-74cad128ac0949bb",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "US-Kongresswahlen: Auf diese Wählergruppen kommt es bei den Midterms an",
+      "link": "https://www.handelsblatt.com/politik/international/us-kongresswahlen-auf-diese-waehlergruppen-kommt-es-bei-den-midterms-an/100266305.html",
+      "summary": "2024 konnte Donald Trump viele Latino-Stimmen für sich gewinnen. Bei den Midterms könnte es anders kommen. Welche Wählergruppen könnten bei den US-Kongresswahlen den Ausschlag geben?",
+      "image": "https://images.handelsblatt.com/aKqXNonEhd-L/cover/900/506/0/0/107/106/0.5/0.5/vor-den-kongresswahlen-in-den-usa-wahlkampf-kalifornien.jpg",
+      "published": "2026-10-31T15:49:20+00:00",
       "category": "Politik",
-      "score": 83.62,
+      "score": 74.64
+    },
+    {
+      "id": "deutschlandfunk-069afcf6a7d7e560",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "\"Gen Z regelt\" - Zehntausende bei Jugendprotesten - Ausschreitungen in mehreren Städten",
+      "link": "https://www.deutschlandfunk.de/zehntausende-bei-jugendprotesten-ausschreitungen-in-mehreren-staedten-100.html",
+      "summary": "Bundesweit haben sich zehntausende Menschen an den Protesten der Initiative \"Gen Z regelt\" beteiligt. Viele der Protestzüge verliefen friedlich, in einigen Städten kam es zu Zusammenstößen zwischen Demonstranten und der Polizei.",
+      "image": "https://bilder.deutschlandfunk.de/27/4b/0a/95/274b0a95-673c-452d-ac58-b9e9a762c40e/koeln-ausschreitungen-100-1920x1920.jpg",
+      "published": "2026-10-31T19:33:07+01:00",
+      "category": "Panorama",
+      "score": 71.6,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
-            "source": "deutschlandfunk",
-            "title": "Abfangraketen - US-Regierung genehmigt Patriot-Verkauf an Ukraine",
-            "link": "https://www.deutschlandfunk.de/us-regierung-genehmigt-patriot-verkauf-an-ukraine-108.html"
+            "source": "spiegel",
+            "title": "»Gen Z regelt«: Erste Proteste in Berlin verlaufen weitgehend friedlich",
+            "link": "https://www.spiegel.de/panorama/gesellschaft/gen-z-regelt-erste-proteste-in-berlin-verlaufen-weitgehend-friedlich-a-8ed42304-8a51-42d0-bd90-a476f1fdd125#ref=rss"
           },
           {
-            "source": "spiegel",
-            "title": "Ukraine: Wolodymyr Selenskyj warnt vor langen Lieferfristen bei Patriot-System",
-            "link": "https://www.spiegel.de/ausland/ukraine-krieg-selenskyj-warnt-vor-langen-lieferfristen-bei-patriot-system-a-b25c5ded-a9e8-4493-870e-adc3bc2eff77#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-f1470d0e5cb7a626",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Arabische Parteien in Israel stecken in einem Dilemma",
-      "link": "https://www.tagesschau.de/ausland/asien/israel-wahl-arabische-parteien-100.html",
-      "summary": "Die arabischen Listen in Israel haben bei der Parlamentswahl große Erfolge erzielt. Sie traten gemeinsam an, unterscheiden sich aber inhaltlich. Vor allem wollen sie nicht nur Mehrheitsbeschaffer sein. Von Julia Segador .[ mehr ]",
-      "image": "https://images.tagesschau.de/image/005f06c7-ca9c-4c25-9207-cbebb48ad074/AAABoZDn2MM/AAABnSSvrFg/16x9-big/israel-arabischepartei-100.jpg?width=1920",
-      "published": "2026-10-31T09:49:15+01:00",
-      "category": "Politik",
-      "score": 82.72,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutsche-welle",
-            "title": "Behörden in Israel weisen Wahlbetrugsvorwürfe zurück",
-            "link": "https://www.dw.com/de/behörden-in-israel-weisen-wahlbetrugsvorwürfe-zurück/a-79808773?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-2ee106c80dcb32dd",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Erste Einwohner aus besetzter ukrainischer Stadt Oleschky evakuiert",
-      "link": "https://www.tagesschau.de/ausland/europa/ukraine-erste-menschen-verlassen-oleschky-100.html",
-      "summary": "Inmitten einer Feuerpause haben die ersten Einwohner von Oleschky die von Russland besetzte südukrainische Stadt verlassen. Die Ukraine hofft, dass auch weitere Städte in der Region auf ähnlichem Weg versorgt werden können.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/d4855fdf-43b3-43c7-a54a-397ee7c45e9a/AAABoY2w1fI/AAABnSSvrFg/16x9-big/busse-oleschky-100.jpg?width=1920",
-      "published": "2026-10-30T17:49:53+01:00",
-      "category": "Politik",
-      "score": 78.94,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Ukrainekrieg - Einwohner aus russisch besetzter Stadt Oleschky in Belarus gelandet",
-            "link": "https://www.deutschlandfunk.de/einwohner-aus-russisch-besetzter-stadt-oleschky-in-belarus-gelandet-100.html"
+            "source": "handelsblatt",
+            "title": "Demonstrationen: Ausschreitungen in mehreren Städten nach friedlichem Protest",
+            "link": "https://www.handelsblatt.com/politik/deutschland/demonstrationen-ausschreitungen-in-mehreren-staedten-nach-friedlichem-protest/100266315.html"
           }
         ]
       }
@@ -127,43 +239,31 @@
       "image": "https://images.handelsblatt.com/1gocD1qq4oxA/cover/900/506/0/0/0/0/0.5/0.5/vincent-harris-weidel-trump.jpg",
       "published": "2026-10-31T12:00:00+00:00",
       "category": "Politik",
-      "score": 75.37
+      "score": 71.46
     },
     {
-      "id": "tagesschau-71884ff795a66601",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Evakuierungsaktion im ukrainischen Oleschky abgeschlossen",
-      "link": "https://www.tagesschau.de/ausland/europa/ukraine-evakuierung-oleschky-100.html",
-      "summary": "Es war die größte gemeinsame Aktion von Ukrainern und Russen seit Kriegsbeginn: Mit 25 Bussen wurden Menschen aus der Frontstadt Oleschky gebracht. Ein Teil von ihnen ist bereits in Belarus angekommen, um in die Ukraine weiterzureisen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/76612aaf-a6e5-4bfd-9d9d-716c0bae47b7/AAABoZES8Ik/AAABnSSvrFg/16x9-big/bus-evakuierung-gomel-100.jpg?width=1920",
-      "published": "2026-10-31T10:14:41+01:00",
+      "id": "netzpolitik-ded45f573f514762",
+      "source": "netzpolitik",
+      "sourceWeight": 0.75,
+      "title": "Datentausch und Strafverfolgung: Trump findet ersten EU-Partner zur Jagd auf Antifa-Gruppen",
+      "link": "https://netzpolitik.org/2026/datentausch-und-strafverfolgung-trump-findet-ersten-eu-partner-zur-jagd-auf-antifa-gruppen/",
+      "summary": "Washington und Budapest wollen Informationen über linke Gruppen austauschen und sie gemeinsam verfolgen. Im besonderen Fokus steht eine deutsche „Antifa Ost“. Die Bundesregierung bereitet unterdessen einen zweiten US-Gipfel zu „Linksextremismus“ in Deutschland vor. Marco Rubio und Anita Orbán geben sich die Hand. – Alle Rechte vorbehalten: IMAGO / Agencia EFE Die ungarische Außenministerin Anita Orbán hat am Donnerstag bei einem Besuch in Washington mit ihrem US-Amtskollegen Marco Rubio ein Memorandum zur gemeinsamen Verfolgung antifaschistischer Gruppen geschlossen. Es ist das erste bekannt gewordene bilaterale Abkommen dieser Art seit dem Start von Trumps Krieg gegen politische Gegner*innen, insbesondere wenn sich diese dem Anarchismus oder Antifaschismus verschrieben haben. Das amerikanisch-ungarische Memorandum sieht einen verstärkten Informationsaustausch und die gemeinsame Verfolgung grenzüberschreitender Netzwerke des „linksextremen Terrorismus“ vor. Rubio sprach von dessen „Wiederkehr“ , die „zu lange ignoriert“ worden sei. Orbán ergänzte, die Zusammenarbeit ziele auf „Antifa Ost“ und andere Gruppen, die „sowohl in den Vereinigten Staaten als auch in Ungarn“ aktiv seien. …",
+      "image": "https://cdn.netzpolitik.org/wp-upload/2026/10/imago0871246960h-scaled-e1793457907657.jpg",
+      "published": "2026-10-31T15:09:45+00:00",
       "category": "Politik",
-      "score": 75.08
+      "score": 71.09
     },
     {
-      "id": "deutschlandfunk-21a601c02af2f91c",
-      "source": "deutschlandfunk",
+      "id": "spiegel-21dbd957e82c5771",
+      "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Gewalt und schwindende Ressourcen - UNHCR: Lage afrikanischer Flüchtlinge im Jemen verschlimmert sich",
-      "link": "https://www.deutschlandfunk.de/unhcr-lage-afrikanischer-fluechtlinge-im-jemen-verschlimmert-sich-104.html",
-      "summary": "Das Flüchtlingshilfswerk der Vereinten Nationen zeigt sich besorgt über die Situation von mehr als 65.000 größtenteils afrikanischen Flüchtlingen im Jemen. Die Menschen in dem Kriegsland seien Opfer einer sich rapide verschlimmernden humanitären Krise, erklärte ein UNHCR-Sprecher in Genf.",
-      "image": null,
-      "published": "2026-10-31T14:52:41+01:00",
-      "category": "Nachrichten",
-      "score": 74.94
-    },
-    {
-      "id": "handelsblatt-74cad128ac0949bb",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "US-Kongresswahlen: Auf diese Wählergruppen kommt es bei den Midterms an",
-      "link": "https://www.handelsblatt.com/politik/international/us-kongresswahlen-auf-diese-waehlergruppen-kommt-es-bei-den-midterms-an/100266305.html",
-      "summary": "2024 konnte Donald Trump viele Latino-Stimmen für sich gewinnen. Bei den Midterms könnte es anders kommen. Welche Wählergruppen könnten bei den US-Kongresswahlen den Ausschlag geben?",
-      "image": "https://images.handelsblatt.com/aKqXNonEhd-L/cover/900/506/0/0/107/106/0.5/0.5/vor-den-kongresswahlen-in-den-usa-wahlkampf-kalifornien.jpg",
-      "published": "2026-10-31T07:00:05+00:00",
+      "title": "USA: Washington D.C. und Virginia klagen gegen Pläne für Trumps Triumphbogen",
+      "link": "https://www.spiegel.de/ausland/usa-washington-d-c-und-virginia-klagen-gegen-plaene-fuer-trumps-triumphbogen-a-32053c41-46c0-4eaa-892a-aca2f6e127f7#ref=rss",
+      "summary": "US-Präsident Trump will sich mit einem monumentalen Triumphbogen im Stadtbild der US-Hauptstadt verewigen. Doch nun bekommt er Gegenwind vor Gericht.",
+      "image": "https://cdn.prod.www.spiegel.de/images/1a851c8f-a3e0-4713-a319-d86d726709f4_w1200_r1.778_fpx57.32_fpy50.jpg",
+      "published": "2026-10-31T19:32:00+01:00",
       "category": "Politik",
-      "score": 71.21
+      "score": 69.9
     },
     {
       "id": "golem-f857437af66bfbcf",
@@ -175,67 +275,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214688&amp;page=1&amp;ts=1793431021",
       "published": "2026-10-31T08:17:01+01:00",
       "category": "Politik",
-      "score": 70.44
-    },
-    {
-      "id": "deutschlandfunk-3cbf3c28a22c45ce",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Midterms - Demokraten und Republikaner bemühen US-Gerichte vor den Zwischenwahlen",
-      "link": "https://www.deutschlandfunk.de/demokraten-und-republikaner-bemuehen-us-gerichte-vor-den-zwischenwahlen-102.html",
-      "summary": "Wenige Tage vor den US-Kongresswahlen am kommenden Dienstag nehmen die innenpolitischen Auseinandersetzungen an Schärfe zu und werden auch immer wieder Gerichte bemüht.",
-      "image": "https://bilder.deutschlandfunk.de/NO/VA/_3/a3/NOVA_3a3ad18a8057a8b3fbe272b8717f07f3/craft-13496667-asset-100-1920x1920.jpg",
-      "published": "2026-10-31T14:52:41+01:00",
-      "category": "Politik",
-      "score": 69.94
-    },
-    {
-      "id": "spiegel-94d8b2e6eac4e03e",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Midterms: Sie haben Donald Trump gewählt, damit er für sie kämpft. Und fühlen sich nun verraten",
-      "link": "https://www.spiegel.de/ausland/midterms-sie-haben-donald-trump-gewaehlt-damit-er-fuer-sie-kaempft-jetzt-fuehlen-sie-sich-verraten-a-3ccbf2a2-8ba3-4470-86bf-1a2bee5c44b7#ref=rss",
-      "summary": "Ein Anti-Establishment-Rebell, der den Arbeitern ihre Würde zurückgibt – das versprachen sich viele Wähler von einem US-Präsidenten Trump. Doch kurz vor den Midterms wenden sich selbst treue Anhänger enttäuscht ab.",
-      "image": "https://cdn.prod.www.spiegel.de/images/b45b3423-d5ea-4878-b293-65b7a3bef796_w1200_r1.778_fpx51_fpy82.jpg",
-      "published": "2026-10-31T13:51:00+01:00",
-      "category": "Politik",
-      "score": 69.08
-    },
-    {
-      "id": "spiegel-ba23fc96022bcf7f",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Berlin: Wäre Hertha BSC ein Yogaverein, hier wäre alles blau-weiß - Kolumne",
-      "link": "https://www.spiegel.de/panorama/berlin-waere-hertha-bsc-ein-yogaverein-hier-waere-alles-blau-weiss-kolumne-a-4aba30ce-ed2e-4b4c-bb41-abfeeff09a33#ref=rss",
-      "summary": "Seit der Berliner Wahl gibt es in meinem Wohngebiet eine Fahrradstraße, auf der ich spüre, wie klein die bürgerliche Mitte Berlins inzwischen geworden ist.",
-      "image": "https://cdn.prod.www.spiegel.de/images/7dddf670-1ed1-439e-8d51-acf66244c4e3_w1200_r1.778_fpx48_fpy47.jpg",
-      "published": "2026-10-31T13:47:00+01:00",
-      "category": "Politik",
-      "score": 69.03
-    },
-    {
-      "id": "spiegel-097cf4671e52b78d",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Donald Trump: Der Niedergang seines Populismus – Kolumne",
-      "link": "https://www.spiegel.de/ausland/donald-trump-der-niedergang-seines-populismus-kolumne-a-a04f73a8-bad3-469b-9d95-8091aed9a444#ref=rss",
-      "summary": "Der US-Präsident und seine MAGA-Bewegung werden zerrieben von inneren Widersprüchen und der Enttäuschung der Wähler. Ebbt die autoritäre Welle nun auch in Europa ab?",
-      "image": "https://cdn.prod.www.spiegel.de/images/b9b29ecd-c3c0-46ad-9fab-13b58a0559b0_w1200_r1.778_fpx37.34_fpy50.jpg",
-      "published": "2026-10-31T12:05:00+01:00",
-      "category": "Politik",
-      "score": 67.61
-    },
-    {
-      "id": "deutsche-welle-4b54aa7ab1358d3d",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Ukraine soll Nachschub an Patriot-Raketen erhalten - News kompakt: Das Wichtigste kurz gefasst",
-      "link": "https://www.dw.com/de/ukraine-soll-nachschub-an-patriot-raketen-erhalten-news-kompakt-das-wichtigste-kurz-gefasst/a-79813926?maca=de-rss-de-all-1119-rdf",
-      "summary": "Die USA genehmigen den Verkauf Hunderter Abfangraketen an die Ukraine. Die europaweiten Jugendproteste erfassen nun auch Deutschland. Der DW-Nachrichtenüberblick.",
-      "image": "https://static.dw.com/image/79813989_6.jpg",
-      "published": "2026-10-31T08:00:00+00:00",
-      "category": "Politik",
-      "score": 64.04
+      "score": 66.53
     }
   ]
 }
