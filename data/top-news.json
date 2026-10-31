@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T07:06:15.787737+00:00",
+  "generatedAt": "2026-10-31T07:37:37.270747+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/dd17189a-707c-4b57-af32-bf59855d3d25_w1200_r1.778_fpx28.09_fpy49.93.png",
       "published": "2026-10-31T06:46:00+01:00",
       "category": "Politik",
-      "score": 84.89
+      "score": 84.45
     },
     {
       "id": "tagesschau-2ee106c80dcb32dd",
@@ -24,7 +24,7 @@
       "image": "https://images.tagesschau.de/image/d4855fdf-43b3-43c7-a54a-397ee7c45e9a/AAABoY2w1fI/AAABnSSvrFg/16x9-big/busse-oleschky-100.jpg?width=1920",
       "published": "2026-10-30T17:49:53+01:00",
       "category": "Politik",
-      "score": 83.39,
+      "score": 83.64,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -51,7 +51,7 @@
       "image": "https://images.tagesschau.de/image/b24841d1-87c4-4a16-ba6c-c4db63284842/AAABoY4uPLA/AAABnSSvrFg/16x9-big/kanada-eu-buendnis-100.jpg?width=1920",
       "published": "2026-10-31T04:57:32+01:00",
       "category": "Politik",
-      "score": 83.39,
+      "score": 83.64,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -78,7 +78,7 @@
       "image": "https://images.tagesschau.de/image/968e7d78-8248-45ab-a5b3-c7f16815a1e6/AAABnLz_Yjc/AAABnSSvrFg/16x9-big/tuerkei-patriot-100.jpg?width=1920",
       "published": "2026-10-31T00:56:24+01:00",
       "category": "Politik",
-      "score": 83.39,
+      "score": 83.64,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -105,7 +105,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/e9d779d2-203f-4634-a453-6bdcf252de66_w1200_r1.778_fpx63.34_fpy54.96.jpg",
       "published": "2026-10-31T02:44:00+01:00",
       "category": "Politik",
-      "score": 81.52,
+      "score": 81.09,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -118,16 +118,16 @@
       }
     },
     {
-      "id": "tagesschau-74a6c02e1fb55eed",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Frust bei US-Farmern könnte Trump Stimmen bei den Midterms kosten",
-      "link": "https://www.tagesschau.de/ausland/amerika/usa-midterms-landwirtschaft-100.html",
-      "summary": "Landwirte gelten als wichtige Wählergruppe der US-Republikaner. Doch steigende Kosten und eine unberechenbare Zollpolitik sorgen für Frust. Das könnte bei den Zwischenwahlen zum Stresstest für die Trump-Regierung werden. Von S. Jackisch. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/19f2b79f-aac6-491a-9c76-5095229a5dcd/AAABoY5Y21Q/AAABnSSvrFg/16x9-big/iowa-farm-100.jpg?width=1920",
-      "published": "2026-10-31T05:52:21+01:00",
+      "id": "handelsblatt-74cad128ac0949bb",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "US-Kongresswahlen: Auf diese Wählergruppen kommt es bei den Midterms an",
+      "link": "https://www.handelsblatt.com/politik/international/us-kongresswahlen-auf-diese-waehlergruppen-kommt-es-bei-den-midterms-an/100266305.html",
+      "summary": "2024 konnte Donald Trump viele Latino-Stimmen für sich gewinnen. Bei den Midterms könnte es anders kommen. Welche Wählergruppen könnten bei den US-Kongresswahlen den Ausschlag geben?",
+      "image": "https://images.handelsblatt.com/aKqXNonEhd-L/cover/900/506/0/0/107/106/0.5/0.5/vor-den-kongresswahlen-in-den-usa-wahlkampf-kalifornien.jpg",
+      "published": "2026-10-31T07:00:05+00:00",
       "category": "Politik",
-      "score": 77.14
+      "score": 76.48
     },
     {
       "id": "spiegel-fb283fda9312cb63",
@@ -139,7 +139,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/fedf96ec-e7a5-487e-a728-a2f1133e5161_w1200_r1.778_fpx37.34_fpy50.jpg",
       "published": "2026-10-31T06:21:00+01:00",
       "category": "Politik",
-      "score": 76.54
+      "score": 76.1
+    },
+    {
+      "id": "golem-f857437af66bfbcf",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Drohnenkrieg in der Ukraine: Roboter sollen Abfangdrohnen an die Front bringen",
+      "link": "https://www.golem.de/news/drohnenkrieg-in-der-ukraine-roboter-sollen-abfangdrohnen-an-die-front-bringen-2610-214688.html",
+      "summary": "Die Ukraine baut Drohnen, die von unbemannten Bodenfahrzeugen aus starten und feindliche Flugziele bekämpfen sollen. ( Drohne , Politik )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214688&amp;page=1&amp;ts=1793431021",
+      "published": "2026-10-31T08:17:01+01:00",
+      "category": "Politik",
+      "score": 75.71
     },
     {
       "id": "deutschlandfunk-21a601c02af2f91c",
@@ -149,9 +161,9 @@
       "link": "https://www.deutschlandfunk.de/unhcr-lage-afrikanischer-fluechtlinge-im-jemen-verschlimmert-sich-104.html",
       "summary": "Das Flüchtlingshilfswerk der Vereinten Nationen zeigt sich besorgt über die Situation von mehr als 65.000 größtenteils afrikanischen Flüchtlingen im Jemen. Die Menschen in dem Kriegsland seien Opfer einer sich rapide verschlimmernden humanitären Krise, erklärte ein UNHCR-Sprecher in Genf.",
       "image": null,
-      "published": "2026-10-31T07:45:23+01:00",
+      "published": "2026-10-31T08:34:37+01:00",
       "category": "Nachrichten",
-      "score": 74.71
+      "score": 74.96
     },
     {
       "id": "deutschlandfunk-0951957a92bb5260",
@@ -161,9 +173,9 @@
       "link": "https://www.deutschlandfunk.de/schon-mehr-als-5-000-ebola-tote-im-kongo-102.html",
       "summary": "In der Demokratischen Republik Kongo hat die Zahl der Toten durch das Ebola-Virus die Marke von 5.000 überschritten.",
       "image": "https://bilder.deutschlandfunk.de/7d/9c/1f/2c/7d9c1f2c-d491-48c6-9ae7-604bd550cac2/ebola-kongo-114-1920x1920.jpg",
-      "published": "2026-10-31T07:45:23+01:00",
+      "published": "2026-10-31T08:34:37+01:00",
       "category": "Nachrichten",
-      "score": 71.39,
+      "score": 71.64,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -188,21 +200,9 @@
       "link": "https://www.deutschlandfunk.de/demokraten-und-republikaner-bemuehen-us-gerichte-vor-den-zwischenwahlen-102.html",
       "summary": "Wenige Tage vor den US-Kongresswahlen am kommenden Dienstag nehmen die innenpolitischen Auseinandersetzungen an Schärfe zu und werden auch immer wieder Gerichte bemüht.",
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_3/a3/NOVA_3a3ad18a8057a8b3fbe272b8717f07f3/craft-13496667-asset-100-1920x1920.jpg",
-      "published": "2026-10-31T07:45:23+01:00",
+      "published": "2026-10-31T08:34:37+01:00",
       "category": "Politik",
-      "score": 69.71
-    },
-    {
-      "id": "deutschlandfunk-7e79f6b84a6b1658",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "G20-Treffen - Wadephul hofft auf baldige Verhandlungen zwischen Russland und der Ukraine",
-      "link": "https://www.deutschlandfunk.de/wadephul-hofft-auf-baldige-verhandlungen-zwischen-russland-und-der-ukraine-104.html",
-      "summary": "Bundesaußenminister Wadephul hat sich am Rande des G20-Treffens in Atlanta zuversichtlich gezeigt, dass es bald ernsthafte Verhandlungen zwischen Russland und der Ukraine geben könne.",
-      "image": "https://bilder.deutschlandfunk.de/7f/9b/79/bb/7f9b79bb-9676-494f-9142-b3098f9aab4e/aussenminister-wadephul-montenegro-reise-100-1920x1920.jpg",
-      "published": "2026-10-31T07:45:23+01:00",
-      "category": "Politik",
-      "score": 69.71
+      "score": 69.96
     },
     {
       "id": "handelsblatt-1aa0e059e7afd1e6",
@@ -214,7 +214,7 @@
       "image": "https://images.handelsblatt.com/ktlg24xUM7i0/cover/900/506/0/0/0/0/0.5/0.5/daron-acemoglu-longread.jpg",
       "published": "2026-10-30T18:17:22+00:00",
       "category": "Politik",
-      "score": 66.32
+      "score": 65.89
     },
     {
       "id": "handelsblatt-dcb889c46f59eb99",
@@ -226,7 +226,7 @@
       "image": "https://images.handelsblatt.com/a-ro1VT2cpis/cover/900/506/0/0/254/254/0.5/0.5/urnnewsmldpa.com20090101260722-935-1496883.jpg",
       "published": "2026-10-31T02:31:22+00:00",
       "category": "Politik",
-      "score": 65.18
+      "score": 64.75
     },
     {
       "id": "deutsche-welle-984a2525d8cdef3d",
@@ -238,7 +238,7 @@
       "image": "https://static.dw.com/image/79799414_6.jpg",
       "published": "2026-10-30T14:57:00+00:00",
       "category": "Politik",
-      "score": 63.54
+      "score": 63.1
     },
     {
       "id": "deutsche-welle-31b0fce841949759",
@@ -250,7 +250,7 @@
       "image": "https://static.dw.com/image/79567904_6.jpg",
       "published": "2026-10-30T14:33:00+00:00",
       "category": "Politik",
-      "score": 63.2
+      "score": 62.77
     }
   ]
 }
