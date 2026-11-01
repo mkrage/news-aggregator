@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-11-01T16:56:37.402829+00:00",
+  "generatedAt": "2026-11-01T21:16:30.131509+00:00",
   "count": 15,
   "articles": [
+    {
+      "id": "spiegel-8f3a9afd91bf396b",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Israel: Yair Golan warnt vor neuem Krieg mit Iran unter Netanyahu",
+      "link": "https://www.spiegel.de/ausland/israel-yair-golan-warnt-vor-neuem-krieg-mit-iran-unter-netanyahu-a-4c97e183-0c44-4e8b-88b6-1475f157593b#ref=rss",
+      "summary": "Yair Golan hat die Erben der Arbeiterpartei bei der Knessetwahl zu neuen Höhen geführt. Nun warnt der linke Oppositionspolitiker davor, dass die Israelis zum »Werkzeug in Netanyahus Kampf um sein politisches Überleben« werden.",
+      "image": "https://cdn.prod.www.spiegel.de/images/4dd4a63e-7033-4061-ac75-bb776f1de4b7_w1200_r1.778_fpx37.98_fpy54.98.jpg",
+      "published": "2026-11-01T21:51:00+01:00",
+      "category": "Politik",
+      "score": 93.65,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ Iran-Krieg +++: Israelischer Oppositionspolitiker warnt vor neuem Krieg mit Iran unter Netanjahu",
+            "link": "https://www.handelsblatt.com/politik/international/iran-krieg-israelische-opposition-warnt-vor-neuem-krieg-mit-iran/100136895.html"
+          }
+        ]
+      }
+    },
     {
       "id": "tagesschau-02e3387674ebaa30",
       "source": "tagesschau",
@@ -12,7 +34,7 @@
       "image": "https://images.tagesschau.de/image/2be04343-b2bc-4534-b2e4-46f970e3ff0e/AAABoZWlMg0/AAABnSSvrFg/16x9-big/trump-halloween-102.jpg?width=1920",
       "published": "2026-11-01T08:45:02+01:00",
       "category": "Politik",
-      "score": 87.07,
+      "score": 83.46,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -39,73 +61,7 @@
       "image": "https://images.handelsblatt.com/5lEMvR8ucFC-/cover/900/506/0/0/107/106/0.5/0.5/ukraine-krieg-region-tschernihiw.jpg",
       "published": "2026-11-01T14:19:26+00:00",
       "category": "Politik",
-      "score": 82.82
-    },
-    {
-      "id": "handelsblatt-6f492bc532e8f629",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Midterms: Mehr als 440 Millionen Dollar: So prägte Elon Musk mit Rekordspenden die nächste US-Wahl",
-      "link": "https://www.handelsblatt.com/politik/international/midterms-wie-elon-musk-mit-rekordspenden-die-naechste-us-wahl-praegt/100266417.html",
-      "summary": "In der heißen Phase der US-Parlamentswahl wurde der reichste Mann der Welt zum Rekordspender für Donald Trumps Republikaner – vor allem in dem für Musk wichtigen Texas.",
-      "image": "https://images.handelsblatt.com/FaVKBcwglU1x/cover/900/506/0/0/313/312/0.5/0.5/archiv-20.02.2025-usa-oxon-hill-elon-musk-tech-milliardaer-spricht-auf-der-conservative-politi.jpg",
-      "published": "2026-11-01T08:57:49+00:00",
-      "category": "Politik",
-      "score": 81.74,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "golem",
-            "title": "Midterms: Wie Elon Musk mit Rekordspenden die US-Wahl beeinflusst",
-            "link": "https://www.golem.de/news/midterms-wie-elon-musk-mit-rekordspenden-die-us-wahl-beeinflusst-2611-214727.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "handelsblatt-89b7a178981068ad",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Iran-Krieg +++: Israelischer Oppositionspolitiker warnt vor neuem Krieg mit Iran unter Netanjahu",
-      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-israelische-opposition-warnt-vor-neuem-krieg-mit-iran/100136895.html",
-      "summary": "Hunderte Festnahmen bei Gaza-Demo in London +++ Israels Präsident kündigt Gespräche zur Regierungsbildung an +++ Iran beharrt auf Bedingungen und droht mit neuen Waffen +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/N2CgMjYnHFh7/cover/900/506/0/0/235/236/0.5/0.5/yair-golan-of-the-democrats-party-speaks-during-a-rally-to-demand-the-establishment-of-an-independen.jpg",
-      "published": "2026-11-01T11:55:00+00:00",
-      "category": "Politik",
-      "score": 80.81
-    },
-    {
-      "id": "tagesschau-9cb22b575fb7343c",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "FBI macht Nordkorea für Hackerangriff auf Binance verantwortlich",
-      "link": "https://www.tagesschau.de/ausland/asien/hack-binance-100.html",
-      "summary": "Laut Experten war es der bisher größte Hackerangriff auf eine Börse für Digitalwährungen. Am Donnerstag war er bekannt geworden - und schnell geriet Nordkorea ins Visier. Nun macht auch das FBI nordkoreanische Hacker dafür verantwortlich.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/9c1a0a5f-3325-4594-b57a-9d01958b7978/AAABoYunSGo/AAABnSSvrFg/16x9-big/binance-108.jpg?width=1920",
-      "published": "2026-11-01T11:08:00+01:00",
-      "category": "Wirtschaft",
-      "score": 78.36,
-      "coverage": {
-        "sourceCount": 4,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Hackerangriff - FBI macht nordkoreanische Hacker für Angriff auf Kryptowährungsbörse Binance verantwortlich",
-            "link": "https://www.deutschlandfunk.de/fbi-macht-nordkoreanische-hacker-fuer-angriff-auf-kryptowaehrungsboerse-binance-verantwortlich-102.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Digitalwährungen: Binance gibt Kundenauszahlungen nach Hackerangriff frei",
-            "link": "https://www.handelsblatt.com/technik/it-internet/digitalwaehrungen-binance-gibt-kundenauszahlungen-nach-hackerangriff-frei/100266432.html"
-          },
-          {
-            "source": "golem",
-            "title": "6,3 Milliarden US-Dollar geklaut: Binance startet nach Rekordhack schrittweise wieder",
-            "link": "https://www.golem.de/news/6-3-milliarden-us-dollar-geklaut-binance-startet-nach-rekordhack-schrittweise-wieder-2611-214728.html"
-          }
-        ]
-      }
+      "score": 79.21
     },
     {
       "id": "tagesschau-efa33cecdec1fc38",
@@ -117,7 +73,7 @@
       "image": "https://images.tagesschau.de/image/3c693696-01d8-4305-a50e-b410eef58dc0/AAABoZKxZXE/AAABnSSvrFg/16x9-big/berlin-die-linke-100.jpg?width=1920",
       "published": "2026-10-31T19:00:40+01:00",
       "category": "Politik",
-      "score": 78.36,
+      "score": 78.64,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -130,6 +86,50 @@
       }
     },
     {
+      "id": "tagesschau-3797cbf2de4a5840",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Bulgariens amtierende Präsidentin Jotowa liegt bei Stichwahl vorn",
+      "link": "https://www.tagesschau.de/ausland/europa/stichwahl-bulgarien-102.html",
+      "summary": "Sie sieht sich als \"Präsidentin des Friedens\": Bulgariens Amtsinhaberin Jotowa liegt laut Prognosen bei der Stichwahl vorn. Die russlandfreundliche Politikerin setzte sich gegen Herausforderer Gjurow durch.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/34fd81e3-ab88-4dbf-878b-3d7c22ad7dec/AAABoZjUoew/AAABnSSvrFg/16x9-big/ilijana-jotowa-102.jpg?width=1920",
+      "published": "2026-11-01T21:37:14+01:00",
+      "category": "Politik",
+      "score": 78.45,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Bulgarien: Iliana Jotowa nach Prognosen vorn",
+            "link": "https://www.spiegel.de/ausland/bulgarien-iliana-jotowa-nach-prognosen-vorn-a-e70269f7-9feb-4274-8d45-7436ee034b30#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "handelsblatt-6f492bc532e8f629",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Midterms: Mehr als 440 Millionen Dollar: So prägte Elon Musk mit Rekordspenden die nächste US-Wahl",
+      "link": "https://www.handelsblatt.com/politik/international/midterms-wie-elon-musk-mit-rekordspenden-die-naechste-us-wahl-praegt/100266417.html",
+      "summary": "In der heißen Phase der US-Parlamentswahl wurde der reichste Mann der Welt zum Rekordspender für Donald Trumps Republikaner – vor allem in dem für Musk wichtigen Texas.",
+      "image": "https://images.handelsblatt.com/FaVKBcwglU1x/cover/900/506/0/0/313/312/0.5/0.5/archiv-20.02.2025-usa-oxon-hill-elon-musk-tech-milliardaer-spricht-auf-der-conservative-politi.jpg",
+      "published": "2026-11-01T08:57:49+00:00",
+      "category": "Politik",
+      "score": 78.13,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "golem",
+            "title": "Midterms: Wie Elon Musk mit Rekordspenden die US-Wahl beeinflusst",
+            "link": "https://www.golem.de/news/midterms-wie-elon-musk-mit-rekordspenden-die-us-wahl-beeinflusst-2611-214727.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "deutschlandfunk-3deae3ca57838b18",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
@@ -137,21 +137,94 @@
       "link": "https://www.deutschlandfunk.de/moskau-meldet-drohnenangriff-auf-industrieunternehmen-nahe-nischni-nowgorod-100.html",
       "summary": "Bei ukrainischen Drohnenangriffen östlich der russischen Hauptstadt Moskau ist eine Industrieanlage schwer beschädigt worden.",
       "image": "https://bilder.deutschlandfunk.de/4d/86/0e/ae/4d860eae-a654-4da8-9076-018c0a858b4a/ukrainische-drohne-krim-100-1920x1920.jpg",
-      "published": "2026-11-01T17:10:37+01:00",
+      "published": "2026-11-01T21:50:23+01:00",
       "category": "Politik",
-      "score": 77.36
+      "score": 77.64
     },
     {
-      "id": "tagesschau-6f8acf18783e5600",
+      "id": "deutschlandfunk-b92cb74e3e0bc692",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Russlands Krieg in der Ukraine - Steinmeier: Chinas Staatschef Xi \"irritiert\" über Berichte zu Dreiergipfel mit USA und Russland",
+      "link": "https://www.deutschlandfunk.de/steinmeier-chinas-staatschef-xi-irritiert-ueber-berichte-zu-dreiergipfel-mit-usa-und-russland-100.html",
+      "summary": "​Chinas Staats- und Parteichef Xi hat nach Darstellung von Bundespräsident Steinmeier kein Interesse an einem Ukraine-Dreiergipfel mit den USA und Russland. Die Irritation habe Xi im Gesicht gestanden, als er ihn direkt auf solche Meldungen angesprochen habe, sagte Steinmeier in der ARD kurz vor seiner Rückreise aus China.",
+      "image": "https://bilder.deutschlandfunk.de/a2/aa/8e/8b/a2aa8e8b-d04c-4746-b8ea-e3fb63e6e6ef/bundespraesident-steinmeier-china-besuch-xi-jinping-grosse-halle-des-volkes-100-1920x1920.jpg",
+      "published": "2026-11-01T21:50:23+01:00",
+      "category": "Politik",
+      "score": 77.64
+    },
+    {
+      "id": "spiegel-0be859dcee1cb8bc",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Donald Trump hat Lügen über sie verbreitet. Seither leben die Haitianer in Springfield in Angst",
+      "link": "https://www.spiegel.de/ausland/donald-trump-hat-luegen-ueber-sie-verbreitet-seither-leben-die-haitianer-in-springfield-in-angst-a-dac5b336-22c6-49ab-ab1c-28d444b5de17#ref=rss",
+      "summary": "»Sie essen die Katzen«: Das hat Donald Trump im Präsidentschaftswahlkampf über Haitianer in Springfield behauptet. Inzwischen hat sich die Lage der Migranten dramatisch verschlechtert. Aber eine Hoffnung haben sie noch.",
+      "image": "https://cdn.prod.www.spiegel.de/images/ceb4dbbe-a587-40ea-b08b-590c9a64ca83_w1200_r1.778_fpx68.88_fpy44.99.jpg",
+      "published": "2026-11-01T19:21:00+01:00",
+      "category": "Politik",
+      "score": 75.56
+    },
+    {
+      "id": "tagesschau-9cb22b575fb7343c",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Wahlkampf der US-Demokraten: Links, rechts - oder am besten in der Mitte?",
-      "link": "https://www.tagesschau.de/ausland/amerika/usa-midterms-colorado-100.html",
-      "summary": "Gemeinsam gegen Trump: Darin sind sich die Demokraten in den USA einig. Aber darüber hinaus? Im Wahlkampf in Colorado zeigt sich die ganze Bandbreite an politischen Ideen der Partei. Isabel Schayani hat drei Kandidierende begleitet.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/53ee875f-561a-4284-a66b-b3ccd56d5537/AAABoY2wzlk/AAABnSSvrFg/16x9-big/melat-kiros-wahlhelfer-100.jpg?width=1920",
-      "published": "2026-11-01T15:25:00+01:00",
+      "title": "FBI macht Nordkorea für Hackerangriff auf Binance verantwortlich",
+      "link": "https://www.tagesschau.de/ausland/asien/hack-binance-100.html",
+      "summary": "Laut Experten war es der bisher größte Hackerangriff auf eine Börse für Digitalwährungen. Am Donnerstag war er bekannt geworden - und schnell geriet Nordkorea ins Visier. Nun macht auch das FBI nordkoreanische Hacker dafür verantwortlich.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/9c1a0a5f-3325-4594-b57a-9d01958b7978/AAABoYunSGo/AAABnSSvrFg/16x9-big/binance-108.jpg?width=1920",
+      "published": "2026-11-01T11:08:00+01:00",
+      "category": "Wirtschaft",
+      "score": 75.32,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Hackerangriff - FBI macht nordkoreanische Hacker für Angriff auf Kryptowährungsbörse Binance verantwortlich",
+            "link": "https://www.deutschlandfunk.de/fbi-macht-nordkoreanische-hacker-fuer-angriff-auf-kryptowaehrungsboerse-binance-verantwortlich-102.html"
+          },
+          {
+            "source": "golem",
+            "title": "6,3 Milliarden US-Dollar geklaut: Binance startet nach Rekordhack schrittweise wieder",
+            "link": "https://www.golem.de/news/6-3-milliarden-us-dollar-geklaut-binance-startet-nach-rekordhack-schrittweise-wieder-2611-214728.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-cc06ade814fb6ce9",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Bulgarien-Wahl: Stichwahl entscheidet über Kurs zwischen Russland und Europa",
+      "link": "https://www.spiegel.de/ausland/bulgarien-praesidentenstichwahl-zwischen-russlandnaher-amtsinhaberin-und-proeuropaeischem-herausforderer-a-b9f9ca98-55da-49be-8513-7696ff1e4b56#ref=rss",
+      "summary": "Bulgarien wählt heute einen neuen Präsidenten oder eine neue Präsidentin. Die Amtsinhaberin ist Russland zugeneigt. Ihr europanaher Herausforderer schnitt im ersten Wahlgang überraschend gut ab.",
+      "image": "https://cdn.prod.www.spiegel.de/images/121104f2-cd84-4cd8-aa10-b8344f0e62a0_w1200_r1.778_fpx56.67_fpy44.99.jpg",
+      "published": "2026-11-01T18:32:00+01:00",
       "category": "Politik",
-      "score": 76.89
+      "score": 74.88,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Ausland: Stichwahl in Bulgarien, wer wird neuer Präsident?",
+            "link": "https://www.handelsblatt.com/politik/international/ausland-stichwahl-in-bulgarien-wer-wird-neuer-praesident/100266408.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "handelsblatt-a2563e33dbe5db60",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ US-Midterms +++: Streit zwischen Demokraten in Michigan droht zu eskalieren",
+      "link": "https://www.handelsblatt.com/politik/international/usa-streit-zwischen-demokraten-in-michigan-droht-zu-eskalieren/29669594.html",
+      "summary": "Gericht weist Trump-Klage zu Wahl in Alaska ab +++ Washington D.C. und Virginia klagen gegen Trumps Triumphbogen +++ Ermittlungen zu Senatswahl in Alaska bestätigt +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/pWbnbDD1qv-E/cover/900/506/0/0/314/313/0.5/0.5/cadillac-michigan-october-10-democratic-senate-candidate-abdul-el-sayed-speaks-during-a-campaign.jpg",
+      "published": "2026-11-01T18:23:28+00:00",
+      "category": "Politik",
+      "score": 74.6
     },
     {
       "id": "deutschlandfunk-63713c4a0b30bd3b",
@@ -161,9 +234,9 @@
       "link": "https://www.deutschlandfunk.de/kramp-karrenbauer-warnt-vor-regierungen-von-afd-und-linken-100.html",
       "summary": "Die frühere CDU-Vorsitzende Kramp-Karrenbauer hat vor einer Regierungsübernahme der AfD in Sachsen-Anhalt, beziehungsweise der Linken in Berlin gewarnt.",
       "image": "https://bilder.deutschlandfunk.de/79/90/73/9c/7990739c-fea4-4ba3-9e48-5916a442b2a7/annegret-kramp-karrenbauer-cdu-konrad-adenauer-stiftung-vorsitzende-100-1920x1920.jpg",
-      "published": "2026-11-01T17:10:37+01:00",
+      "published": "2026-11-01T21:50:23+01:00",
       "category": "Politik",
-      "score": 74.04,
+      "score": 74.32,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -181,45 +254,6 @@
       }
     },
     {
-      "id": "spiegel-f88bc024f9dcd39b",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Audi: Gernot Döllners Auftritt mit Donald Trump schreckt womöglich US-Käufer ab",
-      "link": "https://www.spiegel.de/wirtschaft/unternehmen/audi-gernot-doellners-auftritt-mit-donald-trump-schreckt-womoeglich-amerikanische-kaeufer-ab-a-a7d5a0cc-e192-4bca-b657-909509183087#ref=rss",
-      "summary": "Audi-Boss Gernot Döllner steht wegen seines Wahlkampfauftritts mit US-Präsident Trump in der Kritik. Nun legt eine Marktforschungsstudie nahe: US-Kunden könnten sich deshalb abwenden.",
-      "image": "https://cdn.prod.www.spiegel.de/images/83262f1a-dc37-49a3-88bf-f7be9bc668b4_w1200_r1.778_fpx46_fpy43.jpg",
-      "published": "2026-11-01T12:19:00+01:00",
-      "category": "Politik",
-      "score": 73.31
-    },
-    {
-      "id": "spiegel-a183aa6a72a93302",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Krawalle in Deutschland: Dobrindt macht linke Gruppen und »Chaoten aus dem migrantischen Milieu« verantwortlich",
-      "link": "https://www.spiegel.de/politik/deutschland/dobrindt-macht-linke-gruppen-und-chaoten-aus-dem-migrantischen-milieu-fuer-randale-verantwortlich-a-e9fbaa52-8df6-4f0c-b4b6-89ea4f0a6cb1#ref=rss",
-      "summary": "An die weitestgehend friedlichen »Gen Z«-Demonstrationen schlossen sich Krawalle an, Dutzende Polizisten wurden verletzt. Der Innenminister will sein Täterprofil bereits gefunden haben. Andere Politiker erinnern an den Kern der Proteste.",
-      "image": "https://cdn.prod.www.spiegel.de/images/87b9ca8a-5314-462a-86f9-2e77b38cc951_w1200_r1.778_fpx51.99_fpy49.99.jpg",
-      "published": "2026-11-01T13:17:00+01:00",
-      "category": "Politik",
-      "score": 71.78,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutsche-welle",
-            "title": "Dobrindt verurteilt Gewalt nach \"Gen Z\"-Protesten in Deutschland",
-            "link": "https://www.dw.com/de/dobrindt-verurteilt-gewalt-nach-gen-z-protesten-in-deutschland/a-79820787?maca=de-rss-de-all-1119-rdf"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Gen-Z-Proteste: Ausschreitungen in mehreren deutschen Städten: Gewaltexzesse wie in Paris laut Dobrindt verhindert",
-            "link": "https://www.handelsblatt.com/politik/deutschland/gen-z-proteste-ausschreitungen-in-mehreren-deutschen-staedten/100266421.html"
-          }
-        ]
-      }
-    },
-    {
       "id": "golem-cca7aab797f480aa",
       "source": "golem",
       "sourceWeight": 0.85,
@@ -229,41 +263,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214720&amp;page=1&amp;ts=1793528762",
       "published": "2026-11-01T11:26:02+01:00",
       "category": "Politik",
-      "score": 70.58
-    },
-    {
-      "id": "deutschlandfunk-365a6a063b6f3fa2",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Machtkampf mit Rechtsnationalen - Ex-Gerichtspräsidenten stärken Polens Regierung den Rücken",
-      "link": "https://www.deutschlandfunk.de/ex-gerichtspraesidenten-staerken-polens-regierung-den-ruecken-102.html",
-      "summary": "Im Machtkampf um Polens Verfassungsgericht haben vier ehemalige Präsidenten des Gerichtshofs der pro-europäischen Regierung von Ministerpräsident Tusk den Rücken gestärkt.",
-      "image": "https://bilder.deutschlandfunk.de/5c/78/5b/38/5c785b38-1648-4601-afe1-8cf17a7e3412/polen-verfassungsgericht-100-1920x1920.jpg",
-      "published": "2026-11-01T17:10:37+01:00",
-      "category": "Politik",
-      "score": 69.36,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Polen: Ex-Gerichtspräsidenten stärken Donald Tusk den Rücken",
-            "link": "https://www.spiegel.de/ausland/polen-ex-gerichtspraesidenten-staerken-donald-tusk-den-ruecken-a-50466069-ce9c-4480-9d4b-870666760a8b#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-1453f1366322a060",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "USA: Proteste gegen Donald Trump in der Heimat von JD Vance",
-      "link": "https://www.spiegel.de/ausland/usa-proteste-gegen-donald-trump-in-der-heimat-von-jd-vance-a-168b1c09-5e9e-48f3-b563-7f2da467626c#ref=rss",
-      "summary": "Als faul und hoffnungslos beschreibt US-Vizepräsident Vance die Menschen seiner Heimatstadt. Stimmt nicht, sagen die. Einige von ihnen protestieren gegen die Regierung. Und das ist in Middletown, Ohio, gefährlich.",
-      "image": "https://cdn.prod.www.spiegel.de/images/76646457-54ea-47b3-8b4f-2c0313234402_w1012_r1.778_fpx50_fpy36.88.jpg",
-      "published": "2026-11-01T15:26:00+01:00",
-      "category": "Politik",
-      "score": 67.91
+      "score": 66.97
     },
     {
       "id": "deutsche-welle-834616c56696cd10",
@@ -275,7 +275,7 @@
       "image": "https://static.dw.com/image/79153655_6.jpg",
       "published": "2026-11-01T14:26:00+00:00",
       "category": "Politik",
-      "score": 66.91,
+      "score": 63.3,
       "coverage": {
         "sourceCount": 2,
         "others": [
