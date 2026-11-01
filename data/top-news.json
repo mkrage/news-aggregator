@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T09:29:27.711525+00:00",
+  "generatedAt": "2026-11-01T09:53:31.707732+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/005f06c7-ca9c-4c25-9207-cbebb48ad074/AAABoZDn2MM/AAABnSSvrFg/16x9-big/israel-arabischepartei-100.jpg?width=1920",
       "published": "2026-10-31T09:49:15+01:00",
       "category": "Politik",
-      "score": 90.73,
+      "score": 90.4,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -39,7 +39,7 @@
       "image": "https://images.tagesschau.de/image/2be04343-b2bc-4534-b2e4-46f970e3ff0e/AAABoZWlMg0/AAABnSSvrFg/16x9-big/trump-halloween-102.jpg?width=1920",
       "published": "2026-11-01T08:45:02+01:00",
       "category": "Politik",
-      "score": 90.23,
+      "score": 89.9,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -57,6 +57,28 @@
       }
     },
     {
+      "id": "deutschlandfunk-a19ccf009e46a87b",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Ukraine-Krieg - Moskau meldet Drohnenangriff auf Industrieunternehmen nahe Moskau",
+      "link": "https://www.deutschlandfunk.de/moskau-meldet-drohnenangriff-auf-industrieunternehmen-nahe-moskau-100.html",
+      "summary": "Bei ukrainischen Drohnenangriffen östlich der russischen Hauptstadt Moskau ist eine Industrieanlage schwer beschädigt worden.",
+      "image": "https://bilder.deutschlandfunk.de/4d/86/0e/ae/4d860eae-a654-4da8-9076-018c0a858b4a/ukrainische-drohne-krim-100-1920x1920.jpg",
+      "published": "2026-11-01T10:30:33+01:00",
+      "category": "Politik",
+      "score": 85.68,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ Ukraine-Krieg +++: Russische Industrieanlage durch ukrainischen Drohnenangriff beschädigt",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-russische-industrieanlage-bei-drohnenangriff-beschaedigt/27982126.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "handelsblatt-a560349ceb0ce75d",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
@@ -66,7 +88,7 @@
       "image": "https://images.handelsblatt.com/5lEMvR8ucFC-/cover/900/506/0/0/107/106/0.5/0.5/ukraine-krieg-region-tschernihiw.jpg",
       "published": "2026-11-01T08:25:10+00:00",
       "category": "Politik",
-      "score": 84.11
+      "score": 83.77
     },
     {
       "id": "tagesschau-efa33cecdec1fc38",
@@ -78,7 +100,7 @@
       "image": "https://images.tagesschau.de/image/3c693696-01d8-4305-a50e-b410eef58dc0/AAABoZKxZXE/AAABnSSvrFg/16x9-big/berlin-die-linke-100.jpg?width=1920",
       "published": "2026-10-31T19:00:40+01:00",
       "category": "Politik",
-      "score": 83.56,
+      "score": 83.36,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -105,7 +127,7 @@
       "image": "https://images.tagesschau.de/image/1957f54f-f4f5-495b-a0f4-54e8d806a563/AAABoYK-yi0/AAABnSSvrFg/16x9-big/gruppensitzung-reha-100.jpg?width=1920",
       "published": "2026-11-01T09:43:57+01:00",
       "category": "Politik",
-      "score": 78.37
+      "score": 78.03
     },
     {
       "id": "deutschlandfunk-63713c4a0b30bd3b",
@@ -115,9 +137,9 @@
       "link": "https://www.deutschlandfunk.de/kramp-karrenbauer-warnt-vor-regierungen-von-afd-und-linken-100.html",
       "summary": "Die frühere CDU-Vorsitzende Kramp-Karrenbauer hat vor einer Regierungsübernahme der AfD in Sachsen-Anhalt, beziehungsweise der Linken in Berlin gewarnt.",
       "image": "https://bilder.deutschlandfunk.de/79/90/73/9c/7990739c-fea4-4ba3-9e48-5916a442b2a7/annegret-kramp-karrenbauer-cdu-konrad-adenauer-stiftung-vorsitzende-100-1920x1920.jpg",
-      "published": "2026-11-01T10:20:46+01:00",
+      "published": "2026-11-01T10:30:33+01:00",
       "category": "Politik",
-      "score": 77.88,
+      "score": 77.68,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -149,7 +171,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/bd62076c-2af1-4fe4-a8d2-8e60597d2b84_w1200_r1.778_fpx59.4_fpy52.98.jpg",
       "published": "2026-11-01T09:48:00+01:00",
       "category": "Politik",
-      "score": 77.42
+      "score": 77.09
     },
     {
       "id": "handelsblatt-89b7a178981068ad",
@@ -161,7 +183,7 @@
       "image": "https://images.handelsblatt.com/N2CgMjYnHFh7/cover/900/506/0/0/235/236/0.5/0.5/yair-golan-of-the-democrats-party-speaks-during-a-rally-to-demand-the-establishment-of-an-independen.jpg",
       "published": "2026-11-01T09:13:09+00:00",
       "category": "Politik",
-      "score": 76.77
+      "score": 76.44
     },
     {
       "id": "handelsblatt-6f492bc532e8f629",
@@ -173,19 +195,7 @@
       "image": "https://images.handelsblatt.com/FaVKBcwglU1x/cover/900/506/0/0/313/312/0.5/0.5/archiv-20.02.2025-usa-oxon-hill-elon-musk-tech-milliardaer-spricht-auf-der-conservative-politi.jpg",
       "published": "2026-11-01T08:57:49+00:00",
       "category": "Politik",
-      "score": 76.56
-    },
-    {
-      "id": "handelsblatt-ce4495169d1bcb11",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Ukraine-Krieg +++: Russische Industrieanlage durch ukrainischen Drohnenangriff beschädigt",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-russische-industrieanlage-bei-drohnenangriff-beschaedigt/27982126.html",
-      "summary": "Oleschky-Flüchtlinge in der Ukraine angekommen +++ Erdogan nennt Angriffe auf Handelsschiffe im Schwarzen Meer inakzeptabel +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/t27DfF-R0DTP/cover/900/506/0/0/313/312/0.5/0.5/this-handout-photograph-taken-and-released-by-the-press-service-of-the-65th-separate-mechanised-bri.jpg",
-      "published": "2026-11-01T08:41:31+00:00",
-      "category": "Politik",
-      "score": 76.33
+      "score": 76.23
     },
     {
       "id": "spiegel-50f7d6535bc3d8b4",
@@ -197,7 +207,41 @@
       "image": "https://cdn.prod.www.spiegel.de/images/dd17189a-707c-4b57-af32-bf59855d3d25_w1200_r1.778_fpx28.09_fpy49.93.png",
       "published": "2026-11-01T07:31:00+01:00",
       "category": "Politik",
-      "score": 75.52
+      "score": 75.19
+    },
+    {
+      "id": "spiegel-78f7c959586f7ce5",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Bolivien ruft wegen El Niño Notstand aus",
+      "link": "https://www.spiegel.de/panorama/bolivien-ruft-wegen-el-nino-notstand-aus-a-401ee340-5c87-4ef0-9e04-6f4678cf51ae#ref=rss",
+      "summary": "Zehntausende Familien in Bolivien leiden unter den heftigen Folgen des Klimaphänomens El Niño. Jetzt hat der Präsident auf die Krisensituation reagiert.",
+      "image": "https://cdn.prod.www.spiegel.de/images/e65f74c4-e446-40f9-ab2f-1fda540a469f_w1200_r1.778_fpx62.67_fpy50.jpg",
+      "published": "2026-11-01T10:35:00+01:00",
+      "category": "Nachrichten",
+      "score": 74.74,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Dürre und drohende Überschwemmungen - Bolivien ruft wegen El Niño Notstand aus",
+            "link": "https://www.deutschlandfunk.de/bolivien-ruft-wegen-el-ni-o-notstand-aus-100.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "handelsblatt-3bfacee8ee2dcd04",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Kommentar: Lawrows Gebaren ist unerträglich – Trump macht’s möglich",
+      "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-lawrows-gebaren-ist-unertraeglich-trump-machts-moeglich/100266363.html",
+      "summary": "Mit Russlands Außenminister plaudern, während Putin seine Blutspur durch die Ukraine zieht – das G20-Treffen zeigt, wie sehr die politischen und ethischen Maßstäbe verrückt sind.",
+      "image": "https://images.handelsblatt.com/RWbXwcVTiq2V/cover/900/506/0/0/0/311/0.5/0.5/sergej-lawrow-und-marco-rubio.jpg",
+      "published": "2026-11-01T02:37:51+00:00",
+      "category": "Politik",
+      "score": 70.95
     },
     {
       "id": "deutschlandfunk-3a1a9ae3272fcd4c",
@@ -207,43 +251,9 @@
       "link": "https://www.deutschlandfunk.de/spd-fordert-bildungsgipfel-100.html",
       "summary": "Die SPD im Bundestag macht sich angesichts der Jugendproteste in mehreren deutschen Städten für einen nationalen Bildungsgipfel stark.",
       "image": "https://bilder.deutschlandfunk.de/3e/33/b9/5c/3e33b95c-8c2e-466e-98a9-703dfb4bf456/268580932-100-1920x1920.jpg",
-      "published": "2026-11-01T10:20:46+01:00",
+      "published": "2026-11-01T10:30:33+01:00",
       "category": "Politik",
-      "score": 69.88
-    },
-    {
-      "id": "deutschlandfunk-7360f293761fd5eb",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Kassel-Calden - \"Bekennerschreiben\" auf linksextremistischer Plattform nach Feuer auf Rheinmetall-Baustelle veröffentlicht",
-      "link": "https://www.deutschlandfunk.de/bekennerschreiben-auf-linksextremistischer-plattform-nach-feuer-auf-rheinmetall-baustelle-veroeffent-104.html",
-      "summary": "Nach dem Feuer auf einer Baustelle des Rüstungsunternehmens Rheinmetall am Flughafen Kassel-Calden untersucht die Polizei ein mutmaßliches Bekennerschreiben.",
-      "image": "https://bilder.deutschlandfunk.de/e1/06/7d/e2/e1067de2-6230-41ae-943b-92085b1ff504/die-nachrichten-kachel-2176-zu1224-100-768x768.jpg",
-      "published": "2026-11-01T10:20:46+01:00",
-      "category": "Wirtschaft",
-      "score": 69.88,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Staatsschutz ermittelt: „Bekennerschreiben“ zu Brand auf Rheinmetall-Baustelle",
-            "link": "https://www.handelsblatt.com/politik/deutschland/staatsschutz-ermittelt-bekennerschreiben-zu-brand-auf-rheinmetall-baustelle/100266345.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-21940d5878970093",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "New York: 15-Jähriger auf dem Weg zur Schule erschossen",
-      "link": "https://www.spiegel.de/panorama/justiz/new-york-15-jaehriger-auf-dem-weg-zur-schule-erschossen-a-293af563-406a-4fb5-8346-c49b248540ac#ref=rss",
-      "summary": "Ein Teenager ist in der Bronx getötet worden. Der Vater des Jungen berichtet von Mobbing vor der Tat. Bürgermeister Mamdani zufolge stimmte US-Präsident Trump zu, der Mutter, die in Ghana lebt, ein Visum zu gewähren.",
-      "image": "https://cdn.prod.www.spiegel.de/images/a0c77132-ca38-4b7e-adf5-e56103184baa_w1200_r1.778_fpx52.66_fpy48.98.jpg",
-      "published": "2026-11-01T07:58:00+01:00",
-      "category": "Politik",
-      "score": 67.9
+      "score": 69.68
     },
     {
       "id": "deutsche-welle-796b731f5e9e9dbc",
@@ -255,7 +265,7 @@
       "image": "https://static.dw.com/image/79819807_6.jpg",
       "published": "2026-11-01T09:14:00+00:00",
       "category": "Technologie",
-      "score": 65.79,
+      "score": 65.45,
       "coverage": {
         "sourceCount": 2,
         "others": [
