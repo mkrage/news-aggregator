@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T17:55:47.100698+00:00",
+  "generatedAt": "2026-11-03T18:07:10.026798+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/61a36373-f805-4c1b-9845-ae5e8bb719ab/AAABoaFIhh0/AAABnSSvrFg/16x9-big/krankenzimmer-charkiw-100.jpg?width=1920",
       "published": "2026-11-03T13:16:22+01:00",
       "category": "Politik",
-      "score": 91.59,
+      "score": 91.43,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -39,7 +39,7 @@
       "image": "https://images.tagesschau.de/image/977cf63c-9a68-4093-afbb-ba679eac4fe0/AAABoaHeKvE/AAABnSSvrFg/16x9-big/selenskyj-merz-140.jpg?width=1920",
       "published": "2026-11-03T17:08:15+01:00",
       "category": "Politik",
-      "score": 86.91,
+      "score": 86.75,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -61,7 +61,7 @@
       "image": "https://images.tagesschau.de/image/08dcceb7-adf0-4aae-8686-7da07ddccd35/AAABoaB401w/AAABnSSvrFg/16x9-big/donald-trump-984.jpg?width=1920",
       "published": "2026-11-03T10:40:40+01:00",
       "category": "Politik",
-      "score": 86.36,
+      "score": 86.2,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -83,7 +83,7 @@
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_9/8d/NOVA_98d2535a6104ad5934cd150a5f6fe7b2/craft-13520582-asset-100-768x768.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Politik",
-      "score": 85.91,
+      "score": 85.75,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -105,7 +105,7 @@
       "image": "https://static.dw.com/image/79687106_6.jpg",
       "published": "2026-11-03T07:12:00+00:00",
       "category": "Politik",
-      "score": 84.06
+      "score": 83.9
     },
     {
       "id": "spiegel-57bb5a67b501fb94",
@@ -117,7 +117,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/067fac81-b40e-4796-a948-f977ab50ca79_w1200_r1.778_fpx55_fpy49.jpg",
       "published": "2026-11-03T15:57:00+01:00",
       "category": "Politik",
-      "score": 83.52
+      "score": 83.36
     },
     {
       "id": "handelsblatt-bd92312330a768cd",
@@ -129,7 +129,7 @@
       "image": "https://images.handelsblatt.com/rBFTp-fyVqrL/cover/900/506/0/0/107/107/0.5/0.5/ukrainischer-praesident-selenskyj-in-berlin.jpg",
       "published": "2026-11-03T16:05:01+00:00",
       "category": "Politik",
-      "score": 83.46,
+      "score": 83.3,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -151,7 +151,41 @@
       "image": "https://images.handelsblatt.com/7t-Z1N9OyAAv/cover/900/506/0/0/0/0/0.5/0.5/merz-russland-beschwoert-eine-weltweite-nahrungsmittelkrise-herauf-bc6407846256112.jpg",
       "published": "2026-11-03T15:39:23+00:00",
       "category": "Politik",
-      "score": 83.11
+      "score": 82.95
+    },
+    {
+      "id": "tagesschau-3a700351762a4a2c",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Liveblog zu den Midterms: ++ US-Justizministerium schickt Wahlbeobachter in alle Bundesstaaten  ++",
+      "link": "https://www.tagesschau.de/newsticker/liveblog-midterms-2026-100.html",
+      "summary": "Das US-Justizministerium schickt zahlreiche Wahlbeobachter in alle Bundesstaaten, Kritiker befürchten eine abschreckende Wirkung durch deren Präsenz. Bei den US-Midterms wird ein spannendes Rennen erwartet. Die Entwicklungen im Liveblog.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/7bfe3afd-df5d-4068-8773-bed8cec0c7f3/AAABoaHss2g/AAABnSSvrFg/16x9-big/wahllokal-midterms-100.jpg?width=1920",
+      "published": "2026-11-03T18:54:19+01:00",
+      "category": "Politik",
+      "score": 78.82,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ US-Midterms +++: US-Justizministerium entsendet Rekordzahl von Wahlbeobachtern",
+            "link": "https://www.handelsblatt.com/politik/international/us-midterms-us-justizministerium-entsendet-rekordzahl-von-wahlbeobachtern/29669594.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-350fe730fce09886",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Midterms 2026 in den USA: Bruce Springsteen warnt Wahlhelfer, »niemals Anweisungen zuzustimmen«",
+      "link": "https://www.spiegel.de/ausland/midterms-2026-in-den-usa-kippen-die-machtverhaeltnisse-so-laufen-die-zwischenwahlen-a-c6a7c5b3-24a1-4e70-a78e-067745ed4103#ref=rss",
+      "summary": "Bislang konnte US-Präsident Trump weitgehend durchregieren. Das könnte sich bei den Zwischenwahlen ändern. Ein erstes Ergebnis liegt inzwischen vor, ein Rockstar befürchtet Manipulation. Verfolgen Sie alle Entwicklungen in der Liveanalyse.",
+      "image": "https://cdn.prod.www.spiegel.de/images/f1c5cf58-507c-49a5-9ca9-88833e7209a5_w1200_r1.778_fpx44.3_fpy49.99.jpg",
+      "published": "2026-11-03T19:04:00+01:00",
+      "category": "Politik",
+      "score": 77.96
     },
     {
       "id": "deutschlandfunk-98994314ea0b699f",
@@ -163,7 +197,7 @@
       "image": "https://bilder.deutschlandfunk.de/1b/25/8c/b6/1b258cb6-f341-4319-a2c5-bb4274c43f7d/wahllokal-ohio-midterms-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Politik",
-      "score": 77.91
+      "score": 77.75
     },
     {
       "id": "deutschlandfunk-cc597572d22f3bea",
@@ -175,7 +209,7 @@
       "image": "https://bilder.deutschlandfunk.de/d8/ba/55/78/d8ba5578-e5f3-4808-906a-d5bf9072ed3c/usa-demokratie-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Politik",
-      "score": 77.91
+      "score": 77.75
     },
     {
       "id": "spiegel-f5496f28f38714d0",
@@ -187,31 +221,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/9d8009bb-e11b-4403-967a-36839aad0b9d_w1200_r1.778_fpx47_fpy50.jpg",
       "published": "2026-11-03T18:08:00+01:00",
       "category": "Politik",
-      "score": 77.34
+      "score": 77.18
     },
     {
-      "id": "spiegel-350fe730fce09886",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Midterms 2026 in den USA: Wahlmaschinen in New Yorker County streiken wegen zu dicken Papiers",
-      "link": "https://www.spiegel.de/ausland/midterms-2026-in-den-usa-kippen-die-machtverhaeltnisse-so-laufen-die-zwischenwahlen-a-c6a7c5b3-24a1-4e70-a78e-067745ed4103#ref=rss",
-      "summary": "Die Midterms haben begonnen. Bislang konnte US-Präsident Trump weitgehend durchregieren. Das könnte sich bei den Zwischenwahlen ändern. Ein erstes Ergebnis liegt inzwischen vor. Verfolgen Sie alle Entwicklungen in der Liveanalyse.",
-      "image": "https://cdn.prod.www.spiegel.de/images/379ecee4-b257-46f6-82f2-0ba48e66598b_w1200_r1.778_fpx63.98_fpy49.99.jpg",
-      "published": "2026-11-03T17:47:00+01:00",
+      "id": "handelsblatt-e7112fb8526007c0",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Ukraine-Krieg: Auf die Waffenruhe folgt ein Massaker: Russischer Angriff auf Schulhaus tötet Dutzende Zivilisten",
+      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-russischer-angriff-auf-schulhaus-toetet-dutzende-zivilisten/100267066.html",
+      "summary": "Russland attackiert die Ukraine weiterhin ohne Rücksicht auf zivile Opfer. Exemplarisch dafür steht ein besonders blutiger Angriff in der Provinz Saporischschja.",
+      "image": "https://images.handelsblatt.com/p61mcXaYNG-2/cover/900/506/0/0/200/201/0.5/0.5/02.11.2026-ukraine-komyschuwacha-polizisten-tragen-einen-hund-der-bei-einem-russischen-luftangri.jpg",
+      "published": "2026-11-03T17:56:15+00:00",
       "category": "Politik",
-      "score": 77.04
-    },
-    {
-      "id": "golem-e150f918898d816c",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Wahlmaschinen in den USA: Wie viel Wahrheit steckt hinter Trumps Betrugsvorwürfen?",
-      "link": "https://www.golem.de/news/wahlmaschinen-in-den-usa-wie-viel-wahrheit-steckt-hinter-trumps-betrugsvorwuerfen-2611-214797.html",
-      "summary": "Sobald seine Macht wackelt, bedient Donald Trump die Mär vom Wahlbetrug. Tatsächlich haben Forscher Sicherheitslücken in US-Wahlmaschinen gefunden. Wie gefährlich sind sie? Eine Analyse von Mike Faust ( USA , Datenschutz )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214797&amp;page=1&amp;ts=1793716201",
-      "published": "2026-11-03T15:30:01+01:00",
-      "category": "Politik",
-      "score": 73.14
+      "score": 76.85
     },
     {
       "id": "deutsche-welle-512cd1ce6dc1e8b6",
@@ -223,19 +245,7 @@
       "image": "https://static.dw.com/image/79841034_6.jpg",
       "published": "2026-11-03T15:10:00+00:00",
       "category": "Politik",
-      "score": 66.7
-    },
-    {
-      "id": "golem-b331cb0b64942cfc",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Ukraine: Miniatur-Empfänger hört russische Drohnenvideo-Streams ab",
-      "link": "https://www.golem.de/news/ukraine-miniatur-empfaenger-hoert-russische-drohnenvideo-streams-ab-2611-214805.html",
-      "summary": "Ein winziges Abhörsystem aus der Ukraine erlaubt es, in Echtzeit zu verfolgen, was russische Drohnen-Piloten sehen. ( Militär , Politik )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214805&amp;page=1&amp;ts=1793722082",
-      "published": "2026-11-03T17:08:02+01:00",
-      "category": "Politik",
-      "score": 66.5
+      "score": 66.54
     }
   ]
 }

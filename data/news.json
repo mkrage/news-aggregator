@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-11-03T17:55:47.100698+00:00",
-  "count": 247,
+  "generatedAt": "2026-11-03T18:07:10.026798+00:00",
+  "count": 206,
   "articles": [
+    {
+      "id": "spiegel-350fe730fce09886",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Midterms 2026 in den USA: Bruce Springsteen warnt Wahlhelfer, »niemals Anweisungen zuzustimmen«",
+      "link": "https://www.spiegel.de/ausland/midterms-2026-in-den-usa-kippen-die-machtverhaeltnisse-so-laufen-die-zwischenwahlen-a-c6a7c5b3-24a1-4e70-a78e-067745ed4103#ref=rss",
+      "summary": "Bislang konnte US-Präsident Trump weitgehend durchregieren. Das könnte sich bei den Zwischenwahlen ändern. Ein erstes Ergebnis liegt inzwischen vor, ein Rockstar befürchtet Manipulation. Verfolgen Sie alle Entwicklungen in der Liveanalyse.",
+      "image": "https://cdn.prod.www.spiegel.de/images/f1c5cf58-507c-49a5-9ca9-88833e7209a5_w1200_r1.778_fpx44.3_fpy49.99.jpg",
+      "published": "2026-11-03T19:04:00+01:00",
+      "category": "Politik",
+      "score": 77.96
+    },
+    {
+      "id": "spiegel-3283a31a7eb7b1f2",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Cem Özdemir berichtet über eigene Angst als Politiker",
+      "link": "https://www.spiegel.de/politik/deutschland/cem-oezdemir-berichtet-ueber-eigene-angst-als-politiker-a-1de25dad-58e8-4094-b9b0-e5fbd04569e2#ref=rss",
+      "summary": "Grünenpolitiker Cem Özdemir berichtet von beängstigenden Momenten, die er als Politiker erlebt hat. Auch um seine Kinder hatte er Angst.",
+      "image": "https://cdn.prod.www.spiegel.de/images/af19d37a-6d00-4f3b-a8de-f26bb10deba5_w1200_r1.778_fpx30.02_fpy50.98.jpg",
+      "published": "2026-11-03T18:57:00+01:00",
+      "category": "Technologie",
+      "score": 58.86
+    },
     {
       "id": "tagesschau-3a700351762a4a2c",
       "source": "tagesschau",
@@ -12,19 +36,17 @@
       "image": "https://images.tagesschau.de/image/7bfe3afd-df5d-4068-8773-bed8cec0c7f3/AAABoaHss2g/AAABnSSvrFg/16x9-big/wahllokal-midterms-100.jpg?width=1920",
       "published": "2026-11-03T18:54:19+01:00",
       "category": "Politik",
-      "score": 78.98
-    },
-    {
-      "id": "golem-51a5f2092ce81dfe",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Boost Mobile: Elon Musk sucht mit neuem Zukauf die Mobilfunk-Hintertür",
-      "link": "https://www.golem.de/news/boost-mobile-elon-musk-sucht-mit-neuem-zukauf-die-mobilfunk-hintertuer-2611-214815.html",
-      "summary": "Musk will Starlink unbedingt zum Mobilfunkanbieter in den USA ausbauen. Nun verhandelt SpaceX über den Kauf eines MVNOs, um sich Netzkapazität zu sichern. Eine Analyse von Achim Sawall ( SpaceX , Mobilfunk )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214815&amp;page=1&amp;ts=1793728202",
-      "published": "2026-11-03T18:50:02+01:00",
-      "category": "Technologie",
-      "score": 56.92
+      "score": 78.82,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ US-Midterms +++: US-Justizministerium entsendet Rekordzahl von Wahlbeobachtern",
+            "link": "https://www.handelsblatt.com/politik/international/us-midterms-us-justizministerium-entsendet-rekordzahl-von-wahlbeobachtern/29669594.html"
+          }
+        ]
+      }
     },
     {
       "id": "deutschlandfunk-be8cb123df16e74c",
@@ -36,19 +58,7 @@
       "image": "https://bilder.deutschlandfunk.de/88/00/d4/08/8800d408-39fe-4c94-8c37-f580ab6324bf/merz-206-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Politik",
-      "score": 86.91
-    },
-    {
-      "id": "deutschlandfunk-026e3f0ccb039d33",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Altersbezüge - Medien: Rentner können 2027 mit einer Erhöhung um 4,09 Prozent rechnen",
-      "link": "https://www.deutschlandfunk.de/medien-rentner-koennen-2027-mit-einer-erhoehung-um-4-09-prozent-rechnen-102.html",
-      "summary": "Die rund 21-einhalb Millionen Rentner in Deutschland können auf mehr Geld im nächsten Jahr hoffen.",
-      "image": "https://bilder.deutschlandfunk.de/50/3b/43/ed/503b43ed-71d6-4bf5-81ce-0cf87e6d8f3e/lebenserwartung-100-1920x1920.jpg",
-      "published": "2026-11-03T18:49:10+01:00",
-      "category": "Nachrichten",
-      "score": 58.91
+      "score": 86.75
     },
     {
       "id": "deutschlandfunk-e951c559d33c4204",
@@ -60,7 +70,7 @@
       "image": "https://bilder.deutschlandfunk.de/17/b2/cb/fc/17b2cbfc-c5e4-4596-a68f-7d9795df7010/kristersson-ruecktritt-schweden-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Politik",
-      "score": 61.91
+      "score": 61.75
     },
     {
       "id": "deutschlandfunk-3e743785499b4a9f",
@@ -72,7 +82,7 @@
       "image": "https://bilder.deutschlandfunk.de/f7/61/1e/5f/f7611e5f-9fbe-4160-b55d-2fa6b6cc71ee/logo-satelliten-internet-starlink-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Nachrichten",
-      "score": 58.91
+      "score": 58.75
     },
     {
       "id": "deutschlandfunk-745ca3067576ecd2",
@@ -84,7 +94,7 @@
       "image": "https://bilder.deutschlandfunk.de/e3/35/58/e6/e33558e6-86d1-4d8d-96a1-2f523a94cf63/kluessendorf-spd-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Politik",
-      "score": 61.91
+      "score": 61.75
     },
     {
       "id": "deutschlandfunk-ab7f696c092a68ee",
@@ -96,7 +106,7 @@
       "image": "https://bilder.deutschlandfunk.de/e2/0c/dd/53/e20cdd53-48aa-41c1-8520-3aa9cf3ddeec/tschechien-logo-oeffentlich-rechtlich-fernsehsender-cesa-televize-streik-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Nachrichten",
-      "score": 66.91
+      "score": 66.75
     },
     {
       "id": "deutschlandfunk-98994314ea0b699f",
@@ -108,7 +118,7 @@
       "image": "https://bilder.deutschlandfunk.de/1b/25/8c/b6/1b258cb6-f341-4319-a2c5-bb4274c43f7d/wahllokal-ohio-midterms-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Politik",
-      "score": 77.91
+      "score": 77.75
     },
     {
       "id": "deutschlandfunk-607ba02e430e306f",
@@ -120,7 +130,7 @@
       "image": "https://bilder.deutschlandfunk.de/dd/17/15/4f/dd17154f-2e6a-49fd-9bf0-c8ae4afcb0cb/schaeffler-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Wirtschaft",
-      "score": 61.91
+      "score": 61.75
     },
     {
       "id": "deutschlandfunk-f191301dc01907d4",
@@ -132,7 +142,7 @@
       "image": "https://bilder.deutschlandfunk.de/a1/0a/35/53/a10a3553-84a7-4b3b-9137-76a46e808693/lehrerin-matheunterricht-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Nachrichten",
-      "score": 58.91
+      "score": 58.75
     },
     {
       "id": "deutschlandfunk-3c66b6ed60f545d9",
@@ -144,7 +154,7 @@
       "image": "https://bilder.deutschlandfunk.de/90/ae/96/29/90ae9629-895e-4eaa-a164-c57efc027a4b/bauministerin-hubertz-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Politik",
-      "score": 61.91
+      "score": 61.75
     },
     {
       "id": "deutschlandfunk-89eb90fa335ee425",
@@ -156,7 +166,7 @@
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_9/8d/NOVA_98d2535a6104ad5934cd150a5f6fe7b2/craft-13520582-asset-100-768x768.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Politik",
-      "score": 85.91,
+      "score": 85.75,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -178,7 +188,7 @@
       "image": "https://bilder.deutschlandfunk.de/91/f7/6a/9a/91f76a9a-c093-47c0-864c-446338638f37/boerse-geld-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Technologie",
-      "score": 58.91
+      "score": 58.75
     },
     {
       "id": "deutschlandfunk-b30023ca06f81f57",
@@ -190,7 +200,7 @@
       "image": "https://bilder.deutschlandfunk.de/FI/LE/_b/73/FILE_b73db7616f39059a554029d81dc4e7dd/urteilhammer-jpg-102-768x768.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Nachrichten",
-      "score": 66.91
+      "score": 66.75
     },
     {
       "id": "deutschlandfunk-7a9cac51b6be2419",
@@ -202,7 +212,7 @@
       "image": "https://bilder.deutschlandfunk.de/67/f2/16/d5/67f216d5-1e2d-4b3c-bba3-b8d286320902/supermarkt-kuehlung-cyberangriff-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Wirtschaft",
-      "score": 69.91
+      "score": 69.75
     },
     {
       "id": "deutschlandfunk-345eb3ed930c5643",
@@ -214,7 +224,7 @@
       "image": "https://bilder.deutschlandfunk.de/6a/32/25/bb/6a3225bb-5a8c-4088-a405-5680dd6b6d49/georg-baetzing-vorsitzender-bischofskonferenz-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Technologie",
-      "score": 58.91
+      "score": 58.75
     },
     {
       "id": "deutschlandfunk-c1c6bc6490086b92",
@@ -226,7 +236,7 @@
       "image": "https://bilder.deutschlandfunk.de/52/72/ad/3c/5272ad3c-9c06-4e4e-8d11-d67616aa54e7/thomas-rachel-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Nachrichten",
-      "score": 58.91
+      "score": 58.75
     },
     {
       "id": "deutschlandfunk-8680988821ea8e60",
@@ -238,7 +248,7 @@
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_9/91/NOVA_991cf0f85033739589b2e2ed15624ccb/craft-13501984-asset-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Panorama",
-      "score": 58.91
+      "score": 58.75
     },
     {
       "id": "deutschlandfunk-59acd4c2da8a39a9",
@@ -250,7 +260,7 @@
       "image": "https://bilder.deutschlandfunk.de/48/3a/c0/50/483ac050-c2e4-407b-a61e-573961cb264f/polen-ministerpraesident-donald-tusk-zeremonie-jahrestag-ueberfall-deutschland-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Politik",
-      "score": 69.91
+      "score": 69.75
     },
     {
       "id": "deutschlandfunk-23a849e461f4b61b",
@@ -262,7 +272,7 @@
       "image": "https://bilder.deutschlandfunk.de/73/fd/15/89/73fd1589-0e65-437f-b1e2-46d04fa9f864/britta-hasselmann-vorsitzende-gruene-buendnis90-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Politik",
-      "score": 78.91
+      "score": 78.75
     },
     {
       "id": "deutschlandfunk-5a23d92da9b401bd",
@@ -274,7 +284,7 @@
       "image": "https://bilder.deutschlandfunk.de/70/58/0d/57/70580d57-8cee-446f-ab94-31d2a83fd822/bundesstiftung-aufarbeitung-sed-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Nachrichten",
-      "score": 58.91
+      "score": 58.75
     },
     {
       "id": "deutschlandfunk-c25c244220a267b2",
@@ -286,7 +296,7 @@
       "image": "https://bilder.deutschlandfunk.de/8c/17/0a/93/8c170a93-8eae-4d6e-97d8-56b5bd902da8/russischer-angriff-auf-ukraine-saporischschja-100-768x768.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Politik",
-      "score": 91.59
+      "score": 91.43
     },
     {
       "id": "deutschlandfunk-9a42bad0d38127df",
@@ -298,7 +308,7 @@
       "image": "https://bilder.deutschlandfunk.de/c2/c3/02/48/c2c30248-1a7b-4215-a9c8-f4d950e34dcd/soeder-katar-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Nachrichten",
-      "score": 58.91
+      "score": 58.75
     },
     {
       "id": "deutschlandfunk-06de806c20419bc6",
@@ -310,7 +320,7 @@
       "image": "https://bilder.deutschlandfunk.de/08/c9/cd/36/08c9cd36-8c23-43b8-9556-8c51aa611930/ulla-schmidt-spd-gesundheitsministrein-vizepraesidentin-bundestag-gesundheit-soziale-sicherung-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Politik",
-      "score": 69.91
+      "score": 69.75
     },
     {
       "id": "deutschlandfunk-e0c6257303f08fde",
@@ -322,7 +332,7 @@
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_2/75/NOVA_2750af1cb251cd8df06a0fce1d6a90e2/craft-12912387-asset-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Politik",
-      "score": 61.91
+      "score": 61.75
     },
     {
       "id": "deutschlandfunk-4ec6227f95c98cff",
@@ -334,7 +344,7 @@
       "image": "https://bilder.deutschlandfunk.de/a4/14/9c/03/a4149c03-24ce-4600-885e-30bb0700f3b1/stefan-denkhaus-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Politik",
-      "score": 61.91
+      "score": 61.75
     },
     {
       "id": "deutschlandfunk-df68b1dc4e4a9bdc",
@@ -346,7 +356,7 @@
       "image": "https://bilder.deutschlandfunk.de/d4/0c/96/a3/d40c96a3-25ea-4a6c-a2a7-785d1c9e792a/bundesgerichtshof-hanning-untersuchungshaft-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Nachrichten",
-      "score": 58.91
+      "score": 58.75
     },
     {
       "id": "deutschlandfunk-f3ccf5093eeb0d12",
@@ -358,7 +368,7 @@
       "image": "https://bilder.deutschlandfunk.de/64/8f/ce/94/648fce94-9e14-4ccb-b8e8-81622f4e1379/saporischschja-russischer-angriff-100-768x768.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Politik",
-      "score": 91.59
+      "score": 91.43
     },
     {
       "id": "deutschlandfunk-9fe500b56f7479c8",
@@ -370,7 +380,7 @@
       "image": "https://bilder.deutschlandfunk.de/e1/06/7d/e2/e1067de2-6230-41ae-943b-92085b1ff504/die-nachrichten-kachel-2176-zu1224-100-768x768.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Nachrichten",
-      "score": 58.91
+      "score": 58.75
     },
     {
       "id": "deutschlandfunk-7c1fbd1e327239a3",
@@ -382,7 +392,7 @@
       "image": "https://bilder.deutschlandfunk.de/89/c8/be/87/89c8be87-d971-468d-ac7d-bba5b89bf220/halloween-suessigkeiten-suesses-oder-saures-kinder-brauch-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Technologie",
-      "score": 58.91
+      "score": 58.75
     },
     {
       "id": "deutschlandfunk-f3a14027371ecd71",
@@ -394,7 +404,7 @@
       "image": "https://bilder.deutschlandfunk.de/94/f0/a3/1c/94f0a31c-1454-4aec-9d0a-6b62fc299a61/jd-com-saturn-mediamarkt-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Nachrichten",
-      "score": 66.91
+      "score": 58.75
     },
     {
       "id": "deutschlandfunk-f27ea841f77b6694",
@@ -406,7 +416,7 @@
       "image": "https://bilder.deutschlandfunk.de/6f/b4/e0/2b/6fb4e02b-95f2-414d-b953-d44666c00a94/bundesnetzagentur-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Nachrichten",
-      "score": 58.91
+      "score": 58.75
     },
     {
       "id": "deutschlandfunk-6068c376b1b7f217",
@@ -418,7 +428,7 @@
       "image": "https://bilder.deutschlandfunk.de/c5/1c/82/96/c51c8296-e219-486e-b076-ca62ba6fa7a4/tuerkische-flagge-finanzskandal-100-1280x1280.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Wirtschaft",
-      "score": 61.91
+      "score": 61.75
     },
     {
       "id": "deutschlandfunk-38c39038ca68461a",
@@ -430,7 +440,7 @@
       "image": "https://bilder.deutschlandfunk.de/05/37/a6/68/0537a668-af51-4ce6-b924-135bdcc7bdc3/tomaso-duso-vorsitzender-monopolkommission-hauptgutachten-institut-wirtschaftsforschung-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Politik",
-      "score": 61.91
+      "score": 61.75
     },
     {
       "id": "deutschlandfunk-cc003687d02a7ffd",
@@ -442,7 +452,7 @@
       "image": "https://bilder.deutschlandfunk.de/47/b4/c5/98/47b4c598-acc0-44ab-882e-47237cfa1954/deutsche-post-brief-porto-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Nachrichten",
-      "score": 58.91
+      "score": 58.75
     },
     {
       "id": "deutschlandfunk-483a954db6d93f69",
@@ -454,7 +464,7 @@
       "image": "https://bilder.deutschlandfunk.de/e1/06/7d/e2/e1067de2-6230-41ae-943b-92085b1ff504/die-nachrichten-kachel-2176-zu1224-100-768x768.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Nachrichten",
-      "score": 58.91
+      "score": 58.75
     },
     {
       "id": "deutschlandfunk-fba80f2be58a84d6",
@@ -466,7 +476,7 @@
       "image": "https://bilder.deutschlandfunk.de/70/58/0d/57/70580d57-8cee-446f-ab94-31d2a83fd822/bundesstiftung-aufarbeitung-sed-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Nachrichten",
-      "score": 58.91
+      "score": 58.75
     },
     {
       "id": "deutschlandfunk-e78f01d72113b0e0",
@@ -478,7 +488,7 @@
       "image": "https://bilder.deutschlandfunk.de/aa/06/71/55/aa067155-3c94-45da-ae7d-4e20f11a3a23/philippe-jaenada-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Nachrichten",
-      "score": 66.91
+      "score": 66.75
     },
     {
       "id": "deutschlandfunk-7e5dca5252726d68",
@@ -490,7 +500,7 @@
       "image": "https://bilder.deutschlandfunk.de/94/0c/f8/36/940cf836-aab8-4162-b9f4-8b754dbc4d06/teneriffa-jesus-de-miguel-fussball-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Nachrichten",
-      "score": 58.91
+      "score": 58.75
     },
     {
       "id": "deutschlandfunk-cd4c9244c6f5de76",
@@ -502,7 +512,7 @@
       "image": "https://bilder.deutschlandfunk.de/f3/0c/e8/b7/f30ce8b7-c270-4e46-9737-59a3f7d3acd8/dresden-durchsuchungen-linksextreme-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Panorama",
-      "score": 67.91
+      "score": 67.75
     },
     {
       "id": "deutschlandfunk-1ee88884f0e12edd",
@@ -514,7 +524,7 @@
       "image": "https://bilder.deutschlandfunk.de/04/01/a1/56/0401a156-7b4c-445d-9ad3-e0d7c93bdd3c/polizei-schwerin-logo-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Panorama",
-      "score": 58.91
+      "score": 58.75
     },
     {
       "id": "deutschlandfunk-741629c3488b1305",
@@ -526,7 +536,7 @@
       "image": "https://bilder.deutschlandfunk.de/ce/a6/66/09/cea66609-9737-4db4-87e9-5f5131d10c9c/daniel-freund-eu-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Nachrichten",
-      "score": 58.91
+      "score": 58.75
     },
     {
       "id": "deutschlandfunk-cc597572d22f3bea",
@@ -538,7 +548,7 @@
       "image": "https://bilder.deutschlandfunk.de/d8/ba/55/78/d8ba5578-e5f3-4808-906a-d5bf9072ed3c/usa-demokratie-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Politik",
-      "score": 77.91
+      "score": 77.75
     },
     {
       "id": "deutschlandfunk-12a7ad74ceb46fc8",
@@ -550,7 +560,7 @@
       "image": "https://bilder.deutschlandfunk.de/f6/a5/b7/74/f6a5b774-bc7c-43dd-8e6c-9abc13378847/afd-aussenpolitik-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Politik",
-      "score": 69.91
+      "score": 69.75
     },
     {
       "id": "deutschlandfunk-7dfd7f72ffd8be67",
@@ -562,7 +572,7 @@
       "image": "https://bilder.deutschlandfunk.de/1d/82/03/9f/1d82039f-870a-408a-b301-2bc24e0fa461/monocam-handyblitzer-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Politik",
-      "score": 75.59
+      "score": 75.43
     },
     {
       "id": "deutschlandfunk-6a000fab8540b469",
@@ -574,7 +584,7 @@
       "image": "https://bilder.deutschlandfunk.de/4d/26/d7/51/4d26d751-fe00-4094-8ac5-f9b04f8489ca/greer-us-handelsbeauftragter-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Nachrichten",
-      "score": 58.91
+      "score": 58.75
     },
     {
       "id": "deutschlandfunk-9fca457433f49d83",
@@ -586,7 +596,7 @@
       "image": "https://bilder.deutschlandfunk.de/20/a1/db/df/20a1dbdf-611b-43d4-bef2-ee1226c1c543/brexit-london-grossbritannien-eu-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Nachrichten",
-      "score": 58.91
+      "score": 58.75
     },
     {
       "id": "deutschlandfunk-4cc8f3f32bee5c8e",
@@ -598,7 +608,7 @@
       "image": "https://bilder.deutschlandfunk.de/fb/f1/6a/62/fbf16a62-8cec-42da-9cae-8af365116788/nordkorea-kim-yo-jong-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Wirtschaft",
-      "score": 61.91
+      "score": 61.75
     },
     {
       "id": "deutschlandfunk-421f17f98f0313ad",
@@ -610,7 +620,7 @@
       "image": "https://bilder.deutschlandfunk.de/FI/LE/_1/1d/FILE_11d871003f2432bc7add4c5fa40fa4d3/124150742-jpg-102-768x768.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Nachrichten",
-      "score": 58.91
+      "score": 66.75
     },
     {
       "id": "deutschlandfunk-4c0287f9d0b9a212",
@@ -622,7 +632,7 @@
       "image": "https://bilder.deutschlandfunk.de/6b/77/a9/49/6b77a949-7fb6-4b17-a4b1-28333ec32108/iran-keschm-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Politik",
-      "score": 72.59
+      "score": 72.43
     },
     {
       "id": "deutschlandfunk-84be9167e5dd9430",
@@ -634,7 +644,7 @@
       "image": "https://bilder.deutschlandfunk.de/ba/0d/76/0c/ba0d760c-be87-457b-8be0-0a80f500039d/soldaten-springerstiefel-armee-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Politik",
-      "score": 69.91
+      "score": 69.75
     },
     {
       "id": "deutschlandfunk-583edfc628ed6bd9",
@@ -646,7 +656,7 @@
       "image": "https://bilder.deutschlandfunk.de/FI/LE/_e/db/FILE_edbbb50dd86fe3f3af7b8f3b0192bcf9/222715675-jpg-100-768x768.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Wirtschaft",
-      "score": 61.91
+      "score": 61.75
     },
     {
       "id": "deutschlandfunk-3c2a409c2c5f0cde",
@@ -658,7 +668,7 @@
       "image": "https://bilder.deutschlandfunk.de/75/1a/62/52/751a6252-0c22-45f3-9bbd-92bcbdb94506/berghegger-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Nachrichten",
-      "score": 58.91
+      "score": 58.75
     },
     {
       "id": "deutschlandfunk-bd3aa45c643dc50d",
@@ -670,7 +680,7 @@
       "image": "https://bilder.deutschlandfunk.de/a3/7d/e3/85/a37de385-2a20-4baa-a91c-4dfc3f5fa5a1/waldemar-hartmann-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Technologie",
-      "score": 58.91
+      "score": 58.75
     },
     {
       "id": "deutschlandfunk-17116662041bfa1d",
@@ -682,7 +692,7 @@
       "image": "https://bilder.deutschlandfunk.de/4d/03/9c/bf/4d039cbf-fe85-4b41-ac09-4729d69d459d/fifa-infantino-grafstroem-100-1920x1920.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Nachrichten",
-      "score": 58.91
+      "score": 58.75
     },
     {
       "id": "deutschlandfunk-57acfabdd26e93fb",
@@ -694,19 +704,19 @@
       "image": "https://bilder.deutschlandfunk.de/e5/f6/55/84/e5f65584-6dc2-4dce-979d-729a024cd599/wetter-grafik-nachrichten-100-768x768.jpg",
       "published": "2026-11-03T18:49:10+01:00",
       "category": "Nachrichten",
-      "score": 58.91
+      "score": 58.75
     },
     {
-      "id": "golem-dea71c4b6e786f88",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Anzeige: Microsoft 365: Identitäten, Geräte und Daten absichern",
-      "link": "https://www.golem.de/news/anzeige-microsoft-365-identitaeten-geraete-und-daten-absichern-2611-214723.html",
-      "summary": "Microsoft 365 Security verbindet Identitäts-, Geräte- und Datenschutz. Ein dreitägiger Workshop vermittelt die Konfiguration der Sicherheitsdienste. ( Golem Karrierewelt , Identitätsmanagement )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214723&amp;page=1&amp;ts=1793727902",
-      "published": "2026-11-03T18:45:02+01:00",
-      "category": "Technologie",
-      "score": 56.85
+      "id": "deutschlandfunk-026e3f0ccb039d33",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Altersbezüge - Medien: Rentner können 2027 mit einer Erhöhung um 4,09 Prozent rechnen",
+      "link": "https://www.deutschlandfunk.de/medien-rentner-koennen-2027-mit-einer-erhoehung-um-4-09-prozent-rechnen-102.html",
+      "summary": "Die rund 21-einhalb Millionen Rentner in Deutschland können auf mehr Geld im nächsten Jahr hoffen.",
+      "image": "https://bilder.deutschlandfunk.de/50/3b/43/ed/503b43ed-71d6-4bf5-81ce-0cf87e6d8f3e/lebenserwartung-100-1920x1920.jpg",
+      "published": "2026-11-03T18:48:49+01:00",
+      "category": "Nachrichten",
+      "score": 58.75
     },
     {
       "id": "tagesschau-7ab6b453e46230a1",
@@ -718,19 +728,7 @@
       "image": "https://images.tagesschau.de/image/3e13c8d6-3392-4220-ad42-18fa7f746017/AAABoaJIk40/AAABnSSvrFg/16x9-big/zugunglueck-spanien-158.jpg?width=1920",
       "published": "2026-11-03T18:32:23+01:00",
       "category": "Nachrichten",
-      "score": 67.67
-    },
-    {
-      "id": "golem-94a522619ec983c8",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Von Fallout bis GTA: President Evil",
-      "link": "https://www.golem.de/news/von-fallout-bis-gta-president-evil-2611-214794.html",
-      "summary": "Vom größenwahnsinnigen Tentakel bis zum Zombie im Weißen Haus: Zum Abend der US-Midterms stellen wir zehn denkwürdige Videospielpräsidenten vor. Von Fabian Mauruschat ( Spiele , Command & Conquer )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214794&amp;page=1&amp;ts=1793727002",
-      "published": "2026-11-03T18:30:02+01:00",
-      "category": "Technologie",
-      "score": 56.64
+      "score": 67.52
     },
     {
       "id": "spiegel-4131495fe9b620f0",
@@ -742,19 +740,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/a3a74073-6d87-4568-a8f0-2bf856817a59_w1200_r1.778_fpx54_fpy53.jpg",
       "published": "2026-11-03T18:26:00+01:00",
       "category": "Wirtschaft",
-      "score": 61.59
-    },
-    {
-      "id": "golem-c21b84ed036f4299",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Elektroautos: Mercedes verkauft Schnellladenetzwerk in Europa",
-      "link": "https://www.golem.de/news/elektroautos-mercedes-verkauft-schnellladenetzwerk-in-europa-2611-214814.html",
-      "summary": "Erst seit 2023 hat Mercedes eigene Schnellladestationen aufgebaut. Nun gibt es für die europäischen Standorte einen Käufer. ( Ladesäule , Elektroauto )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214814&amp;page=1&amp;ts=1793726042",
-      "published": "2026-11-03T18:14:02+01:00",
-      "category": "Technologie",
-      "score": 56.42
+      "score": 61.43
     },
     {
       "id": "tagesschau-f40d1c817ed75f48",
@@ -766,7 +752,7 @@
       "image": "https://images.tagesschau.de/image/fe99f018-c075-4100-b866-642ea2df054d/AAABmnbk3IY/AAABnSSvrFg/16x9-big/boerse-466.jpg?width=1920",
       "published": "2026-11-03T18:10:25+01:00",
       "category": "Politik",
-      "score": 78.37
+      "score": 78.21
     },
     {
       "id": "spiegel-f5496f28f38714d0",
@@ -778,19 +764,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/9d8009bb-e11b-4403-967a-36839aad0b9d_w1200_r1.778_fpx47_fpy50.jpg",
       "published": "2026-11-03T18:08:00+01:00",
       "category": "Politik",
-      "score": 77.34
-    },
-    {
-      "id": "golem-e25b7aeb7523ed42",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Anzeige: Ugreen Steam Deck Dock mit neun Anschlüssen für 37,98 Euro bei Amazon",
-      "link": "https://www.golem.de/news/anzeige-ugreen-steam-deck-dock-mit-neun-anschluessen-fuer-37-98-euro-bei-amazon-2611-214811.html",
-      "summary": "Das Ugreen Steam Deck Dock mit neun Anschlüssen für Handheld, Monitor, Smartphone, Speichermedien und Ethernet ist bei Amazon reduziert. ( Dockingstation , Technik/Hardware )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214811&amp;page=1&amp;ts=1793725502",
-      "published": "2026-11-03T18:05:02+01:00",
-      "category": "Technologie",
-      "score": 56.3
+      "score": 77.18
     },
     {
       "id": "tagesschau-37548c4f5333b2d1",
@@ -802,19 +776,19 @@
       "image": "https://images.tagesschau.de/image/b541e2e9-adea-44ae-8ad5-1bae4e1410ca/AAABoaG4VAU/AAABnSSvrFg/16x9-big/kaubonbon-metallstuecke-102.jpg?width=1920",
       "published": "2026-11-03T18:02:41+01:00",
       "category": "Technologie",
-      "score": 59.26
+      "score": 59.1
     },
     {
-      "id": "golem-445296e3ebf4706a",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "(g+) MRAM statt DRAM: Neuer KI-Chip soll 98 Prozent weniger Strom verbrauchen",
-      "link": "https://www.golem.de/news/mram-statt-dram-neuer-ki-chip-soll-98-prozent-weniger-strom-verbrauchen-2611-214806.html",
-      "summary": "Ein Toyota-Zulieferer hat einen KI-Chip entwickelt, der deutlich sparsamer und schneller arbeiten soll. Die Technik könnte die KI-Verarbeitung in Autos verbessern, berichtet Nikkei Asia. Von Shota Uehara ( KI , Toyota )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214806&amp;page=1&amp;ts=1793725201",
-      "published": "2026-11-03T18:00:01+01:00",
-      "category": "Technologie",
-      "score": 56.23
+      "id": "handelsblatt-e7112fb8526007c0",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Ukraine-Krieg: Auf die Waffenruhe folgt ein Massaker: Russischer Angriff auf Schulhaus tötet Dutzende Zivilisten",
+      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-russischer-angriff-auf-schulhaus-toetet-dutzende-zivilisten/100267066.html",
+      "summary": "Russland attackiert die Ukraine weiterhin ohne Rücksicht auf zivile Opfer. Exemplarisch dafür steht ein besonders blutiger Angriff in der Provinz Saporischschja.",
+      "image": "https://images.handelsblatt.com/p61mcXaYNG-2/cover/900/506/0/0/200/201/0.5/0.5/02.11.2026-ukraine-komyschuwacha-polizisten-tragen-einen-hund-der-bei-einem-russischen-luftangri.jpg",
+      "published": "2026-11-03T17:56:15+00:00",
+      "category": "Politik",
+      "score": 76.85
     },
     {
       "id": "spiegel-ad0da7899b52ffa3",
@@ -826,19 +800,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/c0f5025c-f2ed-40b1-9732-d8a7447314e9_w1200_r1.778_fpx55_fpy41.jpg",
       "published": "2026-11-03T17:55:00+01:00",
       "category": "Nachrichten",
-      "score": 58.16
-    },
-    {
-      "id": "spiegel-350fe730fce09886",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Midterms 2026 in den USA: Wahlmaschinen in New Yorker County streiken wegen zu dicken Papiers",
-      "link": "https://www.spiegel.de/ausland/midterms-2026-in-den-usa-kippen-die-machtverhaeltnisse-so-laufen-die-zwischenwahlen-a-c6a7c5b3-24a1-4e70-a78e-067745ed4103#ref=rss",
-      "summary": "Die Midterms haben begonnen. Bislang konnte US-Präsident Trump weitgehend durchregieren. Das könnte sich bei den Zwischenwahlen ändern. Ein erstes Ergebnis liegt inzwischen vor. Verfolgen Sie alle Entwicklungen in der Liveanalyse.",
-      "image": "https://cdn.prod.www.spiegel.de/images/379ecee4-b257-46f6-82f2-0ba48e66598b_w1200_r1.778_fpx63.98_fpy49.99.jpg",
-      "published": "2026-11-03T17:47:00+01:00",
-      "category": "Politik",
-      "score": 77.04
+      "score": 58.0
     },
     {
       "id": "handelsblatt-145882336484f219",
@@ -850,7 +812,7 @@
       "image": "https://images.handelsblatt.com/a8p6hf54KgHW/cover/900/506/0/0/0/0/0.5/0.5/midterms-szenarien.jpg",
       "published": "2026-11-03T17:45:51+00:00",
       "category": "Politik",
-      "score": 68.86
+      "score": 68.7
     },
     {
       "id": "handelsblatt-36ae761ab40e323f",
@@ -862,19 +824,7 @@
       "image": "https://images.handelsblatt.com/LFcJu32FiOD5/cover/900/506/0/0/107/107/0.5/0.5/benjamin-netanjahu-und-donald-trump.jpg",
       "published": "2026-11-03T17:45:03+00:00",
       "category": "Politik",
-      "score": 76.85
-    },
-    {
-      "id": "golem-7517b249af183b71",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "EuGH-Gutachten: Googles Chatbot könnte Urheberrecht von Verlagen verletzen",
-      "link": "https://www.golem.de/news/eugh-gutachten-googles-chatbot-koennte-urheberrecht-von-verlagen-verletzen-2611-214812.html",
-      "summary": "Ein Verlag sieht sein Leistungsschutzrecht durch die KI-Übersichten von Google verletzt. Die Klage könnte in Teilen erfolgreich sein. ( KI , Urheberrecht )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214812&amp;page=1&amp;ts=1793724301",
-      "published": "2026-11-03T17:45:01+01:00",
-      "category": "Technologie",
-      "score": 56.02
+      "score": 76.69
     },
     {
       "id": "spiegel-107a77585b3e62a9",
@@ -886,19 +836,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/7871e636-f627-40f4-98ec-854015193d9a_w1200_r1.778_fpx64_fpy28.jpg",
       "published": "2026-11-03T17:43:00+01:00",
       "category": "Politik",
-      "score": 68.99
-    },
-    {
-      "id": "golem-7dc788ca3a1adf69",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Anzeige: Samsung T9 MicroSD-Karte mit 128 GByte zum Bestpreis bei Amazon",
-      "link": "https://www.golem.de/news/anzeige-samsung-t9-microsd-karte-mit-128-gbyte-zum-bestpreis-bei-amazon-2611-214798.html",
-      "summary": "Die Samsung T9 bietet 128 GByte, bis zu 200 MByte pro Sekunde Lesetempo und V30 für viele 4K-Aufnahmen. Bei Amazon kostet sie derzeit unter 31 Euro. ( Speichermedien , Amazon )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214798&amp;page=1&amp;ts=1793723702",
-      "published": "2026-11-03T17:35:02+01:00",
-      "category": "Technologie",
-      "score": 55.88
+      "score": 68.83
     },
     {
       "id": "handelsblatt-683ab91a50c2235d",
@@ -910,7 +848,7 @@
       "image": "https://images.handelsblatt.com/YXb2jsOBld46/cover/900/506/0/0/107/106/0.5/0.5/us-midterms-kansas.jpg",
       "published": "2026-11-03T17:34:54+00:00",
       "category": "Politik",
-      "score": 76.71
+      "score": 76.55
     },
     {
       "id": "handelsblatt-9948f2dfe569a9eb",
@@ -922,19 +860,7 @@
       "image": "https://images.handelsblatt.com/lVl7gFx901Lf/cover/900/506/0/0/107/107/0.5/0.5/groenland-konflikt-nuuk.jpg",
       "published": "2026-11-03T17:30:56+00:00",
       "category": "Wirtschaft",
-      "score": 60.65
-    },
-    {
-      "id": "golem-9e1b18e5683a9879",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Bethesda: Das sechste The Elder Scrolls heißt Sentinel",
-      "link": "https://www.golem.de/news/bethesda-das-sechste-the-elder-scrolls-heisst-sentinel-2611-214813.html",
-      "summary": "Bethesda hat den vollständigen Namen des nächsten The Elder Scrolls genannt: Sentinel. Der Name und ein Teaser deuten das Szenario an. ( The Elder Scrolls , Rollenspiel )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214813&amp;page=1&amp;ts=1793723222",
-      "published": "2026-11-03T17:27:02+01:00",
-      "category": "Technologie",
-      "score": 55.77
+      "score": 60.5
     },
     {
       "id": "spiegel-810fe71c1512d913",
@@ -946,7 +872,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/5374e5a6-6fd8-4994-8d76-affc835b1ba3_w1200_r1.778_fpx50_fpy50.jpg",
       "published": "2026-11-03T17:27:00+01:00",
       "category": "Technologie",
-      "score": 66.91
+      "score": 66.75
     },
     {
       "id": "spiegel-fb0e9f5bf39215cb",
@@ -958,7 +884,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/e76a3e13-80e4-445f-a7a8-906cd3138e98_w1200_r1.778_fpx55_fpy83.jpg",
       "published": "2026-11-03T17:18:00+01:00",
       "category": "Nachrichten",
-      "score": 57.64
+      "score": 57.48
     },
     {
       "id": "spiegel-6f316193269d86b2",
@@ -970,7 +896,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/d7c53931-ab6f-4548-8661-053af552d5ed_w1200_r1.778_fpx41.31_fpy49.99.jpg",
       "published": "2026-11-03T17:18:00+01:00",
       "category": "Technologie",
-      "score": 57.64
+      "score": 57.48
     },
     {
       "id": "spiegel-42e5ca8f7768729b",
@@ -982,7 +908,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/d975837e-51d7-40be-96ad-fdb6483d147c_w1200_r1.778_fpx51_fpy14.jpg",
       "published": "2026-11-03T17:17:00+01:00",
       "category": "Nachrichten",
-      "score": 57.63
+      "score": 57.47
     },
     {
       "id": "spiegel-d059bad36fac5c8d",
@@ -994,7 +920,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/dfb0f7dd-16a5-4286-91e0-f57f0fd3ba28_w1200_r1.778_fpx53_fpy48.jpg",
       "published": "2026-11-03T17:17:00+01:00",
       "category": "Politik",
-      "score": 68.63
+      "score": 68.47
     },
     {
       "id": "handelsblatt-adf5f743aaab9468",
@@ -1006,7 +932,7 @@
       "image": "https://images.handelsblatt.com/d8wYN3bFSk7Y/cover/900/506/0/0/0/0/0.5/0.5/marktkolumne.jpg",
       "published": "2026-11-03T17:16:50+00:00",
       "category": "Wirtschaft",
-      "score": 60.46
+      "score": 60.3
     },
     {
       "id": "handelsblatt-2b1ec5cb25a23bf7",
@@ -1018,7 +944,7 @@
       "image": "https://images.handelsblatt.com/ccKi557RjP95/cover/900/506/0/0/138/137/0.5/0.5/biontech.jpg",
       "published": "2026-11-03T17:14:52+00:00",
       "category": "Wirtschaft",
-      "score": 60.43
+      "score": 60.27
     },
     {
       "id": "handelsblatt-b90932fd61b12c0a",
@@ -1030,7 +956,7 @@
       "image": "https://images.handelsblatt.com/b0flOHx3eZ9u/cover/900/506/0/0/107/106/0.5/0.5/tap-air-portugal.jpg",
       "published": "2026-11-03T17:14:51+00:00",
       "category": "Wirtschaft",
-      "score": 60.43
+      "score": 60.27
     },
     {
       "id": "tagesschau-76217aa10f6d36ae",
@@ -1042,7 +968,7 @@
       "image": "https://images.tagesschau.de/image/70f69f82-1f8a-4384-814d-fde5d62a427a/AAABoaIwx-A/AAABnSSvrFg/16x9-big/dobrindt-572.jpg?width=1920",
       "published": "2026-11-03T17:14:29+01:00",
       "category": "Politik",
-      "score": 78.91
+      "score": 78.75
     },
     {
       "id": "tagesschau-ae19aa76a6d9b064",
@@ -1054,7 +980,7 @@
       "image": "https://images.tagesschau.de/image/95a0bc5a-be60-41f6-8477-5b0856fbe567/AAABoaFZbnA/AAABnSSvrFg/16x9-big/teilnehmer-demonstration-102.jpg?width=1920",
       "published": "2026-11-03T17:12:40+01:00",
       "category": "Nachrichten",
-      "score": 58.57
+      "score": 58.41
     },
     {
       "id": "tagesschau-a684deaee32aedb5",
@@ -1066,7 +992,7 @@
       "image": "https://images.tagesschau.de/image/2aa1a7a0-1dfe-4f65-bcfc-8453b86450af/AAABoaHv5G4/AAABnSSvrFg/16x9-big/supermarkt-kuehlregale-100.jpg?width=1920",
       "published": "2026-11-03T17:10:04+01:00",
       "category": "Technologie",
-      "score": 58.53
+      "score": 58.37
     },
     {
       "id": "handelsblatt-1c4d92746d1b0831",
@@ -1078,7 +1004,7 @@
       "image": "https://images.handelsblatt.com/sGCvPY2mfeJk/cover/900/506/0/0/132/76/0.5/0.5/us-kapitol.jpg",
       "published": "2026-11-03T17:09:52+00:00",
       "category": "Politik",
-      "score": 86.36
+      "score": 86.2
     },
     {
       "id": "tagesschau-df60f6220a7342c0",
@@ -1090,7 +1016,7 @@
       "image": "https://images.tagesschau.de/image/977cf63c-9a68-4093-afbb-ba679eac4fe0/AAABoaHeKvE/AAABnSSvrFg/16x9-big/selenskyj-merz-140.jpg?width=1920",
       "published": "2026-11-03T17:08:15+01:00",
       "category": "Politik",
-      "score": 86.91,
+      "score": 86.75,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -1103,18 +1029,6 @@
       }
     },
     {
-      "id": "golem-b331cb0b64942cfc",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Ukraine: Miniatur-Empfänger hört russische Drohnenvideo-Streams ab",
-      "link": "https://www.golem.de/news/ukraine-miniatur-empfaenger-hoert-russische-drohnenvideo-streams-ab-2611-214805.html",
-      "summary": "Ein winziges Abhörsystem aus der Ukraine erlaubt es, in Echtzeit zu verfolgen, was russische Drohnen-Piloten sehen. ( Militär , Politik )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214805&amp;page=1&amp;ts=1793722082",
-      "published": "2026-11-03T17:08:02+01:00",
-      "category": "Politik",
-      "score": 66.5
-    },
-    {
       "id": "spiegel-aab6ffa2ff2702ea",
       "source": "spiegel",
       "sourceWeight": 0.95,
@@ -1124,7 +1038,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/0fb372c3-843d-4dc6-a445-e7c34c92f75c_w1200_r1.778_fpx28.09_fpy49.93.png",
       "published": "2026-11-03T16:58:00+01:00",
       "category": "Politik",
-      "score": 76.36
+      "score": 76.21
     },
     {
       "id": "handelsblatt-cde0385102754851",
@@ -1136,19 +1050,7 @@
       "image": "https://images.handelsblatt.com/bckzfpdOn42n/cover/900/506/0/1/0/0/0.5/0.5/graph-aktienkurs-aktienchart-dax-online-dax-bericht.jpg",
       "published": "2026-11-03T16:56:00+00:00",
       "category": "Wirtschaft",
-      "score": 60.17
-    },
-    {
-      "id": "golem-f725114fdc185696",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Anzeige: RGB-Mini-LED statt OLED | Hisense-TV UR8 mit 180 Hz und Dolby Vision 2 zum halben Preis",
-      "link": "https://www.golem.de/news/anzeige-rgb-mini-led-statt-oled-hisense-tv-ur8-mit-180-hz-und-dolby-vision-2-zum-halben-preis-2611-214809.html",
-      "summary": "Noch nie hat es diesen 4K-TV bei Amazon günstiger gegeben. Der 65 Zoll große Hisense UR8 kombiniert eine neue RGB-Mini-LED-Hintergrundbeleuchtung mit hoher HDR-Helligkeit und 180 Hz. Zudem kann er bereits Dolby Vision 2. ( TV & Monitore , Amazon )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214809&amp;page=1&amp;ts=1793721302",
-      "published": "2026-11-03T16:55:02+01:00",
-      "category": "Technologie",
-      "score": 55.32
+      "score": 60.01
     },
     {
       "id": "spiegel-a4787f45246c1987",
@@ -1160,7 +1062,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/5b61f92f-05a0-4386-8eda-1353f09fcffb_w1200_r1.778_fpx70_fpy54.99.jpg",
       "published": "2026-11-03T16:52:00+01:00",
       "category": "Politik",
-      "score": 68.28
+      "score": 68.12
     },
     {
       "id": "spiegel-3fa2b7306b3ea551",
@@ -1172,7 +1074,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/f4f3ca2b-6322-433f-951d-c3589bc14198_w1200_r1.778_fpx47.35_fpy52.99.jpg",
       "published": "2026-11-03T16:48:00+01:00",
       "category": "Nachrichten",
-      "score": 57.23
+      "score": 57.07
     },
     {
       "id": "tagesschau-9b9c4729228490cd",
@@ -1184,7 +1086,7 @@
       "image": "https://images.tagesschau.de/image/6a22ca40-d411-4e92-8958-8efff5660b26/AAABoaFtyAg/AAABnSSvrFg/16x9-big/laden-rofu-100.jpg?width=1920",
       "published": "2026-11-03T16:47:04+01:00",
       "category": "Technologie",
-      "score": 66.21
+      "score": 66.05
     },
     {
       "id": "spiegel-4b51f2fb21fb32a7",
@@ -1196,7 +1098,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/2ac70870-9023-48ce-baba-44fd88110e37_w1200_r1.778_fpx49_fpy36.jpg",
       "published": "2026-11-03T16:47:00+01:00",
       "category": "Politik",
-      "score": 85.91
+      "score": 85.75
     },
     {
       "id": "tagesschau-35b7bca80d314299",
@@ -1208,7 +1110,7 @@
       "image": "https://images.tagesschau.de/image/cc682bd6-cf25-46b1-8f3c-014635274b46/AAABoaH0WmE/AAABnSSvrFg/16x9-big/werbung-114.jpg?width=1920",
       "published": "2026-11-03T16:46:23+01:00",
       "category": "Nachrichten",
-      "score": 58.2
+      "score": 58.04
     },
     {
       "id": "spiegel-d406eb042c366c10",
@@ -1220,7 +1122,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/2d252531-a327-4525-9323-a66418fda5b8_w1200_r1.778_fpx47.99_fpy50.jpg",
       "published": "2026-11-03T16:41:00+01:00",
       "category": "Nachrichten",
-      "score": 57.13
+      "score": 56.97
     },
     {
       "id": "spiegel-a4333462799eeeba",
@@ -1232,19 +1134,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/6acda30b-1a5a-4732-9c47-36ecb11707a8_w1200_r1.778_fpx56_fpy44.jpg",
       "published": "2026-11-03T16:39:00+01:00",
       "category": "Nachrichten",
-      "score": 65.1
-    },
-    {
-      "id": "golem-26a36d95d7286ce6",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "KI: Nvidia-Partner sollen Chinageschäft drastisch einschränken",
-      "link": "https://www.golem.de/news/ki-nvidia-partner-sollen-chinageschaeft-drastisch-einschraenken-2611-214810.html",
-      "summary": "Für chinesische Entwickler verschärft sich durch die Anweisung von Nvidia der Mangel an KI-Rechenleistung. ( KI , Nvidia )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214810&amp;page=1&amp;ts=1793720162",
-      "published": "2026-11-03T16:36:02+01:00",
-      "category": "Technologie",
-      "score": 55.06
+      "score": 64.94
     },
     {
       "id": "handelsblatt-57e28902039d92ec",
@@ -1256,7 +1146,7 @@
       "image": "https://images.handelsblatt.com/tloFE1ihRKsI/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
       "published": "2026-11-03T16:35:50+00:00",
       "category": "Politik",
-      "score": 67.89
+      "score": 67.73
     },
     {
       "id": "handelsblatt-29a06b7de9638dcf",
@@ -1268,7 +1158,7 @@
       "image": "https://images.handelsblatt.com/y8h1OAQCrY-e/cover/900/506/0/0/107/106/0.5/0.5/huawei.jpeg",
       "published": "2026-11-03T16:35:43+00:00",
       "category": "Politik",
-      "score": 59.89
+      "score": 59.73
     },
     {
       "id": "spiegel-060d3f3906321522",
@@ -1280,7 +1170,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/9c3e2186-b8cb-4464-ad9c-381820d4af09_w672_r1.778_fpx50_fpy44.53.png",
       "published": "2026-11-03T16:35:00+01:00",
       "category": "Politik",
-      "score": 68.04
+      "score": 67.89
     },
     {
       "id": "handelsblatt-c00f20337c87a3ee",
@@ -1292,19 +1182,7 @@
       "image": "https://images.handelsblatt.com/0jQ6nhm8U55M/cover/900/506/0/0/251/244/0.5/0.5/geld.jpg",
       "published": "2026-11-03T16:31:00+00:00",
       "category": "Wirtschaft",
-      "score": 59.82
-    },
-    {
-      "id": "golem-1837e927c4e4f620",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Anzeige: Lego-Star-Wars- und Bosch-Adventskalender 2026 jetzt zum neuen Amazon-Bestpreis",
-      "link": "https://www.golem.de/news/anzeige-lego-star-wars-und-bosch-adventskalender-2026-jetzt-zum-neuen-amazon-bestpreis-2611-214808.html",
-      "summary": "Der Lego-Star-Wars-Adventskalender bringt Grogu im Weihnachtspulli, der von Bosch 44 Werkzeugteile. Beide gibt es jetzt zum Bestpreis. ( Technik/Hardware , Lego )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214808&amp;page=1&amp;ts=1793719562",
-      "published": "2026-11-03T16:26:02+01:00",
-      "category": "Technologie",
-      "score": 54.92
+      "score": 59.66
     },
     {
       "id": "handelsblatt-4fbac051b67d368a",
@@ -1316,7 +1194,7 @@
       "image": "https://images.handelsblatt.com/rVC3DTS0QSec/cover/900/506/0/0/0/0/0.5/0.5/lars-feld-oekonomentreff.png",
       "published": "2026-11-03T16:25:36+00:00",
       "category": "Wirtschaft",
-      "score": 59.75
+      "score": 59.59
     },
     {
       "id": "handelsblatt-9b9683689777c231",
@@ -1328,7 +1206,7 @@
       "image": "https://images.handelsblatt.com/1SR0mAiZQdQT/cover/900/506/0/0/146/145/0.5/0.5/boris-palmer.jpg",
       "published": "2026-11-03T16:21:30+00:00",
       "category": "Wirtschaft",
-      "score": 68.69
+      "score": 68.53
     },
     {
       "id": "handelsblatt-cfb0f93cf1501619",
@@ -1340,19 +1218,7 @@
       "image": "https://images.handelsblatt.com/SqNbFrIoa62j/cover/900/506/0/0/107/106/0.5/0.5/britisches-koenigspaar-in-antigua-und-barbuda.jpg",
       "published": "2026-11-03T16:18:35+00:00",
       "category": "Wirtschaft",
-      "score": 59.65
-    },
-    {
-      "id": "golem-5052f69188d56131",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Mehr Unabhängigkeit von Microsoft: Rahmenvertrag bringt Nextcloud in Schulen",
-      "link": "https://www.golem.de/news/mehr-unabhaengigkeit-von-microsoft-rahmenvertrag-bringt-nextcloud-in-schulen-2611-214807.html",
-      "summary": "Der Vertrag gibt Schülern und Lehrkräften in sechs Bundesländern Zugriff auf den Ionos Nextcloud Workspace. ( Souveränität , Microsoft )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214807&amp;page=1&amp;ts=1793718961",
-      "published": "2026-11-03T16:16:01+01:00",
-      "category": "Technologie",
-      "score": 54.78
+      "score": 59.49
     },
     {
       "id": "handelsblatt-a6bded2a875feee6",
@@ -1364,7 +1230,7 @@
       "image": "https://images.handelsblatt.com/83h4TdnCCt9h/cover/900/506/0/0/656/657/0.5/0.5/today-podcast-teaser-2025.jpg",
       "published": "2026-11-03T16:15:29+00:00",
       "category": "Technologie",
-      "score": 56.61
+      "score": 56.45
     },
     {
       "id": "spiegel-fb0beb76bdfac151",
@@ -1376,7 +1242,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/ff087d2c-723c-4027-a60c-36be4fe4a075_w1200_r1.778_fpx51.3_fpy44.98.jpg",
       "published": "2026-11-03T16:14:00+01:00",
       "category": "Technologie",
-      "score": 66.91
+      "score": 66.75
     },
     {
       "id": "handelsblatt-b3c9c4e857f87ebd",
@@ -1388,7 +1254,7 @@
       "image": "https://images.handelsblatt.com/cJWmhzp1eyY9/cover/900/506/0/0/214/214/0.5/0.5/briefporto.jpg",
       "published": "2026-11-03T16:09:50+00:00",
       "category": "Wirtschaft",
-      "score": 59.53
+      "score": 59.37
     },
     {
       "id": "handelsblatt-2a9cb80385def420",
@@ -1400,7 +1266,7 @@
       "image": "https://images.handelsblatt.com/RoxrjzZIZ7s8/cover/900/506/0/1041/230/981/0.5/0.5/bundeskanzler-friedrich-merz-cdu.jpg",
       "published": "2026-11-03T16:09:00+00:00",
       "category": "Politik",
-      "score": 66.52
+      "score": 66.36
     },
     {
       "id": "netzpolitik-61d0db3abb21b4af",
@@ -1412,7 +1278,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/medienspiegel_bild.jpg",
       "published": "2026-11-03T16:08:23+00:00",
       "category": "Panorama",
-      "score": 53.51
+      "score": 53.35
     },
     {
       "id": "handelsblatt-b3bb56f365d043d6",
@@ -1424,7 +1290,7 @@
       "image": "https://images.handelsblatt.com/2uLQXDwxUE0i/cover/900/506/0/0/294/294/0.5/0.5/2026.11.04handelsblatt.png",
       "published": "2026-11-03T16:07:00+00:00",
       "category": "Wirtschaft",
-      "score": 59.49
+      "score": 59.33
     },
     {
       "id": "handelsblatt-a26f38725128c9ea",
@@ -1436,7 +1302,7 @@
       "image": "https://images.handelsblatt.com/DD3RqcIL7Hee/cover/900/506/0/0/0/0/0.5/0.5/bernd-toenjes.png",
       "published": "2026-11-03T16:06:50+00:00",
       "category": "Wirtschaft",
-      "score": 59.49
+      "score": 59.33
     },
     {
       "id": "handelsblatt-bd92312330a768cd",
@@ -1448,7 +1314,7 @@
       "image": "https://images.handelsblatt.com/rBFTp-fyVqrL/cover/900/506/0/0/107/107/0.5/0.5/ukrainischer-praesident-selenskyj-in-berlin.jpg",
       "published": "2026-11-03T16:05:01+00:00",
       "category": "Politik",
-      "score": 83.46,
+      "score": 83.3,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -1470,7 +1336,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/fd352c91-2057-4f1c-a7d9-46a222b7662c_w1200_r1.778_fpx68_fpy41.jpg",
       "published": "2026-11-03T16:05:00+01:00",
       "category": "Politik",
-      "score": 67.63
+      "score": 67.47
     },
     {
       "id": "handelsblatt-d381a28ea2816147",
@@ -1482,19 +1348,7 @@
       "image": "https://images.handelsblatt.com/wcU37wv3icbG/cover/900/506/0/0/311/311/0.5/0.5/2026.11.04handelsblattbeilage1.png",
       "published": "2026-11-03T16:05:00+00:00",
       "category": "Wirtschaft",
-      "score": 59.49
-    },
-    {
-      "id": "golem-289ffb6a7965105f",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "KI-Taskforce der Regierung: Die rosarote Vision einer deutschen KI-Nation",
-      "link": "https://www.golem.de/news/ki-taskforce-der-regierung-die-rosarote-vision-einer-deutschen-ki-nation-2611-214804.html",
-      "summary": "Die KI-Taskforce der Bundesregierung hat ihren ersten Bericht vorgelegt. Sie träumt von einer Art KI-Paradies, in dem alle von der Technik profitieren. Eine Analyse von Friedhelm Greis ( KI , Politik )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214804&amp;page=1&amp;ts=1793718002",
-      "published": "2026-11-03T16:00:02+01:00",
-      "category": "Politik",
-      "score": 57.56
+      "score": 59.33
     },
     {
       "id": "tagesschau-0a260ab615b77806",
@@ -1506,7 +1360,7 @@
       "image": "https://images.tagesschau.de/image/36b9faed-a98c-455e-a299-8c59c4b95517/AAABoaHi-Y0/AAABnSSvrFg/16x9-big/chemieindustrie-116.jpg?width=1920",
       "published": "2026-11-03T15:59:40+01:00",
       "category": "Nachrichten",
-      "score": 57.55
+      "score": 57.4
     },
     {
       "id": "handelsblatt-131e6f888dc0feaa",
@@ -1518,7 +1372,7 @@
       "image": "https://images.handelsblatt.com/AX-ptWd48RVC/cover/900/506/0/0/174/0/0.5/0.5/archiv-illustration-eine-frau-liest-am-20082011-in-einer-haengematte-am-bodensee-in-lindau-sch.jpg",
       "published": "2026-11-03T15:58:00+00:00",
       "category": "Technologie",
-      "score": 64.36
+      "score": 64.21
     },
     {
       "id": "spiegel-57bb5a67b501fb94",
@@ -1530,7 +1384,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/067fac81-b40e-4796-a948-f977ab50ca79_w1200_r1.778_fpx55_fpy49.jpg",
       "published": "2026-11-03T15:57:00+01:00",
       "category": "Politik",
-      "score": 83.52
+      "score": 83.36
     },
     {
       "id": "handelsblatt-dbe248144c665f6e",
@@ -1542,7 +1396,7 @@
       "image": "https://images.handelsblatt.com/FsDspF6-zdRX/cover/900/506/0/0/105/104/0.5/0.5/the-anthropic-logo-on-a-smartphone-arranged-in-forest-hills-new-york-us-on-wednesday-april-22-2.jpg",
       "published": "2026-11-03T15:55:07+00:00",
       "category": "Wirtschaft",
-      "score": 59.32
+      "score": 59.17
     },
     {
       "id": "handelsblatt-fc2d865a52fcba70",
@@ -1554,7 +1408,7 @@
       "image": "https://images.handelsblatt.com/iNCregVCStas/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
       "published": "2026-11-03T15:54:00+00:00",
       "category": "Politik",
-      "score": 75.31
+      "score": 75.15
     },
     {
       "id": "spiegel-a8bb8e669ccbe9ce",
@@ -1566,7 +1420,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/924ec0bd-ce2d-466b-8a8e-2c527ef5bd7e_w1200_r1.778_fpx66.66_fpy49.99.jpg",
       "published": "2026-11-03T15:53:00+01:00",
       "category": "Politik",
-      "score": 69.91
+      "score": 69.75
     },
     {
       "id": "spiegel-037ea3433a01c7c6",
@@ -1578,7 +1432,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/d2f8a2ab-db36-4b58-a879-9539ddbc2622_w1200_r1.778_fpx41_fpy31.jpg",
       "published": "2026-11-03T15:52:00+01:00",
       "category": "Politik",
-      "score": 59.45
+      "score": 59.29
     },
     {
       "id": "handelsblatt-3cbe53d517cc3ea0",
@@ -1590,7 +1444,7 @@
       "image": "https://images.handelsblatt.com/qtqVmT8GLNRO/cover/900/506/0/0/164/164/0.5/0.5/pilot-gehalt.jpeg",
       "published": "2026-11-03T15:51:00+00:00",
       "category": "Wirtschaft",
-      "score": 59.27
+      "score": 59.11
     },
     {
       "id": "handelsblatt-82e2a54563843581",
@@ -1602,7 +1456,7 @@
       "image": "https://images.handelsblatt.com/QWvEOCDLnVD1/cover/900/506/0/0/0/207/0.5/0.5/people-who-identified-themselves-as-department-of-justice-doj-poll-monitors-center-and-center-rig.jpg",
       "published": "2026-11-03T15:50:00+00:00",
       "category": "Politik",
-      "score": 78.98
+      "score": 78.82
     },
     {
       "id": "spiegel-47c2f77eea2bcd0a",
@@ -1614,7 +1468,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/d5b0d424-d671-4ad4-b078-a0cdb6cbc881_w1200_r1.778_fpx40.69_fpy44.97.jpg",
       "published": "2026-11-03T15:48:00+01:00",
       "category": "Nachrichten",
-      "score": 64.39
+      "score": 64.23
     },
     {
       "id": "spiegel-454853fcf7bcd8ec",
@@ -1626,19 +1480,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/d0dc7e75-4279-4221-8b4e-81841a83f309_w1200_r1.778_fpx65.37_fpy49.98.jpg",
       "published": "2026-11-03T15:46:00+01:00",
       "category": "Nachrichten",
-      "score": 56.36
-    },
-    {
-      "id": "golem-3629746532e234b1",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Anzeige: HDMI-Switch von Ugreen mit drei Eingängen und Fernbedienung für unter 17 Euro",
-      "link": "https://www.golem.de/news/anzeige-hdmi-switch-von-ugreen-mit-drei-eingaengen-und-fernbedienung-fuer-unter-17-euro-2611-214803.html",
-      "summary": "Zu wenige HDMI-Anschlüsse? Kein Problem. Der Ugreen-HDMI-Switch verbindet drei Geräte über nur einen freien Port. Bei Amazon ist er wieder zum Tiefpreis verfügbar. ( Technik/Hardware , Amazon )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214803&amp;page=1&amp;ts=1793717102",
-      "published": "2026-11-03T15:45:02+01:00",
-      "category": "Technologie",
-      "score": 56.3
+      "score": 56.21
     },
     {
       "id": "handelsblatt-0df415f147ef2b1e",
@@ -1650,7 +1492,7 @@
       "image": "https://images.handelsblatt.com/ibB7SjQB8pj4/cover/900/506/0/0/209/208/0.5/0.5/arbeitszeitbetrug.jpg",
       "published": "2026-11-03T15:44:00+00:00",
       "category": "Wirtschaft",
-      "score": 59.17
+      "score": 59.01
     },
     {
       "id": "spiegel-c90a70f4101853ea",
@@ -1662,7 +1504,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/c0dfe94d-d47c-4b3f-bba1-b2be00c4235f_w1200_r1.778_fpx45.61_fpy50.jpg",
       "published": "2026-11-03T15:42:00+01:00",
       "category": "Politik",
-      "score": 68.69
+      "score": 68.53
     },
     {
       "id": "handelsblatt-1e697beedb6be4f5",
@@ -1674,7 +1516,7 @@
       "image": "https://images.handelsblatt.com/7t-Z1N9OyAAv/cover/900/506/0/0/0/0/0.5/0.5/merz-russland-beschwoert-eine-weltweite-nahrungsmittelkrise-herauf-bc6407846256112.jpg",
       "published": "2026-11-03T15:39:23+00:00",
       "category": "Politik",
-      "score": 83.11
+      "score": 82.95
     },
     {
       "id": "handelsblatt-c1c16270bed3ca03",
@@ -1686,7 +1528,7 @@
       "image": "https://images.handelsblatt.com/VmSwSlyBnBK4/cover/900/506/1/1/0/0/0.5/0.5/lovable.png",
       "published": "2026-11-03T15:39:00+00:00",
       "category": "Technologie",
-      "score": 56.1
+      "score": 55.94
     },
     {
       "id": "handelsblatt-1a0eca17ed07e1da",
@@ -1698,7 +1540,7 @@
       "image": "https://images.handelsblatt.com/AH6i7QnmHMRh/cover/900/506/0/0/151/151/0.5/0.5/archiv-29.12.2025-usa-palm-beach-us-praesident-donald-trump-r-gibt-dem-israelischen-ministerpr.jpg",
       "published": "2026-11-03T15:37:21+00:00",
       "category": "Politik",
-      "score": 76.85
+      "score": 76.69
     },
     {
       "id": "handelsblatt-a6bceedc76457749",
@@ -1710,7 +1552,7 @@
       "image": "https://images.handelsblatt.com/MNfNJ22ExBM5/cover/900/506/0/0/287/286/0.5/0.5/file-photo-u.s.-president-donald-trump-speaks-during-a-press-conference-on-the-day-of-a-nato-leader.jpg",
       "published": "2026-11-03T15:37:00+00:00",
       "category": "Politik",
-      "score": 72.59
+      "score": 72.43
     },
     {
       "id": "handelsblatt-d528a3ae377402a2",
@@ -1722,19 +1564,7 @@
       "image": "https://images.handelsblatt.com/BzPIXvQtUKuV/cover/900/506/0/0/0/489/0.5/0.5/sanchez-travels-to-the-forward-command-post-set-up-following-the-train-accident-in-urda-toledo-pri.jpg",
       "published": "2026-11-03T15:32:37+00:00",
       "category": "Politik",
-      "score": 67.67
-    },
-    {
-      "id": "golem-e150f918898d816c",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Wahlmaschinen in den USA: Wie viel Wahrheit steckt hinter Trumps Betrugsvorwürfen?",
-      "link": "https://www.golem.de/news/wahlmaschinen-in-den-usa-wie-viel-wahrheit-steckt-hinter-trumps-betrugsvorwuerfen-2611-214797.html",
-      "summary": "Sobald seine Macht wackelt, bedient Donald Trump die Mär vom Wahlbetrug. Tatsächlich haben Forscher Sicherheitslücken in US-Wahlmaschinen gefunden. Wie gefährlich sind sie? Eine Analyse von Mike Faust ( USA , Datenschutz )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214797&amp;page=1&amp;ts=1793716201",
-      "published": "2026-11-03T15:30:01+01:00",
-      "category": "Politik",
-      "score": 73.14
+      "score": 67.52
     },
     {
       "id": "spiegel-6447d4ed379a0950",
@@ -1746,7 +1576,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/51a1742e-4f74-4df2-84cc-f0e38026eae2_w1200_r1.778_fpx57_fpy37.jpg",
       "published": "2026-11-03T15:26:00+01:00",
       "category": "Nachrichten",
-      "score": 56.09
+      "score": 55.93
     },
     {
       "id": "handelsblatt-bb37624f79d5322a",
@@ -1758,7 +1588,7 @@
       "image": "https://images.handelsblatt.com/D82sxoaNkkYL/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
       "published": "2026-11-03T15:25:33+00:00",
       "category": "Politik",
-      "score": 72.59
+      "score": 72.43
     },
     {
       "id": "handelsblatt-2cbe53eaaf7fc1a7",
@@ -1770,7 +1600,7 @@
       "image": "https://images.handelsblatt.com/P-73zvwpCO2y/cover/900/506/0/0/75/75/0.5/0.5/wall-street.jpeg",
       "published": "2026-11-03T15:22:00+00:00",
       "category": "Wirtschaft",
-      "score": 58.86
+      "score": 58.71
     },
     {
       "id": "handelsblatt-78fa16d9fb6385c4",
@@ -1782,7 +1612,7 @@
       "image": "https://images.handelsblatt.com/O8mERf8SxNIg/cover/900/506/0/0/141/140/0.5/0.5/steuern-deutschlandticket-musterung-was-sich-2026-aendert.jpg",
       "published": "2026-11-03T15:18:59+00:00",
       "category": "Wirtschaft",
-      "score": 68.28
+      "score": 68.12
     },
     {
       "id": "handelsblatt-e78c8381c85d7a3c",
@@ -1794,7 +1624,7 @@
       "image": "https://images.handelsblatt.com/hXZEWafTYdfe/cover/900/506/0/0/107/106/0.5/0.5/cyber-angriffe-auf-supermaerkte-erfassen-auch-nrw.jpg",
       "published": "2026-11-03T15:14:31+00:00",
       "category": "Technologie",
-      "score": 69.91
+      "score": 69.75
     },
     {
       "id": "handelsblatt-66495e351b7439ee",
@@ -1806,7 +1636,7 @@
       "image": "https://images.handelsblatt.com/bJ653p7wsNPp/cover/900/506/318/318/0/0/0.5/0.5/archiv-08.06.2025-bayern-muenchen-ein-banner-bei-einer-pressekonferenz-des-ifo-instituts.-zu-dp.jpg",
       "published": "2026-11-03T15:14:30+00:00",
       "category": "Wirtschaft",
-      "score": 58.76
+      "score": 58.6
     },
     {
       "id": "spiegel-24f23b43a1180f8f",
@@ -1818,7 +1648,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/c359d6a3-1aab-4b49-b548-29745cc2380e_w1200_r1.778_fpx65.17_fpy49.94.jpg",
       "published": "2026-11-03T15:14:00+01:00",
       "category": "Nachrichten",
-      "score": 55.92
+      "score": 55.76
     },
     {
       "id": "handelsblatt-32f67de814a21a88",
@@ -1830,7 +1660,7 @@
       "image": "https://images.handelsblatt.com/lnzVp4VvyjYG/cover/900/506/0/0/321/321/0.5/0.5/archiv-05.06.2015-brandenburg-eberswalde-archiv-viele-rentner-nehmen-am-06.06.2015-an-der-eroe.jpg",
       "published": "2026-11-03T15:13:34+00:00",
       "category": "Wirtschaft",
-      "score": 68.28
+      "score": 68.12
     },
     {
       "id": "handelsblatt-46064262ebf4f418",
@@ -1842,7 +1672,7 @@
       "image": "https://images.handelsblatt.com/Zavdsv7hdT8F/cover/900/506/0/0/156/157/0.5/0.5/goldbarren-der-bundesbank.jpg",
       "published": "2026-11-03T15:13:05+00:00",
       "category": "Technologie",
-      "score": 55.74
+      "score": 55.58
     },
     {
       "id": "handelsblatt-8ef8b06d0880dbfe",
@@ -1854,7 +1684,7 @@
       "image": "https://images.handelsblatt.com/t0MjDFUbutme/cover/900/506/0/0/175/175/0.5/0.5/markus-koch-wall-street-podcast.jpg",
       "published": "2026-11-03T15:13:00+00:00",
       "category": "Wirtschaft",
-      "score": 58.74
+      "score": 58.58
     },
     {
       "id": "deutsche-welle-512cd1ce6dc1e8b6",
@@ -1866,7 +1696,7 @@
       "image": "https://static.dw.com/image/79841034_6.jpg",
       "published": "2026-11-03T15:10:00+00:00",
       "category": "Politik",
-      "score": 66.7
+      "score": 66.54
     },
     {
       "id": "handelsblatt-9985b4493fa72539",
@@ -1878,19 +1708,7 @@
       "image": "https://images.handelsblatt.com/Q8mXtC-HNxJf/cover/900/506/0/0/638/0/0.5/0.5/archiv-12.07.2022-sachsen-dresden-ein-mitarbeiter-demonstriert-waehrend-eines-presserundgangs-zu.jpg",
       "published": "2026-11-03T15:09:52+00:00",
       "category": "Wirtschaft",
-      "score": 58.7
-    },
-    {
-      "id": "golem-9dec8b1ef6ffab47",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Anzeige: Kabellose Rückfahrkamera mit Display zum Sparpreis bei Amazon",
-      "link": "https://www.golem.de/news/anzeige-kabellose-rueckfahrkamera-mit-display-zum-sparpreis-bei-amazon-2611-214801.html",
-      "summary": "Amazon hat eine kabellose Rückfahrkamera im Angebot, die mit Akku und Solarenergie betrieben und mit einem 5-Zoll-Display geliefert wird. ( Technik/Hardware )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214801&amp;page=1&amp;ts=1793714701",
-      "published": "2026-11-03T15:05:01+01:00",
-      "category": "Technologie",
-      "score": 53.79
+      "score": 58.54
     },
     {
       "id": "netzpolitik-6c64afd2a27bf2c9",
@@ -1902,7 +1720,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/261102oellermannDigitalgipfel6583.jpg",
       "published": "2026-11-03T15:04:20+00:00",
       "category": "Politik",
-      "score": 55.62
+      "score": 55.46
     },
     {
       "id": "handelsblatt-d5d379ae78b214f9",
@@ -1914,7 +1732,7 @@
       "image": "https://images.handelsblatt.com/Rvybevgl8o6d/cover/900/506/0/0/106/105/0.5/0.5/us-kongress.jpeg",
       "published": "2026-11-03T14:59:25+00:00",
       "category": "Politik",
-      "score": 74.55
+      "score": 74.39
     },
     {
       "id": "deutsche-welle-8d99485a615be404",
@@ -1926,7 +1744,7 @@
       "image": "https://static.dw.com/image/77878231_6.jpg",
       "published": "2026-11-03T14:59:00+00:00",
       "category": "Panorama",
-      "score": 55.54
+      "score": 55.39
     },
     {
       "id": "deutsche-welle-7f8ef4c25834ac56",
@@ -1938,7 +1756,7 @@
       "image": "https://static.dw.com/image/79826371_6.jpg",
       "published": "2026-11-03T14:57:00+00:00",
       "category": "Panorama",
-      "score": 55.52
+      "score": 55.36
     },
     {
       "id": "handelsblatt-454ca27cf4a95336",
@@ -1950,19 +1768,7 @@
       "image": "https://images.handelsblatt.com/ezfFyMUz2Ii4/cover/900/506/0/0/61/133/0.5/0.5/leergeraeumte-kuehltheken-in-wetter.jpg",
       "published": "2026-11-03T14:47:19+00:00",
       "category": "Wirtschaft",
-      "score": 69.91
-    },
-    {
-      "id": "golem-08ec67fbeff615a8",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "JD.com: EU genehmigt chinesische Übernahme von Mediamarkt-Saturn mit Auflagen",
-      "link": "https://www.golem.de/news/jd-com-eu-genehmigt-chinesische-uebernahme-von-mediamarkt-saturn-mit-auflagen-2611-214802.html",
-      "summary": "Um staatliche Beihilfen aus China zu verhindern, knüpft die EU-Kommission die Zustimmung an Auflagen und eine zehnjährige Aufsicht über Mediamarkt-Saturn. ( Media Markt , Wirtschaft )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214802&amp;page=1&amp;ts=1793713562",
-      "published": "2026-11-03T14:46:02+01:00",
-      "category": "Wirtschaft",
-      "score": 66.91
+      "score": 58.22
     },
     {
       "id": "handelsblatt-08497f6ce218ae77",
@@ -1974,7 +1780,7 @@
       "image": "https://images.handelsblatt.com/Sm2JRrgafXhz/cover/900/506/0/0/243/242/0.5/0.5/praesident-selenskyj-l.-kanzler-merz.jpg",
       "published": "2026-11-03T14:45:10+00:00",
       "category": "Politik",
-      "score": 74.35
+      "score": 74.19
     },
     {
       "id": "spiegel-d5e316532c682608",
@@ -1986,19 +1792,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/71985e9e-0a7d-4240-b857-05e46b116ae1_w1200_r1.778_fpx36_fpy37.jpg",
       "published": "2026-11-03T14:43:00+01:00",
       "category": "Technologie",
-      "score": 55.49
-    },
-    {
-      "id": "golem-f328aa96c431da63",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "South of Midnight: Xbox-Entwickler hätte eigenes Spiel eher nicht finanziert",
-      "link": "https://www.golem.de/news/south-of-midnight-xbox-entwickler-haette-eigenes-spiel-eher-nicht-finanziert-2611-214800.html",
-      "summary": "Kreativchef David Sears hält Microsofts frühere Finanzierungspolitik von South of Midnight rückblickend für nicht tragfähig. ( Xbox , Microsoft )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214800&amp;page=1&amp;ts=1793713262",
-      "published": "2026-11-03T14:41:02+01:00",
-      "category": "Technologie",
-      "score": 53.46
+      "score": 55.33
     },
     {
       "id": "tagesschau-0b48569245c5029c",
@@ -2010,7 +1804,7 @@
       "image": "https://images.tagesschau.de/image/d726ff5b-764a-4fd1-abcc-2f3341838768/AAABmMuktaQ/AAABnSSvrFg/16x9-big/nyse-412.jpg?width=1920",
       "published": "2026-11-03T14:33:24+01:00",
       "category": "Politik",
-      "score": 67.36
+      "score": 67.2
     },
     {
       "id": "deutsche-welle-ab7664a6057353bb",
@@ -2022,7 +1816,7 @@
       "image": "https://static.dw.com/image/79797144_6.jpg",
       "published": "2026-11-03T14:33:00+00:00",
       "category": "Nachrichten",
-      "score": 55.18
+      "score": 55.03
     },
     {
       "id": "handelsblatt-26b38202c91220a1",
@@ -2034,7 +1828,7 @@
       "image": "https://images.handelsblatt.com/tNdSvzB63RJK/cover/900/506/0/0/140/139/0.5/0.5/ukraine-krieg-putin-beginnt-gespraeche-mit-us-unterhaendlern.jpg",
       "published": "2026-11-03T14:26:33+00:00",
       "category": "Politik",
-      "score": 74.09
+      "score": 73.94
     },
     {
       "id": "tagesschau-e9c7c4d05e32822a",
@@ -2046,7 +1840,7 @@
       "image": "https://images.tagesschau.de/image/95591cc8-7e78-42f1-92f2-fc324115d59b/AAABoaEcUVU/AAABnSSvrFg/16x9-big/mediamarkt-saturn-102.jpg?width=1920",
       "published": "2026-11-03T14:25:20+01:00",
       "category": "Nachrichten",
-      "score": 56.24
+      "score": 56.09
     },
     {
       "id": "handelsblatt-24d3382a27c29e67",
@@ -2058,7 +1852,7 @@
       "image": "https://images.handelsblatt.com/0mKfVLqjkN-3/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
       "published": "2026-11-03T14:25:00+00:00",
       "category": "Politik",
-      "score": 91.59
+      "score": 91.43
     },
     {
       "id": "spiegel-0c2bf03104b5dad2",
@@ -2070,7 +1864,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/84669952-9dc6-4d1b-95e4-8fab55b57ddd_w1200_r1.778_fpx49_fpy45.jpg",
       "published": "2026-11-03T14:23:00+01:00",
       "category": "Politik",
-      "score": 66.21
+      "score": 66.05
     },
     {
       "id": "handelsblatt-6ee094efe8b222ad",
@@ -2082,7 +1876,7 @@
       "image": "https://images.handelsblatt.com/o-tty4qsxlHz/cover/900/506/0/0/208/208/0.5/0.5/bitcoin-wenn-die-kurse-einbrechen-kommen-krypto-treasuries-unter-mehreren-seiten-unter-druck.jpg",
       "published": "2026-11-03T14:22:42+00:00",
       "category": "Wirtschaft",
-      "score": 58.04
+      "score": 57.88
     },
     {
       "id": "handelsblatt-2d4d8dda2b183544",
@@ -2094,43 +1888,7 @@
       "image": "https://images.handelsblatt.com/W5ZPCkG6wB2Y/cover/900/506/0/0/105/104/0.5/0.5/pwc-zentrale-in-frankfurt.jpeg",
       "published": "2026-11-03T14:18:28+00:00",
       "category": "Wirtschaft",
-      "score": 65.98
-    },
-    {
-      "id": "spiegel-6ac00226c682e9fd",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Raumfahrt: China plant bemannte Mondlandung vor 2030",
-      "link": "https://www.spiegel.de/wissenschaft/weltall/raumfahrt-china-plant-bemannte-mondlandung-vor-2030-a-96ec221a-a77c-4a35-adbe-ce90d7b475f9#ref=rss",
-      "summary": "Die Landefähre und die Crew sollen sich erst im Mondorbit treffen: So plant es der Chefkonstrukteur des chinesischen Mondforschungsprogramms. Die Nasa hält es für essenziell, dass der Westen den Wettlauf gewinnt.",
-      "image": "https://cdn.prod.www.spiegel.de/images/1e67ecc1-f6f8-441a-b477-e2b1c2e66be2_w1200_r1.778_fpx50.07_fpy54.99.jpg",
-      "published": "2026-11-03T14:17:00+01:00",
-      "category": "Wissenschaft",
-      "score": 55.13
-    },
-    {
-      "id": "handelsblatt-560f9813a333dae9",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Ukraine-Krieg +++: Selenskyj will Putin nicht nach Kiew einladen",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-selenskyj-will-putin-nicht-nach-kiew-einladen/27982126.html",
-      "summary": "Selenskyj warnt Europäer vor russischer Aufrüstung +++ Möglicher Gipfel zwischen Trump, Putin und Xi +++Nächste Woche laut USA Verhandlungen mit Ukraine und Russland+++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/m5q1veLh8OBo/cover/900/506/0/0/293/292/0.5/0.5/03.11.2026-berlin-bundeskanzler-friedrich-merz-r-cdu-und-wolodymyr-selenskyj-praesident-der-ukr.jpg",
-      "published": "2026-11-03T14:10:00+00:00",
-      "category": "Politik",
-      "score": 74.09
-    },
-    {
-      "id": "golem-9b7441928acf8a97",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "IPO: Trade Republic ermöglicht Teilnahme am Anthropic-Börsengang",
-      "link": "https://www.golem.de/news/ipo-trade-republic-ermoeglicht-teilnahme-am-anthropic-boersengang-2611-214796.html",
-      "summary": "Der Börsengang des KI-Stars Anthropic rückt näher. Trade Republic öffnet erstmals Kleinanlegern in Europa den Zugang. ( Anthropic , Börse )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214796&amp;page=1&amp;ts=1793710921",
-      "published": "2026-11-03T14:02:01+01:00",
-      "category": "Wirtschaft",
-      "score": 55.92
+      "score": 65.82
     },
     {
       "id": "heise-97c6cee911da2e38",
@@ -2142,19 +1900,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/3/7/8/6/shutterstock_2033447216-fc9dc3875fd6870b.jpeg",
       "published": "2026-11-03T13:57:00+01:00",
       "category": "Technologie",
-      "score": 53.85
-    },
-    {
-      "id": "golem-1f39d86caa3fc269",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Anzeige: Kabellose vertikale Maus für unter 25 Euro bei Amazon",
-      "link": "https://www.golem.de/news/anzeige-kabellose-vertikale-maus-fuer-unter-25-euro-bei-amazon-2611-214795.html",
-      "summary": "Eine ergonomische Maus in vertikaler Bauweise und mit einem ungewöhnlichen Design gibt es von Protoarc bei Amazon zum Angebotspreis. ( Maus , Amazon )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214795&amp;page=1&amp;ts=1793710502",
-      "published": "2026-11-03T13:55:02+01:00",
-      "category": "Technologie",
-      "score": 52.82
+      "score": 53.69
     },
     {
       "id": "tagesschau-7e8bdbcc14da3272",
@@ -2166,19 +1912,7 @@
       "image": "https://images.tagesschau.de/image/9ff683de-5360-4f68-bd22-d655aeb23306/AAABoaD8DFk/AAABnSSvrFg/16x9-big/polizei-einsatz-168.jpg?width=1920",
       "published": "2026-11-03T13:48:39+01:00",
       "category": "Panorama",
-      "score": 67.91
-    },
-    {
-      "id": "golem-d95c974e335783c2",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "(g+) Digital Networks Act - Teil 1: Warum die Telekom ihr Kupfernetz nicht abschalten will",
-      "link": "https://www.golem.de/news/digital-networks-act-teil-1-warum-die-telekom-ihr-kupfernetz-nicht-abschalten-will-2611-214754.html",
-      "summary": "Der Digital Networks Act entscheidet, wer Europas digitale Infrastruktur künftig kontrolliert. In Teil 1 unserer Analyse zeigen wir die Interessenlage und ihre möglichen Folgen für Anbieterwahl und Preise. Eine Analyse von Achim Sawall ( Festnetz , DSL )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214754&amp;page=1&amp;ts=1793709001",
-      "published": "2026-11-03T13:30:01+01:00",
-      "category": "Politik",
-      "score": 63.48
+      "score": 67.75
     },
     {
       "id": "netzpolitik-850f654189319298",
@@ -2190,7 +1924,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/imago-monocam-handy-blitzer-scaled.jpg",
       "published": "2026-11-03T13:28:20+00:00",
       "category": "Politik",
-      "score": 75.59
+      "score": 75.43
     },
     {
       "id": "tagesschau-82a3d84177d39336",
@@ -2202,19 +1936,7 @@
       "image": "https://images.tagesschau.de/image/9e4b48cc-a1e7-4651-aa17-04dfaeec83f3/AAABoYKmqUo/AAABnSSvrFg/16x9-big/frau-wahllokal-100.jpg?width=1920",
       "published": "2026-11-03T13:24:53+01:00",
       "category": "Politik",
-      "score": 74.4
-    },
-    {
-      "id": "golem-3ca7aedbad89f8c9",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Anzeige: Alle Modelle der Ninja-Creami-Eismaschine zu neuen Amazon-Bestpreisen",
-      "link": "https://www.golem.de/news/anzeige-alle-modelle-der-ninja-creami-eismaschine-zu-neuen-amazon-bestpreisen-2611-214792.html",
-      "summary": "Die Ninja Creami macht aus gefrorenen Zutaten in Minuten Eis, Sorbet oder Milchshakes und ist ausgerechnet im Winter so günstig wie nie. ( Technik/Hardware , Amazon )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214792&amp;page=1&amp;ts=1793708461",
-      "published": "2026-11-03T13:21:01+01:00",
-      "category": "Technologie",
-      "score": 52.35
+      "score": 74.25
     },
     {
       "id": "tagesschau-00bdd717d13ac048",
@@ -2226,7 +1948,7 @@
       "image": "https://images.tagesschau.de/image/d5028027-8fa5-4d83-b097-22f7f4f596b0/AAABoaHAdu4/AAABnSSvrFg/16x9-big/grafik-midterms-usa-senat-sitze-104.jpg?width=1920",
       "published": "2026-11-03T13:17:36+01:00",
       "category": "Politik",
-      "score": 74.3
+      "score": 74.14
     },
     {
       "id": "tagesschau-cc39d2c9ede0760b",
@@ -2238,7 +1960,7 @@
       "image": "https://images.tagesschau.de/image/61a36373-f805-4c1b-9845-ae5e8bb719ab/AAABoaFIhh0/AAABnSSvrFg/16x9-big/krankenzimmer-charkiw-100.jpg?width=1920",
       "published": "2026-11-03T13:16:22+01:00",
       "category": "Politik",
-      "score": 91.59,
+      "score": 91.43,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -2256,42 +1978,6 @@
       }
     },
     {
-      "id": "golem-50b1f77693eb530e",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Schadcode-Attacken möglich: Kritische Android-Lücken gefährden unzählige Geräte",
-      "link": "https://www.golem.de/news/schadcode-attacken-moeglich-kritische-android-luecken-gefaehrden-unzaehlige-geraete-2611-214793.html",
-      "summary": "Google hat mit den neuesten Android-Updates über 200 Sicherheitslücken adressiert. Einige davon ermöglichen gefährliche Schadcode-Attacken. ( Sicherheitslücke , Google )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214793&amp;page=1&amp;ts=1793708105",
-      "published": "2026-11-03T13:15:05+01:00",
-      "category": "Technologie",
-      "score": 52.27
-    },
-    {
-      "id": "golem-b2f9846ab599839f",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Versorgungssicherheit: Technologieoffenheit heißt im Stromnetz Gas",
-      "link": "https://www.golem.de/news/versorgungssicherheit-technologieoffenheit-heisst-im-stromnetz-gas-2611-214791.html",
-      "summary": "Die Zuschläge für dringend benötigte Reservekraftwerke gehen durchweg an Gasturbinen. Das war absehbar, könnte aber noch sehr teuer werden. ( Bundesnetzagentur , Akku )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214791&amp;page=1&amp;ts=1793706842",
-      "published": "2026-11-03T12:54:02+01:00",
-      "category": "Technologie",
-      "score": 51.98
-    },
-    {
-      "id": "golem-14a9c07c859bf738",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Nvidia, AMD, Intel: Grafikkarten werden knapp und fast unbezahlbar",
-      "link": "https://www.golem.de/news/nvidia-amd-intel-grafikkarten-werden-knapp-und-fast-unbezahlbar-2611-214790.html",
-      "summary": "Die hohe Nachfrage nach Grafikkarten hat die Preise bei allen Herstellern noch einmal merklich nach oben getrieben. ( Grafikkarten , AMD )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214790&amp;page=1&amp;ts=1793704921",
-      "published": "2026-11-03T12:22:01+01:00",
-      "category": "Technologie",
-      "score": 51.53
-    },
-    {
       "id": "deutsche-welle-6c18103f0cf17d59",
       "source": "deutsche-welle",
       "sourceWeight": 0.9,
@@ -2301,7 +1987,7 @@
       "image": "https://static.dw.com/image/77446935_6.jpg",
       "published": "2026-11-03T12:22:00+00:00",
       "category": "Nachrichten",
-      "score": 53.36
+      "score": 53.21
     },
     {
       "id": "deutsche-welle-6ca5ca7d90925ef6",
@@ -2313,19 +1999,7 @@
       "image": "https://static.dw.com/image/79840277_6.jpg",
       "published": "2026-11-03T12:16:00+00:00",
       "category": "Nachrichten",
-      "score": 64.39
-    },
-    {
-      "id": "golem-889b5eebd81c669b",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Maschinenträume 5: KI-Ent-Täuschung",
-      "link": "https://www.golem.de/news/maschinentraeume-5-ki-ent-taeuschung-2611-214755.html",
-      "summary": "Die KI-Apostel versprechen uns das Paradies auf Erden. Doch selbst eine Superintelligenz kann keine Wunder vollbringen. Zeit für ein wenig Realismus. Ein Deep Dive von P. R. Rhesia ( Maschinenträume , KI )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214755&amp;page=1&amp;ts=1793703602",
-      "published": "2026-11-03T12:00:02+01:00",
-      "category": "Technologie",
-      "score": 51.23
+      "score": 64.23
     },
     {
       "id": "deutsche-welle-c22cf29c58a236df",
@@ -2337,55 +2011,7 @@
       "image": "https://static.dw.com/image/79839892_6.jpg",
       "published": "2026-11-03T11:59:00+00:00",
       "category": "Nachrichten",
-      "score": 66.91
-    },
-    {
-      "id": "golem-be5b55d45f4c2baf",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Vodafone-Netz: Simon Mobile bietet Aktionstarif mit 999 GByte",
-      "link": "https://www.golem.de/news/vodafone-netz-simon-mobile-bietet-aktionstarif-mit-999-gbyte-2611-214788.html",
-      "summary": "Der Discounter im Vodafone-Netz vermarktet für begrenzte Zeit einen Tarif mit 999 GByte. Alternativ stehen 99 GByte für unter 10 Euro zur Auswahl. ( Vodafone , Smartphone )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214788&amp;page=1&amp;ts=1793703422",
-      "published": "2026-11-03T11:57:02+01:00",
-      "category": "Politik",
-      "score": 62.18
-    },
-    {
-      "id": "golem-1bde2de9df557409",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Anzeige: Wärmebildkamera fürs Handy reduziert bei Amazon",
-      "link": "https://www.golem.de/news/anzeige-waermebildkamera-fuers-handy-reduziert-bei-amazon-2611-214789.html",
-      "summary": "Eine Wärmebildkamera fürs Handy zur Untersuchung von Leitungen, Rohren und Dichtungen per Smartphone gibt es zum Aktionspreis bei Amazon. ( Technik/Hardware )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214789&amp;page=1&amp;ts=1793702821",
-      "published": "2026-11-03T11:47:01+01:00",
-      "category": "Technologie",
-      "score": 51.04
-    },
-    {
-      "id": "golem-a23b8365e88c3a2b",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "E-Bike: Ghost Bikes wird nach Insolvenz geschlossen",
-      "link": "https://www.golem.de/news/e-bike-ghost-bikes-wird-nach-insolvenz-geschlossen-2611-214787.html",
-      "summary": "Der deutsche Fahrradhersteller Ghost Bikes steht vor dem Aus. Das Unternehmen ist unter anderem für innovative und sportliche E-Bikes bekannt. ( E-Bike , Wirtschaft )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214787&amp;page=1&amp;ts=1793702221",
-      "published": "2026-11-03T11:37:01+01:00",
-      "category": "Wirtschaft",
-      "score": 53.91
-    },
-    {
-      "id": "golem-5ba2e15762647864",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "TV-Boxen und mehr: 1,3 Millionen Android-Geräte mit Backdoor verkauft",
-      "link": "https://www.golem.de/news/tv-boxen-und-mehr-1-3-millionen-android-geraete-mit-backdoor-verkauft-2611-214785.html",
-      "summary": "Ein chinesischer Hersteller hat TV-Boxen und andere Android-Geräte heimlich mit einer Backdoor ausgestattet und den Zugang an Kriminelle verkauft. ( Backdoor , Virus )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214785&amp;page=1&amp;ts=1793701381",
-      "published": "2026-11-03T11:23:01+01:00",
-      "category": "Technologie",
-      "score": 50.71
+      "score": 66.75
     },
     {
       "id": "tagesschau-7f25be9025630425",
@@ -2397,7 +2023,7 @@
       "image": "https://images.tagesschau.de/image/ef40c264-2b8c-4bbc-b2ec-105199556a6b/AAABoaDgPFM/AAABnSSvrFg/16x9-big/orang-utan-156.jpg?width=1920",
       "published": "2026-11-03T11:13:07+01:00",
       "category": "Nachrichten",
-      "score": 53.57
+      "score": 53.42
     },
     {
       "id": "tagesschau-b235d6cbc21176e6",
@@ -2409,43 +2035,7 @@
       "image": "https://images.tagesschau.de/image/71ca6187-199a-4547-aad2-bc6a67e42216/AAABoZwCSlw/AAABnSSvrFg/16x9-big/spaziergang-mann-regen-100.jpg?width=1920",
       "published": "2026-11-03T11:07:38+01:00",
       "category": "Nachrichten",
-      "score": 53.5
-    },
-    {
-      "id": "golem-395a6128821b0909",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Diebisch: Thief kehrt nach 28 Jahren mit neuer Kampagne zurück",
-      "link": "https://www.golem.de/news/diebisch-thief-kehrt-nach-28-jahren-mit-neuer-kampagne-zurueck-2611-214786.html",
-      "summary": "Der Schleichspielklassiker Thief erscheint als Remaster. Besonders spannend ist eine neue Kampagne, die von erfahrenen Moddern entwickelt wird. ( Thief , Spiele )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214786&amp;page=1&amp;ts=1793700182",
-      "published": "2026-11-03T11:03:02+01:00",
-      "category": "Technologie",
-      "score": 50.43
-    },
-    {
-      "id": "golem-1f833fe7be71b601",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Open World Games: GTA 6 spielen ist anerkannter Bildungsurlaub",
-      "link": "https://www.golem.de/news/open-world-games-gta-6-spielen-ist-anerkannter-bildungsurlaub-2611-214784.html",
-      "summary": "Der Onlinekurs Open World Games ist bereits jetzt komplett ausgebucht und startet nicht zufällig einen Tag vor dem GTA-6-Release. ( GTA 6 , Spiele )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214784&amp;page=1&amp;ts=1793699401",
-      "published": "2026-11-03T10:50:01+01:00",
-      "category": "Technologie",
-      "score": 50.25
-    },
-    {
-      "id": "golem-1655639a43b3ead3",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Anzeige: Fritz!DECT Repeater 100 jetzt bei Amazon günstig wie seit Monaten nicht",
-      "link": "https://www.golem.de/news/anzeige-fritz-dect-repeater-100-jetzt-bei-amazon-guenstig-wie-seit-monaten-nicht-2611-214782.html",
-      "summary": "Der Fritz!DECT Repeater 100 bringt HD-Telefonie bis in Keller und Garten und ist so günstig wie seit drei Monaten nicht mehr. ( Technik/Hardware , Smart Home )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214782&amp;page=1&amp;ts=1793699042",
-      "published": "2026-11-03T10:44:02+01:00",
-      "category": "Technologie",
-      "score": 50.17
+      "score": 53.34
     },
     {
       "id": "tagesschau-33be80f6502dc522",
@@ -2457,7 +2047,7 @@
       "image": "https://images.tagesschau.de/image/08dcceb7-adf0-4aae-8686-7da07ddccd35/AAABoaB401w/AAABnSSvrFg/16x9-big/donald-trump-984.jpg?width=1920",
       "published": "2026-11-03T10:40:40+01:00",
       "category": "Politik",
-      "score": 86.36,
+      "score": 86.2,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -2479,7 +2069,7 @@
       "image": "https://images.tagesschau.de/image/1280d8f3-0d7d-444b-904a-6c9bbd3b8553/AAABnrclt_M/AAABnSSvrFg/16x9-big/donald-trump-friedrich-merz-washington-100.jpg?width=1920",
       "published": "2026-11-03T10:22:54+01:00",
       "category": "Politik",
-      "score": 71.88
+      "score": 71.72
     },
     {
       "id": "deutsche-welle-bc448a5c212737cd",
@@ -2491,7 +2081,7 @@
       "image": "https://static.dw.com/image/79721692_6.jpg",
       "published": "2026-11-03T10:07:00+00:00",
       "category": "Politik",
-      "score": 83.46
+      "score": 83.3
     },
     {
       "id": "tagesschau-73c11bb5114440b7",
@@ -2503,7 +2093,7 @@
       "image": "https://images.tagesschau.de/image/55af8e4e-1a69-4f3b-ac44-cfcdb698acfa/AAABoaBsy90/AAABnSSvrFg/16x9-big/schaeffler-146.jpg?width=1920",
       "published": "2026-11-03T10:02:12+01:00",
       "category": "Nachrichten",
-      "score": 60.59
+      "score": 60.43
     },
     {
       "id": "tagesschau-0ccb217ff98e2901",
@@ -2515,43 +2105,7 @@
       "image": "https://images.tagesschau.de/image/ac39726d-d3d0-4cc1-abba-095cd2bff56f/AAABoZ_tGwc/AAABnSSvrFg/16x9-big/ukraine-angriff-saporischschja-102.jpg?width=1920",
       "published": "2026-11-03T10:00:13+01:00",
       "category": "Politik",
-      "score": 63.56
-    },
-    {
-      "id": "golem-383ba2be197a342a",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Digitalgipfel: Geheimdienste bauen auf Google, Merz nennt das europäisch",
-      "link": "https://www.golem.de/news/digitalgipfel-geheimdienste-bauen-auf-google-merz-nennt-das-europaeisch-2611-214779.html",
-      "summary": "Bundeskanzler Merz lehnt Autarkie anscheinend ab. Denn die geplante Cloud der Nachrichtendienste mit Google nennt er europäische Infrastruktur. ( Friedrich Merz , Datenschutz )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214779&amp;page=1&amp;ts=1793696282",
-      "published": "2026-11-03T09:58:02+01:00",
-      "category": "Technologie",
-      "score": 58.53
-    },
-    {
-      "id": "golem-772aebd81fa836d6",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Wütende KI-Meuten: Wie gefälschte Proteste auf Tiktok Geld bringen sollen",
-      "link": "https://www.golem.de/news/wuetende-ki-meuten-wie-gefaelschte-proteste-auf-tiktok-geld-bringen-sollen-2611-214732.html",
-      "summary": "Auf Tiktok protestieren KI-generierte Menschen gegen die Politik. Dahinter steckt ein Geschäftsmodell, das mit Empörung Reichweite und Geld erzeugt. Von Alexander Riechelmann ( Tiktok , Spam )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214732&amp;page=1&amp;ts=1793695502",
-      "published": "2026-11-03T09:45:02+01:00",
-      "category": "Technologie",
-      "score": 49.35
-    },
-    {
-      "id": "golem-8caf50f71eb83111",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Weltraumteleskop: Rettungsmission für Hubble geplant",
-      "link": "https://www.golem.de/news/weltraumteleskop-rettungsmission-fuer-hubble-geplant-2611-214781.html",
-      "summary": "Weil vor 2040 kein Ersatz für Hubble im Orbit sein wird, soll das Weltraumteleskop wieder angehoben werden. Unklar ist, wer das kann. ( Weltraumteleskop , Nasa )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214781&amp;page=1&amp;ts=1793694961",
-      "published": "2026-11-03T09:36:01+01:00",
-      "category": "Technologie",
-      "score": 49.23
+      "score": 63.4
     },
     {
       "id": "deutsche-welle-aa444081688e6281",
@@ -2563,31 +2117,7 @@
       "image": "https://static.dw.com/image/79836559_6.jpg",
       "published": "2026-11-03T09:33:00+00:00",
       "category": "Nachrichten",
-      "score": 51.02
-    },
-    {
-      "id": "golem-85857e97f55e1ade",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Softwareentwicklung mit KI: In elf Tagen zum Linux-kompatiblen Kernel-Prototyp",
-      "link": "https://www.golem.de/news/softwareentwicklung-mit-ki-in-elf-tagen-zum-linux-kompatiblen-kernel-prototyp-2611-214780.html",
-      "summary": "Mit Ginux will der Gründer von CentOS und Rocky Linux zeigen, dass von Menschen dirigierte KI Entwicklungsarbeit deutlich beschleunigen kann. ( KI , CentOS )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214780&amp;page=1&amp;ts=1793694421",
-      "published": "2026-11-03T09:27:01+01:00",
-      "category": "Technologie",
-      "score": 49.1
-    },
-    {
-      "id": "golem-5804aa99b864a9a4",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Dringend patchen: 11.000 Gitlab-Instanzen durch laufende Angriffe gefährdet",
-      "link": "https://www.golem.de/news/attacken-laufen-bereits-rund-11-000-angreifbare-gitlab-instanzen-im-netz-2611-214776.html",
-      "summary": "Angreifer nehmen seit einigen Wochen Gitlab-Server ins Visier. Fast jede dritte Gitlab-Instanz ist anfällig für mindestens eine kritische Sicherheitslücke. ( Sicherheitslücke , Ruby )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214776&amp;page=1&amp;ts=1793693942",
-      "published": "2026-11-03T09:19:02+01:00",
-      "category": "Technologie",
-      "score": 48.99
+      "score": 50.86
     },
     {
       "id": "tagesschau-2c583bc6946b19b9",
@@ -2599,7 +2129,7 @@
       "image": "https://images.tagesschau.de/image/739702b0-9d20-4009-a87c-03549d5473b2/AAABoIEOLkw/AAABnSSvrFg/16x9-big/apple-452.jpg?width=1920",
       "published": "2026-11-03T09:13:13+01:00",
       "category": "Wirtschaft",
-      "score": 54.91
+      "score": 54.75
     },
     {
       "id": "tagesschau-c6e90c9bcc4565d9",
@@ -2611,7 +2141,7 @@
       "image": "https://images.tagesschau.de/image/1b208994-0db4-4b3c-bea0-9d308f8f20c6/AAABoYjV8A0/AAABnSSvrFg/16x9-big/waehlerin-wahllokal-106.jpg?width=1920",
       "published": "2026-11-03T09:06:22+01:00",
       "category": "Politik",
-      "score": 62.81
+      "score": 62.66
     },
     {
       "id": "tagesschau-91fb031b6971984c",
@@ -2623,7 +2153,7 @@
       "image": "https://images.tagesschau.de/image/d61f38e3-bcf6-4f92-b5ed-c977aadc7306/AAABoaAvie0/AAABnSSvrFg/16x9-big/handy-steuer-116.jpg?width=1920",
       "published": "2026-11-03T08:39:12+01:00",
       "category": "Politik",
-      "score": 75.59
+      "score": 75.43
     },
     {
       "id": "tagesschau-3f7c9c01e96888ec",
@@ -2635,7 +2165,7 @@
       "image": "https://images.tagesschau.de/image/60d0b75e-d3a9-4275-8738-3a235b237f93/AAABm39VrEM/AAABnSSvrFg/16x9-big/polen-514.jpg?width=1920",
       "published": "2026-11-03T08:23:57+01:00",
       "category": "Wirtschaft",
-      "score": 54.22
+      "score": 54.07
     },
     {
       "id": "deutsche-welle-28a2b3f435d9f0a8",
@@ -2647,7 +2177,7 @@
       "image": "https://static.dw.com/image/79832032_6.jpg",
       "published": "2026-11-03T08:00:00+00:00",
       "category": "Politik",
-      "score": 53.36
+      "score": 53.21
     },
     {
       "id": "tagesschau-bff4e38d6ec51b3f",
@@ -2659,7 +2189,7 @@
       "image": "https://images.tagesschau.de/image/a9d2ddd9-5d19-41ad-8edc-73d69d4c49df/AAABoaBaKf8/AAABnSSvrFg/16x9-big/proteste-prag-110.jpg?width=1920",
       "published": "2026-11-03T07:19:48+01:00",
       "category": "Nachrichten",
-      "score": 50.33
+      "score": 50.18
     },
     {
       "id": "deutsche-welle-df98b10c78ce59db",
@@ -2671,7 +2201,7 @@
       "image": "https://static.dw.com/image/79687106_6.jpg",
       "published": "2026-11-03T07:12:00+00:00",
       "category": "Politik",
-      "score": 84.06
+      "score": 83.9
     },
     {
       "id": "heise-47373e1647461acc",
@@ -2683,7 +2213,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/3/3/0/9/shutterstock_1996549373-7cabfa6c921f65eb.jpeg",
       "published": "2026-11-03T06:52:00+01:00",
       "category": "Wirtschaft",
-      "score": 50.95
+      "score": 50.79
     },
     {
       "id": "tagesschau-2afe5896a4118e3a",
@@ -2695,7 +2225,7 @@
       "image": "https://images.tagesschau.de/image/f8c6e40e-20c3-435f-8a8c-0efe6538b970/AAABl4clT0o/AAABnSSvrFg/16x9-big/hormus-105.jpg?width=1920",
       "published": "2026-11-03T06:33:48+01:00",
       "category": "Nachrichten",
-      "score": 72.59
+      "score": 72.43
     },
     {
       "id": "tagesschau-3a37342f7651b8b2",
@@ -2707,7 +2237,7 @@
       "image": "https://images.tagesschau.de/image/78c59452-cb21-4d7c-af99-93eb30b49013/AAABoZ_vTEk/AAABnSSvrFg/16x9-big/witkoff-166.jpg?width=1920",
       "published": "2026-11-03T04:55:28+01:00",
       "category": "Politik",
-      "score": 59.33
+      "score": 59.17
     },
     {
       "id": "tagesschau-59bee3ed605d280a",
@@ -2719,7 +2249,7 @@
       "image": "https://images.tagesschau.de/image/68b15cfe-a327-413c-8de4-27b126062e1a/AAABoZ8Sn_c/AAABnSSvrFg/16x9-big/polen-verfassungsgericht-130.jpg?width=1920",
       "published": "2026-11-03T03:25:42+01:00",
       "category": "Nachrichten",
-      "score": 55.08
+      "score": 54.92
     },
     {
       "id": "tagesschau-9716cddc69d389db",
@@ -2731,7 +2261,7 @@
       "image": "https://images.tagesschau.de/image/7f235ef8-d24e-4d86-b694-7c55cd4db55d/AAABoaA7n30/AAABnSSvrFg/16x9-big/trump-5408.jpg?width=1920",
       "published": "2026-11-03T01:44:25+01:00",
       "category": "Politik",
-      "score": 72.68
+      "score": 72.52
     },
     {
       "id": "tagesschau-cc04581d6eed6943",
@@ -2743,7 +2273,7 @@
       "image": "https://images.tagesschau.de/image/825932d1-e565-45d6-9b37-dce105b8c545/AAABoZ1Z_o8/AAABnSSvrFg/16x9-big/steinmeier-apel-100.jpg?width=1920",
       "published": "2026-11-02T21:37:43+01:00",
       "category": "Nachrichten",
-      "score": 50.25
+      "score": 50.09
     },
     {
       "id": "tagesschau-0bfa9d2707a0c0c7",
@@ -2755,7 +2285,7 @@
       "image": "https://images.tagesschau.de/image/12ccc582-6581-4fa7-812d-a35c2646a6aa/AAABoZsAUWw/AAABnSSvrFg/16x9-big/menschen-wahllokal-100.jpg?width=1920",
       "published": "2026-11-02T21:15:15+01:00",
       "category": "Politik",
-      "score": 52.94
+      "score": 52.78
     },
     {
       "id": "tagesschau-d8996a913556662b",
@@ -2767,7 +2297,7 @@
       "image": "https://images.tagesschau.de/image/688ee8d6-3e55-4916-8f91-46b5893a539a/AAABoZ2xu6Q/AAABnSSvrFg/16x9-big/bushby-102.jpg?width=1920",
       "published": "2026-11-02T21:00:49+01:00",
       "category": "Technologie",
-      "score": 41.74
+      "score": 41.58
     },
     {
       "id": "deutsche-welle-400d5da2aa35a337",
@@ -2779,7 +2309,7 @@
       "image": "https://static.dw.com/image/79824054_6.jpg",
       "published": "2026-11-02T20:08:00+00:00",
       "category": "Nachrichten",
-      "score": 39.84
+      "score": 39.68
     },
     {
       "id": "tagesschau-61742e3a61f226d2",
@@ -2791,7 +2321,7 @@
       "image": "https://images.tagesschau.de/image/a36daf46-80c0-4aed-a8c4-104c19a43449/AAABoZyaaIc/AAABnSSvrFg/16x9-big/merz-1776.jpg?width=1920",
       "published": "2026-11-02T19:30:17+01:00",
       "category": "Nachrichten",
-      "score": 66.52
+      "score": 66.36
     },
     {
       "id": "tagesschau-6f6bb8f4c71c785b",
@@ -2803,7 +2333,7 @@
       "image": "https://images.tagesschau.de/image/fcf56635-dd2a-4165-ab21-9dbdd9ec3d80/AAABoYreB5A/AAABnSSvrFg/16x9-big/trump-store-100.jpg?width=1920",
       "published": "2026-11-02T18:24:23+01:00",
       "category": "Politik",
-      "score": 50.56
+      "score": 50.41
     },
     {
       "id": "tagesschau-7c993773f093dbe1",
@@ -2815,7 +2345,7 @@
       "image": "https://images.tagesschau.de/image/6ce16fe9-c887-4aec-b0f8-c8818e938aee/AAABoZ1IQHk/AAABnSSvrFg/16x9-big/berlin-koalition-106.jpg?width=1920",
       "published": "2026-11-02T18:22:00+01:00",
       "category": "Nachrichten",
-      "score": 39.53
+      "score": 39.37
     },
     {
       "id": "heise-4b5daa6fd99e05c8",
@@ -2827,7 +2357,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/3/1/7/3/20261102_Czybik_BMDS_DigitalGipfel_248-d7004dbdbe0d2b01.jpeg",
       "published": "2026-11-02T17:56:00+01:00",
       "category": "Technologie",
-      "score": 58.53
+      "score": 37.01
     },
     {
       "id": "tagesschau-55888d28fa67faab",
@@ -2839,7 +2369,7 @@
       "image": "https://images.tagesschau.de/image/00541fcf-2b21-4cc5-8f1d-087dfaf3e03f/AAABoZz_W50/AAABnSSvrFg/16x9-big/hubig-152.jpg?width=1920",
       "published": "2026-11-02T17:36:39+01:00",
       "category": "Politik",
-      "score": 41.9
+      "score": 41.74
     },
     {
       "id": "tagesschau-ab377ea1bf416165",
@@ -2851,7 +2381,7 @@
       "image": "https://images.tagesschau.de/image/9b804081-78e1-4bca-a3d6-3a8a598a23b5/AAABoZxUyno/AAABnSSvrFg/16x9-big/rbb-justizzentrum-potsdam-620711068-100.jpg?width=1920",
       "published": "2026-11-02T17:09:45+01:00",
       "category": "Technologie",
-      "score": 38.53
+      "score": 38.37
     },
     {
       "id": "netzpolitik-ab24092679738715",
@@ -2863,7 +2393,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/imago0871433681h-scaled-e1793632331803.jpg",
       "published": "2026-11-02T17:04:50+00:00",
       "category": "Politik",
-      "score": 37.29
+      "score": 37.13
     },
     {
       "id": "netzpolitik-46e270290984576d",
@@ -2875,7 +2405,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/denise-jans-J4coHtrn24A-unsplash-scaled-e1793631162466.jpg",
       "published": "2026-11-02T16:22:43+00:00",
       "category": "Technologie",
-      "score": 33.71
+      "score": 66.75
     },
     {
       "id": "deutsche-welle-185a8ff8da6d47ed",
@@ -2887,7 +2417,7 @@
       "image": "https://static.dw.com/image/79828941_6.jpg",
       "published": "2026-11-02T16:03:00+00:00",
       "category": "Nachrichten",
-      "score": 50.25
+      "score": 50.09
     },
     {
       "id": "deutsche-welle-50c3a8aec1fe0e8f",
@@ -2899,7 +2429,7 @@
       "image": "https://static.dw.com/image/79814735_6.jpg",
       "published": "2026-11-02T15:08:00+00:00",
       "category": "Politik",
-      "score": 38.67
+      "score": 38.51
     },
     {
       "id": "deutsche-welle-9c4075cd7767a2c6",
@@ -2911,7 +2441,7 @@
       "image": "https://static.dw.com/image/79830913_6.jpg",
       "published": "2026-11-02T14:04:00+00:00",
       "category": "Politik",
-      "score": 37.78
+      "score": 37.62
     },
     {
       "id": "heise-3c48ccd0365372ea",
@@ -2923,7 +2453,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/2/8/2/8/shutterstock_1159844176-9086596253090e3c.jpeg",
       "published": "2026-11-02T13:24:00+01:00",
       "category": "Technologie",
-      "score": 33.39
+      "score": 33.23
     },
     {
       "id": "deutsche-welle-8ad6a2df21b1590e",
@@ -2935,19 +2465,7 @@
       "image": "https://static.dw.com/image/79830376_6.jpg",
       "published": "2026-11-02T12:36:00+00:00",
       "category": "Nachrichten",
-      "score": 33.56
-    },
-    {
-      "id": "deutsche-welle-2c2fb63c9a098d01",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "US-Zwischenwahlen: Kandidatinnen können Geschichte schreiben",
-      "link": "https://www.dw.com/de/us-zwischenwahlen-kandidatinnen-können-geschichte-schreiben/a-79605862?maca=de-rss-de-all-1119-rdf",
-      "summary": "Wer wird in den Kongress gewählt, wer gewinnt Gouverneursrennen? Frauen sind auf allen Ebenen der US-Politik unterrepräsentiert, doch bei den Midterms am 3. November haben sie Chancen auf einige historische Siege.",
-      "image": "https://static.dw.com/image/79305120_6.jpg",
-      "published": "2026-11-02T10:43:00+00:00",
-      "category": "Politik",
-      "score": 42.99
+      "score": 33.4
     },
     {
       "id": "deutsche-welle-7a6b27b590bc7dc8",
@@ -2959,7 +2477,7 @@
       "image": "https://static.dw.com/image/79157834_6.jpg",
       "published": "2026-11-02T10:11:00+00:00",
       "category": "Politik",
-      "score": 34.54
+      "score": 34.39
     },
     {
       "id": "netzpolitik-3a54369a9636b215",
@@ -2971,7 +2489,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/signal-2026-10-31-02-19-24-777.jpg",
       "published": "2026-11-02T09:49:52+00:00",
       "category": "Technologie",
-      "score": 28.25
+      "score": 28.09
     },
     {
       "id": "deutsche-welle-39da95666b634105",
@@ -2983,7 +2501,7 @@
       "image": "https://static.dw.com/image/79826469_6.jpg",
       "published": "2026-11-02T09:24:00+00:00",
       "category": "Politik",
-      "score": 41.89
+      "score": 41.73
     },
     {
       "id": "deutsche-welle-be13c3d76cc81c85",
@@ -2995,7 +2513,7 @@
       "image": "https://static.dw.com/image/79652307_6.jpg",
       "published": "2026-11-02T08:56:00+00:00",
       "category": "Wirtschaft",
-      "score": 33.5
+      "score": 33.34
     },
     {
       "id": "heise-b371992687b774e2",
@@ -3007,7 +2525,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/2/6/4/9/shutterstock_2602293623-21846d4f46c972bc.jpeg",
       "published": "2026-11-02T08:45:00+01:00",
       "category": "Technologie",
-      "score": 29.52
+      "score": 29.36
     },
     {
       "id": "deutsche-welle-9174712bc690fc68",
@@ -3019,7 +2537,7 @@
       "image": "https://static.dw.com/image/76577985_6.jpg",
       "published": "2026-11-01T20:30:00+00:00",
       "category": "Nachrichten",
-      "score": 20.14
+      "score": 19.98
     }
   ]
 }
