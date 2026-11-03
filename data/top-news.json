@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T23:30:27.105195+00:00",
+  "generatedAt": "2026-11-03T23:44:50.172004+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://bilder.deutschlandfunk.de/87/15/c6/64/8715c664-74c9-41fa-b39a-bb4a3c09624a/merz-selenskyj-berlin-102-1920x1920.jpg",
       "published": "2026-11-04T00:27:22+01:00",
       "category": "Politik",
-      "score": 82.64,
+      "score": 82.44,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -39,7 +39,7 @@
       "image": "https://static.dw.com/image/55296008_6.jpg",
       "published": "2026-11-03T19:07:00+00:00",
       "category": "Politik",
-      "score": 81.34
+      "score": 81.14
     },
     {
       "id": "handelsblatt-1a0eca17ed07e1da",
@@ -51,7 +51,7 @@
       "image": "https://images.handelsblatt.com/AH6i7QnmHMRh/cover/900/506/0/0/151/151/0.5/0.5/archiv-29.12.2025-usa-palm-beach-us-praesident-donald-trump-r-gibt-dem-israelischen-ministerpr.jpg",
       "published": "2026-11-03T19:03:20+00:00",
       "category": "Politik",
-      "score": 81.29
+      "score": 81.09
     },
     {
       "id": "deutsche-welle-df98b10c78ce59db",
@@ -63,7 +63,7 @@
       "image": "https://static.dw.com/image/79687106_6.jpg",
       "published": "2026-11-03T07:12:00+00:00",
       "category": "Politik",
-      "score": 79.41
+      "score": 79.21
     },
     {
       "id": "handelsblatt-bd92312330a768cd",
@@ -75,7 +75,7 @@
       "image": "https://images.handelsblatt.com/rBFTp-fyVqrL/cover/900/506/0/0/107/107/0.5/0.5/ukrainischer-praesident-selenskyj-in-berlin.jpg",
       "published": "2026-11-03T16:05:01+00:00",
       "category": "Politik",
-      "score": 78.81,
+      "score": 78.61,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -97,7 +97,7 @@
       "image": "https://images.tagesschau.de/image/5bb14bd2-716e-4be0-bf85-062f94973076/AAABoaK1fxM/AAABnSSvrFg/16x9-big/von-der-leyen-750.jpg?width=1920",
       "published": "2026-11-03T19:39:26+01:00",
       "category": "Politik",
-      "score": 78.58,
+      "score": 78.38,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -105,6 +105,28 @@
             "source": "handelsblatt",
             "title": "Midterms: Wahlen in den USA – aktuelle Grafiken, Daten und Fakten",
             "link": "https://www.handelsblatt.com/politik/international/midterms-wahlen-in-den-usa-aktuelle-grafiken-daten-und-fakten/100265043.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-350fe730fce09886",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Midterms 2026 in den USA: Erste Wahllokale schließen",
+      "link": "https://www.spiegel.de/ausland/midterms-2026-in-den-usa-kippen-die-machtverhaeltnisse-so-laufen-die-zwischenwahlen-a-c6a7c5b3-24a1-4e70-a78e-067745ed4103#ref=rss",
+      "summary": "In Kentucky und Indiana sind die ersten Wahllokale geschlossen – die Auszählung könnte ein erstes Stimmungsbild liefern. Und: Das US-Justizministerium schickt Beobachter in demokratisch dominierte Wahlbezirke. Alle Entwicklungen in der Liveanalyse.",
+      "image": "https://cdn.prod.www.spiegel.de/images/046af28c-3c00-4d1f-ab43-d1efa23f04e6_w1200_r1.778_fpx54.67_fpy50.jpg",
+      "published": "2026-11-04T00:33:00+01:00",
+      "category": "Politik",
+      "score": 77.84,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ US-Midterms +++: Höchste Spritpreise an einem Wahltag in den USA",
+            "link": "https://www.handelsblatt.com/politik/international/us-midterms-hoechste-spritpreise-an-einem-wahltag-in-den-usa/29669594.html"
           }
         ]
       }
@@ -119,7 +141,7 @@
       "image": "https://bilder.deutschlandfunk.de/f7/8d/b9/75/f78db975-d8eb-4e23-ad86-642b74d25320/oscar-puente-mindestpausen-ruhezeiten-busfahrer-europa-arbeitsbedingungen-eu-reisebusse-100-1920x1920.jpg",
       "published": "2026-11-04T00:27:22+01:00",
       "category": "Politik",
-      "score": 77.96,
+      "score": 77.76,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -132,18 +154,6 @@
       }
     },
     {
-      "id": "spiegel-350fe730fce09886",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Midterms 2026 in den USA: Donald Trumps Justizministerium schickt Wahlbeobachter vor allem in demokratisch dominierte Wahlbezirke",
-      "link": "https://www.spiegel.de/ausland/midterms-2026-in-den-usa-kippen-die-machtverhaeltnisse-so-laufen-die-zwischenwahlen-a-c6a7c5b3-24a1-4e70-a78e-067745ed4103#ref=rss",
-      "summary": "Um die Sitze in den beiden Kongresskammern wird hart gekämpft – teils mit fragwürdigen Mitteln: Desinformation und Schikanen durch das Justizministerium. Verfolgen Sie alle Entwicklungen in der Liveanalyse.",
-      "image": "https://cdn.prod.www.spiegel.de/images/23489c9c-8358-474b-a240-bee36940db88_w1200_r1.778_fpx58.54_fpy49.99.jpg",
-      "published": "2026-11-03T22:39:00+01:00",
-      "category": "Politik",
-      "score": 76.45
-    },
-    {
       "id": "tagesschau-882ad840f415aa6f",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -153,7 +163,7 @@
       "image": "https://images.tagesschau.de/image/6acea93a-c7d6-4ecc-8f81-1040c67038b1/AAABoaK2nfQ/AAABnSSvrFg/16x9-big/trump-netanjahu-israel-100.jpg?width=1920",
       "published": "2026-11-03T19:40:26+01:00",
       "category": "Politik",
-      "score": 74.97
+      "score": 74.77
     },
     {
       "id": "tagesschau-fd4bf1adab87723a",
@@ -165,7 +175,7 @@
       "image": "https://images.tagesschau.de/image/91bc4a1a-7308-4736-9f7d-7e6541ae8342/AAABoaKqxlY/AAABnSSvrFg/16x9-big/merz-slenskyj-106.jpg?width=1920",
       "published": "2026-11-03T19:27:43+01:00",
       "category": "Politik",
-      "score": 74.8
+      "score": 74.6
     },
     {
       "id": "spiegel-dda5399703c78576",
@@ -177,7 +187,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/760b6d99-d2c6-46dc-ba28-931f409d21bd_w1200_r1.778_fpx29.99_fpy54.99.jpg",
       "published": "2026-11-03T19:42:00+01:00",
       "category": "Politik",
-      "score": 73.99
+      "score": 73.79
     },
     {
       "id": "spiegel-0c4804991f45d19f",
@@ -189,7 +199,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/20c3f972-38a2-40f6-a880-60e6634511be_w1200_r1.778_fpx44.54_fpy44.96.jpg",
       "published": "2026-11-03T19:07:00+01:00",
       "category": "Politik",
-      "score": 73.51
+      "score": 73.31
     },
     {
       "id": "handelsblatt-1b59102154036afe",
@@ -201,7 +211,7 @@
       "image": "https://images.handelsblatt.com/qaZtaBE0rMxd/cover/900/506/0/0/310/310/0.5/0.5/democratic-candidate-for-us-senate-abdul-el-sayed-speaks-during-a-campaign-rally-with-musician-com.jpg",
       "published": "2026-11-03T18:32:52+00:00",
       "category": "Politik",
-      "score": 72.87
+      "score": 72.67
     },
     {
       "id": "golem-e150f918898d816c",
@@ -213,7 +223,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214797&amp;page=1&amp;ts=1793716201",
       "published": "2026-11-03T15:30:01+01:00",
       "category": "Politik",
-      "score": 68.49
+      "score": 68.29
     },
     {
       "id": "golem-b331cb0b64942cfc",
@@ -225,7 +235,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214805&amp;page=1&amp;ts=1793722082",
       "published": "2026-11-03T17:08:02+01:00",
       "category": "Politik",
-      "score": 61.86
+      "score": 61.66
     }
   ]
 }
