@@ -1,34 +1,7 @@
 {
-  "generatedAt": "2026-11-06T00:25:53.412125+00:00",
+  "generatedAt": "2026-11-06T01:51:30.591651+00:00",
   "count": 15,
   "articles": [
-    {
-      "id": "tagesschau-3a700351762a4a2c",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Liveblog zu den Midterms: ++ Trump verteidigt Iran-Krieg ++",
-      "link": "https://www.tagesschau.de/newsticker/liveblog-midterms-2026-100.html",
-      "summary": "US-Präsident Trump hat trotz des Wahldebakels betont, am Kurs im Iran-Krieg festhalten zu wollen. Außenminister Wadephul erwartet weiterhin eine konstruktive Zusammenarbeit mit der US-Regierung.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/74e6c976-51e1-4bc8-b302-43b9965bad5e/AAABoagNzso/AAABnSSvrFg/16x9-big/trump-5418.jpg?width=1920",
-      "published": "2026-11-05T06:16:43+01:00",
-      "category": "Politik",
-      "score": 99.11,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Iran-Krieg: US-Regierung hält trotz Kriegs an Abschiebeplänen nach Iran fest",
-            "link": "https://www.spiegel.de/ausland/iran-krieg-us-regierung-haelt-trotz-kriegs-an-abschiebeplaenen-nach-iran-fest-a-d50b6e18-ff59-4c84-8610-9cd90a8da9b6#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "+++ Iran-Krieg +++: US-Regierung sprach mit Iran über Abschiebungen im Krieg",
-            "link": "https://www.handelsblatt.com/politik/international/iran-krieg-us-regierung-sprach-mit-iran-ueber-abschiebungen-im-krieg/100136895.html"
-          }
-        ]
-      }
-    },
     {
       "id": "deutschlandfunk-a88a31ded0dbbf21",
       "source": "deutschlandfunk",
@@ -39,7 +12,7 @@
       "image": "https://bilder.deutschlandfunk.de/15/16/96/97/15169697-2178-45bf-a7b5-0ceb0d0df1a0/donald-trump-us-praesident-110-1920x1920.jpg",
       "published": "2026-11-05T23:49:36+01:00",
       "category": "Politik",
-      "score": 92.79,
+      "score": 91.6,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -47,6 +20,28 @@
             "source": "handelsblatt",
             "title": "Ukraine-Krieg: Trump: Habe Kremlunterhändler Dmitrijew getroffen",
             "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-trump-habe-kremlunterhaendler-dmitrijew-getroffen/100267741.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-a8b256d033bf4031",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Iran-Krieg: US-Regierung hält trotz Kriegs an Abschiebeplänen nach Iran fest",
+      "link": "https://www.spiegel.de/ausland/iran-krieg-us-regierung-haelt-trotz-kriegs-an-abschiebeplaenen-nach-iran-fest-a-d50b6e18-ff59-4c84-8610-9cd90a8da9b6#ref=rss",
+      "summary": "Donald Trump hat Iran wiederholt mit »Vernichtung« gedroht. Das hält seine Regierung aber nicht davon ab, Rückführungen in das Kriegsland anzuschieben. Vor einem US-Bundesgericht fielen deshalb klare Worte.",
+      "image": "https://cdn.prod.www.spiegel.de/images/f6765137-d820-4716-8963-aa7d2cd51876_w1200_r1.778_fpx41_fpy50.jpg",
+      "published": "2026-11-06T00:45:00+01:00",
+      "category": "Politik",
+      "score": 84.24,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ Iran-Krieg +++: US-Regierung sprach mit Iran über Abschiebungen im Krieg",
+            "link": "https://www.handelsblatt.com/politik/international/iran-krieg-us-regierung-sprach-mit-iran-ueber-abschiebungen-im-krieg/100136895.html"
           }
         ]
       }
@@ -61,7 +56,7 @@
       "image": "https://images.tagesschau.de/image/fe153856-aef9-4c0a-a0ac-0db2aa4e955e/AAABoa0KZI8/AAABnSSvrFg/16x9-big/pena-102.jpg?width=1920",
       "published": "2026-11-05T19:26:37+01:00",
       "category": "Nachrichten",
-      "score": 82.66,
+      "score": 81.47,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -93,7 +88,7 @@
       "image": "https://images.tagesschau.de/image/9ddfd8db-915b-4ae9-9685-bed94f4b4fc6/AAABoawBJm0/AAABnSSvrFg/16x9-big/schweine-transporter-100.jpg?width=1920",
       "published": "2026-11-05T19:02:22+01:00",
       "category": "Politik",
-      "score": 82.34,
+      "score": 81.15,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -120,7 +115,7 @@
       "image": "https://images.tagesschau.de/image/c74d76ff-3c36-4b7d-9d6f-262a04d07e36/AAABoaxKWOk/AAABnSSvrFg/16x9-big/donald-trump-994.jpg?width=1920",
       "published": "2026-11-05T17:58:22+01:00",
       "category": "Politik",
-      "score": 80.78,
+      "score": 79.6,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -128,6 +123,50 @@
             "source": "spiegel",
             "title": "Midterms in Alaska: Donald Trump will, dass Dan Sullivan Dan Sullivans Stimmen bekommt",
             "link": "https://www.spiegel.de/ausland/midterms-in-alaska-donald-trump-will-dass-dan-sullivan-dan-sullivans-stimmen-bekommt-a-897769e2-3177-425a-abcf-5e6fe6d3cd02#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-d2ef5552ac013c61",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Bundestag korrigiert Panne bei Tabaksteuererhöhung",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/tabaksteuer-138.html",
+      "summary": "Eigentlich sollte die Tabaksteuer erst zum Jahreswechsel erhöht werden - doch durch ein Versehen trat die Erhöhung schon jetzt in Kraft. Nun heißt es per Gesetzesänderung: Kommando zurück.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/d3876004-9fe6-4ca8-9b05-b85dd2090a2a/AAABoUWv6Dk/AAABnSSvrFg/16x9-big/161026-tabaksteuer-mediathek-100.jpg?width=1920",
+      "published": "2026-11-06T01:55:35+01:00",
+      "category": "Politik",
+      "score": 78.22,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Berlin - Bundestag korrigiert Panne bei Tabaksteuererhöhung",
+            "link": "https://www.deutschlandfunk.de/bundestag-korrigiert-panne-bei-tabaksteuererhoehung-102.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-60b34f25df342e83",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Donald Trump: Trump erklärt sein vergoldetes Oval Office zum Nationaldenkmal",
+      "link": "https://www.spiegel.de/ausland/donald-trump-trump-erklaert-sein-vergoldetes-oval-office-zum-nationaldenkmal-a-ed02fc73-d56a-4773-9142-68e9bb41780e#ref=rss",
+      "summary": "Das Oval Office platzt vor lauter Gold aus allen Nähten. Und das soll laut Donald Trump auch so bleiben. Mit einem Trick will er künftigen US-Präsidenten – in seinen Worten: »dummen Leuten« – das Umdekorieren vermiesen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/59c0482f-b9c8-44a7-9279-fc2d8e3be819_w1200_r1.778_fpx37_fpy41.jpg",
+      "published": "2026-11-06T02:00:00+01:00",
+      "category": "Politik",
+      "score": 77.28,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Dekor als Chefsache: Trump erklärt goldverziertes Oval Office zum Nationaldenkmal",
+            "link": "https://www.handelsblatt.com/politik/international/dekor-als-chefsache-trump-erklaert-goldverziertes-oval-office-zum-nationaldenkmal/100267746.html"
           }
         ]
       }
@@ -142,7 +181,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/b268e2cc-5ad4-4cee-889a-df804e4af5b3_w1200_r1.778_fpx95_fpy70.jpg",
       "published": "2026-11-05T22:55:00+01:00",
       "category": "Politik",
-      "score": 75.9,
+      "score": 74.72,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -155,18 +194,6 @@
       }
     },
     {
-      "id": "spiegel-65911504e30983a7",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Midterms in den USA: Die trügerische Freude über Trumps Machtverlust",
-      "link": "https://www.spiegel.de/politik/midterms-in-den-usa-die-truegerische-freude-ueber-trumps-machtverlust-a-a699ab52-1203-4447-967e-f44d6941354a#ref=rss",
-      "summary": "Donald Trump verliert die US-Zwischenwahlen. Auch in Ungarn, Brasilien und Serbien scheiterten Rechtspopulisten. Ist das der Anfang vom Ende ihrer weltweiten Erfolgswelle? Hören Sie eine neue Folge von »Mad Kings«.",
-      "image": "https://cdn.prod.www.spiegel.de/images/a8ac6101-4201-4199-9f5d-1669b803f633_w1200_r1.778_fpx52_fpy53.jpg",
-      "published": "2026-11-05T20:57:00+01:00",
-      "category": "Politik",
-      "score": 74.27
-    },
-    {
       "id": "handelsblatt-17ace33d73944841",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
@@ -176,7 +203,7 @@
       "image": "https://images.handelsblatt.com/mHQ5kjgjqmVr/cover/1440/810/0/0/315/315/0.5/0.5/.jpg",
       "published": "2026-11-05T18:55:19+00:00",
       "category": "Politik",
-      "score": 72.41
+      "score": 71.22
     },
     {
       "id": "deutschlandfunk-6487bee3a86a0195",
@@ -188,7 +215,7 @@
       "image": "https://bilder.deutschlandfunk.de/eb/8e/40/73/eb8e4073-75ac-4e89-b3df-9f726967decf/rene-benko-verhandlung-betrug-insolvenz-verfahren-signa-gruender-urteil-100-1920x1920.jpg",
       "published": "2026-11-05T23:49:36+01:00",
       "category": "Nachrichten",
-      "score": 70.34,
+      "score": 69.15,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -206,6 +233,18 @@
       }
     },
     {
+      "id": "handelsblatt-46d380c016625787",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Staatskrise in Paraguay: Kongress nimmt Peñas Rücktritt nicht an und will Verfahren",
+      "link": "https://www.handelsblatt.com/politik/international/staatskrise-in-paraguay-kongress-nimmt-penas-ruecktritt-nicht-an-und-will-verfahren/100267756.html",
+      "summary": "In Paraguay geht es mitten in einem Finanzskandal politisch drunter und drüber. Präsident Peña erklärt seinen Rücktritt. Der Kongress nimmt diesen nicht an und eröffnet ein Amtsenthebungsverfahren.",
+      "image": "https://images.handelsblatt.com/53aIUn9DnEHD/cover/900/506/0/0/107/106/0.5/0.5/paraguays-praesident-pena-tritt-zurueck.jpg",
+      "published": "2026-11-06T00:28:24+00:00",
+      "category": "Wirtschaft",
+      "score": 67.85
+    },
+    {
       "id": "deutschlandfunk-6b5f217afd50fe4f",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
@@ -215,7 +254,7 @@
       "image": "https://bilder.deutschlandfunk.de/84/00/2d/0c/84002d0c-d355-421c-b5b1-12d16c341db2/elektroauto-102-1920x1920.jpg",
       "published": "2026-11-05T23:49:36+01:00",
       "category": "Politik",
-      "score": 68.66
+      "score": 67.47
     },
     {
       "id": "handelsblatt-f91f0590c1483ac5",
@@ -227,19 +266,7 @@
       "image": "https://images.handelsblatt.com/H1Irb9Odb5hI/cover/900/506/0/0/107/106/0.5/0.5/marco-rubio.jpg",
       "published": "2026-11-05T23:49:39+00:00",
       "category": "Politik",
-      "score": 68.5
-    },
-    {
-      "id": "handelsblatt-abf47aad4157cdcc",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Dekor als Chefsache: Trump erklärt goldverziertes Oval Office zum Nationaldenkmal",
-      "link": "https://www.handelsblatt.com/politik/international/dekor-als-chefsache-trump-erklaert-goldverziertes-oval-office-zum-nationaldenkmal/100267746.html",
-      "summary": "Donald Trump hat die Wände im Oval Office mit Goldornamenten gefüllt. Nach Spott von Barack Obama will er es nun schwieriger machen, das Präsidenten-Arbeitszimmer umzubauen.",
-      "image": "https://images.handelsblatt.com/0ObT6EXaDMJ0/cover/900/506/0/0/107/106/0.5/0.5/us-praesident-trump.jpg",
-      "published": "2026-11-05T23:17:26+00:00",
-      "category": "Politik",
-      "score": 68.05
+      "score": 67.31
     },
     {
       "id": "deutsche-welle-e4d7d5c401c0e644",
@@ -251,19 +278,7 @@
       "image": "https://static.dw.com/image/77590514_6.jpg",
       "published": "2026-11-05T11:45:00+00:00",
       "category": "Politik",
-      "score": 66.43
-    },
-    {
-      "id": "spiegel-d8788fdfde8818b8",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Bundestagsbeschluss: Schlachthöfe werden künftig mit Kameras überwacht",
-      "link": "https://www.spiegel.de/politik/bundestagsbeschluss-schlachthoefe-werden-kuenftig-mit-kameras-ueberwacht-a-10d81644-e866-44db-bf3f-b5337bad0739#ref=rss",
-      "summary": "Tierquälerei-Skandale sind an deutschen Schlachthöfen keine Seltenheit. Der Bundestag hat größere Betriebe nun zur Videoüberwachung verpflichtet. So sollen mehr als 90 Prozent aller Schlachtungen erfasst werden.",
-      "image": "https://cdn.prod.www.spiegel.de/images/088aa6c5-aa1c-4b01-ae5f-e8692271d729_w1200_r1.778_fpx52.66_fpy54.99.jpg",
-      "published": "2026-11-05T20:06:00+01:00",
-      "category": "Politik",
-      "score": 65.56
+      "score": 65.24
     },
     {
       "id": "deutsche-welle-709a8469c856327f",
@@ -275,7 +290,7 @@
       "image": "https://static.dw.com/image/79834344_6.jpg",
       "published": "2026-11-05T08:19:00+00:00",
       "category": "Politik",
-      "score": 63.57
+      "score": 62.38
     }
   ]
 }
