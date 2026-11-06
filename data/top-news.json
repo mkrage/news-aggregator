@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T08:00:33.986264+00:00",
+  "generatedAt": "2026-11-06T08:52:44.618313+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,24 +12,51 @@
       "image": "https://images.tagesschau.de/image/619686c0-a7cb-4865-b7dd-ba50c33715ca/AAABoa8R5R8/AAABnSSvrFg/16x9-big/trump-5422.jpg?width=1920",
       "published": "2026-11-06T07:00:41+01:00",
       "category": "Politik",
-      "score": 94.73,
+      "score": 94.83,
       "coverage": {
         "sourceCount": 4,
         "others": [
-          {
-            "source": "spiegel",
-            "title": "Donald Trump: US-Präsident stellt nach Treffen mit Kremlberater Abkommen für »ganz Europa« in Aussicht",
-            "link": "https://www.spiegel.de/ausland/donald-trump-us-praesident-stellt-nach-treffen-mit-kremlberater-abkommen-fuer-ganz-europa-in-aussicht-a-b44601ad-c7f8-4909-8e21-ba38cf8829a7#ref=rss"
-          },
           {
             "source": "deutschlandfunk",
             "title": "Ukraine-Krieg - Trump stellt nach Treffen mit Putin-Vertrautem mögliches Abkommen in Aussicht",
             "link": "https://www.deutschlandfunk.de/trump-stellt-nach-treffen-mit-putin-vertrautem-moegliches-abkommen-in-aussicht-102.html"
           },
           {
+            "source": "spiegel",
+            "title": "Donald Trump: US-Präsident stellt nach Treffen mit Kremlberater Abkommen für »ganz Europa« in Aussicht",
+            "link": "https://www.spiegel.de/ausland/donald-trump-us-praesident-stellt-nach-treffen-mit-kremlberater-abkommen-fuer-ganz-europa-in-aussicht-a-b44601ad-c7f8-4909-8e21-ba38cf8829a7#ref=rss"
+          },
+          {
             "source": "handelsblatt",
             "title": "+++ Ukraine-Krieg +++: Nach Treffen mit Dmitrijew: Trump stellt „großes Abkommen“ in Aussicht",
             "link": "https://www.handelsblatt.com/politik/international/ukraine-nach-treffen-mit-dmitrijew-trump-stellt-grosses-abkommen-in-aussicht/27982126.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-3da26c32d92a1cdc",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "USA - Richterin stoppt Bau von Trumps geplantem Triumphbogen vorerst",
+      "link": "https://www.deutschlandfunk.de/richterin-stoppt-bau-von-trumps-geplantem-triumphbogen-vorerst-100.html",
+      "summary": "Eine US-Bundesrichterin hat den Beginn der Bauarbeiten für den geplanten Triumphbogen von Präsident Trump in Washington vorerst untersagt.",
+      "image": "https://bilder.deutschlandfunk.de/8d/31/bd/14/8d31bd14-0d97-4b12-b7c2-dd4f31ad1f87/triumphbogen-trum-washington-100-1920x1920.jpg",
+      "published": "2026-11-06T09:40:11+01:00",
+      "category": "Politik",
+      "score": 82.51,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "USA: Richterin stoppt Arbeiten an Donald Trumps Triumphbogen",
+            "link": "https://www.spiegel.de/ausland/usa-richterin-stoppt-arbeiten-an-donald-trumps-triumphbogen-a-766b2510-02a3-4231-ad81-b465774c08dd#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Präsidenten-Projekt: Richterin setzt Arbeit an Trumps Triumphbogen aus",
+            "link": "https://www.handelsblatt.com/politik/international/praesidenten-projekt-richterin-setzt-arbeit-an-trumps-triumphbogen-aus/100267809.html"
           }
         ]
       }
@@ -44,14 +71,14 @@
       "image": "https://cdn.prod.www.spiegel.de/images/825db97f-8484-4b63-a50f-c8133b8e3d7f_w1200_r1.778_fpx50_fpy35.jpg",
       "published": "2026-11-06T08:30:00+01:00",
       "category": "Politik",
-      "score": 82.26,
+      "score": 82.16,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
             "source": "handelsblatt",
-            "title": "Economic Challenges: Wird Europa nach Trumps Niederlage bei den Midterms zum Gewinner?",
-            "link": "https://www.handelsblatt.com/audio/economic-challenges-podcast/economic-challenges-wird-europa-nach-den-us-midterms-zum-gewinner/100267782.html"
+            "title": "Editorial: Europa ist erwacht – dank Donald Trump",
+            "link": "https://www.handelsblatt.com/meinung/kommentare/editorial-europa-ist-erwacht-dank-donald-trump/100267460.html"
           },
           {
             "source": "deutsche-welle",
@@ -71,7 +98,7 @@
       "image": "https://images.tagesschau.de/image/9ddfd8db-915b-4ae9-9685-bed94f4b4fc6/AAABoawBJm0/AAABnSSvrFg/16x9-big/schweine-transporter-100.jpg?width=1920",
       "published": "2026-11-05T19:02:22+01:00",
       "category": "Politik",
-      "score": 78.66,
+      "score": 78.83,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -93,7 +120,7 @@
       "image": "https://images.tagesschau.de/image/d3876004-9fe6-4ca8-9b05-b85dd2090a2a/AAABoUWv6Dk/AAABnSSvrFg/16x9-big/161026-tabaksteuer-mediathek-100.jpg?width=1920",
       "published": "2026-11-06T01:55:35+01:00",
       "category": "Politik",
-      "score": 78.66,
+      "score": 78.83,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -115,7 +142,7 @@
       "image": "https://images.tagesschau.de/image/c4d08bd7-cba7-4df9-8c87-b00ac693d1ba/AAABoM1W1xs/AAABnSSvrFg/16x9-big/ko-tropfen-glaeser-100.jpg?width=1920",
       "published": "2026-11-06T06:17:40+01:00",
       "category": "Politik",
-      "score": 78.66,
+      "score": 78.83,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -128,50 +155,6 @@
       }
     },
     {
-      "id": "deutschlandfunk-39d7addfa3069a76",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Weißes Haus - US-Präsident Trump lässt Oval Office als nationales Denkmal schützen",
-      "link": "https://www.deutschlandfunk.de/us-praesident-trump-laesst-oval-office-als-nationales-denkmal-schuetzen-100.html",
-      "summary": "US-Präsident Trump hat das Oval Office und den Kabinettsraum im ‌Weißen Haus zu nationalen Denkmälern erklärt.",
-      "image": "https://bilder.deutschlandfunk.de/cf/2f/d8/9e/cf2fd89e-9ca9-461c-830c-cd27d4cd5a2e/trump-usa-praesident-100-1920x1920.jpg",
-      "published": "2026-11-06T08:35:51+01:00",
-      "category": "Politik",
-      "score": 77.66,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Donald Trump: Trump erklärt sein vergoldetes Oval Office zum Nationaldenkmal",
-            "link": "https://www.spiegel.de/ausland/donald-trump-trump-erklaert-sein-vergoldetes-oval-office-zum-nationaldenkmal-a-ed02fc73-d56a-4773-9142-68e9bb41780e#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-3da26c32d92a1cdc",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "USA - Richterin stoppt Bau von Trumps geplantem Triumphbogen vorerst",
-      "link": "https://www.deutschlandfunk.de/richterin-stoppt-bau-von-trumps-geplantem-triumphbogen-vorerst-100.html",
-      "summary": "Eine US-Bundesrichterin hat den Beginn der Bauarbeiten für den geplanten Triumphbogen von Präsident Trump in Washington vorerst untersagt.",
-      "image": "https://bilder.deutschlandfunk.de/8d/31/bd/14/8d31bd14-0d97-4b12-b7c2-dd4f31ad1f87/triumphbogen-trum-washington-100-1920x1920.jpg",
-      "published": "2026-11-06T08:35:51+01:00",
-      "category": "Politik",
-      "score": 77.66,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Präsidenten-Projekt: Richterin setzt Arbeit an Trumps Triumphbogen aus",
-            "link": "https://www.handelsblatt.com/politik/international/praesidenten-projekt-richterin-setzt-arbeit-an-trumps-triumphbogen-aus/100267809.html"
-          }
-        ]
-      }
-    },
-    {
       "id": "deutschlandfunk-4b3f3fc9d04119e8",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
@@ -179,9 +162,9 @@
       "link": "https://www.deutschlandfunk.de/selenskyj-in-spanien-und-bei-iberoamerika-gipfel-welt-muss-von-russlands-verbrechen-erfahren-100.html",
       "summary": "Der ukrainische Präsident Selenskyj ist in Spanien von Regierungschef Sánchez und König Felipe VI. empfangen worden.",
       "image": "https://bilder.deutschlandfunk.de/af/85/bb/84/af85bb84-8442-488f-9814-7faa10035314/selenskyj-spanien-koenig-felipe-100-1920x1920.jpg",
-      "published": "2026-11-06T08:35:51+01:00",
+      "published": "2026-11-06T09:40:11+01:00",
       "category": "Politik",
-      "score": 77.66
+      "score": 77.83
     },
     {
       "id": "handelsblatt-7073d9b9bcae0359",
@@ -190,10 +173,10 @@
       "title": "USA: Rufe nach Kurskorrektur: Wie es für Trump und seine MAGA-Bewegung nun weitergeht",
       "link": "https://www.handelsblatt.com/politik/international/usa-wie-es-fuer-trump-und-seine-maga-bewegung-nun-weitergeht/100267729.html",
       "summary": "Nach dem desaströsen Wahlergebnis hat bei den Republikanern das Ringen um die künftige Richtung der Partei begonnen. Noch ist unklar, wer sich durchsetzt.",
-      "image": "https://images.handelsblatt.com/wdBfv-7t4JHy/cover/900/506/0/0/303/304/0.5/0.5/topshot-us-president-donald-trump-speaks-in-the-oval-office-of-the-white-house-washington-dc-on.jpg",
+      "image": "https://images.handelsblatt.com/AMrNO-Dqf9Z7/cover/900/506/0/0/0/533/0.5/0.5/washington-dc-september-3-vice-president-j.d.-vance-l-is-introduced-to-the-stage-by-secretary.jpg",
       "published": "2026-11-06T07:51:57+00:00",
       "category": "Politik",
-      "score": 76.88
+      "score": 76.16
     },
     {
       "id": "spiegel-5aca5b08f9a9b06e",
@@ -205,7 +188,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/e2aea507-676a-40fa-8f3a-36e2aaad76c5_w1200_r1.778_fpx68.71_fpy45.jpg",
       "published": "2026-11-06T06:23:00+01:00",
       "category": "Politik",
-      "score": 76.71,
+      "score": 75.98,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -227,7 +210,7 @@
       "image": "https://images.handelsblatt.com/XycM61rL2yY4/cover/900/506/0/0/656/657/0.5/0.5/meckel-matthes-podcast-teaser.jpg",
       "published": "2026-11-06T07:27:28+00:00",
       "category": "Politik",
-      "score": 76.54
+      "score": 75.82
     },
     {
       "id": "handelsblatt-df86e146c0a5a222",
@@ -239,7 +222,7 @@
       "image": "https://images.handelsblatt.com/6EkgK7pO3e2D/cover/900/506/0/0/109/108/0.5/0.5/us-praesident-trump.jpg",
       "published": "2026-11-06T06:28:49+00:00",
       "category": "Politik",
-      "score": 75.73
+      "score": 75.0
     },
     {
       "id": "spiegel-7dd0fefd6160893c",
@@ -251,19 +234,46 @@
       "image": "https://cdn.prod.www.spiegel.de/images/5daa37cb-edf4-4600-ba94-8f46f2d7cb2f_w1200_r1.778_fpx58_fpy49.jpg",
       "published": "2026-11-06T04:50:00+01:00",
       "category": "Politik",
-      "score": 74.52
+      "score": 73.8
     },
     {
-      "id": "handelsblatt-ff4160830a552cdd",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Fox News: „Trumps größte Momente könnten noch vor ihm liegen“",
-      "link": "https://www.handelsblatt.com/politik/international/fox-news-trumps-groesste-momente-koennten-noch-vor-ihm-liegen/100267320.html",
-      "summary": "Am Tag nach den US-Zwischenwahlen finden die Moderatoren von Fox News diverse Strategien, um mit dem Debakel der Republikaner umzugehen. Aber wagen sie auch Kritik am Präsidenten?",
-      "image": "https://images.handelsblatt.com/YO3XHvmxDkoT/cover/900/506/0/0/123/123/0.5/0.5/die-moderatoren-von-fox-friends-frueh-aufstehen-trotz-mieser-laune.jpg",
-      "published": "2026-11-06T03:00:00+00:00",
+      "id": "deutschlandfunk-0e61a959d28552c8",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Öko-Institut - Studie warnt vor Wasserstress durch neue Mega-Rechenzentren in Deutschland",
+      "link": "https://www.deutschlandfunk.de/studie-warnt-vor-wasserstress-durch-neue-mega-rechenzentren-in-deutschland-100.html",
+      "summary": "Der Wasserbedarf von Rechenzentren in Deutschland könnte sich bis 2030 mehr als verdoppeln.",
+      "image": "https://bilder.deutschlandfunk.de/3d/14/e1/08/3d14e108-a39c-47bc-b422-9f61559d7eef/muenchen-rechenzentrum-ki-kuenstliche-intelligenz-100-1920x1920.jpg",
+      "published": "2026-11-06T09:40:11+01:00",
+      "category": "Wissenschaft",
+      "score": 71.51,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Folge des KI-Booms: Studie warnt vor Wasserstress durch neue Mega-Rechenzentren",
+            "link": "https://www.handelsblatt.com/technik/it-internet/folge-des-ki-booms-studie-warnt-vor-wasserstress-durch-neue-mega-rechenzentren/100267791.html"
+          },
+          {
+            "source": "netzpolitik",
+            "title": "Greenpeace-Studie: Bau von Riesen-Rechenzentren könnte Wasserverbrauch mehr als verdoppeln",
+            "link": "https://netzpolitik.org/2026/greenpeace-studie-bau-von-riesen-rechenzentren-koennte-wasserverbrauch-mehr-als-verdoppeln/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-39d7addfa3069a76",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Weißes Haus - US-Präsident Trump lässt Oval Office als nationales Denkmal schützen",
+      "link": "https://www.deutschlandfunk.de/us-praesident-trump-laesst-oval-office-als-nationales-denkmal-schuetzen-100.html",
+      "summary": "US-Präsident Trump hat das Oval Office und den Kabinettsraum im ‌Weißen Haus zu nationalen Denkmälern erklärt.",
+      "image": "https://bilder.deutschlandfunk.de/cf/2f/d8/9e/cf2fd89e-9ca9-461c-830c-cd27d4cd5a2e/trump-usa-praesident-100-1920x1920.jpg",
+      "published": "2026-11-06T09:40:11+01:00",
       "category": "Politik",
-      "score": 72.83
+      "score": 69.83
     },
     {
       "id": "heise-45664c00b5628a06",
@@ -275,7 +285,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/6/1/1/8/shutterstock_2144422251_1_-5ae3c6c8b5d9c64d.jpeg",
       "published": "2026-11-06T07:03:00+01:00",
       "category": "Politik",
-      "score": 67.37
+      "score": 66.64
     }
   ]
 }
