@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T21:45:05.904270+00:00",
+  "generatedAt": "2026-11-06T00:25:53.412125+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,10 +12,15 @@
       "image": "https://images.tagesschau.de/image/74e6c976-51e1-4bc8-b302-43b9965bad5e/AAABoagNzso/AAABnSSvrFg/16x9-big/trump-5418.jpg?width=1920",
       "published": "2026-11-05T06:16:43+01:00",
       "category": "Politik",
-      "score": 92.12,
+      "score": 99.11,
       "coverage": {
-        "sourceCount": 2,
+        "sourceCount": 3,
         "others": [
+          {
+            "source": "spiegel",
+            "title": "Iran-Krieg: US-Regierung hält trotz Kriegs an Abschiebeplänen nach Iran fest",
+            "link": "https://www.spiegel.de/ausland/iran-krieg-us-regierung-haelt-trotz-kriegs-an-abschiebeplaenen-nach-iran-fest-a-d50b6e18-ff59-4c84-8610-9cd90a8da9b6#ref=rss"
+          },
           {
             "source": "handelsblatt",
             "title": "+++ Iran-Krieg +++: US-Regierung sprach mit Iran über Abschiebungen im Krieg",
@@ -25,48 +30,26 @@
       }
     },
     {
-      "id": "tagesschau-0e01165e44bd5278",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Wie der Führerschein günstiger werden soll",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/bundestag-fuehrerschein-reform-100.html",
-      "summary": "Weniger Sonderfahrten, keine Präsenzpflicht im Theorieunterricht: Der Führerschein soll weniger kosten und die Ausbildung moderner werden. Der Bundestag hat mit den Stimmen von Union und SPD einen ersten Teil der Reform beschlossen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/60a0757a-c615-4a84-a1d0-ef2a8555dfa2/AAABnkJwkBE/AAABnSSvrFg/16x9-big/fahrschule-244.jpg?width=1920",
-      "published": "2026-11-05T16:33:46+01:00",
+      "id": "deutschlandfunk-a88a31ded0dbbf21",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Ukraine-Krieg - Trump stellt nach Treffen mit Putin-Vertrautem mögliches Abkommen in Aussicht",
+      "link": "https://www.deutschlandfunk.de/trump-stellt-nach-treffen-mit-putin-vertrautem-moegliches-abkommen-in-aussicht-102.html",
+      "summary": "US-Präsident Trump hat nach eigenen Angaben den russischen Unterhändler und Putin-Vertrauten Dmitrijew im Weißen Haus empfangen. Anschließend stellte Trump ein mögliches Abkommen in Aussicht, das nach seinen Worten über die Ukraine hinausreichen und Auswirkungen auf ganz Europa haben könnte.",
+      "image": "https://bilder.deutschlandfunk.de/15/16/96/97/15169697-2178-45bf-a7b5-0ceb0d0df1a0/donald-trump-us-praesident-110-1920x1920.jpg",
+      "published": "2026-11-05T23:49:36+01:00",
       "category": "Politik",
-      "score": 85.4,
+      "score": 92.79,
       "coverage": {
-        "sourceCount": 4,
+        "sourceCount": 2,
         "others": [
           {
-            "source": "deutschlandfunk",
-            "title": "Reform im Bundestag - Wie der Führerschein günstiger werden soll",
-            "link": "https://www.deutschlandfunk.de/wie-der-fuehrerschein-guenstiger-werden-soll-102.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Führerschein-Reform beschlossen: So sollen Fahrschüler sparen",
-            "link": "https://www.spiegel.de/mobilitaet/auto/fuehrerschein-reform-beschlossen-so-sollen-fahrschueler-sparen-a-1f8497df-d04a-4dd9-a7bc-ce1fcd2e0e27#ref=rss"
-          },
-          {
-            "source": "golem",
-            "title": "Führerschein: Bundestag beschließt Reform der Fahrschulausbildung",
-            "link": "https://www.golem.de/news/fuehrerschein-bundestag-beschliesst-reform-der-fahrschulausbildung-2611-214907.html"
+            "source": "handelsblatt",
+            "title": "Ukraine-Krieg: Trump: Habe Kremlunterhändler Dmitrijew getroffen",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-trump-habe-kremlunterhaendler-dmitrijew-getroffen/100267741.html"
           }
         ]
       }
-    },
-    {
-      "id": "deutschlandfunk-7c68d3ee90de4e96",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg - Interview mit Böhmermann: Selenskyj hofft nach US-Wahlen auf mehr Unterstützung",
-      "link": "https://www.deutschlandfunk.de/interview-mit-boehmermann-selenskyj-hofft-nach-us-wahlen-auf-mehr-unterstuetzung-100.html",
-      "summary": "Der ukrainische Präsident Wolodymyr Selenskyj hofft nach dem Sieg der Demokraten bei den US-Zwischenwahlen auf positive Auswirkungen für sein Land. Er habe die Hoffnung, \"dass wir mehr Unterstützung bekommen\", sagte Selenskyj in einem Interview in der Sendung \"ZDF Magazin Royale\" mit Jan Böhmermann.",
-      "image": "https://bilder.deutschlandfunk.de/59/d0/97/4c/59d0974c-1714-44b0-a7e0-5797a6a844b4/selenskyj-boehmermann-zdf-100-1920x1920.jpg",
-      "published": "2026-11-05T20:50:03+01:00",
-      "category": "Politik",
-      "score": 84.4
     },
     {
       "id": "tagesschau-df1946185aa5de26",
@@ -78,24 +61,51 @@
       "image": "https://images.tagesschau.de/image/fe153856-aef9-4c0a-a0ac-0db2aa4e955e/AAABoa0KZI8/AAABnSSvrFg/16x9-big/pena-102.jpg?width=1920",
       "published": "2026-11-05T19:26:37+01:00",
       "category": "Nachrichten",
-      "score": 83.76,
+      "score": 82.66,
       "coverage": {
         "sourceCount": 4,
         "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Südamerika - Paraguays Präsident Peña tritt im Zusammenhang mit Zusammenbruch einer Digitalbank zurück",
+            "link": "https://www.deutschlandfunk.de/paraguays-praesident-pe-a-tritt-im-zusammenhang-mit-zusammenbruch-einer-digitalbank-zurueck-110.html"
+          },
           {
             "source": "spiegel",
             "title": "Harmeet Dhillon: Trump-Vertraute tritt zurück",
             "link": "https://www.spiegel.de/ausland/harmeet-dhillon-trump-vertraute-tritt-zurueck-a-d298ef2f-486f-4b31-805a-9ada70521a0b#ref=rss"
           },
           {
-            "source": "deutschlandfunk",
-            "title": "Südamerika - Paraguays Präsident Peña tritt im Zusammenhang mit Zusammenbruch einer Digitalbank zurück",
-            "link": "https://www.deutschlandfunk.de/paraguays-praesident-pe-a-tritt-im-zusammenhang-mit-zusammenbruch-einer-digitalbank-zurueck-100.html"
-          },
-          {
             "source": "handelsblatt",
             "title": "Staatskrise: Paraguays Präsident Peña tritt in Bankenkrise zurück",
             "link": "https://www.handelsblatt.com/politik/international/staatskrise-paraguays-praesident-pena-tritt-in-bankenkrise-zurueck/100267710.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-b5c57119b9154a79",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Kameras in Schlachthöfen: Mehr Überwachung für den Tierschutz",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/bundestag-tierschutzgesetz-100.html",
+      "summary": "Der Bundestag hat eine verpflichtende Videoüberwachung in großen Schlachthöfen beschlossen. Doch Ausnahmen für kleine Betriebe und Fragen zur Umsetzung sorgen für Diskussionen. Von Eva Huber. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/9ddfd8db-915b-4ae9-9685-bed94f4b4fc6/AAABoawBJm0/AAABnSSvrFg/16x9-big/schweine-transporter-100.jpg?width=1920",
+      "published": "2026-11-05T19:02:22+01:00",
+      "category": "Politik",
+      "score": 82.34,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Tierschutz - Bundestag beschließt Schlachthöfe-Videoüberwachung und verschiebt Tierhaltungslogo",
+            "link": "https://www.deutschlandfunk.de/bundestag-beschliesst-schlachthoefe-videoueberwachung-und-verschiebt-tierhaltungslogo-102.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Tierhaltung: Bundestag beschließt Videoüberwachung für Schlachthöfe",
+            "link": "https://www.handelsblatt.com/politik/deutschland/tierhaltung-bundestag-beschliesst-videoueberwachung-fuer-schlachthoefe/100267714.html"
           }
         ]
       }
@@ -110,7 +120,7 @@
       "image": "https://images.tagesschau.de/image/c74d76ff-3c36-4b7d-9d6f-262a04d07e36/AAABoaxKWOk/AAABnSSvrFg/16x9-big/donald-trump-994.jpg?width=1920",
       "published": "2026-11-05T17:58:22+01:00",
       "category": "Politik",
-      "score": 83.02,
+      "score": 80.78,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -123,78 +133,6 @@
       }
     },
     {
-      "id": "handelsblatt-65c250ea40bad37e",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Ukraine-Krieg: Kremlunterhändler Dmitrijew spricht im Weißen Haus",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-kremlunterhaendler-dmitrijew-spricht-im-weissen-haus/100267707.html",
-      "summary": "Für die Vermittlung einer Waffenruhe im ukrainischen Oleschky bedankten sich die Ukraine und Russland bereits bei der First Lady. Nun bietet Melania Trump einem Putin-Vertrauten eine besondere Bühne.",
-      "image": "https://images.handelsblatt.com/nzLav9NWdJYv/cover/900/506/0/0/107/106/0.5/0.5/vertreter-russlands-und-der-ukraine-im-weissen-haus.jpg",
-      "published": "2026-11-05T17:22:30+00:00",
-      "category": "Politik",
-      "score": 81.35
-    },
-    {
-      "id": "spiegel-65911504e30983a7",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Midterms in den USA: Die trügerische Freude über Trumps Machtverlust",
-      "link": "https://www.spiegel.de/politik/midterms-in-den-usa-die-truegerische-freude-ueber-trumps-machtverlust-a-a699ab52-1203-4447-967e-f44d6941354a#ref=rss",
-      "summary": "Donald Trump verliert die US-Zwischenwahlen. Auch in Ungarn, Brasilien und Serbien scheiterten Rechtspopulisten. Ist das der Anfang vom Ende ihrer weltweiten Erfolgswelle? Hören Sie eine neue Folge von »Mad Kings«.",
-      "image": "https://cdn.prod.www.spiegel.de/images/a8ac6101-4201-4199-9f5d-1669b803f633_w1200_r1.778_fpx52_fpy53.jpg",
-      "published": "2026-11-05T20:57:00+01:00",
-      "category": "Politik",
-      "score": 76.5
-    },
-    {
-      "id": "deutschlandfunk-10d1c8170971b301",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg - Russland meldet sieben Tote nach ukrainischen Angriffen im Gebiet Luhansk",
-      "link": "https://www.deutschlandfunk.de/russland-meldet-sieben-tote-nach-ukrainischen-angriffen-im-gebiet-luhansk-102.html",
-      "summary": "Im Osten der Ukraine sind nach russischen Angaben mindestens sieben Menschen durch ukrainische Angriffe getötet worden.",
-      "image": "https://bilder.deutschlandfunk.de/ca/e2/3b/61/cae23b61-1bcb-42e5-94ac-d5124b167e3f/ukraine-russland-krieg-angriff-raketen-drohnen-dnipro-104-1920x1920.jpg",
-      "published": "2026-11-05T20:50:03+01:00",
-      "category": "Politik",
-      "score": 76.4
-    },
-    {
-      "id": "deutschlandfunk-27c8cb4e9da8b6e4",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Nach US-Zwischenwahlen - Ursachenforschung bei Republikanern: Trumps Rolle im Fokus",
-      "link": "https://www.deutschlandfunk.de/ursachenforschung-bei-republikanern-trumps-rolle-im-fokus-100.html",
-      "summary": "Führende Republikaner haben mit klaren Worten auf das Wahldebakel bei den Midterms reagiert und eine schonungslose Analyse des Ergebnisses gefordert - darunter auch Vizepräsident Vance. Dazu äußerte sich auch der in Bedrängnis geratene Präsident Trump.",
-      "image": "https://bilder.deutschlandfunk.de/60/87/b0/3d/6087b03d-2afe-4ff7-9f5a-a81e72cbea18/jd-vance-vizepraesident-100-1920x1920.jpg",
-      "published": "2026-11-05T20:50:03+01:00",
-      "category": "Politik",
-      "score": 76.4
-    },
-    {
-      "id": "deutschlandfunk-8848dfa59eda1202",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "\"Checks and Balances\" - USA nach den Zwischenwahlen: Welche Folgen hat das Ergebnis für Präsident Trump?",
-      "link": "https://www.deutschlandfunk.de/usa-nach-den-zwischenwahlen-welche-folgen-hat-das-ergebnis-fuer-praesident-trump-102.html",
-      "summary": "Die Ergebnisse der Zwischenwahlen haben weitreichende Folgen für den politischen Prozess in den USA. Denn durch die Mehrheit der Demokraten in beiden Kongresskammern wird es für Präsident Trump schwieriger, seine politischen Ziele durchzusetzen. Die Auswirkungen im Überblick.",
-      "image": "https://bilder.deutschlandfunk.de/60/d1/a4/10/60d1a410-682b-4c97-b0ec-835af37b9898/capitol-washington-kongress-usa-100-1920x1920.jpg",
-      "published": "2026-11-05T20:50:03+01:00",
-      "category": "Politik",
-      "score": 76.4
-    },
-    {
-      "id": "handelsblatt-17ace33d73944841",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Trump Watch: JD Vance und andere Republikaner distanzieren sich nach Midterms – die Trump-News der Woche",
-      "link": "https://www.handelsblatt.com/audio/trump-watch-podcast/trump-watch-jd-vance-und-andere-republikaner-distanzieren-sich-nach-midterms-die-trump-news-der-woche/100267720.html",
-      "summary": "Nach den Midterms ist vor den Präsidentschaftswahlen 2028: Was die herben Verluste der Republikaner und der Erfolg der Demokraten für die US-Politik und Machtstrategien bedeuten, erläutert diese Folge.",
-      "image": "https://images.handelsblatt.com/mHQ5kjgjqmVr/cover/1440/810/0/0/315/315/0.5/0.5/.jpg",
-      "published": "2026-11-05T18:55:19+00:00",
-      "category": "Politik",
-      "score": 74.64
-    },
-    {
       "id": "spiegel-086600b0e3366a80",
       "source": "spiegel",
       "sourceWeight": 0.95,
@@ -202,9 +140,9 @@
       "link": "https://www.spiegel.de/wirtschaft/unternehmen/midterms-siege-der-demokraten-furcht-vor-ki-regulierung-laesst-us-tech-aktien-einbrechen-a-c9e7a367-2287-429f-95d3-b3651ecdbb04#ref=rss",
       "summary": "Nach den US-Zwischenwahlen müssen sich KI-Konzerne wohl auf mehr politischen Gegenwind einstellen. Am Aktienmarkt verlieren deswegen nun die Werte von Chipherstellern deutlich an Wert – in den USA, aber auch in Deutschland.",
       "image": "https://cdn.prod.www.spiegel.de/images/b268e2cc-5ad4-4cee-889a-df804e4af5b3_w1200_r1.778_fpx95_fpy70.jpg",
-      "published": "2026-11-05T18:34:00+01:00",
+      "published": "2026-11-05T22:55:00+01:00",
       "category": "Politik",
-      "score": 74.51,
+      "score": 75.9,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -217,6 +155,93 @@
       }
     },
     {
+      "id": "spiegel-65911504e30983a7",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Midterms in den USA: Die trügerische Freude über Trumps Machtverlust",
+      "link": "https://www.spiegel.de/politik/midterms-in-den-usa-die-truegerische-freude-ueber-trumps-machtverlust-a-a699ab52-1203-4447-967e-f44d6941354a#ref=rss",
+      "summary": "Donald Trump verliert die US-Zwischenwahlen. Auch in Ungarn, Brasilien und Serbien scheiterten Rechtspopulisten. Ist das der Anfang vom Ende ihrer weltweiten Erfolgswelle? Hören Sie eine neue Folge von »Mad Kings«.",
+      "image": "https://cdn.prod.www.spiegel.de/images/a8ac6101-4201-4199-9f5d-1669b803f633_w1200_r1.778_fpx52_fpy53.jpg",
+      "published": "2026-11-05T20:57:00+01:00",
+      "category": "Politik",
+      "score": 74.27
+    },
+    {
+      "id": "handelsblatt-17ace33d73944841",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Trump Watch: JD Vance und andere Republikaner distanzieren sich nach Midterms – die Trump-News der Woche",
+      "link": "https://www.handelsblatt.com/audio/trump-watch-podcast/trump-watch-jd-vance-und-andere-republikaner-distanzieren-sich-nach-midterms-die-trump-news-der-woche/100267720.html",
+      "summary": "Nach den Midterms ist vor den Präsidentschaftswahlen 2028: Was die herben Verluste der Republikaner und der Erfolg der Demokraten für die US-Politik und Machtstrategien bedeuten, erläutert diese Folge.",
+      "image": "https://images.handelsblatt.com/mHQ5kjgjqmVr/cover/1440/810/0/0/315/315/0.5/0.5/.jpg",
+      "published": "2026-11-05T18:55:19+00:00",
+      "category": "Politik",
+      "score": 72.41
+    },
+    {
+      "id": "deutschlandfunk-6487bee3a86a0195",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Österreich - Unternehmer René Benko erneut verurteilt",
+      "link": "https://www.deutschlandfunk.de/unternehmer-ren-benko-erneut-verurteilt-106.html",
+      "summary": "Der österreichische Immobilienunternehmer Benko ist wegen schweren Betrugs zu einer zusätzlichen Strafe von zwei Jahren Haft verurteilt worden.",
+      "image": "https://bilder.deutschlandfunk.de/eb/8e/40/73/eb8e4073-75ac-4e89-b3df-9f726967decf/rene-benko-verhandlung-betrug-insolvenz-verfahren-signa-gruender-urteil-100-1920x1920.jpg",
+      "published": "2026-11-05T23:49:36+01:00",
+      "category": "Nachrichten",
+      "score": 70.34,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "René Benko zu Zusatzstrafe von zwei Jahren verurteilt wegen schweren Betrugs",
+            "link": "https://www.spiegel.de/wirtschaft/rene-benko-zu-zusatzstrafe-von-zwei-jahren-verurteilt-wegen-schweren-betrugs-a-fc9d0fc1-4f92-4ddf-8342-1a4bd6e55ff8#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Österreich: „Das Dümmste, was man tun konnte“: Benko in weiterem Prozess zu Haftstrafe verurteilt",
+            "link": "https://www.handelsblatt.com/politik/international/oesterreich-benko-in-weiterem-prozess-zu-haftstrafe-verurteilt/100267677.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-6b5f217afd50fe4f",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Straßenverkehr - Bundestag verlängert Sonderrechte für E-Autos und billigt Führerschein-Reform",
+      "link": "https://www.deutschlandfunk.de/bundestag-verlaengert-sonderrechte-fuer-e-autos-und-billigt-fuehrerschein-reform-102.html",
+      "summary": "Der Bundestag hat einer Verlängerung von Sonderrechten für Elektroautos zugestimmt. Das Parlament beschloss zudem den ersten Teil einer Führerschein-Reform.",
+      "image": "https://bilder.deutschlandfunk.de/84/00/2d/0c/84002d0c-d355-421c-b5b1-12d16c341db2/elektroauto-102-1920x1920.jpg",
+      "published": "2026-11-05T23:49:36+01:00",
+      "category": "Politik",
+      "score": 68.66
+    },
+    {
+      "id": "handelsblatt-f91f0590c1483ac5",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "US-Regierung: Rubio zu Rücktrittsgerücht: Ich liebe meinen Job",
+      "link": "https://www.handelsblatt.com/politik/international/us-regierung-rubio-zu-ruecktrittsgeruecht-ich-liebe-meinen-job/100267748.html",
+      "summary": "Zwei Tage nach den Midterms kommt in Medienberichten das Gerücht auf, es könnte zu einem Rücktritt im Trump-Kabinett kommen. Außenminister Rubio bezieht dazu Stellung.",
+      "image": "https://images.handelsblatt.com/H1Irb9Odb5hI/cover/900/506/0/0/107/106/0.5/0.5/marco-rubio.jpg",
+      "published": "2026-11-05T23:49:39+00:00",
+      "category": "Politik",
+      "score": 68.5
+    },
+    {
+      "id": "handelsblatt-abf47aad4157cdcc",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Dekor als Chefsache: Trump erklärt goldverziertes Oval Office zum Nationaldenkmal",
+      "link": "https://www.handelsblatt.com/politik/international/dekor-als-chefsache-trump-erklaert-goldverziertes-oval-office-zum-nationaldenkmal/100267746.html",
+      "summary": "Donald Trump hat die Wände im Oval Office mit Goldornamenten gefüllt. Nach Spott von Barack Obama will er es nun schwieriger machen, das Präsidenten-Arbeitszimmer umzubauen.",
+      "image": "https://images.handelsblatt.com/0ObT6EXaDMJ0/cover/900/506/0/0/107/106/0.5/0.5/us-praesident-trump.jpg",
+      "published": "2026-11-05T23:17:26+00:00",
+      "category": "Politik",
+      "score": 68.05
+    },
+    {
       "id": "deutsche-welle-e4d7d5c401c0e644",
       "source": "deutsche-welle",
       "sourceWeight": 0.9,
@@ -226,7 +251,7 @@
       "image": "https://static.dw.com/image/77590514_6.jpg",
       "published": "2026-11-05T11:45:00+00:00",
       "category": "Politik",
-      "score": 68.67
+      "score": 66.43
     },
     {
       "id": "spiegel-d8788fdfde8818b8",
@@ -238,19 +263,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/088aa6c5-aa1c-4b01-ae5f-e8692271d729_w1200_r1.778_fpx52.66_fpy54.99.jpg",
       "published": "2026-11-05T20:06:00+01:00",
       "category": "Politik",
-      "score": 67.79
+      "score": 65.56
     },
     {
-      "id": "handelsblatt-169d1174d4876376",
-      "source": "handelsblatt",
+      "id": "deutsche-welle-709a8469c856327f",
+      "source": "deutsche-welle",
       "sourceWeight": 0.9,
-      "title": "+++ US-Midterms +++: Demokraten kündigen Korruptionsermittlungen gegen Trump an",
-      "link": "https://www.handelsblatt.com/politik/international/nach-us-midterms-demokraten-kuendigen-korruptionsermittlungen-gegen-trump-an/29669594.html",
-      "summary": "Newsom wandelt alle Todesstrafen in Haftstrafen um +++ Demokraten kündigen Korruptionsermittlungen gegen Trump an +++ US-Regierung bringt Sanktionen gegen Kuba auf den Weg +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/JS8bc9xGLfun/cover/900/506/672/820/859/605/0.5/0.5/protesters-gather-for-a-no-kings-rally-on-saturday-oct.-17-2026-in-new-york.-ap-photo-madison.jpg",
-      "published": "2026-11-05T20:15:57+00:00",
+      "title": "Rumoren bei den US-Republikanern nach Wahlschlappe  - News kompakt: Das Wichtigste kurz gefasst",
+      "link": "https://www.dw.com/de/rumoren-bei-den-us-republikanern-nach-wahlschlappe-news-kompakt-das-wichtigste-kurz-gefasst/a-79859837?maca=de-rss-de-all-1119-rdf",
+      "summary": "Nach der Niederlage bei den Zwischenwahlen in den USA geht Vizepräsident J.D. Vance auf Distanz zu Präsident Trump. Der Tod von Freie-Wähler Chef Aiwanger sorgt für Bestürzung. Der DW-Nachrichtenüberblick.",
+      "image": "https://static.dw.com/image/79834344_6.jpg",
+      "published": "2026-11-05T08:19:00+00:00",
       "category": "Politik",
-      "score": 67.76
+      "score": 63.57
     }
   ]
 }
