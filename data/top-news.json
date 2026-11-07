@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T15:47:16.199093+00:00",
+  "generatedAt": "2026-11-07T19:42:21.277553+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.handelsblatt.com/ovbbcToYC3MI/cover/1440/810/0/0/315/315/0.5/0.5/.jpg",
       "published": "2026-11-07T09:50:43+00:00",
       "category": "Politik",
-      "score": 88.05
+      "score": 84.78
     },
     {
       "id": "tagesschau-ee0e99a6b03c7241",
@@ -24,51 +24,24 @@
       "image": "https://images.tagesschau.de/image/7bd1dc74-b219-499d-9b06-dc6fe94316da/AAABobNOoTQ/AAABnSSvrFg/16x9-big/pena-106.jpg?width=1920",
       "published": "2026-11-07T01:06:18+01:00",
       "category": "Nachrichten",
-      "score": 86.26,
+      "score": 83.97,
       "coverage": {
-        "sourceCount": 5,
+        "sourceCount": 4,
         "others": [
           {
             "source": "deutschlandfunk",
-            "title": "Ueno-Bank - Staatskrise in Paraguay: Präsident Peña abgesetzt und festgenommen",
-            "link": "https://www.deutschlandfunk.de/staatskrise-in-paraguay-praesident-pe-a-abgesetzt-und-festgenommen-100.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Paraguay: Santiago Peña als Präsident abgesetzt – Vize übernimmt",
-            "link": "https://www.spiegel.de/ausland/paraguay-santiago-pena-als-praesident-abgesetzt-vize-uebernimmt-a-f188f388-ac17-4d7f-a95c-4e9ff08eba18#ref=rss"
+            "title": "Skandal um Ueno-Bank - Staatsanwaltschaft in Paraguay erhebt Anklage gegen abgesetzten Präsidenten Peña",
+            "link": "https://www.deutschlandfunk.de/staatsanwaltschaft-in-paraguay-erhebt-anklage-gegen-abgesetzten-praesidenten-pe-a-100.html"
           },
           {
             "source": "handelsblatt",
-            "title": "Staatskrise in Südamerika: Staatsanwaltschaft ordnet Festnahme von Paraguays Ex-Präsident Peña an",
-            "link": "https://www.handelsblatt.com/politik/international/staatskrise-in-suedamerika-staatsanwaltschaft-ordnet-festnahme-von-paraguays-ex-praesident-pena-an/100268040.html"
+            "title": "Bankenskandal in Paraguay: Nach Amtsenthebung: Anklage gegen Paraguays Ex-Präsidenten",
+            "link": "https://www.handelsblatt.com/politik/international/bankenskandal-in-paraguay-nach-amtsenthebung-anklage-gegen-paraguays-ex-praesidenten/100268135.html"
           },
           {
             "source": "deutsche-welle",
             "title": "Bankenskandal in Paraguay: Präsident Peña unter Druck",
             "link": "https://www.dw.com/de/bankenskandal-in-paraguay-präsident-peña-unter-druck/a-79874532?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-883aaffbb130f7ee",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg: Kyjiw kämpft nach massiven russischen Angriffen mit Stromproblemen",
-      "link": "https://www.spiegel.de/ausland/ukraine-krieg-kyjiw-kaempft-nach-massiven-russischen-angriffen-mit-stromproblemen-a-8d4aacfb-3500-4239-9b25-90fd97e43459#ref=rss",
-      "summary": "Ein groß angelegter russischer Angriff hat auf die Kyjiwer Stromversorgung und die wichtige Brücke über den Dnipro gezielt. Selenskyj spricht von 172 Drohnen und Dutzenden ballistischen Raketen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/b1717486-d39b-4342-a780-8b653805b120_w1200_r1.778_fpx43_fpy46.jpg",
-      "published": "2026-11-07T10:09:00+01:00",
-      "category": "Politik",
-      "score": 83.79,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutsche-welle",
-            "title": "Ukraine: Massive Stromprobleme nach russischen Angriffen",
-            "link": "https://www.dw.com/de/ukraine-massive-stromprobleme-nach-russischen-angriffen/a-79884371?maca=de-rss-de-all-1119-rdf"
           }
         ]
       }
@@ -83,7 +56,78 @@
       "image": "https://images.handelsblatt.com/NGBnjbLUyeAK/cover/900/506/510/0/272/228/0.5/0.5/ukrainischer-praesident-wolodymyr-selenskyj.jpg",
       "published": "2026-11-07T12:29:00+00:00",
       "category": "Politik",
-      "score": 82.25
+      "score": 78.98
+    },
+    {
+      "id": "tagesschau-492976fb9acc9077",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Wofür Trumps neuer Stabschef Miller steht",
+      "link": "https://www.tagesschau.de/ausland/amerika/trump-stabschef-miller-100.html",
+      "summary": "Seit Freitag ist Stephen Miller neuer Stabschef von Präsident Trump. Der 41-Jährige gilt als rechter Hardliner und Kopf hinter der strikten Einwanderungspolitik. Welches Signal sendet Trump mit der Personalie an Republikaner und Demokraten?[ mehr ]",
+      "image": "https://images.tagesschau.de/image/15646591-1e61-481c-b10d-8b00ab988e21/AAABobaEBY4/AAABnSSvrFg/16x9-big/stephen-miller-104.jpg?width=1920",
+      "published": "2026-11-07T15:57:49+01:00",
+      "category": "Politik",
+      "score": 78.97,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Nach Entlassung von Stabschefin Wiles - Trump rückt rechten Hardliner Stephen Miller ins Zentrum des Machtzirkels",
+            "link": "https://www.deutschlandfunk.de/trump-rueckt-rechten-hardliner-stephen-miller-ins-zentrum-des-machtzirkels-100.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-c9065ea7c8c33571",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Polen: Mindestens fünf Tote nach Schüssen in Krakau",
+      "link": "https://www.tagesschau.de/ausland/europa/schuesse-krakau-100.html",
+      "summary": "Bei Schüssen in der polnischen Stadt Krakau sind laut Polizei mindestens sechs Menschen getötet und 15 Personen verletzt worden. Der mutmaßliche Täter konnte demnach gefasst werden.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/bee3ba3a-f8f6-43d9-a494-b75bb2b72fe1/AAABobanF1k/AAABnSSvrFg/16x9-big/einsatzkraefte-historisches-stadtzentrum-100.jpg?width=1920",
+      "published": "2026-11-07T19:27:27+01:00",
+      "category": "Panorama",
+      "score": 78.55,
+      "coverage": {
+        "sourceCount": 5,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Polen - Tote und Verletzte nach Schüssen in Krakau - Polizei geht von Einzeltäter aus",
+            "link": "https://www.deutschlandfunk.de/tote-und-verletzte-nach-schuessen-in-krakau-polizei-geht-von-einzeltaeter-aus-100.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "Krakau: Tote und Verletzte nach Schüssen in Polen",
+            "link": "https://www.spiegel.de/ausland/krakau-tote-und-verletzte-nach-schuessen-in-polen-a-706b54e1-b14f-4068-bf4d-be1aae44cf29#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Kriminalität: Sechs Tote und mehr als fünfzehn Verletzte bei Schießerei in Krakau",
+            "link": "https://www.handelsblatt.com/politik/international/kriminalitaet-sechs-tote-und-mehr-als-fuenfzehn-verletzte-bei-schiesserei-in-krakau/100268120.html"
+          },
+          {
+            "source": "deutsche-welle",
+            "title": "Polen: Schütze feuert in Krakau aus Auto - mehrere Tote",
+            "link": "https://www.dw.com/de/polen-schütze-feuert-in-krakau-aus-auto-mehrere-tote/a-79887202?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-61e6021ff70fc8fc",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Ukraine-Krieg - Russen greifen ukrainische Energieversorung mit Raketen an",
+      "link": "https://www.deutschlandfunk.de/russen-greifen-ukrainische-energieversorung-mit-raketen-an-102.html",
+      "summary": "Russland hat in der Nacht erneut die Energieversorgung in der Ukraine angegriffen.",
+      "image": "https://bilder.deutschlandfunk.de/37/d3/78/02/37d37802-d88f-4619-9df3-6fd3d2219271/kiew-156-1920x1920.jpg",
+      "published": "2026-11-07T20:40:20+01:00",
+      "category": "Politik",
+      "score": 77.97
     },
     {
       "id": "spiegel-e6ec1c803df31505",
@@ -95,7 +139,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/fd9b1e1c-027b-43eb-ab77-4d21ecff887c_w1200_r1.778_fpx50.66_fpy50.jpg",
       "published": "2026-11-07T14:03:00+01:00",
       "category": "Politik",
-      "score": 80.4,
+      "score": 77.13,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -113,89 +157,35 @@
       }
     },
     {
-      "id": "tagesschau-3c721ea00d9afb03",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Hubig will geleakte E-Mails zur Prüfung von AfD-Verbotsverfahren nutzen",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/hubig-afd-verbotsverfahren-leak-100.html",
-      "summary": "Justizministerin Hubig wirbt dafür, ein AfD-Verbotsverfahren zu prüfen - gegebenenfalls auch mithilfe der von Hackern veröffentlichten Mails aus den Reihen der Partei. In der schwarz-roten Koalition ist ein Verbotsverfahren jedoch umstritten.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/cc62aaec-9be1-4ab8-9152-b85193c4ac4d/AAABobVW4eg/AAABnSSvrFg/16x9-big/spd-hubig-100.jpg?width=1920",
-      "published": "2026-11-07T10:28:52+01:00",
+      "id": "handelsblatt-2d4349b83b7ccd83",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "US-Präsident: Kampfsport-Unternehmer als Sprecher im Weißen Haus?",
+      "link": "https://www.handelsblatt.com/politik/international/us-praesident-kampfsport-unternehmer-als-sprecher-im-weissen-haus/100268137.html",
+      "summary": "Der Sprecherposten im Weißen Haus ist seit Wochen unbesetzt. Nach der Schlappe bei der Parlamentswahl prescht Präsident Donald Trump mit einem ungewöhnlichen Kandidaten vor. Meint er es ernst?",
+      "image": "https://images.handelsblatt.com/dLjzbp2XXryM/cover/900/506/0/0/107/106/0.5/0.5/us-praesident-trump.jpg",
+      "published": "2026-11-07T19:19:15+00:00",
       "category": "Politik",
-      "score": 78.69,
-      "coverage": {
-        "sourceCount": 4,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Bundesjustizministerin - Hubig will AfD-Leaks für Prüfung von Parteiverbot nutzen",
-            "link": "https://www.deutschlandfunk.de/hubig-will-afd-leaks-fuer-pruefung-von-parteiverbot-nutzen-100.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "AfD-Verbot: Stefanie Hubig will E-Mails bei Prüfung für Antrag nutzen",
-            "link": "https://www.spiegel.de/politik/deutschland/afd-verbot-stefanie-hubig-will-e-mails-bei-pruefung-fuer-antrag-nutzen-a-e340c29d-e222-4ee6-8299-320a906dc468#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Verbotsverfahren: Hubig will E-Mails bei Prüfung von AfD-Verbot nutzen",
-            "link": "https://www.handelsblatt.com/politik/deutschland/verbotsverfahren-hubig-will-e-mails-bei-pruefung-von-afd-verbot-nutzen/100268026.html"
-          }
-        ]
-      }
+      "score": 76.68
     },
     {
-      "id": "tagesschau-492976fb9acc9077",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Wofür Trumps neuer Stabschef Miller steht",
-      "link": "https://www.tagesschau.de/ausland/amerika/trump-stabschef-miller-100.html",
-      "summary": "Seit Freitag ist Stephen Miller neuer Stabschef von Präsident Trump. Der 41-Jährige gilt als rechter Hardliner und Kopf hinter der strikten Einwanderungspolitik. Welches Signal sendet Trump mit der Personalie an Republikaner und Demokraten?[ mehr ]",
-      "image": "https://images.tagesschau.de/image/15646591-1e61-481c-b10d-8b00ab988e21/AAABobaEBY4/AAABnSSvrFg/16x9-big/stephen-miller-104.jpg?width=1920",
-      "published": "2026-11-07T15:57:49+01:00",
+      "id": "spiegel-52e14546124d5e18",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "USA: Festnahme am Weißen Haus – Verdächtiger wollte offenbar Donald Trump töten",
+      "link": "https://www.spiegel.de/panorama/justiz/usa-festnahme-am-weissen-haus-verdaechtiger-wollte-offenbar-donald-trump-toeten-a-459dc802-69c7-4f1d-9675-cc26c7d10ff1#ref=rss",
+      "summary": "Sicherheitskräfte haben in der Nähe des Weißen Hauses einen Mann festgenommen, der es auf Donald Trump abgesehen haben soll: Der Verdächtige hörte Stimmen, die ihn aufforderten, den US-Präsidenten zu töten, hieß es.",
+      "image": "https://cdn.prod.www.spiegel.de/images/fa739462-2861-43f5-9469-f2fe71091d3d_w1200_r1.778_fpx29.25_fpy54.99.jpg",
+      "published": "2026-11-07T16:52:00+01:00",
       "category": "Politik",
-      "score": 78.69,
+      "score": 74.8,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "deutschlandfunk",
-            "title": "Nach Entlassung von Stabschefin Wiles - Trump rückt rechten Hardliner Stephen Miller ins Zentrum des Machtzirkels",
-            "link": "https://www.deutschlandfunk.de/trump-rueckt-rechten-hardliner-stephen-miller-ins-zentrum-des-machtzirkels-100.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-61e6021ff70fc8fc",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg - Russen greifen ukrainische Energieversorung mit Raketen an",
-      "link": "https://www.deutschlandfunk.de/russen-greifen-ukrainische-energieversorung-mit-raketen-an-102.html",
-      "summary": "Russland hat in der Nacht erneut die Energieversorgung in der Ukraine angegriffen.",
-      "image": "https://bilder.deutschlandfunk.de/37/d3/78/02/37d37802-d88f-4619-9df3-6fd3d2219271/kiew-156-1920x1920.jpg",
-      "published": "2026-11-07T16:24:51+01:00",
-      "category": "Politik",
-      "score": 77.69
-    },
-    {
-      "id": "deutschlandfunk-ce70fe13f1f85200",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Bundespräsidentenwahl - Medienberichte: Auch CDU für Ilse Aigner - Merz schweigt weiter - CDU-Parteikollege Kiesewetter kritisiert Merz",
-      "link": "https://www.deutschlandfunk.de/medienberichte-auch-cdu-fuer-ilse-aigner-merz-schweigt-weiter-cdu-parteikollege-kiesewetter-kritisie-100.html",
-      "summary": "Nach der CSU will nun auch die CDU ‌Medienberichten zufolge Ilse Aigner für das Amt der Bundespräsidentin nominieren. Dies berichteten \"Bild\", \"Spiegel\" und \"Süddeutsche Zeitung\" übereinstimmend. Mit einer offiziellen Bekanntgabe wird am Montag gerechnet.",
-      "image": "https://bilder.deutschlandfunk.de/47/77/f2/e8/4777f2e8-009a-4497-8055-2d3eb6dba31a/ilse-aigner-csu-100-1920x1920.jpg",
-      "published": "2026-11-07T16:24:51+01:00",
-      "category": "Politik",
-      "score": 77.69,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Bundespräsidenten-Nachfolge: Omid Nouripour kritisiert Verhalten von Friedrich Merz",
-            "link": "https://www.spiegel.de/politik/deutschland/bundespraesidenten-nachfolge-omid-nouripour-kritisiert-verhalten-von-friedrich-merz-a-17a92a69-2408-4233-a873-8c443abf5d39#ref=rss"
+            "source": "deutsche-welle",
+            "title": "Trump setzt Stabschefin des Weißen Hauses vor die Tür",
+            "link": "https://www.dw.com/de/trump-setzt-stabschefin-des-weißen-hauses-vor-die-tür/a-79883871?maca=de-rss-de-all-1119-rdf"
           }
         ]
       }
@@ -210,7 +200,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/ceda6323-4895-42f5-8945-e46eea11f059_w1200_r1.778_fpx52.66_fpy52.98.jpg",
       "published": "2026-11-07T15:38:00+01:00",
       "category": "Politik",
-      "score": 77.04,
+      "score": 73.77,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -232,19 +222,19 @@
       "image": "https://static.dw.com/image/71955101_6.jpg",
       "published": "2026-11-07T13:03:00+00:00",
       "category": "Politik",
-      "score": 74.72
+      "score": 71.45
     },
     {
-      "id": "deutsche-welle-46258718f0d1f3ec",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Trump setzt Stabschefin des Weißen Hauses vor die Tür",
-      "link": "https://www.dw.com/de/trump-setzt-stabschefin-des-weißen-hauses-vor-die-tür/a-79883871?maca=de-rss-de-all-1119-rdf",
-      "summary": "Wenige Tage nach dem verheerenden Wahldebakel seiner Republikaner macht US-Präsident Donald Trump einen politischen Hardliner zu seinem Türhüter im Oval Office. Die Opposition faucht.",
-      "image": "https://static.dw.com/image/77602450_6.jpg",
-      "published": "2026-11-07T10:24:00+00:00",
+      "id": "deutschlandfunk-0c665ee7d715cb38",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "USA, Russland, China - Peking bestätigt Gespräche über Treffen von Xi, Trump und Putin",
+      "link": "https://www.deutschlandfunk.de/peking-bestaetigt-gespraeche-ueber-treffen-von-xi-trump-und-putin-100.html",
+      "summary": "China hat bestätigt, dass es Gespräche über ein Treffen von Staatschef Xi mit US-Präsident Trump und dem russischen Präsidenten Putin gibt.",
+      "image": "https://bilder.deutschlandfunk.de/75/e8/a2/56/75e8a256-97dc-4f4c-a0e5-1b563bfdabe2/trump-xi-108-1920x1920.jpg",
+      "published": "2026-11-07T20:40:20+01:00",
       "category": "Politik",
-      "score": 72.51
+      "score": 69.97
     },
     {
       "id": "golem-0beda63f25b49de0",
@@ -256,19 +246,19 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214959&amp;page=1&amp;ts=1794044821",
       "published": "2026-11-07T10:47:01+01:00",
       "category": "Politik",
-      "score": 71.0
+      "score": 67.73
     },
     {
-      "id": "deutschlandfunk-0c665ee7d715cb38",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "USA Russland China - Peking bestätigt Gespräche über Treffen von Xi, Trump und Putin",
-      "link": "https://www.deutschlandfunk.de/peking-bestaetigt-gespraeche-ueber-treffen-von-xi-trump-und-putin-100.html",
-      "summary": "China hat bestätigt, dass es Gespräche über ein Treffen von Staatschef Xi mit US-Präsident Trump und dem russischen Präsidenten Putin gibt.",
-      "image": "https://bilder.deutschlandfunk.de/75/e8/a2/56/75e8a256-97dc-4f4c-a0e5-1b563bfdabe2/trump-xi-108-1920x1920.jpg",
-      "published": "2026-11-07T16:24:51+01:00",
+      "id": "deutsche-welle-8e6e23729a954156",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "Ukraine: Massive Stromprobleme nach russischen Angriffen",
+      "link": "https://www.dw.com/de/ukraine-massive-stromprobleme-nach-russischen-angriffen/a-79884371?maca=de-rss-de-all-1119-rdf",
+      "summary": "Russische Attacken auf die Energie-und Verkehrsinfrastruktur der Ukraine haben in vielen Landesteilen schwere Schäden verursacht. In Kyjiw musste eine wichtige Brücke wieder gesperrt werden.",
+      "image": "https://static.dw.com/image/79883626_6.jpg",
+      "published": "2026-11-07T13:08:00+00:00",
       "category": "Politik",
-      "score": 69.69
+      "score": 63.52
     },
     {
       "id": "netzpolitik-bbddb84d948eb7e2",
@@ -280,7 +270,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/26-10-4.jpg",
       "published": "2026-11-07T06:28:33+00:00",
       "category": "Politik",
-      "score": 66.24
+      "score": 62.97
     }
   ]
 }
