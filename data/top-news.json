@@ -1,37 +1,57 @@
 {
-  "generatedAt": "2026-11-07T20:20:15.897524+00:00",
+  "generatedAt": "2026-11-07T23:09:56.476532+00:00",
   "count": 15,
   "articles": [
     {
-      "id": "handelsblatt-6a5551134b681b90",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Trump Watch: Russland, Iran, Israel: Ändert Trump seine Außenpolitik nach den Midterms? – mit Jürgen Hardt",
-      "link": "https://www.handelsblatt.com/audio/trump-watch-podcast/trump-watch-russland-iran-israel-aendert-trump-seine-aussenpolitik-nach-den-midterms-mit-juergen-hardt/100268041.html",
-      "summary": "Nach den Verlusten bei den Zwischenwahlen stehen für den US-Präsidenten wichtige internationale Entscheidungen an: CDU-Außenpolitiker Jürgen Hardt ist optimistisch für die Ukraine und die Lage im Iran.",
-      "image": "https://images.handelsblatt.com/ovbbcToYC3MI/cover/1440/810/0/0/315/315/0.5/0.5/.jpg",
-      "published": "2026-11-07T09:50:43+00:00",
-      "category": "Politik",
-      "score": 84.26
-    },
-    {
-      "id": "tagesschau-ee0e99a6b03c7241",
+      "id": "tagesschau-48087d855feea03d",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Paraguay: Peña als Präsident abgesetzt und unter Hausarrest",
-      "link": "https://www.tagesschau.de/ausland/paraguay-amtsenthebung-100.html",
-      "summary": "Plötzlich ging es ganz schnell: Infolge der Bankenkrise in Paraguay hat das Parlament den bisherigen Präsidenten Peña des Amtes enthoben - kurz darauf wurde er unter Hausarrest gestellt. Ein Nachfolger ist bereits vereidigt.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/7bd1dc74-b219-499d-9b06-dc6fe94316da/AAABobNOoTQ/AAABnSSvrFg/16x9-big/pena-106.jpg?width=1920",
-      "published": "2026-11-07T01:06:18+01:00",
-      "category": "Nachrichten",
-      "score": 83.91,
+      "title": "Oppositionsführer Eisenkot soll Israels neue Regierung bilden",
+      "link": "https://www.tagesschau.de/ausland/asien/regierungsbildung-israel-eisenkot-100.html",
+      "summary": "Endet die Ära Netanjahu in Israel? Staatspräsident Herzog beauftragt den Oppositionspolitiker Eisenkot mit der Regierungsbildung. In den kommenden 28 Tagen soll er versuchen, eine Koalition zu schmieden.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/1468c2f0-97fc-4df3-8608-e7ff13e7a1a9/AAABobeoupM/AAABnSSvrFg/16x9-big/eisenkot-116.jpg?width=1920",
+      "published": "2026-11-07T21:31:48+01:00",
+      "category": "Politik",
+      "score": 86.58,
       "coverage": {
         "sourceCount": 4,
         "others": [
           {
             "source": "deutschlandfunk",
-            "title": "Skandal um Ueno-Bank - Staatsanwaltschaft in Paraguay erhebt Anklage gegen abgesetzten Präsidenten Peña",
-            "link": "https://www.deutschlandfunk.de/staatsanwaltschaft-in-paraguay-erhebt-anklage-gegen-abgesetzten-praesidenten-pe-a-100.html"
+            "title": "Jerusalem - Israels Präsident Herzog beauftragt Oppositionspolitiker Eisenkot mit Regierungsbildung",
+            "link": "https://www.deutschlandfunk.de/israels-praesident-herzog-beauftragt-oppositionspolitiker-eisenkot-mit-regierungsbildung-106.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "Israel: Netanyahu-Rivale Gadi Eisenkot mit Regierungsbildung beauftragt",
+            "link": "https://www.spiegel.de/ausland/israel-netanjahu-rivale-gadi-einsenkot-mit-regierungsbildung-beauftragt-a-309f7855-3a51-4503-a6e8-2ead13f9dfe8#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Nahost: Netanjahu-Rivale Eisenkot in Israel mit Regierungsbildung beauftragt",
+            "link": "https://www.handelsblatt.com/politik/international/nahost-netanjahu-rivale-eisenkot-in-israel-mit-regierungsbildung-beauftragt/100268142.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-0627db71a1579977",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Bankenkrise: Anklage gegen Paraguays Ex-Präsidenten",
+      "link": "https://www.tagesschau.de/ausland/amerika/ermittlungen-paraguay-pena-100.html",
+      "summary": "Nur einen Tag nach seiner Amtsenthebung muss sich Paraguays Ex-Präsident Peña wegen seiner Rolle im Bankenskandal vor der Justiz verantworten. Die Staatsanwaltschaft fordert Untersuchungshaft.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/9e147e56-f6c3-400e-b95b-a781c07ba6b5/AAABobe3Qgs/AAABnSSvrFg/16x9-big/pena-110.jpg?width=1920",
+      "published": "2026-11-07T21:33:23+01:00",
+      "category": "Nachrichten",
+      "score": 83.58,
+      "coverage": {
+        "sourceCount": 4,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Skandal um Ueno-Bank - Staatsanwaltschaft in Paraguay erhebt Anklage - abgesetzter Präsident Peña in Untersuchungshaft",
+            "link": "https://www.deutschlandfunk.de/staatsanwaltschaft-in-paraguay-erhebt-anklage-abgesetzter-praesident-pe-a-in-untersuchungshaft-102.html"
           },
           {
             "source": "handelsblatt",
@@ -47,26 +67,40 @@
       }
     },
     {
-      "id": "tagesschau-48087d855feea03d",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Oppositionsführer Eisenkot soll Israels neue Regierung bilden",
-      "link": "https://www.tagesschau.de/ausland/asien/regierungsbildung-israel-eisenkot-100.html",
-      "summary": "Endet die Ära Netanjahu in Israel? Staatspräsident Herzog beauftragt den Oppositionspolitiker Eisenkot mit der Regierungsbildung. In den kommenden 28 Tagen soll er versuchen, eine Koalition zu schmieden.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/1468c2f0-97fc-4df3-8608-e7ff13e7a1a9/AAABobeoupM/AAABnSSvrFg/16x9-big/eisenkot-116.jpg?width=1920",
-      "published": "2026-11-07T21:17:30+01:00",
+      "id": "handelsblatt-6a5551134b681b90",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Trump Watch: Russland, Iran, Israel: Ändert Trump seine Außenpolitik nach den Midterms? – mit Jürgen Hardt",
+      "link": "https://www.handelsblatt.com/audio/trump-watch-podcast/trump-watch-russland-iran-israel-aendert-trump-seine-aussenpolitik-nach-den-midterms-mit-juergen-hardt/100268041.html",
+      "summary": "Nach den Verlusten bei den Zwischenwahlen stehen für den US-Präsidenten wichtige internationale Entscheidungen an: CDU-Außenpolitiker Jürgen Hardt ist optimistisch für die Ukraine und die Lage im Iran.",
+      "image": "https://images.handelsblatt.com/ovbbcToYC3MI/cover/1440/810/0/0/315/315/0.5/0.5/.jpg",
+      "published": "2026-11-07T09:50:43+00:00",
       "category": "Politik",
-      "score": 78.96,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Israel: Netanjahu-Rivale Gadi Eisenkot mit Regierungsbildung beauftragt",
-            "link": "https://www.spiegel.de/ausland/israel-netanjahu-rivale-gadi-einsenkot-mit-regierungsbildung-beauftragt-a-309f7855-3a51-4503-a6e8-2ead13f9dfe8#ref=rss"
-          }
-        ]
-      }
+      "score": 81.9
+    },
+    {
+      "id": "spiegel-3fc43ee710f6ac1d",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Donald Trump weist Justizministerium an, unliebsame Demokraten zu untersuchen",
+      "link": "https://www.spiegel.de/ausland/donald-trump-weist-justizministerium-an-unliebsame-demokraten-zu-untersuchen-a-c5f98176-36ff-41ad-88a9-511276a4b746#ref=rss",
+      "summary": "Nach dem Wahlsieg bei den Midterms wollen demokratische Abgeordnete den US-Präsidenten stärker kontrollieren. Der hält das für »kriminell« – und droht.",
+      "image": "https://cdn.prod.www.spiegel.de/images/7aa3d16f-5931-4bc4-921c-e043b44e3dfb_w1200_r1.778_fpx25_fpy47.jpg",
+      "published": "2026-11-07T22:41:00+01:00",
+      "category": "Politik",
+      "score": 76.76
+    },
+    {
+      "id": "handelsblatt-2d4349b83b7ccd83",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "US-Präsident: Kampfsport-Unternehmer als Sprecher im Weißen Haus?",
+      "link": "https://www.handelsblatt.com/politik/international/us-praesident-kampfsport-unternehmer-als-sprecher-im-weissen-haus/100268137.html",
+      "summary": "Der Sprecherposten im Weißen Haus ist seit Wochen unbesetzt. Nach der Schlappe bei der Parlamentswahl prescht Präsident Donald Trump mit einem ungewöhnlichen Kandidaten vor. Meint er es ernst?",
+      "image": "https://images.handelsblatt.com/dLjzbp2XXryM/cover/900/506/0/0/107/106/0.5/0.5/us-praesident-trump.jpg",
+      "published": "2026-11-07T22:49:17+00:00",
+      "category": "Politik",
+      "score": 76.71
     },
     {
       "id": "tagesschau-492976fb9acc9077",
@@ -78,51 +112,14 @@
       "image": "https://images.tagesschau.de/image/15646591-1e61-481c-b10d-8b00ab988e21/AAABobaEBY4/AAABnSSvrFg/16x9-big/stephen-miller-104.jpg?width=1920",
       "published": "2026-11-07T15:57:49+01:00",
       "category": "Politik",
-      "score": 78.91,
+      "score": 76.71,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "deutschlandfunk",
-            "title": "Nach Entlassung von Stabschefin Wiles - Trump rückt rechten Hardliner Stephen Miller ins Zentrum des Machtzirkels",
-            "link": "https://www.deutschlandfunk.de/trump-rueckt-rechten-hardliner-stephen-miller-ins-zentrum-des-machtzirkels-100.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-c9065ea7c8c33571",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Polen: Mindestens fünf Tote nach Schüssen in Krakau",
-      "link": "https://www.tagesschau.de/ausland/europa/schuesse-krakau-100.html",
-      "summary": "Bei Schüssen in der polnischen Stadt Krakau sind laut Polizei mindestens sechs Menschen getötet und 15 Personen verletzt worden. Der mutmaßliche Täter konnte demnach gefasst werden.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/bee3ba3a-f8f6-43d9-a494-b75bb2b72fe1/AAABobanF1k/AAABnSSvrFg/16x9-big/einsatzkraefte-historisches-stadtzentrum-100.jpg?width=1920",
-      "published": "2026-11-07T19:27:27+01:00",
-      "category": "Panorama",
-      "score": 78.48,
-      "coverage": {
-        "sourceCount": 5,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Polen - Tote und Verletzte nach Schüssen in Krakau",
-            "link": "https://www.deutschlandfunk.de/tote-und-verletzte-nach-schuessen-in-krakau-106.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Krakau: Tote und Verletzte nach Schüssen in Polen",
-            "link": "https://www.spiegel.de/ausland/krakau-tote-und-verletzte-nach-schuessen-in-polen-a-706b54e1-b14f-4068-bf4d-be1aae44cf29#ref=rss"
-          },
-          {
             "source": "handelsblatt",
-            "title": "Kriminalität: Sechs Tote und mehr als fünfzehn Verletzte bei Schießerei in Krakau",
-            "link": "https://www.handelsblatt.com/politik/international/kriminalitaet-sechs-tote-und-mehr-als-fuenfzehn-verletzte-bei-schiesserei-in-krakau/100268120.html"
-          },
-          {
-            "source": "deutsche-welle",
-            "title": "Polen: Schütze feuert in Krakau aus Auto - mehrere Tote",
-            "link": "https://www.dw.com/de/polen-schütze-feuert-in-krakau-aus-auto-mehrere-tote/a-79887202?maca=de-rss-de-all-1119-rdf"
+            "title": "Stephen Miller: Drei Dinge, die man zu Trumps neuem Stabschef im Weißen Haus wissen muss",
+            "link": "https://www.handelsblatt.com/politik/international/stephen-miller-drei-dinge-die-man-zu-trumps-neuem-stabschef-im-weissen-haus-wissen-muss/100268118.html"
           }
         ]
       }
@@ -137,41 +134,7 @@
       "image": "https://images.handelsblatt.com/NGBnjbLUyeAK/cover/900/506/510/0/272/228/0.5/0.5/ukrainischer-praesident-wolodymyr-selenskyj.jpg",
       "published": "2026-11-07T12:29:00+00:00",
       "category": "Politik",
-      "score": 78.45
-    },
-    {
-      "id": "deutschlandfunk-61e6021ff70fc8fc",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg - Russen greifen ukrainische Energieversorung mit Raketen an",
-      "link": "https://www.deutschlandfunk.de/russen-greifen-ukrainische-energieversorung-mit-raketen-an-102.html",
-      "summary": "Russland hat in der Nacht erneut die Energieversorgung in der Ukraine angegriffen.",
-      "image": "https://bilder.deutschlandfunk.de/37/d3/78/02/37d37802-d88f-4619-9df3-6fd3d2219271/kiew-156-1920x1920.jpg",
-      "published": "2026-11-07T21:13:42+01:00",
-      "category": "Politik",
-      "score": 77.91
-    },
-    {
-      "id": "spiegel-3c7775246868cc11",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "US-Präsident bietet UFC-Chef Dana White Job als Pressesprecher an",
-      "link": "https://www.spiegel.de/ausland/trump-bietet-ufc-chef-dana-white-job-als-pressesprecher-an-a-3fcc68a9-735c-4f0e-ace7-82130710182a#ref=rss",
-      "summary": "Dana White ist bekannt für seine drastische und vulgäre Sprache. Jetzt will ihn der bekennende Käfigkampf-Fan Donald Trump offenbar zum Pressesprecher im Weißen Haus machen: »Dana, bitte nimm den Job an.«",
-      "image": "https://cdn.prod.www.spiegel.de/images/9be14bf1-b298-4375-8ecf-dfebc474c7c7_w1200_r1.778_fpx52.66_fpy44.99.jpg",
-      "published": "2026-11-07T20:40:00+01:00",
-      "category": "Politik",
-      "score": 77.44,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutsche-welle",
-            "title": "Trump setzt Stabschefin des Weißen Hauses vor die Tür",
-            "link": "https://www.dw.com/de/trump-setzt-stabschefin-des-weißen-hauses-vor-die-tür/a-79883871?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
+      "score": 76.1
     },
     {
       "id": "spiegel-e6ec1c803df31505",
@@ -183,7 +146,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/fd9b1e1c-027b-43eb-ab77-4d21ecff887c_w1200_r1.778_fpx50.66_fpy50.jpg",
       "published": "2026-11-07T14:03:00+01:00",
       "category": "Politik",
-      "score": 76.61,
+      "score": 74.25,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -201,35 +164,23 @@
       }
     },
     {
-      "id": "handelsblatt-07b7a6597102aec3",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Nach der Wahl: Streit um Regierungsbildung in Israel eskaliert",
-      "link": "https://www.handelsblatt.com/politik/international/nach-der-wahl-streit-um-regierungsbildung-in-israel-eskaliert/100268139.html",
-      "summary": "Israels amtierender Ministerpräsident Netanjahu fordert eine breite Koalition unter Einschluss der Rechtsextremisten. Oppositionspolitiker Eisenkot weist das Angebot umgehend als PR-Manöver zurück.",
-      "image": "https://images.handelsblatt.com/eHkcd2gupYq7/cover/900/506/0/0/107/106/0.5/0.5/parlamentswahl-in-israel.jpg",
-      "published": "2026-11-07T19:47:49+00:00",
-      "category": "Politik",
-      "score": 76.55
-    },
-    {
-      "id": "spiegel-d091350f7fbd5d72",
+      "id": "spiegel-6fbde2d21d2ccfc0",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "BSW-Spitze kritisiert Nominierung von Constantin Schreiber für die Bundesversammlung",
-      "link": "https://www.spiegel.de/politik/bsw-spitze-kritisiert-nominierung-von-constantin-schreiber-fuer-die-bundesversammlung-a-3e0ec6e6-ccfd-47dd-bf21-1877ca10ae19#ref=rss",
-      "summary": "Im BSW gibt es Zwist, weil der sächsische Landesverband den früheren »Tagesschau«-Sprecher Constantin Schreiber als Wahlmann für die Bundespräsidentenwahl nominiert hat. Schreiber will einen Kandidaten vorschlagen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/ceda6323-4895-42f5-8945-e46eea11f059_w1200_r1.778_fpx52.66_fpy52.98.jpg",
-      "published": "2026-11-07T15:38:00+01:00",
+      "title": "USA: Festnahme am Weißen Haus – Verdächtiger hörte Stimmen, die ihn aufforderten, Donald Trump zu töten",
+      "link": "https://www.spiegel.de/panorama/justiz/usa-festnahme-am-weissen-haus-verdaechtiger-hoerte-stimmen-die-ihn-aufforderten-donald-trump-zu-toeten-a-459dc802-69c7-4f1d-9675-cc26c7d10ff1#ref=rss",
+      "summary": "Sicherheitskräfte haben in der Nähe des Weißen Hauses einen Mann festgenommen, der es auf Donald Trump abgesehen haben soll: Der Verdächtige hörte Stimmen, die ihn aufforderten, den US-Präsidenten zu töten, hieß es.",
+      "image": "https://cdn.prod.www.spiegel.de/images/fa739462-2861-43f5-9469-f2fe71091d3d_w1200_r1.778_fpx29.25_fpy54.99.jpg",
+      "published": "2026-11-07T16:52:00+01:00",
       "category": "Politik",
-      "score": 73.25,
+      "score": 71.92,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "handelsblatt",
-            "title": "Wahl des Staatsoberhaupts: BSW-Spitze kritisiert Nominierung von Constantin Schreiber",
-            "link": "https://www.handelsblatt.com/politik/deutschland/wahl-des-staatsoberhaupts-bsw-spitze-kritisiert-nominierung-von-constantin-schreiber/100268097.html"
+            "source": "deutsche-welle",
+            "title": "Trump setzt Stabschefin des Weißen Hauses vor die Tür",
+            "link": "https://www.dw.com/de/trump-setzt-stabschefin-des-weißen-hauses-vor-die-tür/a-79883871?maca=de-rss-de-all-1119-rdf"
           }
         ]
       }
@@ -244,31 +195,29 @@
       "image": "https://static.dw.com/image/71955101_6.jpg",
       "published": "2026-11-07T13:03:00+00:00",
       "category": "Politik",
-      "score": 70.93
+      "score": 68.57
     },
     {
-      "id": "deutschlandfunk-0c665ee7d715cb38",
+      "id": "deutschlandfunk-de5ff204ae8fed3f",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "USA, Russland, China - Peking bestätigt Gespräche über Treffen von Xi, Trump und Putin",
-      "link": "https://www.deutschlandfunk.de/peking-bestaetigt-gespraeche-ueber-treffen-von-xi-trump-und-putin-100.html",
-      "summary": "China hat bestätigt, dass es Gespräche über ein Treffen von Staatschef Xi mit US-Präsident Trump und dem russischen Präsidenten Putin gibt.",
-      "image": "https://bilder.deutschlandfunk.de/75/e8/a2/56/75e8a256-97dc-4f4c-a0e5-1b563bfdabe2/trump-xi-108-1920x1920.jpg",
-      "published": "2026-11-07T21:13:42+01:00",
-      "category": "Politik",
-      "score": 69.91
-    },
-    {
-      "id": "deutschlandfunk-b0c34d1528f5bc20",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Nach Parlamentswahl - Kopf-an Kopf-Rennen zwischen Regierung und Opposition in Neuseeland",
-      "link": "https://www.deutschlandfunk.de/kopf-an-kopf-rennen-zwischen-regierung-und-opposition-in-neuseeland-102.html",
-      "summary": "Nach der Parlamentswahl in Neuseeland zeichnet sich ein Kopf-an-Kopf Rennen zwischen der konservativen Nationalpartei von Premierminister Luxon und der oppositionellen Labour-Partei ab. Laut der Wahlkommission kamen die beiden stärksten politischen Kräfte des Landes nach Auszählung fast aller Stimmen auf jeweils knapp 30 Prozent.",
-      "image": "https://bilder.deutschlandfunk.de/93/0c/a9/c2/930ca9c2-bad9-49bc-88cd-9524572c6c32/imago0877383383h-100-1920x1920.jpg",
-      "published": "2026-11-07T21:13:42+01:00",
-      "category": "Politik",
-      "score": 69.91
+      "title": "Fußball-Bundesliga - Siege für Stuttgart, Dortmund, Leipzig und Bayern",
+      "link": "https://www.deutschlandfunk.de/siege-fuer-stuttgart-dortmund-leipzig-und-bayern-104.html",
+      "summary": "In der Fußball-Bundesliga hat der VfB Stuttgart hat den Vormarsch des SV Werder Bremen vorerst gestoppt. Vier Tage nach dem frustrierenden 0:2 in der Champions League bei Galatasaray Istanbul siegten die Schwaben 1:0 und sprangen mit nun zwölf Punkten zumindest vorübergehend auf den achten Tabellenplatz.",
+      "image": "https://bilder.deutschlandfunk.de/c3/cd/e8/7c/c3cde87c-6f7f-4444-ab81-64016361cbfb/werder-bremen-stuttgart-bundesliga-100-1920x1920.jpg",
+      "published": "2026-11-07T23:39:23+01:00",
+      "category": "Nachrichten",
+      "score": 66.58,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Bundesliga: Maximilian Mittelstädt schießt VfB Stuttgart zum Sieg gegen Werder Bremen",
+            "link": "https://www.spiegel.de/sport/fussball/bundesliga-maximilian-mittelstaedt-schiesst-vfb-stuttgart-zum-sieg-gegen-werder-bremen-a-4952b90c-32c4-4147-802f-b7dca6682ad9#ref=rss"
+          }
+        ]
+      }
     },
     {
       "id": "golem-0beda63f25b49de0",
@@ -280,7 +229,43 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214959&amp;page=1&amp;ts=1794044821",
       "published": "2026-11-07T10:47:01+01:00",
       "category": "Politik",
-      "score": 67.2
+      "score": 64.85
+    },
+    {
+      "id": "deutschlandfunk-f944e5920730cee3",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Interview der Woche - Pistorius sieht Personalplanung der Bundeswehr auf gutem Weg - erstmal keine Wehrpflicht nötig",
+      "link": "https://www.deutschlandfunk.de/pistorius-sieht-personalplanung-der-bundeswehr-auf-gutem-weg-erstmal-keine-wehrpflicht-noetig-102.html",
+      "summary": "Die Personalplanung der Bundeswehr ist nach den Worten von Verteidigungsminister Pistorius auf einem guten Weg. Zur Zeit ist eine Wiedereinführung der Wehrpflicht demnach nicht nötig. Pistorius sagte im Interview der Woche des Deutschlandfunks, die Vorgabe des Wehrdienstmodernisierungsgesetzes werde überschritten.",
+      "image": "https://bilder.deutschlandfunk.de/11/fc/12/a6/11fc12a6-d014-435f-bbfa-cb04448ef273/boris-pistorius-verteidigungsminister-106-1920x1920.jpg",
+      "published": "2026-11-07T23:39:23+01:00",
+      "category": "Politik",
+      "score": 61.58
+    },
+    {
+      "id": "deutsche-welle-8e6e23729a954156",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "Ukraine: Massive Stromprobleme nach russischen Angriffen",
+      "link": "https://www.dw.com/de/ukraine-massive-stromprobleme-nach-russischen-angriffen/a-79884371?maca=de-rss-de-all-1119-rdf",
+      "summary": "Russische Attacken auf die Energie-und Verkehrsinfrastruktur der Ukraine haben in vielen Landesteilen schwere Schäden verursacht. In Kyjiw musste eine wichtige Brücke wieder gesperrt werden.",
+      "image": "https://static.dw.com/image/79883626_6.jpg",
+      "published": "2026-11-07T13:08:00+00:00",
+      "category": "Politik",
+      "score": 60.64
+    },
+    {
+      "id": "netzpolitik-bbddb84d948eb7e2",
+      "source": "netzpolitik",
+      "sourceWeight": 0.75,
+      "title": "KW 45: Die Woche, in der die Welt gegen Rechenzentren aufbegehrte",
+      "link": "https://netzpolitik.org/2026/kw-45-die-woche-in-der-die-welt-gegen-rechenzentren-aufbegehrte/",
+      "summary": "Die 45. Kalenderwoche geht zu Ende. Wir haben 21 neue Texte mit insgesamt 128.008 Zeichen veröffentlicht. Willkommen zum netzpolitischen Wochenrückblick. – : Fraktal, generiert mit MandelBrowser von Tomasz Śmigielski Liebe Leser*innen, Donald Trumps aktuelle Amtszeit ist gekennzeichnet von einer intensiven Beziehung zwischen Regierung und Big Tech. Also jenen Unternehmen, die gerade in vielen Gegenden der USA in megalomanischen Bauprojekten Riesen-Rechenzentren hochziehen wollen, die sie oft mit eigenen Erdgaskraftwerken antreiben, teils sogar mit ausrangierten Flugzeugturbinen. Die Rechenzentren sind laut, schaden der Umwelt, machen in der Umgebung den Strom teurer, saugen die Wasserreserven ab und ihr Betrieb schafft so gut wie keine Jobs. Absolut verständlich also, dass in vielen Regionen der USA Widerstandsbewegungen entstanden sind, die sich teils sogar erfolgreich den Projekten entgegenstellen. Als diese Woche die US-Wähler*innen in den Midterm-Wahlen die Republikaner unter Donald Trump hart abstraften, war das auch die Rechnung für den Dauer-Engtanz mit den großen Digitalkonzernen. …",
+      "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/26-10-4.jpg",
+      "published": "2026-11-07T06:28:33+00:00",
+      "category": "Politik",
+      "score": 60.09
     }
   ]
 }
