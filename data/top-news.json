@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T10:49:06.099481+00:00",
+  "generatedAt": "2026-11-08T13:43:14.638518+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/1d795625-6e32-4268-8bf0-5ca4a0c10aa8/AAABobqEWvg/AAABnSSvrFg/16x9-big/dana-white-donald-trump-100.jpg?width=1920",
       "published": "2026-11-08T10:59:49+01:00",
       "category": "Politik",
-      "score": 91.4,
+      "score": 91.33,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -23,35 +23,40 @@
           },
           {
             "source": "spiegel",
-            "title": "Donald Trump bietet UFC-Chef Dana White Job als Sprecher an – der will nach Washington reisen",
-            "link": "https://www.spiegel.de/ausland/trump-bietet-ufc-chef-dana-white-job-als-pressesprecher-an-a-3fcc68a9-735c-4f0e-ace7-82130710182a#ref=rss"
+            "title": "Donald Trump bietet UFC-Chef Dana White Job als Sprecher an – der will für Gespräch anreisen",
+            "link": "https://www.spiegel.de/ausland/donald-trump-bietet-ufc-chef-dana-white-job-als-sprecher-an-der-will-fuer-gespraech-anreisen-a-3fcc68a9-735c-4f0e-ace7-82130710182a#ref=rss"
           }
         ]
       }
     },
     {
-      "id": "deutschlandfunk-a8f7c14bb34435fa",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg - Erneut russischer Angriff auf ukrainische Energieversorgung - 600.000 Menschen ohne Strom",
-      "link": "https://www.deutschlandfunk.de/erneut-russischer-angriff-auf-ukrainische-energieversorgung-600-000-menschen-ohne-strom-100.html",
-      "summary": "Nach einem erneuten russischen ⁠Angriff auf die Energieversorgung in der Ukraine ⁠sind ⁠laut den Behörden ⁠mehr als ⁠600.000 ‌Menschen im Osten des Landes ohne ​Strom.",
-      "image": "https://bilder.deutschlandfunk.de/5b/c7/ec/81/5bc7ec81-db6e-4148-9645-7832ae6bd463/ukraine-russische-angriffe-100-1920x1920.jpg",
-      "published": "2026-11-08T11:28:59+01:00",
+      "id": "tagesschau-b047847f2d7f888b",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Russische Luftangriffe: Erneut Hunderttausende Ukrainer ohne Strom",
+      "link": "https://www.tagesschau.de/ausland/europa/ukraine-stromausfall-120.html",
+      "summary": "Erneut hat Russland die ukrainische Energieversorgung schwer getroffen. In der Region Dnipropetrowsk haben 600.000 Menschen keinen Strom. Das besetzte Atomkraftwerk Saporischschja muss mit Notstromaggregaten gekühlt werden.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/191b788d-eaa3-44e0-8d43-2c000d71fd4a/AAABobrngk4/AAABnSSvrFg/16x9-big/stadt-stromausfall-100.jpg?width=1920",
+      "published": "2026-11-08T13:05:57+01:00",
       "category": "Politik",
-      "score": 90.4,
+      "score": 86.68,
       "coverage": {
-        "sourceCount": 3,
+        "sourceCount": 4,
         "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Ukraine - Von Russland kontrolliertes Atomkraftwerk Saporischschja wird mit Notstromaggregaten gekühlt",
+            "link": "https://www.deutschlandfunk.de/von-russland-kontrolliertes-atomkraftwerk-saporischschja-wird-mit-notstromaggregaten-gekuehlt-102.html"
+          },
+          {
+            "source": "deutsche-welle",
+            "title": "Ukraine: AKW Saporischschja wieder vom Strom abgetrennt",
+            "link": "https://www.dw.com/de/ukraine-akw-saporischschja-wieder-vom-strom-abgetrennt/a-79890404?maca=de-rss-de-all-1119-rdf"
+          },
           {
             "source": "handelsblatt",
             "title": "+++ Ukraine-Krieg +++: Mehr als 600.000 Menschen in Ukraine nach russischem Angriff ohne Strom",
             "link": "https://www.handelsblatt.com/politik/international/ukraine-mehr-als-600.000-ukrainer-nach-russischem-angriff-ohne-strom/27982126.html"
-          },
-          {
-            "source": "deutsche-welle",
-            "title": "Ukraine: Massive Stromprobleme nach russischen Angriffen",
-            "link": "https://www.dw.com/de/ukraine-massive-stromprobleme-nach-russischen-angriffen/a-79884371?maca=de-rss-de-all-1119-rdf"
           }
         ]
       }
@@ -66,7 +71,7 @@
       "image": "https://images.tagesschau.de/image/1468c2f0-97fc-4df3-8608-e7ff13e7a1a9/AAABobeoupM/AAABnSSvrFg/16x9-big/eisenkot-116.jpg?width=1920",
       "published": "2026-11-07T21:31:48+01:00",
       "category": "Politik",
-      "score": 86.72,
+      "score": 86.65,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -76,9 +81,9 @@
             "link": "https://www.deutschlandfunk.de/israels-praesident-herzog-beauftragt-oppositionspolitiker-eisenkot-mit-regierungsbildung-106.html"
           },
           {
-            "source": "spiegel",
-            "title": "Israel: Netanyahu-Rivale Gadi Eisenkot mit Regierungsbildung beauftragt",
-            "link": "https://www.spiegel.de/ausland/israel-netanjahu-rivale-gadi-einsenkot-mit-regierungsbildung-beauftragt-a-309f7855-3a51-4503-a6e8-2ead13f9dfe8#ref=rss"
+            "source": "deutsche-welle",
+            "title": "Israel: Netanjahu-Rivale Gadi Eisenkot soll Regierung bilden",
+            "link": "https://www.dw.com/de/israel-netanjahu-rivale-gadi-eisenkot-soll-regierung-bilden/a-79889744?maca=de-rss-de-all-1119-rdf"
           },
           {
             "source": "handelsblatt",
@@ -98,7 +103,7 @@
       "image": "https://images.tagesschau.de/image/9e147e56-f6c3-400e-b95b-a781c07ba6b5/AAABobe3Qgs/AAABnSSvrFg/16x9-big/pena-110.jpg?width=1920",
       "published": "2026-11-07T21:33:23+01:00",
       "category": "Nachrichten",
-      "score": 83.72,
+      "score": 83.65,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -121,16 +126,31 @@
       }
     },
     {
-      "id": "tagesschau-de0c2b10f3dbbbd4",
+      "id": "tagesschau-8dcbcf05d7115145",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Leiharbeiter: Nordkoreas Geldquelle in Russland",
-      "link": "https://www.tagesschau.de/ausland/europa/russland-nordkorea-104.html",
-      "summary": "Nordkorea stellt nicht nur Soldaten für den Krieg gegen die Ukraine. In Russland sind auch Zehntausende Leiharbeiter tätig. Sie hoffen auf einen besseren Verdienst als in ihrer Heimat - erfüllt sich dieser Wunsch? Von Norbert Hahn. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/f4712cf0-6ad0-4a39-811a-e0cfdf23850c/AAABobq3v8E/AAABnSSvrFg/16x9-big/restaurant-synri-moskau-102.jpg?width=1920",
-      "published": "2026-11-08T11:32:46+01:00",
+      "title": "Berliner Linken-Politikerin Emde lehnt Mandatsverzicht ab",
+      "link": "https://www.tagesschau.de/inland/regional/berlin/berlin-linke-emde-ablehnung-mandatsverzicht-100.html",
+      "summary": "Die Berliner Linken-Abgeordnete Emde hat der Forderung des Parteivorstands, ihr Mandat niederzulegen, eine klare Absage erteilt. Auch von ihrer umstrittenen Haltung zu Israel scheint die Politikerin nicht abzurücken.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/6ecdf46a-cf24-4550-810d-9e72c1a23c14/AAABobtcBrA/AAABnSSvrFg/16x9-big/rbb-630259816-100.jpg?width=1920",
+      "published": "2026-11-08T14:31:29+01:00",
       "category": "Politik",
-      "score": 78.77
+      "score": 83.52,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Berlin - Linken-Abgeordnete Emde weist Rückzugsforderung des Landesvorstands zurück",
+            "link": "https://www.deutschlandfunk.de/linken-abgeordnete-emde-weist-rueckzugsforderung-des-landesvorstands-zurueck-100.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "Linke in Berlin: Vanessa Emde will ihr Mandat »selbstverständlich« weiter ausüben",
+            "link": "https://www.spiegel.de/politik/deutschland/linke-in-berlin-vanessa-emde-will-ihr-mandat-selbstverstaendlich-weiter-ausueben-a-9bb6975c-39a9-468b-a250-32db18215b24#ref=rss"
+          }
+        ]
+      }
     },
     {
       "id": "spiegel-f957173c5d74a7ce",
@@ -142,7 +162,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/dd17189a-707c-4b57-af32-bf59855d3d25_w1200_r1.778_fpx28.09_fpy49.93.png",
       "published": "2026-11-08T09:09:00+01:00",
       "category": "Politik",
-      "score": 75.78,
+      "score": 73.36,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -155,16 +175,16 @@
       }
     },
     {
-      "id": "handelsblatt-9f29cadb18ea93e8",
+      "id": "handelsblatt-2d4349b83b7ccd83",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Dana White: Trump will Kampfsport-Manager als Sprecher des Weißen Hauses",
-      "link": "https://www.handelsblatt.com/politik/international/dana-white-trump-will-kampfsport-manager-als-sprecher-des-weissen-hauses/100268144.html",
-      "summary": "Der US-Präsident sieht in UFC-Präsident Dana White einen „gewalttätigen Kämpfer“. White soll nun Sprecher des Weißen Hauses werden. Den Demokraten wirft Trump vor, Drohbriefe zu schreiben.",
-      "image": "https://images.handelsblatt.com/LVay35zKvJdl/cover/900/506/0/0/104/104/0.5/0.5/josh-hokit-mixed-martial-artist-left-and-derrick-lewis-mixed-martial-artist-are-separated-by-da.jpg",
-      "published": "2026-11-08T07:52:00+00:00",
+      "title": "US-Präsident: Kampfsport-Unternehmer als Sprecher im Weißen Haus?",
+      "link": "https://www.handelsblatt.com/politik/international/us-praesident-kampfsport-unternehmer-als-sprecher-im-weissen-haus/100268137.html",
+      "summary": "Der Sprecherposten im Weißen Haus ist seit Wochen unbesetzt. Nach der Schlappe bei der Parlamentswahl prescht Präsident Donald Trump mit einem ungewöhnlichen Kandidaten vor. Meint er es ernst?",
+      "image": "https://images.handelsblatt.com/dLjzbp2XXryM/cover/900/506/0/0/107/106/0.5/0.5/us-praesident-trump.jpg",
+      "published": "2026-11-07T22:49:17+00:00",
       "category": "Politik",
-      "score": 74.54,
+      "score": 72.58,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -177,16 +197,31 @@
       }
     },
     {
-      "id": "handelsblatt-2ffbb561cc3d021c",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Weltklimakonferenz COP31: Klimagipfel in der Türkei – Worum es geht und woran es hakt",
-      "link": "https://www.handelsblatt.com/politik/international/weltklimakonferenz-cop31-klimagipfel-in-der-tuerkei-worum-es-geht-und-woran-es-hakt/100268163.html",
-      "summary": "Die Klimakrise spitzt sich zu – doch die Welt ist durch Kriege und Konflikte abgelenkt. Bei der Weltklimakonferenz in Antalya wird sich zeigen, ob die Staaten doch noch in den Notfallmodus schalten.",
-      "image": "https://images.handelsblatt.com/d-912FDyk31z/cover/900/506/0/0/107/107/0.5/0.5/spaetsommer-am-bodensee-trockenheit.jpg",
-      "published": "2026-11-08T04:00:08+00:00",
-      "category": "Wirtschaft",
-      "score": 71.32
+      "id": "deutschlandfunk-a1770e2724dabca4",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Polen - Staatstrauer nach Anschlag mit Toten und Verletzten",
+      "link": "https://www.deutschlandfunk.de/staatstrauer-nach-anschlag-mit-toten-und-verletzten-100.html",
+      "summary": "In ​Polen hat nach dem Anschlag in Krakau mit sechs Toten eine zweitägige Staatstrauer begonnen. In der Stadt blieben der Marktplatz und die umliegenden Straßen ⁠weitgehend gesperrt.",
+      "image": "https://bilder.deutschlandfunk.de/2d/4b/f5/c1/2d4bf5c1-0324-4a55-a802-688ced26253c/krakau-halbmast-100-1920x1920.jpg",
+      "published": "2026-11-08T14:17:53+01:00",
+      "category": "Nachrichten",
+      "score": 71.33,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Gewaltverbrechen: Sechs Tote und mehr als fünfzehn Verletzte nach Schüssen in Krakau",
+            "link": "https://www.handelsblatt.com/politik/international/krakau-sechs-tote-und-mehr-als-fuenfzehn-verletzte-nach-schuessen/100268120.html"
+          },
+          {
+            "source": "deutsche-welle",
+            "title": "Polen: Schütze feuert in Krakau aus Auto - mehrere Tote",
+            "link": "https://www.dw.com/de/polen-schütze-feuert-in-krakau-aus-auto-mehrere-tote/a-79887202?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
     },
     {
       "id": "deutschlandfunk-6445ee06603289f9",
@@ -196,16 +231,16 @@
       "link": "https://www.deutschlandfunk.de/drei-maenner-wegen-des-vorwurfs-der-beteiligung-an-regierungskritischen-protesten-hingerichtet-102.html",
       "summary": "Im Iran sind drei Männer hingerichtet worden, die wegen des Vorwurfs der Beteiligung an regierungskritischen Protesten im Januar verurteilt worden waren.",
       "image": "https://bilder.deutschlandfunk.de/5c/e7/b5/71/5ce7b571-e8b9-425b-acd6-92530ab25f1f/nachrichtenpodcast-102-1920x1920.jpg",
-      "published": "2026-11-08T11:28:59+01:00",
+      "published": "2026-11-08T14:17:53+01:00",
       "category": "Politik",
-      "score": 69.72,
+      "score": 69.65,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "spiegel",
-            "title": "Iran: Drei Männer nach Protesten im Januar hingerichtet",
-            "link": "https://www.spiegel.de/ausland/iran-drei-maenner-nach-protesten-im-januar-hingerichtet-a-db61c20b-b16b-4fca-8851-83b4100e45ba#ref=rss"
+            "title": "Iran: Regime richtet drei Männer hin",
+            "link": "https://www.spiegel.de/ausland/iran-regime-richtet-drei-maenner-hin-a-db61c20b-b16b-4fca-8851-83b4100e45ba#ref=rss"
           }
         ]
       }
@@ -218,9 +253,9 @@
       "link": "https://www.deutschlandfunk.de/frankreich-erneut-ausschreitungen-und-gewalt-bei-protesten-102.html",
       "summary": "In mehreren französischen Städten ist es bei erneuten Protesten zu Gewalt gekommen. Dem Innenministerium zufolge waren die Versammlungen in großen Städten wie Toulouse, Marseille, Lyon, Bordeaux oder Straßburg von Ausschreitungen und Zwischenfällen geprägt.",
       "image": "https://bilder.deutschlandfunk.de/0f/7e/1c/38/0f7e1c38-b59a-4ebf-b370-6ba42543faf2/frankreich-paris-proteste-gewalt-100-1920x1920.jpg",
-      "published": "2026-11-08T11:28:59+01:00",
+      "published": "2026-11-08T14:17:53+01:00",
       "category": "Politik",
-      "score": 69.72,
+      "score": 69.65,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -233,84 +268,64 @@
       }
     },
     {
-      "id": "handelsblatt-e416b1edf43ce9dc",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ US-Midterms +++: Trump will Ermittlungen gegen Demokraten – „bedrohen viele Menschen“",
-      "link": "https://www.handelsblatt.com/politik/international/nach-us-midterms-trump-will-ermittlungen-gegen-demokraten-bedrohen-viele-menschen/29669594.html",
-      "summary": "US-Justizministerium will Klage zu Kaliforniens Wahl zurückziehen +++ Houston schränkt Zusammenarbeit mit US-Einwanderungsbehörde ein +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/6W1tOskTkqiC/cover/900/506/0/0/0/624/0.5/0.5/donald-trump.jpg",
-      "published": "2026-11-08T01:14:00+00:00",
-      "category": "Politik",
-      "score": 69.01
-    },
-    {
-      "id": "handelsblatt-a1c00bb5817533e9",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Längste Auslandsreise: „Papst der beiden Amerikas“ zurück im Süden",
-      "link": "https://www.handelsblatt.com/politik/international/laengste-auslandsreise-papst-der-beiden-amerikas-zurueck-im-sueden/100268187.html",
-      "summary": "Leo XIV. ist zwölf Tage auf dem Kontinent unterwegs, wo er so viele Jahre verbrachte - eine Strapaze. Den langen Flug überstand er nach seiner Krebs-OP gut. Jetzt will er über andere Dinge reden.",
-      "image": "https://images.handelsblatt.com/FVaw8vmCar2i/cover/900/506/0/0/107/107/0.5/0.5/papst-leo-xiv-auf-suedamerika-reise.jpg",
-      "published": "2026-11-08T08:52:04+00:00",
-      "category": "Wirtschaft",
-      "score": 67.37,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutsche-welle",
-            "title": "Reise mit Strapazen: Papst Leo XIV. ist in Südamerika zurück",
-            "link": "https://www.dw.com/de/reise-mit-strapazen-papst-leo-xiv-ist-in-südamerika-zurück/a-79885738?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-3fc43ee710f6ac1d",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Donald Trump weist Justizministerium an, unliebsame Demokraten zu untersuchen",
-      "link": "https://www.spiegel.de/ausland/donald-trump-weist-justizministerium-an-unliebsame-demokraten-zu-untersuchen-a-c5f98176-36ff-41ad-88a9-511276a4b746#ref=rss",
-      "summary": "Nach dem Wahlsieg bei den Midterms wollen demokratische Abgeordnete den US-Präsidenten stärker kontrollieren. Der hält das für »kriminell« – und droht.",
-      "image": "https://cdn.prod.www.spiegel.de/images/7aa3d16f-5931-4bc4-921c-e043b44e3dfb_w1200_r1.778_fpx25_fpy47.jpg",
-      "published": "2026-11-07T22:41:00+01:00",
-      "category": "Politik",
-      "score": 67.05
-    },
-    {
-      "id": "deutschlandfunk-a60dd4cdb41630ba",
+      "id": "deutschlandfunk-cdd894e8ba558bc5",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Polen - Polizei bestätigt: Familie des Todesschützen von Krakau ist tot",
-      "link": "https://www.deutschlandfunk.de/polizei-bestaetigt-familie-des-todesschuetzen-von-krakau-ist-tot-100.html",
-      "summary": "Die polnische Polizei hat bestätigt, dass es sich bei den drei Leichen im Haus des Todesschützen von Krakau um dessen Familienangehörige handelt. Ein Radiosender meldet unter Berufung auf einen Sprecher der Polizeizentrale in Warschau, die Toten seien die Eltern und die Schwester des Mannes.",
-      "image": "https://bilder.deutschlandfunk.de/02/4b/e6/7e/024be67e-44eb-4715-b14f-8af88d11caa2/krakau-schuesse-102-1920x1920.jpg",
-      "published": "2026-11-08T11:28:59+01:00",
-      "category": "Panorama",
-      "score": 66.72,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Krakau: Drei weitere Leichen bei Todesschütze zu Hause gefunden",
-            "link": "https://www.spiegel.de/ausland/krakau-drei-weitere-leichen-bei-todesschuetze-zu-hause-gefunden-a-34ab0630-bb52-4f80-967f-800cd473d6f1#ref=rss"
-          }
-        ]
-      }
+      "title": "Interview - Französischer Außenminister Barrot: Europa soll durch französische Vertreter bei Ukraine-Gesprächen repräsentiert werden",
+      "link": "https://www.deutschlandfunk.de/franzoesischer-aussenminister-barrot-europa-soll-durch-franzoesische-vertreter-bei-ukraine-gespraech-102.html",
+      "summary": "An den Verhandlungen zwischen Russland und der Ukraine unter US-amerikanischer Vermittlung sollen auch Vertreter Europas teilnehmen.",
+      "image": "https://bilder.deutschlandfunk.de/6c/6f/a2/f0/6c6fa2f0-31a2-4e29-815d-d5958c79dbc2/frankreich-aussenminister-noel-barrot-russland-wahlkampf-einmischung-100-1920x1920.jpg",
+      "published": "2026-11-08T14:17:53+01:00",
+      "category": "Politik",
+      "score": 69.65
     },
     {
-      "id": "spiegel-39a038dad7306947",
+      "id": "handelsblatt-2ffbb561cc3d021c",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Weltklimakonferenz COP31: Klimagipfel in der Türkei – Worum es geht und woran es hakt",
+      "link": "https://www.handelsblatt.com/politik/international/weltklimakonferenz-cop31-klimagipfel-in-der-tuerkei-worum-es-geht-und-woran-es-hakt/100268163.html",
+      "summary": "Die Klimakrise spitzt sich zu – doch die Welt ist durch Kriege und Konflikte abgelenkt. Bei der Weltklimakonferenz in Antalya wird sich zeigen, ob die Staaten doch noch in den Notfallmodus schalten.",
+      "image": "https://images.handelsblatt.com/d-912FDyk31z/cover/900/506/0/0/107/107/0.5/0.5/spaetsommer-am-bodensee-trockenheit.jpg",
+      "published": "2026-11-08T04:00:08+00:00",
+      "category": "Wirtschaft",
+      "score": 68.9
+    },
+    {
+      "id": "handelsblatt-c9da7d79ac27acf8",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Klimawandel: Forscher beerdigen letzten Gletscher in den Allgäuer Alpen",
+      "link": "https://www.handelsblatt.com/technik/forschung-innovation/klimawandel-forscher-beerdigen-letzten-gletscher-in-den-allgaeuer-alpen/100268215.html",
+      "summary": "Der Schwarzmilzferner auf Tiroler Boden hat diesen Sommer so viel Masse verloren, dass ihn Experten nicht mehr als Gletscher bezeichnen. Die Prognosen für andere Gletscher sind ebenfalls düster.",
+      "image": "https://images.handelsblatt.com/xxmBAygkq0ZS/cover/900/506/0/0/107/107/0.5/0.5/schwarzmilzferner-in-den-alpen.jpg",
+      "published": "2026-11-08T12:56:54+00:00",
+      "category": "Wirtschaft",
+      "score": 68.36
+    },
+    {
+      "id": "spiegel-acf88b5019edf04b",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Krakau, Polen: Was über die Todesschüsse bekannt ist",
-      "link": "https://www.spiegel.de/ausland/krakau-polen-was-ueber-die-todesschuesse-bekannt-ist-a-6e500316-9e7e-4af2-988a-b86fa65a7801#ref=rss",
+      "title": "Cartoons der Woche von Thomas Plaßmann, Klaus Stuttmann, Helena Baumeister",
+      "link": "https://www.spiegel.de/kultur/literatur/cartoons-der-woche-von-thomas-plassmann-klaus-stuttmann-helena-baumeister-a-22666c81-1158-40f2-b7de-c3cf9b04aa80#ref=rss",
+      "summary": "Die SPD streitet über ihre Richtung, Trump wird zur »lame duck« und Deutschland verpasst beim Thema künstliche Intelligenz den Anschluss. Hier finden Sie gesammelt die Cartoons der Woche.",
+      "image": "https://cdn.prod.www.spiegel.de/images/4a84feca-e60c-4ebf-b7f0-3388feb15d70_w1200_r1.778_fpx40.37_fpy55.jpg",
+      "published": "2026-11-08T12:27:00+01:00",
+      "category": "Politik",
+      "score": 68.11
+    },
+    {
+      "id": "spiegel-adff788d32804ace",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Krakau: Was über die Todesschüsse in Polen bekannt ist",
+      "link": "https://www.spiegel.de/ausland/krakau-was-ueber-die-todesschuesse-in-polen-bekannt-ist-a-6e500316-9e7e-4af2-988a-b86fa65a7801#ref=rss",
       "summary": "Ein 24-jähriger Pole hat in Krakau wahllos auf Passanten geschossen und sechs Menschen getötet. Unter den 15 Verletzten ist eine Person aus Deutschland. Auch die Familie des Schützen ist tot. Der Überblick.",
       "image": "https://cdn.prod.www.spiegel.de/images/454d2ef7-49bf-4261-8664-b62d7960d04d_w1200_r1.778_fpx64_fpy22.jpg",
       "published": "2026-11-08T06:02:00+01:00",
       "category": "Politik",
-      "score": 65.18
+      "score": 62.76
     }
   ]
 }
