@@ -1,18 +1,64 @@
 {
-  "generatedAt": "2026-11-08T18:54:16.262812+00:00",
-  "count": 199,
+  "generatedAt": "2026-11-08T20:55:02.301539+00:00",
+  "count": 203,
   "articles": [
     {
-      "id": "tagesschau-b8e7b5756dd36bcd",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Parteitag: FDP bündelt Kräfte für Landtagswahlen kommendes Jahr",
-      "link": "https://www.tagesschau.de/inland/fdp-bundesparteitag-122.html",
-      "summary": "Die FDP kämpft ums Überleben. Ihre letzte Chance dürften die Landtagswahlen kommendes Jahr sein. Parteichef Kubicki versucht während des digitalen Parteitags, die Liberalen als Gegengewicht zur Regierung zu etablieren. Von Lissy Kaufmann. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/89d8e7b4-83b5-47f6-b1b6-93504ec8c705/AAABobxqbLc/AAABnSSvrFg/16x9-big/kubicki-182.jpg?width=1920",
-      "published": "2026-11-08T19:53:14+01:00",
+      "id": "spiegel-2b9414794852e268",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Nvidia-Chef Jensen Huang entschuldigt sich für Affäre mit mutmaßlicher Spionin",
+      "link": "https://www.spiegel.de/ausland/nvidia-chef-jensen-huang-entschuldigt-sich-fuer-affaere-mit-mutmasslicher-spionin-a-66db6061-9340-44ba-9c9d-75726df75e3b#ref=rss",
+      "summary": "»Ich war meiner Frau untreu«: Nvidia-Chef Huang hat einen Seitensprung zugegeben, der Konzern leitet eine Untersuchung ein. Seine Geliebte arbeitete offenbar für Chinas Geheimdienst. US-Außenminister Rubio soll vor ihr gewarnt haben.",
+      "image": "https://cdn.prod.www.spiegel.de/images/30764e20-cba6-4fd0-9884-b159796ceb8f_w1200_r1.778_fpx35.9_fpy44.99.jpg",
+      "published": "2026-11-08T21:50:00+01:00",
       "category": "Politik",
-      "score": 70.99
+      "score": 69.93,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "golem",
+            "title": "Jensen Huang: Nvidia-Chef wird Verhältnis mit chinesischer Spionin vorgeworfen",
+            "link": "https://www.golem.de/news/jensen-huang-nvidia-chef-wird-verhaeltnis-mit-chinesischer-spionin-vorgeworfen-2611-214969.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-1c1986281a4ad743",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Steinmeier-Nachfolge - Merz legt sich auf Ilse Aigner als Kandidatin für Bundespräsidentenamt fest",
+      "link": "https://www.deutschlandfunk.de/merz-legt-sich-auf-ilse-aigner-als-kandidatin-fuer-bundespraesidentenamt-fest-100.html",
+      "summary": "Bundeskanzler Merz will die bayerische Landtagspräsidentin Ilse Aigner für das Amt der Bundespräsidentin nominieren. Eine CDU-Sprecherin teilte mit, Merz habe am Abend im Parteipräsidium angekündigt, dass er Aigner morgen für die Nachfolge von Bundespräsident Steinmeier vorschlagen werde.",
+      "image": "https://bilder.deutschlandfunk.de/a9/2a/2a/f0/a92a2af0-60a3-4ab1-bfce-4b0e8599e8bd/merz-aigner-100-1920x1920.jpg",
+      "published": "2026-11-08T21:40:22+01:00",
+      "category": "Nachrichten",
+      "score": 78.37
+    },
+    {
+      "id": "deutschlandfunk-e6894595eeecef08",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Als Bundespräsidentin vorgeschlagen - Wer ist Ilse Aigner?",
+      "link": "https://www.deutschlandfunk.de/wer-ist-ilse-aigner-100.html",
+      "summary": "Ilse Aigner war Gemeinderätin in Oberbayern, saß im Landtag sowie im Bundestag und führte als Landtagspräsidentin die Geschäfte des bayerischen Parlaments. Jetzt könnte sie als erste Bundespräsidentin ins Schloss Bellevue einziehen.",
+      "image": "https://bilder.deutschlandfunk.de/a5/9b/2e/59/a59b2e59-5398-40d9-9e74-1fd411a435a6/ilse-aigner-csu-bundespraesidentin-100-1920x1920.jpg",
+      "published": "2026-11-08T21:40:22+01:00",
+      "category": "Politik",
+      "score": 78.37
+    },
+    {
+      "id": "deutschlandfunk-0a6e2ac978aec72f",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Bundespräsidentschaft - Kritik von AfD und Linken an Entscheidung für Aigner",
+      "link": "https://www.deutschlandfunk.de/kritik-von-afd-und-linken-an-entscheidung-fuer-aigner-100.html",
+      "summary": "Die AfD und die Linkspartei haben die geplante Nominierung der CSU-Politikerin Aigner für das Amt der Bundespräsidentin kritisiert.",
+      "image": "https://bilder.deutschlandfunk.de/9c/a9/ca/ec/9ca9caec-a71b-4a10-8eea-ad90d88f8c5f/weidel-afd-berlin-100-1920x1920.jpg",
+      "published": "2026-11-08T21:40:22+01:00",
+      "category": "Nachrichten",
+      "score": 58.8
     },
     {
       "id": "deutschlandfunk-532bcaebc412f808",
@@ -22,33 +68,21 @@
       "link": "https://www.deutschlandfunk.de/oppositionspolitiker-eisenkot-erhaelt-offiziell-auftrag-zur-regierungsbildung-werde-israel-aus-der-k-100.html",
       "summary": "Knapp zwei Wochen nach der Parlamentswahl in Israel hat Präsident Herzog den Oppositionspolitiker Eisenkot offiziell mit der Regierungsbildung beauftragt. Der Vorsitzende der Mitte-Partei Jaschar hat nun 28 Tage Zeit, um eine Koalition zu bilden.",
       "image": "https://bilder.deutschlandfunk.de/43/14/ff/fb/4314fffb-4ff6-4f34-9c74-6ac0689ffc55/israel-eisenkot-herzog-100-1920x1920.jpg",
-      "published": "2026-11-08T19:52:34+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Politik",
-      "score": 89.55
+      "score": 89.37
     },
     {
-      "id": "deutschlandfunk-449e735db7a28d2c",
+      "id": "deutschlandfunk-00d8a3ec2bcac620",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Steinmeier-Nachfolge - CDU-Präsidium berät in Berlin",
-      "link": "https://www.deutschlandfunk.de/cdu-praesidium-beraet-in-berlin-100.html",
-      "summary": "In Berlin berät am Abend das CDU-Präsidium über die Nachfolge von Bundespräsident Steinmeier.",
-      "image": "https://bilder.deutschlandfunk.de/74/af/be/3d/74afbe3d-056c-4fcf-8a34-7d20243222a5/berlin-koalitionsgespraeche-koalitionsverhandlungen-cdu-zentrale-spd-100-1920x1920.jpg",
-      "published": "2026-11-08T19:52:34+01:00",
+      "title": "Fußball-Bundesliga - Siege für Leverkusen, Freiburg und Hoffenheim",
+      "link": "https://www.deutschlandfunk.de/siege-fuer-leverkusen-freiburg-und-hoffenheim-100.html",
+      "summary": "In der Fußball-Bundesliga hat der 1. FC Köln mit 1:2 gegen Bayer Leverkusen verloren. Die Leverkusener gingen durch ein Tor von Aleix García in der 7. Minute früh in Führung, konnten diese aber erst gegen Ende der Partie in der 85. Minute durch den Treffer von Patrik Schick ausbauen.",
+      "image": "https://bilder.deutschlandfunk.de/03/82/71/05/03827105-b4e5-4349-b8e1-29d980080efc/bundesliga-koeln-leverkusen-100-1920x1920.jpg",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Nachrichten",
-      "score": 58.98
-    },
-    {
-      "id": "deutschlandfunk-dde3376c46a076a6",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Kein Verzicht - Parteigremien der Berliner Linken wollen über weitere Schritte zu Umgang mit Politikerin Emde beraten",
-      "link": "https://www.deutschlandfunk.de/parteigremien-der-berliner-linken-wollen-ueber-weitere-schritte-zu-umgang-mit-politikerin-emde-berat-104.html",
-      "summary": "Die Parteispitzen der Berliner Linken erwägen weitere Schritte gegen die Politikerin Emde.",
-      "image": "https://bilder.deutschlandfunk.de/d7/a2/2f/d3/d7a22fd3-5253-46ff-8e64-bb075475afb7/vanessa-emde-die-linke-krankmeldung-abstimmung-umgang-100-1920x1920.jpg",
-      "published": "2026-11-08T19:52:34+01:00",
-      "category": "Nachrichten",
-      "score": 86.98
+      "score": 58.8
     },
     {
       "id": "deutschlandfunk-8fd8880c8d7430e3",
@@ -58,21 +92,33 @@
       "link": "https://www.deutschlandfunk.de/guterres-alle-muessen-mehr-tun-und-zwar-jetzt-100.html",
       "summary": "Vor der morgen beginnenden Weltklimakonferenz im türkischen Antalya hat UNO-Generalsekretär Guterres die internationalen Staats- und Regierungschefs eindringlich zum Handeln aufgerufen. Man könne sich nicht länger in endlosen Diskussionen verlieren, in denen jeder versuche, die Verantwortung auf andere abzuwälzen, sagte er der Nachrichtenagentur AP.",
       "image": "https://bilder.deutschlandfunk.de/c5/5f/42/74/c55f4274-5fca-43f0-84ad-d64b99663601/cop31-klimakonferenz-antalya-100-1920x1920.jpg",
-      "published": "2026-11-08T19:52:34+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Politik",
-      "score": 61.98
+      "score": 61.8
     },
     {
-      "id": "deutschlandfunk-fd2c5ebf51081820",
+      "id": "deutschlandfunk-ca8e0d0219b7963f",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Fußball-Bundesliga - Köln verliert gegen Leverkusen, Freiburg gewinnt gegen Union Berlin",
-      "link": "https://www.deutschlandfunk.de/koeln-verliert-gegen-leverkusen-freiburg-gewinnt-gegen-union-berlin-100.html",
-      "summary": "In der Fußball-Bundesliga hat der 1. FC Köln mit 1:2 gegen Bayer Leverkusen verloren. Die Leverkusener gingen durch ein Tor von Aleix García in der 7. Minute früh in Führung, konnten diese aber erst gegen Ende der Partie in der 85. Minute durch den Treffer von Patrik Schick ausbauen.",
-      "image": "https://bilder.deutschlandfunk.de/03/82/71/05/03827105-b4e5-4349-b8e1-29d980080efc/bundesliga-koeln-leverkusen-100-1920x1920.jpg",
-      "published": "2026-11-08T19:52:34+01:00",
+      "title": "Mittlerer Osten - Trump rechnet aktuell nicht mit neuen Angriffen auf Iran",
+      "link": "https://www.deutschlandfunk.de/trump-rechnet-aktuell-nicht-mit-neuen-angriffen-auf-iran-100.html",
+      "summary": "US-Präsident Trump rechnet derzeit nicht mit neuen Angriffen auf den Iran.",
+      "image": "https://bilder.deutschlandfunk.de/d7/c4/78/16/d7c47816-207e-43fd-921d-b08f9707d643/donald-trump-262-1920x1920.jpg",
+      "published": "2026-11-08T21:40:22+01:00",
+      "category": "Politik",
+      "score": 69.8
+    },
+    {
+      "id": "deutschlandfunk-dde3376c46a076a6",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Kein Verzicht - Parteigremien der Berliner Linken wollen über weitere Schritte zu Umgang mit Politikerin Emde beraten",
+      "link": "https://www.deutschlandfunk.de/parteigremien-der-berliner-linken-wollen-ueber-weitere-schritte-zu-umgang-mit-politikerin-emde-berat-104.html",
+      "summary": "Die Parteispitzen der Berliner Linken erwägen weitere Schritte gegen die Politikerin Emde.",
+      "image": "https://bilder.deutschlandfunk.de/d7/a2/2f/d3/d7a22fd3-5253-46ff-8e64-bb075475afb7/vanessa-emde-die-linke-krankmeldung-abstimmung-umgang-100-1920x1920.jpg",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Nachrichten",
-      "score": 58.98
+      "score": 86.8
     },
     {
       "id": "deutschlandfunk-6504ff1843ee3b58",
@@ -82,9 +128,9 @@
       "link": "https://www.deutschlandfunk.de/frankreichs-aussenminister-barrot-europa-soll-durch-franzoesische-vertreter-bei-anstehenden-ukraine--100.html",
       "summary": "An den Verhandlungen zwischen Russland und der Ukraine unter US-amerikanischer Vermittlung sollen auch Vertreter Europas teilnehmen. Das sagte Frankreichs Außenminister Barrot in einem Interview mit dem Sender RTL.",
       "image": "https://bilder.deutschlandfunk.de/6c/6f/a2/f0/6c6fa2f0-31a2-4e29-815d-d5958c79dbc2/frankreich-aussenminister-noel-barrot-russland-wahlkampf-einmischung-100-1920x1920.jpg",
-      "published": "2026-11-08T19:52:34+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Politik",
-      "score": 83.66
+      "score": 83.48
     },
     {
       "id": "deutschlandfunk-3d4ca94eadb3ffe2",
@@ -94,9 +140,9 @@
       "link": "https://www.deutschlandfunk.de/mehr-als-200-000-menschen-protestieren-in-amsterdam-gegen-israels-vorgehen-im-gazastreifen-100.html",
       "summary": "In Amsterdam hat es Proteste gegen Israels Vorgehen im Gazastreifen gegeben.",
       "image": "https://bilder.deutschlandfunk.de/e6/d0/45/f3/e6d045f3-331b-4dea-aff0-7c2d5f669c31/amsterdam-red-line-demo-100-1920x1920.jpg",
-      "published": "2026-11-08T19:52:34+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Politik",
-      "score": 77.98
+      "score": 77.8
     },
     {
       "id": "deutschlandfunk-571a23b9747b423f",
@@ -106,9 +152,9 @@
       "link": "https://www.deutschlandfunk.de/von-russland-kontrolliertes-atomkraftwerk-saporischschja-wird-mit-notstromaggregaten-gekuehlt-102.html",
       "summary": "Das von Russland kontrollierte ukrainische Atomkraftwerk Saporischschja wird mit Notstromaggregaten gekühlt.",
       "image": "https://bilder.deutschlandfunk.de/7d/03/87/28/7d038728-84ad-4ca1-b712-76aaafe04246/akw-ukraine-104-1920x1920.jpg",
-      "published": "2026-11-08T19:52:34+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Politik",
-      "score": 86.98
+      "score": 86.8
     },
     {
       "id": "deutschlandfunk-a1770e2724dabca4",
@@ -118,19 +164,9 @@
       "link": "https://www.deutschlandfunk.de/staatstrauer-nach-anschlag-mit-toten-und-verletzten-100.html",
       "summary": "In ​Polen hat nach dem Anschlag in Krakau mit sechs Toten eine zweitägige Staatstrauer begonnen. In der Stadt blieben der Marktplatz und die umliegenden Straßen ⁠weitgehend gesperrt.",
       "image": "https://bilder.deutschlandfunk.de/2d/4b/f5/c1/2d4bf5c1-0324-4a55-a802-688ced26253c/krakau-halbmast-100-1920x1920.jpg",
-      "published": "2026-11-08T19:52:34+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Nachrichten",
-      "score": 66.98,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutsche-welle",
-            "title": "Polen: Schütze feuert in Krakau aus Auto - mehrere Tote",
-            "link": "https://www.dw.com/de/polen-schütze-feuert-in-krakau-aus-auto-mehrere-tote/a-79887202?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
+      "score": 66.8
     },
     {
       "id": "deutschlandfunk-0ca4ca7a4f9c1abd",
@@ -140,9 +176,9 @@
       "link": "https://www.deutschlandfunk.de/lando-norris-gewinnt-grossen-preis-von-brasilien-102.html",
       "summary": "Formel1-Pilot Lando Norris aus Großbritannien hat den Großen Preis von Brasilien gewonnen.",
       "image": "https://bilder.deutschlandfunk.de/72/55/ba/e7/7255bae7-4ee5-4b92-8c4f-038214f44fb3/norris-102-1920x1920.jpg",
-      "published": "2026-11-08T19:52:34+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Nachrichten",
-      "score": 58.98
+      "score": 58.8
     },
     {
       "id": "deutschlandfunk-f3989785602d5d46",
@@ -152,9 +188,9 @@
       "link": "https://www.deutschlandfunk.de/bislang-kaum-geld-aus-sondervermoegen-in-bildungs-betreuungs-und-wissenschaftsinfrastruktur-geflosse-100.html",
       "summary": "Im laufenden Jahr sind einem Medienbericht zufolge von vorgesehenen 1,2 Milliarden Euro bisher nur gut sieben Millionen Euro des Sondervermögens in die Bildungs-, Betreuungs- und Wissenschaftsinfrastruktur geflossen. Ein Grund dafür sei offenbar der Föderalismus, meldete die \"Rheinische Post\" unter Berufung auf Angaben des Bundesfinanzministeriums.",
       "image": "https://bilder.deutschlandfunk.de/76/0b/d3/f1/760bd3f1-e98e-4ed2-9225-feba03915087/bildung-khan-100-1920x1920.jpg",
-      "published": "2026-11-08T19:52:34+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Politik",
-      "score": 72.66
+      "score": 72.48
     },
     {
       "id": "deutschlandfunk-cf42bd0475fe6015",
@@ -164,9 +200,9 @@
       "link": "https://www.deutschlandfunk.de/staedte-und-kommunen-in-nordrhein-westfahlen-fordern-strengere-regeln-fuer-e-scooter-100.html",
       "summary": "Der Städtetag in Nordrhein-Westfalen will von E-Scooter-Fahrern zukünftig einen Nachweis über ihre Verkehrskenntnisse einfordern.",
       "image": "https://bilder.deutschlandfunk.de/2d/10/50/d4/2d1050d4-7bbb-44d1-9484-7f64916fe4d5/e-scooter-112-1920x1920.jpg",
-      "published": "2026-11-08T19:52:34+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Nachrichten",
-      "score": 58.98
+      "score": 58.8
     },
     {
       "id": "deutschlandfunk-2c4588a3478e837a",
@@ -176,9 +212,9 @@
       "link": "https://www.deutschlandfunk.de/sieben-tote-und-112-verletzte-bei-zugunglueck-in-aegypten-100.html",
       "summary": "Bei einem Zugunglück in Ägypten sind mindestens sieben Menschen ums Leben gekommen.",
       "image": "https://bilder.deutschlandfunk.de/4e/0f/96/ee/4e0f96ee-08e7-4425-adad-34d7d54e8b00/kairo-gizeh-pyramiden-aegypten-100-1920x1920.jpg",
-      "published": "2026-11-08T19:52:34+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Nachrichten",
-      "score": 58.98
+      "score": 58.8
     },
     {
       "id": "deutschlandfunk-e9c4b2c0414d31a8",
@@ -188,9 +224,9 @@
       "link": "https://www.deutschlandfunk.de/mindestens-21-menschen-bei-bootsunglueck-vor-senegalesischer-kueste-ums-leben-gekommen-100.html",
       "summary": "Bei einem Bootsunglück vor der Küste des Senegal sind mindestens 21 Menschen ums Leben gekommen.",
       "image": "https://bilder.deutschlandfunk.de/b1/80/9f/86/b1809f86-762d-4333-b4d4-df78d9ebc38b/flucht-mittelmeer-boot-leer-100-1920x1920.jpg",
-      "published": "2026-11-08T19:52:34+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Nachrichten",
-      "score": 58.98
+      "score": 58.8
     },
     {
       "id": "deutschlandfunk-40a515e4a01a40dd",
@@ -200,9 +236,9 @@
       "link": "https://www.deutschlandfunk.de/grossbauprojekte-brennerbasistunnel-und-fehmarnbelttunnel-von-cyberattacken-betroffen-102.html",
       "summary": "Unbekannte haben bei einem Cyberangriff auf Daten der Projektgesellschaft zugegriffen, die für den Bau des Brennerbasistunnels verantwortlich ist.",
       "image": "https://bilder.deutschlandfunk.de/40/ec/03/71/40ec0371-d9ca-43e2-a01b-b1d1b53b6823/brenner-basistunnel-tirol-100-1920x1920.jpg",
-      "published": "2026-11-08T19:52:34+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Technologie",
-      "score": 58.98
+      "score": 58.8
     },
     {
       "id": "deutschlandfunk-6aa8132aec49b4b9",
@@ -212,9 +248,9 @@
       "link": "https://www.deutschlandfunk.de/historische-wahlschlappe-fuer-anc-bei-kommunalwahlen-102.html",
       "summary": "Bei Kommunalwahlen in Südafrika hat die einstige Partei des Anti-Apartheid-Kämpfers Nelson Mandela eine historische Niederlage erlitten.",
       "image": "https://bilder.deutschlandfunk.de/04/35/75/e9/043575e9-43cc-427a-b5d6-c2817ce555e2/suedafrika-wahl-100-1920x1920.jpg",
-      "published": "2026-11-08T19:52:34+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Politik",
-      "score": 77.98,
+      "score": 77.8,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -234,9 +270,9 @@
       "link": "https://www.deutschlandfunk.de/fdp-vorsitzender-kubicki-stellt-wirtschaftswachstum-ins-zentrum-der-parteipolitik-100.html",
       "summary": "Beim digitalen Bundesparteitag der FDP hat der Vorsitzende Kubicki eine Politik für mehr Wirtschaftswachstum in den Fokus gerückt.",
       "image": "https://bilder.deutschlandfunk.de/49/5c/a3/a9/495ca3a9-9b59-4561-83e3-56cb0d4fcf39/wolfgang-kubicki-104-1920x1920.jpg",
-      "published": "2026-11-08T19:52:34+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Wirtschaft",
-      "score": 61.98
+      "score": 61.8
     },
     {
       "id": "deutschlandfunk-a8f7c14bb34435fa",
@@ -246,9 +282,9 @@
       "link": "https://www.deutschlandfunk.de/erneut-russischer-angriff-auf-ukrainische-energieversorgung-600-000-menschen-ohne-strom-100.html",
       "summary": "Nach einem erneuten russischen ⁠Angriff auf die Energieversorgung in der Ukraine ⁠sind ⁠laut den Behörden ⁠mehr als ⁠600.000 ‌Menschen im Osten des Landes ohne ​Strom.",
       "image": "https://bilder.deutschlandfunk.de/5b/c7/ec/81/5bc7ec81-db6e-4148-9645-7832ae6bd463/ukraine-russische-angriffe-100-1920x1920.jpg",
-      "published": "2026-11-08T19:52:34+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Politik",
-      "score": 86.98
+      "score": 86.8
     },
     {
       "id": "deutschlandfunk-ebdbb11e38f89c25",
@@ -258,9 +294,9 @@
       "link": "https://www.deutschlandfunk.de/gebaeude-des-saudischen-oelkonzerns-aramco-bei-huthi-angriff-beschaedigt-102.html",
       "summary": "Bei einem Raketenangriff der jemenitischen Huthi-Miliz auf die saudi-arabische Hauptstadt Riad ist ein Hochhaus des staatlichen Ölkonzerns Aramco beschädigt worden.",
       "image": "https://bilder.deutschlandfunk.de/44/12/6c/4c/44126c4c-f8a5-481f-a7dd-493718dd4002/saudi-arabien-110-1920x1920.jpg",
-      "published": "2026-11-08T19:52:34+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Nachrichten",
-      "score": 58.98
+      "score": 58.8
     },
     {
       "id": "deutschlandfunk-6445ee06603289f9",
@@ -270,33 +306,9 @@
       "link": "https://www.deutschlandfunk.de/drei-maenner-wegen-des-vorwurfs-der-beteiligung-an-regierungskritischen-protesten-hingerichtet-102.html",
       "summary": "Im Iran sind drei Männer hingerichtet worden, die wegen des Vorwurfs der Beteiligung an regierungskritischen Protesten im Januar verurteilt worden waren.",
       "image": "https://bilder.deutschlandfunk.de/5c/e7/b5/71/5ce7b571-e8b9-425b-acd6-92530ab25f1f/nachrichtenpodcast-102-1920x1920.jpg",
-      "published": "2026-11-08T19:52:34+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Politik",
-      "score": 61.98
-    },
-    {
-      "id": "spiegel-9b043c43ff2f55a6",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Gazastreifen: Zelte versinken im Wasser – Vertriebene ohne Schutz",
-      "link": "https://www.spiegel.de/ausland/gazastreifen-zelte-versinken-im-wasser-vertriebene-ohne-schutz-a-ba82bba1-4889-4798-b986-f87037618676#ref=rss",
-      "summary": "Winterstürme bringen erneut schwere Regenfälle in den Gazastreifen. Zehntausende Zelte werden überflutet und sind unbewohnbar. Die humanitäre Lage der rund zwei Millionen Palästinenser verschärft sich zusehends.",
-      "image": "https://cdn.prod.www.spiegel.de/images/b836cfb6-c542-4e1c-8d47-3b3d7e5d2f54_w1200_r1.778_fpx59_fpy54.jpg",
-      "published": "2026-11-08T19:52:00+01:00",
-      "category": "Politik",
-      "score": 77.97
-    },
-    {
-      "id": "spiegel-07d870bfd78906aa",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Warum Pilze für das Leben auf der Erde unverzichtbar sind",
-      "link": "https://www.spiegel.de/deinspiegel/warum-pilze-fuer-das-leben-auf-der-erde-unverzichtbar-sind-a-1b36f12a-545c-4dc7-9f91-574b144b161f#ref=rss",
-      "summary": "Pilze sind für das Leben auf unserer Erde unverzichtbar. Wie sie miteinander »sprechen«, welche Bedeutung sie etwa für die Medizin haben und was für irre Exemplare es gibt, erklärt DEIN SPIEGEL.",
-      "image": "https://cdn.prod.www.spiegel.de/images/c5013afd-96ed-42d9-a014-d3a79aefe36a_w1200_r1.778_fpx66.67_fpy50.jpg",
-      "published": "2026-11-08T19:47:00+01:00",
-      "category": "Wissenschaft",
-      "score": 58.9
+      "score": 61.8
     },
     {
       "id": "deutschlandfunk-c5a46b7cb436cbd1",
@@ -306,16 +318,16 @@
       "link": "https://www.deutschlandfunk.de/gedenktafel-in-moskau-erinnert-jetzt-an-ddr-spionagechef-markus-wolf-102.html",
       "summary": "In Moskau ist eine Gedenktafel in Erinnerung an den früheren Chef der DDR-Auslandsspionage, Markus Wolf, enthüllt worden.",
       "image": "https://bilder.deutschlandfunk.de/FI/LE/_0/27/FILE_027d97a31adc976a9a48d8899b2616eb/imago70587919h-jpg-100-768x768.jpg",
-      "published": "2026-11-08T19:35:52+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Nachrichten",
-      "score": 71.42,
+      "score": 71.48,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
             "source": "spiegel",
-            "title": "Markus Wolf: Russlands Geheimdienst würdigt Ex-DDR-Spionagechef",
-            "link": "https://www.spiegel.de/politik/deutschland/markus-wolf-russlands-geheimdienst-wuerdigt-ex-ddr-spionagechef-a-5ae37e2b-1af3-427e-9e3f-d9a73dcfa84f#ref=rss"
+            "title": "Markus Wolf: Russland ehrt Ex-DDR-Spionagechef mit Gedenktafel in Moskau",
+            "link": "https://www.spiegel.de/politik/deutschland/markus-wolf-russland-ehrt-ex-ddr-spionagechef-mit-gedenktafel-in-moskau-a-5ae37e2b-1af3-427e-9e3f-d9a73dcfa84f#ref=rss"
           },
           {
             "source": "deutsche-welle",
@@ -333,9 +345,9 @@
       "link": "https://www.deutschlandfunk.de/so-viele-frauen-in-dax-vorstaenden-wie-nie-gehaelter-gleichen-sich-weiter-an-102.html",
       "summary": "Im vergangenen Jahr waren so viele Frauen in den Vorständen der größten deutschen börsennotierten Unternehmen vertreten wie nie zuvor. 101 weibliche Vorstandsmitglieder waren 2025 das gesamte Geschäftsjahr in Unternehmen des Dax, MDax und SDax im Amt.",
       "image": "https://bilder.deutschlandfunk.de/71/97/60/f7/719760f7-d59d-491b-a064-38f9829c778f/fraeun-quote-unternehmen-deutschland-100-1920x1920.jpg",
-      "published": "2026-11-08T19:35:52+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Wirtschaft",
-      "score": 61.74
+      "score": 61.8
     },
     {
       "id": "deutschlandfunk-6aa43090461116c6",
@@ -345,9 +357,9 @@
       "link": "https://www.deutschlandfunk.de/frankreich-erneut-ausschreitungen-und-gewalt-bei-protesten-102.html",
       "summary": "In mehreren französischen Städten ist es bei erneuten Protesten zu Gewalt gekommen. Dem Innenministerium zufolge waren die Versammlungen in großen Städten wie Toulouse, Marseille, Lyon, Bordeaux oder Straßburg von Ausschreitungen und Zwischenfällen geprägt.",
       "image": "https://bilder.deutschlandfunk.de/0f/7e/1c/38/0f7e1c38-b59a-4ebf-b370-6ba42543faf2/frankreich-paris-proteste-gewalt-100-1920x1920.jpg",
-      "published": "2026-11-08T19:35:52+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Politik",
-      "score": 61.74
+      "score": 61.8
     },
     {
       "id": "deutschlandfunk-4f6026d6d17d59fc",
@@ -357,9 +369,9 @@
       "link": "https://www.deutschlandfunk.de/klingbeil-laesst-erneute-kandidatur-offen-102.html",
       "summary": "Der SPD-Vorsitzende Klingbeil hat offengelassen, ob er im Januar erneut als Parteichef antreten wird.",
       "image": "https://bilder.deutschlandfunk.de/a3/cd/01/aa/a3cd01aa-7832-48f7-92f5-cc93ca8a33c9/murrack-klingbeil-100-1920x1920.jpg",
-      "published": "2026-11-08T19:35:52+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Nachrichten",
-      "score": 58.74
+      "score": 58.8
     },
     {
       "id": "deutschlandfunk-d50715fa3f565e52",
@@ -369,9 +381,9 @@
       "link": "https://www.deutschlandfunk.de/erdbeben-in-japan-berichte-ueber-mindestens-22-verletzte-100.html",
       "summary": "In Zentraljapan hat es ein Erdbeben gegeben.",
       "image": "https://bilder.deutschlandfunk.de/e1/06/7d/e2/e1067de2-6230-41ae-943b-92085b1ff504/die-nachrichten-kachel-2176-zu1224-100-768x768.jpg",
-      "published": "2026-11-08T19:35:52+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Nachrichten",
-      "score": 75.74
+      "score": 75.8
     },
     {
       "id": "deutschlandfunk-9cebb1882ead482d",
@@ -381,9 +393,9 @@
       "link": "https://www.deutschlandfunk.de/inakzeptabel-hessens-wirtschaftsminister-mansoori-spd-kritisiert-europaminister-pentz-cdu-fuer-onlin-100.html",
       "summary": "In Hessen sorgt ein Online-Kommentar von Europaminister Pentz weiter für Kritik.",
       "image": "https://bilder.deutschlandfunk.de/66/fd/69/17/66fd6917-5d5c-49df-bd8b-36ebea9a277a/mansoori-hessen-wirtschaftsminister-spd-100-1920x1920.jpg",
-      "published": "2026-11-08T19:35:52+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Politik",
-      "score": 61.74
+      "score": 61.8
     },
     {
       "id": "deutschlandfunk-ffe7becd778f785b",
@@ -393,9 +405,9 @@
       "link": "https://www.deutschlandfunk.de/trump-will-kampfsportverbandschef-dana-white-als-pressesprecher-102.html",
       "summary": "US-Präsident Trump hat dem Präsidenten des Kampfsportverbands UFC, White, den Posten des Pressesprechers im Weißen Haus angeboten.",
       "image": "https://bilder.deutschlandfunk.de/88/0e/d3/3d/880ed33d-2c8f-4be0-b7b7-0585e3b10d3d/trump-ufc-dana-white-100-1920x1920.jpg",
-      "published": "2026-11-08T19:35:52+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Politik",
-      "score": 91.42
+      "score": 91.48
     },
     {
       "id": "deutschlandfunk-030ccba19f75d3dc",
@@ -405,9 +417,9 @@
       "link": "https://www.deutschlandfunk.de/papst-leo-xiv-feiert-messe-in-paysand-102.html",
       "summary": "Papst Leo XIV. hat bei der ersten Messe während seiner Südamerika-Reise dazu aufgerufen, Brücken zu bauen.",
       "image": "https://bilder.deutschlandfunk.de/e6/0c/08/8a/e60c088a-821f-46ab-b222-4a167567ab5f/papst-uruguay-100-1920x1920.jpg",
-      "published": "2026-11-08T19:35:52+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Nachrichten",
-      "score": 67.74
+      "score": 72.48
     },
     {
       "id": "deutschlandfunk-67a09fa1d7cf39a7",
@@ -417,9 +429,9 @@
       "link": "https://www.deutschlandfunk.de/huthis-melden-27-tote-und-36-verletzte-nach-luftangriffen-auf-dorf-im-jemen-104.html",
       "summary": "Die Huthi-Miliz wirft der von Saudi-Arabien geführten Militärkoalition vor, im benachbarten Jemen zahlreiche Zivilisten getötet oder verletzt zu haben.",
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_9/9c/NOVA_99ce0542fcefd97ec7ac3d392cb274f9/craft-13474212-asset-100-1920x1920.jpg",
-      "published": "2026-11-08T19:35:52+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Nachrichten",
-      "score": 58.74
+      "score": 58.8
     },
     {
       "id": "deutschlandfunk-f46861024883084a",
@@ -429,9 +441,9 @@
       "link": "https://www.deutschlandfunk.de/us-militaer-beschiesst-handelsschiff-104.html",
       "summary": "Das US-Militär hat im Golf von Oman auf ein Handelsschiff geschossen und es außer Gefecht gesetzt.",
       "image": "https://bilder.deutschlandfunk.de/FI/LE/_d/50/FILE_d50214fa697aaa664daf2b696fde5308/dlf-die-nachrichten-header-2000x1125px2-jpg-102-768x768.jpg",
-      "published": "2026-11-08T19:35:52+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Nachrichten",
-      "score": 67.74
+      "score": 67.8
     },
     {
       "id": "deutschlandfunk-b030e5bb4accb3e8",
@@ -441,9 +453,9 @@
       "link": "https://www.deutschlandfunk.de/ehemaliger-us-general-ben-hodges-erhaelt-point-alpha-preis-104.html",
       "summary": "Der ehemalige Oberkommandierende der US-Landstreitkräfte in Europa, Ben Hodges, hat den Point-Alpha-Preis 2026 erhalten.",
       "image": "https://bilder.deutschlandfunk.de/04/e7/50/cf/04e750cf-9d4f-4394-8911-1cecaf358314/ben-hodges-102-1920x1920.jpg",
-      "published": "2026-11-08T19:35:52+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Nachrichten",
-      "score": 58.74
+      "score": 58.8
     },
     {
       "id": "deutschlandfunk-7ff92baa7b4f558e",
@@ -453,9 +465,9 @@
       "link": "https://www.deutschlandfunk.de/soeder-brauchen-wieder-echte-wehrpflicht-110.html",
       "summary": "Bayerns Ministerpräsident Söder hat die Forderung der Union nach einer Wiedereinführung der Wehrpflicht bekräftigt.",
       "image": "https://bilder.deutschlandfunk.de/bb/1a/ef/d5/bb1aefd5-3553-4260-a2f3-41cf55505db0/wehrdienst-einigung-koalition-100-1920x1920.jpg",
-      "published": "2026-11-08T19:35:52+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Politik",
-      "score": 61.74
+      "score": 61.8
     },
     {
       "id": "deutschlandfunk-f944e5920730cee3",
@@ -465,9 +477,9 @@
       "link": "https://www.deutschlandfunk.de/pistorius-sieht-personalplanung-der-bundeswehr-auf-gutem-weg-erstmal-keine-wehrpflicht-noetig-102.html",
       "summary": "Die Personalplanung der Bundeswehr ist nach den Worten von Verteidigungsminister Pistorius auf einem guten Weg. Zur Zeit ist eine Wiedereinführung der Wehrpflicht demnach nicht nötig. Pistorius sagte im Interview der Woche des Deutschlandfunks, die Vorgabe des Wehrdienstmodernisierungsgesetzes werde überschritten.",
       "image": "https://bilder.deutschlandfunk.de/11/fc/12/a6/11fc12a6-d014-435f-bbfa-cb04448ef273/boris-pistorius-verteidigungsminister-106-1920x1920.jpg",
-      "published": "2026-11-08T19:35:52+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Politik",
-      "score": 61.74
+      "score": 61.8
     },
     {
       "id": "deutschlandfunk-778bd2798b2442a5",
@@ -477,9 +489,9 @@
       "link": "https://www.deutschlandfunk.de/staatsanwaltschaft-in-paraguay-erhebt-anklage-abgesetzter-praesident-pe-a-in-untersuchungshaft-102.html",
       "summary": "In Paraguay hat die Staatsanwaltschaft Anklage gegen den abgesetzten Präsidenten Peña erhoben.",
       "image": "https://bilder.deutschlandfunk.de/b8/ef/5a/a7/b8ef5aa7-27df-49af-b039-14b70977a105/paraguay-santiago-pena-ruecktritt-praesident-100-1920x1920.jpg",
-      "published": "2026-11-08T19:35:52+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Nachrichten",
-      "score": 83.74
+      "score": 80.48
     },
     {
       "id": "deutschlandfunk-fad1a62dc46c3e6f",
@@ -489,9 +501,9 @@
       "link": "https://www.deutschlandfunk.de/eishockey-wm-in-deutschland-mit-russland-weltverband-iihf-spielt-auf-zeit-104.html",
       "summary": "Im Streit um eine Teilnahme Russlands an der Eishockey-Weltmeisterschaft im kommenden Jahr in Deutschland spielt der Weltverband IIHF auf Zeit. Die \"International Ice Hockey Federation\" kündigte in Zürich an, für das weitere Vorgehen - Zitat - \"alle verfügbaren Optionen\" zu prüfen.",
       "image": "https://bilder.deutschlandfunk.de/78/5c/ab/c9/785cabc9-ab8b-4b01-b182-e6e10b1040e9/eishockey-russland-100-1920x1920.jpg",
-      "published": "2026-11-08T19:35:52+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Nachrichten",
-      "score": 58.74
+      "score": 58.8
     },
     {
       "id": "deutschlandfunk-59b80bfb9f8259ad",
@@ -501,9 +513,201 @@
       "link": "https://www.deutschlandfunk.de/am-montag-im-sueden-regen-sonst-teils-sonnig-und-trocken-5-bis-12-grad-104.html",
       "summary": "Das Wetter: In der Nacht entlang der Elbe etwas Regen. Sonst teils aufgelockert bewölkt, später Nebelbildung. Tiefstwerte im Osten bis -3, sonst bis +4 Grad, an der See milder. Morgen im Süden einsetzender Regen. In den übrigen Gebieten nach Nebelauflösung teils sonnige Abschnitte und trocken. Höchstwerte 5 bis 12 Grad.",
       "image": "https://bilder.deutschlandfunk.de/e5/f6/55/84/e5f65584-6dc2-4dce-979d-729a024cd599/wetter-grafik-nachrichten-100-768x768.jpg",
-      "published": "2026-11-08T19:35:52+01:00",
+      "published": "2026-11-08T21:40:22+01:00",
       "category": "Nachrichten",
-      "score": 58.74
+      "score": 58.8
+    },
+    {
+      "id": "tagesschau-36fc62caeab8bf38",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Unionsfraktionschef erteilt Plastiksteuer eine Absage",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/plastiksteuer-absage-100.html",
+      "summary": "Unionsfraktionschef Frei erteilt der geplanten Plastiksteuer eine Absage. Sie sei \"wirtschaftlich und ökologisch falsch\". Anders klingt das bei SPD-Fraktionschef Miersch, der auf laufende Verhandlungen verweist.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/0b4eb7e8-ea70-4f51-ab70-7582d3bc0166/AAABleXrA9I/AAABnSSvrFg/16x9-big/einwegverpackung-102.jpg?width=1920",
+      "published": "2026-11-08T21:38:04+01:00",
+      "category": "Wirtschaft",
+      "score": 62.76
+    },
+    {
+      "id": "spiegel-afd8c20dab4cd1ec",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Österreich: 61-jähriger Deutscher stirbt bei Wingsuit-Unfall",
+      "link": "https://www.spiegel.de/panorama/oesterreich-61-jaehriger-deutscher-stirbt-bei-wingsuit-unfall-a-0fb09787-3103-40ba-a5e3-2af875499a51#ref=rss",
+      "summary": "Er galt als erfahren, doch nach dem Absprung brach der Kontakt ab: Ein deutscher Wingsuit-Flieger ist in Österreich tödlich verunglückt. Er wurde leblos auf einer Wiese aufgefunden.",
+      "image": "https://cdn.prod.www.spiegel.de/images/206f6b82-61e3-43b8-9312-938fed25f139_w1200_r1.778_fpx36_fpy49.jpg",
+      "published": "2026-11-08T21:28:00+01:00",
+      "category": "Panorama",
+      "score": 58.62
+    },
+    {
+      "id": "tagesschau-9c1bb14a11464f51",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Überschwemmungen in Gaza schüren Sorge vor neuer Katastrophe",
+      "link": "https://www.tagesschau.de/ausland/asien/gaza-regenfaelle-humanitaere-lage-100.html",
+      "summary": "Starker Regen hat Teile des Gazastreifens überschwemmt. Laut dem Gesundheitsminister haben eine Million Vertriebene kein Dach mehr über dem Kopf. Hilfsorganisationen befürchten eine humanitäre Katastrophe. Von J.-C. Kitzler. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/44a105b9-9c17-4637-8e97-57afaf52ade8/AAABobykDyM/AAABnSSvrFg/16x9-big/gaza-regen-104.jpg?width=1920",
+      "published": "2026-11-08T21:15:13+01:00",
+      "category": "Politik",
+      "score": 70.45
+    },
+    {
+      "id": "tagesschau-0c422fa28d75cd50",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Kanzler Merz will Aigner als Bundespräsidentin vorschlagen",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/aigner-bundespraesidentin-merz-100.html",
+      "summary": "Bislang hatte sich Kanzler Merz in der Frage zur Bundespräsidenten-Nachfolge zurückgehalten. Jetzt machte er es offiziell: Der CDU-Chef will am Montag Ilse Aigner dafür vorschlagen - als erste Frau in diesem Amt.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/6da58f42-1c07-49a0-b569-a2efe0a6b4c1/AAABobzD-w8/AAABnSSvrFg/16x9-big/aigner-merz-102.jpg?width=1920",
+      "published": "2026-11-08T21:05:22+01:00",
+      "category": "Nachrichten",
+      "score": 78.37
+    },
+    {
+      "id": "spiegel-f1ebd375b081d402",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Formel 1: Lando Norris siegt in São Paulo, Mercedes jubelt über Team-WM",
+      "link": "https://www.spiegel.de/sport/formel1/formel-1-lando-norris-siegt-in-sao-paulo-mercedes-jubelt-ueber-team-wm-a-8515aa9f-3837-4ac7-b019-b121968f9cb7#ref=rss",
+      "summary": "Eine durcheinandergewirbelte Startaufstellung und Regenchaos versprachen Spannung. Immer wieder verloren die Fahrer auf der nassen Fahrbahn die Kontrolle. Doch einholen konnte Lando Norris am Ende niemand.",
+      "image": "https://cdn.prod.www.spiegel.de/images/5ec40f70-b2c5-4a0e-a658-567048f816e5_w1200_r1.778_fpx49_fpy38.jpg",
+      "published": "2026-11-08T21:00:00+01:00",
+      "category": "Nachrichten",
+      "score": 58.24
+    },
+    {
+      "id": "tagesschau-83580a669cc7c31a",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Chef der Jungen Union: \"Junge Generation wird von der Politik vernachlässigt\"",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/bericht-aus-berlin-junge-generation-100.html",
+      "summary": "Viele junge Menschen fühlen sich politisch übergangen. Das liege auch daran, dass Pläne wie die Rentenreform nicht umgesetzt würden, sagt Winkel, Vorsitzender der Jungen Union, im Bericht aus Berlin . Die Regierung habe einiges wieder gut zu machen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/ffffe647-adfd-47e5-88b2-29a10420bb82/AAABobyRoyc/AAABnSSvrFg/16x9-big/sendungsbild-1824456.jpg?width=1920",
+      "published": "2026-11-08T20:43:02+01:00",
+      "category": "Politik",
+      "score": 62.0
+    },
+    {
+      "id": "handelsblatt-e4b15ce9d6ba9883",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Bundespräsidentenwahl: Was die Kandidatur Aigners bedeutet",
+      "link": "https://www.handelsblatt.com/politik/deutschland/bundespraesidentenwahl-was-die-kandidatur-aigners-bedeutet/100268162.html",
+      "summary": "Die CSU hat sich schon lange auf Ilse Aigner als nächste Bundespräsidentin festgelegt. Die SPD hat ihre Unterstützung zugesichert. Jetzt fehlt noch das offizielle Votum der CDU.",
+      "image": "https://images.handelsblatt.com/E68njxO3cAxA/cover/900/506/0/0/131/131/0.5/0.5/merz-und-soeder.jpg",
+      "published": "2026-11-08T20:40:58+00:00",
+      "category": "Politik",
+      "score": 68.8
+    },
+    {
+      "id": "handelsblatt-9a8ff501d558e7ac",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Papst auf Reisen: Leo XIV. zu Besuch in Argentinien gelandet",
+      "link": "https://www.handelsblatt.com/politik/international/papst-auf-reisen-leo-xiv-zu-besuch-in-argentinien-gelandet/100268266.html",
+      "summary": "Seit fast vier Jahrzehnten war kein Papst mehr in dem südamerikanischen Land. Leos argentinischer Vorgänger Franziskus kehrte nie dorthin zurück. Jetzt dürfte es auch um Politik gehen.",
+      "image": "https://images.handelsblatt.com/wfDsaWf5W0BO/cover/900/506/0/0/107/106/0.5/0.5/papst-leo-xiv-auf-suedamerika-reise.jpg",
+      "published": "2026-11-08T20:32:50+00:00",
+      "category": "Wirtschaft",
+      "score": 72.48
+    },
+    {
+      "id": "handelsblatt-32c755ec618e5586",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ Iran-Krieg +++: Irak – Einigung mit USA über Ölexporte durch Straße von Hormus",
+      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-irak-einigung-mit-usa-ueber-oelexporte-durch-strasse-von-hormus/100136895.html",
+      "summary": "Golfstaaten treiben gemeinsames Schienennetz voran +++ USA bieten Millionen für Informationen zu Irans Atomprogramm +++ Katz: Israels Mission gegen Iran ist noch nicht beendet +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/U6OYpDYsfsT6/cover/900/506/0/0/259/258/0.5/0.5/archiv-20.06.2026-oman-khasab-handelsschiffe-liegen-in-der-naehe-von-chasab-einer-kleinstadt-im.jpg",
+      "published": "2026-11-08T20:13:00+00:00",
+      "category": "Politik",
+      "score": 76.42
+    },
+    {
+      "id": "tagesschau-b8e7b5756dd36bcd",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Parteitag: FDP bündelt Kräfte für Landtagswahlen kommendes Jahr",
+      "link": "https://www.tagesschau.de/inland/fdp-bundesparteitag-122.html",
+      "summary": "Die FDP kämpft ums Überleben. Ihre letzte Chance dürften die Landtagswahlen kommendes Jahr sein. Während des digitalen Parteitags versuchte FDP-Chef Kubicki, die Liberalen als Gegengewicht zur Regierung zu etablieren. Von Lissy Kaufmann. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/89d8e7b4-83b5-47f6-b1b6-93504ec8c705/AAABobxqbLc/AAABnSSvrFg/16x9-big/kubicki-182.jpg?width=1920",
+      "published": "2026-11-08T19:53:14+01:00",
+      "category": "Politik",
+      "score": 69.31
+    },
+    {
+      "id": "spiegel-9b043c43ff2f55a6",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Gazastreifen: Zelte versinken im Wasser – Vertriebene ohne Schutz",
+      "link": "https://www.spiegel.de/ausland/gazastreifen-zelte-versinken-im-wasser-vertriebene-ohne-schutz-a-ba82bba1-4889-4798-b986-f87037618676#ref=rss",
+      "summary": "Winterstürme bringen erneut schwere Regenfälle in den Gazastreifen. Zehntausende Zelte werden überflutet und sind unbewohnbar. Die humanitäre Lage der rund zwei Millionen Palästinenser verschärft sich zusehends.",
+      "image": "https://cdn.prod.www.spiegel.de/images/b836cfb6-c542-4e1c-8d47-3b3d7e5d2f54_w1200_r1.778_fpx59_fpy54.jpg",
+      "published": "2026-11-08T19:52:00+01:00",
+      "category": "Politik",
+      "score": 76.29
+    },
+    {
+      "id": "spiegel-07d870bfd78906aa",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Warum Pilze für das Leben auf der Erde unverzichtbar sind",
+      "link": "https://www.spiegel.de/deinspiegel/warum-pilze-fuer-das-leben-auf-der-erde-unverzichtbar-sind-a-1b36f12a-545c-4dc7-9f91-574b144b161f#ref=rss",
+      "summary": "Pilze sind für das Leben auf unserer Erde unverzichtbar. Wie sie miteinander »sprechen«, welche Bedeutung sie etwa für die Medizin haben und was für irre Exemplare es gibt, erklärt DEIN SPIEGEL.",
+      "image": "https://cdn.prod.www.spiegel.de/images/c5013afd-96ed-42d9-a014-d3a79aefe36a_w1200_r1.778_fpx66.67_fpy50.jpg",
+      "published": "2026-11-08T19:47:00+01:00",
+      "category": "Wissenschaft",
+      "score": 57.22
+    },
+    {
+      "id": "handelsblatt-e049b7e43aadce06",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Porträt: Die „Soulsister“ vom Starnberger See wird Bundespräsidentin",
+      "link": "https://www.handelsblatt.com/politik/deutschland/ilse-aigner-die-soulsister-vom-starnberger-see/100267577.html",
+      "summary": "CDU und CSU nominieren Ilse Aigner für das höchste Staatsamt. SPD und Grüne dürften zustimmen. Gründe für ihre Beliebtheit finden sich in ihrem Heimatort, in München – und in Berlin.",
+      "image": "https://images.handelsblatt.com/B34-kEOp3-Sr/cover/900/506/0/0/0/0/0.5/0.5/ilse-aigner-empfehlung-vom-parteichef.jpg",
+      "published": "2026-11-08T19:40:01+00:00",
+      "category": "Wirtschaft",
+      "score": 59.96
+    },
+    {
+      "id": "handelsblatt-f2b0e22078fadbd3",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Kandidatur für Staatsspitze: Merz: Aigner soll Bundespräsidentin werden",
+      "link": "https://www.handelsblatt.com/politik/deutschland/kandidatur-fuer-staatsspitze-merz-aigner-soll-bundespraesidentin-werden/100268262.html",
+      "summary": "Dass Ilse Aigner Kandidatin der Union für die Bundespräsidentenwahl werden soll, galt bereits als ausgemachte Sache. Es fehlte aber noch das offizielle Ja des Kanzlers. Jetzt ist es da.",
+      "image": "https://images.handelsblatt.com/2LP0O1iLr98H/cover/900/506/0/0/107/106/0.5/0.5/cdu-praesidium-beraet-ueber-kandidatur-bei-bundespraesidentenwahl.jpg",
+      "published": "2026-11-08T19:36:11+00:00",
+      "category": "Politik",
+      "score": 68.8
+    },
+    {
+      "id": "deutsche-welle-c3d3c6a0c1ca41e8",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "Die CSU-Politikerin Ilse Aigner ist als erste Bundespräsidentin nun Favoritin",
+      "link": "https://www.dw.com/de/die-csu-politikerin-ilse-aigner-ist-als-erste-bundespräsidentin-nun-favoritin/a-79873744?maca=de-rss-de-all-1119-rdf",
+      "summary": "Sie wäre die erste Bundespräsidentin, auch die erste CSU-Politikerin im höchsten deutschen Staatsamt. Ilse Aigner ist nun bis zur Wahl in der Bundesversammlung am 30. Januar die Kandidatin und Favoritin.",
+      "image": "https://static.dw.com/image/79873014_6.jpg",
+      "published": "2026-11-08T19:34:00+00:00",
+      "category": "Politik",
+      "score": 78.37
+    },
+    {
+      "id": "handelsblatt-a00901a7b79060e0",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Bundespräsidentin: Erste Frau im Amt – Merz schlägt Aigner als Bundespräsidentin vor",
+      "link": "https://www.handelsblatt.com/politik/deutschland/bundespraesidentin-erste-frau-im-amt-merz-schlaegt-aigner-als-bundespraesidentin-vor/100268202.html",
+      "summary": "Nach langem Hin und Her und unter großem Druck hat sich nun auch CDU-Chef Friedrich Merz festgelegt: Die CSU-Politikerin Ilse Aigner soll das höchste Staatsamt bekleiden.",
+      "image": "https://images.handelsblatt.com/Kpo9HxhvBour/cover/900/506/0/0/313/312/0.5/0.5/urnnewsmldpa.com20090101261105-935-1723797.jpg",
+      "published": "2026-11-08T19:33:14+00:00",
+      "category": "Wirtschaft",
+      "score": 78.37
     },
     {
       "id": "spiegel-2212a9fcd4bad0fe",
@@ -515,43 +719,67 @@
       "image": "https://cdn.prod.www.spiegel.de/images/3042f82b-f57f-4ac5-b46f-df59257c2f87_w1200_r1.778_fpx46_fpy53.jpg",
       "published": "2026-11-08T19:28:00+01:00",
       "category": "Technologie",
-      "score": 58.64
+      "score": 56.96
     },
     {
       "id": "spiegel-3f094e140e6507be",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Ilse Aigner: Im CDU-Präsidium dürfte Kanzler Friedrich Merz ihre Nominierung als Bundespräsidentin verkünden",
+      "title": "Ilse Aigner: Im CDU-Präsidium dürfte Friedrich Merz ihre Nominierung als Bundespräsidentin verkünden",
       "link": "https://www.spiegel.de/politik/deutschland/ilse-aigner-im-cdu-praesidium-duerfte-kanzler-friedrich-merz-ihre-nominierung-als-bundespraesidentin-verkuenden-a-16d83dfb-440a-4514-a5d5-c14d660df44d#ref=rss",
-      "summary": "Ilse Aigner wird wohl Bundespräsidentin, die Nominierung trifft in der CDU auf viel Zuspruch. Doch das Verfahren irritiert so manchen. Nun werden Details bekannt, inklusive Wanderungen und gemeinsamem Freundeskreis.",
+      "summary": "Ilse Aigner soll Bundespräsidentin werden, die Nominierung trifft in der CDU auf viel Zuspruch. Doch das Verfahren irritiert manchen. Nun werden Details bekannt, inklusive Wanderungen und gemeinsamen Freunden mit dem Kanzler.",
       "image": "https://cdn.prod.www.spiegel.de/images/96fc6eec-1941-42a5-a806-e2c7e54be32e_w1200_r1.778_fpx54_fpy42.jpg",
       "published": "2026-11-08T19:21:00+01:00",
       "category": "Nachrichten",
-      "score": 58.54
+      "score": 78.37
     },
     {
-      "id": "spiegel-129cb55337177931",
+      "id": "spiegel-553a27d9853753aa",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Donald Trump bietet UFC-Chef Dana White Job als Sprecher an: Alles nur eine Verwechslung?",
-      "link": "https://www.spiegel.de/netzwelt/web/donald-trump-bietet-ufc-chef-dana-white-job-als-sprecher-an-alles-nur-eine-verwechslung-a-2f71c575-00ad-44d0-872e-10b58830d0dd#ref=rss",
+      "title": "Donald Trump bietet UFC-Chef Dana White Job als Sprecher an - eine Verwechslung?",
+      "link": "https://www.spiegel.de/netzwelt/web/donald-trump-bietet-ufc-chef-dana-white-job-als-sprecher-an-eine-verwechslung-a-2f71c575-00ad-44d0-872e-10b58830d0dd#ref=rss",
       "summary": "In den sozialen Medien behaupten User: Donald Trump sollte gar nicht den Boss der Kampfsportorganisation UFC als Pressesprecher anwerben – sondern eine Frau mit fast gleichem Namen. Die bringt nun Licht ins Dunkel.",
       "image": "https://cdn.prod.www.spiegel.de/images/b19176dd-84d7-4034-a97e-bc0af8db8d44_w419_r1.778_fpx54.9_fpy49.2.png",
       "published": "2026-11-08T19:17:00+01:00",
       "category": "Politik",
-      "score": 91.42
+      "score": 91.48
     },
     {
-      "id": "spiegel-3a0dcfbfa324b773",
+      "id": "handelsblatt-099e2f91f85a6f40",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Midterms: US-Demokraten nehmen nach Wahlsieg Musk und Trump-Vertraute ins Visier",
+      "link": "https://www.handelsblatt.com/politik/international/midterms-us-demokraten-nehmen-nach-wahlsieg-musk-und-trump-vertraute-ins-visier/100268255.html",
+      "summary": "Die Kongressmehrheit will Trumps Einwanderungspolitik und mögliche Verfehlungen von Unternehmen untersuchen. Ein Amtsenthebungsverfahren gegen Verteidigungsminister Hegseth wird unterstützt.",
+      "image": "https://images.handelsblatt.com/HSq6zST5Naze/cover/900/506/0/0/259/259/0.5/0.5/urnnewsmldpa.com20090101261104-935-1719692.jpg",
+      "published": "2026-11-08T19:07:26+00:00",
+      "category": "Politik",
+      "score": 75.51
+    },
+    {
+      "id": "handelsblatt-033781e0f520161f",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Iran-Krieg: Trump: Neue Angriffe im Iran bei Gesprächen unwahrscheinlich",
+      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-trump-neue-angriffe-im-iran-bei-gespraechen-unwahrscheinlich/100268257.html",
+      "summary": "In den vergangenen Wochen wurde spekuliert, Donald Trump könnte nach der US-Kongresswahl neue Angriffe im Iran anordnen. Der Präsident sagt nun, er glaube nicht, dass dies nötig sein werde.",
+      "image": "https://images.handelsblatt.com/X3ALFVUxJhN2/cover/900/506/0/0/107/106/0.5/0.5/us-praesident-trump.jpg",
+      "published": "2026-11-08T18:58:06+00:00",
+      "category": "Politik",
+      "score": 83.38
+    },
+    {
+      "id": "spiegel-02f23933bc3226d0",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Ostrowiec Świętokrzyski: Anwohner berichten über den Todesschützen von Krakau",
-      "link": "https://www.spiegel.de/ausland/ostrowiec-swietokrzyski-anwohner-berichten-ueber-den-todesschuetzen-von-krakau-a-ccb2bd06-6ffa-463b-a972-99a9bb64861e#ref=rss",
+      "title": "Polen, Ostrowiec Świętokrzyski: Anwohner berichten über den Todesschützen von Krakau",
+      "link": "https://www.spiegel.de/ausland/polen-ostrowiec-swietokrzyski-anwohner-berichten-ueber-den-todesschuetzen-von-krakau-a-ccb2bd06-6ffa-463b-a972-99a9bb64861e#ref=rss",
       "summary": "Wie haben die Menschen in seinem Heimatort den Todesschützen von Krakau erlebt? Und wie reagieren sie nun auf die Tat? SPIEGEL-Reporterin Patricia Friedek war in Ostrowiec Świętokrzyski unterwegs.",
       "image": "https://cdn.prod.www.spiegel.de/images/44c700f8-3f94-48de-931f-477ebd13ccde_w1080_r1.778_fpx49_fpy35.png",
       "published": "2026-11-08T18:31:00+01:00",
       "category": "Technologie",
-      "score": 57.84
+      "score": 56.17
     },
     {
       "id": "spiegel-ee78a3b70cb39240",
@@ -563,19 +791,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/5560f84e-0d0e-4655-af2e-3d61a907e230_w1200_r1.778_fpx41_fpy40.jpg",
       "published": "2026-11-08T18:12:00+01:00",
       "category": "Nachrichten",
-      "score": 57.58
+      "score": 55.9
     },
     {
-      "id": "spiegel-a64351631ea99f1a",
+      "id": "spiegel-ad7d4c18d771a6df",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Brandenburg: Leiche der vermissten Lisa gefunden – Verdächtiger festgenommen",
-      "link": "https://www.spiegel.de/panorama/justiz/brandenburg-leiche-der-vermissten-lisa-gefunden-verdaechtiger-festgenommen-a-53fa9df4-9f57-4574-a824-eb48e6099e79#ref=rss",
+      "title": "Brandenburg/Berlin: Leiche der vermissten Lisa gefunden – Verdächtiger festgenommen",
+      "link": "https://www.spiegel.de/panorama/justiz/brandenburg-berlin-leiche-der-vermissten-lisa-gefunden-verdaechtiger-festgenommen-a-53fa9df4-9f57-4574-a824-eb48e6099e79#ref=rss",
       "summary": "Seit Tagen wurde in Berlin eine Schülerin vermisst. Nun ist in Brandenburg eine Leiche gefunden worden. Die Polizei hat einen schwer verletzten Verdächtigen festgenommen.",
       "image": "https://cdn.prod.www.spiegel.de/images/d78a19cc-c452-4924-b7ec-fe6f7cb56948_w1200_r1.778_fpx33.34_fpy50.jpg",
       "published": "2026-11-08T18:04:00+01:00",
       "category": "Panorama",
-      "score": 57.47
+      "score": 55.79
     },
     {
       "id": "tagesschau-f8eadad09a8e5307",
@@ -587,7 +815,7 @@
       "image": "https://images.tagesschau.de/image/cac8f4e0-8a53-49fc-a135-8f57f56a06a6/AAABobwcTQk/AAABnSSvrFg/16x9-big/demonstration-amsterdam-102.jpg?width=1920",
       "published": "2026-11-08T18:02:14+01:00",
       "category": "Politik",
-      "score": 77.44
+      "score": 75.77
     },
     {
       "id": "spiegel-edd09bf1e5ad0202",
@@ -599,19 +827,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/6876e6ba-c5ee-4ee8-8736-692e5bafb10b_w1200_r1.778_fpx64.65_fpy44.99.jpg",
       "published": "2026-11-08T17:45:00+01:00",
       "category": "Panorama",
-      "score": 57.2
+      "score": 55.53
     },
     {
-      "id": "spiegel-5f7cb1f9fd0ef07c",
+      "id": "spiegel-ca4d83458c9afcc7",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Fußball-Bundesliga: 1. FC Köln unterliegt Bayer Leverkusen, El-Mala-Brüder kombinieren sich zum Anschlusstor",
-      "link": "https://www.spiegel.de/sport/fussball/fussball-bundesliga-1-fc-koeln-unterliegt-bayer-leverkusen-el-mala-brueder-kombinieren-sich-zum-anschlusstor-a-4933ff7e-5d31-4596-9ae8-7aaa11bc55c3#ref=rss",
+      "title": "Bundesliga: 1. FC Köln unterliegt Bayer Leverkusen, El-Mala-Brüder kombinieren sich zum Anschlusstor",
+      "link": "https://www.spiegel.de/sport/fussball/bundesliga-1-fc-koeln-unterliegt-bayer-leverkusen-el-mala-brueder-kombinieren-sich-zum-anschlusstor-a-4933ff7e-5d31-4596-9ae8-7aaa11bc55c3#ref=rss",
       "summary": "Start verschlafen, Rudelbildung, Probleme mit Patrik Schick: Für den 1. FC Köln lief das Heimspiel gegen Leverkusen nicht nach Plan. Die El-Mala-Brüder kombinierten sich nur noch zum Anschlusstreffer.",
       "image": "https://cdn.prod.www.spiegel.de/images/4fc351b6-5189-4291-aa0d-9c2735caa33f_w1200_r1.778_fpx27_fpy40.jpg",
       "published": "2026-11-08T17:35:00+01:00",
       "category": "Nachrichten",
-      "score": 57.07
+      "score": 55.39
     },
     {
       "id": "tagesschau-2b5007410b539975",
@@ -623,7 +851,7 @@
       "image": "https://images.tagesschau.de/image/bcbfacd2-b7ac-4314-9d86-ec6d822e9492/AAABobwG94w/AAABnSSvrFg/16x9-big/abu-dhabi-103.jpg?width=1920",
       "published": "2026-11-08T17:33:42+01:00",
       "category": "Politik",
-      "score": 83.66,
+      "score": 83.48,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -650,7 +878,7 @@
       "image": "https://static.dw.com/image/79892175_6.jpg",
       "published": "2026-11-08T17:29:00+00:00",
       "category": "Nachrichten",
-      "score": 56.82
+      "score": 55.14
     },
     {
       "id": "handelsblatt-8790e9f2bccbb8de",
@@ -662,19 +890,19 @@
       "image": "https://images.handelsblatt.com/Uvjsv2vSWwff/cover/900/506/0/0/342/343/0.5/0.5/softbank-china-will-verhindern-dass-daten-aus-der-robotikproduktion-ins-ausland-gelangen..jpg",
       "published": "2026-11-08T17:26:50+00:00",
       "category": "Wirtschaft",
-      "score": 59.79
+      "score": 58.11
     },
     {
-      "id": "spiegel-9dc9a593400dcffa",
+      "id": "spiegel-a8aba19ae9f996ea",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Hape Kerkeling oder Ilse Aigner? Komiker zeigt sich als fairer Verlierer",
-      "link": "https://www.spiegel.de/politik/deutschland/bundespraesidenten-nachfolge-hape-kerkeling-reagiert-auf-ilse-aigner-a-8a04e4d3-5307-4431-91b6-ad8c1ebb6e9e#ref=rss",
+      "title": "Hape Kerkeling oder Ilse Aigner? Komiker dankt seinen Anhängern",
+      "link": "https://www.spiegel.de/politik/deutschland/hape-kerkeling-oder-ilse-aigner-komiker-dankt-seinen-anhaengern-a-8a04e4d3-5307-4431-91b6-ad8c1ebb6e9e#ref=rss",
       "summary": "Etwa 170.000 Menschen wollten Hape Kerkeling als überparteilichen Kandidaten für die Bundespräsidentenwahl. Nun kommt es wohl anders. Der Entertainer wendet sich via Instagram an seine Anhänger.",
       "image": "https://cdn.prod.www.spiegel.de/images/196abb2b-28b3-4b39-ba96-dff3bbb61b7f_w1200_r1.778_fpx47_fpy38.jpg",
       "published": "2026-11-08T17:19:00+01:00",
       "category": "Politik",
-      "score": 67.84
+      "score": 66.17
     },
     {
       "id": "tagesschau-1e993e4cd681732c",
@@ -686,7 +914,7 @@
       "image": "https://images.tagesschau.de/image/17988e16-b321-4573-a2d7-f8ccec24da95/AAABobvLlHQ/AAABnSSvrFg/16x9-big/gadi-eisenkot-110.jpg?width=1920",
       "published": "2026-11-08T17:07:41+01:00",
       "category": "Politik",
-      "score": 89.55,
+      "score": 89.37,
       "coverage": {
         "sourceCount": 5,
         "others": [
@@ -723,31 +951,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/55a967fc-d245-42c3-baee-e3f6d6b01331_w1200_r1.778_fpx62_fpy57.jpg",
       "published": "2026-11-08T17:06:00+01:00",
       "category": "Nachrichten",
-      "score": 56.66
+      "score": 54.99
     },
     {
-      "id": "spiegel-ab2b25aa4450d3ae",
+      "id": "spiegel-362828caf8bb8295",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "»Dass es eine heftige Rolle ist, wusste ich – aber ich hatte keine Ahnung, wie heftig«",
-      "link": "https://www.spiegel.de/kultur/dass-es-eine-heftige-rolle-ist-wusste-ich-aber-ich-hatte-keine-ahnung-wie-heftig-a-958e48fe-91bd-4e3b-9196-178555e6dbf1#ref=rss",
+      "title": "Sylvie Meis über »Friesenjunkies«: »Dass es eine heftige Rolle ist, wusste ich«",
+      "link": "https://www.spiegel.de/kultur/sylvie-meis-ueber-friesenjunkies-dass-es-eine-heftige-rolle-ist-wusste-ich-a-958e48fe-91bd-4e3b-9196-178555e6dbf1#ref=rss",
       "summary": "In der ARD-Serie »Friesenjunkies« gibt Sylvie Meis ihr Hauptrollendebüt. Nun erzählt die bekannte Moderatorin, warum eine Masturbationsszene sie Überwindung kostete – und trotzdem »spannend« war.",
       "image": "https://cdn.prod.www.spiegel.de/images/2f62e0c8-5b56-49ba-9835-9c72952561a7_w1200_r1.778_fpx60.45_fpy49.94.jpg",
       "published": "2026-11-08T17:03:00+01:00",
       "category": "Technologie",
-      "score": 56.62
-    },
-    {
-      "id": "handelsblatt-597fe29fb8aa0272",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Bundespräsidentin: Erste Frau im Amt – Ilse Aigner soll Bundespräsidentin werden",
-      "link": "https://www.handelsblatt.com/politik/deutschland/bundespraesidentin-erste-frau-im-amt-ilse-aigner-soll-bundespraesidentin-werden/100268202.html",
-      "summary": "Nach langem Hin und Her und unter großem Druck hat sich nun auch CDU-Chef Friedrich Merz festgelegt: Die CSU-Politikerin Ilse Aigner soll das höchste Staatsamt bekleiden.",
-      "image": "https://images.handelsblatt.com/UsWHPtgKXSCO/cover/900/506/0/0/252/252/0.5/0.5/file-photo-president-of-the-bavarian-state-parliament-ilse-aigner-attends-a-party-convention-in-mun.jpg",
-      "published": "2026-11-08T17:00:01+00:00",
-      "category": "Wirtschaft",
-      "score": 74.41
+      "score": 54.94
     },
     {
       "id": "handelsblatt-d49e89c0f474feb3",
@@ -759,7 +975,7 @@
       "image": "https://images.handelsblatt.com/fx7N74VHe25N/cover/900/506/0/0/107/107/0.5/0.5/saudi-arabien-riad.jpg",
       "published": "2026-11-08T16:48:59+00:00",
       "category": "Wirtschaft",
-      "score": 59.26
+      "score": 57.58
     },
     {
       "id": "handelsblatt-cf142731ad3b9a1d",
@@ -771,7 +987,7 @@
       "image": "https://images.handelsblatt.com/JIbKzpgeoqfr/cover/900/506/0/0/0/0/0.5/0.5/trump-cop31-antalya.jpg",
       "published": "2026-11-08T16:44:34+00:00",
       "category": "Politik",
-      "score": 91.2
+      "score": 89.52
     },
     {
       "id": "deutsche-welle-afaf21dc7fb9694c",
@@ -783,7 +999,7 @@
       "image": "https://static.dw.com/image/79891763_6.jpg",
       "published": "2026-11-08T16:40:00+00:00",
       "category": "Politik",
-      "score": 89.55
+      "score": 89.37
     },
     {
       "id": "handelsblatt-0c14fde66a4acf53",
@@ -795,7 +1011,7 @@
       "image": "https://images.handelsblatt.com/tdu6RZ0irPmC/cover/900/506/0/0/107/106/0.5/0.5/gadi-eisenkot.jpg",
       "published": "2026-11-08T16:39:20+00:00",
       "category": "Politik",
-      "score": 89.55
+      "score": 89.37
     },
     {
       "id": "spiegel-74be19637507a12c",
@@ -807,7 +1023,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/c023dd86-3141-4539-89e9-55e6dc6bc793_w1200_r1.778_fpx49_fpy46.jpg",
       "published": "2026-11-08T16:29:00+01:00",
       "category": "Technologie",
-      "score": 56.15
+      "score": 54.47
     },
     {
       "id": "tagesschau-ad8e0e4bd2f8a6e5",
@@ -819,7 +1035,7 @@
       "image": "https://images.tagesschau.de/image/84cb3245-ee5e-4ddc-8677-95217907f565/AAABlZAeuA0/AAABnSSvrFg/16x9-big/hochwasser-schaden-100.jpg?width=1920",
       "published": "2026-11-08T16:28:00+01:00",
       "category": "Nachrichten",
-      "score": 57.14
+      "score": 55.46
     },
     {
       "id": "handelsblatt-cf00a0af226f821d",
@@ -831,7 +1047,7 @@
       "image": "https://images.handelsblatt.com/x2TQbx0kK26W/cover/900/506/0/0/83/84/0.5/0.5/gadi-eisenkot-links-mit-isaac-herzog-steht-vor-schwierigen-verhandlungen..jpg",
       "published": "2026-11-08T16:20:23+00:00",
       "category": "Politik",
-      "score": 89.55
+      "score": 89.37
     },
     {
       "id": "handelsblatt-9f9723566b5e7ff4",
@@ -843,19 +1059,7 @@
       "image": "https://images.handelsblatt.com/jhJblAECheEP/cover/900/506/0/0/136/136/0.5/0.5/palaestinensische-flagge-am-reichstag.jpg",
       "published": "2026-11-08T16:18:41+00:00",
       "category": "Politik",
-      "score": 66.84
-    },
-    {
-      "id": "handelsblatt-7290ed0dbd612d92",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Iran-Krieg +++: Golfstaaten treiben gemeinsames Schienennetz voran",
-      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-golfstaaten-treiben-gemeinsames-schienennetz-voran/100136895.html",
-      "summary": "USA bieten Millionen für Informationen zu Irans Atomprogramm +++ Katz: Israels Mission gegen Iran ist noch nicht beendet +++ Iran hebt Reichweitenbeschränkung für Raketen auf +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/jsxRxWrYZO3Z/cover/900/506/78/78/0/0/0.5/0.5/archiv-11.10.2018-saudi-arabien-medina-passagiere-steigen-am-bahnsteig-in-medina-in-einen-zug..jpg",
-      "published": "2026-11-08T16:18:00+00:00",
-      "category": "Politik",
-      "score": 74.83
+      "score": 65.16
     },
     {
       "id": "spiegel-2a4d0d89a7be3803",
@@ -867,7 +1071,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/eac4730a-1c0a-4b59-80a7-66317e588fa8_w1080_r1.778_fpx44_fpy29.jpg",
       "published": "2026-11-08T16:04:00+01:00",
       "category": "Technologie",
-      "score": 55.8
+      "score": 54.12
     },
     {
       "id": "spiegel-7f0e93be04a533f0",
@@ -879,7 +1083,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/68c38112-deb2-4224-b931-e6dc7fa834cb_w1200_r1.778_fpx60_fpy43.jpg",
       "published": "2026-11-08T16:02:00+01:00",
       "category": "Politik",
-      "score": 89.55
+      "score": 89.37
     },
     {
       "id": "handelsblatt-289a942b6c8452f0",
@@ -891,7 +1095,7 @@
       "image": "https://images.handelsblatt.com/-Q7TRGGu7jma/cover/900/506/0/0/207/207/0.5/0.5/2026.11.09handelsblatt.png",
       "published": "2026-11-08T15:52:09+00:00",
       "category": "Wirtschaft",
-      "score": 58.47
+      "score": 56.79
     },
     {
       "id": "spiegel-f1f1c32c40c56005",
@@ -903,7 +1107,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/701792a2-70e1-4ffe-b545-cf52030dc583_w1200_r1.778_fpx65.53_fpy49.99.jpg",
       "published": "2026-11-08T15:51:00+01:00",
       "category": "Nachrichten",
-      "score": 55.62
+      "score": 53.94
     },
     {
       "id": "tagesschau-8dcbcf05d7115145",
@@ -915,7 +1119,7 @@
       "image": "https://images.tagesschau.de/image/6ecdf46a-cf24-4550-810d-9e72c1a23c14/AAABobuoxN0/AAABnSSvrFg/16x9-big/rbb-630259816-100.jpg?width=1920",
       "published": "2026-11-08T15:50:57+01:00",
       "category": "Politik",
-      "score": 86.98,
+      "score": 86.8,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -947,31 +1151,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/d14a275d-d902-4c34-aa9a-2ccdc35866c8_w1200_r1.778_fpx49_fpy57.jpg",
       "published": "2026-11-08T15:50:00+01:00",
       "category": "Nachrichten",
-      "score": 86.98
+      "score": 86.8
     },
     {
-      "id": "spiegel-271773929f29c123",
+      "id": "spiegel-2bfec69d9f630f15",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Sachsen: 74-Jähriger kippt 50 Kilo Fische auf Feldweg – einige Tiere überleben",
-      "link": "https://www.spiegel.de/panorama/sachsen-74-jaehriger-kippt-50-kilo-fische-auf-feldweg-einige-tiere-ueberleben-a-3c2453ad-5bbe-4045-b099-ecced8dbc41d#ref=rss",
+      "title": "Schleinitz/Perba: Jäger findet 50 Kilo Fische am Feldweg – einige lebten noch",
+      "link": "https://www.spiegel.de/panorama/schleinitz-perba-jaeger-findet-50-kilo-fische-am-feldweg-einige-lebten-noch-a-3c2453ad-5bbe-4045-b099-ecced8dbc41d#ref=rss",
       "summary": "In Sachsen wollte ein 74-Jähriger offenbar eine große Menge Fische loswerden – und kippte sie an einem Feldweg aus. Gegen den Mann wird nun ermittelt.",
       "image": "https://cdn.prod.www.spiegel.de/images/0ea5a7bf-746e-4065-a354-0b2c81fcca32_w1200_r1.778_fpx48.65_fpy54.97.jpg",
       "published": "2026-11-08T15:47:00+01:00",
       "category": "Technologie",
-      "score": 55.57
-    },
-    {
-      "id": "handelsblatt-1ccd881bea0411b4",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Aigner vor der Nominierung: Was die Entscheidung in der P-Frage bedeutet",
-      "link": "https://www.handelsblatt.com/politik/deutschland/aigner-vor-der-nominierung-was-die-entscheidung-in-der-p-frage-bedeutet/100268162.html",
-      "summary": "Die CSU hat sich schon lange auf Ilse Aigner als nächste Bundespräsidentin festgelegt. Die SPD hat ihre Unterstützung zugesichert. Jetzt fehlt noch das offizielle Votum der CDU.",
-      "image": "https://images.handelsblatt.com/E68njxO3cAxA/cover/900/506/0/0/131/131/0.5/0.5/merz-und-soeder.jpg",
-      "published": "2026-11-08T15:41:27+00:00",
-      "category": "Wirtschaft",
-      "score": 58.32
+      "score": 53.89
     },
     {
       "id": "golem-b99976e04d42947a",
@@ -983,7 +1175,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214950&amp;page=1&amp;ts=1794148802",
       "published": "2026-11-08T15:40:02+01:00",
       "category": "Technologie",
-      "score": 53.47
+      "score": 51.79
     },
     {
       "id": "spiegel-7dba675b1b0fc80c",
@@ -995,7 +1187,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/5e271ce8-6d92-4518-9eb6-07e88f5a2212_w1200_r1.778_fpx51.99_fpy50.jpg",
       "published": "2026-11-08T15:36:00+01:00",
       "category": "Wissenschaft",
-      "score": 72.66
+      "score": 72.48
     },
     {
       "id": "handelsblatt-d52b2ff814508260",
@@ -1007,19 +1199,19 @@
       "image": "https://images.handelsblatt.com/vYa9S4AKfYHw/cover/900/506/0/0/0/605/0.5/0.5/bundestag-tino-chrupalla-afd-beim-2.-kommunalpolitischen-forum-der-afd-fraktion-im-deutschen-bundest.jpg",
       "published": "2026-11-08T15:33:55+00:00",
       "category": "Politik",
-      "score": 66.22
+      "score": 64.54
     },
     {
-      "id": "spiegel-481845e9f7036920",
+      "id": "spiegel-d05134acb2eeb175",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Markus Wolf: Russlands Geheimdienst würdigt Ex-DDR-Spionagechef",
-      "link": "https://www.spiegel.de/politik/deutschland/markus-wolf-russlands-geheimdienst-wuerdigt-ex-ddr-spionagechef-a-5ae37e2b-1af3-427e-9e3f-d9a73dcfa84f#ref=rss",
+      "title": "Markus Wolf: Russland ehrt Ex-DDR-Spionagechef mit Gedenktafel in Moskau",
+      "link": "https://www.spiegel.de/politik/deutschland/markus-wolf-russland-ehrt-ex-ddr-spionagechef-mit-gedenktafel-in-moskau-a-5ae37e2b-1af3-427e-9e3f-d9a73dcfa84f#ref=rss",
       "summary": "In der Bundesrepublik war DDR-Spitzenfunktionär Markus Wolf lange nur der »Mann ohne Gesicht«, bis er 1979 enttarnt wurde. Vor 20 Jahren ist er gestorben – in Russland erinnert man sich gern an ihn.",
       "image": "https://cdn.prod.www.spiegel.de/images/7c521e68-b747-4722-bbd9-244d58e1a712_w1200_r1.778_fpx35.99_fpy50.jpg",
       "published": "2026-11-08T15:27:00+01:00",
       "category": "Nachrichten",
-      "score": 71.42
+      "score": 71.48
     },
     {
       "id": "handelsblatt-cfebccc5af231ddd",
@@ -1031,7 +1223,7 @@
       "image": "https://images.handelsblatt.com/TN8fW1BcydZ9/cover/900/506/0/0/0/0/0.5/0.5/philipp-alvares-de-souza-soares.jpg",
       "published": "2026-11-08T15:21:56+00:00",
       "category": "Wirtschaft",
-      "score": 58.05
+      "score": 56.37
     },
     {
       "id": "golem-b4e2571f868a5fa6",
@@ -1043,7 +1235,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214971&amp;page=1&amp;ts=1794147421",
       "published": "2026-11-08T15:17:01+01:00",
       "category": "Politik",
-      "score": 56.15
+      "score": 54.47
     },
     {
       "id": "handelsblatt-1dcd14ad44db4c89",
@@ -1055,7 +1247,7 @@
       "image": "https://images.handelsblatt.com/PjOofTekVMSh/cover/900/506/0/0/256/257/0.5/0.5/team-von-inklupreneur.jpg",
       "published": "2026-11-08T15:16:17+00:00",
       "category": "Wirtschaft",
-      "score": 57.97
+      "score": 56.3
     },
     {
       "id": "handelsblatt-a516e59bb13cc001",
@@ -1067,7 +1259,7 @@
       "image": "https://images.handelsblatt.com/F1zMTdje0-4X/cover/900/506/0/0/0/570/0.5/0.5/261023-modiin-oct.-23-2026-gadi-eisenkot-former-israeli-military-chief-and-leader-of-the-ce.jpg",
       "published": "2026-11-08T15:12:19+00:00",
       "category": "Politik",
-      "score": 89.55
+      "score": 89.37
     },
     {
       "id": "handelsblatt-3fc1c7a1f8688653",
@@ -1079,7 +1271,7 @@
       "image": "https://images.handelsblatt.com/HziHExO5Z0tz/cover/900/506/0/0/0/625/0.5/0.5/christian-knechtel.jpg",
       "published": "2026-11-08T15:09:50+00:00",
       "category": "Wirtschaft",
-      "score": 57.88
+      "score": 56.21
     },
     {
       "id": "tagesschau-be05af21dd735c68",
@@ -1091,7 +1283,7 @@
       "image": "https://images.tagesschau.de/image/5e781bd8-4ff4-400f-9f33-b4c3fef96bf0/AAABobt81QU/AAABnSSvrFg/16x9-big/rbb-palaestina-flagge-100.jpg?width=1920",
       "published": "2026-11-08T15:05:08+01:00",
       "category": "Nachrichten",
-      "score": 55.98
+      "score": 54.31
     },
     {
       "id": "spiegel-8818bc05a9c26b80",
@@ -1103,7 +1295,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/edf2c88a-994a-4844-8561-01dc384a2f57_w1200_r1.778_fpx45_fpy12.jpg",
       "published": "2026-11-08T15:01:00+01:00",
       "category": "Technologie",
-      "score": 54.93
+      "score": 53.25
     },
     {
       "id": "handelsblatt-cdf3bb4c1b414170",
@@ -1115,7 +1307,7 @@
       "image": "https://images.handelsblatt.com/Kq5FgeR5ZcDU/cover/900/506/0/0/71/70/0.5/0.5/eva-jungbluth-leitet-in-der-forschung-und-entwicklung-am-sanofi-biocampus-in-frankfurt-ein-team-das.jpg",
       "published": "2026-11-08T15:00:05+00:00",
       "category": "Wirtschaft",
-      "score": 57.75
+      "score": 56.07
     },
     {
       "id": "spiegel-2cf445002e658a79",
@@ -1127,7 +1319,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/3fa9b0fe-1e75-4c11-a8b3-ce05dc088a20_w1200_r1.778_fpx54_fpy43.jpg",
       "published": "2026-11-08T14:47:00+01:00",
       "category": "Panorama",
-      "score": 54.73
+      "score": 53.06
     },
     {
       "id": "handelsblatt-0161c1930983e0f1",
@@ -1139,7 +1331,7 @@
       "image": "https://images.handelsblatt.com/jFEu-XMQM3gr/cover/900/506/82/82/0/0/0.5/0.5/neuer-hochgeschwindigkeitszug-zwischen-medina-und-mekka.jpg",
       "published": "2026-11-08T14:41:17+00:00",
       "category": "Wirtschaft",
-      "score": 74.83
+      "score": 76.42
     },
     {
       "id": "golem-562ea2115919d308",
@@ -1151,19 +1343,19 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214970&amp;page=1&amp;ts=1794145082",
       "published": "2026-11-08T14:38:02+01:00",
       "category": "Technologie",
-      "score": 52.61
+      "score": 50.93
     },
     {
-      "id": "spiegel-b0ab096c11c81fb3",
+      "id": "spiegel-73c12c78ff000df0",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Willie Nelson findet, er habe lange Zeit »alles falsch gemacht«",
-      "link": "https://www.spiegel.de/kultur/willie-nelson-findet-er-habe-lange-zeit-alles-falsch-gemacht-a-9206faeb-cb0f-4b4f-9845-fa031503f1d2#ref=rss",
+      "title": "Willie Nelson: Country-Ikone findet, er habe lange Zeit »alles falsch gemacht«",
+      "link": "https://www.spiegel.de/kultur/willie-nelson-country-ikone-findet-er-habe-lange-zeit-alles-falsch-gemacht-a-9206faeb-cb0f-4b4f-9845-fa031503f1d2#ref=rss",
       "summary": "Neben der Musik ist Country-Urgestein Willie Nelson vor allem für den Konsum von Cannabis bekannt. Mit 93 Jahren legt er nun Memoiren vor – und verrät seine Idee eines glücklichen Lebens.",
       "image": "https://cdn.prod.www.spiegel.de/images/a598a718-7710-4dab-9e08-2e295e165ff8_w1200_r1.778_fpx69.99_fpy54.98.jpg",
       "published": "2026-11-08T14:38:00+01:00",
       "category": "Nachrichten",
-      "score": 54.61
+      "score": 52.93
     },
     {
       "id": "handelsblatt-28393c62c5da247b",
@@ -1175,7 +1367,7 @@
       "image": "https://images.handelsblatt.com/V1QnW7JohAaF/cover/900/506/0/0/107/106/0.5/0.5/hackerangriff-auf-italiens-aussenminister-antonio-tajani.jpg",
       "published": "2026-11-08T14:36:15+00:00",
       "category": "Politik",
-      "score": 57.42
+      "score": 55.74
     },
     {
       "id": "spiegel-9cd2efd8926fb553",
@@ -1187,19 +1379,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/d345d621-b465-400c-b780-de211eceea2f_w1200_r1.778_fpx57.74_fpy55.jpg",
       "published": "2026-11-08T14:36:00+01:00",
       "category": "Technologie",
-      "score": 55.8
+      "score": 54.12
     },
     {
-      "id": "spiegel-55ed653e141e68a0",
+      "id": "spiegel-ebeaa24cb344ef5e",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "FC Bayern München: Manuel Neuer fällt nach Sehnenteilriss aus",
-      "link": "https://www.spiegel.de/sport/fussball/fc-bayern-muenchen-manuel-neuer-faellt-nach-sehnenteilriss-aus-a-63090bc6-de16-4f17-a73b-52040c4a66e3#ref=rss",
+      "title": "FC Bayern München: Manuel Neuer erleidet Sehnenteilriss",
+      "link": "https://www.spiegel.de/sport/fussball/fc-bayern-muenchen-manuel-neuer-erleidet-sehnenteilriss-a-63090bc6-de16-4f17-a73b-52040c4a66e3#ref=rss",
       "summary": "Seit diesem Wochenende ist Manuel Neuer der älteste Bundesligaspieler in der Geschichte des FC Bayern. Die kommenden Wochen dürfte allerdings Jonas Urbig im Tor der Münchner stehen: Neuer fällt vorerst verletzt aus.",
       "image": "https://cdn.prod.www.spiegel.de/images/b057bc9c-8875-4402-a96b-41d5333d4a9b_w1200_r1.778_fpx55_fpy51.jpg",
       "published": "2026-11-08T14:13:00+01:00",
       "category": "Nachrichten",
-      "score": 54.26
+      "score": 52.58
     },
     {
       "id": "handelsblatt-86eb1bf530403295",
@@ -1211,7 +1403,7 @@
       "image": "https://images.handelsblatt.com/ajtAzjTvGNTC/cover/900/506/0/0/107/106/0.5/0.5/linke-emde-weist-rueckzugsforderung-des-vorstands-zurueck.jpg",
       "published": "2026-11-08T14:08:33+00:00",
       "category": "Politik",
-      "score": 86.98
+      "score": 86.8
     },
     {
       "id": "handelsblatt-56914ca0b98eaf9b",
@@ -1223,7 +1415,7 @@
       "image": "https://images.handelsblatt.com/JFbphYrVIPcm/cover/900/506/0/0/107/106/0.5/0.5/franzoesischer-aussenminister-jean-noel-barrot.jpg",
       "published": "2026-11-08T14:06:16+00:00",
       "category": "Politik",
-      "score": 83.66
+      "score": 83.48
     },
     {
       "id": "handelsblatt-69fb6e27b2d903ab",
@@ -1235,7 +1427,7 @@
       "image": "https://images.handelsblatt.com/1Xm4dtpO3EUV/cover/900/506/0/0/261/262/0.5/0.5/file-photo-file-photo-an-anthropic-logo-is-displayed-at-moscone-center-during-the-dreamforce-2026.jpg",
       "published": "2026-11-08T13:58:59+00:00",
       "category": "Technologie",
-      "score": 53.9
+      "score": 52.22
     },
     {
       "id": "golem-8e903862561a61b1",
@@ -1243,11 +1435,11 @@
       "sourceWeight": 0.85,
       "title": "Jensen Huang: Nvidia-Chef wird Verhältnis mit chinesischer Spionin vorgeworfen",
       "link": "https://www.golem.de/news/jensen-huang-nvidia-chef-wird-verhaeltnis-mit-chinesischer-spionin-vorgeworfen-2611-214969.html",
-      "summary": "&#8203;&#8203;Nvidia-Chef Jensen Huang soll nach US-Geheimdienstinformationen eine romantische Beziehung zu einer chinesischen Spionin unterhalten haben. ( Nvidia , Politik )",
+      "summary": "Nvidia-Chef Jensen Huang soll nach US-Geheimdienstinformationen eine romantische Beziehung zu einer chinesischen Spionin unterhalten haben. ( Nvidia , Politik )",
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214969&amp;page=1&amp;ts=1794142382",
       "published": "2026-11-08T13:53:02+01:00",
       "category": "Technologie",
-      "score": 51.98
+      "score": 69.93
     },
     {
       "id": "spiegel-ff50bf71390bc16e",
@@ -1259,19 +1451,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/04ffe2ed-ccce-4e64-ab35-d90a3f84c8c3_w1200_r1.778_fpx48_fpy55.jpg",
       "published": "2026-11-08T13:51:00+01:00",
       "category": "Nachrichten",
-      "score": 53.95
-    },
-    {
-      "id": "spiegel-a149880109bbc8c5",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Thomas Markle Jr. – Philippinen: Polizei entschuldigt sich bei Halbbruder von Herzogin Meghan",
-      "link": "https://www.spiegel.de/panorama/leute/thomas-markle-jr-philippinen-polizei-entschuldigt-sich-bei-halbbruder-von-herzogin-meghan-a-c77a6e5f-fba5-4ac1-8055-9d885c909ec0#ref=rss",
-      "summary": "Thomas Markle Sr. sitzt in den USA in Haft. Er soll Aufnahmen von Kindesmissbrauch gespeichert haben. Die Behörden nahmen auch seinen Sohn ins Visier, offenbar wegen eines Missverständnisses.",
-      "image": "https://cdn.prod.www.spiegel.de/images/0cdd4eef-e507-44d1-a932-c97d4d0d01f8_w1024_r1.778_fpx49_fpy51.jpg",
-      "published": "2026-11-08T13:48:00+01:00",
-      "category": "Technologie",
-      "score": 53.91
+      "score": 52.28
     },
     {
       "id": "golem-6c0775b51995473b",
@@ -1283,7 +1463,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214951&amp;page=1&amp;ts=1794141602",
       "published": "2026-11-08T13:40:02+01:00",
       "category": "Technologie",
-      "score": 51.8
+      "score": 50.12
     },
     {
       "id": "handelsblatt-791940aa277293a8",
@@ -1295,7 +1475,7 @@
       "image": "https://images.handelsblatt.com/n58LDZbj4ZYn/cover/900/506/0/0/89/89/0.5/0.5/beginn-tagung-der-synode-der-evangelischen-kirche.jpg",
       "published": "2026-11-08T13:39:45+00:00",
       "category": "Politik",
-      "score": 56.63
+      "score": 54.95
     },
     {
       "id": "deutsche-welle-4910dc3f62d2d9d1",
@@ -1307,7 +1487,7 @@
       "image": "https://static.dw.com/image/59152594_6.jpg",
       "published": "2026-11-08T13:37:00+00:00",
       "category": "Technologie",
-      "score": 53.59
+      "score": 51.92
     },
     {
       "id": "handelsblatt-18d37d7a1e27bb62",
@@ -1319,31 +1499,7 @@
       "image": "https://images.handelsblatt.com/8hZYRgHodTWb/cover/900/506/0/0/313/312/0.5/0.5/archiv-21.09.2026-berlin-wolfgang-kubicki-bundesvorsitzender-der-fdp-spricht-nach-der-landtags.jpg",
       "published": "2026-11-08T13:36:57+00:00",
       "category": "Wirtschaft",
-      "score": 56.59
-    },
-    {
-      "id": "spiegel-289026d8fec4390c",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "FC Bayern München: Uli Hoeneß glaubt an Rückkehr von Vincent Kompany bis Ende November",
-      "link": "https://www.spiegel.de/sport/fussball/fc-bayern-muenchen-uli-hoeness-glaubt-an-rueckkehr-von-vincent-kompany-bis-ende-november-a-84e9211e-36d1-4277-a792-a2c769f98f0f#ref=rss",
-      "summary": "Bayern-Coach Vincent Kompany erholt sich derzeit von einer Hirnhautreizung, hatte deshalb gar ins Krankenhaus gemusst. Ehrenpräsident Uli Hoeneß ließ nun durchblicken, wann Kompanys Comeback bevorsteht.",
-      "image": "https://cdn.prod.www.spiegel.de/images/6c122b17-0556-4b80-8734-18b44e61efdb_w1200_r1.778_fpx39.51_fpy45.jpg",
-      "published": "2026-11-08T13:29:00+01:00",
-      "category": "Nachrichten",
-      "score": 53.65
-    },
-    {
-      "id": "spiegel-d4e4d939902095ce",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Fürth und Kempten: Ermittler suchen in Cold-Case-Fall zweier Mädchen nach weiteren möglichen Opfern",
-      "link": "https://www.spiegel.de/panorama/justiz/fuerth-und-kempten-ermittler-suchen-in-cold-case-fall-zweier-maedchen-nach-weiteren-moeglichen-opfern-a-98fa9381-c82a-486a-9f61-df1cf4bc5b4d#ref=rss",
-      "summary": "Zwei ungeklärte Morde in den Siebziger- und Achtzigerjahren lassen Polizisten in Bayern nicht ruhen. Außer nach dem Täter suchen sie nun auch nach potenziellen weiteren Opfern.",
-      "image": "https://cdn.prod.www.spiegel.de/images/fab40138-470e-4081-9c63-2c5ec74bd602_w1200_r1.778_fpx31.04_fpy50.jpg",
-      "published": "2026-11-08T13:25:00+01:00",
-      "category": "Nachrichten",
-      "score": 53.59
+      "score": 54.92
     },
     {
       "id": "deutsche-welle-f886540d86488ace",
@@ -1355,7 +1511,7 @@
       "image": "https://static.dw.com/image/65845532_6.jpg",
       "published": "2026-11-08T13:20:00+00:00",
       "category": "Politik",
-      "score": 86.98
+      "score": 86.8
     },
     {
       "id": "handelsblatt-01c04343ba675050",
@@ -1367,7 +1523,7 @@
       "image": "https://images.handelsblatt.com/QnthwkRirrOv/cover/900/506/0/0/0/0/0.5/0.5/m.jpg",
       "published": "2026-11-08T13:17:40+00:00",
       "category": "Wirtschaft",
-      "score": 56.32
+      "score": 54.65
     },
     {
       "id": "handelsblatt-0d79e59b17bfe000",
@@ -1379,7 +1535,7 @@
       "image": "https://images.handelsblatt.com/WcVGamd8Iw3I/cover/900/506/0/0/107/107/0.5/0.5/wolfgang-kubicki.jpg",
       "published": "2026-11-08T13:14:13+00:00",
       "category": "Wirtschaft",
-      "score": 56.59
+      "score": 54.92
     },
     {
       "id": "golem-1d3468fa1ddec6d9",
@@ -1391,7 +1547,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214968&amp;page=1&amp;ts=1794139681",
       "published": "2026-11-08T13:08:01+01:00",
       "category": "Politik",
-      "score": 65.36
+      "score": 63.68
     },
     {
       "id": "tagesschau-b047847f2d7f888b",
@@ -1403,7 +1559,7 @@
       "image": "https://images.tagesschau.de/image/191b788d-eaa3-44e0-8d43-2c000d71fd4a/AAABobrngk4/AAABnSSvrFg/16x9-big/stadt-stromausfall-100.jpg?width=1920",
       "published": "2026-11-08T13:05:57+01:00",
       "category": "Politik",
-      "score": 86.98,
+      "score": 86.8,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -1435,7 +1591,7 @@
       "image": "https://images.handelsblatt.com/ns6sgXJrQyHM/cover/900/506/0/0/313/312/0.5/0.5/september-29-2026-washington-district-of-coulmbia-united-states-elon-musk-stands-in-the-backgro.jpg",
       "published": "2026-11-08T13:05:40+00:00",
       "category": "Wirtschaft",
-      "score": 56.16
+      "score": 54.48
     },
     {
       "id": "handelsblatt-7425a1225530fcdb",
@@ -1447,7 +1603,7 @@
       "image": "https://images.handelsblatt.com/-Y9cwPONkTj-/cover/900/506/353/192/246/686/0.5/0.5/businesswoman-holding-papers-and-talking-with-a-businessman-during-a-professional-consultation-or-in.jpg",
       "published": "2026-11-08T13:05:25+00:00",
       "category": "Wirtschaft",
-      "score": 56.15
+      "score": 54.48
     },
     {
       "id": "deutsche-welle-401bf73e984eb9eb",
@@ -1459,7 +1615,7 @@
       "image": "https://static.dw.com/image/79890296_6.jpg",
       "published": "2026-11-08T13:02:00+00:00",
       "category": "Nachrichten",
-      "score": 71.42
+      "score": 71.48
     },
     {
       "id": "handelsblatt-3dd843ecdd2ba961",
@@ -1471,7 +1627,7 @@
       "image": "https://images.handelsblatt.com/LKpSuLNaTTBQ/cover/900/506/0/0/627/0/0.5/0.5/binance.jpg",
       "published": "2026-11-08T13:01:39+00:00",
       "category": "Wirtschaft",
-      "score": 56.1
+      "score": 54.43
     },
     {
       "id": "handelsblatt-c9da7d79ac27acf8",
@@ -1483,7 +1639,7 @@
       "image": "https://images.handelsblatt.com/xxmBAygkq0ZS/cover/900/506/0/0/107/107/0.5/0.5/schwarzmilzferner-in-den-alpen.jpg",
       "published": "2026-11-08T12:56:54+00:00",
       "category": "Wirtschaft",
-      "score": 64.04
+      "score": 62.36
     },
     {
       "id": "handelsblatt-d58ebc78a397d5e7",
@@ -1495,7 +1651,7 @@
       "image": "https://images.handelsblatt.com/XMluIY33lkRY/cover/900/506/0/0/128/128/0.5/0.5/beginn-tagung-der-synode-der-evangelischen-kirche.jpg",
       "published": "2026-11-08T12:41:28+00:00",
       "category": "Technologie",
-      "score": 52.82
+      "score": 51.14
     },
     {
       "id": "golem-c4de9aed92d4f47c",
@@ -1507,7 +1663,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214967&amp;page=1&amp;ts=1794136922",
       "published": "2026-11-08T12:22:02+01:00",
       "category": "Panorama",
-      "score": 50.72
+      "score": 49.04
     },
     {
       "id": "tagesschau-e58ba3f73f5348d5",
@@ -1519,7 +1675,7 @@
       "image": "https://images.tagesschau.de/image/8e7acc0b-1350-4eb2-b37a-a80548dbbca8/AAABobrio8o/AAABnSSvrFg/16x9-big/krakau-schuesse-marktplatz-108.jpg?width=1920",
       "published": "2026-11-08T12:19:37+01:00",
       "category": "Nachrichten",
-      "score": 53.69
+      "score": 52.01
     },
     {
       "id": "tagesschau-08813ee1e70b3eec",
@@ -1531,7 +1687,7 @@
       "image": "https://images.tagesschau.de/image/15a557c5-1453-4cec-8231-10da1cbc3d08/AAABobrU-hk/AAABnSSvrFg/16x9-big/iran-schiff-100.jpg?width=1920",
       "published": "2026-11-08T12:04:42+01:00",
       "category": "Technologie",
-      "score": 67.74
+      "score": 67.8
     },
     {
       "id": "handelsblatt-3f4b1ee3102f495c",
@@ -1543,7 +1699,7 @@
       "image": "https://images.handelsblatt.com/2JgAooijQ2bi/cover/900/506/0/0/0/0/0.5/0.5/me-cfs.jpg",
       "published": "2026-11-08T12:03:47+00:00",
       "category": "Wirtschaft",
-      "score": 55.3
+      "score": 53.62
     },
     {
       "id": "handelsblatt-0089639aa1e39760",
@@ -1555,7 +1711,7 @@
       "image": "https://images.handelsblatt.com/YDFSdjEDqFOc/cover/900/506/1/1/0/0/0.5/0.5/frankfurter-leben.png",
       "published": "2026-11-08T11:52:21+00:00",
       "category": "Wirtschaft",
-      "score": 63.14
+      "score": 61.46
     },
     {
       "id": "golem-97834fc5dfe3f013",
@@ -1567,7 +1723,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214966&amp;page=1&amp;ts=1794134161",
       "published": "2026-11-08T11:36:01+01:00",
       "category": "Technologie",
-      "score": 50.08
+      "score": 48.4
     },
     {
       "id": "tagesschau-de0c2b10f3dbbbd4",
@@ -1579,7 +1735,7 @@
       "image": "https://images.tagesschau.de/image/f4712cf0-6ad0-4a39-811a-e0cfdf23850c/AAABobq3v8E/AAABnSSvrFg/16x9-big/restaurant-synri-moskau-102.jpg?width=1920",
       "published": "2026-11-08T11:32:46+01:00",
       "category": "Politik",
-      "score": 72.03
+      "score": 70.36
     },
     {
       "id": "handelsblatt-e6ffd7602c982a7d",
@@ -1591,7 +1747,7 @@
       "image": "https://images.handelsblatt.com/7RUkcTdb1YsD/cover/900/506/0/0/107/106/0.5/0.5/us-praesident-trump-und-ufc-chef-dana-white.jpg",
       "published": "2026-11-08T11:10:29+00:00",
       "category": "Politik",
-      "score": 62.56
+      "score": 60.88
     },
     {
       "id": "handelsblatt-9887dfc20a096a1a",
@@ -1603,7 +1759,7 @@
       "image": "https://images.handelsblatt.com/e7BPEoD8OOdr/cover/900/506/0/0/183/183/0.5/0.5/a-customer-counts-cash-as-he-buys-the-iphone-8-at-the-apple-orchard-shop-in-singapore-september-22.jpg",
       "published": "2026-11-08T11:05:31+00:00",
       "category": "Wirtschaft",
-      "score": 54.49
+      "score": 52.81
     },
     {
       "id": "tagesschau-b4e7ee8b14c94769",
@@ -1615,7 +1771,7 @@
       "image": "https://images.tagesschau.de/image/1d795625-6e32-4268-8bf0-5ca4a0c10aa8/AAABobqEWvg/AAABnSSvrFg/16x9-big/dana-white-donald-trump-100.jpg?width=1920",
       "published": "2026-11-08T10:59:49+01:00",
       "category": "Politik",
-      "score": 91.42,
+      "score": 91.48,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -1626,8 +1782,8 @@
           },
           {
             "source": "spiegel",
-            "title": "Donald Trump bietet UFC-Chef Dana White Job als Sprecher an: Alles nur eine Verwechslung?",
-            "link": "https://www.spiegel.de/netzwelt/web/donald-trump-bietet-ufc-chef-dana-white-job-als-sprecher-an-alles-nur-eine-verwechslung-a-2f71c575-00ad-44d0-872e-10b58830d0dd#ref=rss"
+            "title": "Donald Trump bietet UFC-Chef Dana White Job als Sprecher an - eine Verwechslung?",
+            "link": "https://www.spiegel.de/netzwelt/web/donald-trump-bietet-ufc-chef-dana-white-job-als-sprecher-an-eine-verwechslung-a-2f71c575-00ad-44d0-872e-10b58830d0dd#ref=rss"
           }
         ]
       }
@@ -1642,7 +1798,7 @@
       "image": "https://images.tagesschau.de/image/9abd0f70-e013-42c1-89d5-8710c5472b62/AAABobqYEFU/AAABnSSvrFg/16x9-big/polen-krakau-100.jpg?width=1920",
       "published": "2026-11-08T10:58:10+01:00",
       "category": "Nachrichten",
-      "score": 52.55
+      "score": 50.88
     },
     {
       "id": "golem-8799f0b57f531853",
@@ -1654,7 +1810,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214965&amp;page=1&amp;ts=1794131222",
       "published": "2026-11-08T10:47:02+01:00",
       "category": "Technologie",
-      "score": 49.4
+      "score": 47.72
     },
     {
       "id": "handelsblatt-3f2f6bf31f3ac35d",
@@ -1666,7 +1822,7 @@
       "image": "https://images.handelsblatt.com/ljgIqX8rZ9Wd/cover/900/506/0/0/183/182/0.5/0.5/archiv-29.04.2025-oesterreich-innsbruck-uebersicht-der-hauptroehre-waehrend-eines-pressetermins-der.jpg",
       "published": "2026-11-08T10:33:11+00:00",
       "category": "Technologie",
-      "score": 51.04
+      "score": 49.36
     },
     {
       "id": "handelsblatt-b6beb5314e1d0197",
@@ -1678,7 +1834,7 @@
       "image": "https://images.handelsblatt.com/UOeFZlF9BWIW/cover/900/506/0/0/80/545/0.5/0.5/08.11.2026-polen-krakau-ein-kriminaltechniker-macht-fotos-neben-dem-fahrzeug-das-angeblich-von-e.jpg",
       "published": "2026-11-08T10:29:42+00:00",
       "category": "Panorama",
-      "score": 60.99
+      "score": 59.31
     },
     {
       "id": "handelsblatt-a93cdf501af93fdd",
@@ -1690,7 +1846,7 @@
       "image": "https://images.handelsblatt.com/XndwSomfBX3l/cover/900/506/0/0/89/331/0.5/0.5/grandfather-pushing-wheelbarrow-with-granddaughter-in-the-garden-model-released-symbolfoto-publicat.jpeg",
       "published": "2026-11-08T10:12:58+00:00",
       "category": "Technologie",
-      "score": 50.76
+      "score": 49.08
     },
     {
       "id": "golem-6a18b93c104490a3",
@@ -1702,7 +1858,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214942&amp;page=1&amp;ts=1794128402",
       "published": "2026-11-08T10:00:02+01:00",
       "category": "Technologie",
-      "score": 56.75
+      "score": 55.07
     },
     {
       "id": "deutsche-welle-e5eeb2b77be7fe69",
@@ -1714,7 +1870,7 @@
       "image": "https://static.dw.com/image/79793675_6.jpg",
       "published": "2026-11-08T09:52:00+00:00",
       "category": "Nachrichten",
-      "score": 50.47
+      "score": 48.79
     },
     {
       "id": "handelsblatt-bcc32e5f9946388f",
@@ -1726,7 +1882,7 @@
       "image": "https://images.handelsblatt.com/Gt0zZnCQs2H0/cover/900/506/0/0/607/18/0.5/0.5/an-aerial-view-of-earthen-lamps-on-the-banks-of-the-saryu-river-during-deepotsav-celebrations-an-ev.jpg",
       "published": "2026-11-08T09:39:00+00:00",
       "category": "Wirtschaft",
-      "score": 53.29
+      "score": 51.61
     },
     {
       "id": "handelsblatt-75cc37f9f6f8f263",
@@ -1738,7 +1894,7 @@
       "image": "https://images.handelsblatt.com/DWpPgQSgLscT/cover/900/506/0/0/215/215/0.5/0.5/apheris.jpg",
       "published": "2026-11-08T09:28:30+00:00",
       "category": "Technologie",
-      "score": 50.14
+      "score": 48.46
     },
     {
       "id": "tagesschau-a95c7b98150fb6f8",
@@ -1750,7 +1906,7 @@
       "image": "https://images.tagesschau.de/image/569e6360-4542-49fc-a185-0871ac39e241/AAABobqGs5o/AAABnSSvrFg/16x9-big/papst-uruguay-100.jpg?width=1920",
       "published": "2026-11-08T09:27:56+01:00",
       "category": "Nachrichten",
-      "score": 67.74
+      "score": 72.48
     },
     {
       "id": "deutsche-welle-601afbf20d75bcb9",
@@ -1762,7 +1918,7 @@
       "image": "https://static.dw.com/image/79889790_6.jpg",
       "published": "2026-11-08T09:26:00+00:00",
       "category": "Nachrichten",
-      "score": 50.11
+      "score": 48.43
     },
     {
       "id": "handelsblatt-2c86284e60afc715",
@@ -1774,7 +1930,7 @@
       "image": "https://images.handelsblatt.com/mGtT-8ZPfSO9/cover/900/506/0/0/53/53/0.5/0.5/archiv-09.09.2026-usa-cupertino-das-iphone-duo-das-erste-aufklappbare-smartphone-von-apple-is.jpg",
       "published": "2026-11-08T08:54:20+00:00",
       "category": "Technologie",
-      "score": 49.67
+      "score": 47.99
     },
     {
       "id": "handelsblatt-a1c00bb5817533e9",
@@ -1786,7 +1942,7 @@
       "image": "https://images.handelsblatt.com/FVaw8vmCar2i/cover/900/506/0/0/107/107/0.5/0.5/papst-leo-xiv-auf-suedamerika-reise.jpg",
       "published": "2026-11-08T08:52:04+00:00",
       "category": "Wirtschaft",
-      "score": 60.64
+      "score": 58.96
     },
     {
       "id": "handelsblatt-be6110f0a688ce8a",
@@ -1798,7 +1954,7 @@
       "image": "https://images.handelsblatt.com/G0I3yyLHV-F9/cover/900/506/0/0/194/194/0.5/0.5/aftermath-of-a-russian-missile-attack-in-kyiv-07-nov-2026-employees-stand-among-the-ruins-of-a-kin.jpg",
       "published": "2026-11-08T08:43:00+00:00",
       "category": "Politik",
-      "score": 86.98
+      "score": 86.8
     },
     {
       "id": "tagesschau-f98b688a75f1d9cc",
@@ -1810,7 +1966,7 @@
       "image": "https://images.tagesschau.de/image/86a8cd8d-207e-47ea-b096-03a699f80c25/AAABoaus4WI/AAABnSSvrFg/16x9-big/tatort-fussballplatz-100.jpg?width=1920",
       "published": "2026-11-08T08:39:28+01:00",
       "category": "Technologie",
-      "score": 50.63
+      "score": 48.95
     },
     {
       "id": "tagesschau-28fad5e8eb12eaa8",
@@ -1822,7 +1978,7 @@
       "image": "https://images.tagesschau.de/image/18371428-3210-4453-b7ab-1fd97fa2d32f/AAABm5eTw7w/AAABnSSvrFg/16x9-big/statuen-baer-bulle-deutsche-boerse-100.jpg?width=1920",
       "published": "2026-11-08T08:35:33+01:00",
       "category": "Wirtschaft",
-      "score": 53.57
+      "score": 51.9
     },
     {
       "id": "tagesschau-ad5f4452ea5143ca",
@@ -1834,7 +1990,7 @@
       "image": "https://images.tagesschau.de/image/38870537-2e1c-48c2-93aa-6716c4c8cf86/AAABoboOjEc/AAABnSSvrFg/16x9-big/japan-erdbeben-aichi-102.jpg?width=1920",
       "published": "2026-11-08T08:27:58+01:00",
       "category": "Nachrichten",
-      "score": 75.74
+      "score": 75.8
     },
     {
       "id": "handelsblatt-9ef8ab78dbd2b64c",
@@ -1846,7 +2002,7 @@
       "image": "https://images.handelsblatt.com/po874ONir9Fb/cover/900/506/0/0/288/287/0.5/0.5/archiv-07.06.2024-berlin-eine-frau-sitzt-beim-tag-des-familienunternehmens-2024-im-hotel-adlon-z.jpg",
       "published": "2026-11-08T08:25:27+00:00",
       "category": "Wirtschaft",
-      "score": 52.27
+      "score": 50.59
     },
     {
       "id": "handelsblatt-ddc0c45087d70375",
@@ -1858,7 +2014,7 @@
       "image": "https://images.handelsblatt.com/Vo7Dr5THVoww/cover/900/506/0/0/313/312/0.5/0.5/neubau-des-literatur-quartier-in-essen.-21.07.2026-eu-deu-deutschland-nordrhein-westfalen-essen.jpg",
       "published": "2026-11-08T08:08:23+00:00",
       "category": "Wirtschaft",
-      "score": 52.03
+      "score": 50.35
     },
     {
       "id": "handelsblatt-e1cb1fc2dcb7908a",
@@ -1870,55 +2026,7 @@
       "image": "https://images.handelsblatt.com/vPN5RXulKXbX/cover/900/506/758/734/383/1081/0.5/0.5/nz-election-nz-prime-minister-and-national-party-leader-christopher-luxon-departs-a-press-conferenc.jpg",
       "published": "2026-11-08T07:59:02+00:00",
       "category": "Politik",
-      "score": 59.9
-    },
-    {
-      "id": "handelsblatt-70e0605a08c1028b",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Deep Read: Heinz Ketchup hat die Welt erobert – doch der Konzern schreibt rote Zahlen",
-      "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/heinz-ketchup-eine-ikonische-weltmarke-kaempft-gegen-rote-zahlen/100265167.html",
-      "summary": "Heinz Ketchup ist Weltmarktführer – doch der Konzern schreibt rote Zahlen. Wie passt das zusammen? Und warum macht ausgerechnet die Abnehmspritze der Konzernführung Hoffnung?",
-      "image": "https://images.handelsblatt.com/SNaa3TnheRzF/cover/900/506/0/0/0/0/0.5/0.5/heinz-ketchup.jpg",
-      "published": "2026-11-08T07:57:00+00:00",
-      "category": "Wirtschaft",
-      "score": 51.87
-    },
-    {
-      "id": "handelsblatt-405072304d7a2479",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "US-Präsident: Trump schürt Zweifel an Kongresswahl und droht Demokraten",
-      "link": "https://www.handelsblatt.com/politik/international/us-praesident-trump-schuert-zweifel-an-kongresswahl-und-droht-demokraten/100268151.html",
-      "summary": "Nach der krachenden Niederlage seiner Republikaner bei den Wahlen zeigte sich Donald Trump zunächst einsichtig. Doch jetzt teilt der US-Präsident wieder aus.",
-      "image": "https://images.handelsblatt.com/BlNztmo-zoXK/cover/900/506/0/0/107/106/0.5/0.5/us-praesident-trump.jpg",
-      "published": "2026-11-08T07:54:40+00:00",
-      "category": "Politik",
-      "score": 67.84
-    },
-    {
-      "id": "handelsblatt-9f29cadb18ea93e8",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Dana White: Trump will Kampfsport-Manager als Sprecher des Weißen Hauses",
-      "link": "https://www.handelsblatt.com/politik/international/dana-white-trump-will-kampfsport-manager-als-sprecher-des-weissen-hauses/100268144.html",
-      "summary": "Der US-Präsident sieht in UFC-Präsident Dana White einen „gewalttätigen Kämpfer“. White soll nun Sprecher des Weißen Hauses werden. Den Demokraten wirft Trump vor, Drohbriefe zu schreiben.",
-      "image": "https://images.handelsblatt.com/LVay35zKvJdl/cover/900/506/0/0/104/104/0.5/0.5/josh-hokit-mixed-martial-artist-left-and-derrick-lewis-mixed-martial-artist-are-separated-by-da.jpg",
-      "published": "2026-11-08T07:52:00+00:00",
-      "category": "Politik",
-      "score": 62.56
-    },
-    {
-      "id": "handelsblatt-c334f3ee22a4282f",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Bankenskandal: Paraguays Ex-Präsident Peña muss in Untersuchungshaft",
-      "link": "https://www.handelsblatt.com/politik/international/bankenskandal-paraguays-ex-praesident-pena-muss-in-untersuchungshaft/100268181.html",
-      "summary": "Erst verliert Santiago Peña sein Präsidentenamt, nun muss er in Haft. Die Justiz wirft ihm im Zusammenhang mit einem Bankenskandal schwere Rechtsverstöße vor.",
-      "image": "https://images.handelsblatt.com/XTNIWCnBag5E/cover/900/506/553/488/811/400/0.5/0.5/paraguayaposs-former-president-santiago-pena-and-his-lawyer-ricardo-preda-sit-with-judge-humberto.jpg",
-      "published": "2026-11-08T07:34:33+00:00",
-      "category": "Wirtschaft",
-      "score": 83.74
+      "score": 58.22
     },
     {
       "id": "golem-08b6b073f77d15b3",
@@ -1930,7 +2038,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214936&amp;page=1&amp;ts=1794119402",
       "published": "2026-11-08T07:30:02+01:00",
       "category": "Technologie",
-      "score": 46.66
+      "score": 44.99
     },
     {
       "id": "netzpolitik-bdc9257e9d9d50c6",
@@ -1942,7 +2050,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/xkolumneagility.jpg",
       "published": "2026-11-08T07:09:23+00:00",
       "category": "Politik",
-      "score": 48.21
+      "score": 46.53
     },
     {
       "id": "golem-886c782e03c42eff",
@@ -1954,7 +2062,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214922&amp;page=1&amp;ts=1794117602",
       "published": "2026-11-08T07:00:02+01:00",
       "category": "Wirtschaft",
-      "score": 49.25
+      "score": 47.57
     },
     {
       "id": "deutsche-welle-90c1341233e3e831",
@@ -1966,7 +2074,7 @@
       "image": "https://static.dw.com/image/70681333_6.jpg",
       "published": "2026-11-08T06:36:00+00:00",
       "category": "Nachrichten",
-      "score": 47.75
+      "score": 46.07
     },
     {
       "id": "deutsche-welle-03668d021481fd6e",
@@ -1978,19 +2086,7 @@
       "image": "https://static.dw.com/image/79870876_6.jpg",
       "published": "2026-11-08T05:54:00+00:00",
       "category": "Nachrichten",
-      "score": 83.74
-    },
-    {
-      "id": "handelsblatt-e37e9cfeefa741ca",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Reitervolk im Drogenrausch: Haaranalyse: Cannabis schon vor 2.800 Jahren konsumiert?",
-      "link": "https://www.handelsblatt.com/technik/forschung-innovation/reitervolk-im-drogenrausch-haaranalyse-cannabis-schon-vor-2800-jahren-konsumiert/100268175.html",
-      "summary": "Cannabis zählt zu den ältesten von Menschen genutzten psychoaktiven Pflanzen. Eindeutige Belege für den Rauschkonsum sind allerdings rar. Nun wurden uralte Haare aus einem Grab untersucht.",
-      "image": "https://images.handelsblatt.com/26ygH00cFXma/cover/900/506/0/0/107/106/0.5/0.5/cannabis-konsum-archaeologie.jpg",
-      "published": "2026-11-08T05:45:03+00:00",
-      "category": "Wirtschaft",
-      "score": 50.04
+      "score": 80.48
     },
     {
       "id": "tagesschau-5195b1fde6a0a70a",
@@ -2002,7 +2098,7 @@
       "image": "https://images.tagesschau.de/image/f8f677e9-6450-420b-b286-94a87282a5ea/AAABnmPDHgs/AAABnSSvrFg/16x9-big/klassenzimmer-stuehle-100.jpg?width=1920",
       "published": "2026-11-08T04:28:25+01:00",
       "category": "Technologie",
-      "score": 72.66
+      "score": 72.48
     },
     {
       "id": "tagesschau-852fb991b28b1f77",
@@ -2014,7 +2110,7 @@
       "image": "https://images.tagesschau.de/image/c5c63d68-4ab5-4931-8779-0a67c552dcba/AAABnm9Gfq0/AAABnSSvrFg/16x9-big/kubicki-170.jpg?width=1920",
       "published": "2026-11-08T03:28:44+01:00",
       "category": "Politik",
-      "score": 65.31
+      "score": 63.63
     },
     {
       "id": "tagesschau-488576580fc7fc90",
@@ -2026,7 +2122,7 @@
       "image": "https://images.tagesschau.de/image/68961771-7cd2-466f-9fc6-f5e1ef891cff/AAABobi2DQI/AAABnSSvrFg/16x9-big/krakau-trauer-100.jpg?width=1920",
       "published": "2026-11-08T02:50:38+01:00",
       "category": "Nachrichten",
-      "score": 52.55
+      "score": 50.88
     },
     {
       "id": "tagesschau-ca4ed9264785e437",
@@ -2038,7 +2134,7 @@
       "image": "https://images.tagesschau.de/image/035bdba7-3beb-4918-8149-fb5ddb739cac/AAABobaqOgE/AAABnSSvrFg/16x9-big/einsatzkraefte-historisches-stadtzentrum-102.jpg?width=1920",
       "published": "2026-11-08T02:27:38+01:00",
       "category": "Nachrichten",
-      "score": 60.99
+      "score": 59.31
     },
     {
       "id": "tagesschau-b9898604afd22eab",
@@ -2050,7 +2146,7 @@
       "image": "https://images.tagesschau.de/image/c030e7f1-afd2-4583-91e2-9d3a57c6bc4b/AAABobh2JRE/AAABnSSvrFg/16x9-big/melenchon-130.jpg?width=1920",
       "published": "2026-11-08T01:14:21+01:00",
       "category": "Politik",
-      "score": 55.45
+      "score": 53.77
     },
     {
       "id": "tagesschau-c9065ea7c8c33571",
@@ -2062,7 +2158,7 @@
       "image": "https://images.tagesschau.de/image/bee3ba3a-f8f6-43d9-a494-b75bb2b72fe1/AAABobanF1k/AAABnSSvrFg/16x9-big/einsatzkraefte-historisches-stadtzentrum-100.jpg?width=1920",
       "published": "2026-11-07T22:51:26+01:00",
       "category": "Panorama",
-      "score": 60.99
+      "score": 59.31
     },
     {
       "id": "tagesschau-0627db71a1579977",
@@ -2074,27 +2170,7 @@
       "image": "https://images.tagesschau.de/image/9e147e56-f6c3-400e-b95b-a781c07ba6b5/AAABobe3Qgs/AAABnSSvrFg/16x9-big/pena-110.jpg?width=1920",
       "published": "2026-11-07T21:33:23+01:00",
       "category": "Nachrichten",
-      "score": 83.74,
-      "coverage": {
-        "sourceCount": 4,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Skandal um Ueno-Bank - Staatsanwaltschaft in Paraguay erhebt Anklage - abgesetzter Präsident Peña in Untersuchungshaft",
-            "link": "https://www.deutschlandfunk.de/staatsanwaltschaft-in-paraguay-erhebt-anklage-abgesetzter-praesident-pe-a-in-untersuchungshaft-102.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Bankenskandal: Paraguays Ex-Präsident Peña muss in Untersuchungshaft",
-            "link": "https://www.handelsblatt.com/politik/international/bankenskandal-paraguays-ex-praesident-pena-muss-in-untersuchungshaft/100268181.html"
-          },
-          {
-            "source": "deutsche-welle",
-            "title": "Bankenskandal in Paraguay: Ex-Präsident Peña muss in Untersuchungshaft",
-            "link": "https://www.dw.com/de/bankenskandal-in-paraguay-ex-präsident-peña-muss-in-untersuchungshaft/a-79874532?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
+      "score": 80.48
     },
     {
       "id": "tagesschau-48087d855feea03d",
@@ -2106,7 +2182,7 @@
       "image": "https://images.tagesschau.de/image/1468c2f0-97fc-4df3-8608-e7ff13e7a1a9/AAABobeoupM/AAABnSSvrFg/16x9-big/eisenkot-116.jpg?width=1920",
       "published": "2026-11-07T21:31:48+01:00",
       "category": "Politik",
-      "score": 89.55
+      "score": 89.37
     },
     {
       "id": "tagesschau-5e74a3617b4c48df",
@@ -2118,7 +2194,7 @@
       "image": "https://images.tagesschau.de/image/c08b02e7-e2b9-49aa-9293-2aedfefde92c/AAABobeMIMM/AAABnSSvrFg/16x9-big/papst-leo-226.jpg?width=1920",
       "published": "2026-11-07T20:56:52+01:00",
       "category": "Technologie",
-      "score": 67.74
+      "score": 72.48
     },
     {
       "id": "tagesschau-e235ae984fdc88f7",
@@ -2130,7 +2206,7 @@
       "image": "https://images.tagesschau.de/image/5922e1ba-f927-46dd-9830-2a83cdeab4d7/AAABobbgQaA/AAABnSSvrFg/16x9-big/frankreich-888.jpg?width=1920",
       "published": "2026-11-07T19:57:56+01:00",
       "category": "Nachrichten",
-      "score": 40.05
+      "score": 38.37
     },
     {
       "id": "deutsche-welle-030ebfd23cca300e",
@@ -2142,7 +2218,7 @@
       "image": "https://static.dw.com/image/79282503_6.jpg",
       "published": "2026-11-07T18:35:00+00:00",
       "category": "Nachrichten",
-      "score": 37.73
+      "score": 36.06
     },
     {
       "id": "deutsche-welle-d4479ddc8db61aac",
@@ -2154,7 +2230,7 @@
       "image": "https://static.dw.com/image/79887089_6.jpg",
       "published": "2026-11-07T18:00:00+00:00",
       "category": "Panorama",
-      "score": 66.98
+      "score": 66.8
     },
     {
       "id": "tagesschau-492976fb9acc9077",
@@ -2166,19 +2242,7 @@
       "image": "https://images.tagesschau.de/image/15646591-1e61-481c-b10d-8b00ab988e21/AAABobaEBY4/AAABnSSvrFg/16x9-big/stephen-miller-104.jpg?width=1920",
       "published": "2026-11-07T15:57:49+01:00",
       "category": "Politik",
-      "score": 47.72
-    },
-    {
-      "id": "tagesschau-1ddf40b38b3396f5",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Pistorius rechnet derzeit nicht mit Rückkehr zur Wehrpflicht",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/bundeswehr-diskussion-wehrpflicht-100.html",
-      "summary": "Die Wiedereinführung der Wehrpflicht scheint zum jetzigen Zeitpunkt offenbar nicht nötig. Verteidigungsminister Pistorius berichtet von einer positiven Entwicklung beim Bundeswehrpersonal - Spitzenvertreter der Union sehen das anders.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/bb9ce348-9f2a-41b0-80cb-98f103d36a67/AAABnmguNt8/AAABnSSvrFg/16x9-big/pistorius-606.jpg?width=1920",
-      "published": "2026-11-07T15:45:52+01:00",
-      "category": "Politik",
-      "score": 39.55
+      "score": 46.04
     },
     {
       "id": "tagesschau-103eca822484b59a",
@@ -2190,7 +2254,7 @@
       "image": "https://images.tagesschau.de/image/69dd39a9-cd4a-426a-b9a6-7022abbbfe87/AAABobZ1SjM/AAABnSSvrFg/16x9-big/neuseeland-parlamentswahl-104.jpg?width=1920",
       "published": "2026-11-07T15:41:43+01:00",
       "category": "Politik",
-      "score": 47.49
+      "score": 45.81
     },
     {
       "id": "deutsche-welle-5993991fd331e777",
@@ -2202,7 +2266,7 @@
       "image": "https://static.dw.com/image/79885767_6.jpg",
       "published": "2026-11-07T15:09:00+00:00",
       "category": "Technologie",
-      "score": 60.64
+      "score": 58.96
     },
     {
       "id": "tagesschau-c0b4a60f47a56fa4",
@@ -2214,7 +2278,7 @@
       "image": "https://images.tagesschau.de/image/69afd520-0a62-42d7-98a2-21d6b11496fc/AAABobZlGvc/AAABnSSvrFg/16x9-big/hr-reza-pahlavi-wurde-in-der-frankfurter-paulskirche-mit-applaus-und-standing-ovations-empfangen-100.jpg?width=1920",
       "published": "2026-11-07T14:25:25+01:00",
       "category": "Nachrichten",
-      "score": 35.43
+      "score": 33.76
     },
     {
       "id": "golem-9e109010ff67930e",
@@ -2226,7 +2290,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214964&amp;page=1&amp;ts=1794057422",
       "published": "2026-11-07T14:17:02+01:00",
       "category": "Technologie",
-      "score": 32.32
+      "score": 30.64
     },
     {
       "id": "golem-e0ae2d5d2bf3630e",
@@ -2238,7 +2302,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214944&amp;page=1&amp;ts=1794055201",
       "published": "2026-11-07T13:40:01+01:00",
       "category": "Technologie",
-      "score": 31.8
+      "score": 30.12
     },
     {
       "id": "golem-a2a574034cf4dee4",
@@ -2250,19 +2314,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214962&amp;page=1&amp;ts=1794054422",
       "published": "2026-11-07T13:27:02+01:00",
       "category": "Technologie",
-      "score": 31.62
-    },
-    {
-      "id": "tagesschau-8136a1b23eb63bb6",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Schwere Schäden nach Raketenangriffen auf Kiew",
-      "link": "https://www.tagesschau.de/ausland/ukraine-angriffe-kiew-138.html",
-      "summary": "Russland hat kurz vor Wintereinbruch erneut die ukrainische Strom- und Wasserversorgung angegriffen. In einigen Teilen des Landes fiel der Strom aus. Präsident Selenskyj und Kiews Bürgermeister Klitschko streiten über die Verteidigung.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/5c28c4b2-5237-4160-9e05-4876625a031a/AAABobTGlpg/AAABnSSvrFg/16x9-big/ukraine-angriffe-216.jpg?width=1920",
-      "published": "2026-11-07T13:13:38+01:00",
-      "category": "Technologie",
-      "score": 34.44
+      "score": 29.94
     },
     {
       "id": "deutsche-welle-8e6e23729a954156",
@@ -2274,7 +2326,7 @@
       "image": "https://static.dw.com/image/79883626_6.jpg",
       "published": "2026-11-07T13:08:00+00:00",
       "category": "Politik",
-      "score": 44.19
+      "score": 42.51
     },
     {
       "id": "deutsche-welle-caf1a9a6cf595f2f",
@@ -2286,7 +2338,7 @@
       "image": "https://static.dw.com/image/71955101_6.jpg",
       "published": "2026-11-07T13:03:00+00:00",
       "category": "Politik",
-      "score": 52.12
+      "score": 50.44
     },
     {
       "id": "golem-2d9a2ec06577d48c",
@@ -2298,7 +2350,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214961&amp;page=1&amp;ts=1794052382",
       "published": "2026-11-07T12:53:02+01:00",
       "category": "Technologie",
-      "score": 31.15
+      "score": 29.47
     },
     {
       "id": "tagesschau-b840b78b9b61c84d",
@@ -2310,7 +2362,7 @@
       "image": "https://images.tagesschau.de/image/63349e36-d85c-4d78-ae34-e74ef5be0d6e/AAABobXFrsg/AAABnSSvrFg/16x9-big/ilse-aigner-308.jpg?width=1920",
       "published": "2026-11-07T12:30:37+01:00",
       "category": "Nachrichten",
-      "score": 74.41
+      "score": 40.16
     },
     {
       "id": "deutsche-welle-70ec12b677ffacde",
@@ -2322,7 +2374,7 @@
       "image": "https://static.dw.com/image/79853213_6.jpg",
       "published": "2026-11-07T12:29:00+00:00",
       "category": "Politik",
-      "score": 77.98
+      "score": 77.8
     },
     {
       "id": "golem-975c2eb42879df85",
@@ -2334,7 +2386,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214960&amp;page=1&amp;ts=1794050522",
       "published": "2026-11-07T12:22:02+01:00",
       "category": "Technologie",
-      "score": 30.72
+      "score": 29.04
     },
     {
       "id": "tagesschau-ffff2cef7aca5478",
@@ -2346,7 +2398,7 @@
       "image": "https://images.tagesschau.de/image/73d0bee3-e219-4c15-a9b1-f2f303685d6f/AAABobWYY5E/AAABnSSvrFg/16x9-big/soldaten-transportflugzeuge-100.jpg?width=1920",
       "published": "2026-11-07T11:51:13+01:00",
       "category": "Nachrichten",
-      "score": 33.29
+      "score": 31.61
     },
     {
       "id": "golem-0beda63f25b49de0",
@@ -2358,7 +2410,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214959&amp;page=1&amp;ts=1794044821",
       "published": "2026-11-07T10:47:01+01:00",
       "category": "Politik",
-      "score": 48.4
+      "score": 46.72
     },
     {
       "id": "tagesschau-9667c1496099c0ef",
@@ -2370,7 +2422,7 @@
       "image": "https://images.tagesschau.de/image/d775fd00-1fc3-49de-88a2-37912a1b02cb/AAABoaAmjE8/AAABnSSvrFg/16x9-big/us-zwischenwahl-100.jpg?width=1920",
       "published": "2026-11-07T10:46:47+01:00",
       "category": "Politik",
-      "score": 43.4
+      "score": 41.72
     },
     {
       "id": "tagesschau-4a48a0151932c1bd",
@@ -2382,7 +2434,7 @@
       "image": "https://images.tagesschau.de/image/ced7e003-2805-42cf-8d4a-136cf8aaf057/AAABobDXrcI/AAABnSSvrFg/16x9-big/duerre-rhein-100.jpg?width=1920",
       "published": "2026-11-07T10:44:35+01:00",
       "category": "Nachrichten",
-      "score": 40.37
+      "score": 38.69
     },
     {
       "id": "golem-f449f0a4cdca6921",
@@ -2394,7 +2446,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214947&amp;page=1&amp;ts=1794044402",
       "published": "2026-11-07T10:40:02+01:00",
       "category": "Technologie",
-      "score": 29.3
+      "score": 27.62
     },
     {
       "id": "tagesschau-3c721ea00d9afb03",
@@ -2406,7 +2458,7 @@
       "image": "https://images.tagesschau.de/image/cc62aaec-9be1-4ab8-9152-b85193c4ac4d/AAABobVW4eg/AAABnSSvrFg/16x9-big/spd-hubig-100.jpg?width=1920",
       "published": "2026-11-07T10:28:52+01:00",
       "category": "Politik",
-      "score": 65.36
+      "score": 63.68
     },
     {
       "id": "deutsche-welle-46258718f0d1f3ec",
@@ -2418,7 +2470,7 @@
       "image": "https://static.dw.com/image/77602450_6.jpg",
       "published": "2026-11-07T10:24:00+00:00",
       "category": "Politik",
-      "score": 49.91
+      "score": 48.24
     },
     {
       "id": "golem-7f13772541da1ce2",
@@ -2430,7 +2482,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214937&amp;page=1&amp;ts=1794042001",
       "published": "2026-11-07T10:00:01+01:00",
       "category": "Technologie",
-      "score": 28.75
+      "score": 27.07
     },
     {
       "id": "golem-1a276fafab036fd0",
@@ -2442,7 +2494,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214948&amp;page=1&amp;ts=1794039962",
       "published": "2026-11-07T09:26:02+01:00",
       "category": "Technologie",
-      "score": 28.27
+      "score": 26.6
     },
     {
       "id": "tagesschau-2ceeb15a7cd78b00",
@@ -2454,7 +2506,7 @@
       "image": "https://images.tagesschau.de/image/09372948-5e30-4d1a-a149-94422fc7b84a/AAABobQRL9c/AAABnSSvrFg/16x9-big/flugzeug-193.jpg?width=1920",
       "published": "2026-11-07T09:10:26+01:00",
       "category": "Nachrichten",
-      "score": 31.06
+      "score": 29.38
     },
     {
       "id": "golem-c57f64c29c216a64",
@@ -2466,7 +2518,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214946&amp;page=1&amp;ts=1794036182",
       "published": "2026-11-07T08:23:02+01:00",
       "category": "Technologie",
-      "score": 27.4
+      "score": 25.72
     },
     {
       "id": "golem-4240d1a16aff964e",
@@ -2478,7 +2530,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214689&amp;page=1&amp;ts=1794033001",
       "published": "2026-11-07T07:30:01+01:00",
       "category": "Technologie",
-      "score": 26.66
+      "score": 24.99
     },
     {
       "id": "golem-d8694e511d55840f",
@@ -2490,19 +2542,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214945&amp;page=1&amp;ts=1794031861",
       "published": "2026-11-07T07:11:01+01:00",
       "category": "Technologie",
-      "score": 26.4
-    },
-    {
-      "id": "tagesschau-bc1e558a1290f88f",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Gesundheitsbehörde: Größter Masernausbruch in den USA seit 35 Jahren",
-      "link": "https://www.tagesschau.de/ausland/amerika/usa-masern-100.html",
-      "summary": "Die USA erleben laut der Gesundheitsbehörde CDC den größten Masernausbruch seit 1991. Im Laufe des Jahres wurden bereits 5.182 Krankheitsfälle registriert. In Wisconsin starb erstmals seit mehr als dreieinhalb Jahrzehnten ein Baby.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/dda9c1bf-5f7a-4eb5-996d-5b26807a5c39/AAABobQ9m2c/AAABnSSvrFg/16x9-big/cdc-100.jpg?width=1920",
-      "published": "2026-11-07T07:01:55+01:00",
-      "category": "Nachrichten",
-      "score": 29.27
+      "score": 24.72
     },
     {
       "id": "netzpolitik-bbddb84d948eb7e2",
@@ -2514,19 +2554,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/26-10-4.jpg",
       "published": "2026-11-07T06:28:33+00:00",
       "category": "Politik",
-      "score": 43.64
-    },
-    {
-      "id": "tagesschau-f031305daecf7be4",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "AfD-Leak: Die interne Sorge vor finanziellen Folgen",
-      "link": "https://www.tagesschau.de/investigativ/ndr-wdr/afd-leak-folgen-100.html",
-      "summary": "Wer trägt die Verantwortung für das AfD-Leak? Der Landesverband Mecklenburg-Vorpommern fordert NDR und WDR zufolge, dass die Bundespartei mögliche Kosten aus Rechtsstreitigkeiten trägt. Von S. Pittelkow, M. Sarti und K. Riedel. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/bd60b617-030a-4c86-812a-c873b8d8e2b1/AAABobF4JXc/AAABnSSvrFg/16x9-big/afd-774.jpg?width=1920",
-      "published": "2026-11-07T06:00:12+01:00",
-      "category": "Nachrichten",
-      "score": 28.42
+      "score": 41.97
     },
     {
       "id": "deutsche-welle-5e0ed867df452054",
@@ -2538,7 +2566,7 @@
       "image": "https://static.dw.com/image/72232464_6.jpg",
       "published": "2026-11-07T05:23:00+00:00",
       "category": "Nachrichten",
-      "score": 26.73
+      "score": 25.06
     }
   ]
 }
