@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T23:44:08.781788+00:00",
+  "generatedAt": "2026-11-08T02:54:34.272853+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/1468c2f0-97fc-4df3-8608-e7ff13e7a1a9/AAABobeoupM/AAABnSSvrFg/16x9-big/eisenkot-116.jpg?width=1920",
       "published": "2026-11-07T21:31:48+01:00",
       "category": "Politik",
-      "score": 86.53,
+      "score": 86.29,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -44,7 +44,7 @@
       "image": "https://images.tagesschau.de/image/9e147e56-f6c3-400e-b95b-a781c07ba6b5/AAABobe3Qgs/AAABnSSvrFg/16x9-big/pena-110.jpg?width=1920",
       "published": "2026-11-07T21:33:23+01:00",
       "category": "Nachrichten",
-      "score": 83.53,
+      "score": 83.29,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -67,6 +67,33 @@
       }
     },
     {
+      "id": "deutschlandfunk-ffe7becd778f785b",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "UFC - Trump will Kampfsportverbandschef Dana White als Pressesprecher",
+      "link": "https://www.deutschlandfunk.de/trump-will-kampfsportverbandschef-dana-white-als-pressesprecher-102.html",
+      "summary": "US-Präsident Trump hat dem Präsidenten des Kampfsportverbands UFC, White, den Posten des Pressesprechers im Weißen Haus angeboten.",
+      "image": "https://bilder.deutschlandfunk.de/88/0e/d3/3d/880ed33d-2c8f-4be0-b7b7-0585e3b10d3d/trump-ufc-dana-white-100-1920x1920.jpg",
+      "published": "2026-11-08T03:03:41+01:00",
+      "category": "Politik",
+      "score": 81.97,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "US-Präsident bietet UFC-Chef Dana White Job an – der lehnt offenbar ab",
+            "link": "https://www.spiegel.de/ausland/trump-bietet-ufc-chef-dana-white-job-als-pressesprecher-an-a-3fcc68a9-735c-4f0e-ace7-82130710182a#ref=rss"
+          },
+          {
+            "source": "deutsche-welle",
+            "title": "Trump setzt Stabschefin des Weißen Hauses vor die Tür",
+            "link": "https://www.dw.com/de/trump-setzt-stabschefin-des-weißen-hauses-vor-die-tür/a-79883871?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
+    },
+    {
       "id": "handelsblatt-6a5551134b681b90",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
@@ -76,7 +103,43 @@
       "image": "https://images.handelsblatt.com/ovbbcToYC3MI/cover/1440/810/0/0/315/315/0.5/0.5/.jpg",
       "published": "2026-11-07T09:50:43+00:00",
       "category": "Politik",
-      "score": 81.42
+      "score": 78.78
+    },
+    {
+      "id": "tagesschau-852fb991b28b1f77",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "FDP vor Parteitag: Kubicki sucht den Weg aus der Krise",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/fdp-kubicki-effekt-100.html",
+      "summary": "Die FDP kommt heute zu einem digitalen Parteitag zusammen. Nach vielen Wahlniederlagen steckt die Partei in einer tiefen Krise. Bislang konnte das auch ihr neuer Vorsitzender Kubicki nicht ändern. Von Philipp Eckstein. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/c5c63d68-4ab5-4931-8779-0a67c552dcba/AAABnm9Gfq0/AAABnSSvrFg/16x9-big/kubicki-170.jpg?width=1920",
+      "published": "2026-11-08T03:28:44+01:00",
+      "category": "Politik",
+      "score": 78.64
+    },
+    {
+      "id": "handelsblatt-e416b1edf43ce9dc",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ US-Midterms +++: Trump will Ermittlungen gegen Demokraten – „bedrohen viele Menschen“",
+      "link": "https://www.handelsblatt.com/politik/international/nach-us-midterms-trump-will-ermittlungen-gegen-demokraten-bedrohen-viele-menschen/29669594.html",
+      "summary": "US-Justizministerium will Klage zu Kaliforniens Wahl zurückziehen +++ Houston schränkt Zusammenarbeit mit US-Einwanderungsbehörde ein +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/6W1tOskTkqiC/cover/900/506/0/0/0/624/0.5/0.5/donald-trump.jpg",
+      "published": "2026-11-08T01:14:00+00:00",
+      "category": "Politik",
+      "score": 75.6
+    },
+    {
+      "id": "handelsblatt-405072304d7a2479",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "US-Präsident: Trump schürt Zweifel an Kongresswahl und droht Demokraten",
+      "link": "https://www.handelsblatt.com/politik/international/us-praesident-trump-schuert-zweifel-an-kongresswahl-und-droht-demokraten/100268151.html",
+      "summary": "Nach der krachenden Niederlage seiner Republikaner bei den Wahlen zeigte sich Donald Trump zunächst einsichtig. Doch jetzt teilt der Präsident wieder aus.",
+      "image": "https://images.handelsblatt.com/BlNztmo-zoXK/cover/900/506/0/0/107/106/0.5/0.5/us-praesident-trump.jpg",
+      "published": "2026-11-08T00:43:37+00:00",
+      "category": "Politik",
+      "score": 75.18
     },
     {
       "id": "spiegel-3fc43ee710f6ac1d",
@@ -88,99 +151,92 @@
       "image": "https://cdn.prod.www.spiegel.de/images/7aa3d16f-5931-4bc4-921c-e043b44e3dfb_w1200_r1.778_fpx25_fpy47.jpg",
       "published": "2026-11-07T22:41:00+01:00",
       "category": "Politik",
-      "score": 76.29
+      "score": 73.64
     },
     {
-      "id": "handelsblatt-2d4349b83b7ccd83",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "US-Präsident: Kampfsport-Unternehmer als Sprecher im Weißen Haus?",
-      "link": "https://www.handelsblatt.com/politik/international/us-praesident-kampfsport-unternehmer-als-sprecher-im-weissen-haus/100268137.html",
-      "summary": "Der Sprecherposten im Weißen Haus ist seit Wochen unbesetzt. Nach der Schlappe bei der Parlamentswahl prescht Präsident Donald Trump mit einem ungewöhnlichen Kandidaten vor. Meint er es ernst?",
-      "image": "https://images.handelsblatt.com/dLjzbp2XXryM/cover/900/506/0/0/107/106/0.5/0.5/us-praesident-trump.jpg",
-      "published": "2026-11-07T22:49:17+00:00",
+      "id": "spiegel-d091350f7fbd5d72",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "BSW-Spitze kritisiert Nominierung von Constantin Schreiber für die Bundesversammlung",
+      "link": "https://www.spiegel.de/politik/bsw-spitze-kritisiert-nominierung-von-constantin-schreiber-fuer-die-bundesversammlung-a-3e0ec6e6-ccfd-47dd-bf21-1877ca10ae19#ref=rss",
+      "summary": "Im BSW gibt es Zwist, weil der sächsische Landesverband den früheren »Tagesschau«-Sprecher Constantin Schreiber als Wahlmann für die Bundespräsidentenwahl nominiert hat. Schreiber will einen Kandidaten vorschlagen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/ceda6323-4895-42f5-8945-e46eea11f059_w1200_r1.778_fpx52.66_fpy52.98.jpg",
+      "published": "2026-11-07T15:38:00+01:00",
       "category": "Politik",
-      "score": 76.24
-    },
-    {
-      "id": "tagesschau-492976fb9acc9077",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Wofür Trumps neuer Stabschef Miller steht",
-      "link": "https://www.tagesschau.de/ausland/amerika/trump-stabschef-miller-100.html",
-      "summary": "Seit Freitag ist Stephen Miller neuer Stabschef von Präsident Trump. Der 41-Jährige gilt als rechter Hardliner und Kopf hinter der strikten Einwanderungspolitik. Welches Signal sendet Trump mit der Personalie an Republikaner und Demokraten?[ mehr ]",
-      "image": "https://images.tagesschau.de/image/15646591-1e61-481c-b10d-8b00ab988e21/AAABobaEBY4/AAABnSSvrFg/16x9-big/stephen-miller-104.jpg?width=1920",
-      "published": "2026-11-07T15:57:49+01:00",
-      "category": "Politik",
-      "score": 76.24,
+      "score": 67.77,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "handelsblatt",
-            "title": "Stephen Miller: Drei Dinge, die man zu Trumps neuem Stabschef im Weißen Haus wissen muss",
-            "link": "https://www.handelsblatt.com/politik/international/stephen-miller-drei-dinge-die-man-zu-trumps-neuem-stabschef-im-weissen-haus-wissen-muss/100268118.html"
+            "title": "Wahl des Staatsoberhaupts: BSW-Spitze kritisiert Nominierung von Constantin Schreiber",
+            "link": "https://www.handelsblatt.com/politik/deutschland/wahl-des-staatsoberhaupts-bsw-spitze-kritisiert-nominierung-von-constantin-schreiber/100268097.html"
           }
         ]
       }
     },
     {
-      "id": "handelsblatt-7ab660e22948afdf",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Ukraine-Krieg +++: Selenskyj nennt Trumps Friedensplan gefährlich",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-selenskyj-nennt-trumps-friedensplan-gefaehrlich/27982126.html",
-      "summary": "Zahl der Toten in ukrainischem Hilfszentrum steigt auf 55 +++ Irischer Regierungschef: Gipfel in Dublin nicht gefährdet +++ Russland schickt hochrangige Delegation nach Abu Dhabi+++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/NGBnjbLUyeAK/cover/900/506/510/0/272/228/0.5/0.5/ukrainischer-praesident-wolodymyr-selenskyj.jpg",
-      "published": "2026-11-07T12:29:00+00:00",
-      "category": "Politik",
-      "score": 75.62
-    },
-    {
-      "id": "spiegel-e6ec1c803df31505",
+      "id": "spiegel-d7f66afaa63b2957",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Südafrika: ANC erleidet historische Niederlage bei Kommunalwahlen",
-      "link": "https://www.spiegel.de/ausland/suedafrika-anc-erleidet-historische-niederlage-bei-kommunalwahlen-a-0a77243d-6573-4bd6-a37f-fb4a45f06e20#ref=rss",
-      "summary": "Der ANC verliert in Südafrika weiter an Rückhalt. Bei den Kommunalwahlen fährt die einstige Partei von Nelson Mandela starke Verluste ein. In Johannesburg und Pretoria liegt die von Weißen angeführte DA vorn.",
-      "image": "https://cdn.prod.www.spiegel.de/images/fd9b1e1c-027b-43eb-ab77-4d21ecff887c_w1200_r1.778_fpx50.66_fpy50.jpg",
-      "published": "2026-11-07T14:03:00+01:00",
+      "title": "Italien: Außenminister Antonio Tajani prangert Hacker-Angriffe an",
+      "link": "https://www.spiegel.de/ausland/italien-aussenminister-antonio-tajani-prangert-hacker-angriffe-an-a-cb655674-9ea2-4f6f-abf3-9d8fd660cd71#ref=rss",
+      "summary": "Im Darknet sind offenbar sensible persönliche Daten des italienischen Außenministers Antonio Tajanis und seiner Familie zu finden. Dahinter soll eine prorussische Hackergruppe stecken.",
+      "image": "https://cdn.prod.www.spiegel.de/images/b78038e6-9e91-4614-bafc-3cabe2769f3e_w1200_r1.778_fpx50_fpy32.jpg",
+      "published": "2026-11-08T00:57:00+01:00",
       "category": "Politik",
-      "score": 73.77,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutsche-welle",
-            "title": "Ex-Mandela-Partei ANC erleidet Wahlschlappe in Südafrika",
-            "link": "https://www.dw.com/de/ex-mandela-partei-anc-erleidet-wahlschlappe-in-südafrika/a-79884765?maca=de-rss-de-all-1119-rdf"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Kommunalwahlen: Mandelas ANC erleidet historische Niederlage bei Kommunalwahlen",
-            "link": "https://www.handelsblatt.com/politik/international/kommunalwahlen-mandelas-anc-erleidet-historische-niederlage-bei-kommunalwahlen/100268077.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-6fbde2d21d2ccfc0",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "USA: Festnahme am Weißen Haus – Verdächtiger hörte Stimmen, die ihn aufforderten, Donald Trump zu töten",
-      "link": "https://www.spiegel.de/panorama/justiz/usa-festnahme-am-weissen-haus-verdaechtiger-hoerte-stimmen-die-ihn-aufforderten-donald-trump-zu-toeten-a-459dc802-69c7-4f1d-9675-cc26c7d10ff1#ref=rss",
-      "summary": "Sicherheitskräfte haben in der Nähe des Weißen Hauses einen Mann festgenommen, der es auf Donald Trump abgesehen haben soll: Der Verdächtige hörte Stimmen, die ihn aufforderten, den US-Präsidenten zu töten, hieß es.",
-      "image": "https://cdn.prod.www.spiegel.de/images/fa739462-2861-43f5-9469-f2fe71091d3d_w1200_r1.778_fpx29.25_fpy54.99.jpg",
-      "published": "2026-11-07T16:52:00+01:00",
-      "category": "Politik",
-      "score": 71.44,
+      "score": 67.53,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "deutsche-welle",
-            "title": "Trump setzt Stabschefin des Weißen Hauses vor die Tür",
-            "link": "https://www.dw.com/de/trump-setzt-stabschefin-des-weißen-hauses-vor-die-tür/a-79883871?maca=de-rss-de-all-1119-rdf"
+            "source": "handelsblatt",
+            "title": "Sensible Daten im Darknet: Italiens Außenminister prangert Hacker-Angriffe an",
+            "link": "https://www.handelsblatt.com/politik/international/sensible-daten-im-darknet-italiens-aussenminister-prangert-hacker-angriffe-an/100268131.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-5c521c4b1735164c",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Polen - Schüsse in Krakau: Europäische Spitzenpolitiker senden Botschaften der Solidarität",
+      "link": "https://www.deutschlandfunk.de/schuesse-in-krakau-europaeische-spitzenpolitiker-senden-botschaften-der-solidaritaet-100.html",
+      "summary": "Politiker in Europa haben schockiert auf die tödlichen Schüsse in Krakau reagiert.",
+      "image": "https://bilder.deutschlandfunk.de/83/a1/7d/69/83a17d69-84ae-406c-af5d-aa13a3dc46b1/polen-krakau-schuesse-trauer-100-1920x1920.jpg",
+      "published": "2026-11-08T03:03:41+01:00",
+      "category": "Technologie",
+      "score": 66.29,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Krakau: Tote und Verletzte nach Schüssen in Polen",
+            "link": "https://www.spiegel.de/ausland/krakau-tote-und-verletzte-nach-schuessen-in-polen-a-706b54e1-b14f-4068-bf4d-be1aae44cf29#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-6aa43090461116c6",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "146.000 demonstrieren - Frankreich: Erneut Ausschreitungen und Gewalt bei Protesten",
+      "link": "https://www.deutschlandfunk.de/frankreich-erneut-ausschreitungen-und-gewalt-bei-protesten-102.html",
+      "summary": "In mehreren französischen Städten ist es bei erneuten Protesten zu Gewalt gekommen.",
+      "image": "https://bilder.deutschlandfunk.de/0f/7e/1c/38/0f7e1c38-b59a-4ebf-b370-6ba42543faf2/frankreich-paris-proteste-gewalt-100-1920x1920.jpg",
+      "published": "2026-11-08T03:03:41+01:00",
+      "category": "Nachrichten",
+      "score": 66.29,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Sozialproteste: 146.000 demonstrieren in Frankreich - Teilnahme geht zurück",
+            "link": "https://www.handelsblatt.com/politik/international/sozialproteste-146000-demonstrieren-in-frankreich-teilnahme-geht-zurueck/100268129.html"
           }
         ]
       }
@@ -195,26 +251,26 @@
       "image": "https://static.dw.com/image/71955101_6.jpg",
       "published": "2026-11-07T13:03:00+00:00",
       "category": "Politik",
-      "score": 68.1
+      "score": 65.45
     },
     {
-      "id": "deutschlandfunk-de5ff204ae8fed3f",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Fußball-Bundesliga - Siege für Stuttgart, Dortmund, Leipzig und Bayern",
-      "link": "https://www.deutschlandfunk.de/siege-fuer-stuttgart-dortmund-leipzig-und-bayern-104.html",
-      "summary": "In der Fußball-Bundesliga hat der VfB Stuttgart hat den Vormarsch des SV Werder Bremen vorerst gestoppt. Vier Tage nach dem frustrierenden 0:2 in der Champions League bei Galatasaray Istanbul siegten die Schwaben 1:0 und sprangen mit nun zwölf Punkten zumindest vorübergehend auf den achten Tabellenplatz.",
-      "image": "https://bilder.deutschlandfunk.de/c3/cd/e8/7c/c3cde87c-6f7f-4444-ab81-64016361cbfb/werder-bremen-stuttgart-bundesliga-100-1920x1920.jpg",
-      "published": "2026-11-08T00:10:21+01:00",
-      "category": "Nachrichten",
-      "score": 66.53,
+      "id": "deutsche-welle-70ec12b677ffacde",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "Ex-Mandela-Partei ANC erleidet Wahlschlappe in Südafrika",
+      "link": "https://www.dw.com/de/ex-mandela-partei-anc-erleidet-wahlschlappe-in-südafrika/a-79884765?maca=de-rss-de-all-1119-rdf",
+      "summary": "Einst stand der ANC für die Befreiung der Schwarzen von der Apartheidsregierung. Doch nun befindet sich die Partei im Sinkflug. Die Wähler zeigen ihren Unmut über Arbeitslosigkeit, Kriminalität und Korruption.",
+      "image": "https://static.dw.com/image/79853213_6.jpg",
+      "published": "2026-11-07T12:29:00+00:00",
+      "category": "Politik",
+      "score": 64.98,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "spiegel",
-            "title": "Bundesliga: Maximilian Mittelstädt schießt VfB Stuttgart zum Sieg gegen Werder Bremen",
-            "link": "https://www.spiegel.de/sport/fussball/bundesliga-maximilian-mittelstaedt-schiesst-vfb-stuttgart-zum-sieg-gegen-werder-bremen-a-4952b90c-32c4-4147-802f-b7dca6682ad9#ref=rss"
+            "source": "handelsblatt",
+            "title": "Kommunalwahlen: Mandelas ANC erleidet historische Niederlage bei Kommunalwahlen",
+            "link": "https://www.handelsblatt.com/politik/international/kommunalwahlen-mandelas-anc-erleidet-historische-niederlage-bei-kommunalwahlen/100268077.html"
           }
         ]
       }
@@ -229,43 +285,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=214959&amp;page=1&amp;ts=1794044821",
       "published": "2026-11-07T10:47:01+01:00",
       "category": "Politik",
-      "score": 64.37
-    },
-    {
-      "id": "deutschlandfunk-f944e5920730cee3",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Interview der Woche - Pistorius sieht Personalplanung der Bundeswehr auf gutem Weg - erstmal keine Wehrpflicht nötig",
-      "link": "https://www.deutschlandfunk.de/pistorius-sieht-personalplanung-der-bundeswehr-auf-gutem-weg-erstmal-keine-wehrpflicht-noetig-102.html",
-      "summary": "Die Personalplanung der Bundeswehr ist nach den Worten von Verteidigungsminister Pistorius auf einem guten Weg. Zur Zeit ist eine Wiedereinführung der Wehrpflicht demnach nicht nötig. Pistorius sagte im Interview der Woche des Deutschlandfunks, die Vorgabe des Wehrdienstmodernisierungsgesetzes werde überschritten.",
-      "image": "https://bilder.deutschlandfunk.de/11/fc/12/a6/11fc12a6-d014-435f-bbfa-cb04448ef273/boris-pistorius-verteidigungsminister-106-1920x1920.jpg",
-      "published": "2026-11-08T00:10:21+01:00",
-      "category": "Politik",
-      "score": 61.53
-    },
-    {
-      "id": "deutsche-welle-8e6e23729a954156",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Ukraine: Massive Stromprobleme nach russischen Angriffen",
-      "link": "https://www.dw.com/de/ukraine-massive-stromprobleme-nach-russischen-angriffen/a-79884371?maca=de-rss-de-all-1119-rdf",
-      "summary": "Russische Attacken auf die Energie-und Verkehrsinfrastruktur der Ukraine haben in vielen Landesteilen schwere Schäden verursacht. In Kyjiw musste eine wichtige Brücke wieder gesperrt werden.",
-      "image": "https://static.dw.com/image/79883626_6.jpg",
-      "published": "2026-11-07T13:08:00+00:00",
-      "category": "Politik",
-      "score": 60.16
-    },
-    {
-      "id": "netzpolitik-bbddb84d948eb7e2",
-      "source": "netzpolitik",
-      "sourceWeight": 0.75,
-      "title": "KW 45: Die Woche, in der die Welt gegen Rechenzentren aufbegehrte",
-      "link": "https://netzpolitik.org/2026/kw-45-die-woche-in-der-die-welt-gegen-rechenzentren-aufbegehrte/",
-      "summary": "Die 45. Kalenderwoche geht zu Ende. Wir haben 21 neue Texte mit insgesamt 128.008 Zeichen veröffentlicht. Willkommen zum netzpolitischen Wochenrückblick. – : Fraktal, generiert mit MandelBrowser von Tomasz Śmigielski Liebe Leser*innen, Donald Trumps aktuelle Amtszeit ist gekennzeichnet von einer intensiven Beziehung zwischen Regierung und Big Tech. Also jenen Unternehmen, die gerade in vielen Gegenden der USA in megalomanischen Bauprojekten Riesen-Rechenzentren hochziehen wollen, die sie oft mit eigenen Erdgaskraftwerken antreiben, teils sogar mit ausrangierten Flugzeugturbinen. Die Rechenzentren sind laut, schaden der Umwelt, machen in der Umgebung den Strom teurer, saugen die Wasserreserven ab und ihr Betrieb schafft so gut wie keine Jobs. Absolut verständlich also, dass in vielen Regionen der USA Widerstandsbewegungen entstanden sind, die sich teils sogar erfolgreich den Projekten entgegenstellen. Als diese Woche die US-Wähler*innen in den Midterm-Wahlen die Republikaner unter Donald Trump hart abstraften, war das auch die Rechnung für den Dauer-Engtanz mit den großen Digitalkonzernen. …",
-      "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/26-10-4.jpg",
-      "published": "2026-11-07T06:28:33+00:00",
-      "category": "Politik",
-      "score": 59.62
+      "score": 61.73
     }
   ]
 }
