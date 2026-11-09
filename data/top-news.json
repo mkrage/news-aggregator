@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T01:16:03.384413+00:00",
+  "generatedAt": "2026-11-09T02:45:54.726636+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/17988e16-b321-4573-a2d7-f8ccec24da95/AAABobvLlHQ/AAABnSSvrFg/16x9-big/gadi-eisenkot-110.jpg?width=1920",
       "published": "2026-11-08T17:07:41+01:00",
       "category": "Politik",
-      "score": 89.48,
+      "score": 89.24,
       "coverage": {
         "sourceCount": 5,
         "others": [
@@ -49,7 +49,7 @@
       "image": "https://images.tagesschau.de/image/6ecdf46a-cf24-4550-810d-9e72c1a23c14/AAABobuoxN0/AAABnSSvrFg/16x9-big/rbb-630259816-100.jpg?width=1920",
       "published": "2026-11-08T15:50:57+01:00",
       "category": "Politik",
-      "score": 86.91,
+      "score": 86.67,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -81,7 +81,7 @@
       "image": "https://images.tagesschau.de/image/1d795625-6e32-4268-8bf0-5ca4a0c10aa8/AAABobqEWvg/AAABnSSvrFg/16x9-big/dana-white-donald-trump-100.jpg?width=1920",
       "published": "2026-11-08T10:59:49+01:00",
       "category": "Politik",
-      "score": 86.03,
+      "score": 84.78,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -103,29 +103,7 @@
       "image": "https://images.handelsblatt.com/JIbKzpgeoqfr/cover/900/506/0/0/0/0/0.5/0.5/trump-cop31-antalya.jpg",
       "published": "2026-11-08T16:44:34+00:00",
       "category": "Politik",
-      "score": 85.9
-    },
-    {
-      "id": "handelsblatt-832aca44eb544a02",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Nach Wahlsieg: Wichtiger Demokrat erwartet Untersuchung von Trump-Familie",
-      "link": "https://www.handelsblatt.com/politik/international/nach-wahlsieg-wichtiger-demokrat-erwartet-untersuchung-von-trump-familie/100268285.html",
-      "summary": "US-Wähler gaben den Demokraten deutliche Mehrheiten in beiden Kongresskammern. Diese stellen Untersuchungen gegen das Trump-Lager in Aussicht. Aus dem Weißen Haus kommt Gegenwind.",
-      "image": "https://images.handelsblatt.com/4Kgrj-shxcu7/cover/900/506/0/0/107/106/0.5/0.5/us-kongress.jpg",
-      "published": "2026-11-08T23:55:15+00:00",
-      "category": "Politik",
-      "score": 83.88,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutsche-welle",
-            "title": "Trump setzt Stabschefin des Weißen Hauses vor die Tür",
-            "link": "https://www.dw.com/de/trump-setzt-stabschefin-des-weißen-hauses-vor-die-tür/a-79883871?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
+      "score": 84.65
     },
     {
       "id": "tagesschau-2b5007410b539975",
@@ -137,7 +115,7 @@
       "image": "https://images.tagesschau.de/image/bcbfacd2-b7ac-4314-9d86-ec6d822e9492/AAABobwG94w/AAABnSSvrFg/16x9-big/abu-dhabi-103.jpg?width=1920",
       "published": "2026-11-08T17:33:42+01:00",
       "category": "Politik",
-      "score": 83.59,
+      "score": 83.35,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -155,6 +133,28 @@
       }
     },
     {
+      "id": "handelsblatt-832aca44eb544a02",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Nach Wahlsieg: Wichtiger Demokrat erwartet Untersuchung von Trump-Familie",
+      "link": "https://www.handelsblatt.com/politik/international/nach-wahlsieg-wichtiger-demokrat-erwartet-untersuchung-von-trump-familie/100268285.html",
+      "summary": "US-Wähler gaben den Demokraten deutliche Mehrheiten in beiden Kongresskammern. Diese stellen Untersuchungen gegen das Trump-Lager in Aussicht. Aus dem Weißen Haus kommt Gegenwind.",
+      "image": "https://images.handelsblatt.com/4Kgrj-shxcu7/cover/900/506/0/0/107/106/0.5/0.5/us-kongress.jpg",
+      "published": "2026-11-08T23:55:15+00:00",
+      "category": "Politik",
+      "score": 82.63,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutsche-welle",
+            "title": "Trump setzt Stabschefin des Weißen Hauses vor die Tür",
+            "link": "https://www.dw.com/de/trump-setzt-stabschefin-des-weißen-hauses-vor-die-tür/a-79883871?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
+    },
+    {
       "id": "tagesschau-d2ed5f88ce0a7569",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -164,7 +164,7 @@
       "image": "https://images.tagesschau.de/image/34f93b54-ef67-4531-97e6-4a40dc5724cc/AAABob1ZsYo/AAABnSSvrFg/16x9-big/nvidia-184.jpg?width=1920",
       "published": "2026-11-09T00:11:37+01:00",
       "category": "Technologie",
-      "score": 80.59,
+      "score": 80.35,
       "coverage": {
         "sourceCount": 6,
         "others": [
@@ -206,7 +206,19 @@
       "image": "https://images.handelsblatt.com/X3ALFVUxJhN2/cover/900/506/0/0/107/106/0.5/0.5/us-praesident-trump.jpg",
       "published": "2026-11-08T18:58:06+00:00",
       "category": "Politik",
-      "score": 79.75
+      "score": 78.5
+    },
+    {
+      "id": "deutschlandfunk-937b50786c149474",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "TV-Interview - Trump: Abschiebepolitik war \"zu hart\"",
+      "link": "https://www.deutschlandfunk.de/trump-abschiebepolitik-war-zu-hart-100.html",
+      "summary": "Nach der Wahlniederlage der Republikaner bei der Kongresswahl hat US-Präsident Trump die Massenabschiebungen seiner Regierung in Frage gestellt.",
+      "image": "https://bilder.deutschlandfunk.de/15/16/96/97/15169697-2178-45bf-a7b5-0ceb0d0df1a0/donald-trump-us-praesident-110-1920x1920.jpg",
+      "published": "2026-11-09T03:21:54+01:00",
+      "category": "Politik",
+      "score": 77.67
     },
     {
       "id": "deutschlandfunk-b0fe7b7d9c60bef5",
@@ -216,9 +228,9 @@
       "link": "https://www.deutschlandfunk.de/russische-drohnenangriffe-auf-ukrainische-staedte-104.html",
       "summary": "Russland hat am Abend mehrere ukrainische Städte mit Drohnen angegriffen.",
       "image": "https://bilder.deutschlandfunk.de/e8/f3/c5/df/e8f3c5df-d691-4e75-b744-aa0d96bbbba6/sloviansk-ukraine-drohnenangriffe-100-1920x1920.jpg",
-      "published": "2026-11-09T02:09:32+01:00",
+      "published": "2026-11-09T03:21:54+01:00",
       "category": "Politik",
-      "score": 77.91
+      "score": 77.67
     },
     {
       "id": "deutschlandfunk-fb0cbf87bd3d155e",
@@ -228,9 +240,9 @@
       "link": "https://www.deutschlandfunk.de/mehr-als-200-000-menschen-protestieren-in-amsterdam-gegen-israels-vorgehen-im-gazastreifen-102.html",
       "summary": "In Amsterdam hat es Proteste gegen Israels Vorgehen im Gazastreifen gegeben.",
       "image": "https://bilder.deutschlandfunk.de/e6/d0/45/f3/e6d045f3-331b-4dea-aff0-7c2d5f669c31/amsterdam-red-line-demo-100-1920x1920.jpg",
-      "published": "2026-11-09T02:09:32+01:00",
+      "published": "2026-11-09T03:21:54+01:00",
       "category": "Politik",
-      "score": 77.91
+      "score": 77.67
     },
     {
       "id": "handelsblatt-32c755ec618e5586",
@@ -242,7 +254,7 @@
       "image": "https://images.handelsblatt.com/U6OYpDYsfsT6/cover/900/506/0/0/259/258/0.5/0.5/archiv-20.06.2026-oman-khasab-handelsschiffe-liegen-in-der-naehe-von-chasab-einer-kleinstadt-im.jpg",
       "published": "2026-11-08T20:13:00+00:00",
       "category": "Politik",
-      "score": 72.79
+      "score": 71.54
     },
     {
       "id": "spiegel-9b043c43ff2f55a6",
@@ -254,7 +266,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/b836cfb6-c542-4e1c-8d47-3b3d7e5d2f54_w1200_r1.778_fpx59_fpy54.jpg",
       "published": "2026-11-08T19:52:00+01:00",
       "category": "Politik",
-      "score": 72.67
+      "score": 71.42
     },
     {
       "id": "handelsblatt-099e2f91f85a6f40",
@@ -266,7 +278,7 @@
       "image": "https://images.handelsblatt.com/HSq6zST5Naze/cover/900/506/0/0/259/259/0.5/0.5/urnnewsmldpa.com20090101261104-935-1719692.jpg",
       "published": "2026-11-08T19:07:26+00:00",
       "category": "Politik",
-      "score": 71.88
+      "score": 70.63
     },
     {
       "id": "deutschlandfunk-c51325f19db9ee07",
@@ -276,31 +288,9 @@
       "link": "https://www.deutschlandfunk.de/trump-rechnet-aktuell-nicht-mit-neuen-angriffen-auf-iran-106.html",
       "summary": "US-Präsident Trump rechnet derzeit nicht mit neuen Angriffen auf den Iran.",
       "image": "https://bilder.deutschlandfunk.de/d7/c4/78/16/d7c47816-207e-43fd-921d-b08f9707d643/donald-trump-262-1920x1920.jpg",
-      "published": "2026-11-09T02:09:32+01:00",
+      "published": "2026-11-09T03:21:54+01:00",
       "category": "Politik",
-      "score": 69.91
-    },
-    {
-      "id": "deutschlandfunk-bf2fd62c79bfc7a5",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Buenos Aires - Papst mahnt Argentiniens Präsident Milei zu sozialer Verantwortung",
-      "link": "https://www.deutschlandfunk.de/papst-mahnt-argentiniens-praesident-milei-zu-sozialer-verantwortung-100.html",
-      "summary": "Zu Beginn seines Besuchs in Argentinien hat Papst Leo Kritik an der Politik von Präsident Milei geübt.",
-      "image": "https://bilder.deutschlandfunk.de/07/39/6f/fd/07396ffd-b55b-41dd-88b7-208e168bf64d/papst-leo-milei-100-1920x1920.jpg",
-      "published": "2026-11-09T02:09:32+01:00",
-      "category": "Nachrichten",
-      "score": 66.91,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Papst auf Reisen: Leo XIV. zu Besuch in Argentinien gelandet",
-            "link": "https://www.handelsblatt.com/politik/international/papst-auf-reisen-leo-xiv-zu-besuch-in-argentinien-gelandet/100268266.html"
-          }
-        ]
-      }
+      "score": 69.67
     }
   ]
 }
