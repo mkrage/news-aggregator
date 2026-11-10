@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T18:20:39.388473+00:00",
+  "generatedAt": "2026-11-10T20:54:42.024433+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,19 +12,14 @@
       "image": "https://images.tagesschau.de/image/85834255-e228-40b1-8a1d-6641c23f17fb/AAABocIR93A/AAABnSSvrFg/16x9-big/hegseth-186.jpg?width=1920",
       "published": "2026-11-10T07:12:18+01:00",
       "category": "Politik",
-      "score": 97.37,
+      "score": 94.6,
       "coverage": {
-        "sourceCount": 5,
+        "sourceCount": 4,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "USA - Republikanischer Abgeordneter stellt Antrag auf Amtsenthebung von Verteidigungsminister Hegseth",
             "link": "https://www.deutschlandfunk.de/republikanischer-abgeordneter-stellt-antrag-auf-amtsenthebung-von-verteidigungsminister-hegseth-120.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Pete Hegseth nennt Amtsenthebungsantrag »eine Farce«",
-            "link": "https://www.spiegel.de/ausland/pete-hegseth-nennt-amtsenthebungsantrag-eine-farce-a-3ed751aa-52ff-4e0b-9814-bcc8465d8a51#ref=rss"
           },
           {
             "source": "handelsblatt",
@@ -40,28 +35,6 @@
       }
     },
     {
-      "id": "tagesschau-c9835ddc225792b8",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Wadephul zweifelt an Russlands Verhandlungswillen",
-      "link": "https://www.tagesschau.de/ausland/europa/ukraine-verhandlungen-abu-dhabi-102.html",
-      "summary": "In Abu Dhabi geht es ab Dienstag um ein mögliches Ende des Ukraine-Kriegs. Sind das ernsthafte Friedensgespräche? Außenminister Wadephul zweifelt am Verhandlungswillen Russlands - und fordert Mitsprache für die Europäer.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/c83082f8-691a-4254-a060-9d12d96dad43/AAABocFH_4c/AAABnSSvrFg/16x9-big/wadephul-434.jpg?width=1920",
-      "published": "2026-11-09T18:19:07+01:00",
-      "category": "Politik",
-      "score": 84.08,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "+++ Ukraine-Krieg +++: Friedensgespräche in Abu Dhabi werden am Mittwoch fortgesetzt – Wadephul fordert Beteiligung Europas",
-            "link": "https://www.handelsblatt.com/politik/international/ukraine-friedensgespraeche-in-abu-dhabi-werden-am-mittwoch-fortgesetzt/27982126.html"
-          }
-        ]
-      }
-    },
-    {
       "id": "tagesschau-06eb41ac76cfabe8",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -71,7 +44,7 @@
       "image": "https://images.tagesschau.de/image/4571547b-afbd-4563-a8da-4d48f0dc9eb6/AAABocRDlV0/AAABnSSvrFg/16x9-big/eisenkot-118.jpg?width=1920",
       "published": "2026-11-10T09:13:27+01:00",
       "category": "Politik",
-      "score": 84.07,
+      "score": 85.3,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -84,16 +57,38 @@
       }
     },
     {
+      "id": "tagesschau-c9835ddc225792b8",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Wadephul zweifelt an Russlands Verhandlungswillen",
+      "link": "https://www.tagesschau.de/ausland/europa/ukraine-verhandlungen-abu-dhabi-102.html",
+      "summary": "In Abu Dhabi geht es ab Dienstag um ein mögliches Ende des Ukraine-Kriegs. Sind das ernsthafte Friedensgespräche? Außenminister Wadephul zweifelt am Verhandlungswillen Russlands - und fordert Mitsprache für die Europäer.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/c83082f8-691a-4254-a060-9d12d96dad43/AAABocFH_4c/AAABnSSvrFg/16x9-big/wadephul-434.jpg?width=1920",
+      "published": "2026-11-09T18:19:07+01:00",
+      "category": "Politik",
+      "score": 81.94,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ Ukraine-Krieg +++: Friedensgespräche in Abu Dhabi werden am Mittwoch fortgesetzt – Wadephul fordert Beteiligung Europas",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-friedensgespraeche-in-abu-dhabi-werden-am-mittwoch-fortgesetzt/27982126.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "handelsblatt-faadbf0483637ae4",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
       "title": "Kommentar: Trumps Unterhändler und Putins Öl – warum Abu Dhabi scheitern wird",
       "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-trumps-unterhaendler-und-putins-oel-warum-abu-dhabi-scheitern-wird/100268694.html",
       "summary": "Es gäbe einen einfachen Weg, den Krieg in der Ukraine zu beenden. Leider gehen die US-Unterhändler Kushner und Witkoff einen anderen Weg.",
-      "image": "https://images.handelsblatt.com/jL7XRLYhoIRg/cover/900/506/0/0/1229/0/0.5/0.5/uae-russia-us-ukraine-negotiations-9323933-10.11.2026-u.s.-president-donald-trump-s-son-in-law-jared.jpg",
+      "image": "https://images.handelsblatt.com/jL7XRLYhoIRg/cover/900/506/0/1902/2297/2/0.5/0.5/uae-russia-us-ukraine-negotiations-9323933-10.11.2026-u.s.-president-donald-trump-s-son-in-law-jared.jpg",
       "published": "2026-11-10T16:47:17+00:00",
       "category": "Politik",
-      "score": 83.7
+      "score": 81.56
     },
     {
       "id": "tagesschau-aaf077ac8feef660",
@@ -105,7 +100,7 @@
       "image": "https://images.tagesschau.de/image/59c612e1-678f-4aed-bbfb-7469096f2544/AAABocTEhrw/AAABnSSvrFg/16x9-big/merz-selenskyj-144.jpg?width=1920",
       "published": "2026-11-10T15:15:52+01:00",
       "category": "Politik",
-      "score": 83.6,
+      "score": 81.46,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -118,40 +113,40 @@
       }
     },
     {
-      "id": "spiegel-4a9d9268c9306809",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "US-Midterms: Wie die Republikaner den »Gerrymander-Krieg« verloren haben",
-      "link": "https://www.spiegel.de/ausland/us-midterms-wie-die-republikaner-den-gerrymander-krieg-verloren-haben-a-d09ab5e1-ca5f-495a-856d-842bb8f14357#ref=rss",
-      "summary": "Donald Trump wollte den Republikanern mit neu zugeschnittenen Wahlkreisen die Macht sichern. Das ging schief. Stattdessen können sich jetzt die Demokraten über zusätzliche Sitze freuen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/71e2f822-c408-44bc-922c-10c922a7d1d3_w1200_r1.778_fpx51_fpy44.jpg",
-      "published": "2026-11-10T16:19:00+01:00",
-      "category": "Politik",
-      "score": 83.48
-    },
-    {
-      "id": "handelsblatt-cc2ffcd4677542dd",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Ukraine-Krieg: Ukraine und Russland verhandeln wieder – ein „großes, schönes Abkommen“ ist nicht in Sicht",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-verhandlungen-in-abu-dhabi-ein-abkommen-ist-nicht-in-sicht/100268662.html",
-      "summary": "Russland fordert eine neue „europäische Sicherheitsarchitektur“ und beharrt auf Maximalforderungen. Trumps Schwiegersohn Kushner betont die angebliche Entschlossenheit des US-Präsidenten.",
-      "image": "https://images.handelsblatt.com/Otj7VWBvhKxr/cover/900/506/0/0/228/227/0.5/0.5/ukrainian-president-volodymyr-zelenskiyaposs-chief-of-staff-kyrylo-budanov-jared-kushner-us-pres.jpg",
-      "published": "2026-11-10T13:56:17+00:00",
-      "category": "Politik",
-      "score": 81.33
-    },
-    {
-      "id": "deutschlandfunk-480c9326008e294c",
+      "id": "deutschlandfunk-2f900e5ff402faa1",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
       "title": "Knesset - Israelisches Parlament zu erster Sitzung zusammengekommen",
-      "link": "https://www.deutschlandfunk.de/israelisches-parlament-zu-erster-sitzung-zusammengekommen-102.html",
+      "link": "https://www.deutschlandfunk.de/israelisches-parlament-zu-erster-sitzung-zusammengekommen-106.html",
       "summary": "Zwei Wochen nach der Wahl in Israel ist das neue Parlament zu seiner ersten Sitzung zusammengekommen.",
       "image": "https://bilder.deutschlandfunk.de/89/40/48/55/89404855-d97a-424f-b19d-cb991b918b9d/knesset-102-1920x1920.jpg",
-      "published": "2026-11-10T19:05:59+01:00",
+      "published": "2026-11-10T21:26:14+01:00",
       "category": "Politik",
-      "score": 77.8
+      "score": 77.6
+    },
+    {
+      "id": "deutschlandfunk-6a7693c39a6ebfbf",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Ukraine-Krieg - Europäischer Rechnungshof kritisiert Defizite bei Sanktionen gegen Russland - Immer noch erhebliches Handelsvolumen",
+      "link": "https://www.deutschlandfunk.de/europaeischer-rechnungshof-kritisiert-defizite-bei-sanktionen-gegen-russland-immer-noch-erhebliches--100.html",
+      "summary": "Der Europäische Rechnungshof sieht deutliche Versäumnisse bei den Handelssanktionen der EU gegen Russland. Diese blieben deutlich hinter ihren Möglichkeiten zurück, heißt es in einem in Luxemburg vorgestellten Sonderbericht.",
+      "image": "https://bilder.deutschlandfunk.de/5c/b3/60/09/5cb36009-4b50-44fa-925b-5483aaffacca/handel-russland-100-1920x1920.jpg",
+      "published": "2026-11-10T21:26:14+01:00",
+      "category": "Politik",
+      "score": 77.6
+    },
+    {
+      "id": "deutschlandfunk-eca010e868036ea1",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Gazastreifen - Mehrere Tote bei israelischen Angriffen",
+      "link": "https://www.deutschlandfunk.de/mehrere-tote-bei-israelischen-angriffen-104.html",
+      "summary": "Im Gazastreifen hat es erneut israelische Angriffe gegeben.",
+      "image": "https://bilder.deutschlandfunk.de/cc/a8/26/b8/cca826b8-6b0c-4876-8221-929f4af6dfd9/zeltstadt-gaza-100-1920x1920.jpg",
+      "published": "2026-11-10T21:26:14+01:00",
+      "category": "Politik",
+      "score": 77.6
     },
     {
       "id": "deutschlandfunk-fd1668e4af8d9417",
@@ -161,9 +156,9 @@
       "link": "https://www.deutschlandfunk.de/litauen-verschaerft-kontrollen-von-russischem-und-belarussischem-getreide-monatelange-verzoegerungen-102.html",
       "summary": "Litauen hat verschärfte Herkunfts-Kontrollen für Getreideexporte aus Russland und Belarus angekündigt.",
       "image": "https://bilder.deutschlandfunk.de/2f/1c/16/8b/2f1c168b-ed5a-4390-800a-27bba4c98741/hafen-industrie-klaipeda-litauen-100-1920x1920.jpg",
-      "published": "2026-11-10T19:05:59+01:00",
+      "published": "2026-11-10T21:26:14+01:00",
       "category": "Politik",
-      "score": 77.8
+      "score": 77.6
     },
     {
       "id": "spiegel-86ee07f340999d4a",
@@ -175,7 +170,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/0fdfe20d-74ed-47df-8e0c-6a8e77ee946d_w1200_r1.778_fpx51_fpy65.jpg",
       "published": "2026-11-10T18:15:00+01:00",
       "category": "Politik",
-      "score": 77.09
+      "score": 74.95
     },
     {
       "id": "handelsblatt-40b6ee73a352da3d",
@@ -187,7 +182,7 @@
       "image": "https://images.handelsblatt.com/JZ8wPdeV3KwR/cover/900/506/0/0/0/0/0.5/0.5/der-autor.png",
       "published": "2026-11-10T17:16:52+00:00",
       "category": "Wirtschaft",
-      "score": 76.11,
+      "score": 73.97,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -200,6 +195,18 @@
       }
     },
     {
+      "id": "handelsblatt-86d063ce31510e76",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Bundespräsidentenwahl: Die Kandidatin der „starken Mitte“ ignoriert die AfD",
+      "link": "https://www.handelsblatt.com/politik/deutschland/bundespraesidentenwahl-die-kandidatin-der-starken-mitte-ignoriert-die-afd/100268830.html",
+      "summary": "Als Bundespräsidentin will Aigner der Spaltung der Gesellschaft entgegenwirken. Eine Brücke zur AfD und zur Linken baut sie aber zunächst nicht. Im Bundestag tritt sie als Kandidatin der Mitte auf.",
+      "image": "https://images.handelsblatt.com/znPINHGRySvI/cover/900/506/0/0/107/106/0.5/0.5/bundespraesidentin-kandidatin-aigner-im-bundestag.jpg",
+      "published": "2026-11-10T16:51:16+00:00",
+      "category": "Politik",
+      "score": 73.62
+    },
+    {
       "id": "deutsche-welle-834e73a8d4210c3d",
       "source": "deutsche-welle",
       "sourceWeight": 0.9,
@@ -209,58 +216,31 @@
       "image": "https://static.dw.com/image/79687159_6.jpg",
       "published": "2026-11-10T16:14:00+00:00",
       "category": "Politik",
-      "score": 75.24
+      "score": 73.1
     },
     {
-      "id": "deutschlandfunk-b419be5118546506",
-      "source": "deutschlandfunk",
+      "id": "spiegel-9be45c2d330f6428",
+      "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Rot-Rot-Grün - Koalitionsverhandlungen in Mecklenburg-Vorpommern abgeschlossen",
-      "link": "https://www.deutschlandfunk.de/koalitionsverhandlungen-in-mecklenburg-vorpommern-abgeschlossen-100.html",
-      "summary": "SPD, Linke und Grüne in Mecklenburg-Vorpommern haben ihren Koalitionsvertrag vorgestellt. Ministerpräsidentin und SPD-Landeschefin Schwesig sagte in Schwerin, hinter den Parteien lägen intensive Verhandlungen. Freitag und Samstag sollen Parteitage von SPD, Linken und Grünen über den Koalitionsvertrag abstimmen.",
-      "image": "https://bilder.deutschlandfunk.de/77/b8/9c/7c/77b89c7c-f2d8-4448-9f9a-fbf924ecdb9b/mecklenburg-vorpommern-koalition-100-1920x1920.jpg",
-      "published": "2026-11-10T19:05:59+01:00",
+      "title": "USA: Republikaner Jim Jordan wird Minderheitsführer im Repräsentantenhaus",
+      "link": "https://www.spiegel.de/ausland/usa-republikaner-jim-jordan-wird-minderheitsfuehrer-im-repraesentantenhaus-a-a9c024db-837a-42ac-9beb-f7c0d0fba244#ref=rss",
+      "summary": "Er gilt als »kampflustiger Draufgänger« mit engen Verbindungen zu Donald Trump: Der US-Republikaner Jim Jordan wird der neue Fraktionsführer seiner Partei im Repräsentantenhaus. Sein Vorgänger Mike Johnson war nicht mehr angetreten.",
+      "image": "https://cdn.prod.www.spiegel.de/images/1af73daf-6c4a-44e5-abd3-227102a271ec_w1200_r1.778_fpx54_fpy41.jpg",
+      "published": "2026-11-10T21:45:00+01:00",
       "category": "Politik",
-      "score": 74.48,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Mecklenburg-Vorpommern: Rot-Rot-Grün schließt Koalitionsverhandlungen ab",
-            "link": "https://www.spiegel.de/politik/deutschland/mecklenburg-vorpommern-rot-rot-gruen-schliesst-koalitionsverhandlungen-ab-a-25444914-e5c5-4fe6-8f6f-68203c6d49aa#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Regierungsbildung: Rot-Rot-Grün einigt sich in Mecklenburg-Vorpommern auf Koalitionsvertrag",
-            "link": "https://www.handelsblatt.com/politik/deutschland/regierungsbildung-rot-rot-gruen-einigt-sich-in-schwerin-auf-koalitionsvertrag/100268836.html"
-          }
-        ]
-      }
+      "score": 69.87
     },
     {
-      "id": "deutsche-welle-83d98da0c2c9b704",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Sudan-Krieg: Immer mehr Menschen in Not - Kürzungen verschärfen die Lage",
-      "link": "https://www.dw.com/de/sudan-krieg-immer-mehr-menschen-in-not-kürzungen-verschärfen-die-lage/a-79908319?maca=de-rss-de-all-1119-rdf",
-      "summary": "Im Sudan wächst das humanitäre Leid: 33,7 Millionen Menschen sind auf Hilfe angewiesen, doch internationale Hilfe wurde vielerorts gekürzt. Zugleich erschweren Krieg und Drohnenangriffe die Versorgung der Bevölkerung.",
-      "image": "https://static.dw.com/image/79724785_6.jpg",
-      "published": "2026-11-10T16:20:00+00:00",
-      "category": "Nachrichten",
-      "score": 64.32
-    },
-    {
-      "id": "netzpolitik-1104847054b5875e",
-      "source": "netzpolitik",
-      "sourceWeight": 0.75,
-      "title": "Kurz vor Bundestagsabstimmung: An welchen Stellen Union und SPD die Geheimdienstreform ausbauen",
-      "link": "https://netzpolitik.org/2026/kurz-vor-bundestagsabstimmung-an-welchen-stellen-union-und-spd-die-geheimdienstreform-ausbauen/",
-      "summary": "Die Regierungsfraktionen legen bei der Geheimdienstreform nach. So soll der Verfassungsschutz die organisierte Kriminalität ins Visier nehmen können, während der BND im Inland weiter in Privatwohnungen eindringen darf. Am Freitag stimmt der Bundestag über das Vorhaben ab. Wir veröffentlichen den schwarz-roten Änderungsantrag. Der Bundesnachrichtendienst in Berlin: Nicht so transparent wie er scheint. – Alle Rechte vorbehalten: Sabine Gudath / Imago Nur wenige Tage vor der Entscheidung im Bundestag haben sich die Fraktionen von Union und SPD auf Änderungen geeinigt, die das Bundesamt für Verfassungsschutz (BfV) und den Bundesnachrichtendienst (BND) betreffen. Das BfV soll demnach teils Organisierte Kriminalität ausspähen dürfen. Der neuen Befugnis des Auslandsgeheimdiensts, Privatwohnungen zu betreten, wird eine Vorabkontrolle vorangestellt, die allerdings weitgehend wirkungslos bleiben dürfte. Im August hatte die Bundesregierung einen Gesetzentwurf zur Reform des Nachrichtendienstrechts vorgelegt. Er gibt den Diensten deutlich mehr Befugnisse und schränkt zugleich deren Kontrolle ein. Sachverständige und zivilgesellschaftliche Verbände halten ihn für verfassungswidrig. …",
-      "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/imago0756761422h.jpg",
-      "published": "2026-11-10T15:42:32+00:00",
+      "id": "spiegel-66c2557361547f3d",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Maschinenbau-Gipfel: Katherina Reiche kritisiert eigene Regierung",
+      "link": "https://www.spiegel.de/wirtschaft/soziales/maschinenbau-gipfel-katherina-reiche-kritisiert-eigene-regierung-a-207e0fe5-9058-450f-b83c-f102fcbc7236#ref=rss",
+      "summary": "Der Maschinenbau steckt seit Jahren in der Krise, die schwarz-rote Koalition hat viele Hoffnungen auf Reformen enttäuscht. Beim Branchentreff bekam Wirtschaftsministerin Katherina Reiche den Frust der Branche zu spüren.",
+      "image": "https://cdn.prod.www.spiegel.de/images/86279cdf-f5b7-47a5-88af-c6b531b5401e_w1200_r1.778_fpx56.27_fpy49.88.jpg",
+      "published": "2026-11-10T19:39:00+01:00",
       "category": "Politik",
-      "score": 63.8
+      "score": 68.12
     }
   ]
 }
