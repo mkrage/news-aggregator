@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T11:30:26.162828+00:00",
+  "generatedAt": "2026-11-11T16:22:04.980054+00:00",
   "count": 15,
   "articles": [
     {
@@ -9,13 +9,18 @@
       "title": "Ukraine-Verhandlungen: Russland plant kein Treffen mit Europäern",
       "link": "https://www.tagesschau.de/ausland/asien/ukraine-russland-abu-dhabi-eu-100.html",
       "summary": "In Abu Dhabi gehen die von den USA vermittelten Gespräche über ein Ende des Kriegs gegen die Ukraine weiter. Auch die Europäer sind vor Ort, doch die russische Delegation zeigt wenig Interesse an einem Austausch.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/89ac7826-e2a9-4c14-96d7-226b8bbad13b/AAABocpaGB8/AAABnSSvrFg/16x9-big/abu-dhabi-ukraine-gespraeche-104.jpg?width=1920",
+      "image": "https://images.tagesschau.de/image/89ac7826-e2a9-4c14-96d7-226b8bbad13b/AAABocp_BF0/AAABnSSvrFg/16x9-big/abu-dhabi-ukraine-gespraeche-104.jpg?width=1920",
       "published": "2026-11-11T12:27:20+01:00",
       "category": "Politik",
-      "score": 86.96,
+      "score": 91.61,
       "coverage": {
-        "sourceCount": 2,
+        "sourceCount": 3,
         "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Nach Gesprächen in Abu Dhabi - Russland schließt Gebietstausch mit der Ukraine aus",
+            "link": "https://www.deutschlandfunk.de/russland-schliesst-gebietstausch-mit-der-ukraine-aus-102.html"
+          },
           {
             "source": "deutsche-welle",
             "title": "Russland-Ukraine-Gespräche in Abu Dhabi: Kommt es zu einem Durchbruch?",
@@ -31,22 +36,17 @@
       "title": "US-Repräsentantenhaus lehnt Amtsenthebungsverfahren gegen Hegseth ab",
       "link": "https://www.tagesschau.de/ausland/amerika/hegseth-amtsenthebungsverfahren-gestoppt-100.html",
       "summary": "Ein Parteikollege hatte die Amtsenthebung von US-Verteidigungsminister Hegseth angestrebt - vor allem wegen des Iran-Kriegs. Nun haben die Republikaner im US-Repräsentantenhaus den Vorstoß beendet. Sie stimmten nahezu geschlossen dagegen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/07d2895d-fb71-4b0f-9548-d17caea53e00/AAABnQYW5as/AAABnSSvrFg/16x9-big/hegseth-156.jpg?width=1920",
+      "image": "https://images.tagesschau.de/image/07d2895d-fb71-4b0f-9548-d17caea53e00/AAABocqAedQ/AAABnSSvrFg/16x9-big/hegseth-156.jpg?width=1920",
       "published": "2026-11-11T01:19:26+01:00",
       "category": "Politik",
-      "score": 86.55,
+      "score": 83.61,
       "coverage": {
-        "sourceCount": 4,
+        "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "USA - Amtsenthebungsverfahren gegen Verteidigungsminister Hegseth scheitert im Repräsentantenhaus",
             "link": "https://www.deutschlandfunk.de/amtsenthebungsverfahren-gegen-verteidigungsminister-hegseth-scheitert-im-repraesentantenhaus-100.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "US-Repräsentantenhaus: Vorstoß zur Amtsenthebung von Hegseth faktisch gestoppt",
-            "link": "https://www.handelsblatt.com/video/politik/us-repraesentantenhaus-vorstoss-zur-amtsenthebung-von-hegseth-faktisch-gestoppt/100269051.html"
           },
           {
             "source": "deutsche-welle",
@@ -57,23 +57,67 @@
       }
     },
     {
-      "id": "tagesschau-2fef9c5e258d3ebd",
+      "id": "spiegel-7d355859e5116145",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Humanitäre Lage im Gazastreifen: Erst kommt der Regen, dann der Tod",
+      "link": "https://www.spiegel.de/ausland/humanitaere-lage-im-gazastreifen-erst-kommt-der-regen-dann-der-tod-a-afbde0d5-8539-44f7-a3d7-128506cd8381#ref=rss",
+      "summary": "Im vierten Winter seit Kriegsbeginn sterben in Gaza wieder Menschen infolge von Kälte, Niederschlag und Sturm. So wie die Familie von Ahmed Nabhan. Das ist weniger Folge der widrigen Natur – als vor allem der Politik.",
+      "image": "https://cdn.prod.www.spiegel.de/images/e3fcfd61-3a3a-4450-992b-677903652185_w1200_r1.778_fpx50.65_fpy49.99.jpg",
+      "published": "2026-11-11T13:53:00+01:00",
+      "category": "Politik",
+      "score": 83.1
+    },
+    {
+      "id": "tagesschau-8fdedf000c6fc320",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Erster Tag der Ukraine-Gespräche: Keine Ergebnisse, aber Hoffnung für Gefangene",
-      "link": "https://www.tagesschau.de/ausland/asien/ukraine-russland-krieg-gespraeche-abu-dhabi-100.html",
-      "summary": "Der erste Tag der Gespräche zwischen Russland und der Ukraine in Abu Dhabi ist ohne offizielles Ergebnis zu Ende gegangen. Medien berichten aber von einem geplanten Gefangenenaustausch. Eine Waffenruhe scheint dagegen in weiter Ferne.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/413f48be-c711-47fe-8642-e85e2afea1d3/AAABockoku4/AAABnSSvrFg/16x9-big/abu-dhabi-144.jpg?width=1920",
-      "published": "2026-11-10T22:08:29+01:00",
+      "title": "Russland und Ukraine vereinbaren Gefangenenaustausch",
+      "link": "https://www.tagesschau.de/ausland/asien/ukraine-russland-verhandlungen-abu-dhabi-104.html",
+      "summary": "Bei den Ukraine-Gesprächen haben Moskau und Kiew einen weiteren Gefangenenaustausch vereinbart. Morgen wollen die US-Gesandten Kushner und Witkoff zu Kremlchef Putin reisen. Dabei soll es auch darum gehen, die Europäer in die Gespräche einzubinden. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/fb34507e-db2f-412f-8388-e9699241da24/AAABocn9QYE/AAABnSSvrFg/16x9-big/abu-dhabi-ukraine-gespraeche-102.jpg?width=1920",
+      "published": "2026-11-11T15:09:53+01:00",
       "category": "Politik",
-      "score": 78.43,
+      "score": 81.84,
       "coverage": {
-        "sourceCount": 2,
+        "sourceCount": 3,
         "others": [
           {
-            "source": "handelsblatt",
-            "title": "US-vermittelte Gespräche: Medien: Ukraine-Gespräche in Abu Dhabi beendet",
-            "link": "https://www.handelsblatt.com/politik/international/us-vermittelte-gespraeche-medien-ukraine-gespraeche-in-abu-dhabi-beendet/100268925.html"
+            "source": "spiegel",
+            "title": "Russland und Ukraine vereinbaren großen Gefangenenaustausch - Gespräche in Abu Dhabi",
+            "link": "https://www.spiegel.de/ausland/russland-und-ukraine-vereinbaren-grossen-gefangenenaustausch-gespraeche-in-abu-dhabi-a-ac5871d0-5d90-41d1-a1f6-2a2b78462bd6#ref=rss"
+          },
+          {
+            "source": "deutsche-welle",
+            "title": "Selenskyj sieht Fortschritte bei Ukraine-Gesprächen in Abu Dhabi - News kompakt: Das Wichtigste kurz gefasst",
+            "link": "https://www.dw.com/de/selenskyj-sieht-fortschritte-bei-ukraine-gesprächen-in-abu-dhabi-news-kompakt-das-wichtigste-kurz-gefasst/a-79914261?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-6504c9743dc79ba3",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Zahl der Kriegsdienstverweigerer steigt weiter deutlich",
+      "link": "https://www.tagesschau.de/inland/kriegsdienstverweigerer-steigend-100.html",
+      "summary": "Der Wehrdienst bleibt weiterhin freiwillig. Die Musterung bei Männern ist allerdings verpflichtend. Die Zahl der Kriegsdienstverweigerungen steigt in diesem Jahr deutlich an. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/90e033e0-defd-4b4b-bf51-40bb81c39473/AAABmQ4VB0k/AAABnSSvrFg/16x9-big/bundeswehr-jacken-100.jpg?width=1920",
+      "published": "2026-11-11T06:56:45+01:00",
+      "category": "Nachrichten",
+      "score": 80.61,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Bericht - Fast 17.000 Anträge auf Kriegsdienstverweigerung in diesem Jahr",
+            "link": "https://www.deutschlandfunk.de/fast-17-000-antraege-auf-kriegsdienstverweigerung-in-diesem-jahr-100.html"
+          },
+          {
+            "source": "deutsche-welle",
+            "title": "Zeitung: Zahl der Kriegsdienstverweigerer in Deutschland steigt stark",
+            "link": "https://www.dw.com/de/zeitung-zahl-der-kriegsdienstverweigerer-in-deutschland-steigt-stark/a-79918041?maca=de-rss-de-all-1119-rdf"
           }
         ]
       }
@@ -86,21 +130,9 @@
       "link": "https://www.deutschlandfunk.de/europaeischer-rechnungshof-kritisiert-defizite-bei-sanktionen-gegen-russland-immer-noch-erhebliches--102.html",
       "summary": "Der Europäische Rechnungshof sieht deutliche Versäumnisse bei den Handelssanktionen der EU gegen Russland. Diese blieben weit hinter ihren Möglichkeiten zurück, heißt es in einem in Luxemburg vorgestellten Sonderbericht.",
       "image": "https://bilder.deutschlandfunk.de/5c/b3/60/09/5cb36009-4b50-44fa-925b-5483aaffacca/handel-russland-100-1920x1920.jpg",
-      "published": "2026-11-11T11:58:16+01:00",
+      "published": "2026-11-11T17:16:54+01:00",
       "category": "Politik",
-      "score": 77.55
-    },
-    {
-      "id": "deutschlandfunk-6b5b0c2e618dbeaf",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Vereinigte Arabische Emirate - Unterhändler der Ukraine und Russlands setzen Gespräche fort",
-      "link": "https://www.deutschlandfunk.de/unterhaendler-der-ukraine-und-russlands-setzen-gespraeche-fort-100.html",
-      "summary": "Im Abu Dhabi sind die Gespräche zwischen Moskau und Kiew über ein Ende des Ukraine-Kriegs wiederaufgenommen worden. Zunächst gebe es ein trilaterales Treffen mit US-Vertretern, hieß es von ukrainischer Seite. Anschließend sei eine separate Begegnung der ukrainischen Delegation mit europäischen Partnern geplant.",
-      "image": "https://bilder.deutschlandfunk.de/34/3a/16/31/343a1631-aa4d-4b0d-a2ad-f6dff8e2ed66/abu-dhabi-ukraine-100-1920x1920.jpg",
-      "published": "2026-11-11T11:58:16+01:00",
-      "category": "Politik",
-      "score": 77.55
+      "score": 77.93
     },
     {
       "id": "deutschlandfunk-c02e58c0d80c1891",
@@ -110,69 +142,103 @@
       "link": "https://www.deutschlandfunk.de/drohnenalarm-im-baltikum-und-in-finnland-100.html",
       "summary": "In den ⁠drei baltischen Staaten Estland, Lettland und Litauen sowie in Finnland hat es in der vergangenen Nacht vorübergehend wieder Drohnenalarm gegeben.",
       "image": "https://bilder.deutschlandfunk.de/b0/96/9f/1e/b0969f1e-bf12-4925-a5b9-ff89745170a8/russische-kampfdrohne-ukraine-100-1280x1280.jpg",
-      "published": "2026-11-11T11:58:16+01:00",
+      "published": "2026-11-11T17:16:54+01:00",
       "category": "Politik",
-      "score": 77.55
+      "score": 77.93
     },
     {
-      "id": "handelsblatt-3e3b4190e9c4c948",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Ukraine-Krieg +++: Gespräche in Abu Dhabi wohl beendet– konkrete Ergebnisse bisher nicht bekannt",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-gespraeche-in-abu-dhabi-wohl-beendet/27982126.html",
-      "summary": "Russland meldet Festnahmen wegen angeblicher Spionage +++ Lettland und Litauen warnen vor Drohnen im Luftraum +++ Russland: 92 Drohnen über Leningrader Gebiet abgeschossen +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/Cfb0RYsliBf8/cover/900/506/0/0/472/278/0.5/0.5/us-special-envoy-jared-kushner-c-speaks-during-the-trilateral-talks-between-russia-and-ukraine-media.jpg",
-      "published": "2026-11-11T11:17:00+00:00",
-      "category": "Politik",
-      "score": 76.81
+      "id": "deutschlandfunk-b2aaad001a99908b",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Unwetter - Sturmwarnung: Portugal schließt Schulen und Behörden - Unwetter fällt weniger stark aus als befürchtet",
+      "link": "https://www.deutschlandfunk.de/sturmwarnung-portugal-schliesst-schulen-und-behoerden-unwetter-faellt-weniger-stark-aus-als-befuerch-100.html",
+      "summary": "In Portugal sind wegen eines Sturmes Schulen sowie zahlreiche Behörden und Supermärkte vorsorglich geschlossen geblieben.",
+      "image": "https://bilder.deutschlandfunk.de/b5/20/67/42/b5206742-833a-4435-9769-6974cbddc356/portugal-regen-sturm-schulen-schliessung-100-1920x1920.jpg",
+      "published": "2026-11-11T17:16:54+01:00",
+      "category": "Nachrichten",
+      "score": 74.93
     },
     {
-      "id": "spiegel-29afca7c09088982",
+      "id": "spiegel-b44aa49dec196cac",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Ukrainekrieg: Kyjiw nimmt offenbar erstmals Indonesier gefangen",
-      "link": "https://www.spiegel.de/ausland/ukrainekrieg-kyjiw-nimmt-offenbar-erstmals-indonesier-gefangen-a-7880a9ec-ce90-40c2-9234-d8a7e37a228f#ref=rss",
-      "summary": "Russland rekrutiert für seinen Angriffskrieg zunehmend Kämpfer im Ausland, wohl auch unter Zwang. Nun haben die ukrainischen Streitkräfte an der Front offenbar erstmals einen Indonesier in Gefangenschaft genommen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/dbd05961-4e61-4783-848e-1328d04a7680_w1200_r1.778_fpx43.99_fpy50.jpg",
-      "published": "2026-11-11T10:18:00+01:00",
+      "title": "EU-Unterstützung für die Ukraine: Kein Ego-Trip von Merz, sondern ein wichtiger Move für Europas Sicherheit",
+      "link": "https://www.spiegel.de/politik/deutschland/eu-unterstuetzung-fuer-die-ukraine-kein-ego-trip-von-merz-sondern-ein-wichtiger-move-fuer-europas-sicherheit-a-f87cb220-a91c-4abf-a54e-b7fa18a15c4b#ref=rss",
+      "summary": "Tschechien, Ungarn und die Slowakei wollen sich nicht an den Ukraine-Hilfen beteiligen, erwarten ihrerseits aber Geld von anderen EU-Ländern. Der Kanzler setzt sie jetzt unter Druck – zu Recht.",
+      "image": "https://cdn.prod.www.spiegel.de/images/24f27caa-95db-418b-af42-f12725de2131_w1200_r1.778_fpx55_fpy51.jpg",
+      "published": "2026-11-11T16:25:00+01:00",
       "category": "Politik",
-      "score": 76.16
+      "score": 69.21
     },
     {
-      "id": "handelsblatt-de9c561358c6bd8f",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Streit um EU-Finanzrahmen: Prag kontra Merz: Budget darf nicht an Ukraine-Hilfen hängen",
-      "link": "https://www.handelsblatt.com/politik/international/streit-um-eu-finanzrahmen-prag-kontra-merz-budget-darf-nicht-an-ukraine-hilfen-haengen/100269085.html",
-      "summary": "Bundeskanzler Merz will eine stärkere Beteiligung aller an Ukraine-Hilfen zum Thema der EU-Haushaltsverhandlungen machen. Tschechien und die Slowakei widersprechen.",
-      "image": "https://images.handelsblatt.com/VbzTv5vhFRlB/cover/900/506/0/0/107/106/0.5/0.5/andrej-babis.jpg",
-      "published": "2026-11-11T11:05:50+00:00",
-      "category": "Politik",
-      "score": 68.66
-    },
-    {
-      "id": "handelsblatt-6f660688cdc39531",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Gasversorgung: Bundesregierung will Gasreserve für Versorgungskrisen schaffen – Reiche hält an Umlage fest",
-      "link": "https://www.handelsblatt.com/politik/deutschland/gasversorgung-bundesregierung-will-gasreserve-fuer-versorgungskrisen-schaffen/100269068.html",
-      "summary": "Die Reserve soll bei Sabotage oder seltenen Großereignissen zum Einsatz kommen. Der Aufbau dürfte mehr als 1,2 Milliarden Euro kosten – und auch beim Gaskunden ankommen.",
-      "image": "https://images.handelsblatt.com/tydVWBX0wc1D/cover/900/506/0/0/110/411/0.5/0.5/archiv-20.10.2026-berlin-katherina-reiche-cdu-bundesministerin-fuer-wirtschaft-und-energie-ni.jpg",
-      "published": "2026-11-11T10:45:25+00:00",
-      "category": "Politik",
-      "score": 68.37
-    },
-    {
-      "id": "spiegel-3d16c5321807701e",
+      "id": "spiegel-6916726a9489319d",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Donald Trump: Richter lässt Milliardenklage des US-Präsidenten gegen die BBC teilweise zu",
-      "link": "https://www.spiegel.de/ausland/donald-trump-richter-laesst-milliardenklage-des-us-praesidenten-gegen-die-bbc-teilweise-zu-a-8ac0690d-95b1-40c6-a77b-d467c56275f4#ref=rss",
-      "summary": "Donald Trump behauptet, er sei durch den Zusammenschnitt einer Rede durch den britischen Sender BBC verleumdet worden. Nun hat die Auseinandersetzung eine juristische Hürde genommen – zur Freude des US-Präsidenten.",
-      "image": "https://cdn.prod.www.spiegel.de/images/0aa4d8ee-8867-4727-9440-6f3f14150b42_w1200_r1.778_fpx39.31_fpy44.99.jpg",
-      "published": "2026-11-11T10:24:00+01:00",
+      "title": "Gaza: Lewis Hamilton besucht Grenzübergang in Ägypten",
+      "link": "https://www.spiegel.de/sport/formel1/gaza-formel-1-star-lewis-hamilton-besucht-grenzuebergang-in-aegypten-a-e83c1cb3-66d7-4795-96ab-41de35353382#ref=rss",
+      "summary": "Lewis Hamilton setzt sich seit Jahren für Menschenrechte ein. Um sich über Hilfsleistungen für die katastrophale humanitäre Lage in Gaza zu informieren, reiste er nun nach Ägypten.",
+      "image": "https://cdn.prod.www.spiegel.de/images/95a83273-e42c-40e4-ac40-5a871e752511_w1200_r1.778_fpx52_fpy49.jpg",
+      "published": "2026-11-11T16:14:00+01:00",
       "category": "Politik",
-      "score": 68.24
+      "score": 69.05
+    },
+    {
+      "id": "handelsblatt-1b1c94b16bdf832f",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Gasversorgung: Was bringt eine Gasreserve? Und wer zahlt sie?",
+      "link": "https://www.handelsblatt.com/politik/deutschland/gasversorgung-was-bringt-eine-gasreserve-und-wer-zahlt-sie/100268964.html",
+      "summary": "Die Bundesregierung bringt eine Gasreserve auf den Weg, als ein Instrument der Krisenvorsorge. Vor welchen Szenarien Gaskunden geschützt werden sollen – und wie viel sie das kosten wird.",
+      "image": "https://images.handelsblatt.com/RJKsnvcCUh5a/cover/900/506/0/0/107/106/0.5/0.5/gasspeicher.jpg",
+      "published": "2026-11-11T15:53:41+00:00",
+      "category": "Politik",
+      "score": 68.61
+    },
+    {
+      "id": "handelsblatt-c3f74d85702e0cfb",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Rentnerparadies: Rente im Ausland: Dieses Tool zeigt, wohin Sie auswandern sollten",
+      "link": "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-sparen/rente-nach-welchen-kriterien-sie-ihr-traumland-suchen-koennen/100168299.html",
+      "summary": "Den Lebensabend im Ausland verbringen, davon träumen viele. Doch wie finden Sie zum Beispiel heraus, in welchem Land am Meer es sonnig und sicher ist? Das Handelsblatt hilft bei der Auswahl.",
+      "image": "https://images.handelsblatt.com/aqNLFTYn9usL/cover/900/506/0/0/67/196/0.5/0.5/auswandern-im-alter.jpg",
+      "published": "2026-11-11T15:31:00+00:00",
+      "category": "Politik",
+      "score": 68.29
+    },
+    {
+      "id": "handelsblatt-df09fe667eae7333",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Vermögen: Bin ich schon reich oder nicht? Dieser Rechner liefert die Antwort",
+      "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/reichtum-sind-sie-reich-dieser-rechner-liefert-die-antwort/100149729.html",
+      "summary": "Trotz Inflation zeigen aktuelle Daten, dass die Vermögen in Deutschland gewachsen sind. Der Handelsblatt-Rechner zeigt Ihnen, wo Sie im Vergleich zur deutschen Bevölkerung stehen.",
+      "image": "https://images.handelsblatt.com/6Rp3TI0UnSgT/cover/900/506/0/0/0/0/0.5/0.5/reichtum.jpg",
+      "published": "2026-11-11T15:30:00+00:00",
+      "category": "Wirtschaft",
+      "score": 68.28
+    },
+    {
+      "id": "heise-19a2ec4b6c6ea0f0",
+      "source": "heise",
+      "sourceWeight": 0.9,
+      "title": "RWE nimmt größte Wasserstoffturbine Europas in Betrieb",
+      "link": "https://www.heise.de/news/RWE-nimmt-groesste-Wasserstoffturbine-Europas-in-Betrieb-11518550.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
+      "summary": "Wasserstoff wird ein wichtiger Energieträger der Zukunft. RWE testet die Wasserstoffverstromung in Lingen.",
+      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/8/2/7/3/shutterstock_2739781307-8da4f6c168e7bf57.jpeg",
+      "published": "2026-11-10T10:26:00+01:00",
+      "category": "Technologie",
+      "score": 64.15,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "golem",
+            "title": "Reservekraftwerk: Flexible Wasserstoffturbine geht in Testbetrieb",
+            "link": "https://www.golem.de/news/reservekraftwerk-flexible-wasserstoffturbine-geht-in-testbetrieb-2611-215093.html"
+          }
+        ]
+      }
     },
     {
       "id": "deutsche-welle-da9285bc2160099e",
@@ -184,53 +250,7 @@
       "image": "https://static.dw.com/image/79916427_6.jpg",
       "published": "2026-11-11T10:21:00+00:00",
       "category": "Politik",
-      "score": 68.04
-    },
-    {
-      "id": "deutsche-welle-c10f96ae16a0392c",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Demokratie-Studie: Wie autoritär und populistisch ticken die Deutschen?",
-      "link": "https://www.dw.com/de/demokratie-studie-wie-autoritär-und-populistisch-ticken-die-deutschen/a-79910329?maca=de-rss-de-all-1119-rdf",
-      "summary": "Vor allem die Wahlerfolge der AfD zeigen einen klaren Trend: Vorurteile, Ressentiments und Rechtsextremismus nehmen zu. Was bedeutet das für die Demokratie?",
-      "image": "https://static.dw.com/image/59291575_6.jpg",
-      "published": "2026-11-11T09:00:00+00:00",
-      "category": "Politik",
-      "score": 66.91
-    },
-    {
-      "id": "heise-8ccdfb883224e164",
-      "source": "heise",
-      "sourceWeight": 0.9,
-      "title": "Microsoft-Patchday: Attacken auf Outlook beobachtet",
-      "link": "https://www.heise.de/news/Microsoft-Patchday-Attacken-auf-Outlook-beobachtet-11520196.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "summary": "Aus Microsofts Security Update Guide geht hervor, dass die Entwickler knapp 1100 Sicherheitslücken in Office, Windows & Co. geschlossen haben.",
-      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/1/9/9/1/0/4/win1-3ec2f3061dcfac52.png",
-      "published": "2026-11-11T09:33:00+01:00",
-      "category": "Technologie",
-      "score": 64.24,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "golem",
-            "title": "November-Patchday: Microsoft stopft erneut mehr als 1.000 Sicherheitslöcher",
-            "link": "https://www.golem.de/news/november-patchday-microsoft-stopft-erneut-mehr-als-1-000-sicherheitsloecher-2611-215072.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "netzpolitik-a8b2b91ddaac3dc7",
-      "source": "netzpolitik",
-      "sourceWeight": 0.75,
-      "title": "KI-Infrastruktur und Politik: Die neuen Powerplayer bei Meta",
-      "link": "https://netzpolitik.org/2026/ki-infrastruktur-und-politik-die-neuen-powerplayer-bei-meta/",
-      "summary": "Im Wettrennen um KI-Infrastruktur will der Tech-Konzern Meta keine Zeit verlieren. Doch viele Vorhaben müssen auch politisch durchgeboxt werden. Dabei soll eine neue Führungsriege mit besten Kontakten zur Trump-Regierung helfen. Die neue Meta-Präsidentin Dina Powell McCormick hat beste Kontakte zu Republikanern: Im September war sie beim Friedensinstitut von Donald Trump zu Gast. – Alle Rechte vorbehalten: UPI Photo Ein größerer Umbau bei Meta hatte sich schon Anfang des Jahres abgezeichnet. Auf einigen Spitzenposten sitzen neue Leute, einige Spitzenposten wurden neu geschaffen. Eine frisch gegründete Schlüsselabteilung, „ Meta Compute “, soll den Ausbau von KI-Infrastruktur des Tech-Konzerns vorantreiben. Der Umbau kommt in einem für Meta kritischen Moment. Das Unternehmen liefert sich mit anderen KI-Unternehmen wie OpenAI oder SpaceXSI ein Wettrennen um Datenzentren, Rechenkapazität und Investoren, die vom KI-Boom profitieren wollen. Hinzu kommt Konkurrenz aus China und Europa. Schätzungen zufolge könnten im laufenden Jahr weltweit knapp eine Billion US-Dollar in die Technik fließen, Tendenz steigend. …",
-      "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/imago0865781342h-scaled-e1794319067650.jpg",
-      "published": "2026-11-11T06:33:08+00:00",
-      "category": "Politik",
-      "score": 61.87
+      "score": 63.98
     }
   ]
 }
