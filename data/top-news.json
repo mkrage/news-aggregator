@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T20:57:43.309063+00:00",
+  "generatedAt": "2026-11-12T22:55:39.311180+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/b158188e-3a00-49d2-b62b-ae695b61a15b/AAABoc8UAW4/AAABnSSvrFg/16x9-big/truemmer-gaza-104.jpg?width=1920",
       "published": "2026-11-12T13:50:17+01:00",
       "category": "Politik",
-      "score": 94.83,
+      "score": 94.84,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -44,7 +44,7 @@
       "image": "https://images.tagesschau.de/image/2a64b33d-f350-4060-a602-5e2ee57627fc/AAABoc_vwsU/AAABnSSvrFg/16x9-big/putin-witkoff-kushner-104.jpg?width=1920",
       "published": "2026-11-12T17:29:23+01:00",
       "category": "Politik",
-      "score": 91.51,
+      "score": 91.52,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -55,8 +55,8 @@
           },
           {
             "source": "handelsblatt",
-            "title": "Ukraine-Krieg: Europa drängt an den Verhandlungstisch – und Putin spielt auf Zeit",
-            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-europaeer-suchen-ihren-platz-am-verhandlungstisch/100268983.html"
+            "title": "Ukraine-Krieg: Putin zeigt sich bei Treffen mit US-Gesandten offen für Gespräche mit Europa",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-putin-zeigt-sich-bei-treffen-mit-us-gesandten-offen-fuer-gespraeche-mit-europa/100269545.html"
           }
         ]
       }
@@ -71,7 +71,7 @@
       "image": "https://images.tagesschau.de/image/eea9ed05-44d7-4646-b3c8-aef07e8eea3f/AAABoc7SXJ0/AAABnSSvrFg/16x9-big/colom-102.jpg?width=1920",
       "published": "2026-11-12T05:37:34+01:00",
       "category": "Politik",
-      "score": 87.65,
+      "score": 86.01,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -98,7 +98,7 @@
       "image": "https://images.tagesschau.de/image/ea811c51-bc9d-4366-83c2-55809b7f5226/AAABoc17d8I/AAABnSSvrFg/16x9-big/selenskyj-martin-100.jpg?width=1920",
       "published": "2026-11-12T14:28:28+01:00",
       "category": "Politik",
-      "score": 83.36,
+      "score": 81.72,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -116,6 +116,28 @@
       }
     },
     {
+      "id": "deutschlandfunk-6a8d9ef650bce11c",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Nahost - Israel verbietet französischem Präsidentschaftskandidaten Mélenchon die Einreise",
+      "link": "https://www.deutschlandfunk.de/israel-verbietet-franzoesischem-praesidentschaftskandidaten-m-lenchon-die-einreise-100.html",
+      "summary": "Frankreichs linkspopulistischer Präsidentschaftskandidat Mélenchon darf nicht mehr nach Israel einreisen.",
+      "image": "https://bilder.deutschlandfunk.de/fa/3d/2b/f6/fa3d2bf6-6482-49f7-9d65-d49f9feff7f2/frankreich-wahlkampf-parlamentswahl-jean-luc-melenchon-nupes-100-1920x1920.jpg",
+      "published": "2026-11-12T23:44:15+01:00",
+      "category": "Politik",
+      "score": 77.84,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Israel verbietet Jean-Luc Mélenchon wegen antiisraelischer Haltung Einreise",
+            "link": "https://www.spiegel.de/ausland/israel-verbietet-jean-luc-melenchon-wegen-antiisraelischer-haltung-einreise-a-61502964-7e0f-412a-9b40-b41a9754bf01#ref=rss"
+          }
+        ]
+      }
+    },
+    {
       "id": "deutschlandfunk-e72ea33787777b30",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
@@ -123,9 +145,21 @@
       "link": "https://www.deutschlandfunk.de/finnland-keine-visa-fuer-russische-sportler-102.html",
       "summary": "Russische Sportler dürfen bis zu einem Kriegsende in der Ukraine nicht an Wettkämpfen in Finnland teilnehmen.",
       "image": "https://bilder.deutschlandfunk.de/eb/d3/f4/1d/ebd3f41d-cc56-44d4-988e-039d125396fb/elina-valtonen-100-1920x1920.jpg",
-      "published": "2026-11-12T21:45:46+01:00",
+      "published": "2026-11-12T23:44:15+01:00",
       "category": "Politik",
-      "score": 77.83
+      "score": 77.84
+    },
+    {
+      "id": "spiegel-e6a0924892bf16fd",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Ukrainekrieg: Witkoff kündigt Beteiligung Europas an Verhandlungen an",
+      "link": "https://www.spiegel.de/ausland/ukrainekrieg-witkoff-kuendigt-beteiligung-europas-an-verhandlungen-an-a-aa8619e7-7ea6-4b1d-bf03-3bf4cf42e0a1#ref=rss",
+      "summary": "Nach direkten Verhandlungen zwischen Russland, der Ukraine und den USA hat der US-Sondergesandte Witkoff einen weiteren Termin angekündigt, an dem auch die Europäer teilnehmen sollen. Unklar ist aber, wer genau Europa vertreten soll.",
+      "image": "https://cdn.prod.www.spiegel.de/images/cf32b6af-6dd8-4241-86f2-79b5a1ebab72_w1200_r1.778_fpx40_fpy34.jpg",
+      "published": "2026-11-12T22:46:00+01:00",
+      "category": "Politik",
+      "score": 77.03
     },
     {
       "id": "spiegel-1d44460acbc993a0",
@@ -137,7 +171,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/1aa2c6d8-d1bb-4357-a2a0-09d8e5569d1d_w1200_r1.778_fpx54_fpy35.jpg",
       "published": "2026-11-12T19:57:00+01:00",
       "category": "Politik",
-      "score": 76.32
+      "score": 74.69
     },
     {
       "id": "handelsblatt-3d3ca1fb886961f8",
@@ -149,7 +183,7 @@
       "image": "https://images.handelsblatt.com/vyVmjraRCkZg/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
       "published": "2026-11-12T16:17:46+00:00",
       "category": "Politik",
-      "score": 73.11
+      "score": 71.47
     },
     {
       "id": "golem-a0bcd0b7ec56c9a5",
@@ -161,31 +195,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215152&amp;page=1&amp;ts=1794500881",
       "published": "2026-11-12T17:28:01+01:00",
       "category": "Politik",
-      "score": 72.25
-    },
-    {
-      "id": "deutsche-welle-66a66811156b6938",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Gen-Z-Proteste: Ist die ältere Generation wirklich besser dran als junge Leute?",
-      "link": "https://www.dw.com/de/gen-z-proteste-ist-die-ältere-generation-wirklich-besser-dran-als-junge-leute/a-79874373?maca=de-rss-de-all-1119-rdf",
-      "summary": "Mieten, Bildung, Klimawandel: Die junge Generation geht wegen düsterer Zukunftsaussichten auf die Straße. Die Babyboomer gelten ihnen oft als Bremser von Lösungen. Doch Daten zeigen: Auch Ältere leiden unter den Krisen.",
-      "image": "https://static.dw.com/image/79935417_6.jpg",
-      "published": "2026-11-12T16:10:00+00:00",
-      "category": "Nachrichten",
-      "score": 70.0
-    },
-    {
-      "id": "spiegel-cfd9f966e4271006",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Israel verbietet Jean-Luc Mélenchon wegen antiisraelischer Haltung Einreise",
-      "link": "https://www.spiegel.de/ausland/israel-verbietet-jean-luc-melenchon-wegen-antiisraelischer-haltung-einreise-a-61502964-7e0f-412a-9b40-b41a9754bf01#ref=rss",
-      "summary": "Wegen »Ritualmordlegenden gegen Israel« hat Außenminister Gideon Sa’ar dem französischen Präsidentschaftskandidaten Jean-Luc Mélenchon die Einreise verboten. Der reagiert trotzig.",
-      "image": "https://cdn.prod.www.spiegel.de/images/66bbb771-a584-422b-ae80-80f3c52fdb2f_w1200_r1.778_fpx41_fpy51.jpg",
-      "published": "2026-11-12T21:54:00+01:00",
-      "category": "Politik",
-      "score": 69.95
+      "score": 70.62
     },
     {
       "id": "deutschlandfunk-31bc1baa35d81c7c",
@@ -195,9 +205,9 @@
       "link": "https://www.deutschlandfunk.de/ministerpraesidenten-bestehen-auf-geringerer-stromsteuer-100.html",
       "summary": "Die Ministerpräsidenten haben die Bundesregierung aufgefordert, die Stromsteuer für alle zu senken. Der Koalitionsausschuss müsse dafür kommende Woche eine Lösung finden, sagte der rheinland-pfälzische Regierungschef und Vorsitzende der Ministerpräsidentenkonferenz, Schnieder. Der CDU-Politiker bezeichnete es als \"empörend\", dass sich CDU und SPD nicht auf die im Koalitionsvertrag festgelegte Senkung der Steuer geeinigt hätten.",
       "image": "https://bilder.deutschlandfunk.de/74/7f/a4/6e/747fa46e-7cf0-4642-9a42-57d1444c85cf/strompreise-102-1920x1920.jpg",
-      "published": "2026-11-12T21:45:46+01:00",
+      "published": "2026-11-12T23:44:15+01:00",
       "category": "Politik",
-      "score": 69.83,
+      "score": 69.84,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -210,16 +220,38 @@
       }
     },
     {
-      "id": "deutschlandfunk-4395cfdcb2215992",
-      "source": "deutschlandfunk",
+      "id": "spiegel-fb66951b61450e40",
+      "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Gesetzespläne - Bundestag beschließt mehr Befugnisse für Zoll im Kampf gegen Organisierte Kriminalität",
-      "link": "https://www.deutschlandfunk.de/bundestag-beschliesst-mehr-befugnisse-fuer-zoll-im-kampf-gegen-organisierte-kriminalitaet-100.html",
-      "summary": "Der ​Bundestag hat mehr Befugnisse für den deutschen Zoll beim Vorgehen gegen internationale Geldwäsche und Organisierte Kriminalität beschlossen. Kernstück ist, dass künftig die Ermittlung und die Sicherung von Vermögen auch schon ohne einen Anfangsverdacht für ein Strafverfahren möglich sein sollen. ⁠",
-      "image": "https://bilder.deutschlandfunk.de/54/d7/f2/bc/54d7f2bc-53ff-4381-a2ee-eb285f434c49/bundestag-debatte-entscheidung-ko-tropfen-100-1920x1920.jpg",
-      "published": "2026-11-12T21:45:46+01:00",
-      "category": "Politik",
-      "score": 69.83
+      "title": "Spionage-Affäre: Nvidia-Aktien büßen nach Jensen Huangs Rücktritt an Wert ein",
+      "link": "https://www.spiegel.de/wirtschaft/spionage-affaere-nvidia-aktien-buessen-nach-jensen-huangs-ruecktritt-an-wert-ein-a-a7155d5a-d0f2-43d4-b287-1f89bcb863ea#ref=rss",
+      "summary": "Der Rücktritt von Jensen Huang hat die Wall Street am Donnerstag ins Minus gedrückt. Der Wert der Nvidia-Aktie sank deutlich, was auch in den großen Aktien-Indizes spürbar ist. Doch es gibt auch Profiteure.",
+      "image": "https://cdn.prod.www.spiegel.de/images/adf90e99-a9e7-4cd3-8966-93e19d39db81_w1200_r1.778_fpx36_fpy52.jpg",
+      "published": "2026-11-12T23:39:00+01:00",
+      "category": "Wirtschaft",
+      "score": 69.77,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Wall Street: Wall Street schließt im Minus – Nvidia-Turbulenzen belasten",
+            "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-schliesst-im-minus-nvidia-turbulenzen-belasten/100269457.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutsche-welle-66a66811156b6938",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "Gen-Z-Proteste: Ist die ältere Generation wirklich besser dran als junge Leute?",
+      "link": "https://www.dw.com/de/gen-z-proteste-ist-die-ältere-generation-wirklich-besser-dran-als-junge-leute/a-79874373?maca=de-rss-de-all-1119-rdf",
+      "summary": "Mieten, Bildung, Klimawandel: Junge Deutsche geht wegen düsterer Zukunftsaussichten auf die Straße. Die Babyboomer gelten ihnen oft als Bremser von Lösungen. Doch Daten zeigen: Auch Ältere leiden unter den Krisen.",
+      "image": "https://static.dw.com/image/79935417_6.jpg",
+      "published": "2026-11-12T16:10:00+00:00",
+      "category": "Nachrichten",
+      "score": 68.37
     },
     {
       "id": "handelsblatt-a1ceeef34a21ff4f",
@@ -231,7 +263,7 @@
       "image": "https://images.handelsblatt.com/qmIk90S8pMEg/cover/900/506/0/0/114/114/0.5/0.5/niederlande-minderheitskoalition-in-der-krise.jpg",
       "published": "2026-11-12T20:39:22+00:00",
       "category": "Politik",
-      "score": 68.75
+      "score": 67.11
     },
     {
       "id": "golem-1919654e3d0f1ad4",
@@ -243,19 +275,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215132&amp;page=1&amp;ts=1794485522",
       "published": "2026-11-12T13:12:02+01:00",
       "category": "Politik",
-      "score": 68.7
-    },
-    {
-      "id": "handelsblatt-5d2a0e2413853266",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Nvidia: So reagieren Politik und Wirtschaft auf Huangs Rücktritt",
-      "link": "https://www.handelsblatt.com/technik/it-internet/nvidia-so-reagieren-politik-und-wirtschaft-auf-huangs-ruecktritt/100269516.html",
-      "summary": "Während Donald Trump schon den ehemaligen Apple-Chef bei Nvidia ins Spiel bringt, dominieren die politischen Auswirkungen die Debatte. Der Tech-Superstar erfährt aber auch Rückhalt.",
-      "image": "https://images.handelsblatt.com/jGZKnemIJafy/cover/900/506/0/0/0/291/0.5/0.5/nvidia-ceo-jensen-huang-delivers-his-keynote-speech-at-computex-2026-in-taipei-on-june-1-2026.-nvid.jpg",
-      "published": "2026-11-12T20:00:04+00:00",
-      "category": "Politik",
-      "score": 68.2
+      "score": 67.06
     }
   ]
 }
