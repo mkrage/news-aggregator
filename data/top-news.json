@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T22:53:38.772558+00:00",
+  "generatedAt": "2026-11-12T01:42:50.672736+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,15 +12,10 @@
       "image": "https://images.tagesschau.de/image/89ac7826-e2a9-4c14-96d7-226b8bbad13b/AAABocp_BF0/AAABnSSvrFg/16x9-big/abu-dhabi-ukraine-gespraeche-104.jpg?width=1920",
       "published": "2026-11-11T12:27:20+01:00",
       "category": "Politik",
-      "score": 94.81,
+      "score": 90.99,
       "coverage": {
-        "sourceCount": 4,
+        "sourceCount": 3,
         "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Nach Gesprächen in Abu Dhabi - Russland schließt Gebietstausch mit der Ukraine aus",
-            "link": "https://www.deutschlandfunk.de/russland-schliesst-gebietstausch-mit-der-ukraine-aus-102.html"
-          },
           {
             "source": "spiegel",
             "title": "Russland - Ukraine: USA wollen Europäer an den Verhandlungstisch bringen",
@@ -35,28 +30,67 @@
       }
     },
     {
-      "id": "tagesschau-43870b69265944d3",
+      "id": "deutschlandfunk-8f8c6c332d9fc689",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Palästinenser - Lage nach Unwetter im Gazastreifen prekär - UNO kritisiert Verzögerungen",
+      "link": "https://www.deutschlandfunk.de/lage-nach-unwetter-im-gazastreifen-prekaer-uno-kritisiert-verzoegerungen-100.html",
+      "summary": "Der UNO-Nothilfekoordinator Fletcher hat anhaltende Lieferblockaden von Wintermaterial für den Gazastreifen durch Israel kritisiert.",
+      "image": "https://bilder.deutschlandfunk.de/08/ec/64/a8/08ec64a8-2ea2-4906-a56c-bec790e00ba7/gazastreifen-gaza-ueberschwemmung-100-1920x1920.jpg",
+      "published": "2026-11-12T02:28:15+01:00",
+      "category": "Politik",
+      "score": 85.8
+    },
+    {
+      "id": "tagesschau-cf98397a846ec916",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "US-Repräsentantenhaus lehnt Amtsenthebungsverfahren gegen Hegseth ab",
-      "link": "https://www.tagesschau.de/ausland/amerika/hegseth-amtsenthebungsverfahren-gestoppt-100.html",
-      "summary": "Ein Parteikollege hatte die Amtsenthebung von US-Verteidigungsminister Hegseth angestrebt - vor allem wegen des Iran-Kriegs. Nun haben die Republikaner im US-Repräsentantenhaus den Vorstoß beendet. Sie stimmten nahezu geschlossen dagegen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/07d2895d-fb71-4b0f-9548-d17caea53e00/AAABocqAedQ/AAABnSSvrFg/16x9-big/hegseth-156.jpg?width=1920",
-      "published": "2026-11-11T01:19:26+01:00",
+      "title": "Historischer Sieg: Demokrat Colom holt Senatssitz in Mississippi",
+      "link": "https://www.tagesschau.de/ausland/amerika/demokrat-mississippi-sieg-100.html",
+      "summary": "Erstmals seit mehr als vier Jahrzehnten hat ein Demokrat im südlichen US-Bundesstaat Mississippi eine Wahl für den US-Senat gewonnen. Colom gelang ein überraschender Sieg - er weitet damit die Mehrheit im Senat ab Januar auf 55 der 100 Sitze aus.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/d7e2a493-7016-4e0f-b525-04c1f1dc300f/AAABocztN-E/AAABnSSvrFg/16x9-big/colom-100.jpg?width=1920",
+      "published": "2026-11-12T02:19:43+01:00",
       "category": "Politik",
-      "score": 83.49,
+      "score": 83.48,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
-            "title": "USA - Amtsenthebungsverfahren gegen Verteidigungsminister Hegseth scheitert im Repräsentantenhaus",
-            "link": "https://www.deutschlandfunk.de/amtsenthebungsverfahren-gegen-verteidigungsminister-hegseth-scheitert-im-repraesentantenhaus-100.html"
+            "title": "Erstmals seit 1982 - Demokrat Scott Colom holt laut Medien Senatssitz in Mississippi",
+            "link": "https://www.deutschlandfunk.de/demokrat-scott-colom-holt-laut-medien-senatssitz-in-mississippi-102.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "US-Wahlen: Erstmals seit 1982: Demokrat holt Senatssitz in Mississippi",
+            "link": "https://www.handelsblatt.com/politik/international/us-wahlen-erstmals-seit-1982-demokrat-holt-senatssitz-in-mississippi/100269248.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-6504c9743dc79ba3",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Zahl der Kriegsdienstverweigerer steigt weiter deutlich",
+      "link": "https://www.tagesschau.de/inland/kriegsdienstverweigerer-steigend-100.html",
+      "summary": "Der Wehrdienst bleibt weiterhin freiwillig. Die Musterung bei Männern ist allerdings verpflichtend. Die Zahl der Kriegsdienstverweigerungen steigt in diesem Jahr deutlich an. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/90e033e0-defd-4b4b-bf51-40bb81c39473/AAABmQ4VB0k/AAABnSSvrFg/16x9-big/bundeswehr-jacken-100.jpg?width=1920",
+      "published": "2026-11-11T06:56:45+01:00",
+      "category": "Nachrichten",
+      "score": 80.48,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Bayern - \"Erschreckend hoch\": Zahl der Verurteilungen wegen Kindesmissbrauchs in Bayern steigt deutlich",
+            "link": "https://www.deutschlandfunk.de/erschreckend-hoch-zahl-der-verurteilungen-wegen-kindesmissbrauchs-in-bayern-steigt-deutlich-108.html"
           },
           {
             "source": "deutsche-welle",
-            "title": "US-Republikaner will Amtsenthebung von Pentagon-Chef Hegseth",
-            "link": "https://www.dw.com/de/us-republikaner-will-amtsenthebung-von-pentagon-chef-hegseth/a-79906935?maca=de-rss-de-all-1119-rdf"
+            "title": "Zeitung: Zahl der Kriegsdienstverweigerer in Deutschland steigt stark",
+            "link": "https://www.dw.com/de/zeitung-zahl-der-kriegsdienstverweigerer-in-deutschland-steigt-stark/a-79918041?maca=de-rss-de-all-1119-rdf"
           }
         ]
       }
@@ -71,7 +105,7 @@
       "image": "https://images.tagesschau.de/image/fb34507e-db2f-412f-8388-e9699241da24/AAABocn9QYE/AAABnSSvrFg/16x9-big/abu-dhabi-ukraine-gespraeche-102.jpg?width=1920",
       "published": "2026-11-11T18:30:18+01:00",
       "category": "Politik",
-      "score": 82.51,
+      "score": 80.16,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -94,67 +128,16 @@
       }
     },
     {
-      "id": "tagesschau-6504c9743dc79ba3",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Zahl der Kriegsdienstverweigerer steigt weiter deutlich",
-      "link": "https://www.tagesschau.de/inland/kriegsdienstverweigerer-steigend-100.html",
-      "summary": "Der Wehrdienst bleibt weiterhin freiwillig. Die Musterung bei Männern ist allerdings verpflichtend. Die Zahl der Kriegsdienstverweigerungen steigt in diesem Jahr deutlich an. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/90e033e0-defd-4b4b-bf51-40bb81c39473/AAABmQ4VB0k/AAABnSSvrFg/16x9-big/bundeswehr-jacken-100.jpg?width=1920",
-      "published": "2026-11-11T06:56:45+01:00",
-      "category": "Nachrichten",
-      "score": 80.49,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Bericht - Fast 17.000 Anträge auf Kriegsdienstverweigerung in diesem Jahr",
-            "link": "https://www.deutschlandfunk.de/fast-17-000-antraege-auf-kriegsdienstverweigerung-in-diesem-jahr-100.html"
-          },
-          {
-            "source": "deutsche-welle",
-            "title": "Zeitung: Zahl der Kriegsdienstverweigerer in Deutschland steigt stark",
-            "link": "https://www.dw.com/de/zeitung-zahl-der-kriegsdienstverweigerer-in-deutschland-steigt-stark/a-79918041?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-547b7340e96ab6df",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg - Europäischer Rechnungshof kritisiert Defizite bei Sanktionen gegen Russland - Immer noch erhebliches Handelsvolumen",
-      "link": "https://www.deutschlandfunk.de/europaeischer-rechnungshof-kritisiert-defizite-bei-sanktionen-gegen-russland-immer-noch-erhebliches--102.html",
-      "summary": "Der Europäische Rechnungshof sieht deutliche Versäumnisse bei den Handelssanktionen der EU gegen Russland. Diese blieben weit hinter ihren Möglichkeiten zurück, heißt es in einem in Luxemburg vorgestellten Sonderbericht.",
-      "image": "https://bilder.deutschlandfunk.de/5c/b3/60/09/5cb36009-4b50-44fa-925b-5483aaffacca/handel-russland-100-1920x1920.jpg",
-      "published": "2026-11-11T23:39:53+01:00",
+      "id": "handelsblatt-42521b3b738a2d10",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Warnung an USA: Iran droht mit Angriffen auf US-Stützpunkte auch in Europa",
+      "link": "https://www.handelsblatt.com/politik/international/warnung-an-usa-iran-droht-mit-angriffen-auf-us-stuetzpunkte-auch-in-europa/100269249.html",
+      "summary": "Der Iran droht mit Attacken auf US-Militärstützpunkte von Westasien bis Europa, sollten die USA erneut einen Krieg starten. Auch Donald Trumps jüngste Äußerungen finden in Teheran keinen Anklang.",
+      "image": "https://images.handelsblatt.com/aKQ0iBxMRXnD/cover/900/506/0/0/107/106/0.5/0.5/iran-krieg-strasse-von-hormus.jpg",
+      "published": "2026-11-11T23:41:53+00:00",
       "category": "Politik",
-      "score": 77.81
-    },
-    {
-      "id": "deutschlandfunk-59cfc57dbde43cbd",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Gazastreifen - UNO kritisiert Verzögerungen bei Gaza-Winterhilfen - Hilfsorganisationen sprechen von katastrophaler Lage",
-      "link": "https://www.deutschlandfunk.de/uno-kritisiert-verzoegerungen-bei-gaza-winterhilfen-hilfsorganisationen-sprechen-von-katastrophaler--100.html",
-      "summary": "Der UNO-Nothilfekoordinator Fletcher hat anhaltende Lieferblockaden von Wintermaterial für den Gazastreifen durch Israel kritisiert.",
-      "image": "https://bilder.deutschlandfunk.de/08/ec/64/a8/08ec64a8-2ea2-4906-a56c-bec790e00ba7/gazastreifen-gaza-ueberschwemmung-100-1920x1920.jpg",
-      "published": "2026-11-11T23:39:53+01:00",
-      "category": "Politik",
-      "score": 77.81
-    },
-    {
-      "id": "deutschlandfunk-c02e58c0d80c1891",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Krieg gegen die Ukraine - Drohnenalarm im Baltikum und in Finnland",
-      "link": "https://www.deutschlandfunk.de/drohnenalarm-im-baltikum-und-in-finnland-100.html",
-      "summary": "In den ⁠drei baltischen Staaten Estland, Lettland und Litauen sowie in Finnland hat es in der vergangenen Nacht vorübergehend wieder Drohnenalarm gegeben.",
-      "image": "https://bilder.deutschlandfunk.de/b0/96/9f/1e/b0969f1e-bf12-4925-a5b9-ff89745170a8/russische-kampfdrohne-ukraine-100-1280x1280.jpg",
-      "published": "2026-11-11T23:39:53+01:00",
-      "category": "Politik",
-      "score": 77.81
+      "score": 75.32
     },
     {
       "id": "spiegel-6575e19053f72dd0",
@@ -166,19 +149,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/b7324698-f152-45a8-8ddc-13fd9ef02fe0_w1200_r1.778_fpx56_fpy37.jpg",
       "published": "2026-11-11T22:00:00+01:00",
       "category": "Politik",
-      "score": 76.42
-    },
-    {
-      "id": "deutschlandfunk-b2aaad001a99908b",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Unwetter - Sturmwarnung: Portugal schließt Schulen und Behörden - Unwetter fällt weniger stark aus als befürchtet",
-      "link": "https://www.deutschlandfunk.de/sturmwarnung-portugal-schliesst-schulen-und-behoerden-unwetter-faellt-weniger-stark-aus-als-befuerch-100.html",
-      "summary": "In Portugal sind wegen eines Sturmes Schulen sowie zahlreiche Behörden und Supermärkte vorsorglich geschlossen geblieben.",
-      "image": "https://bilder.deutschlandfunk.de/b5/20/67/42/b5206742-833a-4435-9769-6974cbddc356/portugal-regen-sturm-schulen-schliessung-100-1920x1920.jpg",
-      "published": "2026-11-11T23:39:53+01:00",
-      "category": "Nachrichten",
-      "score": 74.81
+      "score": 74.07
     },
     {
       "id": "spiegel-77a8d1b601aa0e94",
@@ -190,7 +161,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/71c5bc6d-9578-4677-840e-0cac5ddb82c9_w1200_r1.778_fpx40.66_fpy54.99.jpg",
       "published": "2026-11-11T19:14:00+01:00",
       "category": "Politik",
-      "score": 74.12
+      "score": 71.77
     },
     {
       "id": "spiegel-79690214bd31539d",
@@ -202,7 +173,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/8511302c-e75f-4614-8269-070458feb81e_w1200_r1.778_fpx35.33_fpy54.98.jpg",
       "published": "2026-11-11T18:09:00+01:00",
       "category": "Politik",
-      "score": 73.21
+      "score": 70.86
     },
     {
       "id": "handelsblatt-52b0df3f13e80b56",
@@ -214,7 +185,41 @@
       "image": "https://images.handelsblatt.com/InyzyX9UEHkv/cover/900/506/0/0/87/423/0.5/0.5/file-photo-file-photo-elon-musk-chief-executive-officer-of-spacex-and-tesla-and-owner-of-x-forme.jpg",
       "published": "2026-11-11T17:24:57+00:00",
       "category": "Politik",
-      "score": 72.43
+      "score": 70.08
+    },
+    {
+      "id": "deutschlandfunk-20f82dfd4d83e3ac",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Präsidentin - Ex-SPD-Abgeordnete und Lehrerin Nina Hauer: Erste Frau an der Spitze der Bundeszentrale für politische Bildung",
+      "link": "https://www.deutschlandfunk.de/ex-spd-abgeordnete-und-lehrerin-nina-hauer-erste-frau-an-der-spitze-der-bundeszentrale-fuer-politisc-108.html",
+      "summary": "Die frühere SPD-Bundestagsabgeordnete Nina Hauer ist neue Präsidentin der Bundeszentrale für politische Bildung.",
+      "image": "https://bilder.deutschlandfunk.de/4f/d0/d4/22/4fd0d422-9923-4d95-8187-7015aca63ba8/nina-hauer-spd-100-1920x1920.jpg",
+      "published": "2026-11-12T02:28:15+01:00",
+      "category": "Politik",
+      "score": 69.8
+    },
+    {
+      "id": "deutschlandfunk-8e76898e6c0ed013",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Regierungsbefragung - Unterhaltsvorschuss nur noch bis 40.000 Euro Einkommen - aber weiterhin bis zum 18. Geburtstag des Kindes",
+      "link": "https://www.deutschlandfunk.de/unterhaltsvorschuss-nur-noch-bis-40-000-euro-einkommen-aber-weiterhin-bis-zum-18-geburtstag-des-kind-104.html",
+      "summary": "Das Bundesfamilienministerium hat Pläne für eine umstrittene Einschränkung beim Unterhaltsvorschuss für Alleinerziehende aufgegeben.",
+      "image": "https://bilder.deutschlandfunk.de/0f/4a/6e/2d/0f4a6e2d-ba42-4ff9-b8d2-2af5a87344da/karin-prien-unterhalt-berlin-100-1920x1920.jpg",
+      "published": "2026-11-12T02:28:15+01:00",
+      "category": "Politik",
+      "score": 69.8,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Sparmaßnahmen: Entwurf: Unterhaltsvorschuss nur noch bis 40.000 Euro",
+            "link": "https://www.handelsblatt.com/politik/deutschland/sparmassnahmen-entwurf-unterhaltsvorschuss-nur-noch-bis-40000-euro/100269166.html"
+          }
+        ]
+      }
     },
     {
       "id": "handelsblatt-6b97958a9ad5daa9",
@@ -226,7 +231,7 @@
       "image": "https://images.handelsblatt.com/AezM5bsVy0JW/cover/900/506/0/0/107/106/0.5/0.5/ukraine-gespraeche-in-abu-dhabi.jpg",
       "published": "2026-11-11T16:14:01+00:00",
       "category": "Politik",
-      "score": 71.45
+      "score": 69.1
     },
     {
       "id": "deutsche-welle-aaa58e30f22a82e8",
@@ -238,7 +243,7 @@
       "image": "https://static.dw.com/image/79909063_6.jpg",
       "published": "2026-11-11T18:19:00+00:00",
       "category": "Wirtschaft",
-      "score": 65.19,
+      "score": 62.84,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -251,16 +256,16 @@
       }
     },
     {
-      "id": "handelsblatt-81da3e4eb1621302",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Wall Street: KI-Euphorie ist zurück – Tech-Aktien schließen deutlich im Plus",
-      "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-ki-euphorie-ist-zurueck-tech-aktien-schliessen-deutlich-im-plus/100269138.html",
-      "summary": "Die hohe Inflation drückt die Stimmung nicht allzu lange: Der offenbar hohe Andrang auf den Börsengang von Anthropic sowie starke Quartalszahlen motivieren Anleger zum Kauf von Tech-Aktien.",
-      "image": "https://images.handelsblatt.com/P-73zvwpCO2y/cover/900/506/0/0/75/75/0.5/0.5/wall-street.jpeg",
-      "published": "2026-11-11T17:56:11+00:00",
+      "id": "golem-98cd2e576fdab9da",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Zweite Affäre: Nvidia erwägt offenbar Jensen Huangs Absetzung",
+      "link": "https://www.golem.de/news/zweite-affaere-nvidia-erwaegt-offenbar-jensen-huangs-absetzung-2611-215113.html",
+      "summary": "Nach einem Bericht über eine zweite mutmaßliche Affäre könnte der Nvidia-Verwaltungsrat über Jensen Huangs Zukunft entscheiden. ( Nvidia , Wirtschaft )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215113&amp;page=1&amp;ts=1794443821",
+      "published": "2026-11-12T01:37:01+01:00",
       "category": "Wirtschaft",
-      "score": 64.87
+      "score": 59.09
     }
   ]
 }
