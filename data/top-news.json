@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T01:58:22.870192+00:00",
+  "generatedAt": "2026-11-13T03:47:23.776743+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,9 +12,9 @@
       "image": "https://images.tagesschau.de/image/eea9ed05-44d7-4646-b3c8-aef07e8eea3f/AAABoc7SXJ0/AAABnSSvrFg/16x9-big/colom-102.jpg?width=1920",
       "published": "2026-11-12T05:37:34+01:00",
       "category": "Politik",
-      "score": 94.91,
+      "score": 91.65,
       "coverage": {
-        "sourceCount": 4,
+        "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
@@ -22,14 +22,46 @@
             "link": "https://www.deutschlandfunk.de/demokrat-scott-colom-holt-laut-medien-senatssitz-in-mississippi-122.html"
           },
           {
-            "source": "handelsblatt",
-            "title": "USA: Historischer Sieg: Demokraten gewinnen Senatswahl in Mississippi",
-            "link": "https://www.handelsblatt.com/video/politik/usa-historischer-sieg-demokraten-gewinnen-senatswahl-in-mississippi/100269437.html"
-          },
-          {
             "source": "deutsche-welle",
             "title": "Historischer Sieg der Demokraten bei US-Wahl in Mississippi",
             "link": "https://www.dw.com/de/historischer-sieg-der-demokraten-bei-us-wahl-in-mississippi/a-79927646?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-7a6353c1976a789f",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Nvidia: Huang-Affäre könnte zu Trump-Skandal werden",
+      "link": "https://www.tagesschau.de/ausland/amerika/nvidia-trump-100.html",
+      "summary": "Laut Medienberichten wurde Trump zwei Mal von der Affäre des Nvidia-Chefs Huang mit einer mutmaßlichen chinesischen Spionin unterrichtet. Doch der Präsident beteuert, von nichts gewusst zu haben. Von C. Kühntopp .[ mehr ]",
+      "image": "https://images.tagesschau.de/image/f9401978-bea2-4fa5-9226-a0299084e01c/AAABodJ-FtA/AAABnSSvrFg/16x9-big/huang-trump-102.jpg?width=1920",
+      "published": "2026-11-13T03:36:47+01:00",
+      "category": "Politik",
+      "score": 88.59,
+      "coverage": {
+        "sourceCount": 5,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Spionage-Affäre: Nvidia-Aktien büßen nach Jensen Huangs Rücktritt an Wert ein",
+            "link": "https://www.spiegel.de/wirtschaft/spionage-affaere-nvidia-aktien-buessen-nach-jensen-huangs-ruecktritt-an-wert-ein-a-a7155d5a-d0f2-43d4-b287-1f89bcb863ea#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Nvidia: So reagieren Politik und Wirtschaft auf Huangs Rücktritt",
+            "link": "https://www.handelsblatt.com/technik/it-internet/nvidia-so-reagieren-politik-und-wirtschaft-auf-huangs-ruecktritt/100269516.html"
+          },
+          {
+            "source": "deutsche-welle",
+            "title": "Jensen Huang: Spionageaffäre und Affären: Nvidia verliert seinen Star-CEO",
+            "link": "https://www.dw.com/de/jensen-huang-spionageaffäre-und-affären-nvidia-verliert-seinen-star-ceo/a-79933045?maca=de-rss-de-all-1119-rdf"
+          },
+          {
+            "source": "heise",
+            "title": "Außereheliche Affären: Nvidia-CEO Jensen Huang tritt mit sofortiger Wirkung ab",
+            "link": "https://www.heise.de/news/Nach-Bekanntwerden-einer-zweiten-Affaere-Nvidia-CEO-Jensen-Huang-abgetreten-11522193.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag"
           }
         ]
       }
@@ -42,16 +74,16 @@
       "link": "https://www.tagesschau.de/ausland/europa/epg-ukraine-usa-europa-100.html",
       "summary": "Von Putin zu Selenskyj - die US-Unterhändler Kushner und Witkoff kommen mit Ankündigungen aus Moskau nach Dublin. Bei den Verhandlungen sollen künftig auch die Europäer teilnehmen.[ mehr ]",
       "image": "https://images.tagesschau.de/image/e23f9c75-5489-413a-b3d2-c23c8e6f730d/AAABodH246k/AAABnSSvrFg/16x9-big/dublin-epg-100.jpg?width=1920",
-      "published": "2026-11-13T02:28:11+01:00",
+      "published": "2026-11-13T03:19:34+01:00",
       "category": "Politik",
-      "score": 86.91,
+      "score": 86.97,
       "coverage": {
         "sourceCount": 4,
         "others": [
           {
             "source": "deutschlandfunk",
-            "title": "Dublin - Selenskyj und Kushner: Europäer werden bei nächsten Ukraine-Gesprächen dabei sein",
-            "link": "https://www.deutschlandfunk.de/selenskyj-und-kushner-europaeer-werden-bei-naechsten-ukraine-gespraechen-dabei-sein-100.html"
+            "title": "Dublin - Kushner: Europäer sollen bei nächsten Ukraine-Gesprächen dabei sein",
+            "link": "https://www.deutschlandfunk.de/kushner-europaeer-sollen-bei-naechsten-ukraine-gespraechen-dabei-sein-100.html"
           },
           {
             "source": "spiegel",
@@ -67,28 +99,6 @@
       }
     },
     {
-      "id": "deutschlandfunk-25aacd4b27897f44",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Nahostkonflikt - Ärzte ohne Grenzen kritisiert Luftangriff auf Krankenhaus im Gazastreifen",
-      "link": "https://www.deutschlandfunk.de/aerzte-ohne-grenzen-kritisiert-luftangriff-auf-krankenhaus-im-gazastreifen-102.html",
-      "summary": "Die Hilfsorganisation Ärzte ohne Grenzen hat den israelischen Luftangriff auf ein Krankenhaus im Gazastreifen kritisiert.",
-      "image": "https://bilder.deutschlandfunk.de/bf/69/e0/91/bf69e091-7d96-4acd-84a6-7cd37c760c69/nasser-krankenhaus-angriff-100-1920x1920.jpg",
-      "published": "2026-11-13T02:52:13+01:00",
-      "category": "Politik",
-      "score": 85.91,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Gaza: Mehrere Tote bei israelischem Luftangriff auf Krankenhaus",
-            "link": "https://www.handelsblatt.com/video/politik/gaza-mehrere-tote-bei-israelischem-luftangriff-auf-krankenhaus/100269439.html"
-          }
-        ]
-      }
-    },
-    {
       "id": "spiegel-e95ee5d55dc365ef",
       "source": "spiegel",
       "sourceWeight": 0.95,
@@ -98,7 +108,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/fbb28c79-d5c1-458a-b1ba-2183bb080192_w1200_r1.778_fpx62.6_fpy49.98.jpg",
       "published": "2026-11-13T01:21:00+01:00",
       "category": "Politik",
-      "score": 84.65,
+      "score": 83.13,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -111,68 +121,43 @@
       }
     },
     {
-      "id": "tagesschau-6546c0da91558f08",
+      "id": "tagesschau-78da0d50862b2a0d",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Angriff auf Krankenhaus mit sechs Toten galt laut Israel Hamas",
-      "link": "https://www.tagesschau.de/ausland/asien/gaza-israel-angriff-krankenhaus-100.html",
-      "summary": "Bei einem Angriff Israels auf eine Klinik in Gaza sind nach Behördenangaben sechs Menschen gestorben. Laut Israel nutzte die Hamas die Gebäude als Kommando- und Folterzentrum. Ein Mitglied der Terrororganisation sei Ziel des Angriffs gewesen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/b158188e-3a00-49d2-b62b-ae695b61a15b/AAABoc8UAW4/AAABnSSvrFg/16x9-big/truemmer-gaza-104.jpg?width=1920",
-      "published": "2026-11-12T13:50:17+01:00",
+      "title": "EPG-Treffen in Irland: Europa will mit an den Tisch",
+      "link": "https://www.tagesschau.de/ausland/europa/irland-europaeische-gemeinschaft-100.html",
+      "summary": "Kurze Gespräche und viel Diplomatie: Beim Treffen der Europäischen Politischen Gemeinschaft geht es heute um die Nachbereitung der Ukraine-Gespräche in Abu Dhabi und Moskau. Mit dabei: Selenskyj und der US-Sondergesandte Witkoff. Von S. López. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/ea811c51-bc9d-4366-83c2-55809b7f5226/AAABoc17d8I/AAABnSSvrFg/16x9-big/selenskyj-martin-100.jpg?width=1920",
+      "published": "2026-11-12T14:28:28+01:00",
       "category": "Politik",
-      "score": 81.87,
+      "score": 82.39,
       "coverage": {
-        "sourceCount": 2,
+        "sourceCount": 3,
         "others": [
           {
-            "source": "spiegel",
-            "title": "Gaza: Mehrere Tote nach israelischem Angriff auf Nasser-Krankenhaus",
-            "link": "https://www.spiegel.de/ausland/gaza-mehrere-tote-nach-israelischem-angriff-auf-nasser-krankenhaus-a-38b81b5b-b4ea-4d0b-978c-b50bf1a43084#ref=rss"
+            "source": "handelsblatt",
+            "title": "Ukraine-Krieg: USA: Putin will Europäer an den Verhandlungstisch lassen",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-usa-putin-will-europaeer-an-den-verhandlungstisch-lassen/100269283.html"
+          },
+          {
+            "source": "deutsche-welle",
+            "title": "Gespräche in Abu Dhabi: Was haben sie der Ukraine gebracht?",
+            "link": "https://www.dw.com/de/gespräche-in-abu-dhabi-was-haben-sie-der-ukraine-gebracht/a-79927783?maca=de-rss-de-all-1119-rdf"
           }
         ]
       }
     },
     {
-      "id": "tagesschau-8bfbd7a93755c3b6",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Nvidia-Chef Huang tritt nach Spionageaffäre zurück",
-      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-huang-ruecktritt-100.html",
-      "summary": "Der Chef des weltgrößten Chipkonzerns Nvidia, Jensen Huang, tritt wegen einer Affäre mit einer mutmaßlichen chinesischen Spionin zurück. Seine Aufgaben übernehme vorübergehend die bisherige Finanzchefin Colette Kress, teilte der US-Konzern mit.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/427ba347-9971-42c5-b988-2e7d573ee1df/AAABoc6Zlzc/AAABnSSvrFg/16x9-big/jensen-huang-112.jpg?width=1920",
-      "published": "2026-11-12T18:20:04+01:00",
-      "category": "Nachrichten",
-      "score": 80.59,
-      "coverage": {
-        "sourceCount": 6,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Spionageaffäre - US-Senat lädt Ex-Nvidia-Chef Jensen Huang und Handelsminister Howard Lutnick vor",
-            "link": "https://www.deutschlandfunk.de/us-senat-laedt-ex-nvidia-chef-jensen-huang-und-handelsminister-howard-lutnick-vor-102.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "News des Tages: Nvidia-Chef Jensen Huang tritt zurück, Startchancengesetz für Kitakinder, Hype um Grand Theft Auto 6",
-            "link": "https://www.spiegel.de/politik/deutschland/news-des-tages-nvidia-chef-jensen-huang-tritt-zurueck-startchancengesetz-fuer-kitakinder-hype-um-grand-theft-auto-6-a-0b48fa44-e908-4c2c-a96b-b8e54d42e674#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Nvidia: Diese Manager gelten als potenzielle Nachfolger von Jensen Huang",
-            "link": "https://www.handelsblatt.com/technik/ki/nvidia-diese-manager-gelten-als-potenzielle-huang-nachfolger/100269410.html"
-          },
-          {
-            "source": "deutsche-welle",
-            "title": "Jensen Huang: Spionageaffäre und Affären: Nvidia verliert seinen Star-CEO",
-            "link": "https://www.dw.com/de/jensen-huang-spionageaffäre-und-affären-nvidia-verliert-seinen-star-ceo/a-79933045?maca=de-rss-de-all-1119-rdf"
-          },
-          {
-            "source": "golem",
-            "title": "(g+) Jensen Huang: Das dubiose Netzwerk der mutmaßlichen Spionin",
-            "link": "https://www.golem.de/news/jensen-huang-das-dubiose-netzwerk-der-mutmasslichen-spionin-2611-215145.html"
-          }
-        ]
-      }
+      "id": "deutschlandfunk-25aacd4b27897f44",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Nahostkonflikt - Ärzte ohne Grenzen kritisiert Luftangriff auf Krankenhaus im Gazastreifen",
+      "link": "https://www.deutschlandfunk.de/aerzte-ohne-grenzen-kritisiert-luftangriff-auf-krankenhaus-im-gazastreifen-102.html",
+      "summary": "Die Hilfsorganisation Ärzte ohne Grenzen hat den israelischen Luftangriff auf ein Krankenhaus im Gazastreifen kritisiert.",
+      "image": "https://bilder.deutschlandfunk.de/bf/69/e0/91/bf69e091-7d96-4acd-84a6-7cd37c760c69/nasser-krankenhaus-angriff-100-1920x1920.jpg",
+      "published": "2026-11-13T04:44:55+01:00",
+      "category": "Politik",
+      "score": 77.97
     },
     {
       "id": "deutschlandfunk-535144919fca1e7b",
@@ -182,9 +167,9 @@
       "link": "https://www.deutschlandfunk.de/israel-verbietet-franzoesischem-praesidentschaftskandidaten-m-lenchon-die-einreise-104.html",
       "summary": "Frankreichs linkspopulistischer Präsidentschaftskandidat Mélenchon darf nicht mehr nach Israel einreisen.",
       "image": "https://bilder.deutschlandfunk.de/fa/3d/2b/f6/fa3d2bf6-6482-49f7-9d65-d49f9feff7f2/frankreich-wahlkampf-parlamentswahl-jean-luc-melenchon-nupes-100-1920x1920.jpg",
-      "published": "2026-11-13T02:52:13+01:00",
+      "published": "2026-11-13T04:44:55+01:00",
       "category": "Politik",
-      "score": 77.91,
+      "score": 77.97,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -192,6 +177,33 @@
             "source": "spiegel",
             "title": "Israel verbietet Jean-Luc Mélenchon wegen antiisraelischer Haltung Einreise",
             "link": "https://www.spiegel.de/ausland/israel-verbietet-jean-luc-melenchon-wegen-antiisraelischer-haltung-einreise-a-61502964-7e0f-412a-9b40-b41a9754bf01#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-c1e8128b6f316fef",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "News des Tages: Nvidia-Chef Jensen Huang tritt zurück, Startchancengesetz für Kitakinder, Hype um Grand Theft Auto 6",
+      "link": "https://www.spiegel.de/politik/deutschland/news-des-tages-nvidia-chef-jensen-huang-tritt-zurueck-startchancengesetz-fuer-kitakinder-hype-um-grand-theft-auto-6-a-0b48fa44-e908-4c2c-a96b-b8e54d42e674#ref=rss",
+      "summary": "Der Nvidia-Chef tritt zurück. Der Bundestag beschließt ein wichtiges Kitagesetz. Und seit heute kann man das gehypteste Videospiel aller Zeiten kaufen, aber noch nicht zocken. Das ist die Lage am Donnerstagabend.",
+      "image": "https://cdn.prod.www.spiegel.de/images/49113e72-1220-4b8b-b36f-f2b82f1919fd_w1200_r1.778_fpx52.58_fpy45.jpg",
+      "published": "2026-11-12T17:51:00+01:00",
+      "category": "Politik",
+      "score": 73.56,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutsche-welle",
+            "title": "Nvidia-Chef Jensen Huang tritt nach Affären zurück",
+            "link": "https://www.dw.com/de/nvidia-chef-jensen-huang-tritt-nach-affären-zurück/a-79932950?maca=de-rss-de-all-1119-rdf"
+          },
+          {
+            "source": "golem",
+            "title": "Jensen Huang: Nvidia-Chef tritt wegen Spionage- und Affärenskandalen zurück",
+            "link": "https://www.golem.de/news/jensen-huang-nvidia-chef-tritt-wegen-spionage-und-affaerenskandalen-zurueck-2611-215142.html"
           }
         ]
       }
@@ -206,7 +218,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/1aa2c6d8-d1bb-4357-a2a0-09d8e5569d1d_w1200_r1.778_fpx54_fpy35.jpg",
       "published": "2026-11-12T19:57:00+01:00",
       "category": "Politik",
-      "score": 72.15
+      "score": 70.63
     },
     {
       "id": "deutschlandfunk-0e74baa8ebcbab2e",
@@ -216,33 +228,55 @@
       "link": "https://www.deutschlandfunk.de/bnd-soll-kuenftig-auch-sabotage-im-ausland-betreiben-duerfen-bundestag-koennte-befugnisse-heute-deut-102.html",
       "summary": "Der Bundestag in Berlin stimmt heute über die geplante Reform der Geheimdienste ab. Damit sollen die Befugnisse des Bundesnachrichtendienstes und des Bundesamts für Verfassungsschutz für die Abwehr von Sabotage, Spionage und Cyberangriffen substanziell erweitert werden.",
       "image": "https://bilder.deutschlandfunk.de/20/a5/97/46/20a59746-46c0-4982-a026-3c7fa5bb14f1/geheimagent-spion-100-1920x1920.jpg",
-      "published": "2026-11-13T02:52:13+01:00",
+      "published": "2026-11-13T04:44:55+01:00",
       "category": "Politik",
-      "score": 69.91
+      "score": 69.97
     },
     {
-      "id": "spiegel-d6fa73bd2af0858d",
-      "source": "spiegel",
+      "id": "deutschlandfunk-128cf203f99d0057",
+      "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "USA: Trumps Regierung prahlt mit angeblicher Rekordzahl an Abschiebungen",
-      "link": "https://www.spiegel.de/ausland/usa-trumps-regierung-prahlt-mit-angeblicher-rekordzahl-an-abschiebungen-a-fcedd355-bad6-42e2-bd9a-1de4543fea8c#ref=rss",
-      "summary": "Die brutale Migrationspolitik der USA sorgt immer wieder für Empörung. Nun liegen alarmierende neue Daten vor. Und eine Personalie im Weißen Haus lässt noch Schlimmeres befürchten.",
-      "image": "https://cdn.prod.www.spiegel.de/images/1b022a1c-4754-42d2-9c44-7d2e300c932b_w1200_r1.778_fpx32_fpy4.jpg",
-      "published": "2026-11-13T02:44:00+01:00",
+      "title": "Spionageaffäre - US-Senat lädt Ex-Nvidia-Chef Jensen Huang und Handelsminister Howard Lutnick vor",
+      "link": "https://www.deutschlandfunk.de/us-senat-laedt-ex-nvidia-chef-jensen-huang-und-handelsminister-howard-lutnick-vor-102.html",
+      "summary": "Der in eine Spionageaffäre verwickelte Ex-Chef des Chipherstellers Nvidia, Huang, ist aufgefordert worden, im ​Bankenausschuss des US-Senats auszusagen.",
+      "image": "https://bilder.deutschlandfunk.de/NO/VA/_4/b3/NOVA_4b3ae71c9be95fab798875c1294bb143/craft-13538857-asset-100-1920x1920.jpg",
+      "published": "2026-11-13T04:44:55+01:00",
       "category": "Politik",
-      "score": 69.8
+      "score": 69.97,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "golem",
+            "title": "Jensen Huang: Der Mann, der Nvidia war",
+            "link": "https://www.golem.de/news/jensen-huang-der-mann-der-nvidia-war-2611-215141.html"
+          }
+        ]
+      }
     },
     {
-      "id": "handelsblatt-3d3ca1fb886961f8",
+      "id": "handelsblatt-71f95f1c08bf9a9a",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Ukraine-Krieg: Merz fordert Ukraine-Hilfen von allen EU-Mitgliedsstaaten",
-      "link": "https://www.handelsblatt.com/video/politik/ukraine-krieg-merz-fordert-ukraine-hilfen-von-allen-eu-mitgliedsstaaten/100269501.html",
-      "summary": "Der Bundeskanzler hat am Donnerstag die Unterstützung für die Ukraine zu einer „gemeinsamen europäischen Aufgabe“ erklärt. Ziel sei es jetzt, die Finanzierungslücke für 2027 zu schließen, sagte Merz in Dublin.",
-      "image": "https://images.handelsblatt.com/vyVmjraRCkZg/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
-      "published": "2026-11-12T16:17:46+00:00",
+      "title": "Venezuela: Präsidentin Rodríguez spielt auf Zeit, Machado drängt auf Wahlen",
+      "link": "https://www.handelsblatt.com/politik/international/venezuela-praesidentin-rodriguez-spielt-auf-zeit-machado-draengt-auf-wahlen/100268820.html",
+      "summary": "Oppositionsführerin Machado ist unter Jubel nach Venezuela zurückgekehrt. Doch Delcy Rodríguez will ihre Macht festigen. Und die USA verfolgen eigene Pläne. Wann es Wahlen gibt, ist unklar.",
+      "image": "https://images.handelsblatt.com/VeNBE6SseFV8/cover/900/506/0/0/0/0/0.5/0.5/politikerinnen-machado-rodriguez-muessen-auch-den-einfluss-der-usa-mitigieren..jpg",
+      "published": "2026-11-13T03:15:30+00:00",
       "category": "Politik",
-      "score": 68.94
+      "score": 68.56
+    },
+    {
+      "id": "handelsblatt-97f8705b0cad2bcb",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Essay: Warum „Trump-Bashing“ manchmal lästig, aber trotzdem erforderlich ist",
+      "link": "https://www.handelsblatt.com/meinung/kommentare/usa-die-irrtuemer-der-trump-versteher/100268636.html",
+      "summary": "„Trump-Versteher“ gibt es in der Politik, in der Wissenschaft und als journalistische Kategorie. Der Grat zwischen Verstehen und Rechtfertigung ist gefährlich schmal. Eine Selbstreflexion.",
+      "image": "https://images.handelsblatt.com/Pvy8hOItFqwh/cover/900/506/0/0/0/0/0.5/0.5/trump-essay-muenchrath.jpg",
+      "published": "2026-11-13T03:00:00+00:00",
+      "category": "Politik",
+      "score": 68.34
     },
     {
       "id": "golem-a0bcd0b7ec56c9a5",
@@ -254,7 +288,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215152&amp;page=1&amp;ts=1794500881",
       "published": "2026-11-12T17:28:01+01:00",
       "category": "Politik",
-      "score": 68.08
+      "score": 66.56
     },
     {
       "id": "handelsblatt-30d108823592de93",
@@ -266,31 +300,7 @@
       "image": "https://images.handelsblatt.com/vLQ7izC0nzLx/cover/900/506/0/0/156/66/0.5/0.5/donald-trump-jr.jpeg",
       "published": "2026-11-13T00:29:38+00:00",
       "category": "Politik",
-      "score": 67.77
-    },
-    {
-      "id": "handelsblatt-1b2f2187d7a91e2c",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Neue Drohung: Trump bekräftigt Interesse an Machtwechsel auf Kuba",
-      "link": "https://www.handelsblatt.com/politik/international/neue-drohung-trump-bekraeftigt-interesse-an-machtwechsel-auf-kuba/100269550.html",
-      "summary": "Donald Trump sprach schon häufiger von einer Militärintervention auf Kuba. Jetzt setzt sich der US-Präsident eine Frist.",
-      "image": "https://images.handelsblatt.com/v5q3kQ5snnzE/cover/900/506/0/0/107/106/0.5/0.5/havanna.jpg",
-      "published": "2026-11-12T23:46:33+00:00",
-      "category": "Politik",
-      "score": 67.17
-    },
-    {
-      "id": "deutsche-welle-66a66811156b6938",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Gen-Z-Proteste: Ist die ältere Generation wirklich besser dran als junge Leute?",
-      "link": "https://www.dw.com/de/gen-z-proteste-ist-die-ältere-generation-wirklich-besser-dran-als-junge-leute/a-79874373?maca=de-rss-de-all-1119-rdf",
-      "summary": "Mieten, Bildung, Klimawandel: Junge Deutsche geht wegen düsterer Zukunftsaussichten auf die Straße. Die Babyboomer gelten ihnen oft als Bremser von Lösungen. Doch Daten zeigen: Auch Ältere leiden unter den Krisen.",
-      "image": "https://static.dw.com/image/79935417_6.jpg",
-      "published": "2026-11-12T16:10:00+00:00",
-      "category": "Nachrichten",
-      "score": 65.83
+      "score": 66.25
     }
   ]
 }
