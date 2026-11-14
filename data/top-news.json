@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T06:46:27.134009+00:00",
+  "generatedAt": "2026-11-14T07:07:38.176023+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/9d3761e3-aa01-4a4b-a182-a99466c453f8/AAABodf8HlI/AAABnSSvrFg/16x9-big/matroschka-trump-putin-xi-100.jpg?width=1920",
       "published": "2026-11-14T04:18:01+01:00",
       "category": "Politik",
-      "score": 94.78,
+      "score": 94.91,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -44,7 +44,7 @@
       "image": "https://images.tagesschau.de/image/c7de04a3-94b2-40c1-908c-35479fc47e03/AAABodY5obQ/AAABnSSvrFg/16x9-big/eu-dublin-100.jpg?width=1920",
       "published": "2026-11-13T19:44:23+01:00",
       "category": "Politik",
-      "score": 85.61,
+      "score": 85.32,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -76,7 +76,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/6d29e4b8-de58-4629-a0a4-5b616f8bfdba_w1200_r1.778_fpx57_fpy44.jpg",
       "published": "2026-11-14T07:12:00+01:00",
       "category": "Politik",
-      "score": 77.52
+      "score": 77.23
     },
     {
       "id": "tagesschau-7a6353c1976a789f",
@@ -88,7 +88,7 @@
       "image": "https://images.tagesschau.de/image/f9401978-bea2-4fa5-9226-a0299084e01c/AAABodPof7M/AAABnSSvrFg/16x9-big/huang-trump-102.jpg?width=1920",
       "published": "2026-11-13T03:36:47+01:00",
       "category": "Politik",
-      "score": 75.64,
+      "score": 75.35,
       "coverage": {
         "sourceCount": 5,
         "others": [
@@ -125,7 +125,7 @@
       "image": "https://images.tagesschau.de/image/d8498805-a053-4ad6-8618-dc875355bcbf/AAABoNPzfmk/AAABnSSvrFg/16x9-big/bundesnachrichtendienst-128.jpg?width=1920",
       "published": "2026-11-13T14:11:16+01:00",
       "category": "Politik",
-      "score": 73.13,
+      "score": 72.83,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -157,19 +157,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/d4753dc2-7a31-4eff-ae72-02d22718cda4_w1200_r1.778_fpx32_fpy50.jpg",
       "published": "2026-11-14T01:42:00+01:00",
       "category": "Politik",
-      "score": 72.94
-    },
-    {
-      "id": "handelsblatt-783f6c3308fbbbac",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Ukraine-Krieg: Wieder Störung an Starlink – Kiew nutzt Alternative aus Israel",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-wieder-stoerung-an-starlink-kiew-nutzt-alternative-aus-israel/100269609.html",
-      "summary": "Die Ukraine will unabhängiger vom US-Satellitenbetreiber SpaceX werden. Die israelische Firma HiSky hat eine Lösung mit einigen Vorteilen – aber einem deutlichen Nachteil.",
-      "image": "https://images.handelsblatt.com/VZScyY8smpF4/cover/900/506/0/0/127/378/0.5/0.5/file-photo-an-artilleryman-of-the-special-rifle-police-battalion-of-zaporizhzhia-region-sets-up-sta.jpg",
-      "published": "2026-11-13T14:33:03+00:00",
-      "category": "Politik",
-      "score": 71.48
+      "score": 72.64
     },
     {
       "id": "deutschlandfunk-e410a379338591af",
@@ -179,9 +167,9 @@
       "link": "https://www.deutschlandfunk.de/parteitage-spd-und-gruene-stimmen-ueber-koalitionsvertrag-ab-100.html",
       "summary": "In Mecklenburg-Vorpommern wollen SPD und Grüne heute auf ihren Parteitagen über den Koalitionsvertrag abstimmen, den sie gemeinsam mit der Linken ausgearbeitet haben.",
       "image": "https://bilder.deutschlandfunk.de/36/b2/a3/26/36b2a326-ce91-4775-ba44-b7a2a9f3493e/manuela-schwesig-118-1920x1920.jpg",
-      "published": "2026-11-14T07:30:20+01:00",
+      "published": "2026-11-14T08:01:11+01:00",
       "category": "Nachrichten",
-      "score": 71.46,
+      "score": 71.59,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -199,6 +187,18 @@
       }
     },
     {
+      "id": "handelsblatt-783f6c3308fbbbac",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Ukraine-Krieg: Wieder Störung an Starlink – Kiew nutzt Alternative aus Israel",
+      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-wieder-stoerung-an-starlink-kiew-nutzt-alternative-aus-israel/100269609.html",
+      "summary": "Die Ukraine will unabhängiger vom US-Satellitenbetreiber SpaceX werden. Die israelische Firma HiSky hat eine Lösung mit einigen Vorteilen – aber einem deutlichen Nachteil.",
+      "image": "https://images.handelsblatt.com/VZScyY8smpF4/cover/900/506/0/0/127/378/0.5/0.5/file-photo-an-artilleryman-of-the-special-rifle-police-battalion-of-zaporizhzhia-region-sets-up-sta.jpg",
+      "published": "2026-11-13T14:33:03+00:00",
+      "category": "Politik",
+      "score": 71.19
+    },
+    {
       "id": "deutschlandfunk-0907310042bcd5be",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
@@ -206,21 +206,21 @@
       "link": "https://www.deutschlandfunk.de/krampe-linke-afd-bekommt-ueberwachungsstaat-schluesselfertig-hingehalten-100.html",
       "summary": "Der Linken-Bundestagsabgeordnete Krampe hat vor den möglichen Folgen der Reform der Geheimdienste gewarnt.",
       "image": "https://bilder.deutschlandfunk.de/3b/61/f4/37/3b61f437-cd98-4da2-adba-565452cfb394/jan-krampe-100-1920x1920.jpg",
-      "published": "2026-11-14T07:30:20+01:00",
+      "published": "2026-11-14T08:01:11+01:00",
       "category": "Politik",
-      "score": 69.78
+      "score": 69.91
     },
     {
-      "id": "deutschlandfunk-41dfb195e0a62c5c",
+      "id": "deutschlandfunk-404752c7528529a5",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Gipfel in Dublin - Europa legt sich auf Delegation für Ukraine-Friedensverhandlungen fest",
-      "link": "https://www.deutschlandfunk.de/europa-legt-sich-auf-delegation-fuer-ukraine-friedensverhandlungen-fest-102.html",
-      "summary": "Europa will sich mit einer Delegation aus Diplomaten an künftigen Friedensgesprächen zwischen Russland und der Ukraine beteiligen. Der Kontinent werde von Spitzen der Europäischen Union und Vertretern der sogenannten Koalition der Willigen repräsentiert, kündigte EU-Ratspräsident Costa nach einem informellen Gipfel in Dublin an.",
-      "image": "https://bilder.deutschlandfunk.de/8c/58/d5/a9/8c58d5a9-022b-4e72-96b2-a820b97962c7/costa-in-dublin-100-1920x1920.jpg",
-      "published": "2026-11-14T07:30:20+01:00",
+      "title": "Ukraine-Friedensgespräche - Grünen-Europaabgeordneter Lagodinsky: Für Putin läuft es gut",
+      "link": "https://www.deutschlandfunk.de/gruenen-europaabgeordneter-lagodinsky-fuer-putin-laeuft-es-gut-100.html",
+      "summary": "Der Grünen-Europaabgeordnete Lagodinsky hat Europa mit Blick auf künftige Friedensgespräche zwischen Russland und der Ukraine vor einer gefährlichen Situation gewarnt. Der Fokus solle nicht mehr nur auf Frieden in der Ukraine, sondern auf die europäische Sicherheitsarchitektur gerichtet werden.",
+      "image": "https://bilder.deutschlandfunk.de/31/53/03/69/31530369-a062-4208-be07-29139f5d8e8e/sergey-lagodinsky-gruene-102-1920x1920.jpg",
+      "published": "2026-11-14T08:01:11+01:00",
       "category": "Politik",
-      "score": 69.78
+      "score": 69.91
     },
     {
       "id": "spiegel-eff5790d849f82ca",
@@ -232,7 +232,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/2d9863eb-2b46-430d-995c-cf4b74902e38_w1200_r1.778_fpx32_fpy57.jpg",
       "published": "2026-11-14T07:18:00+01:00",
       "category": "Wirtschaft",
-      "score": 69.6
+      "score": 69.31
     },
     {
       "id": "deutsche-welle-88398e762f7ee774",
@@ -244,7 +244,7 @@
       "image": "https://static.dw.com/image/79945453_6.jpg",
       "published": "2026-11-14T05:33:00+00:00",
       "category": "Politik",
-      "score": 67.98
+      "score": 67.69
     },
     {
       "id": "golem-5464ec2aa7424ad0",
@@ -256,7 +256,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215101&amp;page=1&amp;ts=1794637802",
       "published": "2026-11-14T07:30:02+01:00",
       "category": "Technologie",
-      "score": 64.77
+      "score": 64.48
     },
     {
       "id": "handelsblatt-febcb5b4b3502fb0",
@@ -268,7 +268,7 @@
       "image": "https://images.handelsblatt.com/skPFyi4OBSOa/cover/900/506/0/0/0/0/0.5/0.5/israel.jpg",
       "published": "2026-11-13T15:50:07+00:00",
       "category": "Politik",
-      "score": 64.55
+      "score": 64.26
     },
     {
       "id": "handelsblatt-f1724a46cac2dee5",
@@ -280,7 +280,7 @@
       "image": "https://images.handelsblatt.com/jRM422UYpy6H/cover/900/506/0/0/314/313/0.5/0.5/planes-wait-on-the-tarmac-at-laguardia-airport-new-york-on-november-13-2026.-the-us-federal-aviati.jpg",
       "published": "2026-11-13T21:19:36+00:00",
       "category": "Politik",
-      "score": 61.13
+      "score": 60.83
     }
   ]
 }
