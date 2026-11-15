@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T17:52:19.666243+00:00",
+  "generatedAt": "2026-11-15T18:03:46.221756+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/218d4942-67e9-4738-be6c-bd787fade31e/AAABod_n6yM/AAABnSSvrFg/16x9-big/bellen-122.jpg?width=1920",
       "published": "2026-11-15T16:24:11+01:00",
       "category": "Politik",
-      "score": 89.62,
+      "score": 89.46,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -30,28 +30,6 @@
       }
     },
     {
-      "id": "tagesschau-a8b8f8e76743a6a2",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Israelischer Angriff im Gazastreifen: Ranghoher Hamas-Kommandeur tot",
-      "link": "https://www.tagesschau.de/ausland/asien/hamas-kommandeur-gazastreifen-getoetet-100.html",
-      "summary": "Die israelische Armee hat im Gazastreifen einen ranghohen Kommandeur der Hamas getötet. Samir Abu Junis soll einer der wichtigsten Köpfe bei der Planung der Attacke auf Israel am 7. Oktober 2023 gewesen sein. Die Hamas bestätigte seinen Tod. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/e3f6ce26-a53c-4ebc-a5db-d36b67c80c1a/AAABod8TJPM/AAABnSSvrFg/16x9-big/abu-younis-100.jpg?width=1920",
-      "published": "2026-11-15T13:46:16+01:00",
-      "category": "Politik",
-      "score": 86.96,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Gazastreifen - Ranghoher Hamas-Kommandeur bei Luftangriff getötet",
-            "link": "https://www.deutschlandfunk.de/ranghoher-hamas-kommandeur-bei-luftangriff-getoetet-116.html"
-          }
-        ]
-      }
-    },
-    {
       "id": "tagesschau-0d11fa6a65021d4d",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -61,10 +39,15 @@
       "image": "https://images.tagesschau.de/image/11e09190-b5e6-46e8-a56c-d80e5758e5aa/AAABoeAPp-M/AAABnSSvrFg/16x9-big/grenze-estland-russland-104.jpg?width=1920",
       "published": "2026-11-15T17:52:46+01:00",
       "category": "Politik",
-      "score": 83.64,
+      "score": 86.82,
       "coverage": {
-        "sourceCount": 3,
+        "sourceCount": 4,
         "others": [
+          {
+            "source": "spiegel",
+            "title": "Estland: Regierung will Grenzen zu Russland zum 1. Dezember schließen",
+            "link": "https://www.spiegel.de/ausland/estland-regierung-will-grenzen-zu-russland-zum-1-dezember-schliessen-a-e6ae48a9-aa70-4399-bcbb-b27ce32d5819#ref=rss"
+          },
           {
             "source": "deutschlandfunk",
             "title": "Baltikum - Estland vereitelt Anschlag auf Drohnenfabrik - Grenzübergänge nach Russland werden geschlossen",
@@ -79,6 +62,28 @@
       }
     },
     {
+      "id": "tagesschau-a8b8f8e76743a6a2",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Israelischer Angriff im Gazastreifen: Ranghoher Hamas-Kommandeur tot",
+      "link": "https://www.tagesschau.de/ausland/asien/hamas-kommandeur-gazastreifen-getoetet-100.html",
+      "summary": "Die israelische Armee hat im Gazastreifen einen ranghohen Kommandeur der Hamas getötet. Samir Abu Junis soll einer der wichtigsten Köpfe bei der Planung der Attacke auf Israel am 7. Oktober 2023 gewesen sein. Die Hamas bestätigte seinen Tod. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/e3f6ce26-a53c-4ebc-a5db-d36b67c80c1a/AAABod8TJPM/AAABnSSvrFg/16x9-big/abu-younis-100.jpg?width=1920",
+      "published": "2026-11-15T13:46:16+01:00",
+      "category": "Politik",
+      "score": 86.8,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Gazastreifen - Ranghoher Hamas-Kommandeur bei Luftangriff getötet",
+            "link": "https://www.deutschlandfunk.de/ranghoher-hamas-kommandeur-bei-luftangriff-getoetet-116.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "tagesschau-5328d73aec4d2f38",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -88,7 +93,7 @@
       "image": "https://images.tagesschau.de/image/adcb012d-ef76-4b35-9e82-de8032b4f0b2/AAABod8Asxc/AAABnSSvrFg/16x9-big/space-x-rakete-104.jpg?width=1920",
       "published": "2026-11-15T00:12:16+01:00",
       "category": "Nachrichten",
-      "score": 78.53,
+      "score": 78.38,
       "coverage": {
         "sourceCount": 5,
         "others": [
@@ -125,7 +130,7 @@
       "image": "https://bilder.deutschlandfunk.de/54/48/fe/aa/5448feaa-710f-4b18-8d99-573ff6a166b9/selenskyj-186-1920x1920.jpg",
       "published": "2026-11-15T18:49:21+01:00",
       "category": "Politik",
-      "score": 77.96
+      "score": 77.8
     },
     {
       "id": "deutschlandfunk-b6efd14e8d186f24",
@@ -137,7 +142,7 @@
       "image": "https://bilder.deutschlandfunk.de/e8/5f/12/2e/e85f122e-633a-44c0-90f3-bc43b484b632/petrochemie-russland-100-1920x1920.jpg",
       "published": "2026-11-15T18:49:21+01:00",
       "category": "Politik",
-      "score": 77.96
+      "score": 77.8
     },
     {
       "id": "spiegel-f58a17b46af22ae6",
@@ -149,7 +154,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/a83c8620-793d-4e48-a46b-5fdd1424e3cf_w1200_r1.778_fpx51.01_fpy50.99.jpg",
       "published": "2026-11-15T18:42:00+01:00",
       "category": "Politik",
-      "score": 77.86
+      "score": 77.7
     },
     {
       "id": "deutsche-welle-ea346f5cff144b23",
@@ -161,7 +166,7 @@
       "image": "https://static.dw.com/image/79929145_6.jpg",
       "published": "2026-11-14T20:23:00+00:00",
       "category": "Politik",
-      "score": 75.09
+      "score": 74.93
     },
     {
       "id": "spiegel-4bd9cc3c97b13771",
@@ -173,7 +178,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/fdcfeef1-eaa1-4d39-94a7-30814891f004_w1200_r1.778_fpx31.87_fpy50.98.jpg",
       "published": "2026-11-15T15:20:00+01:00",
       "category": "Politik",
-      "score": 75.05
+      "score": 74.89
     },
     {
       "id": "deutschlandfunk-525cccacdffc0411",
@@ -185,7 +190,7 @@
       "image": "https://bilder.deutschlandfunk.de/FI/LE/_b/f5/FILE_bf59e3b66baed6c7a208048d472a3b5f/imago0102573625h-jpg-100-768x768.jpg",
       "published": "2026-11-15T18:49:21+01:00",
       "category": "Nachrichten",
-      "score": 71.64,
+      "score": 71.48,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -203,18 +208,6 @@
       }
     },
     {
-      "id": "spiegel-468f568af8bd2240",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Spanien vor der Wahl: Verliert Linken-Posterboy Pedro Sánchez sein Land an die Rechten?",
-      "link": "https://www.spiegel.de/ausland/spanien-vor-der-wahl-verliert-linken-posterboy-pedro-sanchez-sein-land-an-die-rechten-a-e06b9c16-b930-4208-bf10-cb7631de5c6a#ref=rss",
-      "summary": "Weil er sich gegen den Irankrieg stellte, feiert ihn die globale Linke. Daheim liegt Pedro Sánchez vor der Wahl am 29. November deutlich zurück. Weggefährten erzählen, warum er trotzdem noch eine Chance hat.",
-      "image": "https://cdn.prod.www.spiegel.de/images/df72332f-0790-4f8b-873d-4fd0935add27_w1200_r1.778_fpx45_fpy41.jpg",
-      "published": "2026-11-15T10:13:00+01:00",
-      "category": "Politik",
-      "score": 70.79
-    },
-    {
       "id": "handelsblatt-a768048ecd9e4c50",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
@@ -224,7 +217,7 @@
       "image": "https://images.handelsblatt.com/IVz4uDiYzFfd/cover/900/506/0/0/375/375/0.5/0.5/november-14-2026-orlando-fl-usa-digital-flight-information-displays-show-numerous-delayed-and-c.jpg",
       "published": "2026-11-15T16:39:17+00:00",
       "category": "Politik",
-      "score": 67.99
+      "score": 67.83
     },
     {
       "id": "handelsblatt-71af9fc21120646d",
@@ -236,7 +229,19 @@
       "image": "https://images.handelsblatt.com/rKKiOvruWyOQ/cover/900/506/0/0/0/0/0.5/0.5/martin-mueller-ist-finanzkorrespondent-des-handelsblatts-in-frankfurt-am-main..jpg",
       "published": "2026-11-15T14:22:06+00:00",
       "category": "Wirtschaft",
-      "score": 66.08
+      "score": 65.92
+    },
+    {
+      "id": "spiegel-51861d12b5329f87",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Vanessa Emde: Die frühen Gedichte der Skandal-Linken",
+      "link": "https://www.spiegel.de/politik/deutschland/vanessa-emde-die-fruehen-gedichte-der-skandal-linken-a-33089a48-bd29-4ed2-b624-03370da8e383#ref=rss",
+      "summary": "Vanessa Emde, die israelfeindliche Aktivistin aus Neukölln, dominiert seit Wochen die Berliner Koalitionsgespräche. Früher inszenierte sie am Theater und schrieb Lyrik. Was verrät ihr Werk über sie?",
+      "image": "https://cdn.prod.www.spiegel.de/images/81a19335-0c68-47b8-8de6-937c5041dc30_w1200_r1.778_fpx22_fpy52.jpg",
+      "published": "2026-11-15T11:10:00+01:00",
+      "category": "Politik",
+      "score": 63.42
     },
     {
       "id": "golem-84028da6a3081a5d",
@@ -248,7 +253,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215232&amp;page=1&amp;ts=1794744841",
       "published": "2026-11-15T13:14:01+01:00",
       "category": "Wirtschaft",
-      "score": 63.3
+      "score": 63.14
     },
     {
       "id": "handelsblatt-cd53e8ce3229999f",
@@ -260,7 +265,7 @@
       "image": "https://images.handelsblatt.com/ueUfqYxrwlZv/cover/900/506/0/0/172/37/0.5/0.5/tanks-at-the-epe-natural-gas-storage-facility-operated-by-uniper-se-in-gronau-germany-on-monday.jpg",
       "published": "2026-11-15T08:57:37+00:00",
       "category": "Politik",
-      "score": 61.57
+      "score": 61.41
     }
   ]
 }
