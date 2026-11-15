@@ -1,34 +1,7 @@
 {
-  "generatedAt": "2026-11-15T03:24:10.429723+00:00",
+  "generatedAt": "2026-11-15T11:16:22.116112+00:00",
   "count": 15,
   "articles": [
-    {
-      "id": "deutschlandfunk-b9fe5f56b2696037",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Gazastreifen - Ranghoher Hamas-Kommandeur bei Luftangriff getötet",
-      "link": "https://www.deutschlandfunk.de/ranghoher-hamas-kommandeur-bei-luftangriff-getoetet-100.html",
-      "summary": "Das israelische Militär hat nach eigenen Angaben einen ranghohen Kommandeur des bewaffneten Arms der Hamas angegriffen.",
-      "image": "https://bilder.deutschlandfunk.de/e1/06/7d/e2/e1067de2-6230-41ae-943b-92085b1ff504/die-nachrichten-kachel-2176-zu1224-100-768x768.jpg",
-      "published": "2026-11-15T04:12:26+01:00",
-      "category": "Politik",
-      "score": 90.52,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Hamas-Kommandeur im Gazastreifen getötet",
-            "link": "https://www.spiegel.de/ausland/hamas-kommandeur-im-gazastreifen-getoetet-a-ed56078f-d554-4c35-b70c-2aaecb18ed90#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "+++ Iran-Krieg +++: Drei Öltanker in Straße von Hormus nach Minenkontakt in Brand",
-            "link": "https://www.handelsblatt.com/politik/international/iran-krieg-drei-oeltanker-in-strasse-von-hormus-nach-minenkontakt-in-brand/100136895.html"
-          }
-        ]
-      }
-    },
     {
       "id": "deutsche-welle-ea346f5cff144b23",
       "source": "deutsche-welle",
@@ -39,7 +12,146 @@
       "image": "https://static.dw.com/image/79929145_6.jpg",
       "published": "2026-11-14T20:23:00+00:00",
       "category": "Politik",
-      "score": 87.15
+      "score": 80.59
+    },
+    {
+      "id": "tagesschau-5328d73aec4d2f38",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Erfolg für SpaceX: \"Starship\"-Rakete kehrt zur Startrampe zurück",
+      "link": "https://www.tagesschau.de/ausland/amerika/space-x-rakete-rueckkehr-100.html",
+      "summary": "Eine Rakete, die wie ein ziviles Flugzeug eingesetzt werden kann, das ist das Ziel von SpaceX. Nun kann das \"Starship\"-System einen Erfolg verbuchen: Erstmals landete die etwa 50 Meter große obere Raketenstufe wieder auf der Erde.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/adcb012d-ef76-4b35-9e82-de8032b4f0b2/AAABodwBRNA/AAABnSSvrFg/16x9-big/space-x-rakete-104.jpg?width=1920",
+      "published": "2026-11-15T00:12:16+01:00",
+      "category": "Nachrichten",
+      "score": 78.43,
+      "coverage": {
+        "sourceCount": 5,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Raumfahrt - SpaceX fängt Starship-Rakete erstmals wieder auf",
+            "link": "https://www.deutschlandfunk.de/spacex-faengt-starship-rakete-erstmals-wieder-auf-102.html"
+          },
+          {
+            "source": "deutsche-welle",
+            "title": "\"Starship\"-Rakete kehrt erstmals nach Flug zur Rampe zurück",
+            "link": "https://www.dw.com/de/starship-rakete-kehrt-erstmals-nach-flug-zur-rampe-zurück/a-79951426?maca=de-rss-de-all-1119-rdf"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Raumfahrt: SpaceX fängt Riesen-Rakete Starship erstmals wieder auf",
+            "link": "https://www.handelsblatt.com/technik/forschung-innovation/raumfahrt-spacex-faengt-riesen-rakete-starship-erstmals-wieder-auf/100269942.html"
+          },
+          {
+            "source": "golem",
+            "title": "SpaceX: Starship landet ohne Landung des Boosters",
+            "link": "https://www.golem.de/news/spacex-starship-startet-erneut-ohne-landung-des-boosters-2611-215218.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-303dd497321d7ca4",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Ukraine-Krieg - Toter bei ukrainischem Angriff auf russisches Umspannwerk",
+      "link": "https://www.deutschlandfunk.de/toter-bei-ukrainischem-angriff-auf-russisches-umspannwerk-102.html",
+      "summary": "Die Ukraine hat nach russischen Angaben mehrere Ziele in Russland angegriffen.",
+      "image": "https://bilder.deutschlandfunk.de/73/35/d9/54/7335d954-c085-4c33-ab53-6be6c2cb7fa0/ukraine-russland-krieg-angriff-raketen-drohnen-woronesch-100-1920x1920.jpg",
+      "published": "2026-11-15T12:05:36+01:00",
+      "category": "Politik",
+      "score": 77.85
+    },
+    {
+      "id": "deutschlandfunk-3b95e560d6a288f2",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Ukraine - Selenskyj: USA haben Gebietsabtretungen an Russland im Gegenzug für eine NATO-Mitgliedschaft ins Gespräch gebracht",
+      "link": "https://www.deutschlandfunk.de/selenskyj-usa-haben-gebietsabtretungen-an-russland-im-gegenzug-fuer-eine-nato-mitgliedschaft-ins-ges-114.html",
+      "summary": "Die USA haben nach Angaben des ukrainischen Präsidenten Selenskyj eine NATO-Mitgliedschaft seines Landes bei gleichzeitigen Gebietsabtretungen an Russland ins Gespräch gebracht.",
+      "image": "https://bilder.deutschlandfunk.de/54/48/fe/aa/5448feaa-710f-4b18-8d99-573ff6a166b9/selenskyj-186-1920x1920.jpg",
+      "published": "2026-11-15T12:05:36+01:00",
+      "category": "Politik",
+      "score": 77.85,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutsche-welle",
+            "title": "Neue Impulse für NATO-Mitgliedschaft der Ukraine",
+            "link": "https://www.dw.com/de/neue-impulse-für-nato-mitgliedschaft-der-ukraine/a-79948144?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-9af6137af5c042c6",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "US-Wahlen - Demokrat gewinnt Gouverneurswahl in Alaska",
+      "link": "https://www.deutschlandfunk.de/demokrat-gewinnt-gouverneurswahl-in-alaska-100.html",
+      "summary": "Fast zwei Wochen nach den US-Wahlen gibt es ein weiteres Ergebnis: Im Bundesstaat Alaska hat der Demokrat Jonathan Kreiss-Tomkins die Gouverneurswahl gewonnen. Damit wird der nördlichste Bundesstaat der USA zum ersten Mal seit 1998 wieder von einem Demokraten regiert.",
+      "image": "https://bilder.deutschlandfunk.de/92/c1/04/0c/92c1040c-b405-45d8-8305-f8d05762e747/kreiss-tomkins-100-1920x1920.jpg",
+      "published": "2026-11-15T12:05:36+01:00",
+      "category": "Politik",
+      "score": 77.85,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Erstmals seit 1998: Demokrat gewinnt Gouverneurswahl in Alaska",
+            "link": "https://www.handelsblatt.com/politik/international/erstmals-seit-1998-demokrat-gewinnt-gouverneurswahl-in-alaska/100269916.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-b9fe5f56b2696037",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Gazastreifen - Ranghoher Hamas-Kommandeur bei Luftangriff getötet",
+      "link": "https://www.deutschlandfunk.de/ranghoher-hamas-kommandeur-bei-luftangriff-getoetet-100.html",
+      "summary": "Das israelische Militär hat nach eigenen Angaben einen ranghohen Kommandeur des bewaffneten Arms der Hamas angegriffen.",
+      "image": "https://bilder.deutschlandfunk.de/e1/06/7d/e2/e1067de2-6230-41ae-943b-92085b1ff504/die-nachrichten-kachel-2176-zu1224-100-768x768.jpg",
+      "published": "2026-11-15T12:05:36+01:00",
+      "category": "Politik",
+      "score": 77.85
+    },
+    {
+      "id": "tagesschau-a34961ed7b225390",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "USA bieten Ukraine laut Selenskyj NATO-Beitritt bei Gebietsverzicht",
+      "link": "https://www.tagesschau.de/ausland/europa/ukraine-usa-nato-gebietsverzicht-100.html",
+      "summary": "Ein Rückzug aus dem Donbass im Tausch für einen NATO-Beitritt - das haben die USA der Ukraine nach Angaben Selenskyjs nahegelegt. Unter bestimmten Bedingungen würde er diese Frage in einem Referendum zur Abstimmung stellen, so der Präsident.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/38aae710-371d-4286-9a79-325f40e6837c/AAABodm4fQE/AAABnSSvrFg/16x9-big/wolodymyr-selenskyj-284.jpg?width=1920",
+      "published": "2026-11-14T18:21:30+01:00",
+      "category": "Politik",
+      "score": 76.68,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ Ukraine-Krieg +++: Russland greift Frachtschiff im Hafen Tschornomorsk an",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-russland-greift-frachtschiff-im-hafen-tschornomorsk-an/27982126.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-468f568af8bd2240",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Spanien vor der Wahl: Verliert Linken-Posterboy Pedro Sánchez sein Land an die Rechten?",
+      "link": "https://www.spiegel.de/ausland/spanien-vor-der-wahl-verliert-linken-posterboy-pedro-sanchez-sein-land-an-die-rechten-a-e06b9c16-b930-4208-bf10-cb7631de5c6a#ref=rss",
+      "summary": "Er wettert gegen Trump und springt den Palästinensern bei: Gerade erst ist Spaniens Ministerpräsident Pedro Sánchez zum Posterboy der globalen Linken aufgestiegen. Verliert er nun sein eigenes Land an die Rechten?",
+      "image": "https://cdn.prod.www.spiegel.de/images/df72332f-0790-4f8b-873d-4fd0935add27_w1200_r1.778_fpx45_fpy41.jpg",
+      "published": "2026-11-15T10:13:00+01:00",
+      "category": "Politik",
+      "score": 76.29
     },
     {
       "id": "tagesschau-8d16f15d4c1afa0d",
@@ -51,7 +163,7 @@
       "image": "https://images.tagesschau.de/image/9d3761e3-aa01-4a4b-a182-a99466c453f8/AAABodf8HlI/AAABnSSvrFg/16x9-big/matroschka-trump-putin-xi-100.jpg?width=1920",
       "published": "2026-11-14T04:18:01+01:00",
       "category": "Politik",
-      "score": 82.18,
+      "score": 75.62,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -69,248 +181,76 @@
       }
     },
     {
-      "id": "tagesschau-56cdf42e7c7da3f8",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Ex-Arbeitsminister Hubertus Heil kandidiert für SPD-Vorsitz",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/heil-spd-vorsitz-kandidatur-100.html",
-      "summary": "Mitte Januar wird auf einem Bundesparteitag die komplette Führung der SPD neu gewählt. Ex-Arbeitsminister Heil hat laut ARD-Hauptstadtstudio jetzt als Erster offiziell seine Kandidatur für den Vorsitz angekündigt. Von Moritz Rödle. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/5cdff6b6-d243-40c2-bc41-897b5aab9b1a/AAABodmGHmQ/AAABnSSvrFg/16x9-big/hubertus-heil-210.jpg?width=1920",
-      "published": "2026-11-14T19:12:45+01:00",
-      "category": "Politik",
-      "score": 78.84,
-      "coverage": {
-        "sourceCount": 4,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Brief an die Partei - Früherer Arbeitsminister Hubertus Heil kandidiert für SPD-Vorsitz",
-            "link": "https://www.deutschlandfunk.de/frueherer-arbeitsminister-hubertus-heil-kandidiert-fuer-spd-vorsitz-102.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "SPD: Hubertus Heil will für Parteivorsitz kandidieren",
-            "link": "https://www.spiegel.de/politik/deutschland/spd-hubertus-heil-will-fuer-parteivorsitz-kandidieren-a-f9209fb9-0404-43be-b66d-b2207e7e6aaa#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "SPD-Vorsitz: Der Parteisoldat strebt an die Macht – Hubertus Heil will SPD-Chef werden",
-            "link": "https://www.handelsblatt.com/politik/deutschland/spd-vorsitz-der-parteisoldat-strebt-an-die-macht-hubertus-heil-will-spd-chef-werden/100269930.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-5328d73aec4d2f38",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Erfolg für SpaceX: \"Starship\"-Rakete kehrt zur Startrampe zurück",
-      "link": "https://www.tagesschau.de/ausland/amerika/space-x-rakete-rueckkehr-100.html",
-      "summary": "Eine Rakete, die wie ein ziviles Flugzeug eingesetzt werden kann, das ist das Ziel von SpaceX. Nun kann das \"Starship\"-System einen Erfolg verbuchen: Erstmals landete die etwa 50 Meter große obere Raketenstufe wieder auf der Erde.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/adcb012d-ef76-4b35-9e82-de8032b4f0b2/AAABodwBRNA/AAABnSSvrFg/16x9-big/space-x-rakete-104.jpg?width=1920",
-      "published": "2026-11-15T00:12:16+01:00",
-      "category": "Nachrichten",
-      "score": 78.41,
-      "coverage": {
-        "sourceCount": 5,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Raumfahrt - SpaceX fängt Starship-Rakete erstmals wieder auf",
-            "link": "https://www.deutschlandfunk.de/spacex-faengt-starship-rakete-erstmals-wieder-auf-102.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "SpaceX fängt Starship-Rakete erstmals am Startturm wieder auf",
-            "link": "https://www.spiegel.de/ausland/spacex-faengt-starship-rakete-am-startturm-erstmals-wieder-auf-a-8995a28f-b04d-4a0f-a6bd-1b2298f5b450#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Raumfahrt: SpaceX fängt Riesen-Rakete Starship erstmals wieder auf",
-            "link": "https://www.handelsblatt.com/technik/forschung-innovation/raumfahrt-spacex-faengt-riesen-rakete-starship-erstmals-wieder-auf/100269942.html"
-          },
-          {
-            "source": "golem",
-            "title": "SpaceX: Starship landet ohne Landung des Boosters",
-            "link": "https://www.golem.de/news/spacex-starship-startet-erneut-ohne-landung-des-boosters-2611-215218.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-3b95e560d6a288f2",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Ukraine - Selenskyj: USA haben Gebietsabtretungen an Russland im Gegenzug für eine NATO-Mitgliedschaft ins Gespräch gebracht",
-      "link": "https://www.deutschlandfunk.de/selenskyj-usa-haben-gebietsabtretungen-an-russland-im-gegenzug-fuer-eine-nato-mitgliedschaft-ins-ges-114.html",
-      "summary": "Die USA haben nach Angaben des ukrainischen Präsidenten Selenskyj eine NATO-Mitgliedschaft seines Landes bei gleichzeitigen Gebietsabtretungen an Russland ins Gespräch gebracht.",
-      "image": "https://bilder.deutschlandfunk.de/54/48/fe/aa/5448feaa-710f-4b18-8d99-573ff6a166b9/selenskyj-186-1920x1920.jpg",
-      "published": "2026-11-15T04:12:26+01:00",
-      "category": "Politik",
-      "score": 77.84,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutsche-welle",
-            "title": "Neue Impulse für NATO-Mitgliedschaft der Ukraine",
-            "link": "https://www.dw.com/de/neue-impulse-für-nato-mitgliedschaft-der-ukraine/a-79948144?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-6c43f17f9143116f",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Greifswald - SPD, Linkspartei und Grüne in Mecklenburg-Vorpommern unterzeichnen Koalitionsvertrag",
-      "link": "https://www.deutschlandfunk.de/spd-linkspartei-und-gruene-in-mecklenburg-vorpommern-unterzeichnen-koalitionsvertrag-102.html",
-      "summary": "In Mecklenburg-Vorpommern ist der Weg für eine rot-rot-grüne Landesregierung frei. SPD, Linkspartei und die Grünen haben den Koalitionsvertrag unterschrieben. Die Zeremonie fand am Abend im Pommerschen Landesmuseum in Greifswald statt.",
-      "image": "https://bilder.deutschlandfunk.de/75/1c/e9/fd/751ce9fd-1a3a-49b2-9663-d834d9009d0f/mecklenburg-vorpommern-schwesig-spd-linke-gruene-100-1920x1920.jpg",
-      "published": "2026-11-15T04:12:26+01:00",
-      "category": "Politik",
-      "score": 74.52,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Mecklenburg-Vorpommern: SPD, Linke und Grüne einigen sich auf Koalitionsvertrag",
-            "link": "https://www.spiegel.de/politik/mecklenburg-vorpommern-bekommt-erste-rot-rot-gruene-landesregierung-deutschlands-a-64982c32-c954-4d6b-a066-01e7d6b7141e#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Koalition: Rot-Rot-Grün in Mecklenburg-Vorpommern steht – SPD stimmt Koalitionsvertrag zu",
-            "link": "https://www.handelsblatt.com/politik/deutschland/koalition-spd-stimmt-koalitionsvertrag-in-mecklenburg-vorpommern-zu/100269890.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-bbf3a70e60f869cc",
+      "id": "spiegel-45e0a9d595966521",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Midterms in den USA: Demokrat Jonathan Kreiss-Tomkins gewinnt Gouverneurswahl in Alaska",
-      "link": "https://www.spiegel.de/ausland/midterms-in-den-usa-demokrat-jonathan-kreiss-tomkins-gewinnt-gouverneurswahl-in-alaska-a-fb2cad4c-5ecc-438a-b9dd-76812d0a333d#ref=rss",
-      "summary": "Elf Tage nach den US-Wahlen steht der Sieger im nördlichsten Bundesstaat fest: Alaska wird künftig von einem Demokraten regiert – dem jüngsten Gouverneur, den der Bundesstaat je hatte.",
-      "image": "https://cdn.prod.www.spiegel.de/images/73952536-7d52-4243-85a2-9ef3dd49530c_w1200_r1.778_fpx52_fpy22.jpg",
-      "published": "2026-11-14T18:01:00+01:00",
+      "title": "News: Hunderttausende Gefallene im Angriffskrieg gegen die Ukraine",
+      "link": "https://www.spiegel.de/politik/deutschland/news-hunderttausende-gefallene-im-angriffskrieg-gegen-die-ukraine-a-1c97ff6a-6d6e-443d-994b-b3ad716bb9b6#ref=rss",
+      "summary": "Hunderttausende Russen sind im Angriffskrieg gegen die Ukraine gefallen. Jeder Tote reißt eine Lücke. Das ist die Lage am Sonntag.",
+      "image": "https://cdn.prod.www.spiegel.de/images/dd17189a-707c-4b57-af32-bf59855d3d25_w1200_r1.778_fpx28.09_fpy49.93.png",
+      "published": "2026-11-15T07:35:00+01:00",
       "category": "Politik",
-      "score": 69.34,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Erstmals seit 1998: Demokrat gewinnt Gouverneurswahl in Alaska",
-            "link": "https://www.handelsblatt.com/politik/international/erstmals-seit-1998-demokrat-gewinnt-gouverneurswahl-in-alaska/100269916.html"
-          }
-        ]
-      }
+      "score": 74.09
     },
     {
-      "id": "handelsblatt-2a8e6a49e30eab74",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Präsidentenwahl 2027: Argentiniens „Kettensägen“-Präsident will wieder kandidieren",
-      "link": "https://www.handelsblatt.com/politik/international/praesidentenwahl-2027-argentiniens-kettensaegen-praesident-will-wieder-kandidieren/100269956.html",
-      "summary": "Javier Milei strebt eine zweite Amtszeit an und rühmt den wirtschaftlichen Aufschwung unter seiner Ägide. Doch die Politik des Staatschefs ist umstritten und bringt erhebliche soziale Härten mit sich.",
-      "image": "https://images.handelsblatt.com/7DGfMby7UiHv/cover/900/506/0/0/107/106/0.5/0.5/vor-der-praesidentenwahl-in-argentinien.jpg",
-      "published": "2026-11-15T02:57:10+00:00",
-      "category": "Politik",
-      "score": 68.62
-    },
-    {
-      "id": "spiegel-f91f4355a6ead230",
+      "id": "spiegel-51861d12b5329f87",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Republikaner nach den Midterms: Das Donald-Trump-Dilemma",
-      "link": "https://www.spiegel.de/ausland/republikaner-nach-den-midterms-das-donald-trump-dilemma-a-7d259856-2698-4b59-b05c-9e57bc2d0cd9#ref=rss",
-      "summary": "Jetzt tobt in der Trump-Partei ein Streit über Konsequenzen aus der verlorenen Wahl: MAGA-Extremisten und Traditionalisten gehen gleichzeitig auf den Präsidenten los. Und seine potenziellen Kronprinzen lauern auf ihre Chance.",
-      "image": "https://cdn.prod.www.spiegel.de/images/0812144a-e903-4e76-9aea-ffa72aca043a_w1200_r1.778_fpx60_fpy30.jpg",
-      "published": "2026-11-14T15:21:00+01:00",
+      "title": "Vanessa Emde: Die frühen Gedichte der Skandal-Linken",
+      "link": "https://www.spiegel.de/politik/deutschland/vanessa-emde-die-fruehen-gedichte-der-skandal-linken-a-33089a48-bd29-4ed2-b624-03370da8e383#ref=rss",
+      "summary": "Vanessa Emde, die israelfeindliche Aktivistin aus Neukölln, dominiert seit Wochen die Berliner Koalitionsgespräche. Früher inszenierte sie am Theater und schrieb Lyrik. Was verrät ihr Werk über sie?",
+      "image": "https://cdn.prod.www.spiegel.de/images/81a19335-0c68-47b8-8de6-937c5041dc30_w1200_r1.778_fpx22_fpy52.jpg",
+      "published": "2026-11-15T11:10:00+01:00",
       "category": "Politik",
-      "score": 67.12
+      "score": 69.08
     },
     {
-      "id": "handelsblatt-134e7ea49218a9c3",
+      "id": "handelsblatt-cd53e8ce3229999f",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Bundespräsidenten-Wahl: AfD schickt Ex-Fußballer Berthold ins Rennen um Bellevue",
-      "link": "https://www.handelsblatt.com/politik/deutschland/bundespraesidenten-wahl-afd-schickt-ex-fussballer-berthold-ins-rennen-um-bellevue/100269893.html",
-      "summary": "Mit der Nationalelf holte Thomas Berthold 1990 den WM-Titel. Jetzt schickt ihn die AfD ins Rennen um das höchste Staatsamt. Das hat mit seiner Rolle während der Pandemie zu tun.",
-      "image": "https://images.handelsblatt.com/QZbHjdLLIWxm/cover/900/506/0/0/117/116/0.5/0.5/fussball-weltmeister-thomas-berthold.jpg",
-      "published": "2026-11-14T12:24:37+00:00",
+      "title": "Energiekonzerne: Kanadier, Norweger und Briten in der engeren Auswahl für Uniper-Übernahme",
+      "link": "https://www.handelsblatt.com/unternehmen/industrie/energie-kanadier-norweger-und-briten-in-auswahl-fuer-uniper-uebernahme/100269874.html",
+      "summary": "Die Bundesregierung hat drei Bieter eingeladen, verbindliche Angebote für Deutschlands wichtigsten Gasversorger abzugeben. Ein strategischer Bieter aus Deutschland hat offenbar das Nachsehen.",
+      "image": "https://images.handelsblatt.com/ueUfqYxrwlZv/cover/900/506/0/0/172/37/0.5/0.5/tanks-at-the-epe-natural-gas-storage-facility-operated-by-uniper-se-in-gronau-germany-on-monday.jpg",
+      "published": "2026-11-15T08:57:37+00:00",
       "category": "Politik",
-      "score": 64.51
+      "score": 67.07
     },
     {
-      "id": "golem-e49928dbe8947d2f",
+      "id": "handelsblatt-0b02d114746db182",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Iran-Krieg: Iran greift Ziele in Bahrain mit Drohnen an",
+      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-iran-greift-ziele-in-bahrain-mit-drohnen-an/100269980.html",
+      "summary": "Das US-Militär nimmt immer wieder Radaranlagen und Raketenabschussrampen an der iranischen Küste ins Visier. Als Reaktion meldet der Iran nun erneut einen Angriff auf den US-Verbündeten Bahrain.",
+      "image": "https://images.handelsblatt.com/sL1UVDOHDnP1/cover/900/506/0/0/107/106/0.5/0.5/bahrain.jpg",
+      "published": "2026-11-15T07:31:39+00:00",
+      "category": "Wirtschaft",
+      "score": 65.88
+    },
+    {
+      "id": "handelsblatt-97f8705b0cad2bcb",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Essay: Die Irrtümer der Trump-Versteher",
+      "link": "https://www.handelsblatt.com/meinung/kommentare/usa-die-irrtuemer-der-trump-versteher/100268636.html",
+      "summary": "„Trump-Versteher“ gibt es in der Politik, in der Wissenschaft und als journalistische Kategorie. Der Grat zwischen Verstehen und Rechtfertigung ist gefährlich schmal. Eine Selbstreflexion.",
+      "image": "https://images.handelsblatt.com/Pvy8hOItFqwh/cover/900/506/0/0/0/0/0.5/0.5/trump-essay-muenchrath.jpg",
+      "published": "2026-11-15T07:00:00+00:00",
+      "category": "Politik",
+      "score": 65.44
+    },
+    {
+      "id": "golem-91870ed2904d5e47",
       "source": "golem",
       "sourceWeight": 0.85,
-      "title": "Starshield gedrosselt: Ukraine steuert Drohnen über israelische Satellitentechnik",
-      "link": "https://www.golem.de/news/starshield-gedrosselt-ukraine-steuert-drohnen-ueber-israelische-satellitentechnik-2611-215225.html",
-      "summary": "Die Ukraine baut offenbar Satelliten-Terminals der Firma HiSky in ihre Drohnen ein weil Starlink ein unzuverlässiger Partner ist. ( Satelliten , Politik )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215225&amp;page=1&amp;ts=1794661502",
-      "published": "2026-11-14T14:05:02+01:00",
-      "category": "Politik",
-      "score": 64.07
-    },
-    {
-      "id": "spiegel-f6d481665679a212",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Kabel- und Routertausch soll Flugchaos verursacht haben – Tausende weitere Flüge gestrichen",
-      "link": "https://www.spiegel.de/panorama/kabel-und-routertausch-soll-flugchaos-verursacht-haben-tausende-weitere-fluege-gestrichen-a-202245c3-145d-42b7-9107-8664ea1ac15e#ref=rss",
-      "summary": "Auch einen Tag nach dem Startverbot auf fast allen US-Airports ist der Flugverkehr stark gestört. 4000 weitere Verbindungen wurden gestrichen. Auslöser war offenbar die Installation neuer Kabel und Router in einem betagten IT-System.",
-      "image": "https://cdn.prod.www.spiegel.de/images/cc5efd58-a4ad-4654-b92c-b72e17280add_w1200_r1.778_fpx33.33_fpy49.99.jpg",
-      "published": "2026-11-15T00:40:00+01:00",
-      "category": "Nachrichten",
-      "score": 63.89,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Flugverkehr: Weitere 4000 US-Flüge nach historischem Startverbot gestrichen",
-            "link": "https://www.handelsblatt.com/politik/international/flugverkehr-weitere-4000-us-fluege-nach-historischem-startverbot-gestrichen/100269925.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "handelsblatt-2301190a49a01c36",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Kommentar: Sie wollten spalten und wurden abgestraft: Amerikas Aufstand gegen die Kulturkrieger",
-      "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-genug-ist-genug-amerikas-aufstand-gegen-die-kulturkrieger/100269288.html",
-      "summary": "Die meisten Menschen haben die Krawallrhetorik und Dauererregung satt. Das ist die zentrale Lehre aus dem Trump-Debakel in den USA. Und sie hat Folgen für Europa.",
-      "image": "https://images.handelsblatt.com/cB4pBio4iXd2/cover/900/506/0/0/0/469/0.5/0.5/dpatopbilder-01.11.2026-usa-salina-us-praesident-donald-trump-steht-auf-der-buehne-nachdem-er-be.jpg",
-      "published": "2026-11-14T09:46:10+00:00",
-      "category": "Politik",
-      "score": 62.31
-    },
-    {
-      "id": "heise-eb55a62a3e818c76",
-      "source": "heise",
-      "sourceWeight": 0.9,
-      "title": "SpaceX fängt erstmals Starship nach Flug in der Erdumlaufbahn wieder auf",
-      "link": "https://www.heise.de/news/SpaceX-faengt-erstmals-Starship-nach-Flug-in-der-Erdumlaufbahn-wieder-auf-11525437.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "summary": "Nach 22 Stunden in der Erdumlaufbahn ist ein Starship zum Startplatz zurückgekehrt und wurde dort von zwei Greifarmen aufgefangen. Zuvor lief nicht alles rund.",
-      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/1/7/5/3/Screenshot_2026-11-14_232145-943f30d9b3a12453.png",
-      "published": "2026-11-14T23:29:00+01:00",
+      "title": "Netzwerk geflutet: Ein Router hat die Flugausfälle in den USA verursacht",
+      "link": "https://www.golem.de/news/netzwerk-geflutet-ein-router-hat-die-flugausfaelle-in-den-usa-verursacht-2611-215230.html",
+      "summary": "Ein Router hat das Netzwerk mit Nachrichten geflutet und so den Flugverkehr lahmgelegt. Die genaue Ursache wird noch untersucht. ( Infrastruktur , Flugzeug )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215230&amp;page=1&amp;ts=1794740522",
+      "published": "2026-11-15T12:02:02+01:00",
       "category": "Technologie",
-      "score": 61.9,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Raumfahrt: SpaceX fängt Riesen-Rakete Starship erstmals wieder auf",
-            "link": "https://www.handelsblatt.com/technik/raumfahrt-spacex-faengt-riesen-rakete-starship-erstmals-wieder-auf/100269941.html"
-          }
-        ]
-      }
+      "score": 64.8
     }
   ]
 }
