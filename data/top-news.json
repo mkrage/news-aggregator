@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T11:47:23.886464+00:00",
+  "generatedAt": "2026-11-16T12:09:17.033542+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://bilder.deutschlandfunk.de/e1/06/7d/e2/e1067de2-6230-41ae-943b-92085b1ff504/die-nachrichten-kachel-2176-zu1224-100-768x768.jpg",
       "published": "2026-11-16T12:31:37+01:00",
       "category": "Politik",
-      "score": 85.78,
+      "score": 85.48,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -34,7 +34,7 @@
       "image": "https://images.tagesschau.de/image/c7c89c37-e4fe-49cb-b6ed-85722cd70b68/AAABoeMKW94/AAABnSSvrFg/16x9-big/vulcan-rakete-104.jpg?width=1920",
       "published": "2026-11-16T07:48:12+01:00",
       "category": "Wirtschaft",
-      "score": 78.78,
+      "score": 78.48,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -66,7 +66,7 @@
       "image": "https://bilder.deutschlandfunk.de/d5/6c/9a/9f/d56c9a9f-df5a-4d9c-a5df-101e949c235f/gaza-flut-zelte-100-1920x1920.jpg",
       "published": "2026-11-16T12:31:37+01:00",
       "category": "Politik",
-      "score": 77.78
+      "score": 77.48
     },
     {
       "id": "spiegel-9635f1faccf091b5",
@@ -78,7 +78,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/683ae043-00cb-47aa-b26b-45a1ba0a1bb6_w1200_r1.778_fpx45.4_fpy44.85.jpg",
       "published": "2026-11-16T12:23:00+01:00",
       "category": "Politik",
-      "score": 77.66
+      "score": 77.36
+    },
+    {
+      "id": "handelsblatt-98266ede87def61d",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Ukraine-Krieg: EU-Außenbeauftragte nennt russische Forderung an die Nato absurd",
+      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-eu-aussenbeauftragte-nennt-russische-forderung-an-die-nato-absurd/100270227.html",
+      "summary": "Russland fordert den Rückzug von Nato-Truppen und -Ausrüstung aus Staaten wie Tschechien, Polen und Ungarn. Die EU sieht in dem Vorschlag lediglich den Versuch, die Nato zu schwächen.",
+      "image": "https://images.handelsblatt.com/KXtSRZIpBGtf/cover/900/506/0/0/209/208/0.5/0.5/kaja-kallas.jpg",
+      "published": "2026-11-16T11:55:10+00:00",
+      "category": "Politik",
+      "score": 76.8
     },
     {
       "id": "tagesschau-45eabe3c50a85827",
@@ -88,9 +100,9 @@
       "link": "https://www.tagesschau.de/wirtschaft/unternehmen/commerzbank-unicredit-eu-genehmigung-100.html",
       "summary": "Die EU hat ihr Go für die umstrittene Übernahme der Commerzbank durch die italienische Großbank UniCredit gegeben. Die Kommission sieht \"keine wettbewerbsrechtlichen Bedenken\". Die Fusion rückt näher.[ mehr ]",
       "image": "https://images.tagesschau.de/image/48088695-d98f-4a0b-8eb4-cc1626bbac65/AAABoeQe9Xs/AAABnSSvrFg/16x9-big/commerzbank-195.jpg?width=1920",
-      "published": "2026-11-16T12:04:47+01:00",
+      "published": "2026-11-16T12:50:50+01:00",
       "category": "Nachrichten",
-      "score": 75.91,
+      "score": 75.74,
       "coverage": {
         "sourceCount": 4,
         "others": [
@@ -113,31 +125,43 @@
       }
     },
     {
-      "id": "tagesschau-8ab469bd4eddbf4a",
+      "id": "tagesschau-2d2c9af0eb48389d",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Dritter US-Flugzeugträger erreicht laut Medienberichten Nahen Osten",
-      "link": "https://www.tagesschau.de/ausland/amerika/usa-flugzeugtraeger-nahost-102.html",
-      "summary": "Das US-Militär hat seine Flotte im Nahen Osten um einen dritten Flugzeugträger ergänzt. Ob die USA dauerhaft ihre Präsenz verstärken oder einen anderen Flugzeugträger ablösen, ist unklar. Die Lage bleibt angespannt.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/a29c7668-f235-4ea4-b38e-0ca797c6d6d4/AAABoeMwvS0/AAABnSSvrFg/16x9-big/uss-rosevelt-flugzeugtraeger-us-marine-101.jpg?width=1920",
-      "published": "2026-11-16T08:11:37+01:00",
-      "category": "Nachrichten",
-      "score": 72.46,
+      "title": "Ex-Nvidia-Chef Huang arbeitet offenbar bereits an seinem Comeback",
+      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-huang-chefposten-100.html",
+      "summary": "Seine Affären - auch mit einer mutmaßlichen chinesischen Spionin - haben mehr als eine Billion Dollar Börsenwert vernichtet. Damit war der Rücktritt des Nvidia-Chefs unvermeidlich. Nun plant Jensen Huang offenbar bereits sein Comeback.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/aa0f8d48-38c2-4005-a1bc-2376cee7f6ef/AAABoeMV4y8/AAABnSSvrFg/16x9-big/jensen-huang-110.jpg?width=1920",
+      "published": "2026-11-16T09:07:28+01:00",
+      "category": "Wirtschaft",
+      "score": 75.52,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
-            "source": "deutschlandfunk",
-            "title": "Golf-Region - Bericht: Dritter US-Flugzeugträger erreicht Nahen Osten",
-            "link": "https://www.deutschlandfunk.de/bericht-dritter-us-flugzeugtraeger-erreicht-nahen-osten-104.html"
+            "source": "handelsblatt",
+            "title": "Kommentar: Die törichte Idee einer Rückkehr von Jensen Huang",
+            "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-die-toerichte-idee-einer-rueckkehr-von-jensen-huang/100270142.html"
           },
           {
-            "source": "deutsche-welle",
-            "title": "News kompakt: Dritter US-Flugzeugträger erreicht Nahen Osten",
-            "link": "https://www.dw.com/de/news-kompakt-dritter-us-flugzeugträger-erreicht-nahen-osten/a-79954671?maca=de-rss-de-all-1119-rdf"
+            "source": "golem",
+            "title": "Nvidia: Jensen Huang soll über Rückkehr sprechen",
+            "link": "https://www.golem.de/news/nvidia-jensen-huang-soll-ueber-rueckkehr-sprechen-2611-215246.html"
           }
         ]
       }
+    },
+    {
+      "id": "spiegel-a539650e5e2a8ce6",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "SPD-Vorsitz: Franziska Giffey unterstützt Hubertus Heil",
+      "link": "https://www.spiegel.de/politik/deutschland/spd-vorsitz-franziska-giffey-unterstuetzt-hubertus-heil-a-7e0da726-a2cf-45ef-8c8b-8b775e25468b#ref=rss",
+      "summary": "Hubertus Heil will Lars Klingbeil an der Spitze der SPD ablösen. Berlins ehemalige Bürgermeisterin Franziska Giffey stärkt ihm den Rücken. Der Bundestagsabgeordnete Ralf Stegner mahnt: »Es gibt keinen Messias.«",
+      "image": "https://cdn.prod.www.spiegel.de/images/5be295b0-762f-4021-9ed9-a9af84239450_w1200_r1.778_fpx46_fpy36.jpg",
+      "published": "2026-11-16T12:59:00+01:00",
+      "category": "Politik",
+      "score": 69.86
     },
     {
       "id": "spiegel-bdc3f76ba8cc5ded",
@@ -149,7 +173,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/e96d7874-b8c7-407d-b717-3b14ee5b5bed_w1200_r1.778_fpx46.67_fpy50.jpg",
       "published": "2026-11-16T12:36:00+01:00",
       "category": "Politik",
-      "score": 69.84,
+      "score": 69.54,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -171,19 +195,7 @@
       "image": "https://bilder.deutschlandfunk.de/a4/99/df/94/a499df94-3d9b-44f4-bab0-37fe1dfec2d1/556942148-100-1920x1920.jpg",
       "published": "2026-11-16T12:31:37+01:00",
       "category": "Politik",
-      "score": 69.78
-    },
-    {
-      "id": "spiegel-a433b24fc752f923",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Streit in Bundesregierung: Markus Söder fordert Einigung bei Stromsteuer und kalter Progression",
-      "link": "https://www.spiegel.de/politik/streit-in-bundesregierung-markus-soeder-fordert-einigung-bei-stromsteuer-und-kalter-progression-a-87df39df-23b5-4838-8137-cedb1b6851ac#ref=rss",
-      "summary": "Auch in der Union ist die Kritik an Kanzler Merz groß, weil die Senkung der Stromsteuer für alle – ein Wahlversprechen – verschoben werden soll. CSU-Chef Söder positioniert sich anders.",
-      "image": "https://cdn.prod.www.spiegel.de/images/02657bcf-5db3-400d-902e-a3b948c76464_w1200_r1.778_fpx48.65_fpy50.98.jpg",
-      "published": "2026-11-16T11:44:00+01:00",
-      "category": "Politik",
-      "score": 69.12
+      "score": 69.48
     },
     {
       "id": "handelsblatt-0694170468ad9d3e",
@@ -195,19 +207,7 @@
       "image": "https://images.handelsblatt.com/HJoDznIzkpsh/cover/900/506/0/0/0/213/0.5/0.5/dax.jpeg",
       "published": "2026-11-16T11:01:09+00:00",
       "category": "Wirtschaft",
-      "score": 68.36
-    },
-    {
-      "id": "handelsblatt-c06b535fa897fd76",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Führungskräfte: Hochqualifiziert, erfolgreich, arbeitssuchend – Vier Betroffene berichten",
-      "link": "https://www.handelsblatt.com/karriere/fuehrungskraefte-wenn-spitzenkraefte-ploetzlich-keinen-neuen-job-mehr-finden/100228751.html",
-      "summary": "In der Krise finden auch Menschen, deren Karrieren bislang steil nach oben gingen, keinen Job mehr. Vier Betroffene erzählen, vor welche Herausforderungen sie das stellt.",
-      "image": "https://images.handelsblatt.com/YepeK0zZ0MpH/cover/900/506/15/3/0/0/0.5/0.5/boss-erasing-career-ladder.jpg",
-      "published": "2026-11-16T10:46:00+00:00",
-      "category": "Wirtschaft",
-      "score": 68.15
+      "score": 68.05
     },
     {
       "id": "deutsche-welle-c8178e310ffdfcb5",
@@ -219,7 +219,7 @@
       "image": "https://static.dw.com/image/71246970_6.jpg",
       "published": "2026-11-16T11:09:00+00:00",
       "category": "Nachrichten",
-      "score": 65.47
+      "score": 65.16
     },
     {
       "id": "deutsche-welle-ea346f5cff144b23",
@@ -231,7 +231,19 @@
       "image": "https://static.dw.com/image/79929145_6.jpg",
       "published": "2026-11-14T20:23:00+00:00",
       "category": "Politik",
-      "score": 60.16
+      "score": 59.86
+    },
+    {
+      "id": "heise-1af6c6b10714fcd5",
+      "source": "heise",
+      "sourceWeight": 0.9,
+      "title": "Manjaro: Linux-Projekt wird eingetragener Verein",
+      "link": "https://www.heise.de/news/Manjaro-Linux-Projekt-wird-eingetragener-Verein-11526245.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
+      "summary": "Das Manjaro-Projekt ist nun offiziell auch ein eingetragener Verein. Die Umstrukturierung soll Vertrauen wiederherstellen und mehr Unterstützung bringen.",
+      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/2/1/6/2/2026-01-05-Manjaro_26.0_KDE-Desktop-auf-Notebook-ef53584084b1e7a2.jpeg",
+      "published": "2026-11-16T12:47:00+01:00",
+      "category": "Technologie",
+      "score": 57.69
     },
     {
       "id": "golem-66f8b5cf3bf3bbb2",
@@ -243,19 +255,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215248&amp;page=1&amp;ts=1794820682",
       "published": "2026-11-16T10:18:02+01:00",
       "category": "Wirtschaft",
-      "score": 57.93
-    },
-    {
-      "id": "golem-6293c1cd25016a0c",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Nach November-Updates: Microsoft bestätigt Druckerproblem",
-      "link": "https://www.golem.de/news/nach-november-updates-microsoft-bestaetigt-druckerproblem-2611-215258.html",
-      "summary": "Der Fehler tritt unter Windows und Windows Server bei bestimmten Dokumenten mit komplexen Formatierungen auf. ( Betriebssysteme , Microsoft )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215258&amp;page=1&amp;ts=1794829501",
-      "published": "2026-11-16T12:45:01+01:00",
-      "category": "Technologie",
-      "score": 56.97
+      "score": 57.62
     }
   ]
 }
