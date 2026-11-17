@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T14:01:31.376313+00:00",
+  "generatedAt": "2026-11-17T14:42:33.447335+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/3081af45-93c6-4c6b-aa62-5987277b1fac/AAABoekOoRM/AAABnSSvrFg/16x9-big/containerschiff-172.jpg?width=1920",
       "published": "2026-11-17T13:42:17+01:00",
       "category": "Wirtschaft",
-      "score": 83.36,
+      "score": 83.63,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "spiegel-45f894fe719cce38",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "US-Präsident Donald Trump zum Datenleak der Deutschen Bank: »Sie hätten es nicht tun sollen«",
+      "link": "https://www.spiegel.de/wirtschaft/us-praesident-donald-trump-zum-datenleak-der-deutschen-bank-sie-haetten-es-nicht-tun-sollen-a-20d45c72-7b6a-4f69-9879-ca1601f9c6f0#ref=rss",
+      "summary": "Die Deutsche Bank hat wohl versehentlich Steuerunterlagen von Donald Trump verschickt – während dieser sich vehement weigerte, sie offenzulegen. Nun hat sich der US-Präsident zu der Veröffentlichung aus dem Datenleck geäußert.",
+      "image": "https://cdn.prod.www.spiegel.de/images/4713ac21-2bb6-443b-86ae-90457e1d604c_w1200_r1.778_fpx29.9_fpy44.85.jpg",
+      "published": "2026-11-17T15:32:00+01:00",
+      "category": "Politik",
+      "score": 82.53,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutsche-welle",
+            "title": "Datenleak bringt Deutsche Bank ins Stolpern",
+            "link": "https://www.dw.com/de/datenleak-bringt-deutsche-bank-ins-stolpern/a-79970605?maca=de-rss-de-all-1119-rdf"
+          },
+          {
+            "source": "golem",
+            "title": "Deutsche-Bank-Datenleck: Trumps Steuerunterlagen wurden versehentlich versendet",
+            "link": "https://www.golem.de/news/deutsche-bank-datenleck-trumps-steuerunterlagen-wurden-versehntlich-versendet-2611-215301.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "tagesschau-79cf1da21f4a2032",
       "source": "tagesschau",
       "sourceWeight": 1.0,
@@ -39,14 +66,14 @@
       "image": "https://images.tagesschau.de/image/a082bbe7-bfc8-4080-8a87-f5690c9f4c97/AAABoejeskc/AAABnSSvrFg/16x9-big/asyl-ruanda-100.jpg?width=1920",
       "published": "2026-11-17T12:32:45+01:00",
       "category": "Politik",
-      "score": 78.68,
+      "score": 78.95,
       "coverage": {
         "sourceCount": 4,
         "others": [
           {
             "source": "deutschlandfunk",
-            "title": "Migrationspolitik - Deutschland und vier weitere EU-Staaten planen ab 2027 Abschiebezentrum in Ruanda",
-            "link": "https://www.deutschlandfunk.de/deutschland-und-vier-weitere-eu-staaten-planen-ab-2027-abschiebezentrum-in-ruanda-102.html"
+            "title": "Menschenrechte - UNO-Kommissar Türk sieht Pläne von EU-Ländern für Abschiebezentren in Ruanda mit Sorge",
+            "link": "https://www.deutschlandfunk.de/uno-kommissar-tuerk-sieht-plaene-von-eu-laendern-fuer-abschiebezentren-in-ruanda-mit-sorge-104.html"
           },
           {
             "source": "handelsblatt",
@@ -71,7 +98,7 @@
       "image": "https://images.tagesschau.de/image/554341e9-2eb3-4975-a65d-47158f7a0820/AAABoeTrqwc/AAABnSSvrFg/16x9-big/serbien-wahl-parlament-100.jpg?width=1920",
       "published": "2026-11-17T07:13:09+01:00",
       "category": "Politik",
-      "score": 78.68,
+      "score": 78.95,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -84,28 +111,6 @@
       }
     },
     {
-      "id": "spiegel-6dff2e2390a56bb0",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ukraine: Europäer müssen Verhandlungsfähigkeit mit Putin beweisen",
-      "link": "https://www.spiegel.de/ausland/ukraine-europaeer-muessen-verhandlungsfaehigkeit-mit-putin-beweisen-a-db4b4ffe-8811-4e36-bb50-77a4388190af#ref=rss",
-      "summary": "Lange Zeit beklagten die Europäer, bei den Friedensverhandlungen für die Ukraine keine Rolle zu spielen. Nun könnten sie gleich sieben Vertreter schicken. Doch die Debatte darüber lenkt von etwas Wichtigerem ab.",
-      "image": "https://cdn.prod.www.spiegel.de/images/aa5cffa5-e56e-4df8-aea9-d29c5e5fd848_w1200_r1.778_fpx41.33_fpy49.99.jpg",
-      "published": "2026-11-17T12:14:00+01:00",
-      "category": "Politik",
-      "score": 77.76,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Kommentar: Xi hat aus gutem Grund kein Interesse an einem Ukraine-Deal mit Trump und Putin",
-            "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-xi-hat-kein-interesse-an-einem-zweiten-jalta-01/100268472.html"
-          }
-        ]
-      }
-    },
-    {
       "id": "deutschlandfunk-027622909dee2419",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
@@ -113,9 +118,9 @@
       "link": "https://www.deutschlandfunk.de/dfb-grenzt-sich-von-afd-und-bundespraesidenten-kandidat-thomas-berthold-ab-100.html",
       "summary": "Der Deutsche Fußball-Bund hat die Ernennung von Ex-Weltmeister Thomas Berthold zum Kandidaten der AfD für die Wahl zum Bundespräsidenten kritisiert.",
       "image": "https://bilder.deutschlandfunk.de/e1/3b/45/4e/e13b454e-9d9d-45a5-bbf8-42ade7bb7ec0/thomas-berthold-fussballer-100-1920x1920.jpg",
-      "published": "2026-11-17T14:38:48+01:00",
+      "published": "2026-11-17T15:39:11+01:00",
       "category": "Politik",
-      "score": 77.68,
+      "score": 77.95,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -135,9 +140,9 @@
       "link": "https://www.deutschlandfunk.de/fifa-praesidentschaftswahl-uefa-schickt-franzosen-diallo-gegen-infantino-ins-rennen-104.html",
       "summary": "Zwei Tage vor Ende der Bewerbungsfrist hat die UEFA einen Gegenkandidaten für den umstrittenen FIFA-Chef Infantino gefunden. Der Präsident des französischen Fußballverbands, Philippe Diallo, tritt bei der Wahl im März an.",
       "image": "https://bilder.deutschlandfunk.de/49/8b/e0/d0/498be0d0-91cf-48d0-9217-e5fec509d072/philippe-diallo-infantino-gegner-wahl-antritt-fifa-100-1920x1920.jpg",
-      "published": "2026-11-17T14:38:48+01:00",
+      "published": "2026-11-17T15:39:11+01:00",
       "category": "Politik",
-      "score": 77.68,
+      "score": 77.95,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -157,9 +162,43 @@
       "link": "https://www.deutschlandfunk.de/kriegstreiber-proteste-gegen-trump-besuch-in-manila-halten-an-100.html",
       "summary": "Kurz vor der Ankunft von US-Präsident Trump auf den Philippinen halten die Proteste gegen seinen Besuch an.",
       "image": "https://bilder.deutschlandfunk.de/b9/94/60/6a/b994606a-f181-406b-93c7-abff1ca86857/trump-philippinen-asean-100-1920x1920.jpg",
-      "published": "2026-11-17T14:38:48+01:00",
+      "published": "2026-11-17T15:39:11+01:00",
       "category": "Politik",
-      "score": 77.68
+      "score": 77.95
+    },
+    {
+      "id": "spiegel-6dff2e2390a56bb0",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Ukraine: Europäer müssen Verhandlungsfähigkeit mit Putin beweisen",
+      "link": "https://www.spiegel.de/ausland/ukraine-europaeer-muessen-verhandlungsfaehigkeit-mit-putin-beweisen-a-db4b4ffe-8811-4e36-bb50-77a4388190af#ref=rss",
+      "summary": "Lange Zeit beklagten die Europäer, bei den Friedensverhandlungen für die Ukraine keine Rolle zu spielen. Nun könnten sie gleich sieben Vertreter schicken. Doch die Debatte darüber lenkt von etwas Wichtigerem ab.",
+      "image": "https://cdn.prod.www.spiegel.de/images/aa5cffa5-e56e-4df8-aea9-d29c5e5fd848_w1200_r1.778_fpx41.33_fpy49.99.jpg",
+      "published": "2026-11-17T12:14:00+01:00",
+      "category": "Politik",
+      "score": 77.19,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Kommentar: Xi hat aus gutem Grund kein Interesse an einem Ukraine-Deal mit Trump und Putin",
+            "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-xi-hat-kein-interesse-an-einem-zweiten-jalta-01/100268472.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "handelsblatt-5c203d62cc72c696",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ Iran-Krieg +++: Plant der Iran einen Anschlag in Washington?",
+      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-plant-der-iran-einen-anschlag-in-washington/100136895.html",
+      "summary": "Explosionen im Süden des Iran +++ Gegenseitige Drohungen zwischen USA und Iran nach Anschlagsplänen +++ London sanktioniert israelische Baufirmen wegen Siedlungsbau +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/rc35RBvBYWlR/cover/900/506/0/0/107/106/0.5/0.5/us-midterms-washington.jpg",
+      "published": "2026-11-17T14:26:00+00:00",
+      "category": "Politik",
+      "score": 76.77
     },
     {
       "id": "spiegel-d8f7ddde9352d111",
@@ -171,7 +210,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/a733081a-b747-4933-ae0f-25f36f13b2a7_w1200_r1.778_fpx33.33_fpy49.99.jpg",
       "published": "2026-11-17T13:09:00+01:00",
       "category": "Politik",
-      "score": 76.44
+      "score": 75.87
     },
     {
       "id": "handelsblatt-0430b764de31060b",
@@ -183,29 +222,7 @@
       "image": "https://images.handelsblatt.com/aSYqgYAOd8aS/cover/900/506/0/0/38/38/0.5/0.5/export-container.jpg",
       "published": "2026-11-17T12:54:10+00:00",
       "category": "Wirtschaft",
-      "score": 76.06
-    },
-    {
-      "id": "spiegel-e83f6248392da5ff",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Russland: Regierung beruft nach Angriff auf Krimbrücke Krisensitzung ein",
-      "link": "https://www.spiegel.de/ausland/russland-regierung-beruft-offenbar-nach-angriff-auf-krimbruecke-krisensitzung-ein-a-cf3b4538-0f83-46a7-a649-3bca14b7af2e#ref=rss",
-      "summary": "Der ukrainische Präsident Selenskyj bestätigt, dass ein Angriff seines Militärs die Krimbrücke teilweise zerstört hat. Moskau spricht von »kleineren Schäden« und hat einen Krisenrat einberufen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/a2e732d6-016a-43ca-aba5-ebb4a28c68c3_w1200_r1.778_fpx52.32_fpy54.96.jpg",
-      "published": "2026-11-17T10:02:00+01:00",
-      "category": "Politik",
-      "score": 75.31,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutsche-welle",
-            "title": "Moskau beruft Krisensitzung nach Angriff auf Krim-Brücke ein",
-            "link": "https://www.dw.com/de/moskau-beruft-krisensitzung-nach-angriff-auf-krim-brücke-ein/a-79966896?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
+      "score": 75.49
     },
     {
       "id": "heise-4c5c149f1c8b7407",
@@ -217,7 +234,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/2/4/9/4/shutterstock_436767811-c0d52d84e112663c.jpeg",
       "published": "2026-11-16T18:00:00+01:00",
       "category": "Politik",
-      "score": 73.98,
+      "score": 73.41,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -230,62 +247,50 @@
       }
     },
     {
-      "id": "golem-b99168e53ee8fcff",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Deutsche-Bank-Datenleck: Trumps Steuerunterlagen wurden versehentlich versendet",
-      "link": "https://www.golem.de/news/deutsche-bank-datenleck-trumps-steuerunterlagen-wurden-versehntlich-versendet-2611-215301.html",
-      "summary": "Kurz nach Trumps erstem Wahlsieg versendete ein Angestellter der Deutschen Bank versehentlich einen Link zu mehr als 1.500 Steuerunterlagen. ( Datenleck , Sicherheitslücke )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215301&amp;page=1&amp;ts=1794909842",
-      "published": "2026-11-17T11:04:02+01:00",
+      "id": "deutsche-welle-075e97d64df6abeb",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "Das Erbe von 16 Jahren Herrschaft von Viktor Orban in Ungarn: Vergrabene Millionen, Menschenhandel, Bankraub und die Krise der Orban-Partei Fidesz",
+      "link": "https://www.dw.com/de/das-erbe-von-16-jahren-herrschaft-von-viktor-orban-in-ungarn-vergrabene-millionen-menschenhandel-bankraub-und-die-krise-der-orban-partei-fidesz/a-79967762?maca=de-rss-de-all-1119-rdf",
+      "summary": "Viktor Orban versprach, Ungarn vor Korruption und illegaler Migration zu schützen. Nun wurden deswegen ein Ex-Minister, der Ex-Notenbankchef und Orbans Bruder verhaftet. Hat die Orban-Partei Fidesz noch eine Zukunft?",
+      "image": "https://static.dw.com/image/78076340_6.jpg",
+      "published": "2026-11-17T13:57:00+00:00",
       "category": "Politik",
-      "score": 72.7
+      "score": 68.37
     },
     {
-      "id": "handelsblatt-4071f6f1b6b9809b",
-      "source": "handelsblatt",
+      "id": "deutsche-welle-851bc030b409e01c",
+      "source": "deutsche-welle",
       "sourceWeight": 0.9,
-      "title": "Mehr als 20 Milliarden Strafe: Die teuren Skandale der Deutschen Bank",
-      "link": "https://www.handelsblatt.com/politik/deutschland/mehr-als-20-milliarden-strafe-die-teuren-skandale-der-deutschen-bank/100270628.html",
-      "summary": "Hypothekengeschäfte, Zinsmanipulationen, Geldwäschevorwürfe: Seit der Finanzkrise haben zahlreiche Fälle die Deutsche Bank belastet. Wie teuer die Skandale für das Geldhaus wurden.",
-      "image": "https://images.handelsblatt.com/kvEd2FMQFOYc/cover/900/506/0/0/91/91/0.5/0.5/vorwuerfe-gegen-deutsche-bank.jpg",
-      "published": "2026-11-17T13:24:13+00:00",
-      "category": "Wirtschaft",
-      "score": 68.48
+      "title": "Moskau beruft Krisensitzung nach Angriff auf Krim-Brücke ein",
+      "link": "https://www.dw.com/de/moskau-beruft-krisensitzung-nach-angriff-auf-krim-brücke-ein/a-79966896?maca=de-rss-de-all-1119-rdf",
+      "summary": "Die Folgen der ukrainischen Attacke müssten bewältigt werden, heißt es kurz vor der von Vize-Regierungschef Marat Chusnullin geleiteten Sondersitzung. In Agenturberichten ist von schweren Schäden an der Brücke die Rede.",
+      "image": "https://static.dw.com/image/79964476_6.jpg",
+      "published": "2026-11-17T10:48:00+00:00",
+      "category": "Politik",
+      "score": 65.74
     },
     {
-      "id": "handelsblatt-fc2c8e6316d73816",
-      "source": "handelsblatt",
+      "id": "heise-51887d68d9b576cb",
+      "source": "heise",
       "sourceWeight": 0.9,
-      "title": "Lieber Urlaub machen: „GTA 6“-Hype: Spielen während der Arbeit kann den Job kosten",
-      "link": "https://www.handelsblatt.com/politik/deutschland/lieber-urlaub-machen-gta-6-hype-spielen-waehrend-der-arbeit-kann-den-job-kosten/100270614.html",
-      "summary": "Der neue Teil von „Grand Theft Auto“ erscheint und viele haben den Controller schon griffbereit. Aber lieber nicht während der Arbeitszeit - sonst droht Ungemach, wie ein Experte verdeutlicht.",
-      "image": "https://images.handelsblatt.com/-VvaQ9nWYs3p/cover/900/506/0/0/106/105/0.5/0.5/eine-ps5-pro-mit-controller-neben-einem-fernseher.jpg",
-      "published": "2026-11-17T13:02:32+00:00",
-      "category": "Wirtschaft",
-      "score": 68.18,
+      "title": "Windows-Insider-Vorschauen: FIDO2-Stick-Verwaltung und Sperren aus der Ferne",
+      "link": "https://www.heise.de/news/Windows-Insider-Vorschauen-FIDO2-Stick-Verwaltung-und-Sperren-aus-der-Ferne-11527221.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
+      "summary": "Microsoft testet in den aktuellen Windows-Insider-Vorschauen eine Verwaltung für FIDO2-Sticks und das Sperren von PCs aus der Ferne.",
+      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/2/6/5/3/2026-11-17-Microsofot-11b-securitykeymanagement-Aufmacher-59dbb7761e4bb8d2.png",
+      "published": "2026-11-17T08:52:00+01:00",
+      "category": "Technologie",
+      "score": 65.48,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "deutsche-welle",
-            "title": "GTA-Release: Warum \"Grand Theft Auto VI\" mehr als nur ein Spiel ist",
-            "link": "https://www.dw.com/de/gta-release-warum-grand-theft-auto-vi-mehr-als-nur-ein-spiel-ist/a-79933772?maca=de-rss-de-all-1119-rdf"
+            "source": "golem",
+            "title": "Neue Sicherheitsfunktion: Microsoft testet Remote-Sperre für Windows-Geräte",
+            "link": "https://www.golem.de/news/neue-sicherheitsfunktion-microsoft-testet-remote-sperre-fuer-windows-geraete-2611-215314.html"
           }
         ]
       }
-    },
-    {
-      "id": "golem-7108ed206368ae45",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Affären: Huang-Rückkehr scheint kein Thema für Nvidias Verwaltungsrat",
-      "link": "https://www.golem.de/news/affaeren-huang-rueckkehr-scheint-kein-thema-fuer-nvidias-verwaltungsrat-2611-215287.html",
-      "summary": "Donald Trump wäre einem Comeback von Jensen Huang nicht abgeneigt. Doch Nvidias Verwaltungsrat erwägt eine Rückkehr des Mitgründers offenbar nicht. ( Nvidia , Grafikkarten )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215287&amp;page=1&amp;ts=1794897061",
-      "published": "2026-11-17T07:31:01+01:00",
-      "category": "Politik",
-      "score": 61.74
     }
   ]
 }
