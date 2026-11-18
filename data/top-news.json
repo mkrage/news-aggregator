@@ -1,30 +1,118 @@
 {
-  "generatedAt": "2026-11-18T04:35:18.126543+00:00",
+  "generatedAt": "2026-11-18T13:31:59.739050+00:00",
   "count": 15,
   "articles": [
     {
-      "id": "deutschlandfunk-a80ac0e295d0314e",
+      "id": "handelsblatt-8860b431b871602d",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Dreiergipfel: Trump erwartet Gespräche über Ukraine und Taiwan mit Putin und Xi",
+      "link": "https://www.handelsblatt.com/video/politik/dreiergipfel-trump-erwartet-gespraeche-ueber-ukraine-und-taiwan-mit-putin-und-xi/100270705.html",
+      "summary": "Vor dem Dreiergipfel mit China und Russland hat sich US-Präsident Trump mit den Staats- und Regierungschefs von Indien, Japan und Australien getroffen. Der chinesische Präsident Xi hatte die sogenannte Quad-Gruppe in der Vergangenheit kritisiert.",
+      "image": "https://images.handelsblatt.com/UaDc2SYUI3zc/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
+      "published": "2026-11-18T16:00:00+00:00",
+      "category": "Politik",
+      "score": 87.06,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutsche-welle",
+            "title": "Trump, Xi, Putin: Dreiergipfel mit drei Erwartungen",
+            "link": "https://www.dw.com/de/trump-xi-putin-dreiergipfel-mit-drei-erwartungen/a-79978410?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-1913b17838bb2ed1",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Karlsruhe - Bundesverfassungsgericht entscheidet heute über BSW-Einspruch gegen Bundestagswahl",
-      "link": "https://www.deutschlandfunk.de/bundesverfassungsgericht-entscheidet-heute-ueber-bsw-einspruch-gegen-bundestagswahl-100.html",
-      "summary": "Das Bundesverfassungsgericht veröffentlicht am Vormittag seine Entscheidung über den Einspruch des BSW zur Bundestagswahl. Das Bündnis Sahra Wagenknecht - das heute Bündnis Soziale Gerechtigkeit und Wirtschaftliche Vernunft heißt - war im Jahr 2025 mit 4,981 Prozent der Zweitstimmen knapp an der Fünf-Prozent-Hürde gescheitert.",
-      "image": "https://bilder.deutschlandfunk.de/56/97/c5/74/5697c574-2016-4cab-bd68-60061113a74b/bsw-106-1920x1920.jpg",
-      "published": "2026-11-18T05:03:19+01:00",
+      "title": "Ukraine-Krieg - Von der Leyen schlägt neues Darlehen für die Ukraine von 45 Milliarden Euro vor",
+      "link": "https://www.deutschlandfunk.de/von-der-leyen-schlaegt-neues-darlehen-fuer-die-ukraine-von-45-milliarden-euro-vor-100.html",
+      "summary": "Die EU-Kommission hat zur Unterstützung der Ukraine ein weiteres Darlehen von rund 45 Milliarden Euro vorgeschlagen. Kommissionspräsidentin von der Leyen erklärte, dadurch könnten rund zwei Drittel der Finanzierungslücke im ukrainischen Haushalt im nächsten Jahr gedeckt werden. Das Land müsse das Geld nur zurückzahlen, wenn es nach einem Ende des Krieges russische Reparationszahlungen erhalte.",
+      "image": "https://bilder.deutschlandfunk.de/65/f5/48/a9/65f548a9-f522-4c77-bdd8-fe1026c5c11a/ursula-von-der-leyen-bruessel-eu-kommission-100-1920x1920.jpg",
+      "published": "2026-11-18T14:24:03+01:00",
       "category": "Politik",
-      "score": 90.24,
+      "score": 85.89,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Ukraine-Krieg: Warum die EU über weitere 45 Milliarden Euro für Kyjiw streitet",
+            "link": "https://www.spiegel.de/wirtschaft/ukraine-krieg-warum-die-eu-ueber-weitere-45-milliarden-euro-fuer-kyjiw-streitet-a-b8ec6864-59d7-4bb8-9cbf-1f31d61632cb#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-a064e10608815654",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Krieg gegen die Ukraine - Wadephul: Europa muss bei Friedensgesprächen mit am Tisch sitzen",
+      "link": "https://www.deutschlandfunk.de/wadephul-europa-muss-bei-friedensgespraechen-mit-am-tisch-sitzen-100.html",
+      "summary": "Außenminister Wadephul besteht vor dem morgigen Treffen der USA, Russlands und Chinas auf einer Beteiligung Europas an Gesprächen über ein Ende des Ukraine-Kriegs.",
+      "image": "https://bilder.deutschlandfunk.de/2f/09/3f/fe/2f093ffe-0467-4038-88af-a2011ddf046e/bundesaussenminister-wadephul-aserbaidschan-100-1920x1920.jpg",
+      "published": "2026-11-18T14:24:03+01:00",
+      "category": "Politik",
+      "score": 85.89,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ Ukraine-Krieg +++: Von der Leyen präsentiert Plan für neuen Ukraine-Kredit",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-von-der-leyen-praesentiert-plan-fuer-neuen-ukraine-kredit/27982126.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-f8ebdee09dbcee74",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Bundestagswahl 2025: Karlsruhe entscheidet über BSW-Wahlbeschwerde",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/muss-bundestagswahl-neu-ausgezaehlt-werden-bsw-100.html",
+      "summary": "Bei der Bundestagswahl 2025 fehlten dem BSW weniger als 10.000 Stimmen für den Einzug ins Parlament. Im Streit um eine Neuauszählung steht jetzt eine Entscheidung aus Karlsruhe an. Von K. Hempel und T. Zachäus. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/1fc8e13f-7c56-46c5-8af1-82b073d2383b/AAABmzMmYbk/AAABnSSvrFg/16x9-big/bundestagswahl-bsw-auszaehlung-100.jpg?width=1920",
+      "published": "2026-11-18T06:05:41+01:00",
+      "category": "Politik",
+      "score": 85.81,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Bundestagswahl steht: BSW scheitert in Karlsruhe: Was die Entscheidung bedeutet",
+            "link": "https://www.handelsblatt.com/politik/deutschland/bundestagswahl-steht-bsw-scheitert-in-karlsruhe-was-die-entscheidung-bedeutet/100270800.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-b57f08aa3a92e414",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "APEC-Gipfel in Shenzen: Xi umarmt Trump - Putin schon da",
+      "link": "https://www.tagesschau.de/ausland/asien/apec-gipfel-shenzen-trump-xi-putin-100.html",
+      "summary": "Die Staatschefs der drei Großmächte China, den USA und Russland - Xi, Trump und Putin - sind zum APEC-Gipfel in Shenzen eingetroffen. Dabei stach eine besondere Geste hervor.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/e19f1394-1e96-426f-a301-23a9ababa293/AAABoe6ka4M/AAABnSSvrFg/16x9-big/xi-trump-150.jpg?width=1920",
+      "published": "2026-11-18T14:23:23+01:00",
+      "category": "Politik",
+      "score": 83.56,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
-            "source": "spiegel",
-            "title": "BSW und Bundestagswahl: Karlsruhe entscheidet über Neuauszählung",
-            "link": "https://www.spiegel.de/politik/deutschland/bsw-und-bundestagswahl-karlsruhe-entscheidet-ueber-neuauszaehlung-a-852c3f4f-1f36-40ff-bd91-b88e3486b93a#ref=rss"
+            "source": "handelsblatt",
+            "title": "Apec-Gipfel: Umarmung, Handschlag: Xi, Putin und Trump in China",
+            "link": "https://www.handelsblatt.com/politik/international/apec-gipfel-umarmung-handschlag-xi-putin-und-trump-in-china/100270788.html"
           },
           {
-            "source": "handelsblatt",
-            "title": "Neuauszählung gefordert: Bundesverfassungsgericht entscheidet zu BSW-Wahlbeschwerde",
-            "link": "https://www.handelsblatt.com/politik/deutschland/neuauszaehlung-gefordert-bundesverfassungsgericht-entscheidet-zu-bsw-wahlbeschwerde/100270800.html"
+            "source": "deutsche-welle",
+            "title": "Gipfel der Großmächte: Xi, Trump und Putin an einem Tisch",
+            "link": "https://www.dw.com/de/gipfel-der-großmächte-xi-trump-und-putin-an-einem-tisch/a-79971939?maca=de-rss-de-all-1119-rdf"
           }
         ]
       }
@@ -39,313 +127,125 @@
       "image": "https://images.tagesschau.de/image/8d26065e-8c5a-4733-94a5-aa434470a50f/AAABoetiVP4/AAABnSSvrFg/16x9-big/pistorius-nato-102.jpg?width=1920",
       "published": "2026-11-17T22:20:52+01:00",
       "category": "Politik",
-      "score": 86.56,
+      "score": 78.89,
       "coverage": {
-        "sourceCount": 4,
+        "sourceCount": 2,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "\"Ziemlich dumm\" - Pistorius weist US-Kritik an Ukraine nach Angriff auf Krim-Brücke zurück",
             "link": "https://www.deutschlandfunk.de/pistorius-weist-us-kritik-an-ukraine-nach-angriff-auf-krim-bruecke-zurueck-102.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Ukraine-Krieg: USA kritisieren ukrainische Angriffe im inneren Russlands",
-            "link": "https://www.spiegel.de/ausland/ukraine-krieg-usa-kritisieren-ukrainische-angriffe-im-inneren-russlands-a-fc373566-240e-4b4f-bf86-dfa5f1ad41d0#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Zerstörungen an Krim-Brücke: „Ziemlich dumm“: Pistorius verurteilt US-Kritik an Ukraine",
-            "link": "https://www.handelsblatt.com/politik/international/zerstoerungen-an-krim-bruecke-ziemlich-dumm-pistorius-verurteilt-us-kritik-an-ukraine/100270738.html"
           }
         ]
       }
     },
     {
-      "id": "tagesschau-496133f1e29a4f40",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Israels Knesset: Eisenkot-Verbündeter als Parlamentspräsident gewählt",
-      "link": "https://www.tagesschau.de/ausland/asien/israel-knesset-praesident-100.html",
-      "summary": "Das israelische Parlament hat Matan Kahana zu seinem neuen Präsidenten und Sprecher gewählt - damit hat der Anti-Netanjahu-Block einen wichtigen Schritt gemacht. Von B. Meier .[ mehr ]",
-      "image": "https://images.tagesschau.de/image/a65ffd42-8668-4426-aae9-7c3278c8f863/AAABoew78DU/AAABnSSvrFg/16x9-big/kahana-100.jpg?width=1920",
-      "published": "2026-11-18T04:10:48+01:00",
-      "category": "Politik",
-      "score": 86.56,
-      "coverage": {
-        "sourceCount": 4,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Israel - Kandidat der bisherigen Opposition zum Parlamentsvorsitzenden gewählt",
-            "link": "https://www.deutschlandfunk.de/kandidat-der-bisherigen-opposition-zum-parlamentsvorsitzenden-gewaehlt-104.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Vertrauter von Eisenkot: Israels Opposition übernimmt Parlamentsvorsitz",
-            "link": "https://www.spiegel.de/ausland/vertrauter-von-eisenkot-israels-opposition-uebernimmt-parlamentsvorsitz-a-4c2a71d7-9f3b-4447-95bc-80236caf905e#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Israel: Neuer Knesset-Sprecher – Netanjahu verliert das Parlament",
-            "link": "https://www.handelsblatt.com/politik/international/israel-neuer-knesset-sprecher-netanjahu-verliert-das-parlament/100270558.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "handelsblatt-8860b431b871602d",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Dreiergipfel: Trump erwartet Gespräche über Ukraine und Taiwan mit Putin und Xi",
-      "link": "https://www.handelsblatt.com/video/politik/dreiergipfel-trump-erwartet-gespraeche-ueber-ukraine-und-taiwan-mit-putin-und-xi/100270705.html",
-      "summary": "Vor dem Dreiergipfel mit China und Russland hat sich US-Präsident Trump mit den Staats- und Regierungschefs von Indien, Japan und Australien getroffen. Der chinesische Präsident Xi hatte die sogenannte Quad-Gruppe in der Vergangenheit kritisiert.",
-      "image": "https://images.handelsblatt.com/UaDc2SYUI3zc/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
-      "published": "2026-11-18T16:00:00+00:00",
-      "category": "Politik",
-      "score": 86.51
-    },
-    {
-      "id": "deutschlandfunk-53e90fef6dd54d23",
+      "id": "deutschlandfunk-442bc9d3893d8166",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Sicherheitspolitik - Moskau wirft Frankreich Kriegsbeteiligung in der Ukraine vor",
-      "link": "https://www.deutschlandfunk.de/moskau-wirft-frankreich-kriegsbeteiligung-in-der-ukraine-vor-104.html",
-      "summary": "Nach dem Bekanntwerden einer Präsenz französischer Soldaten in der Ukraine hat der russische Außenminister Lawrow Frankreich eine Kriegsteilnahme vorgeworfen.",
-      "image": "https://bilder.deutschlandfunk.de/5b/0c/7b/d0/5b0c7bd0-9b0f-417f-bb96-8e3abb721123/lawrow-104-1920x1920.jpg",
-      "published": "2026-11-18T05:03:19+01:00",
+      "title": "Urteil - Bundesverfassungsgericht verwirft Beschwerde des BSW gegen Bundestagswahl als unzulässig",
+      "link": "https://www.deutschlandfunk.de/bundesverfassungsgericht-verwirft-beschwerde-des-bsw-gegen-bundestagswahl-als-unzulaessig-100.html",
+      "summary": "Die Stimmen zur Bundestagswahl vom Februar vergangenen Jahres müssen nicht neu ausgezählt werden. Das Bundesverfassungsgericht verwarf eine Wahlprüfungsbeschwerde des BSW als unzulässig. Die Beschwerde sei nicht ausreichend begründet.",
+      "image": "https://bilder.deutschlandfunk.de/a0/2b/51/7e/a02b517e-1b54-4c48-b13a-00f586864e15/statue-justitia-bundesverfassungsgericht-100-1280x1280.jpg",
+      "published": "2026-11-18T14:24:03+01:00",
       "category": "Politik",
-      "score": 85.56,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Ukraine-Krieg: Frankreich an Russland: „Wir sind keine Kriegspartei“",
-            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-frankreich-an-russland-wir-sind-keine-kriegspartei/100270736.html"
-          }
-        ]
-      }
+      "score": 77.89
     },
     {
-      "id": "tagesschau-29b6f63643e34a88",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Jensen Huang kann sich Rückkehr an Nvidia-Spitze vorstellen",
-      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-huang-rueckkehr-100.html",
-      "summary": "Der wegen einer Affäre mit einer mutmaßlichen chinesischen Spionin zurückgetretene Chef des US-Chipkonzerns Nvidia hat gravierende Fehler eingeräumt. Doch sollte der Vorstand das wünschen, würde er gerne an die Unternehmensspitze zurückkehren.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/4a858e23-bcda-4313-9038-e71adab94873/AAABoeqt048/AAABnSSvrFg/16x9-big/jensen-huang-118.jpg?width=1920",
-      "published": "2026-11-17T19:03:42+01:00",
+      "id": "handelsblatt-823d0501aef29fd4",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Kommentar: Gegengipfel in Berlin – Merz kontert Putins Show in China",
+      "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-gegengipfel-in-berlin-merz-kontert-putins-show-in-china/100270715.html",
+      "summary": "Während Xi, Putin und Trump in Shenzhen tagen, empfängt der Kanzler die Unterstützer der Ukraine. Das Signal gilt den Putin-Verstehern, doch kommt das auch an?",
+      "image": "https://images.handelsblatt.com/ZPINUxgWwyYb/cover/900/506/0/0/0/813/0.5/0.5/wladimir-putin.jpg",
+      "published": "2026-11-18T12:59:02+00:00",
+      "category": "Politik",
+      "score": 76.54
+    },
+    {
+      "id": "spiegel-28e04ca71075afd2",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Xi Jinping empfängt Donald Trump persönlich am Flughafen",
+      "link": "https://www.spiegel.de/ausland/xi-jinping-empfaengt-donald-trump-persoenlich-am-flughafen-a-1c046d0b-75bb-4cce-b787-1c29134402f7#ref=rss",
+      "summary": "Chinas Staatschef Xi Jinping hat Donald Trump persönlich bei dessen Ankunft in Shenzhen begrüßt, der US-Präsident wurde sogar umarmt. Zwischen Trump und Wladimir Putin ging es nicht ganz so herzlich zu.",
+      "image": "https://cdn.prod.www.spiegel.de/images/cfd0ede9-239d-45c8-a335-44012ffa6e90_w1200_r1.778_fpx48_fpy34.jpg",
+      "published": "2026-11-18T13:10:00+01:00",
+      "category": "Politik",
+      "score": 68.86
+    },
+    {
+      "id": "handelsblatt-ea70ced5f7f34868",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Dax aktuell: Dax notiert im Minus – Ölpreis sinkt",
+      "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-notiert-im-minus-oelpreis-sinkt/100270820.html",
+      "summary": "Nach den deutlichen Verlusten vom Dienstag schwächelt der deutsche Leitindex erneut. Im Fokus stehen neue Inflationsdaten und die geopolitischen Gespräche am Rande des Apec-Gipfels.",
+      "image": "https://images.handelsblatt.com/bckzfpdOn42n/cover/900/506/0/1/0/0/0.5/0.5/graph-aktienkurs-aktienchart-dax-online-dax-bericht.jpg",
+      "published": "2026-11-18T13:21:00+00:00",
       "category": "Wirtschaft",
-      "score": 78.56,
-      "coverage": {
-        "sourceCount": 4,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Chiphersteller - Nvidia will Jensen Huang nicht wieder auf Chefposten lassen",
-            "link": "https://www.deutschlandfunk.de/nvidia-will-jensen-huang-nicht-wieder-auf-chefposten-lassen-100.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Nvidia will Jensen Huang nicht als Chef zurückholen",
-            "link": "https://www.spiegel.de/wirtschaft/unternehmen/nvidia-will-jensen-huang-nicht-als-chef-zurueckholen-a-f28605ac-ea1f-421b-afd9-4649bc8b91e6#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Chip-Kontroverse: Nvidia: Huang kommt nicht zurück - Geschäft wächst stark",
-            "link": "https://www.handelsblatt.com/technik/it-internet/chip-kontroverse-nvidia-huang-kommt-nicht-zurueck-geschaeft-waechst-stark/100270746.html"
-          }
-        ]
-      }
+      "score": 68.85
     },
     {
-      "id": "deutschlandfunk-9cbbd3e66ab100ca",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Einreisebeschränkungen - Russische Eiskunstläufer dürfen wegen des Ukraine-Kriegs nicht nach Finnland",
-      "link": "https://www.deutschlandfunk.de/russische-eiskunstlaeufer-duerfen-wegen-des-ukraine-kriegs-nicht-nach-finnland-106.html",
-      "summary": "Der Eiskunstlauf Grand Prix in Helsinki findet Ende dieser Woche ohne russische Beteiligung statt. Der Grund ist, dass Finnland russischen Sportlerinnen und Sportlern keine Visa erteilt. Davon dürften schon bald auch Wintersportler aus anderen Sportarten betroffen sein.",
-      "image": "https://bilder.deutschlandfunk.de/3a/1e/86/f2/3a1e86f2-31a0-46c9-99d3-069371aaef12/finnland-eiskunstlauf-isu-100-1920x1920.jpg",
-      "published": "2026-11-18T05:03:19+01:00",
-      "category": "Politik",
-      "score": 77.56
-    },
-    {
-      "id": "handelsblatt-8800edb09609fdfe",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Atommächte bei Gipfel: Vor Dreiertreffen: Das wollen Trump, Xi und Putin",
-      "link": "https://www.handelsblatt.com/politik/international/atommaechte-bei-gipfel-vor-dreiertreffen-das-wollen-trump-xi-und-putin/100270801.html",
-      "summary": "Drei Atommächte an einem Tisch: Das Treffen in China ist schon vorab ein historisches. Washington, Peking und Moskau kommen mit unterschiedlichen Zielen nach Shenzhen.",
-      "image": "https://images.handelsblatt.com/T4IoehsMHBnZ/cover/900/506/236/235/0/0/0.5/0.5/kombo-donald-trump-xi-jinping-und-wladimir-putin.jpg",
-      "published": "2026-11-18T04:00:20+00:00",
-      "category": "Politik",
-      "score": 76.51,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutsche-welle",
-            "title": "Xi, Trump, Putin - drei Präsidenten, drei Agenden",
-            "link": "https://www.dw.com/de/xi-trump-putin-drei-präsidenten-drei-agenden/a-79971939?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-70dd80e1f1255a69",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Laut Gesundheitsbehörde: Warum die USA nicht mehr masernfrei sind",
-      "link": "https://www.tagesschau.de/ausland/amerika/masern-usa-118.html",
-      "summary": "Die USA erleben den schlimmsten Masern-Ausbruch seit mehr als 35 Jahren. Und haben nun auch ihren Status als masernfreies Land verloren. Das hat die Panamerikanische Gesundheitsorganisation (PAHO) offiziell bekannt gegeben. Von N. Barth .[ mehr ]",
-      "image": "https://images.tagesschau.de/image/1efc46ba-62c4-4f11-b186-d1bbef0e7a84/AAABoev_xZM/AAABnSSvrFg/16x9-big/robert-f-kennedy-102.jpg?width=1920",
-      "published": "2026-11-18T02:34:24+01:00",
-      "category": "Nachrichten",
-      "score": 75.56,
-      "coverage": {
-        "sourceCount": 4,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Infektionen - USA verlieren Status als masernfreies Land",
-            "link": "https://www.deutschlandfunk.de/usa-verlieren-status-als-masernfreies-land-114.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Masern: USA verlieren nach 26 Jahren ihren Status als masernfreies Land",
-            "link": "https://www.spiegel.de/wissenschaft/medizin/masern-usa-verlieren-nach-26-jahren-ihren-status-als-masernfreies-land-a-03c5b292-0ced-4318-922d-b234797f5947#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Gesundheitspolitik: USA verlieren Status als masernfreies Land",
-            "link": "https://www.handelsblatt.com/technik/forschung-innovation/gesundheitspolitik-usa-verlieren-status-als-masernfreies-land/100270771.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "handelsblatt-29aeb61c25cf6f02",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Datenleak: Trump wirft Deutscher Bank illegale Weitergabe seiner Unterlagen vor",
-      "link": "https://www.handelsblatt.com/politik/international/datenleak-trump-wirft-deutscher-bank-illegale-weitergabe-seiner-unterlagen-vor/100270741.html",
-      "summary": "Die Deutsche Bank soll versehentlich Steuerunterlagen von US-Präsident Trump verschickt haben. Der äußert sich nun knapp dazu.",
-      "image": "https://images.handelsblatt.com/K533uoxYhRzU/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
-      "published": "2026-11-17T20:51:52+00:00",
-      "category": "Politik",
-      "score": 75.24,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutsche-welle",
-            "title": "Datenleak bringt Deutsche Bank ins Stolpern",
-            "link": "https://www.dw.com/de/datenleak-bringt-deutsche-bank-ins-stolpern/a-79970605?maca=de-rss-de-all-1119-rdf"
-          },
-          {
-            "source": "golem",
-            "title": "Deutsche-Bank-Datenleck: Trumps Steuerunterlagen wurden versehentlich versendet",
-            "link": "https://www.golem.de/news/deutsche-bank-datenleck-trumps-steuerunterlagen-wurden-versehntlich-versendet-2611-215301.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-ae5b8d1695734267",
+      "id": "spiegel-33051eba0d8e97ca",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Midterms in den USA - Alaska: Demokratin Mary Peltola gewinnt Senatssitz",
-      "link": "https://www.spiegel.de/ausland/midterms-in-den-usa-alaska-demokratin-mary-peltola-gewinnt-senatssitz-a-b554031e-e4d7-4cee-8cd5-fdc85ce23d63#ref=rss",
-      "summary": "Jetzt ist auch das letzte US-Senatsrennen entschieden: In Alaska siegt Mary Peltola gegen den republikanischen Amtsinhaber. Damit werden die Demokraten bald 56 der 100 Sitze in der Parlamentskammer kontrollieren.",
-      "image": "https://cdn.prod.www.spiegel.de/images/967f9e9c-a78c-4f6b-bc31-f6d733633d38_w1200_r1.778_fpx76_fpy39.jpg",
-      "published": "2026-11-18T05:26:00+01:00",
-      "category": "Nachrichten",
-      "score": 71.55,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "USA - Demokraten gewinnen auch Senatssitz in Alaska",
-            "link": "https://www.deutschlandfunk.de/demokraten-gewinnen-auch-senatssitz-in-alaska-102.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Midterms: Demokratin nimmt Republikanern Senatssitz in Alaska ab",
-            "link": "https://www.handelsblatt.com/politik/international/midterms-demokratin-nimmt-republikanern-senatssitz-in-alaska-ab/100270797.html"
-          }
-        ]
-      }
+      "title": "The Bank and the Oligarchs: How Deutsche Bank Continued Expanding in Russia Despite the Warning Signs",
+      "link": "https://www.spiegel.de/international/business/the-bank-and-the-oligarchs-how-deutsche-bank-continued-expanding-in-russia-despite-the-warning-signs-a-668c08a5-0383-4d66-86b5-671b3c348774#ref=rss",
+      "summary": "The Donbas, Crimea, attacks in Europe: Deutsche Bank decided to continue expanding operations in Russia despite Putin’s mounting aggression. The full invasion of Ukraine caught the bank off guard.",
+      "image": "https://cdn.prod.www.spiegel.de/images/5dc23635-3096-4db8-b8f0-79381a575400_w1200_r1.778_fpx56_fpy37.png",
+      "published": "2026-11-18T12:34:00+01:00",
+      "category": "Politik",
+      "score": 68.36
     },
     {
-      "id": "spiegel-05c143e5c59e3ee4",
+      "id": "spiegel-7cfe1d7aecb88759",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "News des Tages: Deutsche Bank, Angriff auf die Krimbrücke, Glücksatlas",
-      "link": "https://www.spiegel.de/politik/deutschland/news-des-tages-deutsche-bank-angriff-auf-die-krimbruecke-gluecksatlas-a-54b6649a-6b11-44b8-bf5d-637e3ff64120#ref=rss",
-      "summary": "Ein riesiges Datenleck gibt Einblicke in das Geschäftsgebaren der Deutschen Bank. Die Ukraine zerstört Putins Krimbrücke. Und: Was der deutsche Glücksatlas über Sachsen-Anhalt verrät. Das ist die Lage am Dienstagabend.",
-      "image": "https://cdn.prod.www.spiegel.de/images/0fb372c3-843d-4dc6-a445-e7c34c92f75c_w1200_r1.778_fpx28.09_fpy49.93.png",
-      "published": "2026-11-17T18:10:00+01:00",
-      "category": "Politik",
-      "score": 70.31,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Russland: Mit diesen Waffen zerstörte die Ukraine die Krimbrücke",
-            "link": "https://www.handelsblatt.com/politik/international/russland-mit-diesen-waffen-zerstoerte-die-ukraine-die-krimbruecke/100270654.html"
-          }
-        ]
-      }
+      "title": "Gold so günstig wie seit 14 Monaten nicht",
+      "link": "https://www.spiegel.de/wirtschaft/gold-preis-feinunze-so-guenstig-wie-seit-14-monaten-nicht-a-21cef3d0-a660-45b0-b04d-ecccf0d4e9d0#ref=rss",
+      "summary": "In den Vereinigten Staaten werden Maßnahmen der Zentralbank gegen die hohe Inflation erwartet. Das drückt zinsfreie Anlageformen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/0b5bd006-6298-49a3-9e02-fa7b97975a2d_w1200_r1.778_fpx49_fpy57.jpg",
+      "published": "2026-11-18T12:19:00+01:00",
+      "category": "Wirtschaft",
+      "score": 68.15
     },
     {
-      "id": "spiegel-e54446f15d202774",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "US-Luftverkehr: Blackouts und Pannen an Airports sorgen für Alarm",
-      "link": "https://www.spiegel.de/ausland/us-luftverkehr-blackouts-und-pannen-an-airports-sorgen-fuer-alarm-a-dd72fdc3-f358-4227-ad0c-1d92580c88d1#ref=rss",
-      "summary": "Blackouts, Pannen, Beinahe-Zusammenstöße: Was ist los im US-Luftverkehr? Die Ursachen dürften vor allem bei Donald Trump und seiner Kahlschlagpolitik liegen. Doch das Weiße Haus gibt anderen die Schuld.",
-      "image": "https://cdn.prod.www.spiegel.de/images/95498511-06f6-4b18-b328-2118a7864792_w1200_r1.778_fpx54.69_fpy49.99.jpg",
-      "published": "2026-11-18T04:43:00+01:00",
-      "category": "Politik",
-      "score": 69.27
-    },
-    {
-      "id": "heise-4c5c149f1c8b7407",
-      "source": "heise",
-      "sourceWeight": 0.9,
-      "title": "Estland baut virtuelle Exilregierung in der Cloud auf",
-      "link": "https://www.heise.de/news/Estland-baut-virtuelle-Exilregierung-in-der-Cloud-auf-11526903.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "summary": "Estland entwickelt ein Konzept, um den Staat im Krisenfall vollständig über Server im Ausland weiterzuführen – als digitale Exilregierung.",
-      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/2/4/9/4/shutterstock_436767811-c0d52d84e112663c.jpeg",
-      "published": "2026-11-16T18:00:00+01:00",
-      "category": "Politik",
-      "score": 61.84,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "golem",
-            "title": "Regierung in der Cloud: Estland rüstet sich für den digitalen Ernstfall",
-            "link": "https://www.golem.de/news/regierung-in-der-cloud-estland-ruestet-sich-fuer-den-digitalen-ernstfall-2611-215296.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutsche-welle-1994efbac62fb6cf",
+      "id": "deutsche-welle-27ed363db518886b",
       "source": "deutsche-welle",
       "sourceWeight": 0.9,
-      "title": "Würde Kyjiw den Donbass für einen NATO-Beitritt aufgeben?",
-      "link": "https://www.dw.com/de/würde-kyjiw-den-donbass-für-einen-nato-beitritt-aufgeben/a-79969090?maca=de-rss-de-all-1119-rdf",
-      "summary": "Die USA wollen wissen, ob die Ukraine im Gegenzug für einen NATO-Beitritt den von Russland nicht besetzten Teil des Gebiets Donezk räumen würde. Von der DW befragte Experten erläutern, warum diese Idee gefährlich ist.",
-      "image": "https://static.dw.com/image/64865603_6.jpg",
-      "published": "2026-11-17T14:58:00+00:00",
+      "title": "Green Growth: Wirtschaftswachstum gegen die Klimakrise?",
+      "link": "https://www.dw.com/de/green-growth-wirtschaftswachstum-gegen-die-klimakrise/a-79784223?maca=de-rss-de-all-1119-rdf",
+      "summary": "Mehr Wohlstand, weniger Umweltbelastung: Green Growth verspricht die Entkopplung von Wachstum und Umweltschäden. Doch ist das realistisch oder geht Klimaschutz nur mit Verzicht?",
+      "image": "https://static.dw.com/image/69623628_6.jpg",
+      "published": "2026-11-18T10:37:00+00:00",
+      "category": "Wirtschaft",
+      "score": 66.57
+    },
+    {
+      "id": "golem-7d38281a3c48b691",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Überlastete Sozialgerichte: Sachsen erwägt Gebühr gegen KI-Klageflut",
+      "link": "https://www.golem.de/news/ueberlastete-sozialgerichte-sachsen-erwaegt-gebuehr-gegen-ki-klageflut-2611-215343.html",
+      "summary": "Eilanträge sind um 120 Prozent gestiegen und Schriftsätze zählen bis zu 300 Seiten. Sachsens Justizministerin erwägt daher eine Art Bearbeitungsgebühr. ( Wissen )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215343&amp;page=1&amp;ts=1794996241",
+      "published": "2026-11-18T11:04:01+01:00",
       "category": "Politik",
-      "score": 57.65
+      "score": 65.11
+    },
+    {
+      "id": "golem-9ec6c84adcaf2319",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Notfall-Update gegen DDoS: Flut an Client-Verbindungen überlastet das Tor-Netzwerk",
+      "link": "https://www.golem.de/news/notfall-update-veroeffentlicht-laufende-angriffe-beeintraechtigen-das-tor-netzwerk-2611-215355.html",
+      "summary": "Betreiber von Tor-Relays sollten zügig ihre Software aktualisieren. Das jüngste Update enthält einen neuen Schutz vor laufenden DDoS-Attacken. ( DoS , Cyberwar )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215355&amp;page=1&amp;ts=1795002002",
+      "published": "2026-11-18T12:40:02+01:00",
+      "category": "Technologie",
+      "score": 63.44
     }
   ]
 }
