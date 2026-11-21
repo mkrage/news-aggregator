@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-11-21T11:27:43.349445+00:00",
+  "generatedAt": "2026-11-21T15:42:03.537336+00:00",
   "count": 15,
   "articles": [
+    {
+      "id": "deutschlandfunk-5e89b4900e8d1917",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Ukraine-Krieg - Selenskyj: \"Krimbrücke wird nicht stehen bleiben\"",
+      "link": "https://www.deutschlandfunk.de/selenskyj-krimbruecke-wird-nicht-stehen-bleiben-102.html",
+      "summary": "Der ukrainische Präsident Selenskyj hat Russland mit einer vollständigen Zerstörung der Krimbrücke gedroht.",
+      "image": "https://bilder.deutschlandfunk.de/03/fc/94/8e/03fc948e-1f0d-41d7-81d5-94f724fdd128/krim-bruecke-106-1920x1920.jpg",
+      "published": "2026-11-21T16:27:22+01:00",
+      "category": "Politik",
+      "score": 85.8,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Wolodymyr Selenskyj: Russisches Prestigeprojekt Krimbrücke habe keine Zukunft",
+            "link": "https://www.spiegel.de/ausland/wolodymyr-selenskyj-russisches-prestigeprojekt-krimbruecke-habe-keine-zukunft-a-a0180ce2-d9fe-446d-af25-b1ad00cb33bb#ref=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "spiegel-3ac8e438cabe78a5",
       "source": "spiegel",
@@ -12,26 +34,26 @@
       "image": "https://cdn.prod.www.spiegel.de/images/c0458cbf-8c02-409f-bf35-ee8d6a56ee94_w1200_r1.778_fpx49_fpy49.jpg",
       "published": "2026-11-21T12:04:00+01:00",
       "category": "Politik",
-      "score": 85.67
+      "score": 82.14
     },
     {
-      "id": "handelsblatt-6b4d69152f078d27",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "KI-Industrie: Trump warnt US-Konzerne vor Bau von KI-Rechenzentren im Ausland und droht mit „enormen Strafen“",
-      "link": "https://www.handelsblatt.com/politik/international/ki-industrie-trump-warnt-us-konzerne-vor-bau-von-ki-rechenzentren-im-ausland/100271667.html",
-      "summary": "Rechenzentren waren im US-Wahlkampf ein umstrittenes Thema: Die Demokraten wollen sie stärker regulieren. Der US-Präsident hingegen setzt sich für den Bau ein – aber nur im Inland.",
-      "image": "https://images.handelsblatt.com/rDiSos-qfI-T/cover/900/506/0/0/563/562/0.5/0.5/in-this-aerial-photo-an-amazon-data-center-is-under-construction-in-new-florence-mo.-on-monday-n.jpg",
-      "published": "2026-11-20T19:15:12+00:00",
+      "id": "tagesschau-97f7b79253123783",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Polen wirft Russland gezielte Provokation vor",
+      "link": "https://www.tagesschau.de/ausland/europa/absturz-russische-flugobjekte-polen-100.html",
+      "summary": "Mehrere Flugkörper sind in den polnischen Luftraum eingedrungen - nach Einschätzung der Regierung eine gezielte Provokation Russlands. Sie könnte in Zusammenhang mit einer Übung der Ukraine-Unterstützer stehen, die derzeit in Polen stattfindet.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/f4403ee8-c08e-4ac1-80e5-9ad3a537976a/AAABofjeheU/AAABnSSvrFg/16x9-big/polizei-polen-110.jpg?width=1920",
+      "published": "2026-11-20T17:22:28+01:00",
       "category": "Politik",
-      "score": 84.1,
+      "score": 78.8,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "golem",
-            "title": "KI-Wettlauf: Trump droht Rechenzentren im Ausland mit enormer Steuer",
-            "link": "https://www.golem.de/news/ki-wettlauf-trump-droht-rechenzentren-im-ausland-mit-enormer-steuer-2611-215502.html"
+            "source": "deutschlandfunk",
+            "title": "Ukraine-Krieg - Polen-Beauftragter Abraham: Absturz russischer Flugobjekte ist Provokation Russlands",
+            "link": "https://www.deutschlandfunk.de/polen-beauftragter-abraham-absturz-russischer-flugobjekte-ist-provokation-russlands-100.html"
           }
         ]
       }
@@ -44,9 +66,9 @@
       "link": "https://www.deutschlandfunk.de/eisenkot-bringt-minderheitsregierung-fuer-israel-ins-spiel-104.html",
       "summary": "In Israel zeichnet sich bei der komplizierten Regierungsbildung ein möglicher Kompromiss ab.",
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_6/79/NOVA_6794f396c715d2160eedc647ca94d152/craft-13535524-asset-100-1920x1920.jpg",
-      "published": "2026-11-21T11:40:09+01:00",
+      "published": "2026-11-21T16:27:22+01:00",
       "category": "Politik",
-      "score": 77.34
+      "score": 77.8
     },
     {
       "id": "deutschlandfunk-3bdd99b8c579a857",
@@ -54,45 +76,23 @@
       "sourceWeight": 0.95,
       "title": "Nach Einladung Russlands - CDU-Politiker Kiesewetter: Gespräche mit Russland nur auf neutralem Boden",
       "link": "https://www.deutschlandfunk.de/cdu-politiker-kiesewetter-gespraeche-mit-russland-nur-auf-neutralem-boden-100.html",
-      "summary": "Der CDU-Politiker Kiesewetter hat unterstrichen, dass mögliche Gespräche mit Russland zur Beendigung des Ukraine-Krieges nur auf neutralem Boden stattfinden könnten.",
+      "summary": "Der CDU-Politiker Kiesewetter hat unterstrichen, dass mögliche Gespräche mit Russland zur Beendigung des Ukraine-Krieges nur auf neutralem Boden stattfinden könnten. Damit stellte sich Kiesewetter hinter die Position von Bundeskanzler Merz, der einer diesbezüglichen russischen Einladung nach Moskau eine Absage erteilt hatte.",
       "image": "https://bilder.deutschlandfunk.de/88/18/5a/f4/88185af4-ee5a-419d-948b-2f08639f5d4f/kiesewetter-102-1920x1920.jpg",
-      "published": "2026-11-21T11:40:09+01:00",
+      "published": "2026-11-21T16:27:22+01:00",
       "category": "Politik",
-      "score": 77.34
+      "score": 77.8
     },
     {
-      "id": "handelsblatt-50ddfaa23f58ff6d",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Ukraine-Krieg: Umfrage: Fast jeder Zweite für Kürzung der Ukraine-Hilfen",
-      "link": "https://www.handelsblatt.com/politik/deutschland/ukraine-krieg-umfrage-fast-jeder-zweite-fuer-kuerzung-der-ukraine-hilfen/100271738.html",
-      "summary": "Die Unterstützung für die Ukraine spaltet das Land. Genauso wie die Frage, wann und ob der Kanzler mit dem russischen Präsidenten sprechen sollte.",
-      "image": "https://images.handelsblatt.com/j0R1XWiJY9sR/cover/900/506/0/0/38/38/0.5/0.5/gipfeltreffen-der-koalition-der-willigen.jpg",
-      "published": "2026-11-21T10:10:10+00:00",
+      "id": "deutschlandfunk-49df485a6072299a",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Ukraine-Krieg - Schiff im Finnischen Meerbusen angegriffen",
+      "link": "https://www.deutschlandfunk.de/schiff-im-finnischen-meerbusen-angegriffen-102.html",
+      "summary": "Im Finnischen Meerbusen ist ein Frachtschiff von Drohnen angegriffen worden und in Brand geraten.",
+      "image": "https://bilder.deutschlandfunk.de/ed/8d/82/f6/ed8d82f6-a330-40ff-8dd3-bb1f6a38682f/schiff-finnischer-meerbusen-100-1920x1920.jpg",
+      "published": "2026-11-21T16:27:22+01:00",
       "category": "Politik",
-      "score": 75.92
-    },
-    {
-      "id": "tagesschau-a77dd32723cf2480",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Erdbeben erschüttert Perus Andenregion",
-      "link": "https://www.tagesschau.de/ausland/amerika/peru-erdbeben-102.html",
-      "summary": "Die Erschütterungen waren bis in die Hauptstadt Lima zu spüren: Ein Erdbeben der Stärke 6,7 hat die Andenregion in Peru erschüttert. Über Schäden oder Opfer ist bislang nichts bekannt. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/6b6c6cae-4905-4f19-a88d-119b19ec276d/AAABof1qMKc/AAABnSSvrFg/16x9-big/lima-erdbeben-100.jpg?width=1920",
-      "published": "2026-11-21T10:51:28+01:00",
-      "category": "Nachrichten",
-      "score": 75.52,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutsche-welle",
-            "title": "Schweres Erdbeben erschüttert Peru",
-            "link": "https://www.dw.com/de/schweres-erdbeben-erschüttert-peru/a-80008949?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
+      "score": 77.8
     },
     {
       "id": "tagesschau-7ef2ebe406bc2bcb",
@@ -104,7 +104,7 @@
       "image": "https://images.tagesschau.de/image/15b03f44-4506-413c-b4dd-5398d6693d59/AAABofmRxQ8/AAABnSSvrFg/16x9-big/cop-klimakonferenz-102.jpg?width=1920",
       "published": "2026-11-21T06:28:57+01:00",
       "category": "Nachrichten",
-      "score": 75.34,
+      "score": 75.8,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -112,6 +112,40 @@
             "source": "deutschlandfunk",
             "title": "Antalya - Weltklimakonferenz geht in die Verlängerung - EU fordert Änderungen",
             "link": "https://www.deutschlandfunk.de/weltklimakonferenz-geht-in-die-verlaengerung-eu-fordert-aenderungen-114.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "handelsblatt-50ddfaa23f58ff6d",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Ukraine-Krieg: Umfrage: Fast jeder Zweite für Kürzung der Ukraine-Hilfen",
+      "link": "https://www.handelsblatt.com/politik/deutschland/ukraine-krieg-umfrage-fast-jeder-zweite-fuer-kuerzung-der-ukraine-hilfen/100271738.html",
+      "summary": "Die Unterstützung für die Ukraine spaltet das Land. Genauso wie die Frage, wann und ob der Kanzler mit dem russischen Präsidenten sprechen sollte.",
+      "image": "https://images.handelsblatt.com/j0R1XWiJY9sR/cover/900/506/0/0/38/38/0.5/0.5/gipfeltreffen-der-koalition-der-willigen.jpg",
+      "published": "2026-11-21T10:10:10+00:00",
+      "category": "Politik",
+      "score": 72.39
+    },
+    {
+      "id": "tagesschau-a77dd32723cf2480",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Erdbeben erschüttert Perus Andenregion",
+      "link": "https://www.tagesschau.de/ausland/amerika/peru-erdbeben-102.html",
+      "summary": "Die Erschütterungen waren bis in die Hauptstadt Lima zu spüren: Ein Erdbeben der Stärke 6,7 hat die Andenregion in Peru erschüttert. Über Schäden oder Opfer ist bislang nichts bekannt. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/6b6c6cae-4905-4f19-a88d-119b19ec276d/AAABof1qMKc/AAABnSSvrFg/16x9-big/lima-erdbeben-100.jpg?width=1920",
+      "published": "2026-11-21T10:51:28+01:00",
+      "category": "Nachrichten",
+      "score": 71.99,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutsche-welle",
+            "title": "Schweres Erdbeben erschüttert Peru",
+            "link": "https://www.dw.com/de/schweres-erdbeben-erschüttert-peru/a-80008949?maca=de-rss-de-all-1119-rdf"
           }
         ]
       }
@@ -126,19 +160,19 @@
       "image": "https://images.handelsblatt.com/45YZwPUCykCJ/cover/1440/810/0/0/315/315/0.5/0.5/.jpg",
       "published": "2026-11-21T08:18:44+00:00",
       "category": "Politik",
-      "score": 74.38
+      "score": 70.84
     },
     {
-      "id": "spiegel-60660908aacf89f0",
+      "id": "spiegel-27c70c70db5c2fd8",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "News: Boris Pistorius, Ukraine, AfD auf Kurssuche, Donald Trump lobt Stephen Miller",
-      "link": "https://www.spiegel.de/politik/deutschland/news-boris-pistorius-patzt-hilfen-fuer-die-ukraine-afd-auf-kurssuche-donald-trump-lobt-stephen-miller-a-cb84b583-511a-4850-9455-833a6e8d92a7#ref=rss",
-      "summary": "Verteidigungsminister Boris Pistorius patzt. Ex-CDU-Chefin Annegret Kramp-Karrenbauer mahnt zur Solidarität mit der Ukraine. AfD-Landesverbände stimmen über Programm und Personal ab. Das ist die Lage am Samstagmorgen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/dd17189a-707c-4b57-af32-bf59855d3d25_w1200_r1.778_fpx28.09_fpy49.93.png",
-      "published": "2026-11-21T06:46:00+01:00",
+      "title": "Björn Höcke: Wiederwahl als Thüringer AfD-Chef",
+      "link": "https://www.spiegel.de/politik/bjoern-hoecke-wiederwahl-als-thueringer-afd-chef-a-e44dee38-ea82-4269-8b15-eb3406dfe402#ref=rss",
+      "summary": "Björn Höcke bleibt Chef der Thüringer AfD und sich treu: In einer Rede attackierte der radikale Politiker den Verfassungsschutz und die Reform der Geheimdienste.",
+      "image": "https://cdn.prod.www.spiegel.de/images/b05499b5-aa3f-4852-ba1a-d67dc30a0417_w1200_r1.778_fpx49_fpy25.jpg",
+      "published": "2026-11-21T16:27:00+01:00",
       "category": "Politik",
-      "score": 73.25
+      "score": 69.79
     },
     {
       "id": "handelsblatt-91c79acf6c5405d5",
@@ -150,82 +184,43 @@
       "image": "https://images.handelsblatt.com/L1H1ozYX0ATf/cover/900/506/0/0/0/0/0.5/0.5/viktor-orban-donald-trump-alice-weidel.png",
       "published": "2026-11-21T06:39:00+00:00",
       "category": "Politik",
-      "score": 72.99
+      "score": 69.46
     },
     {
-      "id": "tagesschau-02a46e811ff62a7a",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "\"Palisades Fire\" - Angeklagter im zweiten Anlauf schuldig gesprochen",
-      "link": "https://www.tagesschau.de/ausland/amerika/prozess-pacific-palisades-feuer-kalifornien-100.html",
-      "summary": "Bei dem Brand im Januar 2025 starben 31 Menschen: Nach dem verheerenden Feuer im Nobelvorort Pacific Palisades von Los Angeles ist der Angeklagte schuldig gesprochen worden. Ihm drohen bis zu 40 Jahre Haft.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/2e8a116a-f62e-4357-8076-8dff66240fe0/AAABof0TGU8/AAABnSSvrFg/16x9-big/pacific-palisades-108.jpg?width=1920",
-      "published": "2026-11-21T09:14:03+01:00",
-      "category": "Nachrichten",
-      "score": 72.02,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Großbrand - Mann im Prozess um Palisades-Feuer in Los Angeles schuldig gesprochen",
-            "link": "https://www.deutschlandfunk.de/mann-im-prozess-um-palisades-feuer-in-los-angeles-schuldig-gesprochen-100.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Kalifornien: Mann im Prozess um Palisades-Feuer in Los Angeles schuldig gesprochen",
-            "link": "https://www.spiegel.de/ausland/kalifornien-schuldspruch-im-prozess-um-palisades-feuer-in-los-angeles-a-a13a85a1-96cd-440c-a850-5927af4d6897#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-3a3a554340158c7a",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Kontrolle des Verfassungsschutzes - \"3:1 für Putin\": Grünenpolitiker von Notz kritisiert Wahl von AfD und BSW ins Parlamentarische Kontrollgremium in Sachsen-Anhalt",
-      "link": "https://www.deutschlandfunk.de/3-1-fuer-putin-gruenenpolitiker-von-notz-kritisiert-wahl-von-afd-und-bsw-ins-parlamentarische-kontro-100.html",
-      "summary": "Der Grünenpolitiker von Notz hat die Wahl von Abgeordneten der AfD und des BSW in das Parlamentarische Kontrollgremium des Landtags von Sachsen-Anhalt kritisiert. Von Notz sagte dem WDR, bei beiden Parteien stehe die Loyalität zur Bundesrepublik in ihrer bestehenden Form zumindest in Frage.",
-      "image": "https://bilder.deutschlandfunk.de/ba/ef/06/33/baef0633-664d-4897-ab09-adfb102ab75d/von-notz-gruene-bundestag-102-1920x1920.jpg",
-      "published": "2026-11-21T11:40:09+01:00",
-      "category": "Politik",
-      "score": 69.34
-    },
-    {
-      "id": "spiegel-f089c7b41004211c",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Achtsamkeit: Ich will meditieren, kriege es aber nicht hin. Was tun?",
-      "link": "https://www.spiegel.de/gesundheit/achtsamkeit-ich-will-meditieren-kriege-es-aber-nicht-hin-was-tun-a-0bd4f40b-a27e-481f-8c4a-88a34271fa0c#ref=rss",
-      "summary": "Die erhoffte Entspannung bleibt aus, stattdessen wächst der Frust. Meditationsforscher Ulrich Ott erklärt, wofür Meditation sinnvoll ist und was den Einstieg erleichtert.",
-      "image": "https://cdn.prod.www.spiegel.de/images/ddea993c-eddc-4ad9-a015-6887807649c6_w1200_r1.778_fpx60.65_fpy44.99.jpg",
-      "published": "2026-11-21T10:36:00+01:00",
-      "category": "Nachrichten",
-      "score": 65.45
-    },
-    {
-      "id": "deutsche-welle-be43eefa04e28f68",
+      "id": "deutsche-welle-5fdf80b96e9b6262",
       "source": "deutsche-welle",
       "sourceWeight": 0.9,
-      "title": "Saudi-Arabien verschärft Vorgehen gegen Regimekritiker",
-      "link": "https://www.dw.com/de/saudi-arabien-verschärft-vorgehen-gegen-regimekritiker/a-80006017?maca=de-rss-de-all-1119-rdf",
-      "summary": "Die Menschenrechtslage in Saudi-Arabien bleibt düster. Allein 2026 fanden bisher 211 Hinrichtungen statt. Nutzt Saudi-Arabien den Iran-Krieg, um politischen Dissens zu unterdrücken?",
-      "image": "https://static.dw.com/image/79889199_6.jpg",
-      "published": "2026-11-21T05:14:00+00:00",
-      "category": "Nachrichten",
-      "score": 60.81
+      "title": "Kongo ist über geplanten Abschiebe-Deal mit Ruanda empört",
+      "link": "https://www.dw.com/de/kongo-ist-über-geplanten-abschiebe-deal-mit-ruanda-empört/a-80010037?maca=de-rss-de-all-1119-rdf",
+      "summary": "Viele Millionen Euro kämen einem Land zugute, das in der Region sein \"Unwesen\" treibe, sagt die kongolesische Außenministerin Kayikwamba Wagner. Auch der Wissenschaftliche Dienst des Bundestages meldet Bedenken an.",
+      "image": "https://static.dw.com/image/79769879_6.jpg",
+      "published": "2026-11-21T15:00:00+00:00",
+      "category": "Politik",
+      "score": 68.42
     },
     {
-      "id": "golem-65c710ffb6738a99",
+      "id": "spiegel-7168743734244e18",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Donald Trump demütigt Vance und Rubio öffentlich",
+      "link": "https://www.spiegel.de/ausland/donald-trump-demuetigt-vance-und-rubio-oeffentlich-a-8b8a7280-1893-4b07-a935-41246834876c#ref=rss",
+      "summary": "Bei einer Pressekonferenz im Weißen Haus holt der US-Präsident plötzlich seinen Stabschef ans Mikrofon. Und teilt danach gegen Vize Vance und Außenminister Rubio aus.",
+      "image": "https://cdn.prod.www.spiegel.de/public/spon/images/logos/fb_logo_default.jpg",
+      "published": "2026-11-21T13:46:00+01:00",
+      "category": "Politik",
+      "score": 67.55
+    },
+    {
+      "id": "golem-e8b570681dae3bb2",
       "source": "golem",
       "sourceWeight": 0.85,
-      "title": "Nvidia-Unternehmenskultur: Huang soll Nvidia-Mitarbeiter gezielt gedemütigt haben",
-      "link": "https://www.golem.de/news/nvidia-unternehmenskultur-huang-soll-nvidia-mitarbeiter-gezielt-gedemuetigt-haben-2611-215501.html",
-      "summary": "Die New York Times beschreibt jahrelange Tiraden des Ex-CEOs. Nvidia schweigt, Huangs Sprecher widerspricht. ( Nvidia , Wirtschaft )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215501&amp;page=1&amp;ts=1795253402",
-      "published": "2026-11-21T10:30:02+01:00",
-      "category": "Wirtschaft",
-      "score": 58.37
+      "title": "KI-Wettlauf: Trump droht Rechenzentren im Ausland mit enormer Steuer",
+      "link": "https://www.golem.de/news/ki-wettlauf-trump-droht-rechenzentren-im-ausland-mit-enormer-steuer-2611-215502.html",
+      "summary": "Trump will Konzerne zum Bau in den USA drängen. Der Ausbau stößt bei Wählern allerdings auf Widerstand. ( Donald Trump , KI )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215502&amp;page=1&amp;ts=1795256581",
+      "published": "2026-11-21T11:23:01+01:00",
+      "category": "Politik",
+      "score": 63.57
     }
   ]
 }
