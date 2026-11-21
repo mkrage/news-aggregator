@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T15:42:03.537336+00:00",
+  "generatedAt": "2026-11-21T19:32:15.939893+00:00",
   "count": 15,
   "articles": [
     {
@@ -10,9 +10,9 @@
       "link": "https://www.deutschlandfunk.de/selenskyj-krimbruecke-wird-nicht-stehen-bleiben-102.html",
       "summary": "Der ukrainische Präsident Selenskyj hat Russland mit einer vollständigen Zerstörung der Krimbrücke gedroht.",
       "image": "https://bilder.deutschlandfunk.de/03/fc/94/8e/03fc948e-1f0d-41d7-81d5-94f724fdd128/krim-bruecke-106-1920x1920.jpg",
-      "published": "2026-11-21T16:27:22+01:00",
+      "published": "2026-11-21T20:04:51+01:00",
       "category": "Politik",
-      "score": 85.8,
+      "score": 85.62,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -25,16 +25,36 @@
       }
     },
     {
-      "id": "spiegel-3ac8e438cabe78a5",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Tucker Carlson: Er hypnotisiert Millionen, er wirkt entfesselt. Niemand bremst ihn",
-      "link": "https://www.spiegel.de/ausland/tucker-carlson-hat-mit-donald-trump-gebrochen-viele-eurer-politiker-sind-eine-lachnummer-a-81c1a5fd-24ee-438f-8104-52ebb67fe563#ref=rss",
-      "summary": "Er machte Wahlkampf für Donald Trump, nun spricht Tucker Carlson im Netz über okkulte Rituale und den Atomkrieg. Millionen Amerikaner sehen seine Sendungen. Zu Besuch in der Scheune eines Besessenen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/c0458cbf-8c02-409f-bf35-ee8d6a56ee94_w1200_r1.778_fpx49_fpy49.jpg",
-      "published": "2026-11-21T12:04:00+01:00",
-      "category": "Politik",
-      "score": 82.14
+      "id": "tagesschau-34acd9989e479fc1",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Riemannsche Vermutung: Mathe-Jahrhundertproblem mit KI gelöst?",
+      "link": "https://www.tagesschau.de/wissen/forschung/anthropic-riemannsche-vermutung-loesung-100.html",
+      "summary": "Die Riemannsche Vermutung über Primzahlen gilt als eines der größten Probleme der Mathematik. Nun könnte sie mithilfe der KI von Anthropic gelöst worden sein - fast zeitgleich mit dem Börsengang des US-Unternehmens.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/0f0e8b4e-d884-4b6e-b9b7-7928a016f4c0/AAABof8F-Zo/AAABnSSvrFg/16x9-big/primzahlen-102.jpg?width=1920",
+      "published": "2026-11-21T18:32:19+01:00",
+      "category": "Wirtschaft",
+      "score": 78.62,
+      "coverage": {
+        "sourceCount": 4,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Mathematik - Anthropic-Forscher will Riemannsche Hypothese mit KI gelöst haben",
+            "link": "https://www.deutschlandfunk.de/anthropic-forscher-will-riemannsche-hypothese-mit-ki-geloest-haben-106.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "KI: KI soll berühmtestes Problem der Mathematik gelöst haben",
+            "link": "https://www.handelsblatt.com/technik/ki/ki-ki-soll-beruehmtestes-problem-der-mathematik-geloest-haben/100271770.html"
+          },
+          {
+            "source": "golem",
+            "title": "Anthropic: Mathematiker will mit Claude Riemann-Vermutung gelöst haben",
+            "link": "https://www.golem.de/news/anthropic-mathematiker-will-mit-claude-riemann-vermutung-geloest-haben-2611-215500.html"
+          }
+        ]
+      }
     },
     {
       "id": "tagesschau-97f7b79253123783",
@@ -46,7 +66,7 @@
       "image": "https://images.tagesschau.de/image/f4403ee8-c08e-4ac1-80e5-9ad3a537976a/AAABofjeheU/AAABnSSvrFg/16x9-big/polizei-polen-110.jpg?width=1920",
       "published": "2026-11-20T17:22:28+01:00",
       "category": "Politik",
-      "score": 78.8,
+      "score": 78.62,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -66,9 +86,9 @@
       "link": "https://www.deutschlandfunk.de/eisenkot-bringt-minderheitsregierung-fuer-israel-ins-spiel-104.html",
       "summary": "In Israel zeichnet sich bei der komplizierten Regierungsbildung ein möglicher Kompromiss ab.",
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_6/79/NOVA_6794f396c715d2160eedc647ca94d152/craft-13535524-asset-100-1920x1920.jpg",
-      "published": "2026-11-21T16:27:22+01:00",
+      "published": "2026-11-21T20:04:51+01:00",
       "category": "Politik",
-      "score": 77.8
+      "score": 77.62
     },
     {
       "id": "deutschlandfunk-3bdd99b8c579a857",
@@ -78,9 +98,9 @@
       "link": "https://www.deutschlandfunk.de/cdu-politiker-kiesewetter-gespraeche-mit-russland-nur-auf-neutralem-boden-100.html",
       "summary": "Der CDU-Politiker Kiesewetter hat unterstrichen, dass mögliche Gespräche mit Russland zur Beendigung des Ukraine-Krieges nur auf neutralem Boden stattfinden könnten. Damit stellte sich Kiesewetter hinter die Position von Bundeskanzler Merz, der einer diesbezüglichen russischen Einladung nach Moskau eine Absage erteilt hatte.",
       "image": "https://bilder.deutschlandfunk.de/88/18/5a/f4/88185af4-ee5a-419d-948b-2f08639f5d4f/kiesewetter-102-1920x1920.jpg",
-      "published": "2026-11-21T16:27:22+01:00",
+      "published": "2026-11-21T20:04:51+01:00",
       "category": "Politik",
-      "score": 77.8
+      "score": 77.62
     },
     {
       "id": "deutschlandfunk-49df485a6072299a",
@@ -90,28 +110,33 @@
       "link": "https://www.deutschlandfunk.de/schiff-im-finnischen-meerbusen-angegriffen-102.html",
       "summary": "Im Finnischen Meerbusen ist ein Frachtschiff von Drohnen angegriffen worden und in Brand geraten.",
       "image": "https://bilder.deutschlandfunk.de/ed/8d/82/f6/ed8d82f6-a330-40ff-8dd3-bb1f6a38682f/schiff-finnischer-meerbusen-100-1920x1920.jpg",
-      "published": "2026-11-21T16:27:22+01:00",
+      "published": "2026-11-21T20:04:51+01:00",
       "category": "Politik",
-      "score": 77.8
+      "score": 77.62
     },
     {
-      "id": "tagesschau-7ef2ebe406bc2bcb",
+      "id": "tagesschau-0ec524116a1fe266",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Verhandlungen dauern an - Weltklimakonferenz geht in die Verlängerung",
-      "link": "https://www.tagesschau.de/ausland/asien/klimakonferenz-verlaengerung-100.html",
-      "summary": "Im Ringen um eine angemessene Antwort auf die Klimakrise geht die Weltklimakonferenz in die Verlängerung. Eigentlich sollte sie am Freitag zu Ende gehen. Doch die Verhandlungen ziehen sich ins Wochenende.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/15b03f44-4506-413c-b4dd-5398d6693d59/AAABofmRxQ8/AAABnSSvrFg/16x9-big/cop-klimakonferenz-102.jpg?width=1920",
-      "published": "2026-11-21T06:28:57+01:00",
-      "category": "Nachrichten",
-      "score": 75.8,
+      "title": "Ministerium will Autobahntankstellen vom Spritpreisdeckel ausnehmen",
+      "link": "https://www.tagesschau.de/inland/spritpreis-autobahntankstellen-ausnahme-100.html",
+      "summary": "Ab Januar soll der Preisdeckel für Benzin und Diesel gelten. Wirtschaftsministerin Reiche plant offenbar, Autobahntankstellen davon ausnehmen. Ihr neuer Gesetzentwurf ist noch in der Abstimmung zwischen den Ministerien.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/98d0f323-0dad-4ac9-8b0b-6a153c4037a7/AAABof7AlbY/AAABnSSvrFg/16x9-big/tankstelle-398.jpg?width=1920",
+      "published": "2026-11-21T16:55:59+01:00",
+      "category": "Politik",
+      "score": 75.3,
       "coverage": {
-        "sourceCount": 2,
+        "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
-            "title": "Antalya - Weltklimakonferenz geht in die Verlängerung - EU fordert Änderungen",
-            "link": "https://www.deutschlandfunk.de/weltklimakonferenz-geht-in-die-verlaengerung-eu-fordert-aenderungen-114.html"
+            "title": "Kraftstoff-Kosten - Reiche will Autobahntankstellen von Preisdeckel ausnehmen",
+            "link": "https://www.deutschlandfunk.de/reiche-will-autobahntankstellen-von-preisdeckel-ausnehmen-100.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Teures Tanken: Reiche will Autobahntankstellen von Preisdeckel ausnehmen",
+            "link": "https://www.handelsblatt.com/politik/deutschland/teures-tanken-reiche-will-autobahntankstellen-von-preisdeckel-ausnehmen/100271751.html"
           }
         ]
       }
@@ -126,29 +151,7 @@
       "image": "https://images.handelsblatt.com/j0R1XWiJY9sR/cover/900/506/0/0/38/38/0.5/0.5/gipfeltreffen-der-koalition-der-willigen.jpg",
       "published": "2026-11-21T10:10:10+00:00",
       "category": "Politik",
-      "score": 72.39
-    },
-    {
-      "id": "tagesschau-a77dd32723cf2480",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Erdbeben erschüttert Perus Andenregion",
-      "link": "https://www.tagesschau.de/ausland/amerika/peru-erdbeben-102.html",
-      "summary": "Die Erschütterungen waren bis in die Hauptstadt Lima zu spüren: Ein Erdbeben der Stärke 6,7 hat die Andenregion in Peru erschüttert. Über Schäden oder Opfer ist bislang nichts bekannt. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/6b6c6cae-4905-4f19-a88d-119b19ec276d/AAABof1qMKc/AAABnSSvrFg/16x9-big/lima-erdbeben-100.jpg?width=1920",
-      "published": "2026-11-21T10:51:28+01:00",
-      "category": "Nachrichten",
-      "score": 71.99,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutsche-welle",
-            "title": "Schweres Erdbeben erschüttert Peru",
-            "link": "https://www.dw.com/de/schweres-erdbeben-erschüttert-peru/a-80008949?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
+      "score": 69.19
     },
     {
       "id": "handelsblatt-049a08d49a3be8fe",
@@ -160,7 +163,53 @@
       "image": "https://images.handelsblatt.com/45YZwPUCykCJ/cover/1440/810/0/0/315/315/0.5/0.5/.jpg",
       "published": "2026-11-21T08:18:44+00:00",
       "category": "Politik",
-      "score": 70.84
+      "score": 67.65
+    },
+    {
+      "id": "handelsblatt-c873766918d1f427",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "COP31: Die Weltklimakonferenz ringt weiter um ein Abschlussdokument",
+      "link": "https://www.handelsblatt.com/politik/deutschland/cop31-die-weltklimakonferenz-ringt-weiter-um-ein-abschlussdokument/100270720.html",
+      "summary": "Das Verbrennen von Öl, Gas und Kohle lässt die Klimakrise eskalieren. Doch werden sie in der Abschlusserklärung erwähnt? Das ist nur eine der Fragen, um die man in Antalya streitet.",
+      "image": "https://images.handelsblatt.com/DYgTwYm1UOVR/cover/900/506/0/0/363/189/0.5/0.5/a-sign-for-the-cop31-u.n.-climate-summit-is-displayed-as-negotiations-continue-saturday-nov.-21-20.jpg",
+      "published": "2026-11-21T17:35:42+00:00",
+      "category": "Wirtschaft",
+      "score": 67.38
+    },
+    {
+      "id": "spiegel-7a99ac29486a03dc",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Mexiko: Heftige Feuergefechte bei Festnahme von Kartell-Boss Fausto Isidro Meza Flores",
+      "link": "https://www.spiegel.de/panorama/justiz/mexiko-heftige-feuergefechte-bei-festnahme-von-kartell-boss-fausto-isidro-meza-flores-a-0485868c-060d-4086-b981-5bb0611f6c9c#ref=rss",
+      "summary": "Wenn nicht die Polizei, sondern ein Verteidigungsministerium die Verhaftung eines Drogenbosses bekannt gibt, ist klar: Hier geht es um eine ganz große Nummer. Beim Zugriff auf Fausto Isidro Meza Flores kam es zu kriegsähnlichen Szenen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/a95aefe2-ddd4-4a70-ad10-1154f7d72ac4_w1200_r1.778_fpx47.32_fpy44.97.jpg",
+      "published": "2026-11-21T16:51:00+01:00",
+      "category": "Politik",
+      "score": 66.93
+    },
+    {
+      "id": "spiegel-36d5b336b1bd1c22",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Tatjana Kim: Chefin von russischem Onlinehändler Wildberries tritt zurück",
+      "link": "https://www.spiegel.de/wirtschaft/tatjana-kim-chefin-von-russischem-onlinehaendler-wildberries-tritt-zurueck-a-c7075012-6bff-4f8e-8bc0-f8c3e9ac6d53#ref=rss",
+      "summary": "Die Sanktionen der EU gegen die russische Unternehmerin Tatjana Kim zeigen Wirkung. Die Gründerin des »russischen Amazon« räumt ihren Führungsposten.",
+      "image": "https://cdn.prod.www.spiegel.de/images/aed88490-ef9b-43f9-a9af-51b7e7b98979_w1200_r1.778_fpx64.65_fpy46.97.jpg",
+      "published": "2026-11-21T18:33:00+01:00",
+      "category": "Technologie",
+      "score": 66.61,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "+++ Ukraine-Krieg +++: Russisches Frachtschiff nach Drohnenangriff vor Finnland in Brand",
+            "link": "https://www.handelsblatt.com/politik/international/ukraine-russisches-frachtschiff-nach-drohnenangriff-vor-finnland-in-brand/27982126.html"
+          }
+        ]
+      }
     },
     {
       "id": "spiegel-27c70c70db5c2fd8",
@@ -172,19 +221,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/b05499b5-aa3f-4852-ba1a-d67dc30a0417_w1200_r1.778_fpx49_fpy25.jpg",
       "published": "2026-11-21T16:27:00+01:00",
       "category": "Politik",
-      "score": 69.79
-    },
-    {
-      "id": "handelsblatt-91c79acf6c5405d5",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Regierung: „Der Begriff Faschismus findet zu inflationäre Verwendung“",
-      "link": "https://www.handelsblatt.com/politik/deutschland/deutschland-verschleiss-von-populisten-beginnt-ab-tag-eins-der-regierung/100270126.html",
-      "summary": "In den USA, Ungarn und Polen verlieren Populisten Wahlen. Der Wiener Sprachphilosoph Paul Sailer-Wlasits warnt dennoch vor Entwarnung: Die Demagogie habe einen strukturellen Vorteil.",
-      "image": "https://images.handelsblatt.com/L1H1ozYX0ATf/cover/900/506/0/0/0/0/0.5/0.5/viktor-orban-donald-trump-alice-weidel.png",
-      "published": "2026-11-21T06:39:00+00:00",
-      "category": "Politik",
-      "score": 69.46
+      "score": 66.59
     },
     {
       "id": "deutsche-welle-5fdf80b96e9b6262",
@@ -196,19 +233,7 @@
       "image": "https://static.dw.com/image/79769879_6.jpg",
       "published": "2026-11-21T15:00:00+00:00",
       "category": "Politik",
-      "score": 68.42
-    },
-    {
-      "id": "spiegel-7168743734244e18",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Donald Trump demütigt Vance und Rubio öffentlich",
-      "link": "https://www.spiegel.de/ausland/donald-trump-demuetigt-vance-und-rubio-oeffentlich-a-8b8a7280-1893-4b07-a935-41246834876c#ref=rss",
-      "summary": "Bei einer Pressekonferenz im Weißen Haus holt der US-Präsident plötzlich seinen Stabschef ans Mikrofon. Und teilt danach gegen Vize Vance und Außenminister Rubio aus.",
-      "image": "https://cdn.prod.www.spiegel.de/public/spon/images/logos/fb_logo_default.jpg",
-      "published": "2026-11-21T13:46:00+01:00",
-      "category": "Politik",
-      "score": 67.55
+      "score": 65.22
     },
     {
       "id": "golem-e8b570681dae3bb2",
@@ -220,7 +245,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215502&amp;page=1&amp;ts=1795256581",
       "published": "2026-11-21T11:23:01+01:00",
       "category": "Politik",
-      "score": 63.57
+      "score": 60.37
     }
   ]
 }
