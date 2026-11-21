@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2026-11-21T07:47:40.058088+00:00",
+  "generatedAt": "2026-11-21T11:27:43.349445+00:00",
   "count": 15,
   "articles": [
+    {
+      "id": "spiegel-3ac8e438cabe78a5",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Tucker Carlson: Er hypnotisiert Millionen, er wirkt entfesselt. Niemand bremst ihn",
+      "link": "https://www.spiegel.de/ausland/tucker-carlson-hat-mit-donald-trump-gebrochen-viele-eurer-politiker-sind-eine-lachnummer-a-81c1a5fd-24ee-438f-8104-52ebb67fe563#ref=rss",
+      "summary": "Er machte Wahlkampf für Donald Trump, nun spricht Tucker Carlson im Netz über okkulte Rituale und den Atomkrieg. Millionen Amerikaner sehen seine Sendungen. Zu Besuch in der Scheune eines Besessenen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/c0458cbf-8c02-409f-bf35-ee8d6a56ee94_w1200_r1.778_fpx49_fpy49.jpg",
+      "published": "2026-11-21T12:04:00+01:00",
+      "category": "Politik",
+      "score": 85.67
+    },
+    {
+      "id": "handelsblatt-6b4d69152f078d27",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "KI-Industrie: Trump warnt US-Konzerne vor Bau von KI-Rechenzentren im Ausland und droht mit „enormen Strafen“",
+      "link": "https://www.handelsblatt.com/politik/international/ki-industrie-trump-warnt-us-konzerne-vor-bau-von-ki-rechenzentren-im-ausland/100271667.html",
+      "summary": "Rechenzentren waren im US-Wahlkampf ein umstrittenes Thema: Die Demokraten wollen sie stärker regulieren. Der US-Präsident hingegen setzt sich für den Bau ein – aber nur im Inland.",
+      "image": "https://images.handelsblatt.com/rDiSos-qfI-T/cover/900/506/0/0/563/562/0.5/0.5/in-this-aerial-photo-an-amazon-data-center-is-under-construction-in-new-florence-mo.-on-monday-n.jpg",
+      "published": "2026-11-20T19:15:12+00:00",
+      "category": "Politik",
+      "score": 84.1,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "golem",
+            "title": "KI-Wettlauf: Trump droht Rechenzentren im Ausland mit enormer Steuer",
+            "link": "https://www.golem.de/news/ki-wettlauf-trump-droht-rechenzentren-im-ausland-mit-enormer-steuer-2611-215502.html"
+          }
+        ]
+      }
+    },
     {
       "id": "deutschlandfunk-2bd7b76f9ce08739",
       "source": "deutschlandfunk",
@@ -10,21 +44,101 @@
       "link": "https://www.deutschlandfunk.de/eisenkot-bringt-minderheitsregierung-fuer-israel-ins-spiel-104.html",
       "summary": "In Israel zeichnet sich bei der komplizierten Regierungsbildung ein möglicher Kompromiss ab.",
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_6/79/NOVA_6794f396c715d2160eedc647ca94d152/craft-13535524-asset-100-1920x1920.jpg",
-      "published": "2026-11-21T08:41:43+01:00",
+      "published": "2026-11-21T11:40:09+01:00",
       "category": "Politik",
-      "score": 77.92
+      "score": 77.34
+    },
+    {
+      "id": "deutschlandfunk-3bdd99b8c579a857",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Nach Einladung Russlands - CDU-Politiker Kiesewetter: Gespräche mit Russland nur auf neutralem Boden",
+      "link": "https://www.deutschlandfunk.de/cdu-politiker-kiesewetter-gespraeche-mit-russland-nur-auf-neutralem-boden-100.html",
+      "summary": "Der CDU-Politiker Kiesewetter hat unterstrichen, dass mögliche Gespräche mit Russland zur Beendigung des Ukraine-Krieges nur auf neutralem Boden stattfinden könnten.",
+      "image": "https://bilder.deutschlandfunk.de/88/18/5a/f4/88185af4-ee5a-419d-948b-2f08639f5d4f/kiesewetter-102-1920x1920.jpg",
+      "published": "2026-11-21T11:40:09+01:00",
+      "category": "Politik",
+      "score": 77.34
+    },
+    {
+      "id": "handelsblatt-50ddfaa23f58ff6d",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Ukraine-Krieg: Umfrage: Fast jeder Zweite für Kürzung der Ukraine-Hilfen",
+      "link": "https://www.handelsblatt.com/politik/deutschland/ukraine-krieg-umfrage-fast-jeder-zweite-fuer-kuerzung-der-ukraine-hilfen/100271738.html",
+      "summary": "Die Unterstützung für die Ukraine spaltet das Land. Genauso wie die Frage, wann und ob der Kanzler mit dem russischen Präsidenten sprechen sollte.",
+      "image": "https://images.handelsblatt.com/j0R1XWiJY9sR/cover/900/506/0/0/38/38/0.5/0.5/gipfeltreffen-der-koalition-der-willigen.jpg",
+      "published": "2026-11-21T10:10:10+00:00",
+      "category": "Politik",
+      "score": 75.92
+    },
+    {
+      "id": "tagesschau-a77dd32723cf2480",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Erdbeben erschüttert Perus Andenregion",
+      "link": "https://www.tagesschau.de/ausland/amerika/peru-erdbeben-102.html",
+      "summary": "Die Erschütterungen waren bis in die Hauptstadt Lima zu spüren: Ein Erdbeben der Stärke 6,7 hat die Andenregion in Peru erschüttert. Über Schäden oder Opfer ist bislang nichts bekannt. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/6b6c6cae-4905-4f19-a88d-119b19ec276d/AAABof1qMKc/AAABnSSvrFg/16x9-big/lima-erdbeben-100.jpg?width=1920",
+      "published": "2026-11-21T10:51:28+01:00",
+      "category": "Nachrichten",
+      "score": 75.52,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutsche-welle",
+            "title": "Schweres Erdbeben erschüttert Peru",
+            "link": "https://www.dw.com/de/schweres-erdbeben-erschüttert-peru/a-80008949?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-7ef2ebe406bc2bcb",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Verhandlungen dauern an - Weltklimakonferenz geht in die Verlängerung",
+      "link": "https://www.tagesschau.de/ausland/asien/klimakonferenz-verlaengerung-100.html",
+      "summary": "Im Ringen um eine angemessene Antwort auf die Klimakrise geht die Weltklimakonferenz in die Verlängerung. Eigentlich sollte sie am Freitag zu Ende gehen. Doch die Verhandlungen ziehen sich ins Wochenende.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/15b03f44-4506-413c-b4dd-5398d6693d59/AAABofmRxQ8/AAABnSSvrFg/16x9-big/cop-klimakonferenz-102.jpg?width=1920",
+      "published": "2026-11-21T06:28:57+01:00",
+      "category": "Nachrichten",
+      "score": 75.34,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Antalya - Weltklimakonferenz geht in die Verlängerung - EU fordert Änderungen",
+            "link": "https://www.deutschlandfunk.de/weltklimakonferenz-geht-in-die-verlaengerung-eu-fordert-aenderungen-114.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "handelsblatt-049a08d49a3be8fe",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Trump-Watch: Demokraten nach den Midterms: „Der Kampf um die Deutungshoheit beginnt“ – mit US-Expertin Sarah Wagner",
+      "link": "https://www.handelsblatt.com/audio/trump-watch-podcast/trump-watch-demokraten-nach-den-midterms-der-kampf-um-die-deutungshoheit-beginnt-mit-us-expertin-sarah-wagner/100271698.html",
+      "summary": "Welche Strategie und welche Personen setzen sich nach den Wahlerfolgen durch? Und können die Demokraten liefern, was sie versprochen haben?",
+      "image": "https://images.handelsblatt.com/45YZwPUCykCJ/cover/1440/810/0/0/315/315/0.5/0.5/.jpg",
+      "published": "2026-11-21T08:18:44+00:00",
+      "category": "Politik",
+      "score": 74.38
     },
     {
       "id": "spiegel-60660908aacf89f0",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "News: Boris Pistorius patzt, Hilfen für die Ukraine, AfD auf Kurssuche, Donald Trump lobt Stephen Miller",
+      "title": "News: Boris Pistorius, Ukraine, AfD auf Kurssuche, Donald Trump lobt Stephen Miller",
       "link": "https://www.spiegel.de/politik/deutschland/news-boris-pistorius-patzt-hilfen-fuer-die-ukraine-afd-auf-kurssuche-donald-trump-lobt-stephen-miller-a-cb84b583-511a-4850-9455-833a6e8d92a7#ref=rss",
       "summary": "Verteidigungsminister Boris Pistorius patzt. Ex-CDU-Chefin Annegret Kramp-Karrenbauer mahnt zur Solidarität mit der Ukraine. AfD-Landesverbände stimmen über Programm und Personal ab. Das ist die Lage am Samstagmorgen.",
       "image": "https://cdn.prod.www.spiegel.de/images/dd17189a-707c-4b57-af32-bf59855d3d25_w1200_r1.778_fpx28.09_fpy49.93.png",
       "published": "2026-11-21T06:46:00+01:00",
       "category": "Politik",
-      "score": 76.31
+      "score": 73.25
     },
     {
       "id": "handelsblatt-91c79acf6c5405d5",
@@ -36,124 +150,58 @@
       "image": "https://images.handelsblatt.com/L1H1ozYX0ATf/cover/900/506/0/0/0/0/0.5/0.5/viktor-orban-donald-trump-alice-weidel.png",
       "published": "2026-11-21T06:39:00+00:00",
       "category": "Politik",
-      "score": 76.05
+      "score": 72.99
     },
     {
-      "id": "tagesschau-e24566cf645f1846",
+      "id": "tagesschau-02a46e811ff62a7a",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Offenbar Hackerangriffe auf FBI und US-Agrarministerium",
-      "link": "https://www.tagesschau.de/ausland/amerika/usa-hackerangriffe-100.html",
-      "summary": "Hacker sind Medienberichten zufolge in ein Zahlungssystem des US-Agrarministeriums und in eine Datenbank des FBI eingedrungen. Die Angriffe reihen sich in eine Serie von Systemausfällen und Technikpannen in den USA.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/c4a8129d-5713-48b5-b0cc-3d6541af9469/AAABlMc781U/AAABnSSvrFg/16x9-big/fbi-hauptquartier-100.jpg?width=1920",
-      "published": "2026-11-21T07:51:20+01:00",
-      "category": "Politik",
-      "score": 75.6,
+      "title": "\"Palisades Fire\" - Angeklagter im zweiten Anlauf schuldig gesprochen",
+      "link": "https://www.tagesschau.de/ausland/amerika/prozess-pacific-palisades-feuer-kalifornien-100.html",
+      "summary": "Bei dem Brand im Januar 2025 starben 31 Menschen: Nach dem verheerenden Feuer im Nobelvorort Pacific Palisades von Los Angeles ist der Angeklagte schuldig gesprochen worden. Ihm drohen bis zu 40 Jahre Haft.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/2e8a116a-f62e-4357-8076-8dff66240fe0/AAABof0TGU8/AAABnSSvrFg/16x9-big/pacific-palisades-108.jpg?width=1920",
+      "published": "2026-11-21T09:14:03+01:00",
+      "category": "Nachrichten",
+      "score": 72.02,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
-            "title": "USA - Medienberichte: Hacker dringen erneut in FBI-Datenbank ein",
-            "link": "https://www.deutschlandfunk.de/medienberichte-hacker-dringen-erneut-in-fbi-datenbank-ein-100.html"
+            "title": "Großbrand - Mann im Prozess um Palisades-Feuer in Los Angeles schuldig gesprochen",
+            "link": "https://www.deutschlandfunk.de/mann-im-prozess-um-palisades-feuer-in-los-angeles-schuldig-gesprochen-100.html"
           },
           {
             "source": "spiegel",
-            "title": "USA: Hacker sollen in FBI-Datenbank eingedrungen sein",
-            "link": "https://www.spiegel.de/netzwelt/usa-hacker-sollen-in-fbi-datenbank-eingedrungen-sein-a-9752137b-bfb0-447a-88b1-afdea2319f3b#ref=rss"
+            "title": "Kalifornien: Mann im Prozess um Palisades-Feuer in Los Angeles schuldig gesprochen",
+            "link": "https://www.spiegel.de/ausland/kalifornien-schuldspruch-im-prozess-um-palisades-feuer-in-los-angeles-a-a13a85a1-96cd-440c-a850-5927af4d6897#ref=rss"
           }
         ]
       }
     },
     {
-      "id": "spiegel-dadf220f61798488",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Genozid-Urteil: Was die Entscheidung des Weltgerichts in Den Haag für Israel bedeutet",
-      "link": "https://www.spiegel.de/ausland/genozid-urteil-was-die-entscheidung-des-weltgerichts-in-den-haag-fuer-israel-bedeutet-a-fe9b69b6-b00f-4162-a1ed-e6120818020a#ref=rss",
-      "summary": "Der Internationale Gerichtshof stuft Myanmars Gräueltaten an den Rohingya als Völkermord ein. Der Völkerrechtler Kai Ambos sagt, warum die Richter so entschieden haben – und was das für das Gaza-Verfahren bedeutet.",
-      "image": "https://cdn.prod.www.spiegel.de/images/87de0fef-8484-4572-bbec-e425fa7752fb_w1200_r1.778_fpx44_fpy50.jpg",
-      "published": "2026-11-20T20:16:00+01:00",
-      "category": "Politik",
-      "score": 75.56,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutsche-welle",
-            "title": "UN-Gericht: Myanmar verantwortlich für Rohingya-Völkermord",
-            "link": "https://www.dw.com/de/un-gericht-myanmar-verantwortlich-für-rohingya-völkermord/a-79992591?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "handelsblatt-4bb45010d9324a52",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Ukraine-Krieg +++: Trump fordert wohl von Kiew Frieden mit Russland bis Anfang Januar",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-trump-fordert-wohl-von-kiew-frieden-mit-russland-bis-anfang-januar/27982126.html",
-      "summary": "Trump: Ohne Deal keine Sicherheitsgarantien seitens der USA für die Ukraine +++ Russland soll Dänen für Mord an ukrainischem Rapper angeheuert haben +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/HPI-BvwRBpNu/cover/900/506/0/0/147/478/0.5/0.5/president-donald-trump-gestures-to-a-reporter-alongside-vice-president-jd-vance-during-a-news-confer.jpg",
-      "published": "2026-11-20T17:24:00+00:00",
-      "category": "Politik",
-      "score": 73.0
-    },
-    {
-      "id": "tagesschau-148e813ebb485322",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Kritik an Ausnahmen bei Erbschaftsteuer nach Recherchen über Döpfner-Schenkung",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/doepfner-erbschaftssteuer-100.html",
-      "summary": "Springer-Chef Döpfner hat im Jahr 2020 von Verlegerin Friede Springer ein Milliarden-Aktienpaket übertragen bekommen - aber wohl kaum Schenkungsteuern gezahlt. Politiker von SPD und CDU fordern nun Änderungen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/bbf38816-ae51-40b6-a2f6-68e5abba6646/AAABofk_W0E/AAABnSSvrFg/16x9-big/springer-doepfner-104.jpg?width=1920",
-      "published": "2026-11-20T15:58:12+01:00",
-      "category": "Wirtschaft",
-      "score": 70.92,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Nach Datenleak bei der Deutschen Bank - Milliardengeschenk für Springer-Chef Döpfner: Politik erwägt Änderungen bei Erbschaftsteuer",
-            "link": "https://www.deutschlandfunk.de/milliardengeschenk-fuer-springer-chef-doepfner-politik-erwaegt-aenderungen-bei-erbschaftsteuer-100.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-fe7bca30130e10e4",
+      "id": "deutschlandfunk-3a3a554340158c7a",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Fifa-Präsident - Südamerikaner stützen Infantino",
-      "link": "https://www.deutschlandfunk.de/suedamerikaner-stuetzen-infantino-106.html",
-      "summary": "Die zehn Mitgliedsländer des südamerikanischen Fußballverbandes Conmebol stehen mit Blick auf die FIFA-Präsidentschaftswahl im März 2027 hinter Gianni Infantino. Der Conmebol-Rat habe einstimmig seine Unterstützung für die erneute Kandidatur Infantinos bekräftigt, hieß es in einer Mitteilung.",
-      "image": "https://bilder.deutschlandfunk.de/aa/b4/d3/6b/aab4d36b-e5b6-4cfe-9aef-a8b34f3eee5d/infantino-diallo-fussball-100-1920x1920.jpg",
-      "published": "2026-11-21T08:41:43+01:00",
+      "title": "Kontrolle des Verfassungsschutzes - \"3:1 für Putin\": Grünenpolitiker von Notz kritisiert Wahl von AfD und BSW ins Parlamentarische Kontrollgremium in Sachsen-Anhalt",
+      "link": "https://www.deutschlandfunk.de/3-1-fuer-putin-gruenenpolitiker-von-notz-kritisiert-wahl-von-afd-und-bsw-ins-parlamentarische-kontro-100.html",
+      "summary": "Der Grünenpolitiker von Notz hat die Wahl von Abgeordneten der AfD und des BSW in das Parlamentarische Kontrollgremium des Landtags von Sachsen-Anhalt kritisiert. Von Notz sagte dem WDR, bei beiden Parteien stehe die Loyalität zur Bundesrepublik in ihrer bestehenden Form zumindest in Frage.",
+      "image": "https://bilder.deutschlandfunk.de/ba/ef/06/33/baef0633-664d-4897-ab09-adfb102ab75d/von-notz-gruene-bundestag-102-1920x1920.jpg",
+      "published": "2026-11-21T11:40:09+01:00",
       "category": "Politik",
-      "score": 69.92
+      "score": 69.34
     },
     {
-      "id": "tagesschau-4e7e35da28a4ee1c",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "US-Gericht billigt Vergleich von Bayer mit Glyphosat-Klägern",
-      "link": "https://www.tagesschau.de/wirtschaft/bayer-glyphosat-vergleich-usa-100.html",
-      "summary": "Für den Chemiekonzern Bayer könnten die Klagen wegen des Unkraut-Vernichters Roundup in den USA bald der Vergangenheit angehören. Ein US-Gericht hat einen milliardenschweren Vergleich des Konzerns mit Vertretern der Kläger gebilligt.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/8abc89ba-9a3f-4036-b1d7-d035db21bc32/AAABnHAaiEY/AAABnSSvrFg/16x9-big/bayer-204.jpg?width=1920",
-      "published": "2026-11-21T04:50:50+01:00",
+      "id": "spiegel-f089c7b41004211c",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Achtsamkeit: Ich will meditieren, kriege es aber nicht hin. Was tun?",
+      "link": "https://www.spiegel.de/gesundheit/achtsamkeit-ich-will-meditieren-kriege-es-aber-nicht-hin-was-tun-a-0bd4f40b-a27e-481f-8c4a-88a34271fa0c#ref=rss",
+      "summary": "Die erhoffte Entspannung bleibt aus, stattdessen wächst der Frust. Meditationsforscher Ulrich Ott erklärt, wofür Meditation sinnvoll ist und was den Einstieg erleichtert.",
+      "image": "https://cdn.prod.www.spiegel.de/images/ddea993c-eddc-4ad9-a015-6887807649c6_w1200_r1.778_fpx60.65_fpy44.99.jpg",
+      "published": "2026-11-21T10:36:00+01:00",
       "category": "Nachrichten",
-      "score": 67.92,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Monsanto - US-Gericht billigt Milliardenvergleich von Bayern zur Beilegung von Glyphosat-Klagen",
-            "link": "https://www.deutschlandfunk.de/us-gericht-billigt-milliardenvergleich-von-bayern-zur-beilegung-von-glyphosat-klagen-102.html"
-          }
-        ]
-      }
+      "score": 65.45
     },
     {
       "id": "deutsche-welle-be43eefa04e28f68",
@@ -165,67 +213,19 @@
       "image": "https://static.dw.com/image/79889199_6.jpg",
       "published": "2026-11-21T05:14:00+00:00",
       "category": "Nachrichten",
-      "score": 63.87
+      "score": 60.81
     },
     {
-      "id": "golem-a9f92f1ad1202a2b",
+      "id": "golem-65c710ffb6738a99",
       "source": "golem",
       "sourceWeight": 0.85,
-      "title": "Bestehende Windkraftanlagen: Lasermessung verspricht mehr Strom aus Windkraft",
-      "link": "https://www.golem.de/news/bestehende-windkraftanlagen-lasermessung-verspricht-mehr-strom-aus-windkraft-2611-215481.html",
-      "summary": "Ein neues System soll die Verhältnisse für Windräder günstiger und schneller dokumentieren. Vorhandene Windparks könnten so optimiert werden. ( Windkraft , Lidar )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215481&amp;page=1&amp;ts=1795244222",
-      "published": "2026-11-21T07:57:02+01:00",
-      "category": "Technologie",
-      "score": 56.3
-    },
-    {
-      "id": "golem-e6b75d00c9ab9e7c",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Gebrauchte Hardware: KI-Workstation des armen Mannes schlägt Framework Desktop",
-      "link": "https://www.golem.de/news/gebrauchte-hardware-ki-workstation-des-armen-mannes-schlaegt-framework-desktop-2611-215421.html",
-      "summary": "Lokale KI wird immer interessanter, die Hardware aber teurer. Wir haben ein System gebaut, das ab 900 Euro Modelle bis 200 Milliarden Parameter stemmt. Von Johannes Hiltscher ( DIY-KI , AMD )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215421&amp;page=1&amp;ts=1795242601",
-      "published": "2026-11-21T07:30:01+01:00",
-      "category": "Technologie",
-      "score": 55.92
-    },
-    {
-      "id": "deutsche-welle-1aa437096502ffee",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Raketeneinschlag: NATO-Generalsekretär sagt Polen Unterstützung zu",
-      "link": "https://www.dw.com/de/raketeneinschlag-nato-generalsekretär-sagt-polen-unterstützung-zu/a-80004889?maca=de-rss-de-all-1119-rdf",
-      "summary": "Die Ukraine wurde in der Nacht erneut heftig von Russland attackiert. Dabei wurde auch Polen getroffen, wie die Regierung in Warschau mitteilte. Die NATO steht ihrem Mitglied zur Seite.",
-      "image": "https://static.dw.com/image/80002373_6.jpg",
-      "published": "2026-11-20T15:16:00+00:00",
-      "category": "Politik",
-      "score": 55.23
-    },
-    {
-      "id": "netzpolitik-96e174dcc78449ff",
-      "source": "netzpolitik",
-      "sourceWeight": 0.75,
-      "title": "KW 47: Die Woche, in der wir Dich brauchen",
-      "link": "https://netzpolitik.org/2026/kw-47-die-woche-in-der-wir-dich-brauchen/",
-      "summary": "Die 47. Kalenderwoche geht zu Ende. Wir haben 16 neue Texte mit insgesamt 142.299 Zeichen veröffentlicht. Willkommen zum netzpolitischen Wochenrückblick. – : Fraktal, generiert mit MandelBrowser von Tomasz Śmigielski Liebe Leser:innen, wer regelmäßig auf unsere Seite kommt, hat es schon bemerkt: Wir brauchen Geld und zwar noch rund 440.000 Euro bis zum Jahresende , damit wir auch im kommenden Jahr mit voller Kraft weiterarbeiten können. Falls Dir das an Informationen schon reicht: Spenden geht ganz unkompliziert unter netzpolitik.org/spenden . Und Spenden an uns sind sogar steuerlich absetzbar. Aber vielleicht von vorne und mit etwas Ruhe: Wir bekommen oft Nachfragen, warum der Betrag so hoch ist am Jahresende. Das hängt vor allem mit dem allgemeinen Spendenverhalten zusammen, denn mehr als ein Viertel aller Spenden – zumindest in Deutschland – fallen in die Advents- und Weihnachtszeit. Und da machen die tausenden Unterstützer:innen von netzpolitik.org keine Ausnahme. Deswegen sind wir in dieser Zeit immer etwas angespannt, wir erinnern mit knalligen Bannern, wie viel Geld fehlt und dass wir spendenfinanziert sind. Und wir erklären, warum sich die Unterstützung von netzpolitik. …",
-      "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/26-10-18.jpg",
-      "published": "2026-11-21T06:30:35+00:00",
-      "category": "Technologie",
-      "score": 53.93
-    },
-    {
-      "id": "netzpolitik-6ce66ec210afa20f",
-      "source": "netzpolitik",
-      "sourceWeight": 0.75,
-      "title": "Mobilfunk aus dem All: Kampf um die digitale Zukunft",
-      "link": "https://netzpolitik.org/2026/mobilfunk-aus-dem-all-kampf-um-die-digitale-zukunft/",
-      "summary": "Im Orbit wird die Zukunft digitaler Infrastruktur entschieden. Wer die Kontrolle über mobile Kommunikation erlangt, bestimmt mit, unter welchen Bedingungen sich Gesellschaften künftig im digitalen Raum austauschen. Über 10.000 Starlink-Satelliten umkreisen derzeit in niedriger Umlaufbahn die Erde. (Fotomontage) – CC-BY 4.0 : Wikideas1 / Bearbeitung: netzpolitik.org Seit einigen Jahren schon kreisen tausende Satelliten von SpaceX, Amazon und anderer Anbieter um die Erde. Ihre niedrigen Umlaufbahnen machen Produkte im Massenmarkt verfügbar, die noch vor kurzer Zeit undenkbar schienen: erschwingliche Internetverbindungen mit konkurrenzfähigen VDSL-Geschwindigkeiten und geringen Latenzen, fast überall auf der Welt. Die meisten dieser sogenannten Satelliten-Konstellationen sind derzeit im Aufbau, dürften jedoch bald einen weiteren Paradigmenwechsel einläuten. Was heute erdseitig meist noch klobige Schüsseln braucht, werden künftig handelsübliche Handys abwickeln. Neben Internetverbindungen wird darüber auch Sprachtelefonie möglich sein. …",
-      "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/Starlink_01-Montage-scaled-e1795193480738.jpg",
-      "published": "2026-11-21T06:28:19+00:00",
-      "category": "Technologie",
-      "score": 53.9
+      "title": "Nvidia-Unternehmenskultur: Huang soll Nvidia-Mitarbeiter gezielt gedemütigt haben",
+      "link": "https://www.golem.de/news/nvidia-unternehmenskultur-huang-soll-nvidia-mitarbeiter-gezielt-gedemuetigt-haben-2611-215501.html",
+      "summary": "Die New York Times beschreibt jahrelange Tiraden des Ex-CEOs. Nvidia schweigt, Huangs Sprecher widerspricht. ( Nvidia , Wirtschaft )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215501&amp;page=1&amp;ts=1795253402",
+      "published": "2026-11-21T10:30:02+01:00",
+      "category": "Wirtschaft",
+      "score": 58.37
     }
   ]
 }
