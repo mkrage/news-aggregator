@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T00:24:02.258516+00:00",
+  "generatedAt": "2026-11-21T02:37:09.042914+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/87de0fef-8484-4572-bbec-e425fa7752fb_w1200_r1.778_fpx44_fpy50.jpg",
       "published": "2026-11-20T20:16:00+01:00",
       "category": "Politik",
-      "score": 81.72,
+      "score": 79.87,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -25,6 +25,18 @@
       }
     },
     {
+      "id": "deutschlandfunk-2bd7b76f9ce08739",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Nach Parlamentswahl - Eisenkot bringt Minderheitsregierung für Israel ins Spiel",
+      "link": "https://www.deutschlandfunk.de/eisenkot-bringt-minderheitsregierung-fuer-israel-ins-spiel-104.html",
+      "summary": "In Israel zeichnet sich bei der komplizierten Regierungsbildung ein möglicher Kompromiss ab.",
+      "image": "https://bilder.deutschlandfunk.de/NO/VA/_6/79/NOVA_6794f396c715d2160eedc647ca94d152/craft-13535524-asset-100-1920x1920.jpg",
+      "published": "2026-11-21T03:13:20+01:00",
+      "category": "Politik",
+      "score": 77.67
+    },
+    {
       "id": "handelsblatt-4bb45010d9324a52",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
@@ -34,19 +46,7 @@
       "image": "https://images.handelsblatt.com/HPI-BvwRBpNu/cover/900/506/0/0/147/478/0.5/0.5/president-donald-trump-gestures-to-a-reporter-alongside-vice-president-jd-vance-during-a-news-confer.jpg",
       "published": "2026-11-20T17:24:00+00:00",
       "category": "Politik",
-      "score": 79.17
-    },
-    {
-      "id": "deutschlandfunk-2bd7b76f9ce08739",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Nach Parlamentswahl - Eisenkot bringt Minderheitsregierung für Israel ins Spiel",
-      "link": "https://www.deutschlandfunk.de/eisenkot-bringt-minderheitsregierung-fuer-israel-ins-spiel-104.html",
-      "summary": "In Israel zeichnet sich bei der komplizierten Regierungsbildung ein möglicher Kompromiss ab.",
-      "image": "https://bilder.deutschlandfunk.de/NO/VA/_6/79/NOVA_6794f396c715d2160eedc647ca94d152/craft-13535524-asset-100-1920x1920.jpg",
-      "published": "2026-11-21T00:27:09+01:00",
-      "category": "Politik",
-      "score": 77.21
+      "score": 77.32
     },
     {
       "id": "spiegel-b2955d885f5fc0db",
@@ -58,7 +58,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/f8f1848a-3817-4709-bd5b-8245964d74bf_w1200_r1.778_fpx51_fpy42.jpg",
       "published": "2026-11-20T19:42:00+01:00",
       "category": "Politik",
-      "score": 73.71,
+      "score": 71.86,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -80,7 +80,7 @@
       "image": "https://images.tagesschau.de/image/a5e5ea97-886a-406c-bbd2-8621dc969149/AAABofgQRSk/AAABnSSvrFg/16x9-big/schild-zukunftsangst-100.jpg?width=1920",
       "published": "2026-11-20T12:40:13+01:00",
       "category": "Nachrichten",
-      "score": 73.39
+      "score": 71.54
     },
     {
       "id": "handelsblatt-e2c6f804c476c159",
@@ -92,7 +92,7 @@
       "image": "https://images.handelsblatt.com/L1H1ozYX0ATf/cover/900/506/0/0/0/0/0.5/0.5/viktor-orban-donald-trump-alice-weidel.png",
       "published": "2026-11-20T19:39:00+00:00",
       "category": "Politik",
-      "score": 73.04
+      "score": 71.19
     },
     {
       "id": "tagesschau-98f27be4b4a57e63",
@@ -104,53 +104,31 @@
       "image": "https://images.tagesschau.de/image/ecbfa4c0-1ef8-4022-9daf-52d64176d7b0/AAABofmrE-o/AAABnSSvrFg/16x9-big/deutsch-ukrainisches-wirtschaftsforum-106.jpg?width=1920",
       "published": "2026-11-20T17:22:30+01:00",
       "category": "Politik",
-      "score": 72.31
+      "score": 70.46
     },
     {
-      "id": "tagesschau-97f7b79253123783",
+      "id": "tagesschau-c1ef02f83f926228",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Polen wirft Russland gezielte Provokation vor",
-      "link": "https://www.tagesschau.de/ausland/europa/absturz-russische-flugobjekte-polen-100.html",
-      "summary": "Mehrere Flugkörper sind in den polnischen Luftraum eingedrungen - nach Einschätzung der Regierung eine gezielte Provokation Russlands. Sie könnte in Zusammenhang mit einer Übung der Ukraine-Unterstützer stehen, die derzeit in Polen stattfindet.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/f4403ee8-c08e-4ac1-80e5-9ad3a537976a/AAABofjeheU/AAABnSSvrFg/16x9-big/polizei-polen-110.jpg?width=1920",
-      "published": "2026-11-20T17:22:28+01:00",
-      "category": "Politik",
-      "score": 72.31,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Ukraine-Krieg: Polen wirft Russland Provokation nahe Militärmanöver vor",
-            "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-polen-wirft-russland-provokation-nahe-militaermanoever-vor/100271640.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-a9021d19874dbab9",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Antalya - Weltklimakonferenz geht in die Verlängerung - EU fordert Änderungen",
-      "link": "https://www.deutschlandfunk.de/weltklimakonferenz-geht-in-die-verlaengerung-eu-fordert-aenderungen-114.html",
-      "summary": "Die Weltklimakonferenz in der Türkei geht in die Verlängerung. Gerungen wird laut Medienberichten unter anderem um Formulierungen zu fossilen Brennstoffen. In dem aktuellen Entwurf der Abschlusserklärung wird ein Ausstieg aus Kohle, Öl und Gas nicht direkt erwähnt. Mehrere Länder kündigten ihren Widerstand dagegen an.",
-      "image": "https://bilder.deutschlandfunk.de/NO/VA/_4/ee/NOVA_4ee253d5d5160dc3b007c832d6a38318/craft-13548456-asset-100-1920x1920.jpg",
-      "published": "2026-11-21T00:27:09+01:00",
-      "category": "Nachrichten",
-      "score": 70.89,
+      "title": "Anthropic-Aktie stürzt ab - KI-Angst an der Börse",
+      "link": "https://www.tagesschau.de/wirtschaft/boerse/anthropic-ki-tech-werte-boersen-100.html",
+      "summary": "Erst legt der KI-Entwickler Anthropic einen der größten Börsengänge der Geschichte hin. Gleichzeitig geraten Technologie- und KI-Aktien weltweit unter Druck. Wie passt das zusammen? Von Michelle Goddemeier. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/41a92787-d98e-47ef-93d5-91607061a7e1/AAABofimfZU/AAABnSSvrFg/16x9-big/nyse-476.jpg?width=1920",
+      "published": "2026-11-20T17:20:16+01:00",
+      "category": "Wirtschaft",
+      "score": 70.26,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
-            "source": "spiegel",
-            "title": "COP31 in Antalya: Streit über fossile Energien – Klimagipfel geht in die Verlängerung",
-            "link": "https://www.spiegel.de/wissenschaft/uno-klimakonferenz-in-antalya-streit-ueber-fossile-energien-klimagipfel-geht-in-die-verlaengerung-a-acb69199-ffa2-4b15-ad2b-62145c0613c8#ref=rss"
+            "source": "handelsblatt",
+            "title": "Aktien: Anthropic-Aktie stürzt Richtung Ausgabekurs – Ist der KI-Boom nach dem Mega-Börsengang vorbei?",
+            "link": "https://www.handelsblatt.com/finanzen/maerkte/boerse-inside/aktien-ist-der-ki-boom-nach-dem-anthropic-boersengang-vorbei/100270470.html"
           },
           {
-            "source": "handelsblatt",
-            "title": "COP31: Weltklimakonferenz geht in die Verlängerung",
-            "link": "https://www.handelsblatt.com/politik/deutschland/cop31-weltklimakonferenz-geht-in-die-verlaengerung/100270720.html"
+            "source": "heise",
+            "title": "Anthropic-Aktien an der Börse gestartet",
+            "link": "https://www.heise.de/news/Anthropic-Aktien-an-der-Boerse-gestartet-11528173.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag"
           }
         ]
       }
@@ -163,33 +141,53 @@
       "link": "https://www.deutschlandfunk.de/suedamerikaner-stuetzen-infantino-106.html",
       "summary": "Die zehn Mitgliedsländer des südamerikanischen Fußballverbandes Conmebol stehen mit Blick auf die FIFA-Präsidentschaftswahl im März 2027 hinter Gianni Infantino. Der Conmebol-Rat habe einstimmig seine Unterstützung für die erneute Kandidatur Infantinos bekräftigt, hieß es in einer Mitteilung.",
       "image": "https://bilder.deutschlandfunk.de/aa/b4/d3/6b/aab4d36b-e5b6-4cfe-9aef-a8b34f3eee5d/infantino-diallo-fussball-100-1920x1920.jpg",
-      "published": "2026-11-21T00:27:09+01:00",
+      "published": "2026-11-21T03:13:20+01:00",
       "category": "Politik",
-      "score": 69.21
+      "score": 69.67
     },
     {
-      "id": "spiegel-731057a1d128cda4",
+      "id": "deutschlandfunk-43b8ec63c14b2493",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Fußball-Bundesliga - Bayern und Köln trennen sich 1:1 - Kane verletzt sich",
+      "link": "https://www.deutschlandfunk.de/bayern-und-koeln-trennen-sich-1-1-kane-verletzt-sich-100.html",
+      "summary": "In der Fußball-Bundesliga haben Bayern München und der 1. FC Köln unentschieden gespielt.",
+      "image": "https://bilder.deutschlandfunk.de/4f/98/67/54/4f986754-2edb-4b1b-9356-12ad43b2776c/bundesliga-bayern-koeln-102-1920x1920.jpg",
+      "published": "2026-11-21T03:13:20+01:00",
+      "category": "Nachrichten",
+      "score": 66.67,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "FC Bayern München: Verletzungssorgen nach Köln-Spiel – Kane und Olise angeschlagen",
+            "link": "https://www.spiegel.de/sport/fussball/fc-bayern-muenchen-verletzungssorgen-nach-koeln-spiel-kane-und-olise-angeschlagen-a-f44477ac-00ee-44ab-a005-c26d0e6965ef#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-dc4ceea2301dab88",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Nvidia: US-Börsenaufsicht ermittelt gegen Chip-Riesen",
-      "link": "https://www.spiegel.de/wirtschaft/unternehmen/nvidia-us-boersenaufsicht-ermittelt-gegen-chip-riesen-a-89d79e61-5ac5-4389-aca3-f8e8d8aba4a5#ref=rss",
-      "summary": "Der Techkonzern Nvidia rutscht immer tiefer in die Krise. Nach dem Skandal um Jensen Huang untersucht die US-Börsenaufsicht nun offenbar mutmaßliche Bilanzprobleme. Bekannt werden auch neue Details über seine Geliebte.",
-      "image": "https://cdn.prod.www.spiegel.de/images/cc7027ba-5b52-4a03-9596-b901f583dae6_w1200_r1.778_fpx58_fpy54.jpg",
-      "published": "2026-11-20T21:34:00+01:00",
-      "category": "Wirtschaft",
-      "score": 66.81
-    },
-    {
-      "id": "handelsblatt-f06e8724b3d095f1",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Chip-Konzern: Aufsicht SEC überprüft laut Bericht Nvidia-Bilanzierung – Aktie fällt weiter",
-      "link": "https://www.handelsblatt.com/technik/ki/chip-konzern-aufsicht-sec-ueberprueft-laut-bericht-nvidia-bilanzierung-aktie-faellt-weiter/100271678.html",
-      "summary": "Nvidia droht neues Ungemach: Aufseher untersuchen offenbar die Buchhaltung des Konzerns - und den Schmuggel von Chips nach China. Präsident Trump fordert derweil die Rückkehr von Ex-Chef Huang.",
-      "image": "https://images.handelsblatt.com/NL7DUxZIYhvP/cover/900/506/613/112/0/621/0.5/0.5/nvidia-ki-konferenz.jpg",
-      "published": "2026-11-20T21:30:36+00:00",
-      "category": "Politik",
-      "score": 66.59
+      "title": "»Gen Z regelt«: Demos gehen zu Ende – das war der Protesttag in Europa",
+      "link": "https://www.spiegel.de/panorama/gesellschaft/gen-z-regelt-so-laufen-die-proteste-newsblog-a-5b6f94e2-5b27-476e-966d-50850ad73956#ref=rss",
+      "summary": "Die allermeisten Demonstrationen in den Großstädten sind vorbei. Der Zulauf war geringer als noch vor drei Wochen. Bis zum Abend kam es nur vereinzelt zu Auseinandersetzungen mit der Polizei. Die Entwicklungen im Minutenprotokoll.",
+      "image": "https://cdn.prod.www.spiegel.de/images/f11aa040-a822-406a-a294-cb8d69b98aa3_w1200_r1.778_fpx66.67_fpy50.jpg",
+      "published": "2026-11-20T20:00:00+01:00",
+      "category": "Panorama",
+      "score": 65.3,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Demonstrationen: Festnahmen und fliegende Flaschen nach Jugendprotesten",
+            "link": "https://www.handelsblatt.com/politik/deutschland/demonstrationen-festnahmen-und-fliegende-flaschen-nach-jugendprotesten/100271691.html"
+          }
+        ]
+      }
     },
     {
       "id": "deutsche-welle-1aa437096502ffee",
@@ -201,7 +199,7 @@
       "image": "https://static.dw.com/image/80002373_6.jpg",
       "published": "2026-11-20T15:16:00+00:00",
       "category": "Politik",
-      "score": 61.39
+      "score": 59.54
     },
     {
       "id": "deutsche-welle-f2dcf8d9d490f8c6",
@@ -213,19 +211,31 @@
       "image": "https://static.dw.com/image/79989601_6.jpg",
       "published": "2026-11-20T13:19:00+00:00",
       "category": "Politik",
-      "score": 59.76
+      "score": 57.91
     },
     {
-      "id": "deutsche-welle-320cf15e9e34fedf",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Kinderraub als Kriegswaffe: Hitlers Erbe, Putins System",
-      "link": "https://www.dw.com/de/kinderraub-als-kriegswaffe-hitlers-erbe-putins-system/a-80001588?maca=de-rss-de-all-1119-rdf",
-      "summary": "Als Kind von den Nazis verschleppt, als junge Frau mit dem Kinderraub durch Russland konfrontiert: Barbara Paciorkiewicz und Ksenija Koldin erzählen von Verlust, gewaltsamer Trennung und schwieriger Heimkehr.",
-      "image": "https://static.dw.com/image/80003412_6.jpg",
-      "published": "2026-11-20T14:18:00+00:00",
+      "id": "golem-f4dc6f80396237c2",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Speicherkrise: Valve geht die Steam Machine mit 2 TByte aus",
+      "link": "https://www.golem.de/news/speicherkrise-valve-geht-die-steam-machine-mit-2-tbyte-aus-2611-215472.html",
+      "summary": "Wegen knapper Speicherbauteile schließt Valve die Warteliste für das größere Modell. Wer mit 512 GByte auskommt, kann direkt bestellen. ( Steam Machine , Steam )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215472&amp;page=1&amp;ts=1795180441",
+      "published": "2026-11-20T14:14:01+01:00",
       "category": "Technologie",
-      "score": 57.58
+      "score": 53.85
+    },
+    {
+      "id": "golem-a715d736adfae389",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Digital Networks / Cyber Security Act: Telekom fordert Bundesregierung zum Widerstand gegen EU auf",
+      "link": "https://www.golem.de/news/digital-networks-cyber-security-act-telekom-fordert-bundesregierung-zum-widerstand-gegen-eu-auf-2611-215494.html",
+      "summary": "Die EU will Kupferleitungen abschalten und chinesische Technologieanbieter breitflächig ausschließen. Die Telekom hält das für rechtswidrig. ( Telekom , DSL )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215494&amp;page=1&amp;ts=1795197062",
+      "published": "2026-11-20T18:51:02+01:00",
+      "category": "Politik",
+      "score": 52.69
     }
   ]
 }
