@@ -1,7 +1,70 @@
 {
-  "generatedAt": "2026-11-21T02:37:09.042914+00:00",
+  "generatedAt": "2026-11-21T07:47:40.058088+00:00",
   "count": 15,
   "articles": [
+    {
+      "id": "deutschlandfunk-2bd7b76f9ce08739",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Nach Parlamentswahl - Eisenkot bringt Minderheitsregierung für Israel ins Spiel",
+      "link": "https://www.deutschlandfunk.de/eisenkot-bringt-minderheitsregierung-fuer-israel-ins-spiel-104.html",
+      "summary": "In Israel zeichnet sich bei der komplizierten Regierungsbildung ein möglicher Kompromiss ab.",
+      "image": "https://bilder.deutschlandfunk.de/NO/VA/_6/79/NOVA_6794f396c715d2160eedc647ca94d152/craft-13535524-asset-100-1920x1920.jpg",
+      "published": "2026-11-21T08:41:43+01:00",
+      "category": "Politik",
+      "score": 77.92
+    },
+    {
+      "id": "spiegel-60660908aacf89f0",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "News: Boris Pistorius patzt, Hilfen für die Ukraine, AfD auf Kurssuche, Donald Trump lobt Stephen Miller",
+      "link": "https://www.spiegel.de/politik/deutschland/news-boris-pistorius-patzt-hilfen-fuer-die-ukraine-afd-auf-kurssuche-donald-trump-lobt-stephen-miller-a-cb84b583-511a-4850-9455-833a6e8d92a7#ref=rss",
+      "summary": "Verteidigungsminister Boris Pistorius patzt. Ex-CDU-Chefin Annegret Kramp-Karrenbauer mahnt zur Solidarität mit der Ukraine. AfD-Landesverbände stimmen über Programm und Personal ab. Das ist die Lage am Samstagmorgen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/dd17189a-707c-4b57-af32-bf59855d3d25_w1200_r1.778_fpx28.09_fpy49.93.png",
+      "published": "2026-11-21T06:46:00+01:00",
+      "category": "Politik",
+      "score": 76.31
+    },
+    {
+      "id": "handelsblatt-91c79acf6c5405d5",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Regierung: „Der Begriff Faschismus findet zu inflationäre Verwendung“",
+      "link": "https://www.handelsblatt.com/politik/deutschland/deutschland-verschleiss-von-populisten-beginnt-ab-tag-eins-der-regierung/100270126.html",
+      "summary": "In den USA, Ungarn und Polen verlieren Populisten Wahlen. Der Wiener Sprachphilosoph Paul Sailer-Wlasits warnt dennoch vor Entwarnung: Die Demagogie habe einen strukturellen Vorteil.",
+      "image": "https://images.handelsblatt.com/L1H1ozYX0ATf/cover/900/506/0/0/0/0/0.5/0.5/viktor-orban-donald-trump-alice-weidel.png",
+      "published": "2026-11-21T06:39:00+00:00",
+      "category": "Politik",
+      "score": 76.05
+    },
+    {
+      "id": "tagesschau-e24566cf645f1846",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Offenbar Hackerangriffe auf FBI und US-Agrarministerium",
+      "link": "https://www.tagesschau.de/ausland/amerika/usa-hackerangriffe-100.html",
+      "summary": "Hacker sind Medienberichten zufolge in ein Zahlungssystem des US-Agrarministeriums und in eine Datenbank des FBI eingedrungen. Die Angriffe reihen sich in eine Serie von Systemausfällen und Technikpannen in den USA.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/c4a8129d-5713-48b5-b0cc-3d6541af9469/AAABlMc781U/AAABnSSvrFg/16x9-big/fbi-hauptquartier-100.jpg?width=1920",
+      "published": "2026-11-21T07:51:20+01:00",
+      "category": "Politik",
+      "score": 75.6,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "USA - Medienberichte: Hacker dringen erneut in FBI-Datenbank ein",
+            "link": "https://www.deutschlandfunk.de/medienberichte-hacker-dringen-erneut-in-fbi-datenbank-ein-100.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "USA: Hacker sollen in FBI-Datenbank eingedrungen sein",
+            "link": "https://www.spiegel.de/netzwelt/usa-hacker-sollen-in-fbi-datenbank-eingedrungen-sein-a-9752137b-bfb0-447a-88b1-afdea2319f3b#ref=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "spiegel-dadf220f61798488",
       "source": "spiegel",
@@ -12,7 +75,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/87de0fef-8484-4572-bbec-e425fa7752fb_w1200_r1.778_fpx44_fpy50.jpg",
       "published": "2026-11-20T20:16:00+01:00",
       "category": "Politik",
-      "score": 79.87,
+      "score": 75.56,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -25,18 +88,6 @@
       }
     },
     {
-      "id": "deutschlandfunk-2bd7b76f9ce08739",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Nach Parlamentswahl - Eisenkot bringt Minderheitsregierung für Israel ins Spiel",
-      "link": "https://www.deutschlandfunk.de/eisenkot-bringt-minderheitsregierung-fuer-israel-ins-spiel-104.html",
-      "summary": "In Israel zeichnet sich bei der komplizierten Regierungsbildung ein möglicher Kompromiss ab.",
-      "image": "https://bilder.deutschlandfunk.de/NO/VA/_6/79/NOVA_6794f396c715d2160eedc647ca94d152/craft-13535524-asset-100-1920x1920.jpg",
-      "published": "2026-11-21T03:13:20+01:00",
-      "category": "Politik",
-      "score": 77.67
-    },
-    {
       "id": "handelsblatt-4bb45010d9324a52",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
@@ -46,89 +97,26 @@
       "image": "https://images.handelsblatt.com/HPI-BvwRBpNu/cover/900/506/0/0/147/478/0.5/0.5/president-donald-trump-gestures-to-a-reporter-alongside-vice-president-jd-vance-during-a-news-confer.jpg",
       "published": "2026-11-20T17:24:00+00:00",
       "category": "Politik",
-      "score": 77.32
+      "score": 73.0
     },
     {
-      "id": "spiegel-b2955d885f5fc0db",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Donald Trump will US-Konzernen verbieten, Rechenzentren im Ausland zu bauen",
-      "link": "https://www.spiegel.de/wirtschaft/donald-trump-will-us-konzernen-verbieten-rechenzentren-im-ausland-zu-bauen-a-e4b558c4-d9b8-4e7c-95c5-5a1c3ed2388f#ref=rss",
-      "summary": "US-Bürger protestieren zusehends gegen den Bau von KI-Rechenzentren. Weichen die großen Unternehmen ins Ausland aus? Präsident Trump droht den Konzernen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/f8f1848a-3817-4709-bd5b-8245964d74bf_w1200_r1.778_fpx51_fpy42.jpg",
-      "published": "2026-11-20T19:42:00+01:00",
-      "category": "Politik",
-      "score": 71.86,
+      "id": "tagesschau-148e813ebb485322",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Kritik an Ausnahmen bei Erbschaftsteuer nach Recherchen über Döpfner-Schenkung",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/doepfner-erbschaftssteuer-100.html",
+      "summary": "Springer-Chef Döpfner hat im Jahr 2020 von Verlegerin Friede Springer ein Milliarden-Aktienpaket übertragen bekommen - aber wohl kaum Schenkungsteuern gezahlt. Politiker von SPD und CDU fordern nun Änderungen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/bbf38816-ae51-40b6-a2f6-68e5abba6646/AAABofk_W0E/AAABnSSvrFg/16x9-big/springer-doepfner-104.jpg?width=1920",
+      "published": "2026-11-20T15:58:12+01:00",
+      "category": "Wirtschaft",
+      "score": 70.92,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "handelsblatt",
-            "title": "KI-Industrie: Trump warnt US-Konzerne vor Bau von KI-Rechenzentren im Ausland und droht mit „enormen Strafen“",
-            "link": "https://www.handelsblatt.com/politik/international/ki-industrie-trump-warnt-us-konzerne-vor-bau-von-ki-rechenzentren-im-ausland/100271667.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-a8b8da2d1cc34a12",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Warum die Jugend der Gen Z im Dauerkrisenmodus steckt",
-      "link": "https://www.tagesschau.de/wissen/forschung/jugendliche-in-der-dauerkrise-100.html",
-      "summary": "Von Kriegen bis Klimawandel - Jugendliche sehen sich stärker als frühere Generationen durch einen Mix aus Dauerkrisen bedroht. Von der Politik fühlen sie sich im Stich gelassen und fürchten um ihre Zukunft. Von Sven Kästner. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/a5e5ea97-886a-406c-bbd2-8621dc969149/AAABofgQRSk/AAABnSSvrFg/16x9-big/schild-zukunftsangst-100.jpg?width=1920",
-      "published": "2026-11-20T12:40:13+01:00",
-      "category": "Nachrichten",
-      "score": 71.54
-    },
-    {
-      "id": "handelsblatt-e2c6f804c476c159",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Regierung: „Der Begriff Faschismus findet zu inflationäre Verwendung“",
-      "link": "https://www.handelsblatt.com/politik/deutschland/deutschland-der-begriff-faschismus-findet-zu-inflationaere-verwendung/100270126.html",
-      "summary": "In den USA, Ungarn und Polen verlieren Populisten Wahlen. Der Wiener Sprachphilosoph Paul Sailer-Wlasits warnt dennoch vor Entwarnung: Die Demagogie habe einen strukturellen Vorteil.",
-      "image": "https://images.handelsblatt.com/L1H1ozYX0ATf/cover/900/506/0/0/0/0/0.5/0.5/viktor-orban-donald-trump-alice-weidel.png",
-      "published": "2026-11-20T19:39:00+00:00",
-      "category": "Politik",
-      "score": 71.19
-    },
-    {
-      "id": "tagesschau-98f27be4b4a57e63",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Merz: Unterstützung der Ukraine bringt uns Dividende",
-      "link": "https://www.tagesschau.de/wirtschaft/deutsch-ukrainisches-wirtschaftsforum-104.html",
-      "summary": "Seit dem Angriff Russlands unterstützt Deutschland die Ukraine - insgesamt mit mehr als 100 Milliarden Euro. Ausgaben, die sich auszahlen könnten. Kanzler Merz sieht - trotz des Krieges - positive Effekte für die deutsche Wirtschaft.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/ecbfa4c0-1ef8-4022-9daf-52d64176d7b0/AAABofmrE-o/AAABnSSvrFg/16x9-big/deutsch-ukrainisches-wirtschaftsforum-106.jpg?width=1920",
-      "published": "2026-11-20T17:22:30+01:00",
-      "category": "Politik",
-      "score": 70.46
-    },
-    {
-      "id": "tagesschau-c1ef02f83f926228",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Anthropic-Aktie stürzt ab - KI-Angst an der Börse",
-      "link": "https://www.tagesschau.de/wirtschaft/boerse/anthropic-ki-tech-werte-boersen-100.html",
-      "summary": "Erst legt der KI-Entwickler Anthropic einen der größten Börsengänge der Geschichte hin. Gleichzeitig geraten Technologie- und KI-Aktien weltweit unter Druck. Wie passt das zusammen? Von Michelle Goddemeier. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/41a92787-d98e-47ef-93d5-91607061a7e1/AAABofimfZU/AAABnSSvrFg/16x9-big/nyse-476.jpg?width=1920",
-      "published": "2026-11-20T17:20:16+01:00",
-      "category": "Wirtschaft",
-      "score": 70.26,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Aktien: Anthropic-Aktie stürzt Richtung Ausgabekurs – Ist der KI-Boom nach dem Mega-Börsengang vorbei?",
-            "link": "https://www.handelsblatt.com/finanzen/maerkte/boerse-inside/aktien-ist-der-ki-boom-nach-dem-anthropic-boersengang-vorbei/100270470.html"
-          },
-          {
-            "source": "heise",
-            "title": "Anthropic-Aktien an der Börse gestartet",
-            "link": "https://www.heise.de/news/Anthropic-Aktien-an-der-Boerse-gestartet-11528173.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag"
+            "source": "deutschlandfunk",
+            "title": "Nach Datenleak bei der Deutschen Bank - Milliardengeschenk für Springer-Chef Döpfner: Politik erwägt Änderungen bei Erbschaftsteuer",
+            "link": "https://www.deutschlandfunk.de/milliardengeschenk-fuer-springer-chef-doepfner-politik-erwaegt-aenderungen-bei-erbschaftsteuer-100.html"
           }
         ]
       }
@@ -141,53 +129,67 @@
       "link": "https://www.deutschlandfunk.de/suedamerikaner-stuetzen-infantino-106.html",
       "summary": "Die zehn Mitgliedsländer des südamerikanischen Fußballverbandes Conmebol stehen mit Blick auf die FIFA-Präsidentschaftswahl im März 2027 hinter Gianni Infantino. Der Conmebol-Rat habe einstimmig seine Unterstützung für die erneute Kandidatur Infantinos bekräftigt, hieß es in einer Mitteilung.",
       "image": "https://bilder.deutschlandfunk.de/aa/b4/d3/6b/aab4d36b-e5b6-4cfe-9aef-a8b34f3eee5d/infantino-diallo-fussball-100-1920x1920.jpg",
-      "published": "2026-11-21T03:13:20+01:00",
+      "published": "2026-11-21T08:41:43+01:00",
       "category": "Politik",
-      "score": 69.67
+      "score": 69.92
     },
     {
-      "id": "deutschlandfunk-43b8ec63c14b2493",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Fußball-Bundesliga - Bayern und Köln trennen sich 1:1 - Kane verletzt sich",
-      "link": "https://www.deutschlandfunk.de/bayern-und-koeln-trennen-sich-1-1-kane-verletzt-sich-100.html",
-      "summary": "In der Fußball-Bundesliga haben Bayern München und der 1. FC Köln unentschieden gespielt.",
-      "image": "https://bilder.deutschlandfunk.de/4f/98/67/54/4f986754-2edb-4b1b-9356-12ad43b2776c/bundesliga-bayern-koeln-102-1920x1920.jpg",
-      "published": "2026-11-21T03:13:20+01:00",
+      "id": "tagesschau-4e7e35da28a4ee1c",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "US-Gericht billigt Vergleich von Bayer mit Glyphosat-Klägern",
+      "link": "https://www.tagesschau.de/wirtschaft/bayer-glyphosat-vergleich-usa-100.html",
+      "summary": "Für den Chemiekonzern Bayer könnten die Klagen wegen des Unkraut-Vernichters Roundup in den USA bald der Vergangenheit angehören. Ein US-Gericht hat einen milliardenschweren Vergleich des Konzerns mit Vertretern der Kläger gebilligt.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/8abc89ba-9a3f-4036-b1d7-d035db21bc32/AAABnHAaiEY/AAABnSSvrFg/16x9-big/bayer-204.jpg?width=1920",
+      "published": "2026-11-21T04:50:50+01:00",
       "category": "Nachrichten",
-      "score": 66.67,
+      "score": 67.92,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "spiegel",
-            "title": "FC Bayern München: Verletzungssorgen nach Köln-Spiel – Kane und Olise angeschlagen",
-            "link": "https://www.spiegel.de/sport/fussball/fc-bayern-muenchen-verletzungssorgen-nach-koeln-spiel-kane-und-olise-angeschlagen-a-f44477ac-00ee-44ab-a005-c26d0e6965ef#ref=rss"
+            "source": "deutschlandfunk",
+            "title": "Monsanto - US-Gericht billigt Milliardenvergleich von Bayern zur Beilegung von Glyphosat-Klagen",
+            "link": "https://www.deutschlandfunk.de/us-gericht-billigt-milliardenvergleich-von-bayern-zur-beilegung-von-glyphosat-klagen-102.html"
           }
         ]
       }
     },
     {
-      "id": "spiegel-dc4ceea2301dab88",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "»Gen Z regelt«: Demos gehen zu Ende – das war der Protesttag in Europa",
-      "link": "https://www.spiegel.de/panorama/gesellschaft/gen-z-regelt-so-laufen-die-proteste-newsblog-a-5b6f94e2-5b27-476e-966d-50850ad73956#ref=rss",
-      "summary": "Die allermeisten Demonstrationen in den Großstädten sind vorbei. Der Zulauf war geringer als noch vor drei Wochen. Bis zum Abend kam es nur vereinzelt zu Auseinandersetzungen mit der Polizei. Die Entwicklungen im Minutenprotokoll.",
-      "image": "https://cdn.prod.www.spiegel.de/images/f11aa040-a822-406a-a294-cb8d69b98aa3_w1200_r1.778_fpx66.67_fpy50.jpg",
-      "published": "2026-11-20T20:00:00+01:00",
-      "category": "Panorama",
-      "score": 65.3,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Demonstrationen: Festnahmen und fliegende Flaschen nach Jugendprotesten",
-            "link": "https://www.handelsblatt.com/politik/deutschland/demonstrationen-festnahmen-und-fliegende-flaschen-nach-jugendprotesten/100271691.html"
-          }
-        ]
-      }
+      "id": "deutsche-welle-be43eefa04e28f68",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "Saudi-Arabien verschärft Vorgehen gegen Regimekritiker",
+      "link": "https://www.dw.com/de/saudi-arabien-verschärft-vorgehen-gegen-regimekritiker/a-80006017?maca=de-rss-de-all-1119-rdf",
+      "summary": "Die Menschenrechtslage in Saudi-Arabien bleibt düster. Allein 2026 fanden bisher 211 Hinrichtungen statt. Nutzt Saudi-Arabien den Iran-Krieg, um politischen Dissens zu unterdrücken?",
+      "image": "https://static.dw.com/image/79889199_6.jpg",
+      "published": "2026-11-21T05:14:00+00:00",
+      "category": "Nachrichten",
+      "score": 63.87
+    },
+    {
+      "id": "golem-a9f92f1ad1202a2b",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Bestehende Windkraftanlagen: Lasermessung verspricht mehr Strom aus Windkraft",
+      "link": "https://www.golem.de/news/bestehende-windkraftanlagen-lasermessung-verspricht-mehr-strom-aus-windkraft-2611-215481.html",
+      "summary": "Ein neues System soll die Verhältnisse für Windräder günstiger und schneller dokumentieren. Vorhandene Windparks könnten so optimiert werden. ( Windkraft , Lidar )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215481&amp;page=1&amp;ts=1795244222",
+      "published": "2026-11-21T07:57:02+01:00",
+      "category": "Technologie",
+      "score": 56.3
+    },
+    {
+      "id": "golem-e6b75d00c9ab9e7c",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Gebrauchte Hardware: KI-Workstation des armen Mannes schlägt Framework Desktop",
+      "link": "https://www.golem.de/news/gebrauchte-hardware-ki-workstation-des-armen-mannes-schlaegt-framework-desktop-2611-215421.html",
+      "summary": "Lokale KI wird immer interessanter, die Hardware aber teurer. Wir haben ein System gebaut, das ab 900 Euro Modelle bis 200 Milliarden Parameter stemmt. Von Johannes Hiltscher ( DIY-KI , AMD )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215421&amp;page=1&amp;ts=1795242601",
+      "published": "2026-11-21T07:30:01+01:00",
+      "category": "Technologie",
+      "score": 55.92
     },
     {
       "id": "deutsche-welle-1aa437096502ffee",
@@ -199,43 +201,31 @@
       "image": "https://static.dw.com/image/80002373_6.jpg",
       "published": "2026-11-20T15:16:00+00:00",
       "category": "Politik",
-      "score": 59.54
+      "score": 55.23
     },
     {
-      "id": "deutsche-welle-f2dcf8d9d490f8c6",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Pax Shenzhen: Viel Rhetorik, wenig Substanz",
-      "link": "https://www.dw.com/de/pax-shenzhen-viel-rhetorik-wenig-substanz/a-80000510?maca=de-rss-de-all-1119-rdf",
-      "summary": "Das Treffen der drei Atommächte brachte keine neuen Lösungsansätze für die Konflikte im Iran oder in der Ukraine. Trotz einer gemeinsamen Friedenserklärung konnten keine bedeutenden Fortschritte erzielt werden.",
-      "image": "https://static.dw.com/image/79989601_6.jpg",
-      "published": "2026-11-20T13:19:00+00:00",
-      "category": "Politik",
-      "score": 57.91
-    },
-    {
-      "id": "golem-f4dc6f80396237c2",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Speicherkrise: Valve geht die Steam Machine mit 2 TByte aus",
-      "link": "https://www.golem.de/news/speicherkrise-valve-geht-die-steam-machine-mit-2-tbyte-aus-2611-215472.html",
-      "summary": "Wegen knapper Speicherbauteile schließt Valve die Warteliste für das größere Modell. Wer mit 512 GByte auskommt, kann direkt bestellen. ( Steam Machine , Steam )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215472&amp;page=1&amp;ts=1795180441",
-      "published": "2026-11-20T14:14:01+01:00",
+      "id": "netzpolitik-96e174dcc78449ff",
+      "source": "netzpolitik",
+      "sourceWeight": 0.75,
+      "title": "KW 47: Die Woche, in der wir Dich brauchen",
+      "link": "https://netzpolitik.org/2026/kw-47-die-woche-in-der-wir-dich-brauchen/",
+      "summary": "Die 47. Kalenderwoche geht zu Ende. Wir haben 16 neue Texte mit insgesamt 142.299 Zeichen veröffentlicht. Willkommen zum netzpolitischen Wochenrückblick. – : Fraktal, generiert mit MandelBrowser von Tomasz Śmigielski Liebe Leser:innen, wer regelmäßig auf unsere Seite kommt, hat es schon bemerkt: Wir brauchen Geld und zwar noch rund 440.000 Euro bis zum Jahresende , damit wir auch im kommenden Jahr mit voller Kraft weiterarbeiten können. Falls Dir das an Informationen schon reicht: Spenden geht ganz unkompliziert unter netzpolitik.org/spenden . Und Spenden an uns sind sogar steuerlich absetzbar. Aber vielleicht von vorne und mit etwas Ruhe: Wir bekommen oft Nachfragen, warum der Betrag so hoch ist am Jahresende. Das hängt vor allem mit dem allgemeinen Spendenverhalten zusammen, denn mehr als ein Viertel aller Spenden – zumindest in Deutschland – fallen in die Advents- und Weihnachtszeit. Und da machen die tausenden Unterstützer:innen von netzpolitik.org keine Ausnahme. Deswegen sind wir in dieser Zeit immer etwas angespannt, wir erinnern mit knalligen Bannern, wie viel Geld fehlt und dass wir spendenfinanziert sind. Und wir erklären, warum sich die Unterstützung von netzpolitik. …",
+      "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/26-10-18.jpg",
+      "published": "2026-11-21T06:30:35+00:00",
       "category": "Technologie",
-      "score": 53.85
+      "score": 53.93
     },
     {
-      "id": "golem-a715d736adfae389",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Digital Networks / Cyber Security Act: Telekom fordert Bundesregierung zum Widerstand gegen EU auf",
-      "link": "https://www.golem.de/news/digital-networks-cyber-security-act-telekom-fordert-bundesregierung-zum-widerstand-gegen-eu-auf-2611-215494.html",
-      "summary": "Die EU will Kupferleitungen abschalten und chinesische Technologieanbieter breitflächig ausschließen. Die Telekom hält das für rechtswidrig. ( Telekom , DSL )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215494&amp;page=1&amp;ts=1795197062",
-      "published": "2026-11-20T18:51:02+01:00",
-      "category": "Politik",
-      "score": 52.69
+      "id": "netzpolitik-6ce66ec210afa20f",
+      "source": "netzpolitik",
+      "sourceWeight": 0.75,
+      "title": "Mobilfunk aus dem All: Kampf um die digitale Zukunft",
+      "link": "https://netzpolitik.org/2026/mobilfunk-aus-dem-all-kampf-um-die-digitale-zukunft/",
+      "summary": "Im Orbit wird die Zukunft digitaler Infrastruktur entschieden. Wer die Kontrolle über mobile Kommunikation erlangt, bestimmt mit, unter welchen Bedingungen sich Gesellschaften künftig im digitalen Raum austauschen. Über 10.000 Starlink-Satelliten umkreisen derzeit in niedriger Umlaufbahn die Erde. (Fotomontage) – CC-BY 4.0 : Wikideas1 / Bearbeitung: netzpolitik.org Seit einigen Jahren schon kreisen tausende Satelliten von SpaceX, Amazon und anderer Anbieter um die Erde. Ihre niedrigen Umlaufbahnen machen Produkte im Massenmarkt verfügbar, die noch vor kurzer Zeit undenkbar schienen: erschwingliche Internetverbindungen mit konkurrenzfähigen VDSL-Geschwindigkeiten und geringen Latenzen, fast überall auf der Welt. Die meisten dieser sogenannten Satelliten-Konstellationen sind derzeit im Aufbau, dürften jedoch bald einen weiteren Paradigmenwechsel einläuten. Was heute erdseitig meist noch klobige Schüsseln braucht, werden künftig handelsübliche Handys abwickeln. Neben Internetverbindungen wird darüber auch Sprachtelefonie möglich sein. …",
+      "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/Starlink_01-Montage-scaled-e1795193480738.jpg",
+      "published": "2026-11-21T06:28:19+00:00",
+      "category": "Technologie",
+      "score": 53.9
     }
   ]
 }
