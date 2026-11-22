@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T16:28:08.244835+00:00",
+  "generatedAt": "2026-11-22T17:27:39.075286+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/fbfd6c05-411d-4c85-8f98-050057fc6af4/AAABogMZlfs/AAABnSSvrFg/16x9-big/frachter-russland-sparta-100.jpg?width=1920",
       "published": "2026-11-22T12:41:16+01:00",
       "category": "Politik",
-      "score": 83.38,
+      "score": 82.94,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -37,9 +37,9 @@
       "link": "https://www.deutschlandfunk.de/london-und-kiew-vereinbaren-kooperation-beim-bau-von-drohnen-106.html",
       "summary": "Ukrainische Drohnen sollen künftig auch in Großbritannien produziert werden.",
       "image": "https://bilder.deutschlandfunk.de/4d/86/0e/ae/4d860eae-a654-4da8-9076-018c0a858b4a/ukrainische-drohne-krim-100-1920x1920.jpg",
-      "published": "2026-11-22T17:06:48+01:00",
+      "published": "2026-11-22T17:34:02+01:00",
       "category": "Politik",
-      "score": 77.7
+      "score": 77.26
     },
     {
       "id": "tagesschau-f6f627a176e3bbc0",
@@ -51,7 +51,7 @@
       "image": "https://images.tagesschau.de/image/bbdb6cd3-3bf8-4f12-9e32-9b5ea7ef500a/AAABnrvnwgE/AAABnSSvrFg/16x9-big/stoppt-femizide-banner-100.jpg?width=1920",
       "published": "2026-11-22T13:00:00+01:00",
       "category": "Politik",
-      "score": 75.38,
+      "score": 74.94,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -78,7 +78,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/55c4aa38-3cbe-4658-9e13-58381a1f39a6_w1200_r1.778_fpx50_fpy62.jpg",
       "published": "2026-11-22T13:55:00+01:00",
       "category": "Politik",
-      "score": 75.04
+      "score": 74.21
     },
     {
       "id": "handelsblatt-b595441cb53f8093",
@@ -90,7 +90,7 @@
       "image": "https://images.handelsblatt.com/HBM0Voduvxx3/cover/900/506/46/0/119/120/0.5/0.5/javier-milei.jpg",
       "published": "2026-11-22T11:10:00+00:00",
       "category": "Politik",
-      "score": 72.58
+      "score": 71.75
     },
     {
       "id": "golem-fd20673d06662977",
@@ -102,7 +102,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215510&amp;page=1&amp;ts=1795349042",
       "published": "2026-11-22T13:04:02+01:00",
       "category": "Wirtschaft",
-      "score": 72.33
+      "score": 71.51
     },
     {
       "id": "tagesschau-0ec524116a1fe266",
@@ -114,7 +114,7 @@
       "image": "https://images.tagesschau.de/image/98d0f323-0dad-4ac9-8b0b-6a153c4037a7/AAABof7AlbY/AAABnSSvrFg/16x9-big/tankstelle-398.jpg?width=1920",
       "published": "2026-11-21T16:55:59+01:00",
       "category": "Politik",
-      "score": 72.04,
+      "score": 71.21,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -132,6 +132,33 @@
       }
     },
     {
+      "id": "spiegel-7ccb43c695ad90b6",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "»BepiColombo«: Doppelsonde von ESA und Jaxa in Merkur-Umlaufbahn",
+      "link": "https://www.spiegel.de/wissenschaft/weltall/bepicolombo-doppelsonde-von-esa-und-jaxa-in-merkur-umlaufbahn-a-097c2f75-6331-4e5b-9a7d-014ab11f0596#ref=rss",
+      "summary": "2018 haben Europa und Japan ein Orbiter-Paar losgeschickt, um den sonnennahen Planeten Merkur zu erforschen. Nun ist »BepiColombo« in die Umlaufbahn eingetreten. Bald sollen sich die beiden Satelliten trennen und Daten erheben.",
+      "image": "https://cdn.prod.www.spiegel.de/images/59912b0e-e88b-431b-83e7-fe8087e54be4_w1200_r1.778_fpx56.23_fpy50.jpg",
+      "published": "2026-11-22T17:43:00+01:00",
+      "category": "Nachrichten",
+      "score": 71.06,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "\"BepiColombo\" - Merkur-Sonde ist in Umlaufbahn eingetreten",
+            "link": "https://www.deutschlandfunk.de/merkur-sonde-ist-in-umlaufbahn-eingetreten-102.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Sonnennächster Planet: Merkur-Sonde „BepiColombo“ umkreist Zielplaneten",
+            "link": "https://www.handelsblatt.com/technik/forschung-innovation/sonnennaechster-planet-merkur-sonde-bepicolombo-umkreist-zielplaneten/100271799.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "deutschlandfunk-055a66fd4eae31ce",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
@@ -139,9 +166,9 @@
       "link": "https://www.deutschlandfunk.de/kulturwissenschaftlerin-lobt-neuen-bond-darsteller-neue-form-von-maennlichkeit-102.html",
       "summary": "Die Literaturwissenschaftlerin Andrea Bartl hat die Wahl von Robert Pattinson als neuen Bond-Darsteller als \"hochspannend\" gelobt. Pattinson sei kein typischer Actionheld, sondern eher der \"melancholische und reflektierte Denker\". Er verkörpere eine neue Form von Männlichkeit.",
       "image": "https://bilder.deutschlandfunk.de/de/d8/3e/e5/ded83ee5-7727-4548-ab1a-57d5c03befdf/bond-100-1920x1920.jpg",
-      "published": "2026-11-22T17:06:48+01:00",
+      "published": "2026-11-22T17:34:02+01:00",
       "category": "Politik",
-      "score": 69.7
+      "score": 69.26
     },
     {
       "id": "deutschlandfunk-4bed5a69ebe23680",
@@ -151,9 +178,9 @@
       "link": "https://www.deutschlandfunk.de/oppositionsfuehrer-eisenkot-laedt-premier-netanjahus-likud-partei-zu-koalitionsgespraechen-ein-100.html",
       "summary": "In Israel hat der mit der Regierungsbildung beauftragte Oppositionsführer Eisenkot die rechtsgerichtete Likud-Partei des amtierenden Ministerpräsidenten Netanjahu zu Koalitionsgesprächen eingeladen.",
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_9/73/NOVA_973d0dfdef72eedf2fd7cecfe00b7b5f/craft-13535080-asset-100-1920x1920.jpg",
-      "published": "2026-11-22T17:06:48+01:00",
+      "published": "2026-11-22T17:34:02+01:00",
       "category": "Politik",
-      "score": 69.7
+      "score": 69.26
     },
     {
       "id": "handelsblatt-36380d14861115fd",
@@ -165,7 +192,7 @@
       "image": "https://images.handelsblatt.com/Rlq0sqcl57TN/cover/900/506/0/0/107/107/0.5/0.5/klimakonferenz-cop31.jpg",
       "published": "2026-11-22T14:17:26+00:00",
       "category": "Wirtschaft",
-      "score": 67.18
+      "score": 66.36
     },
     {
       "id": "handelsblatt-c13f9ad0a1bb2393",
@@ -177,7 +204,7 @@
       "image": "https://images.handelsblatt.com/AXlrRc-YyjQh/cover/900/506/0/0/313/312/0.5/0.5/baustelle-in-andratx-spanien-der-wohnungsbau-wird-zum-wahlkampfthema..jpg",
       "published": "2026-11-22T13:42:22+00:00",
       "category": "Politik",
-      "score": 66.7
+      "score": 65.87
     },
     {
       "id": "spiegel-4bb4473c8c2c7479",
@@ -189,7 +216,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/fb32c938-6d22-4951-9d00-3aebb0f18aae_w1200_r1.778_fpx41_fpy58.jpg",
       "published": "2026-11-22T16:58:00+01:00",
       "category": "Nachrichten",
-      "score": 66.68,
+      "score": 65.85,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -202,18 +229,6 @@
       }
     },
     {
-      "id": "spiegel-57c0814b94626946",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "NRW-Innenminister Herbert Reul gibt Update über Gesundheitszustand",
-      "link": "https://www.spiegel.de/politik/deutschland/nrw-innenminister-herbert-reul-gibt-update-ueber-gesundheitszustand-a-1508172b-e030-493e-8b8a-03706f84c6bd#ref=rss",
-      "summary": "Rund sechs Wochen nach seinem Sturz meldet sich Herbert Reul auf Instagram zu Wort. Nordrhein-Westfalens Innenminister erzählt dort, wie anstrengend die Reha sei – und wie er dabei vorankomme.",
-      "image": "https://cdn.prod.www.spiegel.de/images/7c87f0ab-1693-4e3e-8e34-b92b0356739c_w1200_r1.778_fpx100_fpy1.jpg",
-      "published": "2026-11-22T14:24:00+01:00",
-      "category": "Politik",
-      "score": 59.44
-    },
-    {
       "id": "netzpolitik-abd9edbd9b1e83df",
       "source": "netzpolitik",
       "sourceWeight": 0.75,
@@ -223,19 +238,19 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/Elke-Schilling-Silbernetz.jpg",
       "published": "2026-11-22T07:23:19+00:00",
       "category": "Politik",
-      "score": 58.43
+      "score": 57.61
     },
     {
-      "id": "deutsche-welle-ea3cb8ebe7388634",
+      "id": "deutsche-welle-490c510c98f5de96",
       "source": "deutsche-welle",
       "sourceWeight": 0.9,
-      "title": "Deutschland plant schärferes Vorgehen gegen Femizide",
-      "link": "https://www.dw.com/de/deutschland-plant-schärferes-vorgehen-gegen-femizide/a-80013513?maca=de-rss-de-all-1119-rdf",
-      "summary": "Wer eine Frau aus Besitzdenken oder wegen einer Trennung tötet, soll künftig leichter als Mörder verurteilt werden. Ein Gesetzentwurf sieht dafür Änderungen im Strafgesetzbuch vor.",
-      "image": "https://static.dw.com/image/78121325_6.jpg",
-      "published": "2026-11-22T12:34:00+00:00",
+      "title": "Die COP31 scheiterte an der Frage, wie gefährdete Länder unterstützt werden sollen und wie das Ende von Kohle, Öl und Gas gestaltet werden soll",
+      "link": "https://www.dw.com/de/die-cop31-scheiterte-an-der-frage-wie-gefährdete-länder-unterstützt-werden-sollen-und-wie-das-ende-von-kohle-öl-und-gas-gestaltet-werden-soll/a-80014116?maca=de-rss-de-all-1119-rdf",
+      "summary": "Nach zwei Wochen zäher Verhandlungen ist der Klimagipfel COP31 ohne Einigung zu Ende gegangen. Damit wird der Ausstieg aus den fossilen Brennstoffen wieder fraglich. Ungelöst ist auch die Finanzierung der Klimaanpassung.",
+      "image": "https://static.dw.com/image/80012458_6.jpg",
+      "published": "2026-11-22T16:31:00+00:00",
       "category": "Nachrichten",
-      "score": 54.75
+      "score": 57.21
     }
   ]
 }
