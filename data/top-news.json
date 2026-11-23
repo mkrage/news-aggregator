@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T03:50:02.653827+00:00",
+  "generatedAt": "2026-11-23T04:18:09.405943+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,19 +12,19 @@
       "image": "https://images.tagesschau.de/image/0f5b220e-cf1e-49af-b9d0-f502ac4a9ee5/AAABogRppfc/AAABnSSvrFg/16x9-big/libyen-schiff-102.jpg?width=1920",
       "published": "2026-11-23T01:51:02+01:00",
       "category": "Politik",
-      "score": 91.31,
+      "score": 91.43,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
+            "source": "spiegel",
+            "title": "Libyen: Uno fordert Untersuchung nach Angriffen auf Schiffe vor Bengasi",
+            "link": "https://www.spiegel.de/ausland/libyen-uno-fordert-untersuchung-nach-angriffen-auf-schiffe-vor-bengasi-a-0843553c-ae70-475c-9d9f-9a64df4122a3#ref=rss"
+          },
+          {
             "source": "deutschlandfunk",
             "title": "Mutmaßlicher Drohnenangriff - Explosion auf russischem Schiff in Libyen",
             "link": "https://www.deutschlandfunk.de/explosion-auf-russischem-schiff-in-libyen-104.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Libyen: Explosion auf russischem Schiff – ukrainischer Angriff vermutet",
-            "link": "https://www.spiegel.de/ausland/libyen-explosion-auf-russischem-schiff-ukrainischer-angriff-vermutet-a-bc74e064-fd7a-4770-aebd-0d742578cfeb#ref=rss"
           }
         ]
       }
@@ -39,7 +39,7 @@
       "image": "https://images.tagesschau.de/image/4f58fa7c-dddf-4b06-8589-0fa4f10d7fd9/AAABogTfoCQ/AAABnSSvrFg/16x9-big/wdr-parteitag-der-afd-in-muelheim-an-der-ruhr-100.jpg?width=1920",
       "published": "2026-11-22T15:20:00+01:00",
       "category": "Politik",
-      "score": 78.63,
+      "score": 78.24,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -61,7 +61,7 @@
       "image": "https://images.tagesschau.de/image/682da354-0dfb-470b-8c2f-1984242c15d0/AAABogPvbQw/AAABnSSvrFg/16x9-big/proteste-istanbul-124.jpg?width=1920",
       "published": "2026-11-22T17:19:14+01:00",
       "category": "Nachrichten",
-      "score": 72.31,
+      "score": 71.92,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -88,7 +88,7 @@
       "image": "https://images.tagesschau.de/image/86168682-dd57-4d10-8eda-1f1910d9925c/AAABogKIbOs/AAABnSSvrFg/16x9-big/cop31-120.jpg?width=1920",
       "published": "2026-11-22T06:21:04+01:00",
       "category": "Nachrichten",
-      "score": 72.31,
+      "score": 71.92,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -115,7 +115,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/3495576f-3f84-48a1-8390-b0ed210aa8bf_w1200_r1.778_fpx55.97_fpy49.99.jpg",
       "published": "2026-11-22T20:13:00+01:00",
       "category": "Politik",
-      "score": 70.82
+      "score": 70.43
     },
     {
       "id": "deutschlandfunk-de37e0a1097947ae",
@@ -127,7 +127,7 @@
       "image": "https://bilder.deutschlandfunk.de/e1/06/7d/e2/e1067de2-6230-41ae-943b-92085b1ff504/die-nachrichten-kachel-2176-zu1224-100-768x768.jpg",
       "published": "2026-11-23T04:23:16+01:00",
       "category": "Politik",
-      "score": 69.63
+      "score": 69.24
     },
     {
       "id": "deutschlandfunk-a14afb07cdeb488c",
@@ -139,7 +139,7 @@
       "image": "https://bilder.deutschlandfunk.de/ed/f5/f4/37/edf5f437-cde6-4304-852b-cd0defaac400/zverev-alcaraz-100-1920x1920.jpg",
       "published": "2026-11-23T04:23:16+01:00",
       "category": "Nachrichten",
-      "score": 66.63,
+      "score": 66.24,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -147,6 +147,28 @@
             "source": "spiegel",
             "title": "ATP Finals: Alexander Zverev verpasst Krönung seines Traumjahres gegen Carlos Alcaraz",
             "link": "https://www.spiegel.de/sport/tennis/atp-finals-alexander-zverev-verpasst-kroenung-seines-traumjahres-gegen-carlos-alcaraz-a-8eff0478-ee60-4c90-bba6-7c36949c79ae#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-cb4eceaea6baf0a6",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Belgien - Einschränkungen im Flugverkehr wegen Beteiligung der Lotsen an landesweiten Streiks",
+      "link": "https://www.deutschlandfunk.de/einschraenkungen-im-flugverkehr-wegen-beteiligung-der-lotsen-an-landesweiten-streiks-102.html",
+      "summary": "In Belgien müssen Flugreisende den ganzen Tag mit Einschränkungen rechnen.",
+      "image": "https://bilder.deutschlandfunk.de/FI/LE/_f/5a/FILE_f5add6df1cd976bbf7ff711aa9f54e1f/flughafen60506139-jpg-100-768x768.jpg",
+      "published": "2026-11-23T04:23:16+01:00",
+      "category": "Nachrichten",
+      "score": 66.24,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Belgien: Streik-Tag legt Flugverkehr am Montag lahm",
+            "link": "https://www.spiegel.de/wirtschaft/service/belgien-streik-tag-legt-flugverkehr-am-montag-lahm-a-6cd7989a-03e5-4c6f-8c81-3d11ba1e05dc#ref=rss"
           }
         ]
       }
@@ -161,29 +183,7 @@
       "image": "https://images.handelsblatt.com/e8U7T1xoajPX/cover/900/506/0/0/107/106/0.5/0.5/volkswagen.jpg",
       "published": "2026-11-23T03:00:30+00:00",
       "category": "Technologie",
-      "score": 65.31
-    },
-    {
-      "id": "spiegel-ea232b475685d16f",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Belgien: Streik-Tag legt Flugverkehr am Montag lahm",
-      "link": "https://www.spiegel.de/wirtschaft/service/belgien-streik-tag-legt-flugverkehr-am-montag-lahm-a-6cd7989a-03e5-4c6f-8c81-3d11ba1e05dc#ref=rss",
-      "summary": "Wer am Montag nach Belgien fliegen will – oder von dort starten möchte – hat schlechte Karten: Die Fluglotsen legen ihre Arbeit nieder. Von dem Streiktag könnten auch der öffentliche Nahverkehr, Schulen und die Müllabfuhr betroffen sein.",
-      "image": "https://cdn.prod.www.spiegel.de/images/ab83108e-f64f-4f58-a4cf-f3dcea1fd67f_w1200_r1.778_fpx49_fpy45.jpg",
-      "published": "2026-11-23T01:24:00+01:00",
-      "category": "Nachrichten",
-      "score": 64.14,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Belgien: Streik legt belgischen Flugverkehr am Montag lahm",
-            "link": "https://www.handelsblatt.com/politik/international/belgien-streik-flugverkehr-steht-am-montag-von-7-bis-21-uhr-fast-still/100271872.html"
-          }
-        ]
-      }
+      "score": 64.92
     },
     {
       "id": "handelsblatt-cfb30068ddf6fb4b",
@@ -195,7 +195,7 @@
       "image": "https://images.handelsblatt.com/9gcgY3HzhrIY/cover/900/506/0/0/313/312/0.5/0.5/nato-assembly-meets-in-berlin-berlin-germany-november-21-2026-delegates-attend-committee-sessio.jpg",
       "published": "2026-11-22T11:23:00+00:00",
       "category": "Politik",
-      "score": 63.29
+      "score": 62.9
     },
     {
       "id": "handelsblatt-b595441cb53f8093",
@@ -207,7 +207,7 @@
       "image": "https://images.handelsblatt.com/HBM0Voduvxx3/cover/900/506/46/0/119/120/0.5/0.5/javier-milei.jpg",
       "published": "2026-11-22T11:10:00+00:00",
       "category": "Politik",
-      "score": 63.11
+      "score": 62.72
     },
     {
       "id": "golem-fd20673d06662977",
@@ -219,7 +219,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215510&amp;page=1&amp;ts=1795349042",
       "published": "2026-11-22T13:04:02+01:00",
       "category": "Wirtschaft",
-      "score": 62.86
+      "score": 62.47
     },
     {
       "id": "spiegel-6a2b34a3296f43e6",
@@ -231,19 +231,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/f7c57429-0702-4760-8516-ed70b15b7553_w1200_r1.778_fpx58_fpy43.jpg",
       "published": "2026-11-22T23:14:00+01:00",
       "category": "Nachrichten",
-      "score": 62.33
-    },
-    {
-      "id": "deutschlandfunk-0fd2a872a44b21bb",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Klimaschutz - Licht und Schatten am Rande der COP31",
-      "link": "https://www.deutschlandfunk.de/licht-und-schatten-am-rande-der-cop-102.html",
-      "summary": "Das Hauptziel der Klimakonferenz ist am Fehlen einer Abschlusserklärung gescheitert. Dennoch gab es Ergebnisse, so hatte etwa Bundesumweltminister Schneider das Treffen bereits einige Tage vor ihrem Ende als Erfolg gewertet. Jedoch gab es abseits der COP31 auch weitere Rückschläge.",
-      "image": "https://bilder.deutschlandfunk.de/c8/78/8a/56/c8788a56-abe5-4ceb-98e9-6d0802f0a623/weltklimakonferenz-antalya-cop-100-1920x1920.jpg",
-      "published": "2026-11-23T04:23:16+01:00",
-      "category": "Politik",
-      "score": 61.63
+      "score": 61.94
     },
     {
       "id": "deutsche-welle-320cf15e9e34fedf",
@@ -255,7 +243,29 @@
       "image": "https://static.dw.com/image/80003412_6.jpg",
       "published": "2026-11-22T20:30:00+00:00",
       "category": "Technologie",
-      "score": 59.89
+      "score": 59.5
+    },
+    {
+      "id": "spiegel-25f48c08362a07f5",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Uno-Klimakonferenz: So chaotisch ging es auf vergangenen Weltklimakonferenzen zu",
+      "link": "https://www.spiegel.de/panorama/uno-klimakonferenz-so-chaotisch-ging-es-auf-vergangenen-weltklimakonferenzen-zu-a-33ee75f2-dfa1-41f3-aa8a-8f7e1547244f#ref=rss",
+      "summary": "Die COP31 gilt als gescheitert, die Mitglieder konnten sich nicht auf eine Abschlusserklärung einigen. In Antalya klemmte es allerdings nicht zum ersten Mal. Der Foto-Rückblick.",
+      "image": "https://cdn.prod.www.spiegel.de/images/47e4d5a6-72b0-4c90-b7d3-9bf62aaf5809_w1200_r1.778_fpx42_fpy45.jpg",
+      "published": "2026-11-22T19:48:00+01:00",
+      "category": "Nachrichten",
+      "score": 59.08,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutsche-welle",
+            "title": "UN-Klimakonferenz COP31 ist in Antalya gescheitert",
+            "link": "https://www.dw.com/de/un-klimakonferenz-cop31-ist-in-antalya-gescheitert/a-80012944?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
     }
   ]
 }
