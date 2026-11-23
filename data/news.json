@@ -1,573 +1,461 @@
 {
-  "generatedAt": "2026-11-22T22:53:40.200418+00:00",
-  "count": 206,
+  "generatedAt": "2026-11-23T03:50:02.653827+00:00",
+  "count": 178,
   "articles": [
     {
-      "id": "deutschlandfunk-c66a014948a8f895",
+      "id": "tagesschau-7668db01ec09d7b3",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Brand in indonesischer Süßwarenfabrik - viele Tote befürchtet",
+      "link": "https://www.tagesschau.de/ausland/asien/indonesien-brand-fabrik-tote-vermisste-100.html",
+      "summary": "Nach einem Feuer in einer Fabrik westlich von Indonesiens Hauptstadt Jakarta gibt es mehrere Tote. Etwa 60 Menschen sollen sich zum Zeitpunkt des Ausbruchs im Gebäude aufgehalten haben. Viele werden noch vermisst.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/77451618-e14b-487b-99a5-cc5151a61333/AAABogO7eo4/AAABnSSvrFg/16x9-big/indonesien-490.jpg?width=1920",
+      "published": "2026-11-23T04:40:19+01:00",
+      "category": "Nachrichten",
+      "score": 59.86
+    },
+    {
+      "id": "deutschlandfunk-b586f4c09b84fa46",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Haushaltsstreit - SPD: Kein Abbau der Kalten Progression ohne dauerhafte Gegenfinanzierung",
+      "link": "https://www.deutschlandfunk.de/spd-kein-abbau-der-kalten-progression-ohne-dauerhafte-gegenfinanzierung-102.html",
+      "summary": "Der SPD-Haushaltspolitiker Rudolph hat die Forderung nach einem Ausgleich der sogenannten \"Kalten Progression\" bei der Steuer zurückgewiesen.",
+      "image": "https://bilder.deutschlandfunk.de/5c/5b/ac/88/5c5bac88-74c4-449b-9975-8b5547d70988/haushaltsexperte-spd-thorsten-rudolph-bereinigungssitzung-ergebniss-bundeshaushalt-100-1920x1920.jpg",
+      "published": "2026-11-23T04:23:16+01:00",
+      "category": "Nachrichten",
+      "score": 58.63
+    },
+    {
+      "id": "deutschlandfunk-40d1a790e8ed262e",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Tarifverhandlungen - Weitere Warnstreiks in der Metall- und Elektroindustrie",
+      "link": "https://www.deutschlandfunk.de/weitere-warnstreiks-in-der-metall-und-elektroindustrie-104.html",
+      "summary": "In den Tarifverhandlungen der Metall- und Elektroindustrie hat die IG Metall für heute zu weiteren Warnstreiks aufgerufen.",
+      "image": "https://bilder.deutschlandfunk.de/FI/LE/_5/37/FILE_537fac075587e0fd4045b87391645c8b/133823390-jpg-100-768x768.jpg",
+      "published": "2026-11-23T04:23:16+01:00",
+      "category": "Technologie",
+      "score": 67.63
+    },
+    {
+      "id": "deutschlandfunk-cb4eceaea6baf0a6",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Belgien - Einschränkungen im Flugverkehr wegen Beteiligung der Lotsen an landesweiten Streiks",
+      "link": "https://www.deutschlandfunk.de/einschraenkungen-im-flugverkehr-wegen-beteiligung-der-lotsen-an-landesweiten-streiks-102.html",
+      "summary": "In Belgien müssen Flugreisende den ganzen Tag mit Einschränkungen rechnen.",
+      "image": "https://bilder.deutschlandfunk.de/FI/LE/_f/5a/FILE_f5add6df1cd976bbf7ff711aa9f54e1f/flughafen60506139-jpg-100-768x768.jpg",
+      "published": "2026-11-23T04:23:16+01:00",
+      "category": "Nachrichten",
+      "score": 58.63
+    },
+    {
+      "id": "deutschlandfunk-ba99654739145fb4",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "NATO - Beratungen über Verletzungen des polnischen Luftraums durch Russland",
+      "link": "https://www.deutschlandfunk.de/beratungen-ueber-verletzungen-des-polnischen-luftraums-durch-russland-102.html",
+      "summary": "Die 32 NATO-Staaten wollen heute in Brüssel über die jüngsten Verletzungen des polnischen Luftraums durch Russland beraten.",
+      "image": "https://bilder.deutschlandfunk.de/3a/64/b6/85/3a64b685-4fd1-488f-a6bb-11c2c1ed0d68/nato-116-1920x1920.jpg",
+      "published": "2026-11-23T04:23:16+01:00",
+      "category": "Nachrichten",
+      "score": 58.63
+    },
+    {
+      "id": "deutschlandfunk-9af0b83721318093",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Bundespräsident - Steinmeier beginnt viertägige Afrikareise",
+      "link": "https://www.deutschlandfunk.de/steinmeier-beginnt-viertaegige-afrikareise-100.html",
+      "summary": "Bundespräsident Steinmeier beginnt heute eine viertägige Afrikareise.",
+      "image": "https://bilder.deutschlandfunk.de/c2/eb/8b/85/c2eb8b85-79e7-45dc-959c-7d26b4d5fcfb/budespraesident-steinmeier-reise-tuerkei-besuch-jubilaeum-beziehungen-100-1920x1920.jpg",
+      "published": "2026-11-23T04:23:16+01:00",
+      "category": "Nachrichten",
+      "score": 58.63
+    },
+    {
+      "id": "deutschlandfunk-f73ba534ea90317a",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Bayern - Freie Wähler wollen Aiwanger-Nachfolge im Wirtschaftsministerium bekanntgeben",
+      "link": "https://www.deutschlandfunk.de/freie-waehler-wollen-aiwanger-nachfolge-im-wirtschaftsministerium-bekanntgeben-100.html",
+      "summary": "Nach dem Tod des bayerischen Wirtschaftsministers und stellvertretenden Ministerpräsidenten Aiwanger wollen die Freien Wähler heute die Nachfolge bekanntgeben.",
+      "image": "https://bilder.deutschlandfunk.de/6f/71/73/34/6f717334-1497-40aa-a640-3fb59691ac0a/hubert-aiwanger-ist-gestorben-100-1920x1920.jpg",
+      "published": "2026-11-23T04:23:16+01:00",
+      "category": "Politik",
+      "score": 61.63
+    },
+    {
+      "id": "deutschlandfunk-2ec23cda95c97e0c",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
       "title": "COP31 - Nach Scheitern: Bundesregierung wirft Ölstaaten Blockade der Klimakonferenz vor",
-      "link": "https://www.deutschlandfunk.de/nach-scheitern-bundesregierung-wirft-oelstaaten-blockade-der-klimakonferenz-vor-100.html",
+      "link": "https://www.deutschlandfunk.de/nach-scheitern-bundesregierung-wirft-oelstaaten-blockade-der-klimakonferenz-vor-102.html",
       "summary": "Die Bundesregierung macht Ölstaaten wie Saudi-Arabien und Russland wegen ihres Agierens auf der Weltklimakonferenz in der Türkei Vorwürfe. Die längste Weltklimakonferenz aller Zeiten hatte sich am Sonntag trotz zweiwöchiger Verhandlungen nicht auf eine Abschlusserklärung einigen können. Mehrere Staaten - darunter Deutschland - lehnten im Plenum den von der türkisch-australischen Konferenzleitung vorgelegten \"Antalya-Pakt\" ab, ebenso die EU.",
       "image": "https://bilder.deutschlandfunk.de/34/b9/74/bf/34b974bf-bddd-4df4-8d06-eca27c4df5b3/umweltminister-schneider-cop-antalya-weltklimakonferenz-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
+      "published": "2026-11-23T04:23:16+01:00",
       "category": "Politik",
-      "score": 72.58
+      "score": 72.31
     },
     {
-      "id": "deutschlandfunk-8b5b94bd3a550c89",
+      "id": "deutschlandfunk-0fd2a872a44b21bb",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
       "title": "Klimaschutz - Licht und Schatten am Rande der COP31",
-      "link": "https://www.deutschlandfunk.de/licht-und-schatten-am-rande-der-cop-100.html",
+      "link": "https://www.deutschlandfunk.de/licht-und-schatten-am-rande-der-cop-102.html",
       "summary": "Das Hauptziel der Klimakonferenz ist am Fehlen einer Abschlusserklärung gescheitert. Dennoch gab es Ergebnisse, so hatte etwa Bundesumweltminister Schneider das Treffen bereits einige Tage vor ihrem Ende als Erfolg gewertet. Jedoch gab es abseits der COP31 auch weitere Rückschläge.",
       "image": "https://bilder.deutschlandfunk.de/c8/78/8a/56/c8788a56-abe5-4ceb-98e9-6d0802f0a623/weltklimakonferenz-antalya-cop-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
+      "published": "2026-11-23T04:23:16+01:00",
       "category": "Politik",
-      "score": 61.9
+      "score": 61.63
     },
     {
-      "id": "deutschlandfunk-96b36347cc5d33c1",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Türkei - Tausende demonstrieren in Istanbul für Pressefreiheit",
-      "link": "https://www.deutschlandfunk.de/tausende-demonstrieren-in-istanbul-fuer-pressefreiheit-102.html",
-      "summary": "Nach der Schließung mehrerer oppositionsnaher Medien in der Türkei hat es in Istanbul Demonstrationen für Presse- und Meinungsfreiheit gegeben.",
-      "image": "https://bilder.deutschlandfunk.de/98/20/07/50/98200750-0ac0-4161-bccd-8ace18c3ad96/istanbul-demonstration-106-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Nachrichten",
-      "score": 72.58
-    },
-    {
-      "id": "deutschlandfunk-a3911fd03562ae77",
+      "id": "deutschlandfunk-de37e0a1097947ae",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
       "title": "Ukraine - Tote und Verletzte bei russischen Angriffen auf Vororte Kiews",
-      "link": "https://www.deutschlandfunk.de/tote-und-verletzte-bei-russischen-angriffen-auf-vororte-kiews-102.html",
+      "link": "https://www.deutschlandfunk.de/tote-und-verletzte-bei-russischen-angriffen-auf-vororte-kiews-104.html",
       "summary": "Bei russischen Angriffen auf Vororte der ukrainischen Hauptstadt Kiew sind mehrere Menschen getötet worden.",
       "image": "https://bilder.deutschlandfunk.de/e1/06/7d/e2/e1067de2-6230-41ae-943b-92085b1ff504/die-nachrichten-kachel-2176-zu1224-100-768x768.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
+      "published": "2026-11-23T04:23:16+01:00",
       "category": "Politik",
-      "score": 69.9
+      "score": 69.63
     },
     {
-      "id": "deutschlandfunk-61686f79e09c641b",
+      "id": "deutschlandfunk-3eaa40634c35cb95",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
       "title": "NRW - AfD-Parteitag in Nordrhein-Westfalen einigt sich auf Programm für Landtagswahl",
-      "link": "https://www.deutschlandfunk.de/afd-parteitag-in-nordrhein-westfalen-einigt-sich-auf-programm-fuer-landtagswahl-102.html",
+      "link": "https://www.deutschlandfunk.de/afd-parteitag-in-nordrhein-westfalen-einigt-sich-auf-programm-fuer-landtagswahl-106.html",
       "summary": "Die nordrhein-westfälische AfD hat ihr Wahlprogramm für die Landtagswahl im kommenden Jahr beschlossen.",
       "image": "https://bilder.deutschlandfunk.de/48/52/ba/2e/4852ba2e-0d09-4d4f-8ec8-b8c89064da55/afd-nrw-marl-delegierte-aufstellungsparteitag-stimmkarten-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
+      "published": "2026-11-23T04:23:16+01:00",
       "category": "Politik",
-      "score": 78.9
+      "score": 78.63
     },
     {
-      "id": "deutschlandfunk-57ebae2d44209a2d",
+      "id": "deutschlandfunk-fb094d1af16371d4",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Türkei - Tausende demonstrieren in Istanbul für Pressefreiheit",
+      "link": "https://www.deutschlandfunk.de/tausende-demonstrieren-in-istanbul-fuer-pressefreiheit-108.html",
+      "summary": "Nach der Schließung mehrerer oppositionsnaher Medien in der Türkei hat es in Istanbul Demonstrationen für Presse- und Meinungsfreiheit gegeben.",
+      "image": "https://bilder.deutschlandfunk.de/98/20/07/50/98200750-0ac0-4161-bccd-8ace18c3ad96/istanbul-demonstration-106-1920x1920.jpg",
+      "published": "2026-11-23T04:23:16+01:00",
+      "category": "Nachrichten",
+      "score": 72.31
+    },
+    {
+      "id": "deutschlandfunk-bfb3b21dae4c4429",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
       "title": "Midterms - US-Demokraten gewinnen weiteren Sitz im Repräsentantenhaus",
-      "link": "https://www.deutschlandfunk.de/us-demokraten-gewinnen-weiteren-sitz-im-repraesentantenhaus-100.html",
+      "link": "https://www.deutschlandfunk.de/us-demokraten-gewinnen-weiteren-sitz-im-repraesentantenhaus-104.html",
       "summary": "In den USA hat die Demokratische Partei einen weiteren Sitz im Repräsentantenhaus gewonnen.",
       "image": "https://bilder.deutschlandfunk.de/db/ae/9f/1c/dbae9f1c-c212-45e1-b3de-5131b0d94d33/midterms-capitol-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
+      "published": "2026-11-23T04:23:16+01:00",
       "category": "Nachrichten",
-      "score": 66.9
+      "score": 58.63
     },
     {
-      "id": "deutschlandfunk-40d927f0f097ec26",
+      "id": "deutschlandfunk-4302d6c4b9be1d6d",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
       "title": "Drogen - Syrische Behörden vernichten 400 Millionen Captagon-Tabletten",
-      "link": "https://www.deutschlandfunk.de/syrische-behoerden-vernichten-400-millionen-captagon-tabletten-100.html",
+      "link": "https://www.deutschlandfunk.de/syrische-behoerden-vernichten-400-millionen-captagon-tabletten-108.html",
       "summary": "Die syrischen Behörden haben nach eigenen Angaben große Mengen beschlagnahmter Drogen vernichtet.",
       "image": "https://bilder.deutschlandfunk.de/ce/98/db/8d/ce98db8d-846f-4d01-982b-d531af285fac/droge-pille-captagon-schmuggler-kokain-angststoerung-halluzinationen-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
+      "published": "2026-11-23T04:23:16+01:00",
       "category": "Nachrichten",
-      "score": 58.9
+      "score": 58.63
     },
     {
-      "id": "deutschlandfunk-cbcf205396ee4b58",
+      "id": "deutschlandfunk-a6ca9f885653d098",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
       "title": "Khartum - UNO meldet Angriff auf Wohnviertel im Sudan - Augenzeuge berichtet von Verschütteten",
-      "link": "https://www.deutschlandfunk.de/uno-meldet-angriff-auf-wohnviertel-im-sudan-augenzeuge-berichtet-von-verschuetteten-100.html",
+      "link": "https://www.deutschlandfunk.de/uno-meldet-angriff-auf-wohnviertel-im-sudan-augenzeuge-berichtet-von-verschuetteten-106.html",
       "summary": "In der Region der sudanesischen Hauptstadt Khartum sind Wohnhäuser mit Drohnen angegriffen worden.",
       "image": "https://bilder.deutschlandfunk.de/NO/VA/_b/02/NOVA_b02a2bada282a5d33d041abf52c39f6d/craft-13285179-asset-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
+      "published": "2026-11-23T04:23:16+01:00",
       "category": "Nachrichten",
-      "score": 58.9
+      "score": 58.63
     },
     {
-      "id": "deutschlandfunk-d58ae541748dc9a3",
+      "id": "deutschlandfunk-b21c28f32c08a2dc",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
       "title": "Mutmaßlicher Drohnenangriff - Explosion auf russischem Schiff in Libyen",
-      "link": "https://www.deutschlandfunk.de/explosion-auf-russischem-schiff-in-libyen-100.html",
+      "link": "https://www.deutschlandfunk.de/explosion-auf-russischem-schiff-in-libyen-104.html",
       "summary": "Ein russisches Schiff ist an einem Marinestützpunkt im libyschen Bengasi nach Angaben der dortigen Behörden vermutlich von einer Drohne getroffen worden.",
       "image": "https://bilder.deutschlandfunk.de/e1/06/7d/e2/e1067de2-6230-41ae-943b-92085b1ff504/die-nachrichten-kachel-2176-zu1224-100-768x768.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
+      "published": "2026-11-23T04:23:16+01:00",
       "category": "Nachrichten",
-      "score": 94.9
+      "score": 91.31
     },
     {
-      "id": "deutschlandfunk-7cee568a2b857bff",
+      "id": "deutschlandfunk-456a7afd78f039ca",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Rheinland-Pfalz - \"Ein Parlament ist keine Showbühne\": Landtagspräsident Lammert kritisiert Social-Media-Inszenierung von Abgeordneten",
-      "link": "https://www.deutschlandfunk.de/ein-parlament-ist-keine-showbuehne-landtagspraesident-lammert-kritisiert-social-media-inszenierung-v-102.html",
-      "summary": "Der rheinland-pfälzische Landtagspräsident Matthias Lammert hat eine Entwicklung problematisiert, wonach Abgeordnete Plenarsitzungen als Social-Media-Spektakel zweckentfremden. Wenn so etwas geschehe, zeuge es von einem fehlgeleiteten Verständnis dessen, wozu Politik eigentlich da sei, sagte der CDU-Politiker bei einem Festakt in Mainz zur Erinnerung an die erste Sitzung der Beratenden Landesversammlung vor 80 Jahren.",
-      "image": "https://bilder.deutschlandfunk.de/df/ac/16/5c/dfac165c-fa7d-4411-b107-e79608d9c5b1/matthias-lammert-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
+      "title": "Fußball - Bremen gewinnt Nord-Derby deutlich",
+      "link": "https://www.deutschlandfunk.de/bremen-gewinnt-nord-derby-deutlich-100.html",
+      "summary": "In den Sonntagsspielen der Fußball-Bundesliga gab es folgende Ergebnisse:",
+      "image": "https://bilder.deutschlandfunk.de/FI/LE/_b/3f/FILE_b3f3bce66a168437cb2b39578c4e9f06/bundesliga-jpg-102-512x512.jpg",
+      "published": "2026-11-23T04:23:16+01:00",
       "category": "Nachrichten",
-      "score": 58.9
+      "score": 58.63
     },
     {
-      "id": "deutschlandfunk-13aec5bf894e2f6b",
+      "id": "deutschlandfunk-a14afb07cdeb488c",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "\"NS-Gedankengut\" - Nach FAZ-Beitrag zu Tillschneider: Prien macht Druck für AfD-Verbot",
-      "link": "https://www.deutschlandfunk.de/nach-faz-beitrag-zu-tillschneider-prien-macht-druck-fuer-afd-verbot-100.html",
-      "summary": "Bundesbildungsministerin Prien sieht sich in ihrer Haltung zu einem möglichen AfD-Verbotsverfahren bestätigt. Auf ihrem privaten Profil bei X erklärte die CDU-Politikerin, der AfD-Vizepräsident eines deutschen Landtags knüpfe 2026 unverhohlen an nationalsozialistisches Gedankengut an.",
-      "image": "https://bilder.deutschlandfunk.de/ca/f4/4c/80/caf44c80-8d44-4bbe-8aa0-c33c72b51a28/afd-sachsen-anhalt-tillschneider-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Politik",
-      "score": 61.9
-    },
-    {
-      "id": "deutschlandfunk-06d6b27508572f2c",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Fußball-Bundesliga - Siege für Bremen und Augsburg",
-      "link": "https://www.deutschlandfunk.de/siege-fuer-bremen-und-augsburg-102.html",
-      "summary": "Im zweiten und letzten Sonntagsspiel der Fußball-Bundesliga hat Werder Bremen den Hamburger SV deutlich geschlagen. Im ersten Spiel des Tages gewann der FC Augsburg das Krisen-Duell gegen den FSV Mainz 05.",
-      "image": "https://bilder.deutschlandfunk.de/da/53/8c/a9/da538ca9-a127-4789-a073-8c0a7abcf9c8/bremen-hamburg-100-1280x1280.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
+      "title": "Tennis - Alexander Zverev verpasst dritten Titel bei ATP Finals",
+      "link": "https://www.deutschlandfunk.de/alexander-zverev-verpasst-dritten-titel-bei-atp-finals-106.html",
+      "summary": "Der deutsche Tennis-Profi Alexander Zverev hat seinen dritten Titel bei den ATP Finals in Turin verpasst.",
+      "image": "https://bilder.deutschlandfunk.de/ed/f5/f4/37/edf5f437-cde6-4304-852b-cd0defaac400/zverev-alcaraz-100-1920x1920.jpg",
+      "published": "2026-11-23T04:23:16+01:00",
       "category": "Nachrichten",
-      "score": 66.9
-    },
-    {
-      "id": "deutschlandfunk-42e2f9baf6717e01",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Geldanlage - Staatliches Altersvorsorgedepot kommt später: Finanzexperte Walz rät zu Gelassenheit",
-      "link": "https://www.deutschlandfunk.de/staatliches-altersvorsorgedepot-kommt-spaeter-finanzexperte-walz-raet-zu-gelassenheit-100.html",
-      "summary": "Der Ludwigshafener Finanzwissenschaftler Hartmut Walz hält die Debatte um Verzögerungen beim staatlichen Altersvorsorgedepot für überzogen.",
-      "image": "https://bilder.deutschlandfunk.de/9f/21/6e/97/9f216e97-34e3-401d-ab41-23b24ef0605c/hartmut-walz-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Wissenschaft",
-      "score": 58.9
-    },
-    {
-      "id": "deutschlandfunk-17184d366282150b",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Studie zu Wohnkosten - Viele wenden heute weniger Einkommen fürs Mieten auf als vor 20 Jahren",
-      "link": "https://www.deutschlandfunk.de/viele-wenden-heute-weniger-einkommen-fuers-mieten-auf-als-vor-20-jahren-100.html",
-      "summary": "Der Eindruck, dass Wohnen immer mehr vom Lohn beansprucht, trügt offenbar.",
-      "image": "https://bilder.deutschlandfunk.de/ec/ef/54/28/ecef5428-5113-4e71-b032-099ebfe0f58d/wohnungen-berlin-102-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Wissenschaft",
-      "score": 58.9
-    },
-    {
-      "id": "deutschlandfunk-3a21941c085851f8",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Gesetzesentwurf - Justizministerin Hubig: \"Femizide sollen eindeutig als Mord gelten\"",
-      "link": "https://www.deutschlandfunk.de/justizministerin-hubig-femizide-sollen-eindeutig-als-mord-gelten-100.html",
-      "summary": "Bundesjustizministerin Hubig will den Mordparagrafen im Strafgesetzbuch verschärfen und Femizide eindeutig als Mord erfassen. Künftig sollten geschlechtsspezifische oder sonstige menschenverachtende Beweggründe ausdrücklich als Mordmerkmal genannt werden, heißt es in einem Gesetzentwurf, der der \"Bild am Sonntag\" vorliegt.",
-      "image": "https://bilder.deutschlandfunk.de/07/0c/f3/59/070cf359-5cfe-4206-a8b8-48c5ef96b80a/justizministerin-hubig-spd-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Politik",
-      "score": 70.9
-    },
-    {
-      "id": "deutschlandfunk-9d717a94cd49ec69",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Religion - Evangelische Christen begehen Ewigkeits- oder Totensonntag",
-      "link": "https://www.deutschlandfunk.de/evangelische-christen-begehen-ewigkeits-oder-totensonntag-102.html",
-      "summary": "Evangelische Christen begehen heute den Ewigkeits- oder Totensonntag.",
-      "image": "https://bilder.deutschlandfunk.de/5d/73/56/bf/5d7356bf-f9ab-4841-aa2a-6916c246e658/totensonntag-frau-grab-blumen-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Nachrichten",
-      "score": 58.9
-    },
-    {
-      "id": "deutschlandfunk-a055a5031f65c961",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Deutsches Rotes Kreuz - \"Freiwilligendienst darf nicht vom Eltern-Geldbeutel abhängen\": DRK pocht auf 1.000 Euro Taschengeld",
-      "link": "https://www.deutschlandfunk.de/freiwilligendienst-darf-nicht-vom-eltern-geldbeutel-abhaengen-drk-pocht-auf-1-000-euro-taschengeld-100.html",
-      "summary": "Der Präsident des Deutschen Roten Kreuzes, Gröhe, dringt erneut auf eine deutliche Aufwertung der Freiwilligendienste.",
-      "image": "https://bilder.deutschlandfunk.de/91/bb/8b/8a/91bb8b8a-bf59-47ed-af74-eed856bfb23a/drk-praesident-groehe-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Nachrichten",
-      "score": 61.9
-    },
-    {
-      "id": "deutschlandfunk-6a88faf7ecb1803a",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Elfenbeinküste, Ghana, Kenia - Zwischen Callcentern und \"Jenseits von Afrika\": Steinmeier beginnt eine letzte größere Reise",
-      "link": "https://www.deutschlandfunk.de/zwischen-callcentern-und-jenseits-von-afrika-steinmeier-beginnt-eine-letzte-groessere-reise-102.html",
-      "summary": "Bundespräsident Steinmeier bricht zu einer fünftägigen Afrikareise auf.",
-      "image": "https://bilder.deutschlandfunk.de/c2/eb/8b/85/c2eb8b85-79e7-45dc-959c-7d26b4d5fcfb/budespraesident-steinmeier-reise-tuerkei-besuch-jubilaeum-beziehungen-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Nachrichten",
-      "score": 58.9
-    },
-    {
-      "id": "deutschlandfunk-9ee2edbf43f0a163",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Ostsee - Löscharbeiten an russischem Frachter dauern nach Drohnenangriff an",
-      "link": "https://www.deutschlandfunk.de/loescharbeiten-an-russischem-frachter-dauern-nach-drohnenangriff-an-100.html",
-      "summary": "Die Löscharbeiten an einem von Drohnen getroffenen russischen Frachtschiff in der Ostsee gehen weiter.",
-      "image": "https://bilder.deutschlandfunk.de/7f/3d/5d/c1/7f3d5dc1-aa9b-411d-82ee-e324a87c6483/finnland-frachter-russland-attacke-brand-100-512x512.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Nachrichten",
-      "score": 75.9
-    },
-    {
-      "id": "deutschlandfunk-b7140ad5e62014e2",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Südamerika - Mindestens 15 Verletzte bei Erdbeben der Stärke 6,7 in Peru",
-      "link": "https://www.deutschlandfunk.de/mindestens-15-verletzte-bei-erdbeben-der-staerke-6-7-in-peru-100.html",
-      "summary": "Im Zentrum Perus sind bei einem Erdbeben der Stärke 6,7 mindestens 15 Menschen verletzt worden.",
-      "image": "https://bilder.deutschlandfunk.de/71/3e/91/04/713e9104-4b09-4b2f-89fc-f214dbd58c8b/imago0153404225h-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Nachrichten",
-      "score": 66.9
-    },
-    {
-      "id": "deutschlandfunk-16d188b77bfa98e3",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Südostasien - 39 Vermisste nach Brand in Süßwarenfabrik in Indonesien",
-      "link": "https://www.deutschlandfunk.de/39-vermisste-nach-brand-in-suesswarenfabrik-in-indonesien-100.html",
-      "summary": "In Indonesien werden nach einem Brand in einer Süßwarenfabrik 39 Menschen vermisst.",
-      "image": "https://bilder.deutschlandfunk.de/5c/e7/b5/71/5ce7b571-e8b9-425b-acd6-92530ab25f1f/nachrichtenpodcast-102-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Nachrichten",
-      "score": 67.9
-    },
-    {
-      "id": "deutschlandfunk-5e0e8b2b621708e1",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "ICE-Festnahme in Seattle - Gouverneur bezeichnet Behörde als \"völlig außer Kontrolle\"",
-      "link": "https://www.deutschlandfunk.de/gouverneur-bezeichnet-behoerde-als-voellig-ausser-kontrolle-100.html",
-      "summary": "Der Gouverneur des US-Bundesstaates Washington hat die Einwanderungsbehörde ICE als \"komplett und völlig außer Kontrolle\" kritisiert.",
-      "image": "https://bilder.deutschlandfunk.de/77/2c/71/8c/772c718c-0d07-4063-82a6-755dbc28d60b/ice-einwanderungsbehoerde-us-behoerde-wappen-abzeichen-marke-usa-migration-100-1280x1280.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Nachrichten",
-      "score": 58.9
-    },
-    {
-      "id": "deutschlandfunk-f11efe1f7c8105dc",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Religion - Demografischer Wandel: Zentralrat der Juden schließt Zusammenlegung von Gemeinden nicht aus",
-      "link": "https://www.deutschlandfunk.de/demografischer-wandel-zentralrat-der-juden-schliesst-zusammenlegung-von-gemeinden-nicht-aus-100.html",
-      "summary": "Der Präsident des Zentralrats der Juden in Deutschland, Schuster, schließt Zusammenlegungen jüdischer Gemeinden nicht aus.",
-      "image": "https://bilder.deutschlandfunk.de/db/6e/4f/91/db6e4f91-b497-468c-a687-0b55fe6c0f6e/josef-schuster-zentralrat-juden-deutschland-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Nachrichten",
-      "score": 58.9
-    },
-    {
-      "id": "deutschlandfunk-3f2d439d1b5ac984",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Dlf-Interview - Politikwissenschaftler Varwick: \"Großmachtrivalität bestimmt die Grammatik der internationalen Politik\"",
-      "link": "https://www.deutschlandfunk.de/politikwissenschaftler-varwick-grossmachtrivalitaet-bestimmt-die-grammatik-der-internationalen-polit-100.html",
-      "summary": "Der Politikwissenschaftler Johannes Varwick plädiert für einen eingeschränkten Multilateralismus, um Entscheidungen voranzubringen. Kleine Bündnisse, sogenannte Vorreiterallianzen, seien effizienter als die Konsens-Maschinerie, bei der alle Staaten zustimmen müssten. Dies werde gerade bei der Weltklimakonferenz in der Türkei deutlich.",
-      "image": "https://bilder.deutschlandfunk.de/11/e3/7e/fe/11e37efe-267e-486e-837f-7606709bfc6e/johannes-varwick-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Wissenschaft",
-      "score": 58.9
-    },
-    {
-      "id": "deutschlandfunk-310135bacaae9764",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Spiegel-Interview - Kramp-Karrenbauer zur Schwäche der CDU: Partei muss sich breiter aufstellen",
-      "link": "https://www.deutschlandfunk.de/kramp-karrenbauer-zur-schwaeche-der-cdu-partei-muss-sich-breiter-aufstellen-100.html",
-      "summary": "Nach Einschätzung der früheren CDU-Chefin Kramp-Karrenbauer muss sich die Partei inhaltlich breiter aufstellen.",
-      "image": "https://bilder.deutschlandfunk.de/18/1f/3d/ab/181f3dab-3538-40b8-b9be-205a30b0ea0d/annegret-kramp-karrenbauer-102-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Nachrichten",
-      "score": 58.9
-    },
-    {
-      "id": "deutschlandfunk-5f1b811ad60a39b3",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Sozialgerichte - \"Recht darf nicht vom Geldbeutel abhängen\": VdK gegen neue 15-Euro-Gebühr",
-      "link": "https://www.deutschlandfunk.de/recht-darf-nicht-vom-geldbeutel-abhaengen-vdk-gegen-neue-15-euro-gebuehr-100.html",
-      "summary": "Der Sozialverband VdK wendet sich gegen einen Vorschlag aus den Reihen der Justizministerkonferenz, für Eilverfahren an Sozialgerichten künftig eine Gebühr von 15 Euro zu erheben.",
-      "image": "https://bilder.deutschlandfunk.de/FI/LE/_1/07/FILE_107f6b68dfb2d02ad962558970f9b125/115687458-jpg-100-768x768.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Politik",
-      "score": 61.9
-    },
-    {
-      "id": "deutschlandfunk-a732d1cc1410072f",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Politik - Grüne Bundestagsabgeordnete Slawik sieht Selbstbestimmungsgesetz als \"historischen Erfolg\" - offene Fragen bei konkreter Umsetzung",
-      "link": "https://www.deutschlandfunk.de/gruene-bundestagsabgeordnete-slawik-sieht-selbstbestimmungsgesetz-als-historischen-erfolg-offene-fra-102.html",
-      "summary": "Rund zwei Jahre nach Inkrafttreten des Selbstbestimmungsgesetzes hat die grüne Bundestagsabgeordnete Slawik von einem historischen Erfolg gesprochen.",
-      "image": "https://bilder.deutschlandfunk.de/e5/4b/a5/43/e54ba543-4774-4a05-a023-a83e4811f258/nyke-slawik-grune-bundestag-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Politik",
-      "score": 69.9
-    },
-    {
-      "id": "deutschlandfunk-e1794b6533084b86",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Berlin - FDP-Politikerin Preisler bei propalästinensischer Demonstration attackiert",
-      "link": "https://www.deutschlandfunk.de/fdp-politikerin-preisler-bei-propalaestinensischer-demonstration-attackiert-100.html",
-      "summary": "Die FDP-Politikerin Preisler ist am Rande einer propalästinensischen Demonstration in Berlin angegriffen worden.",
-      "image": "https://bilder.deutschlandfunk.de/5c/5a/36/84/5c5a3684-fbb4-4f55-ae57-2b8358ddc78c/karoline-preisler-fdp-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Technologie",
-      "score": 66.9
-    },
-    {
-      "id": "deutschlandfunk-54e9777e5e17b71b",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Entlastungsdebatte - Söder fordert Ausgleich der kalten Progression - Bayern will Kosten mittragen",
-      "link": "https://www.deutschlandfunk.de/soeder-fordert-ausgleich-der-kalten-progression-bayern-will-kosten-mittragen-100.html",
-      "summary": "Der bayerische Ministerpräsident Söder hat sich für eine weitere finanzielle Entlastung der Menschen in Deutschland ausgesprochen.",
-      "image": "https://bilder.deutschlandfunk.de/64/4e/65/42/644e6542-b74f-4f12-9a6d-c6a3957d0628/markus-soeder-junge-union-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Politik",
-      "score": 69.9
-    },
-    {
-      "id": "deutschlandfunk-aed84a642b1c7b71",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Demonstrationen - Frankreich: Deutlich weniger Teilnehmer bei Sozialprotesten - erneut Ausschreitungen am Rande von Demonstrationen",
-      "link": "https://www.deutschlandfunk.de/frankreich-deutlich-weniger-teilnehmer-bei-sozialprotesten-erneut-ausschreitungen-am-rande-von-demon-100.html",
-      "summary": "In Frankreich haben das sechste Wochenende in Folge zahlreiche Menschen für bessere Lebensbedingungen demonstriert.",
-      "image": "https://bilder.deutschlandfunk.de/1e/56/ee/9e/1e56ee9e-de1f-4ecb-8a94-f7895b6cb2b0/frankreich-paris-protest-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Nachrichten",
-      "score": 58.9
-    },
-    {
-      "id": "deutschlandfunk-a20f5addd75f8bcd",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "\"BepiColombo\" - Merkur-Sonde ist in Umlaufbahn eingetreten",
-      "link": "https://www.deutschlandfunk.de/merkur-sonde-ist-in-umlaufbahn-eingetreten-102.html",
-      "summary": "Nach achtjähriger Reise durch das innere Sonnensystem ist die Merkur-Sonde \"BepiColombo\" an ihrem Zielplaneten angekommen. Der Flugkörper trat in eine Umlaufbahn um den kleinsten Planeten ein, wie die europäische Weltraumbehörde Esa mitteilte.",
-      "image": "https://bilder.deutschlandfunk.de/ff/a2/e9/0d/ffa2e90d-ab48-4b85-8690-32246a60aff5/bepicolombo-merkur-anflug-mission-weltall-weltraumsonde-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Nachrichten",
-      "score": 71.58,
+      "score": 66.63,
       "coverage": {
-        "sourceCount": 3,
+        "sourceCount": 2,
         "others": [
           {
             "source": "spiegel",
-            "title": "»BepiColombo«: Doppelsonde von ESA und Jaxa in Merkur-Umlaufbahn",
-            "link": "https://www.spiegel.de/wissenschaft/weltall/bepicolombo-doppelsonde-von-esa-und-jaxa-in-merkur-umlaufbahn-a-097c2f75-6331-4e5b-9a7d-014ab11f0596#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Sonnennächster Planet: Merkur-Sonde „BepiColombo“ umkreist Zielplaneten",
-            "link": "https://www.handelsblatt.com/technik/forschung-innovation/sonnennaechster-planet-merkur-sonde-bepicolombo-umkreist-zielplaneten/100271799.html"
+            "title": "ATP Finals: Alexander Zverev verpasst Krönung seines Traumjahres gegen Carlos Alcaraz",
+            "link": "https://www.spiegel.de/sport/tennis/atp-finals-alexander-zverev-verpasst-kroenung-seines-traumjahres-gegen-carlos-alcaraz-a-8eff0478-ee60-4c90-bba6-7c36949c79ae#ref=rss"
           }
         ]
       }
     },
     {
-      "id": "deutschlandfunk-4bed5a69ebe23680",
+      "id": "deutschlandfunk-9781b9270bd68a68",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Israel - Oppositionsführer Eisenkot lädt Premier Netanjahus Likud-Partei zu Koalitionsgesprächen ein",
-      "link": "https://www.deutschlandfunk.de/oppositionsfuehrer-eisenkot-laedt-premier-netanjahus-likud-partei-zu-koalitionsgespraechen-ein-100.html",
-      "summary": "In Israel hat der mit der Regierungsbildung beauftragte Oppositionsführer Eisenkot die rechtsgerichtete Likud-Partei des amtierenden Ministerpräsidenten Netanjahu zu Koalitionsgesprächen eingeladen.",
-      "image": "https://bilder.deutschlandfunk.de/NO/VA/_9/73/NOVA_973d0dfdef72eedf2fd7cecfe00b7b5f/craft-13535080-asset-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Politik",
-      "score": 69.9
-    },
-    {
-      "id": "deutschlandfunk-9125720746c3d7fe",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Zeitungsinterview - Antisemitismus-Beauftragte von Schnurbein sieht mögliche AfD-Regierung mit Sorge",
-      "link": "https://www.deutschlandfunk.de/antisemitismus-beauftragte-von-schnurbein-sieht-moegliche-afd-regierung-mit-sorge-100.html",
-      "summary": "Die neue Bundesbeauftragte gegen Antisemitismus, von Schnurbein, hat vor den Folgen einer AfD-Regierungsbeteiligung gewarnt.",
-      "image": "https://bilder.deutschlandfunk.de/c4/e5/3f/75/c4e53f75-7ef1-4401-9866-6316326ceef6/katharina-schnurbein-antisemitismusbeauftragte-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Politik",
-      "score": 61.9
-    },
-    {
-      "id": "deutschlandfunk-f4cd0213ca9fdb02",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Tarifkonflikt - Metaller-Warnstreiks im Norden werden heute fortgesetzt",
-      "link": "https://www.deutschlandfunk.de/metaller-warnstreiks-im-norden-werden-heute-fortgesetzt-100.html",
-      "summary": "Die IG Metall setzt ihre Warnstreiks heute fort.",
-      "image": "https://bilder.deutschlandfunk.de/f5/76/7a/e7/f5767ae7-1964-45c4-b9b3-96b3c9d9fe88/ig-metall-warnstreiks-streik-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Technologie",
-      "score": 67.9
-    },
-    {
-      "id": "deutschlandfunk-43ca7f62cefa5399",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Motorsport - Max Verstappen gewinnt Formel-1-Rennen in Las Vegas",
-      "link": "https://www.deutschlandfunk.de/max-verstappen-gewinnt-formel-1-rennen-in-las-vegas-102.html",
-      "summary": "Der Niederländer Max Verstappen hat das Formel-1-Rennen in Las Vegas in den USA gewonnen.",
-      "image": "https://bilder.deutschlandfunk.de/5a/25/ae/0a/5a25ae0a-5dbd-4fd7-9198-3375a2859574/formel-1-verstappen-zielflagge-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Nachrichten",
-      "score": 58.9
-    },
-    {
-      "id": "deutschlandfunk-3cd2d4b4278149d7",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Italien - Ex-Kapitän der \"Costa Concordia\" aus dem Gefängnis freigekommen",
-      "link": "https://www.deutschlandfunk.de/ex-kapitaen-der-costa-concordia-aus-dem-gefaengnis-freigekommen-102.html",
-      "summary": "Der ehemalige Kapitän des vor knapp 15 Jahren gesunkenen Kreuzfahrtschiffs \"Costa Concordia\", Francesco Schettino, ist aus dem Gefängnis freigekommen.",
-      "image": "https://bilder.deutschlandfunk.de/23/72/34/40/23723440-ab85-49a3-83c9-8efad5537836/francesco-schettino-costa-concordia-kapitaen-ex-havarie-schiffsunglueck-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Nachrichten",
-      "score": 67.9
-    },
-    {
-      "id": "deutschlandfunk-12ef223b162e526c",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Nach EU-Sanktionen - Chefin von russischem Onlinehändler Wildberries tritt zurück",
-      "link": "https://www.deutschlandfunk.de/chefin-von-russischem-onlinehaendler-wildberries-tritt-zurueck-100.html",
-      "summary": "Die Gründerin des russischen Online-Versandhändlers \"Wildberries\", Tatjana Kim, ist von ihrem Amt als Unternehmenschefin zurückgetreten.",
-      "image": "https://bilder.deutschlandfunk.de/fe/70/b0/f7/fe70b0f7-f583-4afa-a4e9-66179177466a/tatyana-kim-wildberries-russland-eu-sanktionen-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Wirtschaft",
-      "score": 61.9
-    },
-    {
-      "id": "deutschlandfunk-055a66fd4eae31ce",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Dlf-Interview - Kulturwissenschaftlerin lobt neuen Bond-Darsteller: \"Neue Form von Männlichkeit\"",
-      "link": "https://www.deutschlandfunk.de/kulturwissenschaftlerin-lobt-neuen-bond-darsteller-neue-form-von-maennlichkeit-102.html",
-      "summary": "Die Literaturwissenschaftlerin Andrea Bartl hat die Wahl von Robert Pattinson als neuen Bond-Darsteller als \"hochspannend\" gelobt. Pattinson sei kein typischer Actionheld, sondern eher der \"melancholische und reflektierte Denker\". Er verkörpere eine neue Form von Männlichkeit.",
-      "image": "https://bilder.deutschlandfunk.de/de/d8/3e/e5/ded83ee5-7727-4548-ab1a-57d5c03befdf/bond-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Politik",
-      "score": 69.9
-    },
-    {
-      "id": "deutschlandfunk-bb8b6aba71b2b829",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg - London und Kiew vereinbaren Kooperation beim Bau von Drohnen",
-      "link": "https://www.deutschlandfunk.de/london-und-kiew-vereinbaren-kooperation-beim-bau-von-drohnen-106.html",
-      "summary": "Ukrainische Drohnen sollen künftig auch in Großbritannien produziert werden.",
-      "image": "https://bilder.deutschlandfunk.de/4d/86/0e/ae/4d860eae-a654-4da8-9076-018c0a858b4a/ukrainische-drohne-krim-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Politik",
-      "score": 77.9
-    },
-    {
-      "id": "deutschlandfunk-bf0d3348e01908f0",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Persischer Golf - Iran greift erneut Bahrain an",
-      "link": "https://www.deutschlandfunk.de/iran-greift-erneut-bahrain-an-100.html",
-      "summary": "Der Golfstaat Bahrain ist erneut vom Iran angegriffen worden.",
-      "image": "https://bilder.deutschlandfunk.de/2d/e0/78/db/2de078db-b659-4562-8fd7-a47486b8ff4d/iran-bahrain-israel-usa-angriffe-drohnen-raketen-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Nachrichten",
-      "score": 58.9
-    },
-    {
-      "id": "deutschlandfunk-21d92cfae323c04f",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Künftiger Generalinspekteur - Freuding will bei sexuellem Fehlverhalten in Bundeswehr hart durchgreifen",
-      "link": "https://www.deutschlandfunk.de/freuding-will-bei-sexuellem-fehlverhalten-in-bundeswehr-hart-durchgreifen-100.html",
-      "summary": "Der designierte Generalinspekteur der Bundeswehr, Freuding, hat ein hartes Vorgehen gegen sexuelles Fehlverhalten in der Truppe angekündigt.",
-      "image": "https://bilder.deutschlandfunk.de/e9/18/df/a5/e918dfa5-63fd-4021-812e-ae9b635bcdca/bundesaussenminister-pistorius-heeresinspektor-christian-freuding-generalinspekteur-bundeswehr-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Nachrichten",
-      "score": 67.9
-    },
-    {
-      "id": "deutschlandfunk-6e0b42e55b4b2359",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Mexiko - Gewalt nach Festnahme von Drogenboss \"El Chapo Isidro\"",
-      "link": "https://www.deutschlandfunk.de/gewalt-nach-festnahme-von-drogenboss-el-chapo-isidro-100.html",
-      "summary": "In Mexiko ist es nach der Festnahme eines der meistgesuchten Drogenbosse zu Gewalt durch Bandenmitglieder gekommen.",
-      "image": "https://bilder.deutschlandfunk.de/e1/06/7d/e2/e1067de2-6230-41ae-943b-92085b1ff504/die-nachrichten-kachel-2176-zu1224-100-768x768.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Nachrichten",
-      "score": 67.9
-    },
-    {
-      "id": "deutschlandfunk-927a50e91429e620",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Nach Luftraumverletzungen - NATO-Generalsekretär Rutte sichert Polen erneut Unterstützung zu",
-      "link": "https://www.deutschlandfunk.de/nato-generalsekretaer-rutte-sichert-polen-erneut-unterstuetzung-zu-102.html",
-      "summary": "Nach den jüngsten russischen Luftraumverletzungen in Polen hat NATO-Generalsekretär Rutte dem Land erneut die Unterstützung des Verteidigungsbündnisses zugesichert. Die NATO werde jeden Zentimeter polnischen Territoriums verteidigen, sagte Rutte bei einem Besuch in Warschau.",
-      "image": "https://bilder.deutschlandfunk.de/20/ea/20/15/20ea2015-6f46-4694-b24f-625ccba4af9f/rutte-nato-102-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Nachrichten",
-      "score": 66.9
-    },
-    {
-      "id": "deutschlandfunk-80350e0a1a52d8a0",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Mathematik - Anthropic-Forscher will Riemannsche Hypothese mit KI gelöst haben - Wissenschaftler fordern Nachweis",
-      "link": "https://www.deutschlandfunk.de/anthropic-forscher-will-riemannsche-hypothese-mit-ki-geloest-haben-wissenschaftler-fordern-nachweis-102.html",
-      "summary": "Der türkisch-amerikanische Anthropic-Forscher Levent Alpöge behauptet, eines der weltweit wichtigsten mathematischen Probleme - die Riemannsche Hypothese – mit künstlicher Intelligenz gelöst zu haben. Für den Mathematiker Christian Blohmann ist es vor allem PR.",
-      "image": "https://bilder.deutschlandfunk.de/79/74/0c/29/79740c29-648c-40d1-9808-3da86854f360/anthropic-fable-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Technologie",
-      "score": 58.9
-    },
-    {
-      "id": "deutschlandfunk-c915c029c89fcc24",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Medizin - Männer sind anders krank",
-      "link": "https://www.deutschlandfunk.de/maenner-sind-anders-krank-102.html",
-      "summary": "Männer leiden oft stärker unter Viruskinfektionen. Eine neue Studie zeigt, dass ihr Immunsystem offenbar anders auf Infektionen wie die Grippe, aber auch Corona oder Zika reagiert. Dementsprechend sei auch die Entzündungsreaktion heftiger.",
-      "image": "https://bilder.deutschlandfunk.de/e7/f3/e4/c7/e7f3e4c7-21f3-4161-8d62-32cd08c43c6d/grippe-corona-atemwegserkrankungen-100-1920x1920.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
-      "category": "Wissenschaft",
-      "score": 66.9
-    },
-    {
-      "id": "deutschlandfunk-61b7cabea3ac2686",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Wetter - Nachts gebietsweise Schauer, +2 bis -5 Grad",
-      "link": "https://www.deutschlandfunk.de/nachts-gebietsweise-schauer-2-bis-5-grad-100.html",
-      "summary": "Das Wetter: In der Nacht ganz im Süden bis in tiefere Lagen Schnee. Sonst oft bewölkt, gebietsweise Schauer. Regional Glätte. Tiefstwerte plus 2 bis minus 5 Grad.",
+      "title": "Wetter - Teils freundlich, teils bewölkt mit Regen- oder Schneeschauern",
+      "link": "https://www.deutschlandfunk.de/teils-freundlich-teils-bewoelkt-mit-regen-oder-schneeschauern-112.html",
+      "summary": "Der Wetterbericht, die Lage: Mit einer nördlichen Strömung wird polare Meeresluft herangeführt. Der Osten und der Süden werden von Tiefausläufern gestreift.",
       "image": "https://bilder.deutschlandfunk.de/e5/f6/55/84/e5f65584-6dc2-4dce-979d-729a024cd599/wetter-grafik-nachrichten-100-768x768.jpg",
-      "published": "2026-11-22T23:46:38+01:00",
+      "published": "2026-11-23T04:23:16+01:00",
       "category": "Nachrichten",
-      "score": 58.9
+      "score": 58.63
+    },
+    {
+      "id": "spiegel-7e860973538b06b6",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Berlin-Lichtenberg: 15 Verletzte bei Brand in Krankenhaus",
+      "link": "https://www.spiegel.de/panorama/berlin-lichtenberg-15-verletzte-bei-brand-in-krankenhaus-a-45fc2700-244a-41e7-b0c2-3541cab7671a#ref=rss",
+      "summary": "In einem Zimmer im ersten Stock war Feuer ausgebrochen, wenig später musste das komplette Gebäude geräumt werden: In Berlin sind zahlreiche Patienten bei einem Klinikbrand verletzt worden. Es besteht teils Lebensgefahr.",
+      "image": "https://cdn.prod.www.spiegel.de/images/2accabc0-f4e8-4566-b614-9397f963a10c_w1200_r1.778_fpx38.7_fpy52.99.jpg",
+      "published": "2026-11-23T04:09:00+01:00",
+      "category": "Nachrichten",
+      "score": 58.43
+    },
+    {
+      "id": "handelsblatt-990393c4de2e2802",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Umfrage: Kartenzahlung auf Märkten oft unmöglich - Kunden unzufrieden",
+      "link": "https://www.handelsblatt.com/politik/deutschland/umfrage-kartenzahlung-auf-maerkten-oft-unmoeglich-kunden-unzufrieden/100271923.html",
+      "summary": "Auf Wochenmärkten und Stadtfesten kann oft nur bar bezahlt werden – zum Leidwesen einiger Kunden. Eine Studie zeigt, wo sich die Menschen Fortschritte wünschen und was aus ihrer Sicht schon gut läuft.",
+      "image": "https://images.handelsblatt.com/MfUFFDVyy-RU/cover/900/506/0/0/63/63/0.5/0.5/markttag-in-wiesbaden.jpg",
+      "published": "2026-11-23T03:30:04+00:00",
+      "category": "Wissenschaft",
+      "score": 57.72
+    },
+    {
+      "id": "handelsblatt-c12f72f8976c1f7c",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Kriminalität und Aufklärung: Neue Methode verlängert Nachweis von K.-o.-Tropfen deutlich",
+      "link": "https://www.handelsblatt.com/technik/forschung-innovation/kriminalitaet-und-aufklaerung-neue-methode-verlaengert-nachweis-von-k-o-tropfen-deutlich/100271920.html",
+      "summary": "Wer den Verdacht hat, mit K.-o.-Tropfen betäubt worden zu sein, kommt oft zu spät zur Untersuchung. Denn GHB ist nach wenigen Stunden nicht mehr nachweisbar. Das könnte sich bald ändern.",
+      "image": "https://images.handelsblatt.com/A1AsjW9aDqcy/cover/900/506/0/0/26/25/0.5/0.5/k-o-tropfen.jpg",
+      "published": "2026-11-23T03:23:05+00:00",
+      "category": "Panorama",
+      "score": 57.63
+    },
+    {
+      "id": "handelsblatt-685884711518a6ef",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Fragen aus dem Arbeitsrecht: Betriebsbedingt gekündigt: Habe ich Anspruch auf Abfindung?",
+      "link": "https://www.handelsblatt.com/politik/deutschland/fragen-aus-dem-arbeitsrecht-betriebsbedingt-gekuendigt-habe-ich-anspruch-auf-abfindung/100271919.html",
+      "summary": "Meine Firma strukturiert um und spricht betriebsbedingte Kündigungen aus: Eine Anwältin erklärt, in welchen Fällen eine Abfindung gezahlt werden muss. Und welche Möglichkeiten darüber hinaus bestehen.",
+      "image": "https://images.handelsblatt.com/iW7Aw9QAACkY/cover/900/506/0/0/107/107/0.5/0.5/eine-frau-raeumt-ihren-schreibtisch.jpg",
+      "published": "2026-11-23T03:20:05+00:00",
+      "category": "Wirtschaft",
+      "score": 60.58
+    },
+    {
+      "id": "handelsblatt-8989230cf9d0abfe",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "KI und Zukunft der Industrie: Siemens-Chef zum KI-Wettkampf: „Das ist jetzt das Endspiel“",
+      "link": "https://www.handelsblatt.com/politik/deutschland/ki-und-zukunft-der-industrie-siemens-chef-zum-ki-wettkampf-das-ist-jetzt-das-endspiel/100271917.html",
+      "summary": "Siemens-Chef Roland Busch warnt vor Europas Regulierung und staunt über Chinas Innovationstempo. Warum Deutschland dennoch nicht chancenlos ist und was dafür passieren muss.",
+      "image": "https://images.handelsblatt.com/F56fBl3SiD0r/cover/900/506/0/0/107/107/0.5/0.5/siemens-chef-busch.jpg",
+      "published": "2026-11-23T03:15:05+00:00",
+      "category": "Technologie",
+      "score": 57.51
+    },
+    {
+      "id": "handelsblatt-cab4fc4ef02581eb",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Kommentar: Dieser Haushalt ist für die Demokratie brandgefährlich",
+      "link": "https://www.handelsblatt.com/politik/deutschland/kommentar-dieser-haushalt-ist-fuer-die-demokratie-brandgefaehrlich/100271477.html",
+      "summary": "Die Koalition zerstört eingeübte demokratische Verfahren: Die CDU beschädigt den Prozess der Budgetaufstellung, Lars Klingbeil das Amt des Finanzministers. Freuen darf sich die AfD.",
+      "image": "https://images.handelsblatt.com/IObIoi98wKiI/cover/900/506/0/0/260/261/0.5/0.5/archiv-11.11.2026-berlin-lars-klingbeil-spd-bundesminister-der-finanzen-vizekanzler-und-spd.jpg",
+      "published": "2026-11-23T03:08:08+00:00",
+      "category": "Politik",
+      "score": 60.42
+    },
+    {
+      "id": "spiegel-b2cb0fa3146ee389",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Bruce Willis: Tallulah Willis löscht gemeinsames Foto mit ihrem Vater",
+      "link": "https://www.spiegel.de/panorama/leute/bruce-willis-tallulah-willis-loescht-gemeinsames-foto-mit-ihrem-vater-a-121730a8-4f7e-407f-a466-473d7e32b034#ref=rss",
+      "summary": "Ex-Actionstar Bruce Willis leidet an einer seltenen Form von Demenz, er wird inzwischen rund um die Uhr betreut. Seine Tochter Tallulah postete am Wochenende ein Bild, das die beiden zeigt. Und entschuldigt sich nun dafür.",
+      "image": "https://cdn.prod.www.spiegel.de/images/3d9604d4-91c0-42ff-b4ef-6b5cbb097a1f_w1200_r1.778_fpx52_fpy35.jpg",
+      "published": "2026-11-23T03:07:00+01:00",
+      "category": "Nachrichten",
+      "score": 57.57
+    },
+    {
+      "id": "handelsblatt-ac93b342d388a301",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Autoindustrie: Ford-Europachef: „Wir würden uns wünschen, dass für alle die gleichen Wettbewerbsbedingungen gelten“",
+      "link": "https://www.handelsblatt.com/unternehmen/industrie/autobauer-wir-wuerden-uns-wuenschen-dass-fuer-alle-gleiche-bedingungen-gelten/100268849.html",
+      "summary": "Jim Baumbick warnt vor den Folgen der neuen EU‑Industriepolitik. Im Interview fordert er, dass europäische Hersteller viel mehr gegen die gemeinsame Konkurrenz aus China gestärkt werden.",
+      "image": "https://images.handelsblatt.com/wikGHV-FZV-T/cover/900/506/0/0/1/0/0.5/0.5/jim-baumbick-ford-transit.png",
+      "published": "2026-11-23T03:05:09+00:00",
+      "category": "Wirtschaft",
+      "score": 60.38
+    },
+    {
+      "id": "handelsblatt-d00203317598de73",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Märkte: Anthropic-Aktie stürzt Richtung Ausgabekurs – Ist der KI-Boom nach dem Mega-Börsengang vorbei?",
+      "link": "https://www.handelsblatt.com/finanzen/maerkte/maerkte-euphorie-weicht-furcht-sorge-vor-einem-ende-des-ki-booms-waechst/100271863.html",
+      "summary": "„Alle Bären wachen auf“: Am zweiten Handelstag startet die Aktie des KI-Pioniers zehn Prozent im Minus. Die Wall Street steuert auf die längste Verluststrecke seit drei Jahren zu.",
+      "image": "https://images.handelsblatt.com/bSFUHVvwhXDU/cover/900/506/0/0/105/104/0.5/0.5/a-trader-works-on-the-floor-of-the-new-york-stock-exchange-nyse-in-new-york-us-on-friday-nov.-2.jpg",
+      "published": "2026-11-23T03:02:13+00:00",
+      "category": "Wirtschaft",
+      "score": 60.34
+    },
+    {
+      "id": "handelsblatt-c6f1d3d05ef943fe",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Kriselnder Autobauer: Wie bei Volkswagen der Streit ums Sparen eskaliert ist",
+      "link": "https://www.handelsblatt.com/politik/deutschland/kriselnder-autobauer-wie-bei-volkswagen-der-streit-ums-sparen-eskaliert-ist/100271914.html",
+      "summary": "Nullrunden, Arbeitszeit, Zulagen: Volkswagen will bei den anstehenden Tarifverhandlungen massiv Einsparungen durchsetzen, die IG Metall hält dagegen. Ein Blick zurück zeigt, wie der Streit eskalierte.",
+      "image": "https://images.handelsblatt.com/e8U7T1xoajPX/cover/900/506/0/0/107/106/0.5/0.5/volkswagen.jpg",
+      "published": "2026-11-23T03:00:30+00:00",
+      "category": "Technologie",
+      "score": 65.31
+    },
+    {
+      "id": "handelsblatt-e4a70110cb4a248c",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Umfrage zu Gesundheitsängsten: Mehr Menschen fürchten sich vor Krebs, Demenz und Unfall",
+      "link": "https://www.handelsblatt.com/technik/forschung-innovation/umfrage-zu-gesundheitsaengsten-mehr-menschen-fuerchten-sich-vor-krebs-demenz-und-unfall/100271913.html",
+      "summary": "Die Krankheitssorgen der Menschen in Deutschland wachsen. Zugleich kümmern sich mehr Menschen um ihre Gesundheit: Sie treiben eher Sport, essen gesund und lassen sich impfen.",
+      "image": "https://images.handelsblatt.com/d6mHpC-KtNGC/cover/900/506/0/0/70/69/0.5/0.5/symbolbild-krankenhaus.jpg",
+      "published": "2026-11-23T03:00:17+00:00",
+      "category": "Panorama",
+      "score": 57.31
+    },
+    {
+      "id": "handelsblatt-d0d4e358cfd6a815",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Bio-Weine: Öko-Weinbau hat sich innerhalb von zehn Jahren verdoppelt",
+      "link": "https://www.handelsblatt.com/politik/deutschland/bio-weine-oeko-weinbau-hat-sich-innerhalb-von-zehn-jahren-verdoppelt/100271909.html",
+      "summary": "In den 13 deutschen Anbaugebieten wird häufiger Öko-Wein produziert. Worauf es bei Schädlingsbekämpfung und Siegeln, Betriebsumstellung und Bewirtschaftung ankommt",
+      "image": "https://images.handelsblatt.com/UZ6ZUE98vJ6Q/cover/900/506/0/0/62/62/0.5/0.5/weinflaschen-mit-dem-bio-siegel.jpg",
+      "published": "2026-11-23T02:30:16+00:00",
+      "category": "Wirtschaft",
+      "score": 59.89
+    },
+    {
+      "id": "tagesschau-1447e82f4ff57d2b",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "US-Repräsentantenhaus: Demokraten so stark wie zuletzt 1992",
+      "link": "https://www.tagesschau.de/ausland/amerika/demokraten-mehrheit-repraesentantenhaus-100.html",
+      "summary": "Die Demokraten haben ihre Mehrheit im US-Repräsentantenhaus weiter ausgebaut. Ab Januar stellen sie dort mindestens 258 Abgeordnete - zuletzt gelang ihnen dies vor mehr als 30 Jahren zu Zeiten von Bill Clinton.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/7e6adef7-d0f9-44de-a1a0-c4b3ba2734f0/AAABogXmQOE/AAABnSSvrFg/16x9-big/us-kapitol-166.jpg?width=1920",
+      "published": "2026-11-23T01:55:05+01:00",
+      "category": "Nachrichten",
+      "score": 70.25
+    },
+    {
+      "id": "tagesschau-27ee7734918c46aa",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Explosion auf russischem Schiff in Libyen - Behörden vermuten Drohnenangriff",
+      "link": "https://www.tagesschau.de/ausland/afrika/russisches-schiff-libyen-100.html",
+      "summary": "In einem Hafen der ostlibyschen Stadt Bengasi hat es eine Explosion auf einem russischen Kriegsschiff gegeben. Die Behörden gehen von einem Angriff mit Drohnen aus. Berichten zufolge wird die Ukraine verantwortlich gemacht.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/0f5b220e-cf1e-49af-b9d0-f502ac4a9ee5/AAABogRppfc/AAABnSSvrFg/16x9-big/libyen-schiff-102.jpg?width=1920",
+      "published": "2026-11-23T01:51:02+01:00",
+      "category": "Politik",
+      "score": 91.31,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Mutmaßlicher Drohnenangriff - Explosion auf russischem Schiff in Libyen",
+            "link": "https://www.deutschlandfunk.de/explosion-auf-russischem-schiff-in-libyen-104.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "Libyen: Explosion auf russischem Schiff – ukrainischer Angriff vermutet",
+            "link": "https://www.spiegel.de/ausland/libyen-explosion-auf-russischem-schiff-ukrainischer-angriff-vermutet-a-bc74e064-fd7a-4770-aebd-0d742578cfeb#ref=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-ea232b475685d16f",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Belgien: Streik-Tag legt Flugverkehr am Montag lahm",
+      "link": "https://www.spiegel.de/wirtschaft/service/belgien-streik-tag-legt-flugverkehr-am-montag-lahm-a-6cd7989a-03e5-4c6f-8c81-3d11ba1e05dc#ref=rss",
+      "summary": "Wer am Montag nach Belgien fliegen will – oder von dort starten möchte – hat schlechte Karten: Die Fluglotsen legen ihre Arbeit nieder. Von dem Streiktag könnten auch der öffentliche Nahverkehr, Schulen und die Müllabfuhr betroffen sein.",
+      "image": "https://cdn.prod.www.spiegel.de/images/ab83108e-f64f-4f58-a4cf-f3dcea1fd67f_w1200_r1.778_fpx49_fpy45.jpg",
+      "published": "2026-11-23T01:24:00+01:00",
+      "category": "Nachrichten",
+      "score": 64.14,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Belgien: Streik legt belgischen Flugverkehr am Montag lahm",
+            "link": "https://www.handelsblatt.com/politik/international/belgien-streik-flugverkehr-steht-am-montag-von-7-bis-21-uhr-fast-still/100271872.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-ceca9eeaf843efa5",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Syrien: Fünf Kinder sterben bei Explosion einer Landmine in Idlib",
+      "link": "https://www.spiegel.de/ausland/syrien-fuenf-kinder-sterben-bei-explosion-einer-landmine-in-idlib-a-0ed9f39a-c436-4611-bae9-e6316c5c081a#ref=rss",
+      "summary": "Anti-Personen-Minen sind ein düsteres Erbe der Ära Assad in Syrien. Nun hat es im Nordwesten des Landes einen besonders tragischen Zwischenfall mit einem solchen Sprengsatz gegeben.",
+      "image": "https://cdn.prod.www.spiegel.de/images/4b6548aa-5f15-421b-a99a-460f5746d638_w1200_r1.778_fpx30.87_fpy54.98.jpg",
+      "published": "2026-11-23T01:21:00+01:00",
+      "category": "Technologie",
+      "score": 56.1
     },
     {
       "id": "spiegel-6a2b34a3296f43e6",
@@ -579,7 +467,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/f7c57429-0702-4760-8516-ed70b15b7553_w1200_r1.778_fpx58_fpy43.jpg",
       "published": "2026-11-22T23:14:00+01:00",
       "category": "Nachrichten",
-      "score": 66.45
+      "score": 62.33
     },
     {
       "id": "spiegel-1a5f4fab6c2c9811",
@@ -591,7 +479,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/54b4d846-2a3e-43ec-8ae6-cc103a51a5fa_w1200_r1.778_fpx38_fpy55.jpg",
       "published": "2026-11-22T22:33:00+01:00",
       "category": "Politik",
-      "score": 60.88
+      "score": 56.76
     },
     {
       "id": "spiegel-14f7a46de417b186",
@@ -603,7 +491,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/8f16be38-4a5c-475a-b0ef-ce21aaedd100_w1200_r1.778_fpx49_fpy21.jpg",
       "published": "2026-11-22T22:27:00+01:00",
       "category": "Politik",
-      "score": 66.9
+      "score": 70.25
     },
     {
       "id": "spiegel-56377a4af6e615c6",
@@ -615,7 +503,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/a3ea2937-b3e4-4e88-8d4d-f8d7c27431e7_w1200_r1.778_fpx55_fpy51.jpg",
       "published": "2026-11-22T22:19:00+01:00",
       "category": "Nachrichten",
-      "score": 75.9
+      "score": 67.25
     },
     {
       "id": "spiegel-dfc875b40ccf8992",
@@ -627,7 +515,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/09fa6b51-0d3c-4aaf-939e-dc0418f8b238_w1200_r1.778_fpx61.39_fpy50.jpg",
       "published": "2026-11-22T21:41:00+01:00",
       "category": "Nachrichten",
-      "score": 94.9
+      "score": 91.31
     },
     {
       "id": "tagesschau-eb3cda90e86aaf3c",
@@ -639,7 +527,7 @@
       "image": "https://images.tagesschau.de/image/6f74e36d-d50a-46ab-b5e0-d5c3bb7884fb/AAABogTPuLc/AAABnSSvrFg/16x9-big/cramer-100.jpg?width=1920",
       "published": "2026-11-22T20:58:18+01:00",
       "category": "Nachrichten",
-      "score": 57.56
+      "score": 53.45
     },
     {
       "id": "tagesschau-3fa347f0a0cdb5d1",
@@ -651,27 +539,7 @@
       "image": "https://images.tagesschau.de/image/8d96bde7-7e20-4021-bfc1-26bb77165f12/AAABogS9XJY/AAABnSSvrFg/16x9-big/schiff-finnland-100.jpg?width=1920",
       "published": "2026-11-22T20:53:03+01:00",
       "category": "Nachrichten",
-      "score": 75.9,
-      "coverage": {
-        "sourceCount": 4,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Ostsee - Löscharbeiten an russischem Frachter dauern nach Drohnenangriff an",
-            "link": "https://www.deutschlandfunk.de/loescharbeiten-an-russischem-frachter-dauern-nach-drohnenangriff-an-100.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Finnland: »Sparta II« nach Brand in russische Gewässer geschleppt",
-            "link": "https://www.spiegel.de/ausland/finnland-sparta-ii-nach-brand-in-russische-gewaesser-geschleppt-a-3b64d5c4-f5b2-4c52-929a-d8dd06f0ddf3#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Ostsee: Russisches Frachtschiff nach Drohnenangriff vor Finnland in Brand",
-            "link": "https://www.handelsblatt.com/politik/international/ostsee-russisches-frachtschiff-nach-drohnenangriff-vor-finnland-in-brand/100271784.html"
-          }
-        ]
-      }
+      "score": 67.25
     },
     {
       "id": "spiegel-ebb692a5d597a54b",
@@ -683,7 +551,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/491b530a-5ed6-4c40-907e-98a07635da2e_w1200_r1.778_fpx36_fpy23.jpg",
       "published": "2026-11-22T20:48:00+01:00",
       "category": "Nachrichten",
-      "score": 56.42
+      "score": 66.63
     },
     {
       "id": "deutsche-welle-320cf15e9e34fedf",
@@ -695,7 +563,7 @@
       "image": "https://static.dw.com/image/80003412_6.jpg",
       "published": "2026-11-22T20:30:00+00:00",
       "category": "Technologie",
-      "score": 64.0
+      "score": 59.89
     },
     {
       "id": "spiegel-2f16463a55794ba4",
@@ -707,7 +575,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/5f5ed877-e9b5-4142-8534-f9c422f468cb_w1056_r1.778_fpx64.02_fpy50.jpg",
       "published": "2026-11-22T20:25:00+01:00",
       "category": "Nachrichten",
-      "score": 56.1
+      "score": 51.99
     },
     {
       "id": "tagesschau-09059c97bf29c1ab",
@@ -719,7 +587,7 @@
       "image": "https://images.tagesschau.de/image/b842eb3c-1b14-4a03-b29e-37a1794517a0/AAABogRfKj0/AAABnSSvrFg/16x9-big/sendungsbild-1831402.jpg?width=1920",
       "published": "2026-11-22T20:24:22+01:00",
       "category": "Nachrichten",
-      "score": 57.09
+      "score": 52.98
     },
     {
       "id": "spiegel-a9551270b1287fb5",
@@ -731,7 +599,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/388a7795-832d-4711-8ab1-a3fec3dfffac_w1200_r1.778_fpx47.82_fpy49.97.jpg",
       "published": "2026-11-22T20:16:00+01:00",
       "category": "Technologie",
-      "score": 55.98
+      "score": 51.86
     },
     {
       "id": "spiegel-ec195104a2c6175c",
@@ -743,7 +611,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/6d5cb150-0e8f-4ca0-8807-63f3f3877ea5_w1200_r1.778_fpx74_fpy52.jpg",
       "published": "2026-11-22T20:14:00+01:00",
       "category": "Nachrichten",
-      "score": 55.95
+      "score": 51.83
     },
     {
       "id": "spiegel-e1bc1d0f6530722e",
@@ -755,7 +623,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/3495576f-3f84-48a1-8390-b0ed210aa8bf_w1200_r1.778_fpx55.97_fpy49.99.jpg",
       "published": "2026-11-22T20:13:00+01:00",
       "category": "Politik",
-      "score": 74.94
+      "score": 70.82
     },
     {
       "id": "spiegel-a033c8837d0ecac6",
@@ -767,7 +635,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/e05f957b-4d21-452e-a43a-d2694ef03788_w1200_r1.778_fpx53.32_fpy50.jpg",
       "published": "2026-11-22T20:13:00+01:00",
       "category": "Nachrichten",
-      "score": 55.94
+      "score": 51.82
     },
     {
       "id": "spiegel-b0be51c8664553fe",
@@ -779,7 +647,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/f8e092da-660b-4b4a-b3a6-5284fb8a071d_w1200_r1.778_fpx54_fpy61.jpg",
       "published": "2026-11-22T20:10:00+01:00",
       "category": "Nachrichten",
-      "score": 55.89
+      "score": 51.78
     },
     {
       "id": "handelsblatt-2c8cb88b3122cdbb",
@@ -791,7 +659,7 @@
       "image": "https://images.handelsblatt.com/YWHJkjhAJXuz/cover/900/506/0/0/188/188/0.5/0.5/urnnewsmldpa.com20090101261118-935-1751948.jpg",
       "published": "2026-11-22T20:01:52+00:00",
       "category": "Politik",
-      "score": 74.61
+      "score": 70.25
     },
     {
       "id": "spiegel-7c91ac0b7a211f9d",
@@ -803,7 +671,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/8cf974af-e1e9-4773-86f2-958d81f890d6_w1200_r1.778_fpx71_fpy38.jpg",
       "published": "2026-11-22T20:00:00+01:00",
       "category": "Nachrichten",
-      "score": 55.75
+      "score": 51.64
     },
     {
       "id": "spiegel-49d27af7804db2f6",
@@ -815,7 +683,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/e6d6d56c-8aa0-411d-b071-66b7c4451d62_w1200_r1.778_fpx66_fpy24.jpg",
       "published": "2026-11-22T19:54:00+01:00",
       "category": "Nachrichten",
-      "score": 55.67
+      "score": 51.55
     },
     {
       "id": "spiegel-25f48c08362a07f5",
@@ -827,54 +695,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/47e4d5a6-72b0-4c90-b7d3-9bf62aaf5809_w1200_r1.778_fpx42_fpy45.jpg",
       "published": "2026-11-22T19:48:00+01:00",
       "category": "Nachrichten",
-      "score": 68.27,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "COP31: Abschlusserklärung „nicht zustimmungsfähig“: Einigung bei Weltklimakonferenz gescheitert",
-            "link": "https://www.handelsblatt.com/politik/deutschland/cop31-einigung-bei-weltklimakonferenz-gescheitert/100270720.html"
-          },
-          {
-            "source": "deutsche-welle",
-            "title": "UN-Klimakonferenz COP31 ist in Antalya gescheitert",
-            "link": "https://www.dw.com/de/un-klimakonferenz-cop31-ist-in-antalya-gescheitert/a-80012944?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-27ee7734918c46aa",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Explosion auf russischem Schiff in Libyen - Behörden vermuten Drohnenangriff",
-      "link": "https://www.tagesschau.de/ausland/afrika/russisches-schiff-libyen-100.html",
-      "summary": "In einem Hafen der ostlibyschen Stadt Bengasi hat es eine Explosion auf einem russischen Kriegsschiff gegeben. Die Behörden gehen von einem Angriff mit Drohnen aus. Berichten zufolge wird die Ukraine verantwortlich gemacht.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/0f5b220e-cf1e-49af-b9d0-f502ac4a9ee5/AAABogRppfc/AAABnSSvrFg/16x9-big/libyen-schiff-102.jpg?width=1920",
-      "published": "2026-11-22T19:43:06+01:00",
-      "category": "Politik",
-      "score": 94.9,
-      "coverage": {
-        "sourceCount": 4,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Mutmaßlicher Drohnenangriff - Explosion auf russischem Schiff in Libyen",
-            "link": "https://www.deutschlandfunk.de/explosion-auf-russischem-schiff-in-libyen-100.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Libyen: Explosion auf russischem Schiff – ukrainischer Angriff vermutet",
-            "link": "https://www.spiegel.de/ausland/libyen-explosion-auf-russischem-schiff-ukrainischer-angriff-vermutet-a-bc74e064-fd7a-4770-aebd-0d742578cfeb#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "+++ Iran-Krieg +++: Bahrain gerät erneut unter iranischen Beschuss",
-            "link": "https://www.handelsblatt.com/politik/international/iran-krieg-bahrain-geraet-erneut-unter-iranischen-beschuss/100136895.html"
-          }
-        ]
-      }
+      "score": 59.47
     },
     {
       "id": "handelsblatt-be1d40c03c4b4855",
@@ -886,7 +707,7 @@
       "image": "https://images.handelsblatt.com/tvgNKshNvkTb/cover/900/506/0/0/107/106/0.5/0.5/markus-soeder.jpg",
       "published": "2026-11-22T19:23:48+00:00",
       "category": "Politik",
-      "score": 58.09
+      "score": 53.97
     },
     {
       "id": "spiegel-2d2496576523d0a2",
@@ -898,7 +719,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/5d86c326-eb96-4300-8958-83329af4b04f_w1080_r1.778_fpx50_fpy46.1.jpg",
       "published": "2026-11-22T19:23:00+01:00",
       "category": "Nachrichten",
-      "score": 55.24
+      "score": 51.12
     },
     {
       "id": "spiegel-c4ee861c739ad937",
@@ -910,7 +731,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/4056d7da-55aa-4553-8bcc-2824037bf4fe_w1200_r1.778_fpx46_fpy47.jpg",
       "published": "2026-11-22T19:21:00+01:00",
       "category": "Nachrichten",
-      "score": 55.21
+      "score": 51.1
     },
     {
       "id": "spiegel-fdd50064aacd54a2",
@@ -922,7 +743,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/c2a788c8-b2b7-4dfc-9a51-65300985a65e_w1200_r1.778_fpx57.11_fpy49.86.jpg",
       "published": "2026-11-22T19:20:00+01:00",
       "category": "Politik",
-      "score": 72.58
+      "score": 72.31
     },
     {
       "id": "tagesschau-d189cf28af393a99",
@@ -934,7 +755,7 @@
       "image": "https://images.tagesschau.de/image/0cd768bc-7da9-4a13-b607-9280ff7d6011/AAABnnkyHqc/AAABnSSvrFg/16x9-big/prien-128.jpg?width=1920",
       "published": "2026-11-22T18:36:50+01:00",
       "category": "Politik",
-      "score": 58.6
+      "score": 62.48
     },
     {
       "id": "spiegel-f6c8d9d48a565c52",
@@ -946,7 +767,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/142cbf25-0aa6-483e-891e-aad7af01c2b9_w1200_r1.778_fpx43.2_fpy44.97.jpg",
       "published": "2026-11-22T18:34:00+01:00",
       "category": "Nachrichten",
-      "score": 62.56
+      "score": 58.44
     },
     {
       "id": "spiegel-f58d7f95fd12c7d4",
@@ -958,7 +779,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/c30acd67-abf9-4e85-bd9d-6174bfc40ea7_w1170_r1.778_fpx48_fpy26.png",
       "published": "2026-11-22T18:30:00+01:00",
       "category": "Nachrichten",
-      "score": 54.5
+      "score": 50.39
     },
     {
       "id": "spiegel-105f8356cb1be26f",
@@ -970,7 +791,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/c65b3a71-646d-4c71-929c-b20e1399b12d_w1200_r1.778_fpx35.31_fpy46.97.jpg",
       "published": "2026-11-22T18:20:00+01:00",
       "category": "Nachrichten",
-      "score": 54.37
+      "score": 50.25
     },
     {
       "id": "spiegel-c4c4c37a41b6c821",
@@ -982,7 +803,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/5b8bee18-ac3a-4420-8992-1b3a1f0e7095_w1200_r1.778_fpx44_fpy46.jpg",
       "published": "2026-11-22T17:59:00+01:00",
       "category": "Nachrichten",
-      "score": 72.58
+      "score": 72.31
     },
     {
       "id": "spiegel-7ccb43c695ad90b6",
@@ -994,7 +815,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/59912b0e-e88b-431b-83e7-fe8087e54be4_w1200_r1.778_fpx56.23_fpy50.jpg",
       "published": "2026-11-22T17:43:00+01:00",
       "category": "Nachrichten",
-      "score": 71.58
+      "score": 57.74
     },
     {
       "id": "handelsblatt-36380d14861115fd",
@@ -1006,7 +827,7 @@
       "image": "https://images.handelsblatt.com/Rlq0sqcl57TN/cover/900/506/0/0/107/107/0.5/0.5/klimakonferenz-cop31.jpg",
       "published": "2026-11-22T17:30:18+00:00",
       "category": "Wirtschaft",
-      "score": 64.51
+      "score": 60.39
     },
     {
       "id": "handelsblatt-f870e9a8fb2f08b1",
@@ -1018,7 +839,7 @@
       "image": "https://images.handelsblatt.com/pkqU3URVqJ3q/cover/900/506/0/0/171/1/0.5/0.5/platz-8-delta-air-lines-usa.jpeg",
       "published": "2026-11-22T17:23:14+00:00",
       "category": "Wirtschaft",
-      "score": 56.41
+      "score": 52.29
     },
     {
       "id": "tagesschau-3a9037504b04556d",
@@ -1030,14 +851,14 @@
       "image": "https://images.tagesschau.de/image/682da354-0dfb-470b-8c2f-1984242c15d0/AAABogPvbQw/AAABnSSvrFg/16x9-big/proteste-istanbul-124.jpg?width=1920",
       "published": "2026-11-22T17:19:14+01:00",
       "category": "Nachrichten",
-      "score": 72.58,
+      "score": 72.31,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "Türkei - Tausende demonstrieren in Istanbul für Pressefreiheit",
-            "link": "https://www.deutschlandfunk.de/tausende-demonstrieren-in-istanbul-fuer-pressefreiheit-102.html"
+            "link": "https://www.deutschlandfunk.de/tausende-demonstrieren-in-istanbul-fuer-pressefreiheit-108.html"
           },
           {
             "source": "spiegel",
@@ -1057,7 +878,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/712b3d4d-b6e1-4f8f-a8e1-cef356c91070_w1200_r1.778_fpx37_fpy44.jpg",
       "published": "2026-11-22T17:11:00+01:00",
       "category": "Technologie",
-      "score": 53.41
+      "score": 49.29
     },
     {
       "id": "handelsblatt-8361362f589229ef",
@@ -1069,7 +890,7 @@
       "image": "https://images.handelsblatt.com/cjCUFruhtM6k/cover/900/506/0/0/0/0/0.5/0.5/a.jpg",
       "published": "2026-11-22T17:08:51+00:00",
       "category": "Wirtschaft",
-      "score": 56.21
+      "score": 52.09
     },
     {
       "id": "tagesschau-4f217279787850cb",
@@ -1081,7 +902,7 @@
       "image": "https://images.tagesschau.de/image/206879de-6839-4894-a74c-98bd1e509e0f/AAABogP7viA/AAABnSSvrFg/16x9-big/cop31-klimakonferenz-antalya-104.jpg?width=1920",
       "published": "2026-11-22T17:08:20+01:00",
       "category": "Nachrichten",
-      "score": 54.37
+      "score": 50.25
     },
     {
       "id": "spiegel-4bb4473c8c2c7479",
@@ -1093,7 +914,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/fb32c938-6d22-4951-9d00-3aebb0f18aae_w1200_r1.778_fpx41_fpy58.jpg",
       "published": "2026-11-22T16:58:00+01:00",
       "category": "Nachrichten",
-      "score": 53.23
+      "score": 49.11
     },
     {
       "id": "spiegel-2edf6f075daf4bed",
@@ -1105,7 +926,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/fe27202a-6395-4b46-8cd6-4876e7de7f32_w1200_r1.778_fpx57.99_fpy45.jpg",
       "published": "2026-11-22T16:47:00+01:00",
       "category": "Nachrichten",
-      "score": 53.07
+      "score": 48.96
     },
     {
       "id": "tagesschau-5b203a67b776e35e",
@@ -1117,7 +938,7 @@
       "image": "https://images.tagesschau.de/image/793344cc-312e-43d2-b2a5-3b0d699748fc/AAABobEKUZk/AAABnSSvrFg/16x9-big/e-autos-gebraucht-100.jpg?width=1920",
       "published": "2026-11-22T16:36:15+01:00",
       "category": "Nachrichten",
-      "score": 53.92
+      "score": 49.81
     },
     {
       "id": "handelsblatt-9768cfa5644fbb19",
@@ -1129,7 +950,7 @@
       "image": "https://images.handelsblatt.com/gAtp1Cdvy5oK/cover/900/506/0/0/0/0/0.5/0.5/gastkommentar-20.11.26.jpg",
       "published": "2026-11-22T16:32:53+00:00",
       "category": "Wirtschaft",
-      "score": 55.71
+      "score": 51.59
     },
     {
       "id": "deutsche-welle-490c510c98f5de96",
@@ -1141,7 +962,7 @@
       "image": "https://static.dw.com/image/80012458_6.jpg",
       "published": "2026-11-22T16:31:00+00:00",
       "category": "Nachrichten",
-      "score": 52.69
+      "score": 48.57
     },
     {
       "id": "handelsblatt-497689ba7f576a53",
@@ -1153,19 +974,7 @@
       "image": "https://images.handelsblatt.com/81M7KBucjaPG/cover/900/506/0/0/107/106/0.5/0.5/hauptversammlung-der-aktionaere-von-borussia-dortmund.jpg",
       "published": "2026-11-22T16:30:20+00:00",
       "category": "Wirtschaft",
-      "score": 55.68
-    },
-    {
-      "id": "tagesschau-7668db01ec09d7b3",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Brand in indonesischer Süßwarenfabrik - viele Tote befürchtet",
-      "link": "https://www.tagesschau.de/ausland/asien/indonesien-brand-fabrik-tote-vermisste-100.html",
-      "summary": "Nach einem Feuer in einer Fabrik westlich von Indonesiens Hauptstadt Jakarta gibt es mehrere Tote. Etwa 60 Menschen sollen sich zum Zeitpunkt des Ausbruchs im Gebäude aufgehalten haben. Viele werden noch vermisst.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/77451618-e14b-487b-99a5-cc5151a61333/AAABogO7eo4/AAABnSSvrFg/16x9-big/indonesien-490.jpg?width=1920",
-      "published": "2026-11-22T16:21:42+01:00",
-      "category": "Nachrichten",
-      "score": 67.9
+      "score": 51.56
     },
     {
       "id": "handelsblatt-9d46b4a77a17a0fa",
@@ -1177,7 +986,7 @@
       "image": "https://images.handelsblatt.com/cOCraYEZPB85/cover/900/506/76/725/302/679/0.5/0.5/deu-deutschland-deutschland-berlin-64.-berlinale-das-internationale-filmfestival-in-der-deutschen-h.jpg",
       "published": "2026-11-22T16:15:42+00:00",
       "category": "Wirtschaft",
-      "score": 55.47
+      "score": 51.36
     },
     {
       "id": "handelsblatt-916908afe1869835",
@@ -1189,7 +998,7 @@
       "image": "https://images.handelsblatt.com/dgup7h6MhwgM/cover/900/506/0/0/107/106/0.5/0.5/spritpreise.jpg",
       "published": "2026-11-22T16:13:17+00:00",
       "category": "Politik",
-      "score": 55.44
+      "score": 51.32
     },
     {
       "id": "handelsblatt-fbe463f3b910b6ba",
@@ -1201,67 +1010,7 @@
       "image": "https://images.handelsblatt.com/m2KElmY4ZcjO/cover/900/506/0/0/275/276/0.5/0.5/2026.11.23handelsblatt.png",
       "published": "2026-11-22T16:09:25+00:00",
       "category": "Wirtschaft",
-      "score": 55.39
-    },
-    {
-      "id": "spiegel-ff9f55f6ee6b3384",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Bürokratie in Deutschland: Warum viele Regeln unverzichtbar bleiben - Meinung",
-      "link": "https://www.spiegel.de/politik/deutschland/buerokratie-in-deutschland-warum-viele-regeln-unverzichtbar-bleiben-meinung-a-629821a3-ef85-4bed-8d72-1fabc074250d#ref=rss",
-      "summary": "Ständig versprechen Politiker, das Leben für Bürger und Unternehmer einfacher zu machen. Dabei sind viele Gesetze und Regelungen unverzichtbar.",
-      "image": "https://cdn.prod.www.spiegel.de/images/a47554f7-4502-4165-9467-874400b9761a_w1200_r1.778_fpx51_fpy51.jpg",
-      "published": "2026-11-22T16:05:00+01:00",
-      "category": "Nachrichten",
-      "score": 52.49
-    },
-    {
-      "id": "handelsblatt-d4caba69a2e2eec2",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "COP31: Abschlusserklärung „nicht zustimmungsfähig“: Einigung bei Weltklimakonferenz gescheitert",
-      "link": "https://www.handelsblatt.com/politik/deutschland/cop31-einigung-bei-weltklimakonferenz-gescheitert/100270720.html",
-      "summary": "Der Streit um den Ausstieg aus fossilen Energien bringt das Gipfeltreffen in Antalya zum Scheitern. Nach zwei Wochen endet die Konferenz ohne Abschlusserklärung.",
-      "image": "https://images.handelsblatt.com/R42lMqybGPlh/cover/900/506/0/0/244/245/0.5/0.5/carsten-schneider-germanys-minister-of-the-environment-speaks-to-members-of-the-media-at-the-cop3.jpg",
-      "published": "2026-11-22T16:04:59+00:00",
-      "category": "Wirtschaft",
-      "score": 68.27
-    },
-    {
-      "id": "spiegel-6e8b15661afa197a",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "COP31 in Antalya: Weltklimakonferenz endet ohne klaren Ausstiegsbeschluss",
-      "link": "https://www.spiegel.de/wissenschaft/cop31-in-antalya-weltklimakonferenz-endet-ohne-klaren-ausstiegsbeschluss-a-112c0d3f-75a5-4709-b1ec-7533f999d386#ref=rss",
-      "summary": "Der Klimagipfel in der Türkei sollte mit einem Antalya-Pakt abschließen – doch am Ende wurde es ein diplomatisches Desaster. Wie es dazu kam und an welchen Konflikten der Gipfel scheiterte.",
-      "image": "https://cdn.prod.www.spiegel.de/images/21169964-af24-495d-9c54-8f5034c967b4_w1200_r1.778_fpx62_fpy50.jpg",
-      "published": "2026-11-22T16:01:00+01:00",
-      "category": "Nachrichten",
-      "score": 52.44
-    },
-    {
-      "id": "spiegel-427db520b9e1e2d8",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Prinzessin Kate teilt ihre Krebserfahrungen im Fernsehen",
-      "link": "https://www.spiegel.de/kultur/tv/prinzessin-kate-teilt-ihre-krebs-erfahrungen-im-fernsehen-a-9741e0b6-28bf-4188-923f-87e5d0887e2d#ref=rss",
-      "summary": "Nach einer erfolgreichen Krebsbehandlung hat die britische Prinzessin Kate drei Berge in 24 Stunden erklommen. Ein neuer Film begleitet sie bei der Challenge.",
-      "image": "https://cdn.prod.www.spiegel.de/images/d817eae4-5501-452d-979f-0e0b50a3adb1_w1200_r1.778_fpx59_fpy38.jpg",
-      "published": "2026-11-22T16:00:00+01:00",
-      "category": "Nachrichten",
-      "score": 52.42
-    },
-    {
-      "id": "spiegel-b3988b6a4d43b458",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Landkreis Vechta: Ein Hund soll seinen Bruder getötet haben, trotzdem will er ihn unbedingt zurück",
-      "link": "https://www.spiegel.de/panorama/justiz/landkreis-vechta-ein-hund-soll-seinen-bruder-getoetet-haben-trotzdem-will-er-ihn-unbedingt-zurueck-a-a1ac8e77-d3d5-4f17-a627-9ee9cd1eb966#ref=rss",
-      "summary": "Ein American Bully XL hat laut Polizei seinen Besitzer zu Tode gebissen. Seitdem lebt Sam im Tierheim. Der Bruder des Toten hat den Landkreis verklagt und will den Hund unbedingt zurück.",
-      "image": "https://cdn.prod.www.spiegel.de/images/e7c0b6e7-6093-4cf1-9804-54e3cd7e609c_w1200_r1.778_fpx56_fpy58.jpg",
-      "published": "2026-11-22T15:59:00+01:00",
-      "category": "Panorama",
-      "score": 52.41
+      "score": 51.27
     },
     {
       "id": "tagesschau-d137f6ab6253686a",
@@ -1273,7 +1022,7 @@
       "image": "https://images.tagesschau.de/image/1d5d0bae-f417-4d64-acba-327daba81a9f/AAABofl0j7U/AAABnSSvrFg/16x9-big/soezcue-104.jpg?width=1920",
       "published": "2026-11-22T15:21:45+01:00",
       "category": "Politik",
-      "score": 55.89
+      "score": 51.77
     },
     {
       "id": "handelsblatt-a239a1ac2f58e877",
@@ -1285,7 +1034,7 @@
       "image": "https://images.handelsblatt.com/MRxaEOu9vfB0/cover/900/506/0/0/129/128/0.5/0.5/karoline-preisler.jpg",
       "published": "2026-11-22T15:20:45+00:00",
       "category": "Politik",
-      "score": 66.9
+      "score": 62.48
     },
     {
       "id": "tagesschau-438c997ce52041a7",
@@ -1297,14 +1046,14 @@
       "image": "https://images.tagesschau.de/image/4f58fa7c-dddf-4b06-8589-0fa4f10d7fd9/AAABogTfoCQ/AAABnSSvrFg/16x9-big/wdr-parteitag-der-afd-in-muelheim-an-der-ruhr-100.jpg?width=1920",
       "published": "2026-11-22T15:20:00+01:00",
       "category": "Politik",
-      "score": 78.9,
+      "score": 78.63,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "NRW - AfD-Parteitag in Nordrhein-Westfalen einigt sich auf Programm für Landtagswahl",
-            "link": "https://www.deutschlandfunk.de/afd-parteitag-in-nordrhein-westfalen-einigt-sich-auf-programm-fuer-landtagswahl-102.html"
+            "link": "https://www.deutschlandfunk.de/afd-parteitag-in-nordrhein-westfalen-einigt-sich-auf-programm-fuer-landtagswahl-106.html"
           }
         ]
       }
@@ -1319,7 +1068,7 @@
       "image": "https://images.handelsblatt.com/ZmgV1gFA1SyE/cover/900/506/0/0/0/0/0.5/0.5/marktkolumne-jakob-blume-22.11.26.jpg",
       "published": "2026-11-22T15:19:12+00:00",
       "category": "Technologie",
-      "score": 51.69
+      "score": 47.57
     },
     {
       "id": "handelsblatt-151e18fdd7785043",
@@ -1331,7 +1080,7 @@
       "image": "https://images.handelsblatt.com/iaV-g2alxhTC/cover/900/506/0/0/313/312/0.5/0.5/essilor-luxottica.jpg",
       "published": "2026-11-22T14:59:37+00:00",
       "category": "Wirtschaft",
-      "score": 54.42
+      "score": 50.3
     },
     {
       "id": "handelsblatt-9a9b60ba8a329598",
@@ -1343,7 +1092,7 @@
       "image": "https://images.handelsblatt.com/sQB72QVORDEJ/cover/900/506/0/0/0/0/0.5/0.5/longread-evonik-basf.jpg",
       "published": "2026-11-22T14:57:27+00:00",
       "category": "Wirtschaft",
-      "score": 54.39
+      "score": 50.27
     },
     {
       "id": "handelsblatt-28aba4af4a099501",
@@ -1355,7 +1104,7 @@
       "image": "https://images.handelsblatt.com/Xd-orVlj47CC/cover/900/506/0/0/313/312/0.5/0.5/streik-legt-flugverkehr-in-belgien-lahm.jpg",
       "published": "2026-11-22T14:23:05+00:00",
       "category": "Wirtschaft",
-      "score": 53.91
+      "score": 64.14
     },
     {
       "id": "handelsblatt-f738fcc353992c9f",
@@ -1367,7 +1116,7 @@
       "image": "https://images.handelsblatt.com/ii4fkVuhOUPj/cover/900/506/0/0/0/432/0.5/0.5/till-reuter.jpg",
       "published": "2026-11-22T14:17:55+00:00",
       "category": "Wirtschaft",
-      "score": 53.84
+      "score": 49.72
     },
     {
       "id": "handelsblatt-c13f9ad0a1bb2393",
@@ -1379,7 +1128,7 @@
       "image": "https://images.handelsblatt.com/AXlrRc-YyjQh/cover/900/506/0/0/313/312/0.5/0.5/baustelle-in-andratx-spanien-der-wohnungsbau-wird-zum-wahlkampfthema..jpg",
       "published": "2026-11-22T13:42:22+00:00",
       "category": "Politik",
-      "score": 61.34
+      "score": 57.23
     },
     {
       "id": "handelsblatt-5c87d377280fe464",
@@ -1391,7 +1140,7 @@
       "image": "https://images.handelsblatt.com/o7T4PEWC3Gul/cover/900/506/0/0/0/0/0.5/0.5/felix-holtermann-schreibt-an-dieser-stelle-woechentlich-im-wechsel-mit-den-anderen-handelsblatt-us-korrespondenten-die-kolumne-inside-america.-foto-max-brunnert-getty-m-handelsblatt.jpg",
       "published": "2026-11-22T13:40:05+00:00",
       "category": "Wirtschaft",
-      "score": 53.31
+      "score": 49.19
     },
     {
       "id": "golem-aab2f0472e833bf9",
@@ -1403,7 +1152,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215430&amp;page=1&amp;ts=1795351202",
       "published": "2026-11-22T13:40:02+01:00",
       "category": "Technologie",
-      "score": 48.48
+      "score": 44.36
     },
     {
       "id": "handelsblatt-efa54b0ef73886f7",
@@ -1415,7 +1164,7 @@
       "image": "https://images.handelsblatt.com/KFhK7kl0dfMZ/cover/900/506/0/0/313/313/0.5/0.5/chinas-boersen-lockern-regeln-fuer-wertpapierkredite.jpg",
       "published": "2026-11-22T13:34:44+00:00",
       "category": "Wirtschaft",
-      "score": 53.24
+      "score": 49.12
     },
     {
       "id": "handelsblatt-0bcd5bd0d653d045",
@@ -1427,7 +1176,7 @@
       "image": "https://images.handelsblatt.com/xFpzrVA5ehK-/cover/900/506/1/1/0/0/0.5/0.5/merkur-sonde-bepicolombo-auf-zielanflug.jpg",
       "published": "2026-11-22T13:04:56+00:00",
       "category": "Technologie",
-      "score": 71.58
+      "score": 57.74
     },
     {
       "id": "golem-fd20673d06662977",
@@ -1439,7 +1188,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215510&amp;page=1&amp;ts=1795349042",
       "published": "2026-11-22T13:04:02+01:00",
       "category": "Wirtschaft",
-      "score": 66.98
+      "score": 62.86
     },
     {
       "id": "tagesschau-f6f627a176e3bbc0",
@@ -1451,7 +1200,7 @@
       "image": "https://images.tagesschau.de/image/bbdb6cd3-3bf8-4f12-9e32-9b5ea7ef500a/AAABnrvnwgE/AAABnSSvrFg/16x9-big/stoppt-femizide-banner-100.jpg?width=1920",
       "published": "2026-11-22T13:00:00+01:00",
       "category": "Politik",
-      "score": 70.9
+      "score": 49.8
     },
     {
       "id": "handelsblatt-bcc32e5f9946388f",
@@ -1463,7 +1212,7 @@
       "image": "https://images.handelsblatt.com/k6zweSrCBafF/cover/900/506/0/0/625/0/0.5/0.5/pope-leo-participates-in-a-lunch-offered-by-the-vatican-to-poor-people-vatican-november-22-2026..jpg",
       "published": "2026-11-22T13:00:00+00:00",
       "category": "Wirtschaft",
-      "score": 52.75
+      "score": 48.64
     },
     {
       "id": "tagesschau-7d22028155faa8a3",
@@ -1475,7 +1224,7 @@
       "image": "https://images.tagesschau.de/image/fbfd6c05-411d-4c85-8f98-050057fc6af4/AAABogMZlfs/AAABnSSvrFg/16x9-big/frachter-russland-sparta-100.jpg?width=1920",
       "published": "2026-11-22T12:41:16+01:00",
       "category": "Politik",
-      "score": 75.9
+      "score": 67.25
     },
     {
       "id": "handelsblatt-7ce3a20c88a3098a",
@@ -1487,7 +1236,7 @@
       "image": "https://images.handelsblatt.com/iWfcwfR59zkZ/cover/900/506/0/0/103/102/0.5/0.5/grippeschutzimpfung-und-impfpass.jpg",
       "published": "2026-11-22T12:35:35+00:00",
       "category": "Politik",
-      "score": 59.42
+      "score": 55.3
     },
     {
       "id": "deutsche-welle-ea3cb8ebe7388634",
@@ -1499,7 +1248,7 @@
       "image": "https://static.dw.com/image/78121325_6.jpg",
       "published": "2026-11-22T12:34:00+00:00",
       "category": "Nachrichten",
-      "score": 49.39
+      "score": 45.28
     },
     {
       "id": "golem-8fb0b0234318068c",
@@ -1511,7 +1260,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215509&amp;page=1&amp;ts=1795347001",
       "published": "2026-11-22T12:30:01+01:00",
       "category": "Technologie",
-      "score": 47.5
+      "score": 43.39
     },
     {
       "id": "handelsblatt-4c1d03b62794492c",
@@ -1523,7 +1272,7 @@
       "image": "https://images.handelsblatt.com/-jFQlgVGOHbL/cover/900/506/0/0/314/313/0.5/0.5/antalya-turkey-november-21-the-cop31-sign-is-seen-at-sunset-during-the-first-overtime-day-of-the.jpg",
       "published": "2026-11-22T12:29:43+00:00",
       "category": "Wirtschaft",
-      "score": 52.33
+      "score": 48.22
     },
     {
       "id": "handelsblatt-71e51196e5b9c68d",
@@ -1535,7 +1284,7 @@
       "image": "https://images.handelsblatt.com/hPmVImpvDjsU/cover/900/506/0/0/0/0/0.5/0.5/insight-innovation-ki.jpg",
       "published": "2026-11-22T12:29:18+00:00",
       "category": "Technologie",
-      "score": 49.33
+      "score": 45.21
     },
     {
       "id": "tagesschau-e1518da138f54ddd",
@@ -1547,7 +1296,7 @@
       "image": "https://images.tagesschau.de/image/e953bb69-d5fd-4d66-aeed-83af01d9bb73/AAABogKhx7c/AAABnSSvrFg/16x9-big/schneider-208.jpg?width=1920",
       "published": "2026-11-22T12:19:54+01:00",
       "category": "Politik",
-      "score": 53.36
+      "score": 49.25
     },
     {
       "id": "deutsche-welle-b51e2fcafd6f4072",
@@ -1559,7 +1308,7 @@
       "image": "https://static.dw.com/image/80012748_6.jpg",
       "published": "2026-11-22T12:19:00+00:00",
       "category": "Technologie",
-      "score": 68.27
+      "score": 59.47
     },
     {
       "id": "handelsblatt-fbf3adb7b2679330",
@@ -1571,7 +1320,7 @@
       "image": "https://images.handelsblatt.com/duGFCGr23bG8/cover/900/506/0/0/305/305/0.5/0.5/19.11.2026-niedersachsen-wolfsburg-ein-pfeil-auf-einem-verkehrsschild-zeigt-nach-unten-am-tor-san.jpg",
       "published": "2026-11-22T12:04:40+00:00",
       "category": "Wirtschaft",
-      "score": 51.99
+      "score": 47.87
     },
     {
       "id": "golem-e195fac1e1acb1f6",
@@ -1583,7 +1332,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215513&amp;page=1&amp;ts=1795345082",
       "published": "2026-11-22T11:58:02+01:00",
       "category": "Technologie",
-      "score": 47.06
+      "score": 42.94
     },
     {
       "id": "handelsblatt-01dab8208d4d62c7",
@@ -1595,7 +1344,7 @@
       "image": "https://images.handelsblatt.com/WNI0YFbAL4Pi/cover/900/506/126/128/0/1/0.5/0.5/blick-auf-athen.jpg",
       "published": "2026-11-22T11:55:19+00:00",
       "category": "Wirtschaft",
-      "score": 51.86
+      "score": 47.74
     },
     {
       "id": "golem-6382cfa54238777e",
@@ -1607,7 +1356,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215507&amp;page=1&amp;ts=1795344181",
       "published": "2026-11-22T11:43:01+01:00",
       "category": "Technologie",
-      "score": 46.85
+      "score": 42.74
     },
     {
       "id": "handelsblatt-b91ca4cf7c0f5c7e",
@@ -1619,7 +1368,7 @@
       "image": "https://images.handelsblatt.com/s8X04f7xzgEl/cover/900/506/0/0/85/84/0.5/0.5/was-tun-bei-sturmschaeden.jpeg",
       "published": "2026-11-22T11:42:46+00:00",
       "category": "Politik",
-      "score": 51.68
+      "score": 47.57
     },
     {
       "id": "golem-0e4d84666838b31f",
@@ -1631,7 +1380,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215506&amp;page=1&amp;ts=1795343522",
       "published": "2026-11-22T11:32:02+01:00",
       "category": "Technologie",
-      "score": 46.7
+      "score": 42.58
     },
     {
       "id": "handelsblatt-b9c3315c53e8b2e7",
@@ -1643,7 +1392,7 @@
       "image": "https://images.handelsblatt.com/3RWUe3WwbluJ/cover/900/506/0/664/64/523/0.5/0.5/markus-soeder.jpg",
       "published": "2026-11-22T11:30:54+00:00",
       "category": "Wirtschaft",
-      "score": 69.9
+      "score": 53.97
     },
     {
       "id": "tagesschau-d81385bfc2bc8a8e",
@@ -1655,7 +1404,7 @@
       "image": "https://images.tagesschau.de/image/7633e50a-12de-42ef-9ab0-b9d3d8dc93f8/AAABlCavHBs/AAABnSSvrFg/16x9-big/dax-244.jpg?width=1920",
       "published": "2026-11-22T11:25:29+01:00",
       "category": "Wirtschaft",
-      "score": 52.61
+      "score": 48.49
     },
     {
       "id": "handelsblatt-cfb30068ddf6fb4b",
@@ -1667,7 +1416,7 @@
       "image": "https://images.handelsblatt.com/9gcgY3HzhrIY/cover/900/506/0/0/313/312/0.5/0.5/nato-assembly-meets-in-berlin-berlin-germany-november-21-2026-delegates-attend-committee-sessio.jpg",
       "published": "2026-11-22T11:23:00+00:00",
       "category": "Politik",
-      "score": 66.9
+      "score": 63.29
     },
     {
       "id": "golem-8d1330ceb05a6599",
@@ -1679,7 +1428,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215512&amp;page=1&amp;ts=1795342562",
       "published": "2026-11-22T11:16:02+01:00",
       "category": "Technologie",
-      "score": 46.48
+      "score": 42.36
     },
     {
       "id": "handelsblatt-b595441cb53f8093",
@@ -1691,7 +1440,7 @@
       "image": "https://images.handelsblatt.com/HBM0Voduvxx3/cover/900/506/46/0/119/120/0.5/0.5/javier-milei.jpg",
       "published": "2026-11-22T11:10:00+00:00",
       "category": "Politik",
-      "score": 67.23
+      "score": 63.11
     },
     {
       "id": "golem-637574087942efec",
@@ -1703,7 +1452,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215505&amp;page=1&amp;ts=1795341901",
       "published": "2026-11-22T11:05:01+01:00",
       "category": "Technologie",
-      "score": 46.32
+      "score": 42.21
     },
     {
       "id": "heise-dbd29ebd32d75db7",
@@ -1715,7 +1464,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/5/9/4/9/shutterstock_2033447216-fc9dc3875fd6870b.jpeg",
       "published": "2026-11-22T11:02:00+01:00",
       "category": "Technologie",
-      "score": 47.28
+      "score": 43.17
     },
     {
       "id": "golem-bbee5ca70b2a2a7c",
@@ -1727,7 +1476,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215511&amp;page=1&amp;ts=1795341422",
       "published": "2026-11-22T10:57:02+01:00",
       "category": "Technologie",
-      "score": 46.21
+      "score": 42.1
     },
     {
       "id": "tagesschau-8f8ae8a2966a619b",
@@ -1739,7 +1488,7 @@
       "image": "https://images.tagesschau.de/image/c1199981-91f2-42b6-a91d-021ae253b598/AAABogKXsR4/AAABnSSvrFg/16x9-big/freuding-106.jpg?width=1920",
       "published": "2026-11-22T10:51:56+01:00",
       "category": "Wissenschaft",
-      "score": 67.9
+      "score": 45.03
     },
     {
       "id": "tagesschau-0911e4985d4c7e9e",
@@ -1751,7 +1500,7 @@
       "image": "https://images.tagesschau.de/image/77835ed6-01f3-4b3e-9414-b461b31fcd1a/AAABogKmxvw/AAABnSSvrFg/16x9-big/stern-168.jpg?width=1920",
       "published": "2026-11-22T10:48:00+01:00",
       "category": "Politik",
-      "score": 60.09
+      "score": 55.97
     },
     {
       "id": "golem-55a764d1ef7a3ecd",
@@ -1763,7 +1512,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215373&amp;page=1&amp;ts=1795340404",
       "published": "2026-11-22T10:40:04+01:00",
       "category": "Technologie",
-      "score": 46.7
+      "score": 42.58
     },
     {
       "id": "golem-f5170dd271876e4b",
@@ -1775,7 +1524,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215508&amp;page=1&amp;ts=1795340402",
       "published": "2026-11-22T10:40:02+01:00",
       "category": "Politik",
-      "score": 48.98
+      "score": 44.86
     },
     {
       "id": "handelsblatt-289ddac77f70a062",
@@ -1787,7 +1536,7 @@
       "image": "https://images.handelsblatt.com/YCxyQP3sWZNb/cover/900/506/0/0/0/0/0.5/0.5/altersvorsorge-depot-nachgerechnet.jpg",
       "published": "2026-11-22T10:38:50+00:00",
       "category": "Wirtschaft",
-      "score": 50.79
+      "score": 46.68
     },
     {
       "id": "handelsblatt-afc8d56b572ddbd3",
@@ -1799,7 +1548,7 @@
       "image": "https://images.handelsblatt.com/ZJ5JFOvBV0gI/cover/900/506/0/0/46/45/0.5/0.5/dpatopbilder-handout-21.11.2026-finnland-auf-diesem-von-der-finnischen-grenzschutzbehoerde-v.jpg",
       "published": "2026-11-22T10:38:00+00:00",
       "category": "Politik",
-      "score": 75.9
+      "score": 67.25
     },
     {
       "id": "handelsblatt-9d93a5d5efe86e40",
@@ -1811,7 +1560,7 @@
       "image": "https://images.handelsblatt.com/Cocb3sknIGjg/cover/900/506/0/0/107/106/0.5/0.5/beisetzungsfeier-fuer-hubert-aiwanger.jpg",
       "published": "2026-11-22T10:30:28+00:00",
       "category": "Wirtschaft",
-      "score": 50.68
+      "score": 46.56
     },
     {
       "id": "handelsblatt-b32c262943597f3f",
@@ -1823,7 +1572,7 @@
       "image": "https://images.handelsblatt.com/qHNz8cN6Xkcb/cover/900/506/0/0/151/150/0.5/0.5/spritpreisdeckel-soll-ab-januar-aktiviert-werden.jpg",
       "published": "2026-11-22T10:10:24+00:00",
       "category": "Politik",
-      "score": 60.4
+      "score": 56.28
     },
     {
       "id": "golem-81520da8233fd798",
@@ -1835,7 +1584,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215226&amp;page=1&amp;ts=1795338001",
       "published": "2026-11-22T10:00:01+01:00",
       "category": "Technologie",
-      "score": 45.42
+      "score": 41.31
     },
     {
       "id": "handelsblatt-d82b8e935d141db6",
@@ -1847,7 +1596,7 @@
       "image": "https://images.handelsblatt.com/Dnyo-v3xIr2Y/cover/900/506/0/0/0/0/0.5/0.5/heizen-kosten-gasheizung.jpg",
       "published": "2026-11-22T09:50:06+00:00",
       "category": "Wirtschaft",
-      "score": 58.12
+      "score": 54.0
     },
     {
       "id": "handelsblatt-a9e347aff68e9c18",
@@ -1859,7 +1608,7 @@
       "image": "https://images.handelsblatt.com/zMCC57qBrmKC/cover/900/506/0/0/107/106/0.5/0.5/hermann-groehe.jpg",
       "published": "2026-11-22T09:46:11+00:00",
       "category": "Wirtschaft",
-      "score": 50.06
+      "score": 45.95
     },
     {
       "id": "tagesschau-fbe0dc8d55376412",
@@ -1871,7 +1620,7 @@
       "image": "https://images.tagesschau.de/image/82b8fa1d-0f46-4482-8561-964d6aa70ac0/AAABldeZbTM/AAABnSSvrFg/16x9-big/kind-schatten-wand-100.jpg?width=1920",
       "published": "2026-11-22T09:26:52+01:00",
       "category": "Technologie",
-      "score": 47.96
+      "score": 43.84
     },
     {
       "id": "handelsblatt-d35fcf268a27ddf6",
@@ -1883,7 +1632,7 @@
       "image": "https://images.handelsblatt.com/Lg5-2NcmeUGh/cover/900/506/0/0/107/106/0.5/0.5/heizen-mit-holz.jpg",
       "published": "2026-11-22T09:16:26+00:00",
       "category": "Wirtschaft",
-      "score": 57.65
+      "score": 53.53
     },
     {
       "id": "tagesschau-bea31070f8258979",
@@ -1895,7 +1644,7 @@
       "image": "https://images.tagesschau.de/image/e72d8620-3202-49aa-8993-7d735b11e9bf/AAABofhDH_g/AAABnSSvrFg/16x9-big/sperre-social-media-seite-100.jpg?width=1920",
       "published": "2026-11-22T08:26:24+01:00",
       "category": "Nachrichten",
-      "score": 47.12
+      "score": 43.0
     },
     {
       "id": "deutsche-welle-f32306b91e446287",
@@ -1907,7 +1656,7 @@
       "image": "https://static.dw.com/image/73258353_6.jpg",
       "published": "2026-11-22T08:18:00+00:00",
       "category": "Nachrichten",
-      "score": 45.84
+      "score": 41.72
     },
     {
       "id": "handelsblatt-120d35007462fc9a",
@@ -1919,7 +1668,7 @@
       "image": "https://images.handelsblatt.com/8Rxoi2GPw9hx/cover/900/506/286/241/182/430/0.5/0.5/picture-taken-june-2-2024.-nvidia-ceo-jensen-huang-embraces-chinese-businesswoman-alice-huang-after.jpg",
       "published": "2026-11-22T08:13:03+00:00",
       "category": "Wirtschaft",
-      "score": 62.56
+      "score": 58.44
     },
     {
       "id": "handelsblatt-d244e5a10cb07105",
@@ -1931,7 +1680,7 @@
       "image": "https://images.handelsblatt.com/OpL-FTju0VMY/cover/900/506/0/0/269/268/0.5/0.5/heizen-mit-holz-preise-gestiegen-so-laesst-sich-sparen.jpg",
       "published": "2026-11-22T07:34:17+00:00",
       "category": "Wirtschaft",
-      "score": 57.65
+      "score": 53.53
     },
     {
       "id": "golem-58a7de1c4e2dfe0d",
@@ -1943,7 +1692,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215224&amp;page=1&amp;ts=1795329002",
       "published": "2026-11-22T07:30:02+01:00",
       "category": "Technologie",
-      "score": 43.34
+      "score": 39.22
     },
     {
       "id": "netzpolitik-abd9edbd9b1e83df",
@@ -1955,7 +1704,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/Elke-Schilling-Silbernetz.jpg",
       "published": "2026-11-22T07:23:19+00:00",
       "category": "Politik",
-      "score": 53.08
+      "score": 48.96
     },
     {
       "id": "handelsblatt-475d98cafc6ae668",
@@ -1967,7 +1716,7 @@
       "image": "https://images.handelsblatt.com/sBo5Wt2e7bQt/cover/900/506/0/0/313/312/0.5/0.5/ist-wieder-genug-wasser-im-rhein.jpg",
       "published": "2026-11-22T06:48:39+00:00",
       "category": "Wirtschaft",
-      "score": 47.6
+      "score": 43.48
     },
     {
       "id": "tagesschau-4cb372b25787d425",
@@ -1979,7 +1728,7 @@
       "image": "https://images.tagesschau.de/image/5836c0f1-1257-4bf7-9bdb-6d4b4f873133/AAABogHLiwA/AAABnSSvrFg/16x9-big/schnurbein-104.jpg?width=1920",
       "published": "2026-11-22T06:47:26+01:00",
       "category": "Nachrichten",
-      "score": 45.75
+      "score": 41.63
     },
     {
       "id": "tagesschau-60359fc42bc696dd",
@@ -1991,19 +1740,22 @@
       "image": "https://images.tagesschau.de/image/86168682-dd57-4d10-8eda-1f1910d9925c/AAABogKIbOs/AAABnSSvrFg/16x9-big/cop31-120.jpg?width=1920",
       "published": "2026-11-22T06:21:04+01:00",
       "category": "Nachrichten",
-      "score": 72.58
-    },
-    {
-      "id": "handelsblatt-968f3c4550faacde",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Beyond the obvious: Wer wessen Rente zahlt",
-      "link": "https://www.handelsblatt.com/audio/bto/beyond-the-obvious-wer-wessen-rente-zahlt/100271820.html",
-      "summary": "Ein Jahrzehnt nach 2015: Was die Zahlen über Flüchtlinge, Löhne und Rente wirklich sagen.",
-      "image": "https://images.handelsblatt.com/pKyBF6FlGqmf/cover/900/506/0/0/86/86/0.5/0.5/bto-podcast-teaser-2025.png",
-      "published": "2026-11-22T05:30:00+00:00",
-      "category": "Wirtschaft",
-      "score": 46.5
+      "score": 72.31,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "COP31 - Nach Scheitern: Bundesregierung wirft Ölstaaten Blockade der Klimakonferenz vor",
+            "link": "https://www.deutschlandfunk.de/nach-scheitern-bundesregierung-wirft-oelstaaten-blockade-der-klimakonferenz-vor-102.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "Längste Uno-Klimakonferenz endet nach mehr als 49 Stunden Verlängerung",
+            "link": "https://www.spiegel.de/wissenschaft/laengste-uno-klimakonferenz-endet-nach-mehr-als-49-stunden-verlaengerung-a-2e50ff21-e484-4379-bbca-6147f83a0286#ref=rss"
+          }
+        ]
+      }
     },
     {
       "id": "deutsche-welle-d616775f533cd538",
@@ -2015,19 +1767,7 @@
       "image": "https://static.dw.com/image/79962452_6.jpg",
       "published": "2026-11-22T05:19:00+00:00",
       "category": "Wissenschaft",
-      "score": 43.35
-    },
-    {
-      "id": "handelsblatt-33a362ca780d8489",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Tierseuche: Vogelgrippe-Fälle nehmen zu, vor allem im Norden",
-      "link": "https://www.handelsblatt.com/technik/forschung-innovation/tierseuche-vogelgrippe-faelle-nehmen-zu-vor-allem-im-norden/100271817.html",
-      "summary": "Wieder mehr Vogelgrippe-Fälle landen im Labor. So stark wie im vergangenen Jahr ist das Geschehen aber aktuell nicht. Und das ist nicht der einzige Unterschied.",
-      "image": "https://images.handelsblatt.com/2IishfkOzCGP/cover/900/506/0/0/107/106/0.5/0.5/gaense.jpg",
-      "published": "2026-11-22T05:00:15+00:00",
-      "category": "Wirtschaft",
-      "score": 46.09
+      "score": 39.24
     },
     {
       "id": "tagesschau-0aa68f540bdbcc37",
@@ -2039,91 +1779,7 @@
       "image": "https://images.tagesschau.de/image/63d28ea6-067c-417e-a4a1-eae3ebdaaeb3/AAABogFgCrw/AAABnSSvrFg/16x9-big/ig-metall-290.jpg?width=1920",
       "published": "2026-11-22T04:50:01+01:00",
       "category": "Technologie",
-      "score": 67.9
-    },
-    {
-      "id": "handelsblatt-4321ccd5362e9c58",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Thailand stressfrei: Koh Kood: Abhängen auf Siams Ruheinsel",
-      "link": "https://www.handelsblatt.com/unternehmen/dienstleister/thailand-stressfrei-koh-kood-abhaengen-auf-siams-ruheinsel/100271814.html",
-      "summary": "Thailand hat der Massentourismus fest im Griff. Ganz Thailand? Nein, im Südosten gibt es einen Archipel, auf dem die Tage in tiefer Entspannung so dahin gehen.",
-      "image": "https://images.handelsblatt.com/KuhuKqeNrZj1/cover/900/506/0/0/107/106/0.5/0.5/strandlandschaft-mit-kokospalme-auf-der-insel-koh-kood.jpg",
-      "published": "2026-11-22T04:47:08+00:00",
-      "category": "Wirtschaft",
-      "score": 45.91
-    },
-    {
-      "id": "handelsblatt-ec87d7ddc1e70ac1",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Bundespräsidentenwahl: Umfrage: Aigner sollte sich bei AfD und Linken vorstellen",
-      "link": "https://www.handelsblatt.com/politik/deutschland/bundespraesidentenwahl-umfrage-aigner-sollte-sich-bei-afd-und-linken-vorstellen/100271808.html",
-      "summary": "Sollte sich eine „Kandidatin der Mitte“ für das Bundespräsidentenamt bei AfD und Linken vorstellen? Ilse Aigner hat die Frage vorerst mit einem Nein beantwortet. Die Menschen im Land sehen das anders.",
-      "image": "https://images.handelsblatt.com/57rFgQL-mtOW/cover/900/506/0/0/63/62/0.5/0.5/aigner-im-bundestag.jpg",
-      "published": "2026-11-22T04:00:04+00:00",
-      "category": "Politik",
-      "score": 53.26
-    },
-    {
-      "id": "handelsblatt-995b54ff3338d38c",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Pilgerort Okunoin: Durch Nacht und Nebel: Auf Japans größtem Friedhof",
-      "link": "https://www.handelsblatt.com/unternehmen/dienstleister/pilgerort-okunoin-durch-nacht-und-nebel-auf-japans-groesstem-friedhof/100271804.html",
-      "summary": "Seit alters pilgern Gläubige nach Koyasan - auf der Suche nach Erlösung, Erleuchtung und der Nähe eines Mönchs, der dem Glauben nach nie gestorben ist - und seit 1.200 Jahren mit Essen versorgt wird.",
-      "image": "https://images.handelsblatt.com/Pf1Sg7K9ljqD/cover/900/506/0/0/122/121/0.5/0.5/pfad-mit-zedern-und-laternen-ueber-den-friedhof-okunoin.jpg",
-      "published": "2026-11-22T03:11:13+00:00",
-      "category": "Wirtschaft",
-      "score": 44.58
-    },
-    {
-      "id": "handelsblatt-d4505d2458b323be",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Iran-Krieg +++: Bahrain gerät erneut unter iranischen Beschuss",
-      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-bahrain-geraet-erneut-unter-iranischen-beschuss/100136895.html",
-      "summary": "Explosion auf russischem Schiff in Libyen +++ Siedler setzen Autos in palästinensischen Dörfern in Brand +++ Neue Angriffe auf Tanker in umkämpfter Straße von Hormus +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/ziCfRDTBhE9K/cover/900/506/0/0/270/270/0.5/0.5/urnnewsmldpa.com20090101261122-935-1758467.jpg",
-      "published": "2026-11-22T02:26:00+00:00",
-      "category": "Wirtschaft",
-      "score": 94.9
-    },
-    {
-      "id": "handelsblatt-56e9e00537128c1c",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "AfD: „Absolut schlechtes Zeichen“: Gefährdet die AfD die Kooperation mit Partnergeheimdiensten?",
-      "link": "https://www.handelsblatt.com/politik/deutschland/afd-politiker-sorgen-sich-um-kooperation-mit-partnergeheimdiensten/100271788.html",
-      "summary": "Die AfD in Sachsen-Anhalt kontrolliert künftig über ein Parlamentsgremium den Landesverfassungsschutz mit, der die Partei selbst beobachtet. Sicherheitspolitiker schlagen Alarm.",
-      "image": "https://images.handelsblatt.com/lUUZiISXz8vE/cover/900/506/0/0/0/622/0.5/0.5/06.09.2026-sachsen-anhalt-magdeburg-ulrich-siegmund-mitte-l-afd-spitzenkandidat-und-co-vorsit.jpg",
-      "published": "2026-11-22T02:01:18+00:00",
-      "category": "Wirtschaft",
-      "score": 43.61
-    },
-    {
-      "id": "handelsblatt-1bccd87ebf3446ec",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Metall-Tarifkonflikt: IG Metall Küste – 24-Stunden-Streiks werden ausgeweitet",
-      "link": "https://www.handelsblatt.com/politik/deutschland/metall-tarifkonflikt-ig-metall-kueste-24-stunden-streiks-werden-ausgeweitet/100271781.html",
-      "summary": "Im festgefahrenen Tarifstreit sind am Montag mehr als 23.000 Beschäftigte in 19 Betrieben zum Streik aufgerufen. Auch bei Mercedes-Benz und der Meyer Werft soll die Arbeit ruhen.",
-      "image": "https://images.handelsblatt.com/w0PrVqZoPTOK/cover/900/506/0/0/274/275/0.5/0.5/urnnewsmldpa.com20090101261120-936-150693.jpg",
-      "published": "2026-11-22T01:54:07+00:00",
-      "category": "Technologie",
-      "score": 40.51
-    },
-    {
-      "id": "handelsblatt-6847c2534e11567b",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Umstrittene Äußerung: Nach Kritik: Trump bezeichnet Putin erneut als „Freund“",
-      "link": "https://www.handelsblatt.com/politik/international/umstrittene-aeusserung-nach-kritik-trump-bezeichnet-putin-erneut-als-freund/100271795.html",
-      "summary": "US-Präsident Trump sorgte mit seinen warmen Worten an Kremlchef Putin für Aufsehen und Kritik. Nun hat er eine umstrittene Bezeichnung wiederholt.",
-      "image": "https://images.handelsblatt.com/8lEVGdai87iB/cover/900/506/0/0/185/184/0.5/0.5/apec-gipfel-in-china.jpg",
-      "published": "2026-11-22T00:23:27+00:00",
-      "category": "Politik",
-      "score": 50.25
+      "score": 67.63
     },
     {
       "id": "tagesschau-7dd6c013da313692",
@@ -2135,7 +1791,7 @@
       "image": "https://images.tagesschau.de/image/7a1fbb62-7cb1-4204-9940-74c07d536a3b/AAABof-zqeA/AAABnSSvrFg/16x9-big/leyen-340.jpg?width=1920",
       "published": "2026-11-21T21:17:57+01:00",
       "category": "Nachrichten",
-      "score": 37.84
+      "score": 33.72
     },
     {
       "id": "tagesschau-259aaa5ee60715af",
@@ -2147,7 +1803,7 @@
       "image": "https://images.tagesschau.de/image/e4ae9c3d-5aad-47f4-9fc9-adf267a1886f/AAABofmmXLs/AAABnSSvrFg/16x9-big/chemours-chemiewerk-100.jpg?width=1920",
       "published": "2026-11-21T20:54:06+01:00",
       "category": "Nachrichten",
-      "score": 37.51
+      "score": 33.39
     },
     {
       "id": "deutsche-welle-539f55bd9eebd79c",
@@ -2159,7 +1815,7 @@
       "image": "https://static.dw.com/image/79937613_6.jpg",
       "published": "2026-11-21T20:14:00+00:00",
       "category": "Politik",
-      "score": 46.78
+      "score": 42.67
     },
     {
       "id": "tagesschau-67b70984b9ba0318",
@@ -2171,7 +1827,7 @@
       "image": "https://images.tagesschau.de/image/010edad1-2a48-40b7-8b0f-af68345ce325/AAABogJsFbg/AAABnSSvrFg/16x9-big/sparta-2-102.jpg?width=1920",
       "published": "2026-11-21T20:10:03+01:00",
       "category": "Nachrichten",
-      "score": 75.9
+      "score": 67.25
     },
     {
       "id": "tagesschau-34acd9989e479fc1",
@@ -2183,7 +1839,7 @@
       "image": "https://images.tagesschau.de/image/0f0e8b4e-d884-4b6e-b9b7-7928a016f4c0/AAABof8F-Zo/AAABnSSvrFg/16x9-big/primzahlen-102.jpg?width=1920",
       "published": "2026-11-21T18:32:19+01:00",
       "category": "Wirtschaft",
-      "score": 46.54
+      "score": 42.42
     },
     {
       "id": "tagesschau-0ec524116a1fe266",
@@ -2195,7 +1851,7 @@
       "image": "https://images.tagesschau.de/image/98d0f323-0dad-4ac9-8b0b-6a153c4037a7/AAABof7AlbY/AAABnSSvrFg/16x9-big/tankstelle-398.jpg?width=1920",
       "published": "2026-11-21T16:55:59+01:00",
       "category": "Politik",
-      "score": 60.4
+      "score": 56.28
     },
     {
       "id": "tagesschau-8a89ddd6e26db600",
@@ -2207,7 +1863,7 @@
       "image": "https://images.tagesschau.de/image/93302147-0fc0-4d9f-9e7e-3ebe2ae98112/AAABof6oAwU/AAABnSSvrFg/16x9-big/fausto-isidro-meza-100.jpg?width=1920",
       "published": "2026-11-21T16:36:57+01:00",
       "category": "Nachrichten",
-      "score": 67.9
+      "score": 29.82
     },
     {
       "id": "tagesschau-64f6ae1f71833c18",
@@ -2219,7 +1875,7 @@
       "image": "https://images.tagesschau.de/image/0c24484f-639f-48c0-ad82-342eb5c57366/AAABof5OYYo/AAABnSSvrFg/16x9-big/schettino-121.jpg?width=1920",
       "published": "2026-11-21T15:07:14+01:00",
       "category": "Nachrichten",
-      "score": 67.9
+      "score": 28.57
     },
     {
       "id": "golem-f5d78e835760d03b",
@@ -2231,7 +1887,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215439&amp;page=1&amp;ts=1795269602",
       "published": "2026-11-21T15:00:02+01:00",
       "category": "Politik",
-      "score": 32.59
+      "score": 28.47
     },
     {
       "id": "deutsche-welle-5fdf80b96e9b6262",
@@ -2243,7 +1899,7 @@
       "image": "https://static.dw.com/image/79769879_6.jpg",
       "published": "2026-11-21T15:00:00+00:00",
       "category": "Politik",
-      "score": 42.42
+      "score": 38.3
     },
     {
       "id": "tagesschau-a6ab4cd1ca5c9f6e",
@@ -2255,7 +1911,7 @@
       "image": "https://images.tagesschau.de/image/59680543-e758-4c86-b9bd-47eec3847061/AAABof4dVkI/AAABnSSvrFg/16x9-big/gennaro-100.jpg?width=1920",
       "published": "2026-11-21T13:48:02+01:00",
       "category": "Panorama",
-      "score": 31.59
+      "score": 27.47
     },
     {
       "id": "golem-eb70ce7d045fcb04",
@@ -2267,7 +1923,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215471&amp;page=1&amp;ts=1795264802",
       "published": "2026-11-21T13:40:02+01:00",
       "category": "Technologie",
-      "score": 28.48
+      "score": 24.36
     },
     {
       "id": "tagesschau-083003af225935dd",
@@ -2279,7 +1935,7 @@
       "image": "https://images.tagesschau.de/image/d48bd407-8eda-449b-b9d1-4d8d6ab87d66/AAABofjuKPA/AAABnSSvrFg/16x9-big/kuehne-nagel-104.jpg?width=1920",
       "published": "2026-11-21T13:36:54+01:00",
       "category": "Nachrichten",
-      "score": 39.43
+      "score": 35.32
     },
     {
       "id": "tagesschau-a2d2ea0f34540a16",
@@ -2291,7 +1947,7 @@
       "image": "https://images.tagesschau.de/image/3a989699-6525-473b-bcda-95fb3b5a3f4a/AAABof3Ts0M/AAABnSSvrFg/16x9-big/impfausweis-120.jpg?width=1920",
       "published": "2026-11-21T13:13:27+01:00",
       "category": "Nachrichten",
-      "score": 59.42
+      "score": 55.3
     },
     {
       "id": "tagesschau-937a468db90daee7",
@@ -2303,7 +1959,7 @@
       "image": "https://images.tagesschau.de/image/673dcd9f-5137-4447-b004-64a6d4d7f425/AAABof24MAs/AAABnSSvrFg/16x9-big/autoindustrie-126.jpg?width=1920",
       "published": "2026-11-21T12:19:36+01:00",
       "category": "Politik",
-      "score": 33.36
+      "score": 29.24
     },
     {
       "id": "golem-8e7799ff5368d3e1",
@@ -2315,7 +1971,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215500&amp;page=1&amp;ts=1795259162",
       "published": "2026-11-21T12:06:02+01:00",
       "category": "Technologie",
-      "score": 46.54
+      "score": 42.42
     },
     {
       "id": "heise-5844176f4a6494a0",
@@ -2327,7 +1983,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/5/8/1/4/Windows_Updates-Updates_verfuegbar-Herunteraden_Installieren_abgeschlossen-42714a5560b664c8.jpeg",
       "published": "2026-11-21T11:52:00+01:00",
       "category": "Technologie",
-      "score": 27.98
+      "score": 23.86
     },
     {
       "id": "golem-26debf67c68129e5",
@@ -2339,7 +1995,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215503&amp;page=1&amp;ts=1795257841",
       "published": "2026-11-21T11:44:01+01:00",
       "category": "Wissenschaft",
-      "score": 26.87
+      "score": 22.75
     },
     {
       "id": "deutsche-welle-a8202ddfe5944e4a",
@@ -2351,7 +2007,7 @@
       "image": "https://static.dw.com/image/79542395_6.jpg",
       "published": "2026-11-21T11:40:00+00:00",
       "category": "Politik",
-      "score": 31.64
+      "score": 27.53
     },
     {
       "id": "golem-e8b570681dae3bb2",
@@ -2363,7 +2019,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215502&amp;page=1&amp;ts=1795256581",
       "published": "2026-11-21T11:23:01+01:00",
       "category": "Politik",
-      "score": 37.57
+      "score": 33.46
     },
     {
       "id": "tagesschau-10abc0dab3813f8d",
@@ -2375,7 +2031,7 @@
       "image": "https://images.tagesschau.de/image/3d78b85a-444b-4405-bcd3-f6852feadded/AAABle0sLHE/AAABnSSvrFg/16x9-big/smartphone-boersenkurse-101.jpg?width=1920",
       "published": "2026-11-21T11:20:52+01:00",
       "category": "Politik",
-      "score": 32.54
+      "score": 28.43
     },
     {
       "id": "tagesschau-a06b8854364fd328",
@@ -2387,7 +2043,7 @@
       "image": "https://images.tagesschau.de/image/0c6d5cc7-4763-4984-83f0-1b96f3ffc74e/AAABnb-A6wU/AAABnSSvrFg/16x9-big/passanten-innenstadt-102.jpg?width=1920",
       "published": "2026-11-21T11:16:17+01:00",
       "category": "Nachrichten",
-      "score": 29.48
+      "score": 25.36
     },
     {
       "id": "golem-2ba5899797492698",
@@ -2399,7 +2055,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215499&amp;page=1&amp;ts=1795254841",
       "published": "2026-11-21T10:54:01+01:00",
       "category": "Technologie",
-      "score": 26.17
+      "score": 22.06
     },
     {
       "id": "deutsche-welle-9358a013fd750dad",
@@ -2411,7 +2067,7 @@
       "image": "https://static.dw.com/image/78027897_6.jpg",
       "published": "2026-11-21T10:53:00+00:00",
       "category": "Nachrichten",
-      "score": 45.99
+      "score": 41.87
     },
     {
       "id": "tagesschau-a77dd32723cf2480",
@@ -2423,7 +2079,7 @@
       "image": "https://images.tagesschau.de/image/6b6c6cae-4905-4f19-a88d-119b19ec276d/AAABof1qMKc/AAABnSSvrFg/16x9-big/lima-erdbeben-100.jpg?width=1920",
       "published": "2026-11-21T10:51:28+01:00",
       "category": "Nachrichten",
-      "score": 45.99
+      "score": 41.87
     },
     {
       "id": "golem-152cee69979f401c",
@@ -2435,7 +2091,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215357&amp;page=1&amp;ts=1795254002",
       "published": "2026-11-21T10:40:02+01:00",
       "category": "Technologie",
-      "score": 25.98
+      "score": 21.86
     },
     {
       "id": "tagesschau-a450e35ccc7734b4",
@@ -2447,7 +2103,7 @@
       "image": "https://images.tagesschau.de/image/2dc21d0a-7742-47b7-b951-a2b950e8014f/AAABof1N474/AAABnSSvrFg/16x9-big/gta-174.jpg?width=1920",
       "published": "2026-11-21T10:39:17+01:00",
       "category": "Nachrichten",
-      "score": 28.97
+      "score": 24.85
     },
     {
       "id": "golem-65c710ffb6738a99",
@@ -2459,7 +2115,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215501&amp;page=1&amp;ts=1795253402",
       "published": "2026-11-21T10:30:02+01:00",
       "category": "Wirtschaft",
-      "score": 28.84
+      "score": 24.72
     },
     {
       "id": "golem-f86d2fc2097eb19d",
@@ -2471,7 +2127,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215227&amp;page=1&amp;ts=1795251601",
       "published": "2026-11-21T10:00:01+01:00",
       "category": "Technologie",
-      "score": 25.42
+      "score": 21.31
     },
     {
       "id": "tagesschau-81efef064076176c",
@@ -2483,7 +2139,7 @@
       "image": "https://images.tagesschau.de/image/c701043d-b493-4b19-acea-00fbd965ac43/AAABofi6LDo/AAABnSSvrFg/16x9-big/demonstration-suedafrika-100.jpg?width=1920",
       "published": "2026-11-21T09:27:21+01:00",
       "category": "Nachrichten",
-      "score": 35.97
+      "score": 31.85
     },
     {
       "id": "tagesschau-1afbc14952134567",
@@ -2495,19 +2151,7 @@
       "image": "https://images.tagesschau.de/image/588d415c-5faf-4022-aadf-35404a995cb3/AAABofmYLNQ/AAABnSSvrFg/16x9-big/ferkel-schweinezucht-100.jpg?width=1920",
       "published": "2026-11-21T09:26:38+01:00",
       "category": "Nachrichten",
-      "score": 27.96
-    },
-    {
-      "id": "tagesschau-02a46e811ff62a7a",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "\"Palisades Fire\" - Angeklagter im zweiten Anlauf schuldig gesprochen",
-      "link": "https://www.tagesschau.de/ausland/amerika/prozess-pacific-palisades-feuer-kalifornien-100.html",
-      "summary": "Bei dem Brand im Januar 2025 starben zwölf Menschen: Nach dem verheerenden Feuer im Nobelvorort Pacific Palisades von Los Angeles ist der Angeklagte schuldig gesprochen worden. Ihm drohen bis zu 40 Jahre Haft.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/2e8a116a-f62e-4357-8076-8dff66240fe0/AAABof0TGU8/AAABnSSvrFg/16x9-big/pacific-palisades-108.jpg?width=1920",
-      "published": "2026-11-21T09:14:03+01:00",
-      "category": "Nachrichten",
-      "score": 27.78
+      "score": 23.84
     },
     {
       "id": "golem-a9f92f1ad1202a2b",
@@ -2519,7 +2163,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215481&amp;page=1&amp;ts=1795244222",
       "published": "2026-11-21T07:57:02+01:00",
       "category": "Technologie",
-      "score": 23.71
+      "score": 19.6
     },
     {
       "id": "golem-e6b75d00c9ab9e7c",
@@ -2531,7 +2175,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215421&amp;page=1&amp;ts=1795242601",
       "published": "2026-11-21T07:30:01+01:00",
       "category": "Technologie",
-      "score": 23.34
+      "score": 19.22
     },
     {
       "id": "netzpolitik-96e174dcc78449ff",
@@ -2543,7 +2187,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/26-10-18.jpg",
       "published": "2026-11-21T06:30:35+00:00",
       "category": "Technologie",
-      "score": 21.35
+      "score": 17.23
     },
     {
       "id": "netzpolitik-6ce66ec210afa20f",
@@ -2555,7 +2199,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/Starlink_01-Montage-scaled-e1795193480738.jpg",
       "published": "2026-11-21T06:28:19+00:00",
       "category": "Technologie",
-      "score": 21.31
+      "score": 17.2
     },
     {
       "id": "deutsche-welle-be43eefa04e28f68",
@@ -2567,7 +2211,7 @@
       "image": "https://static.dw.com/image/79889199_6.jpg",
       "published": "2026-11-21T05:14:00+00:00",
       "category": "Nachrichten",
-      "score": 31.28
+      "score": 27.17
     }
   ]
 }
