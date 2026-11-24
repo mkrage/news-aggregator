@@ -1,7 +1,78 @@
 {
-  "generatedAt": "2026-11-24T13:59:12.565889+00:00",
+  "generatedAt": "2026-11-24T23:18:16.694421+00:00",
   "count": 15,
   "articles": [
+    {
+      "id": "deutschlandfunk-2a84dbb2614a5448",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Nahost - Hamas-Sicherheitschef bei israelischem Luftangriff im Gazastreifen getötet",
+      "link": "https://www.deutschlandfunk.de/hamas-sicherheitschef-bei-israelischem-luftangriff-im-gazastreifen-getoetet-100.html",
+      "summary": "Bei israelischen Luftangriffen im Gazastreifen sind der Sicherheitschef der Terrororganisation Hamas und mindestens sechs weitere Menschen getötet worden.",
+      "image": "https://bilder.deutschlandfunk.de/27/ae/7f/67/27ae7f67-2065-4d8c-8ba7-bd5d37b36e3c/gaza-gazastadt-angriff-100-1920x1920.jpg",
+      "published": "2026-11-24T23:17:38+01:00",
+      "category": "Politik",
+      "score": 89.84,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Gazastreifen: Israels Armee meldet Tötung des Hamas-Sicherheitschefs nach Luftangriff",
+            "link": "https://www.spiegel.de/ausland/gazastreifen-israels-armee-meldet-toetung-des-hamas-sicherheitschefs-nach-luftangriff-a-c22627ce-c517-4c35-8785-ad95dfd736b2#ref=rss"
+          },
+          {
+            "source": "deutsche-welle",
+            "title": "Hamas-Anführer bei Angriff Israels im Gazastreifen getötet",
+            "link": "https://www.dw.com/de/hamas-anführer-bei-angriff-israels-im-gazastreifen-getötet/a-80034053?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-a5f465139d6d41ed",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Olaf Scholz im Live-Gespräch: Was ist Deutschlands Rolle in der neuen Krisen-Welt?",
+      "link": "https://www.spiegel.de/ausland/olaf-scholz-im-live-gespraech-was-ist-deutschlands-rolle-in-der-neuen-krisen-welt-a-23fff1d7-5031-46f9-ba49-76c326692419#ref=rss",
+      "summary": "Krieg in der Ukraine und Donald Trump im Weißen Haus: Was heißt das für unsere Außenpolitik? Darüber spricht SPIEGEL-Korrespondentin Britta Sandberg mit SPD-Altkanzler Olaf Scholz auf dem Foreign Policy Forum der Körber-Stiftung.",
+      "image": "https://cdn.prod.www.spiegel.de/images/a19f7b33-b5f2-487e-a200-591f5422fc0e_w1200_r1.778_fpx47_fpy80.jpg",
+      "published": "2026-11-24T17:02:00+01:00",
+      "category": "Politik",
+      "score": 87.94
+    },
+    {
+      "id": "tagesschau-bd33fe43dc421d9a",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Berliner Linke schließt Emde aus Fraktion aus",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/emde-ausschluss-berlin-linke-100.html",
+      "summary": "Wochenlang diskutierten Grüne, SPD und Linke in Berlin über die Personalie Emde. Die Abgeordnete steht wegen ihrer Positionen zu Israel in der Kritik. Nun hat die Fraktion mit der nötigen Mehrheit für ihren Ausschluss gestimmt.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/1c451789-1eed-4126-9883-2749033be163/AAABog5ru3c/AAABnSSvrFg/16x9-big/emde-104.jpg?width=1920",
+      "published": "2026-11-24T19:47:32+01:00",
+      "category": "Politik",
+      "score": 86.16,
+      "coverage": {
+        "sourceCount": 4,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "\"Vertrauensverlust\" - Vanessa Emde aus Berliner Linke-Fraktion ausgeschlossen",
+            "link": "https://www.deutschlandfunk.de/vanessa-emde-aus-berliner-linke-fraktion-ausgeschlossen-102.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "Vanessa Emde: Berliner Linke stimmt knapp für Ausschluss aus Fraktion",
+            "link": "https://www.spiegel.de/politik/vanessa-emde-berliner-linke-stimmt-knapp-fuer-ausschluss-aus-fraktion-a-8de561c3-e2ae-4d93-b6e1-1aa5fb438f7a#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Regierungsbildung in Berlin: Abgeordnete Emde fliegt aus Berliner Linke-Fraktion",
+            "link": "https://www.handelsblatt.com/politik/deutschland/regierungsbildung-in-berlin-abgeordnete-emde-fliegt-aus-berliner-linke-fraktion/100272230.html"
+          }
+        ]
+      }
+    },
     {
       "id": "deutschlandfunk-c243f89d2d390c8e",
       "source": "deutschlandfunk",
@@ -10,17 +81,12 @@
       "link": "https://www.deutschlandfunk.de/deutsche-wollen-weniger-unterstuetzung-fuer-die-ukraine-100.html",
       "summary": "In Deutschland sinkt die Zustimmung für die Unterstützung der Ukraine im russischen Angriffskrieg. Das ist ein Ergebnis der repräsentativen Studie \"Berlin Pulse\" der Körber-Stiftung. Demnach sind 61 Prozent der Befragten der Meinung, dass sich Deutschland und Europa nicht ausreichend für Friedensverhandlungen zwischen Russland und der Ukraine einsetzten.",
       "image": "https://bilder.deutschlandfunk.de/61/a4/a0/4b/61a4a04b-8d6a-485b-8a2b-55bb3edff6c1/ukraine-nato-102-1920x1920.jpg",
-      "published": "2026-11-24T14:51:55+01:00",
+      "published": "2026-11-24T23:17:38+01:00",
       "category": "Politik",
-      "score": 90.58,
+      "score": 85.16,
       "coverage": {
-        "sourceCount": 3,
+        "sourceCount": 2,
         "others": [
-          {
-            "source": "spiegel",
-            "title": "Diebstahl: 14 Prozent weniger Autodiebstähle in Deutschland",
-            "link": "https://www.spiegel.de/wirtschaft/service/diebstahl-14-prozent-weniger-autodiebstaehle-in-deutschland-a-67e0f0d9-5f61-4f10-86f4-9a41dc31e191#ref=rss"
-          },
           {
             "source": "deutsche-welle",
             "title": "Studie: Mehrheit der Deutschen gegen mehr Waffen für Ukraine",
@@ -30,75 +96,77 @@
       }
     },
     {
-      "id": "deutschlandfunk-2a84dbb2614a5448",
+      "id": "deutschlandfunk-09672001c641c373",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Nahost - Hamas-Sicherheitschef bei israelischem Luftangriff im Gazastreifen getötet",
-      "link": "https://www.deutschlandfunk.de/hamas-sicherheitschef-bei-israelischem-luftangriff-im-gazastreifen-getoetet-100.html",
-      "summary": "Bei israelischen Luftangriffen im Gazastreifen sind der Sicherheitschef der Hamas und mindestens sechs weitere Menschen getötet worden.",
-      "image": "https://bilder.deutschlandfunk.de/27/ae/7f/67/27ae7f67-2065-4d8c-8ba7-bd5d37b36e3c/gaza-gazastadt-angriff-100-1920x1920.jpg",
-      "published": "2026-11-24T14:51:55+01:00",
+      "title": "Ukraine - Tote und Verletzte bei russischen Angriffen",
+      "link": "https://www.deutschlandfunk.de/tote-und-verletzte-bei-russischen-angriffen-124.html",
+      "summary": "Bei russischen Angriffen auf die Ukraine sind mehrere Menschen getötet und mehr als 40 verletzt worden.",
+      "image": "https://bilder.deutschlandfunk.de/3e/14/a7/b3/3e14a7b3-fd36-4dc7-ae46-a59ac550d309/ukraine-russischer-angriff-124-1920x1920.jpg",
+      "published": "2026-11-24T23:17:38+01:00",
       "category": "Politik",
-      "score": 85.9,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "+++ Iran-Krieg +++: Hamas-Anführer bei israelischem Angriff im Gazastreifen getötet",
-            "link": "https://www.handelsblatt.com/politik/international/iran-krieg-hamas-anfuehrer-bei-israelischem-angriff-im-gazastreifen-getoetet/100136895.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-5227916bd0255dd9",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Angriffe auf russische Schiffe: \"Das kann brandgefährlich für uns alle werden\"",
-      "link": "https://www.tagesschau.de/ausland/europa/ukraine-angriffe-ostsee-libyen-100.html",
-      "summary": "Die Angriffe auf russische Schiffe sind für die Ukraine ein Erfolg, sagt der Sicherheitsexperte Joachim Weber. Aber sie stellten auch eine Eskalation dar, die Russland zu Gegenmaßnahmen provozieren könnte. Ein Kalkül von Kiew?[ mehr ]",
-      "image": "https://images.tagesschau.de/image/056a4ff3-8222-4bd3-b8ee-81d154487ece/AAABogkF8mU/AAABnSSvrFg/16x9-big/schiff-torpedo-100.jpg?width=1920",
-      "published": "2026-11-23T18:59:22+01:00",
-      "category": "Politik",
-      "score": 83.58,
+      "score": 81.84,
       "coverage": {
         "sourceCount": 3,
         "others": [
           {
-            "source": "deutschlandfunk",
-            "title": "Ukraine - Tote und Verletzte bei russischen Angriffen",
-            "link": "https://www.deutschlandfunk.de/tote-und-verletzte-bei-russischen-angriffen-124.html"
+            "source": "handelsblatt",
+            "title": "Ukraine-Krieg: Zwei Tote und Dutzende Verletzte bei russischem Angriff auf Saporischschja",
+            "link": "https://www.handelsblatt.com/video/politik/ukraine-krieg-zwei-tote-und-dutzende-verletzte-bei-russischem-angriff-auf-saporischschja/100272444.html"
           },
           {
             "source": "deutsche-welle",
-            "title": "Ukraine bestätigt Angriffe auf russische Schiffe vor Libyen",
-            "link": "https://www.dw.com/de/ukraine-bestätigt-angriffe-auf-russische-schiffe-vor-libyen/a-80018005?maca=de-rss-de-all-1119-rdf"
+            "title": "Russische Angriffe verursachen hohe Schäden. Dennoch investieren deutsche Unternehmen weiter in der Ukraine und setzen auf den Wiederaufbau",
+            "link": "https://www.dw.com/de/russische-angriffe-verursachen-hohe-schäden-dennoch-investieren-deutsche-unternehmen-weiter-in-der-ukraine-und-setzen-auf-den-wiederaufbau/a-80019538?maca=de-rss-de-all-1119-rdf"
           }
         ]
       }
     },
     {
-      "id": "tagesschau-296d85ab80987d6e",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Deutschland baut künftig ukrainische Drohnen",
-      "link": "https://www.tagesschau.de/ausland/europa/ukraine-pistorius-104.html",
-      "summary": "Bereits im April hatten Deutschland und die Ukraine vereinbart, militärisch enger zusammenzuarbeiten - etwa beim Drohnenbau. Verteidigungsminister Pistorius wurde nun konkreter. Mit Blick auf mögliche russische Angriffspläne im All mahnte er zur Ruhe.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/6b7d65a3-66be-4fc7-8ea4-766d8c14ff33/AAABogn92jg/AAABnSSvrFg/16x9-big/pistorius-chmara-100.jpg?width=1920",
-      "published": "2026-11-24T02:46:30+01:00",
+      "id": "deutschlandfunk-d8b256c67b9359f9",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Trump-Vertrauter - Rudy Giuliani erhält Freiheitsmedaille",
+      "link": "https://www.deutschlandfunk.de/rudy-giuliani-erhaelt-freiheitsmedaille-102.html",
+      "summary": "US-Präsident Trump hat dem früheren New Yorker Bürgermeister Giuliani die höchste zivile Auszeichnung der USA verliehen.",
+      "image": "https://bilder.deutschlandfunk.de/20/f9/e8/80/20f9e880-74fb-4968-b34f-a972d50b0fa9/trump-giuliani-100-1920x1920.jpg",
+      "published": "2026-11-24T23:17:38+01:00",
       "category": "Politik",
-      "score": 77.64,
+      "score": 77.16,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "golem",
-            "title": "Militärtechnik: Deutschland baut ukrainische Drohnen",
-            "link": "https://www.golem.de/news/militaertechnik-deutschland-baut-ukrainische-drohnen-2611-215582.html"
+            "source": "spiegel",
+            "title": "Rudy Giuliani: Trump zeichnet früheren New Yorker Bürgermeister Giuliani mit »Medal of Freedom« aus",
+            "link": "https://www.spiegel.de/ausland/rudy-giuliani-trump-zeichnet-frueheren-new-yorker-buergermeister-giuliani-mit-medal-of-freedom-aus-a-696c53ba-4efd-4206-97f7-886b4dc1ec2f#ref=rss"
           }
         ]
       }
+    },
+    {
+      "id": "tagesschau-553dd2e5c3585707",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Nvidia-Chef Huang ist zurück, doch wie hoch ist der Preis?",
+      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/huang-folgen-nvidia-rueckkehr-100.html",
+      "summary": "Huang ist zurück als Chef von Nvidia. Doch die Krise ist nicht ausgestanden. Der US-Kongress fordert Antworten. Und auch für Trump könnte der Fall Konsequenzen haben. Von A. Herbst. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/7cf71a19-191c-4efd-9cb2-5b384644322a/AAABog5AniM/AAABnSSvrFg/16x9-big/huang-142.jpg?width=1920",
+      "published": "2026-11-24T21:17:10+01:00",
+      "category": "Politik",
+      "score": 76.48
+    },
+    {
+      "id": "deutsche-welle-3787a52d0f323217",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "\"Russisches Starlink\" - Wie kann Rasswet den Ukraine-Krieg verändern?",
+      "link": "https://www.dw.com/de/russisches-starlink-wie-kann-rasswet-den-ukraine-krieg-verändern/a-80033063?maca=de-rss-de-all-1119-rdf",
+      "summary": "Das US-Starlink-System von SpaceX spielt in der Ukraine eine wichtige Rolle bei der Abwehr der militärischen Aggression Russlands. Der Kreml hat nun beschlossen, ein Pendant dazu aufzubauen. Welche Gefahr birgt das?",
+      "image": "https://static.dw.com/image/71856660_6.jpg",
+      "published": "2026-11-24T20:59:00+00:00",
+      "category": "Politik",
+      "score": 75.07
     },
     {
       "id": "tagesschau-9a36b44d601fbb0d",
@@ -110,19 +178,14 @@
       "image": "https://images.tagesschau.de/image/6de58ad6-0c2b-43af-8f84-aecfad1cef67/AAABogytRKU/AAABnSSvrFg/16x9-big/landminen-sprengungsvorbereitung-100.jpg?width=1920",
       "published": "2026-11-24T10:41:25+01:00",
       "category": "Technologie",
-      "score": 75.9,
+      "score": 71.84,
       "coverage": {
-        "sourceCount": 4,
+        "sourceCount": 3,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "\"Handicap International\" - Zahl der Opfer durch Landminen laut neuem Monitor wieder gestiegen",
             "link": "https://www.deutschlandfunk.de/zahl-der-opfer-durch-landminen-laut-neuem-monitor-wieder-gestiegen-100.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "Landminen: Zahl der Opfer steigt wieder – darunter viele Kinder",
-            "link": "https://www.spiegel.de/ausland/landminen-zahl-der-opfer-steigt-wieder-darunter-viele-kinder-a-e96f9da9-e8b0-4f39-85b1-7ba51586577d#ref=rss"
           },
           {
             "source": "deutsche-welle",
@@ -133,76 +196,84 @@
       }
     },
     {
-      "id": "spiegel-7664170c01deabaf",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Marie-Agnes Strack-Zimmermann: Mann wegen Online-Beleidigung verurteilt",
-      "link": "https://www.spiegel.de/politik/deutschland/marie-agnes-strack-zimmermann-als-dreckige-kriegstreiberin-beleidigt-mann-zu-geldstrafe-verurteilt-a-30142d48-4998-4b7b-b0c5-6642e75e983b#ref=rss",
-      "summary": "FDP-Politikerin Marie-Agnes Strack-Zimmermann fordert oft militärische Hilfe für die Ukraine im russischen Angriffskrieg, im Internet wird sie von Usern heftig angegangen. Ein Beitrag hat nun juristische Folgen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/a9520c65-ea85-424e-beb1-0f939f091362_w1200_r1.778_fpx50_fpy47.jpg",
-      "published": "2026-11-24T12:15:00+01:00",
-      "category": "Politik",
-      "score": 75.72
-    },
-    {
-      "id": "deutschlandfunk-014483a38c0caa68",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Parlament - Bundestag berät Etat des Ministeriums für Digitales und Staatsmodernisierung - Ausgaben sollen um 11 Prozent steigen",
-      "link": "https://www.deutschlandfunk.de/bundestag-beraet-etat-des-ministeriums-fuer-digitales-und-staatsmodernisierung-ausgaben-sollen-um-11-100.html",
-      "summary": "Der Bundestag hat in zweiter Lesung den Etat des Ministeriums für Digitales und Staatsmodernisierung beraten.",
-      "image": "https://bilder.deutschlandfunk.de/5d/df/c9/5e/5ddfc95e-4b27-474b-bafe-9d48d7d7c1b5/digitalgipfel-karsten-wildberger-100-1920x1920.jpg",
-      "published": "2026-11-24T14:51:55+01:00",
-      "category": "Politik",
-      "score": 69.9
-    },
-    {
-      "id": "spiegel-94f61e01bb541a9f",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Nvidia: Trumps Aktienbeteiligung profitiert von Huangs schneller Rückkehr",
-      "link": "https://www.spiegel.de/wirtschaft/unternehmen/nvidia-trumps-aktienbeteiligung-profitiert-von-huangs-schneller-rueckkehr-a-bb0f98ee-d9fa-4bf0-a71d-fa68aca801fd#ref=rss",
-      "summary": "Donald Trumps Eingreifen bei Nvidia könnte ihm dank seiner Aktienbeteiligung einen millionenschweren Wertzuwachs beschert haben. Investoren warnen vor den Risiken von Huangs schneller Rückkehr an die Konzernspitze.",
-      "image": "https://cdn.prod.www.spiegel.de/images/8c12fb7c-47b2-4e94-b84b-dcc84c1b5ea5_w1200_r1.778_fpx65.32_fpy49.99.jpg",
-      "published": "2026-11-24T14:27:00+01:00",
-      "category": "Politik",
-      "score": 69.55
-    },
-    {
-      "id": "spiegel-c79fb7eb887db4c6",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "John Turturro warnt vor zu vielen Blockbustern",
-      "link": "https://www.spiegel.de/kultur/kino/john-turturro-warnt-vor-zu-vielen-blockbustern-a-dc9c4069-dd7c-44b0-9cfa-d837fe404802#ref=rss",
-      "summary": "Bisweilen mit einem Blockbuster richtig viel Geld verdienen und den Rest der Zeit an Projekten arbeiten, die Freude bereiten: So in etwa beschreibt Schauspieler John Turturro seine Herangehensweise bei der Rollenauswahl.",
-      "image": "https://cdn.prod.www.spiegel.de/images/29581745-ea17-4e12-9ae2-5b0be6273b5a_w1200_r1.778_fpx54_fpy32.jpg",
-      "published": "2026-11-24T14:05:00+01:00",
-      "category": "Politik",
-      "score": 69.25
-    },
-    {
-      "id": "handelsblatt-37504a19c38c3aa3",
+      "id": "handelsblatt-91995a4999e83538",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "+++ US-Zollpolitik +++: WSJ-Bericht: USA bereiten neue Zölle gegen zahlreiche Staaten vor",
-      "link": "https://www.handelsblatt.com/politik/international/us-zoelle-bericht-usa-bereiten-neue-zoelle-gegen-zahlreiche-staaten-vor/30026990.html",
-      "summary": "Trump droht Mexiko mit Verdopplung der Zölle +++ Carney: Gutes Gespräch mit Trump über Handel zwischen Kanada und USA +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/IoMzafx4WJk-/cover/900/506/0/0/0/530/0.5/0.5/us-president-donald-trump-delivers-remarks-as-he-criticizes-california-governor-gavin-newsom-over-h.jpg",
-      "published": "2026-11-24T13:40:24+00:00",
+      "title": "Ukraine-Krieg: Selenskyj: USA machen Ukraine Druck auf Frieden bis Januar",
+      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-usa-machen-ukraine-druck-auf-frieden-bis-januar/100272461.html",
+      "summary": "Die Zusage einer Nato-Aufnahme nützt Kiew nichts. Die USA und andere Partner sind derzeit dagegen. Selenskyj sagt, warum selbst Moskau Interesse an einer Ukraine in der Nato haben sollte.",
+      "image": "https://images.handelsblatt.com/PX4HnW1r7Hc1/cover/900/506/0/0/107/106/0.5/0.5/ukrainischer-praesident-wolodymyr-selenskyj.jpg",
+      "published": "2026-11-24T14:53:50+00:00",
       "category": "Politik",
-      "score": 68.74
+      "score": 69.99
     },
     {
-      "id": "handelsblatt-440687ca41058e60",
+      "id": "spiegel-bc8498481cdbcdc4",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "USA nach den Midterms: Können die Demokraten ihre Stärke nutzen?",
+      "link": "https://www.spiegel.de/ausland/usa-nach-den-midterms-koennen-die-demokraten-ihre-staerke-nutzen-a-3a54f8f3-93f5-40c6-bcdd-487b6d6ea2ac#ref=rss",
+      "summary": "Der Triumph der US-Demokraten bei den Midterms legt auch alte Gräben frei: Progressive wie Abdul El-Sayed drängen nach links, Zentristen bremsen. Kann die Partei bis zur nächsten Präsidentenwahl zusammenfinden?",
+      "image": "https://cdn.prod.www.spiegel.de/images/48625d52-f9ab-4fa7-8fee-183f0cb99312_w1200_r1.778_fpx56.16_fpy50.jpg",
+      "published": "2026-11-24T20:17:00+01:00",
+      "category": "Politik",
+      "score": 66.65
+    },
+    {
+      "id": "spiegel-06b316ec8a68212f",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Warum Heino für den Kanzler eigentlich ein Grüner ist",
+      "link": "https://www.spiegel.de/panorama/warum-heino-fuer-den-kanzler-eigentlich-ein-gruener-ist-a-84f3c67c-48c5-4a4c-bec3-64df374f4215#ref=rss",
+      "summary": "Mit fünf besuchte er das erste Konzert: Friedrich Merz hat sich als jahrzehntelanger Fan des Schlagersängers Heino geoutet. Bei einer Gala rückte der Kanzler den Sänger in die Nähe der Grünen und dankte ihm für den Mut, die Nationalhymne zu singen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/062e0ac4-3240-4064-80a6-dcb59d6a8a0f_w1200_r1.778_fpx54_fpy38.jpg",
+      "published": "2026-11-24T23:21:00+01:00",
+      "category": "Nachrichten",
+      "score": 66.2,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Mittelstandspreis: Warum Heino vor dem Kanzler singt",
+            "link": "https://www.handelsblatt.com/politik/deutschland/mittelstandspreis-warum-heino-vor-dem-kanzler-singt/100272524.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "handelsblatt-d9e97051fa7bbdc8",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Schlammschlacht vor Wahl: Von Zitronen und anderen Beleidigungen in Spaniens Wahlkampf",
-      "link": "https://www.handelsblatt.com/politik/international/schlammschlacht-vor-wahl-von-zitronen-und-anderen-beleidigungen-in-spaniens-wahlkampf/100272240.html",
-      "summary": "„Mafia“, „Gestapo-Imitat“, „Kollaborateure“: Spaniens Politiker hantieren mit immer drastischeren Vorwürfen. Was droht der Demokratie, wenn der politische Gegner zum Schurken schlechthin erklärt wird?",
-      "image": "https://images.handelsblatt.com/ZkripmsP83c5/cover/900/506/0/0/108/107/0.5/0.5/demonstration-von-spaniens-konservativer-volkspartei-pp.jpg",
-      "published": "2026-11-24T13:01:24+00:00",
-      "category": "Politik",
-      "score": 68.2
+      "title": "Aktien: Huang-Effekt verpufft – wovon der KI-Trade nun abhängt",
+      "link": "https://www.handelsblatt.com/finanzen/maerkte/aktien/aktien-huang-effekt-verpufft-wovon-der-ki-trade-nun-abhaengt/100272271.html",
+      "summary": "Mit dem Comeback von Jensen Huang an der Spitze von Nvidia setzte eine neue Phase der KI-Rally ein. Doch alte Risiken bleiben. Wie nachhaltig ist die Rückkehr des KI-Trades?",
+      "image": "https://images.handelsblatt.com/TSEFeDR-PH8F/cover/900/506/0/0/0/0/0.5/0.5/jensen-huang-die-ueberraschende-rueckkehr-des-nvidia-gruenders-an-die-unternehmensspitze-hatte-am-montag-eine-tech-rally-ausgeloest..jpg",
+      "published": "2026-11-24T17:38:18+00:00",
+      "category": "Wirtschaft",
+      "score": 64.28,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "heise",
+            "title": "Nvidia setzt Jensen Huang wieder als CEO ein",
+            "link": "https://www.heise.de/news/Nvidia-setzt-Jensen-Huang-wieder-als-CEO-ein-11534936.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag"
+          }
+        ]
+      }
+    },
+    {
+      "id": "handelsblatt-8c884d4fab646513",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Autobauer in der Krise: Frostiger Tarifauftakt bei VW - Warnstreiks drohen",
+      "link": "https://www.handelsblatt.com/politik/deutschland/autobauer-in-der-krise-frostiger-tarifauftakt-bei-vw-warnstreiks-drohen/100272235.html",
+      "summary": "Nullrunden, weniger Zulagen und flexiblere Arbeitszeit: Die VW-Sparpläne treffen auf heftigen Widerstand. Der Konzern will zügig eine Einigung bei den Gesprächen, doch die Zeichen stehen auf Konflikt.",
+      "image": "https://images.handelsblatt.com/IQaOPp15XMqI/cover/900/506/0/0/107/106/0.5/0.5/beginn-der-tarifverhandlungen-bei-volkswagen.jpg",
+      "published": "2026-11-24T16:40:44+00:00",
+      "category": "Wirtschaft",
+      "score": 63.48
     },
     {
       "id": "golem-dd76979733aa65d6",
@@ -214,43 +285,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215575&amp;page=1&amp;ts=1795518842",
       "published": "2026-11-24T12:14:02+01:00",
       "category": "Politik",
-      "score": 65.71
-    },
-    {
-      "id": "deutsche-welle-f444e76bccc9eb39",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Trump will Todesstrafe schneller vollstrecken lassen",
-      "link": "https://www.dw.com/de/trump-will-todesstrafe-schneller-vollstrecken-lassen/a-80028901?maca=de-rss-de-all-1119-rdf",
-      "summary": "Todesurteile in den USA sollen nach dem Willen von Präsident Trump zügig umgesetzt werden. Sobald das Urteil gefällt sei, müsse \"die Todesstrafe unweigerlich vollstreckt werden\", sagte der US-Präsident.",
-      "image": "https://static.dw.com/image/79990442_6.jpg",
-      "published": "2026-11-24T09:03:00+00:00",
-      "category": "Politik",
-      "score": 64.89
-    },
-    {
-      "id": "deutsche-welle-0a8442da66eafd96",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Trump wertet Rückkehr des Nvidia-Chefs als eigenen Verdienst - News kompakt: Das Wichtigste kurz gefasst",
-      "link": "https://www.dw.com/de/trump-wertet-rückkehr-des-nvidia-chefs-als-eigenen-verdienst-news-kompakt-das-wichtigste-kurz-gefasst/a-80027604?maca=de-rss-de-all-1119-rdf",
-      "summary": "US-Präsident Trump sieht sich als Wegbereiter für die Rückkehr des Nvidia-Chefs Jensen Huang. Südkorea hat wegen russischer Militärflugzeuge zeitweise eine Evakuierungswarnung herausgegeben. Der DW-Nachrichtenüberblick.",
-      "image": "https://static.dw.com/image/79990442_6.jpg",
-      "published": "2026-11-24T08:01:00+00:00",
-      "category": "Politik",
-      "score": 64.02
-    },
-    {
-      "id": "golem-7ad9e11ad8b24982",
-      "source": "golem",
-      "sourceWeight": 0.85,
-      "title": "Krypto-Geschäfte: Donald Trump im Bitcoin-Dilemma",
-      "link": "https://www.golem.de/news/krypto-geschaefte-donald-trump-im-bitcoin-dilemma-2611-215559.html",
-      "summary": "US-Präsident Trump hat Milliarden mit Kryptogeschäften verdient. Doch nun bringt der Bitcoin-Verfall eine seiner Firmen in die Bredouille. ( Donald Trump , Politik )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215559&amp;page=1&amp;ts=1795502041",
-      "published": "2026-11-24T07:34:01+01:00",
-      "category": "Politik",
-      "score": 61.82
+      "score": 57.94
     }
   ]
 }
