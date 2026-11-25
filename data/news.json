@@ -1,148 +1,437 @@
 {
-  "generatedAt": "2026-11-24T23:32:36.363596+00:00",
-  "count": 253,
+  "generatedAt": "2026-11-25T05:49:31.911593+00:00",
+  "count": 229,
   "articles": [
     {
-      "id": "spiegel-845802a4137f850c",
+      "id": "spiegel-85c7a230c39ee2d5",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Champions League: Dortmund punktet beim FC Arsenal, Maximilian Beier trifft",
-      "link": "https://www.spiegel.de/sport/fussball/champions-league-dortmund-punktet-beim-fc-arsenal-maximilian-beier-trifft-a-e5d9487d-3b7e-4256-a911-c5e89b58c0cf#ref=rss",
-      "summary": "Wie zäh ist dieser BVB? Niko Kovačs Borussia gelingt beim Premier-League-Tabellenführer dank des vom DFB verschmähten Maxi Beier das Comeback. Auch Abwehr-Youngster Joane Gadou bringt seine Kollegen ins Schwärmen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/c09491a9-7062-4057-b6fc-43adeb9f8609_w1200_r1.778_fpx47_fpy41.jpg",
-      "published": "2026-11-24T23:43:00+01:00",
+      "title": "Chen Jining: Chinas Antikorruptionsbehörde ermittelt gegen Shanghais KP-Chef",
+      "link": "https://www.spiegel.de/ausland/chen-jining-chinas-antikorruptionsbehoerde-ermittelt-gegen-shanghais-kp-chef-a-e43b07b9-34da-4daf-8b2e-f1a9c96e6e35#ref=rss",
+      "summary": "Als Chef der Kommunistischen Partei in Shanghai war Chen Jining bereits mächtig, ein weiterer Aufstieg schien nicht ausgeschlossen. Doch nun wird der 62-Jährige schwerer Verstöße gegen die Parteidisziplin verdächtigt.",
+      "image": "https://cdn.prod.www.spiegel.de/images/b3c87de0-636d-4c2d-bcb8-f157dd7f82ec_w1200_r1.778_fpx69.99_fpy44.95.jpg",
+      "published": "2026-11-25T06:41:00+01:00",
       "category": "Nachrichten",
-      "score": 58.31
+      "score": 58.88
     },
     {
-      "id": "spiegel-06b316ec8a68212f",
+      "id": "tagesschau-48220060e536b8fc",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Deutsche Industrie: Wo es hakt und wo es rund läuft",
+      "link": "https://www.tagesschau.de/wirtschaft/konjunktur/wirtschaftswachstum-branchen-100.html",
+      "summary": "Die Aussichten für die Wirtschaft haben sich zuletzt verbessert. Doch es gibt große Unterschiede: Während in manchen Branchen Firmen ums Überleben kämpfen, läuft das Geschäft anderswo prächtig. Ein Überblick von Axel John. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/b5997f85-5df0-401c-be2c-1544d33bb0bf/AAABodSIH68/AAABnSSvrFg/16x9-big/chemiepark-leuna-kraftwerk-schkopau-100.jpg?width=1920",
+      "published": "2026-11-25T06:28:36+01:00",
+      "category": "Wirtschaft",
+      "score": 62.71
+    },
+    {
+      "id": "tagesschau-fa1d7bb77baf26ab",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Israel nach der Wahl: Schwierige Sondierungen zwischen Rivalen",
+      "link": "https://www.tagesschau.de/ausland/asien/israel-eisenkot-netanjahu-100.html",
+      "summary": "In Israel bleibt Gadi Eisenkot nicht mehr viel Zeit, eine Regierung zu bilden. Aktuell laufen die Gespräche mit Netanjahus Likud-Partei. Dabei gibt es große Differenzen - und kaum Alternativen. Von J. Segador .[ mehr ]",
+      "image": "https://images.tagesschau.de/image/9899a833-4e81-4c6e-8a15-451c83153f3c/AAABohDP_kk/AAABnSSvrFg/16x9-big/eisenkot-124.jpg?width=1920",
+      "published": "2026-11-25T06:18:30+01:00",
+      "category": "Politik",
+      "score": 78.57
+    },
+    {
+      "id": "tagesschau-83535155094098de",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Theaterstück in Berlin: Wenn Spätis verschwinden",
+      "link": "https://www.tagesschau.de/kultur/paradies-spaeti-100.html",
+      "summary": "Immer öfter müssen Spätis oder Kneipen schließen. Dabei sind sie essenziell für den sozialen Zusammenhalt. Was dieser Verlust für die Gesellschaft bedeutet, hinterfragen ein Bühnenstück und ein Soziologe. Von Regine Bruckmann. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/b045eca2-f2f3-42d9-b870-fc6d4db6d910/AAABog4M_wE/AAABnSSvrFg/16x9-big/theater-spaeti-paradies-100.jpg?width=1920",
+      "published": "2026-11-25T06:12:39+01:00",
+      "category": "Nachrichten",
+      "score": 59.49
+    },
+    {
+      "id": "spiegel-a724980863854952",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Warum Heino für den Kanzler eigentlich ein Grüner ist",
-      "link": "https://www.spiegel.de/panorama/warum-heino-fuer-den-kanzler-eigentlich-ein-gruener-ist-a-84f3c67c-48c5-4a4c-bec3-64df374f4215#ref=rss",
-      "summary": "Mit fünf besuchte er das erste Konzert: Friedrich Merz hat sich als jahrzehntelanger Fan des Schlagersängers Heino geoutet. Bei einer Gala rückte der Kanzler den Sänger in die Nähe der Grünen und dankte ihm für den Mut, die Nationalhymne zu singen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/062e0ac4-3240-4064-80a6-dcb59d6a8a0f_w1200_r1.778_fpx54_fpy38.jpg",
-      "published": "2026-11-24T23:21:00+01:00",
+      "title": "Gefährliche Bromance: Warum die Rückkehr von Nvidia-Chef Huang für Trump zum Problem werden könnte",
+      "link": "https://www.spiegel.de/ausland/gefaehrliche-bromance-warum-die-rueckkehr-von-nvidia-chef-huang-fuer-trump-zum-problem-werden-koennte-a-2668e5ab-9cf5-4605-9f80-cdf0838c0964#ref=rss",
+      "summary": "Der US-Präsident intervenierte, um Jensen Huang zurück an die Spitze von Nvidia zu manövrieren – und die Talfahrt an der Börse zu stoppen. Zuletzt brüstete sich Donald Trump mit dem Coup. Doch ausgestanden ist diese Affäre längst nicht.",
+      "image": "https://cdn.prod.www.spiegel.de/images/228ac0eb-9894-4433-84bb-c97ee3076396_w1200_r1.778_fpx53_fpy40.jpg",
+      "published": "2026-11-25T06:00:00+01:00",
+      "category": "Politik",
+      "score": 90.99
+    },
+    {
+      "id": "netzpolitik-cdde806d9dbb54f5",
+      "source": "netzpolitik",
+      "sourceWeight": 0.75,
+      "title": "Digitale Gewalt: Die Hälfte aller gewalttätigen Partner greift auch mit Technik an",
+      "link": "https://netzpolitik.org/2026/digitale-gewalt-die-haelfte-aller-gewalttaetigen-partner-greift-auch-mit-technik-an/",
+      "summary": "Stalking-Apps, Tracker, Fahrzeug-Ortung: Eine Pilotstudie zu Gewalt im sozialen Umfeld hat einen erstaunlich intensiven Technologie-Einsatz zum Vorschein gebracht. Das Mobiltelefon ist für viele gewalttätige Partner eine Waffe. – Vereinfachte Pixabay Lizenz: Sammy-Sander Digitale Gewalt ist viel verbreiteter, als bisher angenommen. Das ergab eine Befragung von 175 Gewaltschutz-Fachkräften zu Übergriffen im sozialen Nahraum. Die Expert*innen aus Frauenhäusern und Beratungsstellen verrieten dabei, in wie vielen ihrer Beratungsgespräche auch digitale Gewalt zur Sprache kam. 51 Prozent der Gespräche mit Schutzsuchenden drehten sich auch um übergriffigen Technologie-Einsatz. Das ist ein deutlicher Kontrast zu bisherigen Annahmen. Die Polizei beispielsweise geht davon aus, dass in rund 13 Prozent der Fälle von Partnerschaftsgewalt das „Tatmittel Internet“ eine Rolle spielt . Der häufigste Übergriff im Bereich der digitalen Gewalt ist laut der Gewaltschutz-Fachkräfte der direkte Zugriff auf Geräte oder Online-Konten der Betroffenen. In 90 Prozent der Fälle geht es auch um derartige Fremdzugriffe. …",
+      "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/sammy-sander-man-4144049.png",
+      "published": "2026-11-25T05:46:07+00:00",
+      "category": "Technologie",
+      "score": 54.95
+    },
+    {
+      "id": "spiegel-70b73abfefff99d2",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Klimapolitik: Neun Fakten, die für den Kampf gegen die Erderwärmung sprechen",
+      "link": "https://www.spiegel.de/politik/klimapolitik-neun-fakten-die-fuer-den-kampf-gegen-die-erderwaermung-sprechen-a-3980c19c-dc59-409a-98e4-99b618c9d751#ref=rss",
+      "summary": "Scheitert der Kampf gegen die Erderwärmung? In dunklen Zeiten wie diesen könnte man darauf kommen. Aber die Liste der unglaublichen Erfolge ist lang. Hier ist eine aktuelle Shortlist.",
+      "image": "https://cdn.prod.www.spiegel.de/images/074e22a6-3ac9-4459-8392-82654e9ac9ca_w1200_r1.778_fpx29.76_fpy55.jpg",
+      "published": "2026-11-25T05:43:00+01:00",
       "category": "Nachrichten",
-      "score": 66.01,
+      "score": 58.08
+    },
+    {
+      "id": "handelsblatt-ea625fdde2e8ee07",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Ifo-Beschäftigungsbarometer: Erneuter Dämpfer für Erholung am Arbeitsmarkt",
+      "link": "https://www.handelsblatt.com/politik/deutschland/ifo-beschaeftigungsbarometer-erneuter-daempfer-fuer-erholung-am-arbeitsmarkt/100272420.html",
+      "summary": "Die Unternehmen sind bei ihren Beschäftigungsplänen wieder etwas zurückhaltender als im Vormonat. Vor allem in der Industrie und im Handel ist kaum mit positiven Impulsen zu rechnen.",
+      "image": "https://images.handelsblatt.com/0xrZsYNy-0mq/cover/900/506/0/0/237/236/0.5/0.5/fertigung-bei-vw-in-wolfsburg.jpg",
+      "published": "2026-11-25T05:40:35+00:00",
+      "category": "Wirtschaft",
+      "score": 60.88
+    },
+    {
+      "id": "spiegel-d11ab688b7bc3938",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Der FC St. Pauli sucht eine neue Stadionhymne. Warum sind alle fünf Vorschläge so stumpf?",
+      "link": "https://www.spiegel.de/kultur/der-fc-st-pauli-sucht-eine-neue-stadionhymne-warum-sind-alle-fuenf-vorschlaege-so-stumpf-a-d0864ca0-2d96-4c98-9b61-b08f0d7b7b10#ref=rss",
+      "summary": "",
+      "image": "https://cdn.prod.www.spiegel.de/images/222ccbc0-ca56-4e98-90a6-fe718f9f1eab_w1200_r1.778_fpx32.56_fpy50.jpg",
+      "published": "2026-11-25T05:40:00+01:00",
+      "category": "Nachrichten",
+      "score": 58.03
+    },
+    {
+      "id": "spiegel-6f76d83ab5202980",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Wechseljahre: Mehr als jede zweite Frau in der Lebensmitte fühlt sich gesundheitlich nicht gut",
+      "link": "https://www.spiegel.de/karriere/wechseljahre-mehr-als-jede-zweite-frau-in-der-lebensmitte-fuehlt-sich-gesundheitlich-nicht-gut-a-a17595d8-9a63-40b1-8f18-591de5af99da#ref=rss",
+      "summary": "Mehr als die Hälfte der erwerbstätigen Frauen zwischen 35 und 55 fühlt sich gesundheitlich nicht gut. Die Arbeitswelt ist schlecht auf familiäre Belastung und Wechseljahre ausgerichtet. Ein Report zeigt das Ausmaß des Problems.",
+      "image": "https://cdn.prod.www.spiegel.de/images/1836535e-61bb-45b9-8fa8-314f7691a6e2_w1200_r1.778_fpx56.66_fpy52.99.jpg",
+      "published": "2026-11-25T05:38:00+01:00",
+      "category": "Nachrichten",
+      "score": 58.01
+    },
+    {
+      "id": "handelsblatt-84cb6db339fa4da6",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Morning Briefing: Donald Trumps nächster Schlag gegen die deutsche Wirtschaft",
+      "link": "https://www.handelsblatt.com/meinung/morningbriefing/morning-briefing-donald-trumps-naechster-schlag-gegen-die-deutsche-wirtschaft/100272532.html",
+      "summary": "Der US-Präsident könnte noch diese Woche neue Zölle gegen die EU und weitere Länder verkünden. Offiziell geht es ihm um Dumping-Importe. Auch der neue Kongress kann ihn nur schwer stoppen.",
+      "image": "https://images.handelsblatt.com/47d5QgD3gb49/cover/900/506/0/0/0/0/0.5/0.5/sven-prange.png",
+      "published": "2026-11-25T05:32:38+00:00",
+      "category": "Politik",
+      "score": 68.77
+    },
+    {
+      "id": "spiegel-19fdc370512e882c",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Kfz-Versicherung: Wie ich in die Rabattschutz-Falle getappt bin",
+      "link": "https://www.spiegel.de/wirtschaft/service/kfz-versicherung-wie-ich-in-die-rabattschutz-falle-getappt-bin-a-e34961e4-a1d3-4dde-ac31-7145fffa5d1a#ref=rss",
+      "summary": "Bis zum 30. November können Sie Ihre Autoversicherung wechseln. Aber es gibt einen Fehler, den Sie dabei nicht machen sollten. Ich hab ihn für Sie ausprobiert.",
+      "image": "https://cdn.prod.www.spiegel.de/images/7d0d4a3e-ac7b-4b3e-a6d8-af2955b80ab7_w1200_r1.778_fpx47_fpy49.jpg",
+      "published": "2026-11-25T05:30:00+01:00",
+      "category": "Nachrichten",
+      "score": 57.9
+    },
+    {
+      "id": "handelsblatt-6a3d8420ab3934b2",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Beyond the obvious: Einwanderungsland mit Auswanderungsproblem",
+      "link": "https://www.handelsblatt.com/audio/bto/beyond-the-obvious-einwanderungsland-mit-auswanderungsproblem/100272582.html",
+      "summary": "Deutschland muss nicht nur Talente und Fachkräfte gewinnen, es muss sie auch halten.",
+      "image": "https://images.handelsblatt.com/pKyBF6FlGqmf/cover/900/506/0/0/86/86/0.5/0.5/bto-podcast-teaser-2025.png",
+      "published": "2026-11-25T05:30:00+00:00",
+      "category": "Wirtschaft",
+      "score": 60.73
+    },
+    {
+      "id": "spiegel-67b40fc1772fe0bf",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "News: Generaldebatte im Bundestag, mehr Anzeigen wegen Gewalt gegen Frauen, Tarifverhandlungen in der Metallindustrie",
+      "link": "https://www.spiegel.de/politik/deutschland/news-generaldebatte-im-bundestag-mehr-anzeigen-wegen-gewalt-gegen-frauen-tarifverhandlungen-in-der-metallindustrie-a-40c31068-2413-4166-8289-438c4c3739f7#ref=rss",
+      "summary": "Friedrich Merz tritt in der Generaldebatte des Bundestags ans Rednerpult. Die Polizei meldet mehr angezeigte Gewalt gegen Frauen. Und in der Metallindustrie wird nach Warnstreiks wieder verhandelt. Das ist die Lage am Mittwochmorgen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/13a87ccb-b96e-43eb-a49c-5b9d556742e5_w1200_r1.778_fpx30_fpy54.96.jpg",
+      "published": "2026-11-25T05:23:00+01:00",
+      "category": "Politik",
+      "score": 76.8,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "handelsblatt",
-            "title": "Mittelstandspreis: Warum Heino vor dem Kanzler singt",
-            "link": "https://www.handelsblatt.com/politik/deutschland/mittelstandspreis-warum-heino-vor-dem-kanzler-singt/100272524.html"
+            "source": "deutschlandfunk",
+            "title": "Bundestag - Haushaltsberatungen: Generaldebatte mit Kanzler Merz",
+            "link": "https://www.deutschlandfunk.de/haushaltsberatungen-generaldebatte-mit-kanzler-merz-104.html"
           }
         ]
       }
     },
     {
-      "id": "deutschlandfunk-98cbd67aa622dffa",
+      "id": "handelsblatt-f3475c0d5c3078ec",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Börse am 25. November: Sechs Punkte, die für Anleger heute wichtig sind",
+      "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+      "summary": "Nach einem positiven Wochenstart musste der Dax seine Gewinne am Dienstag wieder abgeben. Kehrt das Vertrauen der Anleger in die Tech-Werte am Mittwoch zurück?",
+      "image": "https://images.handelsblatt.com/iYJIYlJ0LyLk/cover/900/506/0/0/0/0/0.5/0.5/kurstafel.png",
+      "published": "2026-11-25T05:20:24+00:00",
+      "category": "Wirtschaft",
+      "score": 60.6
+    },
+    {
+      "id": "handelsblatt-d141fc70444559c7",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Berufsabschluss nachholen: E-Handwerk: Wie der Quereinstieg samt Gesellenbrief gelingt",
+      "link": "https://www.handelsblatt.com/politik/deutschland/berufsabschluss-nachholen-e-handwerk-wie-der-quereinstieg-samt-gesellenbrief-gelingt/100272580.html",
+      "summary": "Im E-Handwerk wächst der Bedarf an Fachkräften. Doch nicht jeder hat eine klassische Ausbildung. Wem der Weg zum Gesellenbrief offensteht - und wie man sich dafür schrittweise qualifiziert.",
+      "image": "https://images.handelsblatt.com/9-a-1Xv7rUDS/cover/900/506/0/0/107/106/0.5/0.5/monteure-installieren-eine-waermepumpe-am-einfamilienhaus.jpg",
+      "published": "2026-11-25T05:20:04+00:00",
+      "category": "Wirtschaft",
+      "score": 60.59
+    },
+    {
+      "id": "handelsblatt-2049009ec0bee720",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Morning Briefing Podcast: Handel: Nach dem Deal ist vor dem Streit  / Pharma: Bayer streicht neues Medikament für Deutschland",
+      "link": "https://www.handelsblatt.com/audio/podcast-morning-briefing/morning-briefing-podcast-handel-nach-dem-deal-ist-vor-dem-streit---pharma-bayer-streicht-neues-medikament-fuer-deutschland/100272574.html",
+      "summary": "Der US-Präsident könnte noch diese Woche neue Zölle gegen die EU und weitere Länder verkünden. Offiziell geht es ihm um Dumping-Importe. Auch der neue Kongress kann ihn nur schwer stoppen.",
+      "image": "https://images.handelsblatt.com/GqjedYa4TtiY/cover/900/506/0/0/656/657/0.5/0.5/morning-briefing-podcast-teaser-2025.jpg",
+      "published": "2026-11-25T05:09:49+00:00",
+      "category": "Wirtschaft",
+      "score": 60.45
+    },
+    {
+      "id": "tagesschau-16c0e8bcc49c5ad3",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "US-Medienberichte: Trump plant wohl neue Zölle - auch gegen die EU",
+      "link": "https://www.tagesschau.de/ausland/amerika/usa-zoelle-122.html",
+      "summary": "Die US-Regierung bereitet offenbar neue Zölle gegenüber China, der EU und weiteren Ländern vor. Der Schritt erfolgt, nachdem die Zölle vom Supreme Court als illegal eingestuft wurden.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/5d072283-fe47-4911-b986-8e589da8078d/AAABohCT8R4/AAABnSSvrFg/16x9-big/trump-5456.jpg?width=1920",
+      "published": "2026-11-25T05:08:29+01:00",
+      "category": "Politik",
+      "score": 77.6,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Handelskonflikt: USA planen offenbar neue Zölle gegen die EU und China",
+            "link": "https://www.handelsblatt.com/politik/international/handelskonflikt-usa-planen-offenbar-neue-zoelle-gegen-die-eu-und-china/100272509.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-f49d155e8fa9da7f",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Bundestag - Haushaltsberatungen: Generaldebatte mit Kanzler Merz",
+      "link": "https://www.deutschlandfunk.de/haushaltsberatungen-generaldebatte-mit-kanzler-merz-104.html",
+      "summary": "Der Bundestag setzt seine Beratungen über den Haushalt für das kommende Jahr fort. Höhepunkt ist die Generaldebatte. Formal geht es dabei um den Etat des Kanzleramts. Traditionell nutzen Regierung und Opposition die Aussprache aber für einen Schlagabtausch.",
+      "image": "https://bilder.deutschlandfunk.de/5e/89/44/9b/5e89449b-59ae-4bc1-a157-b8f083709c81/bundeskanzler-merz-bundestag-regierungserklaerung-106-1920x1920.jpg",
+      "published": "2026-11-25T05:07:50+01:00",
+      "category": "Politik",
+      "score": 76.8
+    },
+    {
+      "id": "deutschlandfunk-19235766078a1adb",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
       "title": "\"Vertrauensverlust\" - Vanessa Emde aus Berliner Linke-Fraktion ausgeschlossen",
-      "link": "https://www.deutschlandfunk.de/vanessa-emde-aus-berliner-linke-fraktion-ausgeschlossen-102.html",
+      "link": "https://www.deutschlandfunk.de/vanessa-emde-aus-berliner-linke-fraktion-ausgeschlossen-106.html",
       "summary": "Die Berliner Linken-Politikerin Vanessa Emde wird aus ihrer Fraktion im Abgeordnetenhaus ausgeschlossen. Die nötige Mehrheit stimmte für einen entsprechenden Antrag der Fraktionsspitze, wie die Linkspartei mitteilte. 33 der 44 Abgeordneten votierten dafür. In dem Antrag hieß es, Emde zeige keinerlei Bereitschaft, zu einer gemeinsamen Arbeitsgrundlage zurückzukehren.",
       "image": "https://bilder.deutschlandfunk.de/ad/db/99/ef/addb99ef-43f6-4fe2-be9a-7c16794f8b66/vanessa-emde-102-1280x1280.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
+      "published": "2026-11-25T05:07:50+01:00",
       "category": "Nachrichten",
-      "score": 85.96
+      "score": 85.59
     },
     {
-      "id": "deutschlandfunk-12c067d49fedea70",
+      "id": "deutschlandfunk-50242c84e458f271",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Menschenrechte - Auspeitschung iranischer Sängerin wird international verurteilt",
-      "link": "https://www.deutschlandfunk.de/auspeitschung-iranischer-saengerin-wird-international-verurteilt-100.html",
-      "summary": "Die Auspeitschung der iranischen Sängerin Parastu Ahmadi ist international verurteilt worden.",
-      "image": "https://bilder.deutschlandfunk.de/10/e9/ab/8f/10e9ab8f-a414-4b96-aada-55837f7ad3d8/parastoo-ahmadi-100-1280x1280.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Nachrichten",
-      "score": 57.96
+      "title": "Prostitution - Expertenkommission legt Empfehlungen für besseren Schutz von Prostituierten vor",
+      "link": "https://www.deutschlandfunk.de/expertenkommission-legt-empfehlungen-fuer-besseren-schutz-von-prostituierten-vor-100.html",
+      "summary": "Eine von Bundesfamilienministerin Prien eingesetzte Expertenkommission für einen besseren Schutz von Prostituierten legt heute ihre Empfehlungen vor.",
+      "image": "https://bilder.deutschlandfunk.de/98/47/6e/b0/98476eb0-4db9-41e4-872d-712b3e3e6918/laufhaus-prostitution-100-1920x1920.jpg",
+      "published": "2026-11-25T05:07:50+01:00",
+      "category": "Politik",
+      "score": 60.59
     },
     {
-      "id": "deutschlandfunk-092ef0c99c09bcd4",
+      "id": "deutschlandfunk-86b12d9f160951b7",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "DIW-Studie - Lange Dunkelflauten erfordern große Wasserstoff-Speicher",
+      "link": "https://www.deutschlandfunk.de/lange-dunkelflauten-erfordern-grosse-wasserstoff-speicher-104.html",
+      "summary": "Das Deutsche Institut für Wirtschaftsforschung hat den Aufbau von Langfrist-Stromspeichern für ‌seltene Dunkelflauten ⁠angemahnt.",
+      "image": "https://bilder.deutschlandfunk.de/7b/c2/f9/0f/7bc2f90f-a0a5-4cf5-bad9-bab8a39e4a0d/wasserstoff-einlagerung-kavernen-100-1920x1920.jpg",
+      "published": "2026-11-25T05:07:50+01:00",
+      "category": "Wissenschaft",
+      "score": 57.59
+    },
+    {
+      "id": "deutschlandfunk-32e939ea27dfe5bb",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Tarifverhandlungen - Klappt Pilotabschluss in der Metall- und Elektroindustrie in Mannheim?",
+      "link": "https://www.deutschlandfunk.de/klappt-pilotabschluss-in-der-metall-und-elektroindustrie-in-mannheim-100.html",
+      "summary": "Die Tarifverhandlungen in der Metall- und Elektroindustrie werden heute fortgesetzt.",
+      "image": "https://bilder.deutschlandfunk.de/06/fe/12/fc/06fe12fc-0671-4d9c-b14d-7ba15a7248fd/fahne-ig-metall-100-1920x1920.jpg",
+      "published": "2026-11-25T05:07:50+01:00",
+      "category": "Technologie",
+      "score": 65.59
+    },
+    {
+      "id": "deutschlandfunk-c3813e35d0f1f307",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Regierungsbildung Sachsen-Anhalt - Laut Linken bisher kein gemeinsamer Kandidat Gegenkandidat zu AfD-Politiker Siegmund",
+      "link": "https://www.deutschlandfunk.de/laut-linken-bisher-kein-gemeinsamer-kandidat-gegenkandidat-zu-afd-politiker-siegmund-100.html",
+      "summary": "Knapp zwei Wochen vor der geplanten Ministerpräsidentenwahl in Sachsen-Anhalt gibt es nach Ansicht von Linken-Fraktions-Chefin von Angern weiter keinen überparteilichen Kandidaten.",
+      "image": "https://bilder.deutschlandfunk.de/58/f1/ff/ff/58f1ffff-c281-4e2a-9c34-3a32a2a05c33/eva-von-angern-100-1920x1920.jpg",
+      "published": "2026-11-25T05:07:50+01:00",
+      "category": "Politik",
+      "score": 68.59
+    },
+    {
+      "id": "deutschlandfunk-2d06296c626ab2df",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Nach Rückkehr - Huang entschuldigt sich bei Nvidia-Belegschaft für Fehlverhalten",
+      "link": "https://www.deutschlandfunk.de/huang-entschuldigt-sich-bei-nvidia-belegschaft-fuer-fehlverhalten-100.html",
+      "summary": "Nach seiner überraschenden Rückkehr an die Spitze des Chipherstellers Nvidia hat sich Konzernchef Jensen Huang bei der Belegschaft entschuldigt. Er habe Fehler gemacht und sei in Therapie, erklärte Huang bei einer Betriebsversammlung.",
+      "image": "https://bilder.deutschlandfunk.de/07/6a/15/2c/076a152c-460c-420c-a5bc-33febb376fb7/jensen-huang-104-1920x1920.jpg",
+      "published": "2026-11-25T05:07:50+01:00",
+      "category": "Nachrichten",
+      "score": 70.27,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Nvidia: Jensen Huang entschuldigt sich bei Belegschaft und spricht über seine Therapie",
+            "link": "https://www.spiegel.de/wirtschaft/nvidia-jensen-huang-entschuldigt-sich-bei-belegschaft-und-spricht-ueber-seine-therapie-a-b5286ad4-9ebb-4aa8-b004-d1825b9f262e#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Nvidia-Chef: Huang entschuldigt sich bei Mitarbeitern für Fehlverhalten und lehnt Nachfolgeregelung ab",
+            "link": "https://www.handelsblatt.com/technik/ki/nvidia-chef-huang-entschuldigt-sich-bei-mitarbeitern-fuer-fehlverhalten/100272520.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-6d88ca34c6cfaa41",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Aufarbeitung - Berchtesgaden hält an Von-Hindenburg-Allee fest",
+      "link": "https://www.deutschlandfunk.de/berchtesgaden-haelt-an-von-hindenburg-allee-fest-102.html",
+      "summary": "In Berchtesgaden in Bayern wird es weiter eine Von-Hindenburg-Allee geben.",
+      "image": "https://bilder.deutschlandfunk.de/12/f4/66/3f/12f4663f-d9eb-419d-a1b8-b3c540128ddb/von-hindenburg-allee-berchtesgaden-100-1920x1920.jpg",
+      "published": "2026-11-25T05:07:50+01:00",
+      "category": "Nachrichten",
+      "score": 57.59
+    },
+    {
+      "id": "deutschlandfunk-59482c5d33480591",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
       "title": "Medienberichte - Taliban blockieren offenbar geplanten Abschiebeflug nach Afghanistan - Druck auf die Bundesregierung",
-      "link": "https://www.deutschlandfunk.de/taliban-blockieren-offenbar-geplanten-abschiebeflug-nach-afghanistan-druck-auf-die-bundesregierung-100.html",
+      "link": "https://www.deutschlandfunk.de/taliban-blockieren-offenbar-geplanten-abschiebeflug-nach-afghanistan-druck-auf-die-bundesregierung-106.html",
       "summary": "Ein geplanter Abschiebeflug nach Kabul ist offenbar von afghanischer Seite abgesagt worden.",
       "image": "https://bilder.deutschlandfunk.de/54/ec/b3/bb/54ecb3bb-7f3c-4d8b-9872-d78e3f7d55a9/taliban-flagge-afghanistan-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
+      "published": "2026-11-25T05:07:50+01:00",
       "category": "Politik",
-      "score": 66.96
+      "score": 66.59
     },
     {
-      "id": "deutschlandfunk-46940ba281d7cd39",
+      "id": "deutschlandfunk-a084b8c8864a6800",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Besuch in der Ukraine - Ungarischer Ministerpräsident Magyar kündigt Verbesserung der Beziehungen an",
-      "link": "https://www.deutschlandfunk.de/ungarischer-ministerpraesident-magyar-kuendigt-verbesserung-der-beziehungen-an-102.html",
-      "summary": "Bei einem Besuch in der Ukraine hat der ungarische Ministerpräsident Magyar eine Verbesserung der bilateralen Beziehungen angekündigt.",
-      "image": "https://bilder.deutschlandfunk.de/86/6e/92/bb/866e92bb-532d-4cce-97d9-11229a8e74b2/magyar-selenskyj-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Politik",
-      "score": 68.96
-    },
-    {
-      "id": "deutschlandfunk-57fa5852c399c08f",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "EU-Kommission - Digitale Vernetzung zwischen deutschen Finazämtern läuft schleppend",
-      "link": "https://www.deutschlandfunk.de/digitale-vernetzung-zwischen-deutschen-finazaemtern-laeuft-schleppend-100.html",
-      "summary": "Die deutschen Steuerbehörden sind bei der digitalen Vernetzung im europäischen Vergleich nicht gut aufgestellt.",
-      "image": "https://bilder.deutschlandfunk.de/12/19/aa/75/1219aa75-7628-495b-a2d1-4b267bdce7d3/steuer-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
+      "title": "Raumfahrt - Chinesische Rakete startet erstmals mit ausländischem Astronauten",
+      "link": "https://www.deutschlandfunk.de/chinesische-rakete-startet-erstmals-mit-auslaendischem-astronauten-104.html",
+      "summary": "China hat erstmals eine Rakete mit einem ausländischen Astronauten an Bord zur Raumstation Tiangong gestartet.",
+      "image": "https://bilder.deutschlandfunk.de/87/e0/4e/14/87e04e14-d5d7-488b-a741-9661be8a6501/china-weltraum-tiangong-100-1920x1920.jpg",
+      "published": "2026-11-25T05:07:50+01:00",
       "category": "Nachrichten",
-      "score": 57.96
+      "score": 65.59
     },
     {
-      "id": "deutschlandfunk-75547fe753eda18d",
+      "id": "deutschlandfunk-72deacb448e6b547",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
       "title": "Nahost - Israels Verteidgungsminister \"Katz: Iran entwickelt Chemiewaffen\"",
-      "link": "https://www.deutschlandfunk.de/israels-verteidgungsminister-katz-iran-entwickelt-chemiewaffen-100.html",
+      "link": "https://www.deutschlandfunk.de/israels-verteidgungsminister-katz-iran-entwickelt-chemiewaffen-104.html",
       "summary": "Israels Verteidigungsminister Katz hat dem Iran vorgeworfen, an der Entwicklung von Chemiewaffen zu arbeiten.",
       "image": "https://bilder.deutschlandfunk.de/07/85/31/11/07853111-2376-4414-a1d3-b45142b9edad/katz-likud-100-1280x1280.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
+      "published": "2026-11-25T05:07:50+01:00",
       "category": "Politik",
-      "score": 68.96
+      "score": 68.59
     },
     {
-      "id": "deutschlandfunk-26efa75319cc14a3",
+      "id": "deutschlandfunk-7207ca98c4ee9ff1",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Fußball - Champions-League: Arsenal London - Borussia Dortmund 1:1 unentschieden - RB Leipzig schlägt den RC Lens mit 3:1",
-      "link": "https://www.deutschlandfunk.de/champions-league-arsenal-london-borussia-dortmund-1-1-unentschieden-rb-leipzig-schlaegt-den-rc-lens--102.html",
-      "summary": "In der Fußball Champions-League hat RB Leipzig zu Hause mit 3:1 gegen den RC Lens aus Frankreich gewonnen. Borussia Dortmund spielte beim FC Arsenal in London 1:1.",
-      "image": "https://bilder.deutschlandfunk.de/05/6e/82/b0/056e82b0-de4c-48f7-ab36-272200dab45f/champions-league-arsenal-dortmund-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Nachrichten",
-      "score": 57.96
+      "title": "Besuch in der Ukraine - Ungarischer Ministerpräsident Magyar kündigt Verbesserung der Beziehungen an",
+      "link": "https://www.deutschlandfunk.de/ungarischer-ministerpraesident-magyar-kuendigt-verbesserung-der-beziehungen-an-110.html",
+      "summary": "Bei einem Besuch in der Ukraine hat der ungarische Ministerpräsident Magyar eine Verbesserung der bilateralen Beziehungen angekündigt.",
+      "image": "https://bilder.deutschlandfunk.de/86/6e/92/bb/866e92bb-532d-4cce-97d9-11229a8e74b2/magyar-selenskyj-100-1920x1920.jpg",
+      "published": "2026-11-25T05:07:50+01:00",
+      "category": "Politik",
+      "score": 68.59
     },
     {
-      "id": "deutschlandfunk-e080cecbd9123ce9",
+      "id": "deutschlandfunk-e8d2327b4cdbb605",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "EU-Kommission - Digitale Vernetzung zwischen deutschen Finazämtern läuft schleppend",
+      "link": "https://www.deutschlandfunk.de/digitale-vernetzung-zwischen-deutschen-finazaemtern-laeuft-schleppend-106.html",
+      "summary": "Die deutschen Steuerbehörden sind bei der digitalen Vernetzung im europäischen Vergleich nicht gut aufgestellt.",
+      "image": "https://bilder.deutschlandfunk.de/12/19/aa/75/1219aa75-7628-495b-a2d1-4b267bdce7d3/steuer-100-1920x1920.jpg",
+      "published": "2026-11-25T05:07:50+01:00",
+      "category": "Nachrichten",
+      "score": 57.59
+    },
+    {
+      "id": "deutschlandfunk-b0e9049219a11fd2",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
       "title": "Lebenserwartung erstmals gesunken - WHO warnt vor Folgen der US-Blockade gegen Kuba",
-      "link": "https://www.deutschlandfunk.de/who-warnt-vor-folgen-der-us-blockade-gegen-kuba-100.html",
+      "link": "https://www.deutschlandfunk.de/who-warnt-vor-folgen-der-us-blockade-gegen-kuba-108.html",
       "summary": "Die Lebenserwartung auf Kuba ist erstmals seit Beginn der Aufzeichnungen im Jahr 1950 gesunken.",
       "image": "https://bilder.deutschlandfunk.de/ca/ac/4b/63/caac4b63-3414-4216-8a4d-afcf08c5b39d/kuba-who-100-768x768.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
+      "published": "2026-11-25T05:07:50+01:00",
       "category": "Nachrichten",
-      "score": 57.96
+      "score": 66.59
     },
     {
-      "id": "deutschlandfunk-d8b256c67b9359f9",
+      "id": "deutschlandfunk-a9df582a1a088cf6",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
       "title": "Trump-Vertrauter - Rudy Giuliani erhält Freiheitsmedaille",
-      "link": "https://www.deutschlandfunk.de/rudy-giuliani-erhaelt-freiheitsmedaille-102.html",
+      "link": "https://www.deutschlandfunk.de/rudy-giuliani-erhaelt-freiheitsmedaille-104.html",
       "summary": "US-Präsident Trump hat dem früheren New Yorker Bürgermeister Giuliani die höchste zivile Auszeichnung der USA verliehen.",
       "image": "https://bilder.deutschlandfunk.de/20/f9/e8/80/20f9e880-74fb-4968-b34f-a972d50b0fa9/trump-giuliani-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
+      "published": "2026-11-25T05:07:50+01:00",
       "category": "Politik",
-      "score": 76.96,
+      "score": 76.59,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -155,132 +444,151 @@
       }
     },
     {
-      "id": "deutschlandfunk-360f7e94de12995c",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Automobilindustrie - Erste VW-Tarifverhandlungsrunde nach kurzer Zeit beendet",
-      "link": "https://www.deutschlandfunk.de/erste-vw-tarifverhandlungsrunde-nach-kurzer-zeit-beendet-100.html",
-      "summary": "Zum Auftakt der VW-Tarifverhandlungen in Emden zeichnet sich zwischen der Gewerkschaft IG Metall und den Arbeitgebern keine Annäherung ab. Das erste Gespräch ging bereits nach eineinhalb Stunden ohne Ergebnis zu Ende.",
-      "image": "https://bilder.deutschlandfunk.de/36/cc/12/2b/36cc122b-4412-4b8b-bca5-db3747f327b0/volkswagen-emden-tarifgespraeche-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Technologie",
-      "score": 57.96
-    },
-    {
-      "id": "deutschlandfunk-ce5505d9ff3d0e05",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Atomsprengköpfe im All - Bundeswehr setzt auf elektronische Abwehr",
-      "link": "https://www.deutschlandfunk.de/bundeswehr-setzt-auf-elektronische-abwehr-100.html",
-      "summary": "Für den Fall einer Stationierung russischer Atomwaffen im All setzt die Bundeswehr auf elektronische Abwehrmaßnahmen.",
-      "image": "https://bilder.deutschlandfunk.de/d3/d1/74/53/d3d17453-20be-4cff-b890-502278f8acfc/atomwaffen-friedensforscher-warnen-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Nachrichten",
-      "score": 65.96
-    },
-    {
-      "id": "deutschlandfunk-0522a65e0b7a2685",
+      "id": "deutschlandfunk-7eea4c912636b626",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
       "title": "Saudi-Arabien - Jemenitische Huthi-Miliz greift erneut Wolkenkratzer in Riad an",
-      "link": "https://www.deutschlandfunk.de/jemenitische-huthi-miliz-greift-erneut-wolkenkratzer-in-riad-an-100.html",
+      "link": "https://www.deutschlandfunk.de/jemenitische-huthi-miliz-greift-erneut-wolkenkratzer-in-riad-an-106.html",
       "summary": "Die Huthi-Miliz im Jemen hat erneut den höchsten Wolkenkratzer der saudi-arabischen Hauptstadt Riad angegriffen.",
       "image": "https://bilder.deutschlandfunk.de/44/12/6c/4c/44126c4c-f8a5-481f-a7dd-493718dd4002/saudi-arabien-110-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
+      "published": "2026-11-25T05:07:50+01:00",
       "category": "Nachrichten",
-      "score": 57.96
+      "score": 57.59
     },
     {
-      "id": "deutschlandfunk-1a5024ecf0a6fe44",
+      "id": "deutschlandfunk-5df151e4f2db6584",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Atomsprengköpfe im All - Bundeswehr setzt auf elektronische Abwehr",
+      "link": "https://www.deutschlandfunk.de/bundeswehr-setzt-auf-elektronische-abwehr-104.html",
+      "summary": "Für den Fall einer Stationierung russischer Atomwaffen im All setzt die Bundeswehr auf elektronische Abwehrmaßnahmen.",
+      "image": "https://bilder.deutschlandfunk.de/d3/d1/74/53/d3d17453-20be-4cff-b890-502278f8acfc/atomwaffen-friedensforscher-warnen-100-1920x1920.jpg",
+      "published": "2026-11-25T05:07:50+01:00",
+      "category": "Nachrichten",
+      "score": 57.59
+    },
+    {
+      "id": "deutschlandfunk-d4d4d6b7c9e7f7e4",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
       "title": "Belgien - Europas größte Satellitenfabrik eröffnet",
-      "link": "https://www.deutschlandfunk.de/europas-groesste-satellitenfabrik-eroeffnet-100.html",
+      "link": "https://www.deutschlandfunk.de/europas-groesste-satellitenfabrik-eroeffnet-106.html",
       "summary": "In Belgien ist Europas größte Satellitenfabrik eröffnet worden.",
       "image": "https://bilder.deutschlandfunk.de/cc/c4/3d/4d/ccc43d4d-6550-404c-a37b-d6b1bdc124d0/belgien-megafactory-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
+      "published": "2026-11-25T05:07:50+01:00",
       "category": "Nachrichten",
-      "score": 57.96
+      "score": 57.59
     },
     {
-      "id": "deutschlandfunk-235ea139600c56c5",
+      "id": "deutschlandfunk-8af2955a89257afb",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
       "title": "Militär - Fünf Tote bei Absturz von Armeehubschrauber in der Türkei",
-      "link": "https://www.deutschlandfunk.de/fuenf-tote-bei-absturz-von-armeehubschrauber-in-der-tuerkei-100.html",
+      "link": "https://www.deutschlandfunk.de/fuenf-tote-bei-absturz-von-armeehubschrauber-in-der-tuerkei-104.html",
       "summary": "Beim Absturz eines Militärhubschraubers in der Türkei sind fünf Menschen ums Leben gekommen.",
       "image": "https://bilder.deutschlandfunk.de/e1/06/7d/e2/e1067de2-6230-41ae-943b-92085b1ff504/die-nachrichten-kachel-2176-zu1224-100-768x768.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
+      "published": "2026-11-25T05:07:50+01:00",
       "category": "Nachrichten",
-      "score": 57.96
+      "score": 57.59
     },
     {
-      "id": "deutschlandfunk-363da2ba6e9a6260",
+      "id": "deutschlandfunk-ddc834752ff94ca6",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Menschenrechte - Urteil: Pushbacks können bei Instrumentalisierung legal sein",
-      "link": "https://www.deutschlandfunk.de/urteil-pushbacks-koennen-bei-instrumentalisierung-legal-sein-100.html",
-      "summary": "Staaten dürfen Migranten, die von anderen Ländern instrumentalisiert werden, an den Grenzen zurückweisen. Das hat der Europäische Gerichtshof für Menschenrechte entschieden. Es ging dabei um Vorfälle in den Jahren 2021 und 2022.",
-      "image": "https://bilder.deutschlandfunk.de/09/b1/32/96/09b13296-8dd2-485d-b286-f5f41f2693af/polen-belarus-grenze-migration-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
+      "title": "Unwetter - Experten warnen vor Extrem-Hochwasser in Kalifornien",
+      "link": "https://www.deutschlandfunk.de/experten-warnen-vor-extrem-hochwasser-in-kalifornien-102.html",
+      "summary": "Der US-Bundesstaat Kalifornien ist weiter von Überschwemmungen betroffen und von einer Rekord-Flut bedroht.",
+      "image": "https://bilder.deutschlandfunk.de/8d/51/5c/d4/8d515cd4-7cf3-4a67-84a2-7cf514c32dce/ueberschwemmungen-kalifornien-unwetter-100-1920x1920.jpg",
+      "published": "2026-11-25T05:07:50+01:00",
       "category": "Nachrichten",
-      "score": 57.96
+      "score": 73.59
     },
     {
-      "id": "deutschlandfunk-b413234dce44aaa0",
+      "id": "deutschlandfunk-9667f2a461725f45",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Wirtschaft - EU schränkt Einfuhr von Hybrid-Autos ein",
-      "link": "https://www.deutschlandfunk.de/eu-schraenkt-einfuhr-von-hybrid-autos-ein-100.html",
-      "summary": "Im Handelswettstreit mit China schränkt die EU ab Dezember die Einfuhr bestimmter Hybridautos ein.",
-      "image": "https://bilder.deutschlandfunk.de/00/0c/45/c8/000c45c8-fe47-4a13-b9fa-01ce70c8ec27/chinesische-e-autos-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
+      "title": "Fußball - Champions-League: Arsenal London - Borussia Dortmund 1:1 unentschieden - RB Leipzig schlägt den RC Lens mit 3:1",
+      "link": "https://www.deutschlandfunk.de/champions-league-arsenal-london-borussia-dortmund-1-1-unentschieden-rb-leipzig-schlaegt-den-rc-lens--108.html",
+      "summary": "In der Fußball Champions-League hat RB Leipzig zu Hause mit 3:1 gegen den RC Lens aus Frankreich gewonnen. Borussia Dortmund spielte beim FC Arsenal in London 1:1.",
+      "image": "https://bilder.deutschlandfunk.de/05/6e/82/b0/056e82b0-de4c-48f7-ab36-272200dab45f/champions-league-arsenal-dortmund-100-1920x1920.jpg",
+      "published": "2026-11-25T05:07:50+01:00",
+      "category": "Nachrichten",
+      "score": 57.59
+    },
+    {
+      "id": "deutschlandfunk-429e3c6ff6d76415",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Wetter - Meist gering bewölkt und niederschlagsfrei, örtlich Nebel, minus 2 bis plus 4 Grad",
+      "link": "https://www.deutschlandfunk.de/meist-gering-bewoelkt-und-niederschlagsfrei-oertlich-nebel-minus-2-bis-plus-4-grad-104.html",
+      "summary": "Das Wetter: Heute früh im Südwesten und Süden aufziehende Wolkenfelder, auch im Osten teils wolkig und an der Ostsee einzelne Schneeregenschauer. Sonst gering bewölkt und niederschlagsfrei. Zeitweise Sonne, örtlich Nebel. Am Tag Temperaturanstieg auf minus 2 bis plus 4 Grad.",
+      "image": "https://bilder.deutschlandfunk.de/e5/f6/55/84/e5f65584-6dc2-4dce-979d-729a024cd599/wetter-grafik-nachrichten-100-768x768.jpg",
+      "published": "2026-11-25T05:07:50+01:00",
+      "category": "Technologie",
+      "score": 57.59
+    },
+    {
+      "id": "spiegel-b4e2771bf209cef3",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Nordkorea: Schweiz muss Vertretung in Pjöngjang schließen",
+      "link": "https://www.spiegel.de/ausland/nordkorea-schweiz-muss-vertretung-in-pjoengjang-schliessen-a-50b0dd63-9c9f-45d8-92b5-cd6d2b352e65#ref=rss",
+      "summary": "Die Schweiz ist eines der wenigen Länder, die eine diplomatische Vertretung in Pjöngjang unterhalten. Doch nun muss das Büro schließen. Auslöser des Eklats sind Sanktionen gegen ein umstrittenes Ferienlager.",
+      "image": "https://cdn.prod.www.spiegel.de/images/102ce31f-2663-4286-baa2-7eebf0c7ffb2_w1200_r1.778_fpx65.25_fpy45.jpg",
+      "published": "2026-11-25T05:05:00+01:00",
+      "category": "Nachrichten",
+      "score": 57.55
+    },
+    {
+      "id": "spiegel-72a336427e1211f7",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Kroatien: Tod von Psychiatriepatient nach Fixierung löst Proteste aus",
+      "link": "https://www.spiegel.de/ausland/kroatien-tod-von-psychiatriepatient-nach-fixierung-loest-proteste-aus-a-7672111a-f020-4e84-970c-c926f6c9640c#ref=rss",
+      "summary": "Ein 32 Jahre alter Mann ist in einem staatlichen Zagreber Krankenhaus gestorben. Mehrere Sanitäter sollen ihn zuvor gewaltsam festgehalten und ihm ein Kissen auf das Gesicht gedrückt haben. Der Fall sorgt im Land für Aufruhr.",
+      "image": "https://cdn.prod.www.spiegel.de/images/cd1914c1-93cf-4b5a-b19d-763eddfe3309_w1200_r1.778_fpx46_fpy59.jpg",
+      "published": "2026-11-25T05:02:00+01:00",
+      "category": "Technologie",
+      "score": 57.51
+    },
+    {
+      "id": "tagesschau-28326b4fc904e3d9",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Keine schnelle Lösung bei Gewalt gegen Frauen",
+      "link": "https://www.tagesschau.de/inland/gesellschaft/orange-day-gewalt-gegen-frauen-100.html",
+      "summary": "Der heutige Orange Day steht für eine Zukunft ohne Gewalt gegen Frauen. Doch die Realität sieht anders aus. Strafverschärfungen und Gesetzesänderungen sind angestoßen, aber schnelle Lösungen sind nicht in Sicht. Von A. Lagmöller. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/cba97172-8537-4a2d-9299-6c5dc0b7f96e/AAABleqi3Wc/AAABnSSvrFg/16x9-big/frauenhaus-114.jpg?width=1920",
+      "published": "2026-11-25T05:00:11+01:00",
+      "category": "Nachrichten",
+      "score": 58.48
+    },
+    {
+      "id": "handelsblatt-a45b58ea44465aa1",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Energiewende: Solarstrom knackt erstmals die Marke von 100 Terawattstunden",
+      "link": "https://www.handelsblatt.com/politik/deutschland/energiewende-solarstrom-knackt-erstmals-die-marke-von-100-terawattstunden/100272576.html",
+      "summary": "Noch nie wurde mehr Solarstrom in Deutschland erzeugt als in diesem Jahr. Darum lässt der Sonnenstrom bisherige Rekorde so weit hinter sich.",
+      "image": "https://images.handelsblatt.com/S3ZzJJI17ht-/cover/900/506/0/0/23/22/0.5/0.5/solaranlage.jpg",
+      "published": "2026-11-25T05:00:07+00:00",
       "category": "Wirtschaft",
-      "score": 60.96
+      "score": 60.31
     },
     {
-      "id": "deutschlandfunk-c5756f3ae7cba2d2",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Schlussdebatte - Koalition verteidigt Rekordausgaben gegen Kritik",
-      "link": "https://www.deutschlandfunk.de/koalition-verteidigt-rekordausgaben-gegen-kritik-100.html",
-      "summary": "Der Bundestag berät abschließend über den Haushalt für das Jahr 2027. Zum Auftakt der viertägigen und abschließenden Debatte verteidigte Bundesfinanzminister Klingbeil die geplanten Rekordausgaben im kommenden Jahr. Kritik kam dagegen aus den Reihen der Opposition",
-      "image": "https://bilder.deutschlandfunk.de/ca/69/0c/85/ca690c85-de9a-49f7-8c1a-01b9ebc3dc02/bundestag-bundeskanzler-merz-finanzminister-klingbeil-beratungen-haushalt-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
+      "id": "handelsblatt-8a241ffbc61355de",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ Iran-Krieg +++: Huthi drohen mit Angriffen auf saudi-arabische Häfen am Roten Meer",
+      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-huthi-drohen-mit-angriffen-auf-saudi-arabische-haefen-am-roten-meer/100136895.html",
+      "summary": "Hamas-Anführer bei israelischem Angriff im Gazastreifen getötet +++ Irak ordnet Kontrolle über Ölfelder in Kurdenregion an +++ Bahrain gerät unter iranischen Beschuss +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/EzTZC8aUXEhh/cover/900/506/0/0/154/155/0.5/0.5/urnnewsmldpa.com20090101260306-935-1198808.jpg",
+      "published": "2026-11-25T04:51:00+00:00",
       "category": "Politik",
-      "score": 68.96
-    },
-    {
-      "id": "deutschlandfunk-406b0f398620c7f5",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "London - Großbritannien verhängt Sanktionen gegen jemenitische Huthi-Miliz",
-      "link": "https://www.deutschlandfunk.de/grossbritannien-verhaengt-sanktionen-gegen-jemenitische-huthi-miliz-100.html",
-      "summary": "Die britische Regierung hat die jemenitische Huthi-Miliz und vier ihrer Anführer mit Sanktionen belegt.",
-      "image": "https://bilder.deutschlandfunk.de/e9/89/76/10/e9897610-3b20-4ab8-b367-dfb4a4543a9f/ed-miliband-grossbritannien-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Politik",
-      "score": 60.96
-    },
-    {
-      "id": "deutschlandfunk-2a84dbb2614a5448",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Nahost - Hamas-Sicherheitschef bei israelischem Luftangriff im Gazastreifen getötet",
-      "link": "https://www.deutschlandfunk.de/hamas-sicherheitschef-bei-israelischem-luftangriff-im-gazastreifen-getoetet-100.html",
-      "summary": "Bei israelischen Luftangriffen im Gazastreifen sind der Sicherheitschef der Terrororganisation Hamas und mindestens sechs weitere Menschen getötet worden.",
-      "image": "https://bilder.deutschlandfunk.de/27/ae/7f/67/27ae7f67-2065-4d8c-8ba7-bd5d37b36e3c/gaza-gazastadt-angriff-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Politik",
-      "score": 89.64,
+      "score": 92.19,
       "coverage": {
-        "sourceCount": 3,
+        "sourceCount": 2,
         "others": [
-          {
-            "source": "spiegel",
-            "title": "Gazastreifen: Israels Armee meldet Tötung des Hamas-Sicherheitschefs nach Luftangriff",
-            "link": "https://www.spiegel.de/ausland/gazastreifen-israels-armee-meldet-toetung-des-hamas-sicherheitschefs-nach-luftangriff-a-c22627ce-c517-4c35-8785-ad95dfd736b2#ref=rss"
-          },
           {
             "source": "deutsche-welle",
             "title": "Hamas-Anführer bei Angriff Israels im Gazastreifen getötet",
@@ -290,353 +598,410 @@
       }
     },
     {
-      "id": "deutschlandfunk-1434079d1408ef25",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Lagebild - Zahl der Fälle von Gewalt gegen Frauen gestiegen",
-      "link": "https://www.deutschlandfunk.de/zahl-der-faelle-von-gewalt-gegen-frauen-gestiegen-100.html",
-      "summary": "In Deutschland ist im vergangenen Jahr fast jeden Tag eine Frau oder ein Mädchen getötet worden. Wie aus zwei Lagebildern des Bundeskriminalamts zur Gewalt gegen Frauen hervorgeht, starben 342 Frauen und Mädchen durch Tötungsdelikte. Das sind rund elf Prozent mehr als im Vorjahr. Die Gefahr droht Mädchen und Frauen vor allem im Privaten.",
-      "image": "https://bilder.deutschlandfunk.de/ff/99/f4/b9/ff99f4b9-1880-46e3-9502-ad0a9088ead9/prien-lagebild-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Nachrichten",
-      "score": 66.96
-    },
-    {
-      "id": "deutschlandfunk-c243f89d2d390c8e",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Körber-Stiftung - Deutsche wollen weniger Unterstützung für die Ukraine",
-      "link": "https://www.deutschlandfunk.de/deutsche-wollen-weniger-unterstuetzung-fuer-die-ukraine-100.html",
-      "summary": "In Deutschland sinkt die Zustimmung für die Unterstützung der Ukraine im russischen Angriffskrieg. Das ist ein Ergebnis der repräsentativen Studie \"Berlin Pulse\" der Körber-Stiftung. Demnach sind 61 Prozent der Befragten der Meinung, dass sich Deutschland und Europa nicht ausreichend für Friedensverhandlungen zwischen Russland und der Ukraine einsetzten.",
-      "image": "https://bilder.deutschlandfunk.de/61/a4/a0/4b/61a4a04b-8d6a-485b-8a2b-55bb3edff6c1/ukraine-nato-102-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
+      "id": "handelsblatt-565fdb08498551e4",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ USA unter Trump +++: Cyberangriff auf CIA-System – Keine vertraulichen Daten betroffen",
+      "link": "https://www.handelsblatt.com/politik/international/usa-cyberangriff-auf-cia-system-keine-vertraulichen-daten-betroffen/29669594.html",
+      "summary": "Trump attackiert Newsom bei Rede im Justizministerium +++ Trump: Todesurteile in den USA schneller vollstrecken +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/icwi3nqe5-9O/cover/900/506/124/0/102/230/0.5/0.5/cia-logo.jpeg",
+      "published": "2026-11-25T04:41:00+00:00",
       "category": "Politik",
-      "score": 84.96,
+      "score": 76.05,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "deutsche-welle",
-            "title": "Studie: Mehrheit der Deutschen gegen mehr Waffen für Ukraine",
-            "link": "https://www.dw.com/de/studie-mehrheit-der-deutschen-gegen-mehr-waffen-für-ukraine/a-80020315?maca=de-rss-de-all-1119-rdf"
+            "title": "Trump will Todesstrafe schneller vollstrecken lassen",
+            "link": "https://www.dw.com/de/trump-will-todesstrafe-schneller-vollstrecken-lassen/a-80028901?maca=de-rss-de-all-1119-rdf"
           }
         ]
       }
     },
     {
-      "id": "deutschlandfunk-09672001c641c373",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Ukraine - Tote und Verletzte bei russischen Angriffen",
-      "link": "https://www.deutschlandfunk.de/tote-und-verletzte-bei-russischen-angriffen-124.html",
-      "summary": "Bei russischen Angriffen auf die Ukraine sind mehrere Menschen getötet und mehr als 40 verletzt worden.",
-      "image": "https://bilder.deutschlandfunk.de/3e/14/a7/b3/3e14a7b3-fd36-4dc7-ae46-a59ac550d309/ukraine-russischer-angriff-124-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Politik",
-      "score": 81.64,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Ukraine-Krieg: Zwei Tote und Dutzende Verletzte bei russischem Angriff auf Saporischschja",
-            "link": "https://www.handelsblatt.com/video/politik/ukraine-krieg-zwei-tote-und-dutzende-verletzte-bei-russischem-angriff-auf-saporischschja/100272444.html"
-          },
-          {
-            "source": "deutsche-welle",
-            "title": "Russische Angriffe verursachen hohe Schäden. Dennoch investieren deutsche Unternehmen weiter in der Ukraine und setzen auf den Wiederaufbau",
-            "link": "https://www.dw.com/de/russische-angriffe-verursachen-hohe-schäden-dennoch-investieren-deutsche-unternehmen-weiter-in-der-ukraine-und-setzen-auf-den-wiederaufbau/a-80019538?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
+      "id": "handelsblatt-9fa0d3b9e2c1535c",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Winter in Alberta und BC: Powder to the People: Wann der Kanada-Skitrip bezahlbar wird",
+      "link": "https://www.handelsblatt.com/unternehmen/dienstleister/winter-in-alberta-und-bc-powder-to-the-people-wann-der-kanada-skitrip-bezahlbar-wird/100272572.html",
+      "summary": "Wintersportler haben die Alpen hierzulande praktisch vor der Haustür. Dennoch ist ein Skiurlaub in Kanada - allein des berühmten Puderschnees wegen - für viele ein Traum. Ein erschwinglicher?",
+      "image": "https://images.handelsblatt.com/Va-hOUpcuxYh/cover/900/506/0/0/107/106/0.5/0.5/skifahrer-nimmt-an-einer-heliskiing-tour-teil.jpg",
+      "published": "2026-11-25T04:34:07+00:00",
+      "category": "Technologie",
+      "score": 56.95
     },
     {
-      "id": "deutschlandfunk-014483a38c0caa68",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Parlament - Bundestag berät Etat des Ministeriums für Digitales und Staatsmodernisierung - Ausgaben sollen um 11 Prozent steigen",
-      "link": "https://www.deutschlandfunk.de/bundestag-beraet-etat-des-ministeriums-fuer-digitales-und-staatsmodernisierung-ausgaben-sollen-um-11-100.html",
-      "summary": "Der Bundestag hat in zweiter Lesung den Etat des Ministeriums für Digitales und Staatsmodernisierung beraten.",
-      "image": "https://bilder.deutschlandfunk.de/5d/df/c9/5e/5ddfc95e-4b27-474b-bafe-9d48d7d7c1b5/digitalgipfel-karsten-wildberger-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Politik",
-      "score": 68.96
-    },
-    {
-      "id": "deutschlandfunk-b03a60e04dd3b676",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "\"Die Zeit\" - Bericht: Mehr Frauen in NS-Frauenverbänden als bislang angenommen",
-      "link": "https://www.deutschlandfunk.de/bericht-mehr-frauen-in-ns-frauenverbaenden-als-bislang-angenommen-100.html",
-      "summary": "In den Frauenverbänden des Nationalsozialismus hat es laut einem Medienbericht deutlich mehr Mitglieder gegeben als bislang angenommen.",
-      "image": "https://bilder.deutschlandfunk.de/8a/46/6b/7e/8a466b7e-0272-48ed-97e0-b8bf64f2d2a7/ns-frauenschaft-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Nachrichten",
-      "score": 57.96
-    },
-    {
-      "id": "deutschlandfunk-e2c72de53bc8ba23",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Justiz - Reichsbürgernetzwerk um Prinz Reuß: Sechs weitere Verdächtige in Sachsen angeklagt",
-      "link": "https://www.deutschlandfunk.de/reichsbuergernetzwerk-um-prinz-reuss-sechs-weitere-verdaechtige-in-sachsen-angeklagt-102.html",
-      "summary": "Im Zusammenhang mit der Reichsbürger-Gruppe um Prinz Reuß hat die Generalstaatsanwaltschaft Dresden sechs weitere Verdächtige angeklagt.",
-      "image": "https://bilder.deutschlandfunk.de/21/3f/8b/06/213f8b06-c6ba-4e67-9c1a-212e1a93b0c8/staatsanwaltschaft-generalstaatsanwaltschaft-dresden-sachsen-justiz-schild-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Nachrichten",
-      "score": 57.96
-    },
-    {
-      "id": "deutschlandfunk-ae43b74090746209",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Billig-Fluglinie - Ryanair fordert Abschaffung der Luftverkehrssteuer in Deutschland vor Investitionen",
-      "link": "https://www.deutschlandfunk.de/ryanair-fordert-abschaffung-der-luftverkehrssteuer-in-deutschland-vor-investitionen-100.html",
-      "summary": "Die ​irische Billig-Fluglinie Ryanair fordert im Gegenzug für Investitionen in Deutschland Zugeständnisse der Bundesregierung.",
-      "image": "https://bilder.deutschlandfunk.de/a6/70/35/db/a67035db-5d6b-4ea9-bb25-718a505ae4ce/ryanair-michael-o-leary-flugverkehrssteuer-fluege-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Politik",
-      "score": 60.96
-    },
-    {
-      "id": "deutschlandfunk-73d4bb3742e892d1",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Bundesaußenminister - Wadephul kritisiert Umstände der Rückkehr von Nvidia-Chef Huang",
-      "link": "https://www.deutschlandfunk.de/wadephul-kritisiert-umstaende-der-rueckkehr-von-nvidia-chef-huang-102.html",
-      "summary": "Nach der Rückkehr von Nvidia-Chef Huang in den USA hat sich Bundesaußenminister Wadephul kritisch zu den Umständen geäußert. Wadephul sagte zum Eingreifen von US-Präsident Trump bei der Personalie, er sei schockiert. Er habe solch eine Intervention von der politischen Seite zugunsten eines Unternehmens noch nicht erlebt.",
-      "image": "https://bilder.deutschlandfunk.de/ef/1f/87/0d/ef1f870d-e6e1-4215-b1a1-5182cb7fcdb8/bundesaussenminister-wadephul-warschau-polen-sicherheitskonferenz-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Politik",
-      "score": 68.96
-    },
-    {
-      "id": "deutschlandfunk-924021be14e56fc2",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Branchenkrise - So geht VW in die Tarifverhandlungen",
-      "link": "https://www.deutschlandfunk.de/so-geht-vw-in-die-tarifverhandlungen-100.html",
-      "summary": "Die deutsche Autoindustrie befindet sich in einer Krise. Das wird nicht nur an schwindenden Absatzmärkten deutlich, sondern auch an den Einschnitten, die auf die Beschäftigten zukommen. Die Tarifverhandlungen bei Volkswagen zeigen, um was es geht.",
-      "image": "https://bilder.deutschlandfunk.de/45/3c/31/84/453c3184-739a-430b-9c1d-ee14a36d8c41/volkswagen-vw-emden-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Nachrichten",
-      "score": 65.96
-    },
-    {
-      "id": "deutschlandfunk-2896b57ebcd78856",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Wirtschaft - Ifo-Geschäftsklima steigt auf Höchststand seit Frühjahr 2023",
-      "link": "https://www.deutschlandfunk.de/ifo-geschaeftsklima-steigt-auf-hoechststand-seit-fruehjahr-100.html",
-      "summary": "Die Erholung der deutschen Wirtschaft kommt voran.",
-      "image": "https://bilder.deutschlandfunk.de/0b/0a/71/6d/0b0a716d-7051-49fa-b49a-9e31ae00a3ce/ifo-institut-logo-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
+      "id": "handelsblatt-be993bf290d609a1",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Nikkei, Kospi, Taiex: Viele Chipaktien in Asien fallen unter das Niveau vor der Rally",
+      "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-kospi-taiex-viele-chipaktien-in-asien-fallen-unter-das-niveau-vor-der-rally/100272545.html",
+      "summary": "Nach der Rückkehr von Nvidia-Chef Jensen Huang währte die Euphorie an den Märkten nur kurz. Eine frühere Notenbankerin warnt vor weiteren Turbulenzen.",
+      "image": "https://images.handelsblatt.com/Rpj06jTdlM4w/cover/900/506/0/0/230/230/0.5/0.5/urnnewsmldpa.com20090101261123-99-362420.jpg",
+      "published": "2026-11-25T04:23:00+00:00",
       "category": "Wirtschaft",
-      "score": 69.96
+      "score": 59.8
     },
     {
-      "id": "deutschlandfunk-364a8b2007af7b98",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Vorstoß zur kalten Progression - Paus (Grüne) kritisiert Zeitpunkt der Forderungen",
-      "link": "https://www.deutschlandfunk.de/paus-gruene-kritisiert-zeitpunkt-der-forderungen-102.html",
-      "summary": "Die Grünen-Haushaltsexpertin Paus hat den Vorstoß von Bayerns Ministerpräsidenten Söder zu einem vollständigen Ausgleich der kalten Progression kritisiert.",
-      "image": "https://bilder.deutschlandfunk.de/a3/89/13/c4/a38913c4-fd5c-42de-9c75-39879b2fd32e/lisa-paus-bundesministerin-familie-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Politik",
-      "score": 60.96
-    },
-    {
-      "id": "deutschlandfunk-ac37ca5d4ce0dd77",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Statistik - Jedes dritte Unternehmen nutzt Künstliche Intelligenz",
-      "link": "https://www.deutschlandfunk.de/jedes-dritte-unternehmen-nutzt-kuenstliche-intelligenz-100.html",
-      "summary": "In Deutschland nutzt inzwischen mehr als jedes dritte Unternehmen Technologien der Künstlichen Intelligenz.",
-      "image": "https://bilder.deutschlandfunk.de/NO/VA/_3/c1/NOVA_3c19f6e67b26340e3d2e0d8d82f0e26a/craft-13487244-asset-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
+      "id": "handelsblatt-2d3733bee4c20865",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Invest: Christian Röhl: Warum defensive Aktien an der Börse so gut laufen",
+      "link": "https://www.handelsblatt.com/audio/handelsblatt-invest/invest-christian-roehl-warum-defensive-aktien-an-der-boerse-so-gut-laufen/100221423.html",
+      "summary": "Der Chefökonom von Scalable Capital spricht im Podcast über den großen Börsenboom abseits der Künstlichen Intelligenz und die Rückkehr des Nvidia-Chefs.",
+      "image": "https://images.handelsblatt.com/uoRln6ax13LT/cover/900/506/0/0/0/0/0.5/0.5/christian-roehl-chefoekonom-von-scalable-capital..jpg",
+      "published": "2026-11-25T04:10:00+00:00",
       "category": "Wirtschaft",
-      "score": 60.96
+      "score": 59.62
     },
     {
-      "id": "deutschlandfunk-a7f95b60edbaaf17",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Irankrieg - Ölpreise geben weiter nach, Exporte aus dem Persischen Golf nehmen zu",
-      "link": "https://www.deutschlandfunk.de/oelpreise-geben-weiter-nach-exporte-aus-dem-persischen-golf-nehmen-zu-100.html",
-      "summary": "Die Ölpreise haben weiter nachgegeben.",
-      "image": "https://bilder.deutschlandfunk.de/FI/LE/_1/eb/FILE_1ebfc865421e21a8caaa2ff7c1302643/233090117-jpg-102-768x768.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Nachrichten",
-      "score": 65.96
+      "id": "handelsblatt-bd8283e5524ae259",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Invest: Christian Röhl: Warum defensive Aktien an der Börse so gut laufen",
+      "link": "https://www.handelsblatt.com/audio/handelsblatt-invest/invest-christian-roehl-warum-defensive-aktien-an-der-boerse-so-gut-laufen/100272496.html",
+      "summary": "Der Chefökonom von Scalable Capital spricht im Podcast über den großen Börsenboom abseits der Künstlichen Intelligenz und die Rückkehr des Nvidia-Chefs.",
+      "image": "https://images.handelsblatt.com/dKBP8SJvR-yi/cover/900/506/0/0/306/307/0.5/0.5/christian-roehl-chefoekonom-von-scalable-capital..jpg",
+      "published": "2026-11-25T04:05:00+00:00",
+      "category": "Wirtschaft",
+      "score": 59.62
     },
     {
-      "id": "deutschlandfunk-b156beab3587dbcd",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Nordrhein-Westfalen - Unbekannter stürmt Grünen-Sitzung in Schwerte - Neubaur äußert sich fassungslos",
-      "link": "https://www.deutschlandfunk.de/unbekannter-stuermt-gruenen-sitzung-in-schwerte-neubaur-aeussert-sich-fassungslos-100.html",
-      "summary": "Im nordrhein-westfälischen Schwerte hat es einen Übergriff auf eine Fraktionssitzung der dortigen Grünen gegeben.",
-      "image": "https://bilder.deutschlandfunk.de/14/5d/f2/54/145df254-9abd-4899-86a8-fcc3ea06985e/schwerte-buendnis90-die-gruenen-sitzung-stuermung-polizei-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Nachrichten",
-      "score": 71.64
+      "id": "handelsblatt-70537474e0a31408",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Jahrelanges Verfahren: US-Geschworene sprechen Huawei der Geldwäsche schuldig",
+      "link": "https://www.handelsblatt.com/technik/it-internet/jahrelanges-verfahren-us-geschworene-sprechen-huawei-der-geldwaesche-schuldig/100272536.html",
+      "summary": "Das Verfahren von US-Staatsanwälten gegen den chinesischen Huawei-Konzern lief schon seit 2018. Jetzt gibt es die Entscheidung eines Geschworenen-Gerichts.",
+      "image": "https://images.handelsblatt.com/olYCyL9UmWyb/cover/900/506/0/0/107/106/0.5/0.5/huawei-logo.jpg",
+      "published": "2026-11-25T04:03:22+00:00",
+      "category": "Wirtschaft",
+      "score": 59.53
     },
     {
-      "id": "deutschlandfunk-acd796f517519241",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "\"Handicap International\" - Zahl der Opfer durch Landminen laut neuem Monitor wieder gestiegen",
-      "link": "https://www.deutschlandfunk.de/zahl-der-opfer-durch-landminen-laut-neuem-monitor-wieder-gestiegen-100.html",
-      "summary": "Die weltweite Zahl der Landminen-Opfer ist wieder gestiegen.",
-      "image": "https://bilder.deutschlandfunk.de/51/04/96/bf/510496bf-29d4-4133-92b7-decbf8b9bf3a/landminen-europa-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Nachrichten",
-      "score": 71.64
+      "id": "handelsblatt-e0039bd149038665",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Brutto längst nicht Netto: Weihnachtsgeld: Wie viel kommt davon überhaupt bei mir an?",
+      "link": "https://www.handelsblatt.com/finanzen/steuern-recht/brutto-laengst-nicht-netto-weihnachtsgeld-wie-viel-kommt-davon-ueberhaupt-bei-mir-an/100272568.html",
+      "summary": "Weihnachtsgeld kann Wünsche zum Jahresende in Erfüllung gehen lassen. Doch auf der Abrechnung bleibt oft weniger übrig als erwartet. Welche Abzüge den Nettobetrag bestimmen.",
+      "image": "https://images.handelsblatt.com/wpd0ePGl-3bC/cover/900/506/0/0/107/106/0.5/0.5/frau-traegt-eine-weihnachtliche-einkaufstuete.jpg",
+      "published": "2026-11-25T04:03:04+00:00",
+      "category": "Wirtschaft",
+      "score": 59.52
     },
     {
-      "id": "deutschlandfunk-13d0641ca1c10a5e",
-      "source": "deutschlandfunk",
+      "id": "handelsblatt-177c16b8ca7d6ded",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Möglicherweise Rekord: Goldener November: Warum viele bunte Blätter noch hängen",
+      "link": "https://www.handelsblatt.com/technik/forschung-innovation/moeglicherweise-rekord-goldener-november-warum-viele-bunte-blaetter-noch-haengen/100272567.html",
+      "summary": "Einige Bäume scheinen sich in diesem Herbst gar nicht von ihrem Laub trennen zu wollen. Ursache ist das Wetter.",
+      "image": "https://images.handelsblatt.com/rppWmpgWrlxl/cover/900/506/0/0/0/0/0.5/0.5/goldener-november-warum-viele-bunte-blaetter-noch-haengen.jpg",
+      "published": "2026-11-25T04:00:11+00:00",
+      "category": "Wirtschaft",
+      "score": 59.48
+    },
+    {
+      "id": "handelsblatt-ae2443dbbdc4e892",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Lebensmittel: Einzelhandel-Honig ist häufig nicht aus Deutschland",
+      "link": "https://www.handelsblatt.com/politik/deutschland/lebensmittel-einzelhandel-honig-ist-haeufig-nicht-aus-deutschland/100272566.html",
+      "summary": "Unternehmen bewerben Honig gerne als Regionalprodukt. Dabei wird das Nahrungsmittel oft Tausende Kilometer transportiert, bevor es verkauft wird. Zu dieser Einschätzung kommt die Verbraucherzentrale.",
+      "image": "https://images.handelsblatt.com/pWMoyAFszSZZ/cover/900/506/0/0/107/106/0.5/0.5/bienen.jpg",
+      "published": "2026-11-25T04:00:05+00:00",
+      "category": "Wirtschaft",
+      "score": 59.48
+    },
+    {
+      "id": "handelsblatt-a12521b291a1bf83",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Mobilitätskosten: Experten: Entwurf für Spritpreisdeckel bringt wenig",
+      "link": "https://www.handelsblatt.com/politik/deutschland/mobilitaetskosten-experten-entwurf-fuer-spritpreisdeckel-bringt-wenig/100272560.html",
+      "summary": "Der Mechanismus setzt wohl an der falschen Stelle auf. Einen echten Unterschied würde er wohl vor allem zu einer bestimmten Tageszeit machen.",
+      "image": "https://images.handelsblatt.com/xlRI9fbozFyI/cover/900/506/0/0/53/52/0.5/0.5/eine-person-haelt-eine-zapfpistole.jpg",
+      "published": "2026-11-25T03:30:05+00:00",
+      "category": "Wirtschaft",
+      "score": 59.06
+    },
+    {
+      "id": "handelsblatt-cd7059b7dd88fd0c",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Regierungsbildung: Wie es in Berlin nach Emdes Ausschluss weitergeht",
+      "link": "https://www.handelsblatt.com/politik/deutschland/regierungsbildung-wie-es-in-berlin-nach-emdes-ausschluss-weitergeht/100272561.html",
+      "summary": "Die umstrittene Berliner Abgeordnete Vanessa Emde gehört nicht mehr zur Linke-Fraktion. Was bedeutet dieser Schritt für die Partei? Und wird Elif Eralp jetzt Regierende Bürgermeisterin?",
+      "image": "https://images.handelsblatt.com/4gvRifbAVh19/cover/900/506/0/0/111/110/0.5/0.5/weitere-entwicklung-bei-der-berliner-linken.jpg",
+      "published": "2026-11-25T03:30:04+00:00",
+      "category": "Politik",
+      "score": 85.59
+    },
+    {
+      "id": "handelsblatt-720d9f9959ec0ec0",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Arbeitsrecht: Bildungsurlaub: Was gilt für mich?",
+      "link": "https://www.handelsblatt.com/politik/deutschland/arbeitsrecht-bildungsurlaub-was-gilt-fuer-mich/100272559.html",
+      "summary": "Im Bildungsurlaub können sich Beschäftigte während der Arbeitszeit weiterbilden. Doch wer hat Anspruch darauf und welche Kurse sind erlaubt? Eine Übersicht über geltende Regeln und Rechte.",
+      "image": "https://images.handelsblatt.com/X0W3hM1WVFgK/cover/900/506/0/0/107/106/0.5/0.5/personen-sprechen-in-einem-seminarraum.jpg",
+      "published": "2026-11-25T03:29:04+00:00",
+      "category": "Wirtschaft",
+      "score": 59.05
+    },
+    {
+      "id": "handelsblatt-0d73191b70564056",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Luftfahrt: China Southern beschert Boeing größten China-Auftrag seit fast zehn Jahren",
+      "link": "https://www.handelsblatt.com/unternehmen/industrie/luftfahrt-china-southern-beschert-boeing-groessten-china-auftrag-seit-fast-zehn-jahren/100272550.html",
+      "summary": "China Southern bestellt 50 Boeing 737 MAX 8 für Xiamen Airlines. Laut Jefferies ist es die erste Festbestellung aus dem Abkommen zwischen Trump und Xi.",
+      "image": "https://images.handelsblatt.com/qrksFGl2x9NJ/cover/900/506/0/0/182/182/0.5/0.5/air-canada-travel-.jpg",
+      "published": "2026-11-25T03:21:52+00:00",
+      "category": "Politik",
+      "score": 66.95
+    },
+    {
+      "id": "spiegel-0eca0a39e751dc68",
+      "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Studie - Wieder weniger MINT-Fachkräfte auf dem Arbeitsmarkt",
-      "link": "https://www.deutschlandfunk.de/wieder-weniger-mint-fachkraefte-auf-dem-arbeitsmarkt-102.html",
-      "summary": "Der Fachkräftemangel in den Bereichen Mathematik, Informatik, Naturwissenschaften und Technik verschärft sich wieder. Das teilte das nationale MINT-Forum unter Berufung auf eine Studie des Instituts der Deutschen Wirtschaft mit.",
-      "image": "https://bilder.deutschlandfunk.de/FI/LE/_e/be/FILE_ebe6c5eaf3e434e44b866d3cd4338514/imago0097586613h-jpg-100-768x768.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
+      "title": "Thomas Markle: Vater von Herzogin Meghan in Kalifornien angeklagt",
+      "link": "https://www.spiegel.de/panorama/justiz/thomas-markle-vater-von-herzogin-meghan-in-kalifornien-angeklagt-a-a5026e52-d91c-421e-bc35-e97c379b1437#ref=rss",
+      "summary": "Thomas Markle wird vorgeworfen, Abbildungen des sexuellen Missbrauchs von Kindern besessen zu haben. In zwei Fällen wurde nun in Kalifornien Anklage erhoben. Bei einem Schuldspruch drohen ihm bis zu 40 Jahre Haft.",
+      "image": "https://cdn.prod.www.spiegel.de/images/55a21cb9-3d68-4371-98ad-6a2a45fe9a68_w1200_r1.778_fpx44_fpy36.jpg",
+      "published": "2026-11-25T03:14:00+01:00",
+      "category": "Technologie",
+      "score": 56.01
+    },
+    {
+      "id": "handelsblatt-dd9cec1cb8541b67",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Chipunternehmen: Was Nvidia, Huang und der Trump-Regierung jetzt vom US-Kongress droht",
+      "link": "https://www.handelsblatt.com/politik/international/chipunternehmen-was-nvidia-huang-und-der-trump-regierung-jetzt-vom-us-kongress-droht/100272477.html",
+      "summary": "Warum Trumps Intervention zugunsten von Jensen Huang für die Demokraten ein Geschenk ist und welche Untersuchungen jetzt möglich sind. Ein Überblick.",
+      "image": "https://images.handelsblatt.com/WB38yYLZBG0m/cover/900/506/0/0/313/312/0.5/0.5/files-nvidia-ceo-jensen-huang-r-speaks-alongside-us-president-donald-trump-about-investing-in-am.jpg",
+      "published": "2026-11-25T03:12:32+00:00",
+      "category": "Politik",
+      "score": 90.99
+    },
+    {
+      "id": "handelsblatt-0893fc7c1de190d5",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Reisen: Tourismusboom stößt an Grenzen – so will Griechenland gegensteuern",
+      "link": "https://www.handelsblatt.com/politik/international/reisen-tourismusboom-stoesst-an-grenzen-so-will-griechenland-umsteuern/100271602.html",
+      "summary": "Die Branche feiert das vierte Rekordjahr in Folge. Doch Einheimischen setzen steigende Mieten zu, das Wasser wird knapp, die Infrastruktur ist überlastet. Jetzt greift die Regierung durch.",
+      "image": "https://images.handelsblatt.com/H8QOXQ3CRkXE/cover/900/506/0/0/0/0/0.5/0.5/mittelmeer-europa-sommer-strand-reise-urlaub-tourismus-overtourism-massentourismus-klimawan.jpg",
+      "published": "2026-11-25T03:03:31+00:00",
+      "category": "Politik",
+      "score": 58.69
+    },
+    {
+      "id": "handelsblatt-e36800eca5e02bf8",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Digitale Einkaufshelfer: Deutschland hinkt beim Einkaufen mit KI deutlich hinterher",
+      "link": "https://www.handelsblatt.com/politik/deutschland/digitale-einkaufshelfer-deutschland-hinkt-beim-einkaufen-mit-ki-deutlich-hinterher/100272554.html",
+      "summary": "Das Einkaufen verändert sich. Künstliche Intelligenz wird für viele zum festen Berater. Allerdings werden die Tools hierzulande noch vergleichsweise wenig genutzt. Warum eigentlich?",
+      "image": "https://images.handelsblatt.com/byi9LGxbPNUf/cover/900/506/0/0/107/106/0.5/0.5/illustration-ki-shopping.jpg",
+      "published": "2026-11-25T03:01:05+00:00",
+      "category": "Technologie",
+      "score": 55.66
+    },
+    {
+      "id": "handelsblatt-cf8d217d0def9cd3",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Forschungssicherheit: „Gravierende Verstöße bei Forschungssicherheit“: Cispa-Skandal kostet Steuerzahler Millionen Euro",
+      "link": "https://www.handelsblatt.com/politik/deutschland/forschungssicherheit-cispa-skandal-kostet-steuerzahler-millionen-euro/100272273.html",
+      "summary": "Hätten der Bund und das Saarland früher beim Helmholtz-Zentrum eingreifen müssen? Die Gesellschafter schweigen, der Bund beruft sich aufs „Staatswohl“. Die Opposition fordert Aufklärung.",
+      "image": "https://images.handelsblatt.com/dd72SuRNM6hD/cover/900/506/0/0/0/482/0.5/0.5/22.04.2026-berlin-dorothee-baer-csu-bundesministerin-fuer-forschung-technologie-und-raumfahrt-s.jpg",
+      "published": "2026-11-25T03:00:43+00:00",
       "category": "Wissenschaft",
-      "score": 57.96
+      "score": 55.66
     },
     {
-      "id": "deutschlandfunk-bd876e62294c73de",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Vorgehen gegen Medien und Opposition - Yücel sieht Türkei als \"Diktatur\"",
-      "link": "https://www.deutschlandfunk.de/yuecel-sieht-tuerkei-als-diktatur-100.html",
-      "summary": "Der Sprecher der Schriftstellervereinigung PEN Berlin, Yücel, hat der Türkei den Status einer Diktatur attestiert.",
-      "image": "https://bilder.deutschlandfunk.de/8d/7c/30/1f/8d7c301f-9aba-4a5a-9944-97aac3fa0462/deniz-yuecel-tuerkei-sprecher-pen-schriftstellervereinigung-erdogan-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Nachrichten",
-      "score": 57.96
-    },
-    {
-      "id": "deutschlandfunk-8e3acdfd55e3b3c0",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Behördenangaben - Fabrikbrand in Indonesien: Bislang 26 Leichen geborgen",
-      "link": "https://www.deutschlandfunk.de/fabrikbrand-in-indonesien-bislang-26-leichen-geborgen-100.html",
-      "summary": "Nach einem Brand in einer Fabrik in Indonesien haben Rettungskräfte die Leichen von 26 Menschen geborgen.",
-      "image": "https://bilder.deutschlandfunk.de/77/dc/cb/39/77dccb39-8136-4d37-97bb-d0c3d45d9c30/indonesien-serang-suesswarenfabrik-feuer-brand-todesopfer-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Nachrichten",
-      "score": 57.96
-    },
-    {
-      "id": "deutschlandfunk-0205b467db84053f",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Nach Weltklimakonferenz - Bundesumweltminister Schneider weist Kritik zurück und verteidigt deutsche Klimapolitik",
-      "link": "https://www.deutschlandfunk.de/bundesumweltminister-schneider-weist-kritik-zurueck-und-verteidigt-deutsche-klimapolitik-100.html",
-      "summary": "Bundesumweltminister Schneider verteidigt das Engagement der Bundesregierung beim Klimaschutz. Die Weltklimakonferenz in Antalya sieht der SPD-Politiker zudem nicht grundsätzlich gescheitert. Die Co-Vorsitzende der Grünen-Bundestagsfraktion, Dröge, hatte die Klimapolitik der Bundesregierung zuvor kritisiert.",
-      "image": "https://bilder.deutschlandfunk.de/34/b9/74/bf/34b974bf-bddd-4df4-8d06-eca27c4df5b3/umweltminister-schneider-cop-antalya-weltklimakonferenz-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Politik",
-      "score": 68.96
-    },
-    {
-      "id": "deutschlandfunk-ac259ae0f7f90860",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Industriekonferenz - IG Metall betont Chancen durch Künstliche Intelligenz für deutsche Industrie",
-      "link": "https://www.deutschlandfunk.de/ig-metall-betont-chancen-durch-kuenstliche-intelligenz-fuer-deutsche-industrie-102.html",
-      "summary": "Die IG Metall hat die Deutsche Industrie aufgerufen, Künstliche Intelligenz als eine Zukunftschance für den hiesigen Standort zu begreifen. Bei KI-Sprachmodellen seien zwar die Amerikaner stärker, sagte der zweite Vorsitzende der IG Metall, Kerner, im Deutschlandfunk. Dafür könne die technische KI, die Maschinen in einzelnen Produktionsprozessen vernetze, zu einer deutschen Stärke werden.",
-      "image": "https://bilder.deutschlandfunk.de/0c/f1/16/de/0cf116de-02c3-4b24-b5a1-e6a87fc12cde/juergen-kerner-ig-metall-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Technologie",
-      "score": 57.96
-    },
-    {
-      "id": "deutschlandfunk-db7f1c323e7144c8",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Tarifstreit - Warnstreiks in der Metall- und Elektroindustrie fortgesetzt",
-      "link": "https://www.deutschlandfunk.de/warnstreiks-in-der-metall-und-elektroindustrie-fortgesetzt-108.html",
-      "summary": "Im Tarifstreit der Metall- und Elektroindustrie haben heute früh weitere Warnstreiks begonnen.",
-      "image": "https://bilder.deutschlandfunk.de/f4/f6/de/96/f4f6de96-91c2-4f8b-a383-43934b2d02d1/ig-metall-streiks-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Technologie",
-      "score": 57.96
-    },
-    {
-      "id": "deutschlandfunk-e8d66e054bdc4943",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Gemeinsame Erklärung - 14 Länder unterstützen Urteil gegen Myanmar zu Völkermord an Rohingya",
-      "link": "https://www.deutschlandfunk.de/14-laender-unterstuetzen-urteil-gegen-myanmar-zu-voelkermord-an-rohingya-102.html",
-      "summary": "14 Länder haben sich demonstrativ hinter das Urteil des Internationalen Gerichtshofs zum Völkermord an der muslimischen Minderheit der Rohingya in Myanmar gestellt.",
-      "image": "https://bilder.deutschlandfunk.de/80/8f/9f/cb/808f9fcb-5e18-4d41-8ac9-23aabf8549d6/den-haag-niederlande-myanmar-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Nachrichten",
-      "score": 57.96
-    },
-    {
-      "id": "deutschlandfunk-f8c3712097664d47",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "\"Strategie der Einschüchterung\" - Henrichmann warnt vor russischer Erpressung durch Atomwaffen im Weltall",
-      "link": "https://www.deutschlandfunk.de/henrichmann-warnt-vor-russischer-erpressung-durch-atomwaffen-im-weltall-100.html",
-      "summary": "Der CDU-Geheimdienstexperte Henrichmann wirft Russland vor, den Westen mit der Entwicklung nuklearer Anti-Satelliten-Waffen unter Druck zu setzen.",
-      "image": "https://bilder.deutschlandfunk.de/46/40/6a/ba/46406aba-6b4f-4e35-a9e3-853257688921/mark-henrichmann-cdu-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Nachrichten",
-      "score": 57.96
-    },
-    {
-      "id": "deutschlandfunk-cfa411072eb6cb58",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "London - Burnham verteidigt Abkommen mit EU im Unterhaus",
-      "link": "https://www.deutschlandfunk.de/burnham-verteidigt-abkommen-mit-eu-im-unterhaus-100.html",
-      "summary": "Der britische Premierminister Burnham hat im Unterhaus die neuen Abkommen mit der EU über eine engere Zusammenarbeit verteidigt.",
-      "image": "https://bilder.deutschlandfunk.de/85/32/60/ce/853260ce-b049-474f-9fff-31c27737585e/grossbritannien-labour-party-andy-burnham-wahl-premierminister-dezentralisierung-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
-      "category": "Politik",
-      "score": 60.96
-    },
-    {
-      "id": "deutschlandfunk-cc1559cf2237fc60",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Afrika-Reise - Steinmeier eröffnet heute in Ghana Deutsch-Afrikanischen Wirtschaftsgipfel",
-      "link": "https://www.deutschlandfunk.de/steinmeier-eroeffnet-heute-in-ghana-deutsch-afrikanischen-wirtschaftsgipfel-100.html",
-      "summary": "Bundespräsident Steinmeier setzt seine Afrika-Reise heute in Ghana fort.",
-      "image": "https://bilder.deutschlandfunk.de/40/60/fc/42/4060fc42-0bd3-4fb3-935e-baf0096cbd3e/steinmeier-elfenbeinkueste-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
+      "id": "handelsblatt-d8f07896bb75e8aa",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Flaute im Bett: Junge Menschen haben zunehmend weniger Sex",
+      "link": "https://www.handelsblatt.com/technik/forschung-innovation/flaute-im-bett-junge-menschen-haben-zunehmend-weniger-sex/100272553.html",
+      "summary": "Warum umständlich einen Partner umwerben, wenn es im Netz erotische Inhalte und dazu Selbstbefriedigung gibt? Die unter-35-Jährigen werden immer seltener zusammen intim. Das ist nicht nur schlecht.",
+      "image": "https://images.handelsblatt.com/z2W2qarYmlm0/cover/900/506/0/0/133/133/0.5/0.5/50-jahre-sexuelle-selbstbestimmung.jpg",
+      "published": "2026-11-25T03:00:12+00:00",
       "category": "Wirtschaft",
-      "score": 60.96
+      "score": 58.65
     },
     {
-      "id": "deutschlandfunk-da07df89e66c8a3b",
-      "source": "deutschlandfunk",
+      "id": "handelsblatt-525634893d55953b",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Vor Weihnachtszeit: Hohe Aufschläge: Kerzen dürften deutlich teurer werden",
+      "link": "https://www.handelsblatt.com/politik/deutschland/vor-weihnachtszeit-hohe-aufschlaege-kerzen-duerften-deutlich-teurer-werden/100272552.html",
+      "summary": "Teures Öl und hohe Energiepreise wirken sich auf die Kerzenproduktion aus. Sie sind aber nicht der einzige Grund, warum Verbraucher vor Weihnachten für Kerzen wohl tiefer in die Tasche greifen müssen.",
+      "image": "https://images.handelsblatt.com/8roeJZO-I7P7/cover/900/506/0/0/107/106/0.5/0.5/illustration-kerzen.jpg",
+      "published": "2026-11-25T03:00:07+00:00",
+      "category": "Wirtschaft",
+      "score": 58.65
+    },
+    {
+      "id": "handelsblatt-914f4bca8e474de5",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "USA: Comeback mit Haftungsrisiko: Was Jensen Huangs Rückkehr für die Klagen gegen Nvidia bedeutet",
+      "link": "https://www.handelsblatt.com/technik/ki/usa-was-jensen-huangs-rueckkehr-fuer-die-klagen-gegen-nvidia-bedeutet/100272289.html",
+      "summary": "Der Chiphersteller und dessen Führung sehen sich bereits mit Klagen konfrontiert. Huangs Rückkehr kompliziert die Lage weiter. Juristen sehen Risiken – auch durch künftige Ermittlungen.",
+      "image": "https://images.handelsblatt.com/Gp2gUGp-9qVY/cover/900/506/0/0/103/103/0.5/0.5/file-jensen-huang-chief-executive-officer-of-nvidia-corp.-during-a-bloomberg-television-interview.jpg",
+      "published": "2026-11-25T02:59:29+00:00",
+      "category": "Wirtschaft",
+      "score": 68.64
+    },
+    {
+      "id": "handelsblatt-7fe0ab390a2c4e64",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Rüstung: Insider: Helsing prüft offenbar Übernahme von Marschflugkörperhersteller Destinus",
+      "link": "https://www.handelsblatt.com/unternehmen/industrie/ruestung-helsing-prueft-offenbar-kauf-von-marschflugkoerperbauer-destinus/100271588.html",
+      "summary": "Helsing erwägt eine Akquisition des niederländischen Unternehmens, wie das Handelsblatt von Insidern erfuhr. Im Oktober sind Helsing und Destinus bereits eine Partnerschaft eingegangen.",
+      "image": "https://images.handelsblatt.com/R4WpaqWVz1sA/cover/900/506/0/0/0/0/0.5/0.5/helsing-destinus.jpg",
+      "published": "2026-11-25T02:57:19+00:00",
+      "category": "Wirtschaft",
+      "score": 58.61
+    },
+    {
+      "id": "spiegel-be2ddf0479fcdb82",
+      "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "ARD-Produktion - Deutsche Doku \"Der talentierte Mr. F\" über gestohlenen Film gewinnt Emmy",
-      "link": "https://www.deutschlandfunk.de/deutsche-doku-der-talentierte-mr-f-ueber-gestohlenen-film-gewinnt-emmy-102.html",
-      "summary": "Die deutsche Dokumentation \"Der talentierte Mr. F\" ist bei den \"International Emmy Awards\" in New York ausgezeichnet worden.",
-      "image": "https://bilder.deutschlandfunk.de/57/cf/5a/bd/57cf5abd-eac0-4420-b198-5bc23466eae9/emmy-deutschland-100-1920x1920.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
+      "title": "Ukraine-Krieg: Selenskyj weist Lukaschenkos Moskau-Vorschlag zurück",
+      "link": "https://www.spiegel.de/ausland/ukraine-krieg-selenskyj-weist-lukaschenkos-moskau-vorschlag-zurueck-a-93d67249-3b6c-427e-8281-f5b38c909950#ref=rss",
+      "summary": "Mit einer aberwitzigen Idee hatte sich der belarussische Diktator Lukaschenko zuletzt an die Ukraine gewandt: Präsident Selenskyj könne doch einfach mit ihm zu Verhandlungen nach Moskau reisen. Nun kam die unmissverständliche Antwort.",
+      "image": "https://cdn.prod.www.spiegel.de/images/4052333a-0eae-4b70-99ac-208174f93c85_w1200_r1.778_fpx38.7_fpy50.jpg",
+      "published": "2026-11-25T02:54:00+01:00",
+      "category": "Politik",
+      "score": 74.73
+    },
+    {
+      "id": "tagesschau-6b6a6adec85b0bd3",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Brücken-Krieg: Gefahr für Kiew, Probleme für Russlands Logistik",
+      "link": "https://www.tagesschau.de/ausland/europa/ukraine-russland-bruecken-krieg-100.html",
+      "summary": "Kiew, Saporischschja, Odessa - immer wieder greift Russland ukrainische Brücken an. Im Gegenzug schießt die Ukraine vermehrt zurück - auch auf die Krim-Brücke. Dabei geht es beiden Seiten nicht immer nur um militärische Ziele. Von R. Barth .[ mehr ]",
+      "image": "https://images.tagesschau.de/image/4d80da7e-b67d-4d82-8fc9-ce619d62e6d2/AAABohBPwh4/AAABnSSvrFg/16x9-big/kiew-bruecke-100.jpg?width=1920",
+      "published": "2026-11-25T02:40:52+01:00",
+      "category": "Politik",
+      "score": 75.55
+    },
+    {
+      "id": "spiegel-bd296bcebe436c91",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "»GTA 6«: Vice-City-Radio lässt Sylvie Vartans »Danse ta vie« auf Spotify boomen",
+      "link": "https://www.spiegel.de/panorama/leute/gta-6-vice-city-radio-laesst-sylvie-vartans-danse-ta-vie-auf-spotify-boomen-a-df773e4a-0e19-46c5-948f-2f794664763d#ref=rss",
+      "summary": "Vor mehr als 40 Jahren veröffentlichte die Französin Sylvie Vartan ihren Song »Danse ta vie«. Jetzt schießen die Abrufzahlen bei Spotify in atemberaubende Höhen. Zu verdanken hat die Sängerin das »GTA 6«-Spielern.",
+      "image": "https://cdn.prod.www.spiegel.de/images/81135f1f-c842-4a4e-a548-9e8894953df8_w1200_r1.778_fpx53.98_fpy54.99.jpg",
+      "published": "2026-11-25T02:38:00+01:00",
       "category": "Nachrichten",
-      "score": 66.96
+      "score": 55.51
     },
     {
-      "id": "deutschlandfunk-75ab44c83d8ff954",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Wetter - Am Mittwoch verbreitet bewölkt",
-      "link": "https://www.deutschlandfunk.de/am-mittwoch-verbreitet-bewoelkt-106.html",
-      "summary": "Das Wetter: In der Nacht im Südwesten und Süden aufziehende Wolkenfelder, auch im Osten teils wolkig und an der Ostsee einzelne Schneeregenschauer. Sonst gering bewölkt und niederschlagsfrei. Örtlich Nebel. Tiefstwerte minus 2 bis minus 7 Grad. Am Tag im Norden und Osten sowie im Südwesten wolkig, an der Ostseeküste Schneeregenschauer. Sonst nach Nebelauflösung zeitweise sonnig. Minus 2 bis plus 4 Grad.",
-      "image": "https://bilder.deutschlandfunk.de/e5/f6/55/84/e5f65584-6dc2-4dce-979d-729a024cd599/wetter-grafik-nachrichten-100-768x768.jpg",
-      "published": "2026-11-24T23:17:38+01:00",
+      "id": "handelsblatt-3cca1833f4834c27",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Metall- und Elektroindustrie: Verhandler unter Druck: Klappt Pilotabschluss in Mannheim?",
+      "link": "https://www.handelsblatt.com/politik/deutschland/metall-und-elektroindustrie-verhandler-unter-druck-klappt-pilotabschluss-in-mannheim/100272546.html",
+      "summary": "Die IG Metall fordert fünf Prozent mehr Lohn, die Arbeitgeber bieten eine Einmalzahlung und später eine Tabellenstufe. Wo die Verhandler noch Spielraum haben – und was den Abschluss erschweren könnte.",
+      "image": "https://images.handelsblatt.com/qsb7XV7n-mDw/cover/900/506/0/0/107/106/0.5/0.5/beginn-der-tarifverhandlungen-in-der-metall-und-elektroindustrie.jpg",
+      "published": "2026-11-25T02:30:11+00:00",
       "category": "Technologie",
-      "score": 57.96
+      "score": 65.59
+    },
+    {
+      "id": "spiegel-b4053875abfb67e3",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Nvidia: Jensen Huang entschuldigt sich bei Belegschaft und spricht über seine Therapie",
+      "link": "https://www.spiegel.de/wirtschaft/nvidia-jensen-huang-entschuldigt-sich-bei-belegschaft-und-spricht-ueber-seine-therapie-a-b5286ad4-9ebb-4aa8-b004-d1825b9f262e#ref=rss",
+      "summary": "Einen Tag nach seiner Rückkehr an die Spitze von Nvidia wendet sich Jensen Huang an die Belegschaft: Er räumt »schreckliche Fehler« ein, verteidigt aber sein Comeback. Und erklärt Donald Trumps Rolle dabei.",
+      "image": "https://cdn.prod.www.spiegel.de/images/0046628e-c537-4cd4-92d6-e2578334ce46_w1200_r1.778_fpx43_fpy30.jpg",
+      "published": "2026-11-25T02:06:00+01:00",
+      "category": "Politik",
+      "score": 70.27
+    },
+    {
+      "id": "handelsblatt-a035abe17624d6bb",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Weltraum: Chinesische Raumfahrtmission startet mit Premiere",
+      "link": "https://www.handelsblatt.com/technik/forschung-innovation/weltraum-chinesische-raumfahrtmission-startet-mit-premiere/100272542.html",
+      "summary": "Erstmals schickt China mit einem Raumfahrer aus Pakistan einen Ausländer zu seiner Raumstation. Es ist nicht die einzige Neuerung bei der „Shenzhou 24“-Mission. Was erwartet die Männer im All?",
+      "image": "https://images.handelsblatt.com/iU9fZNG1JM4m/cover/900/506/0/0/107/106/0.5/0.5/start-der-shenzhou-24-mission.jpg",
+      "published": "2026-11-25T01:39:29+00:00",
+      "category": "Technologie",
+      "score": 54.53
+    },
+    {
+      "id": "spiegel-339df86c0063a29c",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "USA: Hacker sollen offenbar CIA-Geheimdienst angegriffen haben",
+      "link": "https://www.spiegel.de/ausland/usa-hacker-sollen-offenbar-cia-geheimdienst-angegriffen-haben-a-2f3378e4-e6a9-4b83-b4f6-c2ee97ab9cbf#ref=rss",
+      "summary": "In den USA scheint es den nächsten Hackerangriff auf staatliche Stellen gegeben zu haben. Ein Ziel: der Auslandsgeheimdienst CIA. Laut »New York Times« deuten erste Indizien auf eine Verbindung nach China.",
+      "image": "https://cdn.prod.www.spiegel.de/images/181672a2-254f-4a0b-8fea-85f8656d6355_w1200_r1.778_fpx76_fpy21.jpg",
+      "published": "2026-11-25T01:33:00+01:00",
+      "category": "Nachrichten",
+      "score": 54.6
+    },
+    {
+      "id": "handelsblatt-2f0de178a71c43ca",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Mittelstandspreis: Merz würdigt Heino als „echte deutsche Legende“",
+      "link": "https://www.handelsblatt.com/politik/deutschland/mittelstandspreis-merz-wuerdigt-heino-als-echte-deutsche-legende/100272524.html",
+      "summary": "Die Mittelstands- und Wirtschaftsunion feiert ihr 70-jähriges Bestehen – mit einem besonderen Stargast. Der hat einen hochrangigen Fan, der bei der Gala ins Schwärmen kommt.",
+      "image": "https://images.handelsblatt.com/8i5j6UThCgRU/cover/900/506/0/0/107/106/0.5/0.5/70-jahre-mittelstands-und-wirtschaftsunion.jpg",
+      "published": "2026-11-25T01:16:44+00:00",
+      "category": "Wirtschaft",
+      "score": 57.21
+    },
+    {
+      "id": "tagesschau-ebca2c4ada36a271",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "WHO: Lebenserwartung in Kuba erstmals seit Beginn der Aufzeichnungen gesunken",
+      "link": "https://www.tagesschau.de/ausland/amerika/kuba-lebenserwartungen-who-100.html",
+      "summary": "Die Lebenserwartung in Kuba ist laut der WHO erstmals in der Geschichte gesunken, die Säuglingssterblichkeit hat sich mehr als verdoppelt. WHO-Chef Tedros macht dafür auch US-Sanktionen verantwortlich - und fordert deren sofortiges Ende.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/c1a6120d-c092-49b2-ba1a-27686aeea3be/AAABog9uOx8/AAABnSSvrFg/16x9-big/kuba-havanna-110.jpg?width=1920",
+      "published": "2026-11-25T01:06:58+01:00",
+      "category": "Nachrichten",
+      "score": 66.59
+    },
+    {
+      "id": "spiegel-845802a4137f850c",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Champions League: Dortmund punktet beim FC Arsenal, Maximilian Beier trifft",
+      "link": "https://www.spiegel.de/sport/fussball/champions-league-dortmund-punktet-beim-fc-arsenal-maximilian-beier-trifft-a-e5d9487d-3b7e-4256-a911-c5e89b58c0cf#ref=rss",
+      "summary": "Wie zäh ist dieser BVB? Niko Kovačs Borussia gelingt beim Premier-League-Tabellenführer dank des vom DFB verschmähten Maxi Beier das Comeback. Auch Abwehr-Youngster Joane Gadou bringt seine Kollegen ins Schwärmen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/c09491a9-7062-4057-b6fc-43adeb9f8609_w1200_r1.778_fpx47_fpy41.jpg",
+      "published": "2026-11-24T23:43:00+01:00",
+      "category": "Nachrichten",
+      "score": 53.08
+    },
+    {
+      "id": "spiegel-06b316ec8a68212f",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Warum Heino für den Kanzler eigentlich ein Grüner ist",
+      "link": "https://www.spiegel.de/panorama/warum-heino-fuer-den-kanzler-eigentlich-ein-gruener-ist-a-84f3c67c-48c5-4a4c-bec3-64df374f4215#ref=rss",
+      "summary": "Mit fünf besuchte er das erste Konzert: Friedrich Merz hat sich als jahrzehntelanger Fan des Schlagersängers Heino geoutet. Bei einer Gala rückte der Kanzler den Sänger in die Nähe der Grünen und dankte ihm für den Mut, die Nationalhymne zu singen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/062e0ac4-3240-4064-80a6-dcb59d6a8a0f_w1200_r1.778_fpx54_fpy38.jpg",
+      "published": "2026-11-24T23:21:00+01:00",
+      "category": "Nachrichten",
+      "score": 52.77
     },
     {
       "id": "spiegel-1fa151a13b7f1cf6",
@@ -648,7 +1013,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/03e56d14-449d-4f28-8198-661bffb48221_w1200_r1.778_fpx68_fpy38.jpg",
       "published": "2026-11-24T23:06:00+01:00",
       "category": "Nachrichten",
-      "score": 65.8
+      "score": 60.56
     },
     {
       "id": "spiegel-2030b99dccf5e657",
@@ -660,19 +1025,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/46505e2d-70cf-492a-88f3-54d006805e18_w1200_r1.778_fpx57_fpy54.jpg",
       "published": "2026-11-24T23:04:00+01:00",
       "category": "Nachrichten",
-      "score": 65.77
-    },
-    {
-      "id": "handelsblatt-70537474e0a31408",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Jahrelanges Verfahren: US-Geschworene sprechen Huawei der Geldwäsche schuldig",
-      "link": "https://www.handelsblatt.com/technik/it-internet/jahrelanges-verfahren-us-geschworene-sprechen-huawei-der-geldwaesche-schuldig/100272536.html",
-      "summary": "Das Verfahren von US-Staatsanwälten gegen den chinesischen Huawei-Konzern lief schon seit 2018. Jetzt gibt es die Entscheidung eines Geschworenen-Gerichts.",
-      "image": "https://images.handelsblatt.com/olYCyL9UmWyb/cover/900/506/0/0/107/106/0.5/0.5/huawei-logo.jpg",
-      "published": "2026-11-24T22:46:40+00:00",
-      "category": "Wirtschaft",
-      "score": 60.36
+      "score": 60.53
     },
     {
       "id": "spiegel-4836ca75238f6c93",
@@ -684,7 +1037,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/b2f2cb69-12f4-4b5b-85d3-b67ee9f5773a_w1200_r1.778_fpx50_fpy41.jpg",
       "published": "2026-11-24T22:17:00+01:00",
       "category": "Politik",
-      "score": 76.96
+      "score": 76.59
     },
     {
       "id": "handelsblatt-973c6ea8af1dd1a1",
@@ -696,7 +1049,7 @@
       "image": "https://images.handelsblatt.com/wsui2ODG5qMK/cover/900/506/0/0/125/33/0.5/0.5/michael-dell.jpeg",
       "published": "2026-11-24T22:12:00+00:00",
       "category": "Wirtschaft",
-      "score": 59.88
+      "score": 54.65
     },
     {
       "id": "handelsblatt-38f3c5ed2269c8dc",
@@ -708,7 +1061,7 @@
       "image": "https://images.handelsblatt.com/EyJkFzta6UKX/cover/900/506/0/0/0/417/0.5/0.5/huawei.jpeg",
       "published": "2026-11-24T21:36:32+00:00",
       "category": "Wirtschaft",
-      "score": 65.77
+      "score": 60.53
     },
     {
       "id": "spiegel-213d79dd14f7d2b2",
@@ -720,7 +1073,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/2193299b-20a2-4cc8-af11-85cf88c70096_w1200_r1.778_fpx65.34_fpy49.99.jpg",
       "published": "2026-11-24T21:27:00+01:00",
       "category": "Nachrichten",
-      "score": 85.96
+      "score": 85.59
     },
     {
       "id": "tagesschau-553dd2e5c3585707",
@@ -732,7 +1085,22 @@
       "image": "https://images.tagesschau.de/image/7cf71a19-191c-4efd-9cb2-5b384644322a/AAABog5AniM/AAABnSSvrFg/16x9-big/huang-142.jpg?width=1920",
       "published": "2026-11-24T21:17:10+01:00",
       "category": "Politik",
-      "score": 76.29
+      "score": 90.99,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Gefährliche Bromance: Warum die Rückkehr von Nvidia-Chef Huang für Trump zum Problem werden könnte",
+            "link": "https://www.spiegel.de/ausland/gefaehrliche-bromance-warum-die-rueckkehr-von-nvidia-chef-huang-fuer-trump-zum-problem-werden-koennte-a-2668e5ab-9cf5-4605-9f80-cdf0838c0964#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Chipunternehmen: Was Nvidia, Huang und der Trump-Regierung jetzt vom US-Kongress droht",
+            "link": "https://www.handelsblatt.com/politik/international/chipunternehmen-was-nvidia-huang-und-der-trump-regierung-jetzt-vom-us-kongress-droht/100272477.html"
+          }
+        ]
+      }
     },
     {
       "id": "deutsche-welle-3787a52d0f323217",
@@ -744,7 +1112,7 @@
       "image": "https://static.dw.com/image/71856660_6.jpg",
       "published": "2026-11-24T20:59:00+00:00",
       "category": "Politik",
-      "score": 74.87
+      "score": 69.63
     },
     {
       "id": "deutsche-welle-c74bc546765d2942",
@@ -756,7 +1124,7 @@
       "image": "https://static.dw.com/image/74607802_6.jpg",
       "published": "2026-11-24T20:58:00+00:00",
       "category": "Nachrichten",
-      "score": 55.85
+      "score": 50.62
     },
     {
       "id": "handelsblatt-1270970353783096",
@@ -768,19 +1136,7 @@
       "image": "https://www.handelsblatt.com/images/opengraph_default_logo/8744082/2-formatOriginal.png",
       "published": "2026-11-24T20:47:32+00:00",
       "category": "Wirtschaft",
-      "score": 58.71
-    },
-    {
-      "id": "handelsblatt-af4206ec0e6d9e64",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Mittelstandspreis: Warum Heino vor dem Kanzler singt",
-      "link": "https://www.handelsblatt.com/politik/deutschland/mittelstandspreis-warum-heino-vor-dem-kanzler-singt/100272524.html",
-      "summary": "Die Mittelstands- und Wirtschaftsunion feiert ihr 70-jähriges Bestehen – mit einem ganz besonderen Stargast. Der hat einen ziemlich hochrangigen Verehrer.",
-      "image": "https://images.handelsblatt.com/tw2vdSzupMOt/cover/900/506/0/0/107/106/0.5/0.5/70-jahre-mittelstands-und-wirtschaftsunion.jpg",
-      "published": "2026-11-24T20:32:45+00:00",
-      "category": "Wirtschaft",
-      "score": 66.01
+      "score": 53.47
     },
     {
       "id": "spiegel-3effc06dbd1ab365",
@@ -792,19 +1148,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/5ec09b83-0001-0004-0000-000000259107_w1200_r1.778_fpx30_fpy45.jpg",
       "published": "2026-11-24T20:26:00+01:00",
       "category": "Technologie",
-      "score": 55.57
-    },
-    {
-      "id": "spiegel-c688a02a0f2b56d9",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "»Wie ich so glücklich wurde«: So beschreibt Nele Pollatschek ihren Weg zum Glück",
-      "link": "https://www.spiegel.de/kultur/literatur/wie-ich-so-gluecklich-wurde-so-beschreibt-nele-pollatschek-ihren-weg-zum-glueck-a-18c5c4a0-fd4c-439a-897e-a541efd3298e#ref=rss",
-      "summary": "Die Autorin Nele Pollatschek erzählt in ihrem Buch »Wie ich so glücklich wurde« von den Vorzügen eines positiven Blicks auf die Welt. Hilft der einem wirklich?",
-      "image": "https://cdn.prod.www.spiegel.de/images/8fbe58ce-cd7e-4b0d-8b83-1280e1990b79_w1200_r1.778_fpx52_fpy44.jpg",
-      "published": "2026-11-24T20:21:00+01:00",
-      "category": "Nachrichten",
-      "score": 55.51
+      "score": 50.34
     },
     {
       "id": "spiegel-a50c04b366e5caa2",
@@ -816,7 +1160,19 @@
       "image": "https://cdn.prod.www.spiegel.de/images/529a01a8-0ea0-459b-8829-685b4f09fece_w1200_r1.778_fpx51_fpy41.jpg",
       "published": "2026-11-24T20:21:00+01:00",
       "category": "Nachrichten",
-      "score": 55.51
+      "score": 50.27
+    },
+    {
+      "id": "spiegel-c688a02a0f2b56d9",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "»Wie ich so glücklich wurde«: So beschreibt Nele Pollatschek ihren Weg zum Glück",
+      "link": "https://www.spiegel.de/kultur/literatur/wie-ich-so-gluecklich-wurde-so-beschreibt-nele-pollatschek-ihren-weg-zum-glueck-a-18c5c4a0-fd4c-439a-897e-a541efd3298e#ref=rss",
+      "summary": "Die Autorin Nele Pollatschek erzählt in ihrem Buch »Wie ich so glücklich wurde« von den Vorzügen eines positiven Blicks auf die Welt. Hilft der einem wirklich?",
+      "image": "https://cdn.prod.www.spiegel.de/images/8fbe58ce-cd7e-4b0d-8b83-1280e1990b79_w1200_r1.778_fpx52_fpy44.jpg",
+      "published": "2026-11-24T20:21:00+01:00",
+      "category": "Nachrichten",
+      "score": 50.27
     },
     {
       "id": "spiegel-6bd127112791c90b",
@@ -828,7 +1184,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/8f3b2abb-fe3f-4b79-8121-3402f4286491_w1200_r1.778_fpx58_fpy39.jpg",
       "published": "2026-11-24T20:19:00+01:00",
       "category": "Nachrichten",
-      "score": 85.96
+      "score": 85.59
     },
     {
       "id": "spiegel-35cb13007aaa3e7e",
@@ -840,7 +1196,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/7ed45601-242f-4c0a-b71e-36f61f954ed6_w1200_r1.778_fpx36_fpy35.jpg",
       "published": "2026-11-24T20:17:00+01:00",
       "category": "Panorama",
-      "score": 55.45
+      "score": 50.21
     },
     {
       "id": "spiegel-bc8498481cdbcdc4",
@@ -852,7 +1208,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/48625d52-f9ab-4fa7-8fee-183f0cb99312_w1200_r1.778_fpx56.16_fpy50.jpg",
       "published": "2026-11-24T20:17:00+01:00",
       "category": "Politik",
-      "score": 66.45
+      "score": 61.21
     },
     {
       "id": "tagesschau-2d708a6beba3850a",
@@ -864,7 +1220,7 @@
       "image": "https://images.tagesschau.de/image/33e302ac-7300-474b-9e0e-03555f6e826f/AAABn7fT7sg/AAABnSSvrFg/16x9-big/smart-glasses-meta-100.jpg?width=1920",
       "published": "2026-11-24T20:06:34+01:00",
       "category": "Technologie",
-      "score": 64.31
+      "score": 59.07
     },
     {
       "id": "handelsblatt-73dda7d2675b33b6",
@@ -876,7 +1232,7 @@
       "image": "https://images.handelsblatt.com/kQEYAXvFFR0C/cover/900/506/0/0/0/0/0.5/0.5/hackernagriff.jpg",
       "published": "2026-11-24T19:51:30+00:00",
       "category": "Technologie",
-      "score": 54.93
+      "score": 49.69
     },
     {
       "id": "tagesschau-bd33fe43dc421d9a",
@@ -888,14 +1244,14 @@
       "image": "https://images.tagesschau.de/image/1c451789-1eed-4126-9883-2749033be163/AAABog5ru3c/AAABnSSvrFg/16x9-big/emde-104.jpg?width=1920",
       "published": "2026-11-24T19:47:32+01:00",
       "category": "Politik",
-      "score": 85.96,
+      "score": 85.59,
       "coverage": {
         "sourceCount": 4,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "\"Vertrauensverlust\" - Vanessa Emde aus Berliner Linke-Fraktion ausgeschlossen",
-            "link": "https://www.deutschlandfunk.de/vanessa-emde-aus-berliner-linke-fraktion-ausgeschlossen-102.html"
+            "link": "https://www.deutschlandfunk.de/vanessa-emde-aus-berliner-linke-fraktion-ausgeschlossen-106.html"
           },
           {
             "source": "spiegel",
@@ -904,8 +1260,8 @@
           },
           {
             "source": "handelsblatt",
-            "title": "Regierungsbildung in Berlin: Abgeordnete Emde fliegt aus Berliner Linke-Fraktion",
-            "link": "https://www.handelsblatt.com/politik/deutschland/regierungsbildung-in-berlin-abgeordnete-emde-fliegt-aus-berliner-linke-fraktion/100272230.html"
+            "title": "Regierungsbildung: Wie es in Berlin nach Emdes Ausschluss weitergeht",
+            "link": "https://www.handelsblatt.com/politik/deutschland/regierungsbildung-wie-es-in-berlin-nach-emdes-ausschluss-weitergeht/100272561.html"
           }
         ]
       }
@@ -920,7 +1276,7 @@
       "image": "https://images.handelsblatt.com/jdDN4djpwofv/cover/900/506/0/0/0/307/0.5/0.5/archiv-23.10.2026-china-xiongan-alt-bundeskanzler-gerhard-schroeder-spd-nimmt-an-der-eroeffnun.jpg",
       "published": "2026-11-24T19:45:19+00:00",
       "category": "Wirtschaft",
-      "score": 57.84
+      "score": 52.61
     },
     {
       "id": "tagesschau-9e84fb54b34b1e19",
@@ -932,7 +1288,7 @@
       "image": "https://images.tagesschau.de/image/56f86d3d-a3f4-4d8b-828f-1163ea26a2ff/AAABog612II/AAABnSSvrFg/16x9-big/bayern-memmingen-schule-100.jpg?width=1920",
       "published": "2026-11-24T19:39:01+01:00",
       "category": "Panorama",
-      "score": 55.92
+      "score": 50.69
     },
     {
       "id": "golem-aae607f94ca336c2",
@@ -944,19 +1300,19 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215614&amp;page=1&amp;ts=1795545481",
       "published": "2026-11-24T19:38:01+01:00",
       "category": "Technologie",
-      "score": 52.91
+      "score": 47.67
     },
     {
       "id": "handelsblatt-b7533b7046e0b9ea",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Nvidia-Chef: Huang entschuldigt sich bei Mitarbeitern für Fehlverhalten",
+      "title": "Nvidia-Chef: Huang entschuldigt sich bei Mitarbeitern für Fehlverhalten und lehnt Nachfolgeregelung ab",
       "link": "https://www.handelsblatt.com/technik/ki/nvidia-chef-huang-entschuldigt-sich-bei-mitarbeitern-fuer-fehlverhalten/100272520.html",
-      "summary": "Bei einer Betriebsversammlung erklärt sich der Nvidia-CEO vor seiner Belegschaft. Das schwierigere Gespräch habe er aber mit seiner Ehefrau führen müssen.",
-      "image": "https://images.handelsblatt.com/14mr25zBcXzA/cover/900/506/0/0/209/208/0.5/0.5/gyeongju-south-korea-october-31-jensen-huang-president-and-ceo-of-nvidia-looks-on-during-a-pre.jpg",
+      "summary": "Bei einer Betriebsversammlung räumt der Nvidia-CEO Fehler ein. Das schwierigere Gespräch habe er aber mit seiner Ehefrau führen müssen. Huang berichtet zudem von täglichen Therapiesitzungen.",
+      "image": "https://images.handelsblatt.com/WMPrZYpn-ugM/cover/900/506/0/0/183/139/0.5/0.5/jensen-huang.jpg",
       "published": "2026-11-24T19:37:55+00:00",
       "category": "Wirtschaft",
-      "score": 58.71
+      "score": 70.27
     },
     {
       "id": "spiegel-46d7d5d5a9a8dac7",
@@ -968,7 +1324,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/5d6193cd-b991-43eb-8cea-d241852f106d_w1200_r1.778_fpx41_fpy44.jpg",
       "published": "2026-11-24T19:28:00+01:00",
       "category": "Nachrichten",
-      "score": 54.77
+      "score": 49.53
     },
     {
       "id": "handelsblatt-8535058b26835c18",
@@ -980,7 +1336,7 @@
       "image": "https://images.handelsblatt.com/P-73zvwpCO2y/cover/900/506/0/0/75/75/0.5/0.5/wall-street.jpeg",
       "published": "2026-11-24T19:11:00+00:00",
       "category": "Wirtschaft",
-      "score": 57.37
+      "score": 52.13
     },
     {
       "id": "golem-f760241a4b4ad600",
@@ -992,7 +1348,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215612&amp;page=1&amp;ts=1795543142",
       "published": "2026-11-24T18:59:02+01:00",
       "category": "Wirtschaft",
-      "score": 55.37
+      "score": 50.13
     },
     {
       "id": "deutsche-welle-dabc4cd4afdb59ca",
@@ -1004,7 +1360,7 @@
       "image": "https://static.dw.com/image/79677785_6.jpg",
       "published": "2026-11-24T18:55:00+00:00",
       "category": "Politik",
-      "score": 57.14
+      "score": 51.91
     },
     {
       "id": "handelsblatt-25504c46423d3923",
@@ -1016,7 +1372,7 @@
       "image": "https://images.handelsblatt.com/tqobzTuic7Tx/cover/900/506/0/0/107/107/0.5/0.5/microsoft-ai-tour-koeln.jpg",
       "published": "2026-11-24T18:51:53+00:00",
       "category": "Technologie",
-      "score": 54.1
+      "score": 48.87
     },
     {
       "id": "golem-58658a1a8600620e",
@@ -1028,7 +1384,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215611&amp;page=1&amp;ts=1795542541",
       "published": "2026-11-24T18:49:01+01:00",
       "category": "Technologie",
-      "score": 52.23
+      "score": 46.99
     },
     {
       "id": "golem-168859db24b72683",
@@ -1040,7 +1396,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215609&amp;page=1&amp;ts=1795542302",
       "published": "2026-11-24T18:45:02+01:00",
       "category": "Wirtschaft",
-      "score": 55.17
+      "score": 49.94
     },
     {
       "id": "golem-161333a4dc6041d1",
@@ -1052,7 +1408,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215607&amp;page=1&amp;ts=1795542002",
       "published": "2026-11-24T18:40:02+01:00",
       "category": "Technologie",
-      "score": 52.1
+      "score": 46.87
     },
     {
       "id": "spiegel-26a093b8e102f141",
@@ -1064,7 +1420,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/dd9e38a5-aded-484d-b13c-1aa0629ed116_w1200_r1.778_fpx40.65_fpy50.97.jpg",
       "published": "2026-11-24T18:37:00+01:00",
       "category": "Nachrichten",
-      "score": 62.06
+      "score": 56.83
     },
     {
       "id": "tagesschau-b05816d3ec642774",
@@ -1076,7 +1432,7 @@
       "image": "https://images.tagesschau.de/image/bcd1dd76-8c76-434d-9215-1c99b51547d0/AAABocSFfZw/AAABnSSvrFg/16x9-big/boerse-558.jpg?width=1920",
       "published": "2026-11-24T18:36:29+01:00",
       "category": "Wirtschaft",
-      "score": 58.05
+      "score": 52.82
     },
     {
       "id": "spiegel-cb19dc111def6ce5",
@@ -1088,7 +1444,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/5cde16ed-c7d5-4ae9-8a50-44c406b936db_w1200_r1.778_fpx50_fpy41.jpg",
       "published": "2026-11-24T18:36:00+01:00",
       "category": "Nachrichten",
-      "score": 85.96
+      "score": 85.59
     },
     {
       "id": "handelsblatt-c22c13d8b9d0154e",
@@ -1100,7 +1456,7 @@
       "image": "https://images.handelsblatt.com/LMs1k3XH7lGq/cover/900/506/120/0/68/202/0.5/0.5/butterpreise.jpg",
       "published": "2026-11-24T18:31:42+00:00",
       "category": "Wirtschaft",
-      "score": 56.82
+      "score": 51.59
     },
     {
       "id": "tagesschau-e06a99184499f150",
@@ -1112,7 +1468,7 @@
       "image": "https://images.tagesschau.de/image/f3d6bb04-b443-4900-86d6-96b1b22fe2bb/AAABog5uk0k/AAABnSSvrFg/16x9-big/steinmeier-1510.jpg?width=1920",
       "published": "2026-11-24T18:21:31+01:00",
       "category": "Wirtschaft",
-      "score": 57.85
+      "score": 52.61
     },
     {
       "id": "handelsblatt-25042f795f1b4df4",
@@ -1124,7 +1480,7 @@
       "image": "https://images.handelsblatt.com/6VSG5HTTdjId/cover/900/506/0/0/107/106/0.5/0.5/weitere-entwicklung-bei-der-berliner-linken.jpg",
       "published": "2026-11-24T18:16:19+00:00",
       "category": "Politik",
-      "score": 85.96
+      "score": 85.59
     },
     {
       "id": "spiegel-d269fd4a484c6d11",
@@ -1136,7 +1492,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/43f5499f-90d1-4872-898f-82d45d48ea5c_w1200_r1.778_fpx50.76_fpy44.99.jpg",
       "published": "2026-11-24T18:15:00+01:00",
       "category": "Panorama",
-      "score": 53.76
+      "score": 48.52
     },
     {
       "id": "heise-80c602f228c57d4f",
@@ -1148,19 +1504,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/7/5/3/1/hp-6155e24f6ee3ec81.jpeg",
       "published": "2026-11-24T18:14:00+01:00",
       "category": "Wirtschaft",
-      "score": 55.74
-    },
-    {
-      "id": "spiegel-fbe6548a552bc1e4",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Manuel Neuer soll Partnerin verlassen haben: Paarberaterin Ruth Marquardt über ihr virales Video",
-      "link": "https://www.spiegel.de/partnerschaft/manuel-neuer-soll-partnerin-verlassen-haben-paarberaterin-ruth-marquardt-ueber-ihr-virales-video-a-e9912a58-40f2-4b6e-99ad-6860f367b92f#ref=rss",
-      "summary": "Manuel Neuer soll sich von seiner Partnerin getrennt haben – und die Paarberaterin Ruth Marquardt geht mit einem emotionalen Video viral. Hier sagt sie, warum der Fall so viele Menschen berührt.",
-      "image": "https://cdn.prod.www.spiegel.de/images/94a303f7-2e00-4c4b-8639-ac57a4f763b0_w1200_r1.778_fpx54_fpy51.jpg",
-      "published": "2026-11-24T18:11:00+01:00",
-      "category": "Nachrichten",
-      "score": 53.7
+      "score": 50.51
     },
     {
       "id": "deutsche-welle-b9be9b9f4cba7e77",
@@ -1172,7 +1516,7 @@
       "image": "https://static.dw.com/image/76665723_6.jpg",
       "published": "2026-11-24T18:02:00+00:00",
       "category": "Nachrichten",
-      "score": 53.41
+      "score": 48.17
     },
     {
       "id": "golem-bf2c20f37d0eb652",
@@ -1184,7 +1528,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215608&amp;page=1&amp;ts=1795539662",
       "published": "2026-11-24T18:01:02+01:00",
       "category": "Technologie",
-      "score": 51.56
+      "score": 46.33
     },
     {
       "id": "golem-965c8ae36c2f592d",
@@ -1196,7 +1540,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215596&amp;page=1&amp;ts=1795539602",
       "published": "2026-11-24T18:00:02+01:00",
       "category": "Technologie",
-      "score": 51.55
+      "score": 46.31
     },
     {
       "id": "golem-0880fc4ed8077ac8",
@@ -1208,19 +1552,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215603&amp;page=1&amp;ts=1795539302",
       "published": "2026-11-24T17:55:02+01:00",
       "category": "Technologie",
-      "score": 51.48
-    },
-    {
-      "id": "spiegel-b93b6320778d4e5a",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Felix Nmecha: Expertin kritisiert fehlende Distanz zu »Ballers in God«",
-      "link": "https://www.spiegel.de/sport/felix-nmecha-expertin-kritisiert-fehlende-distanz-zu-ballers-in-god-a-ee54d84c-a1b8-4c63-a2ca-cfc594864174#ref=rss",
-      "summary": "Der BVB ist Tabellenführer, aber der umstrittene Torjubel von Felix Nmecha sorgt weiterhin für Streit. Mirijam Wiedemann ist Expertin für Sektenstrukturen und erklärt, was Nmechas Geste so problematisch macht.",
-      "image": "https://cdn.prod.www.spiegel.de/images/2d93908a-afac-48d4-a753-fbe017ec150f_w1200_r1.778_fpx43.99_fpy50.jpg",
-      "published": "2026-11-24T17:53:00+01:00",
-      "category": "Nachrichten",
-      "score": 53.45
+      "score": 46.24
     },
     {
       "id": "tagesschau-088e6dc4a81f2700",
@@ -1232,7 +1564,7 @@
       "image": "https://images.tagesschau.de/image/73314e16-6ecc-470b-8763-d4ed0faaad5a/AAABog5STI0/AAABnSSvrFg/16x9-big/mercury-104.jpg?width=1920",
       "published": "2026-11-24T17:52:38+01:00",
       "category": "Nachrichten",
-      "score": 54.44
+      "score": 49.21
     },
     {
       "id": "handelsblatt-4cc7b99efeeed865",
@@ -1244,43 +1576,7 @@
       "image": "https://images.handelsblatt.com/LMs1k3XH7lGq/cover/900/506/0/0/102/101/0.5/0.5/butterpreise.jpg",
       "published": "2026-11-24T17:51:22+00:00",
       "category": "Wirtschaft",
-      "score": 56.26
-    },
-    {
-      "id": "spiegel-086d6d0093b55c7a",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Schwerte: Acht Verletzte nach Angriff auf Grünen-Büro mit Pfefferspray",
-      "link": "https://www.spiegel.de/panorama/justiz/schwerte-acht-verletzte-nach-angriff-auf-gruenen-buero-mit-pfefferspray-a-f2dc573c-07c7-42b8-a5bb-75de5e000e7e#ref=rss",
-      "summary": "Pfefferspray, ein Feuerlöscher, acht Verletzte: Der Angriff auf das Grünen-Büro in Schwerte wirft Fragen auf. Eine davon: Wie offen kann Lokalpolitik sein, wenn jeder von der Straße hereinkommen kann?",
-      "image": "https://cdn.prod.www.spiegel.de/images/814a12f3-8dd1-48ac-b637-dc906059ef2a_w1200_r1.778_fpx30.02_fpy54.98.jpg",
-      "published": "2026-11-24T17:45:00+01:00",
-      "category": "Nachrichten",
-      "score": 71.64
-    },
-    {
-      "id": "spiegel-e405fbd4ce51be37",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Slowakei: Parlament schafft Recht auf Briefwahl ab",
-      "link": "https://www.spiegel.de/ausland/slowakei-parlament-schafft-recht-auf-briefwahl-ab-a-2aebe440-b023-46b9-8e19-e004ccbb2768#ref=rss",
-      "summary": "In der Slowakei soll zukünftig nicht mehr per Briefwahl gewählt werden. Das hat das Parlament auf Regierungsinitiative beschlossen. Von der Opposition hagelt es bereits Kritik.",
-      "image": "https://cdn.prod.www.spiegel.de/images/53484f50-d30b-473b-aadd-7d2bc9493d89_w1200_r1.778_fpx60_fpy43.jpg",
-      "published": "2026-11-24T17:45:00+01:00",
-      "category": "Politik",
-      "score": 64.34
-    },
-    {
-      "id": "spiegel-cffed0024caeaf2f",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Anthropic-Aktie fällt unter Ausgabepreis – auch Nvidia im Minus",
-      "link": "https://www.spiegel.de/wirtschaft/anthropic-aktie-faellt-unter-ausgabepreis-auch-nvidia-im-minus-a-3844359f-63bb-476d-b8b3-8746cecfdaf9#ref=rss",
-      "summary": "Die Aktienkurse zweier großer KI-Unternehmen sinken. Manche Marktbeobachter sehen darin Gewinnmitnahmen nach dem Hoch zum Wochenstart. Nvidia hatte zwischenzeitlich von der überraschenden Rückkehr Jensen Huangs profitiert.",
-      "image": "https://cdn.prod.www.spiegel.de/images/643f50f9-e7c9-4c5f-857d-f71acffd6f47_w1200_r1.778_fpx61.29_fpy49.98.jpg",
-      "published": "2026-11-24T17:45:00+01:00",
-      "category": "Wirtschaft",
-      "score": 56.34
+      "score": 51.03
     },
     {
       "id": "handelsblatt-d9e97051fa7bbdc8",
@@ -1292,17 +1588,7 @@
       "image": "https://images.handelsblatt.com/TSEFeDR-PH8F/cover/900/506/0/0/0/0/0.5/0.5/jensen-huang-die-ueberraschende-rueckkehr-des-nvidia-gruenders-an-die-unternehmensspitze-hatte-am-montag-eine-tech-rally-ausgeloest..jpg",
       "published": "2026-11-24T17:38:18+00:00",
       "category": "Wirtschaft",
-      "score": 64.08,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "heise",
-            "title": "Nvidia setzt Jensen Huang wieder als CEO ein",
-            "link": "https://www.heise.de/news/Nvidia-setzt-Jensen-Huang-wieder-als-CEO-ein-11534936.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag"
-          }
-        ]
-      }
+      "score": 58.84
     },
     {
       "id": "golem-994f7681673c9dac",
@@ -1314,31 +1600,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215605&amp;page=1&amp;ts=1795538281",
       "published": "2026-11-24T17:38:01+01:00",
       "category": "Technologie",
-      "score": 52.23
-    },
-    {
-      "id": "spiegel-e4f2f00a1e8358d8",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Vanessa Emde: Berliner Linke schließt umstrittene Politikerin aus Fraktion aus",
-      "link": "https://www.spiegel.de/politik/deutschland/vanessa-emde-berliner-linke-schliesst-umstrittene-politikerin-aus-fraktion-aus-a-d376bd08-93e1-46d3-86ec-a3f81025d59f#ref=rss",
-      "summary": "Wochenlange Debatten über die Israelgegnerin Vanessa Emde haben die Regierungsbildung in Berlin belastet. Nun hat die Linkenfraktion sie in geheimer Abstimmung ausgeschlossen. Emde spricht von einer »medialen Hetzkampagne«.",
-      "image": "https://cdn.prod.www.spiegel.de/images/80d164bc-7a60-418a-bc62-ecabb170e2a3_w1200_r1.778_fpx38_fpy37.jpg",
-      "published": "2026-11-24T17:38:00+01:00",
-      "category": "Politik",
-      "score": 85.96
-    },
-    {
-      "id": "spiegel-4b85ab6e597a0fac",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "News des Tages: Volkswagen, SPIEGEL-Umfrage, teurer Christstollen",
-      "link": "https://www.spiegel.de/politik/deutschland/news-des-tages-volkswagen-spiegel-umfrage-teurer-christstollen-a-8102ca83-070f-41f7-8fa2-157092ca8452#ref=rss",
-      "summary": "In der Autoindustrie wackelt die 35-Stunden-Woche. Viele Deutsche stehen der militärischen Unterstützung der Ukraine skeptisch gegenüber. Und Sachsens Staatskanzlei lässt einen Christstollen per Dienstwagen zum Papst chauffieren. Das ist die Lage am Dienstagabend.",
-      "image": "https://cdn.prod.www.spiegel.de/images/0fb372c3-843d-4dc6-a445-e7c34c92f75c_w1200_r1.778_fpx28.09_fpy49.93.png",
-      "published": "2026-11-24T17:36:00+01:00",
-      "category": "Politik",
-      "score": 64.21
+      "score": 46.99
     },
     {
       "id": "golem-44ece779f991e14d",
@@ -1350,19 +1612,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215602&amp;page=1&amp;ts=1795538101",
       "published": "2026-11-24T17:35:01+01:00",
       "category": "Technologie",
-      "score": 51.2
-    },
-    {
-      "id": "spiegel-319350d293b05eec",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Bundeswehr setzt im Fall von russischen Atomsprengköpfen im All auf elektronische Abwehr",
-      "link": "https://www.spiegel.de/politik/deutschland/bundeswehr-setzt-im-fall-von-russischen-atomsprengkoepfen-im-all-auf-elektronische-abwehr-a-24a268ff-aeaa-444c-9c49-df83f2d2408c#ref=rss",
-      "summary": "Westliche Geheimdienste gehen wohl davon aus, dass Russland zeitnah einen Atomsprengkopf ins All bringen könnte. Die deutschen Streitkräfte würden in diesem Fall die Mittel »Stören, Blenden und Hacken« setzen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/177c1a4e-fa92-4bbf-8bed-2484656c3578_w1200_r1.778_fpx49_fpy65.jpg",
-      "published": "2026-11-24T17:32:00+01:00",
-      "category": "Nachrichten",
-      "score": 65.96
+      "score": 45.97
     },
     {
       "id": "handelsblatt-77e3b58a13496144",
@@ -1374,7 +1624,7 @@
       "image": "https://images.handelsblatt.com/bsAvgRuMCBLA/cover/900/506/0/0/313/312/0.5/0.5/archiv-15.10.2025-usa-gloucester-city-ein-kranfuehrer-verlaedt-im-gloucester-marine-terminal-in-g.jpg",
       "published": "2026-11-24T17:28:11+00:00",
       "category": "Politik",
-      "score": 55.94
+      "score": 77.6
     },
     {
       "id": "handelsblatt-a521caa26265fd57",
@@ -1386,7 +1636,7 @@
       "image": "https://images.handelsblatt.com/jYLXN2SwGTPH/cover/900/506/0/0/0/0/0.5/0.5/bundeswehr.jpg",
       "published": "2026-11-24T17:25:25+00:00",
       "category": "Wirtschaft",
-      "score": 55.9
+      "score": 50.67
     },
     {
       "id": "tagesschau-b8535657fc666da8",
@@ -1398,7 +1648,7 @@
       "image": "https://images.tagesschau.de/image/72d57f34-97e2-4fd3-9256-2378471d672d/AAABog48GdE/AAABnSSvrFg/16x9-big/polen-belarus-grenze-126.jpg?width=1920",
       "published": "2026-11-24T17:24:25+01:00",
       "category": "Nachrichten",
-      "score": 54.05
+      "score": 48.82
     },
     {
       "id": "heise-61536c7c48d3f5e6",
@@ -1410,7 +1660,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/7/3/3/1/52474456676_ae0da1c077_o-c725c98b7f88b078.jpeg",
       "published": "2026-11-24T17:23:00+01:00",
       "category": "Technologie",
-      "score": 52.03
+      "score": 46.8
     },
     {
       "id": "handelsblatt-c0244599a8b5d191",
@@ -1422,7 +1672,7 @@
       "image": "https://images.handelsblatt.com/GaNwjyXfxmNm/cover/900/506/0/0/0/0/0.5/0.5/marktkolumne-24.11.26.jpg",
       "published": "2026-11-24T17:22:37+00:00",
       "category": "Technologie",
-      "score": 60.86
+      "score": 55.63
     },
     {
       "id": "golem-3e4d157167f8f088",
@@ -1434,19 +1684,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215601&amp;page=1&amp;ts=1795537202",
       "published": "2026-11-24T17:20:02+01:00",
       "category": "Technologie",
-      "score": 50.99
-    },
-    {
-      "id": "spiegel-92a0da2551934564",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Rees: Kinder finden wohl menschlichen Schädel auf Kita-Gelände",
-      "link": "https://www.spiegel.de/panorama/justiz/rees-kinder-finden-wohl-menschlichen-schaedel-auf-kita-gelaende-a-1994af88-7aa6-4b3a-841e-7dca09813ac9#ref=rss",
-      "summary": "Unbekannte sollen einen Schädel auf ein Kitagelände geworfen haben. Kinder hielten das offenbar zunächst für einen gruseligen Scherz. Doch nun schaltet sich die Gerichtsmedizin ein.",
-      "image": "https://cdn.prod.www.spiegel.de/images/098076ad-5c92-4b52-be9f-9b23a2b52448_w1200_r1.778_fpx61.33_fpy50.jpg",
-      "published": "2026-11-24T17:06:00+01:00",
-      "category": "Technologie",
-      "score": 52.8
+      "score": 45.76
     },
     {
       "id": "golem-af377e5480c197a3",
@@ -1458,31 +1696,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215599&amp;page=1&amp;ts=1795536301",
       "published": "2026-11-24T17:05:01+01:00",
       "category": "Technologie",
-      "score": 50.78
-    },
-    {
-      "id": "spiegel-36fdbb1a6d529318",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "MI5 und das britische Verteidigungsministerium: London warnt Militärzulieferer vor verstärkter Sabotage durch Russland",
-      "link": "https://www.spiegel.de/ausland/mi5-und-das-britische-verteidigungsministerium-london-warnt-militaerzulieferer-vor-verstaerkter-sabotage-durch-russland-a-a84c3b37-832c-456f-bcc6-65bcb25f8d35#ref=rss",
-      "summary": "Immer wieder kommt es zu Sabotageversuchen, die Russland zugeschrieben werden. Das britische Verteidigungsministerium und der MI5 warnen nun explizit alle Unternehmen, die die ukrainische Armee unterstützen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/5ba7643a-34f9-4ced-bf0a-a8ea0acab9cc_w1200_r1.778_fpx40_fpy36.jpg",
-      "published": "2026-11-24T17:04:00+01:00",
-      "category": "Politik",
-      "score": 55.77
-    },
-    {
-      "id": "spiegel-a5f465139d6d41ed",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Olaf Scholz im Live-Gespräch: Was ist Deutschlands Rolle in der neuen Krisen-Welt?",
-      "link": "https://www.spiegel.de/ausland/olaf-scholz-im-live-gespraech-was-ist-deutschlands-rolle-in-der-neuen-krisen-welt-a-23fff1d7-5031-46f9-ba49-76c326692419#ref=rss",
-      "summary": "Krieg in der Ukraine und Donald Trump im Weißen Haus: Was heißt das für unsere Außenpolitik? Darüber spricht SPIEGEL-Korrespondentin Britta Sandberg mit SPD-Altkanzler Olaf Scholz auf dem Foreign Policy Forum der Körber-Stiftung.",
-      "image": "https://cdn.prod.www.spiegel.de/images/a19f7b33-b5f2-487e-a200-591f5422fc0e_w1200_r1.778_fpx47_fpy80.jpg",
-      "published": "2026-11-24T17:02:00+01:00",
-      "category": "Politik",
-      "score": 87.74
+      "score": 45.55
     },
     {
       "id": "handelsblatt-43a1b19baad7341d",
@@ -1494,7 +1708,7 @@
       "image": "https://images.handelsblatt.com/crbkyq5mujYk/cover/900/506/0/0/313/312/0.5/0.5/a-person-stands-before-a-massive-digital-display-showing-glowing-blue-financial-bar-charts-and-data.jpg",
       "published": "2026-11-24T17:01:01+00:00",
       "category": "Wirtschaft",
-      "score": 55.56
+      "score": 50.33
     },
     {
       "id": "handelsblatt-fb3bbd37066c7658",
@@ -1506,7 +1720,7 @@
       "image": "https://images.handelsblatt.com/YCxyQP3sWZNb/cover/900/506/0/0/0/0/0.5/0.5/altersvorsorge-depot-nachgerechnet.jpg",
       "published": "2026-11-24T16:59:56+00:00",
       "category": "Wirtschaft",
-      "score": 55.55
+      "score": 50.31
     },
     {
       "id": "handelsblatt-628713dd7879fd74",
@@ -1518,43 +1732,7 @@
       "image": "https://images.handelsblatt.com/PLm41tpR1NgO/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
       "published": "2026-11-24T16:57:40+00:00",
       "category": "Wirtschaft",
-      "score": 55.51
-    },
-    {
-      "id": "spiegel-a331831d097bd6d5",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Gazastreifen: Israels Armee meldet Tötung des Hamas-Sicherheitschefs nach Luftangriff",
-      "link": "https://www.spiegel.de/ausland/gazastreifen-israels-armee-meldet-toetung-des-hamas-sicherheitschefs-nach-luftangriff-a-c22627ce-c517-4c35-8785-ad95dfd736b2#ref=rss",
-      "summary": "Trotz Waffenruhe greift Israels Militär weiter im Gazastreifen an. Diesmal traf es den Chef des internen Sicherheitsapparats der Hamas. Bei anderen Angriffen sollen weitere Menschen getötet worden sein.",
-      "image": "https://cdn.prod.www.spiegel.de/images/b65bce83-e7b8-4417-8477-26efbae4e7c2_w1200_r1.778_fpx46_fpy44.jpg",
-      "published": "2026-11-24T16:57:00+01:00",
-      "category": "Politik",
-      "score": 89.64
-    },
-    {
-      "id": "spiegel-d986d36ee4b3ebe6",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Gisèle Pelicot: Verlag wirbt mit Nacktbildern für antifeministischen Essay",
-      "link": "https://www.spiegel.de/kultur/literatur/gisele-pelicot-verlag-wirbt-mit-nacktbildern-fuer-antifeministischen-essay-a-dc4574ba-f478-497f-a12d-dd1dcc388746#ref=rss",
-      "summary": "Alles nicht so einfach mit den Tätern und Opfern, behauptet eine französische Psychoanalytikerin in einem Buch. Der Verlag garniert die PR-Kampagne mit intimen Fotos Gisèle Pelicots. Die Rechtfertigung ist mehr als fadenscheinig.",
-      "image": "https://cdn.prod.www.spiegel.de/images/d5e75743-f152-4369-9b09-f885b677f58b_w1200_r1.778_fpx50_fpy44.jpg",
-      "published": "2026-11-24T16:57:00+01:00",
-      "category": "Nachrichten",
-      "score": 52.67
-    },
-    {
-      "id": "spiegel-a1febf2d195e7403",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "»Am Limit« im ZDF: Eine Skiserie wie aus der PR-Abteilung",
-      "link": "https://www.spiegel.de/sport/wintersport/am-limit-im-zdf-eine-skiserie-wie-aus-der-pr-abteilung-a-7987efca-7130-473b-9d33-ddc5a0b88a81#ref=rss",
-      "summary": "Eine ZDF-Dokuserie über den alpinen Skirennsport bietet viel Nähe, spart aber heikle Themen aus. Kein Wunder: Produziert hat sie der Skiweltverband Fis. Einer der Macher: der umstrittene Ex-Präsident Johan Eliasch.",
-      "image": "https://cdn.prod.www.spiegel.de/images/337d9b51-c6b5-46ff-a632-deaf232233e1_w1200_r1.778_fpx63.96_fpy49.98.jpg",
-      "published": "2026-11-24T16:54:00+01:00",
-      "category": "Technologie",
-      "score": 52.63
+      "score": 50.28
     },
     {
       "id": "golem-29c805d77d5b4ce5",
@@ -1566,31 +1744,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215598&amp;page=1&amp;ts=1795535402",
       "published": "2026-11-24T16:50:02+01:00",
       "category": "Technologie",
-      "score": 50.58
-    },
-    {
-      "id": "handelsblatt-09cd3860dfbab312",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "China: Korruptionsverdacht – Xi lässt gegen den Parteichef von Shanghai ermitteln",
-      "link": "https://www.handelsblatt.com/politik/international/china-xi-laesst-den-maechtigen-parteichef-von-shanghai-fallen/100272476.html",
-      "summary": "Chen Jining ist das vierte Politbüro-Mitglied, das in Ungnade fällt. Die Säuberungen unter Xi Jinping erreichen ein Ausmaß, wie es seit der Kulturrevolution nicht mehr zu beobachten war.",
-      "image": "https://images.handelsblatt.com/PFhDgwchQTUZ/cover/900/506/0/0/242/242/0.5/0.5/chen-jining.jpg",
-      "published": "2026-11-24T16:43:56+00:00",
-      "category": "Wirtschaft",
-      "score": 55.32
-    },
-    {
-      "id": "handelsblatt-6b76a5c2cf7bcb64",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Abgeordnetenhaus: „Wir vertrauen ihr nicht mehr“: Berliner Linke schließt umstrittene Abgeordnete Emde aus Fraktion aus",
-      "link": "https://www.handelsblatt.com/politik/deutschland/vanessa-emde-berliner-linken-fraktion-schliesst-umstrittene-abgeordnete-aus/100271178.html",
-      "summary": "Die Fraktion der Linken in Berlin hat nach langen Debatten für einen Ausschluss der Neuköllner Abgeordneten gestimmt. Das hat auch Auswirkungen auf die laufenden Koalitionsverhandlungen.",
-      "image": "https://images.handelsblatt.com/r3RRB1qiraX0/cover/900/506/0/0/129/129/0.5/0.5/dpatopbilder-24.11.2026-berlin-vanessa-emde-die-linke.-mitglied-des-abgeordnetenhauses-von-be.jpg",
-      "published": "2026-11-24T16:43:17+00:00",
-      "category": "Wirtschaft",
-      "score": 85.96
+      "score": 45.34
     },
     {
       "id": "tagesschau-9317c03efd20d5db",
@@ -1602,19 +1756,7 @@
       "image": "https://images.tagesschau.de/image/a1c62f8a-536d-4a03-b5ca-5a917a2aad67/AAABlejCWxU/AAABnSSvrFg/16x9-big/spendendose-103.jpg?width=1920",
       "published": "2026-11-24T16:42:18+01:00",
       "category": "Nachrichten",
-      "score": 53.47
-    },
-    {
-      "id": "handelsblatt-8c884d4fab646513",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Autobauer in der Krise: Frostiger Tarifauftakt bei VW - Warnstreiks drohen",
-      "link": "https://www.handelsblatt.com/politik/deutschland/autobauer-in-der-krise-frostiger-tarifauftakt-bei-vw-warnstreiks-drohen/100272235.html",
-      "summary": "Nullrunden, weniger Zulagen und flexiblere Arbeitszeit: Die VW-Sparpläne treffen auf heftigen Widerstand. Der Konzern will zügig eine Einigung bei den Gesprächen, doch die Zeichen stehen auf Konflikt.",
-      "image": "https://images.handelsblatt.com/IQaOPp15XMqI/cover/900/506/0/0/107/106/0.5/0.5/beginn-der-tarifverhandlungen-bei-volkswagen.jpg",
-      "published": "2026-11-24T16:40:44+00:00",
-      "category": "Wirtschaft",
-      "score": 63.28
+      "score": 48.23
     },
     {
       "id": "golem-aab14dd6ef3bfe0a",
@@ -1626,7 +1768,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215600&amp;page=1&amp;ts=1795534682",
       "published": "2026-11-24T16:38:02+01:00",
       "category": "Technologie",
-      "score": 50.41
+      "score": 45.17
     },
     {
       "id": "heise-0e4840afc07acd31",
@@ -1638,19 +1780,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/7/4/2/5/shutterstock_2755383857-f96ad697dbfdc3ef.jpeg",
       "published": "2026-11-24T16:35:00+01:00",
       "category": "Technologie",
-      "score": 51.37
-    },
-    {
-      "id": "handelsblatt-8ca42c223498d4db",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Volkswagen: IG Metall rechnet vor, wie tief die VW-Gehälter fallen könnten",
-      "link": "https://www.handelsblatt.com/unternehmen/industrie/volkswagen-ig-metall-rechnet-vor-wie-tief-die-vw-gehaelter-fallen-koennten/100272475.html",
-      "summary": "Der Autobauer galt lange als einer der besten Arbeitgeber der Republik. Nun drohen den Beschäftigten Löhne unter Branchenniveau. Die Tarifparteien stehen sich unversöhnlich gegenüber.",
-      "image": "https://images.handelsblatt.com/u1WH2MKCPFtU/cover/900/506/0/0/235/235/0.5/0.5/negotiation-leader-of-the-trade-union-ig-metall-thorsten-groeger-gives-a-press-statement-before-the.jpg",
-      "published": "2026-11-24T16:34:21+00:00",
-      "category": "Technologie",
-      "score": 52.19
+      "score": 46.13
     },
     {
       "id": "golem-a33ecce4fb1b4f40",
@@ -1662,7 +1792,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215597&amp;page=1&amp;ts=1795534321",
       "published": "2026-11-24T16:32:01+01:00",
       "category": "Technologie",
-      "score": 50.33
+      "score": 45.09
     },
     {
       "id": "netzpolitik-ae6046374468ccb5",
@@ -1674,7 +1804,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/10/imago0859308453h-meta-ueberwachungsbrille-scaled-e1791976865520.jpg",
       "published": "2026-11-24T16:30:46+00:00",
       "category": "Wirtschaft",
-      "score": 64.31
+      "score": 59.07
     },
     {
       "id": "tagesschau-0bcab176bc29bafd",
@@ -1686,19 +1816,7 @@
       "image": "https://images.tagesschau.de/image/477c77e4-c79c-44aa-a655-980cb10a101a/AAABog2mq5Q/AAABnSSvrFg/16x9-big/hybridautos-china-100.jpg?width=1920",
       "published": "2026-11-24T16:26:15+01:00",
       "category": "Nachrichten",
-      "score": 61.25
-    },
-    {
-      "id": "handelsblatt-cc5f36453ec99f0b",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Lagebilder: Gewalt gegen Frauen nimmt zu: Dobrindt und Prien stellen BKA-Zahlen vor",
-      "link": "https://www.handelsblatt.com/video/politik/lagebilder-gewalt-gegen-frauen-nimmt-zu-dobrindt-und-prien-stellen-bka-zahlen-vor/100272498.html",
-      "summary": "Die Zahl der Opfer häuslicher Gewalt ist laut Bundesinnenminister Dobrindt gegenüber den Vorjahren erneut angestiegen. Familienministerin Prien sagte, betroffen mache sie insbesondere das junge Alter vieler Opfer und Täter von Sexualstraftaten.",
-      "image": "https://images.handelsblatt.com/lL5yg7f0FYpv/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
-      "published": "2026-11-24T16:25:33+00:00",
-      "category": "Politik",
-      "score": 55.07
+      "score": 56.01
     },
     {
       "id": "tagesschau-f6c293f003090a68",
@@ -1710,7 +1828,7 @@
       "image": "https://images.tagesschau.de/image/ff0fb715-e9e8-42ee-857b-70699d7c9221/AAABm8GvlZI/AAABnSSvrFg/16x9-big/generalkonsulat-muenchen-afghanistan-100.jpg?width=1920",
       "published": "2026-11-24T16:18:02+01:00",
       "category": "Nachrichten",
-      "score": 53.13
+      "score": 47.9
     },
     {
       "id": "tagesschau-53159ab30246e0ea",
@@ -1722,7 +1840,7 @@
       "image": "https://images.tagesschau.de/image/b24dfb12-d5c9-429c-aa02-b0a38290d9d2/AAABmBxUEv0/AAABnSSvrFg/16x9-big/qatar-airways-polizei-100.jpg?width=1920",
       "published": "2026-11-24T16:15:31+01:00",
       "category": "Nachrichten",
-      "score": 66.96
+      "score": 66.59
     },
     {
       "id": "golem-0949006e3c300002",
@@ -1734,31 +1852,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215594&amp;page=1&amp;ts=1795533242",
       "published": "2026-11-24T16:14:02+01:00",
       "category": "Technologie",
-      "score": 50.08
-    },
-    {
-      "id": "handelsblatt-91671d7121308e86",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Today: Governance-Experte sieht bei Nvidia „Interessenkonflikte ohne Ende“",
-      "link": "https://www.handelsblatt.com/audio/today/podcast-handelsblatt-today-governance-experte-sieht-bei-nvidia-interessenkonflikte-ohne-ende/100272491.html",
-      "summary": "Börsenexperte Ulf Sommer analysiert die Fundamentaldaten von Nvidia nach der Rückkehr von Jensen Huang. Und: Ein Experte der Frankfurt School beleuchtet die Corporate-Governance-Perspektive.",
-      "image": "https://images.handelsblatt.com/83h4TdnCCt9h/cover/900/506/0/0/656/657/0.5/0.5/today-podcast-teaser-2025.jpg",
-      "published": "2026-11-24T16:05:46+00:00",
-      "category": "Wirtschaft",
-      "score": 54.79
-    },
-    {
-      "id": "handelsblatt-b3185a6b66500001",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Kommentar: Raus aus China – endlich hat es die Wirtschaft verstanden",
-      "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-raus-aus-china-endlich-hat-es-die-wirtschaft-verstanden/100272305.html",
-      "summary": "Lange Zeit haben die deutschen Unternehmen so getan, als wäre ihre Rohstoffversorgung kein Problem. Jetzt leiten sie den Kurswechsel ein. Und auch die Bundesregierung steuert um.",
-      "image": "https://images.handelsblatt.com/1ssQgOO17Am0/cover/900/506/0/0/0/589/0.5/0.5/china.jpg",
-      "published": "2026-11-24T16:01:16+00:00",
-      "category": "Wirtschaft",
-      "score": 54.73
+      "score": 44.84
     },
     {
       "id": "tagesschau-0eef43e4909e9346",
@@ -1770,31 +1864,7 @@
       "image": "https://images.tagesschau.de/image/7c836b6e-c651-468d-8ad8-bedb9a6fac9f/AAABog1e21s/AAABnSSvrFg/16x9-big/demo-femizide-100.jpg?width=1920",
       "published": "2026-11-24T15:58:13+01:00",
       "category": "Nachrichten",
-      "score": 52.86
-    },
-    {
-      "id": "handelsblatt-fc2e5e7ff316c4a5",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Air Berlin: Managerhaftpflicht des letzten Air-Berlin-Chefs muss zahlen",
-      "link": "https://www.handelsblatt.com/unternehmen/management/air-berlin-managerhaftpflicht-des-letzten-air-berlin-chefs-muss-zahlen/100272489.html",
-      "summary": "Der letzte Chef der Airline hatte die Insolvenz zu spät angemeldet und so Gläubiger geschädigt. Diesen Schaden muss nun seine Versicherung tragen.",
-      "image": "https://images.handelsblatt.com/GZyiYzpXXonG/cover/900/506/0/0/256/17/0.5/0.5/im-zentrum-der-kritik.jpeg",
-      "published": "2026-11-24T15:57:52+00:00",
-      "category": "Wirtschaft",
-      "score": 54.68
-    },
-    {
-      "id": "handelsblatt-6f68084010c765da",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Energie: Koalition will Stromversorger zur Weitergabe der Steuersenkung verpflichten",
-      "link": "https://www.handelsblatt.com/politik/deutschland/steuersenkung-koalition-will-stromversorger-zur-weitergabe-verpflichten/100272486.html",
-      "summary": "Ab dem kommenden Jahr sollen die Steuern auf Strom um 2,3 Cent pro Kilowattstunde sinken. Damit die Ersparnis auch bei den Kunden ankommt, werden die Versorger wohl in die Pflicht genommen.",
-      "image": "https://images.handelsblatt.com/r6NVLU7Oiz0F/cover/900/506/0/0/75/75/0.5/0.5/strommasten.jpeg",
-      "published": "2026-11-24T15:53:08+00:00",
-      "category": "Technologie",
-      "score": 51.62
+      "score": 47.62
     },
     {
       "id": "golem-5c45a37af5e6f3b6",
@@ -1806,19 +1876,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215593&amp;page=1&amp;ts=1795531982",
       "published": "2026-11-24T15:53:02+01:00",
       "category": "Panorama",
-      "score": 49.78
-    },
-    {
-      "id": "handelsblatt-b022e61b1534fd8b",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Insurance Summit 2026: Wie Versicherer mit der KI-Transformation umgehen",
-      "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/versicherer/insurance-summit-2026-wie-versicherer-mit-der-ki-transformation-umgehen/100268674.html",
-      "summary": "Die Versicherungsindustrie steht in den nächsten zehn Jahren vor großen und teuren Veränderungen. Experten sind sich einig: Um wettbewerbsfähig zu bleiben, sind vier Bereiche entscheidend.",
-      "image": "https://images.handelsblatt.com/Zn--fi3U044P/cover/900/506/0/0/188/187/0.5/0.5/handelsblatt-insurance-summit.jpg",
-      "published": "2026-11-24T15:51:59+00:00",
-      "category": "Technologie",
-      "score": 51.6
+      "score": 44.55
     },
     {
       "id": "tagesschau-ec136b9e8d9cb7b4",
@@ -1830,7 +1888,7 @@
       "image": "https://images.tagesschau.de/image/5ad3c1ca-7297-460a-adf0-5be140c8ea83/AAABogx_eUY/AAABnSSvrFg/16x9-big/nvidia-238.jpg?width=1920",
       "published": "2026-11-24T15:51:13+01:00",
       "category": "Wirtschaft",
-      "score": 76.29
+      "score": 90.99
     },
     {
       "id": "golem-12eec28c78582044",
@@ -1842,55 +1900,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215595&amp;page=1&amp;ts=1795531742",
       "published": "2026-11-24T15:49:02+01:00",
       "category": "Technologie",
-      "score": 51.56
-    },
-    {
-      "id": "handelsblatt-61096c82f0d3ff25",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Koalition: Streit um Reform – Union droht SPD mit Blockade der Reichensteuer",
-      "link": "https://www.handelsblatt.com/politik/deutschland/koalition-union-droht-spd-mit-blockade-der-reichensteuer/100272431.html",
-      "summary": "In der Koalition bahnt sich ein neuer Konflikt an. Die Union will der Einkommensteuerreform nicht zustimmen, solange das Paket zum Arbeitsmarkt nicht beschlossen ist.",
-      "image": "https://images.handelsblatt.com/isYqe8HYXe5T/cover/900/506/0/0/204/205/0.5/0.5/11.11.2026-berlin-mathias-miersch-l-spd-fraktionsvorsitzender-im-bundestag-thorsten-frei-m.jpg",
-      "published": "2026-11-24T15:48:54+00:00",
-      "category": "Wirtschaft",
-      "score": 54.56
-    },
-    {
-      "id": "handelsblatt-4a62ac91c88c0d7c",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "PDF: Handelsblatt vom 25. November 2026",
-      "link": "https://www.handelsblatt.com/epaper-pdf/pdf-handelsblatt-vom-25.-november-2026/100272485.html",
-      "summary": "",
-      "image": "https://images.handelsblatt.com/ZjVuPbTk8XsM/cover/900/506/0/0/294/294/0.5/0.5/2026.11.25handelsblatt.png",
-      "published": "2026-11-24T15:48:38+00:00",
-      "category": "Wirtschaft",
-      "score": 54.56
-    },
-    {
-      "id": "handelsblatt-173bbd4f49613370",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "PDF: Handelsblatt vom 25. November 2026 - Beilage",
-      "link": "https://www.handelsblatt.com/epaper-pdf/pdf-handelsblatt-vom-25.-november-2026-beilage/100272484.html",
-      "summary": "",
-      "image": "https://images.handelsblatt.com/ZAReDizsAWP1/cover/900/506/0/0/304/304/0.5/0.5/2026.11.25handelsblattbeilage1.png",
-      "published": "2026-11-24T15:47:36+00:00",
-      "category": "Wirtschaft",
-      "score": 54.56
-    },
-    {
-      "id": "handelsblatt-6087abdc32caef39",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Bau: „2027 wird das bislang anspruchsvollste Jahr“: Refinanzierungskrise bei Gewerbeimmobilien spitzt sich zu",
-      "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-wie-extrem-wird-2027-die-refinanzierungskrise-spitzt-sich-zu/100270884.html",
-      "summary": "Der erneute Zinsanstieg macht Refinanzierungen von Immobiliendarlehen immer schwieriger. Experten sehen die Branche vor einem Umbruch.",
-      "image": "https://images.handelsblatt.com/n0WwxrAVVFg8/cover/900/506/0/0/242/243/0.5/0.5/die-zentrale-der-wirecard-ag.-der-insolvente-zahlungsabwickler-muss-den-deutschen-leitindex-dax-im-a.jpg",
-      "published": "2026-11-24T15:45:08+00:00",
-      "category": "Wirtschaft",
-      "score": 62.51
+      "score": 46.33
     },
     {
       "id": "netzpolitik-e6348aaa4df65b96",
@@ -1902,55 +1912,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/gergana-stefanova-n8hNcSGlrvA-unsplash-scaled-e1795516335235.jpg",
       "published": "2026-11-24T15:42:57+00:00",
       "category": "Politik",
-      "score": 51.48
-    },
-    {
-      "id": "handelsblatt-d1d6b5a134362e63",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Wall Street: War die Rally nur ein technischer Bounce?",
-      "link": "https://www.handelsblatt.com/audio/wall-street/wall-street-war-die-rally-nur-ein-technischer-bounce/100272481.html",
-      "summary": "Nach der spektakulären Erholung zum Wochenstart geben die US-Börsen erneut nach. War die Rally nur eine kurzfristige Gegenbewegung oder zeichnet sich eine nachhaltige Erholung ab?",
-      "image": "https://images.handelsblatt.com/t0MjDFUbutme/cover/900/506/0/0/175/175/0.5/0.5/markus-koch-wall-street-podcast.jpg",
-      "published": "2026-11-24T15:39:00+00:00",
-      "category": "Wirtschaft",
-      "score": 54.42
-    },
-    {
-      "id": "handelsblatt-204ea0ea4be73e9d",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Ukraine-Krieg: Zwei Tote und Dutzende Verletzte bei russischem Angriff auf Saporischschja",
-      "link": "https://www.handelsblatt.com/video/politik/ukraine-krieg-zwei-tote-und-dutzende-verletzte-bei-russischem-angriff-auf-saporischschja/100272444.html",
-      "summary": "Nach ukrainischen Angaben haben russische Streitkräfte in der Nacht zu Dienstag erneut die frontnahe Stadt Saporischschja angegriffen. Das polnische Militär meldete unterdessen eine kurzzeitige Luftraumverletzung durch eine russische Drohne.",
-      "image": "https://images.handelsblatt.com/ySpo5iqDzRjU/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
-      "published": "2026-11-24T15:38:14+00:00",
-      "category": "Politik",
-      "score": 81.64
-    },
-    {
-      "id": "handelsblatt-7529ca0e153e2050",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Nato: Merz sichert Polen angesichts russischer Provokationen „volle Solidarität“ zu",
-      "link": "https://www.handelsblatt.com/video/politik/nato-merz-sichert-polen-angesichts-russischer-provokationen-volle-solidaritaet-zu/100272433.html",
-      "summary": "„Wäre es erforderlich, dann wird die Nato im Bündnisgebiet jeden Fuß Territorium verteidigen“, sagte Kanzler Merz am Montag in Berlin. Berichte, nach denen Russland eine atomare Bewaffnung des Weltalls plane, nannte er „schockierend“.",
-      "image": null,
-      "published": "2026-11-24T15:38:10+00:00",
-      "category": "Technologie",
-      "score": 51.41
-    },
-    {
-      "id": "handelsblatt-c428452dbad1a890",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Megaspeed: US-Handelsministerium setzt Nvidia-Partner auf Sperrliste",
-      "link": "https://www.handelsblatt.com/video/politik/megaspeed-us-handelsministerium-setzt-nvidia-partner-auf-sperrliste/100272416.html",
-      "summary": "Megaspeed ist im Zuge des Nvidia-Skandals in den Fokus der US-Regierung geraten. Das in Singapur ansässige Cloud-Unternehmen benötigt künftig eine Genehmigung, um US-Güter zu beziehen. Diese dürfte jedoch verweigert werden.",
-      "image": null,
-      "published": "2026-11-24T15:38:06+00:00",
-      "category": "Politik",
-      "score": 64.41
+      "score": 46.24
     },
     {
       "id": "golem-538990e2ea957f7f",
@@ -1962,31 +1924,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215592&amp;page=1&amp;ts=1795531082",
       "published": "2026-11-24T15:38:02+01:00",
       "category": "Technologie",
-      "score": 49.58
-    },
-    {
-      "id": "handelsblatt-aab995a6ec7ff219",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Nvidia-Chef: Wie Jensen Huang für die USA unverzichtbar wurde",
-      "link": "https://www.handelsblatt.com/technik/it-internet/nvidia-chef-wie-jensen-huang-fuer-die-usa-unverzichtbar-wurde/100272211.html",
-      "summary": "„US-Präsident bringt Gründer von größtem Chip-Konzern zurück auf Chefposten“ - das ist keine Schlagzeile, die man erwartet. Doch für Donald Trump hing zu viel an Jensen Huang, um nicht einzugreifen.",
-      "image": "https://images.handelsblatt.com/xXha84HrO4Sm/cover/900/506/0/0/149/149/0.5/0.5/jensen-huang.jpg",
-      "published": "2026-11-24T15:36:35+00:00",
-      "category": "Politik",
-      "score": 69.07
-    },
-    {
-      "id": "handelsblatt-c4016655b808ffd7",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Kolumne „Out of the box“: Die jungen High Potentials sehen alt aus",
-      "link": "https://www.handelsblatt.com/meinung/kolumnen/kolumne-out-of-the-box-die-jungen-high-potentials-sehen-alt-aus/100272375.html",
-      "summary": "Noch nie war der Nachwuchs so gut ausgebildet, noch nie fand er so schwer einen Job. Unternehmen sparen mit KI-Agenten kurzfristig, doch verlieren langfristig etwas Wichtiges.",
-      "image": "https://images.handelsblatt.com/JZ8wPdeV3KwR/cover/900/506/0/0/0/0/0.5/0.5/der-autor.png",
-      "published": "2026-11-24T15:36:14+00:00",
-      "category": "Wirtschaft",
-      "score": 54.38
+      "score": 44.34
     },
     {
       "id": "deutsche-welle-60f1bd7e6f133339",
@@ -1998,31 +1936,7 @@
       "image": "https://static.dw.com/image/80014192_6.jpg",
       "published": "2026-11-24T15:33:00+00:00",
       "category": "Politik",
-      "score": 62.06
-    },
-    {
-      "id": "handelsblatt-eb23400cd2140e24",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Versicherung: Generali baut 800 Stellen in Deutschland ab",
-      "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/versicherer/generali-deutschland-800-stellen-fallen-weg-jobgarantie-gilt-bis-2032/100272478.html",
-      "summary": "Der Versicherer schließt drei Standorte und begründet den Umbau mit dem Einsatz von Künstlicher Intelligenz. Wohin die Beschäftigten wechseln sollen, steht schon fest.",
-      "image": "https://images.handelsblatt.com/HmAzz0XaOkOd/cover/900/506/0/0/62/62/0.5/0.5/generali.jpeg",
-      "published": "2026-11-24T15:32:25+00:00",
-      "category": "Wirtschaft",
-      "score": 54.33
-    },
-    {
-      "id": "handelsblatt-26dff90741e0d89f",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Grunderwerbsteuer: Klingbeil will Steuerschlupfloch bei Immobilienkäufen schließen",
-      "link": "https://www.handelsblatt.com/politik/deutschland/grunderwerbsteuer-klingbeil-will-schlupfloch-bei-immobilienkaeufen-schliessen/100272412.html",
-      "summary": "Jahrelang sorgten sogenannte Share Deals zur Umgehung der Grunderwerbsteuer für Ärger. Ein Gesetzentwurf aus dem Finanzministerium sieht Verschärfungen vor – und eine Lockerung.",
-      "image": "https://images.handelsblatt.com/JaXPGA6jrUZz/cover/900/506/0/0/185/186/0.5/0.5/archiv-20.05.2020-bayern-kaufbeuren-auch-wenn-eine-immobilie-erst-kuerzlich-gebaut-wurde-kann-s.jpg",
-      "published": "2026-11-24T15:23:18+00:00",
-      "category": "Politik",
-      "score": 54.2
+      "score": 56.83
     },
     {
       "id": "tagesschau-3253c583f85b0441",
@@ -2034,19 +1948,7 @@
       "image": "https://images.tagesschau.de/image/b88f0aad-eda4-4417-bd6f-52de84a2580a/AAABog0VDOs/AAABnSSvrFg/16x9-big/erzieherin-kind-100.jpg?width=1920",
       "published": "2026-11-24T15:12:42+01:00",
       "category": "Technologie",
-      "score": 52.22
-    },
-    {
-      "id": "handelsblatt-e0a85ba87e3ac534",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Bundesregierung: Keine Milliarden für Intel, dafür für Rohstoff und Strom: Wie die CDU weiter Industriepolitik betreibt",
-      "link": "https://www.handelsblatt.com/politik/deutschland/bundesregierung-wie-die-cdu-weiter-aktive-industriepolitik-betreibt/100271878.html",
-      "summary": "Friedrich Merz hatte das Ende der Industriepolitik angekündigt. Die Regierung betreibt diese aber weiter – vor allem in drei Bereichen. Aber zur Ampel gibt es einen wichtigen Unterschied.",
-      "image": "https://images.handelsblatt.com/N0g0Nvkl-IUf/cover/900/506/0/0/131/484/0.5/0.5/industriekonferenz-2026-des-bundesministerium-fuer-wirtschaft-und-energie-juergen-kerner-zweiter-vors.jpg",
-      "published": "2026-11-24T15:12:13+00:00",
-      "category": "Politik",
-      "score": 54.05
+      "score": 46.99
     },
     {
       "id": "deutsche-welle-f1c2db72bcd330a4",
@@ -2058,7 +1960,7 @@
       "image": "https://static.dw.com/image/80032998_6.jpg",
       "published": "2026-11-24T15:07:00+00:00",
       "category": "Technologie",
-      "score": 50.98
+      "score": 45.74
     },
     {
       "id": "tagesschau-11d288c645e0a8ed",
@@ -2070,91 +1972,7 @@
       "image": "https://images.tagesschau.de/image/b7b1cffa-34ce-42a2-8a22-6e45161c1601/AAABog0w99Y/AAABnSSvrFg/16x9-big/huang-140.jpg?width=1920",
       "published": "2026-11-24T15:01:35+01:00",
       "category": "Wirtschaft",
-      "score": 69.07
-    },
-    {
-      "id": "handelsblatt-42118e7d369d8bad",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Comeback unter Strom: Porsche bereitet Start des elektrischen Boxster vor",
-      "link": "https://www.handelsblatt.com/mobilitaet/motor/comeback-unter-strom-porsche-bereitet-start-des-elektrischen-boxster-vor/100272472.html",
-      "summary": "Der 911 soll zwar ein Verbrenner bleiben und der Mission S noch einer werden. Doch macht Porsche mit der Elektrifizierung auch vor Sportwagen nicht halt und bringt so den Boxster an die Ladesäule.",
-      "image": "https://images.handelsblatt.com/ZF9X1cwChG47/cover/900/506/0/0/107/106/0.5/0.5/prototyp-des-elektrischen-porsche-718-boxster.jpg",
-      "published": "2026-11-24T15:01:04+00:00",
-      "category": "Wirtschaft",
-      "score": 53.9
-    },
-    {
-      "id": "handelsblatt-228b0cbbf2f9dd17",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Brexit: Ex-Premiers und andere „Zombies“ – Im Königreich eskaliert der Streit um den EU-Wiedereintritt",
-      "link": "https://www.handelsblatt.com/politik/international/brexit-in-grossbritannien-eskaliert-der-streit-um-den-eu-wiedereintritt/100272064.html",
-      "summary": "Premier Burnham stellt für eine Rückkehr in die EU ein neues Referendum in Aussicht und legt sich mit seinen konservativen Vorgängern an. Droht dem Land ein neuer lähmender Dauerkonflikt?",
-      "image": "https://images.handelsblatt.com/vTYTSRWkvLps/cover/900/506/0/0/313/312/0.5/0.5/britischer-premierminister-andy-burnham-im-unterhaus-am-montag..jpg",
-      "published": "2026-11-24T14:59:20+00:00",
-      "category": "Wirtschaft",
-      "score": 53.87
-    },
-    {
-      "id": "handelsblatt-c6521e94904beada",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Reicht der Schutz?: Adventskerze löst Brand aus - welche Versicherung zahlt?",
-      "link": "https://www.handelsblatt.com/finanzen/steuern-recht/reicht-der-schutz-adventskerze-loest-brand-aus-welche-versicherung-zahlt/100272471.html",
-      "summary": "Die erste Kerze am Adventskranz sorgt für festliche Stimmung – unbeaufsichtigt kann sie jedoch zum Risiko werden. Welche Versicherungen bei einem Brand für welche Schäden aufkommen.",
-      "image": "https://images.handelsblatt.com/THeuJd7xFiBn/cover/900/506/0/0/107/106/0.5/0.5/ein-adventskranz-leuchtet-festlich.jpg",
-      "published": "2026-11-24T14:56:40+00:00",
-      "category": "Wirtschaft",
-      "score": 53.83
-    },
-    {
-      "id": "handelsblatt-1f6c149c83af4f23",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Luftverkehr: Ryanair-Chef rechnet mit BER ab: Flughafen mit leeren Hallen",
-      "link": "https://www.handelsblatt.com/politik/deutschland/luftverkehr-ryanair-chef-rechnet-mit-ber-ab-flughafen-mit-leeren-hallen/100272470.html",
-      "summary": "Der Billigflieger hat sein Angebot am Hauptstadtflughafen deutlich reduziert. Airline-Chef O&apos;Leary sieht dennoch eine Möglichkeit für Wachstum am BER - allerdings unter klaren Bedingungen.",
-      "image": "https://images.handelsblatt.com/xXZjOrwD93CN/cover/900/506/0/0/101/101/0.5/0.5/ryanair-chef-oleary.jpg",
-      "published": "2026-11-24T14:56:14+00:00",
-      "category": "Wirtschaft",
-      "score": 53.83
-    },
-    {
-      "id": "handelsblatt-5f9bc924d1acc8fd",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Bundespolitik +++: Koalition plant für Stromsteuersenkung mit fünf Milliarden Euro",
-      "link": "https://www.handelsblatt.com/politik/deutschland/bundespolitik-koalition-plant-fuer-stromsteuersenkung-mit-fuenf-milliarden-euro/100137034.html",
-      "summary": "EU-Kommission besorgt über deutschen Bundeshaushalt +++ Union knüpft höhere Steuern für Reiche an Arbeitsmarktreform +++ Klingbeil verteidigt Haushalt im Bundestag +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/W4wzrFydeQGh/cover/900/506/0/0/0/423/0.5/0.5/lars-klingbeil-bundesminister-der-finanzen-aufgenommen-im-rahmen-der-woechentlichen-kabinettssitzu.jpg",
-      "published": "2026-11-24T14:55:45+00:00",
-      "category": "Politik",
-      "score": 61.82
-    },
-    {
-      "id": "handelsblatt-91995a4999e83538",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Ukraine-Krieg: Selenskyj: USA machen Ukraine Druck auf Frieden bis Januar",
-      "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-usa-machen-ukraine-druck-auf-frieden-bis-januar/100272461.html",
-      "summary": "Die Zusage einer Nato-Aufnahme nützt Kiew nichts. Die USA und andere Partner sind derzeit dagegen. Selenskyj sagt, warum selbst Moskau Interesse an einer Ukraine in der Nato haben sollte.",
-      "image": "https://images.handelsblatt.com/PX4HnW1r7Hc1/cover/900/506/0/0/107/106/0.5/0.5/ukrainischer-praesident-wolodymyr-selenskyj.jpg",
-      "published": "2026-11-24T14:53:50+00:00",
-      "category": "Politik",
-      "score": 69.79
-    },
-    {
-      "id": "handelsblatt-203515cc0c88ad51",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Instrumentalisierte Migration: Menschenrechtsgerichtshof grenzt Schutz bei Pushbacks ein",
-      "link": "https://www.handelsblatt.com/politik/international/instrumentalisierte-migration-menschenrechtsgerichtshof-grenzt-schutz-bei-pushbacks-ein/100272440.html",
-      "summary": "An der Belarus-Grenze saßen Geflüchtete teils unter prekären Bedingungen fest. Der EGMR in Straßburg schränkt nun Pflichten von Staaten in Ausnahmesituationen ein – und verurteilt dennoch Polen & Co.",
-      "image": "https://images.handelsblatt.com/n3pfa1mW4u3o/cover/900/506/0/0/107/106/0.5/0.5/polens-grenze-zu-belarus.jpg",
-      "published": "2026-11-24T14:49:43+00:00",
-      "category": "Wirtschaft",
-      "score": 60.74
+      "score": 57.83
     },
     {
       "id": "golem-9f6b1003af32fdaa",
@@ -2166,7 +1984,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215588&amp;page=1&amp;ts=1795528022",
       "published": "2026-11-24T14:47:02+01:00",
       "category": "Technologie",
-      "score": 48.87
+      "score": 43.63
     },
     {
       "id": "tagesschau-860737ceb171e810",
@@ -2178,7 +1996,7 @@
       "image": "https://images.tagesschau.de/image/ee544d99-b84e-4258-b2e5-e4624f5eb786/AAABofhzJcE/AAABnSSvrFg/16x9-big/gta-vi-106.jpg?width=1920",
       "published": "2026-11-24T14:42:43+01:00",
       "category": "Wirtschaft",
-      "score": 54.81
+      "score": 49.57
     },
     {
       "id": "netzpolitik-611a55efe0795217",
@@ -2190,7 +2008,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/landungsbruecken.jpg",
       "published": "2026-11-24T14:37:30+00:00",
       "category": "Politik",
-      "score": 50.57
+      "score": 45.33
     },
     {
       "id": "deutsche-welle-acdbd81a2b11351e",
@@ -2202,7 +2020,7 @@
       "image": "https://static.dw.com/image/76899766_6.jpg",
       "published": "2026-11-24T14:36:00+00:00",
       "category": "Politik",
-      "score": 89.64
+      "score": 92.19
     },
     {
       "id": "golem-d6e48856c227be49",
@@ -2214,7 +2032,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215589&amp;page=1&amp;ts=1795527301",
       "published": "2026-11-24T14:35:01+01:00",
       "category": "Wirtschaft",
-      "score": 51.7
+      "score": 46.47
     },
     {
       "id": "tagesschau-bedfc74235c006fb",
@@ -2226,7 +2044,7 @@
       "image": "https://images.tagesschau.de/image/d9d6b7d4-4d11-49d0-bea7-169431d4e4c0/AAABog1nJjs/AAABnSSvrFg/16x9-big/frau-wohnung-102.jpg?width=1920",
       "published": "2026-11-24T14:31:58+01:00",
       "category": "Technologie",
-      "score": 66.96
+      "score": 46.42
     },
     {
       "id": "tagesschau-df5eb9b8120e7056",
@@ -2238,7 +2056,7 @@
       "image": "https://images.tagesschau.de/image/8ee61e61-7ec4-461a-9fc7-55a8fd8d5fee/AAABog3H8x8/AAABnSSvrFg/16x9-big/belarus-migranten-105.jpg?width=1920",
       "published": "2026-11-24T14:28:55+01:00",
       "category": "Nachrichten",
-      "score": 60.74
+      "score": 46.38
     },
     {
       "id": "golem-70c2cceaa729b971",
@@ -2250,7 +2068,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215586&amp;page=1&amp;ts=1795526222",
       "published": "2026-11-24T14:17:02+01:00",
       "category": "Technologie",
-      "score": 52.23
+      "score": 46.99
     },
     {
       "id": "tagesschau-543c032fb0fab333",
@@ -2262,7 +2080,7 @@
       "image": "https://images.tagesschau.de/image/66bd0e87-9a44-4a62-8222-9075e8c73eee/AAABog1_Yl0/AAABnSSvrFg/16x9-big/lars-klingbeil-242.jpg?width=1920",
       "published": "2026-11-24T14:10:35+01:00",
       "category": "Politik",
-      "score": 62.36
+      "score": 57.13
     },
     {
       "id": "tagesschau-a4d5de9ee28e6dca",
@@ -2274,7 +2092,7 @@
       "image": "https://images.tagesschau.de/image/c89cef5a-b899-44fa-9c42-a8f10b19db9d/AAABogx__X8/AAABnSSvrFg/16x9-big/schwerte-nrw-angriff-fraktionssitzung-gruene-100.jpg?width=1920",
       "published": "2026-11-24T14:08:00+01:00",
       "category": "Technologie",
-      "score": 71.64
+      "score": 46.09
     },
     {
       "id": "golem-8fe497d55e6ed368",
@@ -2286,7 +2104,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215587&amp;page=1&amp;ts=1795525501",
       "published": "2026-11-24T14:05:01+01:00",
       "category": "Technologie",
-      "score": 48.28
+      "score": 43.05
     },
     {
       "id": "golem-bdad33996a79c327",
@@ -2298,7 +2116,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215584&amp;page=1&amp;ts=1795524602",
       "published": "2026-11-24T13:50:02+01:00",
       "category": "Technologie",
-      "score": 48.08
+      "score": 42.84
     },
     {
       "id": "golem-a90752c477e2d5b6",
@@ -2310,7 +2128,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215530&amp;page=1&amp;ts=1795524361",
       "published": "2026-11-24T13:46:01+01:00",
       "category": "Technologie",
-      "score": 48.02
+      "score": 42.78
     },
     {
       "id": "golem-7c39ba03545febd2",
@@ -2322,7 +2140,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215585&amp;page=1&amp;ts=1795523521",
       "published": "2026-11-24T13:32:01+01:00",
       "category": "Technologie",
-      "score": 47.83
+      "score": 42.59
     },
     {
       "id": "golem-06c92708c900738c",
@@ -2334,7 +2152,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215582&amp;page=1&amp;ts=1795522861",
       "published": "2026-11-24T13:21:01+01:00",
       "category": "Technologie",
-      "score": 69.67
+      "score": 42.44
     },
     {
       "id": "golem-38310a650fd34c77",
@@ -2346,7 +2164,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215583&amp;page=1&amp;ts=1795522081",
       "published": "2026-11-24T13:08:01+01:00",
       "category": "Technologie",
-      "score": 47.49
+      "score": 42.26
     },
     {
       "id": "golem-3aa5b5c0b14c0266",
@@ -2358,7 +2176,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215581&amp;page=1&amp;ts=1795521241",
       "published": "2026-11-24T12:54:01+01:00",
       "category": "Technologie",
-      "score": 47.3
+      "score": 42.06
     },
     {
       "id": "tagesschau-e6ce6eeeef23a7ef",
@@ -2370,7 +2188,7 @@
       "image": "https://images.tagesschau.de/image/6c6cc15e-230b-4240-94b2-6ee409f384e6/AAABog2NoW0/AAABnSSvrFg/16x9-big/vw-werk-zwickau-122.jpg?width=1920",
       "published": "2026-11-24T12:49:57+01:00",
       "category": "Nachrichten",
-      "score": 58.24
+      "score": 53.01
     },
     {
       "id": "golem-c8a440169cf8e0f0",
@@ -2382,7 +2200,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215579&amp;page=1&amp;ts=1795520402",
       "published": "2026-11-24T12:40:02+01:00",
       "category": "Technologie",
-      "score": 47.1
+      "score": 41.87
     },
     {
       "id": "deutsche-welle-a2cc7a3257e9daab",
@@ -2394,7 +2212,7 @@
       "image": "https://static.dw.com/image/78495135_6.jpg",
       "published": "2026-11-24T12:28:00+00:00",
       "category": "Technologie",
-      "score": 71.64
+      "score": 53.53
     },
     {
       "id": "golem-1509f5e97e1257e4",
@@ -2406,7 +2224,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215577&amp;page=1&amp;ts=1795519621",
       "published": "2026-11-24T12:27:01+01:00",
       "category": "Technologie",
-      "score": 46.92
+      "score": 41.69
     },
     {
       "id": "golem-7e01ee9e667d0f18",
@@ -2418,7 +2236,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215580&amp;page=1&amp;ts=1795519322",
       "published": "2026-11-24T12:22:02+01:00",
       "category": "Technologie",
-      "score": 46.85
+      "score": 41.62
     },
     {
       "id": "deutsche-welle-71e14fbbde6ca96d",
@@ -2430,7 +2248,7 @@
       "image": "https://static.dw.com/image/80025450_6.jpg",
       "published": "2026-11-24T12:18:00+00:00",
       "category": "Nachrichten",
-      "score": 48.63
+      "score": 43.4
     },
     {
       "id": "heise-bf34bfd313216441",
@@ -2442,7 +2260,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/7/0/7/8/shutterstock_2649976727-b846c89e081c9766.jpeg",
       "published": "2026-11-24T12:17:00+01:00",
       "category": "Technologie",
-      "score": 47.78
+      "score": 42.55
     },
     {
       "id": "golem-dd76979733aa65d6",
@@ -2454,7 +2272,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215575&amp;page=1&amp;ts=1795518842",
       "published": "2026-11-24T12:14:02+01:00",
       "category": "Politik",
-      "score": 57.74
+      "score": 52.51
     },
     {
       "id": "golem-a82f31b4f7d830c0",
@@ -2466,7 +2284,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215576&amp;page=1&amp;ts=1795518421",
       "published": "2026-11-24T12:07:01+01:00",
       "category": "Technologie",
-      "score": 46.64
+      "score": 41.41
     },
     {
       "id": "golem-2458d5b8863dd881",
@@ -2478,7 +2296,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215573&amp;page=1&amp;ts=1795517281",
       "published": "2026-11-24T11:48:01+01:00",
       "category": "Wissenschaft",
-      "score": 46.38
+      "score": 41.15
     },
     {
       "id": "golem-b8d937344c30820b",
@@ -2490,7 +2308,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215578&amp;page=1&amp;ts=1795516802",
       "published": "2026-11-24T11:40:02+01:00",
       "category": "Technologie",
-      "score": 46.27
+      "score": 41.03
     },
     {
       "id": "golem-7f05ae9984572694",
@@ -2502,7 +2320,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215572&amp;page=1&amp;ts=1795516501",
       "published": "2026-11-24T11:35:01+01:00",
       "category": "Technologie",
-      "score": 46.2
+      "score": 40.97
     },
     {
       "id": "tagesschau-c5c5b6f475b826d0",
@@ -2514,7 +2332,7 @@
       "image": "https://images.tagesschau.de/image/3590ac6e-261e-42b8-94c2-376c7cc084d5/AAABogyPKrg/AAABnSSvrFg/16x9-big/industrie-260.jpg?width=1920",
       "published": "2026-11-24T11:28:45+01:00",
       "category": "Wirtschaft",
-      "score": 69.96
+      "score": 46.88
     },
     {
       "id": "golem-dcf42007328bd9d2",
@@ -2526,7 +2344,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215571&amp;page=1&amp;ts=1795515782",
       "published": "2026-11-24T11:23:02+01:00",
       "category": "Technologie",
-      "score": 46.03
+      "score": 40.8
     },
     {
       "id": "deutsche-welle-4ea7f2aba9491743",
@@ -2538,7 +2356,7 @@
       "image": null,
       "published": "2026-11-24T11:16:00+00:00",
       "category": "Nachrichten",
-      "score": 61.25
+      "score": 56.01
     },
     {
       "id": "heise-0b19866e3dd8613b",
@@ -2550,7 +2368,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/7/0/2/2/hp-9932386ac1579495.jpeg",
       "published": "2026-11-24T11:08:00+01:00",
       "category": "Technologie",
-      "score": 46.82
+      "score": 65.59
     },
     {
       "id": "tagesschau-9fceb176d6875ca0",
@@ -2562,7 +2380,7 @@
       "image": "https://images.tagesschau.de/image/a500a895-36ff-4d0b-a555-cb6dd348e6cc/AAABog1DNug/AAABnSSvrFg/16x9-big/sprechzimmer-arztpraxis-100.jpg?width=1920",
       "published": "2026-11-24T11:06:17+01:00",
       "category": "Wissenschaft",
-      "score": 48.8
+      "score": 43.57
     },
     {
       "id": "tagesschau-9a36b44d601fbb0d",
@@ -2574,22 +2392,7 @@
       "image": "https://images.tagesschau.de/image/6de58ad6-0c2b-43af-8f84-aecfad1cef67/AAABogytRKU/AAABnSSvrFg/16x9-big/landminen-sprengungsvorbereitung-100.jpg?width=1920",
       "published": "2026-11-24T10:41:25+01:00",
       "category": "Technologie",
-      "score": 71.64,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "\"Handicap International\" - Zahl der Opfer durch Landminen laut neuem Monitor wieder gestiegen",
-            "link": "https://www.deutschlandfunk.de/zahl-der-opfer-durch-landminen-laut-neuem-monitor-wieder-gestiegen-100.html"
-          },
-          {
-            "source": "deutsche-welle",
-            "title": "Zahl der Landminen-Opfer stark gestiegen",
-            "link": "https://www.dw.com/de/zahl-der-landminen-opfer-stark-gestiegen/a-80032671?maca=de-rss-de-all-1119-rdf"
-          }
-        ]
-      }
+      "score": 53.53
     },
     {
       "id": "deutsche-welle-c28b3331008fec23",
@@ -2601,7 +2404,7 @@
       "image": "https://static.dw.com/image/79998705_6.jpg",
       "published": "2026-11-24T10:34:00+00:00",
       "category": "Technologie",
-      "score": 47.19
+      "score": 41.95
     },
     {
       "id": "heise-42135b8cc33b1c1e",
@@ -2613,7 +2416,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/6/9/7/5/Meta-quest-3D-Filme-d700a72e52777770.jpeg",
       "published": "2026-11-24T10:16:00+01:00",
       "category": "Technologie",
-      "score": 46.1
+      "score": 40.87
     },
     {
       "id": "heise-6274ab351cb288f5",
@@ -2625,7 +2428,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/6/8/8/7/2025-05-16-0101-Dataleak-732961df155da181.jpeg",
       "published": "2026-11-24T09:28:00+01:00",
       "category": "Technologie",
-      "score": 45.44
+      "score": 40.2
     },
     {
       "id": "heise-ca829ab91c113abb",
@@ -2637,7 +2440,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/6/9/0/1/260916-A-UV759-1725-9558896f37bdb465.jpeg",
       "published": "2026-11-24T09:18:00+01:00",
       "category": "Technologie",
-      "score": 45.3
+      "score": 40.06
     },
     {
       "id": "deutsche-welle-f444e76bccc9eb39",
@@ -2649,7 +2452,7 @@
       "image": "https://static.dw.com/image/79990442_6.jpg",
       "published": "2026-11-24T09:03:00+00:00",
       "category": "Politik",
-      "score": 56.92
+      "score": 76.05
     },
     {
       "id": "tagesschau-bb0e555d41350911",
@@ -2661,7 +2464,7 @@
       "image": "https://images.tagesschau.de/image/5486404e-eafd-44d2-875e-8063db4308c6/AAABogyUJl8/AAABnSSvrFg/16x9-big/monitor-huang-100.jpg?width=1920",
       "published": "2026-11-24T08:55:06+01:00",
       "category": "Politik",
-      "score": 49.98
+      "score": 68.64
     },
     {
       "id": "tagesschau-a698588f592c4066",
@@ -2673,7 +2476,7 @@
       "image": "https://images.tagesschau.de/image/a87811a1-239e-4790-b362-87fbbdd50373/AAABogxCAd4/AAABnSSvrFg/16x9-big/megaspeed-102.jpg?width=1920",
       "published": "2026-11-24T08:42:34+01:00",
       "category": "Politik",
-      "score": 64.41
+      "score": 44.57
     },
     {
       "id": "deutsche-welle-0a8442da66eafd96",
@@ -2685,7 +2488,7 @@
       "image": "https://static.dw.com/image/79990442_6.jpg",
       "published": "2026-11-24T08:01:00+00:00",
       "category": "Politik",
-      "score": 56.06
+      "score": 50.83
     },
     {
       "id": "tagesschau-d80538c9f4796964",
@@ -2697,7 +2500,7 @@
       "image": "https://images.tagesschau.de/image/caa4dd14-cd4e-4349-b4bf-2274d7dfd550/AAABogip7hg/AAABnSSvrFg/16x9-big/bundestag-1450.jpg?width=1920",
       "published": "2026-11-24T07:47:59+01:00",
       "category": "Politik",
-      "score": 57.05
+      "score": 51.81
     },
     {
       "id": "tagesschau-9640ac29bf945363",
@@ -2709,7 +2512,7 @@
       "image": "https://images.tagesschau.de/image/23dd22e0-3a50-4216-b112-2e58042992f3/AAABogiBp1U/AAABnSSvrFg/16x9-big/sicherheitskraefte-strasse-100.jpg?width=1920",
       "published": "2026-11-24T07:43:45+01:00",
       "category": "Technologie",
-      "score": 45.99
+      "score": 40.75
     },
     {
       "id": "tagesschau-f3a7368b10866c06",
@@ -2721,7 +2524,7 @@
       "image": "https://images.tagesschau.de/image/11612761-d36f-4568-8e50-d3ad9d808551/AAABogkK1NY/AAABnSSvrFg/16x9-big/11km-teaserbild-108.jpg?width=1920",
       "published": "2026-11-24T07:20:48+01:00",
       "category": "Wissenschaft",
-      "score": 45.67
+      "score": 40.43
     },
     {
       "id": "netzpolitik-ec62f0114021a51f",
@@ -2733,7 +2536,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/NP_JEK_2026_beitragsbild_alarm_002.webp",
       "published": "2026-11-24T06:46:23+00:00",
       "category": "Technologie",
-      "score": 41.02
+      "score": 35.79
     },
     {
       "id": "tagesschau-e4e4e66e5b9afdff",
@@ -2745,7 +2548,7 @@
       "image": "https://images.tagesschau.de/image/98f27cb4-11e6-4c4c-9e4f-256d7cb5d1fb/AAABogwHMVQ/AAABnSSvrFg/16x9-big/protestierende-kolumbien-100.jpg?width=1920",
       "published": "2026-11-24T06:28:47+01:00",
       "category": "Nachrichten",
-      "score": 52.95
+      "score": 47.71
     },
     {
       "id": "tagesschau-1ffb72db26afbb5e",
@@ -2757,7 +2560,7 @@
       "image": "https://images.tagesschau.de/image/b468b1b9-68b3-48c5-a0f0-ce76c2fce008/AAABogjfiCs/AAABnSSvrFg/16x9-big/vw-werk-emden-102.jpg?width=1920",
       "published": "2026-11-24T06:04:00+01:00",
       "category": "Technologie",
-      "score": 52.6
+      "score": 47.37
     },
     {
       "id": "deutsche-welle-c7b19f74d2a184da",
@@ -2769,7 +2572,7 @@
       "image": "https://static.dw.com/image/79931072_6.jpg",
       "published": "2026-11-24T05:24:00+00:00",
       "category": "Politik",
-      "score": 84.96
+      "score": 48.65
     },
     {
       "id": "tagesschau-ec542226fba9b2fc",
@@ -2781,91 +2584,7 @@
       "image": "https://images.tagesschau.de/image/5e245e3a-ff12-44e9-bb2a-6c1c5f2ea619/AAABogzmtLQ/AAABnSSvrFg/16x9-big/suedkorea-ulleung-100.jpg?width=1920",
       "published": "2026-11-24T05:23:38+01:00",
       "category": "Nachrichten",
-      "score": 44.04
-    },
-    {
-      "id": "tagesschau-1ff83e91abf4fffd",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Kriegsfolgen im Gazastreifen: Verschmutztes Wasser, Asbest in den Trümmern",
-      "link": "https://www.tagesschau.de/ausland/asien/israel-gazastreifen-162.html",
-      "summary": "Auf den Straßen sammelt sich der Müll, in den zerstörten Gebäuden steckt Asbest: Im Gazastreifen leidet die Bevölkerung. Die Folgen des Krieges könnten noch Jahrzehnte spürbar sein, so die Hilfsorganisation Oxfam. Von Julio Segador. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/64b30784-df0a-4f90-adfc-2e0ac931d913/AAABogu-CfE/AAABnSSvrFg/16x9-big/gazastreifen-364.jpg?width=1920",
-      "published": "2026-11-24T05:09:27+01:00",
-      "category": "Politik",
-      "score": 62.85
-    },
-    {
-      "id": "tagesschau-4dada94df95c570e",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Deutsche Dokumentarfilmer gewinnen Internationalen Emmy",
-      "link": "https://www.tagesschau.de/kultur/internationaler-emmy-mrf-ard-100.html",
-      "summary": "Eine Mischung aus True Crime und Roadmovie: Für ihre ARD-Dokumentation \"Der talentierte Mr. F.\" über einen Film-Dieb haben deutsche Filmemacher den Internationalen Emmy verliehen bekommen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/faf62676-101c-4d6e-869d-8bc19103aee1/AAABogtZmiI/AAABnSSvrFg/16x9-big/internationaler-emmy-mrf-100.jpg?width=1920",
-      "published": "2026-11-24T04:23:18+01:00",
-      "category": "Nachrichten",
-      "score": 66.96
-    },
-    {
-      "id": "tagesschau-296d85ab80987d6e",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Deutschland baut künftig ukrainische Drohnen",
-      "link": "https://www.tagesschau.de/ausland/europa/ukraine-pistorius-104.html",
-      "summary": "Bereits im April hatten Deutschland und die Ukraine vereinbart, militärisch enger zusammenzuarbeiten - etwa beim Drohnenbau. Verteidigungsminister Pistorius wurde nun konkreter. Mit Blick auf mögliche russische Angriffspläne im All mahnte er zur Ruhe.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/6b7d65a3-66be-4fc7-8ea4-766d8c14ff33/AAABogn92jg/AAABnSSvrFg/16x9-big/pistorius-chmara-100.jpg?width=1920",
-      "published": "2026-11-24T02:46:30+01:00",
-      "category": "Politik",
-      "score": 69.67
-    },
-    {
-      "id": "tagesschau-485eaaf4217e5fe5",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Haiti: El Salvadors Präsident Bukele wegen Militäreinsatz gefeiert",
-      "link": "https://www.tagesschau.de/ausland/amerika/el-salvador-haiti-100.html",
-      "summary": "In Haiti konnten auch internationale Missionen wenig an der grassierenden Gewalt ändern. Jetzt griff El Salvadors Präsident Bukele ein - mit mehreren Tausend Soldaten, ohne UN-Mandat. Und wird wie ein Volksheld gefeiert. Von J. Barke .[ mehr ]",
-      "image": "https://images.tagesschau.de/image/bca964b7-f795-49df-a04c-a24ede4f9ee3/AAABogqnvA8/AAABnSSvrFg/16x9-big/elsalvador-haiti-100.jpg?width=1920",
-      "published": "2026-11-24T01:53:40+01:00",
-      "category": "Nachrichten",
-      "score": 41.13
-    },
-    {
-      "id": "tagesschau-f9b30ebfdf1f80de",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Mehr Stromspar-Checks für Haushalte mit wenig Geld geplant",
-      "link": "https://www.tagesschau.de/wirtschaft/verbraucher/stromspar-checks-kostenlose-energieberatung-bundesumweltministerium-100.html",
-      "summary": "Die Finanzierung des Stromspar-Checks ist für weitere drei Jahre gesichert. Damit können sich Haushalte mit geringem Einkommen kostenlos beraten lassen und Zuschüsse bekommen. Die wichtigsten Fragen und Antworten.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/0123d509-4f6a-4abe-a7ae-d7d4fc60a135/AAABnXbc5sE/AAABnSSvrFg/16x9-big/stromzaehler-134.jpg?width=1920",
-      "published": "2026-11-23T21:11:45+01:00",
-      "category": "Nachrichten",
-      "score": 37.21
-    },
-    {
-      "id": "tagesschau-10994a456cd5cd65",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Nvidia setzt Jensen Huang wieder als Chef ein - auf Druck Trumps?",
-      "link": "https://www.tagesschau.de/wirtschaft/huang-nvidia-chef-trump-demokraten-100.html",
-      "summary": "Dieser Rücktritt war von kurzer Dauer: Jensen Huang soll zurück an die Spitze des US-Konzerns Nvidia. Präsident Trump rühmt sich damit, Einfluss genommen zu haben. Doch das könnte noch Ärger geben.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/01f15277-2dc1-47c8-a5cd-9a5b83995a51/AAABogmuEEw/AAABnSSvrFg/16x9-big/trump-huang-100.jpg?width=1920",
-      "published": "2026-11-23T20:07:24+01:00",
-      "category": "Politik",
-      "score": 76.29
-    },
-    {
-      "id": "tagesschau-368b1a1f530a261e",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Wie der Klimawandel den Winterschlaf der Tiere verändert",
-      "link": "https://www.tagesschau.de/wissen/winterschlaf-klimawandel-tiere-100.html",
-      "summary": "Ungewöhnlich warme Winter, trockene Sommer - das hat auch Folgen für den Winterschlaf der Tiere. Igel, Siebenschläfer und Fledermäuse entwickeln dabei ganz unterschiedliche Strategien. Von Stefanie Peyk. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/1024be9f-ce87-465f-a45b-ae37c127af23/AAABogjWvDk/AAABnSSvrFg/16x9-big/wasserfledermaus-106.jpg?width=1920",
-      "published": "2026-11-23T20:07:13+01:00",
-      "category": "Nachrichten",
-      "score": 44.31
+      "score": 38.81
     },
     {
       "id": "deutsche-welle-5c1f693bec90e56b",
@@ -2877,7 +2596,7 @@
       "image": "https://static.dw.com/image/60053550_6.jpg",
       "published": "2026-11-23T19:43:00+00:00",
       "category": "Nachrichten",
-      "score": 34.81
+      "score": 29.58
     },
     {
       "id": "deutsche-welle-dd26d22500cafc8b",
@@ -2889,7 +2608,7 @@
       "image": "https://static.dw.com/image/80017775_6.jpg",
       "published": "2026-11-23T18:23:00+00:00",
       "category": "Politik",
-      "score": 44.7
+      "score": 39.46
     },
     {
       "id": "deutsche-welle-4c6175aa3a3cdb4b",
@@ -2901,7 +2620,7 @@
       "image": "https://static.dw.com/image/72289630_6.jpg",
       "published": "2026-11-23T18:23:00+00:00",
       "category": "Politik",
-      "score": 81.64
+      "score": 39.46
     },
     {
       "id": "heise-641e3ebba864d261",
@@ -2913,7 +2632,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/6/4/7/8/2026-11-23-Upload2Shell-Aufmacher-d4e9316b2dc1873e.png",
       "published": "2026-11-23T16:03:00+01:00",
       "category": "Technologie",
-      "score": 30.92
+      "score": 25.69
     },
     {
       "id": "heise-a624bbba9ea2825c",
@@ -2925,7 +2644,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/6/5/6/6/jensen-huang-nvidia-0e5a3795258af86f.jpeg",
       "published": "2026-11-23T15:16:00+01:00",
       "category": "Wirtschaft",
-      "score": 64.08
+      "score": 58.84
     },
     {
       "id": "netzpolitik-0d59f73e5b2ef307",
@@ -2937,7 +2656,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/unsplash-who-is-watching-e1795436336151.jpg",
       "published": "2026-11-23T15:08:04+00:00",
       "category": "Technologie",
-      "score": 38.99
+      "score": 33.76
     },
     {
       "id": "deutsche-welle-2d35810c913e5780",
@@ -2949,7 +2668,7 @@
       "image": "https://static.dw.com/image/80021599_6.jpg",
       "published": "2026-11-23T14:57:00+00:00",
       "category": "Nachrichten",
-      "score": 30.84
+      "score": 25.6
     },
     {
       "id": "deutsche-welle-a3b7c3623d431f8a",
@@ -2961,7 +2680,7 @@
       "image": "https://static.dw.com/image/79940121_6.jpg",
       "published": "2026-11-23T14:43:00+00:00",
       "category": "Wirtschaft",
-      "score": 69.07
+      "score": 57.83
     },
     {
       "id": "heise-1bdb8ca5febbf282",
@@ -2973,7 +2692,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/6/4/3/6/2026-11-23-Microsoft_PC-Assist-Entruempelungsapp-Aufmacher-4f01c067f10ede11.png",
       "published": "2026-11-23T13:55:00+01:00",
       "category": "Technologie",
-      "score": 29.14
+      "score": 23.91
     },
     {
       "id": "deutsche-welle-6e4a3fb4832c6ad1",
@@ -2985,7 +2704,7 @@
       "image": "https://static.dw.com/image/80017348_6.jpg",
       "published": "2026-11-23T13:37:00+00:00",
       "category": "Nachrichten",
-      "score": 29.73
+      "score": 24.49
     },
     {
       "id": "heise-44647e6c66beac5c",
@@ -2997,7 +2716,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/6/2/4/4/art002e000192_orig-b3a7e4e9eedf0010.jpeg",
       "published": "2026-11-23T12:50:00+01:00",
       "category": "Technologie",
-      "score": 28.24
+      "score": 23.01
     },
     {
       "id": "netzpolitik-cfa7ea1b9783acb0",
@@ -3009,7 +2728,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/imago0870512151h-scaled.jpg",
       "published": "2026-11-23T12:41:33+00:00",
       "category": "Technologie",
-      "score": 25.96
+      "score": 20.72
     },
     {
       "id": "heise-62f4768bee6b44d9",
@@ -3021,7 +2740,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/6/3/1/2/2026-11-23-Signal-KI_Assistent-Blocker-Aufmacher-7b107848fbfc10b4.png",
       "published": "2026-11-23T12:13:00+01:00",
       "category": "Technologie",
-      "score": 38.99
+      "score": 33.76
     },
     {
       "id": "deutsche-welle-e440fc84fa3ac80e",
@@ -3033,7 +2752,7 @@
       "image": "https://static.dw.com/image/69206790_6.jpg",
       "published": "2026-11-23T10:59:00+00:00",
       "category": "Nachrichten",
-      "score": 27.53
+      "score": 22.3
     },
     {
       "id": "heise-26049f53d873ead3",
@@ -3045,7 +2764,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/6/1/9/5/2026-11-23-Hugendubel-Website-Mitteilung-Aufmacher-dd2b3ec160d6f341.png",
       "published": "2026-11-23T10:49:00+01:00",
       "category": "Technologie",
-      "score": 26.56
+      "score": 21.33
     },
     {
       "id": "deutsche-welle-25f88c4d81625046",
@@ -3057,7 +2776,7 @@
       "image": "https://static.dw.com/image/79842768_6.jpg",
       "published": "2026-11-23T10:42:00+00:00",
       "category": "Politik",
-      "score": 81.64
+      "score": 33.06
     },
     {
       "id": "deutsche-welle-c831a45c4d8f2584",
@@ -3069,7 +2788,7 @@
       "image": "https://static.dw.com/image/79966096_6.jpg",
       "published": "2026-11-23T10:25:00+00:00",
       "category": "Technologie",
-      "score": 27.06
+      "score": 21.83
     },
     {
       "id": "netzpolitik-e731e7b0e8925831",
@@ -3081,7 +2800,7 @@
       "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/Vermummung-e1795084558490.png",
       "published": "2026-11-23T10:07:43+00:00",
       "category": "Technologie",
-      "score": 23.82
+      "score": 18.59
     },
     {
       "id": "heise-3c8214016f049ec8",
@@ -3093,7 +2812,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/6/1/1/3/shutterstock_1125949817-2e906d7b39ae4375.jpeg",
       "published": "2026-11-23T09:16:00+01:00",
       "category": "Technologie",
-      "score": 25.27
+      "score": 20.03
     },
     {
       "id": "deutsche-welle-b8f2759bdbcb5663",
@@ -3105,7 +2824,7 @@
       "image": "https://static.dw.com/image/80017241_6.jpg",
       "published": "2026-11-23T09:10:00+00:00",
       "category": "Technologie",
-      "score": 26.02
+      "score": 20.78
     },
     {
       "id": "deutsche-welle-113528ae618aef49",
@@ -3117,7 +2836,7 @@
       "image": "https://static.dw.com/image/80016361_6.jpg",
       "published": "2026-11-23T09:02:00+00:00",
       "category": "Nachrichten",
-      "score": 25.91
+      "score": 20.67
     },
     {
       "id": "heise-e1e571a335c28f7c",
@@ -3129,19 +2848,7 @@
       "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/6/0/6/6/15343-b66825532f355d8e.jpeg",
       "published": "2026-11-23T07:42:00+01:00",
       "category": "Wissenschaft",
-      "score": 23.96
-    },
-    {
-      "id": "deutsche-welle-8dd0ac53178ce0a7",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Riskantes Manöver: Irak will Hisbollah-Brigaden entwaffnen",
-      "link": "https://www.dw.com/de/riskantes-manöver-irak-will-hisbollah-brigaden-entwaffnen/a-80003629?maca=de-rss-de-all-1119-rdf",
-      "summary": "Es ist die gefährlichste Auseinandersetzung zwischen dem irakischen Staat und den mit dem Iran verbündeten Milizen seit Jahrzehnten: Irakische Sicherheitskräfte wollen gegen die Miliz Kataib Hisbollah vorgehen.",
-      "image": "https://static.dw.com/image/79996371_6.jpg",
-      "published": "2026-11-23T05:11:00+00:00",
-      "category": "Technologie",
-      "score": 22.7
+      "score": 18.73
     }
   ]
 }
