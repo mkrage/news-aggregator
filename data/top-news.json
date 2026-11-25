@@ -1,25 +1,30 @@
 {
-  "generatedAt": "2026-11-25T08:53:19.035146+00:00",
+  "generatedAt": "2026-11-25T16:28:33.276629+00:00",
   "count": 15,
   "articles": [
     {
-      "id": "handelsblatt-8a241ffbc61355de",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ Iran-Krieg +++: Huthi drohen mit Angriffen auf saudi-arabische Häfen am Roten Meer",
-      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-huthi-drohen-mit-angriffen-auf-saudi-arabische-haefen-am-roten-meer/100136895.html",
-      "summary": "Hamas-Anführer bei israelischem Angriff im Gazastreifen getötet +++ Irak ordnet Kontrolle über Ölfelder in Kurdenregion an +++ Bahrain gerät unter iranischen Beschuss +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/EzTZC8aUXEhh/cover/900/506/0/0/154/155/0.5/0.5/urnnewsmldpa.com20090101260306-935-1198808.jpg",
-      "published": "2026-11-25T04:51:00+00:00",
+      "id": "tagesschau-bd33fe43dc421d9a",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Berliner Linke schließt Emde aus Fraktion aus",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/emde-ausschluss-berlin-linke-100.html",
+      "summary": "Wochenlang diskutierten Grüne, SPD und Linke in Berlin über die Personalie Emde. Die Abgeordnete steht wegen ihrer Positionen zu Israel in der Kritik. Nun hat die Fraktion mit der nötigen Mehrheit für ihren Ausschluss gestimmt.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/1c451789-1eed-4126-9883-2749033be163/AAABog5ru3c/AAABnSSvrFg/16x9-big/emde-104.jpg?width=1920",
+      "published": "2026-11-24T19:47:32+01:00",
       "category": "Politik",
-      "score": 89.63,
+      "score": 83.4,
       "coverage": {
-        "sourceCount": 2,
+        "sourceCount": 3,
         "others": [
           {
-            "source": "deutsche-welle",
-            "title": "Hamas-Anführer bei Angriff Israels im Gazastreifen getötet",
-            "link": "https://www.dw.com/de/hamas-anführer-bei-angriff-israels-im-gazastreifen-getötet/a-80034053?maca=de-rss-de-all-1119-rdf"
+            "source": "deutschlandfunk",
+            "title": "Berliner Regierungsbildung - SPD-Politiker Krach: \"Emdes Ausschluss löst Antisemitismus-Problem nicht\"",
+            "link": "https://www.deutschlandfunk.de/spd-politiker-krach-emdes-ausschluss-loest-antisemitismus-problem-nicht-100.html"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Deutschland: Berliner Linke schließt Vanessa Emde aus der Fraktion aus",
+            "link": "https://www.handelsblatt.com/video/politik/vanessa-emde-berliner-linke-schliesst-abgeordnete-aus-der-fraktion-aus/100272659.html"
           }
         ]
       }
@@ -34,258 +39,213 @@
       "image": "https://images.tagesschau.de/image/7cf71a19-191c-4efd-9cb2-5b384644322a/AAABog5AniM/AAABnSSvrFg/16x9-big/huang-142.jpg?width=1920",
       "published": "2026-11-24T21:17:10+01:00",
       "category": "Politik",
-      "score": 88.44,
+      "score": 83.29,
       "coverage": {
-        "sourceCount": 3,
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "netzpolitik",
+            "title": "Trump und Huang: Die Tech-Oligarchie ist außer Kontrolle",
+            "link": "https://netzpolitik.org/2026/trump-und-huang-die-tech-oligarchie-ist-ausser-kontrolle/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-28d7d7b1cc31ea69",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Generaldebatte im Bundestag: Nachdenkliche Töne und ein Zugeständnis",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/haushalt-generaldebatte-merz-100.html",
+      "summary": "Selbstkritisch hat Bundeskanzler Merz im Bundestag den Kurs seiner Regierung verteidigt. Bei der Rede war es ungewöhnlich leise im Saal. Merz führte aus, wessen Kanzler er sein will - ein Zugeständnis an die SPD ging beinahe unter. Von S. Henkel. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/09c3379e-212c-477e-9d65-2aed1e86e86f/AAABohN5NtI/AAABnSSvrFg/16x9-big/merz-1820.jpg?width=1920",
+      "published": "2026-11-25T17:10:40+01:00",
+      "category": "Politik",
+      "score": 78.75,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Generaldebatte im Bundestag - Merz: Von sozialem Kahlschlag kann keine Rede sein",
+            "link": "https://www.deutschlandfunk.de/merz-von-sozialem-kahlschlag-kann-keine-rede-sein-100.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-a11ef04df3f7278e",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Bundestag - Linken-Abgeordnete blockieren Veranstaltung mit Ex-Mossad-Chef - Vorfall im Parlament soll ein Nachspiel haben",
+      "link": "https://www.deutschlandfunk.de/linken-abgeordnete-blockieren-veranstaltung-mit-ex-mossad-chef-vorfall-im-parlament-soll-ein-nachspi-100.html",
+      "summary": "Abgeordnete der Linksfraktion im Bundestag haben kurzzeitig den Zugang zu einer Veranstaltung mit dem ehemaligen Chef des israelischen Geheimdienstes Mossad blockiert.",
+      "image": "https://bilder.deutschlandfunk.de/26/77/26/72/26772672-1cf8-4000-b735-209d1797f2f1/ex-mossad-chef-david-barnea-100-1920x1920.jpg",
+      "published": "2026-11-25T17:08:38+01:00",
+      "category": "Politik",
+      "score": 77.72
+    },
+    {
+      "id": "deutschlandfunk-e2ea8af9f233552b",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Ukraine-Krieg - Gemischte Reaktionen nach ukrainischem Angriff auf russische Schiffe vor Libyen",
+      "link": "https://www.deutschlandfunk.de/gemischte-reaktionen-nach-ukrainischem-angriff-auf-russische-schiffe-vor-libyen-100.html",
+      "summary": "Die ukrainischen Angriffe auf zwei russische Schiffe vor der libyschen Küste stoßen international auf gemischte Reaktionen.",
+      "image": "https://bilder.deutschlandfunk.de/ae/7b/8b/8e/ae7b8b8e-205e-4668-a0a8-ef4dae85e36b/ukrainisches-kriegsschiff-libyen-100-1280x1280.jpg",
+      "published": "2026-11-25T17:08:38+01:00",
+      "category": "Politik",
+      "score": 77.72
+    },
+    {
+      "id": "deutschlandfunk-f2e3c8252515505a",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Nach Luftraum-Verletzungen - Polen will Flugverbotszone an der Grenze zur Ukraine einrichten",
+      "link": "https://www.deutschlandfunk.de/polen-will-flugverbotszone-an-der-grenze-zur-ukraine-einrichten-102.html",
+      "summary": "Nach wiederholten Verletzungen seines Luftraums will Polen eine Flugverbotszone an der Grenze zur Ukraine einrichten.",
+      "image": "https://bilder.deutschlandfunk.de/f6/4a/8e/69/f64a8e69-5621-434d-88b0-dab88c72564a/polen-luftraum-ukraine-100-1920x1920.jpg",
+      "published": "2026-11-25T17:08:38+01:00",
+      "category": "Politik",
+      "score": 77.72,
+      "coverage": {
+        "sourceCount": 2,
         "others": [
           {
             "source": "spiegel",
-            "title": "Gefährliche Bromance: Warum die Rückkehr von Nvidia-Chef Huang für Trump zum Problem werden könnte",
-            "link": "https://www.spiegel.de/ausland/gefaehrliche-bromance-warum-die-rueckkehr-von-nvidia-chef-huang-fuer-trump-zum-problem-werden-koennte-a-2668e5ab-9cf5-4605-9f80-cdf0838c0964#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Chipkonzern: Was Nvidia, Huang und Trumps Regierung jetzt vor dem US-Kongress droht",
-            "link": "https://www.handelsblatt.com/politik/international/nividia-was-huang-und-trumps-regierung-jetzt-vor-dem-us-kongress-droht/100272477.html"
+            "title": "Polen plant Flugverbotszone an Grenze zur Ukraine",
+            "link": "https://www.spiegel.de/ausland/polen-plant-flugverbotszone-an-grenze-zur-ukraine-a-48f2a001-0790-4c83-9d83-5ef4c91a389d#ref=rss"
           }
         ]
       }
     },
     {
-      "id": "tagesschau-bd33fe43dc421d9a",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Berliner Linke schließt Emde aus Fraktion aus",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/emde-ausschluss-berlin-linke-100.html",
-      "summary": "Wochenlang diskutierten Grüne, SPD und Linke in Berlin über die Personalie Emde. Die Abgeordnete steht wegen ihrer Positionen zu Israel in der Kritik. Nun hat die Fraktion mit der nötigen Mehrheit für ihren Ausschluss gestimmt.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/1c451789-1eed-4126-9883-2749033be163/AAABog5ru3c/AAABnSSvrFg/16x9-big/emde-104.jpg?width=1920",
-      "published": "2026-11-24T19:47:32+01:00",
-      "category": "Politik",
-      "score": 83.61,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Berlin - Nach Ausschluss aus der Linken-Fraktion: Landesvorsitzende Wolter fordert Vanessa Emde erneut zum Mandatsverzicht auf",
-            "link": "https://www.deutschlandfunk.de/nach-ausschluss-aus-der-linken-fraktion-landesvorsitzende-wolter-fordert-vanessa-emde-erneut-zum-man-100.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Regierungsbildung: Wie es in Berlin nach Emdes Ausschluss weitergeht",
-            "link": "https://www.handelsblatt.com/politik/deutschland/regierungsbildung-wie-es-in-berlin-nach-emdes-ausschluss-weitergeht/100272561.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-81c1f91d9b0f36de",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "US-Gericht spricht Huawei wegen Betrugs schuldig",
-      "link": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/huawei-geldwaesche-us-gericht-urteil-100.html",
-      "summary": "Der chinesische Technologiekonzern Huawei ist in den USA in einem jahrelangen Strafverfahren schuldig gesprochen worden. Eine Jury in Brooklyn befand das Unternehmen in zehn von zwölf Anklagepunkten für schuldig.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/a768e361-de60-4895-a12e-46c8cbe8f5b8/AAABmT4zjMA/AAABnSSvrFg/16x9-big/huawei-logo-100.jpg?width=1920",
-      "published": "2026-11-25T09:25:40+01:00",
-      "category": "Wirtschaft",
-      "score": 78.93,
-      "coverage": {
-        "sourceCount": 4,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Chinesischer Technologiekonzern - US-Gericht spricht Huawei der Industriespionage schuldig",
-            "link": "https://www.deutschlandfunk.de/us-gericht-spricht-huawei-der-industriespionage-schuldig-100.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Jahrelanges Verfahren: US-Geschworene sprechen Huawei der Geldwäsche schuldig",
-            "link": "https://www.handelsblatt.com/technik/it-internet/jahrelanges-verfahren-us-geschworene-sprechen-huawei-der-geldwaesche-schuldig/100272536.html"
-          },
-          {
-            "source": "golem",
-            "title": "Vorwurf der Geldwäsche: US-Gericht spricht Huawei schuldig",
-            "link": "https://www.golem.de/news/vorwurf-der-geldwaesche-huawei-wurde-vom-us-gericht-fuer-schuldig-befunden-2611-215624.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-ef643d72504ed0a4",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Heftiger Schlagabtausch bei Generaldebatte erwartet",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/generaldebatte-bundestag-150.html",
-      "summary": "Kanzler Merz im Fokus: Bei der Haushaltswoche im Bundestag wird heute der Etat des Kanzleramts verhandelt. Traditionell eine Gelegenheit für die Opposition, mit der Regierung abzurechnen. Heftig gestritten werden könnte über die neuen Schulden.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/caa4dd14-cd4e-4349-b4bf-2274d7dfd550/AAABogip7hg/AAABnSSvrFg/16x9-big/bundestag-1450.jpg?width=1920",
-      "published": "2026-11-25T07:32:57+01:00",
-      "category": "Politik",
-      "score": 78.93,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Bundestag - Haushaltsberatungen: Generaldebatte mit Kanzler Merz",
-            "link": "https://www.deutschlandfunk.de/haushaltsberatungen-generaldebatte-mit-kanzler-merz-104.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-b4053875abfb67e3",
+      "id": "spiegel-406b13a90f7f26db",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Nvidia: Jensen Huang entschuldigt sich bei Belegschaft und spricht über seine Therapie",
-      "link": "https://www.spiegel.de/wirtschaft/nvidia-jensen-huang-entschuldigt-sich-bei-belegschaft-und-spricht-ueber-seine-therapie-a-b5286ad4-9ebb-4aa8-b004-d1825b9f262e#ref=rss",
-      "summary": "Einen Tag nach seiner Rückkehr an die Spitze von Nvidia wendet sich Jensen Huang an die Belegschaft: Er räumt »schreckliche Fehler« ein, verteidigt aber sein Comeback. Und erklärt Donald Trumps Rolle dabei.",
-      "image": "https://cdn.prod.www.spiegel.de/images/0046628e-c537-4cd4-92d6-e2578334ce46_w1200_r1.778_fpx43_fpy30.jpg",
-      "published": "2026-11-25T02:06:00+01:00",
-      "category": "Politik",
-      "score": 77.94,
+      "title": "EU verlängert Lockerung bei Staatshilfen wegen Energiekrise",
+      "link": "https://www.spiegel.de/wirtschaft/eu-verlaengert-lockerung-bei-staatshilfen-wegen-energiekrise-a-2a42cfb1-d7a5-4d1b-8873-cdb7f9feaa4f#ref=rss",
+      "summary": "Deutschland und andere EU-Staaten dürfen angesichts der Energiekrise länger Landwirte, Industrie und andere Unternehmen besonders entlasten. Die EU lockert ihre strengen Regeln für staatliche Beihilfen bis Juni 2027.",
+      "image": "https://cdn.prod.www.spiegel.de/images/4b25e9ec-3483-423e-89f9-dfb02b5c440d_w1200_r1.778_fpx33.34_fpy50.jpg",
+      "published": "2026-11-25T17:08:00+01:00",
+      "category": "Wirtschaft",
+      "score": 77.71,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "golem",
-            "title": "Nvidia: Jensen Huang lehnt Nachfolgeregelung ab",
-            "link": "https://www.golem.de/news/nvidia-jensen-huang-lehnt-nachfolgeregelung-ab-2611-215628.html"
+            "source": "handelsblatt",
+            "title": "Energiekrise: EU verlängert Lockerung bei Staatshilfen",
+            "link": "https://www.handelsblatt.com/politik/international/energiekrise-eu-verlaengert-lockerung-bei-staatshilfen/100272748.html"
           }
         ]
       }
     },
     {
-      "id": "deutschlandfunk-ddc834752ff94ca6",
-      "source": "deutschlandfunk",
+      "id": "spiegel-8e8129f41cd011ab",
+      "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Unwetter - Experten warnen vor Extrem-Hochwasser in Kalifornien",
-      "link": "https://www.deutschlandfunk.de/experten-warnen-vor-extrem-hochwasser-in-kalifornien-102.html",
-      "summary": "Der US-Bundesstaat Kalifornien ist weiter von Überschwemmungen betroffen und von einer Rekord-Flut bedroht.",
-      "image": "https://bilder.deutschlandfunk.de/8d/51/5c/d4/8d515cd4-7cf3-4a67-84a2-7cf514c32dce/ueberschwemmungen-kalifornien-unwetter-100-1920x1920.jpg",
-      "published": "2026-11-25T09:47:59+01:00",
-      "category": "Nachrichten",
-      "score": 74.93
-    },
-    {
-      "id": "handelsblatt-193e53aaf0d27fbd",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Wie sicher sind wir?: Die Ukraine, der Weg zum Frieden – und was Deutschland tun muss",
-      "link": "https://www.handelsblatt.com/audio/wie-sicher-sind-wir-podcast/wie-sicher-sind-wir-die-ukraine-der-weg-zum-frieden-und-was-deutschland-tun-muss/100272548.html",
-      "summary": "Der Ukraine steht der nächste harte Kriegswinter bevor. Um gegen Russland bestehen zu können, benötigt das Land weitere Hilfen. Was genau braucht die Ukraine – und welche Rolle spielt Deutschland?",
-      "image": "https://images.handelsblatt.com/K0qR3dsgj01X/cover/900/506/0/0/175/175/0.5/0.5/wie-sicher-sind-wir.jpg",
-      "published": "2026-11-25T05:52:11+00:00",
+      "title": "Bundestag: Tumulte rund um Besuch von Ex-Mossad-Chef David Barnea",
+      "link": "https://www.spiegel.de/politik/deutschland/bundestag-tumulte-rund-um-besuch-von-ex-mossad-chef-david-barnea-a-a900cae3-9de2-469f-a225-d3a5e2b6cd73#ref=rss",
+      "summary": "Eine Veranstaltung mit Ex-Mossad-Chef Barnea sorgt für Aufregung im Bundestag. Linkenabgeordnete blockieren kurzzeitig den Raum, ein Aktivist stört die Veranstaltung. Es kommt zu Rangeleien, die Polizei muss eingreifen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/d0381917-1e68-4d5c-ad0e-fa5340777f99_w1200_r1.778_fpx33.33_fpy49.99.jpg",
+      "published": "2026-11-25T16:09:00+01:00",
       "category": "Politik",
-      "score": 74.48
-    },
-    {
-      "id": "handelsblatt-565fdb08498551e4",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ USA unter Trump +++: Cyberangriff auf CIA-System – Keine vertraulichen Daten betroffen",
-      "link": "https://www.handelsblatt.com/politik/international/usa-cyberangriff-auf-cia-system-keine-vertraulichen-daten-betroffen/29669594.html",
-      "summary": "Trump attackiert Newsom bei Rede im Justizministerium +++ Trump: Todesurteile in den USA schneller vollstrecken +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/icwi3nqe5-9O/cover/900/506/124/0/102/230/0.5/0.5/cia-logo.jpeg",
-      "published": "2026-11-25T04:41:00+00:00",
-      "category": "Politik",
-      "score": 73.5,
+      "score": 76.9,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
             "source": "deutsche-welle",
-            "title": "Trump will Todesstrafe schneller vollstrecken lassen",
-            "link": "https://www.dw.com/de/trump-will-todesstrafe-schneller-vollstrecken-lassen/a-80028901?maca=de-rss-de-all-1119-rdf"
+            "title": "Durch die Hintertür: Ex-Mossad-Chef sorgt im Bundestag für Wirbel",
+            "link": "https://www.dw.com/de/durch-die-hintertür-ex-mossad-chef-sorgt-im-bundestag-für-wirbel/a-80045432?maca=de-rss-de-all-1119-rdf"
           }
         ]
       }
     },
     {
-      "id": "spiegel-be2ddf0479fcdb82",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Ukraine-Krieg: Selenskyj weist Lukaschenkos Moskau-Vorschlag zurück",
-      "link": "https://www.spiegel.de/ausland/ukraine-krieg-selenskyj-weist-lukaschenkos-moskau-vorschlag-zurueck-a-93d67249-3b6c-427e-8281-f5b38c909950#ref=rss",
-      "summary": "Mit einer aberwitzigen Idee hatte sich der belarussische Diktator Lukaschenko zuletzt an die Ukraine gewandt: Präsident Selenskyj könne doch einfach mit ihm zu Verhandlungen nach Moskau reisen. Nun kam die unmissverständliche Antwort.",
-      "image": "https://cdn.prod.www.spiegel.de/images/4052333a-0eae-4b70-99ac-208174f93c85_w1200_r1.778_fpx38.7_fpy50.jpg",
-      "published": "2026-11-25T02:54:00+01:00",
-      "category": "Politik",
-      "score": 72.18
-    },
-    {
-      "id": "deutschlandfunk-1ba74cf4372637d0",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Kooperation - Flixtrain-Tickets bald bei der Deutschen Bahn buchbar",
-      "link": "https://www.deutschlandfunk.de/flixtrain-tickets-bald-bei-der-deutschen-bahn-buchbar-100.html",
-      "summary": "Reisende können Tickets von Flixtrain schon bald auch auf den Plattformen der Deutschen Bahn kaufen.",
-      "image": "https://bilder.deutschlandfunk.de/87/13/ac/73/8713ac73-0dee-4377-9ba2-f18fa0659904/flixtrain-db-100-1920x1920.jpg",
-      "published": "2026-11-25T09:47:59+01:00",
-      "category": "Nachrichten",
-      "score": 71.61,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Deutsche Bahn und Flixtrain verkaufen bald gemeinsam Tickets",
-            "link": "https://www.spiegel.de/wirtschaft/service/deutsche-bahn-und-flixtrain-verkaufen-bald-gemeinsam-tickets-a-e776561d-f14e-4697-aa9e-5cf7315f0ffa#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Zugfahrten: Flixtrain-Tickets bald bei der Deutschen Bahn buchbar",
-            "link": "https://www.handelsblatt.com/politik/deutschland/zugfahrten-flixtrain-tickets-bald-bei-der-deutschen-bahn-buchbar/100272599.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-0fb807c972c41625",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Nvidia - Huang weist Darstellung der Einflussnahme durch Trump zurück",
-      "link": "https://www.deutschlandfunk.de/huang-weist-darstellung-der-einflussnahme-durch-trump-zurueck-100.html",
-      "summary": "Nach seiner Rückkehr an die Spitze des Chipherstellers Nvidia hat Konzernchef Huang bestritten, dass die Entscheidung auf eine Einflussnahme durch US-Präsident Trump zurückging. Der Nvidia-Verwaltungsrat habe den Beschluss eigenständig getroffen, erklärte Huang auf einer Betriebsversammlung.",
-      "image": "https://bilder.deutschlandfunk.de/46/48/55/79/46485579-b3e6-45b9-b9ea-eb04a61903c8/huang-trump-100-1920x1920.jpg",
-      "published": "2026-11-25T09:47:59+01:00",
-      "category": "Politik",
-      "score": 69.93
-    },
-    {
-      "id": "spiegel-c656937e8533736b",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Bundestag: Friedrich Merz verteidigt seine Politik, es gehe nicht um einen »Beautycontest« – live",
-      "link": "https://www.spiegel.de/politik/deutschland/bundestag-so-laeuft-die-generaldebatte-zum-haushalt-live-a-e9f39663-47e8-4835-a192-24bcfe73cc6e#ref=rss",
-      "summary": "Streit, Ärger und zähe Verhandlungen - erst dann hatten sich die Koalition auf den Etat 2027 verständigt. Nun steht der Höhepunkt in der Haushaltswoche an. Wie angriffslustig präsentiert sich Merz, was sagt die Opposition? Verfolgen Sie die Debatte im Stream und der Liveanalyse.",
-      "image": "https://cdn.prod.www.spiegel.de/images/84ce1933-f119-4aa6-91db-019b51c4a826_w1200_r1.778_fpx36.64_fpy45.jpg",
-      "published": "2026-11-25T09:33:00+01:00",
-      "category": "Politik",
-      "score": 69.72
-    },
-    {
-      "id": "deutsche-welle-3787a52d0f323217",
+      "id": "deutsche-welle-08b4fa52ff616fe4",
       "source": "deutsche-welle",
       "sourceWeight": 0.9,
-      "title": "\"Russisches Starlink\" - Wie kann Rasswet den Ukraine-Krieg verändern?",
-      "link": "https://www.dw.com/de/russisches-starlink-wie-kann-rasswet-den-ukraine-krieg-verändern/a-80033063?maca=de-rss-de-all-1119-rdf",
-      "summary": "Das US-Starlink-System von SpaceX spielt in der Ukraine eine wichtige Rolle bei der Abwehr der militärischen Aggression Russlands. Der Kreml hat nun beschlossen, ein Pendant dazu aufzubauen. Welche Gefahr birgt das?",
-      "image": "https://static.dw.com/image/71856660_6.jpg",
-      "published": "2026-11-24T20:59:00+00:00",
+      "title": "Ostsee und Mittelmeer: Neue Schauplätze im Ukraine-Krieg",
+      "link": "https://www.dw.com/de/ostsee-und-mittelmeer-neue-schauplätze-im-ukraine-krieg/a-80043488?maca=de-rss-de-all-1119-rdf",
+      "summary": "Attacken auf russische Schiffe reichen inzwischen bis ins Mittelmeer. Kiew setzt Moskau global unter Druck - mit möglichen Folgen für Europa und den Handel auf den Weltmeeren. Wie groß ist die Gefahr einer Eskalation?",
+      "image": "https://static.dw.com/image/80042297_6.jpg",
+      "published": "2026-11-25T11:19:00+00:00",
       "category": "Politik",
-      "score": 67.08
+      "score": 72.7
     },
     {
-      "id": "golem-760b75aef089f3e2",
+      "id": "spiegel-2c85bd4038f0f4d1",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Bundestag: Die wichtigsten Szenen von Merz, Reichinnek und Co.",
+      "link": "https://www.spiegel.de/politik/deutschland/bundestag-die-wichtigsten-szenen-von-merz-reichinnek-und-co-a-2b94b292-5638-4ede-b658-b4b6310b7dbd#ref=rss",
+      "summary": "Der Kanzler gibt zu: Mit dem Haushalts-Hickhack hat die Koalition »keinen Beauty-Contest gewonnen«. Das war’s aber auch schon mit Selbstkritik. Deutlich schärfer argumentiert die Opposition, die AfD spricht gar von »Sozialismus«.",
+      "image": "https://cdn.prod.www.spiegel.de/images/01e9c7b7-cf58-4c5d-b539-3fcd7b44c238_w1200_r1.778_fpx44.99_fpy31.33.jpg",
+      "published": "2026-11-25T16:31:00+01:00",
+      "category": "Politik",
+      "score": 69.2
+    },
+    {
+      "id": "handelsblatt-312215e69bb5d9f6",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Bundestag: Generaldebatte zum Bundeshaushalt: Scharfe Kritik aus der Opposition",
+      "link": "https://www.handelsblatt.com/video/politik/bundestag-generaldebatte-zum-bundeshaushalt-scharfe-kritik-aus-der-opposition/100272747.html",
+      "summary": "Die Grünen bezeichnen den schwarz-roten Haushaltsentwurf als „unseriös“, die Linke spricht von einer „Kürzungsorgie“ und die AfD will klagen. Kanzler Merz (CDU) räumt Schwächen im Verfahren ein, verteidigt die Pläne aber ebenso wie die SPD.",
+      "image": "https://images.handelsblatt.com/Fb-95fDN6uoX/cover/1280/720/0/0/0/0/0.5/0.5/.jpg",
+      "published": "2026-11-25T16:06:00+00:00",
+      "category": "Politik",
+      "score": 68.69
+    },
+    {
+      "id": "handelsblatt-72475f81d43d48e3",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Wall Street: Erneuter Ausverkauf: US-Börsen brechen weiter ein – Nvidia verliert sieben Prozent",
+      "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-erneuter-ausverkauf-us-boersen-brechen-weiter-ein/100272701.html",
+      "summary": "Auch die Rückendeckung des US-Präsidenten für Nvidia-Chef Huang ändert nichts am Ausverkauf der Techwerte. Derweil denkt Trump sogar über eine Staatsbeteiligung bei dem Unternehmen nach.",
+      "image": "https://images.handelsblatt.com/P-73zvwpCO2y/cover/900/506/0/0/75/75/0.5/0.5/wall-street.jpeg",
+      "published": "2026-11-25T15:58:32+00:00",
+      "category": "Wirtschaft",
+      "score": 68.58
+    },
+    {
+      "id": "handelsblatt-b9a2a9eeba8240c3",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Rentnerparadies: Rente im Ausland: Dieses Tool zeigt, wohin Sie auswandern sollten",
+      "link": "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-sparen/rente-welches-land-passt-am-besten-fuer-ihren-ruhestand-so-finden-sie-es-heraus/100168299.html",
+      "summary": "Den Lebensabend im Ausland verbringen, davon träumen viele. Doch wie finden Sie zum Beispiel heraus, in welchem Land am Meer es sonnig und sicher ist? Das Handelsblatt hilft bei der Auswahl.",
+      "image": "https://images.handelsblatt.com/aqNLFTYn9usL/cover/900/506/0/0/67/196/0.5/0.5/auswandern-im-alter.jpg",
+      "published": "2026-11-25T15:55:00+00:00",
+      "category": "Politik",
+      "score": 68.53
+    },
+    {
+      "id": "deutsche-welle-f12fd6bbfeb848fa",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "Ungarn-Ukraine: Peter Magyar und Wolodymyr Selenskyj wagen Neustart",
+      "link": "https://www.dw.com/de/ungarn-ukraine-peter-magyar-und-wolodymyr-selenskyj-wagen-neustart/a-80048613?maca=de-rss-de-all-1119-rdf",
+      "summary": "Lange vergiftete Viktor Orbans prorussischer Kurs Ungarns Verhältnis zur Ukraine. Nun schaffen Premier Magyar und Präsident Selenskyj bei einem Treffen eine neue Vertrauensbasis - und vereinbaren konkrete Schritte.",
+      "image": "https://static.dw.com/image/80040962_6.jpg",
+      "published": "2026-11-25T14:52:00+00:00",
+      "category": "Politik",
+      "score": 67.66
+    },
+    {
+      "id": "golem-74a86ee0852269a5",
       "source": "golem",
       "sourceWeight": 0.85,
-      "title": "Haushalt 2027: Grüne fordern Digitalabgabe und Geld für dezentrale Dienste",
-      "link": "https://www.golem.de/news/haushalt-2027-gruene-fordern-digitalabgabe-und-geld-fuer-dezentrale-dienste-2611-215618.html",
-      "summary": "Der Bund darf 2027 mehr als fünf Milliarden Euro für Digitalisierung ausgeben. Die Opposition fordert mehr Widerstand gegen die US-IT-Konzerne. ( Deutscher Bundestag , Datenschutz )",
-      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215618&amp;page=1&amp;ts=1795587302",
-      "published": "2026-11-25T07:15:02+01:00",
-      "category": "Politik",
-      "score": 65.8
+      "title": "Moritz Schularick: Ökonom schlägt Verkauf von VW an China vor",
+      "link": "https://www.golem.de/news/moritz-schularick-oekonom-schlaegt-verkauf-von-vw-an-china-vor-2611-215651.html",
+      "summary": "VW sollte an China verkauft werden, \"solange wir noch was für die kriegen\", schlägt der Präsident des Kiel-Instituts für Weltwirtschaft vor. ( VW , Wirtschaft )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215651&amp;page=1&amp;ts=1795617602",
+      "published": "2026-11-25T15:40:02+01:00",
+      "category": "Wirtschaft",
+      "score": 66.49
     }
   ]
 }
