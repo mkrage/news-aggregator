@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T00:45:09.890623+00:00",
+  "generatedAt": "2026-11-26T02:55:37.689744+00:00",
   "count": 15,
   "articles": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images.tagesschau.de/image/847c043d-5aa0-49a9-900c-a52053a5a18e/AAABohQQeJM/AAABnSSvrFg/16x9-big/netanjahu-424.jpg?width=1920",
       "published": "2026-11-25T20:50:08+01:00",
       "category": "Politik",
-      "score": 78.77,
+      "score": 78.67,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -25,16 +25,36 @@
       }
     },
     {
-      "id": "tagesschau-03f17a507a27a6e8",
+      "id": "tagesschau-8ee4024fcfca82ef",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Ukraine-Hilfe polarisiert die Generaldebatte im Bundestag",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/bundestag-generaldebatte-ukraine-hilfe-100.html",
-      "summary": "Im Bundestag wurde über den Haushalt 2027 debattiert. Darin auch enthalten: rund zwölf Milliarden Euro Ukraine-Hilfe. Für die AfD ist das eine Veruntreuung von Steuergeldern, für Kanzler Merz die Verteidigung \"unserer Freiheit\". Von Nicole Markwald. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/bcd27a52-99f9-4134-9b94-9d8b22e471c4/AAABohPD-PQ/AAABnSSvrFg/16x9-big/merz-weidel-114.jpg?width=1920",
-      "published": "2026-11-25T19:10:19+01:00",
-      "category": "Politik",
-      "score": 73.52
+      "title": "SpaceX darf eine Million Satelliten für KI-Rechenzentren ins All schicken",
+      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/spacex-eine-million-satelliten-100.html",
+      "summary": "SpaceX plant im All ein Netz aus Satelliten, die als Rechenzentren dienen sollen. Die US-Behörden haben das Vorhaben nun erlaubt. Ziel ist es, die enorme Nachfrage nach Rechenleistung für Künstliche Intelligenz zu befriedigen.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/ee1320b8-70a0-4194-b749-b4edd868901c/AAABohVSmy8/AAABnSSvrFg/16x9-big/spacex-326.jpg?width=1920",
+      "published": "2026-11-26T02:58:55+01:00",
+      "category": "Technologie",
+      "score": 75.67,
+      "coverage": {
+        "sourceCount": 4,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Raumfahrt - SpaceX darf eine Million Satelliten für KI-Rechenzentren ins All bringen",
+            "link": "https://www.deutschlandfunk.de/spacex-darf-eine-million-satelliten-fuer-ki-rechenzentren-ins-all-bringen-102.html"
+          },
+          {
+            "source": "spiegel",
+            "title": "Elon Musk: SpaceX erhält FCC-Genehmigung für KI-Rechenzentren im Weltall",
+            "link": "https://www.spiegel.de/wissenschaft/elon-musk-spacex-erhaelt-fcc-genehmigung-fuer-ki-rechenzentren-im-weltall-a-0547f262-8951-4710-a8f0-c99caba8d37f#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Weltraum: SpaceX darf eine Million Satelliten für KI-Rechenzentren ins All bringen",
+            "link": "https://www.handelsblatt.com/technik/forschung-innovation/weltraum-spacex-darf-eine-million-satelliten-fuer-ki-rechenzentren-ins-all-bringen/100272811.html"
+          }
+        ]
+      }
     },
     {
       "id": "tagesschau-0077db520614bf8b",
@@ -46,7 +66,7 @@
       "image": "https://images.tagesschau.de/image/9529bd48-dd16-4734-a442-58358ce3336a/AAABohL7BTM/AAABnSSvrFg/16x9-big/donald-trump-1018.jpg?width=1920",
       "published": "2026-11-25T16:18:25+01:00",
       "category": "Nachrichten",
-      "score": 72.45,
+      "score": 72.35,
       "coverage": {
         "sourceCount": 3,
         "others": [
@@ -73,7 +93,43 @@
       "image": "https://images.handelsblatt.com/OpvyaWpQURtA/cover/900/506/0/0/67/67/0.5/0.5/a-russian-mig-31-fighter-jet-flies-in-the-international-airspace-over-the-gulf-of-finland-september.jpg",
       "published": "2026-11-25T18:52:00+00:00",
       "category": "Politik",
-      "score": 72.09
+      "score": 70.28
+    },
+    {
+      "id": "deutschlandfunk-292853d93719cb92",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Vor Wahl in Spanien - Tausende Migranten erreichen Kanaren - Regionalpräsident bittet EU um Hilfe",
+      "link": "https://www.deutschlandfunk.de/tausende-migranten-erreichen-kanaren-regionalpraesident-bittet-eu-um-hilfe-102.html",
+      "summary": "Nach Angaben der spanischen Behörden sind am Dienstag fast 2.000 Migranten auf den Kanarischen Inseln angekommen.",
+      "image": "https://bilder.deutschlandfunk.de/90/d0/dc/99/90d0dc99-4074-479c-9235-8ceb7de9cf8d/hierra-migration-spanien-100-1920x1920.jpg",
+      "published": "2026-11-26T03:31:51+01:00",
+      "category": "Politik",
+      "score": 69.67
+    },
+    {
+      "id": "deutschlandfunk-74fec1d332efbc63",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Sachsen-Anhalt - AfD reicht Wahlvorschlag für Siegmund offiziell ein - Protest in Magdeburg für 8. Dezember geplant",
+      "link": "https://www.deutschlandfunk.de/afd-reicht-wahlvorschlag-fuer-siegmund-offiziell-ein-protest-in-magdeburg-fuer-8-dezember-geplant-102.html",
+      "summary": "Die AfD-Landtagsfraktion in Sachsen-Anhalt hat ihren Spitzenkandidaten Siegmund offiziell für die Wahl des Ministerpräsidenten vorgeschlagen. Sie beantragte im Magdeburger Parlament die Einberufung einer Sondersitzung.",
+      "image": "https://bilder.deutschlandfunk.de/e6/de/d2/8e/e6ded28e-7c15-428d-96fb-ce33920f5f06/afd-siegmund-sachsen-anhalt-100-1920x1920.jpg",
+      "published": "2026-11-26T03:31:51+01:00",
+      "category": "Politik",
+      "score": 69.67
+    },
+    {
+      "id": "deutschlandfunk-edf0940ca7e65235",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Brüssel - EU-Staats- und Regierungschefs beraten über Haushalt - Kanzler Merz drängt auf gemeinsame Finanzierung neuer Ukraine-Hilfen",
+      "link": "https://www.deutschlandfunk.de/eu-staats-und-regierungschefs-beraten-ueber-haushalt-kanzler-merz-draengt-auf-gemeinsame-finanzierun-100.html",
+      "summary": "Die Staats- und Regierungschefs der Europäischen Union kommen heute zu einem zweitägigen Sondergipfel in Brüssel zusammen.",
+      "image": "https://bilder.deutschlandfunk.de/8b/b5/4c/78/8bb54c78-27c8-4caa-a09c-34e52bf8bbf2/eu-rat-bundeskanler-merz-100-1920x1920.jpg",
+      "published": "2026-11-26T03:31:51+01:00",
+      "category": "Politik",
+      "score": 69.67
     },
     {
       "id": "handelsblatt-57114a62bc9d8e6d",
@@ -85,7 +141,7 @@
       "image": "https://images.handelsblatt.com/ZonLiTbmyGX2/cover/900/506/0/0/38/38/0.5/0.5/haefen.jpg",
       "published": "2026-11-25T17:19:09+00:00",
       "category": "Politik",
-      "score": 70.81,
+      "score": 68.99,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -98,62 +154,16 @@
       }
     },
     {
-      "id": "handelsblatt-273725bd74948ffa",
+      "id": "handelsblatt-1be90aa8a0fa3862",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Russischer Angriffskrieg: Rutte lobt Trump: Stellt Putin auf die Probe",
-      "link": "https://www.handelsblatt.com/politik/international/russischer-angriffskrieg-rutte-lobt-trump-stellt-putin-auf-die-probe/100272801.html",
-      "summary": "Der Nato-Generalsekretär ist bekannt dafür, dem US-Präsidenten öffentlich zu schmeicheln. Vor einem Treffen mit ihm in Florida nimmt Rutte nun Trumps Haltung zum Kreml in Schutz.",
-      "image": "https://images.handelsblatt.com/gmEsUKj3evVt/cover/900/506/0/0/128/127/0.5/0.5/kanzler-merz-empfaengt-nato-generalsekretaer-rutte.jpg",
-      "published": "2026-11-25T16:52:59+00:00",
+      "title": "Unterhaltungskonzern: US-Richterin stoppt Lizenzentzug für Disney-Sender – Rückschlag für Trump",
+      "link": "https://www.handelsblatt.com/unternehmen/unterhaltungskonzern-us-richterin-stoppt-lizenzentzug-fuer-disney-sender-rueckschlag-fuer-trump/100272836.html",
+      "summary": "Der US-Präsident bemüht sich, Medienunternehmen harte Grenzen zu setzen. Ein Gerichtsurteil urteilt nun zugunsten des Unterhaltungskonzerns – und der freien Meinungsäußerung.",
+      "image": "https://images.handelsblatt.com/BRLvdJ7tt24Y/cover/900/506/40/74/0/448/0.5/0.5/neuer-disney-ceo-josh-damaro.jpg",
+      "published": "2026-11-26T02:44:58+00:00",
       "category": "Politik",
-      "score": 70.44
-    },
-    {
-      "id": "deutschlandfunk-292853d93719cb92",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Vor Wahl in Spanien - Tausende Migranten erreichen Kanaren - Regionalpräsident bittet EU um Hilfe",
-      "link": "https://www.deutschlandfunk.de/tausende-migranten-erreichen-kanaren-regionalpraesident-bittet-eu-um-hilfe-102.html",
-      "summary": "Nach Angaben der spanischen Behörden sind am Dienstag fast 2.000 Migranten auf den Kanarischen Inseln angekommen.",
-      "image": "https://bilder.deutschlandfunk.de/90/d0/dc/99/90d0dc99-4074-479c-9235-8ceb7de9cf8d/hierra-migration-spanien-100-1920x1920.jpg",
-      "published": "2026-11-26T01:28:38+01:00",
-      "category": "Politik",
-      "score": 69.77
-    },
-    {
-      "id": "deutschlandfunk-74fec1d332efbc63",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Sachsen-Anhalt - AfD reicht Wahlvorschlag für Siegmund offiziell ein - Protest in Magdeburg für 8. Dezember geplant",
-      "link": "https://www.deutschlandfunk.de/afd-reicht-wahlvorschlag-fuer-siegmund-offiziell-ein-protest-in-magdeburg-fuer-8-dezember-geplant-102.html",
-      "summary": "Die AfD-Landtagsfraktion in Sachsen-Anhalt hat ihren Spitzenkandidaten Siegmund offiziell für die Wahl des Ministerpräsidenten vorgeschlagen. Sie beantragte im Magdeburger Parlament die Einberufung einer Sondersitzung.",
-      "image": "https://bilder.deutschlandfunk.de/e6/de/d2/8e/e6ded28e-7c15-428d-96fb-ce33920f5f06/afd-siegmund-sachsen-anhalt-100-1920x1920.jpg",
-      "published": "2026-11-26T01:28:38+01:00",
-      "category": "Politik",
-      "score": 69.77
-    },
-    {
-      "id": "deutschlandfunk-864642db0e05636e",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Raumfahrt - SpaceX darf eine Million Satelliten für KI-Rechenzentren ins All bringen",
-      "link": "https://www.deutschlandfunk.de/spacex-darf-eine-million-satelliten-fuer-ki-rechenzentren-ins-all-bringen-102.html",
-      "summary": "Das ​Raumfahrtunternehmen SpaceX darf ein Netzwerk aus einer Million Satelliten für Rechenzentren im Weltraum aufbauen.",
-      "image": "https://bilder.deutschlandfunk.de/33/95/77/62/33957762-2c4c-425c-b0d0-0d9c5e24e761/space-x-rakete-100-1920x1920.jpg",
-      "published": "2026-11-26T01:28:38+01:00",
-      "category": "Wirtschaft",
-      "score": 69.77,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Weltraum: SpaceX darf eine Million Satelliten für KI-Rechenzentren ins All bringen",
-            "link": "https://www.handelsblatt.com/technik/forschung-innovation/weltraum-spacex-darf-eine-million-satelliten-fuer-ki-rechenzentren-ins-all-bringen/100272811.html"
-          }
-        ]
-      }
+      "score": 68.85
     },
     {
       "id": "spiegel-2e2dadf8666c38f1",
@@ -165,7 +175,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/514a9baa-537f-4747-9bfb-1c57e37dfd1b_w1200_r1.778_fpx47_fpy34.jpg",
       "published": "2026-11-25T22:14:00+01:00",
       "category": "Politik",
-      "score": 67.07,
+      "score": 65.26,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -187,7 +197,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/47874cb7-a1f3-42df-8051-47703c016d44_w1200_r1.778_fpx30_fpy54.99.jpg",
       "published": "2026-11-26T01:22:00+01:00",
       "category": "Technologie",
-      "score": 66.68,
+      "score": 64.87,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -209,7 +219,19 @@
       "image": "https://static.dw.com/image/80042297_6.jpg",
       "published": "2026-11-25T11:19:00+00:00",
       "category": "Politik",
-      "score": 65.8
+      "score": 63.99
+    },
+    {
+      "id": "spiegel-3449c4d78e596d8a",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "US-Zölle: Welche Folgen Donald Trumps neue Strafmaßnahmen für die EU haben",
+      "link": "https://www.spiegel.de/wirtschaft/us-zoelle-welche-folgen-donald-trumps-neue-strafmassnahmen-fuer-die-eu-haben-a-e8098dd8-1e2e-4161-bd76-0310a466a835#ref=rss",
+      "summary": "Die USA kündigen neue Zölle gegen mehrere Handelspartner an, darunter die EU. Trotz der jüngsten Niederlage bei den Midterms setzt der US-Präsident seine Lieblingsprojekte durch. Wie weit kann er damit kommen?",
+      "image": "https://cdn.prod.www.spiegel.de/images/509314a9-8a67-49e1-81b8-d805885dcbb1_w1200_r1.778_fpx61.98_fpy44.98.jpg",
+      "published": "2026-11-25T20:34:00+01:00",
+      "category": "Politik",
+      "score": 63.87
     },
     {
       "id": "deutsche-welle-f12fd6bbfeb848fa",
@@ -221,7 +243,7 @@
       "image": "https://static.dw.com/image/80040962_6.jpg",
       "published": "2026-11-25T14:52:00+00:00",
       "category": "Politik",
-      "score": 60.76
+      "score": 58.95
     },
     {
       "id": "golem-74a86ee0852269a5",
@@ -233,19 +255,7 @@
       "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215651&amp;page=1&amp;ts=1795617602",
       "published": "2026-11-25T15:40:02+01:00",
       "category": "Wirtschaft",
-      "score": 59.6
-    },
-    {
-      "id": "netzpolitik-751bf4a34f43f10b",
-      "source": "netzpolitik",
-      "sourceWeight": 0.75,
-      "title": "Trump und Huang: Die Tech-Oligarchie ist außer Kontrolle",
-      "link": "https://netzpolitik.org/2026/trump-und-huang-die-tech-oligarchie-ist-ausser-kontrolle/",
-      "summary": "Im Skandal um die Rückkehr des Nvidia-Chefs Jensen Huang an die Spitze des Konzerns offenbart sich eine Kultur der Straflosigkeit. Diese Kultur spiegelt sich auch in den Produkten der Tech-Branche wider. Sie darf nicht auf Europa überschwappen. Anfang November regnete es auf dem \"A New Golden Age\"-Treffen Auszeichnungen für die US-Techbranche, darunter für Nvidia-Chef Jensen Huang. – Alle Rechte vorbehalten: ZUMA Press Wire Es ist ein Knall, der lange nachhallen wird. Unter tosendem Beifall der Nvidia-Belegschaft, Präsident Donald Trump und der US-Tech-Oligarchen kehrte Jensen Huang am Montag an die Spitze eines der wichtigsten Chip-Konzerne der Welt zurück. Die Börse dankte es ihm: Die zuletzt eingebrochenen Kurse schossen in die Höhe, allein Nvidia gewann am selben Tag rund eine Billion US-Dollar an Wert hinzu. Vor rund zwei Wochen war Huangs Position unhaltbar geworden. Stückchenweise kam ans Licht, dass er mehrere Affären hatte, darunter eine mit einer mutmaßlichen chinesischen Spionin. Diese Person soll ihre Hand dabei im Spiel gehabt haben, über ein Schlupfloch in Singapur Millionen von KI-Chips nach China zu verfrachten und damit US-Exportverbote zu unterlaufen. …",
-      "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/imago0874237699h-scaled-e1795602985224.jpg",
-      "published": "2026-11-25T12:01:30+00:00",
-      "category": "Politik",
-      "score": 55.39
+      "score": 57.78
     }
   ]
 }
