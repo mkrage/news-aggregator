@@ -1,37 +1,64 @@
 {
-  "generatedAt": "2026-11-26T08:58:53.161868+00:00",
+  "generatedAt": "2026-11-26T12:54:20.074657+00:00",
   "count": 15,
   "articles": [
     {
-      "id": "deutschlandfunk-7bc10aacbeaa53ac",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Krieg - Trump und Rutte warnen Russland vor Ausweitung seines Krieges in der Ukraine",
-      "link": "https://www.deutschlandfunk.de/trump-und-rutte-warnen-russland-vor-ausweitung-seines-krieges-in-der-ukraine-100.html",
-      "summary": "US-Präsident Trump und NATO-Generalsekretär Rutte haben Russland vor einer Ausweitung des Krieges in der ⁠Ukraine ⁠gewarnt.",
-      "image": "https://bilder.deutschlandfunk.de/92/87/18/98/92871898-0477-4a46-b5da-9215e159864b/nato-generalsekretaer-mark-rutte-donald-trump-usa-100-1920x1920.jpg",
-      "published": "2026-11-26T09:43:36+01:00",
-      "category": "Politik",
-      "score": 85.79
-    },
-    {
-      "id": "tagesschau-28fc68179f1fafe2",
+      "id": "tagesschau-06524ab03fba4590",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Wetterchaos an Thanksgiving in USA befürchtet",
-      "link": "https://www.tagesschau.de/ausland/amerika/sturm-usa-152.html",
-      "summary": "Extreme Springflut und Überschwemmungen in Kalifornien - Sturmwarnung und viel Regen an der Ostküste. Pünktlich zu Thanksgiving könnte das Wetter die Reise- und Feiertagspläne vieler US-Amerikaner durcheinander bringen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/fb3ad682-f32e-4ef4-a75e-a14f269dcfeb/AAABohX32SI/AAABnSSvrFg/16x9-big/kalifornien-wellen-100.jpg?width=1920",
-      "published": "2026-11-26T05:41:15+01:00",
-      "category": "Nachrichten",
-      "score": 82.5,
+      "title": "Krieg gegen die Ukraine: Angriffe auf Kiew - Tote in Saporischschja",
+      "link": "https://www.tagesschau.de/ausland/europa/tote-nach-russischen-angriffen-ukraine-100.html",
+      "summary": "Russland hat die Ukraine nach eigenen Angaben wieder massiv angegriffen. Auch bei einem ukrainischen Drohnenangriff im russisch besetzten Teil von Saporischschja gab es Tote. Die NATO und US-Präsident Trump warnen vor einer weiteren Eskalation.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/92855586-195c-44ac-9b56-dcd3e49b66fb/AAABohbPWTI/AAABnSSvrFg/16x9-big/kiew-584.jpg?width=1920",
+      "published": "2026-11-26T10:54:40+01:00",
+      "category": "Politik",
+      "score": 94.78,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
+            "source": "deutschlandfunk",
+            "title": "Krieg - Trump und Rutte warnen Russland vor Ausweitung seines Krieges in der Ukraine",
+            "link": "https://www.deutschlandfunk.de/trump-und-rutte-warnen-russland-vor-ausweitung-seines-krieges-in-der-ukraine-100.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutsche-welle-3ceaa5c34ac7ea7c",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "Trump und Rutte: Putin soll Ukraine-Krieg nicht \"ausweiten\"",
+      "link": "https://www.dw.com/de/trump-und-rutte-putin-soll-ukraine-krieg-nicht-ausweiten/a-80058560?maca=de-rss-de-all-1119-rdf",
+      "summary": "Vor seinem Gespräch mit dem US-Präsidenten plädierte der NATO-Generalsekretär für mehr Druck auf Russlands Machthaber Putin. Nach dem Treffen klangen Trump und Rutte moderater.",
+      "image": "https://static.dw.com/image/76715112_6.jpg",
+      "published": "2026-11-26T10:48:00+00:00",
+      "category": "Politik",
+      "score": 83.25
+    },
+    {
+      "id": "tagesschau-9de65d80d64e5b4d",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Merz fordert weitere Kürzungen der EU-Finanzen",
+      "link": "https://www.tagesschau.de/ausland/europa/eu-haushalt-ukraine-100.html",
+      "summary": "Um mehr als 200 Milliarden Euro ist der EU-Haushaltsentwurf bereits gekürzt worden. Dem Kanzler reicht das aber noch nicht. Außerdem verknüpft Merz die schwierigen Verhandlungen weiterhin mit der Unterstützung für die Ukraine.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/5f1a4a18-950f-4266-87b7-c7a64d0f5a4d/AAABohd7b3o/AAABnSSvrFg/16x9-big/merz-1830.jpg?width=1920",
+      "published": "2026-11-26T12:58:32+01:00",
+      "category": "Politik",
+      "score": 82.9,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
             "source": "spiegel",
-            "title": "USA: An Thanksgiving droht Amerikanern Wetterchaos",
-            "link": "https://www.spiegel.de/panorama/usa-an-thanksgiving-droht-amerikanern-wetterchaos-a-5a57af83-da6b-4fa9-ba22-7cac3cacb31b#ref=rss"
+            "title": "Bundeskanzler Friedrich Merz lehnt Kompromissvorschlag zu EU-Finanzen ab",
+            "link": "https://www.spiegel.de/politik/deutschland/bundeskanzler-friedrich-merz-lehnt-kompromissvorschlag-zu-eu-finanzen-ab-a-c0394446-807d-4b91-b85e-3edff947a318#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Gipfel in Brüssel: EU-Haushalt: Merz dringt auf weitere Kürzung",
+            "link": "https://www.handelsblatt.com/politik/international/gipfel-in-bruessel-eu-haushalt-merz-dringt-auf-weitere-kuerzung/100272852.html"
           }
         ]
       }
@@ -46,7 +73,7 @@
       "image": "https://images.tagesschau.de/image/847c043d-5aa0-49a9-900c-a52053a5a18e/AAABohQQeJM/AAABnSSvrFg/16x9-big/netanjahu-424.jpg?width=1920",
       "published": "2026-11-25T20:50:08+01:00",
       "category": "Politik",
-      "score": 78.79,
+      "score": 78.78,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -59,203 +86,166 @@
       }
     },
     {
-      "id": "deutschlandfunk-ee51e62e4cd87e2d",
+      "id": "deutschlandfunk-d1a2f29145ba9604",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Bundestagspräsidentin - Klöckner will Sanktionen nach Blockade durch Linke-Politikerinnen im Bundestag",
-      "link": "https://www.deutschlandfunk.de/kloeckner-will-sanktionen-nach-blockade-durch-linke-politikerinnen-im-bundestag-102.html",
-      "summary": "Nach der Blockadeaktion zweier Linken-Abgeordneten im Parlament strebt Bundestagspräsidentin Klöckner Strafmaßnahmen an.",
-      "image": "https://bilder.deutschlandfunk.de/3a/a9/78/fc/3aa978fc-ac4c-4ef8-807e-b710a81d435f/julia-kloeckner-112-1920x1920.jpg",
-      "published": "2026-11-26T09:43:36+01:00",
+      "title": "Nach Expertenbericht - Grünen- und CDU-Politiker fordern Sexkauf-Verbot",
+      "link": "https://www.deutschlandfunk.de/gruenen-und-cdu-politiker-fordern-sexkauf-verbot-100.html",
+      "summary": "Aus den Reihen von Union und Grünen kommt nach dem Bericht der Expertenkommission zur Prostitution die Forderung nach einem Sexkauf-Verbot. Der Justiziar der Unionsfraktion im Bundestag, Plum, sagte der \"Rheinischen Post\", ein echter Kurswechsel im Prostitutionsrecht sei notwendig.",
+      "image": "https://bilder.deutschlandfunk.de/be/53/ae/f5/be53aef5-76b4-49ba-926d-246c35c9abc5/prostitution-deutschland-frauen-ware-100-1920x1920.jpg",
+      "published": "2026-11-26T13:38:44+01:00",
       "category": "Politik",
-      "score": 77.79,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Bundestag: Julia Klöckner prüft Sanktionen nach Blockade von David Barnea",
-            "link": "https://www.spiegel.de/politik/deutschland/bundestag-julia-kloeckner-prueft-sanktionen-nach-blockade-von-david-barnea-a-c51e85d0-19f5-4fc9-8e09-1e10a697679e#ref=rss"
-          }
-        ]
-      }
+      "score": 69.78
     },
     {
-      "id": "spiegel-73922e3f0b7f2505",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Pentagon soll erwogen haben, Nvidia zu Huangs Rückkehr zu drängen – per Kriegsgesetz",
-      "link": "https://www.spiegel.de/ausland/pentagon-soll-erwogen-haben-nvidia-zu-huangs-rueckkehr-zu-draengen-per-kriegsgesetz-a-7eab9879-1219-4257-b3f7-72d8ed8af9ca#ref=rss",
-      "summary": "US-Präsident Trump hat massiven Druck ausgeübt, um Jensen Huang trotz Spionageaffäre wieder auf den Chefsessel von Nvidia zu heben. Dabei soll auch an ein Gesetz aus dem Kalten Krieg als Hebel gedacht worden sein.",
-      "image": "https://cdn.prod.www.spiegel.de/images/1f58d08f-612a-412d-ad4d-cbbfeaafa5bb_w1200_r1.778_fpx52_fpy47.jpg",
-      "published": "2026-11-26T08:16:00+01:00",
-      "category": "Politik",
-      "score": 76.57
-    },
-    {
-      "id": "tagesschau-8ee4024fcfca82ef",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "SpaceX darf eine Million Satelliten für KI-Rechenzentren ins All schicken",
-      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/spacex-eine-million-satelliten-100.html",
-      "summary": "SpaceX plant im All ein Netz aus Satelliten, die als Rechenzentren dienen sollen. Die US-Behörden haben das Vorhaben nun erlaubt. Ziel ist es, die enorme Nachfrage nach Rechenleistung für Künstliche Intelligenz zu befriedigen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/ee1320b8-70a0-4194-b749-b4edd868901c/AAABohVSmy8/AAABnSSvrFg/16x9-big/spacex-326.jpg?width=1920",
-      "published": "2026-11-26T02:58:55+01:00",
-      "category": "Technologie",
-      "score": 75.79,
-      "coverage": {
-        "sourceCount": 4,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Raumfahrt - SpaceX darf eine Million Satelliten für KI-Rechenzentren ins All bringen",
-            "link": "https://www.deutschlandfunk.de/spacex-darf-eine-million-satelliten-fuer-ki-rechenzentren-ins-all-bringen-102.html"
-          },
-          {
-            "source": "deutsche-welle",
-            "title": "News kompakt: EU-Spitzen beraten über Haushalt und EZB",
-            "link": "https://www.dw.com/de/news-kompakt-eu-spitzen-beraten-über-haushalt-und-ezb/a-80056515?maca=de-rss-de-all-1119-rdf"
-          },
-          {
-            "source": "golem",
-            "title": "Eine Million Satelliten: SpaceX darf Rechenzentren ins All bringen",
-            "link": "https://www.golem.de/news/eine-million-satelliten-spacex-darf-rechenzentren-ins-all-bringen-2611-215669.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-690911d6f0e28847",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "13 Tote aus überfluteter Goldmine in Indonesien geborgen",
-      "link": "https://www.tagesschau.de/ausland/asien/tote-aus-gefluteter-goldmine-geborgen-indonesien-100.html",
-      "summary": "Heftige Regenfälle haben in einer illegalen Goldmine auf der indonesischen Insel Java zwei Stollen geflutet. Hilfe kam erst spät - mittlerweile wurden 13 Tote geborgen. Weitere Menschen werden noch vermisst.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/f7f337b9-d254-44b2-86a7-7e75235b4bf1/AAABohaQoWo/AAABnSSvrFg/16x9-big/goldmine-indonesien-102.jpg?width=1920",
-      "published": "2026-11-26T07:59:54+01:00",
-      "category": "Nachrichten",
-      "score": 74.67,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Indonesien: 13 Tote aus überfluteter Goldmine geborgen – Suche nach Vermissten",
-            "link": "https://www.spiegel.de/panorama/indonesien-13-tote-aus-ueberfluteter-goldmine-geborgen-suche-nach-vermissten-a-5ad0708e-9671-4c9b-bc08-c94ea98d57ea#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "deutschlandfunk-d0411768bac307f2",
+      "id": "deutschlandfunk-df99b44e47d14471",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "\"Black Friday\" - Verdi ruft zu Warnstreiks an elf deutschen Amazon-Standorten auf",
-      "link": "https://www.deutschlandfunk.de/verdi-ruft-zu-warnstreiks-an-elf-deutschen-amazon-standorten-auf-100.html",
-      "summary": "Die Gewerkschaft Verdi ruft für morgen an elf Standorten des Internethändlers Amazon zu Streiks auf.",
-      "image": "https://bilder.deutschlandfunk.de/FI/LE/_3/e8/FILE_3e8495bfeeb054a5b3d16cb724dc640c/97315911-jpg-100-768x768.jpg",
-      "published": "2026-11-26T09:43:36+01:00",
-      "category": "Nachrichten",
-      "score": 71.47,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Amazon: Ver.di ruft am Black Friday an elf Standorten zum Streik auf",
-            "link": "https://www.spiegel.de/wirtschaft/amazon-ver-di-ruft-am-black-friday-an-elf-standorten-zum-streik-auf-a-244aa9b2-39a8-4bad-97f2-a1d3c44bc4dd#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Handel: Verdi bestreikt elf Amazon-Standorte am Black Friday",
-            "link": "https://www.handelsblatt.com/politik/deutschland/handel-verdi-bestreikt-elf-amazon-standorte-am-black-friday/100272908.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "handelsblatt-f5374b8d8a9c2243",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Infrastruktur: Pistorius finanziert Autobahnen und Schienen mit rund sechs Milliarden Euro",
-      "link": "https://www.handelsblatt.com/politik/deutschland/haushalt-pistorius-finanziert-strassen-und-schienen-mit-sechs-milliarden-euro/100272775.html",
-      "summary": "Im Wehretat, den der Bundestag am Mittwoch verabschiedet hat, sind auch hohe Ausgaben für Verkehrsinfrastruktur vorgesehen. Die AfD kritisiert ein „finanzpolitisches Hütchenspiel“.",
-      "image": "https://images.handelsblatt.com/Dk2wuqlf9esh/cover/900/506/0/0/72/71/0.5/0.5/bundeswehr-kolonne.jpg",
-      "published": "2026-11-26T08:56:09+00:00",
+      "title": "Deutsche Ukraine-Hilfe - Ehemalige EKD-Vorsitzende Käßmann fordert Kurswechsel",
+      "link": "https://www.deutschlandfunk.de/ehemalige-ekd-vorsitzende-kaessmann-fordert-kurswechsel-100.html",
+      "summary": "In der Diskussion über die deutsche Unterstützung der Ukraine sieht sich die frühere EKD-Ratsvorsitzende Käßmann durch eine jüngste Studie der Körber-Stiftung bestätigt.",
+      "image": "https://bilder.deutschlandfunk.de/37/dd/0d/be/37dd0dbe-8524-46b6-b1ae-e0beb823048b/margot-kaessmann-theologin-100-1920x1920.jpg",
+      "published": "2026-11-26T13:38:44+01:00",
       "category": "Politik",
-      "score": 68.96
+      "score": 69.78
     },
     {
-      "id": "handelsblatt-b68e1c080deacbcd",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "EU-Gipfel: Niederlande wollen EU-Haushalt kürzen – aber Ukraine-Hilfe sichern",
-      "link": "https://www.handelsblatt.com/politik/international/eu-gipfel-niederlande-wollen-haushalt-kuerzen-aber-ukraine-hilfe-sichern/100272920.html",
-      "summary": "Neben Deutschland gehört auch die Niederlande zu den größten Nettozahlern der EU. Vor einem EU-Gipfel stellt Ministerpräsident Jetten klare Forderungen an die Empfängerländer.",
-      "image": "https://images.handelsblatt.com/mcov6f0cTMFP/cover/900/506/0/0/313/312/0.5/0.5/niederlande-pochen-vor-eu-gipfel-auf-kleineren-finanzrahmen-aber-mit-ukraine-hilfe.jpg",
-      "published": "2026-11-26T08:46:16+00:00",
+      "id": "deutschlandfunk-ed757653d0f79517",
+      "source": "deutschlandfunk",
+      "sourceWeight": 0.95,
+      "title": "Bundestag - Migrationspolitik steht im Zentrum bei Beratungen über Etat des Innenressorts",
+      "link": "https://www.deutschlandfunk.de/migrationspolitik-steht-im-zentrum-bei-beratungen-ueber-etat-des-innenressorts-102.html",
+      "summary": "Der Bundestag hat in den Beratungen über den Etat des Innenministeriums die Migrationspolitik debattiert.",
+      "image": "https://bilder.deutschlandfunk.de/76/02/d3/b8/7602d3b8-d760-47a6-92f5-6d0ca840211c/bundesinnenminister-dobrindt-bundestag-beratungen-haushalt-100-1920x1920.jpg",
+      "published": "2026-11-26T13:38:44+01:00",
       "category": "Politik",
-      "score": 68.82
+      "score": 69.78
     },
     {
-      "id": "spiegel-5155c491ae18d237",
+      "id": "spiegel-b768baf7de7647c9",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Donald Trump: Richterin stoppt »Marschbefehl« gegen Sender ABC",
-      "link": "https://www.spiegel.de/wirtschaft/unternehmen/donald-trump-richterin-stoppt-marschbefehl-gegen-sender-abc-a-60dc149a-7a9e-4c6a-be95-316eb4b726fe#ref=rss",
-      "summary": "Erst spottete ABC-Star Jimmy Kimmel über die First Lady, dann ging die Aufsichtsbehörde gegen den US-Sender vor. Eine US-Richterin sieht Donald Trump hinter dem Verfahren – und hat es nun vorerst gestoppt.",
-      "image": "https://cdn.prod.www.spiegel.de/images/fa7ab22a-54fe-4b3f-a219-2a39b6aeb5bc_w1200_r1.778_fpx49.6_fpy50.jpg",
-      "published": "2026-11-26T08:20:00+01:00",
+      "title": "Welternährungsprogramm: Neuer Chef Luke J. Lindberg über Kampf gegen den Hunger",
+      "link": "https://www.spiegel.de/ausland/welternaehrungsprogramm-neuer-chef-luke-j-lindberg-ueber-kampf-gegen-den-hunger-a-0a2e279f-4828-4d20-b302-b36857df8891#ref=rss",
+      "summary": "Immer mehr Regierungen streichen Hilfen zusammen, die Zahl der Bedürftigen wächst weiter: Hier spricht der neue Chef des Uno-Welternährungsprogramms, Luke J. Lindberg, über die Chancen, die Krise abzumildern.",
+      "image": "https://cdn.prod.www.spiegel.de/images/e3eb7737-1796-437b-8c3e-b1bd721e8ec4_w1200_r1.778_fpx35.94_fpy49.95.jpg",
+      "published": "2026-11-26T13:38:00+01:00",
       "category": "Politik",
-      "score": 68.63
+      "score": 69.77
     },
     {
-      "id": "handelsblatt-e4a310cf0c9cad8b",
+      "id": "spiegel-3486d5aa6a5b016f",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "US-Migrationsbehörde nimmt Migrant fest – nachdem er mit Millionengewinn posiert",
+      "link": "https://www.spiegel.de/ausland/us-migrationsbehoerde-nimmt-migrant-fest-nachdem-er-mit-millionengewinn-posiert-a-19bf2781-09c1-4418-b04b-8c01c83326d5#ref=rss",
+      "summary": "Ein Migrant gewinnt eine Million US-Dollar im Lotto. Medien berichten über sein Glück – und Trumps Heimatschutzbehörde liest mit. Nun rühmt sich ICE einer besonders perfiden Festnahme.",
+      "image": "https://cdn.prod.www.spiegel.de/images/6b7a1210-192c-40ec-9379-be2e1cee60bc_w1200_r1.778_fpx48_fpy48.jpg",
+      "published": "2026-11-26T12:43:00+01:00",
+      "category": "Politik",
+      "score": 69.01
+    },
+    {
+      "id": "handelsblatt-6953ea898a328e86",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Konjunktur: Reallöhne wachsen nach Inflationsschub langsamer",
-      "link": "https://www.handelsblatt.com/politik/konjunktur/konjunktur-realloehne-wachsen-nach-inflationsschub-langsamer/100272914.html",
-      "summary": "Die Löhne steigen, doch werden weitgehend durch die hohe Inflation aufgefressen. Real liegen die Löhne nur knapp über dem Niveau des Jahres 2019.",
-      "image": "https://images.handelsblatt.com/1fwLJDG3honf/cover/900/506/0/0/209/209/0.5/0.5/warnstreik-der-ig-metall.jpg",
-      "published": "2026-11-26T08:20:41+00:00",
+      "title": "Kommentar: Drei Faktoren verstärken die Turbulenzen an den US-Börsen",
+      "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-drei-faktoren-verstaerken-die-turbulenzen-an-den-us-boersen/100272906.html",
+      "summary": "Die Wall Street hat halsbrecherische Wochen erlebt. Hinter den heftigen Kursausschlägen stecken nicht nur die Furcht vor höheren Leitzinsen, einem Ende des KI-Booms und die Nvidia-Krise.",
+      "image": "https://images.handelsblatt.com/naOJntw3UgxP/cover/900/506/0/0/316/316/0.5/0.5/a-board-on-the-floor-of-the-at-the-new-york-stock-exchange-shows-the-dow-down-over-1000-points-on-wa.jpg",
+      "published": "2026-11-26T12:35:18+00:00",
       "category": "Wirtschaft",
-      "score": 68.47
+      "score": 68.74
     },
     {
-      "id": "spiegel-ae5b6f6d5cab3605",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Israel: Richter empfehlen, fast alle Anklagepunkte gegen Benjamin Netanyahu fallen zu lassen",
-      "link": "https://www.spiegel.de/ausland/israel-richter-empfehlen-fast-alle-anklagepunkte-gegen-benjamin-netanyahu-fallen-zu-lassen-a-dc70405a-edcb-4b93-a749-7142539a56da#ref=rss",
-      "summary": "Seit sechs Jahren prozessiert die israelische Staatsanwaltschaft gegen Premier Netanyahu wegen Korruption. Nun könnte das Verfahren ein rasches Ende finden – der Angeklagte frohlockt bereits.",
-      "image": "https://cdn.prod.www.spiegel.de/images/72c7cb55-7b03-4580-a5fa-adec5e81fc28_w1200_r1.778_fpx31.32_fpy44.99.jpg",
-      "published": "2026-11-26T07:16:00+01:00",
+      "id": "handelsblatt-5b07d8d9646dce7c",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Wiederwahl: Covestro-Chef Steilemann bleibt Präsident der Chemielobby",
+      "link": "https://www.handelsblatt.com/politik/deutschland/wiederwahl-covestro-chef-steilemann-bleibt-praesident-der-chemielobby/100273007.html",
+      "summary": "Markus Steilemann, Vorstandschef des Kunststoffkonzerns Covestro, ist für eine dritte Amtszeit an der Spitze des Chemieverbands VCI gewählt worden. Er vertritt eine Branche in schwierigen Zeiten.",
+      "image": "https://images.handelsblatt.com/rhsFo1X-xL8C/cover/900/506/0/0/107/106/0.5/0.5/markus-steilemann-praesident-des-chemieverbands-vci.jpg",
+      "published": "2026-11-26T12:35:08+00:00",
       "category": "Politik",
-      "score": 67.74
+      "score": 68.73
     },
     {
-      "id": "deutsche-welle-08b4fa52ff616fe4",
+      "id": "golem-af9d6b899bead9c6",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Nach Jensen Huangs Rückkehr: Nvidia droht schlechteres Kreditrating",
+      "link": "https://www.golem.de/news/nach-jensen-huangs-rueckkehr-nvidia-droht-schlechteres-kreditrating-2611-215689.html",
+      "summary": "Zweifel an der Unabhängigkeit des Nvidia-Managements führen dazu, dass S&amp;P den Konzern auf eine Negativliste setzt. ( Nvidia , Wirtschaft )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215689&amp;page=1&amp;ts=1795691821",
+      "published": "2026-11-26T12:17:01+01:00",
+      "category": "Wirtschaft",
+      "score": 66.65,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "netzpolitik",
+            "title": "Trump und Huang: Die Tech-Oligarchie ist außer Kontrolle",
+            "link": "https://netzpolitik.org/2026/trump-und-huang-die-tech-oligarchie-ist-ausser-kontrolle/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutsche-welle-6af6bf14ea11ce5d",
       "source": "deutsche-welle",
       "sourceWeight": 0.9,
-      "title": "Ostsee und Mittelmeer: Neue Schauplätze im Ukraine-Krieg",
-      "link": "https://www.dw.com/de/ostsee-und-mittelmeer-neue-schauplätze-im-ukraine-krieg/a-80043488?maca=de-rss-de-all-1119-rdf",
-      "summary": "Attacken auf russische Schiffe reichen inzwischen bis ins Mittelmeer. Kiew setzt Moskau global unter Druck - mit möglichen Folgen für Europa und den Handel auf den Weltmeeren. Wie groß ist die Gefahr einer Eskalation?",
-      "image": "https://static.dw.com/image/80042297_6.jpg",
-      "published": "2026-11-25T11:19:00+00:00",
-      "category": "Politik",
-      "score": 58.95
+      "title": "Festnahmen in Deutschland wegen Anschlagsplänen auf Synagogen",
+      "link": "https://www.dw.com/de/festnahmen-in-deutschland-wegen-anschlagsplänen-auf-synagogen/a-80060168?maca=de-rss-de-all-1119-rdf",
+      "summary": "Die Bundesanwaltschaft hat zwei Iraker festnehmen lassen. Die Ermittler sehen Verbindungen zu einer vermutlich islamistischen Terrorgruppe mit konkreten Attentatsplänen in Europa.",
+      "image": "https://static.dw.com/image/80059052_6.jpg",
+      "published": "2026-11-26T12:08:00+00:00",
+      "category": "Nachrichten",
+      "score": 65.36,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "handelsblatt",
+            "title": "Bundesanwaltschaft: Anschlagspläne auf Synagogen? Festnahmen und Durchsuchungen",
+            "link": "https://www.handelsblatt.com/politik/deutschland/bundesanwaltschaft-anschlagsplaene-auf-synagogen-festnahmen-und-durchsuchungen/100272947.html"
+          }
+        ]
+      }
     },
     {
-      "id": "heise-13d07c8e2a028478",
+      "id": "golem-fb0e7209a9f622ba",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Beteiligung erzwungen: US-Regierung soll Intel stark unter Druck gesetzt haben",
+      "link": "https://www.golem.de/news/beteiligung-erzwungen-us-regierung-soll-intel-stark-unter-druck-gesetzt-haben-2611-215678.html",
+      "summary": "Eine Klage von Intel-Aktionären gegen den Verwaltungsrat zeigt, dass die US-Regierung dem Konzern keine Wahl gelassen hat. ( Intel , Politik )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215678&amp;page=1&amp;ts=1795683842",
+      "published": "2026-11-26T10:04:02+01:00",
+      "category": "Politik",
+      "score": 64.8
+    },
+    {
+      "id": "heise-29e7296756aa5a1c",
       "source": "heise",
       "sourceWeight": 0.9,
-      "title": "Windows Server 2025: Ungeplantes Update gegen Absturz mit Fehlercode 0x139",
-      "link": "https://www.heise.de/news/Ausserplanmaessiges-Update-fuer-Windows-Server-2025-behebt-Absturzfehler-11538601.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "summary": "Windows Server 2025 mit Hotpatches vom November-Patchday stürzen unter Umständen mit Stop-Fehler 0x139 ab. Ein Update behebt das.",
-      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/8/4/1/7/2025-05-14-Collage-Windows-Update-25904fe10fde972c.png",
-      "published": "2026-11-26T09:27:00+01:00",
+      "title": "Sparkassen bringen Unterstützung für Google Pay",
+      "link": "https://www.heise.de/news/Sparkassen-bringen-Unterstuetzung-fuer-Google-Pay-11538771.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
+      "summary": "In Updates der Sparkassen-App wurden Hinweise auf eine Google-Pay-Anbindung entdeckt. Der Sparkassenverband bestätigt die Funktion.",
+      "image": "https://www.heise.de/scale/geometry/450/q80//imgs/18/5/2/0/8/5/0/2/sparkasse-google-pay-9b05833b14db44c0.png",
+      "published": "2026-11-26T10:45:00+01:00",
       "category": "Technologie",
-      "score": 57.56
+      "score": 64.45,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "golem",
+            "title": "Offiziell bestätigt: Sparkassen unterstützen Google Pay nach Jahren der Wartezeit",
+            "link": "https://www.golem.de/news/offiziell-bestaetigt-sparkassen-unterstuetzen-google-pay-auf-android-smartphones-2611-215688.html"
+          }
+        ]
+      }
     }
   ]
 }
