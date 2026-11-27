@@ -1,84 +1,69 @@
 {
-  "generatedAt": "2026-11-27T05:11:09.607817+00:00",
+  "generatedAt": "2026-11-27T11:30:26.425941+00:00",
   "count": 15,
   "articles": [
+    {
+      "id": "spiegel-c892448f17d704d1",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Ukraine-Krieg: Wolodymyr Selenskyj vergleicht Wladimir Putin mit Hitler",
+      "link": "https://www.spiegel.de/ausland/ukraine-krieg-wolodymyr-selenskyj-vergleicht-wladimir-putin-mit-hitler-a-b9dca374-b911-4380-a7a5-4c57a1f2bc21#ref=rss",
+      "summary": "Trump nannte Kremlchef Putin beim Gipfeltreffen in China einen »Freund«. In Kyjiw trifft das auf wenig Verständnis. Der ukrainische Präsident Selenskyj warnt davor, sich mit dem Aggressor gemeinzumachen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/6bd54508-86d6-4e21-9220-3eec85a56dcd_w1200_r1.778_fpx38_fpy32.jpg",
+      "published": "2026-11-27T11:30:00+01:00",
+      "category": "Politik",
+      "score": 93.16,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutsche-welle",
+            "title": "Trump und Rutte: Putin soll Ukraine-Krieg nicht \"ausweiten\"",
+            "link": "https://www.dw.com/de/trump-und-rutte-putin-soll-ukraine-krieg-nicht-ausweiten/a-80058560?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-06524ab03fba4590",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Krieg gegen die Ukraine: Angriffe auf Kiew - Tote in Saporischschja",
+      "link": "https://www.tagesschau.de/ausland/europa/tote-nach-russischen-angriffen-ukraine-100.html",
+      "summary": "Russland hat die Ukraine wieder massiv angegriffen. Auch bei einem ukrainischen Drohnenangriff im russisch besetzten Teil von Saporischschja gab es Tote. Beide Seiten tauschten die Leichen gefallener Soldaten aus.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/92855586-195c-44ac-9b56-dcd3e49b66fb/AAABohbPWTI/AAABnSSvrFg/16x9-big/kiew-584.jpg?width=1920",
+      "published": "2026-11-26T14:20:47+01:00",
+      "category": "Politik",
+      "score": 85.51,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Ukraine-Russland-Krieg: Frau bei Drohnenangriff auf St. Petersburg verletzt",
+            "link": "https://www.spiegel.de/ausland/ukraine-russland-krieg-frau-bei-drohnenangriff-auf-st-petersburg-verletzt-a-4d604758-b994-470c-bd3c-46fcb14e157e#ref=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "tagesschau-c2f9ba0231d37e9c",
       "source": "tagesschau",
       "sourceWeight": 1.0,
-      "title": "Parlamentswahl in Neuseeland ohne klare Mehrheit",
+      "title": "Neuseeland: Konservative verlieren Mehrheit - Labour hat auch keine",
       "link": "https://www.tagesschau.de/ausland/ozeanien/neuseeland-parlamentswahl-106.html",
-      "summary": "Nach der Parlamentswahl zeichnete sich ein äußerst knappes Rennen ab. Nun ist klar: Neuseelands rechtsgerichtete Regierungskoalition unter Premierminister Luxon hat ihre Mehrheit verloren.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/32f55735-7b15-470d-bab2-a57c18a08402/AAABohrrGrc/AAABnSSvrFg/16x9-big/neuseeland-parlament-100.jpg?width=1920",
+      "summary": "Nach der Wahl zeichnete sich ein sehr knappes Rennen ab. Nun ist klar: Neuseelands rechtsgerichtete Regierungskoalition unter Premier Luxon hat keine Mehrheit mehr. Jetzt spielt eine neue Partei die entscheidende Rolle.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/4b7d0999-6ad4-4c99-9d06-eb65e0ec826d/AAABohucsjg/AAABnSSvrFg/16x9-big/neuseeland-luxon-104.jpg?width=1920",
       "published": "2026-11-27T06:09:05+01:00",
       "category": "Politik",
-      "score": 83.65,
+      "score": 78.82,
       "coverage": {
-        "sourceCount": 3,
+        "sourceCount": 2,
         "others": [
           {
             "source": "deutschlandfunk",
             "title": "Endergebnis - Rechtsgerichtete Regierung in Neuseeland verliert Mehrheit",
             "link": "https://www.deutschlandfunk.de/rechtsgerichtete-regierung-in-neuseeland-verliert-mehrheit-100.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Machtpoker in Wellington: Wahl in Neuseeland macht Newcomerin zur Königsmacherin",
-            "link": "https://www.handelsblatt.com/politik/international/machtpoker-in-wellington-wahl-in-neuseeland-macht-newcomerin-zur-koenigsmacherin/100273159.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-96212e413b1f9f63",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Merz verkündet vorzeitiges Ende des EU-Sondergipfels",
-      "link": "https://www.tagesschau.de/ausland/europa/eu-haushalt-vorzeitig-beendet-100.html",
-      "summary": "Die Vorstellungen unter den 27 Staats- und Regierungschefs lagen weit auseinander. So weit, dass sie laut Merz den zweiten angesetzten Tag des Gipfels ausfallen lassen. Es geht um viele Milliarden für den EU-Haushalt.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/9661d086-75d2-4c4e-94da-70f83c687c91/AAABohpAjdo/AAABnSSvrFg/16x9-big/merz-1832.jpg?width=1920",
-      "published": "2026-11-27T01:02:22+01:00",
-      "category": "Politik",
-      "score": 78.3,
-      "coverage": {
-        "sourceCount": 4,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Brüssel - Merz: Keine Einigung über EU-Finanzen - Gipfel wird vorzeitig beendet",
-            "link": "https://www.deutschlandfunk.de/merz-keine-einigung-ueber-eu-finanzen-gipfel-wird-vorzeitig-beendet-100.html"
-          },
-          {
-            "source": "spiegel",
-            "title": "EU-Gipfel: Merz kündigt vorzeitiges Ende der Haushaltsberatungen an",
-            "link": "https://www.spiegel.de/politik/deutschland/eu-gipfel-merz-kuendigt-vorzeitiges-ende-der-haushaltsberatungen-an-a-7a483887-37b0-474f-9aeb-59cc2f83db36#ref=rss"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "EU-Haushalt: EU-Sondergipfel zum Haushalt wird vorzeitig beendet",
-            "link": "https://www.handelsblatt.com/politik/international/eu-haushalt-eu-sondergipfel-zum-haushalt-wird-vorzeitig-beendet/100273137.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-7a59b4ac1314cb81",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "News: Bundestag stimmt über umstrittenen Haushalt 2027 ab, Black Friday, Tech-Bros",
-      "link": "https://www.spiegel.de/politik/deutschland/news-bundestag-stimmt-ueber-umstrittenen-haushalt-2027-ab-black-friday-tech-bros-a-0b1477f8-87c0-41a9-a19e-58a8f241fb36#ref=rss",
-      "summary": "Der Bundestag stimmt über den umstrittenen Etat für 2027 ab. Ein Vordenker der US-Demokraten will die Macht der Techmilliardäre brechen. Der Black Friday lockt Schnäppchenjäger – und alarmiert Gewerkschaften. Das ist die Lage am Freitagmorgen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/dd17189a-707c-4b57-af32-bf59855d3d25_w1200_r1.778_fpx28.09_fpy49.93.png",
-      "published": "2026-11-27T05:44:00+01:00",
-      "category": "Politik",
-      "score": 77.62,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Budget und Steuern: Bundestag stimmt über Haushalt ab - aber nicht nur",
-            "link": "https://www.handelsblatt.com/politik/deutschland/budget-und-steuern-bundestag-stimmt-ueber-haushalt-ab-aber-nicht-nur/100273163.html"
           }
         ]
       }
@@ -91,31 +76,9 @@
       "link": "https://www.deutschlandfunk.de/linken-abgeordneten-drohen-konsequenzen-nach-blockade-aktion-gegen-ex-mossad-chef-barnea-102.html",
       "summary": "Die Protestaktion von Linken-Abgeordneten bei einer Bundestags-Veranstaltung mit Israels Ex-Geheimdienstchef Barnea hat Konsequenzen.",
       "image": "https://bilder.deutschlandfunk.de/c7/b6/eb/48/c7b6eb48-ac38-457c-980e-c660bcde9ce5/mossad-israel-direktor-david-barnea-al-thani-treffen-verhandlunge-freilassung-geiseln-100-1920x1920.jpg",
-      "published": "2026-11-27T05:20:51+01:00",
+      "published": "2026-11-27T12:17:37+01:00",
       "category": "Politik",
-      "score": 77.3
-    },
-    {
-      "id": "deutschlandfunk-3d63a6b1019efe85",
-      "source": "deutschlandfunk",
-      "sourceWeight": 0.95,
-      "title": "Angriff in Libyen - Ukrainischer Außenminister Sybiha: Wollen Krieg nicht auf Libyen ausweiten",
-      "link": "https://www.deutschlandfunk.de/ukrainischer-aussenminister-sybiha-wollen-krieg-nicht-auf-libyen-ausweiten-100.html",
-      "summary": "Der ukrainische Außenminister Sybiha hat nach dem Angriff auf russische Schiffe in Libyen sein Bedauern über unbeabsichtigte Folgen geäußert.",
-      "image": "https://bilder.deutschlandfunk.de/ae/7b/8b/8e/ae7b8b8e-205e-4668-a0a8-ef4dae85e36b/ukrainisches-kriegsschiff-libyen-100-1280x1280.jpg",
-      "published": "2026-11-27T05:20:51+01:00",
-      "category": "Politik",
-      "score": 77.3,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "spiegel",
-            "title": "Libyen: Libyen und Italien kritisieren ukrainischen Angriff auf russische Schiffe",
-            "link": "https://www.spiegel.de/ausland/libyen-libyen-und-italien-kritisieren-ukrainischen-angriff-auf-russische-schiffe-a-6534c9d8-90ef-4e6b-9845-63a0937c11d4#ref=rss"
-          }
-        ]
-      }
+      "score": 77.82
     },
     {
       "id": "deutschlandfunk-b081abe8df623b5b",
@@ -125,9 +88,99 @@
       "link": "https://www.deutschlandfunk.de/iaea-besorgt-wegen-weiteren-stromausfalls-am-atomkraftwerk-saporischschja-100.html",
       "summary": "Die ⁠Internationale Atomenergiebehörde hat vor Gefahren durch den erneuten Stromausfall am ukrainischen ‌Atomkraftwerk ⁠Saporischschja gewarnt.",
       "image": "https://bilder.deutschlandfunk.de/25/1e/24/ad/251e24ad-630b-4c8a-8825-55429b819b47/saporischschja-106-1920x1920.jpg",
-      "published": "2026-11-27T05:20:51+01:00",
+      "published": "2026-11-27T12:17:37+01:00",
       "category": "Politik",
-      "score": 77.3
+      "score": 77.82
+    },
+    {
+      "id": "handelsblatt-e2161634bff4cedc",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Klimawandel: Globale Temperatur erstmals eine Woche über Zwei-Grad-Marke",
+      "link": "https://www.handelsblatt.com/politik/international/klimawandel-globale-temperatur-erstmals-eine-woche-ueber-zwei-grad-marke/100273282.html",
+      "summary": "Rekordtemperaturen rund um den Globus liegen mehrere Tage in Folge mehr als zwei Grad über dem vorindustriellen Vergleichswert. Laut Copernicus ist das ein Vorgeschmack auf die Zukunft.",
+      "image": "https://images.handelsblatt.com/EuQFDN6-2lLi/cover/900/506/0/0/102/101/0.5/0.5/dpatopbilder-23.11.2026-grossbritannien-bewl-der-bewl-stausee-in-kent-dessen-fuellstand-derzeit.jpg",
+      "published": "2026-11-27T11:24:25+00:00",
+      "category": "Wirtschaft",
+      "score": 76.92,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "heise",
+            "title": "Klimaerwärmung: Erstmals sieben Tage am Stück global über der 2-Grad-Marke",
+            "link": "https://www.heise.de/news/Klimaerwaermung-Erstmals-sieben-Tage-am-Stueck-global-ueber-der-2-Grad-Marke-11540177.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag"
+          }
+        ]
+      }
+    },
+    {
+      "id": "handelsblatt-004c7d7c943d9ca9",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Kraftstoff: Raffineriemargen schrumpfen trotz Iran-Krieg deutlich",
+      "link": "https://www.handelsblatt.com/unternehmen/energie/kraftstoff-raffineriemargen-schrumpfen-trotz-iran-krieg-deutlich/100273240.html",
+      "summary": "Die Preise für Sprit fallen schneller als für Rohöl. Für Verbraucher, Unternehmen und Zentralbanken sinkt damit vorerst der Inflationsdruck. Das Vorkriegsniveau ist aber noch weit entfernt.",
+      "image": "https://images.handelsblatt.com/KAOJOG1vI-Z3/cover/900/506/0/0/313/312/0.5/0.5/urnnewsmldpa.com20090101261001-936-107978.jpg",
+      "published": "2026-11-27T11:02:09+00:00",
+      "category": "Wirtschaft",
+      "score": 76.61
+    },
+    {
+      "id": "handelsblatt-5ffecd01c81fa17e",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "Emag: Tesla will deutschen Roboter-Spezialisten übernehmen",
+      "link": "https://www.handelsblatt.com/unternehmen/industrie/emag-tesla-will-deutschen-roboter-spezialisten-uebernehmen/100273250.html",
+      "summary": "Tesla baut sein Engagement in Deutschland weiter aus. Der US-Konzern plant die Übernahme des Maschinenbauers Emag. Das Unternehmen steckte zuletzt in der Krise.",
+      "image": "https://images.handelsblatt.com/E5t9r-uoyqK2/cover/900/506/0/0/209/208/0.5/0.5/a-tesla-cybercab-autonomous-driverless-vehicle-and-optimus-humanoid-robots-on-the-opening-day-of-the.jpg",
+      "published": "2026-11-27T10:18:56+00:00",
+      "category": "Wirtschaft",
+      "score": 76.01,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "golem",
+            "title": "EMAG: Tesla gründet Gesellschaft am Standort eines deutschen Maschinenbauers",
+            "link": "https://www.golem.de/news/emag-tesla-gruendet-gesellschaft-am-standort-eines-deutschen-maschinenbauers-2611-215702.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-78f60cf7fc19a5f0",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "USA: Schwerer Sturm sorgt an Thanksgiving für massive Einschränkungen",
+      "link": "https://www.tagesschau.de/ausland/amerika/usa-stuerme-thanksgiving-100.html",
+      "summary": "Gestrichene Flüge, Stromausfälle und Überschwemmungen: Ausgerechnet an Thanksgiving haben Starkregen und heftige Winde in vielen Teilen der USA für Chaos gesorgt. In einigen Bundesstaaten gilt der Notstand.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/c0ef12dd-7c19-48d5-bb02-60b084e0ccc9/AAABohu7SGo/AAABnSSvrFg/16x9-big/sturm-kueste-virginia-100.jpg?width=1920",
+      "published": "2026-11-27T07:55:56+01:00",
+      "category": "Nachrichten",
+      "score": 75.82,
+      "coverage": {
+        "sourceCount": 2,
+        "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "USA - Massive Stromausfälle und Verkehrsbehinderungen an Thanksgiving",
+            "link": "https://www.deutschlandfunk.de/massive-stromausfaelle-und-verkehrsbehinderungen-an-thanksgiving-100.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiegel-af3f28f07b76e8de",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "SPD-Krise: Juso-Chef kritisiert unklare Linie der Partei",
+      "link": "https://www.spiegel.de/politik/spd-krise-juso-chef-kritisiert-unklare-linie-der-partei-a-bfc20e85-6016-4163-9b58-c276fe22d876#ref=rss",
+      "summary": "Wenige Wochen vor der Neuwahl der SPD-Spitze versammelt sich der Nachwuchs der Sozialdemokraten. Philipp Türmer fordert einen Kurswechsel der Partei.",
+      "image": "https://cdn.prod.www.spiegel.de/images/673af2a7-65de-485f-acc8-6dddbee4eac6_w1200_r1.778_fpx42.66_fpy50.jpg",
+      "published": "2026-11-27T07:34:00+01:00",
+      "category": "Politik",
+      "score": 73.88
     },
     {
       "id": "deutsche-welle-f7f20e9f371d4fd1",
@@ -139,118 +192,55 @@
       "image": "https://static.dw.com/image/79591953_6.jpg",
       "published": "2026-11-26T17:56:00+00:00",
       "category": "Wirtschaft",
-      "score": 75.62
+      "score": 70.36
     },
     {
-      "id": "handelsblatt-7b6158b94b289baa",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Technologie: Nvidia ist nur der Anfang – Sechs Warnsignale, warum das Silicon Valley in der Krise steckt",
-      "link": "https://www.handelsblatt.com/technik/it-internet/nvidia-chef-jensen-huang-und-der-offenbarungseid-des-silicon-valley/100248894.html",
-      "summary": "Der Huang-Skandal zeigt die Abhängigkeiten der Tech-Industrie – von dem Chipkonzern, aber auch von Donald Trump. Und das sind nur zwei der Risiken, mit denen die wertvollsten Firmen der Welt kämpfen.",
-      "image": "https://images.handelsblatt.com/gTEqfZItnO6z/cover/900/506/0/0/0/0/0.5/0.5/titel-tech-clash.gif",
-      "published": "2026-11-27T03:00:00+00:00",
-      "category": "Politik",
-      "score": 75.18
-    },
-    {
-      "id": "tagesschau-1235491f0987ee6d",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Einigung im Tarifstreit der Metall- und Elektroindustrie",
-      "link": "https://www.tagesschau.de/wirtschaft/tarifabschluss-metall-elektroindustrie-100.html",
-      "summary": "Die Beschäftigten in der Metall- und Elektroindustrie sollen in zwei Stufen insgesamt 4,3 Prozent mehr Lohn erhalten. Darauf haben sich Arbeitgeber und IG Metall geeinigt. Der Pilotabschluss ermöglicht aber auch Ausnahmen.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/58ebaf0a-293f-4bc6-8a47-7d107e0d0a47/AAABohiAjyk/AAABnSSvrFg/16x9-big/flaggen-ig-metall-100.jpg?width=1920",
-      "published": "2026-11-26T17:43:33+01:00",
-      "category": "Technologie",
-      "score": 71.98,
-      "coverage": {
-        "sourceCount": 3,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Wirtschaft - Einigung in der Metall- und Elektroindustrie \"klares Zukunftssignal\"",
-            "link": "https://www.deutschlandfunk.de/einigung-in-der-metall-und-elektroindustrie-klares-zukunftssignal-104.html"
-          },
-          {
-            "source": "handelsblatt",
-            "title": "Tarifkonflikt beigelegt: Neuer Metalltarif lässt Ausnahmen von 35-Stunden-Woche zu",
-            "link": "https://www.handelsblatt.com/politik/deutschland/tarifkonflikt-beigelegt-neuer-metalltarif-laesst-ausnahmen-von-35-stunden-woche-zu/100273100.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-5c8889600235d2ff",
+      "id": "spiegel-17ce1dba7657673f",
       "source": "spiegel",
       "sourceWeight": 0.95,
-      "title": "Europa League – Gazakrieg: Schwere Ausschreitungen bei Beşiktaş gegen Hapoel Beer-Sheva",
-      "link": "https://www.spiegel.de/sport/fussball/europa-league-gazakrieg-schwere-ausschreitungen-bei-besiktas-gegen-hapoel-beer-sheva-a-0f1e8425-c88a-4e90-a2f0-d787f15297c3#ref=rss",
-      "summary": "Der Gazakrieg wirft seine Schatten auch auf den Fußball. Die Partie zwischen Beşiktaş und Beer-Sheva wurde schon nach Georgien verlegt. Offenbar wegen eines Plakats eskalierte die Situation dennoch.",
-      "image": "https://cdn.prod.www.spiegel.de/images/fde3425c-f6ae-4987-adc5-cb98bae2d5a1_w1200_r1.778_fpx57_fpy54.jpg",
-      "published": "2026-11-26T21:19:00+01:00",
-      "category": "Politik",
-      "score": 70.61
-    },
-    {
-      "id": "deutsche-welle-3ceaa5c34ac7ea7c",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Trump und Rutte: Putin soll Ukraine-Krieg nicht \"ausweiten\"",
-      "link": "https://www.dw.com/de/trump-und-rutte-putin-soll-ukraine-krieg-nicht-ausweiten/a-80058560?maca=de-rss-de-all-1119-rdf",
-      "summary": "Vor seinem Gespräch mit dem US-Präsidenten plädierte der NATO-Generalsekretär für mehr Druck auf Russlands Machthaber Putin. Nach dem Treffen klangen Trump und Rutte moderater.",
-      "image": "https://static.dw.com/image/76715112_6.jpg",
-      "published": "2026-11-26T10:48:00+00:00",
-      "category": "Politik",
-      "score": 69.68
-    },
-    {
-      "id": "spiegel-e227299172635d9a",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Koalitionsverhandlungen in Israel: Beendet Gadi Eisenkot die Ära Benjamin Netanyahu?",
-      "link": "https://www.spiegel.de/ausland/koalitionsverhandlungen-in-israel-beendet-gadi-eisenkot-die-aera-benjamin-netanyahu-a-d8187cb5-6b65-4517-b69d-c99eb7f00b1b#ref=rss",
-      "summary": "Nach den Knessetwahlen schien eine Regierungsbildung in Israel fast unmöglich. Nun zeichnet sich ein Ausweg ab.",
-      "image": "https://cdn.prod.www.spiegel.de/images/38aa4230-01f2-4698-93d9-8a21552d1cff_w1200_r1.778_fpx50_fpy59.jpg",
-      "published": "2026-11-26T19:58:00+01:00",
-      "category": "Politik",
-      "score": 69.48
-    },
-    {
-      "id": "deutsche-welle-ac799e8a5a6d83d8",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Das ehemalige Bündnis Sahra Wagenknecht (BSW) hat einen neuen Namen und flirtet mit der AfD. Hat die Partei noch eine Zukunft?",
-      "link": "https://www.dw.com/de/das-ehemalige-bündnis-sahra-wagenknecht-bsw-hat-einen-neuen-namen-und-flirtet-mit-der-afd-hat-die-partei-noch-eine-zukunft/a-80051078?maca=de-rss-de-all-1119-rdf",
-      "summary": "Nach dem Scheitern bei der Bundestagswahl hat sich die BSW-Gründerin von der Spitze verabschiedet. Nur in Sachsen-Anhalt ist das Bündnis noch ein Faktor und flirtet mit der AfD. Der Parteitag könnte turbulent werden.",
-      "image": "https://static.dw.com/image/78348823_6.jpg",
-      "published": "2026-11-26T20:09:00+00:00",
-      "category": "Politik",
-      "score": 69.47
-    },
-    {
-      "id": "handelsblatt-567d06030e70f69a",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "+++ USA unter Trump +++: Trump offen für Putin-Besuch bei G20-Gipfel in Florida",
-      "link": "https://www.handelsblatt.com/politik/international/usa-trump-offen-fuer-putin-besuch-bei-g20-gipfel-in-florida/29669594.html",
-      "summary": "Trump kritisiert US-Handelsministerium wegen Wirtschaftszahlen +++ Trump kündigt neue Zölle an – auch gegen EU und China +++ Gericht lehnt längeres Verbot von Trump-Werbespots ab +++ Der Newsblog.",
-      "image": "https://images.handelsblatt.com/LjfZIwNNCYJA/cover/900/506/0/0/369/191/0.5/0.5/archiv-05.11.2026-usa-washington-us-praesident-donald-trump-haelt-im-oval-office-des-weissen-hause.jpg",
-      "published": "2026-11-27T04:42:00+00:00",
-      "category": "Politik",
-      "score": 68.6
-    },
-    {
-      "id": "handelsblatt-f07df70ca29197f1",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Parteitag in Dresden: BSW-Streit über die AfD – Droht die Spaltung?",
-      "link": "https://www.handelsblatt.com/politik/deutschland/parteitag-in-dresden-bsw-streit-ueber-die-afd-droht-die-spaltung/100273173.html",
-      "summary": "Vor drei Jahren verließ Sahra Wagenknecht die Linke und startete ihr eigenes Projekt. Nach einer Serie von Rückschlägen kriselt es in der Partei. Der Ton ist rau, ein Kompromiss nicht in Sicht.",
-      "image": "https://images.handelsblatt.com/8xN23dyyHyt5/cover/900/506/0/0/107/106/0.5/0.5/bsw.jpg",
-      "published": "2026-11-27T04:00:11+00:00",
+      "title": "Inklusion: In der Wirtschaftsflaute steigt die Arbeitslosigkeit von Schwerbehinderten",
+      "link": "https://www.spiegel.de/karriere/inklusion-in-der-wirtschaftsflaute-steigt-die-arbeitslosigkeit-von-schwerbehinderten-a-667e97cb-fb8e-4ac6-a7c0-21376482297e#ref=rss",
+      "summary": "In der Krise sparen Arbeitgeber vermehrt bei der Inklusion. Viele Firmen, die eigentlich Schwerbehinderte engagieren sollen, kommen ihrer Pflicht nicht nach. Eine Gruppe von Arbeitgebern jedoch bildet eine Ausnahme.",
+      "image": "https://cdn.prod.www.spiegel.de/images/b3f4e31d-7c83-4c23-b4e1-abd7cba3cb85_w1200_r1.778_fpx60.89_fpy50.jpg",
+      "published": "2026-11-27T12:25:00+01:00",
       "category": "Wirtschaft",
-      "score": 68.01
+      "score": 69.92
+    },
+    {
+      "id": "deutsche-welle-10a2d03ad3979f60",
+      "source": "deutsche-welle",
+      "sourceWeight": 0.9,
+      "title": "KI-Desinformation überschattet Nigerias Wahl 2027",
+      "link": "https://www.dw.com/de/ki-desinformation-überschattet-nigerias-wahl-2027/a-80022457?maca=de-rss-de-all-1119-rdf",
+      "summary": "Wenige Monate vor den Wahlen 2027 wächst in Nigeria die Sorge über den Einsatz von KI im Wahlkampf. Zweifel an der Integrität der Wahlen und der zuständigen Institutionen werden laut. Können die Menschen noch vertrauen?",
+      "image": "https://static.dw.com/image/79855923_6.jpg",
+      "published": "2026-11-27T08:42:00+00:00",
+      "category": "Politik",
+      "score": 66.66
+    },
+    {
+      "id": "golem-846e68b483e1ee4c",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Kooperation: Deutsche Bahn tauscht sich mit Ukraine zu Drohnenabwehr aus",
+      "link": "https://www.golem.de/news/kooperation-deutsche-bahn-tauscht-sich-mit-ukraine-zu-drohnenabwehr-aus-2611-215677.html",
+      "summary": "Die ukrainische Staatsbahn Ukrzaliznytsia steht im Austausch mit der Deutschen Bahn über den Schutz von Zügen und Strecken vor Drohnenangriffen und Sabotage. ( Deutsche Bahn , Politik )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215677&amp;page=1&amp;ts=1795770602",
+      "published": "2026-11-27T10:10:02+01:00",
+      "category": "Politik",
+      "score": 66.05
+    },
+    {
+      "id": "golem-a694c0eac30bc5dd",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Astra und Sol: Nach OpenAI-Panne werden Nutzungslimits schneller erreicht",
+      "link": "https://www.golem.de/news/astra-und-sol-nach-openai-panne-werden-nutzungslimits-schneller-erreicht-2611-215737.html",
+      "summary": "Die Modelle GPT-6.2 Astra und Sol wurden seit ihrer Einführung durch OpenAI falsch abgerechnet. ( KI , Wirtschaft )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215737&amp;page=1&amp;ts=1795778402",
+      "published": "2026-11-27T12:20:02+01:00",
+      "category": "Wirtschaft",
+      "score": 59.86
     }
   ]
 }
