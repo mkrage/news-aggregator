@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-11-28T02:59:23.647320+00:00",
+  "generatedAt": "2026-11-28T08:08:01.680951+00:00",
   "count": 15,
   "articles": [
+    {
+      "id": "handelsblatt-9a3d205899344042",
+      "source": "handelsblatt",
+      "sourceWeight": 0.9,
+      "title": "+++ Iran-Krieg +++: Ärzte ohne Grenzen meldet getötete Gaza-Helfer – Israel spricht von „Terroristen“",
+      "link": "https://www.handelsblatt.com/politik/international/iran-krieg-aerzte-ohne-grenzen-meldet-getoetete-gaza-helfer/100136895.html",
+      "summary": "Kuwait bestellt iranischen Botschafter ein +++ Iran meldet Explosion an Öltanker +++ Huthi melden Tote nach saudischen Angriffen +++ Der Newsblog.",
+      "image": "https://images.handelsblatt.com/FKDUYasXq3TT/cover/900/506/0/0/313/312/0.5/0.5/imago-images-0886537774.jpg",
+      "published": "2026-11-28T06:52:00+00:00",
+      "category": "Politik",
+      "score": 83.94
+    },
     {
       "id": "deutschlandfunk-22e6b0312ee4721d",
       "source": "deutschlandfunk",
@@ -10,24 +22,41 @@
       "link": "https://www.deutschlandfunk.de/unterschiedliche-angaben-ueber-durch-israelische-armee-getoetete-102.html",
       "summary": "Nach der Tötung zweier Mitarbeiter der Hilfsorganisation Ärzte ohne Grenzen im Gazastreifen durch das israelische Militär gibt es unterschiedliche Darstellungen über die Hintergründe.",
       "image": "https://bilder.deutschlandfunk.de/85/c0/00/3a/85c0003a-6d9f-4af7-82a1-8acece5a2d78/israel-gaza-stadt-gazastreifen-angriff-raketen-drohnen-100-1920x1920.jpg",
-      "published": "2026-11-28T03:54:22+01:00",
+      "published": "2026-11-28T09:03:39+01:00",
       "category": "Politik",
-      "score": 77.93
+      "score": 77.94
     },
     {
-      "id": "deutschlandfunk-a4764e34e145216a",
+      "id": "deutschlandfunk-5e4a9afc4a733c67",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Erderwärmung - Umweltminister Schneider für Umbau an Rheins",
-      "link": "https://www.deutschlandfunk.de/umweltminister-schneider-fuer-umbau-an-rheins-102.html",
-      "summary": "Bundesumweltminister Schneider plädiert angesichts des voranschreitenden Klimawandels für Änderungen am Rhein.",
-      "image": "https://bilder.deutschlandfunk.de/NO/VA/_5/8a/NOVA_58acf1b915974df26c89ee02e6a8058a/craft-13523197-asset-100-1920x1920.jpg",
-      "published": "2026-11-28T03:54:22+01:00",
+      "title": "Ukraine-Krieg - Hunderte Drohnen auf dem Weg nach Moskau abgefangen",
+      "link": "https://www.deutschlandfunk.de/hunderte-drohnen-auf-dem-weg-nach-moskau-abgefangen-102.html",
+      "summary": "Die russische Luftabwehr hat in der Nacht nach offizieller Darstellung erneut hunderte Drohnen auf dem Weg nach Moskau abgefangen.",
+      "image": "https://bilder.deutschlandfunk.de/e1/06/7d/e2/e1067de2-6230-41ae-943b-92085b1ff504/die-nachrichten-kachel-2176-zu1224-100-768x768.jpg",
+      "published": "2026-11-28T09:03:39+01:00",
       "category": "Politik",
-      "score": 77.93,
+      "score": 77.94
+    },
+    {
+      "id": "tagesschau-8b2e6350f6b1fcd7",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Nach niedrigen Pegelständen im Sommer: Umweltminister will Rhein umbauen",
+      "link": "https://www.tagesschau.de/inland/umweltminister-schneider-rhein-umbau-100.html",
+      "summary": "Niedrige Pegelstände an deutschen Flüssen führten im Sommer zu erheblichen Wirtschaftsschäden. Umweltminister Schneider fordert nun massive Investitionen in die Wasserinfrastruktur. Er will dem Rhein mehr Platz geben.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/dad3bc90-2dac-4c5b-9c6c-fa2734508eee/AAABoAA9jfU/AAABnSSvrFg/16x9-big/niedrigwasser-rhein-110.jpg?width=1920",
+      "published": "2026-11-28T08:16:29+01:00",
+      "category": "Politik",
+      "score": 75.62,
       "coverage": {
-        "sourceCount": 2,
+        "sourceCount": 3,
         "others": [
+          {
+            "source": "deutschlandfunk",
+            "title": "Erderwärmung - Umweltminister Schneider für Umbau an Rhein",
+            "link": "https://www.deutschlandfunk.de/umweltminister-schneider-fuer-umbau-an-rhein-100.html"
+          },
           {
             "source": "spiegel",
             "title": "Umweltminister Schneider plädiert für Umbau des Rheins",
@@ -37,23 +66,89 @@
       }
     },
     {
-      "id": "deutschlandfunk-a71ea0ca76d1a266",
+      "id": "tagesschau-06c70a5fc752eb4d",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Treibstoffkrise in Malawi: Kaum Geld - und dann der Iran-Krieg",
+      "link": "https://www.tagesschau.de/ausland/afrika/malawi-treibstoffkrise-100.html",
+      "summary": "Malawi leidet unter einer extremen Treibstoffkrise. Die fragile Wirtschaft hängt vom Tabakexport ab - zu schwachen Deviseneinnahmen kommt die Lage an der Straße von Hormus hinzu. Die Krise wirkt sich auf alle Lebensbereiche aus. Von C. Hauck. [ mehr ]",
+      "image": "https://images.tagesschau.de/image/a9f1fee8-6eed-41fd-9fe2-7ca6f190ce94/AAABoiA4Jl0/AAABnSSvrFg/16x9-big/motorradfahrer-malawi-100.jpg?width=1920",
+      "published": "2026-11-28T04:34:41+01:00",
+      "category": "Wirtschaft",
+      "score": 75.2
+    },
+    {
+      "id": "tagesschau-c5ab5885acfa273a",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Kritik aus der Union an Rentenplänen von Arbeitsminister Schweitzer",
+      "link": "https://www.tagesschau.de/inland/rentenplaene-reaktionen-102.html",
+      "summary": "Der Vorschlag des Arbeitsministers zur Reform der Rente liegt auf dem Tisch - und der Gegenwind aus der Union ist recht rau. Dem Koalitionspartner stößt auf, dass die \"Rente mit 63\" im Kern erhalten bleibt. Doch nicht nur das.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/0e430599-2cda-4821-8c37-65ff5c608f91/AAABoiCE0T8/AAABnSSvrFg/16x9-big/schweitzer-186.jpg?width=1920",
+      "published": "2026-11-28T05:58:25+01:00",
+      "category": "Politik",
+      "score": 74.68,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Rente: Arbeitsminister Schweitzer verärgert Union mit eigenem Rentenplan - die Stimmen",
+            "link": "https://www.spiegel.de/politik/rente-arbeitsminister-schweitzer-veraergert-union-mit-eigenem-rentenplan-die-stimmen-a-55dea0b2-3d47-4c29-89c2-3bc1ad73b4f7#ref=rss"
+          },
+          {
+            "source": "handelsblatt",
+            "title": "Zukunft der Altersvorsorge: Kein Reformkompromiss in Sicht: Ringen um Rente geht weiter",
+            "link": "https://www.handelsblatt.com/politik/deutschland/zukunft-der-altersvorsorge-kein-reformkompromiss-in-sicht-ringen-um-rente-geht-weiter/100273140.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deutschlandfunk-a92a72adc165d624",
       "source": "deutschlandfunk",
       "sourceWeight": 0.95,
-      "title": "Sicherheit - Ukraine ⁠will Waffenruhe im Schwarzen Meer zur Sicherung des Lebensmittelexports",
-      "link": "https://www.deutschlandfunk.de/ukraine-will-waffenruhe-im-schwarzen-meer-zur-sicherung-des-lebensmittelexports-104.html",
-      "summary": "Die Ukraine ⁠strebt nach eigenen Angaben eine Waffenruhe im Schwarzen Meer zur Sicherung des Lebensmittelexports an.",
-      "image": "https://bilder.deutschlandfunk.de/61/de/3c/69/61de3c69-bf61-4269-ba41-74d1939a6116/ukraine-aussenminister-andrji-sybiha-krieg-russland-waffen-unterstuetzung-100-1920x1920.jpg",
-      "published": "2026-11-28T03:54:22+01:00",
+      "title": "Spanien - Gekenterter Tanker soll in Hafen von Cartagena geschleppt werden",
+      "link": "https://www.deutschlandfunk.de/gekenterter-tanker-soll-in-hafen-von-cartagena-geschleppt-werden-104.html",
+      "summary": "Der gestern vor der spanischen Insel Ibiza gekenterte Tanker soll in den Hafen von Cartagena geschleppt werden.",
+      "image": "https://bilder.deutschlandfunk.de/59/c4/d7/ce/59c4d7ce-379f-4d0b-a3b5-8ebb13d8a3ae/tanker-ibiza-med-emre-100-1920x1920.jpg",
+      "published": "2026-11-28T09:03:39+01:00",
+      "category": "Nachrichten",
+      "score": 71.62,
+      "coverage": {
+        "sourceCount": 3,
+        "others": [
+          {
+            "source": "spiegel",
+            "title": "Ibiza: Gekenterter Tanker mit 7000 Tonnen Diesel soll in Hafen",
+            "link": "https://www.spiegel.de/panorama/ibiza-gekenterter-tanker-mit-7000-tonnen-diesel-soll-in-hafen-a-56c647c6-c83b-4271-bec0-eb8543ca0cee#ref=rss"
+          },
+          {
+            "source": "deutsche-welle",
+            "title": "Tanker vor Ibiza gekentert: Ein Besatzungsmitglied tot",
+            "link": "https://www.dw.com/de/tanker-vor-ibiza-gekentert-ein-besatzungsmitglied-tot/a-80062333?maca=de-rss-de-all-1119-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tagesschau-45d85d512f30095d",
+      "source": "tagesschau",
+      "sourceWeight": 1.0,
+      "title": "Durchsuchung bei Le Pens früherem Bürochef",
+      "link": "https://www.tagesschau.de/ausland/europa/frankreich-durchsuchung-ex-mitarbeiter-le-pen-100.html",
+      "summary": "Er soll vertrauliche Informationen aus dem Innenministerium erhalten haben: In Frankreich sind die Parteizentrale des Rassemblement National und die Wohnung des früheren Bürochefs von Präsidentschaftskandidatin Le Pen durchsucht worden.[ mehr ]",
+      "image": "https://images.tagesschau.de/image/f4196419-2393-4935-bab4-434033c5194c/AAABoh_Q1u8/AAABnSSvrFg/16x9-big/le-pen-242.jpg?width=1920",
+      "published": "2026-11-28T02:41:50+01:00",
       "category": "Politik",
-      "score": 77.93,
+      "score": 70.94,
       "coverage": {
         "sourceCount": 2,
         "others": [
           {
-            "source": "handelsblatt",
-            "title": "+++ Ukraine-Krieg +++: Ukraine bietet Waffenruhe im Schwarzen Meer an",
-            "link": "https://www.handelsblatt.com/politik/international/ukraine-bietet-waffenruhe-im-schwarzen-meer-an/27982126.html"
+            "source": "deutschlandfunk",
+            "title": "Frankreich - Durchsuchung in Parteizentrale des Rassemblement National",
+            "link": "https://www.deutschlandfunk.de/durchsuchung-in-parteizentrale-des-rassemblement-national-100.html"
           }
         ]
       }
@@ -68,29 +163,7 @@
       "image": "https://images.handelsblatt.com/XMCA7CIxgQPW/cover/900/506/0/0/47/47/0.5/0.5/urnnewsmldpa.com20090101120808-99-00632.jpg",
       "published": "2026-11-27T22:40:39+00:00",
       "category": "Politik",
-      "score": 73.41
-    },
-    {
-      "id": "tagesschau-45d85d512f30095d",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Durchsuchung bei Le Pens früherem Bürochef",
-      "link": "https://www.tagesschau.de/ausland/europa/frankreich-durchsuchung-ex-mitarbeiter-le-pen-100.html",
-      "summary": "Er soll vertrauliche Informationen aus dem Innenministerium erhalten haben: In Frankreich sind die Parteizentrale des Rassemblement National und die Wohnung des früheren Bürochefs von Präsidentschaftskandidatin Le Pen durchsucht worden.[ mehr ]",
-      "image": "https://images.tagesschau.de/image/f4196419-2393-4935-bab4-434033c5194c/AAABoh_Q1u8/AAABnSSvrFg/16x9-big/le-pen-242.jpg?width=1920",
-      "published": "2026-11-28T02:41:50+01:00",
-      "category": "Politik",
-      "score": 70.93,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Frankreich - Durchsuchung in Parteizentrale des Rassemblement National",
-            "link": "https://www.deutschlandfunk.de/durchsuchung-in-parteizentrale-des-rassemblement-national-100.html"
-          }
-        ]
-      }
+      "score": 69.12
     },
     {
       "id": "spiegel-7bc183255222918f",
@@ -102,7 +175,7 @@
       "image": "https://cdn.prod.www.spiegel.de/images/6d039fa4-ff62-4d4d-8092-67bac338906a_w1200_r1.778_fpx52_fpy48.jpg",
       "published": "2026-11-27T18:16:00+01:00",
       "category": "Politik",
-      "score": 69.9,
+      "score": 65.61,
       "coverage": {
         "sourceCount": 2,
         "others": [
@@ -115,152 +188,64 @@
       }
     },
     {
-      "id": "spiegel-7db3e699563270ee",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "Schmetterling des Jahres 2027: Gelbwürfeliger Dickkopffalter",
-      "link": "https://www.spiegel.de/wissenschaft/natur/schmetterling-des-jahres-2027-gelbwuerfeliger-dickkopffalter-a-91843340-2c0e-44d1-8fa2-0f57775ad0cb#ref=rss",
-      "summary": "Sein Zuhause sind ungemähte Waldränder, Waldwege und Lichtungen: Der Gelbwürfelige Dickkopffalter ist Schmetterling des Jahres 2027. Mit der Wahl wollen Naturschützer auf den Verlust seines Lebensraums aufmerksam machen.",
-      "image": "https://cdn.prod.www.spiegel.de/images/3f18575b-6a35-456a-abd5-7d47e35ae0c7_w1200_r1.778_fpx51.33_fpy44.98.jpg",
-      "published": "2026-11-27T16:39:00+01:00",
-      "category": "Politik",
-      "score": 68.55,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Naturschutz: Gelbwürfeliger Dickkopffalter ist Schmetterling des Jahres",
-            "link": "https://www.handelsblatt.com/technik/forschung-innovation/naturschutz-gelbwuerfeliger-dickkopffalter-ist-schmetterling-des-jahres/100273310.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-ccfa1e259c08ac07",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Parteitag in Dresden: Wie hält es das BSW mit der AfD?",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/bsw-parteitag-afd-sachsen-anhalt-100.html",
-      "summary": "Das BSW ringt um den Kurs zur AfD: Die Parteispitze betont Distanz, in Sachsen-Anhalt kommen sich beide Parteien aber recht nahe. Bringt der Parteitag in Dresden einen Richtungsentscheid? Von Maximilian Ulrich. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/23887d92-f1bd-4439-a5a4-5ec3a93dbb0f/AAABohwZbvE/AAABnSSvrFg/16x9-big/bsw-afd-112.jpg?width=1920",
-      "published": "2026-11-27T09:22:38+01:00",
-      "category": "Nachrichten",
-      "score": 67.93,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "deutschlandfunk",
-            "title": "Parteien - BSW-Parteitag in Dresden: Streit über Umgang mit der AfD",
-            "link": "https://www.deutschlandfunk.de/bsw-parteitag-in-dresden-streit-ueber-umgang-mit-der-afd-110.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "tagesschau-a86e86130aa9ce11",
-      "source": "tagesschau",
-      "sourceWeight": 1.0,
-      "title": "Parlamentswahl: Wie Spaniens Volkspartei die Ära Sánchez abwickeln will",
-      "link": "https://www.tagesschau.de/ausland/europa/spanien-wahl-volkspartei-100.html",
-      "summary": "Spaniens konservative Volkspartei PP hat gute Aussichten, bei der Parlamentswahl am Wochenende stärkste Kraft zu werden. Sie verspricht dem Land tiefgreifende Änderungen. Wo will sie umsteuern? Von F. Welz. [ mehr ]",
-      "image": "https://images.tagesschau.de/image/3d9a319b-f4bc-4be1-8646-c7b56e7be424/AAABohMPUaw/AAABnSSvrFg/16x9-big/nunez-feijoo-plakat-100.jpg?width=1920",
-      "published": "2026-11-27T06:43:42+01:00",
-      "category": "Politik",
-      "score": 67.71,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Spanien: Meinungsumfragen deuten auf Rechtsruck bei Parlamentswahl hin",
-            "link": "https://www.handelsblatt.com/video/politik/spanien-meinungsumfragen-deuten-auf-rechtsruck-bei-parlamentswahl-hin/100273323.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "spiegel-960997e75d4c5e37",
-      "source": "spiegel",
-      "sourceWeight": 0.95,
-      "title": "OpenAI: KI-Entwickler wirft Apple Diebstahl von Geschäftsgeheimnissen vor",
-      "link": "https://www.spiegel.de/netzwelt/openai-ki-entwickler-wirft-apple-diebstahl-von-geschaeftsgeheimnissen-vor-a-97039215-746c-4cfc-9dc9-fa9c9adff1ef#ref=rss",
-      "summary": "Der Streit zwischen OpenAI und Apple spitzt sich zu: Der KI-Entwickler dem iPhone-Konzern vor, Geschäftsgeheimnisse gestohlen und den Zugang zu Lieferanten blockiert zu haben.",
-      "image": "https://cdn.prod.www.spiegel.de/images/09340773-5a12-43ea-90a9-198ce93f8604_w1200_r1.778_fpx55.98_fpy49.98.jpg",
-      "published": "2026-11-27T22:44:00+01:00",
-      "category": "Technologie",
-      "score": 63.03,
-      "coverage": {
-        "sourceCount": 2,
-        "others": [
-          {
-            "source": "handelsblatt",
-            "title": "Künstliche Intelligenz: OpenAI reicht im Streit um KI-Technologie Gegenklage gegen Apple ein",
-            "link": "https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-openai-reicht-im-streit-um-ki-technologie-gegenklage-gegen-apple-ein/100273392.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "handelsblatt-4b2cde74186dffe2",
+      "id": "handelsblatt-a7035687753785ff",
       "source": "handelsblatt",
       "sourceWeight": 0.9,
-      "title": "Sachsen-Anhalt: BSW‑Parteitag eröffnet – Ruhnert sieht große Chance",
-      "link": "https://www.handelsblatt.com/politik/deutschland/sachsen-anhalt-bswparteitag-eroeffnet-ruhnert-sieht-grosse-chance/100273378.html",
-      "summary": "Die Wagenknecht-Partei hat kein leichtes Jahr hinter sich – die meisten Landtagswahlen gingen verloren. Nun wird im BSW über die AfD gestritten. Der Generalsekretär macht der Partei Mut.",
-      "image": "https://images.handelsblatt.com/PSYSJdvXi2vR/cover/900/506/0/0/361/68/0.5/0.5/27.11.2026-sachsen-dresden-oliver-ruhnert-bsw-bundesgeneralsekretaer-spricht-beim-bundesparteita.jpg",
-      "published": "2026-11-27T17:31:38+00:00",
-      "category": "Politik",
-      "score": 61.11
-    },
-    {
-      "id": "handelsblatt-8c568a649a1381a6",
-      "source": "handelsblatt",
-      "sourceWeight": 0.9,
-      "title": "Parteinachwuchs: Juso-Chef Türmer: SPD wirkt wie eingeschläfert",
-      "link": "https://www.handelsblatt.com/politik/deutschland/parteinachwuchs-juso-chef-tuermer-spd-wirkt-wie-eingeschlaefert/100273368.html",
-      "summary": "Wenige Wochen vor der Wahl neuer SPD-Chefs trifft sich der Parteinachwuchs in Bochum. Deren Vorsitzender ist unzufrieden.",
-      "image": "https://images.handelsblatt.com/L2fuBmfDjK3F/cover/900/506/0/0/107/106/0.5/0.5/juso-bundeskongress-bochum.jpg",
-      "published": "2026-11-27T16:15:49+00:00",
-      "category": "Politik",
-      "score": 60.06
-    },
-    {
-      "id": "deutsche-welle-7587975b2ee6526f",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Die internationalen Drohnen-Allianzen der Ukraine",
-      "link": "https://www.dw.com/de/die-internationalen-drohnen-allianzen-der-ukraine/a-80066338?maca=de-rss-de-all-1119-rdf",
-      "summary": "Ukrainisches Know-how trifft auf Europas finanzielle und industrielle Stärke: Deutschland und andere Partner bauen ihre Drohnenproduktion mit der Ukraine aus. Das verändert auch Europas Rüstungsindustrie.",
-      "image": "https://static.dw.com/image/80030729_6.jpg",
-      "published": "2026-11-27T15:01:00+00:00",
-      "category": "Politik",
-      "score": 59.02
-    },
-    {
-      "id": "deutsche-welle-b8a31ae9efefb1f4",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Woher kommen Afrikas Kleinwaffen – und warum lassen sie sich so schwer kontrollieren?",
-      "link": "https://www.dw.com/de/woher-kommen-afrikas-kleinwaffen-und-warum-lassen-sie-sich-so-schwer-kontrollieren/a-80064257?maca=de-rss-de-all-1119-rdf",
-      "summary": "Internationale Lieferungen, alte Kriegsbestände und gestohlene Waffenarsenale: Kleinwaffen befeuern Konflikte in Afrika. Regierungen versuchen, ihre Verbreitung einzudämmen – doch die Kontrolle bleibt schwierig.",
-      "image": "https://static.dw.com/image/68111874_6.jpg",
-      "published": "2026-11-27T14:34:00+00:00",
-      "category": "Politik",
-      "score": 58.65
-    },
-    {
-      "id": "deutsche-welle-f7f20e9f371d4fd1",
-      "source": "deutsche-welle",
-      "sourceWeight": 0.9,
-      "title": "Krieg, Inflation, Migration: Warum Dauerkrisen den Ruf nach starken Führern fördern – und was dagegen hilft",
-      "link": "https://www.dw.com/de/krieg-inflation-migration-warum-dauerkrisen-den-ruf-nach-starken-führern-fördern-und-was-dagegen-hilft/a-80063863?maca=de-rss-de-all-1119-rdf",
-      "summary": "Nicht die Krisen selbst gefährden die Demokratie, sondern die Gefühle von Ohnmacht und Verlust sowie die Sehnsucht nach einfachen Lösungen. Die Forschung kennt aber auch Wege aus dem destruktiven Krisenmodus.",
-      "image": "https://static.dw.com/image/79591953_6.jpg",
-      "published": "2026-11-26T17:56:00+00:00",
+      "title": "Trotz Iran-Krieg: Mittelstand blickt wieder optimistischer auf die Geschäfte",
+      "link": "https://www.handelsblatt.com/politik/deutschland/trotz-iran-krieg-mittelstand-blickt-wieder-optimistischer-auf-die-geschaefte/100273412.html",
+      "summary": "Die Perspektiven für die deutsche Wirtschaft hellen sich auf, auch der Mittelstand schöpft Hoffnung. Mehrere Branchen schauen zuversichtlicher auf die nächsten Monate, wie eine neue Studie zeigt.",
+      "image": "https://images.handelsblatt.com/AZzdugTPScQR/cover/900/506/0/0/107/106/0.5/0.5/mittelstand.jpg",
+      "published": "2026-11-28T04:00:10+00:00",
       "category": "Wirtschaft",
-      "score": 57.45
+      "score": 65.56
+    },
+    {
+      "id": "spiegel-297d21a1011f9084",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Deutsche Bahn: Verkehrsminister Bilger schließt Reduzierung von Zugverbindungen nicht aus",
+      "link": "https://www.spiegel.de/politik/deutsche-bahn-verkehrsminister-bilger-schliesst-reduzierung-von-zugverbindungen-nicht-aus-a-93f03fc0-0a5b-4e7e-9499-9f9241fafc80#ref=rss",
+      "summary": "Das Schienennetz ist überlastet, viele Züge kommen zu spät. Eine Expertenkommission soll Vorschläge machen, wie die Bahn wieder pünktlicher wird. Verkehrsminister Steffen Bilger skizziert eine Ultima Ratio.",
+      "image": "https://cdn.prod.www.spiegel.de/images/4c75baf2-4500-46f8-9d1f-b1eccda6cf38_w1200_r1.778_fpx62.7_fpy50.jpg",
+      "published": "2026-11-28T07:29:00+01:00",
+      "category": "Politik",
+      "score": 60.62
+    },
+    {
+      "id": "spiegel-8bb77a1ee33b078b",
+      "source": "spiegel",
+      "sourceWeight": 0.95,
+      "title": "Wolf Biermann: Ilko-Sascha Kowalczuk über Tagebuch-Debatte",
+      "link": "https://www.spiegel.de/kultur/wolf-biermann-ilko-sascha-kowalczuk-ueber-tagebuch-debatte-a-4f7f2b82-ce4f-4c17-91ba-31063924fb23#ref=rss",
+      "summary": "Wolf Biermann feiert seinen 90. Geburtstag, im Kino läuft ein Film über ihn. Der Historiker Ilko-Sascha Kowalczuk ist der Herausgeber seiner Tagebücher und hat mit dem »Tagesspiegel« darüber gesprochen, warum die beiden jetzt über Kreuz liegen.",
+      "image": "https://cdn.prod.www.spiegel.de/images/f3193955-a4af-4699-a06e-67f54c00427c_w1200_r1.778_fpx44.99_fpy42.84.jpg",
+      "published": "2026-11-28T08:58:00+01:00",
+      "category": "Technologie",
+      "score": 58.86
+    },
+    {
+      "id": "netzpolitik-c8d69a661e96b44e",
+      "source": "netzpolitik",
+      "sourceWeight": 0.75,
+      "title": "KW 48: Die Woche, in der zivilgesellschaftliche Projekte um ihre Existenz ringen",
+      "link": "https://netzpolitik.org/2026/kw-48-die-woche-in-der-zivilgesellschaftliche-projekte-um-ihre-existenz-ringen/",
+      "summary": "Die 48. Kalenderwoche geht zu Ende. Wir haben 19 neue Texte mit insgesamt 170.252 Zeichen veröffentlicht. Willkommen zum netzpolitischen Wochenrückblick. – : Fraktal, generiert mit MandelBrowser von Tomasz Śmigielski Liebe Leser:innen, was mich diese Woche fassungslos macht, sind die Kürzungen bei der Förderung von zivilgesellschaftlichen Projekten. Am prominentesten sind dabei die Einschnitte und Umpriorisierungen beim Programm „Demokratie Leben!“. Meine Kollegin Chris hat mit Ans Hartmann vom Verein „Lola für Demokratie“ gesprochen. Die Organisation bietet eine Anlaufstelle für Betroffene von organisierter Frauenfeindlichkeit und Antifeminismus. Im Interview wird deutlich , wie wichtig die Arbeit solcher Stellen ist: Sie helfen Menschen, deren private Daten veröffentlicht werden. Sie leisten emotionale Unterstützung, beraten bei digitaler Sicherheit und sammeln die Fälle – damit wir überhaupt sehen können, wie groß das Problem ist. Viele Mittel hat das Projekt sowieso nicht, drei Teilzeitstellen sind es hauptsächlich. Und das ist, was besonders wehtut. 1,2 Milliarden Euro soll das Familienministerium weniger ausgeben. …",
+      "image": "https://cdn.netzpolitik.org/wp-upload/2026/11/26-10-20.jpg",
+      "published": "2026-11-28T07:21:53+00:00",
+      "category": "Politik",
+      "score": 57.36
+    },
+    {
+      "id": "golem-6f1ceda69137f5ab",
+      "source": "golem",
+      "sourceWeight": 0.85,
+      "title": "Anzeige: 50 Prozent Rabatt auf alle E-Learning-Kurse",
+      "link": "https://www.golem.de/news/anzeige-50-prozent-rabatt-auf-alle-e-learning-kurse-2611-215773.html",
+      "summary": "Netzwerkfehler finden, Linux im Terminal bedienen oder Daten auswerten. In der Black Week gibt es 50 Prozent Rabatt auf alle E-Learning-Kurse der Golem Karrierewelt. ( Golem Karrierewelt , Python )",
+      "image": "https://cpx.golem.de/cpx.php?class=17&amp;aid=215773&amp;page=1&amp;ts=1795851002",
+      "published": "2026-11-28T08:30:02+01:00",
+      "category": "Technologie",
+      "score": 56.47
     }
   ]
 }
